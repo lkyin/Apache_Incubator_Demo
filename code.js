@@ -54,7 +54,7 @@ forceProperties = {
 
 // load the data
 
-d3.json(`p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
+d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
 {
   if (error) throw error;
   graph = _graph;
@@ -80,7 +80,7 @@ function updateData() {
     // clear the canvas
     d3.selectAll("svg > *").remove();
     //reload data project and month
-    d3.json(`p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
+    d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
     {
       if (error) throw error;
       graph = _graph;
