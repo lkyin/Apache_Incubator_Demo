@@ -4,10 +4,30 @@ var svg = d3.select("svg"),
 
 // svg objects
 var link, node;
-
-var color = d3.scaleOrdinal(d3.schemeCategory10);
 // the data - an object with nodes and links
 var graph;
+
+// load the data
+d3.json("miserables.json", function(error, _graph) {
+  if (error) throw error;
+  graph = _graph;
+  initializeDisplay();
+  initializeSimulation();
+});
+
+
+
+//////////// FORCE SIMULATION //////////// 
+
+// force simulator
+var simulation = d3.forceSimulation();
+
+// set up the simulation and event to update locations after each tick
+function initializeSimulation() {
+  simulation.nodes(graph.nodes);
+  initializeForces();
+  simulation.on("tick", ticked);
+}
 
 // values for all forces
 forceProperties = {
@@ -41,54 +61,8 @@ forceProperties = {
         enabled: true,
         distance: 30,
         iterations: 1
-    },
-    // load the selected data
-    selected_data: {
-        project: 100,
-        month: 1
     }
 }
-
-// load the data
-console.log(`p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}.json`)
-
-d3.json(`p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}.json`, function(error, _graph) 
-{
-  if (error) throw error;
-  graph = _graph;
-  initializeDisplay();
-  initializeSimulation();
-});
-
-
-
-//////////// FORCE SIMULATION //////////// 
-
-// force simulator
-var simulation = d3.forceSimulation();
-
-// set up the simulation and event to update locations after each tick
-function initializeSimulation() {
-  simulation.nodes(graph.nodes);
-  initializeForces();
-  simulation.on("tick", ticked);
-}
-
-function updateData() {
-    // clear the canvas
-    d3.selectAll("svg > *").remove();
-    //reload data project and month
-    d3.json(`p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}.json`, function(error, _graph) 
-    {
-      if (error) throw error;
-      graph = _graph;
-      initializeDisplay();
-      initializeSimulation();
-    });
-}
-
-
-
 
 // add forces to the simulation
 function initializeForces() {
@@ -141,15 +115,12 @@ function updateForces() {
 
 // generate the svg objects and force simulation
 function initializeDisplay() {
-
   // set the data and properties of link lines
   link = svg.append("g")
         .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
-    .enter().append("line")
-    .style("stroke-width", function(d) { return Math.sqrt(d.value); })
-    .style("stroke", function(d) { return color(d.group); });
+    .enter().append("line");
 
   // set the data and properties of node circles
   node = svg.append("g")
@@ -160,30 +131,25 @@ function initializeDisplay() {
         .call(d3.drag()
             .on("start", dragstarted)
             .on("drag", dragged)
-            .on("end", dragended))
-    .style("fill", function(d) { return color(d.group); });
+            .on("end", dragended));
 
   // node tooltip
   node.append("title")
       .text(function(d) { return d.id; });
-  link.append("title")
-      .text(function(d) { return d.value; });
   // visualize the graph
   updateDisplay();
 }
 
 // update the display based on the forces (but not positions)
 function updateDisplay() {
-
     node
         .attr("r", forceProperties.collide.radius)
-        //.attr("stroke", forceProperties.charge.strength > 0 ? "blue" : "red")
+        .attr("stroke", forceProperties.charge.strength > 0 ? "blue" : "red")
         .attr("stroke-width", forceProperties.charge.enabled==false ? 0 : Math.abs(forceProperties.charge.strength)/15);
-        
+
     link
         .attr("stroke-width", forceProperties.link.enabled ? 1 : .5)
         .attr("opacity", forceProperties.link.enabled ? 1 : 0);
-
 }
 
 // update the display positions after each simulation tick
@@ -230,7 +196,6 @@ d3.select(window).on("resize", function(){
 
 // convenience function to update everything (run after UI input)
 function updateAll() {
-    updateData();
     updateForces();
     updateDisplay();
 }
