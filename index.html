@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+
 <html>
 <head>
 <style>
+
 /* HTML styles */
 html{ width: 100%; }
 body{ 
@@ -23,6 +26,7 @@ body{
 .controls .force label { display: inline-block; }
 .controls input[type="checkbox"] { transform: scale(1.2, 1.2); }
 .controls input[type="range"] { margin: 0 5% 0.5em 5%; width: 90%; }
+
 /* alpha viewer */
 .controls .alpha p { margin-bottom: .25em; }
 .controls .alpha .alpha_bar { height: .5em; border: 1px #777 solid; border-radius: 2px; padding: 1px; display: flex; }
@@ -44,32 +48,44 @@ svg {
 
 </style>
 </head>
+
 <body>
+
 <div class="controls">
   <div class="force alpha">
-    <p><label>alpha</label> Simulation activity</p>
+    <p><label>alpha</label> Simulation Activity</p>
     <div class="alpha_bar" onclick="updateAll();"><div id="alpha_value"></div></div>
   </div>
+
   <div class="force">
-    <p><label>center</label> Shifts the view, so the graph is centered at this location.</p>
+    <p><label>Select Project</label></p>
     <label>
-      x
-      <output id="center_XSliderOutput">.5</output>
-      <input type="range" min="0" max="1" value=".5" step="0.01" oninput="d3.select('#center_XSliderOutput').text(value); forceProperties.center.x=value; updateAll();">
+      Project ID
+      <output id="Project">100</output>
+      <input type="range" min="49" max="312" value="1" step="1" oninput="d3.select('#Project').text(value); forceProperties.selected_data.project=value; updateAll();">
     </label>
     <label>
-      y
-      <output id="center_YSliderOutput">.5</output>
-      <input type="range" min="0" max="1" value=".5" step="0.01" oninput="d3.select('#center_YSliderOutput').text(value); forceProperties.center.y=value; updateAll();">
+      Month
+      <output id="Month">1</output>
+      <input type="range" min="1" max="90" value="1" step="1" oninput="d3.select('#Month').text(value); forceProperties.selected_data.month=value; updateAll();">
     </label>
+    </div>
+
+  <div class="force">
+  <p><label>Select Network Type</label> </p>
+  <input type="radio" id="Technical Net" name="ntype" value="commit" oninput="d3.select('#Type').text(value); forceProperties.selected_data.ntype=value; updateAll();">
+  <label for="Technical">Technical Net</label><br>
+  <input type="radio" id="Email Net" name="ntype" value="email" oninput="d3.select('#Type').text(value); forceProperties.selected_data.ntype=value; updateAll();">
+  <label for="female">Email Net</label><br>
   </div>
+
 
   <div class="force">
     <p><label><input type="checkbox" checked onchange="forceProperties.charge.enabled = this.checked; updateAll();"> charge</label> Attracts (+) or repels (-) nodes to/from each other.</p>
     <label title="Negative strength repels nodes. Positive strength attracts nodes.">
       strength
-      <output id="charge_StrengthSliderOutput">-30</output>
-      <input type="range" min="-200" max="50" value="-30" step=".1" oninput="d3.select('#charge_StrengthSliderOutput').text(value); forceProperties.charge.strength=value; updateAll();">
+      <output id="charge_StrengthSliderOutput">0</output>
+      <input type="range" min="-100" max="0" value="0" step=".5" oninput="d3.select('#charge_StrengthSliderOutput').text(value); forceProperties.charge.strength=value; updateAll();">
     </label>
     <label title="Minimum distance where force is applied">
       distanceMin
@@ -78,8 +94,8 @@ svg {
     </label>
     <label title="Maximum distance where force is applied">
       distanceMax
-      <output id="charge_distanceMaxSliderOutput">2000</output>
-      <input type="range" min="0" max="2000" value="2000" step=".1" oninput="d3.select('#charge_distanceMaxSliderOutput').text(value); forceProperties.charge.distanceMax=value; updateAll();">
+      <output id="charge_distanceMaxSliderOutput">100</output>
+      <input type="range" min="0" max="100" value="100" step=".5" oninput="d3.select('#charge_distanceMaxSliderOutput').text(value); forceProperties.charge.distanceMax=value; updateAll();">
     </label>
   </div>
 
@@ -116,19 +132,6 @@ svg {
     </label>
   </div>
 
-  <div class="force">
-    <p><label><input type="checkbox" onchange="forceProperties.forceY.enabled = this.checked; updateAll();"> forceY</label> Acts like gravity. Pulls all points towards a Y location.</p>
-    <label>
-      strength
-      <output id="forceY_StrengthSliderOutput">.1</output>
-      <input type="range" min="0" max="1" value=".1" step="0.01" oninput="d3.select('#forceY_StrengthSliderOutput').text(value); forceProperties.forceY.strength=value; updateAll();">
-    </label>
-    <label title="The Y location that the force will push the nodes to (NOTE: This demo multiplies by the svg height)">
-      y
-      <output id="forceY_YSliderOutput">.5</output>
-      <input type="range" min="0" max="1" value=".5" step="0.01" oninput="d3.select('#forceY_YSliderOutput').text(value); forceProperties.forceY.y=value; updateAll();">
-    </label>
-  </div>
 
   <div class="force">
     <p><label><input type="checkbox" checked onchange="forceProperties.link.enabled = this.checked; updateAll();"> link</label> Sets link length</p>
