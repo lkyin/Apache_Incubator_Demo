@@ -1,0 +1,38 @@
+{
+   "links": [
+      {
+         "target": " 12864",
+         "value": 1,
+         "source": "12867"
+      },
+      {
+         "target": " 12867",
+         "value": 2,
+         "source": "12864"
+      },
+      {
+         "target": " 12867",
+         "value": 1,
+         "source": "404"
+      },
+      {
+         "target": " 404",
+         "value": 1,
+         "source": "12867"
+      }
+   ],
+   "nodes": [
+      {
+         "group": 3,
+         "id": "12867"
+      },
+      {
+         "group": 2,
+         "id": "404"
+      },
+      {
+         "group": 3,
+         "id": "12864"
+      }
+   ]
+}
