@@ -1,0 +1,75 @@
+{
+   "nodes": [
+      {
+         "id": "1097",
+         "group": 2
+      },
+      {
+         "id": "32899",
+         "group": 3
+      },
+      {
+         "id": "1098",
+         "group": 3
+      },
+      {
+         "id": "32900",
+         "group": 4
+      },
+      {
+         "id": "32905",
+         "group": 3
+      },
+      {
+         "id": "32898",
+         "group": 2
+      }
+   ],
+   "links": [
+      {
+         "value": 2,
+         "target": "1097",
+         "source": "1098"
+      },
+      {
+         "value": 1,
+         "target": "1097",
+         "source": "32905"
+      },
+      {
+         "value": 6,
+         "target": "1097",
+         "source": "32900"
+      },
+      {
+         "value": 1,
+         "target": "32898",
+         "source": "32900"
+      },
+      {
+         "value": 6,
+         "target": "32900",
+         "source": "1097"
+      },
+      {
+         "value": 3,
+         "target": "1097",
+         "source": "32899"
+      },
+      {
+         "value": 2,
+         "target": "32900",
+         "source": "32905"
+      },
+      {
+         "value": 1,
+         "target": "32905",
+         "source": "32900"
+      },
+      {
+         "value": 1,
+         "target": "32900",
+         "source": "1098"
+      }
+   ]
+}

@@ -1,0 +1,48 @@
+{
+   "nodes": [
+      {
+         "id": "402",
+         "group": 2
+      },
+      {
+         "id": "406",
+         "group": 4
+      },
+      {
+         "id": "405",
+         "group": 1
+      }
+   ],
+   "links": [
+      {
+         "value": 1,
+         "target": "402",
+         "source": "406"
+      },
+      {
+         "value": 1,
+         "target": "405",
+         "source": "406"
+      },
+      {
+         "value": 1,
+         "target": "405",
+         "source": "402"
+      },
+      {
+         "value": 1,
+         "target": "402",
+         "source": "405"
+      },
+      {
+         "value": 1,
+         "target": "406",
+         "source": "402"
+      },
+      {
+         "value": 1,
+         "target": "406",
+         "source": "405"
+      }
+   ]
+}

@@ -1,0 +1,38 @@
+{
+   "nodes": [
+      {
+         "id": "15018",
+         "group": 4
+      },
+      {
+         "id": "394",
+         "group": 1
+      },
+      {
+         "id": "398",
+         "group": 2
+      }
+   ],
+   "links": [
+      {
+         "value": 20,
+         "target": "398",
+         "source": "15018"
+      },
+      {
+         "value": 3,
+         "target": "394",
+         "source": "15018"
+      },
+      {
+         "value": 1,
+         "target": "398",
+         "source": "394"
+      },
+      {
+         "value": 3,
+         "target": "394",
+         "source": "398"
+      }
+   ]
+}

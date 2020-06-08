@@ -1,0 +1,37 @@
+{
+   "nodes": [
+      {
+         "id": "7058",
+         "group": 3
+      },
+      {
+         "id": "7053",
+         "group": 4
+      },
+      {
+         "id": "41",
+         "group": 3
+      },
+      {
+         "id": "4981",
+         "group": 3
+      }
+   ],
+   "links": [
+      {
+         "value": 1,
+         "target": "7058",
+         "source": "41"
+      },
+      {
+         "value": 1,
+         "target": "7053",
+         "source": "4981"
+      },
+      {
+         "value": 1,
+         "target": "4981",
+         "source": "7053"
+      }
+   ]
+}

@@ -1,0 +1,117 @@
+{
+   "nodes": [
+      {
+         "id": "42632",
+         "group": 2
+      },
+      {
+         "id": "202",
+         "group": 2
+      },
+      {
+         "id": "42629",
+         "group": 4
+      },
+      {
+         "id": "42620",
+         "group": 2
+      },
+      {
+         "id": "42628",
+         "group": 4
+      },
+      {
+         "id": "8485",
+         "group": 1
+      },
+      {
+         "id": "42630",
+         "group": 4
+      },
+      {
+         "id": "205",
+         "group": 1
+      },
+      {
+         "id": "42631",
+         "group": 2
+      }
+   ],
+   "links": [
+      {
+         "value": 1,
+         "target": "42620",
+         "source": "8485"
+      },
+      {
+         "value": 1,
+         "target": "42631",
+         "source": "8485"
+      },
+      {
+         "value": 2,
+         "target": "42631",
+         "source": "202"
+      },
+      {
+         "value": 3,
+         "target": "202",
+         "source": "42629"
+      },
+      {
+         "value": 1,
+         "target": "42632",
+         "source": "202"
+      },
+      {
+         "value": 1,
+         "target": "202",
+         "source": "42630"
+      },
+      {
+         "value": 2,
+         "target": "42629",
+         "source": "202"
+      },
+      {
+         "value": 1,
+         "target": "8485",
+         "source": "202"
+      },
+      {
+         "value": 2,
+         "target": "202",
+         "source": "42628"
+      },
+      {
+         "value": 2,
+         "target": "42630",
+         "source": "202"
+      },
+      {
+         "value": 1,
+         "target": "8485",
+         "source": "42628"
+      },
+      {
+         "value": 2,
+         "target": "202",
+         "source": "42631"
+      },
+      {
+         "value": 3,
+         "target": "42628",
+         "source": "202"
+      },
+      {
+         "value": 1,
+         "target": "42630",
+         "source": "8485"
+      },
+      {
+         "value": 1,
+         "target": "205",
+         "source": "42632"
+      }
+   ]
+}

@@ -1,0 +1,43 @@
+{
+   "nodes": [
+      {
+         "id": "44922",
+         "group": 4
+      },
+      {
+         "id": "44923",
+         "group": 4
+      },
+      {
+         "id": "44921",
+         "group": 4
+      }
+   ],
+   "links": [
+      {
+         "value": 14,
+         "target": "44923",
+         "source": "44922"
+      },
+      {
+         "value": 30,
+         "target": "44921",
+         "source": "44923"
+      },
+      {
+         "value": 9,
+         "target": "44923",
+         "source": "44921"
+      },
+      {
+         "value": 83,
+         "target": "44921",
+         "source": "44922"
+      },
+      {
+         "value": 9,
+         "target": "44922",
+         "source": "44923"
+      }
+   ]
+}

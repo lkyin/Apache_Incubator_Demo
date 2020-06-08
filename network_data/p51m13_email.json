@@ -1,0 +1,33 @@
+{
+   "nodes": [
+      {
+         "id": "402",
+         "group": 2
+      },
+      {
+         "id": "438",
+         "group": 2
+      },
+      {
+         "id": "405",
+         "group": 1
+      }
+   ],
+   "links": [
+      {
+         "value": 2,
+         "target": "402",
+         "source": "438"
+      },
+      {
+         "value": 3,
+         "target": "438",
+         "source": "402"
+      },
+      {
+         "value": 1,
+         "target": "402",
+         "source": "405"
+      }
+   ]
+}

@@ -1,0 +1,56 @@
+{
+   "nodes": [
+      {
+         "id": "4479",
+         "group": 3
+      },
+      {
+         "id": "15438",
+         "group": 3
+      },
+      {
+         "id": "29884",
+         "group": 1
+      },
+      {
+         "id": "11330",
+         "group": 4
+      },
+      {
+         "id": "7004",
+         "group": 1
+      }
+   ],
+   "links": [
+      {
+         "value": 2,
+         "target": "11330",
+         "source": "7004"
+      },
+      {
+         "value": 1,
+         "target": "7004",
+         "source": "4479"
+      },
+      {
+         "value": 1,
+         "target": "15438",
+         "source": "11330"
+      },
+      {
+         "value": 1,
+         "target": "15438",
+         "source": "29884"
+      },
+      {
+         "value": 1,
+         "target": "29884",
+         "source": "4479"
+      },
+      {
+         "value": 1,
+         "target": "4479",
+         "source": "7004"
+      }
+   ]
+}

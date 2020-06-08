@@ -1,0 +1,42 @@
+{
+   "nodes": [
+      {
+         "id": "31257",
+         "group": 4
+      },
+      {
+         "id": "142",
+         "group": 3
+      },
+      {
+         "id": "31259",
+         "group": 1
+      },
+      {
+         "id": "479",
+         "group": 2
+      }
+   ],
+   "links": [
+      {
+         "value": 1,
+         "target": "142",
+         "source": "31257"
+      },
+      {
+         "value": 1,
+         "target": "31259",
+         "source": "479"
+      },
+      {
+         "value": 2,
+         "target": "479",
+         "source": "142"
+      },
+      {
+         "value": 3,
+         "target": "142",
+         "source": "479"
+      }
+   ]
+}

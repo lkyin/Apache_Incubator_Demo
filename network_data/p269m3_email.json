@@ -1,0 +1,123 @@
+{
+   "nodes": [
+      {
+         "id": "3341",
+         "group": 3
+      },
+      {
+         "id": "17941",
+         "group": 3
+      },
+      {
+         "id": "7701",
+         "group": 2
+      },
+      {
+         "id": "8443",
+         "group": 1
+      },
+      {
+         "id": "17918",
+         "group": 2
+      },
+      {
+         "id": "365",
+         "group": 3
+      },
+      {
+         "id": "17937",
+         "group": 2
+      },
+      {
+         "id": "3321",
+         "group": 4
+      }
+   ],
+   "links": [
+      {
+         "value": 2,
+         "target": "17918",
+         "source": "365"
+      },
+      {
+         "value": 2,
+         "target": "7701",
+         "source": "17918"
+      },
+      {
+         "value": 2,
+         "target": "365",
+         "source": "7701"
+      },
+      {
+         "value": 2,
+         "target": "8443",
+         "source": "17918"
+      },
+      {
+         "value": 1,
+         "target": "17941",
+         "source": "365"
+      },
+      {
+         "value": 1,
+         "target": "17941",
+         "source": "17918"
+      },
+      {
+         "value": 1,
+         "target": "8443",
+         "source": "365"
+      },
+      {
+         "value": 1,
+         "target": "17918",
+         "source": "17937"
+      },
+      {
+         "value": 1,
+         "target": "3341",
+         "source": "17937"
+      },
+      {
+         "value": 1,
+         "target": "17937",
+         "source": "7701"
+      },
+      {
+         "value": 1,
+         "target": "3321",
+         "source": "17941"
+      },
+      {
+         "value": 1,
+         "target": "365",
+         "source": "17918"
+      },
+      {
+         "value": 1,
+         "target": "365",
+         "source": "17937"
+      },
+      {
+         "value": 1,
+         "target": "17937",
+         "source": "365"
+      },
+      {
+         "value": 2,
+         "target": "17918",
+         "source": "8443"
+      },
+      {
+         "value": 2,
+         "target": "17918",
+         "source": "7701"
+      },
+      {
+         "value": 1,
+         "target": "365",
+         "source": "17941"
+      }
+   ]
+}

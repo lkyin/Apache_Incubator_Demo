@@ -1,0 +1,98 @@
+{
+   "nodes": [
+      {
+         "id": "3341",
+         "group": 1
+      },
+      {
+         "id": "4723",
+         "group": 3
+      },
+      {
+         "id": "8443",
+         "group": 4
+      },
+      {
+         "id": "7665",
+         "group": 1
+      },
+      {
+         "id": "17929",
+         "group": 2
+      },
+      {
+         "id": "17928",
+         "group": 1
+      },
+      {
+         "id": "17918",
+         "group": 3
+      },
+      {
+         "id": "17954",
+         "group": 1
+      }
+   ],
+   "links": [
+      {
+         "value": 1,
+         "target": "17954",
+         "source": "17928"
+      },
+      {
+         "value": 3,
+         "target": "17918",
+         "source": "17954"
+      },
+      {
+         "value": 1,
+         "target": "17954",
+         "source": "17918"
+      },
+      {
+         "value": 1,
+         "target": "4723",
+         "source": "17918"
+      },
+      {
+         "value": 1,
+         "target": "8443",
+         "source": "17918"
+      },
+      {
+         "value": 2,
+         "target": "17918",
+         "source": "7665"
+      },
+      {
+         "value": 1,
+         "target": "17918",
+         "source": "17928"
+      },
+      {
+         "value": 1,
+         "target": "3341",
+         "source": "7665"
+      },
+      {
+         "value": 1,
+         "target": "17918",
+         "source": "17929"
+      },
+      {
+         "value": 2,
+         "target": "17918",
+         "source": "8443"
+      },
+      {
+         "value": 1,
+         "target": "7665",
+         "source": "17918"
+      },
+      {
+         "value": 1,
+         "target": "17928",
+         "source": "17929"
+      }
+   ]
+}
