@@ -62,7 +62,7 @@ svg {
     <label>
       Project ID
       <output id="Project">49</output>
-      <input type="range" min="49" max="312" value="49" step="1" oninput="d3.select('#Project').text(value); forceProperties.selected_data.project=value; updateAll();">
+      <input type="range" min="49" max="312" value="49" step="1" oninput="d3.select('#Project').text(value); forceProperties.selected_data.project=value; resetSlider(); updateAll();">
     </label>
     <label>
       Month
@@ -72,11 +72,11 @@ svg {
     </div>
 
   <div class="force">
-  <p><label>Select Network Type</label> </p>
+  <p><label>Network Type</label> </p>
+  <input type="radio" id="Email Net" name="ntype" value="email" checked="checked" oninput="d3.select('#Type').text(value); forceProperties.selected_data.ntype=value; updateAll();">
+  <label for="female">Email Net</label><br>
   <input type="radio" id="Technical Net" name="ntype" value="commit" oninput="d3.select('#Type').text(value); forceProperties.selected_data.ntype=value; updateAll();">
   <label for="Technical">Technical Net</label><br>
-  <input type="radio" id="Email Net" name="ntype" value="email" oninput="d3.select('#Type').text(value); forceProperties.selected_data.ntype=value; updateAll();">
-  <label for="female">Email Net</label><br>
   </div>
 
 

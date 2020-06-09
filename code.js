@@ -76,6 +76,11 @@ function initializeSimulation() {
   simulation.on("tick", ticked);
 }
 
+
+function resetSlider(){
+	$("#Month").val(1).slider("refresh");
+}
+
 function updateData() {
     // clear the canvas
     d3.selectAll("svg > *").remove();
