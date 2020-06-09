@@ -77,9 +77,9 @@ function initializeSimulation() {
 }
 
 
-function resetSlider(){
-	$("#Month").val(1).slider("refresh");
-}
+//function resetSlider(){
+//	$("#Month").val(1).slider("refresh");
+//}
 
 function updateData() {
     // clear the canvas
