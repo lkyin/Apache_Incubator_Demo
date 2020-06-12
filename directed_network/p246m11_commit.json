@@ -1,8 +1,13 @@
 [
    [
       "asavu",
-      "HadoopNameNodeClusterActionHandler.java",
-      2
+      "install_elasticsearch.sh",
+      1
+   ],
+   [
+      "tomwhite",
+      "HadoopDataNodeClusterActionHandler.java",
+      1
    ],
    [
       "asavu",
@@ -11,7 +16,32 @@
    ],
    [
       "asavu",
-      "index.confluence",
+      "ElasticSearchConfigurationBuilder.java",
+      1
+   ],
+   [
+      "asavu",
+      "install_cassandra.sh",
+      2
+   ],
+   [
+      "asavu",
+      "HBaseTemplateBuilderStrategy.java",
+      2
+   ],
+   [
+      "asavu",
+      "TemplateBuilderStrategy.java",
+      2
+   ],
+   [
+      "asavu",
+      "org.apache.whirr.service.ClusterActionHandler",
+      1
+   ],
+   [
+      "tomwhite",
+      "HadoopClusterActionHandler.java",
       1
    ],
    [
@@ -21,7 +51,47 @@
    ],
    [
       "asavu",
+      "configuration-guide.confluence",
+      1
+   ],
+   [
+      "asavu",
       "BootstrapClusterAction.java",
+      2
+   ],
+   [
+      "tomwhite",
+      "install_tarball.sh",
+      1
+   ],
+   [
+      "asavu",
+      "ComputeServiceContextBuilder.java",
+      1
+   ],
+   [
+      "tomwhite",
+      "configure_hadoop.sh",
+      1
+   ],
+   [
+      "asavu",
+      "HadoopTemplateBuilderStrategy.java",
+      2
+   ],
+   [
+      "asavu",
+      "HadoopProxy.java",
+      3
+   ],
+   [
+      "asavu",
+      "index.confluence",
+      1
+   ],
+   [
+      "asavu",
+      "HadoopDataNodeClusterActionHandler.java",
       2
    ],
    [
@@ -36,97 +106,12 @@
    ],
    [
       "asavu",
-      "bcprov-jdk15-1.44-LICENSE.html",
+      "TakeLoginCredentialsFromWhirrPropertiesTest.java",
       1
-   ],
-   [
-      "asavu",
-      "ComputeServiceContextBuilder.java",
-      1
-   ],
-   [
-      "tomwhite",
-      "install_tarball.sh",
-      1
-   ],
-   [
-      "tomwhite",
-      "HBaseClusterActionHandler.java",
-      1
-   ],
-   [
-      "asavu",
-      "configuration-guide.confluence",
-      1
-   ],
-   [
-      "asavu",
-      "install_cassandra.sh",
-      2
-   ],
-   [
-      "tomwhite",
-      "HadoopClusterActionHandler.java",
-      1
-   ],
-   [
-      "asavu",
-      "org.apache.whirr.service.ClusterActionHandler",
-      1
-   ],
-   [
-      "tomwhite",
-      "HadoopProxy.java",
-      1
-   ],
-   [
-      "asavu",
-      "ClusterSpec.java",
-      4
-   ],
-   [
-      "asavu",
-      "HadoopTemplateBuilderStrategy.java",
-      2
-   ],
-   [
-      "asavu",
-      "BasicServerClusterActionHandler.java",
-      2
-   ],
-   [
-      "asavu",
-      "HadoopDataNodeClusterActionHandler.java",
-      2
    ],
    [
       "asavu",
       "ElasticSearchHandler.java",
-      1
-   ],
-   [
-      "asavu",
-      "ElasticSearchConfigurationBuilder.java",
-      1
-   ],
-   [
-      "asavu",
-      "TakeLoginCredentialsFromWhirrProperties.java",
-      1
-   ],
-   [
-      "tomwhite",
-      "configure_hadoop.sh",
-      1
-   ],
-   [
-      "asavu",
-      "HBaseTemplateBuilderStrategy.java",
-      2
-   ],
-   [
-      "asavu",
-      "configure_elasticsearch.sh",
       1
    ],
    [
@@ -136,57 +121,17 @@
    ],
    [
       "asavu",
-      "ClusterSpecTest.java",
-      2
-   ],
-   [
-      "tomwhite",
-      "HadoopDataNodeClusterActionHandler.java",
+      "TakeLoginCredentialsFromWhirrProperties.java",
       1
    ],
    [
       "tomwhite",
-      "HadoopNameNodeClusterActionHandler.java",
+      "HBaseClusterActionHandler.java",
       1
    ],
    [
       "asavu",
-      "install_elasticsearch.sh",
-      1
-   ],
-   [
-      "asavu",
-      "ElasticSearchTest.java",
-      1
-   ],
-   [
-      "asavu",
-      "HBaseMasterClusterActionHandler.java",
-      2
-   ],
-   [
-      "asavu",
-      "HadoopProxy.java",
-      3
-   ],
-   [
-      "asavu",
-      "HadoopConfigurationConverterTest.java",
-      1
-   ],
-   [
-      "asavu",
-      "TakeLoginCredentialsFromWhirrPropertiesTest.java",
-      1
-   ],
-   [
-      "tomwhite",
-      "bcprov-jdk15-1.44-LICENSE.html",
-      2
-   ],
-   [
-      "asavu",
-      "TemplateBuilderStrategy.java",
+      "HBaseRegionServerClusterActionHandler.java",
       2
    ],
    [
@@ -196,12 +141,67 @@
    ],
    [
       "asavu",
+      "ClusterSpec.java",
+      4
+   ],
+   [
+      "asavu",
+      "configure_elasticsearch.sh",
+      1
+   ],
+   [
+      "tomwhite",
+      "HadoopProxy.java",
+      1
+   ],
+   [
+      "asavu",
+      "ElasticSearchTest.java",
+      1
+   ],
+   [
+      "asavu",
       "ZooKeeperClusterActionHandler.java",
       1
    ],
    [
       "asavu",
-      "HBaseRegionServerClusterActionHandler.java",
+      "bcprov-jdk15-1.44-LICENSE.html",
+      1
+   ],
+   [
+      "asavu",
+      "ClusterSpecTest.java",
       2
+   ],
+   [
+      "asavu",
+      "HadoopNameNodeClusterActionHandler.java",
+      2
+   ],
+   [
+      "tomwhite",
+      "bcprov-jdk15-1.44-LICENSE.html",
+      2
+   ],
+   [
+      "tomwhite",
+      "HadoopNameNodeClusterActionHandler.java",
+      1
+   ],
+   [
+      "asavu",
+      "BasicServerClusterActionHandler.java",
+      2
+   ],
+   [
+      "asavu",
+      "HBaseMasterClusterActionHandler.java",
+      2
+   ],
+   [
+      "asavu",
+      "HadoopConfigurationConverterTest.java",
+      1
    ]
 ]

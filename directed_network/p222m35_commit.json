@@ -1,102 +1,12 @@
 [
    [
       "Steve Blackmon (@steveblackmon)",
-      "ElasticsearchPersistDeleter.java",
+      "ConsolePersistReader.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "MoreoverProvider.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "ConsolePersistWriter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "LineReadWriteUtil.java",
-      4
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "GPlusUserActivityProvider.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "MetadataFromDocumentProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "TypeConverterProcessor.java",
-      2
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "DatumFromMetadataProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "RegexHashtagExtractor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "SimpleHTTPGetProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "KinesisPersistWriter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "StreamsConfigurator.java",
-      2
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "ElasticsearchPersistReader.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "FileBufferPersistWriter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "JsonPathFilter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "KafkaPersistReader.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "GraphVertexReader.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "FileBufferPersistReader.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "VerbDefinitionKeepFilter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "WebHdfsPersistWriter.java",
+      "VerbDefinitionDropFilter.java",
       1
    ],
    [
@@ -106,32 +16,32 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "MongoPersistReader.java",
+      "ElasticsearchPersistWriter.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "RegexMentionsExtractor.java",
+      "MoreoverProvider.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "KinesisPersistReader.java",
+      "PromoteExtensionsProcessor.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "DatasiftTypeConverterProcessor.java",
+      "FacebookUserstreamProvider.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "GooglePlusCommentProcessor.java",
+      "GPlusUserActivityProvider.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "JsonPathExtractor.java",
+      "SimpleHTTPPostProcessor.java",
       1
    ],
    [
@@ -141,12 +51,37 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "GPlusUserDataProvider.java",
+      "DatumFromMetadataProcessor.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "ElasticsearchPersistWriter.java",
+      "MetadataFromDocumentProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "WebHdfsPersistWriter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "JsonPathExtractor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "MongoPersistWriter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "TypeConverterProcessor.java",
+      2
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "ElasticsearchPersistDeleter.java",
       1
    ],
    [
@@ -156,7 +91,7 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "WebHdfsPersistReader.java",
+      "KinesisPersistReader.java",
       1
    ],
    [
@@ -171,8 +106,48 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "DocumentToMetadataProcessor.java",
+      "SimpleHTTPGetProcessor.java",
       1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "ActivityConverterProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "DatasiftTypeConverterProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "S3PersistReader.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "PercolateTagProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "DatasiftStreamProvider.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "CleanAdditionalPropertiesProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "InstagramTypeConverter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "StreamsConfigurator.java",
+      2
    ],
    [
       "Steve Blackmon (@steveblackmon)",
@@ -186,57 +161,7 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "LinkResolverProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "SimpleHTTPPostProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "ConsolePersistReader.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "DatumFromMetadataAsDocumentProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "AbstractGPlusProvider.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "HbasePersistWriter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "FacebookFriendUpdatesProvider.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "S3PersistReader.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "CleanAdditionalPropertiesProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "PromoteExtensionsProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "HoconConverterProcessor.java",
+      "JsonPathFilter.java",
       1
    ],
    [
@@ -246,57 +171,12 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "PercolateTagProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "S3PersistWriter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "KafkaPersistWriter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "MongoPersistWriter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "ElasticsearchPersistUpdater.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "ActivityConverterProcessor.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "GMailProvider.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "FacebookUserstreamProvider.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
       "FacebookTypeConverter.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "InstagramTypeConverter.java",
-      1
-   ],
-   [
-      "Steve Blackmon (@steveblackmon)",
-      "DatasiftStreamProvider.java",
+      "ConsolePersistWriter.java",
       1
    ],
    [
@@ -306,7 +186,87 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
+      "GraphVertexReader.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "HoconConverterProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "VerbDefinitionKeepFilter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "RegexMentionsExtractor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "DatumFromMetadataAsDocumentProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "LinkResolverProcessor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "KinesisPersistWriter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "RegexHashtagExtractor.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "ElasticsearchPersistReader.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "GMailProvider.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "FileBufferPersistWriter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "S3PersistWriter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "FileBufferPersistReader.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "FacebookFriendUpdatesProvider.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
       "FacebookFriendFeedProvider.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "HbasePersistWriter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "MongoPersistReader.java",
       1
    ],
    [
@@ -316,12 +276,52 @@
    ],
    [
       "Steve Blackmon (@steveblackmon)",
-      "VerbDefinitionDropFilter.java",
+      "DocumentToMetadataProcessor.java",
       1
    ],
    [
       "Steve Blackmon (@steveblackmon)",
       "FacebookUserInformationProvider.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "GPlusUserDataProvider.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "AbstractGPlusProvider.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "LineReadWriteUtil.java",
+      4
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "WebHdfsPersistReader.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "KafkaPersistWriter.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "KafkaPersistReader.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "ElasticsearchPersistUpdater.java",
+      1
+   ],
+   [
+      "Steve Blackmon (@steveblackmon)",
+      "GooglePlusCommentProcessor.java",
       1
    ]
 ]

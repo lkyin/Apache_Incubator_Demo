@@ -1,207 +1,17 @@
 [
    [
       "gnodet",
-      "InstallationTest.java",
+      "FragmentStreamReader.java",
       1
    ],
    [
       "gnodet",
-      "XMLStreamHelper.java",
+      "TestSupport.java",
       1
    ],
    [
       "gnodet",
-      "SoapMessage.java",
-      1
-   ],
-   [
-      "gnodet",
-      "Jsr181Endpoint.java",
-      1
-   ],
-   [
-      "gnodet",
-      "Registry.java",
-      2
-   ],
-   [
-      "gnodet",
-      "BaseBootstrap.java",
-      1
-   ],
-   [
-      "gnodet",
-      "HotDeployTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "SaajMarshalerTest.java",
-      2
-   ],
-   [
-      "gnodet",
-      "ManagementContextTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "StreamDataSource.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ProviderProcessor.java",
-      3
-   ],
-   [
-      "jgapuz",
-      "JMSClient.java",
-      1
-   ],
-   [
-      "gnodet",
-      "FileWriter.java",
-      2
-   ],
-   [
-      "gnodet",
-      "JmsBindingClusterTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "W3CDOMStreamReaderTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "BrokerMBean.java",
-      1
-   ],
-   [
-      "gnodet",
-      "DOMStreamReader.java",
-      1
-   ],
-   [
-      "gnodet",
-      "SaajMarshaler.java",
-      3
-   ],
-   [
-      "gnodet",
-      "SoapHelper.java",
-      1
-   ],
-   [
-      "gnodet",
-      "HttpSpringComponent.java",
-      1
-   ],
-   [
-      "gnodet",
-      "JBIContainer.java",
-      4
-   ],
-   [
-      "gnodet",
-      "FileUtilTest.java",
-      2
-   ],
-   [
-      "foconer",
-      "Foo.java",
-      1
-   ],
-   [
-      "gnodet",
-      "HttpSoapTest.java",
-      3
-   ],
-   [
-      "foconer",
-      "JettyServer.java",
-      1
-   ],
-   [
-      "gnodet",
-      "FilePoller.java",
-      1
-   ],
-   [
-      "gnodet",
-      "Bank.java",
-      1
-   ],
-   [
-      "foconer",
-      "AppTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "DeploymentService.java",
-      3
-   ],
-   [
-      "gnodet",
-      "AutoDeploymentServiceMBean.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AbstractDeployer.java",
-      1
-   ],
-   [
-      "foconer",
-      "service.xsd",
-      1
-   ],
-   [
-      "gnodet",
-      "FTPPollTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "HttpSoapInOutBinding.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AbstractManagementTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "SoapMarshaler.java",
-      1
-   ],
-   [
-      "jgapuz",
-      "ListComponentTask.java",
-      1
-   ],
-   [
-      "gnodet",
-      "FastStack.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ServiceAssemblyRegistry.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AssemblyLoaderTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "FileUtil.java",
+      "HttpLifeCycle.java",
       1
    ],
    [
@@ -211,12 +21,307 @@
    ],
    [
       "gnodet",
-      "InstallationService.java",
+      "CounterMonitorComponent.java",
       1
    ],
    [
       "gnodet",
-      "Handler.java",
+      "ExtendedNamespaceContext.java",
+      1
+   ],
+   [
+      "gnodet",
+      "Broker.java",
+      1
+   ],
+   [
+      "gnodet",
+      "JCAFlow.java",
+      1
+   ],
+   [
+      "gnodet",
+      "HttpConsumerTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "HotDeployTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "CopyTransformer.java",
+      1
+   ],
+   [
+      "gnodet",
+      "QNameHelper.java",
+      1
+   ],
+   [
+      "jgapuz",
+      "JbiTask.java",
+      1
+   ],
+   [
+      "gnodet",
+      "WSNComponentTest.java",
+      1
+   ],
+   [
+      "foconer",
+      "JMXServlet.java",
+      1
+   ],
+   [
+      "jgapuz",
+      "ListEnginesTask.java",
+      1
+   ],
+   [
+      "gnodet",
+      "BaseServiceUnitManager.java",
+      2
+   ],
+   [
+      "gnodet",
+      "JmsBindingClusterTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "HttpInOutBinding.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AdminCommandsServiceMBean.java",
+      1
+   ],
+   [
+      "gnodet",
+      "ByteArrayDataSource.java",
+      1
+   ],
+   [
+      "gnodet",
+      "ManagementContext.java",
+      3
+   ],
+   [
+      "gnodet",
+      "CopyTransformerTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "FileWriter.java",
+      2
+   ],
+   [
+      "gnodet",
+      "SaajMarshalerTest.java",
+      2
+   ],
+   [
+      "gnodet",
+      "Context.java",
+      2
+   ],
+   [
+      "gnodet",
+      "EnvironmentContext.java",
+      1
+   ],
+   [
+      "gnodet",
+      "MBeanInfoProvider.java",
+      1
+   ],
+   [
+      "gnodet",
+      "QuartzComponentClusterTest.java",
+      1
+   ],
+   [
+      "jgapuz",
+      "ListLibrariesTask.java",
+      1
+   ],
+   [
+      "gnodet",
+      "CounterMonitorComponentTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "JbiConstants.java",
+      1
+   ],
+   [
+      "gnodet",
+      "LocalComponentConnector.java",
+      2
+   ],
+   [
+      "gnodet",
+      "Jsr181Endpoint.java",
+      1
+   ],
+   [
+      "gnodet",
+      "ExtendedXMLStreamReader.java",
+      1
+   ],
+   [
+      "gnodet",
+      "DeliveryChannelImpl.java",
+      1
+   ],
+   [
+      "foconer",
+      "JMXWriter.java",
+      1
+   ],
+   [
+      "gnodet",
+      "ComponentDelegate.java",
+      1
+   ],
+   [
+      "foconer",
+      "FooMBean.java",
+      1
+   ],
+   [
+      "gnodet",
+      "SaajMarshaler.java",
+      3
+   ],
+   [
+      "gnodet",
+      "W3CDOMStreamReader.java",
+      1
+   ],
+   [
+      "gnodet",
+      "XMLStreamHelper.java",
+      1
+   ],
+   [
+      "gnodet",
+      "HttpSoapInOutBinding.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AssemblyLoaderTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "FileUtilTest.java",
+      2
+   ],
+   [
+      "gnodet",
+      "JmsMarshaler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "StaxSource.java",
+      3
+   ],
+   [
+      "gnodet",
+      "AbstractStreamReaderTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "FileTest.java",
+      2
+   ],
+   [
+      "gnodet",
+      "HttpSpringComponent.java",
+      1
+   ],
+   [
+      "gnodet",
+      "XMarshaler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "DefaultFileMarshaler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "BinaryFileMarshaler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "JCAFlowTest.java",
+      1
+   ],
+   [
+      "foconer",
+      "HelloWorldComponent.java",
+      1
+   ],
+   [
+      "jgapuz",
+      "ListComponentTask.java",
+      1
+   ],
+   [
+      "foconer",
+      "App.java",
+      1
+   ],
+   [
+      "gnodet",
+      "SoapHelper.java",
+      1
+   ],
+   [
+      "gnodet",
+      "JBIMarshaler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "RegistryMBean.java",
+      1
+   ],
+   [
+      "gnodet",
+      "FileUtil.java",
+      1
+   ],
+   [
+      "gnodet",
+      "JBIContainer.java",
+      4
+   ],
+   [
+      "gnodet",
+      "HttpWsdl1Deployer.java",
+      2
+   ],
+   [
+      "gnodet",
+      "HttpComponent.java",
+      1
+   ],
+   [
+      "gnodet",
+      "DOMStreamReader.java",
       1
    ],
    [
@@ -231,17 +336,22 @@
    ],
    [
       "gnodet",
-      "MBeanInfoProvider.java",
-      1
-   ],
-   [
-      "foconer",
-      "project.jsl",
+      "BrokerMBean.java",
       1
    ],
    [
       "gnodet",
-      "Deployer.java",
+      "help.jsp",
+      1
+   ],
+   [
+      "gnodet",
+      "Bank.java",
+      1
+   ],
+   [
+      "foconer",
+      "Foo.java",
       1
    ],
    [
@@ -251,137 +361,7 @@
    ],
    [
       "gnodet",
-      "QuartzComponentClusterTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "JmsMarshaler.java",
-      1
-   ],
-   [
-      "gnodet",
-      "QNameHelper.java",
-      1
-   ],
-   [
-      "gnodet",
-      "JCAFlow.java",
-      1
-   ],
-   [
-      "gnodet",
-      "JbiConstants.java",
-      1
-   ],
-   [
-      "gnodet",
-      "EnvironmentContext.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ExtendedXMLStreamReader.java",
-      1
-   ],
-   [
-      "gnodet",
-      "BaseLifeCycle.java",
-      3
-   ],
-   [
-      "gnodet",
-      "StaxSource.java",
-      3
-   ],
-   [
-      "gnodet",
-      "SedaQueue.java",
-      2
-   ],
-   [
-      "gnodet",
-      "ServiceAssemblyLifeCycle.java",
-      1
-   ],
-   [
-      "gnodet",
-      "TestSupport.java",
-      1
-   ],
-   [
-      "jgapuz",
-      "ListLibrariesTask.java",
-      1
-   ],
-   [
-      "gnodet",
-      "DeliveryChannelImpl.java",
-      1
-   ],
-   [
-      "gnodet",
-      "FileTest.java",
-      2
-   ],
-   [
-      "gnodet",
-      "HttpInOutBinding.java",
-      1
-   ],
-   [
-      "gnodet",
-      "BootstrapDelegate.java",
-      1
-   ],
-   [
-      "gnodet",
-      "SoapMessageMarshalerTest.java",
-      2
-   ],
-   [
-      "foconer",
-      "JMXServletSupport.java",
-      1
-   ],
-   [
-      "gnodet",
-      "BaseComponent.java",
-      1
-   ],
-   [
-      "gnodet",
-      "WSNComponentTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "SoapFault.java",
-      1
-   ],
-   [
-      "gnodet",
-      "JBIMarshaler.java",
-      1
-   ],
-   [
-      "gnodet",
-      "CounterMonitorComponent.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ComponentDelegate.java",
-      1
-   ],
-   [
-      "gnodet",
-      "SourceTransformer.java",
-      2
-   ],
-   [
-      "gnodet",
-      "W3CDOMStreamReader.java",
+      "SoapMarshaler.java",
       1
    ],
    [
@@ -391,93 +371,8 @@
    ],
    [
       "gnodet",
-      "FragmentStreamReader.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AddressingInHandler.java",
-      1
-   ],
-   [
-      "foconer",
-      "FooMBean.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ManagementContext.java",
+      "ConsumerProcessor.java",
       3
-   ],
-   [
-      "gnodet",
-      "DefaultFileMarshaler.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AbstractAuditor.java",
-      1
-   ],
-   [
-      "gnodet",
-      "JmsOverJcaWithFullXATest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "SoapEndpoint.java",
-      2
-   ],
-   [
-      "gnodet",
-      "HttpAddressingTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "DeploymentTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "HttpEndpoint.java",
-      1
-   ],
-   [
-      "jgapuz",
-      "JbiTask.java",
-      1
-   ],
-   [
-      "gnodet",
-      "CounterMonitorComponentTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ScaEndpoint.java",
-      1
-   ],
-   [
-      "foconer",
-      "JMXWriter.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AutoDeploymentService.java",
-      2
-   ],
-   [
-      "gnodet",
-      "BinaryFileTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AbstractStreamReaderTest.java",
-      1
    ],
    [
       "gnodet",
@@ -485,43 +380,8 @@
       1
    ],
    [
-      "gnodet",
-      "JBIComponentsPortlet.java",
-      1
-   ],
-   [
-      "gnodet",
-      "HttpComponent.java",
-      1
-   ],
-   [
-      "gnodet",
-      "StaxSourceTest.java",
-      2
-   ],
-   [
-      "gnodet",
-      "help.jsp",
-      1
-   ],
-   [
-      "gnodet",
-      "HttpExternalEndpoint.java",
-      1
-   ],
-   [
-      "gnodet",
-      "view.jsp",
-      1
-   ],
-   [
-      "gnodet",
-      "HttpConsumerTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AbstractFlow.java",
+      "foconer",
+      "ManagementContext.java",
       1
    ],
    [
@@ -531,17 +391,42 @@
    ],
    [
       "gnodet",
-      "package.html",
+      "BaseLifeCycle.java",
+      3
+   ],
+   [
+      "gnodet",
+      "SoapMessageMarshalerTest.java",
       2
    ],
    [
-      "foconer",
-      "App.java",
+      "gnodet",
+      "HttpExternalEndpoint.java",
       1
    ],
    [
       "gnodet",
-      "CopyTransformer.java",
+      "FastStack.java",
+      1
+   ],
+   [
+      "gnodet",
+      "SoapReader.java",
+      1
+   ],
+   [
+      "jgapuz",
+      "JMSClient.java",
+      1
+   ],
+   [
+      "gnodet",
+      "BaseComponent.java",
+      1
+   ],
+   [
+      "gnodet",
+      "BinaryFileTest.java",
       1
    ],
    [
@@ -550,18 +435,58 @@
       1
    ],
    [
-      "foconer",
-      "ManagementContext.java",
+      "gnodet",
+      "JBIComponentsPortlet.java",
       1
    ],
    [
       "gnodet",
-      "FragmentStreamReaderTest.java",
+      "StaxSourceTest.java",
       2
    ],
    [
       "gnodet",
-      "Broker.java",
+      "SedaQueue.java",
+      2
+   ],
+   [
+      "gnodet",
+      "ManagementContextTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AbstractManagementTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AbstractDeployer.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AutoDeploymentService.java",
+      2
+   ],
+   [
+      "foconer",
+      "service.xsd",
+      1
+   ],
+   [
+      "gnodet",
+      "Registry.java",
+      2
+   ],
+   [
+      "foconer",
+      "AppTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "BaseSystemService.java",
       1
    ],
    [
@@ -571,67 +496,22 @@
    ],
    [
       "gnodet",
-      "DefaultQuartzMarshaler.java",
+      "SoapFault.java",
       1
    ],
    [
       "gnodet",
-      "BinaryFileMarshaler.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AdminCommandsServiceMBean.java",
-      1
-   ],
-   [
-      "gnodet",
-      "BaseServiceUnitManager.java",
-      2
-   ],
-   [
-      "gnodet",
-      "BaseSystemService.java",
-      1
-   ],
-   [
-      "foconer",
-      "HelloWorldComponent.java",
-      1
-   ],
-   [
-      "gnodet",
-      "CopyTransformerTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "XMarshaler.java",
-      1
-   ],
-   [
-      "gnodet",
-      "RegistryMBean.java",
-      1
-   ],
-   [
-      "gnodet",
-      "Context.java",
-      2
-   ],
-   [
-      "gnodet",
-      "ConsumerProcessor.java",
+      "ProviderProcessor.java",
       3
    ],
    [
       "gnodet",
-      "SoapWriter.java",
+      "AbstractAuditor.java",
       1
    ],
    [
       "gnodet",
-      "HttpProviderTest.java",
+      "ServiceAssemblyRegistry.java",
       1
    ],
    [
@@ -641,27 +521,42 @@
    ],
    [
       "gnodet",
-      "ComponentMBeanImpl.java",
-      4
+      "ServiceAssemblyLifeCycle.java",
+      1
    ],
    [
       "gnodet",
-      "HttpWsdl1Deployer.java",
-      2
+      "BaseBootstrap.java",
+      1
+   ],
+   [
+      "gnodet",
+      "BootstrapDelegate.java",
+      1
+   ],
+   [
+      "gnodet",
+      "ScaEndpoint.java",
+      1
+   ],
+   [
+      "gnodet",
+      "SoapWriter.java",
+      1
    ],
    [
       "foconer",
-      "JMXWriterTest.java",
-      1
-   ],
-   [
-      "jgapuz",
-      "ListEnginesTask.java",
+      "JettyServer.java",
       1
    ],
    [
       "gnodet",
-      "InstallerMBeanImpl.java",
+      "HttpProviderTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "SourceTransformer.java",
       2
    ],
    [
@@ -671,37 +566,142 @@
    ],
    [
       "gnodet",
-      "SoapReader.java",
+      "Deployer.java",
+      1
+   ],
+   [
+      "foconer",
+      "JMXServletSupport.java",
       1
    ],
    [
       "gnodet",
-      "JCAFlowTest.java",
+      "InstallationService.java",
       1
    ],
    [
       "gnodet",
-      "LocalComponentConnector.java",
+      "AutoDeploymentServiceMBean.java",
+      1
+   ],
+   [
+      "gnodet",
+      "StreamDataSource.java",
+      1
+   ],
+   [
+      "gnodet",
+      "FTPPollTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AddressingInHandler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "DeploymentService.java",
+      3
+   ],
+   [
+      "gnodet",
+      "W3CDOMStreamReaderTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "HttpAddressingTest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "FragmentStreamReaderTest.java",
       2
    ],
    [
       "foconer",
-      "JMXServlet.java",
+      "JMXWriterTest.java",
       1
    ],
    [
       "gnodet",
-      "ByteArrayDataSource.java",
+      "HttpSoapTest.java",
+      3
+   ],
+   [
+      "gnodet",
+      "view.jsp",
       1
    ],
    [
       "gnodet",
-      "HttpLifeCycle.java",
+      "DeploymentTest.java",
       1
    ],
    [
       "gnodet",
-      "ExtendedNamespaceContext.java",
+      "InstallationTest.java",
       1
+   ],
+   [
+      "gnodet",
+      "JmsOverJcaWithFullXATest.java",
+      1
+   ],
+   [
+      "gnodet",
+      "InstallerMBeanImpl.java",
+      2
+   ],
+   [
+      "gnodet",
+      "HttpEndpoint.java",
+      1
+   ],
+   [
+      "foconer",
+      "project.jsl",
+      1
+   ],
+   [
+      "gnodet",
+      "Handler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "FilePoller.java",
+      1
+   ],
+   [
+      "gnodet",
+      "DefaultQuartzMarshaler.java",
+      1
+   ],
+   [
+      "gnodet",
+      "SoapMessage.java",
+      1
+   ],
+   [
+      "gnodet",
+      "SoapEndpoint.java",
+      2
+   ],
+   [
+      "gnodet",
+      "package.html",
+      2
+   ],
+   [
+      "gnodet",
+      "AbstractFlow.java",
+      1
+   ],
+   [
+      "gnodet",
+      "ComponentMBeanImpl.java",
+      4
    ]
 ]

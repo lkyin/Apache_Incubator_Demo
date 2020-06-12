@@ -1,93 +1,8 @@
 [
    [
-      "karolbrejna",
-      "gearpump-0.8.4-incubating-src.tgz.asc",
-      1
-   ],
-   [
-      "mauzhang",
-      "EventTimeTriggerTaskSpec.scala",
-      1
-   ],
-   [
-      "karolbrejna",
-      "gearpump_2.11-0.8.4-incubating-bin.tgz.sha",
-      1
-   ],
-   [
-      "mauzhang",
-      "FunctionRunnerSpec.scala",
-      1
-   ],
-   [
-      "mauzhang",
-      "StreamAppSpec.scala",
-      1
-   ],
-   [
       "manuzhang",
-      "plugins.sbt",
-      1
-   ],
-   [
-      "mauzhang",
-      "DefaultWindowRunnerSpec.scala",
-      1
-   ],
-   [
-      "mauzhang",
-      "DataSourceTaskSpec.scala",
-      1
-   ],
-   [
-      "mauzhang",
-      "PlannerSpec.scala",
-      1
-   ],
-   [
-      "mauzhang",
-      "GroupByTaskSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "ProcessingTimeTriggerTask.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "GroupByPartitionerSpec.scala",
-      1
-   ],
-   [
-      "karolbrejna",
-      "gearpump-0.8.4-incubating-src.tgz.sha",
-      1
-   ],
-   [
-      "manuzhang",
-      "DefaultWindowRunnerSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "DataSourceProcessor.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "EventTimeTriggerTask.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "TaskUtil.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "JavaStream.scala",
-      1
+      "DataSourceTask.scala",
+      2
    ],
    [
       "manuzhang",
@@ -96,117 +11,17 @@
    ],
    [
       "manuzhang",
-      "CountTriggerTask.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "RemoteMaterializerImpl.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "version.sbt",
-      1
-   ],
-   [
-      "manuzhang",
-      "StreamApp.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "DataSourceTaskSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "Window.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "Watermark.scala",
-      1
-   ],
-   [
-      "karolbrejna",
-      "gearpump_2.11-0.8.4-incubating-bin.tgz.asc",
-      1
-   ],
-   [
-      "manuzhang",
-      "Subscription.scala",
-      2
-   ],
-   [
-      "manuzhang",
-      "RedisSink.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "Constants.scala",
-      1
-   ],
-   [
-      "mauzhang",
-      "ProcessingTimeTriggerTaskSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "FunctionRunner.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "SubscriptionSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "TaskWrapper.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "Planner.scala",
-      1
-   ],
-   [
-      "mauzhang",
-      "TransformTaskSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "GroupByTask.scala",
-      2
-   ],
-   [
-      "mauzhang",
-      "StreamSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "RedisMessage.scala",
-      1
-   ],
-   [
-      "manuzhang",
-      "TransformTaskSpec.scala",
-      1
-   ],
-   [
-      "manuzhang",
       "WindowRunner.scala",
       2
    ],
    [
       "mauzhang",
-      "CountTriggerTaskSpec.scala",
+      "StreamAppSpec.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "FunctionRunnerSpec.scala",
       1
    ],
    [
@@ -216,22 +31,32 @@
    ],
    [
       "manuzhang",
-      "Trigger.scala",
-      1
-   ],
-   [
-      "karolbrejna",
-      "gearpump-0.8.4-incubating-src.tgz",
+      "Planner.scala",
       1
    ],
    [
       "manuzhang",
-      "Stream.scala",
+      "Watermark.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "SubscriptionSpec.scala",
       1
    ],
    [
       "mauzhang",
-      "OpSpec.scala",
+      "CountTriggerTaskSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "RemoteMaterializerImpl.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "StreamSpec.scala",
       1
    ],
    [
@@ -241,32 +66,132 @@
    ],
    [
       "manuzhang",
-      "WindowFunction.scala",
+      "FunctionRunner.scala",
       1
    ],
    [
       "manuzhang",
-      "DataSourceTask.scala",
+      "DataSourceProcessor.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "Trigger.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "DataSourceTaskSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "JavaStream.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "DefaultWindowRunnerSpec.scala",
+      1
+   ],
+   [
+      "karolbrejna",
+      "gearpump-0.8.4-incubating-src.tgz.asc",
+      1
+   ],
+   [
+      "manuzhang",
+      "DefaultWindowRunnerSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "Subscription.scala",
+      2
+   ],
+   [
+      "manuzhang",
+      "version.sbt",
+      1
+   ],
+   [
+      "manuzhang",
+      "RedisSink.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "GroupByTask.scala",
       2
    ],
    [
       "mauzhang",
-      "GroupByPartitionerSpec.scala",
+      "DataSourceTaskSpec.scala",
       1
    ],
    [
       "manuzhang",
-      "GroupByPartitioner.scala",
-      2
+      "TaskWrapper.scala",
+      1
+   ],
+   [
+      "karolbrejna",
+      "gearpump_2.11-0.8.4-incubating-bin.tgz",
+      1
    ],
    [
       "mauzhang",
-      "SubscriptionSpec.scala",
+      "OpSpec.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "EventTimeTriggerTaskSpec.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "PlannerSpec.scala",
+      1
+   ],
+   [
+      "karolbrejna",
+      "gearpump-0.8.4-incubating-src.tgz",
+      1
+   ],
+   [
+      "karolbrejna",
+      "gearpump-0.8.4-incubating-src.tgz.sha",
       1
    ],
    [
       "manuzhang",
-      "OP.scala",
+      "RedisMessage.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "ProcessingTimeTriggerTask.scala",
+      1
+   ],
+   [
+      "karolbrejna",
+      "gearpump_2.11-0.8.4-incubating-bin.tgz.sha",
+      1
+   ],
+   [
+      "mauzhang",
+      "TransformTaskSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "Window.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "TaskUtil.scala",
       1
    ],
    [
@@ -275,8 +200,83 @@
       1
    ],
    [
+      "manuzhang",
+      "CountTriggerTask.scala",
+      1
+   ],
+   [
       "karolbrejna",
-      "gearpump_2.11-0.8.4-incubating-bin.tgz",
+      "gearpump_2.11-0.8.4-incubating-bin.tgz.asc",
+      1
+   ],
+   [
+      "manuzhang",
+      "GroupByPartitioner.scala",
+      2
+   ],
+   [
+      "manuzhang",
+      "Constants.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "plugins.sbt",
+      1
+   ],
+   [
+      "manuzhang",
+      "OP.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "GroupByPartitionerSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "TransformTaskSpec.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "SubscriptionSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "StreamApp.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "GroupByPartitionerSpec.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "ProcessingTimeTriggerTaskSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "EventTimeTriggerTask.scala",
+      1
+   ],
+   [
+      "mauzhang",
+      "GroupByTaskSpec.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "WindowFunction.scala",
+      1
+   ],
+   [
+      "manuzhang",
+      "Stream.scala",
       1
    ]
 ]

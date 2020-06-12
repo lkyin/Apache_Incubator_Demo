@@ -1,177 +1,7 @@
 [
    [
       "Matthieu Morel",
-      "ProcessingElement.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "KryoSerDeser.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Emitter.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TriggerTest.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "Utils.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
       "SimplePE1.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "DefaultCoreModule.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "S4Metrics.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Main.java",
-      2
-   ],
-   [
-      "mmorel",
-      "WordCountTest.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "Event.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Stream.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "SimpleApp.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "SerializerDeserializerFactory.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "RemoteSenders.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Injector.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "FTWordCountTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "ZkBasedTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "EventMessage.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "DeliveryTestUtil.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "DefaultCommModule.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TCPListener.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "MultithreadingTest.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "CoreTestUtils.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "UDPEmitter.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Receiver.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "build.gradle",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "WordCountTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "SerializerDeserializer.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "WindowingPETest.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "Sender.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "UDPListener.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TCPEmitter.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "bench-cluster.sh",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "PartitionInfo.java",
       2
    ],
    [
@@ -181,28 +11,48 @@
    ],
    [
       "Matthieu Morel",
-      "RemoteSender.java",
+      "RemoteSenders.java",
       2
    ],
    [
       "Matthieu Morel",
-      "s4-core.gradle",
+      "Listener.java",
       2
    ],
    [
       "Matthieu Morel",
-      "App.java",
+      "DefaultCoreModule.java",
       2
    ],
    [
       "Matthieu Morel",
-      "CheckpointingTest.java",
+      "SerializerDeserializerFactory.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Receiver.java",
       4
    ],
    [
-      "mmorel",
-      "MockCommModule.java",
-      1
+      "Matthieu Morel",
+      "ZkBasedTest.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TCPEmitter.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "UDPListener.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "WordCountTest.java",
+      2
    ],
    [
       "Matthieu Morel",
@@ -215,13 +65,163 @@
       2
    ],
    [
+      "mmorel",
+      "WordCountTest.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "CheckpointingTest.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "WindowingPETest.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "s4-core.gradle",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "SimpleApp.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "RemoteSender.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TriggerTest.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "Main.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Event.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "EventMessage.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TCPListener.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "SerializerDeserializer.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Sender.java",
+      4
+   ],
+   [
+      "mmorel",
+      "MockCommModule.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "PartitionInfo.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Emitter.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Injector.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "DeliveryTestUtil.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "KryoSerDeser.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "DefaultCommModule.java",
+      2
+   ],
+   [
       "Matthieu Morel",
       "AppModule.java",
       2
    ],
    [
       "Matthieu Morel",
-      "Listener.java",
+      "S4Metrics.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Stream.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "build.gradle",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "CoreTestUtils.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Utils.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "App.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "FTWordCountTest.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "MultithreadingTest.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "UDPEmitter.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "bench-cluster.sh",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "ProcessingElement.java",
       2
    ],
    [

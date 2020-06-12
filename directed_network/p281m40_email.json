@@ -1,43 +1,47 @@
 [
    {
+      "name": "Stuart Monteith",
       "imports": [
          "Robert Burrell Donkin",
          "Steve Poole",
          "ant elder"
-      ],
-      "name": "Stuart Monteith"
+      ]
    },
    {
+      "name": "ant elder",
       "imports": [
-         "Stuart Monteith"
-      ],
-      "name": "Robert Burrell Donkin"
+         "Marvin"
+      ]
    },
    {
+      "name": "Joe Schaefer",
+      "imports": [
+         "ant elder",
+         "Stuart Monteith"
+      ]
+   },
+   {
+      "name": "Steve Poole",
       "imports": [
          "Stuart Monteith",
          "Stuart Monteith",
          "Robert Burrell Donkin"
-      ],
-      "name": "Steve Poole"
+      ]
    },
    {
-      "imports": [
-         "Marvin"
-      ],
-      "name": "ant elder"
-   },
-   {
+      "name": "serguei.spitsyn@oracle.com",
       "imports": [
          "Steve Poole"
-      ],
-      "name": "serguei.spitsyn@oracle.com"
+      ]
    },
    {
+      "name": "Robert Burrell Donkin",
       "imports": [
-         "ant elder",
          "Stuart Monteith"
-      ],
-      "name": "Joe Schaefer"
+      ]
+   },
+   {
+      "name": "Marvin",
+      "imports": []
    }
 ]

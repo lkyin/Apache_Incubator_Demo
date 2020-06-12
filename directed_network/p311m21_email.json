@@ -1,28 +1,36 @@
 [
    {
-      "imports": [
-         "Derick Rethans"
-      ],
-      "name": "Kore Nordmann"
+      "name": "Jukka Zitting",
+      "imports": []
    },
    {
+      "name": "James Pic",
+      "imports": [
+         "Maxime Thomas"
+      ]
+   },
+   {
+      "name": "Maxime Thomas",
+      "imports": [
+         "James Pic"
+      ]
+   },
+   {
+      "name": "Kore Nordmann",
+      "imports": [
+         "Derick Rethans"
+      ]
+   },
+   {
+      "name": "Derick Rethans",
       "imports": [
          "Tim Landscheidt",
          "Jukka Zitting",
          "Jukka Zitting"
-      ],
-      "name": "Derick Rethans"
+      ]
    },
    {
-      "imports": [
-         "Maxime Thomas"
-      ],
-      "name": "James Pic"
-   },
-   {
-      "imports": [
-         "James Pic"
-      ],
-      "name": "Maxime Thomas"
+      "name": "Tim Landscheidt",
+      "imports": []
    }
 ]

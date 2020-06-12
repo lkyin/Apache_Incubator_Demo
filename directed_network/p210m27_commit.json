@@ -1,92 +1,7 @@
 [
    [
-      "lhazlewood",
-      "LdapContextFactory.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "JndiLdapContextFactoryTest.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "JndiLdapRealmTest.java",
-      1
-   ],
-   [
       "kaosko",
-      "RequiresAuthentication.java",
-      1
-   ],
-   [
-      "kaosko",
-      "RequiresUser.java",
-      1
-   ],
-   [
-      "kaosko",
-      "package-info.java",
-      1
-   ],
-   [
-      "kaosko",
-      "RoleAnnotationHandler.java",
-      2
-   ],
-   [
-      "lhazlewood",
-      "AuthorizationAttributeSourceAdvisor.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "DapcAuthorizationAnnotationTest.java",
-      1
-   ],
-   [
-      "kaosko",
-      "PermissionAnnotationHandler.java",
-      2
-   ],
-   [
-      "kaosko",
-      "AuthorizingSecurityManager.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "JndiLdapContextFactory.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "GuestAnnotationMethodInterceptor.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "JndiLdapRealm.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "LdapUtils.java",
-      1
-   ],
-   [
-      "kaosko",
-      "Subject.java",
-      2
-   ],
-   [
-      "kaosko",
-      "ModularRealmAuthorizer.java",
-      1
-   ],
-   [
-      "kaosko",
-      "AnnotationResolverTest.java",
+      "DelegatingSubject.java",
       1
    ],
    [
@@ -96,18 +11,108 @@
    ],
    [
       "kaosko",
-      "Logical.java",
+      "ModularRealmAuthorizer.java",
+      1
+   ],
+   [
+      "kaosko",
+      "RequiresPermissions.java",
+      2
+   ],
+   [
+      "kaosko",
+      "AuthorizingRealmTest.java",
       1
    ],
    [
       "lhazlewood",
-      "DummyServiceTest.java",
+      "AuthenticatedAnnotationMethodInterceptor.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "GuestAnnotationMethodInterceptor.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "DefaultAnnotationResolver.java",
+      1
+   ],
+   [
+      "kaosko",
+      "RoleAnnotationHandler.java",
+      2
+   ],
+   [
+      "lhazlewood",
+      "AopAllianceAnnotationsAuthorizingMethodInterceptor.java",
+      1
+   ],
+   [
+      "kaosko",
+      "Subject.java",
+      2
+   ],
+   [
+      "lhazlewood",
+      "JndiLdapContextFactoryTest.java",
+      1
+   ],
+   [
+      "kaosko",
+      "RequiresAuthentication.java",
       1
    ],
    [
       "kaosko",
       "RequiresRoles.java",
       2
+   ],
+   [
+      "lhazlewood",
+      "ShiroAnnotationAuthorizingAspect.java",
+      1
+   ],
+   [
+      "kaosko",
+      "DefaultAnnotationResolver.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "DefaultLdapContextFactory.java",
+      1
+   ],
+   [
+      "kaosko",
+      "SpringAnnotationResolver.java",
+      1
+   ],
+   [
+      "kaosko",
+      "Authorizer.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "RoleAnnotationMethodInterceptor.java",
+      1
+   ],
+   [
+      "kaosko",
+      "RequiresGuest.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "SecuredDummyService.java",
+      1
+   ],
+   [
+      "kaosko",
+      "AnnotationResolverTest.java",
+      1
    ],
    [
       "lhazlewood",
@@ -120,68 +125,8 @@
       1
    ],
    [
-      "kaosko",
-      "RequiresGuest.java",
-      1
-   ],
-   [
-      "kaosko",
-      "RequiresPermissions.java",
-      2
-   ],
-   [
       "lhazlewood",
-      "AuthenticatedAnnotationMethodInterceptor.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "DefaultAnnotationResolver.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "SecuredDummyService.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "AbstractAuthorizationAnnotationTest.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "DefaultLdapContextFactory.java",
-      1
-   ],
-   [
-      "kaosko",
-      "RoleAnnotationHandlerTest.java",
-      2
-   ],
-   [
-      "lhazlewood",
-      "ShiroAnnotationAuthorizingAspect.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "AnnotationMethodInterceptor.java",
-      1
-   ],
-   [
-      "lhazlewood",
-      "AuthorizingAnnotationMethodInterceptor.java",
-      1
-   ],
-   [
-      "kaosko",
-      "DelegatingSubject.java",
-      1
-   ],
-   [
-      "kaosko",
-      "AnnotationResolver.java",
+      "TestService.java",
       1
    ],
    [
@@ -191,22 +136,32 @@
    ],
    [
       "lhazlewood",
-      "AnnotationResolver.java",
+      "DummyServiceTest.java",
       1
    ],
    [
       "lhazlewood",
-      "DefaultTestService.java",
+      "AuthorizationAttributeSourceAdvisor.java",
       1
    ],
    [
       "kaosko",
-      "Authorizer.java",
+      "AuthorizingSecurityManager.java",
       1
    ],
    [
-      "kaosko",
-      "AuthorizingRealmTest.java",
+      "lhazlewood",
+      "AbstractAuthorizationAnnotationTest.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "DapcAuthorizationAnnotationTest.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "LdapContextFactory.java",
       1
    ],
    [
@@ -215,13 +170,23 @@
       2
    ],
    [
+      "lhazlewood",
+      "AnnotationMethodInterceptor.java",
+      1
+   ],
+   [
       "kaosko",
-      "DefaultAnnotationResolver.java",
+      "RequiresUser.java",
+      1
+   ],
+   [
+      "kaosko",
+      "Logical.java",
       1
    ],
    [
       "lhazlewood",
-      "RoleAnnotationMethodInterceptor.java",
+      "JndiLdapRealmTest.java",
       1
    ],
    [
@@ -230,18 +195,53 @@
       1
    ],
    [
+      "kaosko",
+      "package-info.java",
+      1
+   ],
+   [
       "lhazlewood",
-      "TestService.java",
+      "LdapUtils.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "JndiLdapContextFactory.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "JndiLdapRealm.java",
       1
    ],
    [
       "kaosko",
-      "SpringAnnotationResolver.java",
+      "PermissionAnnotationHandler.java",
+      2
+   ],
+   [
+      "kaosko",
+      "RoleAnnotationHandlerTest.java",
+      2
+   ],
+   [
+      "kaosko",
+      "AnnotationResolver.java",
       1
    ],
    [
       "lhazlewood",
-      "AopAllianceAnnotationsAuthorizingMethodInterceptor.java",
+      "AuthorizingAnnotationMethodInterceptor.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "DefaultTestService.java",
+      1
+   ],
+   [
+      "lhazlewood",
+      "AnnotationResolver.java",
       1
    ]
 ]

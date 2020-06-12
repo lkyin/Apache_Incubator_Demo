@@ -1,22 +1,22 @@
 [
    [
       "gbarton",
-      "shardList.jsp",
-      1
+      "ThriftBlurShardServer.java",
+      3
    ],
    [
       "Aaron McCurry",
-      "PrimeDocCache.java",
-      1
+      "IndexManager.java",
+      2
+   ],
+   [
+      "gbarton",
+      "controller.jsp",
+      3
    ],
    [
       "Aaron McCurry",
-      "BlurIndexReader.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "DirectoryReferenceCounter.java",
+      "RandomSuperQueryTest.java",
       1
    ],
    [
@@ -25,128 +25,13 @@
       1
    ],
    [
-      "gbarton",
-      "home.jsp",
+      "Aaron McCurry",
+      "DirectoryReferenceCounter.java",
       1
    ],
    [
       "gbarton",
-      "ThriftBlurControllerServer.java",
-      5
-   ],
-   [
-      "gbarton",
-      "ShardMetricsServlet.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "BlockDirectoryTest.java",
-      1
-   ],
-   [
-      "gbarton",
-      "table.jsp",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "DirectIODirectory.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "LocalIndexServer.java",
-      2
-   ],
-   [
-      "gbarton",
-      "MetricsServlet.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurNRTIndex.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "CompressedFieldDataDirectory.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "SoftDeleteIndexReader.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "SnapshotIndexReader.java",
-      1
-   ],
-   [
-      "gbarton",
-      "style.css",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "IndexManager.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "NRTManager.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "DefaultBlurIndexWarmup.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "lucene-core-3.5.0.lm.jar",
-      1
-   ],
-   [
-      "gbarton",
-      "CreateInsertQueryRepeating.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BenchmarkDirectoryNrt.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "HdfsFileReader.java",
-      1
-   ],
-   [
-      "gbarton",
-      "ThriftBlurShardServer.java",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "WarmUpByFieldBounds.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "BlurClusterTest.java",
-      2
-   ],
-   [
-      "gbarton",
-      "HttpJettyServer.java",
-      4
-   ],
-   [
-      "gbarton",
-      "LoadDataAsyncContinuously.java",
+      "BlurConstants.java",
       1
    ],
    [
@@ -156,117 +41,47 @@
    ],
    [
       "Aaron McCurry",
-      "AbstractBlurIndex.java",
+      "CompressedFieldDataDirectory.java",
       1
    ],
    [
       "Aaron McCurry",
-      "SuperQueryTest.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurControllerServer.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurNRTIndexTest.java",
-      2
-   ],
-   [
-      "gbarton",
-      "BlurConstants.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "lm.patch",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurShardServer.java",
-      1
-   ],
-   [
-      "gbarton",
-      "footer.jsp",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "IndexManagerTest.java",
-      1
-   ],
-   [
-      "gbarton",
-      "index.html",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "SearcherManager.java",
-      1
-   ],
-   [
-      "gbarton",
-      "blur-config.sh",
-      1
-   ],
-   [
-      "gbarton",
-      "shard.jsp",
-      2
-   ],
-   [
-      "gbarton",
-      "controller.jsp",
-      3
-   ],
-   [
-      "gbarton",
-      "functions.jsp",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "MiniCluster.java",
-      1
-   ],
-   [
-      "gbarton",
-      "LogServlet.java",
-      1
-   ],
-   [
-      "Tom",
-      "SampleProgram.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "EscapeRewrite.java",
+      "BlurClusterTest.java",
       2
    ],
    [
       "Aaron McCurry",
-      "BufferedDirectory.java",
+      "SoftDeleteIndexReader.java",
+      1
+   ],
+   [
+      "gbarton",
+      "test.html",
       1
    ],
    [
       "Aaron McCurry",
-      "BlurClientManager.java",
+      "DefaultBlurIndexWarmup.java",
       1
    ],
    [
       "Aaron McCurry",
-      "RandomSuperQueryTest.java",
+      "SnapshotIndexReader.java",
+      1
+   ],
+   [
+      "gbarton",
+      "LoadDataAsyncContinuously.java",
       1
    ],
    [
       "Aaron McCurry",
-      "ProgressableDirectory.java",
+      "HdfsDirectory.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "PrimeDocCache.java",
       1
    ],
    [
@@ -276,13 +91,28 @@
    ],
    [
       "Aaron McCurry",
-      "ZookeeperClusterStatus.java",
-      2
+      "BenchmarkDirectory.java",
+      1
+   ],
+   [
+      "gbarton",
+      "home.jsp",
+      1
    ],
    [
       "Aaron McCurry",
-      "DistributedIndexServer.java",
+      "WarmUpByFieldBounds.java",
       2
+   ],
+   [
+      "gbarton",
+      "CreateInsertQueryRepeating.java",
+      1
+   ],
+   [
+      "gbarton",
+      "functions.jsp",
+      3
    ],
    [
       "Aaron McCurry",
@@ -290,8 +120,103 @@
       1
    ],
    [
+      "Aaron McCurry",
+      "HdfsFileReader.java",
+      1
+   ],
+   [
       "gbarton",
-      "test.html",
+      "blur-config.sh",
+      1
+   ],
+   [
+      "gbarton",
+      "shardList.jsp",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurIndexReader.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurControllerServer.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ZookeeperClusterStatus.java",
+      2
+   ],
+   [
+      "gbarton",
+      "style.css",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "SuperQueryTest.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "EscapeRewrite.java",
+      2
+   ],
+   [
+      "gbarton",
+      "ThriftBlurControllerServer.java",
+      5
+   ],
+   [
+      "Aaron McCurry",
+      "MiniCluster.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "LocalIndexServer.java",
+      2
+   ],
+   [
+      "Tom",
+      "SampleProgram.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlockDirectoryTest.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "AbstractBlurIndex.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "lm.patch",
+      1
+   ],
+   [
+      "gbarton",
+      "shard.jsp",
+      2
+   ],
+   [
+      "gbarton",
+      "HttpJettyServer.java",
+      4
+   ],
+   [
+      "Aaron McCurry",
+      "BenchmarkDirectoryNrt.java",
+      1
+   ],
+   [
+      "gbarton",
+      "table.jsp",
       1
    ],
    [
@@ -300,13 +225,88 @@
       2
    ],
    [
-      "Aaron McCurry",
-      "BenchmarkDirectory.java",
+      "gbarton",
+      "MetricsServlet.java",
       1
    ],
    [
       "Aaron McCurry",
-      "HdfsDirectory.java",
+      "ProgressableDirectory.java",
+      1
+   ],
+   [
+      "gbarton",
+      "ShardMetricsServlet.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "DistributedIndexServer.java",
+      2
+   ],
+   [
+      "gbarton",
+      "index.html",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "NRTManager.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurShardServer.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurNRTIndexTest.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "BufferedDirectory.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "DirectIODirectory.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "lucene-core-3.5.0.lm.jar",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurClientManager.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "IndexManagerTest.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "SearcherManager.java",
+      1
+   ],
+   [
+      "gbarton",
+      "footer.jsp",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurNRTIndex.java",
+      2
+   ],
+   [
+      "gbarton",
+      "LogServlet.java",
       1
    ]
 ]

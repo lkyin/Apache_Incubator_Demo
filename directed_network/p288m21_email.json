@@ -1,27 +1,31 @@
 [
    {
+      "name": "Marvin",
+      "imports": []
+   },
+   {
+      "name": "Dave Fisher",
       "imports": [
          "Marvin",
          "Oliver Rau"
-      ],
-      "name": "Dave Fisher"
+      ]
    },
    {
-      "imports": [
-         "Alexandro Colorado"
-      ],
-      "name": "Ian C"
-   },
-   {
-      "imports": [
-         "Ian C"
-      ],
-      "name": "Oliver Rau"
-   },
-   {
+      "name": "Alexandro Colorado",
       "imports": [
          "Dave Fisher"
-      ],
-      "name": "Alexandro Colorado"
+      ]
+   },
+   {
+      "name": "Ian C",
+      "imports": [
+         "Alexandro Colorado"
+      ]
+   },
+   {
+      "name": "Oliver Rau",
+      "imports": [
+         "Ian C"
+      ]
    }
 ]

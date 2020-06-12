@@ -1,32 +1,17 @@
 [
    [
       "lcorneliussen",
-      "ResolveMojo.java",
+      "ArtifactResolvingContributor.java",
       2
    ],
    [
       "lcorneliussen",
-      "NPandayArtifactResolver.java",
-      2
-   ],
-   [
-      "lcorneliussen",
-      "DotnetLibraryArtifactFilter.java",
-      1
-   ],
-   [
-      "brett",
-      "generateWxs.groovy",
-      1
-   ],
-   [
-      "brett",
-      "NormalPomConverter.cs",
+      "ListDependenciesMojo.java",
       1
    ],
    [
       "lcorneliussen",
-      "OrArtifactFilter.java",
+      "DefaultCompiler.java",
       1
    ],
    [
@@ -35,9 +20,9 @@
       3
    ],
    [
-      "lcorneliussen",
-      "DotnetSymbolsArtifactFilter.java",
-      2
+      "brett",
+      "DotnetSdkLocator.cs",
+      1
    ],
    [
       "lcorneliussen",
@@ -46,12 +31,12 @@
    ],
    [
       "lcorneliussen",
-      "ComReferenceResolver.java",
+      "AbstractCompilerMojo.java",
       2
    ],
    [
       "lcorneliussen",
-      "DotnetExecutableArtifactFilter.java",
+      "NPandayResolutionCache.java",
       1
    ],
    [
@@ -66,11 +51,6 @@
    ],
    [
       "lcorneliussen",
-      "ListDependenciesMojo.java",
-      1
-   ],
-   [
-      "lcorneliussen",
       "NPandayResolutionListener.java",
       2
    ],
@@ -81,18 +61,13 @@
    ],
    [
       "lcorneliussen",
-      "AbstractCompilerMojo.java",
+      "NPandayArtifactResolver.java",
       2
    ],
    [
       "lcorneliussen",
-      "DefaultCompiler.java",
-      1
-   ],
-   [
-      "lcorneliussen",
-      "DefaultNPandayArtifactResolver.java",
-      3
+      "ComReferenceResolver.java",
+      2
    ],
    [
       "lcorneliussen",
@@ -100,38 +75,8 @@
       1
    ],
    [
-      "brett",
-      "DefaultCompiler.java",
-      1
-   ],
-   [
       "lcorneliussen",
-      "NPandayResolutionCache.java",
-      1
-   ],
-   [
-      "lcorneliussen",
-      "CopyDependenciesMojo.java",
-      2
-   ],
-   [
-      "lcorneliussen",
-      "PdbAssemblyResolver.java",
-      3
-   ],
-   [
-      "lcorneliussen",
-      "DotnetAssemblyArtifactFilter.java",
-      1
-   ],
-   [
-      "lcorneliussen",
-      "ArtifactResolvingContributor.java",
-      2
-   ],
-   [
-      "lcorneliussen",
-      "NPandayDependencyResolution.java",
+      "ResolveMojo.java",
       2
    ],
    [
@@ -146,12 +91,67 @@
    ],
    [
       "brett",
-      "SilverlightPomConverter.cs",
+      "DefaultCompiler.java",
       1
    ],
    [
       "brett",
-      "DotnetSdkLocator.cs",
+      "NormalPomConverter.cs",
+      1
+   ],
+   [
+      "brett",
+      "SilverlightPomConverter.cs",
+      1
+   ],
+   [
+      "lcorneliussen",
+      "DotnetExecutableArtifactFilter.java",
+      1
+   ],
+   [
+      "lcorneliussen",
+      "OrArtifactFilter.java",
+      1
+   ],
+   [
+      "lcorneliussen",
+      "DotnetAssemblyArtifactFilter.java",
+      1
+   ],
+   [
+      "lcorneliussen",
+      "DotnetSymbolsArtifactFilter.java",
+      2
+   ],
+   [
+      "lcorneliussen",
+      "NPandayDependencyResolution.java",
+      2
+   ],
+   [
+      "lcorneliussen",
+      "DefaultNPandayArtifactResolver.java",
+      3
+   ],
+   [
+      "lcorneliussen",
+      "DotnetLibraryArtifactFilter.java",
+      1
+   ],
+   [
+      "lcorneliussen",
+      "CopyDependenciesMojo.java",
+      2
+   ],
+   [
+      "lcorneliussen",
+      "PdbAssemblyResolver.java",
+      3
+   ],
+   [
+      "brett",
+      "generateWxs.groovy",
       1
    ]
 ]

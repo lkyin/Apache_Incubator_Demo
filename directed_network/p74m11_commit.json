@@ -1,12 +1,267 @@
 [
    [
       "jbellis",
-      "RowTest.java",
+      "BootstrapMetadataVerbHandler.java",
+      3
+   ],
+   [
+      "jbellis",
+      "RemoveSuperColumnTest.java",
+      2
+   ],
+   [
+      "jbellis",
+      "SliceQueryFilter.java",
+      2
+   ],
+   [
+      "jbellis",
+      "Cassandra.java",
+      2
+   ],
+   [
+      "jbellis",
+      "RowMutation.java",
+      3
+   ],
+   [
+      "jbellis",
+      "RangeSliceVerbHandler.java",
+      1
+   ],
+   [
+      "jbellis",
+      "CleanupHelper.java",
+      1
+   ],
+   [
+      "jbellis",
+      "IStage.java",
+      1
+   ],
+   [
+      "jbellis",
+      "OrderPreservingPartitioner.java",
+      1
+   ],
+   [
+      "jbellis",
+      "QuorumResponseHandler.java",
+      3
+   ],
+   [
+      "eevans",
+      "print.css",
+      4
+   ],
+   [
+      "jbellis",
+      "StageManager.java",
+      1
+   ],
+   [
+      "jbellis",
+      "BinaryMemtable.java",
+      2
+   ],
+   [
+      "eevans",
+      "CliClient.java",
+      1
+   ],
+   [
+      "jbellis",
+      "RangeCommand.java",
+      1
+   ],
+   [
+      "jbellis",
+      "Row.java",
+      3
+   ],
+   [
+      "jbellis",
+      "Gossiper.java",
+      8
+   ],
+   [
+      "jbellis",
+      "StreamContextManager.java",
+      2
+   ],
+   [
+      "eevans",
+      "forms.css",
+      2
+   ],
+   [
+      "jbellis",
+      "ColumnFamily.java",
       2
    ],
    [
       "jbellis",
       "CollatingOrderPreservingPartitioner.java",
+      1
+   ],
+   [
+      "jbellis",
+      "CompactionManager.java",
+      1
+   ],
+   [
+      "eevans",
+      "BasicUtilities.java",
+      2
+   ],
+   [
+      "jbellis",
+      "StorageServiceMBean.java",
+      4
+   ],
+   [
+      "jbellis",
+      "DatabaseDescriptor.java",
+      4
+   ],
+   [
+      "jbellis",
+      "TokenMetadata.java",
+      10
+   ],
+   [
+      "eevans",
+      "_header.html",
+      1
+   ],
+   [
+      "jbellis",
+      "DatacenterWriteResponseHandler.java",
+      2
+   ],
+   [
+      "jbellis",
+      "TokenUpdater.java",
+      1
+   ],
+   [
+      "jbellis",
+      "SSTableSliceIterator.java",
+      1
+   ],
+   [
+      "jbellis",
+      "TcpConnectionManager.java",
+      1
+   ],
+   [
+      "jbellis",
+      "__init__.py",
+      1
+   ],
+   [
+      "jbellis",
+      "FailureDetector.java",
+      1
+   ],
+   [
+      "goffinet",
+      "StorageProxy.java",
+      1
+   ],
+   [
+      "eevans",
+      "SystemTable.java",
+      1
+   ],
+   [
+      "jbellis",
+      "DatacenterShardStategy.java",
+      7
+   ],
+   [
+      "junrao",
+      "CommitLog.java",
+      1
+   ],
+   [
+      "eevans",
+      "test_server.py",
+      1
+   ],
+   [
+      "jbellis",
+      "MessagingConfig.java",
+      1
+   ],
+   [
+      "eevans",
+      "_download.html",
+      3
+   ],
+   [
+      "jbellis",
+      "BootstrapTest.java",
+      1
+   ],
+   [
+      "eevans",
+      "settings.py",
+      1
+   ],
+   [
+      "jbellis",
+      "HintedHandOffManager.java",
+      4
+   ],
+   [
+      "jbellis",
+      "BootStrapper.java",
+      11
+   ],
+   [
+      "jbellis",
+      "stress.py",
+      2
+   ],
+   [
+      "jbellis",
+      "TableTest.java",
+      2
+   ],
+   [
+      "jbellis",
+      "TimedOutException.java",
+      1
+   ],
+   [
+      "eevans",
+      "FBUtilitiesTest.java",
+      1
+   ],
+   [
+      "jbellis",
+      "StreamInitiateMessage.java",
+      1
+   ],
+   [
+      "jbellis",
+      "BootstrapMetadata.java",
+      1
+   ],
+   [
+      "jbellis",
+      "IEndPointSnitch.java",
+      1
+   ],
+   [
+      "eevans",
+      "cassandra.css",
+      4
+   ],
+   [
+      "eevans",
+      "screen.css.z-tmp",
       1
    ],
    [
@@ -16,38 +271,73 @@
    ],
    [
       "jbellis",
-      "QuorumResponseHandler.java",
+      "ReadCommand.java",
+      1
+   ],
+   [
+      "jbellis",
+      "KeyChecker.java",
+      1
+   ],
+   [
+      "jbellis",
+      "ReadMessageTest.java",
+      1
+   ],
+   [
+      "jbellis",
+      "Constants.java",
+      1
+   ],
+   [
+      "jbellis",
+      "RackUnawareStrategyTest.java",
+      2
+   ],
+   [
+      "jbellis",
+      "SSTableReader.java",
+      2
+   ],
+   [
+      "eevans",
+      "_nav.html",
+      2
+   ],
+   [
+      "junrao",
+      "RingCache.java",
+      1
+   ],
+   [
+      "eevans",
+      "jquery.curvycorners.min.js",
+      2
+   ],
+   [
+      "eevans",
+      "grid.css",
+      2
+   ],
+   [
+      "jbellis",
+      "CassandraServer.java",
+      6
+   ],
+   [
+      "eevans",
+      "index.html",
+      16
+   ],
+   [
+      "jbellis",
+      "DatacenterQuorumSyncResponseHandler.java",
       3
    ],
    [
       "jbellis",
-      "IEndPointSnitch.java",
-      1
-   ],
-   [
-      "jbellis",
-      "CompactionManager.java",
-      1
-   ],
-   [
-      "jbellis",
-      "BinaryMemtable.java",
+      "BootstrapMetadataMessage.java",
       2
-   ],
-   [
-      "jbellis",
-      "HintedHandOffManager.java",
-      4
-   ],
-   [
-      "eevans",
-      "_footer.html",
-      2
-   ],
-   [
-      "jbellis",
-      "RowMutationMessage.java",
-      1
    ],
    [
       "jbellis",
@@ -56,18 +346,143 @@
    ],
    [
       "jbellis",
-      "TokenMetadata.java",
-      10
+      "SystemTable.java",
+      4
    ],
    [
       "jbellis",
-      "SSTableSliceIterator.java",
+      "ReadResponseResolver.java",
+      4
+   ],
+   [
+      "jbellis",
+      "Message.java",
+      1
+   ],
+   [
+      "jbellis",
+      "Header.java",
+      1
+   ],
+   [
+      "goffinet",
+      "ReadRepairManager.java",
+      1
+   ],
+   [
+      "jbellis",
+      "DatacenterEndPointSnitch.java",
+      3
+   ],
+   [
+      "jbellis",
+      "WriteResponseHandler.java",
+      1
+   ],
+   [
+      "jbellis",
+      "IEndPointStateChangeSubscriber.java",
+      2
+   ],
+   [
+      "jbellis",
+      "CliClient.java",
+      1
+   ],
+   [
+      "junrao",
+      "StorageService.java",
+      1
+   ],
+   [
+      "jbellis",
+      "Table.java",
+      4
+   ],
+   [
+      "eevans",
+      "_root.html",
+      1
+   ],
+   [
+      "jbellis",
+      "EndPointSnitch.java",
+      1
+   ],
+   [
+      "goffinet",
+      "ColumnFamilyStore.java",
+      2
+   ],
+   [
+      "jbellis",
+      "ColumnFamilySerializer.java",
       1
    ],
    [
       "eevans",
-      "print.css",
-      4
+      "_footer.html",
+      2
+   ],
+   [
+      "jbellis",
+      "CompactionIterator.java",
+      1
+   ],
+   [
+      "eevans",
+      "cassandra-cli.bat",
+      2
+   ],
+   [
+      "jbellis",
+      "Streaming.java",
+      10
+   ],
+   [
+      "jbellis",
+      "ApplicationState.java",
+      2
+   ],
+   [
+      "jbellis",
+      "KeySlice.java",
+      1
+   ],
+   [
+      "jbellis",
+      "RackAwareStrategy.java",
+      2
+   ],
+   [
+      "jbellis",
+      "ReadVerbHandler.java",
+      1
+   ],
+   [
+      "jbellis",
+      "IPartitioner.java",
+      2
+   ],
+   [
+      "jbellis",
+      "RangeSliceReply.java",
+      1
+   ],
+   [
+      "jbellis",
+      "RowMutationMessage.java",
+      1
+   ],
+   [
+      "eevans",
+      "UdpConnection.java",
+      1
+   ],
+   [
+      "jbellis",
+      "LeaveJoinProtocolImpl.java",
+      1
    ],
    [
       "jbellis",
@@ -81,153 +496,28 @@
    ],
    [
       "jbellis",
-      "TokenUpdater.java",
-      1
-   ],
-   [
-      "jbellis",
-      "__init__.py",
-      1
-   ],
-   [
-      "jbellis",
-      "Cassandra.java",
-      2
-   ],
-   [
-      "eevans",
-      "test_server.py",
-      1
-   ],
-   [
-      "jbellis",
-      "CliClient.java",
-      1
-   ],
-   [
-      "eevans",
-      "UdpConnection.java",
-      1
-   ],
-   [
-      "jbellis",
-      "ApplicationState.java",
+      "DatacenterSyncWriteResponseHandler.java",
       2
    ],
    [
       "jbellis",
-      "CassandraServer.java",
-      6
-   ],
-   [
-      "jbellis",
-      "ColumnFamilySerializer.java",
-      1
-   ],
-   [
-      "jbellis",
-      "BootStrapper.java",
-      11
-   ],
-   [
-      "eevans",
-      "BasicUtilities.java",
-      2
-   ],
-   [
-      "jbellis",
-      "ReadResponseResolver.java",
+      "TcpConnection.java",
       4
    ],
    [
       "jbellis",
-      "RangeCommand.java",
-      1
-   ],
-   [
-      "jbellis",
-      "EndPointState.java",
-      1
-   ],
-   [
-      "jbellis",
-      "RackAwareStrategy.java",
+      "SSTableTracker.java",
       2
    ],
    [
       "jbellis",
-      "BootstrapMetadataVerbHandler.java",
-      3
-   ],
-   [
-      "junrao",
-      "CommitLog.java",
-      1
-   ],
-   [
-      "jbellis",
-      "KeySlice.java",
-      1
-   ],
-   [
-      "jbellis",
-      "ReadResponseResolverTest.java",
-      1
-   ],
-   [
-      "jbellis",
-      "IMessagingService.java",
-      1
-   ],
-   [
-      "jbellis",
-      "stress.py",
-      2
-   ],
-   [
-      "jbellis",
-      "StorageServiceMBean.java",
-      4
-   ],
-   [
-      "jbellis",
-      "EndPointSnitch.java",
-      1
-   ],
-   [
-      "jbellis",
-      "BootstrapTest.java",
-      1
-   ],
-   [
-      "jbellis",
-      "SuperColumn.java",
-      1
-   ],
-   [
-      "jbellis",
-      "IEndPointStateChangeSubscriber.java",
-      2
-   ],
-   [
-      "junrao",
       "StorageService.java",
-      1
+      32
    ],
    [
       "jbellis",
-      "ColumnFamily.java",
-      2
-   ],
-   [
-      "eevans",
-      "cassandra-cli.bat",
-      2
-   ],
-   [
-      "eevans",
-      "_header.html",
-      1
+      "cassandra.thrift",
+      3
    ],
    [
       "jbellis",
@@ -236,22 +526,7 @@
    ],
    [
       "jbellis",
-      "RangeSliceReply.java",
-      1
-   ],
-   [
-      "jbellis",
-      "Row.java",
-      3
-   ],
-   [
-      "jbellis",
-      "Range.java",
-      1
-   ],
-   [
-      "jbellis",
-      "LeaveJoinProtocolImpl.java",
+      "RandomPartitionerTest.java",
       1
    ],
    [
@@ -260,119 +535,14 @@
       2
    ],
    [
-      "eevans",
-      "screen.css.z-tmp",
-      1
-   ],
-   [
       "jbellis",
-      "ReadMessageTest.java",
-      1
-   ],
-   [
-      "eevans",
-      "index.html",
-      16
+      "AbstractReplicationStrategy.java",
+      9
    ],
    [
       "jbellis",
       "CloseableIterator.java",
       2
-   ],
-   [
-      "eevans",
-      "ie.css",
-      4
-   ],
-   [
-      "jbellis",
-      "TableTest.java",
-      2
-   ],
-   [
-      "jbellis",
-      "CompactEndPointSerializationHelperTest.java",
-      1
-   ],
-   [
-      "goffinet",
-      "ReadRepairManager.java",
-      1
-   ],
-   [
-      "jbellis",
-      "SSTableTracker.java",
-      2
-   ],
-   [
-      "eevans",
-      "cassandra.css",
-      4
-   ],
-   [
-      "jbellis",
-      "DatacenterSyncWriteResponseHandler.java",
-      2
-   ],
-   [
-      "eevans",
-      "jquery-ui-1.7.2.custom.css",
-      4
-   ],
-   [
-      "jbellis",
-      "RackUnawareStrategy.java",
-      3
-   ],
-   [
-      "eevans",
-      "favicon.ico",
-      2
-   ],
-   [
-      "jbellis",
-      "Memtable.java",
-      4
-   ],
-   [
-      "eevans",
-      "CassandraServer.java",
-      1
-   ],
-   [
-      "jbellis",
-      "StreamContextManager.java",
-      2
-   ],
-   [
-      "jbellis",
-      "DatabaseDescriptor.java",
-      4
-   ],
-   [
-      "eevans",
-      "reset.css",
-      2
-   ],
-   [
-      "jbellis",
-      "StageManager.java",
-      1
-   ],
-   [
-      "jbellis",
-      "RandomPartitionerTest.java",
-      1
-   ],
-   [
-      "jbellis",
-      "StorageLoadBalancer.java",
-      4
-   ],
-   [
-      "eevans",
-      "FBUtilitiesTest.java",
-      1
    ],
    [
       "jbellis",
@@ -381,17 +551,17 @@
    ],
    [
       "jbellis",
-      "Gossiper.java",
-      8
+      "StorageProxy.java",
+      14
    ],
    [
       "eevans",
-      "grid.css",
-      2
+      "jquery-ui-1.7.2.custom.css",
+      4
    ],
    [
       "jbellis",
-      "MessagingConfig.java",
+      "SimpleCondition.java",
       1
    ],
    [
@@ -401,268 +571,28 @@
    ],
    [
       "jbellis",
-      "MessagingService.java",
-      4
-   ],
-   [
-      "jbellis",
-      "SystemTable.java",
-      4
-   ],
-   [
-      "goffinet",
-      "ColumnFamilyStore.java",
-      2
-   ],
-   [
-      "eevans",
-      "settings.py",
-      1
-   ],
-   [
-      "jbellis",
-      "StorageService.java",
-      32
-   ],
-   [
-      "jbellis",
-      "RackUnawareStrategyTest.java",
-      2
-   ],
-   [
-      "eevans",
-      "_download.html",
-      3
-   ],
-   [
-      "jbellis",
-      "Constants.java",
-      1
-   ],
-   [
-      "eevans",
-      ".htaccess",
-      4
-   ],
-   [
-      "jbellis",
-      "BootstrapMetadata.java",
-      1
-   ],
-   [
-      "jbellis",
-      "DatacenterQuorumSyncResponseHandler.java",
-      3
-   ],
-   [
-      "jbellis",
-      "OrderPreservingPartitioner.java",
-      1
-   ],
-   [
-      "jbellis",
-      "DatacenterEndPointSnitch.java",
-      3
-   ],
-   [
-      "jbellis",
-      "cassandra.thrift",
-      3
-   ],
-   [
-      "jbellis",
-      "ReadCommand.java",
-      1
-   ],
-   [
-      "jbellis",
-      "SimpleCondition.java",
-      1
-   ],
-   [
-      "jbellis",
-      "Streaming.java",
-      10
-   ],
-   [
-      "jbellis",
-      "CassandraBulkLoader.java",
-      1
-   ],
-   [
-      "jbellis",
-      "Table.java",
-      4
-   ],
-   [
-      "eevans",
-      "SystemTable.java",
-      1
-   ],
-   [
-      "eevans",
-      "CliClient.java",
-      1
-   ],
-   [
-      "jbellis",
-      "StreamInitiateMessage.java",
-      1
-   ],
-   [
-      "jbellis",
-      "test_server.py",
-      4
-   ],
-   [
-      "jbellis",
-      "CleanupHelper.java",
-      1
-   ],
-   [
-      "jbellis",
-      "RowMutation.java",
-      3
-   ],
-   [
-      "jbellis",
-      "DatacenterShardStategy.java",
-      7
-   ],
-   [
-      "jbellis",
-      "TcpConnectionManager.java",
-      1
-   ],
-   [
-      "jbellis",
-      "TcpConnection.java",
-      4
-   ],
-   [
-      "goffinet",
-      "StorageProxy.java",
-      1
-   ],
-   [
-      "jbellis",
-      "CommitLog.java",
-      2
-   ],
-   [
-      "jbellis",
       "NodeProbe.java",
       4
    ],
    [
       "jbellis",
-      "AbstractReplicationStrategy.java",
-      9
-   ],
-   [
-      "junrao",
-      "RingCache.java",
-      1
+      "ColumnFamilyStore.java",
+      13
    ],
    [
       "jbellis",
-      "RemoveSuperColumnTest.java",
-      2
-   ],
-   [
-      "eevans",
-      "_root.html",
-      1
-   ],
-   [
-      "jbellis",
-      "ThriftValidation.java",
-      1
-   ],
-   [
-      "jbellis",
-      "SSTable.java",
-      3
-   ],
-   [
-      "jbellis",
-      "StorageProxy.java",
-      14
-   ],
-   [
-      "jbellis",
-      "WriteResponseHandler.java",
-      1
-   ],
-   [
-      "eevans",
-      "clhm-production.jar.LICENSE",
-      1
-   ],
-   [
-      "jbellis",
-      "RangeSliceCommand.java",
-      1
-   ],
-   [
-      "jbellis",
-      "Header.java",
-      1
-   ],
-   [
-      "jbellis",
-      "FailureDetector.java",
-      1
-   ],
-   [
-      "jbellis",
-      "SliceQueryFilter.java",
-      2
-   ],
-   [
-      "jbellis",
-      "DatacenterWriteResponseHandler.java",
-      2
-   ],
-   [
-      "eevans",
-      "jquery.curvycorners.min.js",
-      2
-   ],
-   [
-      "jbellis",
-      "ReadVerbHandler.java",
-      1
-   ],
-   [
-      "jbellis",
-      "KeyChecker.java",
-      1
-   ],
-   [
-      "jbellis",
-      "Message.java",
-      1
-   ],
-   [
-      "eevans",
-      "_nav.html",
-      2
-   ],
-   [
-      "eevans",
-      "_base.html",
+      "RackUnawareStrategy.java",
       3
    ],
    [
       "eevans",
-      "forms.css",
-      2
+      "ie.css",
+      4
    ],
    [
-      "jbellis",
-      "RangeSliceVerbHandler.java",
-      1
+      "eevans",
+      "reset.css",
+      2
    ],
    [
       "jbellis",
@@ -670,18 +600,8 @@
       6
    ],
    [
-      "jbellis",
-      "CompactionIterator.java",
-      1
-   ],
-   [
-      "jbellis",
-      "RandomPartitioner.java",
-      1
-   ],
-   [
-      "jbellis",
-      "DatacenterQuorumResponseHandler.java",
+      "eevans",
+      ".htaccess",
       4
    ],
    [
@@ -691,32 +611,112 @@
    ],
    [
       "jbellis",
-      "IStage.java",
+      "CompactEndPointSerializationHelperTest.java",
       1
    ],
    [
       "jbellis",
-      "ColumnFamilyStore.java",
-      13
-   ],
-   [
-      "jbellis",
-      "IPartitioner.java",
-      2
-   ],
-   [
-      "jbellis",
-      "BootstrapMetadataMessage.java",
-      2
-   ],
-   [
-      "jbellis",
-      "TimedOutException.java",
+      "ReadResponseResolverTest.java",
       1
    ],
    [
       "jbellis",
-      "SSTableReader.java",
+      "SuperColumn.java",
+      1
+   ],
+   [
+      "eevans",
+      "CassandraServer.java",
+      1
+   ],
+   [
+      "jbellis",
+      "RowTest.java",
       2
+   ],
+   [
+      "jbellis",
+      "ThriftValidation.java",
+      1
+   ],
+   [
+      "jbellis",
+      "RandomPartitioner.java",
+      1
+   ],
+   [
+      "jbellis",
+      "IMessagingService.java",
+      1
+   ],
+   [
+      "jbellis",
+      "CommitLog.java",
+      2
+   ],
+   [
+      "jbellis",
+      "Range.java",
+      1
+   ],
+   [
+      "eevans",
+      "favicon.ico",
+      2
+   ],
+   [
+      "jbellis",
+      "RangeSliceCommand.java",
+      1
+   ],
+   [
+      "jbellis",
+      "test_server.py",
+      4
+   ],
+   [
+      "jbellis",
+      "CassandraBulkLoader.java",
+      1
+   ],
+   [
+      "jbellis",
+      "EndPointState.java",
+      1
+   ],
+   [
+      "jbellis",
+      "Memtable.java",
+      4
+   ],
+   [
+      "eevans",
+      "clhm-production.jar.LICENSE",
+      1
+   ],
+   [
+      "jbellis",
+      "DatacenterQuorumResponseHandler.java",
+      4
+   ],
+   [
+      "jbellis",
+      "StorageLoadBalancer.java",
+      4
+   ],
+   [
+      "eevans",
+      "_base.html",
+      3
+   ],
+   [
+      "jbellis",
+      "MessagingService.java",
+      4
+   ],
+   [
+      "jbellis",
+      "SSTable.java",
+      3
    ]
 ]

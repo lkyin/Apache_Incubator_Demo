@@ -1,21 +1,29 @@
 [
    {
+      "name": "Sinthuja Rajendran",
+      "imports": []
+   },
+   {
+      "name": "Subash Chaturanga (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Luciano Resende (JIRA)",
+      "imports": [
+         "Subash Chaturanga (JIRA)"
+      ]
+   },
+   {
+      "name": "Luciano Resende",
       "imports": [
          "Sinthuja Rajendran",
          "Umashanthi Pavalanathan"
-      ],
-      "name": "Luciano Resende"
+      ]
    },
    {
+      "name": "Umashanthi Pavalanathan",
       "imports": [
          "Luciano Resende"
-      ],
-      "name": "Umashanthi Pavalanathan"
-   },
-   {
-      "imports": [
-         "Subash Chaturanga (JIRA)"
-      ],
-      "name": "Luciano Resende (JIRA)"
+      ]
    }
 ]

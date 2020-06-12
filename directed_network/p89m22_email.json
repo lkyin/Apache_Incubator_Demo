@@ -1,26 +1,30 @@
 [
    {
+      "name": "Marvin",
+      "imports": []
+   },
+   {
+      "name": "Sam Shah",
       "imports": [
          "Matthew Hayes"
-      ],
-      "name": "Jarek Jarcec Cecho"
+      ]
    },
    {
-      "imports": [
-         "Marvin"
-      ],
-      "name": "Marvin Humphrey"
-   },
-   {
-      "imports": [
-         "Matthew Hayes"
-      ],
-      "name": "Sam Shah"
-   },
-   {
+      "name": "Matthew Hayes",
       "imports": [
          "Jarek Jarcec Cecho"
-      ],
-      "name": "Matthew Hayes"
+      ]
+   },
+   {
+      "name": "Jarek Jarcec Cecho",
+      "imports": [
+         "Matthew Hayes"
+      ]
+   },
+   {
+      "name": "Marvin Humphrey",
+      "imports": [
+         "Marvin"
+      ]
    }
 ]

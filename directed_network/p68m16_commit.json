@@ -1,12 +1,7 @@
 [
    [
-      "bmahe",
-      "install_jsvc.sh",
-      1
-   ],
-   [
       "rvs",
-      "hue-app.prerm.tpl",
+      "install_hue.sh",
       1
    ],
    [
@@ -16,12 +11,27 @@
    ],
    [
       "bmahe",
-      "hadoop.install",
+      "install_jsvc.sh",
       1
    ],
    [
       "bmahe",
       "install_datafu.sh",
+      1
+   ],
+   [
+      "rvs",
+      "hue.spec",
+      1
+   ],
+   [
+      "bmahe",
+      "hadoop.install",
+      1
+   ],
+   [
+      "rvs",
+      "hue-app.postinst.tpl",
       1
    ],
    [
@@ -36,22 +46,12 @@
    ],
    [
       "rvs",
-      "hue-app.postinst.tpl",
-      1
-   ],
-   [
-      "rvs",
       "hue-common.postinst",
       1
    ],
    [
       "rvs",
-      "hue.spec",
-      1
-   ],
-   [
-      "rvs",
-      "install_hue.sh",
+      "hue-app.prerm.tpl",
       1
    ]
 ]

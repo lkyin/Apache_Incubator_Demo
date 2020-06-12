@@ -1,21 +1,66 @@
 [
    {
+      "name": "Marvin",
+      "imports": []
+   },
+   {
+      "name": "poornachandra",
+      "imports": [
+         "chtyim"
+      ]
+   },
+   {
+      "name": "Terence Yim",
+      "imports": [
+         "Patrick Hunt"
+      ]
+   },
+   {
+      "name": "Henry Saputra",
+      "imports": [
+         "Marvin",
+         "Terence Yim"
+      ]
+   },
+   {
+      "name": "hsaputra",
       "imports": [
          "sanojkodikkara",
          "chtyim",
          "chtyim"
-      ],
-      "name": "hsaputra"
+      ]
    },
    {
+      "name": "asfgit",
       "imports": [
          "chtyim",
          "hsaputra",
          "chtyim"
-      ],
-      "name": "asfgit"
+      ]
    },
    {
+      "name": "awholegunch",
+      "imports": [
+         "chtyim",
+         "chtyim",
+         "chtyim",
+         "chtyim",
+         "chtyim"
+      ]
+   },
+   {
+      "name": "gsps1",
+      "imports": [
+         "chtyim",
+         "hsaputra",
+         "hsaputra",
+         "chtyim",
+         "chtyim",
+         "chtyim"
+      ]
+   },
+   {
+      "name": "chtyim",
       "imports": [
          "gsps1",
          "gsps1",
@@ -26,47 +71,14 @@
          "gsps1",
          "gsps1",
          "hsaputra"
-      ],
-      "name": "chtyim"
+      ]
    },
    {
-      "imports": [
-         "chtyim",
-         "hsaputra",
-         "hsaputra",
-         "chtyim",
-         "chtyim",
-         "chtyim"
-      ],
-      "name": "gsps1"
+      "name": "sanojkodikkara",
+      "imports": []
    },
    {
-      "imports": [
-         "Patrick Hunt"
-      ],
-      "name": "Terence Yim"
-   },
-   {
-      "imports": [
-         "Marvin",
-         "Terence Yim"
-      ],
-      "name": "Henry Saputra"
-   },
-   {
-      "imports": [
-         "chtyim"
-      ],
-      "name": "poornachandra"
-   },
-   {
-      "imports": [
-         "chtyim",
-         "chtyim",
-         "chtyim",
-         "chtyim",
-         "chtyim"
-      ],
-      "name": "awholegunch"
+      "name": "Patrick Hunt",
+      "imports": []
    }
 ]

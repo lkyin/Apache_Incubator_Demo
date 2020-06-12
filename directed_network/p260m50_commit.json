@@ -1,7 +1,32 @@
 [
    [
+      "Aaron McCurry",
+      "BlockCache.java",
+      1
+   ],
+   [
       "amccurry",
-      "BlurConstantsTest.java",
+      "BlurIndexCounter.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BaseCommandManager.java",
+      1
+   ],
+   [
+      "amccurry",
+      "InputSplitPruneUtil.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurIndexCounter.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "HdfsConfigurationNamespaceMerge.java",
       1
    ],
    [
@@ -11,57 +36,7 @@
    ],
    [
       "Aaron McCurry",
-      "ClusterDriver.java",
-      1
-   ],
-   [
-      "amccurry",
-      "UserContext.java",
-      1
-   ],
-   [
-      "amccurry",
-      "ThreadValue.java",
-      1
-   ],
-   [
-      "amccurry",
-      "BlurClientManager.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "MeterWrapper.java",
-      1
-   ],
-   [
-      "amccurry",
-      "NewDataMapper.java",
-      1
-   ],
-   [
-      "amccurry",
-      "ClusterDriver.java",
-      1
-   ],
-   [
-      "amccurry",
-      "LookupBuilderMapper.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "GenericBlurRecordWriter.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "InputSplitPruneUtil.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "MasterBasedDistributedLayoutFactory.java",
+      "ExistingDataMapper.java",
       1
    ],
    [
@@ -71,52 +46,12 @@
    ],
    [
       "Aaron McCurry",
-      "BlurUtil.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ExistingDataIndexLookupMapper.java",
-      1
-   ],
-   [
-      "amccurry",
-      "PrunedBlurInputFormat.java",
-      3
-   ],
-   [
-      "amccurry",
-      "MapperForExistingDataWithIndexLookup.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
       "ShardCommandManagerTest.java",
       1
    ],
    [
       "Aaron McCurry",
-      "IndexerJobDriver.java",
-      1
-   ],
-   [
-      "amccurry",
-      "BlockTreeTermsReader.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurIndexCounter.java",
-      1
-   ],
-   [
-      "amccurry",
-      "HdfsConfigurationNamespaceMerge.java",
-      1
-   ],
-   [
-      "amccurry",
-      "MapperForExistingDataMod.java",
+      "ExistingDataIndexLookupMapper.java",
       1
    ],
    [
@@ -126,17 +61,7 @@
    ],
    [
       "Aaron McCurry",
-      "DateFieldTypeDefinition.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BaseCommandManager.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurSerializer.java",
+      "DiskDocValuesProducer.java",
       1
    ],
    [
@@ -146,22 +71,12 @@
    ],
    [
       "Aaron McCurry",
-      "DiskDocValuesProducer.java",
+      "MeterWrapper.java",
       1
    ],
    [
       "amccurry",
-      "InputSplitPruneUtil.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "MergeSortRowIdMatcher.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "HdfsConfigurationNamespaceMerge.java",
+      "TSaslTransport.java",
       1
    ],
    [
@@ -171,27 +86,27 @@
    ],
    [
       "Aaron McCurry",
-      "ExitObject.java",
-      1
-   ],
-   [
-      "amccurry",
-      "MergeSortRowIdMatcher.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "ExistingDataMapper.java",
+      "BlurOutputFormat.java",
       1
    ],
    [
       "Aaron McCurry",
-      "StoreDirection.java",
+      "DateFieldTypeDefinition.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ClusterDriver.java",
       1
    ],
    [
       "amccurry",
-      "BlurIndexCounter.java",
+      "BlurConstantsTest.java",
+      1
+   ],
+   [
+      "amccurry",
+      "UserContext.java",
       1
    ],
    [
@@ -201,22 +116,107 @@
    ],
    [
       "amccurry",
+      "PrunedBlurInputFormat.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "InputSplitPruneUtil.java",
+      1
+   ],
+   [
+      "amccurry",
+      "MapperForExistingDataWithIndexLookup.java",
+      1
+   ],
+   [
+      "amccurry",
+      "NewDataMapper.java",
+      1
+   ],
+   [
+      "amccurry",
       "PrunedSequenceFileInputFormat.java",
       3
    ],
    [
       "amccurry",
-      "TSaslTransport.java",
+      "BlurClientManager.java",
       1
    ],
    [
       "Aaron McCurry",
-      "BlockCache.java",
+      "ExitObject.java",
+      1
+   ],
+   [
+      "amccurry",
+      "ThreadValue.java",
       1
    ],
    [
       "Aaron McCurry",
-      "BlurOutputFormat.java",
+      "IndexerJobDriver.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "GenericBlurRecordWriter.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurUtil.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "StoreDirection.java",
+      1
+   ],
+   [
+      "amccurry",
+      "BlockTreeTermsReader.java",
+      1
+   ],
+   [
+      "amccurry",
+      "HdfsConfigurationNamespaceMerge.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurSerializer.java",
+      1
+   ],
+   [
+      "amccurry",
+      "ClusterDriver.java",
+      1
+   ],
+   [
+      "amccurry",
+      "MapperForExistingDataMod.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "MergeSortRowIdMatcher.java",
+      1
+   ],
+   [
+      "amccurry",
+      "MergeSortRowIdMatcher.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "MasterBasedDistributedLayoutFactory.java",
+      1
+   ],
+   [
+      "amccurry",
+      "LookupBuilderMapper.java",
       1
    ]
 ]

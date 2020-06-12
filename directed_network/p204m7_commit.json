@@ -1,137 +1,12 @@
 [
    [
       "criccomini",
-      "SystemStreamMetadata.html",
-      1
-   ],
-   [
-      "criccomini",
-      "MessageChooserFactory.html",
+      "MessageChooser.html",
       4
    ],
    [
       "criccomini",
-      "TaskLifecycleListenerFactory.html",
-      4
-   ],
-   [
-      "criccomini",
-      "index-all.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "SinglePartitionSystemAdmin.java",
-      2
-   ],
-   [
-      "criccomini",
-      "MetricsReporter.html",
-      4
-   ],
-   [
-      "criccomini",
-      "windowing.html",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "SamzaContainer.scala",
-      2
-   ],
-   [
-      "Jakob Homan",
-      "TestBrokerProxy.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "SerdeFactory.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "CheckpointSerde.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "MetricsSnapshotReporter.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "concepts.html",
-      1
-   ],
-   [
-      "Jakob Glen Homan",
-      "SystemConsumers.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "CommandBuilder.html",
-      4
-   ],
-   [
-      "criccomini",
-      "package-frame.html",
-      46
-   ],
-   [
-      "criccomini",
-      "MetricsRegistry.html",
-      4
-   ],
-   [
-      "criccomini",
-      "allclasses-frame.html",
-      4
-   ],
-   [
-      "Jakob Glen Homan",
-      "TestStatefulTask.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "Serializer.html",
-      4
-   ],
-   [
-      "criccomini",
-      "IncomingMessageEnvelope.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "BrokerProxy.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "allclasses-noframe.html",
-      4
-   ],
-   [
-      "criccomini",
-      "task-runner.html",
-      1
-   ],
-   [
-      "criccomini",
-      "SystemProducer.html",
-      4
-   ],
-   [
-      "criccomini",
-      "ApplicationStatus.html",
-      4
-   ],
-   [
-      "criccomini",
-      "BaseMessageChooser.html",
+      "help-doc.html",
       4
    ],
    [
@@ -141,67 +16,7 @@
    ],
    [
       "criccomini",
-      "overview.html",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "SystemStreamMetadata.java",
-      2
-   ],
-   [
-      "Chris Riccomini",
-      "SamzaContainerContext.java",
-      1
-   ],
-   [
-      "criccomini",
-      "SinglePartitionSystemAdmin.html",
-      3
-   ],
-   [
-      "Chris Riccomini",
-      "Util.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "TestSamzaAppMasterTaskManager.scala",
-      2
-   ],
-   [
-      "Chris Riccomini",
-      "TestDefaultChooser.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "MockSystemAdmin.java",
-      2
-   ],
-   [
-      "Chris Riccomini",
-      "KafkaSystemAdmin.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "BootstrappingChooser.scala",
-      2
-   ],
-   [
-      "criccomini",
-      "mupd8.html",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "MockSystemAdmin.java",
-      1
-   ],
-   [
-      "criccomini",
-      "InitableTask.html",
+      "TaskContext.html",
       4
    ],
    [
@@ -211,8 +26,88 @@
    ],
    [
       "Chris Riccomini",
-      "SystemAdmin.java",
-      2
+      "SinglePartitionWithoutOffsetsSystemAdmin.java",
+      1
+   ],
+   [
+      "criccomini",
+      "MetricsVisitor.html",
+      4
+   ],
+   [
+      "criccomini",
+      "Config.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "TestDefaultChooser.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "DefaultChooserConfig.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "package-tree.html",
+      46
+   ],
+   [
+      "criccomini",
+      "Gauge.html",
+      4
+   ],
+   [
+      "criccomini",
+      "StreamJobFactory.html",
+      4
+   ],
+   [
+      "Jakob Glen Homan",
+      "TestDoublingBackOff.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "introduction.html",
+      1
+   ],
+   [
+      "criccomini",
+      "MessageChooserFactory.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "TestBootstrappingChooser.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "Deserializer.html",
+      4
+   ],
+   [
+      "criccomini",
+      "WindowableTask.html",
+      4
+   ],
+   [
+      "Jakob Glen Homan",
+      "TestSamzaContainerPerformance.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "KeyValueStorageEngineFactory.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "overview-summary.html",
+      4
    ],
    [
       "Jakob Glen Homan",
@@ -220,59 +115,94 @@
       1
    ],
    [
+      "criccomini",
+      "Partition.html",
+      4
+   ],
+   [
       "Chris Riccomini",
-      "TaskInstance.scala",
+      "MetricsSnapshotReporter.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "TestTaskInstance.scala",
+      1
+   ],
+   [
+      "Jakob Homan",
+      "KafkaSystemConsumer.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "KafkaSystemAdmin.scala",
+      2
+   ],
+   [
+      "Chris Riccomini",
+      "LevelDbKeyValueStore.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "DefaultChooser.scala",
+      2
+   ],
+   [
+      "criccomini",
+      "ConfigException.html",
+      4
+   ],
+   [
+      "criccomini",
+      "ConfigFactory.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "Util.scala",
       1
    ],
    [
       "criccomini",
-      "ConfigRewriter.html",
+      "constant-values.html",
       4
    ],
    [
       "criccomini",
-      "overview-frame.html",
-      4
+      "state-management.html",
+      1
    ],
    [
-      "criccomini",
-      "background.html",
+      "Chris Riccomini",
+      "TestSamzaAppMasterTaskManager.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "SamzaContainerContext.java",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      ".reviewboardrc",
       1
    ],
    [
       "Jakob Glen Homan",
-      "DoublingBackOff.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "StorageEngineFactory.java",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "TestSinglePartitionSystemAdmin.java",
+      "TestStatefulTask.scala",
       1
    ],
    [
       "criccomini",
-      "ReadableMetricsRegistryListener.html",
+      "BaseMessageChooser.html",
       4
    ],
    [
       "Chris Riccomini",
-      "JvmMetrics.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "TestKafkaSystemAdmin.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "TestUtil.scala",
-      1
+      "SinglePartitionSystemAdmin.java",
+      2
    ],
    [
       "criccomini",
@@ -281,7 +211,352 @@
    ],
    [
       "criccomini",
-      "MetricsReporterFactory.html",
+      "SystemAdmin.html",
+      4
+   ],
+   [
+      "criccomini",
+      "Serde.html",
+      4
+   ],
+   [
+      "criccomini",
+      "allclasses-noframe.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "TestDefaultChooser.scala",
+      2
+   ],
+   [
+      "Chris Riccomini",
+      "TestBootstrappingChooser.scala",
+      2
+   ],
+   [
+      "criccomini",
+      "SystemFactory.html",
+      4
+   ],
+   [
+      "criccomini",
+      "background.html",
+      1
+   ],
+   [
+      "criccomini",
+      "StreamJob.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "DaemonThreadFactory.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "BrokerProxy.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "ReadableMetricsRegistry.html",
+      4
+   ],
+   [
+      "criccomini",
+      "concepts.html",
+      1
+   ],
+   [
+      "criccomini",
+      "SystemProducer.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "SystemStreamMetadata.java",
+      1
+   ],
+   [
+      "criccomini",
+      "CommandBuilder.html",
+      4
+   ],
+   [
+      "criccomini",
+      "SystemConsumer.html",
+      4
+   ],
+   [
+      "criccomini",
+      "SerdeFactory.html",
+      4
+   ],
+   [
+      "criccomini",
+      "StorageEngine.html",
+      4
+   ],
+   [
+      "criccomini",
+      "SystemStreamMetadata.html",
+      1
+   ],
+   [
+      "criccomini",
+      "package-frame.html",
+      46
+   ],
+   [
+      "criccomini",
+      "Checkpoint.html",
+      4
+   ],
+   [
+      "criccomini",
+      "MetricsRegistry.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "TestSamzaContainer.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "MockSystemAdmin.java",
+      2
+   ],
+   [
+      "Jakob Glen Homan",
+      "SystemConsumers.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "CheckpointManager.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "Util.scala",
+      2
+   ],
+   [
+      "criccomini",
+      "mupd8.html",
+      1
+   ],
+   [
+      "criccomini",
+      "InitableTask.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "TestUtil.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "SystemStreamPartitionIterator.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "BrokerProxy.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "TestUtil.scala",
+      2
+   ],
+   [
+      "Chris Riccomini",
+      "KafkaSystemAdmin.scala",
+      1
+   ],
+   [
+      "Jakob Homan",
+      "BrokerProxy.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "overview-tree.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "SinglePartitionWithoutOffsetsSystemAdmin.java",
+      2
+   ],
+   [
+      "criccomini",
+      "MetricsType.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "SamzaContainer.scala",
+      2
+   ],
+   [
+      "Chris Riccomini",
+      "TestKafkaSystemAdmin.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "SamzaException.html",
+      4
+   ],
+   [
+      "criccomini",
+      "StreamTask.html",
+      4
+   ],
+   [
+      "criccomini",
+      "architecture.html",
+      1
+   ],
+   [
+      "criccomini",
+      "allclasses-frame.html",
+      4
+   ],
+   [
+      "criccomini",
+      "SinglePartitionWithoutOffsetsSystemAdmin.html",
+      1
+   ],
+   [
+      "criccomini",
+      "Clock.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "TestCheckpointSerde.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "ConfigRewriter.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "StorageEngineFactory.java",
+      1
+   ],
+   [
+      "criccomini",
+      "BlockingEnvelopeMap.BufferGauge.html",
+      4
+   ],
+   [
+      "criccomini",
+      "package-summary.html",
+      46
+   ],
+   [
+      "Chris Riccomini",
+      "TestSinglePartitionSystemAdmin.java",
+      2
+   ],
+   [
+      "criccomini",
+      "MapConfig.html",
+      4
+   ],
+   [
+      "criccomini",
+      "TaskLifecycleListener.html",
+      4
+   ],
+   [
+      "criccomini",
+      "SystemStream.html",
+      4
+   ],
+   [
+      "criccomini",
+      "windowing.html",
+      1
+   ],
+   [
+      "criccomini",
+      "Metric.html",
+      4
+   ],
+   [
+      "criccomini",
+      "SystemStreamPartition.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "DefaultChooser.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "MockSystemAdmin.java",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "SystemConsumer.java",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "SystemAdmin.java",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "JvmMetrics.scala",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "SystemAdmin.java",
+      2
+   ],
+   [
+      "Chris Riccomini",
+      "TestSamzaContainer.scala",
+      2
+   ],
+   [
+      "criccomini",
+      "IncomingMessageEnvelope.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "BootstrappingChooser.scala",
+      2
+   ],
+   [
+      "criccomini",
+      "serialized-form.html",
+      4
+   ],
+   [
+      "criccomini",
+      "index-all.html",
+      4
+   ],
+   [
+      "criccomini",
+      "ClosableTask.html",
       4
    ],
    [
@@ -295,134 +570,39 @@
       4
    ],
    [
-      "criccomini",
-      "MapConfig.html",
-      4
-   ],
-   [
-      "criccomini",
-      "BlockingEnvelopeMap.html",
-      4
-   ],
-   [
-      "criccomini",
-      "StorageEngine.html",
-      4
-   ],
-   [
-      "criccomini",
-      "StreamJob.html",
-      4
+      "Chris Riccomini",
+      "TestKeyValueStores.scala",
+      1
    ],
    [
       "Chris Riccomini",
-      "TestCheckpointSerde.scala",
+      "CheckpointSerde.scala",
       1
    ],
    [
       "criccomini",
-      "StreamJobFactory.html",
+      "overview-frame.html",
       4
    ],
    [
       "criccomini",
-      "SystemStream.html",
-      4
+      "SinglePartitionSystemAdmin.html",
+      3
    ],
    [
       "Chris Riccomini",
-      "DefaultChooser.scala",
+      "TestSamzaAppMasterTaskManager.scala",
       2
    ],
    [
       "criccomini",
-      "Serde.html",
+      "Counter.html",
       4
    ],
    [
       "criccomini",
-      "CheckpointManager.html",
+      "MetricsReporter.html",
       4
-   ],
-   [
-      "criccomini",
-      "package-tree.html",
-      46
-   ],
-   [
-      "Chris Riccomini",
-      "DaemonThreadFactory.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "Deserializer.html",
-      4
-   ],
-   [
-      "criccomini",
-      "BlockingEnvelopeMap.BufferGauge.html",
-      4
-   ],
-   [
-      "criccomini",
-      "Config.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "TestSinglePartitionWithoutOffsetsSystemAdmin.java",
-      1
-   ],
-   [
-      "criccomini",
-      "MetricsType.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "TestBootstrappingChooser.scala",
-      2
-   ],
-   [
-      "Chris Riccomini",
-      "TestSamzaContainer.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "MetricsVisitor.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "TestSamzaContainer.scala",
-      2
-   ],
-   [
-      "criccomini",
-      "StreamTask.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "KafkaSystemAdmin.scala",
-      2
-   ],
-   [
-      "criccomini",
-      "SamzaContainerContext.html",
-      2
-   ],
-   [
-      "criccomini",
-      "state-management.html",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "SinglePartitionSystemAdmin.java",
-      1
    ],
    [
       "Chris Riccomini",
@@ -436,282 +616,37 @@
    ],
    [
       "criccomini",
-      "SystemStreamPartition.html",
-      4
-   ],
-   [
-      "Jakob Glen Homan",
-      "TestDoublingBackOff.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "constant-values.html",
-      4
-   ],
-   [
-      "criccomini",
-      "SystemConsumer.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "SinglePartitionWithoutOffsetsSystemAdmin.java",
-      1
-   ],
-   [
-      "criccomini",
-      "serialized-form.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "TestSinglePartitionSystemAdmin.java",
+      "SamzaContainerContext.html",
       2
    ],
    [
       "Chris Riccomini",
       "TestDefaultChooser.scala",
-      2
-   ],
-   [
-      "Jakob Glen Homan",
-      "TestSamzaContainerPerformance.scala",
       1
    ],
    [
       "criccomini",
-      "Metric.html",
+      "TaskLifecycleListenerFactory.html",
       4
    ],
    [
       "criccomini",
-      "help-doc.html",
+      "ApplicationStatus.html",
       4
    ],
    [
       "criccomini",
-      "ConfigFactory.html",
+      "MetricsReporterFactory.html",
       4
    ],
    [
       "criccomini",
-      "introduction.html",
+      "SystemStreamMetadata.SystemStreamPartitionMetadata.html",
       1
    ],
    [
       "Chris Riccomini",
-      "TestTaskInstance.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "Counter.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "DefaultChooser.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "Partition.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "Util.scala",
-      2
-   ],
-   [
-      "Chris Riccomini",
-      "DefaultChooserConfig.scala",
-      1
-   ],
-   [
-      "Jakob Homan",
-      "BrokerProxy.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "NoOpMetricsRegistry.html",
-      4
-   ],
-   [
-      "criccomini",
-      "SinglePartitionWithoutOffsetsSystemAdmin.html",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "TestKeyValueStores.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "overview-summary.html",
-      4
-   ],
-   [
-      "criccomini",
-      "architecture.html",
-      1
-   ],
-   [
-      "criccomini",
-      "index.html",
-      6
-   ],
-   [
-      "Chris Riccomini",
-      "TestBootstrappingChooser.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "SystemConsumer.java",
-      1
-   ],
-   [
-      "criccomini",
-      "ConfigException.html",
-      4
-   ],
-   [
-      "criccomini",
-      "OutgoingMessageEnvelope.html",
-      4
-   ],
-   [
-      "criccomini",
-      "Checkpoint.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "BrokerProxy.scala",
-      1
-   ],
-   [
-      "Jakob Homan",
-      "KafkaSystemConsumer.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "ReadableMetricsRegistry.html",
-      4
-   ],
-   [
-      "criccomini",
-      "SystemFactory.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "SinglePartitionWithoutOffsetsSystemAdmin.java",
-      2
-   ],
-   [
-      "criccomini",
-      "Clock.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "TestUtil.scala",
-      2
-   ],
-   [
-      "criccomini",
-      "SystemStreamPartitionIterator.html",
-      4
-   ],
-   [
-      "criccomini",
-      "SystemAdmin.html",
-      4
-   ],
-   [
-      "criccomini",
-      "DataType.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      ".reviewboardrc",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "LevelDbKeyValueStore.scala",
-      1
-   ],
-   [
-      "criccomini",
-      "WindowableTask.html",
-      4
-   ],
-   [
-      "criccomini",
-      "SamzaException.html",
-      4
-   ],
-   [
-      "criccomini",
-      "Gauge.html",
-      4
-   ],
-   [
-      "criccomini",
-      "TaskLifecycleListener.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "SystemAdmin.java",
-      1
-   ],
-   [
-      "criccomini",
-      "StorageEngineFactory.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "TestKafkaSystemAdmin.scala",
-      2
-   ],
-   [
-      "criccomini",
-      "ClosableTask.html",
-      4
-   ],
-   [
-      "Chris Riccomini",
-      "SystemStreamMetadata.java",
-      1
-   ],
-   [
-      "criccomini",
-      "MessageChooser.html",
-      4
-   ],
-   [
-      "criccomini",
-      "package-summary.html",
-      46
-   ],
-   [
-      "Chris Riccomini",
-      "TestDefaultChooser.scala",
-      1
-   ],
-   [
-      "Chris Riccomini",
-      "KeyValueStorageEngineFactory.scala",
+      "TestSinglePartitionWithoutOffsetsSystemAdmin.java",
       1
    ],
    [
@@ -720,14 +655,59 @@
       2
    ],
    [
+      "criccomini",
+      "Serializer.html",
+      4
+   ],
+   [
+      "criccomini",
+      "DataType.html",
+      4
+   ],
+   [
+      "Jakob Glen Homan",
+      "DoublingBackOff.scala",
+      1
+   ],
+   [
       "Chris Riccomini",
-      "TestSamzaAppMasterTaskManager.scala",
+      "TestSinglePartitionSystemAdmin.java",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "TaskInstance.scala",
       1
    ],
    [
       "criccomini",
-      "overview-tree.html",
+      "OutgoingMessageEnvelope.html",
       4
+   ],
+   [
+      "criccomini",
+      "StorageEngineFactory.html",
+      4
+   ],
+   [
+      "criccomini",
+      "ReadableMetricsRegistryListener.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "SinglePartitionSystemAdmin.java",
+      1
+   ],
+   [
+      "Jakob Homan",
+      "TestBrokerProxy.scala",
+      1
+   ],
+   [
+      "criccomini",
+      "index.html",
+      6
    ],
    [
       "criccomini",
@@ -736,12 +716,32 @@
    ],
    [
       "criccomini",
-      "TaskContext.html",
-      4
+      "task-runner.html",
+      1
+   ],
+   [
+      "Chris Riccomini",
+      "TestKafkaSystemAdmin.scala",
+      2
    ],
    [
       "criccomini",
-      "SystemStreamMetadata.SystemStreamPartitionMetadata.html",
+      "overview.html",
       1
+   ],
+   [
+      "criccomini",
+      "NoOpMetricsRegistry.html",
+      4
+   ],
+   [
+      "Chris Riccomini",
+      "SystemStreamMetadata.java",
+      2
+   ],
+   [
+      "criccomini",
+      "BlockingEnvelopeMap.html",
+      4
    ]
 ]

@@ -1,72 +1,12 @@
 [
    [
       "eyang",
-      "sigar-amd64-winnt.dll",
-      1
-   ],
-   [
-      "billgraham",
-      "ChukwaAgent.java",
+      "libsigar-ppc-linux.so",
       1
    ],
    [
       "eyang",
-      "libsigar-ppc64-aix-5.so",
-      1
-   ],
-   [
-      "eyang",
-      "hbase.schema",
-      1
-   ],
-   [
-      "asrabkin",
-      "agent.dict",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-x86-freebsd-5.so",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-amd64-freebsd-6.so",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-pa-hpux-11.sl",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-ia64-linux.so",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-amd64-solaris.so",
-      1
-   ],
-   [
-      "eyang",
-      "sigar-x86-winnt.dll",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-ia64-hpux-11.sl",
-      1
-   ],
-   [
-      "billgraham",
-      "OffsetStatsManager.java",
-      1
-   ],
-   [
-      "eyang",
-      "SigarRunner.java",
+      "OutputCollector.java",
       1
    ],
    [
@@ -80,58 +20,13 @@
       1
    ],
    [
-      "eyang",
-      "libsigar-ppc-linux.so",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-x86-freebsd-6.so",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-s390x-linux.so",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-universal64-macosx.dylib",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-ppc64-linux.so",
-      1
-   ],
-   [
-      "eyang",
-      "HBaseWriter.java",
-      1
-   ],
-   [
       "asrabkin",
-      "confspellcheck.jar",
+      "collector.dict",
       1
    ],
    [
       "eyang",
-      "libsigar-sparc-solaris.so",
-      1
-   ],
-   [
-      "eyang",
-      "SystemMetrics.java",
-      2
-   ],
-   [
-      "asrabkin",
-      "ChukwaConfiguration.java",
-      1
-   ],
-   [
-      "eyang",
-      "libsigar-amd64-solaris-1.so",
+      "sigar-x86-winnt.lib",
       1
    ],
    [
@@ -141,37 +36,27 @@
    ],
    [
       "eyang",
-      "sigar-x86-winnt.lib",
+      "libsigar-amd64-linux.so",
       1
    ],
    [
       "eyang",
-      "libsigar-sparc64-solaris.so",
-      1
-   ],
-   [
-      "asrabkin",
-      "ChukwaAgent.java",
+      "HBaseWriter.java",
       1
    ],
    [
       "eyang",
-      "libsigar-x86-solaris.so",
+      "libsigar-universal-macosx.dylib",
       1
    ],
    [
       "eyang",
-      "OutputCollector.java",
-      1
-   ],
-   [
-      "asrabkin",
-      "collector.dict",
+      "libsigar-ppc64-linux.so",
       1
    ],
    [
       "eyang",
-      "libsigar-x86-linux.so",
+      "SigarRunner.java",
       1
    ],
    [
@@ -181,7 +66,57 @@
    ],
    [
       "eyang",
-      "libsigar-amd64-linux.so",
+      "libsigar-amd64-freebsd-6.so",
+      1
+   ],
+   [
+      "eyang",
+      "sigar-amd64-winnt.dll",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-universal64-macosx.dylib",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-pa-hpux-11.sl",
+      1
+   ],
+   [
+      "asrabkin",
+      "ChukwaAgent.java",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-ia64-linux.so",
+      1
+   ],
+   [
+      "eyang",
+      "hbase.schema",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-ppc64-aix-5.so",
+      1
+   ],
+   [
+      "asrabkin",
+      "ChukwaConfiguration.java",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-s390x-linux.so",
+      1
+   ],
+   [
+      "asrabkin",
+      "confspellcheck.jar",
       1
    ],
    [
@@ -190,13 +125,78 @@
       1
    ],
    [
-      "billgraham",
-      "AdaptorController.java",
+      "eyang",
+      "libsigar-x86-freebsd-6.so",
       1
    ],
    [
       "eyang",
-      "libsigar-universal-macosx.dylib",
+      "libsigar-x86-solaris.so",
+      1
+   ],
+   [
+      "billgraham",
+      "ChukwaAgent.java",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-sparc64-solaris.so",
+      1
+   ],
+   [
+      "eyang",
+      "SystemMetrics.java",
+      2
+   ],
+   [
+      "eyang",
+      "sigar-x86-winnt.dll",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-x86-linux.so",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-amd64-solaris-1.so",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-sparc-solaris.so",
+      1
+   ],
+   [
+      "asrabkin",
+      "agent.dict",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-amd64-solaris.so",
+      1
+   ],
+   [
+      "billgraham",
+      "OffsetStatsManager.java",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-ia64-hpux-11.sl",
+      1
+   ],
+   [
+      "eyang",
+      "libsigar-x86-freebsd-5.so",
+      1
+   ],
+   [
+      "billgraham",
+      "AdaptorController.java",
       1
    ]
 ]

@@ -1,12 +1,7 @@
 [
    [
       "sebastian",
-      "table_row_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "annotation_factory_test.php",
+      "006_lock_collection_failure_locked_assertions.php",
       1
    ],
    [
@@ -16,72 +11,12 @@
    ],
    [
       "sebastian",
-      "db_tree.php",
-      1
-   ],
-   [
-      "sebastian",
-      "extension_test.php",
-      1
-   ],
-   [
-      "derick",
-      "controller.php",
-      1
-   ],
-   [
-      "sebastian",
-      "backend_simple_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "002_lock_collection_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "solr_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "po_store.php",
-      1
-   ],
-   [
-      "sebastian",
       "debug_test.php",
       1
    ],
    [
       "sebastian",
-      "parser_test.php",
-      2
-   ],
-   [
-      "sebastian",
-      "function_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "menu_dialog_options_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "save_test.php",
-      2
-   ],
-   [
-      "sebastian",
-      "xml_tree.php",
-      1
-   ],
-   [
-      "sebastian",
-      "test_helper.php",
+      "dialog_options_test.php",
       1
    ],
    [
@@ -96,62 +31,7 @@
    ],
    [
       "sebastian",
-      "class_test.php",
-      1
-   ],
-   [
-      "derick",
-      "response-writer.php",
-      1
-   ],
-   [
-      "sebastian",
-      "020_copy_resource_both_locked_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "memory_tree.php",
-      1
-   ],
-   [
-      "sebastian",
-      "node_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "configuration.php",
-      1
-   ],
-   [
-      "sebastian",
-      "load_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "001_lock_resource_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "008_unlock_resource_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "003_lock_null_resource_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "type_factory_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "condition_test.php",
+      "style_parser_test.php",
       1
    ],
    [
@@ -161,62 +41,7 @@
    ],
    [
       "sebastian",
-      "013_unlock_wrong_token_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "parameter_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "question_dialog_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "014_move_resource_both_locked_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "012_unlock_locknull_remove_success_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "006_lock_collection_failure_locked_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "converter_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "dialog_options_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "005_lock_resource_failure_locked_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "reflection_test.php",
-      1
-   ],
-   [
-      "sebastian",
-      "007_lock_collection_failure_deep_locked_assertions.php",
-      1
-   ],
-   [
-      "sebastian",
-      "010_unlock_collection_deep_success_assertions.php",
+      "style_extractor_test.php",
       1
    ],
    [
@@ -226,17 +51,32 @@
    ],
    [
       "sebastian",
-      "method_test.php",
+      "load_test.php",
       1
    ],
    [
       "sebastian",
-      "style_parser_test.php",
+      "014_move_resource_both_locked_success_assertions.php",
       1
    ],
    [
       "sebastian",
-      "property_test.php",
+      "converter_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "annotation_factory_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "parser_test.php",
+      2
+   ],
+   [
+      "sebastian",
+      "mixed_type_test.php",
       1
    ],
    [
@@ -246,12 +86,162 @@
    ],
    [
       "sebastian",
-      "style_extractor_test.php",
+      "007_lock_collection_failure_deep_locked_assertions.php",
       1
    ],
    [
       "sebastian",
+      "003_lock_null_resource_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "function_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "class_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "solr_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "011_unlock_lock_purged_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "metadata_pear_test.php",
+      1
+   ],
+   [
+      "derick",
+      "response-writer.php",
+      1
+   ],
+   [
+      "sebastian",
+      "configuration.php",
+      1
+   ],
+   [
+      "sebastian",
+      "test_helper.php",
+      1
+   ],
+   [
+      "derick",
+      "controller.php",
+      1
+   ],
+   [
+      "sebastian",
+      "backend_simple_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "010_unlock_collection_deep_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "020_copy_resource_both_locked_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "table_row_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "012_unlock_locknull_remove_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "property_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "reflection_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "013_unlock_wrong_token_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "condition_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "question_dialog_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "menu_dialog_options_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "memory_tree.php",
+      1
+   ],
+   [
+      "sebastian",
+      "db_tree.php",
+      1
+   ],
+   [
+      "sebastian",
+      "extension_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "save_test.php",
+      2
+   ],
+   [
+      "sebastian",
       "004_lock_null_collection_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "parameter_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "005_lock_resource_failure_locked_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "po_store.php",
+      1
+   ],
+   [
+      "sebastian",
+      "008_unlock_resource_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "type_factory_test.php",
       1
    ],
    [
@@ -266,17 +256,27 @@
    ],
    [
       "sebastian",
-      "mixed_type_test.php",
+      "node_test.php",
       1
    ],
    [
       "sebastian",
-      "011_unlock_lock_purged_success_assertions.php",
+      "xml_tree.php",
       1
    ],
    [
       "sebastian",
-      "metadata_pear_test.php",
+      "method_test.php",
+      1
+   ],
+   [
+      "sebastian",
+      "001_lock_resource_success_assertions.php",
+      1
+   ],
+   [
+      "sebastian",
+      "002_lock_collection_success_assertions.php",
       1
    ]
 ]

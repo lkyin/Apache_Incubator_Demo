@@ -1,42 +1,46 @@
 [
    {
+      "name": "Keith Turner",
       "imports": [
          "Josh Elser",
          "Josh Elser",
          "Christopher",
          "Christopher"
-      ],
-      "name": "Keith Turner"
+      ]
    },
    {
-      "imports": [
-         "Keith Turner",
-         "Christopher"
-      ],
-      "name": "Michael Wall"
-   },
-   {
+      "name": "Christopher",
       "imports": [
          "Keith Turner",
          "Josh Elser",
          "Mike Walch",
          "Michael Wall"
-      ],
-      "name": "Christopher"
+      ]
    },
    {
+      "name": "johndament",
+      "imports": []
+   },
+   {
+      "name": "Michael Wall",
+      "imports": [
+         "Keith Turner",
+         "Christopher"
+      ]
+   },
+   {
+      "name": "Josh Elser",
+      "imports": [
+         "johndament",
+         "Mike Walch"
+      ]
+   },
+   {
+      "name": "Mike Walch",
       "imports": [
          "Keith Turner",
          "Keith Turner",
          "Keith Turner"
-      ],
-      "name": "Mike Walch"
-   },
-   {
-      "imports": [
-         "johndament",
-         "Mike Walch"
-      ],
-      "name": "Josh Elser"
+      ]
    }
 ]

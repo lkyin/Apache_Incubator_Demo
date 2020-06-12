@@ -1,107 +1,42 @@
 [
    [
-      "gates",
-      "HCatWriter.java",
-      2
-   ],
-   [
-      "gates",
-      "HCatReader.java",
-      2
-   ],
-   [
-      "toffer",
-      "TestRCFileMapReduceInputFormat.java",
-      2
-   ],
-   [
-      "gates",
-      "PartInfo.java",
-      2
-   ],
-   [
-      "gates",
-      "FosterStorageHandler.java",
-      2
-   ],
-   [
-      "gates",
-      "HCatInputStorageDriver.java",
-      3
-   ],
-   [
-      "gates",
-      "default.conf",
-      3
-   ],
-   [
-      "gates",
-      "generate_data.pl",
-      5
-   ],
-   [
-      "toffer",
-      "Security.java",
-      2
-   ],
-   [
       "toffer",
       "InitializeInput.java",
       4
    ],
    [
       "toffer",
-      "HCatRecordSerDe.java",
-      6
-   ],
-   [
-      "gates",
-      "DataTransferFactory.java",
+      "HCatOutputFormat.java",
       4
    ],
    [
       "gates",
-      "HCatSemanticAnalyzer.java",
-      1
-   ],
-   [
-      "gates",
-      "DataReaderSlave.java",
+      "Util.pm",
       3
    ],
    [
-      "toffer",
-      "TestJsonSerDe.java",
-      2
-   ],
-   [
-      "toffer",
-      "FileOutputCommitterContainer.java",
-      10
-   ],
-   [
-      "toffer",
-      "TestHCatOutputFormat.java",
-      2
-   ],
-   [
-      "toffer",
-      "TestSemanticAnalysis.java",
+      "gates",
+      "HBaseHCatStorageHandler.java",
       2
    ],
    [
       "gates",
-      "existing_deployer.conf",
+      "RCFileOutputDriver.java",
       3
    ],
    [
-      "toffer",
-      "HCatDataCheckUtil.java",
+      "gates",
+      "HCatUtil.java",
       2
    ],
    [
       "toffer",
-      "HCatRecordReader.java",
+      "HCatLoader.java",
+      2
+   ],
+   [
+      "toffer",
+      "TestHCatSchemaUtils.java",
       2
    ],
    [
@@ -116,8 +51,68 @@
    ],
    [
       "gates",
-      "hcat_server_install.sh",
+      "HCatExistingClusterDeployer.pm",
       2
+   ],
+   [
+      "toffer",
+      "PigHCatUtil.java",
+      2
+   ],
+   [
+      "gates",
+      "HCatOutputStorageDriver.java",
+      3
+   ],
+   [
+      "toffer",
+      "TestSemanticAnalysis.java",
+      2
+   ],
+   [
+      "gates",
+      "TestHCatStorerMulti.java",
+      1
+   ],
+   [
+      "toffer",
+      "FileOutputFormatContainer.java",
+      2
+   ],
+   [
+      "toffer",
+      "HCatSemanticAnalyzer.java",
+      2
+   ],
+   [
+      "toffer",
+      "TestEximSemanticAnalysis.java",
+      2
+   ],
+   [
+      "gates",
+      "HcatTestUtils.java",
+      1
+   ],
+   [
+      "toffer",
+      "TestHCatDynamicPartitioned.java",
+      2
+   ],
+   [
+      "gates",
+      "FileOutputStorageDriver.java",
+      3
+   ],
+   [
+      "gates",
+      "TestDriverHadoop.pm",
+      3
+   ],
+   [
+      "toffer",
+      "TestHCatMultiOutputFormat.java",
+      1
    ],
    [
       "gates",
@@ -125,7 +120,92 @@
       2
    ],
    [
+      "gates",
+      "overview.html",
+      2
+   ],
+   [
+      "gates",
+      "HCatSemanticAnalyzer.java",
+      1
+   ],
+   [
+      "gates",
+      "PartInfo.java",
+      2
+   ],
+   [
+      "gates",
+      "generate_data.pl",
+      5
+   ],
+   [
       "toffer",
+      "TestPermsGrp.java",
+      2
+   ],
+   [
+      "toffer",
+      "HCatRecordObjectInspector.java",
+      2
+   ],
+   [
+      "gates",
+      "TestPassProperties.java",
+      1
+   ],
+   [
+      "gates",
+      "hcat_server_install.sh",
+      2
+   ],
+   [
+      "gates",
+      "StorerInfo.java",
+      2
+   ],
+   [
+      "gates",
+      "default.conf",
+      3
+   ],
+   [
+      "gates",
+      "HCatWriter.java",
+      2
+   ],
+   [
+      "toffer",
+      "HCatBaseOutputFormat.java",
+      2
+   ],
+   [
+      "gates",
+      "FosterStorageHandler.java",
+      2
+   ],
+   [
+      "toffer",
+      "DefaultOutputCommitterContainer.java",
+      4
+   ],
+   [
+      "toffer",
+      "TestRCFileMapReduceInputFormat.java",
+      2
+   ],
+   [
+      "gates",
+      "TestHCatPartitioned.java",
+      2
+   ],
+   [
+      "toffer",
+      "TestJsonSerDe.java",
+      2
+   ],
+   [
+      "gates",
       "TestHCatLoaderComplexSchema.java",
       2
    ],
@@ -136,102 +216,7 @@
    ],
    [
       "toffer",
-      "FileOutputFormatContainer.java",
-      2
-   ],
-   [
-      "toffer",
-      "HCatLoader.java",
-      2
-   ],
-   [
-      "gates",
-      "PartitionStorageDriverAnnotator.java",
-      3
-   ],
-   [
-      "toffer",
-      "TestHCatMultiOutputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "envbased.conf",
-      2
-   ],
-   [
-      "avandana",
-      "TestHCatStorer.java",
-      2
-   ],
-   [
-      "gates",
       "TestHCatLoaderComplexSchema.java",
-      2
-   ],
-   [
-      "gates",
-      "HCatUtil.java",
-      2
-   ],
-   [
-      "gates",
-      "HCatInputFormat.java",
-      2
-   ],
-   [
-      "gates",
-      "TestHCatStorer.java",
-      1
-   ],
-   [
-      "gates",
-      "TestDriverHadoop.pm",
-      3
-   ],
-   [
-      "gates",
-      "overview.html",
-      2
-   ],
-   [
-      "toffer",
-      "TestHCatRecordSerDe.java",
-      2
-   ],
-   [
-      "toffer",
-      "HCatStorer.java",
-      4
-   ],
-   [
-      "toffer",
-      "HCatOutputFormat.java",
-      4
-   ],
-   [
-      "gates",
-      "HcatTestUtils.java",
-      1
-   ],
-   [
-      "toffer",
-      "HCatRecordObjectInspectorFactory.java",
-      2
-   ],
-   [
-      "avandana",
-      "PigHCatUtil.java",
-      2
-   ],
-   [
-      "gates",
-      "HBaseConstants.java",
-      2
-   ],
-   [
-      "gates",
-      "rpm.conf",
       2
    ],
    [
@@ -241,7 +226,57 @@
    ],
    [
       "gates",
-      "HBaseRevisionManagerUtil.java",
+      "DataReaderSlave.java",
+      3
+   ],
+   [
+      "gates",
+      "TestHCatStorer.java",
+      1
+   ],
+   [
+      "gates",
+      "TestSequenceFileReadWrite.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatMapReduceTest.java",
+      2
+   ],
+   [
+      "toffer",
+      "HCatRecordReader.java",
+      2
+   ],
+   [
+      "gates",
+      "HCatReader.java",
+      2
+   ],
+   [
+      "toffer",
+      "HCatRecordObjectInspectorFactory.java",
+      2
+   ],
+   [
+      "avandana",
+      "TestHCatStorer.java",
+      2
+   ],
+   [
+      "toffer",
+      "HCatStorer.java",
+      4
+   ],
+   [
+      "toffer",
+      "Security.java",
+      2
+   ],
+   [
+      "gates",
+      "HCatInputFormat.java",
       2
    ],
    [
@@ -250,29 +285,44 @@
       2
    ],
    [
-      "toffer",
-      "HCatCli.java",
+      "gates",
+      "DataTransferFactory.java",
+      4
+   ],
+   [
+      "gates",
+      "TestDriverHive.pm",
       2
    ],
    [
       "toffer",
-      "DefaultOutputCommitterContainer.java",
-      4
+      "FileOutputCommitterContainer.java",
+      10
+   ],
+   [
+      "toffer",
+      "MultiOutputFormat.java",
+      1
+   ],
+   [
+      "gates",
+      "DataWriterSlave.java",
+      3
+   ],
+   [
+      "gates",
+      "hcat_server.sh",
+      2
+   ],
+   [
+      "gates",
+      "rpm.conf",
+      2
    ],
    [
       "toffer",
       "HCatUtil.java",
       6
-   ],
-   [
-      "toffer",
-      "TestHCatSchemaUtils.java",
-      2
-   ],
-   [
-      "gates",
-      "Util.pm",
-      3
    ],
    [
       "gates",
@@ -286,97 +336,7 @@
    ],
    [
       "toffer",
-      "TestEximSemanticAnalysis.java",
-      2
-   ],
-   [
-      "gates",
-      "TestPassProperties.java",
-      1
-   ],
-   [
-      "gates",
-      "StorerInfo.java",
-      2
-   ],
-   [
-      "gates",
-      "TestDriverHive.pm",
-      2
-   ],
-   [
-      "gates",
-      "RCFileOutputDriver.java",
-      3
-   ],
-   [
-      "toffer",
-      "MultiOutputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "FileOutputStorageDriver.java",
-      3
-   ],
-   [
-      "gates",
-      "hcat_server.sh",
-      2
-   ],
-   [
-      "toffer",
-      "TestPermsGrp.java",
-      2
-   ],
-   [
-      "gates",
-      "DataWriterSlave.java",
-      3
-   ],
-   [
-      "toffer",
-      "HCatSemanticAnalyzer.java",
-      2
-   ],
-   [
-      "gates",
-      "HCatOutputStorageDriver.java",
-      3
-   ],
-   [
-      "gates",
       "HCatMapReduceTest.java",
-      2
-   ],
-   [
-      "gates",
-      "TestHCatPartitioned.java",
-      2
-   ],
-   [
-      "gates",
-      "TestHCatStorerMulti.java",
-      1
-   ],
-   [
-      "toffer",
-      "TestHCatDynamicPartitioned.java",
-      2
-   ],
-   [
-      "gates",
-      "HCatExistingClusterDeployer.pm",
-      2
-   ],
-   [
-      "toffer",
-      "HCatBaseOutputFormat.java",
-      2
-   ],
-   [
-      "toffer",
-      "PigHCatUtil.java",
       2
    ],
    [
@@ -385,28 +345,68 @@
       1
    ],
    [
-      "toffer",
-      "HCatMapReduceTest.java",
+      "gates",
+      "HBaseRevisionManagerUtil.java",
       2
    ],
    [
       "gates",
-      "HBaseHCatStorageHandler.java",
+      "HBaseConstants.java",
       2
    ],
    [
       "gates",
-      "TestSequenceFileReadWrite.java",
-      1
+      "existing_deployer.conf",
+      3
+   ],
+   [
+      "gates",
+      "envbased.conf",
+      2
    ],
    [
       "toffer",
-      "HCatRecordObjectInspector.java",
+      "TestHCatRecordSerDe.java",
+      2
+   ],
+   [
+      "avandana",
+      "PigHCatUtil.java",
+      2
+   ],
+   [
+      "gates",
+      "HCatInputStorageDriver.java",
+      3
+   ],
+   [
+      "toffer",
+      "TestHCatOutputFormat.java",
+      2
+   ],
+   [
+      "toffer",
+      "HCatCli.java",
       2
    ],
    [
       "toffer",
       "HCatSplit.java",
       2
+   ],
+   [
+      "toffer",
+      "HCatRecordSerDe.java",
+      6
+   ],
+   [
+      "toffer",
+      "HCatDataCheckUtil.java",
+      2
+   ],
+   [
+      "gates",
+      "PartitionStorageDriverAnnotator.java",
+      3
    ]
 ]

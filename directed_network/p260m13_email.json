@@ -1,47 +1,51 @@
 [
    {
+      "name": "development",
+      "imports": []
+   },
+   {
+      "name": "Doug Cutting",
+      "imports": [
+         "Tim Williams"
+      ]
+   },
+   {
+      "name": "Chris Rohr",
+      "imports": [
+         "Tim Williams",
+         "Tim Williams"
+      ]
+   },
+   {
+      "name": "Patrick Hunt",
       "imports": [
          "rahul challapalli",
          "Aaron McCurry",
          "Tim Williams",
          "Doug Cutting"
-      ],
-      "name": "Patrick Hunt"
+      ]
    },
    {
+      "name": "rahul challapalli",
+      "imports": [
+         "Patrick Hunt"
+      ]
+   },
+   {
+      "name": "Aaron McCurry",
       "imports": [
          "rahul challapalli",
          "development",
          "rahul challapalli",
          "Tim Williams"
-      ],
-      "name": "Aaron McCurry"
+      ]
    },
    {
-      "imports": [
-         "Tim Williams"
-      ],
-      "name": "Doug Cutting"
-   },
-   {
-      "imports": [
-         "Tim Williams",
-         "Tim Williams"
-      ],
-      "name": "Chris Rohr"
-   },
-   {
-      "imports": [
-         "Patrick Hunt"
-      ],
-      "name": "rahul challapalli"
-   },
-   {
+      "name": "Tim Williams",
       "imports": [
          "Chris Rohr",
          "Patrick Hunt",
          "Aaron McCurry"
-      ],
-      "name": "Tim Williams"
+      ]
    }
 ]

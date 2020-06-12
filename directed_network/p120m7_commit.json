@@ -1,67 +1,17 @@
 [
    [
       "edwardyoon",
-      "BlockPosition.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "RowCyclicAdditionMap.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "BlockEntry.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "TestBlockMatrixMapReduce.java",
-      6
-   ],
-   [
-      "edwardyoon",
-      "TestMatrixMapReduce.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "HamaConfiguration.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "BlockWritable.java",
+      "BlockCyclicMap.java",
       3
    ],
    [
       "edwardyoon",
-      "BlockMapWritable.java",
-      3
+      "BlockCyclicMultiplyReduce.java",
+      5
    ],
    [
       "edwardyoon",
-      "LoadOperation.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "TestBlockID.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "BlockCyclicMultiplyMap.java",
-      7
-   ],
-   [
-      "edwardyoon",
-      "index.html",
-      1
-   ],
-   [
-      "samuel",
-      "BlockID.java",
+      "RandomMatrixMap.java",
       1
    ],
    [
@@ -71,18 +21,143 @@
    ],
    [
       "edwardyoon",
+      "MatrixMultiplication.java",
+      6
+   ],
+   [
+      "edwardyoon",
       "BlockInputFormat.java",
       5
    ],
    [
       "edwardyoon",
-      "RandomMatrix.java",
+      "HamaExpression.java",
       1
    ],
    [
       "edwardyoon",
-      "DenseVector.java",
+      "BytesUtil.java",
       2
+   ],
+   [
+      "edwardyoon",
+      "JobManager.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "HamaAdmin.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "AbstractMatrix.java",
+      4
+   ],
+   [
+      "edwardyoon",
+      "AbstractExample.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "SIMDMultiplyMap.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "Matrix.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "BlockWritable.java",
+      3
+   ],
+   [
+      "edwardyoon",
+      "VectorInputFormat.java",
+      2
+   ],
+   [
+      "samuel",
+      "DenseMatrix.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "ExampleDriver.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "MatrixAddition.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "TestDenseVector.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "BlockMapWritable.java",
+      3
+   ],
+   [
+      "edwardyoon",
+      "Constants.java",
+      3
+   ],
+   [
+      "edwardyoon",
+      "TestRandomMatrixMapReduce.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "DenseMatrix.java",
+      18
+   ],
+   [
+      "edwardyoon",
+      "HamaShell.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "BlockInputFormatBase.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "BlockingMapRed.java",
+      8
+   ],
+   [
+      "edwardyoon",
+      "VectorWritable.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "TestBlockMatrixMapReduce.java",
+      6
+   ],
+   [
+      "edwardyoon",
+      "BlockPositionMapWritable.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "BlockPosition.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "RowCyclicAdditionReduce.java",
+      1
    ],
    [
       "edwardyoon",
@@ -96,77 +171,17 @@
    ],
    [
       "edwardyoon",
-      "BlockID.java",
-      6
-   ],
-   [
-      "edwardyoon",
-      "RandomMatrixMap.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "Constants.java",
-      3
-   ],
-   [
-      "edwardyoon",
-      "AbstractMatrix.java",
-      4
-   ],
-   [
-      "edwardyoon",
-      "TestDenseVector.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "BlockPositionMapWritable.java",
+      "TableRecordReaderBase.java",
       2
    ],
    [
       "edwardyoon",
-      "JobManager.java",
+      "DenseVector.java",
       2
    ],
    [
       "edwardyoon",
-      "BlockCyclicMap.java",
-      3
-   ],
-   [
-      "edwardyoon",
-      "TestDenseMatrix.java",
-      14
-   ],
-   [
-      "edwardyoon",
-      "MatrixMultiplication.java",
-      6
-   ],
-   [
-      "edwardyoon",
-      "DenseMatrix.java",
-      18
-   ],
-   [
-      "edwardyoon",
-      "RowCyclicAdditionReduce.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "Matrix.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "AbstractExample.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "BytesUtil.java",
+      "TestBlockRowId.java",
       2
    ],
    [
@@ -176,67 +191,7 @@
    ],
    [
       "edwardyoon",
-      "VectorWritable.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "VectorInputFormat.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "HamaAdmin.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "HamaAdminImpl.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "MatrixAddition.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "TableRecordReaderBase.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "HamaShell.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "TestBlockRowId.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "BlockingMapRed.java",
-      8
-   ],
-   [
-      "edwardyoon",
-      "BlockCyclicMultiplyReduce.java",
-      5
-   ],
-   [
-      "samuel",
-      "DenseMatrix.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "TableInputFormatBase.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "MapWritable.java",
+      "LoadOperation.java",
       1
    ],
    [
@@ -246,17 +201,47 @@
    ],
    [
       "edwardyoon",
-      "BlockInputFormatBase.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "ExampleDriver.java",
+      "TableInputFormatBase.java",
       1
    ],
    [
       "edwardyoon",
-      "SIMDMultiplyMap.java",
+      "HamaAdminImpl.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "TestMatrixMapReduce.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "index.html",
+      1
+   ],
+   [
+      "edwardyoon",
+      "MapWritable.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "TestDenseMatrix.java",
+      14
+   ],
+   [
+      "edwardyoon",
+      "RowCyclicAdditionMap.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "BlockCyclicMultiplyMap.java",
+      7
+   ],
+   [
+      "edwardyoon",
+      "RandomMatrix.java",
       1
    ],
    [
@@ -266,12 +251,27 @@
    ],
    [
       "edwardyoon",
-      "TestRandomMatrixMapReduce.java",
+      "TestBlockID.java",
       1
    ],
    [
       "edwardyoon",
-      "HamaExpression.java",
+      "HamaConfiguration.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "BlockID.java",
+      6
+   ],
+   [
+      "samuel",
+      "BlockID.java",
       1
+   ],
+   [
+      "edwardyoon",
+      "BlockEntry.java",
+      2
    ]
 ]

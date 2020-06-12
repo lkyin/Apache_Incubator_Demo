@@ -1,22 +1,26 @@
 [
    {
-      "imports": [
-         "Mark Struberg",
-         "Romain Manni-Bucau"
-      ],
-      "name": "Hendrik Dev"
+      "name": "Romain Manni-Bucau",
+      "imports": []
    },
    {
-      "imports": [
-         "Mark Struberg"
-      ],
-      "name": "Karl Grosse"
-   },
-   {
+      "name": "Mark Struberg",
       "imports": [
          "Hendrik Dev",
          "Hendrik Dev"
-      ],
-      "name": "Mark Struberg"
+      ]
+   },
+   {
+      "name": "Karl Grosse",
+      "imports": [
+         "Mark Struberg"
+      ]
+   },
+   {
+      "name": "Hendrik Dev",
+      "imports": [
+         "Mark Struberg",
+         "Romain Manni-Bucau"
+      ]
    }
 ]

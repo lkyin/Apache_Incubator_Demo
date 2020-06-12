@@ -1,77 +1,32 @@
 [
    [
       "joern",
-      "opennlp.version",
+      "Version.java",
       1
    ],
    [
       "joern",
-      "NGramModel.java",
-      1
-   ],
-   [
-      "colen",
-      "ADNameSampleStream.java",
+      "POSTaggerMETest.java",
       1
    ],
    [
       "joern",
-      "SentenceSampleStream.java",
+      "NameSampleSequenceStream.java",
       1
    ],
    [
       "joern",
-      "DoccatTrainerTool.java",
+      "FeatureGeneratorFactory.java",
       1
    ],
    [
       "joern",
-      "GeneratorFactory.java",
-      5
-   ],
-   [
-      "joern",
-      "TokenNameFinderTrainerTool.java",
+      "AbstractBottomUpParser.java",
       2
-   ],
-   [
-      "joern",
-      "NameSample.java",
-      1
-   ],
-   [
-      "joern",
-      "DefaultSDContextGenerator.java",
-      2
-   ],
-   [
-      "joern",
-      "CrossValidationPartitioner.java",
-      1
-   ],
-   [
-      "colen",
-      "ADChunkSampleStreamTest.java",
-      1
    ],
    [
       "colen",
       "ADParagraphStreamTest.java",
-      1
-   ],
-   [
-      "colen",
-      "ADSentenceStream.java",
-      1
-   ],
-   [
-      "joern",
-      "POSEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "POSEventGenerator.java",
       1
    ],
    [
@@ -81,42 +36,77 @@
    ],
    [
       "joern",
-      "GIS.java",
-      1
-   ],
-   [
-      "jbaldrid",
-      "PerceptronModel.java",
-      2
-   ],
-   [
-      "joern",
-      "POSEvaluator.java",
-      2
-   ],
-   [
-      "joern",
-      "ArtifactSerializer.java",
+      "SDCrossValidator.java",
       1
    ],
    [
       "joern",
-      "POSSampleSequenceStream.java",
+      "NGramModel.java",
       1
    ],
    [
       "joern",
-      "ChunkerME.java",
-      3
+      "GISTrainer.java",
+      5
    ],
    [
       "colen",
-      "POSTaggerCrossValidator.java",
+      "PortugueseContractionUtility.java",
       1
    ],
    [
       "jbaldrid",
       "PerceptronTrainer.java",
+      1
+   ],
+   [
+      "colen",
+      "NameFinderME.java",
+      2
+   ],
+   [
+      "jbaldrid",
+      "PerceptronPrepAttachTest.java",
+      2
+   ],
+   [
+      "joern",
+      "TokenNameFinderTrainerTool.java",
+      2
+   ],
+   [
+      "joern",
+      "CrossValidationPartitioner.java",
+      1
+   ],
+   [
+      "joern",
+      "VersionTest.java",
+      1
+   ],
+   [
+      "joern",
+      "POSModel.java",
+      1
+   ],
+   [
+      "joern",
+      "POSEventCollector.java",
+      1
+   ],
+   [
+      "joern",
+      "ChunkerTrainerTool.java",
+      1
+   ],
+   [
+      "colen",
+      "ADNameSampleStreamTest.java",
+      1
+   ],
+   [
+      "joern",
+      "SentenceSample.java",
       1
    ],
    [
@@ -126,38 +116,88 @@
    ],
    [
       "joern",
-      "VersionTest.java",
+      "NameFinderEventStream.java",
+      2
+   ],
+   [
+      "joern",
+      "POSEventGenerator.java",
       1
    ],
    [
       "colen",
-      "POSTaggerCrossValidatorTool.java",
+      "ADChunkSampleStreamTest.java",
+      1
+   ],
+   [
+      "joern",
+      "ChunkerME.java",
+      3
+   ],
+   [
+      "joern",
+      "TokenizerCrossValidator.java",
+      1
+   ],
+   [
+      "joern",
+      "ArtifactSerializer.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenizerME.java",
+      1
+   ],
+   [
+      "joern",
+      "Pair.java",
+      1
+   ],
+   [
+      "joern",
+      "DefaultSDContextGenerator.java",
+      2
+   ],
+   [
+      "joern",
+      "POSTaggerME.java",
+      2
+   ],
+   [
+      "joern",
+      "EmptyLinePreprocessorStream.java",
+      1
+   ],
+   [
+      "joern",
+      "StringList.java",
+      1
+   ],
+   [
+      "joern",
+      "DoccatTrainerTool.java",
+      1
+   ],
+   [
+      "joern",
+      "POSSampleSequenceStream.java",
+      1
+   ],
+   [
+      "colen",
+      "CLI.java",
+      2
+   ],
+   [
+      "joern",
+      "BigramNameFeatureGenerator.java",
       1
    ],
    [
       "joern",
       "GeneratorFactoryTest.java",
       2
-   ],
-   [
-      "colen",
-      "TokenNameFinderCrossValidatorTool.java",
-      1
-   ],
-   [
-      "jbaldrid",
-      "ListEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "Entry.java",
-      1
-   ],
-   [
-      "joern",
-      "POSTaggerTrainer.java",
-      1
    ],
    [
       "joern",
@@ -170,13 +210,53 @@
       2
    ],
    [
+      "joern",
+      "AggregatedFeatureGenerator.java",
+      1
+   ],
+   [
       "jbaldrid",
-      "PerceptronPrepAttachTest.java",
+      "PerceptronModel.java",
+      2
+   ],
+   [
+      "colen",
+      "TokenNameFinderCrossValidator.java",
+      1
+   ],
+   [
+      "joern",
+      "DocumentCategorizerEvaluator.java",
+      1
+   ],
+   [
+      "joern",
+      "GIS.java",
+      1
+   ],
+   [
+      "joern",
+      "NameFinderME.java",
+      5
+   ],
+   [
+      "joern",
+      "TrainUtil.java",
+      1
+   ],
+   [
+      "joern",
+      "POSEvaluator.java",
       2
    ],
    [
       "joern",
-      "SDCrossValidator.java",
+      "POSTaggerTrainerTool.java",
+      2
+   ],
+   [
+      "colen",
+      "POSTaggerCrossValidator.java",
       1
    ],
    [
@@ -186,57 +266,37 @@
    ],
    [
       "joern",
-      "POSTaggerMETest.java",
+      "POSTaggerTrainer.java",
+      1
+   ],
+   [
+      "colen",
+      "ADChunkSampleStream.java",
+      1
+   ],
+   [
+      "jbaldrid",
+      "ListEventStream.java",
       1
    ],
    [
       "joern",
-      "StringList.java",
-      1
-   ],
-   [
-      "joern",
-      "SentenceSample.java",
-      1
-   ],
-   [
-      "joern",
-      "FeatureGeneratorFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "GISTrainer.java",
+      "GeneratorFactory.java",
       5
    ],
    [
       "joern",
-      "POSEventCollector.java",
+      "SentenceSampleStream.java",
       1
    ],
    [
       "joern",
-      "SentenceDetectorME.java",
-      1
-   ],
-   [
-      "colen",
-      "TokenNameFinderCrossValidator.java",
+      "POSTaggerCrossValidator.java",
       1
    ],
    [
       "joern",
-      "NameFinderEventStream.java",
-      2
-   ],
-   [
-      "colen",
-      "PortugueseContractionUtility.java",
-      1
-   ],
-   [
-      "joern",
-      "Pair.java",
+      "POSEventStream.java",
       1
    ],
    [
@@ -246,13 +306,18 @@
    ],
    [
       "joern",
-      "TrainUtil.java",
+      "Entry.java",
       1
    ],
    [
       "colen",
-      "ADChunkSampleStream.java",
+      "POSTaggerCrossValidatorTool.java",
       1
+   ],
+   [
+      "joern",
+      "PerceptronModel.java",
+      3
    ],
    [
       "joern",
@@ -266,38 +331,38 @@
    ],
    [
       "joern",
+      "TokenNameFinderModel.java",
+      2
+   ],
+   [
+      "joern",
       "SimplePerceptronSequenceTrainer.java",
       2
    ],
    [
-      "joern",
-      "POSModel.java",
+      "colen",
+      "TokenNameFinderCrossValidatorTool.java",
       1
    ],
    [
       "joern",
-      "POSTaggerCrossValidator.java",
+      "NameSample.java",
       1
    ],
    [
       "joern",
-      "NameSampleSequenceStream.java",
-      1
-   ],
-   [
-      "joern",
-      "POSTaggerME.java",
-      2
-   ],
-   [
-      "joern",
-      "Version.java",
+      "opennlp.version",
       1
    ],
    [
       "colen",
-      "CLI.java",
-      2
+      "ADNameSampleStream.java",
+      1
+   ],
+   [
+      "colen",
+      "ADSentenceStream.java",
+      1
    ],
    [
       "colen",
@@ -306,72 +371,7 @@
    ],
    [
       "joern",
-      "ChunkerTrainerTool.java",
-      1
-   ],
-   [
-      "joern",
-      "AbstractBottomUpParser.java",
-      2
-   ],
-   [
-      "joern",
-      "NameFinderME.java",
-      5
-   ],
-   [
-      "joern",
-      "DocumentCategorizerEvaluator.java",
-      1
-   ],
-   [
-      "joern",
-      "POSTaggerTrainerTool.java",
-      2
-   ],
-   [
-      "joern",
-      "AggregatedFeatureGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenizerME.java",
-      1
-   ],
-   [
-      "colen",
-      "ADNameSampleStreamTest.java",
-      1
-   ],
-   [
-      "joern",
-      "PerceptronModel.java",
-      3
-   ],
-   [
-      "joern",
-      "TokenizerCrossValidator.java",
-      1
-   ],
-   [
-      "joern",
-      "BigramNameFeatureGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenNameFinderModel.java",
-      2
-   ],
-   [
-      "colen",
-      "NameFinderME.java",
-      2
-   ],
-   [
-      "joern",
-      "EmptyLinePreprocessorStream.java",
+      "SentenceDetectorME.java",
       1
    ]
 ]

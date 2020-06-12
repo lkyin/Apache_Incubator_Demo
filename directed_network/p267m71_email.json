@@ -1,27 +1,31 @@
 [
    {
-      "imports": [
-         "Marvin"
-      ],
-      "name": "Richard Frovarp"
+      "name": "Marvin",
+      "imports": []
    },
    {
+      "name": "John D. Ament",
+      "imports": [
+         "Thorsten Scherler"
+      ]
+   },
+   {
+      "name": "Richard Frovarp",
+      "imports": [
+         "Marvin"
+      ]
+   },
+   {
+      "name": "Thorsten Scherler",
       "imports": [
          "Richard Frovarp",
          "John D. Ament"
-      ],
-      "name": "Thorsten Scherler"
+      ]
    },
    {
+      "name": "Tim Williams",
       "imports": [
          "John D. Ament"
-      ],
-      "name": "Tim Williams"
-   },
-   {
-      "imports": [
-         "Thorsten Scherler"
-      ],
-      "name": "John D. Ament"
+      ]
    }
 ]

@@ -1,22 +1,7 @@
 [
    [
       "pnoltes",
-      "remote_service_admin_activator.c",
-      1
-   ],
-   [
-      "pnoltes",
       "activator.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "remote_service_admin_impl.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "celix_errno.h",
       1
    ],
    [
@@ -26,7 +11,17 @@
    ],
    [
       "pnoltes",
-      "deploy.cmake",
+      "topology_manager.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "example_service.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "celix_errno.h",
       1
    ],
    [
@@ -36,18 +31,28 @@
    ],
    [
       "pnoltes",
-      "topology_manager.c",
+      "deploy.cmake",
       1
    ],
    [
       "pnoltes",
-      "constants.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "discovery.c",
+      "example_proxy_impl.c",
       2
+   ],
+   [
+      "pnoltes",
+      "remote_service_admin_activator.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "remote_service_admin_impl.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "framework.c",
+      1
    ],
    [
       "pnoltes",
@@ -56,7 +61,12 @@
    ],
    [
       "pnoltes",
-      "framework.c",
+      "discovery.c",
+      2
+   ],
+   [
+      "pnoltes",
+      "constants.h",
       1
    ],
    [
@@ -68,15 +78,5 @@
       "pnoltes",
       "remote_service_admin_impl.c",
       1
-   ],
-   [
-      "pnoltes",
-      "example_service.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "example_proxy_impl.c",
-      2
    ]
 ]

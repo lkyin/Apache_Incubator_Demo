@@ -1,63 +1,73 @@
 [
    [
       "tshiran",
-      "DrillImplementor.java",
+      "DrillScan.java",
       1
    ],
    [
       "tshiran",
-      "SinkOperator.java",
+      "DataSourceBase.java",
+      1
+   ],
+   [
+      "tshiran",
+      "ConsoleRSE.java",
+      1
+   ],
+   [
+      "tshiran",
+      "ScalarValues.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "SimpleArrayValue.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FlowOutput.java",
+      1
+   ],
+   [
+      "tshiran",
+      "Write.java",
+      1
+   ],
+   [
+      "tshiran",
+      "DataSource.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Aggregate.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "PlanProperties.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ArgumentValidators.java",
       1
    ],
    [
       "Timothy Chen",
-      "WindowingROP.java",
-      1
-   ],
-   [
-      "tshiran",
-      "PathScanner.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Mongo.java",
+      "SingleInputOperator.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "DrillConfig.java",
+      "FunctionRegistry.java",
       1
    ],
    [
-      "Julian Hyde",
-      "QueueSinkROP.java",
-      1
-   ],
-   [
-      "tshiran",
-      "QueueRSE.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ValidationError.java",
-      1
-   ],
-   [
-      "tshiran",
-      "AggregateSimpleROP.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalPlanParsingException.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Simple.java",
-      1
+      "Timothy Chen",
+      "WindowFrameROP.java",
+      2
    ],
    [
       "Jacques Nadeau",
@@ -66,7 +76,142 @@
    ],
    [
       "tshiran",
+      "NumericValue.java",
+      1
+   ],
+   [
+      "tshiran",
+      "IteratorRegistry.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "DrillConfig.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ScalarValues.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "SimpleMapValue.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "NestedConfig.java",
+      1
+   ],
+   [
+      "tshiran",
+      "RunningAggregate.java",
+      1
+   ],
+   [
+      "tshiran",
+      "QueueSinkROP.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FunctionDefinition.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "UnbackedRecord.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "EnumerableDrillRel.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ComparisonEvaluators.java",
+      1
+   ],
+   [
+      "tshiran",
+      "StoreROP.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "JSONWriter.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "JSONScanner.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "BaseMapValue.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "LogicalExpression.java",
+      1
+   ],
+   [
+      "tshiran",
       "ROPConverter.java",
+      1
+   ],
+   [
+      "tshiran",
+      "Text.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ConfigProvider.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "DataValue.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "WindowingROP.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "DrillTable.java",
+      1
+   ],
+   [
+      "tshiran",
+      "GroupROP.java",
+      1
+   ],
+   [
+      "tshiran",
+      "RecordMaker.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "EnumerableDrill.java",
+      2
+   ],
+   [
+      "tshiran",
+      "FileSystemRSE.java",
+      1
+   ],
+   [
+      "tshiran",
+      "ReferenceStorageEngine.java",
       1
    ],
    [
@@ -81,42 +226,7 @@
    ],
    [
       "tshiran",
-      "drill-module.conf",
-      3
-   ],
-   [
-      "Julian Hyde",
-      "ROPBase.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalOperator.java",
-      1
-   ],
-   [
-      "tshiran",
-      "MockStorageEngineConfig.java",
-      1
-   ],
-   [
-      "tshiran",
-      "GroupROP.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Scan.java",
-      1
-   ],
-   [
-      "tshiran",
       "Segment.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ComparisonEvaluators.java",
       1
    ],
    [
@@ -125,18 +235,28 @@
       1
    ],
    [
-      "Jacques Nadeau",
-      "LogicalPlan.java",
+      "Timothy Chen",
+      "WindowFrame.java",
+      1
+   ],
+   [
+      "tshiran",
+      "FileUtils.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "NestedConfig.java",
+      "LogicalOperator.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "ExprParser.g",
+      "JoinROP.java",
+      1
+   ],
+   [
+      "tshiran",
+      "DataWriter.java",
       1
    ],
    [
@@ -146,267 +266,7 @@
    ],
    [
       "tshiran",
-      "RecordMaker.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "SingleInputOperator.java",
-      1
-   ],
-   [
-      "tshiran",
-      "DataSourceBase.java",
-      1
-   ],
-   [
-      "tshiran",
-      "WindowFrame.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FunctionDefinition.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalExpression.java",
-      1
-   ],
-   [
-      "tshiran",
-      "ClasspathRSE.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "BaseDataValue.java",
-      1
-   ],
-   [
-      "tshiran",
-      "OrderROP.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ConfigProvider.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "SimpleMapValue.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "Driver.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "PlanProperties.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FunctionRegistry.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TestUtils.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "EnumerableDrillRule.java",
-      1
-   ],
-   [
-      "tshiran",
-      "EnumerableDrill.java",
-      1
-   ],
-   [
-      "tshiran",
-      "FileSystemRSE.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Mysql.java",
-      1
-   ],
-   [
-      "tshiran",
-      "NumericValue.java",
-      1
-   ],
-   [
-      "tshiran",
-      "ReferenceInterpreter.java",
-      1
-   ],
-   [
-      "tshiran",
-      "ReferenceStorageEngine.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "ROPConverter.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ExpressionParsingException.java",
-      1
-   ],
-   [
-      "tshiran",
-      "RecordMakerBase.java",
-      1
-   ],
-   [
-      "tshiran",
-      "RSERegistry.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Sequence.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "StorageEngineConfigBase.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalOperatorBase.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Text.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FieldName.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "JSONScanner.java",
-      1
-   ],
-   [
-      "tshiran",
-      "DataSource.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "WindowFrame.java",
-      1
-   ],
-   [
-      "tshiran",
-      "ConsoleRSE.java",
-      1
-   ],
-   [
-      "tshiran",
-      "DataWriter.java",
-      1
-   ],
-   [
-      "tshiran",
-      "RunSimplePlan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FlowOutput.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Store.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "JdbcTest.java",
-      2
-   ],
-   [
-      "Julian Hyde",
-      "LogicalPlan.java",
-      1
-   ],
-   [
-      "tshiran",
-      "OutputStreamWriter.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Group.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Driver.java",
-      1
-   ],
-   [
-      "tshiran",
-      "IteratorRegistry.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "CollapsingAggregate.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "BaseSinkROP.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JoinCondition.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "StorageEngineConfig.java",
-      1
-   ],
-   [
-      "tshiran",
-      "RSEBase.java",
-      1
-   ],
-   [
-      "tshiran",
-      "RunningAggregate.java",
-      1
-   ],
-   [
-      "tshiran",
-      "drill-default.conf",
-      1
-   ],
-   [
-      "tshiran",
-      "RecordReader.java",
+      "DataValueSet.java",
       1
    ],
    [
@@ -416,102 +276,12 @@
    ],
    [
       "Jacques Nadeau",
-      "SimpleArrayValue.java",
-      1
-   ],
-   [
-      "tshiran",
-      "SegmentROP.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "EnumerableDrill.java",
-      2
-   ],
-   [
-      "Julian Hyde",
-      "DrillScan.java",
-      1
-   ],
-   [
-      "tshiran",
-      "ScalarValues.java",
-      1
-   ],
-   [
-      "tshiran",
-      "AbstractBlockingOperator.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Join.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "CommonConstants.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ProxySimpleRecord.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "DataValue.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "ReferenceInterpreter.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
       "JSONOptions.java",
       1
    ],
    [
-      "Julian Hyde",
-      "ROP.java",
-      1
-   ],
-   [
       "Jacques Nadeau",
-      "ScalarValues.java",
-      1
-   ],
-   [
-      "tshiran",
-      "CollapsingAggregateROP.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "BaseMapValue.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "DrillTable.java",
-      1
-   ],
-   [
-      "tshiran",
-      "Write.java",
-      1
-   ],
-   [
-      "tshiran",
-      "ScanROP.java",
-      1
-   ],
-   [
-      "tshiran",
-      "FileUtils.java",
+      "BaseArrayValue.java",
       1
    ],
    [
@@ -521,52 +291,7 @@
    ],
    [
       "tshiran",
-      "JSONDataSource.java",
-      1
-   ],
-   [
-      "tshiran",
-      "StoreROP.java",
-      1
-   ],
-   [
-      "tshiran",
-      "JSONDataWriter.java",
-      2
-   ],
-   [
-      "tshiran",
-      "JSONRecordReader.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "JSONWriter.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "DrillDriverVersion.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FlowInput.java",
-      1
-   ],
-   [
-      "tshiran",
-      "RecordRecorder.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JoinROP.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalOperatorValidationException.java",
+      "CollapsingAggregateROP.java",
       1
    ],
    [
@@ -575,13 +300,23 @@
       1
    ],
    [
-      "Julian Hyde",
-      "EnumerableDrillRel.java",
+      "tshiran",
+      "Mysql.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "UnbackedRecord.java",
+      "StorageEngineConfigBase.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "QueueSinkROP.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ExpressionParsingException.java",
       1
    ],
    [
@@ -591,42 +326,52 @@
    ],
    [
       "tshiran",
-      "CheckStorageConfig.java",
-      1
-   ],
-   [
-      "Julian Hyde",
-      "DrillImplementor.java",
+      "JSONRecordReader.java",
       1
    ],
    [
       "tshiran",
-      "FileBasedDataSource.java",
+      "Driver.java",
       1
    ],
    [
       "tshiran",
-      "BaseDataValue.java",
+      "ClasspathRSE.java",
       1
    ],
    [
       "tshiran",
-      "JSONScanner.java",
+      "RecordMakerBase.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "FlattenROP.java",
+      "CollapsingAggregate.java",
       1
    ],
    [
       "tshiran",
-      "DrillTable.java",
+      "JSONDataWriter.java",
+      2
+   ],
+   [
+      "tshiran",
+      "AggregateSimpleROP.java",
       1
    ],
    [
-      "Jacques Nadeau",
-      "BaseArrayValue.java",
+      "tshiran",
+      "WindowFrame.java",
+      1
+   ],
+   [
+      "tshiran",
+      "ScanROP.java",
+      1
+   ],
+   [
+      "tshiran",
+      "RSEBase.java",
       1
    ],
    [
@@ -635,43 +380,28 @@
       1
    ],
    [
-      "Jacques Nadeau",
-      "ArgumentValidators.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Order.java",
-      1
-   ],
-   [
       "Julian Hyde",
-      "DrillOptiq.java",
-      1
-   ],
-   [
-      "tshiran",
-      "AbstractDynamicBean.java",
-      1
-   ],
-   [
-      "tshiran",
       "BaseSinkROP.java",
       1
    ],
    [
-      "tshiran",
-      "QueueSinkROP.java",
+      "Jacques Nadeau",
+      "CommonConstants.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "Aggregate.java",
+      "ExprParser.g",
       1
    ],
    [
-      "tshiran",
-      "DrillScan.java",
+      "Jacques Nadeau",
+      "RecordPointer.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "EnumerableDrillRule.java",
       1
    ],
    [
@@ -681,27 +411,297 @@
    ],
    [
       "tshiran",
-      "ExecRefConstants.java",
-      1
+      "drill-module.conf",
+      3
    ],
    [
-      "Timothy Chen",
-      "UnbackedRecord.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "WindowFrameROP.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "RecordPointer.java",
+      "tshiran",
+      "OrderROP.java",
       1
    ],
    [
       "tshiran",
-      "DataValueSet.java",
+      "BaseDataValue.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Order.java",
+      1
+   ],
+   [
+      "tshiran",
+      "RSERegistry.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "DrillOptiq.java",
+      1
+   ],
+   [
+      "tshiran",
+      "ExecRefConstants.java",
+      1
+   ],
+   [
+      "tshiran",
+      "DrillImplementor.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "UnbackedRecord.java",
+      1
+   ],
+   [
+      "tshiran",
+      "RunSimplePlan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "JoinCondition.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FlowInput.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "BaseDataValue.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "ROP.java",
+      1
+   ],
+   [
+      "tshiran",
+      "PathScanner.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ProxySimpleRecord.java",
+      1
+   ],
+   [
+      "tshiran",
+      "drill-default.conf",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "Driver.java",
+      1
+   ],
+   [
+      "tshiran",
+      "SinkOperator.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FlattenROP.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "LogicalPlan.java",
+      1
+   ],
+   [
+      "tshiran",
+      "RecordReader.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "ROPBase.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "DrillDriverVersion.java",
+      1
+   ],
+   [
+      "tshiran",
+      "Mongo.java",
+      1
+   ],
+   [
+      "tshiran",
+      "Sequence.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "LogicalOperatorValidationException.java",
+      1
+   ],
+   [
+      "tshiran",
+      "Simple.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "StorageEngineConfig.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "LogicalPlan.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "DrillScan.java",
+      1
+   ],
+   [
+      "tshiran",
+      "RecordRecorder.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "LogicalOperatorBase.java",
+      1
+   ],
+   [
+      "tshiran",
+      "CheckStorageConfig.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "ReferenceInterpreter.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "LogicalPlanParsingException.java",
+      1
+   ],
+   [
+      "tshiran",
+      "ReferenceInterpreter.java",
+      1
+   ],
+   [
+      "tshiran",
+      "Scan.java",
+      1
+   ],
+   [
+      "tshiran",
+      "MockStorageEngineConfig.java",
+      1
+   ],
+   [
+      "tshiran",
+      "OutputStreamWriter.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ValidationError.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Join.java",
+      1
+   ],
+   [
+      "tshiran",
+      "AbstractDynamicBean.java",
+      1
+   ],
+   [
+      "tshiran",
+      "SegmentROP.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "DrillImplementor.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FieldName.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Group.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "ROPConverter.java",
+      1
+   ],
+   [
+      "tshiran",
+      "FileBasedDataSource.java",
+      1
+   ],
+   [
+      "tshiran",
+      "Store.java",
+      1
+   ],
+   [
+      "tshiran",
+      "JSONDataSource.java",
+      1
+   ],
+   [
+      "tshiran",
+      "AbstractBlockingOperator.java",
+      1
+   ],
+   [
+      "tshiran",
+      "JSONScanner.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestUtils.java",
+      1
+   ],
+   [
+      "tshiran",
+      "EnumerableDrill.java",
+      1
+   ],
+   [
+      "Julian Hyde",
+      "JdbcTest.java",
+      2
+   ],
+   [
+      "tshiran",
+      "BaseSinkROP.java",
+      1
+   ],
+   [
+      "tshiran",
+      "DrillTable.java",
+      1
+   ],
+   [
+      "tshiran",
+      "QueueRSE.java",
       1
    ]
 ]

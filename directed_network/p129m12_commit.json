@@ -1,463 +1,33 @@
 [
    [
-      "Impala Public Jenkins",
-      "buffer-pool.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "KuduScanNode.java",
-      1
-   ],
-   [
       "Internal Jenkins",
-      "hdfs-parquet-table-writer.cc",
+      "load-test-warehouse-snapshot.sh",
       2
    ],
    [
       "Internal Jenkins",
-      "partitioned-hash-join-builder.cc",
+      "create-table-many-blocks.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "mem-pool.cc",
       4
    ],
    [
-      "abehm",
-      "tuple-row-compare.cc",
-      1
-   ],
-   [
       "Internal Jenkins",
-      "plan-fragment-executor.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "raw-value-ir.cc",
-      1
+      "ModifyStmt.java",
+      5
    ],
    [
       "Henry Robinson",
-      "mustache.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "test_metadata_query_statements.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "NumericLiteral.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-timeouts-impalad.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "UdfExecutorTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "CatalogServiceTestCatalog.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "compound-predicates.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "anyval-util.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "MetaStoreClientPool.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "query-options.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "exec-node.h",
-      3
-   ],
-   [
-      "Tim Armstrong",
-      "kudu_create.test",
-      1
-   ],
-   [
-      "abehm",
-      "udf-errors.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzeModifyStmtsTest.java",
-      2
-   ],
-   [
-      "henry",
-      "reservation-tracker-test.cc",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "hdfs-parquet-scanner.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "SingleNodePlanner.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "TAcceptQueueServer.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "runtime-filter.inline.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "lineage.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala-server.h",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "descriptors.cc",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "hdfs-parquet-scanner.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "nested-loop-join-builder.cc",
+      "hash-table-test.cc",
       1
    ],
    [
       "abehm",
       "test-udas.cc",
       1
-   ],
-   [
-      "Internal Jenkins",
-      "tmp-file-mgr-test.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_update.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "runtime-profile.cc",
-      2
-   ],
-   [
-      "Jim Apple",
-      "downloads.html",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "NullLiteral.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "plan-fragment-executor.cc",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "ExprRewriteRule.java",
-      4
-   ],
-   [
-      "tarmstrong",
-      "outer-joins.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "coordinator.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node-base.cc",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "expr-context.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpch-all.test",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-update.test",
-      2
-   ],
-   [
-      "tarmstrong",
-      "query-exec-state.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test-udfs.cc",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "scope-exit-trigger.h",
-      1
-   ],
-   [
-      "jbapple",
-      "decompress.cc",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "runtime-profile-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "generate_error_codes.py",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "codegen-anyval.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "scalar-fn-call.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "KuduTableSink.java",
-      3
-   ],
-   [
-      "jbapple",
-      "query-result-set.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "RuntimeFilterGenerator.java",
-      1
-   ],
-   [
-      "jbapple",
-      "progress-updater.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "impala_sqlref.ditamap",
-      1
-   ],
-   [
-      "sailesh",
-      "AnalyzeDDLTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "query_exec_functions.py",
-      2
-   ],
-   [
-      "Henry Robinson",
-      "plan-fragment-executor.h",
-      1
-   ],
-   [
-      "jbapple",
-      "pprof-path-handlers.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "expr-codegen-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "query-options.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-table-sink.cc",
-      10
-   ],
-   [
-      "tarmstrong",
-      "primitive_filter_in_predicate.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "RangePartition.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "case-expr.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "webserver.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "buffer-allocator.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduColumn.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "java-udf.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableSetTblProperties.java",
-      3
-   ],
-   [
-      "abehm",
-      "literal.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "admission-controller.cc",
-      2
-   ],
-   [
-      "henry",
-      "ParserTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "compute-table-stats.sh",
-      2
-   ],
-   [
-      "tarmstrong",
-      "descriptors.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "bloom-filter-test.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "literal.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "CatalogServiceCatalog.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-table-sink.h",
-      7
-   ],
-   [
-      "Internal Jenkins",
-      "SlotDescriptor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "backend-gflag-util.cc",
-      3
-   ],
-   [
-      "jbapple",
-      "udf-ir.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_result_verifier.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "InPredicate.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_hs2.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "report_benchmark_results.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "mem-pool-test.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "fe-support.cc",
-      6
    ],
    [
       "Internal Jenkins",
@@ -465,648 +35,13 @@
       1
    ],
    [
-      "tarmstrong",
-      "partition-ddl-predicates.test",
-      1
-   ],
-   [
       "Internal Jenkins",
-      "impala_test_suite.py",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "expr.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "PlannerContext.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "SelectStmt.java",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "simple-scheduler-test-util.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "HdfsPartitionPruner.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_tpch_queries.py",
-      1
-   ],
-   [
-      "henry",
-      "buffer-pool-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "FeSupport.java",
-      2
-   ],
-   [
-      "jbapple",
-      "aligned-new.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "run-custom-cluster-tests.sh",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "raw-value.cc",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "buffered-tuple-stream-test.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "partitioned-hash-join-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "sql-parser.cup",
-      8
-   ],
-   [
-      "Internal Jenkins",
-      "data-sink.cc",
-      3
-   ],
-   [
-      "abehm",
-      "partitioned-aggregation-node.h",
+      "FoldConstantsRule.java",
       1
    ],
    [
       "Henry Robinson",
       "coordinator.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-text-table-writer.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "old-hash-table.cc",
-      2
-   ],
-   [
-      "tarmstrong",
-      "descriptors.cc",
-      1
-   ],
-   [
-      "abehm",
-      "udf-codegen-required.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "test_udfs.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_crud.test",
-      7
-   ],
-   [
-      "henry",
-      "kudu_delete.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_insert.py",
-      1
-   ],
-   [
-      "tarmstrong",
-      "libs_with_same_filenames.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "Planner.thrift",
-      1
-   ],
-   [
-      "tarmstrong",
-      "mt-dop-validation.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu.test",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "test-env.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "scanner-context.inline.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpch-kudu.test",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "query-exec-state.h",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "filter-context.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ReplaceStringUdf.java",
-      2
-   ],
-   [
-      "jbapple",
-      "impala_html.ditaval",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "parquet-column-readers.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-avro-table-writer.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Column.java",
-      3
-   ],
-   [
-      "henry",
-      "kudu_update.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_ddl.py",
-      1
-   ],
-   [
-      "tarmstrong",
-      "AnalyzeDDLTest.java",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "expr-benchmark.cc",
-      1
-   ],
-   [
-      "abehm",
-      "test-udfs.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "scalar-fn-call.cc",
-      1
-   ],
-   [
-      "abehm",
-      "descriptors.h",
-      1
-   ],
-   [
-      "abehm",
-      "tuple.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AvroSchemaUtils.java",
-      1
-   ],
-   [
-      "jbapple",
-      "runtime-profile.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "PlannerTestBase.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "parse-timestamp-benchmark.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "values.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "delimited-text-parser.h",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "SlotDescriptor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test-macros.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "disk-io-mgr-stress-test.cc",
-      2
-   ],
-   [
-      "henry",
-      "reservation-tracker.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "tmp-file-mgr.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "DeleteStmt.java",
-      3
-   ],
-   [
-      "abehm",
-      "case-expr.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterViewStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "query-exec-state.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-parquet-scanner.cc",
-      6
-   ],
-   [
-      "Henry Robinson",
-      "coordinator.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "test-udas.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "expr-codegen-test.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "periodic-counter-updater.h",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "query-schedule.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "HdfsTable.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "bit-stream-utils.8byte.inline.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "bootstrap_development.sh",
-      2
-   ],
-   [
-      "henry",
-      "AnalyzeDDLTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_describe.test",
-      1
-   ],
-   [
-      "jbapple",
-      "bloom-filter-test.cc",
-      1
-   ],
-   [
-      "kwho",
-      "compute-stats.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ComputeStatsStmt.java",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "analytic-fns.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "simple-scheduler.cc",
-      3
-   ],
-   [
-      "Henry Robinson",
-      "plan-fragment-executor.cc",
-      3
-   ],
-   [
-      "jbapple",
-      "TSasl.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-table-writer.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "TestDataGenerator.java",
-      2
-   ],
-   [
-      "tarmstrong",
-      "kudu_partition_ddl.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ImpaladCatalog.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "union-node.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala-server.cc",
-      7
-   ],
-   [
-      "Henry Robinson",
-      "buffered-block-mgr-test.cc",
-      1
-   ],
-   [
-      "sailesh",
-      "alter-table.test",
-      1
-   ],
-   [
-      "abehm",
-      "uda.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "User.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsTable.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "StmtRewriter.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test_kudu.py",
-      1
-   ],
-   [
-      "Jim Apple",
-      "bylaws.html",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduCatalogOpExecutor.java",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "JniFrontend.java",
-      5
-   ],
-   [
-      "tarmstrong",
-      "udf.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "udf.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "TableDef.java",
-      1
-   ],
-   [
-      "jbapple",
-      "parquet-reader.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "filter-context.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "catalog-server.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "subquery-rewrite.test",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "exchange-node.cc",
-      2
-   ],
-   [
-      "abehm",
-      "compound-predicates.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzeUpsertStmtTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "case-expr.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hbase-table-writer.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_kudu.py",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "UnresolvedUdf.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-timeouts-catalogd.test",
-      2
-   ],
-   [
-      "henry",
-      "reservation-tracker.cc",
-      2
-   ],
-   [
-      "tarmstrong",
-      "test_udfs.py",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "impala-config.sh",
-      5
-   ],
-   [
-      "jbapple",
-      "buildall.sh",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduTable.java",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "CreateTableLikeFileStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzeDDLTest.java",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "expr-context.h",
-      3
-   ],
-   [
-      "John Russell",
-      "Cloudera-Impala-Release-Notes.ditamap",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala-beeswax-server.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "base-sequence-scanner.cc",
-      3
-   ],
-   [
-      "tarmstrong",
-      "TestUtils.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_admission_controller.py",
-      2
-   ],
-   [
-      "tarmstrong",
-      "insert.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "TimestampLiteral.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "Frontend.thrift",
       1
    ],
    [
@@ -1116,1137 +51,12 @@
    ],
    [
       "Internal Jenkins",
-      "kudu_upsert.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "like-predicate.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "multi-precision-test.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "impala-http-handler.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "scoped-buffer.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PartitionSet.java",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-fs-cache.h",
-      1
-   ],
-   [
-      "Jim Apple",
-      "community.html",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "insert.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "authentication.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "UnionNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala-hs2-server.cc",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "disk-io-mgr-scan-range.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-util.cc",
-      2
-   ],
-   [
-      "Henry Robinson",
-      "test-env.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "Planner.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_alter.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "in-predicate.h",
-      4
-   ],
-   [
-      "tarmstrong",
-      "empty.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "run-backend-tests.sh",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "bootstrap_development.sh",
-      1
-   ],
-   [
-      "abehm",
-      "types.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "types.h",
-      3
-   ],
-   [
-      "sailesh",
-      "impala_client.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_file_parser.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "CatalogOpExecutor.java",
-      3
-   ],
-   [
-      "Henry Robinson",
-      "runtime-state.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "HBaseScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "wait-for-metastore.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "bloom-filter-benchmark.cc",
-      2
-   ],
-   [
-      "Taras Bobrovytsky",
-      "tpcds_kudu_template.sql",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "HdfsTable.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "runtime-filter.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-scan-node.h",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "generate_minidump_collection_testdata.py",
-      1
-   ],
-   [
-      "henry",
-      "test_kudu.py",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "impala-server.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "scanner-context.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "decimal-test.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "joins.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scanner.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "llvm-codegen.h",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "hive-udf-call.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "Planner.java",
-      6
-   ],
-   [
-      "sailesh",
-      "kudu_alter.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "alter-table.test",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "plan-root-sink.h",
-      1
-   ],
-   [
-      "abehm",
-      "load-java-udfs.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "load-test-warehouse-snapshot.sh",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "StatementBase.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "union.test",
-      1
-   ],
-   [
-      "jbapple",
-      "minidump.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "avro-errors.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "partitioned-aggregation-node.h",
-      1
-   ],
-   [
-      "jbapple",
-      "TSaslClientTransport.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "llvm-codegen-test.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "BoolLiteral.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Catalog.java",
-      1
-   ],
-   [
-      "abehm",
-      "test_result_verifier.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "CompoundPredicate.java",
-      2
-   ],
-   [
-      "tarmstrong",
-      "predicate-propagation.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "create-load-data.sh",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "InsertStmt.java",
-      8
-   ],
-   [
-      "Jim Apple",
-      "mem-pool.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "wait-for-hiveserver2.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "string-functions-ir.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-avro-table-writer.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_cursor.py",
-      2
-   ],
-   [
-      "abehm",
-      "scalar-fn-call.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AuditingTest.java",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "impala-server.h",
-      2
-   ],
-   [
-      "tarmstrong",
-      "test_result_verifier.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PartitionSpec.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "timestamp-value.h",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "hash-table-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpch_kudu_template.sql",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "Exprs.thrift",
-      1
-   ],
-   [
-      "jbapple",
-      "uda-test-harness.h",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "buffer-allocator.h",
-      1
-   ],
-   [
-      "abehm",
-      "expr.cc",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "test_kudu.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "timestamp-value.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "SelectListItem.java",
-      1
-   ],
-   [
-      "Jim Apple",
-      "Cloudera-Impala-Release-Notes.ditamap",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "TableSink.java",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzeStmtsTest.java",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "AnalysisContext.java",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "ExtractCommonConjunctRule.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CollectionTableRef.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CreateViewStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "queries.tmpl",
-      2
-   ],
-   [
-      "John Russell",
-      "impala.ditamap",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "DataSinks.thrift",
-      4
-   ],
-   [
-      "Jim Apple",
-      "index.html",
-      1
-   ],
-   [
-      "tarmstrong",
-      "udf-codegen-required.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "schema_constraints.csv",
-      5
-   ],
-   [
-      "Henry Robinson",
-      "impala-http-handler.cc",
-      2
-   ],
-   [
-      "abehm",
-      "expr-codegen-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ExistsPredicate.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "nested-loop-join-builder.h",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "fe-support.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "query-exec-state.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "avro-util.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "misc.test",
-      1
-   ],
-   [
-      "jbapple",
-      "impala-server.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "FileSystemUtil.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "SingleNodePlanner.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "row-batch-cache.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "llvm-codegen.cc",
-      7
-   ],
-   [
-      "tarmstrong",
-      "aggregation.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "run-process-failure-tests.sh",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ImpalaService.thrift",
-      3
-   ],
-   [
-      "John Russell",
-      "impala_arch.jpeg",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "exec-node.cc",
-      6
-   ],
-   [
-      "abehm",
-      "udf-mem-limit.test",
-      1
-   ],
-   [
-      "henry",
-      "functional_schema_template.sql",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-parquet-scanner-ir.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "run_clang_tidy.sh",
-      2
-   ],
-   [
-      "tarmstrong",
-      "ParserTest.java",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "impala-hs2-server.cc",
-      2
-   ],
-   [
-      "Marcel Kornacker",
-      "runtime-profile.h",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "buffer-pool-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "BetweenPredicate.java",
-      3
-   ],
-   [
-      "sailesh",
-      "HdfsTable.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "aggregate-functions-ir.cc",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "runtime-filter-propagation.test",
-      1
-   ],
-   [
-      "jbapple",
-      "TSaslServerTransport.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-table-sink.h",
-      2
-   ],
-   [
-      "Henry Robinson",
-      "plan-root-sink.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_alter.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "load_nested.py",
-      2
-   ],
-   [
-      "Jim Apple",
-      "anyval-util.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "literal.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "kudu.test",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "avro-schema-changes.test",
-      2
-   ],
-   [
-      "tarmstrong",
-      "subquery-rewrite.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-delete.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "test_insert_behaviour.py",
-      1
-   ],
-   [
-      "sailesh",
-      "compute-stats.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "raw-value.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-scanner.cc",
-      2
-   ],
-   [
-      "Henry Robinson",
-      "simple-scheduler.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "QueryStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Expr.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scanner.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "ToSqlUtils.java",
-      2
-   ],
-   [
-      "abehm",
-      "partitioned-aggregation-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "FunctionCallExpr.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "avro-util.h",
-      1
-   ],
-   [
-      "Taras Bobrovytsky",
-      "tpch_kudu_template.sql",
-      1
-   ],
-   [
-      "Jim Apple",
-      "mem-pool-test.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "partitioned-hash-join-node.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "generate-schema-statements.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableStmt.java",
-      2
-   ],
-   [
-      "abehm",
-      "uda-mem-limit.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "expr.cc",
-      3
-   ],
-   [
-      "sailesh",
-      "test_ddl.py",
-      1
-   ],
-   [
-      "tarmstrong",
-      "ExprRewriteRulesTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "BackendConfig.java",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "setup-hdfs-env.sh",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "runtime-state.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "invalid_decimal_schema.avro",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "plan-root-sink.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "statestore.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ModifyStmt.java",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "hbase-table-writer.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "functional_schema_template.sql",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "codegen-anyval.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "buffered-tuple-stream.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tuple-splitter-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "load-java-udfs.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "tmp-file-mgr.h",
-      2
-   ],
-   [
-      "sailesh",
-      "ParserTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "BaseTableRef.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_delete.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "BetweenToCompoundRule.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableSetStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableSetFileFormatStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "LiteralExpr.java",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "disk-io-mgr-internal.h",
-      2
-   ],
-   [
-      "sailesh",
-      "SingleNodePlanner.java",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "coordinator.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "load-data.py",
-      2
-   ],
-   [
-      "jbapple",
-      "rle-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "blocking-join-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "generate_metrics.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Table.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "logging.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
       "query_executor.py",
       2
    ],
    [
-      "Internal Jenkins",
-      "AnalyzeExprsTest.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "SlotRef.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "partitioned-aggregation-node.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "descriptors.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Frontend.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_permanent_udfs.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PartitionSpecBase.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "sql-scanner.flex",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_catalog_hms_failures.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-scan-node.test",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "TupleDescriptor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduUtil.java",
-      7
-   ],
-   [
       "tarmstrong",
-      "HdfsScanNode.java",
-      1
-   ],
-   [
-      "jbapple",
-      "statestore.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "agg-fn-evaluator.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "TableRef.java",
-      3
-   ],
-   [
-      "jbapple",
-      "uda-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "authentication.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala_client.py",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "kudu-scanner.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "disk-io-mgr-test.cc",
-      4
-   ],
-   [
-      "Marcel Kornacker",
-      "test_scanners.py",
-      1
-   ],
-   [
-      "tarmstrong",
-      "impala-server.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test-udas.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala_shell.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "CreateTableAsSelectStmt.java",
-      6
-   ],
-   [
-      "jbapple",
-      "statestore-subscriber.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-scan-node.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-table-writer.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      ".clang-tidy",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "delimited-text-parser.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_hive_parquet_timestamp_conversion.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsTableSink.java",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "runtime-state.cc",
-      1
-   ],
-   [
-      "sailesh",
-      "Table.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "udf-mem-limit.test",
-      1
-   ],
-   [
-      "abehm",
-      "java-udf.test",
+      "partitioned-aggregation-node.h",
       1
    ],
    [
@@ -2256,713 +66,8 @@
    ],
    [
       "Internal Jenkins",
-      "exec-env.h",
-      1
-   ],
-   [
-      "henry",
-      "mem-tracker.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "aggregate-functions-ir.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala-ir.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "mt-dop-compute-stats.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-table-sink.cc",
-      4
-   ],
-   [
-      "henry",
-      "buffer-allocator.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzerTest.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "gen_ir_descriptions.py",
-      5
-   ],
-   [
-      "tarmstrong",
-      "constant-folding.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_stats.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_udfs.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "FrontendTestBase.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "slot-ref.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "TSaslTransport.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "disk-io-mgr-stress.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "catalog-server.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "ScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PlanNode.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CatalogServiceCatalog.java",
-      2
-   ],
-   [
-      "tarmstrong",
-      "tuple.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-sequence-table-writer.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "hdfs-caching.test",
-      1
-   ],
-   [
-      "abehm",
-      "aggregate-functions-ir.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "disk-io-mgr-scan-range.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "test_failpoints.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "write-stream.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "init.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-text-scanner.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_insert.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "BackendGflags.thrift",
-      3
-   ],
-   [
-      "sailesh",
-      "CatalogOpExecutor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "coordinator.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "RuntimeEnv.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "sort-node.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "runtime-filter-bank.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "create-table-many-blocks.sh",
-      2
-   ],
-   [
-      "jbapple",
-      "asan_toolchain.cmake",
-      1
-   ],
-   [
-      "tarmstrong",
-      "text-converter.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "udf-errors.test",
-      1
-   ],
-   [
-      "jbapple",
-      "failure-detector.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "simple-scheduler-test.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "runtime-filter-ir.cc",
-      1
-   ],
-   [
-      "abehm",
-      "slot-ref.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "in-predicate-benchmark.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "buffered-tuple-stream.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "backend-gflag-util.h",
-      2
-   ],
-   [
-      "tarmstrong",
-      "simple-scheduler.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "thrift-server.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hash-table.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "frontend.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "InlineViewRef.java",
-      3
-   ],
-   [
-      "John Russell",
-      "clouderad4p.ditaval",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-rcfile-scanner.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "make_impala.sh",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "remote_data_load.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "topn-node.cc",
-      2
-   ],
-   [
-      "John Russell",
-      "impala_pdf.ditaval",
-      2
-   ],
-   [
-      "Marcel Kornacker",
-      "kudu-scanner.cc",
-      1
-   ],
-   [
-      "abehm",
-      "null-literal.cc",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "KuduUtil.java",
-      1
-   ],
-   [
-      "jbapple",
-      "bit-stream-utils.inline.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableAddReplaceColsStmt.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "java-udf.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "compound-predicates.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "HBaseScanNode.java",
-      1
-   ],
-   [
-      "jbapple",
-      "compress.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpcds_kudu_template.sql",
-      2
-   ],
-   [
-      "tarmstrong",
-      "load-java-udfs.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "anyval-util.h",
-      3
-   ],
-   [
-      "Impala Public Jenkins",
-      "reservation-tracker-test.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "compute-stats.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "free-pool-test.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "impala_service.py",
-      2
-   ],
-   [
-      "jbapple",
-      "udf.h",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "kudu_alter.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "codegen-mem-limit.test",
-      1
-   ],
-   [
-      "henry",
-      "buffer-pool.h",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      ".clang-tidy",
-      1
-   ],
-   [
-      "henry",
-      "test_shell_commandline.py",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "KuduScanNode.java",
-      1
-   ],
-   [
-      "henry",
-      "buffer-allocator.cc",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "runtime-profile-counters.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "impala_client.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PrimitiveType.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "tpch-views.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test_exprs.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "DistributeParam.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduScanNode.java",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "PlannerTest.java",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "runtime-profile.cc",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "KuduCatalogOpExecutor.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "udf.h",
-      2
-   ],
-   [
-      "tarmstrong",
-      "Frontend.java",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "kudu_test_suite.py",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test_ddl.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "run-step.sh",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "buffered-block-mgr.cc",
-      3
-   ],
-   [
-      "Impala Public Jenkins",
-      "buffer-pool.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-upsert.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "catalog.cc",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "PlanNodes.thrift",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "TupleDescriptor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "DescribeTableStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "nested-loop-join-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "fake_query.py",
-      2
-   ],
-   [
-      "jbapple",
-      "metrics.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "types.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ImpalaInternalService.thrift",
-      6
-   ],
-   [
-      "tarmstrong",
-      "AnalyzeStmtsTest.java",
-      1
-   ],
-   [
-      "jbapple",
-      "network-util.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-text-table-writer.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Subquery.java",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "coordinator.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "JniCatalog.java",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "ShowFilesStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "TestUtils.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "string-buffer.h",
-      1
-   ],
-   [
-      "jbapple",
-      "udf.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "impala.ditamap",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ColumnDef.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "buffered-block-mgr-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzeSubqueriesTest.java",
-      2
-   ],
-   [
-      "henry",
-      "sql-scanner.flex",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "UpdateStmt.java",
-      3
-   ],
-   [
-      "jbapple",
-      "thread-pool.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpch-nested.test",
-      2
-   ],
-   [
-      "tarmstrong",
-      "simple-scheduler.h",
-      1
-   ],
-   [
-      "abehm",
-      "libs_with_same_filenames.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ExprRewriteRulesTest.java",
-      3
-   ],
-   [
-      "tarmstrong",
-      "slot-ref.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_query_mem_limit.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
       "AvroSchemaParser.java",
       1
-   ],
-   [
-      "henry",
-      "kudu_insert.test",
-      1
-   ],
-   [
-      "jbapple",
-      "uda-sample.cc",
-      1
-   ],
-   [
-      "sailesh",
-      "CatalogServiceCatalog.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-parquet-scanner.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "common.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "ScalarType.java",
-      2
-   ],
-   [
-      "kwho",
-      "test_aggregation.py",
-      1
-   ],
-   [
-      "jbapple",
-      "test-udas.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableSetLocationStmt.java",
-      2
    ],
    [
       "Tim Armstrong",
@@ -2971,167 +76,17 @@
    ],
    [
       "Internal Jenkins",
-      "check-rat-report.py",
-      1
-   ],
-   [
-      "John Russell",
-      "impala_search_pdf.ditaval",
-      2
-   ],
-   [
-      "Jim Apple",
-      "overview.html",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "mcjit-mem-mgr.h",
-      1
-   ],
-   [
-      "sailesh",
-      "hdfs-caching.test",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "AnalyzeDDLTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ExprTest.java",
-      2
-   ],
-   [
-      "sailesh",
-      "partition-ddl-predicates.test",
-      1
-   ],
-   [
-      "jbapple",
-      "bit-util-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-sequence-scanner.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "utility-functions-ir.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hash-join-node.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "partitioned-aggregation-node.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "Table.java",
-      1
-   ],
-   [
-      "abehm",
-      "descriptors.cc",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "CatalogOpExecutor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "bloom-filter.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "compute-stats.test",
-      2
-   ],
-   [
-      "jbapple",
-      "BuiltinsDb.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "partitioned-hash-join-builder.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "exprs.test",
+      "exec-node.h",
       3
    ],
    [
       "Internal Jenkins",
-      "partition-ddl-predicates.test",
-      1
-   ],
-   [
-      "Jim Apple",
-      "impala_docker_env.py",
+      "PlannerTestBase.java",
       1
    ],
    [
       "Internal Jenkins",
-      "AlterTableChangeColStmt.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "tuple-row-compare.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-util.h",
-      2
-   ],
-   [
-      "abehm",
-      "udf.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_show_create_table.py",
-      2
-   ],
-   [
-      "sailesh",
-      "AnalyzeStmtsTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "scope-exit-trigger.h",
-      1
-   ],
-   [
-      "Jim Apple",
-      "mem-pool.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "disk-io-mgr-stress.cc",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "simple-scheduler-test-util.cc",
+      "bloom-filter.h",
       1
    ],
    [
@@ -3141,193 +96,18 @@
    ],
    [
       "Internal Jenkins",
-      "simple-scheduler.h",
-      1
+      "impala-http-handler.cc",
+      2
    ],
    [
       "Internal Jenkins",
-      "test_mt_dop.py",
-      3
-   ],
-   [
-      "tarmstrong",
-      "join-order.test",
-      1
-   ],
-   [
-      "Marcel Kornacker",
-      "RuntimeProfile.thrift",
+      ".clang-tidy",
       1
    ],
    [
       "tarmstrong",
-      "DataSourceScanNode.java",
+      "mt-dop-validation.test",
       1
-   ],
-   [
-      "tarmstrong",
-      "partitioned-aggregation-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "disk-io-mgr.cc",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "UnionStmt.java",
-      3
-   ],
-   [
-      "John Russell",
-      "impala_html.ditaval",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "status.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "pip_download.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hbase-table-sink.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "DistributedPlanner.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableSetCachedStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "DropStatsStmt.java",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "buffer-pool-counters.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "bloom-filter.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-rcfile-scanner.h",
-      1
-   ],
-   [
-      "sailesh",
-      "Frontend.java",
-      1
-   ],
-   [
-      "abehm",
-      "test_udfs.py",
-      1
-   ],
-   [
-      "jbapple",
-      "clang_toolchain.cmake",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "JniCatalog.thrift",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "partitioned-hash-join-builder-ir.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "lib-cache.cc",
-      1
-   ],
-   [
-      "henry",
-      "buffer-pool-counters.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpch-views.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_create.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "test-udas.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node-base.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "Frontend.thrift",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "external-data-source-executor.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_stats.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_shell_commandline.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableDropPartitionStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "buffered-block-mgr.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "data-stream-sender.cc",
-      2
-   ],
-   [
-      "jbapple",
-      "benchmark-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "db_connection.py",
-      4
    ],
    [
       "Internal Jenkins",
@@ -3336,308 +116,148 @@
    ],
    [
       "Internal Jenkins",
-      "HdfsPartitionPruner.java",
-      2
+      "query-exec-state.h",
+      5
    ],
    [
-      "jbapple",
-      "blocking-queue-test.cc",
+      "Internal Jenkins",
+      "descriptors.h",
       1
    ],
    [
       "Internal Jenkins",
-      "ParserTest.java",
-      7
-   ],
-   [
-      "Internal Jenkins",
-      "compiler-util.h",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "kudu_crud.test",
+      "compound-predicates.h",
       1
    ],
    [
       "Internal Jenkins",
-      "SelectList.java",
-      1
-   ],
-   [
-      "Jim Apple",
-      "controller.py",
+      "AlterTableAddReplaceColsStmt.java",
       1
    ],
    [
       "Internal Jenkins",
-      "string-compare-test.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "hbase-table-sink.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "string-value.inline.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "copy-udfs-udas.sh",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "partition-ddl-predicates-hdfs-only.test",
+      "kudu_stats.test",
       1
    ],
    [
       "Internal Jenkins",
-      "BinaryPredicate.java",
+      "test_result_verifier.py",
       1
    ],
    [
       "Internal Jenkins",
-      "hash-table-test.cc",
+      "AuditingTest.java",
       1
-   ],
-   [
-      "Internal Jenkins",
-      "partitioned-aggregation-node-ir.cc",
-      2
-   ],
-   [
-      "tarmstrong",
-      "tpcds-all.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_lineage.py",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "query-schedule.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "mem-pool.h",
-      4
-   ],
-   [
-      "henry",
-      "reservation-tracker-counters.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "CreateOrAlterViewStmtBase.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "aggregation-node.cc",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "global-flags.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "free-pool.h",
-      2
    ],
    [
       "abehm",
-      "partitioned-hash-join-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ColumnLineageGraph.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "scalar-fn-call.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "FoldConstantsRule.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "data-sink.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "hbase-table.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "conftest.py",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-avro-scanner.cc",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-parquet-table-writer.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "union-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ToSqlTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PlannerTestBase.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "TupleDescriptor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "udf-test-harness.cc",
-      2
-   ],
-   [
-      "henry",
-      "buffer-pool.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "uda.test",
-      3
-   ],
-   [
-      "Jim Apple",
-      "anyval-util.cc",
-      2
-   ],
-   [
-      "abehm",
-      "text-converter.cc",
+      "case-expr.cc",
       1
    ],
    [
       "jbapple",
-      "buffer-builder.h",
+      "statestore.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "expr.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "compound-predicates.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "test_udfs.py",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "test_kudu.py",
+      6
+   ],
+   [
+      "jbapple",
+      "bit-util-test.cc",
       1
    ],
    [
       "Internal Jenkins",
-      "runtime-state.cc",
-      3
+      "test_cursor.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "mt-dop-compute-stats.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "Frontend.thrift",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "filter-context.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "tpch-nested.test",
+      1
+   ],
+   [
+      "jbapple",
+      "asan_toolchain.cmake",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "PartitionSpecBase.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ColumnDef.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "bit-stream-utils.8byte.inline.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-util.h",
+      2
+   ],
+   [
+      "Jim Apple",
+      "bylaws.html",
+      1
    ],
    [
       "Impala Public Jenkins",
-      "reservation-tracker-counters.h",
+      "reservation-tracker-test.cc",
       1
    ],
    [
       "jbapple",
-      "impala_pdf.ditaval",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "partition-ddl-predicates-all-fs.test",
-      1
-   ],
-   [
-      "sailesh",
-      "TupleDescriptor.java",
+      "bloom-filter-test.cc",
       1
    ],
    [
       "jbapple",
-      "run_clang_tidy.sh",
+      "statestore.h",
       1
    ],
    [
       "Internal Jenkins",
-      "literal.h",
+      "bloom-filter-test.cc",
       1
-   ],
-   [
-      "tarmstrong",
-      "test_aggregation.py",
-      1
-   ],
-   [
-      "henry",
-      "kudu_upsert.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "CatalogOpExecutor.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "data-stream-sender.h",
-      2
-   ],
-   [
-      "tarmstrong",
-      "uda-mem-limit.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "null-literal.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "conjunct-ordering.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "timestamp-parse-util.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "data.csv",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "mem-pool.cc",
-      4
    ],
    [
       "Internal Jenkins",
@@ -3646,32 +266,122 @@
    ],
    [
       "Internal Jenkins",
-      "CatalogService.thrift",
+      "run-backend-tests.sh",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "reservation-tracker-counters.h",
+      1
+   ],
+   [
+      "jbapple",
+      "blocking-queue-test.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "progress-updater.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "TSasl.h",
+      1
+   ],
+   [
+      "jbapple",
+      "TSaslServerTransport.h",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "AnalyzeDDLTest.java",
+      1
+   ],
+   [
+      "abehm",
+      "null-literal.cc",
+      1
+   ],
+   [
+      "abehm",
+      "load-java-udfs.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-state.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "fake_query.py",
       2
    ],
    [
       "Internal Jenkins",
-      "expr-test.cc",
-      5
+      "query-exec-state.cc",
+      4
+   ],
+   [
+      "tarmstrong",
+      "java-udf.test",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "KuduScanNode.java",
+      1
+   ],
+   [
+      "abehm",
+      "udf-mem-limit.test",
+      1
    ],
    [
       "Internal Jenkins",
-      "runtime-filter.cc",
-      1
-   ],
-   [
-      "sailesh",
-      "HdfsPartitionPruner.java",
+      "PlanNodes.thrift",
       1
    ],
    [
       "Internal Jenkins",
-      "hdfs-sequence-table-writer.h",
+      "query_exec_functions.py",
+      2
+   ],
+   [
+      "jbapple",
+      "udf-ir.cc",
       1
+   ],
+   [
+      "Internal Jenkins",
+      "test-udas.cc",
+      2
    ],
    [
       "tarmstrong",
       "PlannerTest.java",
+      1
+   ],
+   [
+      "Jim Apple",
+      "anyval-util.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "Planner.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "InlineViewRef.java",
+      3
+   ],
+   [
+      "Tim Armstrong",
+      "test_kudu.py",
       1
    ],
    [
@@ -3681,27 +391,787 @@
    ],
    [
       "Internal Jenkins",
-      "in-predicate-ir.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "DescribeResultFactory.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala-http-handler.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hbase-scan-node.h",
+      "avro-util.h",
       1
    ],
    [
       "tarmstrong",
-      "tpch-nested.test",
+      "CatalogOpExecutor.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "PartitionSpec.java",
+      2
+   ],
+   [
+      "Henry Robinson",
+      "runtime-state.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "NumericLiteral.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "nested-loop-join-builder.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "bootstrap_development.sh",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "test-env.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "UnionNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-avro-scanner.cc",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-text-table-writer.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "expr.h",
+      3
+   ],
+   [
+      "Tim Armstrong",
+      "generate_minidump_collection_testdata.py",
+      1
+   ],
+   [
+      "John Russell",
+      "impala_arch.jpeg",
+      1
+   ],
+   [
+      "abehm",
+      "descriptors.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "TSaslTransport.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CatalogServiceCatalog.java",
+      2
+   ],
+   [
+      "Jim Apple",
+      "index.html",
+      1
+   ],
+   [
+      "abehm",
+      "scalar-fn-call.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "catalog.cc",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-scan-node.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "HBaseScanNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "aggregate-functions-ir.cc",
+      5
+   ],
+   [
+      "Internal Jenkins",
+      "ToSqlUtils.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "exchange-node.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "llvm-codegen.h",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "gen_ir_descriptions.py",
+      5
+   ],
+   [
+      "Jim Apple",
+      "Cloudera-Impala-Release-Notes.ditamap",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node-base.cc",
+      5
+   ],
+   [
+      "tarmstrong",
+      "test_result_verifier.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-table-sink.cc",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "test-macros.h",
+      2
+   ],
+   [
+      "abehm",
+      "slot-ref.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "llvm-codegen-test.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "buffered-tuple-stream.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "aggregation.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "simple-scheduler-test.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-timeouts-catalogd.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "partitioned-aggregation-node.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "descriptors.cc",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "plan-root-sink.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hbase-table-sink.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hbase-table-writer.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "partition-ddl-predicates-all-fs.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "buffered-block-mgr.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "test_show_create_table.py",
+      2
+   ],
+   [
+      "jbapple",
+      "blocking-queue.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "literal.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-scanner.cc",
+      2
+   ],
+   [
+      "jbapple",
+      "network-util.cc",
+      1
+   ],
+   [
+      "sailesh",
+      "hdfs-caching.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "bit-util.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "impala-server.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "runtime-profile.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableSetStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeDDLTest.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "HdfsPartitionPruner.java",
+      2
+   ],
+   [
+      "henry",
+      "test_kudu.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "expr.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "hbase-table.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "BackendGflags.thrift",
+      3
+   ],
+   [
+      "henry",
+      "kudu_insert.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CreateTableLikeFileStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-table-sink.h",
+      7
+   ],
+   [
+      "tarmstrong",
+      "query-exec-state.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "null-literal.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "delimited-text-parser.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node.cc",
+      3
+   ],
+   [
+      "tarmstrong",
+      "uda-mem-limit.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "common.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "TableSink.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "PlannerTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-scan-node.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "CollectionTableRef.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-filter.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "RuntimeEnv.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "scalar-fn-call.h",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "test_permanent_udfs.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "expr-codegen-test.cc",
+      1
+   ],
+   [
+      "Jim Apple",
+      "overview.html",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DeleteStmt.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "TimestampLiteral.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "expr-context.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_crud.test",
+      7
+   ],
+   [
+      "Internal Jenkins",
+      "UpdateStmt.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "FeSupport.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ExprRewriteRulesTest.java",
+      3
+   ],
+   [
+      "jbapple",
+      "buildall.sh",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "TAcceptQueueServer.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "BoolLiteral.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "JniFrontend.java",
+      5
+   ],
+   [
+      "sailesh",
+      "HdfsPartitionPruner.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "generate_error_codes.py",
+      3
+   ],
+   [
+      "John Russell",
+      "impala_pdf.ditaval",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "test_tpch_queries.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeUpsertStmtTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr-stress-test.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "TupleDescriptor.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "TableDef.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Frontend.thrift",
+      5
+   ],
+   [
+      "abehm",
+      "test_result_verifier.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "utility-functions-ir.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "udf.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "authentication.cc",
+      3
+   ],
+   [
+      "jbapple",
+      "compress.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "bootstrap_development.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-timeouts-impalad.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "query-options.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "nested-loop-join-node.cc",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "impala-hs2-server.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "plan-root-sink.cc",
+      1
+   ],
+   [
+      "sailesh",
+      "Frontend.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "PlannerTestBase.java",
+      1
+   ],
+   [
+      "abehm",
+      "test_udfs.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "create-load-data.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scanner.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "codegen-anyval.cc",
+      3
+   ],
+   [
+      "tarmstrong",
+      "tpcds-all.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ExprRewriteRule.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "decimal-test.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "tuple-row-compare.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeExprsTest.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "free-pool-test.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "data-sink.h",
+      3
+   ],
+   [
+      "tarmstrong",
+      "types.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "run-step.sh",
+      3
+   ],
+   [
+      "tarmstrong",
+      "conjunct-ordering.test",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "kudu_create.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DistributeParam.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "descriptors.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "sql-parser.cup",
+      8
+   ],
+   [
+      "jbapple",
+      "run_clang_tidy.sh",
+      1
+   ],
+   [
+      "tarmstrong",
+      "test_exprs.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "constant-folding.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "generate_metrics.py",
+      1
+   ],
+   [
+      "abehm",
+      "uda.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Subquery.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "analytic-fns.test",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "kudu-scanner.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ExistsPredicate.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "data-stream-sender.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "union-node.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "KuduScanNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_describe.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "SelectStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "sql-scanner.flex",
+      1
+   ],
+   [
+      "henry",
+      "buffer-allocator.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "avro-util.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CreateTableAsSelectStmt.java",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-parquet-table-writer.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "empty.test",
+      1
+   ],
+   [
+      "henry",
+      "sql-scanner.flex",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "simple-scheduler.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "bit-stream-utils.inline.h",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "CatalogOpExecutor.java",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "test_scanners.py",
       1
    ],
    [
@@ -3710,8 +1180,218 @@
       1
    ],
    [
+      "Internal Jenkins",
+      "remote_data_load.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "RuntimeFilterGenerator.java",
+      1
+   ],
+   [
+      "abehm",
+      "uda-mem-limit.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "TableRef.java",
+      3
+   ],
+   [
+      "John Russell",
+      "Cloudera-Impala-Release-Notes.ditamap",
+      1
+   ],
+   [
+      "sailesh",
+      "TupleDescriptor.java",
+      1
+   ],
+   [
       "tarmstrong",
-      "bit-util.h",
+      "slot-ref.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "topn-node.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ImpaladCatalog.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "BaseTableRef.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-parquet-scanner.h",
+      2
+   ],
+   [
+      "Marcel Kornacker",
+      "runtime-profile-counters.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "frontend.cc",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "impala-server.cc",
+      7
+   ],
+   [
+      "Internal Jenkins",
+      "parse-timestamp-benchmark.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "AnalyzeDDLTest.java",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "RuntimeProfile.thrift",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_admission_controller.py",
+      2
+   ],
+   [
+      "abehm",
+      "literal.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "query-result-set.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "delimited-text-parser.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_ddl.py",
+      1
+   ],
+   [
+      "Taras Bobrovytsky",
+      "tpcds_kudu_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "tpch_kudu_template.sql",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-rcfile-scanner.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CatalogOpExecutor.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "Table.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hbase-table-sink.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_upsert.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "partitioned-hash-join-node.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "scanner-context.inline.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "copy-udfs-udas.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "simple-scheduler.cc",
+      3
+   ],
+   [
+      "jbapple",
+      "impala_sqlref.ditamap",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "multi-precision-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "report_benchmark_results.py",
+      2
+   ],
+   [
+      "Jim Apple",
+      "anyval-util.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-filter.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "CatalogServiceCatalog.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "plan-fragment-executor.h",
+      3
+   ],
+   [
+      "jbapple",
+      "udf.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "tpch-views.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "admission-controller.cc",
       2
    ],
    [
@@ -3721,22 +1401,972 @@
    ],
    [
       "Internal Jenkins",
-      "hash-benchmark.cc",
-      3
+      "hdfs-text-scanner.cc",
+      4
    ],
    [
-      "tarmstrong",
-      "expr.cc",
-      1
-   ],
-   [
-      "jbapple",
-      "blocking-queue.h",
+      "Internal Jenkins",
+      "run-custom-cluster-tests.sh",
       1
    ],
    [
       "Internal Jenkins",
-      "tpcds-all.test",
+      "test_hive_parquet_timestamp_conversion.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "java-udf.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableDropPartitionStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "FrontendTestBase.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "exec-env.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "StmtRewriter.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "wait-for-metastore.py",
+      2
+   ],
+   [
+      "tarmstrong",
+      "alter-table.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "primitive_filter_in_predicate.test",
+      2
+   ],
+   [
+      "tarmstrong",
+      "insert.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "impala_client.py",
+      1
+   ],
+   [
+      "sailesh",
+      "ParserTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "load-java-udfs.test",
+      2
+   ],
+   [
+      "jbapple",
+      "BuiltinsDb.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_create.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr-scan-range.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzerTest.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node.h",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "mustache.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "CreateViewStmt.java",
+      2
+   ],
+   [
+      "sailesh",
+      "AnalyzeDDLTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "impala-config.sh",
+      5
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableSetFileFormatStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr-stress.cc",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      ".clang-tidy",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CatalogService.thrift",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "literal.cc",
+      3
+   ],
+   [
+      "sailesh",
+      "partition-ddl-predicates.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "JniCatalog.java",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "test_file_parser.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "fe-support.cc",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scanner.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "codegen-mem-limit.test",
+      1
+   ],
+   [
+      "John Russell",
+      "impala_search_pdf.ditaval",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hbase-table-writer.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "tpch-views.test",
+      2
+   ],
+   [
+      "tarmstrong",
+      "aggregate-functions-ir.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_insert_behaviour.py",
+      1
+   ],
+   [
+      "jbapple",
+      "test-udas.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_catalog_hms_failures.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "global-flags.cc",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "ExprTest.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "tpch-nested.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "impala-beeswax-server.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "udf-mem-limit.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-fs-cache.h",
+      1
+   ],
+   [
+      "sailesh",
+      "alter-table.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-scan-node.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "tpch-all.test",
+      3
+   ],
+   [
+      "tarmstrong",
+      "SingleNodePlanner.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "KuduScanNode.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "UnresolvedUdf.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "PlannerContext.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "SlotDescriptor.java",
+      1
+   ],
+   [
+      "Jim Apple",
+      "controller.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "partitioned-aggregation-node.cc",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "ColumnLineageGraph.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "anyval-util.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "PartitionSet.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "raw-value.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "KuduUtil.java",
+      7
+   ],
+   [
+      "Internal Jenkins",
+      "sort-node.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeStmtsTest.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "misc.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_metadata_query_statements.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-update.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "run-process-failure-tests.sh",
+      1
+   ],
+   [
+      "jbapple",
+      "uda-test-harness.h",
+      1
+   ],
+   [
+      "henry",
+      "buffer-pool-counters.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "external-data-source-executor.h",
+      1
+   ],
+   [
+      "henry",
+      "buffer-pool.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Exprs.thrift",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "load-data.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "HdfsTableSink.java",
+      1
+   ],
+   [
+      "abehm",
+      "test-udfs.cc",
+      1
+   ],
+   [
+      "henry",
+      "mem-tracker.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_shell_commandline.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableSetCachedStmt.java",
+      2
+   ],
+   [
+      "tarmstrong",
+      "join-order.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "buffer-pool-counters.h",
+      1
+   ],
+   [
+      "abehm",
+      "text-converter.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "partitioned-aggregation-node.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-table-sink.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "udf-test-harness.cc",
+      2
+   ],
+   [
+      "kwho",
+      "compute-stats.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "in-predicate-benchmark.cc",
+      3
+   ],
+   [
+      "henry",
+      "ParserTest.java",
+      1
+   ],
+   [
+      "sailesh",
+      "kudu_alter.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hive-udf-call.cc",
+      4
+   ],
+   [
+      "Marcel Kornacker",
+      "SlotDescriptor.java",
+      1
+   ],
+   [
+      "abehm",
+      "tuple.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "KuduTable.java",
+      5
+   ],
+   [
+      "Internal Jenkins",
+      "data.csv",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "buffered-block-mgr.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "filter-context.h",
+      1
+   ],
+   [
+      "sailesh",
+      "CatalogServiceCatalog.java",
+      1
+   ],
+   [
+      "John Russell",
+      "clouderad4p.ditaval",
+      2
+   ],
+   [
+      "Tim Armstrong",
+      "query-schedule.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_update.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "MetaStoreClientPool.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "lib-cache.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_insert.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "init.cc",
+      1
+   ],
+   [
+      "henry",
+      "test_shell_commandline.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "impala-server.h",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "partitioned-hash-join-builder.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hash-benchmark.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-filter.inline.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-sequence-table-writer.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "query-options.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "partitioned-hash-join-node.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "Planner.thrift",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableSetLocationStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "DistributedPlanner.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "invalid_decimal_schema.avro",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "PrimitiveType.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "tpch-kudu.test",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "expr-codegen-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ToSqlTest.java",
+      1
+   ],
+   [
+      "sailesh",
+      "impala_client.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "mem-pool.h",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "lineage.test",
+      1
+   ],
+   [
+      "abehm",
+      "udf.test",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "disk-io-mgr-scan-range.cc",
+      1
+   ],
+   [
+      "sailesh",
+      "HdfsTable.java",
+      1
+   ],
+   [
+      "jbapple",
+      "clang_toolchain.cmake",
+      1
+   ],
+   [
+      "tarmstrong",
+      "scalar-fn-call.cc",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "KuduCatalogOpExecutor.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "partitioned-aggregation-node-ir.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "HdfsPartitionPruner.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "mem-pool-test.cc",
+      4
+   ],
+   [
+      "tarmstrong",
+      "test-udfs.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "failure-detector.h",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "runtime-profile-test.cc",
+      1
+   ],
+   [
+      "John Russell",
+      "impala.ditamap",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "simple-scheduler.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr.h",
+      2
+   ],
+   [
+      "Marcel Kornacker",
+      "TupleDescriptor.java",
+      1
+   ],
+   [
+      "sailesh",
+      "compute-stats.test",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "buffered-tuple-stream-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DropStatsStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "TestDataGenerator.java",
+      2
+   ],
+   [
+      "abehm",
+      "expr-codegen-test.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "query-exec-state.h",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "scope-exit-trigger.h",
+      1
+   ],
+   [
+      "abehm",
+      "partitioned-aggregation-node.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CreateOrAlterViewStmtBase.java",
+      2
+   ],
+   [
+      "Tim Armstrong",
+      "kudu_test_suite.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "check-rat-report.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "tuple.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "test_udfs.py",
+      1
+   ],
+   [
+      "henry",
+      "reservation-tracker-counters.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "generate-schema-statements.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-avro-table-writer.cc",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "kudu_alter.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hbase-scan-node.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-sequence-table-writer.h",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "buffer-pool-test.cc",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "coordinator.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "subquery-rewrite.test",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "Column.java",
+      3
+   ],
+   [
+      "tarmstrong",
+      "udf-errors.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "PlanNode.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "row-batch-cache.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-util.cc",
+      2
+   ],
+   [
+      "jbapple",
+      "uda-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-rcfile-scanner.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-state.h",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "schema_constraints.csv",
+      5
+   ],
+   [
+      "tarmstrong",
+      "hdfs-caching.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "ScanNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CatalogServiceTestCatalog.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "write-stream.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "anyval-util.h",
+      3
+   ],
+   [
+      "Marcel Kornacker",
+      "runtime-profile.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "SlotRef.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "text-converter.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "webserver.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "load_nested.py",
+      2
+   ],
+   [
+      "jbapple",
+      "impala.ditamap",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "scanner-context.cc",
+      2
+   ],
+   [
+      "sailesh",
+      "SingleNodePlanner.java",
+      1
+   ],
+   [
+      "abehm",
+      "compound-predicates.cc",
+      1
+   ],
+   [
+      "henry",
+      "AnalyzeDDLTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "StringLiteral.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-avro-table-writer.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalysisContext.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "coordinator.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "kudu_stats.test",
+      1
+   ],
+   [
+      "henry",
+      "reservation-tracker.cc",
+      2
+   ],
+   [
+      "jbapple",
+      "statestore-subscriber.h",
       1
    ],
    [
@@ -3745,9 +2375,1324 @@
       2
    ],
    [
+      "jbapple",
+      "thread-pool.h",
+      1
+   ],
+   [
+      "henry",
+      "kudu_delete.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "simple-scheduler.cc",
+      1
+   ],
+   [
+      "abehm",
+      "partitioned-hash-join-node.cc",
+      1
+   ],
+   [
       "Internal Jenkins",
-      "disk-io-mgr.h",
+      "HdfsTable.java",
       2
+   ],
+   [
+      "Internal Jenkins",
+      "avro-schema-changes.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "blocking-join-node.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "KuduTableSink.java",
+      3
+   ],
+   [
+      "tarmstrong",
+      "Table.java",
+      1
+   ],
+   [
+      "jbapple",
+      "periodic-counter-updater.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "expr-context.h",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "partition-ddl-predicates-hdfs-only.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "values.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "BetweenPredicate.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-parquet-table-writer.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "HBaseScanNode.java",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "impala-http-handler.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "partitioned-hash-join-builder.cc",
+      4
+   ],
+   [
+      "tarmstrong",
+      "subquery-rewrite.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_hs2.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "uda.test",
+      3
+   ],
+   [
+      "sailesh",
+      "CatalogOpExecutor.java",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "query-schedule.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "slot-ref.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr.cc",
+      6
+   ],
+   [
+      "jbapple",
+      "test-udas.cc",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "coordinator.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-parquet-scanner.cc",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "LiteralExpr.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "tpcds-all.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "exprs.test",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "tpcds_kudu_template.sql",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "union-node.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "partition-ddl-predicates.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "descriptors.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableChangeColStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "conftest.py",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "tmp-file-mgr.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-table-sink.cc",
+      10
+   ],
+   [
+      "tarmstrong",
+      "outer-joins.test",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "hdfs-parquet-scanner.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "scoped-buffer.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "compiler-util.h",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "simple-scheduler-test-util.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "TestUtils.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "backend-gflag-util.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "impala-http-handler.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Catalog.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_lineage.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "bloom-filter.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "in-predicate-ir.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "string-compare-test.cc",
+      3
+   ],
+   [
+      "jbapple",
+      "TSaslClientTransport.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AvroSchemaUtils.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "avro-errors.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "buffered-tuple-stream.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "types.h",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "data-stream-sender.h",
+      2
+   ],
+   [
+      "henry",
+      "buffer-pool-test.cc",
+      1
+   ],
+   [
+      "kwho",
+      "test_aggregation.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "InPredicate.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ExtractCommonConjunctRule.java",
+      2
+   ],
+   [
+      "Taras Bobrovytsky",
+      "tpch_kudu_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "status.h",
+      1
+   ],
+   [
+      "abehm",
+      "expr.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "BinaryPredicate.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "in-predicate.h",
+      4
+   ],
+   [
+      "henry",
+      "buffer-pool.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "FunctionCallExpr.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Expr.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeModifyStmtsTest.java",
+      2
+   ],
+   [
+      "tarmstrong",
+      "HdfsScanNode.java",
+      1
+   ],
+   [
+      "Jim Apple",
+      "community.html",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "literal.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "string-value.inline.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "impala_shell.py",
+      1
+   ],
+   [
+      "Jim Apple",
+      "downloads.html",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "bloom-filter-benchmark.cc",
+      2
+   ],
+   [
+      "henry",
+      "buffer-allocator.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "base-sequence-scanner.cc",
+      3
+   ],
+   [
+      "tarmstrong",
+      "test_aggregation.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Planner.java",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_delete.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ImpalaService.thrift",
+      3
+   ],
+   [
+      "abehm",
+      "java-udf.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "raw-value.cc",
+      1
+   ],
+   [
+      "henry",
+      "kudu_update.test",
+      1
+   ],
+   [
+      "jbapple",
+      "impala_pdf.ditaval",
+      1
+   ],
+   [
+      "abehm",
+      "udf-codegen-required.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterViewStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr-stress.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "backend-gflag-util.cc",
+      3
+   ],
+   [
+      "Marcel Kornacker",
+      "runtime-profile.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "db_connection.py",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "scope-exit-trigger.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "scalar-fn-call.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableSetTblProperties.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "union.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-delete.test",
+      2
+   ],
+   [
+      "Marcel Kornacker",
+      "kudu-scanner.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "compute-stats.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu.test",
+      5
+   ],
+   [
+      "tarmstrong",
+      "kudu_alter.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "buffer-allocator.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "decompress.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hash-join-node.cc",
+      4
+   ],
+   [
+      "Tim Armstrong",
+      "kudu_crud.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "tuple-splitter-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hash-table-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-filter-propagation.test",
+      1
+   ],
+   [
+      "abehm",
+      "aggregate-functions-ir.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "StatementBase.java",
+      2
+   ],
+   [
+      "Henry Robinson",
+      "plan-fragment-executor.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "compute-stats.test",
+      2
+   ],
+   [
+      "henry",
+      "reservation-tracker-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "raw-value-ir.cc",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "test-env.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "AnalyzeStmtsTest.java",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "plan-fragment-executor.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "aggregation-node.cc",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "hash-table.cc",
+      3
+   ],
+   [
+      "Jim Apple",
+      "mem-pool-test.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "buffered-block-mgr-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "KuduCatalogOpExecutor.java",
+      5
+   ],
+   [
+      "Internal Jenkins",
+      "impala_test_suite.py",
+      5
+   ],
+   [
+      "Henry Robinson",
+      "buffered-block-mgr-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CompoundPredicate.java",
+      2
+   ],
+   [
+      "tarmstrong",
+      "partition-ddl-predicates.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "buffer-allocator.h",
+      1
+   ],
+   [
+      "henry",
+      "reservation-tracker.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "libs_with_same_filenames.test",
+      1
+   ],
+   [
+      "Jim Apple",
+      "impala_docker_env.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-sequence-scanner.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "exec-node.cc",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-profile.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "TupleDescriptor.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node-base.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "impala-ir.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "catalog-server.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "metrics.h",
+      1
+   ],
+   [
+      "jbapple",
+      "impala_html.ditaval",
+      1
+   ],
+   [
+      "henry",
+      "kudu_upsert.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "queries.tmpl",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "DescribeTableStmt.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "HdfsTable.java",
+      1
+   ],
+   [
+      "sailesh",
+      "AnalyzeStmtsTest.java",
+      1
+   ],
+   [
+      "jbapple",
+      "parquet-reader.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "timestamp-parse-util.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "codegen-anyval.h",
+      2
+   ],
+   [
+      "jbapple",
+      "uda-sample.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ParserTest.java",
+      7
+   ],
+   [
+      "henry",
+      "functional_schema_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "JniCatalog.thrift",
+      2
+   ],
+   [
+      "tarmstrong",
+      "udf.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "agg-fn-evaluator.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "SingleNodePlanner.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "plan-fragment-executor.cc",
+      5
+   ],
+   [
+      "Tim Armstrong",
+      "HdfsTable.java",
+      1
+   ],
+   [
+      "abehm",
+      "tuple-row-compare.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-table-writer.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-filter-bank.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "tmp-file-mgr.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "UnionStmt.java",
+      3
+   ],
+   [
+      "abehm",
+      "descriptors.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "parquet-column-readers.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "thrift-server.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "partitioned-hash-join-builder-ir.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-filter-ir.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-parquet-scanner-ir.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_query_mem_limit.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-text-table-writer.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "pip_download.py",
+      2
+   ],
+   [
+      "jbapple",
+      "udf.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu_partition_ddl.test",
+      1
+   ],
+   [
+      "Marcel Kornacker",
+      "hdfs-parquet-scanner.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "impala_client.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "joins.test",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "simple-scheduler-test-util.cc",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "KuduUtil.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_alter.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "string-functions-ir.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "catalog-server.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "nested-loop-join-builder.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "insert.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "SelectListItem.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "free-pool.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "impala-hs2-server.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "pprof-path-handlers.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Frontend.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "functional_schema_template.sql",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_insert.test",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "impala-server.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "case-expr.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "run_clang_tidy.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "compute-table-stats.sh",
+      2
+   ],
+   [
+      "tarmstrong",
+      "predicate-propagation.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-table-writer.h",
+      2
+   ],
+   [
+      "tarmstrong",
+      "simple-scheduler.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "expr-test.cc",
+      5
+   ],
+   [
+      "sailesh",
+      "Table.java",
+      1
+   ],
+   [
+      "jbapple",
+      "benchmark-test.cc",
+      1
+   ],
+   [
+      "jbapple",
+      "rle-test.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "ExprRewriteRulesTest.java",
+      1
+   ],
+   [
+      "jbapple",
+      "minidump.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "test-udas.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "buffer-pool.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "mcjit-mem-mgr.h",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "expr-benchmark.cc",
+      1
+   ],
+   [
+      "Jim Apple",
+      "mem-pool.cc",
+      2
+   ],
+   [
+      "John Russell",
+      "impala_html.ditaval",
+      3
+   ],
+   [
+      "Henry Robinson",
+      "impala-server.cc",
+      2
+   ],
+   [
+      "jbapple",
+      "buffer-builder.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "load-java-udfs.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "FileSystemUtil.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "like-predicate.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "timestamp-value.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "Frontend.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "User.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "setup-hdfs-env.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr-test.cc",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "KuduColumn.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "authentication.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "test_ddl.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_failpoints.py",
+      2
+   ],
+   [
+      "tarmstrong",
+      "ParserTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ReplaceStringUdf.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "llvm-codegen.cc",
+      7
+   ],
+   [
+      "Internal Jenkins",
+      "BetweenToCompoundRule.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "QueryStmt.java",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "coordinator.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "NullLiteral.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "string-buffer.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "tmp-file-mgr-test.cc",
+      3
+   ],
+   [
+      "Henry Robinson",
+      "plan-root-sink.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "SelectList.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeSubqueriesTest.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ShowFilesStmt.java",
+      2
+   ],
+   [
+      "jbapple",
+      "make_impala.sh",
+      1
+   ],
+   [
+      "jbapple",
+      "aligned-new.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "test_udfs.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DescribeResultFactory.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "udf-codegen-required.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "buffer-pool.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "DataSourceScanNode.java",
+      1
+   ],
+   [
+      "sailesh",
+      "test_ddl.py",
+      1
+   ],
+   [
+      "abehm",
+      "libs_with_same_filenames.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "BackendConfig.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "coordinator.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "ImpalaInternalService.thrift",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "ComputeStatsStmt.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "impala_service.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "RangePartition.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DataSinks.thrift",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "wait-for-hiveserver2.py",
+      2
+   ],
+   [
+      "abehm",
+      "partitioned-aggregation-node.h",
+      1
+   ],
+   [
+      "Jim Apple",
+      "mem-pool.h",
+      2
+   ],
+   [
+      "abehm",
+      "udf-errors.test",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "runtime-state.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-upsert.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "disk-io-mgr-internal.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "logging.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "case-expr.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "TestUtils.java",
+      1
    ],
    [
       "Internal Jenkins",
@@ -3756,12 +3701,67 @@
    ],
    [
       "Internal Jenkins",
-      "CatalogObjects.thrift",
+      "ScalarType.java",
       2
    ],
    [
       "Internal Jenkins",
-      "StringLiteral.java",
+      "InsertStmt.java",
+      8
+   ],
+   [
+      "tarmstrong",
+      "udf.test",
+      2
+   ],
+   [
+      "abehm",
+      "types.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "data-sink.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "CatalogObjects.thrift",
+      2
+   ],
+   [
+      "jbapple",
+      "impala-server.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_mt_dop.py",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "UdfExecutorTest.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "test_kudu.py",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "fe-support.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "old-hash-table.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "timestamp-value.cc",
       1
    ]
 ]

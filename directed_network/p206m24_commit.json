@@ -1,33 +1,18 @@
 [
    [
-      "Vamsee Yarlagadda",
-      "SentryIndexAuthorizationSingletonTest.java",
+      "Colin Ma",
+      "ThriftUtil.java",
+      2
+   ],
+   [
+      "Guoquan Shen",
+      "TestRoleOperation.java",
       2
    ],
    [
       "Sravya Tirukkovalur",
-      "AbstractTestWithDbProvider.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TSentryConfigValueRequest.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TCreateSentryRoleRequest.java",
+      "TAlterSentryRoleRevokePrivilegeRequest.java",
       4
-   ],
-   [
-      "Sun Dapeng",
-      "SentryHdfsServiceIntegrationBase.java",
-      2
-   ],
-   [
-      "gqshen",
-      "TestServerScopeEndToEnd.java",
-      1
    ],
    [
       "Vamsee Yarlagadda",
@@ -35,18 +20,8 @@
       2
    ],
    [
-      "Vamsee Yarlagadda",
-      "SecureCoreAdminHandlerTest.java",
-      2
-   ],
-   [
-      "Colin Ma",
-      "JsonLogEntityFactory.java",
-      2
-   ],
-   [
-      "gqshen",
-      "apache-sentry-1.5.1-incubating-src.tar.gz",
+      "Guoquan Shen",
+      "TestGrantPrivilege.java",
       2
    ],
    [
@@ -55,44 +30,29 @@
       2
    ],
    [
-      "Vamsee Yarlagadda",
-      "SecureDocumentAnalysisRequestHandler.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "HAContext.java",
-      2
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "SecureRequestHandlerUtil.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "ProcessorFactory.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "InternalSentrySrv.java",
-      2
-   ],
-   [
       "Sravya Tirukkovalur",
       "005-SENTRY-398.postgres.sql",
       2
    ],
    [
-      "Sravya Tirukkovalur",
-      "SentryServiceIntegrationBase.java",
-      4
+      "gqshen",
+      "TestServerScopeEndToEnd.java",
+      1
    ],
    [
-      "Guoquan Shen",
-      "TestRoleOperation.java",
+      "Sravya Tirukkovalur",
+      "AbstractSolrSentryTestWithDbProvider.java",
       2
+   ],
+   [
+      "Colin Ma",
+      "TestDbDDLAuditLog.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TDropPrivilegesRequest.java",
+      4
    ],
    [
       "Colin Ma",
@@ -101,27 +61,57 @@
    ],
    [
       "Sravya Tirukkovalur",
-      "SentrySchemaTool.java",
+      "SentryThriftAPIMismatchException.java",
+      2
+   ],
+   [
+      "Colin Ma",
+      "SentryProcessorWrapper.java",
       2
    ],
    [
       "Sravya Tirukkovalur",
-      "ServiceConstants.java",
-      6
+      "TAlterSentryRoleAddGroupsRequest.java",
+      4
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "AuditLogger.java",
+      2
    ],
    [
       "Guoquan Shen",
-      "TestRevokePrivilege.java",
+      "TestOwnerPrivilege.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryStore.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TestSentryPolicyStoreProcessor.java",
+      2
+   ],
+   [
+      "Colin Ma",
+      "TestJsonLogEntityFactory.java",
       2
    ],
    [
       "Vamsee Yarlagadda",
-      "SecureFieldAnalysisRequestHandler.java",
+      "SentryIndexAuthorizationSingletonTest.java",
       2
    ],
    [
       "Sravya Tirukkovalur",
-      "AbstractSqoopSentryTestBase.java",
+      "sentry-oracle-1.5.0.sql",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "sentry-oracle-1.6.0.sql",
       2
    ],
    [
@@ -131,17 +121,72 @@
    ],
    [
       "Sravya Tirukkovalur",
-      "SentryThriftAPIMismatchException.java",
-      2
+      "TListSentryPrivilegesRequest.java",
+      4
    ],
    [
-      "Guoquan Shen",
-      "TestOwnerPrivilege.java",
+      "Sravya Tirukkovalur",
+      "005-SENTRY-398.mysql.sql",
       2
    ],
    [
       "Colin Ma",
-      "CommandUtil.java",
+      "SentryAuthorizationInfo.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "UpdateIndexAuthorizationProcessorTest.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "HAContext.java",
+      2
+   ],
+   [
+      "gqshen",
+      "TomcatSqoopRunner.java",
+      1
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TCreateSentryRoleRequest.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TestSentryStore.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TListSentryRolesRequest.java",
+      4
+   ],
+   [
+      "Sun Dapeng",
+      "TestSentryServiceForHAWithKerberos.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "QueryIndexAuthorizationComponent.java",
+      2
+   ],
+   [
+      "Colin Ma",
+      "SentryHDFSServiceProcessorFactory.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryHDFSServiceProcessorFactory.java",
+      2
+   ],
+   [
+      "Guoquan Shen",
+      "AbstractSqoopSentryTestBase.java",
       2
    ],
    [
@@ -150,19 +195,29 @@
       2
    ],
    [
-      "Guoquan Shen",
-      "TestConnectorEndToEnd.java",
+      "Sravya Tirukkovalur",
+      "SentryPolicyServiceClientDefaultImpl.java",
       2
    ],
    [
-      "Lenni Kuff",
-      "TestLinkEndToEnd.java",
+      "Sravya Tirukkovalur",
+      "sentry_common_serviceConstants.java",
       2
    ],
    [
-      "Colin Ma",
-      "ThriftUtil.java",
+      "Vamsee Yarlagadda",
+      "SecureCollectionsHandler.java",
       2
+   ],
+   [
+      "gqshen",
+      "apache-sentry-1.5.1-incubating-src.tar.gz.sha",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TListSentryPrivilegesForProviderRequest.java",
+      4
    ],
    [
       "Sravya Tirukkovalur",
@@ -171,7 +226,122 @@
    ],
    [
       "Sravya Tirukkovalur",
-      "SentryAuthorizationProvider.java",
+      "TSentryConfigValueRequest.java",
+      2
+   ],
+   [
+      "Colin Ma",
+      "CommandUtil.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TestHDFSIntegration.java",
+      8
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryStoreIntegrationBase.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TAlterSentryRoleDeleteGroupsRequest.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "ProcessorFactory.java",
+      4
+   ],
+   [
+      "Sun Dapeng",
+      "TestSentryGenericServiceIntegration.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "SecureRequestHandlerUtil.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "sentry-mysql-1.6.0.sql",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "SecureCoreAdminHandlerTest.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentrySchemaTool.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TestSentryVersion.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "ServiceConstants.java",
+      6
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "AbstractTestWithStaticConfiguration.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "MetastoreClient.java",
+      2
+   ],
+   [
+      "Lenni Kuff",
+      "TestLinkEndToEnd.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryPlugin.java",
+      2
+   ],
+   [
+      "Sun Dapeng",
+      "SentryHdfsServiceIntegrationBase.java",
+      2
+   ],
+   [
+      "Sun Dapeng",
+      "SentryServiceIntegrationBase.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "sentry_common_service.thrift",
+      4
+   ],
+   [
+      "Sun Dapeng",
+      "TestSentryServiceFailureCase.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryServiceIntegrationBase.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryService.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "AbstractSqoopSentryTestBase.java",
       2
    ],
    [
@@ -185,258 +355,13 @@
       2
    ],
    [
-      "Vamsee Yarlagadda",
-      "QueryIndexAuthorizationComponent.java",
-      2
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "SentryIndexAuthorizationSingleton.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryHDFSServiceProcessorFactory.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TAlterSentryRoleAddGroupsRequest.java",
-      4
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "SecureCoreAdminHandler.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "AbstractTestWithStaticConfiguration.java",
-      2
-   ],
-   [
-      "Guoquan Shen",
-      "StaticUserGroupRole.java",
-      2
-   ],
-   [
-      "Sun Dapeng",
-      "TestSentryWebServerWithoutSecurity.java",
-      2
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "AuditLogger.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TestSentryVersion.java",
-      2
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "UpdateIndexAuthorizationProcessor.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "sentry-mysql-1.6.0.sql",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "JaasConfiguration.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryStoreIntegrationBase.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TestSentryStore.java",
-      2
-   ],
-   [
-      "Colin Ma",
-      "SentryHDFSServiceProcessorFactory.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryService.java",
-      4
-   ],
-   [
-      "Sun Dapeng",
-      "test-patch.py",
-      2
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "UpdateIndexAuthorizationProcessorTest.java",
-      2
-   ],
-   [
-      "Sun Dapeng",
-      "TestSentryServiceFailureCase.java",
-      2
-   ],
-   [
-      "Sun Dapeng",
-      "TestSentryServiceWithKerberos.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TDropPrivilegesRequest.java",
-      4
-   ],
-   [
-      "Sun Dapeng",
-      "SentryServiceIntegrationBase.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TestHDFSIntegration.java",
-      8
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TListSentryPrivilegesRequest.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "sentry-oracle-1.6.0.sql",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "005-SENTRY-398.oracle.sql",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "005-SENTRY-398.mysql.sql",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "sentry-postgres-1.5.0.sql",
-      2
-   ],
-   [
-      "Guoquan Shen",
-      "TestGrantPrivilege.java",
-      2
-   ],
-   [
-      "Colin Ma",
-      "TestDbDDLAuditLog.java",
-      2
-   ],
-   [
-      "Sun Dapeng",
-      "TestSentryGenericServiceIntegration.java",
-      2
-   ],
-   [
-      "Guoquan Shen",
-      "TestJobEndToEnd.java",
-      2
-   ],
-   [
-      "Colin Ma",
-      "SentryAuthorizationInfo.java",
-      2
-   ],
-   [
-      "Guoquan Shen",
-      "AbstractSqoopSentryTestBase.java",
-      2
-   ],
-   [
-      "gqshen",
-      "apache-sentry-1.5.1-incubating-src.tar.gz.sha",
-      2
-   ],
-   [
       "gqshen",
       "TestShowPrivilege.java",
       1
    ],
    [
-      "Sravya Tirukkovalur",
-      "sentry-postgres-1.6.0.sql",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "Status.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "DelegateSentryStore.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "MetastoreClient.java",
-      2
-   ],
-   [
-      "Colin Ma",
-      "SentryProcessorWrapper.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryPlugin.java",
-      2
-   ],
-   [
-      "gqshen",
-      "apache-sentry-1.5.1-incubating-src.tar.gz.asc",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "sentry_common_service.thrift",
-      4
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "SecureReplicationHandler.java",
-      2
-   ],
-   [
       "Sun Dapeng",
-      "TestSentryWebServerWithKerberos.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "sentry-oracle-1.5.0.sql",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "sentry_common_serviceConstants.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TListSentryPrivilegesByAuthRequest.java",
-      2
-   ],
-   [
-      "Colin Ma",
-      "TestAuthorizingDDLAuditLogWithKerberos.java",
+      "test-patch.py",
       2
    ],
    [
@@ -445,63 +370,18 @@
       4
    ],
    [
-      "Colin Ma",
-      "TestJsonLogEntityFactory.java",
-      2
-   ],
-   [
       "Sravya Tirukkovalur",
-      "TAlterSentryRoleDeleteGroupsRequest.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryPolicyServiceClientDefaultImpl.java",
+      "JaasConfiguration.java",
       2
    ],
    [
       "gqshen",
-      "TomcatSqoopRunner.java",
-      1
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryStore.java",
+      "apache-sentry-1.5.1-incubating-src.tar.gz.asc",
       2
    ],
    [
-      "Sravya Tirukkovalur",
-      "SentryPolicyStoreProcessor.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TListSentryRolesRequest.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "ExtendedMetastoreClient.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TAlterSentryRoleRevokePrivilegeRequest.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TListSentryPrivilegesForProviderRequest.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TestSentryPolicyStoreProcessor.java",
-      2
-   ],
-   [
-      "Vamsee Yarlagadda",
-      "SecureAdminHandlers.java",
+      "Sun Dapeng",
+      "TestSentryWebServerWithoutSecurity.java",
       2
    ],
    [
@@ -511,12 +391,122 @@
    ],
    [
       "Sravya Tirukkovalur",
-      "AbstractSolrSentryTestWithDbProvider.java",
+      "sentry-postgres-1.5.0.sql",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "sentry-postgres-1.6.0.sql",
+      2
+   ],
+   [
+      "Guoquan Shen",
+      "TestJobEndToEnd.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "UpdateIndexAuthorizationProcessor.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "DelegateSentryStore.java",
+      2
+   ],
+   [
+      "Guoquan Shen",
+      "TestConnectorEndToEnd.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "SecureCoreAdminHandler.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "ExtendedMetastoreClient.java",
       2
    ],
    [
       "Sun Dapeng",
-      "TestSentryServiceForHAWithKerberos.java",
+      "TestSentryWebServerWithKerberos.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "AbstractTestWithDbProvider.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TListSentryPrivilegesByAuthRequest.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryPolicyStoreProcessor.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "SecureFieldAnalysisRequestHandler.java",
+      2
+   ],
+   [
+      "Colin Ma",
+      "JsonLogEntityFactory.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryAuthorizationProvider.java",
+      2
+   ],
+   [
+      "Guoquan Shen",
+      "TestRevokePrivilege.java",
+      2
+   ],
+   [
+      "Guoquan Shen",
+      "StaticUserGroupRole.java",
+      2
+   ],
+   [
+      "Colin Ma",
+      "TestAuthorizingDDLAuditLogWithKerberos.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "SecureReplicationHandler.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "SecureAdminHandlers.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "Status.java",
+      2
+   ],
+   [
+      "Vamsee Yarlagadda",
+      "SentryIndexAuthorizationSingleton.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "InternalSentrySrv.java",
+      2
+   ],
+   [
+      "Sun Dapeng",
+      "TestSentryServiceWithKerberos.java",
       2
    ],
    [
@@ -525,8 +515,18 @@
       2
    ],
    [
+      "gqshen",
+      "apache-sentry-1.5.1-incubating-src.tar.gz",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "005-SENTRY-398.oracle.sql",
+      2
+   ],
+   [
       "Vamsee Yarlagadda",
-      "SecureCollectionsHandler.java",
+      "SecureDocumentAnalysisRequestHandler.java",
       2
    ]
 ]

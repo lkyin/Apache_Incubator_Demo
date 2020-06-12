@@ -1,52 +1,37 @@
 [
    [
       "Keith Turner",
-      "ExportTestBase.java",
-      1
-   ],
-   [
-      "kturner",
-      "ChangeImpl.java",
-      1
-   ],
-   [
-      "kturner",
-      "InitializerImpl.java",
-      1
-   ],
-   [
-      "kturner",
-      "AccumuloExporterIT.java",
+      "NotificationProcessor.java",
       1
    ],
    [
       "Keith Turner",
-      "WeakNotificationOverlapIT.java",
+      "SimpleConfiguration.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "StrongNotificationIT.java",
       1
    ],
    [
       "kturner",
-      "SummingCombiner.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "PartitionNotificationFinder.java",
+      "ChangeObserver.java",
       1
    ],
    [
       "kturner",
-      "MemLimitIterator.java",
+      "CollisionFreeMap.java",
       1
    ],
    [
       "Keith Turner",
-      "PartitionInfoChangedException.java",
+      "FailureIT.java",
       1
    ],
    [
       "Keith Turner",
-      "FluoConfigurationImpl.java",
+      "SelfNotificationIT.java",
       1
    ],
    [
@@ -56,122 +41,12 @@
    ],
    [
       "kturner",
-      "CollisionFreeMap.java",
-      1
-   ],
-   [
-      "kturner",
-      "FluentConfigurator.java",
-      1
-   ],
-   [
-      "kturner",
-      "ChangeObserver.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "LoaderExecutor.java",
-      1
-   ],
-   [
-      "kturner",
-      "ExportQueue.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "PartitionInfo.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "FailureIT.java",
-      1
-   ],
-   [
-      "kturner",
-      "CollisionFreeMapIT.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ObserversV1.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "NotificationFinderFactory.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "AccumuloExportTest.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ExportBucket.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ObserverProvider.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "TabletInfoCache.java",
-      1
-   ],
-   [
-      "kturner",
-      "NullUpdateObserver.java",
-      1
-   ],
-   [
-      "kturner",
-      "CollisionFreeMapObserver.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "FluoIT.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "Loader.java",
+      "MemLimitIterator.java",
       1
    ],
    [
       "kturner",
       "CombineQueue.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "LogIT.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "RangeSet.java",
-      1
-   ],
-   [
-      "Christopher McTague",
-      "Bytes.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "NotificationProcessor.java",
-      1
-   ],
-   [
-      "kturner",
-      "CqOptimizer.java",
       1
    ],
    [
@@ -181,8 +56,43 @@
    ],
    [
       "Keith Turner",
+      "SerializedSplitsTest.java",
+      1
+   ],
+   [
+      "Keith Turner",
       "WorkerIT.java",
       2
+   ],
+   [
+      "kturner",
+      "SummingCombiner.java",
+      1
+   ],
+   [
+      "kturner",
+      "CollisionFreeMapIT.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "PartitionInfoChangedException.java",
+      1
+   ],
+   [
+      "kturner",
+      "InputImpl.java",
+      1
+   ],
+   [
+      "kturner",
+      "AccumuloTranslatorTest.java",
+      1
+   ],
+   [
+      "kturner",
+      "ExportQueue.java",
+      1
    ],
    [
       "kturner",
@@ -191,17 +101,97 @@
    ],
    [
       "kturner",
-      "SplitsTest.java",
-      2
-   ],
-   [
-      "kturner",
-      "ExportObserver.java",
+      "TestGrouping.java",
       1
    ],
    [
       "kturner",
-      "TypedObserver.java",
+      "ExportTestBase.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "NotificationFinderFactory.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "Bytes.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "index.html",
+      1
+   ],
+   [
+      "kturner",
+      "AccumuloExporterIT.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "AccumuloExportTest.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "CombineQueueImpl.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "TableRange.java",
+      1
+   ],
+   [
+      "kturner",
+      "BigUpdateIT.java",
+      1
+   ],
+   [
+      "kturner",
+      "Update.java",
+      1
+   ],
+   [
+      "kturner",
+      "OptionsTest.java",
+      3
+   ],
+   [
+      "Keith Turner",
+      "ExportBucket.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "WeakNotificationIT.java",
+      1
+   ],
+   [
+      "kturner",
+      "CombineQueueTreeIT.java",
+      1
+   ],
+   [
+      "kturner",
+      "DocumentObserver.java",
+      2
+   ],
+   [
+      "Keith Turner",
+      "ScanTask.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "SerializedSplits.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "FluoConfigurationImpl.java",
       1
    ],
    [
@@ -216,132 +206,7 @@
    ],
    [
       "Keith Turner",
-      "HashTest.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "LoaderExecutorAsyncImpl.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "PartitionManagerTest.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "AccumuloTranslator.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "TableRange.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ObserverStoreTest.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "SimpleConfiguration.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "TransactionImpl.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "StrongNotificationIT.java",
-      1
-   ],
-   [
-      "kturner",
-      "ExportBucket.java",
-      1
-   ],
-   [
-      "kturner",
-      "Combiner.java",
-      2
-   ],
-   [
-      "Mike Walch",
-      "Gemfile.lock",
-      1
-   ],
-   [
-      "Keith Turner",
-      "Hex.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "WeakNotificationIT.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "WorkTaskAsync.java",
-      1
-   ],
-   [
-      "kturner",
-      "DocumentObserver.java",
-      2
-   ],
-   [
-      "kturner",
-      "InputImpl.java",
-      1
-   ],
-   [
-      "Keith Turner",
       "BytesTest.java",
-      1
-   ],
-   [
-      "kturner",
-      "Update.java",
-      1
-   ],
-   [
-      "kturner",
-      "ExportEntry.java",
-      1
-   ],
-   [
-      "kturner",
-      "WordCountObserver.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ModulusParams.java",
-      1
-   ],
-   [
-      "kturner",
-      "CombineQueueTreeIT.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ObserversV2.java",
-      1
-   ],
-   [
-      "Mike Walch",
-      "index.html",
-      6
-   ],
-   [
-      "Keith Turner",
-      "AppConfigIT.java",
       1
    ],
    [
@@ -351,117 +216,47 @@
    ],
    [
       "Keith Turner",
-      "SerializedSplitsTest.java",
+      "PartitionInfo.java",
       1
    ],
    [
       "kturner",
-      "AccumuloTranslatorTest.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ObserverUtil.java",
-      1
-   ],
-   [
-      "kturner",
-      "TestGrouping.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "CollisionIT.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "SelfNotificationIT.java",
-      1
-   ],
-   [
-      "kturner",
-      "UpdateObserver.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "TxStats.java",
-      1
-   ],
-   [
-      "kturner",
-      "CombineQueueImpl.java",
-      1
-   ],
-   [
-      "kturner",
-      "OptionsTest.java",
-      3
-   ],
-   [
-      "Keith Turner",
-      "TableRangeTest.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "AccumuloReplicator.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "Bytes.java",
-      1
-   ],
-   [
-      "kturner",
-      "ExportObserverImpl.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ExportQueue.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "SerializedSplits.java",
-      1
-   ],
-   [
-      "kturner",
-      "ExportTestBase.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ScanTask.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ParitionManager.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "TracingTransaction.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "AccumuloExporter.java",
+      "Combiner.java",
       2
    ],
    [
       "Keith Turner",
-      "CombineQueueImpl.java",
+      "LoaderExecutorAsyncImpl.java",
       1
    ],
    [
       "Keith Turner",
-      "AeFluentConfigurator.java",
+      "ColumnProviderRegistry.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "Loader.java",
+      1
+   ],
+   [
+      "kturner",
+      "CqOptimizer.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "WeakNotificationOverlapIT.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ObserversV1.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "CommitManager.java",
       1
    ],
    [
@@ -471,22 +266,17 @@
    ],
    [
       "kturner",
-      "CqConfigurator.java",
+      "ExportObserverImpl.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "PartitionManagerTest.java",
       1
    ],
    [
       "kturner",
-      "BigUpdateIT.java",
-      1
-   ],
-   [
-      "Keith Turner",
-      "index.html",
-      1
-   ],
-   [
-      "Keith Turner",
-      "ColumnProviderRegistry.java",
+      "NullUpdateObserver.java",
       1
    ],
    [
@@ -495,8 +285,88 @@
       2
    ],
    [
+      "kturner",
+      "ExportBucket.java",
+      1
+   ],
+   [
+      "kturner",
+      "InitializerImpl.java",
+      1
+   ],
+   [
       "Keith Turner",
-      "CommitManager.java",
+      "LogIT.java",
+      1
+   ],
+   [
+      "Mike Walch",
+      "Gemfile.lock",
+      1
+   ],
+   [
+      "Keith Turner",
+      "AccumuloTranslator.java",
+      1
+   ],
+   [
+      "kturner",
+      "ExportEntry.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "AccumuloReplicator.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "TracingTransaction.java",
+      1
+   ],
+   [
+      "kturner",
+      "FluentConfigurator.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ObserversV2.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "RangeSet.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ExportTestBase.java",
+      1
+   ],
+   [
+      "kturner",
+      "ExportObserver.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "Hex.java",
+      1
+   ],
+   [
+      "kturner",
+      "CqConfigurator.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "LoaderExecutor.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "PartitionNotificationFinder.java",
       1
    ],
    [
@@ -506,7 +376,137 @@
    ],
    [
       "Keith Turner",
+      "TabletInfoCache.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "TxStats.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ObserverUtil.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ObserverStoreTest.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "AeFluentConfigurator.java",
+      1
+   ],
+   [
+      "kturner",
+      "UpdateObserver.java",
+      1
+   ],
+   [
+      "Mike Walch",
+      "index.html",
+      6
+   ],
+   [
+      "Keith Turner",
+      "HashTest.java",
+      1
+   ],
+   [
+      "kturner",
+      "SplitsTest.java",
+      2
+   ],
+   [
+      "Keith Turner",
+      "ExportQueue.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "AppConfigIT.java",
+      1
+   ],
+   [
+      "kturner",
+      "ChangeImpl.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "WorkTaskAsync.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "CollisionIT.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "AccumuloExporter.java",
+      2
+   ],
+   [
+      "Keith Turner",
+      "FluoIT.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "TableRangeTest.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ParitionManager.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ObserverProvider.java",
+      1
+   ],
+   [
+      "kturner",
+      "CollisionFreeMapObserver.java",
+      1
+   ],
+   [
+      "Christopher McTague",
+      "Bytes.java",
+      1
+   ],
+   [
+      "kturner",
+      "WordCountObserver.java",
+      1
+   ],
+   [
+      "kturner",
+      "TypedObserver.java",
+      1
+   ],
+   [
+      "Keith Turner",
       "CollisionFreeMap.java",
       2
+   ],
+   [
+      "Keith Turner",
+      "TransactionImpl.java",
+      1
+   ],
+   [
+      "Keith Turner",
+      "ModulusParams.java",
+      1
+   ],
+   [
+      "kturner",
+      "CombineQueueImpl.java",
+      1
    ]
 ]

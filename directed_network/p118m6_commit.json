@@ -1,27 +1,12 @@
 [
    [
       "pascalschumacher",
-      "CommandSupport.groovy",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "NioGroovyMethodsTest.groovy",
+      "Interpreter.groovy",
       1
    ],
    [
       "pascalschumacher",
-      "SetCommandTest.groovy",
-      1
-   ],
-   [
-      "pascalschumacher",
-      "GroovyshTest.groovy",
-      4
-   ],
-   [
-      "pascalschumacher",
-      "SimpleCompletor.groovy",
+      "HistoryCommand.groovy",
       1
    ],
    [
@@ -36,57 +21,37 @@
    ],
    [
       "pascalschumacher",
-      "FileNameCompleter.groovy",
-      3
-   ],
-   [
-      "paulk",
-      "GrabConfig.java",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "NioGroovyMethods.java",
-      1
-   ],
-   [
-      "paulk",
-      "GrapeIvyTest.groovy",
-      4
-   ],
-   [
-      "paulk",
-      "InvokerHelper.java",
-      2
-   ],
-   [
-      "paulk",
-      "ConsoleActions.groovy",
+      "StricterArgumentCompleter.groovy",
       1
    ],
    [
       "pascalschumacher",
-      "CommandArgumentParserTest.groovy",
+      "Groovysh.groovy",
+      6
+   ],
+   [
+      "pascalschumacher",
+      "AliasCommand.groovy",
       1
+   ],
+   [
+      "paulk",
+      "AbstractASTTransformation.java",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "FileNameCompleterTest.groovy",
+      1
+   ],
+   [
+      "paulk",
+      "HashCodeHelper.java",
+      2
    ],
    [
       "pascalschumacher",
       "DocCommand.groovy",
-      2
-   ],
-   [
-      "Keegan Witt",
-      "TypeCheckingContext.java",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "HistoryCommand.groovy",
-      1
-   ],
-   [
-      "pascalschumacher",
-      "LoadCommand.groovy",
       2
    ],
    [
@@ -96,7 +61,47 @@
    ],
    [
       "pascalschumacher",
-      "TypeCheckingExtension.java",
+      "JsonOutput.java",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "NioGroovyMethodsTest.groovy",
+      1
+   ],
+   [
+      "paulk",
+      "CanonicalComponentsTransformTest.groovy",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "PackageHelperImpl.groovy",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "CommandArgumentParser.groovy",
+      1
+   ],
+   [
+      "pascalschumacher",
+      "ScriptVariableAnalyzerTest.groovy",
+      1
+   ],
+   [
+      "pascalschumacher",
+      "GroovyshTest.groovy",
+      4
+   ],
+   [
+      "Keegan Witt",
+      "core-object-orientation.adoc",
+      2
+   ],
+   [
+      "Keegan Witt",
+      "ImportStaticAliasTest.groovy",
       2
    ],
    [
@@ -105,43 +110,63 @@
       3
    ],
    [
-      "pascalschumacher",
-      "InspectCommand.groovy",
-      1
-   ],
-   [
-      "pascalschumacher",
-      "JsonOutputTest.groovy",
-      2
-   ],
-   [
-      "paulk",
-      "AbstractASTTransformation.java",
+      "Keegan Witt",
+      "PrimitiveTest.groovy",
       2
    ],
    [
       "Keegan Witt",
-      "JavaStubGenerator.java",
-      2
-   ],
-   [
-      "Keegan Witt",
-      "groovy.g",
-      2
-   ],
-   [
-      "paulk",
-      "Grape.java",
-      2
+      "tools-groovyc.adoc",
+      4
    ],
    [
       "pascalschumacher",
-      "Interpreter.groovy",
+      "SimpleCompletor.groovy",
       1
    ],
    [
       "pascalschumacher",
-      "HelpCommand.groovy",
+      "core-semantics.adoc",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "CommandSupport.groovy",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "Groovy7538Support.java",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "core-metaprogramming.adoc",
+      8
+   ],
+   [
+      "pascalschumacher",
+      "LoadCommand.groovy",
+      2
+   ],
+   [
+      "paulk",
+      "Closure.java",
+      4
+   ],
+   [
+      "Keegan Witt",
+      "NioGroovyMethods.java",
+      2
+   ],
+   [
+      "Keegan Witt",
+      "core-testing-guide.adoc",
+      2
+   ],
+   [
+      "paulk",
+      "BasicToolBar.groovy",
       1
    ],
    [
@@ -156,32 +181,7 @@
    ],
    [
       "paulk",
-      "InvokerHelperFormattingTest.groovy",
-      2
-   ],
-   [
-      "Keegan Witt",
-      "core-testing-guide.adoc",
-      2
-   ],
-   [
-      "paulk",
-      "BasicToolBar.groovy",
-      1
-   ],
-   [
-      "paulk",
-      "GrapeIvy.groovy",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "AliasCommand.groovy",
-      1
-   ],
-   [
-      "Keegan Witt",
-      "PrimitiveTest.groovy",
+      "InvokerHelper.java",
       2
    ],
    [
@@ -190,18 +190,43 @@
       2
    ],
    [
+      "pascalschumacher",
+      "JsonOutputTest.groovy",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "InspectCommand.groovy",
+      1
+   ],
+   [
       "paulk",
-      "upload.gradle",
+      "GrapeIvy.groovy",
+      2
+   ],
+   [
+      "Keegan Witt",
+      "JavaStubGenerator.java",
+      2
+   ],
+   [
+      "paulk",
+      "ConsoleActions.groovy",
+      1
+   ],
+   [
+      "Keegan Witt",
+      "groovy.g",
       2
    ],
    [
       "pascalschumacher",
-      "core-semantics.adoc",
-      2
+      "ScriptVariableAnalyzer.groovy",
+      1
    ],
    [
       "pascalschumacher",
-      "ImportCompletorTest.groovy",
+      "NioGroovyMethods.java",
       1
    ],
    [
@@ -210,84 +235,9 @@
       1
    ],
    [
-      "pascalschumacher",
-      "CommandNameCompleter.groovy",
-      1
-   ],
-   [
-      "Keegan Witt",
-      "groovy-contributions.adoc",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "CommandArgumentParser.groovy",
-      1
-   ],
-   [
-      "Keegan Witt",
-      "core-differences-java.adoc",
-      8
-   ],
-   [
       "paulk",
-      "HashCodeHelper.java",
+      "GrabConfig.java",
       2
-   ],
-   [
-      "pascalschumacher",
-      "Groovysh.groovy",
-      6
-   ],
-   [
-      "pascalschumacher",
-      "ScriptVariableAnalyzer.groovy",
-      1
-   ],
-   [
-      "Keegan Witt",
-      "core-object-orientation.adoc",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "ComplexCommandSupport.groovy",
-      1
-   ],
-   [
-      "pascalschumacher",
-      "CommandCompletorTest.groovy",
-      1
-   ],
-   [
-      "pascalschumacher",
-      "PackageHelperImpl.groovy",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "JsonOutput.java",
-      2
-   ],
-   [
-      "Keegan Witt",
-      "tools-groovyc.adoc",
-      4
-   ],
-   [
-      "Keegan Witt",
-      "ImportStaticAliasTest.groovy",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "Groovy7538Support.java",
-      2
-   ],
-   [
-      "pascalschumacher",
-      "ScriptVariableAnalyzerTest.groovy",
-      1
    ],
    [
       "Keegan Witt",
@@ -296,37 +246,87 @@
    ],
    [
       "paulk",
-      "CanonicalComponentsTransformTest.groovy",
+      "GrapeIvyTest.groovy",
+      4
+   ],
+   [
+      "Keegan Witt",
+      "core-differences-java.adoc",
+      8
+   ],
+   [
+      "pascalschumacher",
+      "TypeCheckingExtension.java",
+      2
+   ],
+   [
+      "paulk",
+      "upload.gradle",
+      2
+   ],
+   [
+      "Keegan Witt",
+      "TypeCheckingContext.java",
       2
    ],
    [
       "pascalschumacher",
-      "StricterArgumentCompleter.groovy",
+      "HelpCommand.groovy",
+      1
+   ],
+   [
+      "pascalschumacher",
+      "ComplexCommandSupport.groovy",
+      1
+   ],
+   [
+      "pascalschumacher",
+      "CommandArgumentParserTest.groovy",
+      1
+   ],
+   [
+      "pascalschumacher",
+      "CommandNameCompleter.groovy",
+      1
+   ],
+   [
+      "pascalschumacher",
+      "SetCommandTest.groovy",
       1
    ],
    [
       "paulk",
-      "Closure.java",
-      4
-   ],
-   [
-      "pascalschumacher",
-      "FileNameCompleterTest.groovy",
-      1
-   ],
-   [
-      "pascalschumacher",
-      "core-metaprogramming.adoc",
-      8
+      "InvokerHelperFormattingTest.groovy",
+      2
    ],
    [
       "Keegan Witt",
-      "NioGroovyMethods.java",
+      "groovy-contributions.adoc",
       2
    ],
    [
       "pascalschumacher",
       "Groovy7538Bug.groovy",
       2
+   ],
+   [
+      "pascalschumacher",
+      "FileNameCompleter.groovy",
+      3
+   ],
+   [
+      "pascalschumacher",
+      "ImportCompletorTest.groovy",
+      1
+   ],
+   [
+      "paulk",
+      "Grape.java",
+      2
+   ],
+   [
+      "pascalschumacher",
+      "CommandCompletorTest.groovy",
+      1
    ]
 ]

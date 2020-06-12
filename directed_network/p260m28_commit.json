@@ -1,62 +1,32 @@
 [
    [
-      "Aaron McCurry",
-      "PrimeDocCache.java",
-      3
-   ],
-   [
-      "Andrew Avenoso",
-      "ThriftBlurControllerServer.java",
-      3
-   ],
-   [
-      "crohr",
-      "RequiredArgument.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "EnqueueDataAsync.java",
-      1
-   ],
-   [
       "amccurry",
       "Blur_types.js",
       1
    ],
    [
-      "Aaron McCurry",
-      "ExecutionId.java",
-      1
-   ],
-   [
       "crohr",
-      "TestCommand.java",
+      "CommandUtil.java",
       1
    ],
    [
       "Aaron McCurry",
-      "HdfsKeyValueStoreTest.java",
+      "Command.java",
       1
    ],
    [
-      "Aaron McCurry",
-      "CacheIndexInputTest.java",
+      "Andrew Avenoso",
+      "index.html",
       3
    ],
    [
-      "Chris Rohr",
-      "Gruntfile.js",
+      "amccurry",
+      "Blur.html",
       1
    ],
    [
       "crohr",
-      "IndexReadCommandSingleTable.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurIndex.java",
+      "IndexReadCombiningCommand.java",
       1
    ],
    [
@@ -66,13 +36,418 @@
    ],
    [
       "Aaron McCurry",
-      "TracerImpl.java",
+      "BaseCommandManager.java",
+      7
+   ],
+   [
+      "Aaron McCurry",
+      "DistributedIndexServer.java",
+      2
+   ],
+   [
+      "crohr",
+      "SlowAccessDirectory.java",
       1
    ],
    [
       "crohr",
-      "blurconsole.f74c82c84f27229f0c9bc37b2c57ea82.js",
+      "TraceableIndexInput.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "CacheValueBufferPool.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "FastHdfsKeyValueDirectory.java",
+      1
+   ],
+   [
+      "crohr",
+      "IndexReadCombining.java",
+      1
+   ],
+   [
+      "aavenoso",
+      "blurconsole.js.map",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "ExecutePlatformCommandCommand.java",
       2
+   ],
+   [
+      "crohr",
+      "blurconsole.js.6783a7cbcbda8b7b5ff3483c841cd343.map",
+      1
+   ],
+   [
+      "Andrew Avenoso",
+      "ThriftBlurControllerServer.java",
+      3
+   ],
+   [
+      "crohr",
+      "ClusterIndexReadCommandSingleTable.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ThriftServer.java",
+      2
+   ],
+   [
+      "amccurry",
+      "Types.pm",
+      1
+   ],
+   [
+      "crohr",
+      "Types.pm",
+      1
+   ],
+   [
+      "crohr",
+      "ShardCommandManagerTest.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ShardCommandManagerTest.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "JoinDirectory.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "SharedMergeScheduler.java",
+      3
+   ],
+   [
+      "aavenoso",
+      "blurconsole.js.61a0a795b3b948c93367966422a05415.map",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "ResponseFuture.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "LoggingInfoStream.java",
+      1
+   ],
+   [
+      "twilliams",
+      "CsvBlurDriver.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "PrimeDocCache.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "ThriftBlurShardServer.java",
+      7
+   ],
+   [
+      "Aaron McCurry",
+      "CommandStatusStateEnum.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "DetachableCacheValue.java",
+      3
+   ],
+   [
+      "Andrew Avenoso",
+      "NodeUtil.java",
+      3
+   ],
+   [
+      "crohr",
+      "Argument.java",
+      1
+   ],
+   [
+      "crohr",
+      "ControllerCommandManager.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "CommandUtil.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "ShardContext.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ArgumentOverlay.java",
+      1
+   ],
+   [
+      "aavenoso",
+      "blurconsole.598dd9e6ddb733121e7b9b14ad7c4272.js",
+      3
+   ],
+   [
+      "crohr",
+      "LayoutFactory.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "CommandRunner.java",
+      5
+   ],
+   [
+      "Aaron McCurry",
+      "ExecutionId.java",
+      1
+   ],
+   [
+      "crohr",
+      "TraceableDirectory.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ClientPool.java",
+      4
+   ],
+   [
+      "crohr",
+      "ServerReadCommand.java",
+      1
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.queries.js",
+      1
+   ],
+   [
+      "crohr",
+      "TableRoute.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurConstants.java",
+      3
+   ],
+   [
+      "Andrew Avenoso",
+      "blurconsole.data.js",
+      3
+   ],
+   [
+      "twilliams",
+      "CsvBlurDriverTest.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "CacheDirectory.java",
+      2
+   ],
+   [
+      "crohr",
+      "OptionalArguments.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ReconnectWhileCommandIsRunningIntTests.java",
+      2
+   ],
+   [
+      "Andrew Avenoso",
+      "blurconsole.auth.js",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "EnqueueDataAsync.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "Connection.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "ThriftBlurControllerServer.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "BlurClient.java",
+      5
+   ],
+   [
+      "Aaron McCurry",
+      "CacheIndexInputTest.java",
+      3
+   ],
+   [
+      "crohr",
+      "WaitForSeconds.java",
+      1
+   ],
+   [
+      "crohr",
+      "ControllerClusterContext.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurControllerServer.java",
+      5
+   ],
+   [
+      "Aaron McCurry",
+      "BlockCacheDirectoryFactoryV1.java",
+      2
+   ],
+   [
+      "amccurry",
+      "TimeoutException.java",
+      1
+   ],
+   [
+      "crohr",
+      "ShardRoute.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "HttpJettyServer.java",
+      1
+   ],
+   [
+      "crohr",
+      "ClusterServerReadCommandSingleTable.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BaseCache.java",
+      3
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.shell.js",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "TracerImpl.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "UnsafeCacheValueTest.java",
+      2
+   ],
+   [
+      "crohr",
+      "blur_types.rb",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurUtil.java",
+      1
+   ],
+   [
+      "crohr",
+      "ServerReadCommandSingleTable.java",
+      1
+   ],
+   [
+      "Andrew Avenoso",
+      "ThriftBlurShardServer.java",
+      3
+   ],
+   [
+      "crohr",
+      "ThrowException.java",
+      1
+   ],
+   [
+      "Chris Rohr",
+      "Gruntfile.js",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "ControllerCommandManager.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "MessingWithPermissions.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurIndex.java",
+      1
+   ],
+   [
+      "crohr",
+      "ClusterIndexReadCommand.java",
+      1
+   ],
+   [
+      "crohr",
+      "moment.js",
+      1
+   ],
+   [
+      "crohr",
+      "blurconsole.js.2c30ff82585b96f59a6624e640395ff3.map",
+      1
+   ],
+   [
+      "amccurry",
+      "Blur.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "CacheValue.java",
+      3
+   ],
+   [
+      "amccurry",
+      "Blur.js",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurIndexSimpleWriter.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "ZookeeperClusterStatus.java",
+      3
    ],
    [
       "Aaron McCurry",
@@ -85,158 +460,33 @@
       2
    ],
    [
-      "crohr",
-      "IndexReadCombiningCommand.java",
-      1
-   ],
-   [
-      "Andrew Avenoso",
-      "JettyServer.java",
-      3
-   ],
-   [
-      "amccurry",
-      "TimeoutException.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ThriftBlurControllerServer.java",
-      3
-   ],
-   [
-      "crohr",
-      "ClusterIndexReadCommandSingleTable.java",
-      1
-   ],
-   [
-      "Andrew Avenoso",
-      "ThriftBlurShardServer.java",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "HdfsKeyValueStore.java",
-      6
-   ],
-   [
-      "Aaron McCurry",
-      "SafeClientGen.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurUtil.java",
-      1
-   ],
-   [
       "aavenoso",
-      "blurconsole.598dd9e6ddb733121e7b9b14ad7c4272.js",
-      3
-   ],
-   [
-      "crohr",
-      "ControllerClusterContext.java",
-      1
-   ],
-   [
-      "crohr",
-      "ClusterExecuteServerReadCommandSingleTable.java",
-      1
-   ],
-   [
-      "crohr",
-      "blurconsole.598dd9e6ddb733121e7b9b14ad7c4272.js",
-      1
-   ],
-   [
-      "crohr",
-      "ShardRoute.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ListControllers.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "EvictionException.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "ShardCommandManagerTest.java",
+      "blurconsole.500ad524370515c9a3aadcdb7e2f6d17.js",
       3
    ],
    [
       "Aaron McCurry",
-      "CommandRunner.java",
-      5
-   ],
-   [
-      "Aaron McCurry",
-      "BlockCacheDirectoryFactory.java",
-      2
-   ],
-   [
-      "Chris Rohr",
-      "index.html",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "CommandUtil.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "LoadDataContinuously.java",
+      "ExecutionContext.java",
       1
    ],
    [
       "crohr",
-      "ClusterExecuteCommand.java",
+      "blurconsole.c993c0b1cda5fe574572a29c27f660c3.js",
       1
    ],
    [
       "crohr",
-      "IndexReadCommand.java",
-      2
+      "RequiredArgument.java",
+      1
    ],
    [
       "Aaron McCurry",
-      "CacheValue.java",
-      3
+      "AbstractDistributedIndexServer.java",
+      1
    ],
    [
-      "Aaron McCurry",
+      "crohr",
       "BlurControllerServer.java",
-      5
-   ],
-   [
-      "Aaron McCurry",
-      "IndexImporter.java",
-      3
-   ],
-   [
-      "amccurry",
-      "Blur.pm",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurConstants.java",
-      3
-   ],
-   [
-      "crohr",
-      "ServerReadCommand.java",
-      1
-   ],
-   [
-      "crohr",
-      "moment.js",
       1
    ],
    [
@@ -245,118 +495,23 @@
       3
    ],
    [
-      "crohr",
-      "BlurControllerServer.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "CacheIndexOutput.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "BaseCommandManager.java",
-      7
-   ],
-   [
-      "Aaron McCurry",
-      "LocalIndexServer.java",
-      2
-   ],
-   [
-      "twilliams",
-      "CsvBlurDriver.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "ResponseFuture.java",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "FastHdfsKeyValueDirectoryTest.java",
-      1
-   ],
-   [
-      "crohr",
-      "blurconsole.js.6783a7cbcbda8b7b5ff3483c841cd343.map",
-      1
-   ],
-   [
-      "amccurry",
-      "blur_types.rb",
-      1
-   ],
-   [
-      "crohr",
-      "SlowAccessDirectory.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ArgumentOverlay.java",
-      1
-   ],
-   [
-      "crohr",
-      "ThrowException.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "Blur.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BaseCacheValue.java",
-      2
-   ],
-   [
-      "crohr",
-      "ServerRead.java",
-      1
-   ],
-   [
-      "Andrew Avenoso",
-      "blurconsole.data.js",
-      3
-   ],
-   [
       "Chris Rohr",
       "CachingBlurClient.java",
       1
    ],
    [
-      "Aaron McCurry",
-      "ShardContext.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurClient.java",
-      5
-   ],
-   [
-      "Aaron McCurry",
-      "UnsafeCacheValueTest.java",
+      "Chris Rohr",
+      "index.html",
       2
    ],
    [
-      "Aaron McCurry",
-      "UnsafeCacheValue.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "Trace.java",
+      "crohr",
+      "test1.jar",
       1
    ],
    [
       "crohr",
-      "IndexReadCombining.java",
+      "IndexWarmupTest.java",
       1
    ],
    [
@@ -366,8 +521,108 @@
    ],
    [
       "Aaron McCurry",
-      "FastHdfsKeyValueDirectoryTestSuite.java",
+      "Blur.html",
       1
+   ],
+   [
+      "amccurry",
+      "blur_types.rb",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "Trace.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BaseCacheValue.java",
+      2
+   ],
+   [
+      "crohr",
+      "blurconsole.js.48bca05a3a37b5604a6f955c6c799f26.map",
+      2
+   ],
+   [
+      "Andrew Avenoso",
+      "BaseCommandManager.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "HdfsDirectory.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "CacheIndexOutput.java",
+      2
+   ],
+   [
+      "Andrew Avenoso",
+      "HttpJettyServer.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "SafeClientGen.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "HdfsKeyValueStoreTest.java",
+      1
+   ],
+   [
+      "amccurry",
+      "Blur.pm",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "Blur.thrift",
+      1
+   ],
+   [
+      "crohr",
+      "ThrottledIndexInput.java",
+      1
+   ],
+   [
+      "crohr",
+      "IndexReadCommandSingleTable.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "org.apache.blur.command.Commands",
+      2
+   ],
+   [
+      "crohr",
+      "OptionalArgument.java",
+      1
+   ],
+   [
+      "crohr",
+      "TestCommand.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "HdfsKeyValueStore.java",
+      6
+   ],
+   [
+      "Aaron McCurry",
+      "ListControllers.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "Main.java",
+      2
    ],
    [
       "crohr",
@@ -376,8 +631,33 @@
    ],
    [
       "Aaron McCurry",
-      "ControllerCommandManager.java",
+      "ControllerClusterContext.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "IndexImporterTest.java",
       2
+   ],
+   [
+      "Aaron McCurry",
+      "LoadDataContinuously.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "FastHdfsKeyValueDirectoryTestSuite.java",
+      1
+   ],
+   [
+      "crohr",
+      "Blur.html",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "CacheIndexInput.java",
+      3
    ],
    [
       "crohr",
@@ -386,13 +666,53 @@
    ],
    [
       "Aaron McCurry",
-      "ByteArrayCacheValue.java",
+      "LocalIndexServer.java",
       2
    ],
    [
       "Aaron McCurry",
-      "BlurIndexSimpleWriter.java",
+      "BlockCacheDirectoryFactory.java",
       2
+   ],
+   [
+      "aavenoso",
+      "blurconsole.b9b51b1e86c236d92a1a047613bff595.js",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "ShardCommandManager.java",
+      4
+   ],
+   [
+      "crohr",
+      "ClusterExecuteCommand.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "BlurIndexReadOnly.java",
+      1
+   ],
+   [
+      "crohr",
+      "blurconsole.js",
+      2
+   ],
+   [
+      "Andrew Avenoso",
+      "JettyServer.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "UnsafeCacheValue.java",
+      2
+   ],
+   [
+      "crohr",
+      "blurconsole.500ad524370515c9a3aadcdb7e2f6d17.js",
+      1
    ],
    [
       "Aaron McCurry",
@@ -405,79 +725,9 @@
       1
    ],
    [
-      "Aaron McCurry",
-      "Blur.thrift",
-      1
-   ],
-   [
-      "crohr",
-      "IndexWarmupTest.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BaseCache.java",
-      3
-   ],
-   [
-      "crohr",
-      "ThrottledIndexInput.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlurIndexReadOnly.java",
-      1
-   ],
-   [
-      "crohr",
-      "ShardCommandManagerTest.java",
-      1
-   ],
-   [
-      "amccurry",
-      "Blur.html",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "BlockCacheDirectoryFactoryV1.java",
-      2
-   ],
-   [
-      "aavenoso",
-      "blurconsole.js.map",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "ControllerClusterContext.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "Blur.html",
-      1
-   ],
-   [
       "crohr",
       "ClusterServerReadCommand.java",
       1
-   ],
-   [
-      "aavenoso",
-      "blurconsole.500ad524370515c9a3aadcdb7e2f6d17.js",
-      3
-   ],
-   [
-      "crohr",
-      "Types.pm",
-      1
-   ],
-   [
-      "twilliams",
-      "CsvBlurDriverTest.java",
-      2
    ],
    [
       "Aaron McCurry",
@@ -485,204 +735,29 @@
       6
    ],
    [
-      "Aaron McCurry",
-      "JoinDirectory.java",
+      "crohr",
+      "ServerRead.java",
       1
    ],
    [
-      "Andrew Avenoso",
-      "BaseCommandManager.java",
+      "crohr",
+      "blurconsole.f74c82c84f27229f0c9bc37b2c57ea82.js",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "FilteredBlurServer.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "IndexImporter.java",
       3
    ],
    [
       "Aaron McCurry",
-      "AbstractDistributedIndexServer.java",
-      1
-   ],
-   [
-      "Andrew Avenoso",
-      "HttpJettyServer.java",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "ByteArrayCacheValueTest.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "LoggingInfoStream.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ReconnectWhileCommandIsRunningIntTests.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "MessingWithPermissions.java",
-      1
-   ],
-   [
-      "crohr",
-      "TraceableIndexInput.java",
-      1
-   ],
-   [
-      "crohr",
-      "blurconsole.js.48bca05a3a37b5604a6f955c6c799f26.map",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "ExecutionContext.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "FastHdfsKeyValueDirectory.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "HttpJettyServer.java",
-      1
-   ],
-   [
-      "crohr",
-      "ControllerCommandManager.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "Connection.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "Command.java",
-      1
-   ],
-   [
-      "crohr",
-      "test1.jar",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ExecutePlatformCommandCommand.java",
-      2
-   ],
-   [
-      "amccurry",
-      "Blur.js",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "IndexImporterTest.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "org.apache.blur.command.Commands",
-      2
-   ],
-   [
-      "crohr",
-      "OptionalArguments.java",
-      1
-   ],
-   [
-      "crohr",
-      "blurconsole.js.2c30ff82585b96f59a6624e640395ff3.map",
-      1
-   ],
-   [
-      "crohr",
-      "ClusterServerReadCommandSingleTable.java",
-      1
-   ],
-   [
-      "amccurry",
       "Blur.java",
       1
-   ],
-   [
-      "Aaron McCurry",
-      "SharedMergeScheduler.java",
-      3
-   ],
-   [
-      "crohr",
-      "LayoutFactory.java",
-      1
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.search.js",
-      2
-   ],
-   [
-      "crohr",
-      "ServerReadCommandSingleTable.java",
-      1
-   ],
-   [
-      "Andrew Avenoso",
-      "NodeUtil.java",
-      3
-   ],
-   [
-      "crohr",
-      "TraceableDirectory.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "CacheValueBufferPool.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ThriftBlurShardServer.java",
-      7
-   ],
-   [
-      "crohr",
-      "OptionalArgument.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "CommandStatusStateEnum.java",
-      2
-   ],
-   [
-      "crohr",
-      "blurconsole.js.map",
-      2
-   ],
-   [
-      "crohr",
-      "blurconsole.500ad524370515c9a3aadcdb7e2f6d17.js",
-      1
-   ],
-   [
-      "crohr",
-      "Argument.java",
-      1
-   ],
-   [
-      "crohr",
-      "blurconsole.js",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "ShardCommandManager.java",
-      4
    ],
    [
       "aavenoso",
@@ -695,13 +770,8 @@
       1
    ],
    [
-      "Chris Rohr",
-      "blurconsole.shell.js",
-      1
-   ],
-   [
       "Aaron McCurry",
-      "FilteredBlurServer.java",
+      "FastHdfsKeyValueDirectoryTest.java",
       1
    ],
    [
@@ -711,52 +781,32 @@
    ],
    [
       "crohr",
-      "ClusterIndexReadCommand.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "DistributedIndexServer.java",
-      2
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.queries.js",
-      1
-   ],
-   [
-      "amccurry",
-      "Types.pm",
-      1
-   ],
-   [
-      "crohr",
-      "Blur.html",
-      1
-   ],
-   [
-      "Andrew Avenoso",
-      "blurconsole.auth.js",
-      3
-   ],
-   [
-      "crohr",
-      "CommandUtil.java",
-      1
-   ],
-   [
-      "crohr",
       "RequiredArguments.java",
       1
    ],
    [
       "Aaron McCurry",
-      "CacheDirectory.java",
+      "EvictionException.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "ByteArrayCacheValue.java",
       2
    ],
    [
       "crohr",
-      "WaitForSeconds.java",
+      "ClusterExecuteServerReadCommandSingleTable.java",
+      1
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.search.js",
+      2
+   ],
+   [
+      "crohr",
+      "blurconsole.598dd9e6ddb733121e7b9b14ad7c4272.js",
       1
    ],
    [
@@ -765,68 +815,18 @@
       3
    ],
    [
-      "Andrew Avenoso",
-      "index.html",
-      3
-   ],
-   [
       "crohr",
-      "blurconsole.c993c0b1cda5fe574572a29c27f660c3.js",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "ClientPool.java",
-      4
-   ],
-   [
-      "Aaron McCurry",
-      "CacheIndexInput.java",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "ZookeeperClusterStatus.java",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "ThriftServer.java",
-      2
-   ],
-   [
-      "crohr",
-      "TableRoute.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "Main.java",
+      "IndexReadCommand.java",
       2
    ],
    [
       "Aaron McCurry",
-      "DetachableCacheValue.java",
-      3
-   ],
-   [
-      "aavenoso",
-      "blurconsole.b9b51b1e86c236d92a1a047613bff595.js",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "HdfsDirectory.java",
-      1
-   ],
-   [
-      "aavenoso",
-      "blurconsole.js.61a0a795b3b948c93367966422a05415.map",
-      3
+      "ByteArrayCacheValueTest.java",
+      2
    ],
    [
       "crohr",
-      "blur_types.rb",
-      1
+      "blurconsole.js.map",
+      2
    ]
 ]

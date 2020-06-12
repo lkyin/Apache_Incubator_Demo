@@ -1,33 +1,33 @@
 [
    [
-      "jignesh",
-      "SqlParser_gen.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "InsertOperator.hpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "BlockLocator_unittest.cpp",
-      16
-   ],
-   [
-      "Zuyu Zhang",
-      "LockManager.hpp",
+      "hbdeshmukh",
+      "Worker.hpp",
       6
    ],
    [
-      "jianqiao",
-      "UpdateOperator.hpp",
+      "Navneet Potti",
+      "CreateTableOperator.hpp",
       2
    ],
    [
-      "jignesh",
-      "RebuildWorkOrder.hpp",
+      "jianqiao",
+      "DeleteOperator.cpp",
       1
+   ],
+   [
+      "Hakan Memisoglu",
+      "TypedValue.proto",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "SampleOperator.cpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "SqlParser_gen.hpp",
+      9
    ],
    [
       "Harshad Deshmukh",
@@ -35,28 +35,148 @@
       10
    ],
    [
+      "navsan",
+      "WorkOrder.proto",
+      3
+   ],
+   [
+      "jianqiao",
+      "TableGeneratorOperator.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "DAGVisualizer.cpp",
+      4
+   ],
+   [
+      "Harshad Deshmukh",
+      "TableGeneratorOperator.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "SaveBlocksOperator.hpp",
+      10
+   ],
+   [
       "hakanmemisoglu",
-      "ComparisonUtil.hpp",
+      "ExecutionGenerator.hpp",
+      1
+   ],
+   [
+      "jignesh",
+      "UpdateOperator.hpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "SaveBlocksOperator.cpp",
+      3
+   ],
+   [
+      "navsan",
+      "TextScanOperator.proto",
+      3
+   ],
+   [
+      "navsan",
+      "PolicyEnforcer.cpp",
       2
    ],
    [
       "zuyuz",
-      "InsertDestination.hpp",
+      "RelationalOperator.hpp",
+      5
+   ],
+   [
+      "jignesh",
+      "SortRunGenerationOperator_unittest.cpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "SortMergeRunOperator.hpp",
+      3
+   ],
+   [
+      "zuyuz",
+      "StorageBlockLayout.cpp",
+      5
+   ],
+   [
+      "Navneet Potti",
+      "SelectOperator.cpp",
+      1
+   ],
+   [
+      "shixuan",
+      "SqlLexer.lpp",
+      10
+   ],
+   [
+      "Navneet Potti",
+      "HashJoinOperator.hpp",
       2
    ],
    [
       "Zuyu Zhang",
-      "FileManagerWindows.hpp",
-      12
+      "StringUtil.hpp",
+      23
    ],
    [
       "Zuyu Zhang",
-      "WorkOrderFactory.cpp",
-      4
+      "HashJoinOperator.hpp",
+      10
+   ],
+   [
+      "Jianqiao Zhu",
+      "UpdateOperator.hpp",
+      3
+   ],
+   [
+      "Hakan Memisoglu",
+      "TypedValue.hpp",
+      2
+   ],
+   [
+      "jignesh",
+      "SqlParser_gen.hpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "CycleDetector_unittest.cpp",
+      6
    ],
    [
       "jianqiao",
-      "QueryProcessor.cpp",
+      "TextScanOperator.hpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "NestedLoopsJoinOperator.hpp",
+      12
+   ],
+   [
+      "jignesh",
+      "RebuildWorkOrder.hpp",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "CreateIndexOperator.hpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "SelectOperator.hpp",
+      7
+   ],
+   [
+      "jignesh",
+      "TextScanOperator.proto",
       1
    ],
    [
@@ -65,44 +185,414 @@
       2
    ],
    [
-      "Jianqiao Zhu",
-      "RelationalOperator.hpp",
-      5
+      "Zuyu Zhang",
+      "PrintToScreen.hpp",
+      23
    ],
    [
-      "Hakan Memisoglu",
-      "Type.hpp",
+      "hakanmemisoglu",
+      "SaveBlocksOperator.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "CatalogRelationConstraints.cpp",
       2
    ],
    [
-      "hbdeshmukh",
-      "QueryContext.hpp",
+      "Zuyu Zhang",
+      "SortMergeRunOperator.cpp",
+      8
+   ],
+   [
+      "jignesh",
+      "WorkOrder.proto",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "TextScanOperator.hpp",
+      7
+   ],
+   [
+      "hakanmemisoglu",
+      "Worker.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "QueryContext.proto",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "TableGeneratorOperator.cpp",
+      3
+   ],
+   [
+      "shixuan",
+      "SqlParser_gen.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationOperator.cpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "BuildHashOperator.cpp",
+      20
+   ],
+   [
+      "shixuan-fan",
+      "WindowAggregate.hpp",
       3
    ],
    [
       "jianqiao",
-      "InsertDestination.cpp",
+      "SortRunGenerationOperator.cpp",
       1
    ],
    [
-      "Zuyu Zhang",
-      "SampleOperator.hpp",
-      12
+      "Jianqiao Zhu",
+      "DestroyHashOperator.hpp",
+      3
    ],
    [
-      "Harshad Deshmukh",
-      "AggregationOperator.cpp",
+      "zuyuz",
+      "QueryManager.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "Resolver.cpp",
       2
    ],
    [
       "Zuyu Zhang",
-      "SelectOperator.hpp",
-      16
+      "StorageManager.hpp",
+      32
+   ],
+   [
+      "Zuyu Zhang",
+      "SaveBlocksOperator.hpp",
+      12
+   ],
+   [
+      "hakanmemisoglu",
+      "ModuloBinaryOperation.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "ParseExpression.hpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "SqlLexer_gen.hpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "ResourceId.hpp",
+      6
+   ],
+   [
+      "zuyuz",
+      "TextScanOperator_unittest.cpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "profile_build.sh",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleMax_unittest.cpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationOperator.hpp",
+      20
+   ],
+   [
+      "jianqiao",
+      "InsertDestination.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "QueryExecutionTypedefs.hpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "DeleteOperator.cpp",
+      20
+   ],
+   [
+      "Jianqiao Zhu",
+      "DAGVisualizer.hpp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "LockTable.cpp",
+      6
    ],
    [
       "Harshad Deshmukh",
-      "SaveBlocksOperator.cpp",
+      "SortRunGenerationOperator.hpp",
+      6
+   ],
+   [
+      "navsan",
+      "SortRunGenerationOperator_unittest.cpp",
+      2
+   ],
+   [
+      "navsan",
+      "SortMergeRunOperator.hpp",
       3
+   ],
+   [
+      "Navneet Potti",
+      "ValueAccessor.hpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "PolicyEnforcer.hpp",
+      19
+   ],
+   [
+      "zuyuz",
+      "WorkOrder.proto",
+      9
+   ],
+   [
+      "Harshad Deshmukh",
+      "FinalizeAggregationOperator.hpp",
+      8
+   ],
+   [
+      "Harshad Deshmukh",
+      "HashJoinOperator.cpp",
+      5
+   ],
+   [
+      "Harshad Deshmukh",
+      "Learner_unittest.cpp",
+      14
+   ],
+   [
+      "Jianqiao Zhu",
+      "SaveBlocksOperator.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "FileManagerWindows.hpp",
+      12
+   ],
+   [
+      "hakanmemisoglu",
+      "ArithmeticBinaryOperation.hpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "Catalog.proto",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "OneToOne.cpp",
+      6
+   ],
+   [
+      "jignesh",
+      "InsertDestination.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "UnaryOperationID.cpp",
+      3
+   ],
+   [
+      "hakanmemisoglu",
+      "BasicComparison.cpp",
+      2
+   ],
+   [
+      "shixuan",
+      "ParseBasicExpressions.hpp",
+      10
+   ],
+   [
+      "Jianqiao Zhu",
+      "DropTableOperator.hpp",
+      3
+   ],
+   [
+      "hakanmemisoglu",
+      "NumericCastOperation.hpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "UpdateOperator.cpp",
+      20
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryHandle.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "TextScanOperator_unittest.cpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "CreateTableOperator.hpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "SortRunGenerationOperator_unittest.cpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "DeleteOperator.cpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "Foreman_unittest.cpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "HashTableFactory.hpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "BuildHashOperator.cpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleSum_unittest.cpp",
+      12
+   ],
+   [
+      "zuyuz",
+      "TextScanOperator.hpp",
+      18
+   ],
+   [
+      "hbdeshmukh",
+      "Select.test",
+      11
+   ],
+   [
+      "jignesh",
+      "Worker.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "RebuildWorkOrder.hpp",
+      8
+   ],
+   [
+      "jianqiao",
+      "QueryExecutionUtil.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "DeleteOperator.cpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "TextScanOperator_unittest.cpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "SqlLexer.lpp",
+      9
+   ],
+   [
+      "Harshad Deshmukh",
+      "InsertOperator.hpp",
+      8
+   ],
+   [
+      "Zuyu Zhang",
+      "CatalogRelationStatistics.hpp",
+      12
+   ],
+   [
+      "jianqiao",
+      "SortMergeRunOperator_unittest.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "SubstringOperation.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "ParseBasicExpressions.hpp",
+      11
+   ],
+   [
+      "Jignesh Patel",
+      "ExecutionGenerator.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "ExecutionHeuristics.hpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "LogicalType.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "BloomFilterIndexSubBlock.cpp",
+      6
+   ],
+   [
+      "jignesh",
+      "HashJoinOperator.hpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryManager_unittest.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "CommandExecutor.cpp",
+      2
    ],
    [
       "Zuyu Zhang",
@@ -110,49 +600,79 @@
       20
    ],
    [
+      "jianqiao",
+      "SqlParser_gen.hpp",
+      3
+   ],
+   [
       "Zuyu Zhang",
-      "DeleteOperator.hpp",
-      20
+      "SelectOperator.hpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "AccessMode_unittest.cpp",
+      6
+   ],
+   [
+      "zuyuz",
+      "TextScanOperator.proto",
+      4
+   ],
+   [
+      "jignesh",
+      "SortMergeRunOperator.cpp",
+      2
+   ],
+   [
+      "Navneet Potti",
+      "SampleOperator.hpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "PolicyEnforcer.cpp",
+      5
    ],
    [
       "hakanmemisoglu",
-      "RebuildWorkOrder.hpp",
+      "WorkOrdersContainer.hpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "PolicyEnforcer.cpp",
       2
    ],
    [
       "zuyuz",
-      "SortRunGenerationOperator.hpp",
-      18
+      "HashJoinOperator.hpp",
+      2
    ],
    [
       "hakanmemisoglu",
-      "QueryProcessor.cpp",
-      1
+      "TableGeneratorOperator.hpp",
+      3
    ],
    [
-      "Zuyu Zhang",
-      "InsertOperator.hpp",
-      20
-   ],
-   [
-      "shixuan-fan",
-      "Select.test",
+      "zuyuz",
+      "SelectOperator.cpp",
       5
    ],
    [
-      "Zuyu Zhang",
-      "WindowAggregateFunction.cpp",
-      6
-   ],
-   [
       "Jianqiao Zhu",
-      "EventProfiler.cpp",
+      "ExecutionHeuristics.cpp",
+      3
+   ],
+   [
+      "hbdeshmukh",
+      "QueryExecutionUtil.hpp",
       6
    ],
    [
-      "jianqiao",
-      "ExecutionGeneratorTestRunner.hpp",
-      1
+      "hbdeshmukh",
+      "StronglyConnectedComponents_unittest.cpp",
+      3
    ],
    [
       "Zuyu Zhang",
@@ -160,44 +680,129 @@
       10
    ],
    [
-      "Navneet Potti",
-      "InsertOperator.hpp",
-      2
-   ],
-   [
       "Harshad Deshmukh",
-      "NestedLoopsJoinOperator.cpp",
-      5
+      "ProbabilityStore.hpp",
+      11
    ],
    [
-      "Harshad Deshmukh",
-      "QueryManager.cpp",
-      15
+      "Jianqiao Zhu",
+      "HashJoinOperator.cpp",
+      1
    ],
    [
-      "Zuyu Zhang",
-      "AggregationHandleAvg_unittest.cpp",
-      12
+      "hbdeshmukh",
+      "NestedLoopsJoinOperator.hpp",
+      1
    ],
    [
-      "Harshad Deshmukh",
-      "SampleOperator.cpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "TextScanOperator.hpp",
-      9
-   ],
-   [
-      "jianqiao",
-      "TextScanOperator.hpp",
+      "hakanmemisoglu",
+      "QueryContext.proto",
       1
    ],
    [
       "Zuyu Zhang",
-      "CompressedBlockBuilder.cpp",
-      9
+      "CompressedColumnStoreTupleStorageSubBlock.cpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "TextScanOperator_unittest.cpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleSum.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleDistinct.hpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "UpdateOperator.hpp",
+      7
+   ],
+   [
+      "jignesh",
+      "TextScanOperator.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "InsertDestination.cpp",
+      6
+   ],
+   [
+      "jianqiao",
+      "QueryManager_unittest.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "LockManager.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "BlockLocator.hpp",
+      18
+   ],
+   [
+      "Navneet Potti",
+      "SampleOperator.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "LockRequest_unittest.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "HashTable.proto",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "SMAIndexSubBlock.cpp",
+      25
+   ],
+   [
+      "hbdeshmukh",
+      "AggregationOperator_unittest.cpp",
+      10
+   ],
+   [
+      "zuyuz",
+      "SqlLexer_gen.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "MultiplyBinaryOperation.cpp",
+      2
+   ],
+   [
+      "jignesh",
+      "SqlLexer_gen.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "Select.test",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "ExecutionGeneratorTestRunner.cpp",
+      6
+   ],
+   [
+      "hbdeshmukh",
+      "SortMergeRunOperator.hpp",
+      5
    ],
    [
       "Navneet Potti",
@@ -205,13 +810,23 @@
       2
    ],
    [
-      "Harshad Deshmukh",
-      "UpdateOperator.cpp",
-      3
+      "Jignesh Patel",
+      "WorkOrder.proto",
+      2
    ],
    [
-      "navsan",
-      "PolicyEnforcer.cpp",
+      "Navneet Potti",
+      "Foreman_unittest.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "InsertDestination.cpp",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "BuildHashOperator.hpp",
       2
    ],
    [
@@ -220,104 +835,84 @@
       12
    ],
    [
-      "jignesh",
-      "WorkerMessage.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "Foreman_unittest.cpp",
+      "Jignesh Patel",
+      "TextScanOperator_unittest.cpp",
       2
    ],
    [
-      "hbdeshmukh",
-      "QueryExecutionMessages.proto",
+      "Zuyu Zhang",
+      "CSBTreeIndexSubBlock.cpp",
       6
    ],
    [
-      "Hakan Memisoglu",
-      "AddBinaryOperation.cpp",
-      2
+      "jianqiao",
+      "QueryContext.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "SqlLexer_gen.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "CycleDetector.hpp",
+      6
    ],
    [
       "Jianqiao Zhu",
-      "PhysicalGenerator.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "SortMergeRunOperator.hpp",
+      "SortRunGenerationOperator.hpp",
       3
    ],
    [
-      "jignesh",
-      "SqlLexer_gen.hpp",
-      1
-   ],
-   [
-      "Navneet",
-      "profile_build.sh",
-      11
-   ],
-   [
       "Zuyu Zhang",
-      "StarSchemaHashJoinOrderOptimization.hpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "ParseStatement.hpp",
-      9
-   ],
-   [
-      "Zuyu Zhang",
-      "D.test",
-      24
+      "DataExchangerAsync.hpp",
+      16
    ],
    [
       "hbdeshmukh",
-      "Resolver.cpp",
-      5
-   ],
-   [
-      "hbdeshmukh",
-      "ExecutionGenerator.cpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "CatalogTypedefs.hpp",
+      "HashJoinOperator_unittest.cpp",
       10
    ],
    [
-      "zuyuz",
-      "ExecutionGenerator.hpp",
+      "Zuyu Zhang",
+      "SaveBlocksOperator.cpp",
+      10
+   ],
+   [
+      "Navneet Potti",
+      "PackedRowStoreTupleStorageSubBlock.hpp",
       2
    ],
    [
       "hakanmemisoglu",
-      "QueryContext.proto",
-      1
-   ],
-   [
-      "Hakan Memisoglu",
-      "TypedValue.hpp",
+      "LiteralComparators.hpp",
       2
    ],
    [
-      "shixuan",
-      "WindowAggregateFunction.cpp",
+      "Navneet Potti",
+      "AggregationOperator.cpp",
+      2
+   ],
+   [
+      "shixuan-fan",
+      "WindowAggregateFunction.hpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "WorkOrdersContainer.hpp",
       1
    ],
    [
-      "hakanmemisoglu",
-      "UpdateOperator.cpp",
+      "Jianqiao Zhu",
+      "WorkOrder.proto",
       4
    ],
    [
-      "Zuyu Zhang",
-      "SimpleScalarSeparateChainingHashTable.hpp",
-      8
+      "hakanmemisoglu",
+      "Foreman_unittest.cpp",
+      1
    ],
    [
       "hakanmemisoglu",
@@ -325,64 +920,264 @@
       2
    ],
    [
-      "hbdeshmukh",
-      "RelationalOperator.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "OptimizerTextTest.cpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "Worker.hpp",
-      10
-   ],
-   [
-      "Navneet Potti",
-      "InsertDestination.cpp",
+      "Jianqiao Zhu",
+      "BloomFilterAdapter.hpp",
       3
    ],
    [
-      "Zuyu Zhang",
-      "SaveBlocksOperator.cpp",
-      12
+      "Harshad Deshmukh",
+      "ExecutionHeuristics_unittest.cpp",
+      5
    ],
    [
       "navsan",
-      "InsertDestination.hpp",
+      "PolicyEnforcer.hpp",
       2
    ],
    [
-      "Hakan Memisoglu",
-      "ComparisonUtil.hpp",
+      "jianqiao",
+      "WorkOrdersContainer_unittest.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "SaveBlocksOperator.hpp",
+      3
+   ],
+   [
+      "jignesh",
+      "WorkOrdersContainer_unittest.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "HashJoinOperator.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "CliConfig.h.in",
+      8
+   ],
+   [
+      "jignesh",
+      "InsertDestination.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "SqlLexer_gen.cpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "Dt.test",
+      24
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleMin.hpp",
+      12
+   ],
+   [
+      "jianqiao",
+      "QueryHandle.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryManager.cpp",
+      15
+   ],
+   [
+      "Harshad Deshmukh",
+      "FinalizeAggregationOperator.cpp",
+      3
+   ],
+   [
+      "navsan",
+      "Foreman_unittest.cpp",
       2
    ],
    [
       "Zuyu Zhang",
-      "CreateTableOperator.hpp",
-      10
+      "AggregationHandleAvg.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "GenerateNumRowsStatsOperator.hpp",
+      24
+   ],
+   [
+      "navsan",
+      "DeleteOperator.cpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "HashJoinOperator_unittest.cpp",
+      3
+   ],
+   [
+      "navsan",
+      "TextScanOperator_unittest.cpp",
+      2
+   ],
+   [
+      "Navneet",
+      "profile_build.sh",
+      11
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryExecutionConfig.h.in",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "WorkOrder.proto",
+      9
+   ],
+   [
+      "hbdeshmukh",
+      "WorkOrdersContainer.hpp",
+      6
+   ],
+   [
+      "jianqiao",
+      "WorkOrderFactory.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "TestDatabaseLoader.cpp",
+      1
    ],
    [
       "Jianqiao Zhu",
-      "CreateTableOperator.hpp",
+      "TextScanOperator_unittest.cpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "SelectOperator.hpp",
+      3
+   ],
+   [
+      "navsan",
+      "SortRunGenerationOperator.hpp",
       3
    ],
    [
       "jianqiao",
+      "QueryExecutionMessages.proto",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "Worker.cpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "ComparisonUtil.hpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "WorkOrderFactory.cpp",
+      9
+   ],
+   [
+      "Jianqiao Zhu",
+      "RelationalOperator.hpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "CommandExecutorTestRunner.cpp",
+      24
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExecutionGenerator.cpp",
+      4
+   ],
+   [
+      "navsan",
+      "QueryContext.proto",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "iwyu_helper.py",
+      16
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryContext.proto",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "ParseStatement.hpp",
+      9
+   ],
+   [
+      "jianqiao",
+      "AggregationOperator_unittest.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "TextScanOperator.proto",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "Worker.hpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "DecimalLit.hpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "Select.test",
+      17
+   ],
+   [
+      "Zuyu Zhang",
+      "Resolver.hpp",
+      6
+   ],
+   [
+      "hbdeshmukh",
+      "QueryContext.hpp",
+      3
+   ],
+   [
+      "Jianqiao Zhu",
+      "SimpleCostModel.cpp",
+      2
+   ],
+   [
+      "shixuan",
       "SqlParser_gen.hpp",
       3
    ],
    [
-      "hbdeshmukh",
-      "SaveBlocksOperator.cpp",
-      3
+      "Zuyu Zhang",
+      "HashTablePool.hpp",
+      12
    ],
    [
       "Harshad Deshmukh",
-      "CommandExecutor.hpp",
-      15
+      "ExecutionStats.hpp",
+      6
    ],
    [
       "Zuyu Zhang",
@@ -391,18 +1186,303 @@
    ],
    [
       "zuyuz",
-      "TableGeneratorOperator.cpp",
-      18
+      "InsertDestination.hpp",
+      2
+   ],
+   [
+      "navsan",
+      "QueryManager.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "FileManagerPosix.cpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "TextScanOperator.hpp",
+      7
+   ],
+   [
+      "Harshad Deshmukh",
+      "SampleOperator.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationOperationState.cpp",
+      23
+   ],
+   [
+      "hbdeshmukh",
+      "TableGeneratorOperator.hpp",
+      9
+   ],
+   [
+      "Zuyu Zhang",
+      "SaveBlocksOperator.cpp",
+      12
    ],
    [
       "Jianqiao Zhu",
-      "SampleOperator.hpp",
+      "CompressedBlockBuilder.cpp",
       3
    ],
    [
+      "navsan",
+      "ExecutionGeneratorTestRunner.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "StarSchemaHashJoinOrderOptimization.cpp",
+      12
+   ],
+   [
       "jianqiao",
-      "QueryManager_unittest.cpp",
+      "Foreman_unittest.cpp",
       1
+   ],
+   [
+      "Zuyu Zhang",
+      "RelationalOperator.hpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "ExecutionGenerator.cpp",
+      97
+   ],
+   [
+      "Jianqiao Zhu",
+      "CompressedColumnStoreValueAccessor.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "BloomFilter.proto",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "CreateIndexOperator.hpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "SampleOperator.hpp",
+      12
+   ],
+   [
+      "jignesh",
+      "QueryContext.cpp",
+      1
+   ],
+   [
+      "shixuan",
+      "Select.test",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "PolicyEnforcer.hpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "WorkOrder.hpp",
+      1
+   ],
+   [
+      "shixuan-fan",
+      "OneToOne.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "SortRunGenerationOperator_unittest.cpp",
+      10
+   ],
+   [
+      "Harshad Deshmukh",
+      "SampleOperator.cpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "DataExchangerAsync.cpp",
+      16
+   ],
+   [
+      "Hakan Memisoglu",
+      "TypeID.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "WindowAggregate.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "CatalogRelation.hpp",
+      29
+   ],
+   [
+      "zuyuz",
+      "ColumnStoreUtil.hpp",
+      3
+   ],
+   [
+      "zuyuz",
+      "QueryHandle.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "SelectOperator.hpp",
+      3
+   ],
+   [
+      "Jianqiao Zhu",
+      "CatalogRelationSchema.cpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "Resolver.cpp",
+      1
+   ],
+   [
+      "navsan",
+      "HashJoinOperator_unittest.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "ExecutionGenerator.hpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "NestedLoopsJoinOperator.cpp",
+      20
+   ],
+   [
+      "hakanmemisoglu",
+      "SqlParser_gen.cpp",
+      5
+   ],
+   [
+      "Harshad Deshmukh",
+      "Worker.hpp",
+      10
+   ],
+   [
+      "jianqiao",
+      "QueryProcessor.cpp",
+      1
+   ],
+   [
+      "jignesh",
+      "WorkOrderFactory.cpp",
+      1
+   ],
+   [
+      "shixuan",
+      "WindowAggregateFunction.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "WorkOrder.proto",
+      1
+   ],
+   [
+      "jianqiao",
+      "QueryManager.hpp",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "PolicyEnforcer.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "DeleteOperator.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "FinalizeAggregationOperator.hpp",
+      20
+   ],
+   [
+      "Jianqiao Zhu",
+      "QuickstepCli.cpp",
+      8
+   ],
+   [
+      "hakanmemisoglu",
+      "DeleteOperator.hpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "WorkerMessage.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "InsertDestination.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "DeleteOperator.hpp",
+      9
+   ],
+   [
+      "Jianqiao Zhu",
+      "CreateTableOperator.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "InsertOperator.cpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "SMAIndexSubBlock.hpp",
+      12
+   ],
+   [
+      "Navneet Potti",
+      "CliConfig.h.in",
+      6
+   ],
+   [
+      "hbdeshmukh",
+      "QueryManager_unittest.cpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "SortRunGenerationOperator.cpp",
+      3
+   ],
+   [
+      "Navneet Potti",
+      "QueryManager_unittest.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "SqlLexer.lpp",
+      11
    ],
    [
       "hakanmemisoglu",
@@ -410,19 +1490,789 @@
       2
    ],
    [
-      "shixuan-fan",
-      "Resolver.cpp",
-      7
+      "Zuyu Zhang",
+      "DestroyHashOperator.cpp",
+      20
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryExecutionTypedefs.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "HashJoinOperator.hpp",
+      3
+   ],
+   [
+      "hakanmemisoglu",
+      "TypeFactory.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "DestroyHashOperator.cpp",
+      10
+   ],
+   [
+      "hakanmemisoglu",
+      "ExecutionGeneratorTestRunner.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleMax.cpp",
+      12
+   ],
+   [
+      "jianqiao",
+      "Worker.hpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "TextScanOperator.hpp",
+      9
+   ],
+   [
+      "Navneet Potti",
+      "FinalizeAggregationOperator.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "SampleOperator.hpp",
+      1
+   ],
+   [
+      "Hakan Memisoglu",
+      "Type.cpp",
+      2
+   ],
+   [
+      "navsan",
+      "TextScanOperator.cpp",
+      3
    ],
    [
       "zuyuz",
-      "TextScanOperator.hpp",
+      "TextScanOperator.cpp",
+      18
+   ],
+   [
+      "Jianqiao Zhu",
+      "SortMergeRunOperator.hpp",
+      3
+   ],
+   [
+      "hakanmemisoglu",
+      "DecimalType.hpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "SaveBlocksOperator.hpp",
+      6
+   ],
+   [
+      "Harshad Deshmukh",
+      "CommandExecutorTestRunner.hpp",
+      14
+   ],
+   [
+      "zuyuz",
+      "SqlLexer_gen.hpp",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "DropTableOperator.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationOperator.cpp",
+      20
+   ],
+   [
+      "Zuyu Zhang",
+      "LockTable_unittest.cpp",
+      6
+   ],
+   [
+      "jignesh",
+      "QueryManager_unittest.cpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "Resolver.cpp",
+      8
+   ],
+   [
+      "Harshad Deshmukh",
+      "AggregationOperator_unittest.cpp",
+      5
+   ],
+   [
+      "Harshad Deshmukh",
+      "DestroyHashOperator.cpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "BlockLocator_unittest.cpp",
+      16
+   ],
+   [
+      "Zuyu Zhang",
+      "DeadLockDetector.hpp",
+      6
+   ],
+   [
+      "navsan",
+      "DeleteOperator.hpp",
+      2
+   ],
+   [
+      "Navneet Potti",
+      "DeleteOperator.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "QuickstepCli.cpp",
+      8
+   ],
+   [
+      "Zuyu Zhang",
+      "SplitRowStoreTupleStorageSubBlock.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "UpdateOperator.cpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "WindowAggregateFunction.cpp",
+      6
+   ],
+   [
+      "navsan",
+      "Worker.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "DataExchange.proto",
+      16
+   ],
+   [
+      "Zuyu Zhang",
+      "TransactionTable.cpp",
+      6
+   ],
+   [
+      "hbdeshmukh",
+      "Operation.proto",
+      3
+   ],
+   [
+      "navsan",
+      "TableGeneratorOperator.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "PreloaderThread.hpp",
+      17
+   ],
+   [
+      "shixuan",
+      "Resolver.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "DeleteOperator.hpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "WorkOrder.proto",
+      4
+   ],
+   [
+      "hbdeshmukh",
+      "PolicyEnforcer.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "validate_cmakelists.py",
+      16
+   ],
+   [
+      "jianqiao",
+      "TextScanOperator.cpp",
+      1
+   ],
+   [
+      "shixuan-fan",
+      "WindowAggregate.cpp",
+      4
+   ],
+   [
+      "shixuan",
+      "Resolver.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "GenerateNumRowsStatsOperator.cpp",
+      24
+   ],
+   [
+      "Zuyu Zhang",
+      "StarSchemaHashJoinOrderOptimization.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "ParseIndexProperties.hpp",
+      6
+   ],
+   [
+      "navsan",
+      "TestDatabaseLoader.cpp",
+      2
+   ],
+   [
+      "navsan",
+      "UpdateOperator.hpp",
+      5
+   ],
+   [
+      "Harshad Deshmukh",
+      "WorkOrdersContainer_unittest.cpp",
+      4
+   ],
+   [
+      "hbdeshmukh",
+      "UnaryOperationID.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandle.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "CommandExecutor.hpp",
+      24
+   ],
+   [
+      "Harshad Deshmukh",
+      "ExecutionGeneratorTestRunner.cpp",
+      9
+   ],
+   [
+      "shixuan-fan",
+      "PatternMatcher.hpp",
+      2
+   ],
+   [
+      "Jignesh Patel",
+      "CompressedBlockBuilder.cpp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "CSBTreeIndexSubBlock.hpp",
+      5
+   ],
+   [
+      "jignesh",
+      "QueryExecutionUtil.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "UpdateOperator.hpp",
+      2
+   ],
+   [
+      "Craig Chasseur",
+      "BasicColumnStoreTupleStorageSubBlock_unittest.cpp",
+      8
+   ],
+   [
+      "zuyuz",
+      "UnaryOperation.cpp",
+      8
+   ],
+   [
+      "Zuyu Zhang",
+      "HashJoinOperator.cpp",
+      36
+   ],
+   [
+      "jignesh",
+      "ExecutionGeneratorTestRunner.hpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "Type.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "NumericTypeUnifier.hpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "BasicColumnStoreValueAccessor.hpp",
+      3
+   ],
+   [
+      "jignesh",
+      "SortRunGenerationOperator.hpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleCount.hpp",
+      12
+   ],
+   [
+      "navsan",
+      "TableGeneratorOperator.hpp",
+      3
+   ],
+   [
+      "Navneet Potti",
+      "PackedRowStoreTupleStorageSubBlock.cpp",
+      3
+   ],
+   [
+      "jignesh",
+      "PolicyEnforcer.hpp",
+      1
+   ],
+   [
+      "shixuan",
+      "ExpressionType.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "QueryContext.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "Foreman_unittest.cpp",
+      20
+   ],
+   [
+      "Hakan Memisoglu",
+      "NumericCastOperation.hpp",
+      4
+   ],
+   [
+      "Navneet Potti",
+      "Foreman.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "SortMergeRunOperator.hpp",
       18
    ],
    [
       "Zuyu Zhang",
-      "StorageManager.cpp",
-      55
+      "DestroyHashOperator.hpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "HashJoinOperator.cpp",
+      10
+   ],
+   [
+      "navsan",
+      "SortRunGenerationOperator.cpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "SelectOperator.cpp",
+      3
+   ],
+   [
+      "jignesh",
+      "ExecutionGeneratorTestRunner.cpp",
+      1
+   ],
+   [
+      "navsan",
+      "WorkOrdersContainer.hpp",
+      2
+   ],
+   [
+      "Navneet Potti",
+      "DestroyHashOperator.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "TypeFactory.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "CompressedBlockBuilder.cpp",
+      9
+   ],
+   [
+      "Navneet Potti",
+      "SelectOperator.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "CatalogRelationConstraints.hpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "Foreman_unittest.cpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "Foreman.hpp",
+      25
+   ],
+   [
+      "Zuyu Zhang",
+      "FileManager.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "SelectOperator.cpp",
+      18
+   ],
+   [
+      "zuyuz",
+      "TestDatabaseLoader.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "HashJoinOperator_unittest.cpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleCount_unittest.cpp",
+      12
+   ],
+   [
+      "zuyuz",
+      "WorkOrdersContainer.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "SortMergeRunOperator.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "DeleteOperator.hpp",
+      10
+   ],
+   [
+      "hakanmemisoglu",
+      "WorkerMessage.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "ExecutionGeneratorTestRunner.hpp",
+      6
+   ],
+   [
+      "zuyuz",
+      "QueryManager_unittest.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "StorageBlock.hpp",
+      12
+   ],
+   [
+      "Jianqiao Zhu",
+      "DeleteOperator.hpp",
+      3
+   ],
+   [
+      "hakanmemisoglu",
+      "AddBinaryOperation.cpp",
+      2
+   ],
+   [
+      "Navneet Potti",
+      "InsertDestination.cpp",
+      3
+   ],
+   [
+      "jianqiao",
+      "ExecutionGeneratorTestRunner.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "CatalogRelationSchema.hpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "SimpleScalarSeparateChainingHashTable.hpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "Select.test",
+      12
+   ],
+   [
+      "zuyuz",
+      "Worker.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "Foreman_unittest.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "PolicyEnforcer.hpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "DropTableOperator.hpp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleSum.cpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "CommandExecutor.hpp",
+      15
+   ],
+   [
+      "Hakan Memisoglu",
+      "DecimalType.hpp",
+      4
+   ],
+   [
+      "jignesh",
+      "Foreman_unittest.cpp",
+      1
+   ],
+   [
+      "shixuan",
+      "ParseSelect.hpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "TextScanOperator.cpp",
+      9
+   ],
+   [
+      "Zuyu Zhang",
+      "SelectOperator.cpp",
+      10
+   ],
+   [
+      "hbdeshmukh",
+      "RebuildWorkOrder.hpp",
+      7
+   ],
+   [
+      "jianqiao",
+      "RebuildWorkOrder.hpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "SortMergeRunOperator.cpp",
+      15
+   ],
+   [
+      "jianqiao",
+      "PolicyEnforcer.cpp",
+      1
+   ],
+   [
+      "Hakan Memisoglu",
+      "TypeFactory.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "AccessMode.hpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "PolicyEnforcer.hpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "CommandExecutor.cpp",
+      36
+   ],
+   [
+      "zuyuz",
+      "CompressedColumnStoreTupleStorageSubBlock.cpp",
+      4
+   ],
+   [
+      "hbdeshmukh",
+      "SubstringOperation.cpp",
+      3
+   ],
+   [
+      "zuyuz",
+      "QueryExecutionMessages.proto",
+      2
+   ],
+   [
+      "navsan",
+      "QueryManager_unittest.cpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryContext.hpp",
+      1
+   ],
+   [
+      "navsan",
+      "SelectOperator.hpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "ExecutionGenerator.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "WindowAggregateFunction.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "PreloaderThread.cpp",
+      17
+   ],
+   [
+      "Zuyu Zhang",
+      "StorageConstants.hpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "QueryManager.cpp",
+      16
+   ],
+   [
+      "Zuyu Zhang",
+      "Select.test",
+      23
+   ],
+   [
+      "zuyuz",
+      "Operation.proto",
+      8
+   ],
+   [
+      "zuyuz",
+      "TransactionTable_unittest.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "WorkOrderFactory.cpp",
+      4
+   ],
+   [
+      "hakanmemisoglu",
+      "WorkOrdersContainer_unittest.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "InsertOperator.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "ExecutionHeuristics.cpp",
+      11
+   ],
+   [
+      "zuyuz",
+      "WorkOrderFactory.cpp",
+      15
+   ],
+   [
+      "Harshad Deshmukh",
+      "ExecutionGenerator.hpp",
+      1
+   ],
+   [
+      "shixuan",
+      "SqlLexer_gen.cpp",
+      2
+   ],
+   [
+      "navsan",
+      "HashJoinOperator.hpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "AggregationOperator.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "QueryContext.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "WorkOrdersContainer_unittest.cpp",
+      2
    ],
    [
       "zuyuz",
@@ -431,62 +2281,257 @@
    ],
    [
       "zuyuz",
-      "SortRunGenerationOperator_unittest.cpp",
-      12
-   ],
-   [
-      "zuyuz",
-      "ExecutionGeneratorTestRunner.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryManager_unittest.cpp",
-      13
-   ],
-   [
-      "zuyuz",
-      "QueryContext.proto",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
       "RebuildWorkOrder.hpp",
-      12
-   ],
-   [
-      "jignesh",
-      "PolicyEnforcer.hpp",
-      1
+      7
    ],
    [
       "hakanmemisoglu",
-      "SortMergeRunOperator.cpp",
-      3
-   ],
-   [
-      "jignesh",
-      "TestDatabaseLoader.cpp",
+      "HashJoinOperator.hpp",
       1
    ],
    [
+      "Zuyu Zhang",
+      "DataExchange_unittest.cpp",
+      16
+   ],
+   [
+      "zuyuz",
+      "SampleOperator.hpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "FinalizeAggregationOperator.cpp",
+      12
+   ],
+   [
       "jianqiao",
-      "WorkOrder.hpp",
+      "ExecutionGeneratorTestRunner.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleMin_unittest.cpp",
+      12
+   ],
+   [
+      "jianqiao",
+      "UpdateOperator.cpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "QueryHandle.hpp",
+      3
+   ],
+   [
+      "navsan",
+      "RebuildWorkOrder.hpp",
+      2
+   ],
+   [
+      "jignesh",
+      "SortMergeRunOperator.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "PhysicalGenerator.cpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "QueryExecutionMessages.proto",
+      6
+   ],
+   [
+      "zuyuz",
+      "TupleStorageSubBlock.hpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "PatternMatcher.hpp",
+      12
+   ],
+   [
+      "hakanmemisoglu",
+      "SqlLexer_gen.cpp",
+      2
+   ],
+   [
+      "Hakan Memisoglu",
+      "ArithmeticBinaryOperation.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "HashJoinOperator_unittest.cpp",
       1
    ],
    [
       "zuyuz",
-      "SubstringOperation.cpp",
+      "SortMergeRunOperator_unittest.cpp",
+      12
+   ],
+   [
+      "Hakan Memisoglu",
+      "TypeID.hpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "QueryProcessor.cpp",
+      3
+   ],
+   [
+      "zuyuz",
+      "CompressedPackedRowStoreTupleStorageSubBlock.cpp",
+      4
+   ],
+   [
+      "navsan",
+      "QueryContext.cpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "TypeID.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "CreateIndexOperator.hpp",
+      20
+   ],
+   [
+      "jignesh",
+      "SortMergeRunOperator_unittest.cpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "SaveBlocksOperator.cpp",
+      5
+   ],
+   [
+      "navsan",
+      "WorkerMessage.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "FinalizeAggregationOperator.hpp",
+      10
+   ],
+   [
+      "Harshad Deshmukh",
+      "UpdateOperator.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "QueryContext.proto",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "SimpleScalarSeparateChainingHashTable.hpp",
+      8
+   ],
+   [
+      "hbdeshmukh",
+      "UnaryOperationFactory.cpp",
+      3
+   ],
+   [
+      "hakanmemisoglu",
+      "SortRunGenerationOperator.hpp",
+      3
+   ],
+   [
+      "hbdeshmukh",
+      "QueryExecutionTypedefs.hpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "SelectOperator.hpp",
+      1
+   ],
+   [
+      "Hakan Memisoglu",
+      "DecimalType.cpp",
+      6
+   ],
+   [
+      "hbdeshmukh",
+      "QueryManager.hpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "Type.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "NestedLoopsJoinOperator.hpp",
+      5
+   ],
+   [
+      "Craig Chasseur",
+      "BasicColumnStoreTupleStorageSubBlock.hpp",
       8
    ],
    [
       "Zuyu Zhang",
-      "DestroyHashOperator.hpp",
+      "Aggregate.cpp",
+      12
+   ],
+   [
+      "hbdeshmukh",
+      "Foreman_unittest.cpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "SqlParser_gen.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "DropTableOperator.cpp",
       10
    ],
    [
+      "Zuyu Zhang",
+      "FileManagerHdfs.cpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "PolicyEnforcer.cpp",
+      33
+   ],
+   [
       "hakanmemisoglu",
-      "DecimalLit.hpp",
+      "SubtractBinaryOperation.cpp",
+      2
+   ],
+   [
+      "shixuan",
+      "ParseWindow.hpp",
+      14
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleMax.hpp",
+      12
+   ],
+   [
+      "navsan",
+      "ExecutionGeneratorTestRunner.cpp",
       2
    ],
    [
@@ -495,9 +2540,69 @@
       2
    ],
    [
+      "Harshad Deshmukh",
+      "TextScanOperator.cpp",
+      4
+   ],
+   [
+      "jignesh",
+      "WorkOrdersContainer.hpp",
+      1
+   ],
+   [
       "zuyuz",
-      "UnaryOperationFactory.cpp",
+      "StorageBlock.hpp",
+      5
+   ],
+   [
+      "Jianqiao Zhu",
+      "ColumnVectorsValueAccessor.hpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "SaveBlocksOperator.cpp",
+      3
+   ],
+   [
+      "hbdeshmukh",
+      "SqlParser_gen.cpp",
       8
+   ],
+   [
+      "Harshad Deshmukh",
+      "DestroyHashOperator.hpp",
+      8
+   ],
+   [
+      "hbdeshmukh",
+      "WorkOrder.proto",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "Foreman.cpp",
+      16
+   ],
+   [
+      "Zuyu Zhang",
+      "TransactionTable.hpp",
+      6
+   ],
+   [
+      "jignesh",
+      "WorkOrder.hpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "WorkOrder.hpp",
+      7
+   ],
+   [
+      "jianqiao",
+      "SortRunGenerationOperator_unittest.cpp",
+      1
    ],
    [
       "Navneet Potti",
@@ -506,8 +2611,68 @@
    ],
    [
       "Zuyu Zhang",
-      "SaveBlocksOperator.hpp",
-      12
+      "DropTableOperator.hpp",
+      10
+   ],
+   [
+      "jignesh",
+      "SqlLexer_gen.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "CatalogRelation.cpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "BuildHashOperator.cpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "RelationalOperator.hpp",
+      1
+   ],
+   [
+      "navsan",
+      "QueryExecutionMessages.proto",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "NestedLoopsJoinOperator.cpp",
+      5
+   ],
+   [
+      "hbdeshmukh",
+      "TextScanOperator.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "WorkOrdersContainer_unittest.cpp",
+      8
+   ],
+   [
+      "jignesh",
+      "QueryManager.hpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "CompressedTupleStorageSubBlock.hpp",
+      5
+   ],
+   [
+      "hakanmemisoglu",
+      "NumericSuperType.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "ColumnStoreUtil.hpp",
+      1
    ],
    [
       "Zuyu Zhang",
@@ -516,17 +2681,137 @@
    ],
    [
       "Hakan Memisoglu",
-      "NumericSuperType.hpp",
-      2
+      "SqlParser.ypp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "ScopedBuffer.hpp",
+      12
+   ],
+   [
+      "jignesh",
+      "ExecutionGenerator.hpp",
+      1
+   ],
+   [
+      "shixuan-fan",
+      "Resolver.hpp",
+      4
+   ],
+   [
+      "hbdeshmukh",
+      "DeleteOperator.hpp",
+      6
    ],
    [
       "Navneet Potti",
-      "PolicyEnforcer.cpp",
-      2
+      "QuickstepCli.cpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryExecutionTypedefs.hpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "StorageManager.cpp",
+      55
    ],
    [
       "jianqiao",
-      "SortMergeRunOperator_unittest.cpp",
+      "ExecutionGenerator.hpp",
+      1
+   ],
+   [
+      "Hakan Memisoglu",
+      "ComparisonUtil.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "QueryContext.hpp",
+      23
+   ],
+   [
+      "jignesh",
+      "DeleteOperator.hpp",
+      1
+   ],
+   [
+      "zuyuz",
+      "QueryProcessor.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryManager.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "SortMergeRunOperator.cpp",
+      3
+   ],
+   [
+      "Jianqiao Zhu",
+      "WorkOrderFactory.cpp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "Transaction.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "StronglyConnectedComponents.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "Index.test",
+      6
+   ],
+   [
+      "Harshad Deshmukh",
+      "ProbabilityStore_unittest.cpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleAvg.cpp",
+      12
+   ],
+   [
+      "jianqiao",
+      "WorkerMessage.hpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "TableGeneratorOperator.cpp",
+      3
+   ],
+   [
+      "jignesh",
+      "QueryExecutionMessages.proto",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "InsertDestination.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "WorkOrder.hpp",
+      7
+   ],
+   [
+      "Shixuan Fan",
+      "Resolver.hpp",
       1
    ],
    [
@@ -536,398 +2821,18 @@
    ],
    [
       "Zuyu Zhang",
-      "FinalizeAggregationOperator.hpp",
-      10
-   ],
-   [
-      "hbdeshmukh",
-      "ExecutionGeneratorTestRunner.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "RebuildWorkOrder.hpp",
-      7
-   ],
-   [
-      "hbdeshmukh",
-      "SqlLexer_gen.hpp",
-      5
-   ],
-   [
-      "hbdeshmukh",
-      "SqlParser_gen.cpp",
-      8
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationOperationState.hpp",
-      23
-   ],
-   [
-      "Zuyu Zhang",
-      "StarSchemaSimpleCostModel.hpp",
-      12
-   ],
-   [
-      "zuyuz",
-      "SqlLexer_gen.hpp",
-      1
-   ],
-   [
-      "jignesh",
-      "SqlParser_gen.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "UnaryOperationID.hpp",
-      8
-   ],
-   [
-      "hakanmemisoglu",
-      "SortRunGenerationOperator.cpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryExecutionMessages.proto",
-      11
-   ],
-   [
-      "Zuyu Zhang",
-      "DataExchangerAsync.hpp",
-      16
-   ],
-   [
-      "Zuyu Zhang",
-      "CompressedPackedRowStoreTupleStorageSubBlock.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "DropTableOperator.hpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "WorkOrdersContainer_unittest.cpp",
-      8
-   ],
-   [
-      "Navneet Potti",
-      "AggregationOperator.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "QueryManager.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "SqlLexer_gen.cpp",
-      5
-   ],
-   [
-      "hakanmemisoglu",
-      "TextScanOperator.hpp",
-      3
-   ],
-   [
-      "Navneet Potti",
-      "InsertDestination.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "TextScanOperator.cpp",
-      18
-   ],
-   [
-      "Navneet Potti",
-      "profile_build.sh",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "QueryManager_unittest.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "CommandExecutor.cpp",
-      24
-   ],
-   [
-      "hbdeshmukh",
-      "WorkOrdersContainer.hpp",
-      6
-   ],
-   [
-      "Hakan Memisoglu",
-      "TypeFactory.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "BasicColumnStoreTupleStorageSubBlock.cpp",
-      6
-   ],
-   [
-      "Harshad Deshmukh",
-      "TableGeneratorOperator.cpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "CreateIndexOperator.hpp",
-      3
-   ],
-   [
-      "hakanmemisoglu",
-      "TableGeneratorOperator.hpp",
-      3
-   ],
-   [
-      "Navneet Potti",
-      "WorkOrderProtosContainer.hpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "SqlParser_gen.cpp",
-      9
-   ],
-   [
-      "Zuyu Zhang",
-      "DropTableOperator.cpp",
-      10
-   ],
-   [
-      "jianqiao",
-      "HashJoinOperator_unittest.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "LiteralComparators.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "DAGVisualizer.hpp",
-      4
-   ],
-   [
-      "jianqiao",
-      "SqlParser_gen.cpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "WorkerMessage.hpp",
-      2
-   ],
-   [
-      "navsan",
-      "SortMergeRunOperator.cpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "DirectedGraph.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "HashJoinOperator_unittest.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "ScopedBuffer.hpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "SqlLexer.lpp",
-      11
-   ],
-   [
-      "shixuan-fan",
-      "WindowAggregate.cpp",
-      4
-   ],
-   [
-      "zuyuz",
-      "Select.test",
-      17
-   ],
-   [
-      "jignesh",
-      "SortMergeRunOperator.cpp",
-      2
-   ],
-   [
-      "Hakan Memisoglu",
-      "DecimalType.hpp",
-      4
-   ],
-   [
-      "zuyuz",
-      "UpdateOperator.cpp",
-      20
-   ],
-   [
-      "Navneet Potti",
-      "InsertOperator.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "SortMergeRunOperator.hpp",
-      3
-   ],
-   [
-      "hbdeshmukh",
-      "WorkOrderFactory.cpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "FinalizeAggregationOperator.cpp",
-      12
-   ],
-   [
-      "jianqiao",
-      "Resolver.cpp",
-      2
-   ],
-   [
-      "shixuan",
-      "SqlParser_gen.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "TestDatabaseLoader.cpp",
-      1
-   ],
-   [
-      "jignesh",
-      "QueryManager_unittest.cpp",
-      1
-   ],
-   [
-      "navsan",
-      "TableGeneratorOperator.hpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "SortMergeRunOperator.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "LockTable.hpp",
-      6
-   ],
-   [
-      "Harshad Deshmukh",
-      "FinalizeAggregationOperator.hpp",
-      8
-   ],
-   [
-      "shixuan",
-      "ParseBasicExpressions.cpp",
-      9
-   ],
-   [
-      "Hakan Memisoglu",
-      "DecimalType.cpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryExecutionMessages.proto",
-      18
-   ],
-   [
-      "Jianqiao Zhu",
-      "SaveBlocksOperator.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleCount_unittest.cpp",
-      12
-   ],
-   [
-      "hbdeshmukh",
-      "QueryExecutionTypedefs.hpp",
-      6
-   ],
-   [
-      "zuyuz",
-      "StorageBlock.cpp",
-      5
-   ],
-   [
-      "shixuan-fan",
-      "WindowAggregateFunction.hpp",
-      5
-   ],
-   [
-      "jignesh",
-      "TableGeneratorOperator.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
       "DeleteOperator.hpp",
-      10
-   ],
-   [
-      "zuyuz",
-      "UpdateOperator.hpp",
       20
    ],
    [
-      "navsan",
-      "TextScanOperator.proto",
-      3
-   ],
-   [
-      "shixuan",
-      "SqlLexer_gen.cpp",
+      "zuyuz",
+      "Worker.hpp",
       2
    ],
    [
-      "Harshad Deshmukh",
-      "DropTableOperator.hpp",
-      8
-   ],
-   [
-      "hakanmemisoglu",
-      "TypeID.hpp",
+      "zuyuz",
+      "ExecutionGeneratorTestRunner.hpp",
       2
-   ],
-   [
-      "Harshad Deshmukh",
-      "HashJoinOperator_unittest.cpp",
-      6
-   ],
-   [
-      "shixuan",
-      "Resolver.cpp",
-      1
-   ],
-   [
-      "jignesh",
-      "QueryProcessor.cpp",
-      1
    ],
    [
       "zuyuz",
@@ -936,98 +2841,13 @@
    ],
    [
       "Harshad Deshmukh",
-      "ProbabilityStore.hpp",
-      11
-   ],
-   [
-      "zuyuz",
-      "TextScanOperator_unittest.cpp",
-      12
-   ],
-   [
-      "zuyuz",
-      "SqlLexer_gen.cpp",
-      1
-   ],
-   [
-      "navsan",
-      "SelectOperator.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "BuildHashOperator.hpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "SortMergeRunOperator.cpp",
-      15
-   ],
-   [
-      "Harshad Deshmukh",
-      "SqlParser.ypp",
-      9
-   ],
-   [
-      "Jianqiao Zhu",
-      "TextScanOperator_unittest.cpp",
-      4
-   ],
-   [
-      "Zuyu Zhang",
-      "BloomFilterIndexSubBlock.cpp",
-      6
-   ],
-   [
-      "jianqiao",
-      "QueryExecutionUtil.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "RebuildWorkOrder.hpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "SampleOperator.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "SubstringOperation.hpp",
-      3
-   ],
-   [
-      "hakanmemisoglu",
-      "QueryContext.cpp",
-      1
-   ],
-   [
-      "Navneet Potti",
-      "ValueAccessor.hpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "HashJoinOperator.hpp",
-      11
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationOperator_unittest.cpp",
+      "AggregationOperator.hpp",
       5
    ],
    [
       "zuyuz",
-      "SortRunGenerationOperator.cpp",
-      18
-   ],
-   [
-      "jianqiao",
-      "UpdateOperator.cpp",
-      2
+      "SortRunGenerationOperator_unittest.cpp",
+      12
    ],
    [
       "hbdeshmukh",
@@ -1036,42 +2856,42 @@
    ],
    [
       "zuyuz",
-      "QueryExecutionMessages.proto",
+      "SortRunGenerationOperator.hpp",
+      18
+   ],
+   [
+      "hakanmemisoglu",
+      "DivideBinaryOperation.cpp",
       2
    ],
    [
       "Zuyu Zhang",
-      "TransactionTable.hpp",
-      6
+      "QueryContext.cpp",
+      11
+   ],
+   [
+      "navsan",
+      "InsertDestination.cpp",
+      3
    ],
    [
       "Jianqiao Zhu",
-      "DropTableOperator.hpp",
+      "CreateIndexOperator.hpp",
       3
    ],
    [
+      "Zuyu Zhang",
+      "QuickstepCli.cpp",
+      52
+   ],
+   [
       "zuyuz",
-      "CompressedTupleStorageSubBlock.cpp",
+      "PackedRowStoreTupleStorageSubBlock.cpp",
       5
    ],
    [
-      "Jignesh Patel",
-      "CompressedBlockBuilder.cpp",
-      4
-   ],
-   [
-      "hbdeshmukh",
-      "SaveBlocksOperator.hpp",
-      3
-   ],
-   [
-      "shixuan-fan",
-      "Resolver.hpp",
-      4
-   ],
-   [
-      "zuyuz",
-      "PolicyEnforcer.hpp",
+      "Navneet Potti",
+      "AggregationOperator.hpp",
       2
    ],
    [
@@ -1080,19 +2900,79 @@
       3
    ],
    [
-      "navsan",
-      "QueryManager_unittest.cpp",
+      "Zuyu Zhang",
+      "DeleteOperator.cpp",
+      10
+   ],
+   [
+      "hakanmemisoglu",
+      "UpdateOperator.cpp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "LockManager.hpp",
+      6
+   ],
+   [
+      "jignesh",
+      "QueryExecutionTypedefs.hpp",
+      1
+   ],
+   [
+      "Hakan Memisoglu",
+      "BasicComparison.hpp",
       2
    ],
    [
-      "zuyuz",
-      "CompressedTupleStorageSubBlock.hpp",
+      "hakanmemisoglu",
+      "SqlParser_gen.hpp",
       5
    ],
    [
-      "Shixuan Fan",
-      "Resolver.cpp",
+      "jignesh",
+      "QueryContext.proto",
       1
+   ],
+   [
+      "Zuyu Zhang",
+      "WorkOrderProtosContainer.hpp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "RelationalOperator.hpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "CommandExecutorTestRunner.cpp",
+      15
+   ],
+   [
+      "Jianqiao Zhu",
+      "QueryManager_unittest.cpp",
+      3
+   ],
+   [
+      "Navneet Potti",
+      "DeleteOperator.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryContext.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "DirectedGraph_unittest.cpp",
+      6
+   ],
+   [
+      "hbdeshmukh",
+      "QueryContext.proto",
+      6
    ],
    [
       "Jianqiao Zhu",
@@ -1100,144 +2980,79 @@
       8
    ],
    [
-      "Zuyu Zhang",
-      "LockTable.cpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "PlanVisualizer.hpp",
-      12
-   ],
-   [
       "Hakan Memisoglu",
-      "MultiplyBinaryOperation.cpp",
+      "AddBinaryOperation.cpp",
       2
-   ],
-   [
-      "Harshad Deshmukh",
-      "RelationalOperator.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleAvg.hpp",
-      12
-   ],
-   [
-      "navsan",
-      "ExecutionGeneratorTestRunner.hpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "Foreman_unittest.cpp",
-      3
    ],
    [
       "hakanmemisoglu",
-      "InsertDestination.hpp",
+      "PolicyEnforcer.cpp",
       1
    ],
    [
       "Jianqiao Zhu",
-      "Catalog.proto",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "DeleteOperator.hpp",
-      9
-   ],
-   [
-      "hakanmemisoglu",
-      "AggregationOperator_unittest.cpp",
-      3
-   ],
-   [
-      "navsan",
-      "TestDatabaseLoader.cpp",
-      2
-   ],
-   [
-      "shixuan",
-      "Select.test",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "FinalizeAggregationOperator.cpp",
+      "CompressionDictionaryLite.hpp",
       3
    ],
    [
       "Zuyu Zhang",
-      "HashJoinOperator.hpp",
-      10
-   ],
-   [
-      "Jianqiao Zhu",
-      "UpdateOperator.hpp",
-      3
-   ],
-   [
-      "navsan",
-      "QueryManager.hpp",
-      2
+      "PhysicalGenerator.cpp",
+      24
    ],
    [
       "zuyuz",
-      "RebuildWorkOrder.hpp",
-      7
-   ],
-   [
-      "jianqiao",
-      "ExecutionGenerator.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "CatalogRelationConstraints.cpp",
-      2
-   ],
-   [
-      "navsan",
-      "InsertDestination.cpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "SelectOperator.cpp",
-      5
-   ],
-   [
-      "hakanmemisoglu",
-      "ExecutionGeneratorTestRunner.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "DeleteOperator.hpp",
-      1
+      "UnaryOperationID.hpp",
+      8
    ],
    [
       "Zuyu Zhang",
-      "AggregationOperator.cpp",
-      10
+      "ExecutionHeuristics_unittest.cpp",
+      27
    ],
    [
       "hbdeshmukh",
-      "InsertDestination.cpp",
-      6
+      "TableGeneratorOperator.cpp",
+      5
+   ],
+   [
+      "Navneet Potti",
+      "InsertOperator.cpp",
+      2
    ],
    [
       "Jianqiao Zhu",
-      "BloomFilterAdapter.hpp",
+      "BuildHashOperator.hpp",
       3
    ],
    [
-      "Hakan Memisoglu",
-      "BasicComparison.hpp",
-      2
+      "Zuyu Zhang",
+      "InsertOperator.cpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "D.test",
+      24
+   ],
+   [
+      "jignesh",
+      "TestDatabaseLoader.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "LockTable.hpp",
+      6
+   ],
+   [
+      "hbdeshmukh",
+      "SortMergeRunOperator.cpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "SMAIndexSubBlock_unittest.cpp",
+      12
    ],
    [
       "Zuyu Zhang",
@@ -1246,188 +3061,38 @@
    ],
    [
       "Zuyu Zhang",
-      "ColumnStoreUtil.cpp",
-      4
-   ],
-   [
-      "Jianqiao Zhu",
-      "CompressedPackedRowStoreValueAccessor.hpp",
-      3
-   ],
-   [
-      "shixuan",
-      "ParseWindow.hpp",
-      14
-   ],
-   [
-      "jignesh",
-      "InsertDestination.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "FileManagerPosix.cpp",
-      12
-   ],
-   [
-      "hbdeshmukh",
-      "QueryContext.proto",
+      "DirectedGraph.hpp",
       6
    ],
    [
       "Harshad Deshmukh",
-      "ExecutionHeuristics_unittest.cpp",
-      5
-   ],
-   [
-      "Harshad Deshmukh",
-      "Learner.cpp",
-      14
-   ],
-   [
-      "Zuyu Zhang",
-      "WorkOrder.proto",
-      9
-   ],
-   [
-      "hbdeshmukh",
-      "HashJoinOperator.hpp",
-      6
-   ],
-   [
-      "Navneet Potti",
-      "QuickstepCli.cpp",
+      "NestedLoopsJoinOperator.hpp",
       8
    ],
    [
-      "hakanmemisoglu",
-      "DivideBinaryOperation.cpp",
-      2
-   ],
-   [
       "Zuyu Zhang",
-      "ResourceId.hpp",
-      6
-   ],
-   [
-      "hakanmemisoglu",
-      "SubtractBinaryOperation.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "Worker.hpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "TextScanOperator.proto",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "CommandExecutorTestRunner.cpp",
-      24
-   ],
-   [
-      "Hakan Memisoglu",
-      "TypedValue.proto",
-      2
+      "CatalogRelation.cpp",
+      12
    ],
    [
       "hbdeshmukh",
-      "SortMergeRunOperator.hpp",
+      "WorkOrderFactory.cpp",
       5
-   ],
-   [
-      "navsan",
-      "AggregationOperator_unittest.cpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "QueryContext.cpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleCount.hpp",
-      12
-   ],
-   [
-      "shixuan",
-      "Resolver.hpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationOperator.hpp",
-      3
-   ],
-   [
-      "navsan",
-      "Foreman_unittest.cpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "CommandExecutor.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "SelectOperator.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "WorkerMessage.hpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "CatalogRelationStatistics.cpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "BuildHashOperator.cpp",
-      20
-   ],
-   [
-      "Zuyu Zhang",
-      "Foreman.cpp",
-      16
-   ],
-   [
-      "Zuyu Zhang",
-      "Lock_unittest.cpp",
-      6
    ],
    [
       "Harshad Deshmukh",
-      "ProbabilityStore_unittest.cpp",
-      5
+      "ExecutionGeneratorTestRunner.hpp",
+      8
    ],
    [
-      "jignesh",
-      "QueryExecutionTypedefs.hpp",
-      1
-   ],
-   [
-      "Navneet Potti",
-      "profile_build.sh",
-      5
-   ],
-   [
-      "shixuan-fan",
-      "WindowAggregateFunction.cpp",
-      5
-   ],
-   [
-      "navsan",
-      "TableGeneratorOperator.cpp",
+      "Jianqiao Zhu",
+      "StarSchemaHashJoinOrderOptimization.cpp",
       3
+   ],
+   [
+      "zuyuz",
+      "SqlParser_gen.cpp",
+      9
    ],
    [
       "jignesh",
@@ -1436,73 +3101,23 @@
    ],
    [
       "Zuyu Zhang",
-      "DataExchange.proto",
-      16
-   ],
-   [
-      "Navneet Potti",
-      "PolicyEnforcer.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "StronglyConnectedComponents_unittest.cpp",
-      3
+      "SqlParser.ypp",
+      11
    ],
    [
       "Zuyu Zhang",
-      "AggregationHandleMin_unittest.cpp",
+      "QueryProcessor.hpp",
       12
    ],
    [
-      "Harshad Deshmukh",
-      "DestroyHashOperator.cpp",
-      5
-   ],
-   [
-      "zuyuz",
-      "WorkOrdersContainer_unittest.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "TextScanOperator_unittest.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "QueryHandle.hpp",
-      1
-   ],
-   [
-      "jignesh",
-      "UpdateOperator.cpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "WorkOrderFactory.cpp",
-      15
-   ],
-   [
       "Zuyu Zhang",
-      "AggregationOperator.hpp",
-      20
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashTable.hpp",
-      3
-   ],
-   [
-      "jignesh",
-      "WorkOrder.hpp",
+      "PackedRowStoreTupleStorageSubBlock.cpp",
       1
    ],
    [
-      "navsan",
-      "WorkOrderFactory.cpp",
-      3
+      "Shixuan Fan",
+      "Resolver.cpp",
+      1
    ],
    [
       "Zuyu Zhang",
@@ -1511,1308 +3126,33 @@
    ],
    [
       "Navneet Potti",
-      "Foreman.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "QueryContext.proto",
-      1
-   ],
-   [
-      "zuyuz",
-      "Resolver.cpp",
-      8
-   ],
-   [
-      "Zuyu Zhang",
-      "StorageManager.hpp",
-      32
-   ],
-   [
-      "Jianqiao Zhu",
-      "CompressedBlockBuilder.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "DeleteOperator.cpp",
-      10
-   ],
-   [
-      "hbdeshmukh",
-      "InsertDestination.hpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleMax.hpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryExecutionTypedefs.hpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "GenerateNumRowsStatsOperator.cpp",
-      24
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleMax_unittest.cpp",
-      12
-   ],
-   [
-      "navsan",
-      "DeleteOperator.hpp",
-      2
-   ],
-   [
-      "shixuan",
-      "ExpressionType.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "SortRunGenerationOperator.cpp",
-      5
-   ],
-   [
-      "jignesh",
-      "SortMergeRunOperator_unittest.cpp",
-      1
-   ],
-   [
-      "navsan",
-      "WorkOrder.proto",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashJoinOperator.hpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "SimpleCostModel.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "StorageBlockLayout.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "QueryManager.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "SortRunGenerationOperator.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "SqlLexer_gen.hpp",
-      3
-   ],
-   [
-      "shixuan",
-      "ParseSelect.hpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "InsertOperator.cpp",
-      12
-   ],
-   [
-      "jianqiao",
-      "WorkOrdersContainer.hpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "QueryExecutionUtil.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "CommandExecutorTestRunner.hpp",
-      14
-   ],
-   [
-      "jignesh",
-      "Worker.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "PolicyEnforcer.cpp",
-      33
-   ],
-   [
-      "Zuyu Zhang",
-      "LockRequest_unittest.cpp",
-      6
-   ],
-   [
-      "hakanmemisoglu",
-      "SortRunGenerationOperator.hpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "NestedLoopsJoinOperator.hpp",
-      8
-   ],
-   [
-      "Navneet Potti",
-      "PackedRowStoreTupleStorageSubBlock.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "AccessMode.hpp",
-      6
-   ],
-   [
-      "Navneet Potti",
-      "BuildHashOperator.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleSum.hpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandle.hpp",
-      12
-   ],
-   [
-      "jignesh",
-      "ExecutionGeneratorTestRunner.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "PhysicalGenerator.cpp",
-      24
-   ],
-   [
-      "Hakan Memisoglu",
-      "ModuloBinaryOperation.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "InsertDestination.hpp",
-      1
-   ],
-   [
-      "Navneet Potti",
-      "BuildHashOperator.cpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "QueryExecutionUtil.hpp",
-      6
-   ],
-   [
-      "zuyuz",
-      "TableGeneratorOperator.hpp",
-      18
-   ],
-   [
-      "jianqiao",
-      "QueryExecutionMessages.proto",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "WorkerMessage.hpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "ModuloBinaryOperation.cpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "CatalogRelationConstraints.hpp",
-      3
-   ],
-   [
-      "navsan",
-      "ExecutionGeneratorTestRunner.cpp",
-      2
-   ],
-   [
-      "Craig Chasseur",
-      "StorageBlockLayout.proto",
-      8
-   ],
-   [
-      "hbdeshmukh",
-      "TextScanOperator.cpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "BuildHashOperator.hpp",
-      20
-   ],
-   [
-      "hakanmemisoglu",
-      "SqlParser_gen.hpp",
-      5
-   ],
-   [
-      "Jignesh Patel",
-      "TextScanOperator.hpp",
-      2
-   ],
-   [
-      "Hakan Memisoglu",
-      "ArithmeticUnaryOperations.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "Select.test",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "SaveBlocksOperator.hpp",
-      10
-   ],
-   [
-      "shixuan-fan",
-      "WindowAggregate.hpp",
-      3
-   ],
-   [
-      "Navneet Potti",
-      "NestedLoopsJoinOperator.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashJoinOperator.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "QueryContext.cpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "TestDatabaseLoader.cpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "SMAIndexSubBlock_unittest.cpp",
-      12
-   ],
-   [
-      "hakanmemisoglu",
-      "MultiplyBinaryOperation.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
       "InsertOperator.hpp",
-      8
-   ],
-   [
-      "Zuyu Zhang",
-      "Dt.test",
-      24
-   ],
-   [
-      "zuyuz",
-      "Worker.hpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "TestDatabaseLoader.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "RelationalOperator.hpp",
-      10
-   ],
-   [
-      "Hakan Memisoglu",
-      "BasicComparison.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "Resolver.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "SortRunGenerationOperator_unittest.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "HashTableFactory.hpp",
-      11
-   ],
-   [
-      "hbdeshmukh",
-      "ExecutionGenerator.hpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "WindowAggregate.cpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "SplitRowStoreValueAccessor.hpp",
-      3
-   ],
-   [
-      "hakanmemisoglu",
-      "ArithmeticUnaryOperations.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "QueryManager.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "TestDatabaseLoader.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "TextScanOperator.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "GenerateNumRowsStatsOperator.hpp",
-      24
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryManager.cpp",
-      16
-   ],
-   [
-      "Navneet Potti",
-      "SelectOperator.cpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "QueryProcessor.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryContext.proto",
-      11
-   ],
-   [
-      "hakanmemisoglu",
-      "SortMergeRunOperator_unittest.cpp",
-      3
-   ],
-   [
-      "Navneet Potti",
-      "FinalizeAggregationOperator.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "TypeFactory.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "FileManagerWindows.cpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "SortMergeRunOperator_unittest.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "ExpressionType.hpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "Worker.cpp",
-      6
-   ],
-   [
-      "jignesh",
-      "SortRunGenerationOperator.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "ColumnStoreUtil.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "HashTable.proto",
-      11
-   ],
-   [
-      "Zuyu Zhang",
-      "ExecutionHeuristics.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "InsertOperator.hpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "QueryHandle.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "Operation.proto",
-      8
-   ],
-   [
-      "Zuyu Zhang",
-      "RebuildWorkOrder.hpp",
-      8
-   ],
-   [
-      "zuyuz",
-      "UnaryOperation.cpp",
-      8
-   ],
-   [
-      "Harshad Deshmukh",
-      "Learner.hpp",
-      12
-   ],
-   [
-      "Navneet Potti",
-      "NestedLoopsJoinOperator.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "TextScanOperator.proto",
-      1
-   ],
-   [
-      "jignesh",
-      "SortMergeRunOperator.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "HashJoinOperator.cpp",
-      10
-   ],
-   [
-      "hakanmemisoglu",
-      "Foreman_unittest.cpp",
-      1
-   ],
-   [
-      "Hakan Memisoglu",
-      "LiteralComparators.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "HashTablePool.hpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "InsertDestination.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "FinalizeAggregationOperator.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "CatalogRelation.cpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "StringUtil.hpp",
-      23
-   ],
-   [
-      "Harshad Deshmukh",
-      "CreateTableOperator.hpp",
-      6
-   ],
-   [
-      "Harshad Deshmukh",
-      "CommandExecutorTestRunner.cpp",
-      15
-   ],
-   [
-      "jianqiao",
-      "Select.test",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "TransactionTable.cpp",
-      6
-   ],
-   [
-      "jignesh",
-      "WorkOrdersContainer.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "StarSchemaHashJoinOrderOptimization.cpp",
-      12
-   ],
-   [
-      "Jianqiao Zhu",
-      "BasicColumnStoreValueAccessor.hpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "StarSchemaHashJoinOrderOptimization.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "BloomFilter.proto",
-      11
-   ],
-   [
-      "jignesh",
-      "SqlLexer_gen.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "CommandExecutor.hpp",
-      24
-   ],
-   [
-      "Harshad Deshmukh",
-      "ExecutionStats.hpp",
-      6
-   ],
-   [
-      "Hakan Memisoglu",
-      "TypeID.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "Index.test",
-      6
-   ],
-   [
-      "Navneet Potti",
-      "CreateTableOperator.hpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryContext.hpp",
-      1
-   ],
-   [
-      "jignesh",
-      "TableGeneratorOperator.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryProcessor.hpp",
-      12
-   ],
-   [
-      "Craig Chasseur",
-      "BasicColumnStoreTupleStorageSubBlock.hpp",
-      8
-   ],
-   [
-      "Jignesh Patel",
-      "TextScanOperator_unittest.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryContext.cpp",
-      11
-   ],
-   [
-      "hbdeshmukh",
-      "WorkOrder.hpp",
-      7
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleMin.cpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "Resolver.cpp",
-      6
-   ],
-   [
-      "jianqiao",
-      "WorkOrdersContainer_unittest.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "NumericCastOperation.hpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "QueryExecutionTypedefs.hpp",
       2
    ],
    [
       "hbdeshmukh",
-      "Worker.cpp",
-      6
-   ],
-   [
-      "Harshad Deshmukh",
-      "QuickstepCli.cpp",
-      35
-   ],
-   [
-      "zuyuz",
-      "SqlParser_gen.hpp",
-      9
-   ],
-   [
-      "Zuyu Zhang",
-      "WorkOrderFactory.cpp",
-      9
-   ],
-   [
-      "Zuyu Zhang",
-      "DestroyHashOperator.hpp",
-      20
-   ],
-   [
-      "Zuyu Zhang",
-      "BuildHashOperator.hpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "ParseExpression.hpp",
-      11
-   ],
-   [
-      "shixuan",
-      "SqlLexer_gen.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "InsertOperator.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "BlockLocator.cpp",
-      18
-   ],
-   [
-      "jignesh",
-      "QueryExecutionUtil.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "DropTableOperator.cpp",
-      3
-   ],
-   [
-      "navsan",
-      "DeleteOperator.cpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "SqlParser_gen.hpp",
-      8
-   ],
-   [
-      "zuyuz",
-      "SampleOperator.hpp",
-      5
-   ],
-   [
-      "hbdeshmukh",
-      "NestedLoopsJoinOperator.hpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "BasicComparison.cpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "DAGVisualizer.cpp",
-      4
-   ],
-   [
-      "zuyuz",
-      "ExecutionGeneratorTestRunner.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "TextScanOperator.hpp",
-      7
-   ],
-   [
-      "Zuyu Zhang",
-      "BuildHashOperator.cpp",
-      10
-   ],
-   [
-      "hbdeshmukh",
-      "TextScanOperator_unittest.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "ExecutionGenerator.cpp",
-      97
-   ],
-   [
-      "Zuyu Zhang",
-      "PrintToScreen.hpp",
-      23
-   ],
-   [
-      "hbdeshmukh",
-      "SortMergeRunOperator.cpp",
-      10
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryExecutionConfig.h.in",
-      2
-   ],
-   [
-      "zuyuz",
-      "RelationalOperator.hpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "Select.test",
-      12
-   ],
-   [
-      "jignesh",
-      "Foreman_unittest.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "DeleteOperator.cpp",
-      1
-   ],
-   [
-      "Craig Chasseur",
-      "BasicColumnStoreTupleStorageSubBlock.cpp",
-      8
-   ],
-   [
-      "Hakan Memisoglu",
-      "SubtractBinaryOperation.cpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "WorkOrdersContainer_unittest.cpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "QueryManager_unittest.cpp",
-      3
-   ],
-   [
-      "hbdeshmukh",
-      "UnaryOperationID.cpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "ExecutionGeneratorTestRunner.hpp",
-      8
-   ],
-   [
-      "hakanmemisoglu",
-      "UpdateOperator.hpp",
-      4
-   ],
-   [
-      "zuyuz",
-      "DeleteOperator.cpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "SelectOperator.hpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "Foreman_unittest.cpp",
-      1
-   ],
-   [
-      "Hakan Memisoglu",
-      "DecimalType_unittest.cpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "SortRunGenerationOperator_unittest.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "AggregationOperator_unittest.cpp",
-      12
-   ],
-   [
-      "hakanmemisoglu",
-      "HashJoinOperator_unittest.cpp",
-      3
-   ],
-   [
-      "Hakan Memisoglu",
-      "Type.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "Select.test",
-      2
-   ],
-   [
-      "Hakan Memisoglu",
-      "DivideBinaryOperation.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "InputParserUtil.cpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "Resolver.hpp",
-      6
-   ],
-   [
-      "hakanmemisoglu",
-      "DecimalType_unittest.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "SMAIndexSubBlock.hpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationOperator.cpp",
-      20
-   ],
-   [
-      "zuyuz",
-      "WorkOrder.proto",
-      9
-   ],
-   [
-      "Harshad Deshmukh",
-      "WorkOrder.proto",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "DropTableOperator.hpp",
-      20
-   ],
-   [
-      "Navneet Potti",
-      "CliConfig.h.in",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "SelectOperator.cpp",
-      3
-   ],
-   [
-      "shixuan-fan",
-      "PatternMatcher.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "Operation.proto",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "CSBTreeIndexSubBlock.cpp",
-      6
-   ],
-   [
-      "Harshad Deshmukh",
-      "TextScanOperator.hpp",
-      7
-   ],
-   [
-      "Navneet Potti",
-      "DestroyHashOperator.hpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "WorkerMessage.hpp",
-      1
-   ],
-   [
-      "navsan",
-      "HashJoinOperator_unittest.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "CycleDetector_unittest.cpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "UnaryOperationFactory.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "Aggregate.cpp",
-      12
-   ],
-   [
-      "hakanmemisoglu",
-      "Type.hpp",
-      2
-   ],
-   [
-      "jignesh",
-      "ExecutionGenerator.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "ExecutionGenerator.cpp",
-      9
-   ],
-   [
-      "Harshad Deshmukh",
-      "HashJoinOperator.cpp",
-      5
-   ],
-   [
-      "Harshad Deshmukh",
-      "SaveBlocksOperator.hpp",
-      6
-   ],
-   [
-      "Harshad Deshmukh",
-      "CreateIndexOperator.hpp",
-      8
-   ],
-   [
-      "Navneet Potti",
-      "DeleteOperator.hpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "SMAIndexSubBlock.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "FileManager.hpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "StorageBlock.hpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryContext.proto",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "TextScanOperator.cpp",
-      4
-   ],
-   [
-      "Zuyu Zhang",
-      "SaveBlocksOperator.cpp",
-      10
-   ],
-   [
-      "navsan",
-      "ExecutionGenerator.hpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "StronglyConnectedComponents_unittest.cpp",
-      6
-   ],
-   [
-      "navsan",
-      "QueryExecutionTypedefs.hpp",
-      2
-   ],
-   [
-      "navsan",
-      "SortMergeRunOperator.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "Foreman_unittest.cpp",
-      20
-   ],
-   [
-      "Jianqiao Zhu",
-      "CompressedColumnStoreValueAccessor.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleCount.cpp",
-      12
-   ],
-   [
-      "Jianqiao Zhu",
-      "ExecutionGenerator.cpp",
-      4
-   ],
-   [
-      "Navneet Potti",
-      "QuickstepCli.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "DecimalType.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "SortMergeRunOperator.hpp",
-      3
-   ],
-   [
-      "hakanmemisoglu",
-      "QueryHandle.hpp",
-      1
-   ],
-   [
-      "Hakan Memisoglu",
-      "TypeFactory.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "Worker.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
       "SampleOperator.cpp",
       1
    ],
    [
-      "Harshad Deshmukh",
-      "SortRunGenerationOperator_unittest.cpp",
-      3
-   ],
-   [
-      "navsan",
-      "PolicyEnforcer.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "ColumnVectorsValueAccessor.hpp",
-      3
-   ],
-   [
-      "shixuan-fan",
-      "LogicalType.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "DestroyHashOperator.hpp",
-      8
-   ],
-   [
-      "Jianqiao Zhu",
-      "WorkOrderFactory.cpp",
-      4
-   ],
-   [
-      "Zuyu Zhang",
-      "CreateIndexOperator.hpp",
-      20
-   ],
-   [
-      "hakanmemisoglu",
-      "SqlLexer_gen.hpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "Learner_unittest.cpp",
-      14
+      "hbdeshmukh",
+      "SortRunGenerationOperator.cpp",
+      5
    ],
    [
       "Navneet Potti",
-      "DropTableOperator.hpp",
-      2
-   ],
-   [
-      "Navneet Potti",
-      "FinalizeAggregationOperator.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "ValueAccessor.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "DeleteOperator.cpp",
-      20
-   ],
-   [
-      "Harshad Deshmukh",
-      "BuildHashOperator.cpp",
-      2
-   ],
-   [
-      "shixuan",
-      "SqlLexer.lpp",
-      10
-   ],
-   [
-      "hakanmemisoglu",
-      "SqlLexer_gen.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "FinalizeAggregationOperator.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationOperationState.proto",
-      11
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleAvg.cpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryManager_unittest.cpp",
-      10
-   ],
-   [
-      "jianqiao",
-      "QueryContext.cpp",
-      1
-   ],
-   [
-      "shixuan",
-      "WindowAggregateFunction.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "StarSchemaSimpleCostModel.cpp",
-      12
-   ],
-   [
-      "Navneet Potti",
-      "Foreman_unittest.cpp",
+      "DropTableOperator.cpp",
       2
    ],
    [
       "hbdeshmukh",
-      "UnaryOperationID.hpp",
+      "TransactionTable_unittest.cpp",
       3
    ],
    [
-      "Zuyu Zhang",
-      "RelationalOperator.hpp",
-      12
+      "shixuan-fan",
+      "Select.test",
+      5
    ],
    [
       "Zuyu Zhang",
@@ -2821,22 +3161,12 @@
    ],
    [
       "Zuyu Zhang",
-      "AggregationHandleMin.hpp",
-      12
-   ],
-   [
-      "jignesh",
-      "SortRunGenerationOperator.hpp",
-      1
+      "SelectOperator.hpp",
+      16
    ],
    [
       "hbdeshmukh",
-      "DeleteOperator.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "PolicyEnforcer.hpp",
+      "ExecutionGenerator.hpp",
       6
    ],
    [
@@ -2846,98 +3176,13 @@
    ],
    [
       "Harshad Deshmukh",
-      "UpdateOperator.hpp",
-      7
-   ],
-   [
-      "zuyuz",
-      "StorageBlock.hpp",
-      5
-   ],
-   [
-      "navsan",
-      "QueryContext.cpp",
-      2
+      "RebuildWorkOrder.hpp",
+      12
    ],
    [
       "Zuyu Zhang",
-      "SqlLexer_gen.hpp",
-      11
-   ],
-   [
-      "hakanmemisoglu",
-      "BasicComparison.hpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "WorkOrdersContainer_unittest.cpp",
-      4
-   ],
-   [
-      "hakanmemisoglu",
-      "RelationalOperator.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "AggregationOperator_unittest.cpp",
-      10
-   ],
-   [
-      "zuyuz",
-      "SelectOperator.hpp",
-      7
-   ],
-   [
-      "Zuyu Zhang",
-      "LockTable_unittest.cpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "Select.test",
-      11
-   ],
-   [
-      "hbdeshmukh",
-      "QueryManager_unittest.cpp",
-      6
-   ],
-   [
-      "jignesh",
-      "QueryContext.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "WorkOrdersContainer.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "WorkOrder.proto",
-      2
-   ],
-   [
-      "Hakan Memisoglu",
-      "TypedValue.cpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "QuickstepCli.cpp",
-      8
-   ],
-   [
-      "Jianqiao Zhu",
-      "CatalogRelationSchema.hpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "SortRunGenerationOperator.cpp",
-      3
+      "CreateTableOperator.hpp",
+      12
    ],
    [
       "Harshad Deshmukh",
@@ -2945,28 +3190,148 @@
       38
    ],
    [
-      "Zuyu Zhang",
-      "PrintToScreen.cpp",
-      23
+      "Harshad Deshmukh",
+      "AdmitRequestMessage.hpp",
+      16
    ],
    [
-      "jianqiao",
-      "Worker.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "NestedLoopsJoinOperator.hpp",
-      3
-   ],
-   [
-      "hakanmemisoglu",
-      "ArithmeticBinaryOperation.hpp",
+      "navsan",
+      "AggregationOperator_unittest.cpp",
       2
    ],
    [
-      "Jignesh Patel",
-      "WorkOrder.proto",
+      "Zuyu Zhang",
+      "QueryManager_unittest.cpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "BasicColumnStoreTupleStorageSubBlock.cpp",
+      6
+   ],
+   [
+      "zuyuz",
+      "TableGeneratorOperator.hpp",
+      18
+   ],
+   [
+      "Zuyu Zhang",
+      "NestedLoopsJoinOperator.hpp",
+      10
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryExecutionMessages.proto",
+      11
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationOperator.hpp",
+      3
+   ],
+   [
+      "Hakan Memisoglu",
+      "BasicComparison.cpp",
+      2
+   ],
+   [
+      "navsan",
+      "QueryExecutionTypedefs.hpp",
+      2
+   ],
+   [
+      "jignesh",
+      "PolicyEnforcer.cpp",
+      1
+   ],
+   [
+      "shixuan",
+      "SqlLexer_gen.hpp",
+      2
+   ],
+   [
+      "Hakan Memisoglu",
+      "NumericTypeUnifier.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "TypedValue.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleMin.cpp",
+      12
+   ],
+   [
+      "zuyuz",
+      "SplitRowStoreTupleStorageSubBlock.cpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "PolicyEnforcer.hpp",
+      1
+   ],
+   [
+      "jignesh",
+      "TableGeneratorOperator.hpp",
+      1
+   ],
+   [
+      "Craig Chasseur",
+      "BasicColumnStoreTupleStorageSubBlock.cpp",
+      8
+   ],
+   [
+      "hakanmemisoglu",
+      "WorkOrder.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "ExecutionGenerator.cpp",
+      9
+   ],
+   [
+      "Harshad Deshmukh",
+      "Learner.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "WorkOrderFactory.cpp",
+      9
+   ],
+   [
+      "Jianqiao Zhu",
+      "TableGeneratorOperator.hpp",
+      3
+   ],
+   [
+      "Jianqiao Zhu",
+      "HashTable.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "WindowAggregate.hpp",
+      6
+   ],
+   [
+      "jignesh",
+      "WorkerMessage.hpp",
+      1
+   ],
+   [
+      "jignesh",
+      "TextScanOperator_unittest.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "TypeID.cpp",
       2
    ],
    [
@@ -2975,13 +3340,733 @@
       4
    ],
    [
-      "Zuyu Zhang",
-      "LockManager.cpp",
+      "jianqiao",
+      "SortMergeRunOperator.hpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "BasicComparison.hpp",
+      2
+   ],
+   [
+      "navsan",
+      "WorkOrderFactory.cpp",
+      3
+   ],
+   [
+      "shixuan",
+      "SqlParser_gen.cpp",
+      1
+   ],
+   [
+      "Craig Chasseur",
+      "StorageBlockLayout.proto",
+      8
+   ],
+   [
+      "hakanmemisoglu",
+      "UpdateOperator.hpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "EventProfiler.cpp",
       6
+   ],
+   [
+      "Harshad Deshmukh",
+      "SortMergeRunOperator_unittest.cpp",
+      3
+   ],
+   [
+      "navsan",
+      "WorkOrder.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "TypedValue.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "ArithmeticUnaryOperations.cpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "ParsePriority.hpp",
+      9
+   ],
+   [
+      "hbdeshmukh",
+      "ExecutionGenerator.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "SampleOperator.cpp",
+      12
+   ],
+   [
+      "Navneet Potti",
+      "FinalizeAggregationOperator.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "ParseBasicExpressions.cpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "DropTableOperator.hpp",
+      20
+   ],
+   [
+      "zuyuz",
+      "TableGeneratorOperator.cpp",
+      18
+   ],
+   [
+      "hakanmemisoglu",
+      "ArithmeticBinaryOperators.hpp",
+      2
+   ],
+   [
+      "navsan",
+      "SortMergeRunOperator.cpp",
+      5
+   ],
+   [
+      "jignesh",
+      "QueryProcessor.cpp",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "InsertDestination.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "InputParserUtil.cpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "RelationalOperator.hpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "RebuildWorkOrder.hpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "WorkerMessage.hpp",
+      6
+   ],
+   [
+      "hakanmemisoglu",
+      "WorkOrder.proto",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "WorkOrdersContainer_unittest.cpp",
+      6
+   ],
+   [
+      "Harshad Deshmukh",
+      "DropTableOperator.cpp",
+      3
+   ],
+   [
+      "Navneet Potti",
+      "profile_build.sh",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "StarSchemaSimpleCostModel.cpp",
+      12
+   ],
+   [
+      "Hakan Memisoglu",
+      "MultiplyBinaryOperation.cpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "SampleOperator.hpp",
+      3
+   ],
+   [
+      "zuyuz",
+      "CompressedTupleStorageSubBlock.cpp",
+      5
+   ],
+   [
+      "shixuan-fan",
+      "Resolver.cpp",
+      7
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExecutionHeuristics.hpp",
+      3
+   ],
+   [
+      "hbdeshmukh",
+      "SelectOperator.cpp",
+      3
+   ],
+   [
+      "zuyuz",
+      "UnaryOperationID.cpp",
+      8
+   ],
+   [
+      "hakanmemisoglu",
+      "ExecutionGeneratorTestRunner.hpp",
+      1
+   ],
+   [
+      "navsan",
+      "QueryExecutionUtil.hpp",
+      2
+   ],
+   [
+      "shixuan-fan",
+      "WindowAggregateFunction.cpp",
+      5
+   ],
+   [
+      "Harshad Deshmukh",
+      "QuickstepCli.cpp",
+      35
+   ],
+   [
+      "jignesh",
+      "AggregationOperator_unittest.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "DefaultsConfigurator.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "QueryExecutionMessages.proto",
+      18
+   ],
+   [
+      "Zuyu Zhang",
+      "NestedLoopsJoinOperator.cpp",
+      10
    ],
    [
       "jianqiao",
       "HashJoinOperator.hpp",
+      1
+   ],
+   [
+      "shixuan",
+      "Resolver.cpp",
+      4
+   ],
+   [
+      "Harshad Deshmukh",
+      "WorkOrder.proto",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationOperator.hpp",
+      10
+   ],
+   [
+      "jianqiao",
+      "Worker.cpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "SortRunGenerationOperator.cpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "WorkOrder.hpp",
+      10
+   ],
+   [
+      "hbdeshmukh",
+      "TextScanOperator.cpp",
+      6
+   ],
+   [
+      "jignesh",
+      "SqlParser_gen.cpp",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "RelationalOperator.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "TableGeneratorOperator.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "CommandExecutor.cpp",
+      24
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryExecutionUtil.hpp",
+      1
+   ],
+   [
+      "Hakan Memisoglu",
+      "Type.proto",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "DecimalType_unittest.cpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryExecutionMessages.proto",
+      1
+   ],
+   [
+      "zuyuz",
+      "SaveBlocksOperator.hpp",
+      5
+   ],
+   [
+      "Navneet Potti",
+      "CliConfig.h.in",
+      1
+   ],
+   [
+      "zuyuz",
+      "SubstringOperation.hpp",
+      8
+   ],
+   [
+      "zuyuz",
+      "AggregationOperator_unittest.cpp",
+      12
+   ],
+   [
+      "hakanmemisoglu",
+      "DeleteOperator.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "SortMergeRunOperator_unittest.cpp",
+      10
+   ],
+   [
+      "Harshad Deshmukh",
+      "SortRunGenerationOperator_unittest.cpp",
+      3
+   ],
+   [
+      "hakanmemisoglu",
+      "SelectOperator.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "SqlLexer_gen.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "DeadLockDetector.cpp",
+      6
+   ],
+   [
+      "navsan",
+      "TextScanOperator.hpp",
+      3
+   ],
+   [
+      "jianqiao",
+      "TextScanOperator.proto",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "InsertOperator.hpp",
+      10
+   ],
+   [
+      "zuyuz",
+      "StronglyConnectedComponents_unittest.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "StarSchemaSimpleCostModel.hpp",
+      12
+   ],
+   [
+      "zuyuz",
+      "SubstringOperation.cpp",
+      8
+   ],
+   [
+      "hbdeshmukh",
+      "Resolver.cpp",
+      5
+   ],
+   [
+      "hbdeshmukh",
+      "SelectOperator.hpp",
+      3
+   ],
+   [
+      "navsan",
+      "UpdateOperator.cpp",
+      5
+   ],
+   [
+      "zuyuz",
+      "QueryContext.proto",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryManager_unittest.cpp",
+      13
+   ],
+   [
+      "Jianqiao Zhu",
+      "PackedRowStoreValueAccessor.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "CreateTableOperator.hpp",
+      10
+   ],
+   [
+      "Zuyu Zhang",
+      "BuildHashOperator.hpp",
+      20
+   ],
+   [
+      "zuyuz",
+      "UpdateOperator.hpp",
+      20
+   ],
+   [
+      "Jignesh Patel",
+      "TextScanOperator.hpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "SaveBlocksOperator.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "QueryExecutionTypedefs.hpp",
+      18
+   ],
+   [
+      "Zuyu Zhang",
+      "SampleOperator.cpp",
+      10
+   ],
+   [
+      "hakanmemisoglu",
+      "TextScanOperator.cpp",
+      3
+   ],
+   [
+      "hbdeshmukh",
+      "TestDatabaseLoader.cpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "Catalog.proto",
+      36
+   ],
+   [
+      "jignesh",
+      "DeleteOperator.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "UpdateOperator.hpp",
+      11
+   ],
+   [
+      "hbdeshmukh",
+      "SqlParser_gen.hpp",
+      8
+   ],
+   [
+      "Hakan Memisoglu",
+      "ArithmeticUnaryOperations.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationOperationState.proto",
+      11
+   ],
+   [
+      "Hakan Memisoglu",
+      "DecimalType_unittest.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleCount.cpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryExecutionUtil.hpp",
+      10
+   ],
+   [
+      "zuyuz",
+      "InsertDestination.cpp",
+      2
+   ],
+   [
+      "shixuan-fan",
+      "LogicalType.hpp",
+      1
+   ],
+   [
+      "jignesh",
+      "Select.test",
+      1
+   ],
+   [
+      "jignesh",
+      "UpdateOperator.cpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "ExecutionGeneratorTestRunner.cpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "CompressedPackedRowStoreValueAccessor.hpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "TextScanOperator_unittest.cpp",
+      3
+   ],
+   [
+      "navsan",
+      "SortMergeRunOperator_unittest.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "Lock_unittest.cpp",
+      6
+   ],
+   [
+      "navsan",
+      "ExecutionGenerator.hpp",
+      2
+   ],
+   [
+      "navsan",
+      "InsertDestination.hpp",
+      2
+   ],
+   [
+      "jignesh",
+      "SortRunGenerationOperator.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "PlanVisualizer.hpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "BuildHashOperator.hpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "SortMergeRunOperator.cpp",
+      2
+   ],
+   [
+      "Hakan Memisoglu",
+      "SubtractBinaryOperation.cpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "ExecutionGenerator.cpp",
+      13
+   ],
+   [
+      "hbdeshmukh",
+      "InsertDestination.hpp",
+      6
+   ],
+   [
+      "Zuyu Zhang",
+      "OptimizerTextTest.cpp",
+      12
+   ],
+   [
+      "jignesh",
+      "TextScanOperator.hpp",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "NestedLoopsJoinOperator.cpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "TextScanOperator.proto",
+      1
+   ],
+   [
+      "Navneet Potti",
+      "SaveBlocksOperator.cpp",
+      2
+   ],
+   [
+      "Navneet Potti",
+      "BuildHashOperator.cpp",
+      2
+   ],
+   [
+      "hakanmemisoglu",
+      "TextScanOperator.hpp",
+      3
+   ],
+   [
+      "Hakan Memisoglu",
+      "Type.hpp",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "UnaryOperation.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "PrintToScreen.cpp",
+      23
+   ],
+   [
+      "shixuan",
+      "SqlLexer_gen.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "SampleOperator.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "FileManagerPosix.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationOperationState.hpp",
+      23
+   ],
+   [
+      "jignesh",
+      "TableGeneratorOperator.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "AggregationOperator.hpp",
+      4
+   ],
+   [
+      "Zuyu Zhang",
+      "StorageBlockLayout.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "InsertDestination.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "BuildHashOperator.hpp",
+      10
+   ],
+   [
+      "Jianqiao Zhu",
+      "TextScanOperator.cpp",
+      4
+   ],
+   [
+      "Hakan Memisoglu",
+      "TypedValue.cpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "Learner.cpp",
+      14
+   ],
+   [
+      "Harshad Deshmukh",
+      "RelationalOperator.hpp",
+      3
+   ],
+   [
+      "hbdeshmukh",
+      "SortRunGenerationOperator.hpp",
+      5
+   ],
+   [
+      "Zuyu Zhang",
+      "AggregationHandleAvg_unittest.cpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "WorkOrdersContainer.hpp",
       1
    ],
    [
@@ -2991,713 +4076,43 @@
    ],
    [
       "Zuyu Zhang",
+      "StringUtil.cpp",
+      11
+   ],
+   [
+      "Zuyu Zhang",
+      "InsertOperator.hpp",
+      20
+   ],
+   [
+      "Zuyu Zhang",
+      "CatalogRelationStatistics.cpp",
+      12
+   ],
+   [
+      "hbdeshmukh",
+      "SqlLexer_gen.hpp",
+      5
+   ],
+   [
+      "hakanmemisoglu",
+      "SortMergeRunOperator.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "HashJoinOperator.hpp",
+      20
+   ],
+   [
+      "Zuyu Zhang",
       "HashTable.hpp",
       11
    ],
    [
-      "navsan",
+      "hbdeshmukh",
       "Worker.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "PolicyEnforcer.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "InsertDestination.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "DeleteOperator.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "Foreman_unittest.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "profile_build.sh",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "CatalogRelation.hpp",
-      29
-   ],
-   [
-      "Navneet Potti",
-      "SelectOperator.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "ParseIndexProperties.hpp",
       6
-   ],
-   [
-      "Harshad Deshmukh",
-      "DeleteOperator.cpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleSum.cpp",
-      12
-   ],
-   [
-      "jignesh",
-      "SortRunGenerationOperator_unittest.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "TypedValue.hpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "SampleOperator.cpp",
-      5
-   ],
-   [
-      "jianqiao",
-      "PolicyEnforcer.cpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "TextScanOperator.proto",
-      1
-   ],
-   [
-      "navsan",
-      "UpdateOperator.cpp",
-      5
-   ],
-   [
-      "zuyuz",
-      "WorkOrdersContainer.hpp",
-      2
-   ],
-   [
-      "Navneet Potti",
-      "DropTableOperator.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "Worker.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "TupleStorageSubBlock.hpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "HashJoinOperator.cpp",
-      36
-   ],
-   [
-      "Harshad Deshmukh",
-      "ExecutionGenerator.cpp",
-      13
-   ],
-   [
-      "navsan",
-      "TextScanOperator.cpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "SortMergeRunOperator.hpp",
-      18
-   ],
-   [
-      "Jianqiao Zhu",
-      "ExecutionHeuristics.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "DestroyHashOperator.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "NestedLoopsJoinOperator.hpp",
-      12
-   ],
-   [
-      "shixuan",
-      "SqlParser_gen.hpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "CompressedColumnStoreTupleStorageSubBlock.cpp",
-      4
-   ],
-   [
-      "hbdeshmukh",
-      "UnaryOperation.cpp",
-      3
-   ],
-   [
-      "shixuan",
-      "SqlLexer_gen.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "QueryProcessor.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "ExecutionHeuristics.cpp",
-      11
-   ],
-   [
-      "hakanmemisoglu",
-      "WorkOrderFactory.cpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "CompressedPackedRowStoreTupleStorageSubBlock.cpp",
-      4
-   ],
-   [
-      "Navneet Potti",
-      "AggregationOperator.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "ParseBasicExpressions.cpp",
-      11
-   ],
-   [
-      "Navneet Potti",
-      "RelationalOperator.hpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "TextScanOperator.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "WindowAggregateFunction.hpp",
-      6
-   ],
-   [
-      "hakanmemisoglu",
-      "SelectOperator.cpp",
-      1
-   ],
-   [
-      "jignesh",
-      "HashJoinOperator.hpp",
-      1
-   ],
-   [
-      "Navneet Potti",
-      "HashJoinOperator.hpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "HashJoinOperator.hpp",
-      2
-   ],
-   [
-      "shixuan",
-      "ParseBasicExpressions.hpp",
-      10
-   ],
-   [
-      "hakanmemisoglu",
-      "SqlParser_gen.cpp",
-      5
-   ],
-   [
-      "hbdeshmukh",
-      "TableGeneratorOperator.hpp",
-      9
-   ],
-   [
-      "hakanmemisoglu",
-      "TypedValue.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "WorkOrder.hpp",
-      10
-   ],
-   [
-      "Harshad Deshmukh",
-      "TextScanOperator_unittest.cpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "TableGeneratorOperator.hpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "WorkOrder.hpp",
-      7
-   ],
-   [
-      "Zuyu Zhang",
-      "CompressedColumnStoreTupleStorageSubBlock.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleDistinct.hpp",
-      12
-   ],
-   [
-      "Jianqiao Zhu",
-      "SelectOperator.hpp",
-      3
-   ],
-   [
-      "navsan",
-      "QueryExecutionMessages.proto",
-      2
-   ],
-   [
-      "zuyuz",
-      "SortMergeRunOperator_unittest.cpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryExecutionTypedefs.hpp",
-      18
-   ],
-   [
-      "Harshad Deshmukh",
-      "PolicyEnforcer.hpp",
-      19
-   ],
-   [
-      "hakanmemisoglu",
-      "NumericSuperType.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "iwyu_helper.py",
-      16
-   ],
-   [
-      "hbdeshmukh",
-      "DeleteOperator.cpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "CompressionDictionaryLite.hpp",
-      3
-   ],
-   [
-      "hakanmemisoglu",
-      "TypeFactory.cpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "WorkOrdersContainer.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleSum_unittest.cpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "PreloaderThread.cpp",
-      17
-   ],
-   [
-      "jignesh",
-      "PolicyEnforcer.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "SimpleScalarSeparateChainingHashTable.hpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "ExecutionGenerator.hpp",
-      11
-   ],
-   [
-      "Zuyu Zhang",
-      "DestroyHashOperator.cpp",
-      20
-   ],
-   [
-      "Jianqiao Zhu",
-      "CatalogRelationSchema.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "InsertOperator.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "OneToOne.cpp",
-      6
-   ],
-   [
-      "jianqiao",
-      "SqlLexer_gen.cpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "DestroyHashOperator.hpp",
-      3
-   ],
-   [
-      "navsan",
-      "WorkOrder.hpp",
-      2
-   ],
-   [
-      "Navneet Potti",
-      "SaveBlocksOperator.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "LogicalType.hpp",
-      6
-   ],
-   [
-      "shixuan",
-      "SqlParser.ypp",
-      11
-   ],
-   [
-      "hakanmemisoglu",
-      "TextScanOperator_unittest.cpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "CSBTreeIndexSubBlock.hpp",
-      5
-   ],
-   [
-      "shixuan",
-      "SqlParser_gen.cpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "WorkOrder.proto",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "BuildHashOperator.hpp",
-      5
-   ],
-   [
-      "navsan",
-      "WorkOrdersContainer.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "TextScanOperator.cpp",
-      4
-   ],
-   [
-      "jignesh",
-      "WorkOrder.proto",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "SelectOperator.cpp",
-      18
-   ],
-   [
-      "hakanmemisoglu",
-      "TableGeneratorOperator.cpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "PackedRowStoreValueAccessor.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "SortMergeRunOperator.cpp",
-      8
-   ],
-   [
-      "Harshad Deshmukh",
-      "TableGeneratorOperator.hpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "CliConfig.h.in",
-      8
-   ],
-   [
-      "hakanmemisoglu",
-      "TypeID.cpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "QueryHandle.hpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "TransactionTable_unittest.cpp",
-      6
-   ],
-   [
-      "hakanmemisoglu",
-      "NestedLoopsJoinOperator.hpp",
-      1
-   ],
-   [
-      "navsan",
-      "SortRunGenerationOperator_unittest.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "ExecutionGenerator.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "PackedRowStoreTupleStorageSubBlock.cpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "SplitRowStoreTupleStorageSubBlock.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "ArithmeticBinaryOperators.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "AggregationOperator.hpp",
-      4
-   ],
-   [
-      "Harshad Deshmukh",
-      "SortMergeRunOperator.cpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "NestedLoopsJoinOperator.hpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "TextScanOperator_unittest.cpp",
-      9
-   ],
-   [
-      "Zuyu Zhang",
-      "CatalogRelationStatistics.hpp",
-      12
-   ],
-   [
-      "hakanmemisoglu",
-      "ExecutionGeneratorTestRunner.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "QueryExecutionMessages.proto",
-      1
-   ],
-   [
-      "jignesh",
-      "ExecutionGeneratorTestRunner.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "SplitRowStoreTupleStorageSubBlock.cpp",
-      5
-   ],
-   [
-      "navsan",
-      "QueryContext.proto",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "PolicyEnforcer.cpp",
-      5
-   ],
-   [
-      "navsan",
-      "Worker.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "TableGeneratorOperator.cpp",
-      5
-   ],
-   [
-      "Jianqiao Zhu",
-      "WorkOrder.proto",
-      4
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationHandleMax.cpp",
-      12
-   ],
-   [
-      "jianqiao",
-      "WorkOrderFactory.cpp",
-      1
-   ],
-   [
-      "jignesh",
-      "DeleteOperator.hpp",
-      1
-   ],
-   [
-      "shixuan",
-      "Resolver.cpp",
-      4
-   ],
-   [
-      "jianqiao",
-      "TableGeneratorOperator.cpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "SortRunGenerationOperator_unittest.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "ColumnStoreUtil.hpp",
-      1
-   ],
-   [
-      "navsan",
-      "UpdateOperator.hpp",
-      5
-   ],
-   [
-      "Zuyu Zhang",
-      "SqlParser.ypp",
-      11
-   ],
-   [
-      "Zuyu Zhang",
-      "DeadLockDetector.cpp",
-      6
-   ],
-   [
-      "Hakan Memisoglu",
-      "NumericTypeUnifier.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "CreateIndexOperator.hpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "DeadLockDetector.hpp",
-      6
-   ],
-   [
-      "zuyuz",
-      "SaveBlocksOperator.hpp",
-      5
-   ],
-   [
-      "Navneet Potti",
-      "CreateIndexOperator.hpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "SortMergeRunOperator.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "ParseBasicExpressions.hpp",
-      11
-   ],
-   [
-      "Zuyu Zhang",
-      "Catalog.proto",
-      36
-   ],
-   [
-      "Zuyu Zhang",
-      "WorkOrder.proto",
-      4
-   ],
-   [
-      "Jianqiao Zhu",
-      "SortRunGenerationOperator.hpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "Foreman_unittest.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "SelectOperator.hpp",
-      10
-   ],
-   [
-      "Jianqiao Zhu",
-      "CatalogRelation.cpp",
-      2
    ],
    [
       "Jianqiao Zhu",
@@ -3705,43 +4120,68 @@
       3
    ],
    [
-      "navsan",
-      "TextScanOperator_unittest.cpp",
-      2
+      "Harshad Deshmukh",
+      "CatalogTypedefs.hpp",
+      10
    ],
    [
-      "hbdeshmukh",
-      "SubstringOperation.cpp",
-      3
+      "Navneet Potti",
+      "profile_build.sh",
+      5
+   ],
+   [
+      "zuyuz",
+      "SampleOperator.cpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "TestDatabaseLoader.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "QueryProcessor.cpp",
+      1
+   ],
+   [
+      "shixuan",
+      "SqlParser.ypp",
+      11
    ],
    [
       "Zuyu Zhang",
-      "DirectedGraph_unittest.cpp",
+      "ExpressionType.hpp",
       6
    ],
    [
-      "hbdeshmukh",
-      "SampleOperator.hpp",
+      "Zuyu Zhang",
+      "TextScanOperator_unittest.cpp",
+      9
+   ],
+   [
+      "hakanmemisoglu",
+      "WorkOrderFactory.cpp",
       3
    ],
    [
       "Zuyu Zhang",
-      "QueryContext.hpp",
-      23
-   ],
-   [
-      "Zuyu Zhang",
-      "WorkOrderProtosContainer.hpp",
+      "ColumnStoreUtil.cpp",
       4
    ],
    [
-      "Zuyu Zhang",
-      "FileManagerHdfs.cpp",
-      12
+      "Harshad Deshmukh",
+      "HashJoinOperator.hpp",
+      11
    ],
    [
-      "navsan",
-      "TextScanOperator.hpp",
+      "zuyuz",
+      "SortRunGenerationOperator.cpp",
+      18
+   ],
+   [
+      "Jianqiao Zhu",
+      "ValueAccessor.hpp",
       3
    ],
    [
@@ -3750,269 +4190,154 @@
       2
    ],
    [
-      "navsan",
-      "SortRunGenerationOperator.cpp",
-      3
-   ],
-   [
-      "zuyuz",
-      "SaveBlocksOperator.cpp",
-      5
-   ],
-   [
-      "jianqiao",
-      "PolicyEnforcer.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "SortMergeRunOperator_unittest.cpp",
-      10
-   ],
-   [
-      "Zuyu Zhang",
-      "AccessMode_unittest.cpp",
-      6
-   ],
-   [
-      "hakanmemisoglu",
-      "QueryManager.hpp",
+      "shixuan",
+      "WindowAggregateFunction.cpp",
       1
    ],
    [
       "Zuyu Zhang",
-      "NestedLoopsJoinOperator.hpp",
-      10
-   ],
-   [
-      "jianqiao",
-      "TableGeneratorOperator.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "QueryManager.hpp",
-      2
-   ],
-   [
-      "jignesh",
-      "Worker.cpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "TextScanOperator.hpp",
-      6
-   ],
-   [
-      "zuyuz",
-      "HashJoinOperator_unittest.cpp",
-      12
-   ],
-   [
-      "navsan",
-      "SortRunGenerationOperator.hpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "DeleteOperator.hpp",
-      3
-   ],
-   [
-      "Zuyu Zhang",
-      "validate_cmakelists.py",
-      16
-   ],
-   [
-      "Zuyu Zhang",
-      "Select.test",
-      23
-   ],
-   [
-      "navsan",
-      "RebuildWorkOrder.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "UpdateOperator.hpp",
-      11
-   ],
-   [
-      "Navneet Potti",
-      "SampleOperator.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "InsertDestination.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "Transaction.cpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "ExecutionHeuristics.hpp",
-      3
+      "BlockLocator.cpp",
+      18
    ],
    [
       "shixuan",
       "Select.test",
-      1
-   ],
-   [
-      "jianqiao",
-      "QueryContext.proto",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "CycleDetector.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "DropTableOperator.hpp",
-      4
-   ],
-   [
-      "hakanmemisoglu",
-      "WorkOrder.proto",
       2
    ],
    [
-      "Zuyu Zhang",
-      "FinalizeAggregationOperator.hpp",
-      20
-   ],
-   [
-      "Zuyu Zhang",
-      "StorageConstants.hpp",
-      11
-   ],
-   [
-      "jianqiao",
-      "TextScanOperator.proto",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "NestedLoopsJoinOperator.cpp",
-      20
-   ],
-   [
-      "Zuyu Zhang",
-      "CommandExecutor.cpp",
-      36
-   ],
-   [
       "Hakan Memisoglu",
-      "SqlParser.ypp",
-      4
-   ],
-   [
-      "hbdeshmukh",
-      "ExecutionGeneratorTestRunner.cpp",
-      6
+      "NumericSuperType.hpp",
+      2
    ],
    [
       "hakanmemisoglu",
-      "DeleteOperator.cpp",
+      "AggregationOperator_unittest.cpp",
+      3
+   ],
+   [
+      "Hakan Memisoglu",
+      "ModuloBinaryOperation.cpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "Select.test",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "Resolver.cpp",
+      6
+   ],
+   [
+      "navsan",
+      "SelectOperator.cpp",
+      1
+   ],
+   [
+      "hakanmemisoglu",
+      "SortMergeRunOperator_unittest.cpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "FinalizeAggregationOperator.cpp",
+      10
+   ],
+   [
+      "Hakan Memisoglu",
+      "LiteralComparators.hpp",
+      3
+   ],
+   [
+      "Zuyu Zhang",
+      "FileManagerWindows.cpp",
+      12
+   ],
+   [
+      "Navneet Potti",
+      "NestedLoopsJoinOperator.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "SortRunGenerationOperator.hpp",
       1
    ],
    [
       "navsan",
-      "HashJoinOperator.hpp",
+      "Worker.hpp",
       2
    ],
    [
-      "Zuyu Zhang",
-      "TextScanOperator.cpp",
+      "zuyuz",
+      "QueryExecutionTypedefs.hpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "SqlParser.ypp",
       9
    ],
    [
-      "Jignesh Patel",
-      "TextScanOperator.cpp",
+      "Harshad Deshmukh",
+      "HashJoinOperator_unittest.cpp",
+      6
+   ],
+   [
+      "Hakan Memisoglu",
+      "DivideBinaryOperation.cpp",
+      2
+   ],
+   [
+      "Hakan Memisoglu",
+      "TypeFactory.cpp",
       2
    ],
    [
       "Navneet Potti",
-      "PackedRowStoreTupleStorageSubBlock.hpp",
-      2
+      "QuickstepCli.cpp",
+      8
    ],
    [
-      "Zuyu Zhang",
-      "PackedRowStoreTupleStorageSubBlock.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "SelectOperator.cpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationOperator.hpp",
-      5
-   ],
-   [
-      "jignesh",
-      "TextScanOperator.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "Worker.hpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
+      "jianqiao",
       "WorkOrder.hpp",
       1
    ],
    [
-      "Harshad Deshmukh",
-      "SqlLexer.lpp",
-      9
-   ],
-   [
-      "jignesh",
-      "QueryExecutionMessages.proto",
-      1
-   ],
-   [
-      "navsan",
-      "SelectOperator.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "QueryExecutionTypedefs.hpp",
-      1
-   ],
-   [
       "Zuyu Zhang",
-      "QuickstepCli.cpp",
-      52
-   ],
-   [
-      "jianqiao",
-      "AggregationOperator_unittest.cpp",
-      1
-   ],
-   [
-      "Hakan Memisoglu",
-      "NumericCastOperation.hpp",
-      4
+      "CompressedPackedRowStoreTupleStorageSubBlock.cpp",
+      2
    ],
    [
       "zuyuz",
-      "Worker.cpp",
+      "SMAIndexSubBlock.cpp",
       2
+   ],
+   [
+      "shixuan",
+      "ParseBasicExpressions.cpp",
+      9
+   ],
+   [
+      "hakanmemisoglu",
+      "NestedLoopsJoinOperator.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "InsertOperator.cpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "CreateIndexOperator.hpp",
+      8
+   ],
+   [
+      "Jianqiao Zhu",
+      "SplitRowStoreValueAccessor.hpp",
+      3
    ],
    [
       "Zuyu Zhang",
@@ -4020,93 +4345,43 @@
       12
    ],
    [
-      "jianqiao",
-      "SortRunGenerationOperator.hpp",
-      1
+      "zuyuz",
+      "UnaryOperationFactory.cpp",
+      8
    ],
    [
-      "Zuyu Zhang",
-      "StronglyConnectedComponents.cpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "WindowAggregate.hpp",
-      6
-   ],
-   [
-      "Harshad Deshmukh",
-      "SortRunGenerationOperator.hpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "CreateTableOperator.hpp",
-      12
-   ],
-   [
-      "jianqiao",
-      "TextScanOperator.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "SampleOperator.cpp",
-      10
-   ],
-   [
-      "hakanmemisoglu",
-      "DeleteOperator.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "SampleOperator.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "StringUtil.cpp",
-      11
-   ],
-   [
-      "Jignesh Patel",
-      "WorkOrderFactory.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "WorkOrderFactory.cpp",
-      9
-   ],
-   [
-      "Navneet Potti",
-      "CliConfig.h.in",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "BlockLocator.hpp",
-      18
-   ],
-   [
-      "hakanmemisoglu",
-      "WorkOrder.hpp",
-      2
-   ],
-   [
-      "Navneet Potti",
-      "SampleOperator.hpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "SelectOperator.hpp",
+      "Jianqiao Zhu",
+      "NestedLoopsJoinOperator.hpp",
       3
    ],
    [
+      "Jianqiao Zhu",
+      "FinalizeAggregationOperator.hpp",
+      3
+   ],
+   [
+      "jianqiao",
+      "SqlLexer_gen.cpp",
+      3
+   ],
+   [
+      "Hakan Memisoglu",
+      "DecimalLit.hpp",
+      14
+   ],
+   [
+      "Jignesh Patel",
+      "TextScanOperator.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "DestroyHashOperator.hpp",
+      20
+   ],
+   [
       "jignesh",
-      "WorkOrderFactory.cpp",
+      "Worker.hpp",
       1
    ],
    [
@@ -4115,279 +4390,14 @@
       2
    ],
    [
-      "hakanmemisoglu",
-      "QueryExecutionTypedefs.hpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "PolicyEnforcer.hpp",
-      1
-   ],
-   [
-      "Navneet Potti",
-      "QueryManager_unittest.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "AggregationOperator_unittest.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "NestedLoopsJoinOperator.cpp",
-      10
-   ],
-   [
-      "shixuan-fan",
-      "OneToOne.cpp",
-      1
-   ],
-   [
-      "hakanmemisoglu",
-      "AddBinaryOperation.cpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "SubstringOperation.hpp",
-      8
-   ],
-   [
-      "Hakan Memisoglu",
-      "ArithmeticBinaryOperation.hpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "HashJoinOperator.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "UnaryOperationID.cpp",
-      8
-   ],
-   [
-      "hakanmemisoglu",
-      "NumericTypeUnifier.hpp",
-      2
-   ],
-   [
-      "hakanmemisoglu",
-      "InsertDestination.cpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "FileManagerPosix.hpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "DefaultsConfigurator.hpp",
-      6
-   ],
-   [
-      "Zuyu Zhang",
-      "SelectOperator.cpp",
-      10
-   ],
-   [
-      "zuyuz",
-      "TextScanOperator.proto",
-      4
-   ],
-   [
-      "Zuyu Zhang",
-      "SMAIndexSubBlock.cpp",
-      25
-   ],
-   [
-      "Zuyu Zhang",
-      "QuickstepCli.cpp",
-      8
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationOperationState.cpp",
-      23
-   ],
-   [
-      "Zuyu Zhang",
-      "AggregationOperator.hpp",
-      10
-   ],
-   [
-      "hakanmemisoglu",
-      "ExecutionGenerator.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "SampleOperator.hpp",
-      6
-   ],
-   [
-      "hakanmemisoglu",
-      "WorkOrdersContainer_unittest.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "StorageBlockLayout.cpp",
-      5
-   ],
-   [
       "Jignesh Patel",
-      "ExecutionGenerator.cpp",
+      "WorkOrderFactory.cpp",
       2
-   ],
-   [
-      "jignesh",
-      "TextScanOperator_unittest.cpp",
-      1
    ],
    [
       "zuyuz",
-      "PolicyEnforcer.cpp",
-      2
-   ],
-   [
-      "Hakan Memisoglu",
-      "DecimalLit.hpp",
-      14
-   ],
-   [
-      "hakanmemisoglu",
-      "SaveBlocksOperator.cpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "SortRunGenerationOperator.hpp",
+      "StorageBlock.cpp",
       5
-   ],
-   [
-      "Zuyu Zhang",
-      "PreloaderThread.hpp",
-      17
-   ],
-   [
-      "navsan",
-      "SortMergeRunOperator_unittest.cpp",
-      2
-   ],
-   [
-      "Shixuan Fan",
-      "Resolver.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "DataExchange_unittest.cpp",
-      16
-   ],
-   [
-      "jignesh",
-      "WorkOrdersContainer_unittest.cpp",
-      1
-   ],
-   [
-      "Craig Chasseur",
-      "BasicColumnStoreTupleStorageSubBlock_unittest.cpp",
-      8
-   ],
-   [
-      "hakanmemisoglu",
-      "Type.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "AdmitRequestMessage.hpp",
-      16
-   ],
-   [
-      "zuyuz",
-      "QueryManager_unittest.cpp",
-      2
-   ],
-   [
-      "jignesh",
-      "UpdateOperator.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "PatternMatcher.hpp",
-      12
-   ],
-   [
-      "navsan",
-      "WorkerMessage.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "TransactionTable_unittest.cpp",
-      3
-   ],
-   [
-      "Harshad Deshmukh",
-      "ParsePriority.hpp",
-      9
-   ],
-   [
-      "Zuyu Zhang",
-      "ExecutionHeuristics_unittest.cpp",
-      27
-   ],
-   [
-      "Zuyu Zhang",
-      "HashJoinOperator.hpp",
-      20
-   ],
-   [
-      "jianqiao",
-      "ExecutionGeneratorTestRunner.cpp",
-      1
-   ],
-   [
-      "Hakan Memisoglu",
-      "Type.proto",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "DataExchangerAsync.cpp",
-      16
-   ],
-   [
-      "Navneet Potti",
-      "DeleteOperator.cpp",
-      2
-   ],
-   [
-      "Hakan Memisoglu",
-      "TypeID.cpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "SampleOperator.cpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "ExecutionGeneratorTestRunner.cpp",
-      9
-   ],
-   [
-      "navsan",
-      "QueryExecutionUtil.hpp",
-      2
    ],
    [
       "jignesh",
@@ -4396,22 +4406,12 @@
    ],
    [
       "Harshad Deshmukh",
-      "Foreman.hpp",
-      25
+      "DropTableOperator.hpp",
+      8
    ],
    [
-      "hakanmemisoglu",
-      "SaveBlocksOperator.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "UpdateOperator.cpp",
-      11
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryExecutionUtil.hpp",
-      10
+      "Navneet Potti",
+      "WorkOrderProtosContainer.hpp",
+      2
    ]
 ]

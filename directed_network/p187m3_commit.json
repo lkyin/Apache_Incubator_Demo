@@ -1,17 +1,37 @@
 [
    [
       "julien",
-      "ParquetFileReader.java",
-      1
-   ],
-   [
-      "julien",
       "RecordReaderImplementation.java",
       1
    ],
    [
       "julien",
-      "MessageColumnIO.java",
+      "SerializationUtil.java",
+      1
+   ],
+   [
+      "julien",
+      "TestSerializationUtil.java",
+      1
+   ],
+   [
+      "julien",
+      "LongStatistics.java",
+      1
+   ],
+   [
+      "julien",
+      "TestStatisticsFilter.java",
+      1
+   ],
+   [
+      "julien",
+      "Generator.java",
+      2
+   ],
+   [
+      "julien",
+      "ThriftParquetReader.java",
       1
    ],
    [
@@ -21,58 +41,13 @@
    ],
    [
       "julien",
-      "Dsl.scala",
+      "FilterPredicate.java",
       1
    ],
    [
       "julien",
-      "FilteredRecordReader.java",
-      1
-   ],
-   [
-      "julien",
-      "TupleRecordMaterializer.java",
-      1
-   ],
-   [
-      "julien",
-      "TestParquetLoader.java",
-      1
-   ],
-   [
-      "julien",
-      "TupleConverter.java",
-      1
-   ],
-   [
-      "julien",
-      "DumpCommand.java",
-      1
-   ],
-   [
-      "julien",
-      "TestSchemaCompatibilityValidator.java",
-      1
-   ],
-   [
-      "julien",
-      "ParquetLoader.java",
-      1
-   ],
-   [
-      "julien",
-      "AvroParquetReader.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ShowSchemaCommand.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "parquet.thrift",
-      1
+      "Statistics.java",
+      2
    ],
    [
       "Tianshuo Deng",
@@ -81,22 +56,17 @@
    ],
    [
       "julien",
-      "Closeables.java",
+      "BooleanStatistics.java",
       1
    ],
    [
       "julien",
-      "TestIncrementallyUpdatedFilterPredicateResetter.java",
+      "TestInputFormat.java",
       1
    ],
    [
       "julien",
-      "ThriftRecordConverter.java",
-      1
-   ],
-   [
-      "julien",
-      "PigSchemaConverter.java",
+      "TupleReadSupport.java",
       1
    ],
    [
@@ -106,7 +76,207 @@
    ],
    [
       "julien",
-      "ParquetRecordReaderWrapper.java",
+      "ThriftRecordConverter.java",
+      1
+   ],
+   [
+      "julien",
+      "FloatStatistics.java",
+      1
+   ],
+   [
+      "julien",
+      "TestValidTypeMap.java",
+      1
+   ],
+   [
+      "julien",
+      "ParquetInputFormat.java",
+      1
+   ],
+   [
+      "julien",
+      "RecordReader.java",
+      1
+   ],
+   [
+      "julien",
+      "TupleRecordMaterializer.java",
+      1
+   ],
+   [
+      "julien",
+      "SchemaCompatibilityValidator.java",
+      1
+   ],
+   [
+      "julien",
+      "IncrementallyUpdatedFilterPredicateBuilderBase.java",
+      1
+   ],
+   [
+      "julien",
+      "ColumnChunkMetaData.java",
+      1
+   ],
+   [
+      "Tom White",
+      "ParquetInputFormat.java",
+      1
+   ],
+   [
+      "julien",
+      "TestColumnChunkMetaData.java",
+      1
+   ],
+   [
+      "julien",
+      "ParquetMetadataConverter.java",
+      1
+   ],
+   [
+      "julien",
+      "ParquetLoader.java",
+      1
+   ],
+   [
+      "julien",
+      "LogicalInverter.java",
+      1
+   ],
+   [
+      "julien",
+      "Binary.java",
+      1
+   ],
+   [
+      "julien",
+      "ParquetWriter.java",
+      1
+   ],
+   [
+      "julien",
+      "RecordMaterializer.java",
+      1
+   ],
+   [
+      "julien",
+      "TestLogicalInverseRewriter.java",
+      1
+   ],
+   [
+      "julien",
+      "IncrementallyUpdatedFilterPredicate.java",
+      1
+   ],
+   [
+      "julien",
+      "FilteringGroupConverter.java",
+      1
+   ],
+   [
+      "julien",
+      "FilterCompat.java",
+      1
+   ],
+   [
+      "julien",
+      "TestRowGroupFilter.java",
+      1
+   ],
+   [
+      "julien",
+      "Operators.java",
+      1
+   ],
+   [
+      "julien",
+      "DummyUdp.java",
+      1
+   ],
+   [
+      "julien",
+      "AvroParquetReader.java",
+      1
+   ],
+   [
+      "julien",
+      "ColumnPath.java",
+      2
+   ],
+   [
+      "julien",
+      "IncrementallyUpdatedFilterPredicateEvaluator.java",
+      1
+   ],
+   [
+      "julien",
+      "TestLogicalInverter.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ShowSchemaCommand.java",
+      1
+   ],
+   [
+      "julien",
+      "MessageColumnIO.java",
+      1
+   ],
+   [
+      "julien",
+      "IncrementallyUpdatedFilterPredicateResetter.java",
+      1
+   ],
+   [
+      "julien",
+      "LogicalInverseRewriter.java",
+      1
+   ],
+   [
+      "julien",
+      "TestFilterApiMethods.java",
+      1
+   ],
+   [
+      "julien",
+      "DeprecatedParquetInputFormat.java",
+      1
+   ],
+   [
+      "julien",
+      "Canonicalizer.java",
+      2
+   ],
+   [
+      "julien",
+      "FilteringPrimitiveConverter.java",
+      1
+   ],
+   [
+      "julien",
+      "ParquetReader.java",
+      1
+   ],
+   [
+      "julien",
+      "Closeables.java",
+      1
+   ],
+   [
+      "julien",
+      "FilteringRecordMaterializer.java",
+      1
+   ],
+   [
+      "julien",
+      "StatisticsFilter.java",
+      1
+   ],
+   [
+      "julien",
+      "TestRecordLevelFilters.java",
       1
    ],
    [
@@ -120,63 +290,23 @@
       1
    ],
    [
-      "julien",
-      "TestSerializationUtil.java",
+      "Ryan Blue",
+      "parquet.thrift",
       1
    ],
    [
       "julien",
-      "ParquetRecordReader.java",
+      "TestPigSchemaConverter.java",
       1
    ],
    [
       "julien",
-      "DummyUdp.java",
+      "IntStatistics.java",
       1
    ],
    [
       "julien",
-      "FloatStatistics.java",
-      1
-   ],
-   [
-      "julien",
-      "ThriftParquetReader.java",
-      1
-   ],
-   [
-      "julien",
-      "Binary.java",
-      1
-   ],
-   [
-      "julien",
-      "SerializationUtil.java",
-      1
-   ],
-   [
-      "julien",
-      "ParquetFileWriter.java",
-      1
-   ],
-   [
-      "julien",
-      "Canonicalizer.java",
-      2
-   ],
-   [
-      "Brock Noland",
-      "GroupValueSource.java",
-      1
-   ],
-   [
-      "julien",
-      "TestLogicalInverter.java",
-      1
-   ],
-   [
-      "julien",
-      "InternalParquetRecordReader.java",
+      "TestSchemaCompatibilityValidator.java",
       1
    ],
    [
@@ -191,72 +321,12 @@
    ],
    [
       "julien",
-      "Operators.java",
+      "EncodingList.java",
       1
    ],
    [
       "julien",
-      "IncrementallyUpdatedFilterPredicateBuilderBase.java",
-      1
-   ],
-   [
-      "julien",
-      "TestFilterApiMethods.java",
-      1
-   ],
-   [
-      "julien",
-      "FilterPredicate.java",
-      1
-   ],
-   [
-      "julien",
-      "StatisticsFilter.java",
-      1
-   ],
-   [
-      "julien",
-      "TestRowGroupFilter.java",
-      1
-   ],
-   [
-      "julien",
-      "TestIncrementallyUpdatedFilterPredicateEvaluator.java",
-      1
-   ],
-   [
-      "julien",
-      "Statistics.java",
-      2
-   ],
-   [
-      "julien",
-      "IntStatistics.java",
-      1
-   ],
-   [
-      "julien",
-      "TestStatisticsFilter.java",
-      1
-   ],
-   [
-      "julien",
-      "merge_parquet_pr.py",
-      2
-   ],
-   [
-      "julien",
-      "ParquetWriter.java",
-      1
-   ],
-   [
-      "julien",
-      "FilteringPrimitiveConverter.java",
-      1
-   ],
-   [
-      "julien",
-      "LongStatistics.java",
+      "ParquetRecordReaderWrapper.java",
       1
    ],
    [
@@ -266,107 +336,17 @@
    ],
    [
       "julien",
-      "IncrementallyUpdatedFilterPredicate.java",
+      "InternalParquetRecordReader.java",
       1
    ],
    [
       "julien",
-      "TestColumnChunkMetaData.java",
-      1
-   ],
-   [
-      "julien",
-      "FilterCompat.java",
-      1
-   ],
-   [
-      "julien",
-      "RowGroupFilter.java",
-      1
-   ],
-   [
-      "julien",
-      "LogicalInverter.java",
-      1
-   ],
-   [
-      "julien",
-      "EncodingList.java",
-      1
-   ],
-   [
-      "julien",
-      "DslTest.scala",
-      1
-   ],
-   [
-      "julien",
-      "ValidTypeMap.java",
-      1
-   ],
-   [
-      "julien",
-      "ProtoParquetReader.java",
-      1
-   ],
-   [
-      "julien",
-      "ColumnChunkProperties.java",
-      1
-   ],
-   [
-      "julien",
-      "ColumnPath.java",
+      "merge_parquet_pr.py",
       2
    ],
    [
       "julien",
-      "FilteringGroupConverter.java",
-      1
-   ],
-   [
-      "julien",
-      "TestInputFormat.java",
-      1
-   ],
-   [
-      "julien",
-      "IncrementallyUpdatedFilterPredicateResetter.java",
-      1
-   ],
-   [
-      "julien",
-      "SchemaCompatibilityValidator.java",
-      1
-   ],
-   [
-      "julien",
-      "TestFiltered.java",
-      1
-   ],
-   [
-      "julien",
-      "TestPigSchemaConverter.java",
-      1
-   ],
-   [
-      "julien",
-      "TestLogicalInverseRewriter.java",
-      1
-   ],
-   [
-      "julien",
-      "TupleReadSupport.java",
-      1
-   ],
-   [
-      "julien",
-      "FilterApi.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ParquetScroogeSchemeTest.java",
+      "FilteredRecordReader.java",
       1
    ],
    [
@@ -376,52 +356,82 @@
    ],
    [
       "julien",
-      "ColumnChunkMetaData.java",
+      "TestIncrementallyUpdatedFilterPredicateResetter.java",
       1
    ],
    [
       "julien",
-      "Generator.java",
-      2
-   ],
-   [
-      "julien",
-      "ParquetReader.java",
+      "TestFiltered.java",
       1
    ],
    [
       "julien",
-      "ParquetInputFormat.java",
+      "TupleConverter.java",
       1
    ],
    [
       "julien",
-      "IncrementallyUpdatedFilterPredicateEvaluator.java",
+      "RowGroupFilter.java",
       1
    ],
    [
       "julien",
-      "FilteringRecordMaterializer.java",
+      "TestParquetLoader.java",
       1
    ],
    [
       "julien",
-      "BooleanStatistics.java",
+      "TestIncrementallyUpdatedFilterPredicateEvaluator.java",
       1
    ],
    [
       "julien",
-      "RecordReader.java",
+      "ParquetFileWriter.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "GroupValueSource.java",
       1
    ],
    [
       "julien",
-      "DeprecatedParquetInputFormat.java",
+      "ParquetRecordReader.java",
       1
    ],
    [
       "julien",
-      "TestRecordLevelFilters.java",
+      "ValidTypeMap.java",
+      1
+   ],
+   [
+      "julien",
+      "ColumnChunkProperties.java",
+      1
+   ],
+   [
+      "julien",
+      "DslTest.scala",
+      1
+   ],
+   [
+      "julien",
+      "DumpCommand.java",
+      1
+   ],
+   [
+      "julien",
+      "ProtoParquetReader.java",
+      1
+   ],
+   [
+      "julien",
+      "ParquetInputSplit.java",
+      1
+   ],
+   [
+      "julien",
+      "PigSchemaConverter.java",
       1
    ],
    [
@@ -431,32 +441,22 @@
    ],
    [
       "julien",
-      "RecordMaterializer.java",
+      "FilterApi.java",
       1
    ],
    [
       "julien",
-      "TestValidTypeMap.java",
+      "Dsl.scala",
       1
    ],
    [
       "julien",
-      "LogicalInverseRewriter.java",
+      "ParquetFileReader.java",
       1
    ],
    [
-      "julien",
-      "ParquetMetadataConverter.java",
-      1
-   ],
-   [
-      "Tom White",
-      "ParquetInputFormat.java",
-      1
-   ],
-   [
-      "julien",
-      "ParquetInputSplit.java",
+      "Ryan Blue",
+      "ParquetScroogeSchemeTest.java",
       1
    ]
 ]

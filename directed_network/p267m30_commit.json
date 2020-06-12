@@ -1,132 +1,37 @@
 [
    [
       "bchapuis",
-      "SimpleWalkingDroid.java",
+      "HtmlParser.java",
       1
    ],
    [
       "rfrovarp",
-      "DefaultParserFactoryTest.java",
+      "ChainTaskValidator.java",
       1
    ],
    [
       "rfrovarp",
-      "LinkTask.java",
+      "SimpleContentLoader.java",
       1
    ],
    [
       "rfrovarp",
-      "LinkTest.java",
+      "FileProtocol.java",
       1
+   ],
+   [
+      "rfrovarp",
+      "EchoHandler.java",
+      2
    ],
    [
       "bchapuis",
-      "TaskQueue.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "StAXElementParser.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "HtmlElementLinkExtractorTest.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "Entity.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "RegexURLFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "FileTask.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "ParseImpl.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "StateFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "LinkAttributeFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "DefaultRejectedExecutionHandler.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "NoRepeatFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "IncludeFilter.java",
-      1
+      "TestSimpleDroid.java",
+      2
    ],
    [
       "bchapuis",
-      "GenericFactory.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "SimpleCrawlerControllerTest.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "SysoutCrawlingDroid.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "WeightComparator.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "LocalCrawlerService.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "DefaultParserFactory.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "AbstractCrawlerWorker.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "NekoHtmlParser.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "HttpProtocol.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "CrawlerExecutorService.java",
+      "LocalHttpServer.java",
       1
    ],
    [
@@ -136,42 +41,12 @@
    ],
    [
       "rfrovarp",
-      "ChainTaskValidator.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "TikaDocumentParser.java",
+      "DependencyTest.java",
       1
    ],
    [
       "rfrovarp",
-      "AbstractParser.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "LocalCrawlerServiceTest.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "RoundRobinCrawlerServiceTest.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "JerichoHtmlParser.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "CrawlingDroid.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "CrawlerHttpClient.java",
+      "LinkAttributeFilter.java",
       1
    ],
    [
@@ -181,8 +56,18 @@
    ],
    [
       "bchapuis",
-      "FileRenameDroid.java",
+      "HttpProtocol.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AbstractFetcher.java",
       2
+   ],
+   [
+      "rfrovarp",
+      "DefaultParserFactory.java",
+      1
    ],
    [
       "rfrovarp",
@@ -191,32 +76,52 @@
    ],
    [
       "rfrovarp",
-      "RoundRobinCrawlerService.java",
+      "CrawlerHttpClient.java",
       1
    ],
    [
       "rfrovarp",
-      "EchoHandler.java",
+      "HttpFetcher.java",
       2
+   ],
+   [
+      "bchapuis",
+      "TikaHtmlParser.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "SimpleWalkingDroid.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "MultiThreadedTaskMaster.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "NoAuthHandler.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "LinkTest.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "SAXElementParser.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "Entity.java",
+      1
    ],
    [
       "rfrovarp",
       "HttpContentEntity.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "RefererFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "StatsFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "DepthFilter.java",
       1
    ],
    [
@@ -226,7 +131,22 @@
    ],
    [
       "rfrovarp",
-      "DefaultFetcherFactory.java",
+      "HtmlElementLinkExtractorTest.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "RoundRobinCrawlerService.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "RoundRobinCrawlerServiceTest.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "HttpHeaderFilter.java",
       1
    ],
    [
@@ -236,7 +156,82 @@
    ],
    [
       "rfrovarp",
-      "FileProtocol.java",
+      "StateFilter.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "IncludeFilter.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "HtmlParser.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "TaskMasterImpl.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "SequentialTaskMaster.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "ParseImpl.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AbstractDroid.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "DroidPanel.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AbstractCrawlerController.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AlreadyVisitedFilter.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "LinkTask.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AppEngineFetcherTest.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "NekoHtmlParserTest.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "LocalCrawlerServiceTest.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "DefaultFetcherFactory.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "StatsFilterTest.java",
       1
    ],
    [
@@ -246,7 +241,117 @@
    ],
    [
       "rfrovarp",
-      "AbstractCrawlerController.java",
+      "HostFilter.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "HttpFetcherTest.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AbstractParser.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AppEngineFetcher.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "CrawlerWorker.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "DefaultTaskExceptionHandler.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "TaskMaster.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "NekoHtmlParser.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "SimpleWalkingDroid.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "CrawlingDroid.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "DepthFilter.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "ExceptionCrawlingDroid.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "WorkBeanDataProvider.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "WeightComparator.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "SimpleCrawlerControllerTest.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "SimpleRuntime.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "LocalCrawlerService.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "TikaDocumentParser.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "SaveCrawlingDroid.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AbstractCrawlerService.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "FileWorker.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "ReportCrawlingDroid.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "Link.java",
       1
    ],
    [
@@ -260,163 +365,13 @@
       2
    ],
    [
-      "rfrovarp",
-      "HttpFetcher.java",
-      2
-   ],
-   [
-      "rfrovarp",
-      "AppEngineFetcher.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "CrawlingWorker.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "ParamUtilsTest.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "StandaloneCrawlerController.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "AlreadyVisitedFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "SimpleWalkingDroid.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "SequentialTaskMaster.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "HtmlElementLinkExtractor.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "DefaultTaskExceptionHandler.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "SimpleTaskQueue.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "SolrHandler.java",
-      1
-   ],
-   [
       "bchapuis",
-      "TestCrawlingWorker.java",
+      "RegexURLFilter.java",
       2
-   ],
-   [
-      "rfrovarp",
-      "HttpFetcherTest.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "AbstractFetcher.java",
-      2
-   ],
-   [
-      "bchapuis",
-      "HtmlParser.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "NoAuthHandler.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "AbstractDroid.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "SequentialTaskMaster.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "MaxDepthTaskValidator.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "DefaultThreadFactory.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "SimpleContentLoader.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "MultiThreadedTaskMaster.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "WorkBeanDataProvider.java",
-      1
    ],
    [
       "bchapuis",
       "Droid.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "AdvancedSolrHandler.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "FileWorker.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "ExceptionCrawlingDroid.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "HttpProtocol.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "SaveHandler.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "DependencyTest.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "NekoHtmlParserTest.java",
       1
    ],
    [
@@ -426,13 +381,23 @@
    ],
    [
       "rfrovarp",
-      "SAXElementParser.java",
+      "StatsFilter.java",
       1
    ],
    [
-      "bchapuis",
-      "CrawlingWorker.java",
-      2
+      "rfrovarp",
+      "JerichoHtmlParser.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "SimpleTaskQueue.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "RegexURLFilter.java",
+      1
    ],
    [
       "bchapuis",
@@ -441,42 +406,52 @@
    ],
    [
       "rfrovarp",
-      "CrawlerWorker.java",
+      "RefererFilter.java",
       1
    ],
    [
       "rfrovarp",
-      "HostFilter.java",
+      "StandaloneCrawlerController.java",
       1
    ],
    [
       "rfrovarp",
-      "DroidPanel.java",
+      "SequentialTaskMaster.java",
       1
    ],
    [
       "rfrovarp",
-      "Link.java",
+      "DefaultThreadFactory.java",
       1
    ],
    [
       "bchapuis",
-      "RegexURLFilter.java",
+      "TestCrawlingWorker.java",
       2
    ],
    [
       "bchapuis",
-      "StAX.java",
+      "SaveHandler.java",
       1
    ],
    [
-      "bchapuis",
-      "TestSimpleDroid.java",
-      2
+      "rfrovarp",
+      "HttpProtocol.java",
+      1
    ],
    [
-      "bchapuis",
-      "ReportCrawlingDroid.java",
+      "rfrovarp",
+      "NoRepeatFilter.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "DefaultRejectedExecutionHandler.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "HtmlElementLinkExtractor.java",
       1
    ],
    [
@@ -486,57 +461,82 @@
    ],
    [
       "rfrovarp",
-      "AbstractCrawlerService.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "TaskMaster.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "SimpleRuntime.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "TikaHtmlParser.java",
+      "ParamUtilsTest.java",
       1
    ],
    [
       "rfrovarp",
-      "HttpHeaderFilter.java",
-      1
-   ],
-   [
-      "rfrovarp",
-      "AppEngineFetcherTest.java",
+      "AdvancedSolrHandler.java",
       1
    ],
    [
       "bchapuis",
-      "TaskMasterImpl.java",
-      1
-   ],
-   [
-      "bchapuis",
-      "LocalHttpServer.java",
+      "TaskQueue.java",
       1
    ],
    [
       "rfrovarp",
-      "HtmlParser.java",
+      "MaxDepthTaskValidator.java",
       1
    ],
    [
       "rfrovarp",
-      "StatsFilterTest.java",
+      "SolrHandler.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "FileTask.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "CrawlingWorker.java",
       1
    ],
    [
       "bchapuis",
-      "SaveCrawlingDroid.java",
+      "GenericFactory.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "AbstractCrawlerWorker.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "FileRenameDroid.java",
+      2
+   ],
+   [
+      "bchapuis",
+      "StAX.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "CrawlerExecutorService.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "SysoutCrawlingDroid.java",
+      1
+   ],
+   [
+      "bchapuis",
+      "CrawlingWorker.java",
+      2
+   ],
+   [
+      "rfrovarp",
+      "StAXElementParser.java",
+      1
+   ],
+   [
+      "rfrovarp",
+      "DefaultParserFactoryTest.java",
       1
    ]
 ]

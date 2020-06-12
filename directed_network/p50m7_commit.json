@@ -1,13 +1,18 @@
 [
    [
-      "ecn",
-      "FieldIndexIterator.java",
+      "bimargulies",
+      "docgen.sh",
       2
    ],
    [
+      "ecn",
+      "combiners.html",
+      14
+   ],
+   [
       "kturner",
-      "build.sh",
-      2
+      "config.sh",
+      16
    ],
    [
       "ecn",
@@ -15,49 +20,24 @@
       9
    ],
    [
+      "kturner",
+      "RowFilterTest.java",
+      1
+   ],
+   [
+      "medined",
+      "IndexedDocIteratorTest.java",
+      2
+   ],
+   [
       "vines",
       "AccumuloFileOutputFormat.java",
       2
    ],
    [
-      "ecn",
-      "IndexedDocIteratorTest.java",
-      2
-   ],
-   [
-      "ecn",
-      "QueryLogic.java",
-      2
-   ],
-   [
-      "ecn",
-      "VersioningIteratorTest.java",
-      2
-   ],
-   [
-      "billie",
-      "WikipediaInputFormat.java",
-      1
-   ],
-   [
-      "ecn",
-      "ScannerOptions.java",
-      2
-   ],
-   [
-      "billie",
-      "README.bloom",
-      7
-   ],
-   [
       "kturner",
-      "IteratorSetting.java",
-      7
-   ],
-   [
-      "ecn",
-      "GlobalIndexUidTest.java",
-      2
+      "ingest.sh",
+      16
    ],
    [
       "billie",
@@ -66,12 +46,52 @@
    ],
    [
       "ecn",
-      "build.sh",
+      "FilterTest.java",
       2
    ],
    [
       "ecn",
-      "TestQueryLogic.java",
+      "accumulo-env.sh",
+      8
+   ],
+   [
+      "billie",
+      "README.bloom",
+      7
+   ],
+   [
+      "ecn",
+      "GlobalIndexUidTest.java",
+      2
+   ],
+   [
+      "kturner",
+      "WikipediaInputSplitTest.java",
+      1
+   ],
+   [
+      "ecn",
+      "ingest.sh",
+      7
+   ],
+   [
+      "ecn",
+      "Shell.java",
+      2
+   ],
+   [
+      "kturner",
+      "TableOperationsHelperTest.java",
+      7
+   ],
+   [
+      "billie",
+      "VisServlet.java",
+      2
+   ],
+   [
+      "billie",
+      "SortingRFileOutputFormat.java",
       2
    ],
    [
@@ -81,18 +101,113 @@
    ],
    [
       "kturner",
-      "RowFilter.java",
+      "build.sh",
       2
    ],
    [
-      "billie",
-      "README.combiner",
+      "ecn",
+      "OrIterator.java",
+      2
+   ],
+   [
+      "ecn",
+      "WikipediaMapper.java",
+      1
+   ],
+   [
+      "kturner",
+      "Compression.java",
       7
    ],
    [
       "ecn",
-      "BooleanLogicIterator.java",
+      "ingest_parallel.sh",
+      7
+   ],
+   [
+      "kturner",
+      "Constants.java",
+      16
+   ],
+   [
+      "ecn",
+      "InputFormatBase.java",
       2
+   ],
+   [
+      "bimargulies",
+      "build.sh",
+      1
+   ],
+   [
+      "ecn",
+      "TableOperationsHelper.java",
+      2
+   ],
+   [
+      "ecn",
+      "IndexedDocIteratorTest.java",
+      2
+   ],
+   [
+      "ecn",
+      "build.sh",
+      2
+   ],
+   [
+      "billie",
+      "Test.java",
+      2
+   ],
+   [
+      "kturner",
+      "config.html",
+      32
+   ],
+   [
+      "ecn",
+      "LargeRowFilterTest.java",
+      2
+   ],
+   [
+      "ecn",
+      "config.sh",
+      15
+   ],
+   [
+      "ecn",
+      "FieldIndexIterator.java",
+      2
+   ],
+   [
+      "ecn",
+      "Accumulo.java",
+      6
+   ],
+   [
+      "ecn",
+      "ScanCommand.java",
+      2
+   ],
+   [
+      "billie",
+      "WikipediaMapper.java",
+      1
+   ],
+   [
+      "ecn",
+      "VersioningIteratorTest.java",
+      2
+   ],
+   [
+      "kturner",
+      "RowFilter.java",
+      2
+   ],
+   [
+      "ecn",
+      "Initialize.java",
+      1
    ],
    [
       "billie",
@@ -106,27 +221,37 @@
    ],
    [
       "ecn",
-      "config.sh",
-      15
-   ],
-   [
-      "kturner",
-      "config.html",
-      32
-   ],
-   [
-      "kturner",
-      "combiners.html",
-      16
+      "BooleanLogicIterator.java",
+      2
    ],
    [
       "ecn",
-      "WikipediaInputFormat.java",
-      1
+      "AbstractQueryLogic.java",
+      2
+   ],
+   [
+      "ecn",
+      "QueryLogic.java",
+      2
+   ],
+   [
+      "billie",
+      "README.mapred",
+      7
    ],
    [
       "kturner",
       "SortingRFileOutputFormat.java",
+      1
+   ],
+   [
+      "billie",
+      "WikipediaInputFormat.java",
+      1
+   ],
+   [
+      "billie",
+      "config.sh",
       1
    ],
    [
@@ -136,8 +261,63 @@
    ],
    [
       "ecn",
-      "ScanCommand.java",
+      "TabletServer.java",
       2
+   ],
+   [
+      "ecn",
+      "GrepIteratorTest.java",
+      2
+   ],
+   [
+      "ecn",
+      "Query.java",
+      2
+   ],
+   [
+      "kturner",
+      "BufferingRFileRecordWriter.java",
+      1
+   ],
+   [
+      "ecn",
+      "RangeCalculator.java",
+      2
+   ],
+   [
+      "ecn",
+      "RegExFilterTest.java",
+      2
+   ],
+   [
+      "kturner",
+      "CombinerTest.java",
+      7
+   ],
+   [
+      "ecn",
+      "Constants.java",
+      14
+   ],
+   [
+      "ecn",
+      "TestQueryLogic.java",
+      2
+   ],
+   [
+      "billie",
+      "README.combiner",
+      7
+   ],
+   [
+      "kturner",
+      "LRUOutputCombiner.java",
+      1
+   ],
+   [
+      "kturner",
+      "ingest_parallel.sh",
+      16
    ],
    [
       "ecn",
@@ -145,9 +325,9 @@
       2
    ],
    [
-      "ecn",
-      "ingest_parallel.sh",
-      7
+      "kturner",
+      "combiners.html",
+      16
    ],
    [
       "kturner",
@@ -160,144 +340,9 @@
       2
    ],
    [
-      "billie",
-      "WikipediaMapper.java",
-      1
-   ],
-   [
       "kturner",
-      "ingest.sh",
-      16
-   ],
-   [
-      "kturner",
-      "LRUOutputCombiner.java",
-      1
-   ],
-   [
-      "kturner",
-      "Constants.java",
-      16
-   ],
-   [
-      "ecn",
-      "combiners.html",
-      14
-   ],
-   [
-      "ecn",
-      "OrIterator.java",
-      2
-   ],
-   [
-      "billie",
-      "config.sh",
-      1
-   ],
-   [
-      "medined",
-      "IndexedDocIteratorTest.java",
-      2
-   ],
-   [
-      "ecn",
-      "Initialize.java",
-      1
-   ],
-   [
-      "billie",
-      "Initialize.java",
-      1
-   ],
-   [
-      "billie",
-      "Test.java",
-      2
-   ],
-   [
-      "kturner",
-      "WikipediaInputSplitTest.java",
-      1
-   ],
-   [
-      "bimargulies",
-      "build.sh",
-      1
-   ],
-   [
-      "kturner",
-      "Compression.java",
+      "IteratorSetting.java",
       7
-   ],
-   [
-      "ecn",
-      "Shell.java",
-      2
-   ],
-   [
-      "billie",
-      "README.mapred",
-      7
-   ],
-   [
-      "ecn",
-      "GrepIteratorTest.java",
-      2
-   ],
-   [
-      "ecn",
-      "Accumulo.java",
-      6
-   ],
-   [
-      "ecn",
-      "Query.java",
-      2
-   ],
-   [
-      "kturner",
-      "CombinerTest.java",
-      7
-   ],
-   [
-      "ecn",
-      "TabletServer.java",
-      2
-   ],
-   [
-      "ecn",
-      "FilterTest.java",
-      2
-   ],
-   [
-      "ecn",
-      "accumulo-env.sh",
-      8
-   ],
-   [
-      "ecn",
-      "Constants.java",
-      14
-   ],
-   [
-      "ecn",
-      "TableOperationsHelper.java",
-      2
-   ],
-   [
-      "kturner",
-      "RowFilterTest.java",
-      1
-   ],
-   [
-      "ecn",
-      "InputFormatBase.java",
-      2
-   ],
-   [
-      "kturner",
-      "config.sh",
-      16
    ],
    [
       "ecn",
@@ -305,24 +350,14 @@
       2
    ],
    [
-      "kturner",
-      "ingest_parallel.sh",
-      16
-   ],
-   [
-      "billie",
-      "VisServlet.java",
+      "ecn",
+      "ScannerOptions.java",
       2
    ],
    [
-      "kturner",
-      "BufferingRFileRecordWriter.java",
+      "ecn",
+      "WikipediaInputFormat.java",
       1
-   ],
-   [
-      "kturner",
-      "TableOperationsHelperTest.java",
-      7
    ],
    [
       "billie",
@@ -331,42 +366,7 @@
    ],
    [
       "billie",
-      "SortingRFileOutputFormat.java",
-      2
-   ],
-   [
-      "ecn",
-      "LargeRowFilterTest.java",
-      2
-   ],
-   [
-      "ecn",
-      "RangeCalculator.java",
-      2
-   ],
-   [
-      "ecn",
-      "AbstractQueryLogic.java",
-      2
-   ],
-   [
-      "bimargulies",
-      "docgen.sh",
-      2
-   ],
-   [
-      "ecn",
-      "WikipediaMapper.java",
+      "Initialize.java",
       1
-   ],
-   [
-      "ecn",
-      "ingest.sh",
-      7
-   ],
-   [
-      "ecn",
-      "RegExFilterTest.java",
-      2
    ]
 ]

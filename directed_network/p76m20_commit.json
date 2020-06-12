@@ -1,17 +1,7 @@
 [
    [
-      "abroekhuis",
-      "mongoose.c",
-      1
-   ],
-   [
       "pnoltes",
-      "driver_attributes.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "driver_attributes.c",
+      "refining_driver.c",
       1
    ],
    [
@@ -21,7 +11,27 @@
    ],
    [
       "pnoltes",
+      "driver_matcher.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "MANIFEST.MF",
+      1
+   ],
+   [
+      "abroekhuis",
+      "mongoose.c",
+      1
+   ],
+   [
+      "pnoltes",
       "driver_loader.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "driver.h",
       1
    ],
    [
@@ -31,67 +41,7 @@
    ],
    [
       "pnoltes",
-      "driver_locator_private.h",
-      1
-   ],
-   [
-      "pnoltes",
       "refining_driver_private.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "refining_driver_device.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "remote_service_admin_activator.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "consuming_driver_private.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "device_manager.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "Dependencies.cmake",
-      1
-   ],
-   [
-      "pnoltes",
-      "driver.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "remote_service_admin_http_impl.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "driver_locator.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "target.cmake",
-      1
-   ],
-   [
-      "pnoltes",
-      "refining_driver.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "driver_locator.c",
       1
    ],
    [
@@ -101,7 +51,12 @@
    ],
    [
       "pnoltes",
-      "driver_matcher.h",
+      "driver_attributes.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "remote_service_admin_http_impl.c",
       1
    ],
    [
@@ -111,7 +66,7 @@
    ],
    [
       "pnoltes",
-      "consuming_driver.c",
+      "driver_loader.c",
       1
    ],
    [
@@ -120,38 +75,28 @@
       1
    ],
    [
-      "abroekhuis",
-      "mongoose.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "MANIFEST.MF",
-      1
-   ],
-   [
       "pnoltes",
       "driver_selector.h",
       1
    ],
    [
-      "pnoltes",
-      "base_driver_device.h",
+      "abroekhuis",
+      "Dependencies.cmake",
       1
    ],
    [
       "pnoltes",
-      "match.h",
+      "device_manager.h",
       1
    ],
    [
       "pnoltes",
-      "base_driver_private.h",
+      "driver_attributes.c",
       1
    ],
    [
       "pnoltes",
-      "driver_loader.c",
+      "driver_locator_private.h",
       1
    ],
    [
@@ -161,12 +106,67 @@
    ],
    [
       "pnoltes",
-      "base_driver.c",
+      "MANIFEST.MF",
+      5
+   ],
+   [
+      "pnoltes",
+      "match.h",
       1
    ],
    [
       "pnoltes",
-      "MANIFEST.MF",
-      5
+      "refining_driver_device.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "consuming_driver_private.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "base_driver_device.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "consuming_driver.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "remote_service_admin_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "target.cmake",
+      1
+   ],
+   [
+      "abroekhuis",
+      "mongoose.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "driver_locator.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "driver_locator.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "base_driver_private.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "base_driver.c",
+      1
    ]
 ]

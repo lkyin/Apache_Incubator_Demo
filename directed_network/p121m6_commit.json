@@ -1,42 +1,7 @@
 [
    [
       "archie",
-      "definitions.h",
-      1
-   ],
-   [
-      "dlydick",
-      "jvmutil.c",
-      2
-   ],
-   [
-      "dlydick",
-      "jlClass.c",
-      2
-   ],
-   [
-      "archie",
-      "libjc.h",
-      1
-   ],
-   [
-      "dlydick",
-      "jlObject.h",
-      2
-   ],
-   [
-      "dlydick",
-      "jvmcfg.c",
-      2
-   ],
-   [
-      "dlydick",
-      "heap_bimodal.c",
-      3
-   ],
-   [
-      "dlydick",
-      "Copyright.java",
+      "java_lang_VMCompiler.c",
       2
    ],
    [
@@ -46,132 +11,7 @@
    ],
    [
       "dlydick",
-      "java_lang_Class.c",
-      3
-   ],
-   [
-      "archie",
-      "structures.h",
-      1
-   ],
-   [
-      "archie",
-      "Makefile.am",
-      11
-   ],
-   [
-      "dlydick",
-      "portable_libm.c",
-      2
-   ],
-   [
-      "dlydick",
-      "java_lang_String.h",
-      2
-   ],
-   [
-      "dlydick",
-      "dox.sh",
-      4
-   ],
-   [
-      "dlydick",
-      "gc_refcount.c",
-      2
-   ],
-   [
-      "dlydick",
-      "MainArgs.java",
-      5
-   ],
-   [
-      "dlydick",
-      "object.h",
-      3
-   ],
-   [
-      "dlydick",
-      "native.c",
-      3
-   ],
-   [
-      "archie",
-      "bootstrap.c",
-      1
-   ],
-   [
-      "dlydick",
-      ".classpath",
-      1
-   ],
-   [
-      "dlydick",
-      "commondox.sh",
-      2
-   ],
-   [
-      "dlydick",
-      "jrtypes.c",
-      2
-   ],
-   [
-      "dlydick",
-      "arch.h",
-      4
-   ],
-   [
-      "dlydick",
-      "class.c",
-      4
-   ],
-   [
-      "dlydick",
-      "jlString.h",
-      3
-   ],
-   [
-      "dlydick",
-      "field.h",
-      2
-   ],
-   [
-      "dlydick",
-      "HelloWorld.java",
-      3
-   ],
-   [
-      "dlydick",
-      "attribute.c",
-      2
-   ],
-   [
-      "archie",
-      "java_lang_VMThread.c",
-      1
-   ],
-   [
-      "archie",
-      "gc_scan.c",
-      1
-   ],
-   [
-      "dlydick",
-      "argv.c",
-      3
-   ],
-   [
-      "dlydick",
-      "undox.sh",
-      4
-   ],
-   [
-      "dlydick",
-      "unicode.c",
-      2
-   ],
-   [
-      "dlydick",
-      "dox_filter.sh",
+      "jlThread.c",
       2
    ],
    [
@@ -180,18 +20,13 @@
       2
    ],
    [
-      "dlydick",
-      "linkage.c",
-      2
-   ],
-   [
       "archie",
-      "java_lang_VMClassLoader.c",
+      "jni_native.c",
       1
    ],
    [
       "dlydick",
-      "dox-filter.sh",
+      "opcode.h",
       2
    ],
    [
@@ -201,142 +36,12 @@
    ],
    [
       "dlydick",
-      "svnstat.sh",
+      "java_lang_Class.c",
       3
    ],
    [
       "dlydick",
-      "cfattrib.c",
-      3
-   ],
-   [
-      "dlydick",
-      ".cdtbuild",
-      5
-   ],
-   [
-      "archie",
-      "jni_native.c",
-      1
-   ],
-   [
-      "dlydick",
-      "native.h",
-      3
-   ],
-   [
-      "dlydick",
-      "jlThread.c",
-      2
-   ],
-   [
-      "dlydick",
-      "config.sh",
-      6
-   ],
-   [
-      "dlydick",
-      "portable_libc.c",
-      2
-   ],
-   [
-      "dlydick",
-      "cfmacros.h",
-      3
-   ],
-   [
-      "dlydick",
-      "clean.sh",
-      12
-   ],
-   [
-      "dlydick",
-      "utf.h",
-      2
-   ],
-   [
-      "dlydick",
-      "dist-doc.sh",
-      4
-   ],
-   [
-      "dlydick",
-      "attribute.h",
-      2
-   ],
-   [
-      "dlydick",
-      "thread.h",
-      2
-   ],
-   [
-      "dlydick",
-      "unicode.h",
-      2
-   ],
-   [
-      "dlydick",
-      "jvalue.h",
-      2
-   ],
-   [
-      "dlydick",
-      "bootjvm.dox",
-      4
-   ],
-   [
-      "dlydick",
-      "opcode.c",
-      2
-   ],
-   [
-      "dlydick",
-      "java_lang_Class.h",
-      2
-   ],
-   [
-      "dlydick",
-      "dist-common.sh",
-      2
-   ],
-   [
-      "dlydick",
-      "classutil.c",
-      3
-   ],
-   [
-      "archie",
-      "java_lang_VMCompiler.c",
-      2
-   ],
-   [
-      "archie",
-      "regen.sh",
-      3
-   ],
-   [
-      "dlydick",
-      "getsvndata.sh",
-      3
-   ],
-   [
-      "dlydick",
-      "threadstate.c",
-      2
-   ],
-   [
-      "dlydick",
-      "jlObject.c",
-      2
-   ],
-   [
-      "dlydick",
-      "linkage.h",
-      2
-   ],
-   [
-      "dlydick",
-      "jvmreg.h",
+      "method.c",
       3
    ],
    [
@@ -346,37 +51,17 @@
    ],
    [
       "dlydick",
-      "utf.c",
-      3
-   ],
-   [
-      "dlydick",
-      "doxunpatch.sh",
-      2
-   ],
-   [
-      "archie",
-      "makedist.sh",
+      "arch.h",
       4
    ],
    [
       "dlydick",
-      "field.c",
-      3
-   ],
-   [
-      "dlydick",
-      "doxpatch.sh",
+      "Copyright.java",
       2
    ],
    [
       "dlydick",
-      "Class.java",
-      3
-   ],
-   [
-      "dlydick",
-      ".cdtproject",
+      "cfattrib.c",
       3
    ],
    [
@@ -386,208 +71,8 @@
    ],
    [
       "dlydick",
-      "Thread.java",
-      3
-   ],
-   [
-      "dlydick",
-      "exit.h",
-      2
-   ],
-   [
-      "dlydick",
-      "jvmclass.h",
-      3
-   ],
-   [
-      "dlydick",
-      "tmparea.c",
-      3
-   ],
-   [
-      "dlydick",
-      "object.c",
-      3
-   ],
-   [
-      "dlydick",
       "dox-unpatch.sh",
       2
-   ],
-   [
-      "archie",
-      "load.c",
-      1
-   ],
-   [
-      "dlydick",
-      "classfile.c",
-      4
-   ],
-   [
-      "dlydick",
-      "dox-patch.sh",
-      2
-   ],
-   [
-      "dlydick",
-      "sampleJNImain.c",
-      3
-   ],
-   [
-      "dlydick",
-      "jvm.h",
-      3
-   ],
-   [
-      "dlydick",
-      "java_lang_Object.h",
-      2
-   ],
-   [
-      "dlydick",
-      "java_lang_String.c",
-      4
-   ],
-   [
-      "dlydick",
-      "dox-common.sh",
-      2
-   ],
-   [
-      "dlydick",
-      "Object.java",
-      3
-   ],
-   [
-      "archie",
-      "java_lang_VMClass.c",
-      1
-   ],
-   [
-      "dlydick",
-      "classpath.c",
-      3
-   ],
-   [
-      "dlydick",
-      "gc_stub.c",
-      3
-   ],
-   [
-      "dlydick",
-      "dist-src.sh",
-      4
-   ],
-   [
-      "archie",
-      "configure.in",
-      6
-   ],
-   [
-      "dlydick",
-      "jlString.c",
-      2
-   ],
-   [
-      "archie",
-      "properties.c",
-      1
-   ],
-   [
-      "dlydick",
-      "exit.c",
-      2
-   ],
-   [
-      "dlydick",
-      "PkgHelloWorld.java",
-      5
-   ],
-   [
-      "dlydick",
-      "timeslice.c",
-      2
-   ],
-   [
-      "dlydick",
-      "manifest.c",
-      3
-   ],
-   [
-      "dlydick",
-      "String.java",
-      4
-   ],
-   [
-      "dlydick",
-      "bootJVM-doc-0.0.1.tar.gz",
-      2
-   ],
-   [
-      "dlydick",
-      "bootJVM-srcdoc-0.0.1.tar.gz",
-      2
-   ],
-   [
-      "dlydick",
-      "nts.c",
-      3
-   ],
-   [
-      "dlydick",
-      "jvm.c",
-      5
-   ],
-   [
-      "archie",
-      "gnu_classpath_VMStackWalker.c",
-      2
-   ],
-   [
-      "dlydick",
-      "method.h",
-      2
-   ],
-   [
-      "archie",
-      "thread.c",
-      1
-   ],
-   [
-      "dlydick",
-      "build.sh",
-      12
-   ],
-   [
-      "dlydick",
-      "class.h",
-      3
-   ],
-   [
-      "archie",
-      "org_dellroad_jc_vm_DebugThread.c",
-      1
-   ],
-   [
-      "dlydick",
-      "util.h",
-      3
-   ],
-   [
-      "dlydick",
-      "jlThread.h",
-      2
-   ],
-   [
-      "dlydick",
-      "heap.h",
-      2
-   ],
-   [
-      "archie",
-      "queue.h",
-      1
    ],
    [
       "dlydick",
@@ -596,22 +81,32 @@
    ],
    [
       "dlydick",
+      "jlObject.c",
+      2
+   ],
+   [
+      "dlydick",
       "portable.h",
       2
    ],
    [
       "dlydick",
-      "thread.c",
-      4
-   ],
-   [
-      "dlydick",
-      "main.c",
+      "method.h",
       2
    ],
    [
       "dlydick",
-      "java_lang_Thread.h",
+      "java_lang_Object.c",
+      3
+   ],
+   [
+      "dlydick",
+      "utf.c",
+      3
+   ],
+   [
+      "dlydick",
+      "jlClass.h",
       2
    ],
    [
@@ -626,23 +121,58 @@
    ],
    [
       "dlydick",
-      "roster.sh",
+      "heap_simple.c",
+      3
+   ],
+   [
+      "dlydick",
+      "jlClass.c",
       2
    ],
    [
       "dlydick",
-      "threadutil.c",
+      "nts.h",
+      2
+   ],
+   [
+      "archie",
+      "makedist.sh",
+      4
+   ],
+   [
+      "archie",
+      "thread.c",
+      1
+   ],
+   [
+      "dlydick",
+      "unicode.c",
       2
    ],
    [
       "dlydick",
-      "stdio.c",
+      "HelloWorld.java",
+      3
+   ],
+   [
+      "dlydick",
+      "util.h",
+      3
+   ],
+   [
+      "dlydick",
+      "jvmutil.c",
       2
    ],
    [
       "dlydick",
-      "opcode.h",
+      "jvalue.h",
       2
+   ],
+   [
+      "archie",
+      "load.c",
+      1
    ],
    [
       "archie",
@@ -651,42 +181,77 @@
    ],
    [
       "dlydick",
-      "gc.h",
+      "native.c",
+      3
+   ],
+   [
+      "archie",
+      "libjc.h",
+      1
+   ],
+   [
+      "dlydick",
+      "jvmclass.h",
+      3
+   ],
+   [
+      "dlydick",
+      "field.h",
+      2
+   ],
+   [
+      "dlydick",
+      "java_lang_String.c",
       4
    ],
    [
       "dlydick",
-      "nts.h",
+      "classpath.h",
+      2
+   ],
+   [
+      "archie",
+      "gc_scan.c",
+      1
+   ],
+   [
+      "dlydick",
+      "bootjvm.dox",
+      4
+   ],
+   [
+      "dlydick",
+      "objectutil.c",
+      2
+   ],
+   [
+      "archie",
+      "structures.h",
+      1
+   ],
+   [
+      "archie",
+      "Makefile.am",
+      11
+   ],
+   [
+      "dlydick",
+      "threadutil.c",
+      2
+   ],
+   [
+      "archie",
+      "java_lang_VMClass.c",
+      1
+   ],
+   [
+      "dlydick",
+      "dox_filter.sh",
       2
    ],
    [
       "dlydick",
-      "method.c",
-      3
-   ],
-   [
-      "dlydick",
-      "jvmcfg.h",
-      2
-   ],
-   [
-      "dlydick",
-      "java_lang_Thread.c",
-      3
-   ],
-   [
-      "dlydick",
-      "getsvndups.sh",
-      3
-   ],
-   [
-      "dlydick",
-      "cfmsgs.c",
-      2
-   ],
-   [
-      "dlydick",
-      "portable_jmp_buf.c",
+      "java_lang_Thread.h",
       2
    ],
    [
@@ -696,17 +261,277 @@
    ],
    [
       "dlydick",
-      "objectutil.c",
+      "exit.c",
       2
    ],
    [
       "dlydick",
-      "classpath.h",
+      "jlObject.h",
       2
    ],
    [
       "dlydick",
-      "jlClass.h",
+      "dox-common.sh",
+      2
+   ],
+   [
+      "archie",
+      "java_lang_VMThread.c",
+      1
+   ],
+   [
+      "dlydick",
+      "Object.java",
+      3
+   ],
+   [
+      "dlydick",
+      "unicode.h",
+      2
+   ],
+   [
+      "dlydick",
+      ".cdtbuild",
+      5
+   ],
+   [
+      "dlydick",
+      "jlThread.h",
+      2
+   ],
+   [
+      "dlydick",
+      "cfmacros.h",
+      3
+   ],
+   [
+      "dlydick",
+      "timeslice.c",
+      2
+   ],
+   [
+      "dlydick",
+      "classpath.c",
+      3
+   ],
+   [
+      "dlydick",
+      "Thread.java",
+      3
+   ],
+   [
+      "dlydick",
+      "sampleJNImain.c",
+      3
+   ],
+   [
+      "dlydick",
+      "argv.c",
+      3
+   ],
+   [
+      "dlydick",
+      "gc_stub.c",
+      3
+   ],
+   [
+      "dlydick",
+      "dox.sh",
+      4
+   ],
+   [
+      "dlydick",
+      "native.h",
+      3
+   ],
+   [
+      "dlydick",
+      "thread.c",
+      4
+   ],
+   [
+      "dlydick",
+      "thread.h",
+      2
+   ],
+   [
+      "dlydick",
+      "jlString.c",
+      2
+   ],
+   [
+      "dlydick",
+      "roster.sh",
+      2
+   ],
+   [
+      "dlydick",
+      "PkgHelloWorld.java",
+      5
+   ],
+   [
+      "dlydick",
+      "linkage.h",
+      2
+   ],
+   [
+      "dlydick",
+      "attribute.h",
+      2
+   ],
+   [
+      "dlydick",
+      "exit.h",
+      2
+   ],
+   [
+      "archie",
+      "java_lang_VMClassLoader.c",
+      1
+   ],
+   [
+      "dlydick",
+      "commondox.sh",
+      2
+   ],
+   [
+      "dlydick",
+      "jvm.c",
+      5
+   ],
+   [
+      "archie",
+      "configure.in",
+      6
+   ],
+   [
+      "dlydick",
+      "jvmcfg.h",
+      2
+   ],
+   [
+      "dlydick",
+      "jrtypes.c",
+      2
+   ],
+   [
+      "dlydick",
+      "heap_bimodal.c",
+      3
+   ],
+   [
+      "dlydick",
+      "gc_refcount.c",
+      2
+   ],
+   [
+      "dlydick",
+      "dox-patch.sh",
+      2
+   ],
+   [
+      "dlydick",
+      "stdio.c",
+      2
+   ],
+   [
+      "dlydick",
+      "utf.h",
+      2
+   ],
+   [
+      "dlydick",
+      "dist-src.sh",
+      4
+   ],
+   [
+      "dlydick",
+      "java_lang_Object.h",
+      2
+   ],
+   [
+      "dlydick",
+      "opmacros.h",
+      1
+   ],
+   [
+      "dlydick",
+      "object.c",
+      3
+   ],
+   [
+      "dlydick",
+      "object.h",
+      3
+   ],
+   [
+      "dlydick",
+      "undox.sh",
+      4
+   ],
+   [
+      "dlydick",
+      "jvmcfg.c",
+      2
+   ],
+   [
+      "dlydick",
+      "bootJVM-doc-0.0.1.tar.gz",
+      2
+   ],
+   [
+      "dlydick",
+      "dox-filter.sh",
+      2
+   ],
+   [
+      "dlydick",
+      "linkage.c",
+      2
+   ],
+   [
+      "archie",
+      "queue.h",
+      1
+   ],
+   [
+      "dlydick",
+      "manifest.c",
+      3
+   ],
+   [
+      "dlydick",
+      "opcode.c",
+      2
+   ],
+   [
+      "dlydick",
+      "clean.sh",
+      12
+   ],
+   [
+      "dlydick",
+      "build.sh",
+      12
+   ],
+   [
+      "dlydick",
+      "java_lang_Thread.c",
+      3
+   ],
+   [
+      "dlydick",
+      "jvm.h",
+      3
+   ],
+   [
+      "dlydick",
+      "classutil.c",
+      3
+   ],
+   [
+      "dlydick",
+      "doxunpatch.sh",
       2
    ],
    [
@@ -716,22 +541,197 @@
    ],
    [
       "dlydick",
-      "heap_simple.c",
+      "field.c",
       3
    ],
    [
       "dlydick",
-      "opmacros.h",
+      "config.sh",
+      6
+   ],
+   [
+      "dlydick",
+      "jlString.h",
+      3
+   ],
+   [
+      "dlydick",
+      "portable_libm.c",
+      2
+   ],
+   [
+      "dlydick",
+      "main.c",
+      2
+   ],
+   [
+      "dlydick",
+      "tmparea.c",
+      3
+   ],
+   [
+      "dlydick",
+      "attribute.c",
+      2
+   ],
+   [
+      "dlydick",
+      "dist-common.sh",
+      2
+   ],
+   [
+      "dlydick",
+      ".cdtproject",
+      3
+   ],
+   [
+      "dlydick",
+      "class.c",
+      4
+   ],
+   [
+      "dlydick",
+      "doxpatch.sh",
+      2
+   ],
+   [
+      "dlydick",
+      "threadstate.c",
+      2
+   ],
+   [
+      "dlydick",
+      "jvmreg.h",
+      3
+   ],
+   [
+      "dlydick",
+      "String.java",
+      4
+   ],
+   [
+      "dlydick",
+      "java_lang_Class.h",
+      2
+   ],
+   [
+      "dlydick",
+      "portable_libc.c",
+      2
+   ],
+   [
+      "archie",
+      "definitions.h",
       1
    ],
    [
       "dlydick",
-      "java_lang_Object.c",
+      "getsvndups.sh",
       3
+   ],
+   [
+      "archie",
+      "regen.sh",
+      3
+   ],
+   [
+      "archie",
+      "gnu_classpath_VMStackWalker.c",
+      2
+   ],
+   [
+      "dlydick",
+      "MainArgs.java",
+      5
+   ],
+   [
+      "dlydick",
+      "cfmsgs.c",
+      2
+   ],
+   [
+      "dlydick",
+      "svnstat.sh",
+      3
+   ],
+   [
+      "archie",
+      "org_dellroad_jc_vm_DebugThread.c",
+      1
+   ],
+   [
+      "dlydick",
+      "heap.h",
+      2
+   ],
+   [
+      "dlydick",
+      "portable_jmp_buf.c",
+      2
+   ],
+   [
+      "archie",
+      "properties.c",
+      1
+   ],
+   [
+      "dlydick",
+      ".classpath",
+      1
    ],
    [
       "archie",
       "reflect.c",
       1
+   ],
+   [
+      "dlydick",
+      "nts.c",
+      3
+   ],
+   [
+      "dlydick",
+      "class.h",
+      3
+   ],
+   [
+      "dlydick",
+      "getsvndata.sh",
+      3
+   ],
+   [
+      "dlydick",
+      "Class.java",
+      3
+   ],
+   [
+      "archie",
+      "bootstrap.c",
+      1
+   ],
+   [
+      "dlydick",
+      "java_lang_String.h",
+      2
+   ],
+   [
+      "dlydick",
+      "gc.h",
+      4
+   ],
+   [
+      "dlydick",
+      "bootJVM-srcdoc-0.0.1.tar.gz",
+      2
+   ],
+   [
+      "dlydick",
+      "classfile.c",
+      4
+   ],
+   [
+      "dlydick",
+      "dist-doc.sh",
+      4
    ]
 ]

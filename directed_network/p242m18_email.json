@@ -1,18 +1,53 @@
 [
    {
+      "name": "r3b",
+      "imports": []
+   },
+   {
+      "name": "rodsimpson",
+      "imports": [
+         "GERey",
+         "GERey"
+      ]
+   },
+   {
+      "name": "Lewis John Mcgibbney",
       "imports": [
          "Dave"
-      ],
-      "name": "Lewis John Mcgibbney"
+      ]
    },
    {
+      "name": "michaelarusso",
+      "imports": []
+   },
+   {
+      "name": "John D. Ament",
       "imports": [
-         "tnine",
-         "tnine"
-      ],
-      "name": "GERey"
+         "Lewis John Mcgibbney"
+      ]
    },
    {
+      "name": "shawnfeldman",
+      "imports": [
+         "GERey"
+      ]
+   },
+   {
+      "name": "Todd Nine",
+      "imports": []
+   },
+   {
+      "name": "snoopdave",
+      "imports": []
+   },
+   {
+      "name": "Dave",
+      "imports": [
+         "Todd Nine"
+      ]
+   },
+   {
+      "name": "asfgit",
       "imports": [
          "GERey",
          "GERey",
@@ -39,10 +74,17 @@
          "snoopdave",
          "GERey",
          "tnine"
-      ],
-      "name": "asfgit"
+      ]
    },
    {
+      "name": "GERey",
+      "imports": [
+         "tnine",
+         "tnine"
+      ]
+   },
+   {
+      "name": "tnine",
       "imports": [
          "shawnfeldman",
          "GERey",
@@ -59,32 +101,6 @@
          "michaelarusso",
          "r3b",
          "r3b"
-      ],
-      "name": "tnine"
-   },
-   {
-      "imports": [
-         "GERey",
-         "GERey"
-      ],
-      "name": "rodsimpson"
-   },
-   {
-      "imports": [
-         "Lewis John Mcgibbney"
-      ],
-      "name": "John D. Ament"
-   },
-   {
-      "imports": [
-         "GERey"
-      ],
-      "name": "shawnfeldman"
-   },
-   {
-      "imports": [
-         "Todd Nine"
-      ],
-      "name": "Dave"
+      ]
    }
 ]

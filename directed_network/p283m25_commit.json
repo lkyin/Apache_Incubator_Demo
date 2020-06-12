@@ -1,37 +1,12 @@
 [
    [
       "toback",
-      "Template.java",
-      1
+      "update.vm",
+      3
    ],
    [
       "toback",
-      "indiv.vm",
-      5
-   ],
-   [
-      "toback",
-      "TemplateFactory.java",
-      1
-   ],
-   [
-      "toback",
-      "ApacheWorker.java",
-      1
-   ],
-   [
-      "toback",
-      "Tomcat.java",
-      1
-   ],
-   [
-      "toback",
-      "TomcatWorkerModel.java",
-      1
-   ],
-   [
-      "toback",
-      "common.js",
+      "BuildDeployApacheConfig.java",
       1
    ],
    [
@@ -41,57 +16,7 @@
    ],
    [
       "toback",
-      "File.java",
-      1
-   ],
-   [
-      "toback",
-      "ApacheWorkerModel.java",
-      1
-   ],
-   [
-      "toback",
-      "procs.sql",
-      2
-   ],
-   [
-      "toback",
-      "add.vm",
-      4
-   ],
-   [
-      "toback",
-      "index.vm",
-      1
-   ],
-   [
-      "toback",
-      "TomcatAction.java",
-      1
-   ],
-   [
-      "toback",
-      "Apache.java",
-      1
-   ],
-   [
-      "toback",
-      "TomcatContextModel.java",
-      1
-   ],
-   [
-      "toback",
-      "viewconf.vm",
-      2
-   ],
-   [
-      "toback",
-      "TemplateModel.java",
-      1
-   ],
-   [
-      "toback",
-      "delete.vm",
+      "TemplateBuilder.java",
       1
    ],
    [
@@ -101,67 +26,47 @@
    ],
    [
       "toback",
+      "ApacheWorkerModel.java",
+      1
+   ],
+   [
+      "toback",
+      "TemplateFactory.java",
+      1
+   ],
+   [
+      "toback",
+      "indiv.vm",
+      5
+   ],
+   [
+      "toback",
+      "common.js",
+      1
+   ],
+   [
+      "toback",
+      "TomcatWorkerModel.java",
+      1
+   ],
+   [
+      "toback",
       "list.vm",
       1
    ],
    [
       "toback",
-      "TemplateBuilder.java",
-      1
-   ],
-   [
-      "toback",
-      "update.vm",
-      3
-   ],
-   [
-      "toback",
-      "TomcatWorker.java",
-      1
-   ],
-   [
-      "toback",
-      "global.vm",
-      5
-   ],
-   [
-      "toback",
-      "BuildDeployApacheConfig.java",
-      1
-   ],
-   [
-      "toback",
-      "details.vm",
-      4
-   ],
-   [
-      "toback",
-      "Environment.java",
-      1
-   ],
-   [
-      "toback",
-      "copy.vm",
-      1
-   ],
-   [
-      "toback",
-      "LokahiModel.java",
-      1
-   ],
-   [
-      "toback",
-      "confirm.vm",
-      1
-   ],
-   [
-      "toback",
-      "HardwareModel.java",
+      "ApacheWorker.java",
       1
    ],
    [
       "toback",
       "VelocityTemplateBuilder.java",
+      1
+   ],
+   [
+      "toback",
+      "Apache.java",
       1
    ],
    [
@@ -176,23 +81,13 @@
    ],
    [
       "toback",
-      "Instance.java",
-      1
-   ],
-   [
-      "toback",
-      "style.vmcss",
-      1
-   ],
-   [
-      "toback",
       "JMXConnect.java",
       1
    ],
    [
       "toback",
-      "Application.java",
-      1
+      "viewconf.vm",
+      2
    ],
    [
       "toback",
@@ -201,17 +96,17 @@
    ],
    [
       "toback",
-      "list2.vm",
+      "Project.java",
       1
    ],
    [
       "toback",
-      "FileAction.java",
+      "TomcatContextModel.java",
       1
    ],
    [
       "toback",
-      "ApacheAction.java",
+      "copy.vm",
       1
    ],
    [
@@ -221,17 +116,122 @@
    ],
    [
       "toback",
-      "TemplateEngine.java",
+      "LokahiModel.java",
       1
    ],
    [
       "toback",
-      "Project.java",
+      "TomcatWorker.java",
+      1
+   ],
+   [
+      "toback",
+      "index.vm",
       1
    ],
    [
       "toback",
       "TMCVelocityViewTool.java",
+      1
+   ],
+   [
+      "toback",
+      "ApacheAction.java",
+      1
+   ],
+   [
+      "toback",
+      "Environment.java",
+      1
+   ],
+   [
+      "toback",
+      "Application.java",
+      1
+   ],
+   [
+      "toback",
+      "FileAction.java",
+      1
+   ],
+   [
+      "toback",
+      "confirm.vm",
+      1
+   ],
+   [
+      "toback",
+      "TomcatAction.java",
+      1
+   ],
+   [
+      "toback",
+      "File.java",
+      1
+   ],
+   [
+      "toback",
+      "delete.vm",
+      1
+   ],
+   [
+      "toback",
+      "list2.vm",
+      1
+   ],
+   [
+      "toback",
+      "TemplateEngine.java",
+      1
+   ],
+   [
+      "toback",
+      "Tomcat.java",
+      1
+   ],
+   [
+      "toback",
+      "TemplateModel.java",
+      1
+   ],
+   [
+      "toback",
+      "details.vm",
+      4
+   ],
+   [
+      "toback",
+      "add.vm",
+      4
+   ],
+   [
+      "toback",
+      "procs.sql",
+      2
+   ],
+   [
+      "toback",
+      "global.vm",
+      5
+   ],
+   [
+      "toback",
+      "Template.java",
+      1
+   ],
+   [
+      "toback",
+      "style.vmcss",
+      1
+   ],
+   [
+      "toback",
+      "Instance.java",
+      1
+   ],
+   [
+      "toback",
+      "HardwareModel.java",
       1
    ]
 ]

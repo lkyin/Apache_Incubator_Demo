@@ -1,22 +1,17 @@
 [
    [
+      "Michael Jumper",
+      "oauthController.js",
+      2
+   ],
+   [
       "Nick Couchman",
-      "001-create-schema.sql",
-      12
+      "002-create-admin-user.sql",
+      7
    ],
    [
       "Michael Jumper",
-      "OAuthAuthenticationProviderModule.java",
-      6
-   ],
-   [
-      "Michael Jumper",
-      "openid.css",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "clipboard.css",
+      "Connection.java",
       1
    ],
    [
@@ -26,27 +21,37 @@
    ],
    [
       "Michael Jumper",
-      "SimpleActivityRecordSet.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "ConnectionRecordSet.java",
+      "openidController.js",
       3
    ],
    [
       "Michael Jumper",
-      "TokenService.java",
+      "clipboardService.js",
+      5
+   ],
+   [
+      "Michael Jumper",
+      "TokenValidationService.java",
+      7
+   ],
+   [
+      "Michael Jumper",
+      "indexController.js",
+      1
+   ],
+   [
+      "Nick Couchman",
+      "SQLServerEnvironment.java",
+      6
+   ],
+   [
+      "Ilya Shipitsin",
+      "conf-file.c",
       2
    ],
    [
       "Carl Harris",
-      "AuthenticationSuccessEvent.java",
-      1
-   ],
-   [
-      "Ilya Shipitsin",
-      "rdp_cliprdr.c",
+      "TunnelRequestService.java",
       1
    ],
    [
@@ -56,182 +61,17 @@
    ],
    [
       "Michael Jumper",
-      "ModeledUser.java",
-      2
-   ],
-   [
-      "Carl Harris",
-      "ListenerFacade.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "ListenerService.java",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "SQLServerAuthenticationProviderModule.java",
-      6
-   ],
-   [
-      "Ilya Shipitsin",
-      "display.c",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "openidController.js",
+      "ConnectionRecordSet.java",
       3
    ],
    [
       "Michael Jumper",
-      "openidTokenField.html",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "ModeledConnection.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "HTTPHeaderAuthenticationProvider.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "TokenResponse.java",
+      "SharedUserContext.java",
       4
    ],
    [
-      "Carl Harris",
-      "TunnelRequestService.java",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "SQLServerDriverProperty.java",
-      1
-   ],
-   [
       "Michael Jumper",
-      "OpenIDAuthenticationProvider.java",
-      3
-   ],
-   [
-      "Michael Jumper",
-      "formService.js",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "User.java",
-      2
-   ],
-   [
-      "Michael Jumper",
-      "oauthCodeField.html",
-      2
-   ],
-   [
-      "Carl Harris",
-      "TunnelCloseListener.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "ListenerProvider.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "clipboardService.js",
-      5
-   ],
-   [
-      "Michael Jumper",
-      "NonceService.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "indexController.js",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "openidModule.js",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "ssh.c",
-      2
-   ],
-   [
-      "Michael Jumper",
-      "ActivityRecord.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "oauthController.js",
-      2
-   ],
-   [
-      "Michael Jumper",
-      "UserRecord.java",
-      2
-   ],
-   [
-      "Nick Couchman",
-      "package-info.java",
-      1
-   ],
-   [
-      "sanhex",
-      "ssh.c",
-      2
-   ],
-   [
-      "Carl Harris",
-      "Listener.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "oauthConfig.js",
-      3
-   ],
-   [
-      "Michael Jumper",
-      "APIConnectionRecordSortPredicate.java",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "SQLServerDriver.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "GuacamoleTunnelConnectedException.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "ModeledUserContext.java",
-      3
-   ],
-   [
-      "Carl Harris",
-      "AuthenticationFailureListener.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "OpenIDGuacamoleProperties.java",
+      "GuacamoleSession.java",
       2
    ],
    [
@@ -241,43 +81,8 @@
    ],
    [
       "Michael Jumper",
-      "ActivityRecordSet.java",
+      "ActivityRecord.java",
       1
-   ],
-   [
-      "Michael Jumper",
-      "SharedUserContext.java",
-      4
-   ],
-   [
-      "Michael Jumper",
-      "RemoteAuthenticatedUser.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "oauthModule.js",
-      2
-   ],
-   [
-      "Michael Jumper",
-      "AbstractAuthenticatedUser.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "GuacamoleAuthenticationRejectedException.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "OAuthCodeField.java",
-      6
-   ],
-   [
-      "Michael Jumper",
-      "SimpleUser.java",
-      2
    ],
    [
       "Nick Couchman",
@@ -285,93 +90,23 @@
       1
    ],
    [
-      "Nick Couchman",
-      "002-create-admin-user.sql",
-      7
-   ],
-   [
-      "Michael Jumper",
-      "AbstractGuacamoleTunnelService.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "SimpleConnection.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "DuoAuthenticationProvider.java",
-      1
-   ],
-   [
       "Carl Harris",
-      "TunnelConnectEvent.java",
+      "ListenerFactory.java",
       1
    ],
    [
       "Michael Jumper",
-      "OAuthAuthenticationProvider.java",
-      5
-   ],
-   [
-      "Michael Jumper",
-      "AuthenticationProviderService.java",
-      11
-   ],
-   [
-      "Michael Jumper",
-      "OAuthTokenField.java",
-      3
-   ],
-   [
-      "Michael Jumper",
-      "ConnectionRecord.java",
+      "openidTokenField.html",
       1
    ],
    [
       "Michael Jumper",
-      "GuacamoleSession.java",
+      "SimpleUser.java",
       2
    ],
    [
       "Michael Jumper",
-      "HistoryResource.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "LDAPAuthenticationProvider.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "TunnelConnectListener.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "StandardTokens.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "GuacamoleServletContextListener.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "Extension.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "ConfigurationService.java",
-      10
-   ],
-   [
-      "Ignasi Barrera",
-      "Tunnel.js",
+      "clipboard.css",
       1
    ],
    [
@@ -381,102 +116,97 @@
    ],
    [
       "Michael Jumper",
-      "OAuthGuacamoleProperties.java",
-      7
-   ],
-   [
-      "Michael Jumper",
-      "AuthenticationProviderFacade.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "UserContext.java",
-      8
-   ],
-   [
-      "Michael Jumper",
-      "TokenValidationService.java",
-      7
-   ],
-   [
-      "Michael Jumper",
       "TokenField.java",
       3
    ],
    [
-      "Carl Harris",
-      "AuthenticationSuccessListener.java",
+      "Michael Jumper",
+      "DuoAuthenticationProvider.java",
       1
    ],
    [
       "Michael Jumper",
-      "OpenIDAuthenticationProviderModule.java",
+      "formService.js",
+      1
+   ],
+   [
+      "Carl Harris",
+      "GuacamoleTunnelConnectedException.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "AbstractGuacamoleTunnelService.java",
+      1
+   ],
+   [
+      "sanhex",
+      "ssh.c",
       2
    ],
    [
       "Carl Harris",
-      "ListenerFactory.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "AuthenticatedUser.java",
-      5
-   ],
-   [
-      "Ilya Shipitsin",
-      "conf-file.c",
-      2
-   ],
-   [
-      "Michael Jumper",
-      "CASAuthenticationProvider.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "TunnelCloseEvent.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "SimpleUserContext.java",
-      4
-   ],
-   [
-      "Nick Couchman",
-      "SQLServerGuacamoleProperties.java",
-      5
-   ],
-   [
-      "Michael Jumper",
-      "APIUserWrapper.java",
-      2
-   ],
-   [
-      "Nick Couchman",
-      "SQLServerEnvironment.java",
-      6
-   ],
-   [
-      "Carl Harris",
-      "AuthenticationService.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "InjectedAuthenticationProvider.java",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "SharedConnection.java",
+      "TunnelConnectEvent.java",
       1
    ],
    [
       "Nick Couchman",
       "SQLServerInjectorProvider.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "TokenResponse.java",
+      4
+   ],
+   [
+      "Carl Harris",
+      "AuthenticationFailureListener.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "SimpleActivityRecordSet.java",
+      1
+   ],
+   [
+      "Nick Couchman",
+      "SQLServerAuthenticationProviderModule.java",
+      6
+   ],
+   [
+      "Nick Couchman",
+      "package-info.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "ConnectionRecord.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "ListenerProvider.java",
+      1
+   ],
+   [
+      "Nick Couchman",
+      "001-create-schema.sql",
+      12
+   ],
+   [
+      "Nick Couchman",
+      "SQLServerDriver.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "StandardTokens.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "ConnectionRecordSortPredicate.java",
       1
    ],
    [
@@ -486,7 +216,62 @@
    ],
    [
       "Michael Jumper",
-      "SimpleAuthenticationProvider.java",
+      "AuthenticationProviderService.java",
+      11
+   ],
+   [
+      "Michael Jumper",
+      "TokenService.java",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "OAuthAuthenticationProvider.java",
+      5
+   ],
+   [
+      "Michael Jumper",
+      "oauthModule.js",
+      2
+   ],
+   [
+      "Carl Harris",
+      "AuthenticationService.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "oauthCodeField.html",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "oauthConfig.js",
+      3
+   ],
+   [
+      "Michael Jumper",
+      "UserRecord.java",
+      2
+   ],
+   [
+      "Carl Harris",
+      "Listener.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "AuthenticationSuccessEvent.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "openidModule.js",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "HTTPHeaderAuthenticationProvider.java",
       1
    ],
    [
@@ -496,7 +281,107 @@
    ],
    [
       "Michael Jumper",
-      "ConnectionService.java",
+      "ConfigurationService.java",
+      10
+   ],
+   [
+      "Carl Harris",
+      "AuthenticationSuccessListener.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "GuacamoleAuthenticationRejectedException.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "TunnelCloseEvent.java",
+      1
+   ],
+   [
+      "Nick Couchman",
+      "SQLServerGuacamoleProperties.java",
+      5
+   ],
+   [
+      "Michael Jumper",
+      "InjectedAuthenticationProvider.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "AuthenticatedUser.java",
+      5
+   ],
+   [
+      "Michael Jumper",
+      "User.java",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "ModeledUserContext.java",
+      3
+   ],
+   [
+      "Michael Jumper",
+      "OAuthCodeField.java",
+      6
+   ],
+   [
+      "Michael Jumper",
+      "APIConnectionRecordSortPredicate.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "AuthenticationProviderFacade.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "OAuthGuacamoleProperties.java",
+      7
+   ],
+   [
+      "Carl Harris",
+      "ListenerService.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "GuacamoleServletContextListener.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "ModeledUser.java",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "SimpleAuthenticationProvider.java",
+      1
+   ],
+   [
+      "Ignasi Barrera",
+      "Tunnel.js",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "SharedConnection.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "openid.css",
+      1
+   ],
+   [
+      "Carl Harris",
+      "TunnelConnectListener.java",
       1
    ],
    [
@@ -506,8 +391,8 @@
    ],
    [
       "Michael Jumper",
-      "SharedUser.java",
-      2
+      "RemoteAuthenticatedUser.java",
+      1
    ],
    [
       "Michael Jumper",
@@ -516,12 +401,127 @@
    ],
    [
       "Michael Jumper",
-      "ConnectionRecordSortPredicate.java",
+      "OpenIDAuthenticationProvider.java",
+      3
+   ],
+   [
+      "Ilya Shipitsin",
+      "display.c",
       1
    ],
    [
       "Michael Jumper",
-      "Connection.java",
+      "SimpleConnection.java",
       1
+   ],
+   [
+      "Michael Jumper",
+      "OAuthTokenField.java",
+      3
+   ],
+   [
+      "Ilya Shipitsin",
+      "rdp_cliprdr.c",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "LDAPAuthenticationProvider.java",
+      1
+   ],
+   [
+      "Nick Couchman",
+      "SQLServerDriverProperty.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "ListenerFacade.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "ActivityRecordSet.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "SimpleUserContext.java",
+      4
+   ],
+   [
+      "Michael Jumper",
+      "OAuthAuthenticationProviderModule.java",
+      6
+   ],
+   [
+      "Michael Jumper",
+      "UserContext.java",
+      8
+   ],
+   [
+      "Carl Harris",
+      "Extension.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "NonceService.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "TunnelCloseListener.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "OpenIDAuthenticationProviderModule.java",
+      2
+   ],
+   [
+      "Nick Couchman",
+      "ssh.c",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "HistoryResource.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "ModeledConnection.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "AbstractAuthenticatedUser.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "SharedUser.java",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "OpenIDGuacamoleProperties.java",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "ConnectionService.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "CASAuthenticationProvider.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "APIUserWrapper.java",
+      2
    ]
 ]

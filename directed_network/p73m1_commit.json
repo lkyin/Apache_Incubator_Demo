@@ -1,248 +1,153 @@
 [
    [
+      "Jacky Li",
+      "AbstractMeasureAggregatorDummy.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ListBasedResultCollector.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonMergerRDD.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonLevel.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ColumnGroupModel.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractFactDataWriter.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ColGroupMinMaxTest.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "CarbonDictionaryDecoder.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "BlocksChunkHolder.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonJoins.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonCSVBasedSeqGenStep.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "DataTypeUtil.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonInputFormat_FT.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "NotExpression.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "GenerateDictionaryExample.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "AllDataTypesTestCase1.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ViewFSCarbonFile.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "DummyDoubleAggregator.java",
+      3
+   ],
+   [
+      "ravipesala",
+      "LessThanEqualToExpression.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "BlockletIterator.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "NonFilterScanner.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "ColGroupMinMaxTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryMeasure.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "GenerateDictionaryExample.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CustomTypeDictionaryVisitor.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "RowLevelRangeLessThanFiterExecuterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonInputFormatUtil.java",
+      1
+   ],
+   [
       "Ravindra Pesala",
       "DirectDictionaryGenerator.java",
       1
    ],
    [
-      "jbonofre",
-      "DetailRawRecordQueryExcecutor.java",
+      "Venkata Ramana G",
+      "TimestampDataTypeNullDataTest.scala",
       1
    ],
    [
       "Venkata Ramana G",
-      "RowLevelFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ZooKeeperLocking.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "DetailQueryExecutor.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "TimeStampDirectDictionaryGenerator.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonDictionaryDecoder.scala",
-      4
-   ],
-   [
-      "ravipesala",
-      "SegmentProperties.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonLockFactory.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonDatasourceRelation.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonDictionarySortIndexWriterImplTest.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonCommonConstants.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "RowLevelRangeGrtrThanEquaToFilterExecuterImpl.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "RowResult.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "InternalCountStartQueryExecutor.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "LogicalFilterResolverImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "MinBigDecimalAggregator.java",
-      3
-   ],
-   [
-      "ravipesala",
       "carbonTableSchema.scala",
       3
-   ],
-   [
-      "jbonofre",
-      "GreaterThanExpression.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "data2.csv",
-      1
-   ],
-   [
-      "jbonofre",
-      "Result.java",
-      3
-   ],
-   [
-      "Ravindra Pesala",
-      "LevelNormalizedProps.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "IncludeColGroupFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DetailQueryExecutor.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ColumnGroupDimensionsAggregator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ForwardDictionaryCache.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonCSVBasedSeqGenMeta.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonStrategies.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "NotInExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "SumDistinctLongAggregator.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "SparkUnknownCarbonAggregator.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "KeyVal.scala",
-      2
-   ],
-   [
-      "Jacky Li",
-      "ValueCompressonHolder.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DistinctStringCountAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "RawResultIterator.java",
-      3
-   ],
-   [
-      "chenliang613",
-      "ExcludeColGroupFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "carbonTableSchema.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "NotEqualsExpression.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "RowLevelRangeLessThanFiterExecuterImpl.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "CarbonScalaUtil.scala",
-      2
-   ],
-   [
-      "jbonofre",
-      "ListBasedResultAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryModel.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "DataProcessorException.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ExpressionResult.java",
-      1
-   ],
-   [
-      "GitHub",
-      "InvalidCsvFormatdata.csv",
-      1
-   ],
-   [
-      "sujith71955",
-      "CarbonUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryColumn.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "DetailWithOrderByQueryExecutor.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "AtomicFileOperationsImpl.java",
-      2
    ],
    [
       "chenliang613",
@@ -251,262 +156,97 @@
    ],
    [
       "jbonofre",
-      "DimensionAggregatorInfo.java",
+      "ExpressionAggregator.java",
       1
-   ],
-   [
-      "chenliang613",
-      "CarbonLoaderUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DummyLongAggregator.java",
-      3
-   ],
-   [
-      "Jacky Li",
-      "AvgDoubleAggregator.java",
-      2
    ],
    [
       "ravipesala",
-      "MultiplyExpression.java",
-      1
+      "CarbonSqlParser.scala",
+      2
    ],
    [
       "Jacky Li",
-      "BlockProcessor.java",
+      "CarbonDatasourceRelation.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "CarbonCommonConstants.java",
       1
    ],
    [
       "jbonofre",
-      "ByteArrayWrapper.java",
+      "GreaterThanEqualToExpression.java",
       2
    ],
    [
-      "sujith71955",
-      "CarbonIndexFileWriter.java",
+      "Venkata Ramana G",
+      "ColGroupFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "StoreFactory.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "AvgLongAggregator.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "CustomAggregatorHelper.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractAvgAggregator.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "AllDataTypesTestCaseAggregate.scala",
       1
    ],
    [
       "Ravindra Pesala",
-      "CarbonUtil.java",
-      4
-   ],
-   [
-      "sujith71955",
-      "CarbonMetadataUtil.java",
+      "RowLevelFilterExecuterImpl.java",
       1
    ],
    [
       "jbonofre",
-      "DistinctCountAggregator.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "CarbonMergerRDD.scala",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "MDKeyGenStep.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CountAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "MeasureAggregatorUDT.scala",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonDictionaryWriterImpl.java",
+      "DictionaryColumnVisitor.java",
       2
    ],
    [
-      "jbonofre",
-      "DirectDictionaryDimensionAggregator.java",
-      2
+      "Ravindra Pesala",
+      "CarbonRawOperators.scala",
+      1
    ],
    [
       "jbonofre",
+      "OrExpression.java",
+      2
+   ],
+   [
+      "chenliang613",
       "FileStoreSurrogateKeyGenForCSV.java",
       1
    ],
    [
-      "chenliang613",
-      "CommonUtil.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "ChunkBasedResultIterator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "datawithmaxinteger.csv",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonDictionaryMetadataReaderImpl.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "FileData.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractDistinctCountAggregatorObjectSet.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDataWriter.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ColumnGroupDataTypesTestCase.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "QueryExecutor.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonOperators.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CustomAggregateExpression.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ColumnGroupDimensionDataChunk.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ExcludeColGroupFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryPartitionHelper.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "ValueCompressionUtil.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "AndFilterResolverImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonQueryImpl.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "QueryExecutorFactory.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonCatalystOperators.scala",
-      2
-   ],
-   [
-      "jbonofre",
-      "DimensionDataAggregator.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "AbstractFactDataWriter.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "ListBasedResultAggregator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "NullMeasureValueTestCaseAggregate.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DetailRawRecordQueryExecutor.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractQueryResultPreparator.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "QueryResultPreparatorImpl.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "DetailRawQueryResultIterator.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonInputMapperTest.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
+      "sujith71955",
       "CarbonUtil.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "RowImpl.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "RowResultMerger.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "HDFSFileHolderImpl.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "CarbonLoaderUtil.java",
       1
    ],
    [
       "chenliang613",
-      "RowLevelRangeTypeExecuterFacory.java",
+      "MultiplyExpression.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonFactDataHandlerColumnar.java",
       1
    ],
    [
@@ -515,108 +255,58 @@
       2
    ],
    [
-      "jbonofre",
-      "TestDeleteTableNewDDL.scala",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "AbstractFactDataWriter.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "ScannedResultMerger.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "OrFilterExecuterImpl.java",
+      "ravipesala",
+      "DataFileFooterConverter.java",
       2
    ],
    [
       "jbonofre",
-      "NotExpression.java",
-      2
+      "SumDistinctBigDecimalAggregator.java",
+      3
    ],
    [
-      "jbonofre",
-      "ICarbonLock.java",
+      "GitHub",
+      "StandardLogService.java",
       1
    ],
    [
-      "jbonofre",
-      "QuerySchemaInfo.java",
+      "Venkata Ramana G",
+      "FilterExpressionProcessor.java",
       2
    ],
    [
       "jbonofre",
-      "SparkUnknownExpression.scala",
+      "SumDoubleAggregator.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "RowIntf.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "carbonTableSchema.scala",
+      3
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonDictionaryMetadataReaderImpl.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "DictionaryDetailHelper.scala",
       1
    ],
    [
       "chenliang613",
-      "RowLevelRangeFilterResolverImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonMeasureFilter.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "FixedLengthDimensionDataChunk.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DirectDictionaryKeyGeneratorFactory.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "IncludeFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "ExpressionResult.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDeleteLoadRDD.scala",
-      1
-   ],
-   [
-      "ravipesala",
       "SubstractExpression.java",
       1
    ],
    [
-      "jbonofre",
-      "QueryExecutionException.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonOperators.scala",
-      4
-   ],
-   [
-      "ravipesala",
-      "StoreFactory.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DistinctCountBigDecimalAggregatorObjectSet.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "DistinctCountAggregatorObjectSet.java",
+      "sujith71955",
+      "AbstractFactDataWriter.java",
       1
    ],
    [
@@ -625,88 +315,153 @@
       1
    ],
    [
-      "Venkata Ramana G",
-      "TestLoadTblNameIsKeyword.scala",
-      1
-   ],
-   [
       "jbonofre",
-      "CarbonFactDataHandlerModel.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "EquiJoinTestCase.scala",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "GraphGenerator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ColGroupFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "TableIdentifier.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "ColumnExpression.java",
+      "LeafExpression.java",
       2
    ],
    [
       "jbonofre",
-      "CarbonCalculatedMeasure.java",
+      "CarbonAverage.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "AvgLongAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ConditionalFilterResolverImpl.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "PathFactory.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "datawithmaxmininteger.csv",
+      1
+   ],
+   [
+      "jbonofre",
+      "ObjectSerializationUtilTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "SortedScannedResultMerger.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ListBasedResultAggregator.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonDictionaryReaderImpl.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "BlockExecutionInfo.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractMaxAggregator.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "QueryUtil.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "FilterProcessorTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "ResultMergerException.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "AbstractDictionaryCacheTest.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
+      "SegmentProperties.java",
       1
    ],
    [
       "chenliang613",
-      "FileStoreSurrogateKeyGenForCSV.java",
+      "RawResultIterator.java",
       1
    ],
    [
-      "Jacky Li",
-      "CarbonMetadata.java",
+      "jbonofre",
+      "CarbonOptimizer.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "ChunkRawRowIterartor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ColumnGroupDimensionsAggregator.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "AllDataTypesTestCase2.scala",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "datawithcomplexspecialchar.csv",
       1
    ],
    [
       "Ravindra Pesala",
-      "CarbonSQLDialect.scala",
+      "BlockDataHandler.java",
       1
-   ],
-   [
-      "jbonofre",
-      "QueryPlanUtil.scala",
-      1
-   ],
-   [
-      "GitHub",
-      "CarbonDataRDDFactory.scala",
-      1
-   ],
-   [
-      "GitHub",
-      "CsvInput.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonFactDataWriterImplForIntIndexAndAggBlock.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "RawQueryResultPreparatorImpl.java",
-      4
    ],
    [
       "Vimal-Das",
-      "CsvInputData.java",
+      "carbonTableSchema.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "LocalFileLock.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "SubstractExpression.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonDictionaryDecoder.scala",
+      4
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonLoaderUtil.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "FilterUtil.java",
       2
    ],
    [
@@ -716,8 +471,133 @@
    ],
    [
       "jbonofre",
-      "MapBasedResultAggregator.java",
+      "CarbonAggregates.scala",
       1
+   ],
+   [
+      "jbonofre",
+      "StoreCreator.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "IncludeFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "RowResultMerger.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "AndExpression.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "data2.csv",
+      1
+   ],
+   [
+      "jbonofre",
+      "DataRetentionTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "ExpressionResult.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "FilterIllegalMemberException.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "RestructureFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "AtomicFileOperations.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonSliceAndFiles.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ICarbonLock.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonCSVBasedSeqGenMeta.java",
+      1
+   ],
+   [
+      "david",
+      "GlobalDictionaryUtil.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "DivideExpression.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DimensionAggregatorInfo.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "DataRetentionTestCase.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "TestCarbonSqlParser.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryExecutorProperties.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "AvgBigDecimalAggregator.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "FilterResolverIntf.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "AggregateQueryBlockProcessor.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "TestLoadTblNameIsKeyword.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "IFileManagerComposite.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MeasureAggregatorFactory.java",
+      2
    ],
    [
       "jbonofre",
@@ -725,73 +605,258 @@
       3
    ],
    [
-      "jbonofre",
-      "ChunkBasedDetailResultIterator.java",
-      2
+      "david",
+      "CarbonProperties.java",
+      1
    ],
    [
-      "Kumar Vishal",
-      "ColumnGroupDimensionDataChunk.java",
+      "jbonofre",
+      "AbstractScannedResultMerger.java",
       1
    ],
    [
       "ravipesala",
-      "KeyVal.scala",
+      "MultiplyExpression.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "HierarchyValueWriterForCSV.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonStrategy.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "GlobalDictionaryUtil.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "LessThanExpression.java",
       1
    ],
    [
       "jbonofre",
-      "TopCount.java",
+      "CarbonInputFormat.java",
       1
    ],
    [
       "jbonofre",
-      "BinaryExpression.java",
+      "AvgDoubleAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "LogicalFilterResolverImpl.java",
       2
    ],
    [
       "Venkata Ramana G",
-      "SegmentStatusManager.java",
-      2
+      "CarbonDictionarySortIndexReaderImplTest.java",
+      1
    ],
    [
       "jbonofre",
-      "CarbonMember.java",
+      "FixedLengthKeyResultComparator.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "MDKeyGenStep.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "EquiJoinTestCase.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "RowLevelRangeGrtrThanEquaToFilterExecuterImpl.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "DetailRawRecordQueryExecutor.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "InternalAbstractQueryExecutor.java",
       1
    ],
    [
       "sujith71955",
-      "SegmentTaskIndexStore.java",
+      "CarbonTablePath.java",
       1
    ],
    [
       "jbonofre",
-      "BinaryConditionalExpression.java",
-      2
+      "CarbonQueryRDD.scala",
+      1
    ],
    [
       "Venkata Ramana G",
-      "RowLevelRangeLessThanEqualFilterExecuterImpl.java",
-      3
-   ],
-   [
-      "ravipesala",
-      "ColumnDictionaryInfo.java",
+      "IncludeColGroupFilterExecuterImpl.java",
       1
    ],
    [
-      "ravipesala",
-      "CarbonSqlParser.scala",
+      "Jacky Li",
+      "InternalDetailQueryExecutor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DetailWithOrderByQueryExecutor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DataCompactionNoDictionaryTest.scala",
+      1
+   ],
+   [
+      "sujith71955",
+      "ThriftReader.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "StoreCreator.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "GraphGenerator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "SparkRowReadSupportImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryRunner.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "LiteralExpression.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "CarbonSchemaParser.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryExecutor_UT.java",
       2
    ],
    [
       "jbonofre",
-      "QueryUtil.java",
-      4
+      "DistinctCountAggregatorObjectSet.java",
+      1
    ],
    [
-      "ravipesala",
-      "ThriftWrapperSchemaConverterImpl.java",
+      "jbonofre",
+      "FilterResolverIntf.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "BlockProcessor.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "DataCompactionTest.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "FilterUtil.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "FileWriteOperation.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "InternalDetailWithOrderQueryExecutor.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "CalculatedMeasureAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DimensionDataAggregator.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "RowLevelRangeGrtrThanEquaToFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "DataLoadModel.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "MDKeyGenStep.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "GreaterThanExpression.java",
+      2
+   ],
+   [
+      "Kumar Vishal",
+      "CarbonMetadataUtil.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ZooKeeperLockingTest.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "AbstractScannedResultMerger.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "NotExpression.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonSQLDialect.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "data2_DiffTimeFormat.csv",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "DataGraphExecuter.java",
       1
    ],
    [
@@ -800,8 +865,113 @@
       2
    ],
    [
-      "Venkata Ramana G",
-      "datasamplenull.csv",
+      "Jacky Li",
+      "QueryTest.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "AggregatorInfo.java",
+      3
+   ],
+   [
+      "chenliang613",
+      "schema.thrift",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonLoaderUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonScanRDD.scala",
+      4
+   ],
+   [
+      "Jacky Li",
+      "DummyBigDecimalAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FilterExecuter.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "ResolvedFilterInfoVisitorIntf.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "ListBasedResultAggregator.java",
+      1
+   ],
+   [
+      "GitHub",
+      "CsvInput.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FilterExpressionProcessor.java",
+      2
+   ],
+   [
+      "GitHub",
+      "CarbonMetastoreCatalog.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonMember.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "AbstractMeasureAggregatorBasic.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "CarbonStrategies.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "RestructureFilterResolverImpl.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "CarbonAverage.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "RowLevelRangeGrtrThanEquaToFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "CommonUtil.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "HdfsFileLock.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "QueryModel.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "CarbonDatasourceRelation.scala",
       1
    ],
    [
@@ -811,42 +981,97 @@
    ],
    [
       "jbonofre",
-      "datawithmininteger.csv",
+      "LockUsage.java",
       1
    ],
    [
-      "jbonofre",
-      "CarbonAggregate.scala",
+      "Ravindra Pesala",
+      "CarbonMetastoreCatalog.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonMergerUtil.java",
       1
    ],
    [
       "Kumar Vishal",
-      "RowResultMerger.java",
+      "ColumnGroupModel.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonSqlParser.scala",
+      3
+   ],
+   [
+      "jbonofre",
+      "AbstractMinAggregator.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "LockUsage.java",
       1
    ],
    [
       "jbonofre",
-      "MaxLongAggregator.java",
+      "AbstractDataBlockIterator.java",
       3
    ],
    [
-      "Vimal-Das",
-      "TestLoadDataWithHiveSyntax.scala",
+      "jbonofre",
+      "CarbonOperators.scala",
+      4
+   ],
+   [
+      "jbonofre",
+      "CarbonTuple.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MDKeyGenStep.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "RowLevelRangeLessThanEqualFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "ReverseDictionaryCache.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "NotInExpression.java",
+      1
+   ],
+   [
+      "GitHub",
+      "CarbonCSVBasedSeqGenStep.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "NonFilterQueryScannedResult.java",
       2
    ],
    [
       "jbonofre",
-      "InternalAbstractQueryExecutor.java",
+      "SegmentStatusManager.java",
       1
    ],
    [
-      "jbonofre",
-      "DataAggregator.java",
+      "Venkata Ramana G",
+      "GrtLtFilterProcessorTestCase.scala",
       1
    ],
    [
-      "chenliang613",
-      "AddExpression.java",
+      "sujith71955",
+      "CarbonMetadataUtil.java",
       1
    ],
    [
@@ -855,83 +1080,73 @@
       2
    ],
    [
-      "Kumar Vishal",
-      "CarbonFactDataWriterImplForIntIndexAndAggBlock.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ColumnUniqueIdGenerator.java",
-      1
-   ],
-   [
-      "GitHub",
-      "carbonTableSchema.scala",
-      1
+      "jbonofre",
+      "AbstractDetailQueryResultIterator.java",
+      5
    ],
    [
       "jbonofre",
-      "FilterResolverIntf.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "TimeStampDirectDictionaryGenerator.java",
-      2
+      "MeasureColumnResolvedFilterInfo.java",
+      3
    ],
    [
       "jbonofre",
-      "CarbonKey.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "InternalAggregationQueryExecutor.java",
+      "VariableLengthDimensionAggregator.java",
       1
    ],
    [
       "Ravindra Pesala",
-      "CarbonOperators.scala",
+      "QueryExecutionException.java",
       1
    ],
    [
-      "jbonofre",
-      "EqualToExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
+      "Jacky Li",
       "AbstractDataBlockProcessor.java",
       1
    ],
    [
       "jbonofre",
-      "ZookeeperInit.java",
+      "ColGroupMinMax.java",
       1
    ],
    [
       "jbonofre",
-      "AutoHighCardinalityIdentifyTestCase.scala",
+      "AddExpression.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "FileFactory.java",
       1
    ],
    [
-      "sujith71955",
-      "CarbonTablePath.java",
+      "Ravindra Pesala",
+      "ExpressionResult.java",
       1
    ],
    [
-      "ravipesala",
-      "DirectDictionaryDimensionAggregator.java",
-      1
+      "Venkata Ramana G",
+      "DataCompactionLockTest.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "DummyLongAggregator.java",
+      3
    ],
    [
       "Jacky Li",
-      "AbstractMeasureAggregatorBasic.java",
+      "CarbonCommonConstants.java",
       1
    ],
    [
-      "Vimal-Das",
-      "StoreCreator.java",
+      "chenliang613",
+      "RowLevelFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "DictionaryCacheLoader.java",
       1
    ],
    [
@@ -940,54 +1155,289 @@
       1
    ],
    [
-      "Ravindra Pesala",
-      "CustomAggregatorHelper.java",
+      "Venkata Ramana G",
+      "DictionaryCacheLoaderImpl.java",
       1
    ],
    [
       "jbonofre",
-      "RowIntf.java",
+      "InternalDetailQueryExecutor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "LocalFileLock.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "RowLevelRangeTypeExecuterFacory.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonDatasourceRelation.scala",
+      1
+   ],
+   [
+      "GitHub",
+      "BlockDataHandler.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "UnBlockIndexer.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "DetailQueryExecutor.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "HDFSFileHolderImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DataBlockIteratorImpl.java",
       2
    ],
    [
       "chenliang613",
-      "CarbonScanRDD.scala",
+      "LessThanExpression.java",
       1
    ],
    [
       "jbonofre",
-      "RowLevelFilterExecuterImpl.java",
+      "SumBigDecimalAggregator.java",
       3
    ],
    [
       "jbonofre",
-      "CarbonRawAggregate.scala",
+      "QueryColumn.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "ScannedResultCollector.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ZookeeperInit.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonCommonFactory.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "SegmentProperties.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DimColumnResolvedFilterInfo.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "DataCompactionLockTest.scala",
+      1
+   ],
+   [
+      "GitHub",
+      "GraphGenerator.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "LevelNormalizedProps.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractDistinctCountAggregatorObjectSet.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "HighCardinalityDataTypesTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryModel.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "RawQueryResultPreparatorImpl.java",
+      4
+   ],
+   [
+      "Venkata Ramana G",
+      "ColumnGroupDataTypesTestCase.scala",
+      1
+   ],
+   [
+      "sujith71955",
+      "DataFileFooterConverter.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ZookeeperInit.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "UnknownExpression.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "IncludeFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "EqualToExpression.java",
       1
    ],
    [
       "ravipesala",
+      "KeyVal.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "carbonTableSchema.scala",
+      3
+   ],
+   [
+      "sujith71955",
+      "CarbonPathFilter.java",
+      1
+   ],
+   [
+      "sujith71955",
+      "CarbonIndexFileReader.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MinBigDecimalAggregator.java",
+      3
+   ],
+   [
+      "Vimal-Das",
+      "CarbonLoaderUtil.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ColGroupFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "DirectDictionaryDimensionAggregator.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "CsvInputData.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "AutoHighCardinalityIdentifyTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonSliceMergerUtil.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "OrExpression.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "SparkRowReadSupportImpl.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "AvgDoubleAggregator.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonAggregates.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "DirectDictionaryDimensionAggregator.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
       "RowResultMerger.java",
       1
    ],
    [
       "jbonofre",
-      "ZooKeeperLocking.java",
+      "MeasureDataAggregator.java",
       1
    ],
    [
-      "Vimal-Das",
-      "CsvInput.java",
-      2
+      "Ravindra Pesala",
+      "ScannedResultCollector.java",
+      1
    ],
    [
-      "Venkata Ramana G",
-      "TimestampDataTypeNullDataTest.scala",
+      "Ravindra Pesala",
+      "FilterProcessorTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "DataTypeUtil.java",
+      3
+   ],
+   [
+      "chenliang613",
+      "GreaterThanEqualToExpression.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryPlanUtil.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "GraphConfigurationInfo.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "carbonTableSchema.scala",
       1
    ],
    [
       "ravipesala",
-      "DataType.java",
-      2
+      "EqualToExpression.java",
+      1
    ],
    [
       "jbonofre",
@@ -995,78 +1445,28 @@
       3
    ],
    [
-      "jbonofre",
-      "ListBasedResultWrapper.java",
-      3
-   ],
-   [
-      "david",
-      "CarbonCSVBasedSeqGenStep.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "RowLevelRangeLessThanFiterExecuterImpl.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "ColGroupMinMaxTest.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonOptimizer.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractMinAggregator.java",
+      "Vimal-Das",
+      "CsvInputMeta.java",
       1
    ],
    [
       "chenliang613",
-      "NotExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonFactDataHandlerColumnar.java",
+      "AndFilterResolverImpl.java",
       1
    ],
    [
       "Ravindra Pesala",
+      "SegmentStatusManager.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
       "QueryUtil.java",
       1
    ],
    [
-      "ravipesala",
-      "CarbonCommonConstants.java",
-      1
-   ],
-   [
       "Venkata Ramana G",
-      "CarbonDictionaryWriterImplTest.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonCleanFilesRDD.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AvgBigDecimalAggregator.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "QueryDimension.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "AndFilterResolverImpl.java",
+      "HighCardinalityDataTypesTestCase.scala",
       2
    ],
    [
@@ -1076,7 +1476,157 @@
    ],
    [
       "jbonofre",
-      "CarbonLevel.java",
+      "KeyVal.scala",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "CustomAggregatorHelper.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "VariableLengthKeyResultComparator.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "BlockDataHandler.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonLockFactory.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonValue.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonStrategies.scala",
+      3
+   ],
+   [
+      "Ravindra Pesala",
+      "ColumnarKeyStoreInfo.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDropTableRDD.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "FilterScanner.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "InternalFunctionQueryExecutor.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "IDataProcessStatus.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "SchemaReader.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "AndFilterResolverImpl.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "CarbonOptimizer.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "LoadMetadataDetails.java",
+      1
+   ],
+   [
+      "GitHub",
+      "carbonTableSchema.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "ListExpression.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "TimeStampDirectDictionaryGenerator.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "Axis.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "DistinctCountAggregator.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonUtil.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "LessThanExpression.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "AbstractMeasureAggregatorDummy.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonAggregationExpression.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ColumnExpression.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonFilters.scala",
+      3
+   ],
+   [
+      "jbonofre",
+      "MeasureAggregatorUDT.scala",
+      1
+   ],
+   [
+      "Jacky Li",
+      "AbstractMinAggregator.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonUtil.java",
+      4
+   ],
+   [
+      "chenliang613",
+      "ColumnExpression.java",
       1
    ],
    [
@@ -1085,53 +1635,93 @@
       1
    ],
    [
+      "chenliang613",
+      "FilterUnsupportedException.java",
+      1
+   ],
+   [
       "jbonofre",
-      "DimColumnExecuterFilterInfo.java",
+      "ByteArrayWrapper.java",
       2
    ],
    [
-      "jbonofre",
-      "FilterResolverMetadata.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "LessThanEqualToExpression.java",
+      "Venkata Ramana G",
+      "ColumnSchema.java",
       1
    ],
    [
-      "GitHub",
-      "StandardLogService.java",
+      "chenliang613",
+      "IncludeColGroupFilterExecuterImpl.java",
       1
    ],
    [
       "jbonofre",
-      "CarbonBoundReference.scala",
+      "AllDataTypesTestCase2.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonLockFactory.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "FileData.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "RowLevelRangeFilterResolverImpl.java",
       1
    ],
    [
       "jbonofre",
-      "FixedLengthKeyResultComparator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "OrExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonCompactionExecutor.java",
+      "AbstractQueryResultPreparator.java",
       3
    ],
    [
+      "Venkata Ramana G",
+      "RowLevelRangeLessThanEqualFilterExecuterImpl.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "BatchResult.java",
+      4
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonDictionaryWriterImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "ChunkRowIterator.java",
+      4
+   ],
+   [
       "Jacky Li",
-      "MeasureAggregator.java",
+      "DetailQueryExecutor.java",
       1
    ],
    [
       "jbonofre",
-      "CarbonCount.scala",
+      "ExpressionType.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "AbstractDataBlockIterator.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "RowLevelRangeTypeExecuterFacory.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
+      "CarbonUtil.java",
       1
    ],
    [
@@ -1141,13 +1731,23 @@
    ],
    [
       "ravipesala",
-      "DataTypeUtil.java",
-      2
+      "InExpression.java",
+      1
    ],
    [
       "jbonofre",
-      "RowLevelRangeTypeExecuterFacory.java",
-      2
+      "CarbonQueryPlan.java",
+      3
+   ],
+   [
+      "Jacky Li",
+      "ValueCompressonHolder.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "SumDistinctDoubleAggregator.java",
+      3
    ],
    [
       "Kumar Vishal",
@@ -1155,8 +1755,113 @@
       1
    ],
    [
+      "Venkata Ramana G",
+      "CarbonColumn.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "DistinctCountAggregatorObjectSet.java",
+      2
+   ],
+   [
+      "Vimal-Das",
+      "CarbonQueryRDD.scala",
+      1
+   ],
+   [
+      "Jacky Li",
+      "DirectDictionaryKeyGeneratorFactory.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "QueryUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CustomTypeDictionaryVisitor.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "LockUsage.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "GlobalDictionaryUtilTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "RowLevelFilterResolverImpl.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "schema.thrift",
+      1
+   ],
+   [
+      "Kumar Vishal",
+      "CarbonFactDataWriterImplForIntIndexAndAggBlock.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FunctionQueryExecutor.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ReverseDictionaryCacheTest.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ThriftWrapperSchemaConverterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AllDataTypesTestCase1.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "RowResult.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "DataCompactionCardinalityBoundryTest.scala",
+      1
+   ],
+   [
       "chenliang613",
-      "CarbonStrategy.scala",
+      "carbonTableSchema.scala",
+      2
+   ],
+   [
+      "Jacky Li",
+      "ListBasedResultAggregator.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonSliceMergerStep.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "InExpression.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "package.scala",
       1
    ],
    [
@@ -1166,23 +1871,98 @@
    ],
    [
       "jbonofre",
-      "CarbonValue.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "LogicalFilterResolverImpl.java",
+      "TopCount.java",
       1
    ],
    [
       "Jacky Li",
-      "ListBasedResultCollector.java",
+      "AbstractDistinctCountAggregatorObjectSet.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "RowLevelRangeTypeExecuterFacory.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "CarbonLoaderUtil.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "InExpression.java",
       1
    ],
    [
       "ravipesala",
-      "CarbonDataMergerUtil.java",
+      "DataType.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "DetailRawRecordQueryExecutor.java",
       1
+   ],
+   [
+      "jbonofre",
+      "DetailQueryResultPreparatorImpl.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "datawithmininteger.csv",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "DataProcessTaskStatus.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ForwardDictionaryCacheTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDimensionLevelFilter.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "ConditionalFilterResolverImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "TupleConversionAdapter.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "TimeStampDirectDictionaryGenerator.java",
+      2
+   ],
+   [
+      "Kumar Vishal",
+      "MDKeyGenStep.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "AvgTimestampAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FixedLengthDimensionAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MinAggregator.java",
+      3
    ],
    [
       "Venkata Ramana G",
@@ -1190,63 +1970,18 @@
       2
    ],
    [
-      "chenliang613",
-      "AbstractDictionaryDecodedReadSupport.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryExecutorFactory.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "SumTimestampAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "MeasureColumnResolvedFilterInfo.java",
+      "Venkata Ramana G",
+      "RowLevelRangeGrtThanFiterExecuterImpl.java",
       3
    ],
    [
-      "chenliang613",
-      "DivideExpression.java",
+      "Kumar Vishal",
+      "ColGroupMinMax.java",
       1
    ],
    [
-      "jbonofre",
-      "CarbonQuery.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "GraphGenerator.java",
-      1
-   ],
-   [
-      "GitHub",
-      "GraphGenerator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AtomicFileOperations.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "RowLevelRangeGrtrThanEquaToFilterExecuterImpl.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "emp2allnull.csv",
-      1
-   ],
-   [
-      "chenliang613",
-      "GraphConfigurationInfo.java",
+      "Jacky Li",
+      "CarbonAggregationExpression.scala",
       1
    ],
    [
@@ -1255,18 +1990,1073 @@
       2
    ],
    [
-      "Jacky Li",
-      "DataBlockIteratorImpl.java",
+      "Kumar Vishal",
+      "CarbonFactDataHandlerModel.java",
       1
    ],
    [
       "Ravindra Pesala",
+      "CarbonProperties.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "ExcludeColGroupFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "NoDictionaryTypeVisitor.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "datawithmaxinteger.csv",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDataRDDFactory.scala",
+      3
+   ],
+   [
+      "jbonofre",
+      "TimestampDataTypeDirectDictionaryTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "RowImpl.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "InternalAbstractQueryExecutor.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "IncludeFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ListExpression.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "ExcludeFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "GraphGenerator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryExecutionException.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DSLTransformation.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DimColumnExecuterFilterInfo.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonQuery.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonCSVBasedSeqGenStep.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonIterator.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CountStarQueryExecutor.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "DistinctStringCountAggregator.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "DFSFileHolderImpl.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "GenerateDictionaryExample.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "GlobalDictionaryUtil.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "SumTimestampAggregator.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "GlobalDictionaryUtilTestCase.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "AddExpression.java",
+      1
+   ],
+   [
+      "david",
+      "CarbonExample.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "CountAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonSqlParser.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "DataAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DataPartitioner.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "ExpressionResult.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDataFileAttributes.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "ColumnGroupModel.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonMetastoreCatalog.scala",
+      1
+   ],
+   [
+      "Jacky Li",
+      "DetailRawRecordQueryExecutor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonRawAggregate.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonCatalystOperators.scala",
+      2
+   ],
+   [
+      "chenliang613",
+      "CarbonSparkFactory.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "DictionaryFactory.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "CustomMeasureAggregator.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonCommonConstants.java",
+      3
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonContext.scala",
+      1
+   ],
+   [
+      "Jacky Li",
+      "CarbonMetastoreCatalog.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonStrategy.scala",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "TestBigDecimal.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "FileStoreSurrogateKeyGenForCSV.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AggregationQueryExecutor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ColGroupFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "GitHub",
+      "InvalidCsvFormatdata.csv",
+      1
+   ],
+   [
+      "jbonofre",
+      "AndFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "RowLevelRangeGrtThanFiterExecuterImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "FilterExecuterType.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonDictionaryWriterImplTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FactTableAggregator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractBlockletScanner.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "UnaryExpression.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "CarbonDictionarySortModel.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "TimeStampDirectDictionaryGenerator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "SumDistinctLongAggregator.java",
+      3
+   ],
+   [
+      "Vimal-Das",
+      "CarbonLoadModel.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FileData.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DataType.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonQueryUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonBoundReference.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonCSVBasedSeqGenStep.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "NotInExpression.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
+      "CarbonFactDataHandlerColumnar.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "RowLevelRangeLessThanEqualFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FileManager.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonOperators.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "FilterUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DetailRawQueryResultIterator.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "ListBasedResultCollector.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "InitForExamples.scala",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "LocalFileLock.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "LocalFileLockTest.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "ThriftWrapperSchemaConverterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AvgBigDecimalAggregator.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "emp2allnull.csv",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ColumnGroupDimensionDataChunk.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "MeasureAggregator.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonGlobalDictionaryRDD.scala",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "QueryUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonMeasure.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
+      "ColumnGroupDataTypesTestCase.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "BinaryExpression.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "RowResultMerger.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "DataFileFooterConverter.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "GreaterThanEqualToExpression.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ColumnUniqueIdService.java",
+      1
+   ],
+   [
+      "sujith71955",
+      "SegmentTaskIndexStoreTest.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "CarbonOperators.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "FileFooterValidator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "TestLoadDataWithMaxMinInteger.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonColumnValidator.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "BlockletScanner.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonLoaderUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ChunkBasedDetailResultIterator.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "CountAggregator.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "AtomicFileOperationsImpl.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ExcludeFilterExecuterImpl.java",
+      3
+   ],
+   [
+      "Venkata Ramana G",
+      "NullMeasureValueTestCaseFilter.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "AbstractFactDataWriter.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "ConditionalFilterResolverImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonCleanFilesRDD.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ColumnIdentifier.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "CarbonTablePath.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonInputMapperTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "EqualToExpression.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "NullMeasureValueTestCaseAggregate.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "MaxLongAggregator.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "SumLongAggregator.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "DataProcessorException.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "BitSet.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "Expression.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "TableIdentifier.scala",
+      1
+   ],
+   [
+      "Jacky Li",
+      "ScannedResultAggregator.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "FilterUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonLevelHolder.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonScanRDD.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "DirectDictionaryDimensionAggregator.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonDropCubeRDD.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonDatasourceRelation.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "CustomAggregateExpression.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "PathService.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonSQLConf.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "InternalAggregationQueryExecutor.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "datawithescapecharacter.csv",
+      1
+   ],
+   [
+      "jbonofre",
+      "DistinctCountAggregator.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "InternalDetailQueryExecutor.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "InternalQueryExecutor.java",
+      1
+   ],
+   [
+      "david",
+      "carbonTableSchema.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryUtil.java",
+      4
+   ],
+   [
+      "jbonofre",
+      "SparkUnknownExpression.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "ICarbonLock.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ConditionalExpression.java",
+      2
+   ],
+   [
+      "david",
+      "CarbonCSVBasedSeqGenStep.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MinLongAggregator.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "CarbonCount.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "CarbonDataRDDFactory.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "TestLoadDataWithMalformedCarbonCommandException.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "FilterInfoTypeVisitorFactory.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "SortOrderType.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "QueryPartitionHelper.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDeleteLoadRDD.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "AddExpression.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonScalaUtil.scala",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "RawResultIterator.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonSqlParser.scala",
+      2
+   ],
+   [
+      "Jacky Li",
+      "DetailQueryBlockProcessor.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "TestLoadDataWithHiveSyntax.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "NotInExpression.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "AbstractDictionaryDecodedReadSupport.java",
+      1
+   ],
+   [
+      "GitHub",
+      "CsvInputMeta.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonTablePath.java",
+      4
+   ],
+   [
+      "jbonofre",
+      "DistinctCountLongAggregatorObjectSet.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "HDFSCarbonFile.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "DistinctCountLongAggregatorObjectSet.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "CarbonOptimizer.scala",
+      1
+   ],
+   [
+      "chenliang613",
+      "GreaterThanExpression.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ZooKeeperLocking.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "RawResultIterator.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "Expression.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "NotEqualsExpression.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "PartitionImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDecoderOptimizerHelper.scala",
+      1
+   ],
+   [
+      "jbonofre",
       "AbstractCarbonLock.java",
       1
    ],
    [
       "jbonofre",
+      "CarbonFactDataWriterImplForIntIndexAndAggBlock.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "CarbonCount.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "OrFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonMeasureFilter.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MaxAggregator.java",
+      3
+   ],
+   [
+      "Ravindra Pesala",
+      "AtomicFileOperationsImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonRawQueryRDD.scala",
+      2
+   ],
+   [
+      "Kumar Vishal",
+      "AbstractFactDataWriter.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "AbstractDFSCarbonFile.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
+      "CarbonFooterWriterTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ListBasedResultWrapper.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "ColGroupDataHolder.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "BinaryConditionalExpression.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "AndFilterResolverImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "ColumnGroupModel.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "DataTypeUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "RestructureUtil.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonFilterInfo.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MultiplyExpression.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "DistinctCountBigDecimalAggregatorObjectSet.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonDataMergerUtil.java",
+      4
+   ],
+   [
+      "Venkata Ramana G",
+      "RowLevelFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDropAggregateTableRDD.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "CarbonUtil.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonRawStrategies.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonStrategies.scala",
+      1
+   ],
+   [
+      "GitHub",
+      "CarbonDataRDDFactory.scala",
+      1
+   ],
+   [
+      "ravipesala",
+      "ColumnDictionaryInfo.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "Result.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "DistinctStringCountAggregator.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "CarbonMetadata.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "LogicalFilterResolverImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
       "ScannedResultCollector.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ForwardDictionaryCache.java",
+      1
+   ],
+   [
+      "Vimal-Das",
+      "CsvInput.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "AllDataTypesTestCase6.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonKey.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "RowLevelRangeFilterResolverImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "BinaryArithmeticExpression.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "ValueCompressionUtil.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonMetastoreCatalog.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractScannedResult.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "FileWriteOperation.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "DetailRawRecordQueryExcecutor.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "QueryExecutorFactory.java",
       1
    ],
    [
@@ -1280,168 +3070,78 @@
       2
    ],
    [
+      "Venkata Ramana G",
+      "LocalFileLock.java",
+      1
+   ],
+   [
       "jbonofre",
-      "ChunkRawRowIterartor.java",
-      1
+      "DetailQueryResultIterator.java",
+      4
    ],
    [
-      "chenliang613",
-      "ListExpression.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "InExpression.java",
+      "ravipesala",
+      "CarbonScalaUtil.scala",
       1
    ],
    [
       "Ravindra Pesala",
-      "InternalAbstractQueryExecutor.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "IncludeFilterExecuterImpl.java",
+      "StoreFactory.java",
       2
-   ],
-   [
-      "chenliang613",
-      "CarbonLoaderUtilTest.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonRecordReader.java",
-      3
-   ],
-   [
-      "ravipesala",
-      "CarbonTablePath.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "RowLevelRangeGrtThanFiterExecuterImpl.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "BlocksChunkHolder.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "SchemaReader.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonLoaderUtil.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "BinaryLogicalExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "QueryTest.scala",
-      2
-   ],
-   [
-      "jbonofre",
-      "StoreCreator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "LogicalFilterResolverImpl.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "MeasureDataAggregator.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "CarbonDataRDDFactory.scala",
-      1
-   ],
-   [
-      "ravipesala",
-      "GreaterThanEqualToExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ResultMergerException.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "KeyStructureInfo.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "LoadMetadataDetails.java",
-      1
    ],
    [
       "Jacky Li",
-      "CalculatedMeasureAggregator.java",
+      "CarbonSQLDialect.scala",
       1
    ],
    [
-      "Vimal-Das",
-      "datawithspecialcharacter.csv",
+      "sujith71955",
+      "CarbonIndexFileWriter.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonDictionaryDecoder.scala",
       2
    ],
    [
-      "Ravindra Pesala",
-      "DetailRawRecordQueryExecutor.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractScannedResult.java",
-      3
-   ],
-   [
-      "ravipesala",
-      "CarbonStrategies.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "DSLTransformation.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractMaxAggregator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "TestBigDecimal.scala",
+      "chenliang613",
+      "ColumnPropertyValidationTestCase.scala",
       1
    ],
    [
       "Ravindra Pesala",
-      "CarbonLockFactory.java",
+      "FixedLengthDimensionDataChunk.java",
       1
    ],
    [
-      "Venkata Ramana G",
-      "DictionaryCacheLoader.java",
+      "Ravindra Pesala",
+      "ListBasedResultCollector.java",
       1
    ],
    [
       "jbonofre",
-      "InternalDetailQueryExecutor.java",
+      "TestDeleteTableNewDDL.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "LockUsage.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "DictionaryColumnVisitor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "SparkUnknownCarbonAggregator.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "IFileManagerComposite.java",
       1
    ],
    [
@@ -1450,54 +3150,24 @@
       2
    ],
    [
-      "jbonofre",
-      "LockUsage.java",
+      "chenliang613",
+      "CustomTypeDictionaryVisitor.java",
       1
    ],
    [
-      "Venkata Ramana G",
-      "DataCompactionLockTest.scala",
-      2
+      "sujith71955",
+      "SegmentTaskIndexStore.java",
+      1
    ],
    [
       "Ravindra Pesala",
-      "QueryExecutorProperties.java",
+      "AbstractCarbonLock.java",
       1
    ],
    [
-      "jbonofre",
-      "AbstractScannedResultMerger.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "carbonTableSchema.scala",
+      "ravipesala",
+      "TimeStampDirectDictionaryGenerator.java",
       2
-   ],
-   [
-      "Jacky Li",
-      "DetailQueryBlockProcessor.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "StoreCreator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonAverage.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "MeasureAggregatorFactory.java",
-      2
-   ],
-   [
-      "Jacky Li",
-      "QueryModel.java",
-      1
    ],
    [
       "Ravindra Pesala",
@@ -1505,143 +3175,113 @@
       1
    ],
    [
-      "jbonofre",
-      "TestLoadDataWithMaxMinInteger.scala",
+      "Jacky Li",
+      "QueryRunner.java",
       1
    ],
    [
       "jbonofre",
-      "UnknownExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "ExpressionType.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "QueryMeasure.java",
-      2
-   ],
-   [
-      "Vimal-Das",
-      "CarbonQueryRDD.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "MaxAggregator.java",
+      "DetailQueryExecutor.java",
       3
    ],
    [
       "jbonofre",
-      "DetailQueryResultIterator.java",
-      4
+      "ChunkBasedResultIterator.java",
+      1
    ],
    [
-      "jbonofre",
-      "LeafExpression.java",
-      2
+      "chenliang613",
+      "FilterResolverIntf.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "GreaterThanExpression.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "DataBlockIteratorImpl.java",
+      1
    ],
    [
       "Venkata Ramana G",
-      "ExcludeFilterExecuterImpl.java",
+      "AggregateQueryBlockProcessor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QuerySchemaInfo.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonRawStrategies.scala",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ColumnUniqueIdGenerator.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "emp2nonull.csv",
+      1
+   ],
+   [
+      "jbonofre",
+      "MaxBigDecimalAggregator.java",
       3
    ],
    [
-      "chenliang613",
-      "GlobalDictionaryUtilTestCase.scala",
-      1
-   ],
-   [
       "jbonofre",
-      "LessThanEqualToExpression.java",
+      "ColumnExpression.java",
       2
    ],
    [
       "jbonofre",
-      "InternalDetailWithOrderQueryExecutor.java",
-      1
-   ],
-   [
-      "sujith71955",
-      "DataFileFooterConverter.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "MultiplyExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "LiteralExpression.java",
+      "DistinctCountBigDecimalAggregatorObjectSet.java",
       2
    ],
    [
       "jbonofre",
-      "ColGroupMinMaxTest.java",
+      "InternalCountStartQueryExecutor.java",
       2
    ],
    [
-      "Venkata Ramana G",
-      "LockUsage.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CustomTypeDictionaryVisitor.java",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "CarbonUtil.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "PathFactory.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ListBasedResultCollector.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
+      "ravipesala",
       "CarbonMetastoreCatalog.scala",
       1
    ],
    [
       "jbonofre",
-      "SubstractExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "MinAggregator.java",
-      3
+      "CarbonDatasourceHadoopRelation.scala",
+      1
    ],
    [
       "Jacky Li",
-      "InternalQueryExecutor.java",
+      "CarbonStrategies.scala",
       1
    ],
    [
-      "Venkata Ramana G",
-      "InternalDetailQueryExecutor.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "DataProcessTaskStatus.java",
+      "GitHub",
+      "CarbonDataProcessorUtil.java",
       1
    ],
    [
       "Ravindra Pesala",
-      "SliceMetaData.java",
+      "DataFileFooterConverter.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "AbstractQueryExecutor.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "NoDictionaryTypeVisitor.java",
       1
    ],
    [
@@ -1651,17 +3291,102 @@
    ],
    [
       "jbonofre",
-      "RowLevelRangeFilterResolverImpl.java",
+      "GenericQueryType.java",
       2
    ],
    [
       "jbonofre",
-      "MapBasedResult.java",
+      "TimeStampDirectDictionaryGenerator_UT.java",
       1
    ],
    [
+      "Ravindra Pesala",
+      "QueryExecutor.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AllDataTypesTestCaseAggregate.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "QueryDimension.java",
+      2
+   ],
+   [
+      "Vimal-Das",
+      "datawithspecialcharacter.csv",
+      2
+   ],
+   [
+      "jbonofre",
+      "DivideExpression.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "FilterProcessorTestCase.scala",
+      2
+   ],
+   [
       "chenliang613",
-      "RestructureFilterResolverImpl.java",
+      "CarbonDictionarySortIndexWriterImplTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "KeyStructureInfo.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "LogicalFilterResolverImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AndExpression.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "ZooKeeperLocking.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "FilterResolverMetadata.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "BlockIndexStore.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "SortInfo.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "FilterQueryScannedResult.java",
+      2
+   ],
+   [
+      "Jacky Li",
+      "AbstractMaxAggregator.java",
+      1
+   ],
+   [
+      "Kumar Vishal",
+      "ColumnGroupDimensionDataChunk.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "VariableLengthDimensionDataChunk.java",
       1
    ],
    [
@@ -1670,8 +3395,278 @@
       1
    ],
    [
+      "jbonofre",
+      "CarbonAggregate.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "HdfsFileLock.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "SegmentStatusManager.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "emp2.csv",
+      1
+   ],
+   [
+      "chenliang613",
+      "CarbonStrategies.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryTest.scala",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonCompactionExecutor.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "MapBasedResult.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "SingleThreadFinalSortFilesMerger.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryResultPreparatorImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "FilterProcessorPlaceHolder.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "LessThanEqualToExpression.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonRecordReader.java",
+      3
+   ],
+   [
+      "ravipesala",
+      "DivideExpression.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonProperties.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "QueryUtilTest.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonQueryImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "RowLevelRangeLessThanFiterExecuterImpl.java",
+      2
+   ],
+   [
+      "jbonofre",
+      "CarbonDataWriter.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "datasamplenull.csv",
+      1
+   ],
+   [
+      "jbonofre",
+      "ZooKeeperLocking.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "NotEqualsExpression.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "CarbonMergerRDD.scala",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractCarbonLevel.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ZooKeeperLockingTest.java",
+      2
+   ],
+   [
+      "Venkata Ramana G",
+      "DictionaryService.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "NotEqualsExpression.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "QueryExecutorProperties.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonCalculatedMeasure.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "CarbonDimensionLevel.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "KeyStructureInfo.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "BatchRawResult.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "ScannedResultMerger.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "RowLevelRangeGrtThanFiterExecuterImpl.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "DictionaryColumnUniqueIdentifier.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "CarbonLockFactory.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "CarbonDataProcessorUtil.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "SliceMetaData.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "FileManager.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "ExcludeColGroupFilterExecuterImpl.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "AbstractDataBlockProcessor.java",
+      1
+   ],
+   [
+      "Venkata Ramana G",
+      "RowLevelRangeLessThanFiterExecuterImpl.java",
+      3
+   ],
+   [
+      "jbonofre",
+      "QueryExecutorFactory.java",
+      2
+   ],
+   [
+      "Ravindra Pesala",
+      "DimensionColumnDataChunk.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MemoryBasedResultIterator.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "ExcludeFilterExecuterImpl.java",
+      2
+   ],
+   [
+      "chenliang613",
+      "CarbonLoaderUtilTest.java",
+      1
+   ],
+   [
+      "Jacky Li",
+      "AbstractMeasureAggregatorMaxMin.java",
+      2
+   ],
+   [
+      "Vimal-Das",
+      "StoreCreator.java",
+      1
+   ],
+   [
       "Kumar Vishal",
-      "CarbonFooterWriterTest.java",
+      "KeyStructureInfo.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "SubstractExpression.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "MapBasedResultAggregator.java",
+      1
+   ],
+   [
+      "chenliang613",
+      "FilterExpressionProcessor.java",
+      1
+   ],
+   [
+      "Ravindra Pesala",
+      "ColumnDictionaryInfo.java",
+      1
+   ],
+   [
+      "ravipesala",
+      "CarbonDataMergerUtil.java",
       1
    ],
    [
@@ -1685,138 +3680,43 @@
       3
    ],
    [
-      "Ravindra Pesala",
-      "FileFactory.java",
+      "jbonofre",
+      "CarbonContext.scala",
       1
    ],
    [
       "jbonofre",
-      "BlockletScanner.java",
+      "SampleDataPartitionerImpl.java",
       2
    ],
    [
-      "Ravindra Pesala",
-      "AbstractDFSCarbonFile.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DataRetentionTestCase.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "NoDictionaryTypeVisitor.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "VariableLengthDimensionDataChunk.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ReverseDictionaryCache.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "FilterUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonOptimizer.scala",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonInputFormat_FT.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "FilterExpressionProcessor.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "AddExpression.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonDataMergerUtil.java",
-      4
-   ],
-   [
-      "Venkata Ramana G",
-      "QueryUtil.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "NotInExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "ConditionalExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "DataFileFooterConverter.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonStrategy.scala",
-      2
-   ],
-   [
-      "ravipesala",
-      "AvgTimestampAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "PartitionImpl.java",
+      "Jacky Li",
+      "UnSortedScannedResultMerger.java",
       1
    ],
    [
       "Jacky Li",
-      "AvgLongAggregator.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "FilterProcessorTestCase.scala",
-      2
-   ],
-   [
-      "chenliang613",
-      "CarbonGlobalDictionaryRDD.scala",
+      "AbstractAvgAggregator.java",
       1
    ],
    [
-      "ravipesala",
-      "CarbonOptimizer.scala",
+      "Ravindra Pesala",
+      "CarbonCommonConstants.java",
       1
    ],
    [
       "jbonofre",
-      "GreaterThanEqualToExpression.java",
+      "ResolvedFilterInfoVisitable.java",
       2
    ],
    [
-      "Ravindra Pesala",
-      "CarbonCSVBasedSeqGenStep.java",
-      1
+      "jbonofre",
+      "BinaryLogicalExpression.java",
+      2
    ],
    [
-      "david",
-      "CarbonProperties.java",
+      "Venkata Ramana G",
+      "DeleteLoadFolders.java",
       1
    ],
    [
@@ -1826,1223 +3726,8 @@
    ],
    [
       "jbonofre",
-      "AbstractDetailQueryResultIterator.java",
-      5
-   ],
-   [
-      "jbonofre",
-      "AtomicFileOperationsImpl.java",
+      "CarbonFactDataHandlerColumnar.java",
       1
-   ],
-   [
-      "jbonofre",
-      "CarbonSqlParser.scala",
-      2
-   ],
-   [
-      "chenliang613",
-      "ExpressionResult.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "RowLevelRangeGrtThanFiterExecuterImpl.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonQueryRDD.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "LockUsage.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ColGroupFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "DictionaryCacheLoaderImpl.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "datawithescapecharacter.csv",
-      1
-   ],
-   [
-      "chenliang613",
-      "MDKeyGenStep.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "FilterResolverIntf.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "QueryUtil.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "CarbonLoadModel.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "SegmentProperties.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "AllDataTypesTestCaseAggregate.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonMetastoreCatalog.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CustomTypeDictionaryVisitor.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "VariableLengthKeyResultComparator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonAggregates.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonCount.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonMetastoreCatalog.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "TimeStampDirectDictionaryGenerator.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "FilterUtil.java",
-      4
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonDictionaryReaderImpl.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "ColumnarKeyStoreInfo.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "RowLevelRangeGrtrThanEquaToFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonContext.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "AggregationQueryExecutor.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "QueryExecutionException.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "SparkRowReadSupportImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DataCompactionNoDictionaryTest.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "RowLevelFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonSqlParser.scala",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonCSVBasedDimSurrogateKeyGen.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "FileData.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ReverseDictionaryCacheTest.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "carbonTableSchema.scala",
-      3
-   ],
-   [
-      "jbonofre",
-      "CarbonLockFactory.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ColumnIdentifier.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonCommonFactory.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "BlockDataHandler.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DataBlockIteratorImpl.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonSqlParser.scala",
-      3
-   ],
-   [
-      "jbonofre",
-      "Axis.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "TimestampDataTypeDirectDictionaryTestCase.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "SortInfo.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "NonFilterQueryScannedResult.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "emp2nonull.csv",
-      1
-   ],
-   [
-      "jbonofre",
-      "AllDataTypesTestCase1.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonRawOperators.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractDataBlockProcessor.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "IFileManagerComposite.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonLevelHolder.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ZooKeeperLocking.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonInputFormat.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "BlockDataHandler.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonMergerRDD.scala",
-      2
-   ],
-   [
-      "jbonofre",
-      "ZooKeeperLockingTest.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonOption.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "FileManager.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "FilterUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonFilters.scala",
-      3
-   ],
-   [
-      "jbonofre",
-      "DetailQueryExecutor.java",
-      3
-   ],
-   [
-      "Vimal-Das",
-      "HighCardinalityDataTypesTestCase.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "DataFileFooterConverter.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonSliceAndFiles.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "DictionaryService.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "CarbonDictionarySortModel.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "FixedLengthDimensionAggregator.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ViewFSCarbonFile.java",
-      2
-   ],
-   [
-      "Vimal-Das",
-      "FilterProcessorTestCase.scala",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "SegmentProperties.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonAverage.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "ObjectSerializationUtilTest.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "FactTableAggregator.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CountAggregator.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "SortedScannedResultMerger.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ScannedResultCollector.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "SumDoubleAggregator.java",
-      3
-   ],
-   [
-      "Venkata Ramana G",
-      "DictionaryFactory.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "TupleConversionAdapter.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "SampleDataPartitionerImpl.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonDataProcessorUtil.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "DataGraphExecuter.java",
-      1
-   ],
-   [
-      "sujith71955",
-      "CarbonIndexFileReader.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonInputFormatUtil.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonColumnValidator.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractCarbonLevel.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "TestCarbonSqlParser.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDropAggregateTableRDD.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "DictionaryColumnVisitor.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "ScannedResultCollector.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "AggregateQueryBlockProcessor.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "CarbonMetastoreCatalog.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonSliceMergerUtil.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractMeasureAggregatorDummy.java",
-      1
-   ],
-   [
-      "sujith71955",
-      "AbstractFactDataWriter.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ExpressionResult.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "RowLevelRangeLessThanEqualFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDimensionLevel.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "GreaterThanExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractFactDataWriter.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "VariableLengthDimensionAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDimensionLevelFilter.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonMetastoreCatalog.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "FilterExecuterType.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "ColGroupDataHolder.java",
-      1
-   ],
-   [
-      "GitHub",
-      "CsvInputMeta.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "KeyStructureInfo.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "ResolvedFilterInfoVisitable.java",
-      2
-   ],
-   [
-      "Jacky Li",
-      "DistinctCountLongAggregatorObjectSet.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ConditionalFilterResolverImpl.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "CarbonDictionaryDecoder.scala",
-      2
-   ],
-   [
-      "Vimal-Das",
-      "IDataProcessStatus.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonDatasourceRelation.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "NonFilterScanner.java",
-      2
-   ],
-   [
-      "Jacky Li",
-      "BlockExecutionInfo.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ZooKeeperLockingTest.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DimColumnResolvedFilterInfo.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "LocalFileLock.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "datawithmaxmininteger.csv",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "RowLevelRangeTypeExecuterFacory.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "AbstractQueryExecutor.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonSQLDialect.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "ConditionalFilterResolverImpl.java",
-      1
-   ],
-   [
-      "Liang Chen",
-      "GenerateDictionaryExample.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryRunner.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "IFileManagerComposite.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "LocalFileLock.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "RestructureFilterExecuterImpl.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "UnaryExpression.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "DictionaryDetailHelper.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "RowLevelRangeGrtThanFiterExecuterImpl.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "ColumnPropertyValidationTestCase.scala",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ThriftWrapperSchemaConverterImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "MultiplyExpression.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "OrExpression.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonSchemaParser.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "DictionaryColumnUniqueIdentifier.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonLoaderUtil.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonIterator.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "RowLevelRangeFilterResolverImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractAvgAggregator.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "ColumnGroupModel.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ICarbonLock.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonProperties.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonDictionarySortIndexReaderImplTest.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AggregateQueryBlockProcessor.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "NullMeasureValueTestCaseFilter.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "AndExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "BinaryArithmeticExpression.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "GrtLtFilterProcessorTestCase.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonCommonConstants.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractBlockletScanner.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "ExpressionAggregator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "DataCompactionCardinalityBoundryTest.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ZookeeperInit.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryUtilTest.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "DivideExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDatasourceHadoopRelation.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "ColGroupMinMax.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "CustomTypeDictionaryVisitor.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "Expression.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "TimeStampDirectDictionaryGenerator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "AndFilterResolverImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ResolvedFilterInfoVisitorIntf.java",
-      2
-   ],
-   [
-      "Vimal-Das",
-      "CsvInputMeta.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "FilterUnsupportedException.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "HighCardinalityDataTypesTestCase.scala",
-      2
-   ],
-   [
-      "jbonofre",
-      "DistinctStringCountAggregator.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "BatchResult.java",
-      4
-   ],
-   [
-      "jbonofre",
-      "FilterExecuter.java",
-      2
-   ],
-   [
-      "Jacky Li",
-      "QueryRunner.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "SegmentStatusManager.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "HdfsFileLock.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonTablePath.java",
-      4
-   ],
-   [
-      "chenliang613",
-      "GreaterThanExpression.java",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "ColGroupMinMax.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ForwardDictionaryCacheTest.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AndFilterExecuterImpl.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "DeleteLoadFolders.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractDistinctCountAggregatorObjectSet.java",
-      2
-   ],
-   [
-      "david",
-      "GlobalDictionaryUtil.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "AvgDoubleAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "InExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "LocalFileLock.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ColumnGroupModel.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DictionaryColumnVisitor.java",
-      2
-   ],
-   [
-      "GitHub",
-      "CarbonDataProcessorUtil.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "ExcludeFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "sujith71955",
-      "SegmentTaskIndexStoreTest.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DimColumnFilterInfo.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "CarbonCSVBasedSeqGenStep.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "QueryUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "GlobalDictionaryUtil.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "SegmentStatusManager.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "DataRetentionTestCase.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractDataBlockIterator.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "RowLevelRangeLessThanEqualFilterExecuterImpl.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "CarbonUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AndExpression.java",
-      2
-   ],
-   [
-      "sujith71955",
-      "CarbonPathFilter.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "Expression.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "BlockIndexStore.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ColGroupFilterExecuterImpl.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "ListBasedResultAggregator.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractDataBlockIterator.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "GlobalDictionaryUtil.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "HDFSCarbonFile.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "GenerateDictionaryExample.scala",
-      1
-   ],
-   [
-      "sujith71955",
-      "ThriftReader.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "EqualToExpression.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "MDKeyGenStep.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "CarbonLoaderUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AllDataTypesTestCaseAggregate.scala",
-      2
-   ],
-   [
-      "ravipesala",
-      "LessThanExpression.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "RowLevelRangeLessThanFiterExecuterImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "GenericQueryType.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "LocalFileLock.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "ColumnUniqueIdService.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "SumDistinctBigDecimalAggregator.java",
-      3
-   ],
-   [
-      "GitHub",
-      "BlockDataHandler.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "LessThanExpression.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "UnSortedScannedResultMerger.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "FilterUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonCSVBasedSeqGenStep.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ListBasedResultCollector.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "NotEqualsExpression.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "SubstractExpression.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "AllDataTypesTestCase1.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ColumnExpression.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "schema.thrift",
-      1
-   ],
-   [
-      "jbonofre",
-      "SortOrderType.java",
-      2
-   ],
-   [
-      "Venkata Ramana G",
-      "ColumnSchema.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "LocalFileLockTest.java",
-      2
-   ],
-   [
-      "Kumar Vishal",
-      "KeyStructureInfo.java",
-      1
-   ],
-   [
-      "david",
-      "carbonTableSchema.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonProperties.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDataFileAttributes.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "LessThanExpression.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "NotEqualsExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonSQLConf.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DistinctCountAggregator.java",
-      2
    ],
    [
       "chenliang613",
@@ -3050,64 +3735,14 @@
       1
    ],
    [
-      "jbonofre",
-      "MinLongAggregator.java",
-      3
-   ],
-   [
       "Venkata Ramana G",
-      "emp2.csv",
-      1
-   ],
-   [
-      "jbonofre",
-      "DivideExpression.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "SumBigDecimalAggregator.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "CarbonTuple.java",
-      1
-   ],
-   [
-      "Kumar Vishal",
       "QueryUtil.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "PathService.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonDatasourceRelation.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractMeasureAggregatorMaxMin.java",
       2
    ],
    [
       "jbonofre",
-      "CarbonAggregates.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonStrategies.scala",
-      3
-   ],
-   [
-      "jbonofre",
-      "SumLongAggregator.java",
-      3
+      "FilterUnsupportedException.java",
+      2
    ],
    [
       "sujith71955",
@@ -3116,692 +3751,57 @@
    ],
    [
       "ravipesala",
-      "AllDataTypesTestCase2.scala",
+      "ExpressionResult.java",
       1
    ],
    [
       "chenliang613",
-      "TestLoadDataWithMalformedCarbonCommandException.scala",
+      "RowLevelRangeFilterResolverImpl.java",
       1
    ],
    [
       "jbonofre",
-      "AbstractMaxAggregator.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "CarbonDictionaryDecoder.scala",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "FileWriteOperation.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "FilterQueryScannedResult.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "DummyBigDecimalAggregator.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonRawStrategies.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "MaxBigDecimalAggregator.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "DetailQueryResultPreparatorImpl.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "DummyDoubleAggregator.java",
-      3
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonMergerUtil.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
       "RowLevelFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryExecutor_UT.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonScanRDD.scala",
-      4
-   ],
-   [
-      "Venkata Ramana G",
-      "DataCompactionTest.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "carbonTableSchema.scala",
       3
    ],
    [
-      "Jacky Li",
-      "BitSet.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AllDataTypesTestCase6.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "FilterScanner.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "FilterIllegalMemberException.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "QueryExecutorProperties.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "EqualToExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AddExpression.java",
-      2
-   ],
-   [
-      "Jacky Li",
-      "QueryTest.scala",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonFactDataHandlerColumnar.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "InternalFunctionQueryExecutor.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ColumnGroupModel.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDropCubeRDD.scala",
-      1
-   ],
-   [
-      "GitHub",
-      "CarbonMetastoreCatalog.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "DataTypeUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "SparkRowReadSupportImpl.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "NotInExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "IncludeFilterExecuterImpl.java",
-      2
-   ],
-   [
-      "chenliang613",
+      "Liang Chen",
       "GenerateDictionaryExample.scala",
       1
    ],
    [
       "jbonofre",
-      "FilterProcessorPlaceHolder.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DataTypeUtil.java",
-      3
-   ],
-   [
-      "Ravindra Pesala",
-      "DimensionColumnDataChunk.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractCarbonLock.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "FilterProcessorTestCase.scala",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "CarbonFactDataHandlerColumnar.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "CarbonScalaUtil.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDataRDDFactory.scala",
-      3
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonSliceMergerStep.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonQueryPlan.java",
-      3
-   ],
-   [
-      "ravipesala",
-      "GenerateDictionaryExample.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "RowLevelFilterResolverImpl.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonQueryUtil.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "TimeStampDirectDictionaryGenerator_UT.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AvgLongAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonFilterInfo.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "DataType.java",
-      2
-   ],
-   [
-      "Kumar Vishal",
-      "ColumnGroupDataTypesTestCase.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "ListExpression.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonJoins.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "DistinctCountLongAggregatorObjectSet.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "FileManager.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "datawithcomplexspecialchar.csv",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonDecoderOptimizerHelper.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "FilterUtil.java",
-      2
-   ],
-   [
-      "Ravindra Pesala",
-      "LockUsage.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "DataLoadModel.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DistinctCountBigDecimalAggregatorObjectSet.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "DataCompactionLockTest.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonAggregationExpression.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "data2_DiffTimeFormat.csv",
-      1
-   ],
-   [
-      "jbonofre",
-      "FilterInfoTypeVisitorFactory.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "FilterUnsupportedException.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonAggregationExpression.scala",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "ColumnGroupModel.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "DFSFileHolderImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "MDKeyGenStep.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "CarbonRawStrategies.scala",
-      1
-   ],
-   [
-      "chenliang613",
-      "FileFooterValidator.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "package.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonMeasure.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "ScannedResultAggregator.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "AbstractDictionaryCacheTest.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "HdfsFileLock.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "StoreFactory.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "FileWriteOperation.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "CarbonRawQueryRDD.scala",
-      2
-   ],
-   [
-      "ravipesala",
-      "DataFileFooterConverter.java",
-      2
-   ],
-   [
-      "Jacky Li",
-      "BatchRawResult.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "ColumnExpression.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "BlockletIterator.java",
-      3
-   ],
-   [
-      "jbonofre",
-      "DetailRawRecordQueryExecutor.java",
-      3
-   ],
-   [
-      "GitHub",
-      "CarbonCSVBasedSeqGenStep.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "MemoryBasedResultIterator.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractAvgAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AggregatorInfo.java",
-      3
-   ],
-   [
-      "chenliang613",
-      "FilterResolverIntf.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "CarbonDatasourceRelation.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DistinctCountAggregatorObjectSet.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "DataPartitioner.java",
-      1
-   ],
-   [
-      "Kumar Vishal",
-      "CarbonMetadataUtil.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonCommonConstants.java",
-      3
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonColumn.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CarbonStrategies.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "CountStarQueryExecutor.java",
-      1
-   ],
-   [
-      "Vimal-Das",
-      "carbonTableSchema.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractMeasureAggregatorDummy.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "GlobalDictionaryUtilTestCase.scala",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "UnBlockIndexer.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ChunkRowIterator.java",
-      4
-   ],
-   [
-      "Venkata Ramana G",
-      "DirectDictionaryDimensionAggregator.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "GreaterThanEqualToExpression.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "IncludeColGroupFilterExecuterImpl.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "AbstractMinAggregator.java",
-      2
-   ],
-   [
-      "chenliang613",
-      "schema.thrift",
-      1
-   ],
-   [
-      "Jacky Li",
-      "DummyBigDecimalAggregator.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CustomAggregatorHelper.java",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "FilterExpressionProcessor.java",
-      2
-   ],
-   [
-      "ravipesala",
-      "ConditionalFilterResolverImpl.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "HierarchyValueWriterForCSV.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "CarbonSparkFactory.scala",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "CarbonStrategies.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "AllDataTypesTestCase2.scala",
-      1
-   ],
-   [
-      "jbonofre",
-      "FunctionQueryExecutor.java",
-      1
-   ],
-   [
-      "david",
-      "CarbonExample.scala",
-      1
-   ],
-   [
-      "Venkata Ramana G",
-      "SingleThreadFinalSortFilesMerger.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "InitForExamples.scala",
-      1
-   ],
-   [
-      "Jacky Li",
-      "InternalDetailQueryExecutor.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "AbstractScannedResultMerger.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "ExcludeFilterExecuterImpl.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "CarbonDropTableRDD.scala",
-      1
-   ],
-   [
-      "Kumar Vishal",
       "CarbonFactDataHandlerModel.java",
       1
    ],
    [
-      "chenliang613",
-      "NoDictionaryTypeVisitor.java",
-      1
-   ],
-   [
-      "ravipesala",
-      "InExpression.java",
-      1
-   ],
-   [
-      "Jacky Li",
-      "CustomMeasureAggregator.java",
-      1
-   ],
-   [
       "jbonofre",
-      "SumDistinctDoubleAggregator.java",
-      3
+      "CarbonOption.scala",
+      1
    ],
    [
       "Venkata Ramana G",
-      "RawResultIterator.java",
-      1
+      "FilterUtil.java",
+      4
    ],
    [
-      "chenliang613",
-      "RawResultIterator.java",
-      1
-   ],
-   [
-      "Ravindra Pesala",
-      "ColumnDictionaryInfo.java",
-      1
-   ],
-   [
-      "chenliang613",
-      "FilterExpressionProcessor.java",
+      "jbonofre",
+      "CarbonCSVBasedDimSurrogateKeyGen.java",
       1
    ],
    [
       "jbonofre",
-      "AvgBigDecimalAggregator.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "RestructureUtil.java",
+      "DummyBigDecimalAggregator.java",
       2
    ],
    [
-      "Ravindra Pesala",
-      "CarbonContext.scala",
+      "jbonofre",
+      "DimColumnFilterInfo.java",
+      2
+   ],
+   [
+      "ravipesala",
+      "SegmentProperties.java",
       1
    ]
 ]

@@ -1,7 +1,22 @@
 [
    [
       "abroekhuis",
-      "service_tracker.h",
+      "dependency_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "shell.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "resolver.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "hash_map_test_hash.c",
       1
    ],
    [
@@ -11,18 +26,33 @@
    ],
    [
       "abroekhuis",
-      "ps_command.h",
+      "linkedlist.h",
       1
    ],
    [
       "abroekhuis",
-      "main.c",
+      "attribute.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "publisher.c",
       2
    ],
    [
       "abroekhuis",
-      "properties.c",
+      "headers.h",
       2
+   ],
+   [
+      "abroekhuis",
+      "test_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "echo_client_activator.c",
+      1
    ],
    [
       "abroekhuis",
@@ -31,28 +61,98 @@
    ],
    [
       "abroekhuis",
-      "serviceTest.h",
+      "framework.c",
       2
    ],
    [
       "abroekhuis",
-      "test_service.h",
+      "service_tracker.c",
       1
    ],
    [
       "abroekhuis",
-      "utils.h",
+      "hash_map_test.c",
       1
    ],
    [
       "abroekhuis",
-      "module.h",
+      "version_range.c",
       1
    ],
    [
       "abroekhuis",
-      "bundle.c",
+      "manifest_parser.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "hash_map_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "constants.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_state.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "dependency_activator_base.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "serviceTest.c",
       2
+   ],
+   [
+      "abroekhuis",
+      "bundle_cache.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_component_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "shell_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_context.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "ps_command.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "echo_server_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "listenerTest.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "CPackConfigDeploy.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "listenerTest.c",
+      1
    ],
    [
       "abroekhuis",
@@ -66,457 +166,7 @@
    ],
    [
       "abroekhuis",
-      "service_dependency.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version_range.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "archive.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "manifest.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "requirement.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "TestService.java",
-      1
-   ],
-   [
-      "abroekhuis",
-      "publisher.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "linked_list_iterator.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_client_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registry.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registry.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_component.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "hash_map.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "linkedlist.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "array_list.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registration.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "hash_map.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "publisher.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "filter.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "test.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "publisher_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "Packaging.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "framework.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "hash_map_test.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "command.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "hash_map_test_hash.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "serviceTest.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "bundle_archive.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "headers.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "bundle_activator.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "dependency_manager.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "attribute.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "dependency_activator_base.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "shell_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "array_list_test.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "shell.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_client.c",
-      1
-   ],
-   [
-      "abroekhuis",
       "utils.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version_range.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "linkedlist.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_reference.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "test_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "manifest.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "linked_list_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_cache.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "Hello World.launch",
-      3
-   ],
-   [
-      "abroekhuis",
-      "service_reference.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_server.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "properties.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "linked_list_iterator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "CPackConfig.in",
-      1
-   ],
-   [
-      "abroekhuis",
-      "resolver.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_dependency.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "resolver.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "stop_command.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "component.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_component_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "target.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "activator.c",
-      8
-   ],
-   [
-      "abroekhuis",
-      "constants.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "capability.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_component.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "framework.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "Bundle.in",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registration.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "wire.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "start_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_context.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "shell.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "service_tracker.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "hash_map_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "manifest_parser.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "filter.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "bundle_state.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "dependency_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "array_list.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_cache.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "command_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "CPackConfigPKG.in",
-      1
-   ],
-   [
-      "abroekhuis",
-      "array_list_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_client_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_server_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_context.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "wire.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "stop_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_server_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "start_command.c",
       1
    ],
    [
@@ -526,7 +176,97 @@
    ],
    [
       "abroekhuis",
-      "module.c",
+      "bundle_cache.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "echo_client_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "command.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "shell.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "echo_server_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "array_list.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_activator.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "TestService.java",
+      1
+   ],
+   [
+      "abroekhuis",
+      "array_list.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registration.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "linkedlist.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "command_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "framework.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "publisher_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "test.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "Bundle.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "Hello World.launch",
+      3
+   ],
+   [
+      "abroekhuis",
+      "version_range.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "target.cmake",
       1
    ],
    [
@@ -536,17 +276,27 @@
    ],
    [
       "abroekhuis",
+      "stop_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "hash_map.c",
+      1
+   ],
+   [
+      "abroekhuis",
       "launcher.c",
       2
    ],
    [
       "abroekhuis",
-      "manifest_parser.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "listenerTest.c",
+      "wire.c",
       1
    ],
    [
@@ -556,8 +306,148 @@
    ],
    [
       "abroekhuis",
+      "requirement.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "module.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_component.h",
+      1
+   ],
+   [
+      "abroekhuis",
       "bundle_archive.c",
       2
+   ],
+   [
+      "abroekhuis",
+      "array_list_test.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "ps_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "resolver.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "activator.c",
+      8
+   ],
+   [
+      "abroekhuis",
+      "filter.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_registration.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "start_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_context.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "echo_client.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "properties.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "CPackConfigPKG.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "filter.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "CPackConfig.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_dependency.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "properties.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_reference.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "wire.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "echo_server.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "module.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "utils.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest_parser.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_component.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "start_command.c",
+      1
    ],
    [
       "abroekhuis",
@@ -566,22 +456,132 @@
    ],
    [
       "abroekhuis",
-      "listenerTest.h",
+      "service_registry.h",
       1
    ],
    [
       "abroekhuis",
-      "requirement.h",
+      "main.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "linked_list_iterator.c",
       1
    ],
    [
       "abroekhuis",
-      "ps_command.c",
+      "requirement.c",
       1
    ],
    [
       "abroekhuis",
-      "CPackConfigDeploy.in",
+      "component.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_dependency.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "dependency_manager.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "Packaging.cmake",
+      1
+   ],
+   [
+      "abroekhuis",
+      "test_service.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "linked_list_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registry.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "stop_command.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_reference.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "linked_list_iterator.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "serviceTest.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "capability.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "hash_map.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "array_list_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "archive.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "publisher.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_archive.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_tracker.h",
       1
    ]
 ]

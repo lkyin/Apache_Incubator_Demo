@@ -1,52 +1,7 @@
 [
    [
-      "huor",
-      "apache-hawq-rpm-2.2.0.0-incubating.tar.gz",
-      2
-   ],
-   [
       "rlei",
-      "KmsClientProvider.h",
-      2
-   ],
-   [
-      "rlei",
-      "MockKmsClientProvider.h",
-      2
-   ],
-   [
-      "huor",
-      "apache-hawq-src-2.2.0.0-incubating.tar.gz.asc",
-      1
-   ],
-   [
-      "huor",
-      "apache-hawq-rpm-2.2.0.0-incubating.tar.gz.sha256",
-      2
-   ],
-   [
-      "Oleksandr Diachenko",
-      "build.gradle",
-      1
-   ],
-   [
-      "rlei",
-      "test_hawq_reload.h",
-      1
-   ],
-   [
-      "huor",
-      "apache-hawq-rpm-2.2.0.0-incubating.tar.gz.asc",
-      2
-   ],
-   [
-      "rlei",
-      "HttpClient.h",
-      2
-   ],
-   [
-      "rlei",
-      "TestOutputStream.cpp",
+      "nodeShareInputScan.c",
       1
    ],
    [
@@ -55,94 +10,9 @@
       2
    ],
    [
-      "rlei",
-      "TestCInterface.cpp",
-      1
-   ],
-   [
-      "shivzone",
-      "build.gradle",
+      "Ruilong Huo",
+      "index.html",
       2
-   ],
-   [
-      "rlei",
-      "MockHttpClient.h",
-      2
-   ],
-   [
-      "rlei",
-      "UnitTestOutputStream.cpp",
-      1
-   ],
-   [
-      "rlei",
-      "nodeShareInputScan.h",
-      1
-   ],
-   [
-      "rlei",
-      "SessionConfig.h",
-      2
-   ],
-   [
-      "shivzone",
-      "OneField.java",
-      1
-   ],
-   [
-      "shivzone",
-      "settings.gradle",
-      1
-   ],
-   [
-      "rlei",
-      "FindCurl.cmake",
-      1
-   ],
-   [
-      "rlei",
-      "HttpClient.cpp",
-      2
-   ],
-   [
-      "shivzone",
-      "DemoAccessorTest.java",
-      1
-   ],
-   [
-      "rlei",
-      "nodeMaterial.c",
-      1
-   ],
-   [
-      "rlei",
-      "MockCryptoCodec.h",
-      1
-   ],
-   [
-      "Oleksandr Diachenko",
-      "pxf-privatephd.classpath",
-      1
-   ],
-   [
-      "rlei",
-      "UserInfo.h",
-      2
-   ],
-   [
-      "Oleksandr Diachenko",
-      "pxf-private.classpath",
-      1
-   ],
-   [
-      "rlei",
-      "SessionConfig.cpp",
-      2
-   ],
-   [
-      "shivzone",
-      "DemoAccessor.java",
-      1
    ],
    [
       "rlei",
@@ -150,8 +20,8 @@
       1
    ],
    [
-      "David Yozie",
-      "apache-hawq-nav.erb",
+      "rlei",
+      "HttpClient.h",
       2
    ],
    [
@@ -160,38 +30,53 @@
       1
    ],
    [
-      "Oleksandr Diachenko",
-      "pxf-privatehdp.classpath",
+      "shivzone",
+      "DemoAccessorTest.java",
       1
    ],
    [
       "rlei",
-      "TestKmsClient.cpp",
+      "MockHttpClient.h",
       2
    ],
    [
       "rlei",
-      "FindSSL.cmake",
+      "OutputStreamImpl.h",
       1
    ],
    [
-      "shivzone",
-      "DemoFragmenter.java",
-      1
-   ],
-   [
-      "Wen Lin",
-      "HawqClient.java",
+      "Oleksandr Diachenko",
+      "pxf-private.classpath",
       1
    ],
    [
       "huor",
-      "apache-hawq-src-2.2.0.0-incubating.tar.gz.sha256",
+      "apache-hawq-rpm-2.2.0.0-incubating.tar.gz.sha256",
+      2
+   ],
+   [
+      "shivzone",
+      "settings.gradle",
       1
    ],
    [
       "rlei",
-      "OutputStreamImpl.h",
+      "UserInfo.h",
+      2
+   ],
+   [
+      "shivzone",
+      "DemoResolverTest.java",
+      1
+   ],
+   [
+      "rlei",
+      "MockCryptoCodec.h",
+      1
+   ],
+   [
+      "rlei",
+      "CryptoCodec.cpp",
       1
    ],
    [
@@ -201,12 +86,37 @@
    ],
    [
       "rlei",
-      "nodeShareInputScan.c",
+      "HttpClient.cpp",
+      2
+   ],
+   [
+      "rlei",
+      "SessionConfig.cpp",
+      2
+   ],
+   [
+      "rlei",
+      "guc.c",
+      2
+   ],
+   [
+      "rlei",
+      "TestCInterface.cpp",
+      1
+   ],
+   [
+      "huor",
+      "apache-hawq-src-2.2.0.0-incubating.tar.gz.asc",
       1
    ],
    [
       "rlei",
-      "OutputStreamImpl.cpp",
+      "guc.h",
+      1
+   ],
+   [
+      "shivzone",
+      "OneField.java",
       1
    ],
    [
@@ -215,14 +125,9 @@
       1
    ],
    [
-      "shivzone",
-      "DemoResolver.java",
-      1
-   ],
-   [
-      "shivzone",
-      "DemoTextResolver.java",
-      1
+      "rlei",
+      "MockKmsClientProvider.h",
+      2
    ],
    [
       "rlei",
@@ -231,13 +136,63 @@
    ],
    [
       "rlei",
+      "SessionConfig.h",
+      2
+   ],
+   [
+      "Oleksandr Diachenko",
+      "pxf-privatehdp.classpath",
+      1
+   ],
+   [
+      "rlei",
+      "test_hawq_reload.h",
+      1
+   ],
+   [
+      "rlei",
+      "nodeMaterial.c",
+      1
+   ],
+   [
+      "shivzone",
+      "DemoFragmenter.java",
+      1
+   ],
+   [
+      "rlei",
       "nodeMaterial.h",
       1
    ],
    [
-      "Ruilong Huo",
-      "index.html",
-      2
+      "rlei",
+      "UnitTestOutputStream.cpp",
+      1
+   ],
+   [
+      "rlei",
+      "FindCurl.cmake",
+      1
+   ],
+   [
+      "Oleksandr Diachenko",
+      "build.gradle",
+      1
+   ],
+   [
+      "rlei",
+      "OutputStreamImpl.cpp",
+      1
+   ],
+   [
+      "shivzone",
+      "DemoResolver.java",
+      1
+   ],
+   [
+      "rlei",
+      "FindSSL.cmake",
+      1
    ],
    [
       "rlei",
@@ -245,8 +200,38 @@
       1
    ],
    [
+      "shivzone",
+      "DemoAccessor.java",
+      1
+   ],
+   [
+      "shivzone",
+      "DemoTextResolver.java",
+      1
+   ],
+   [
+      "huor",
+      "apache-hawq-rpm-2.2.0.0-incubating.tar.gz.asc",
+      2
+   ],
+   [
       "rlei",
-      "CryptoCodec.cpp",
+      "TestKmsClient.cpp",
+      2
+   ],
+   [
+      "rlei",
+      "KmsClientProvider.h",
+      2
+   ],
+   [
+      "rlei",
+      "TestOutputStream.cpp",
+      1
+   ],
+   [
+      "Oleksandr Diachenko",
+      "pxf-privatephd.classpath",
       1
    ],
    [
@@ -256,17 +241,32 @@
    ],
    [
       "shivzone",
-      "DemoResolverTest.java",
-      1
+      "build.gradle",
+      2
    ],
    [
       "rlei",
-      "guc.h",
+      "nodeShareInputScan.h",
       1
    ],
    [
-      "rlei",
-      "guc.c",
+      "huor",
+      "apache-hawq-src-2.2.0.0-incubating.tar.gz.sha256",
+      1
+   ],
+   [
+      "huor",
+      "apache-hawq-rpm-2.2.0.0-incubating.tar.gz",
+      2
+   ],
+   [
+      "Wen Lin",
+      "HawqClient.java",
+      1
+   ],
+   [
+      "David Yozie",
+      "apache-hawq-nav.erb",
       2
    ]
 ]

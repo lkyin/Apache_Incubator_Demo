@@ -1,27 +1,37 @@
 [
    [
-      "monteith",
-      "JThread.java",
-      1
-   ],
-   [
       "spoole",
-      "addField.c",
+      "addField.h",
       2
    ],
    [
       "spoole",
-      ".classpath",
-      10
+      "cjvmti.c",
+      2
    ],
    [
-      "monteith",
-      "JMethod.java",
+      "spoole",
+      "katoview.sh",
       1
    ],
    [
       "monteith",
-      "addThreads.c",
+      "JDIController.java",
+      2
+   ],
+   [
+      "monteith",
+      "JField.java",
+      1
+   ],
+   [
+      "monteith",
+      "Packet.java",
+      1
+   ],
+   [
+      "monteith",
+      "JDWPServer.java",
       1
    ],
    [
@@ -31,32 +41,12 @@
    ],
    [
       "spoole",
-      "addThreads.h",
+      "addThreads.c",
       2
    ],
    [
       "spoole",
-      "org.maven.ide.eclipse.prefs",
-      9
-   ],
-   [
-      "spoole",
-      "TestJavaClassLoaderHierarchyBuilder.java",
-      1
-   ],
-   [
-      "spoole",
-      "addObject.h",
-      2
-   ],
-   [
-      "monteith",
-      "queue.c",
-      1
-   ],
-   [
-      "monteith",
-      "JDICacher.java",
+      "JavaClassLoaderHierarchyBuilder.java",
       1
    ],
    [
@@ -66,23 +56,48 @@
    ],
    [
       "spoole",
-      "addThreads.c",
+      "addClass.h",
       2
    ],
    [
       "monteith",
-      "JField.java",
+      "JLocalVariable.java",
+      1
+   ],
+   [
+      "monteith",
+      "queue.c",
+      1
+   ],
+   [
+      "monteith",
+      "JavaRuntimeImpl.java",
       1
    ],
    [
       "spoole",
-      "libcjvmti.so",
-      3
+      "org.eclipse.jdt.core.prefs",
+      9
+   ],
+   [
+      "spoole",
+      "TestJavaClassLoaderHierarchyBuilder.java",
+      1
    ],
    [
       "monteith",
-      "JDWPServer.java",
+      "addField.h",
       1
+   ],
+   [
+      "monteith",
+      "addField.c",
+      1
+   ],
+   [
+      "monteith",
+      "cjvmti.c",
+      6
    ],
    [
       "spoole",
@@ -96,137 +111,42 @@
    ],
    [
       "spoole",
-      "addField.h",
-      2
-   ],
-   [
-      "monteith",
-      "JDIController.java",
-      2
-   ],
-   [
-      "spoole",
-      "katovmapi.c",
-      3
-   ],
-   [
-      "spoole",
-      "readme.html",
-      1
-   ],
-   [
-      "spoole",
-      "addClass.c",
-      2
-   ],
-   [
-      "spoole",
-      "README.TXT",
-      1
-   ],
-   [
-      "monteith",
-      "Model.java",
-      1
-   ],
-   [
-      "spoole",
-      "JavaClassLoaderHierarchyBuilder.java",
-      1
-   ],
-   [
-      "monteith",
-      "addField.c",
-      1
-   ],
-   [
-      "spoole",
-      "katoview.cmd",
-      2
-   ],
-   [
-      "spoole",
-      "DumpTrigger.java",
-      2
-   ],
-   [
-      "monteith",
-      "JStackFrame.java",
-      1
-   ],
-   [
-      "monteith",
-      "addObject.h",
-      1
-   ],
-   [
-      "spoole",
-      "katoview.sh",
-      1
-   ],
-   [
-      "monteith",
-      "JavaRuntimeImpl.java",
-      1
-   ],
-   [
-      "spoole",
-      "queue.h",
-      2
-   ],
-   [
-      "spoole",
-      "TestLibraryLoad.java",
-      4
-   ],
-   [
-      "monteith",
-      "KatoReader.java",
-      2
-   ],
-   [
-      "monteith",
-      "cjvmti.c",
-      6
-   ],
-   [
-      "spoole",
-      "cjvmti.c",
-      2
-   ],
-   [
-      "monteith",
-      "addThreads.h",
-      1
-   ],
-   [
-      "spoole",
-      "queue.c",
-      2
-   ],
-   [
-      "monteith",
-      "cjvmti.h",
-      5
-   ],
-   [
-      "monteith",
-      "Packet.java",
-      1
-   ],
-   [
-      "spoole",
       ".project",
       9
    ],
    [
       "spoole",
-      "org.eclipse.jdt.core.prefs",
-      9
+      "addObject.h",
+      2
    ],
    [
       "monteith",
       "addClass.c",
+      1
+   ],
+   [
+      "spoole",
+      "addField.c",
+      2
+   ],
+   [
+      "monteith",
+      "JDICacher.java",
+      1
+   ],
+   [
+      "spoole",
+      ".classpath",
+      10
+   ],
+   [
+      "spoole",
+      "org.maven.ide.eclipse.prefs",
+      9
+   ],
+   [
+      "spoole",
+      "README.TXT",
       1
    ],
    [
@@ -236,22 +156,12 @@
    ],
    [
       "monteith",
-      "addField.h",
-      1
-   ],
-   [
-      "spoole",
-      "addClass.h",
-      2
-   ],
-   [
-      "monteith",
-      "addClass.h",
+      "addThreads.h",
       1
    ],
    [
       "monteith",
-      "JLocalVariable.java",
+      "addClass.h",
       1
    ],
    [
@@ -261,7 +171,97 @@
    ],
    [
       "monteith",
+      "KatoReader.java",
+      2
+   ],
+   [
+      "spoole",
+      "readme.html",
+      1
+   ],
+   [
+      "monteith",
+      "Model.java",
+      1
+   ],
+   [
+      "spoole",
+      "katovmapi.c",
+      3
+   ],
+   [
+      "spoole",
+      "queue.c",
+      2
+   ],
+   [
+      "spoole",
+      "katoview.cmd",
+      2
+   ],
+   [
+      "monteith",
+      "cjvmti.h",
+      5
+   ],
+   [
+      "monteith",
       "CJVMTIBinReader.java",
       1
+   ],
+   [
+      "spoole",
+      "queue.h",
+      2
+   ],
+   [
+      "monteith",
+      "JThread.java",
+      1
+   ],
+   [
+      "spoole",
+      "libcjvmti.so",
+      3
+   ],
+   [
+      "monteith",
+      "JStackFrame.java",
+      1
+   ],
+   [
+      "spoole",
+      "addClass.c",
+      2
+   ],
+   [
+      "spoole",
+      "TestLibraryLoad.java",
+      4
+   ],
+   [
+      "monteith",
+      "addThreads.c",
+      1
+   ],
+   [
+      "spoole",
+      "DumpTrigger.java",
+      2
+   ],
+   [
+      "monteith",
+      "JMethod.java",
+      1
+   ],
+   [
+      "monteith",
+      "addObject.h",
+      1
+   ],
+   [
+      "spoole",
+      "addThreads.h",
+      2
    ]
 ]

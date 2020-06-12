@@ -1,32 +1,12 @@
 [
    [
       "Ryan Blue",
-      "AvroWriteSupport.java",
-      2
-   ],
-   [
-      "Ryan Blue",
-      "SnappyUtil.java",
+      "TestColumnChunkPageWriteStore.java",
       1
    ],
    [
-      "Alex Levenson",
-      "SmallRangeWritingBenchmarkTest.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestBoundedColumns.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ParquetTupleScheme.java",
-      2
-   ],
-   [
-      "blue",
-      "apache-parquet-format-2.3.0-incubating.tar.gz.asc",
+      "alexlevenson",
+      "TestCapacityByteArrayOutputStream.java",
       1
    ],
    [
@@ -36,22 +16,17 @@
    ],
    [
       "Alex Levenson",
-      "TestDeltaLengthByteArray.java",
+      "ThriftSchemaConverter.java",
+      2
+   ],
+   [
+      "Alex Levenson",
+      "ColumnWriterV2.java",
       1
    ],
    [
       "Alex Levenson",
-      "DeltaLengthByteArrayValuesWriter.java",
-      1
-   ],
-   [
-      "alexlevenson",
-      "TestParquetReadProtocol.java",
-      1
-   ],
-   [
-      "blue",
-      "apache-parquet-format-2.3.0-incubating.tar.gz",
+      "ScroogeStructConverter.java",
       1
    ],
    [
@@ -60,68 +35,13 @@
       1
    ],
    [
-      "Alex Levenson",
-      "compat.thrift",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "PrettyPrintWriter.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "Command.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "HeadCommand.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "DeprecatedParquetOutputFormat.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "SimpleReadSupport.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "TestColumnChunkPageWriteStore.java",
+      "alexlevenson",
+      "ConcatenatingByteArrayCollector.java",
       1
    ],
    [
       "Alex Levenson",
-      "TestThriftSchemaConverter.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ShowSchemaCommand.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ColumnWriteStoreV1.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "DumpCommand.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "MapredParquetOutputCommitter.java",
-      2
-   ],
-   [
-      "Ryan Blue",
-      "ParquetFileWriter.java",
+      "TestDictionary.java",
       1
    ],
    [
@@ -131,37 +51,17 @@
    ],
    [
       "alexlevenson",
-      "InternalParquetRecordWriter.java",
-      1
-   ],
-   [
-      "blue",
-      "apache-parquet-format-2.3.0-incubating.tar.gz.sha",
-      1
-   ],
-   [
-      "alexlevenson",
       "TestColumnChunkPageWriteStore.java",
       1
    ],
    [
-      "alexlevenson",
-      "CapacityByteArrayOutputStream.java",
-      1
-   ],
-   [
       "Ryan Blue",
-      "ParquetWriter.java",
+      "TestArrayCompatibility.java",
       1
    ],
    [
       "Alex Levenson",
-      "ThriftSchemaConvertVisitor.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "BenchmarkDeltaLengthByteArray.java",
+      "PlainValuesWriter.java",
       1
    ],
    [
@@ -171,47 +71,42 @@
    ],
    [
       "Ryan Blue",
-      "ScroogeStructConverter.java",
-      1
+      "AvroWriteSupport.java",
+      2
    ],
    [
-      "alexlevenson",
-      "TestCapacityByteArrayOutputStream.java",
+      "Alex Levenson",
+      "DeltaByteArrayWriter.java",
       1
    ],
    [
       "Alex Levenson",
-      "BufferedProtocolReadToWrite.java",
+      "SmallRangeWritingBenchmarkTest.java",
       1
    ],
    [
       "Ryan Blue",
-      "CatCommand.java",
+      "TestParquetFileWriter.java",
       1
    ],
    [
-      "Alex Levenson",
-      "TestThriftType.java",
+      "lukas",
+      "ProtoParquetReader.java",
       1
    ],
    [
       "Ryan Blue",
-      "ParquetTupleScheme.java",
+      "Preconditions.java",
       1
    ],
    [
-      "Alex Levenson",
-      "ColumnWriterV2.java",
+      "Ryan Blue",
+      "TestPreconditions.java",
       1
    ],
    [
-      "Alex Levenson",
-      "BitPackingValuesWriter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "PlainValuesWriter.java",
+      "Ryan Blue",
+      "test.thrift",
       1
    ],
    [
@@ -221,12 +116,217 @@
    ],
    [
       "Alex Levenson",
-      "ThriftType.java",
+      "ColumnWriteStoreV2.java",
+      1
+   ],
+   [
+      "blue",
+      "apache-parquet-format-2.3.0-incubating.tar.gz.sha",
       1
    ],
    [
       "Ryan Blue",
-      "Preconditions.java",
+      "DeprecatedParquetOutputFormat.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "FixedLenByteArrayPlainValuesWriter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestProtocolReadToWrite.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "DeltaBinaryPackingValuesWriter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "RandomWritingBenchmarkTest.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "AvroReadSupport.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "TestReadWrite.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestMemColumn.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "Registry.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BitWriter.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ParquetFileWriter.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "CatCommand.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestColumnReaderImpl.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ShowMetaCommand.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "ThriftSchemaConvertVisitor.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ParquetScroogeScheme.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "MemoryManager.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "PrettyPrintWriter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BenchmarkDeltaLengthByteArray.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BufferedProtocolReadToWrite.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ScroogeBinaryTest.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ArgsOnlyCommand.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "DumpCommand.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "ColumnWriterV1.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestRunLengthBitPackingHybridEncoder.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "ParquetTupleScheme.java",
+      2
+   ],
+   [
+      "Ryan Blue",
+      "ParquetOutputCommitter.java",
+      1
+   ],
+   [
+      "alexlevenson",
+      "InternalParquetRecordWriter.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "SimpleRecordMaterializer.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "DeltaLengthByteArrayValuesWriter.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "SimpleRecord.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "ColumnWriteStoreV1.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ParquetTBaseScheme.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "FieldProjectionFilter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "ThriftType.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BenchmarkReadingRandomIntegers.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ColumnChunkPageWriteStore.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "ParquetProperties.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "TestBinary.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "DeltaBinaryPackingValuesWriterTest.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestColumnIO.java",
       1
    ],
    [
@@ -240,323 +340,8 @@
       2
    ],
    [
-      "Alex Levenson",
-      "BoundedIntValuesFactory.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "AvroTestUtil.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestProtocolReadToWrite.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "FixedLenByteArrayPlainValuesWriter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestDictionary.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "AvroReadSupport.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ArgsOnlyCommand.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestColumnReaderImpl.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestParquetTBaseScheme.java",
-      2
-   ],
-   [
-      "Ryan Blue",
-      "SimpleRecordMaterializer.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ParquetOutputCommitter.java",
-      2
-   ],
-   [
-      "Alex Levenson",
-      "BoundedIntValuesWriter.java",
-      1
-   ],
-   [
-      "lukas",
-      "ProtoParquetReader.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "RunLengthBitPackingHybridEncoder.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "TestParquetFileWriter.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "TestArrayCompatibility.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ThriftSchemaConverter.java",
-      2
-   ],
-   [
-      "Ryan Blue",
-      "TestBinary.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "Main.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ParquetOutputCommitter.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "SimpleRecordConverter.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "Registry.java",
-      1
-   ],
-   [
       "Ryan Blue",
       "ScroogeStructConverterTest.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "DeltaBinaryPackingValuesWriterTest.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "TestReadWrite.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "binary.thrift",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ParquetScroogeScheme.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "RunLengthBitPackingHybridValuesWriter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ScroogeStructConverter.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "AvroIndexedRecordConverter.java",
-      2
-   ],
-   [
-      "Alex Levenson",
-      "TestColumnIO.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "AvroSchemaConverter.java",
-      2
-   ],
-   [
-      "Alex Levenson",
-      "BenchmarkReadingRandomIntegers.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ThriftBytesWriteSupport.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ScroogeBinaryTest.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "BitWriter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "BenchmarkIntegerOutputSize.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "DeltaBinaryPackingValuesWriter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestBitPackingColumn.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "RandomWritingBenchmarkTest.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "TestPreconditions.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestRunLengthBitPackingHybridEncoder.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "FieldProjectionFilter.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ColumnChunkPageWriteStore.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "SimpleRecord.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "DictionaryValuesWriter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestDeltaByteArray.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestMemColumn.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "BenchmarkDeltaByteArray.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestFiltered.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "test.thrift",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "TestParquetToThriftReadWriteAndProjection.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "TestParquetTBaseScheme.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "ShowMetaCommand.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ParquetProperties.java",
-      1
-   ],
-   [
-      "Ryan Blue",
-      "MapredParquetOutputCommitter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "DeprecatedParquetOutputFormat.java",
-      2
-   ],
-   [
-      "Alex Levenson",
-      "MemoryManager.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "PerfTest.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ColumnWriterV1.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "DeltaByteArrayWriter.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "RunLengthBitPackingHybridIntegrationTest.java",
-      1
-   ],
-   [
-      "Alex Levenson",
-      "ColumnWriteStoreV2.java",
-      1
-   ],
-   [
-      "alexlevenson",
-      "ConcatenatingByteArrayCollector.java",
       1
    ],
    [
@@ -566,7 +351,97 @@
    ],
    [
       "Ryan Blue",
-      "MetadataUtils.java",
+      "SnappyUtil.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "HeadCommand.java",
+      1
+   ],
+   [
+      "alexlevenson",
+      "TestParquetReadProtocol.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "RunLengthBitPackingHybridIntegrationTest.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "TestParquetTBaseScheme.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BenchmarkIntegerOutputSize.java",
+      1
+   ],
+   [
+      "alexlevenson",
+      "CapacityByteArrayOutputStream.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "AvroIndexedRecordConverter.java",
+      2
+   ],
+   [
+      "Alex Levenson",
+      "compat.thrift",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ParquetWriter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestDeltaLengthByteArray.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "DeprecatedParquetOutputFormat.java",
+      2
+   ],
+   [
+      "Alex Levenson",
+      "TestParquetTBaseScheme.java",
+      2
+   ],
+   [
+      "Alex Levenson",
+      "TestThriftSchemaConverter.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "AvroSchemaConverter.java",
+      2
+   ],
+   [
+      "Ryan Blue",
+      "binary.thrift",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestThriftType.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "DictionaryValuesWriter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "RunLengthBitPackingHybridValuesWriter.java",
       1
    ],
    [
@@ -576,7 +451,132 @@
    ],
    [
       "Ryan Blue",
-      "ParquetTBaseScheme.java",
+      "SimpleReadSupport.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestBitPackingColumn.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "ParquetOutputCommitter.java",
+      2
+   ],
+   [
+      "Ryan Blue",
+      "ThriftBytesWriteSupport.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BitPackingValuesWriter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestDeltaByteArray.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "SimpleRecordConverter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestBoundedColumns.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ShowSchemaCommand.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ScroogeStructConverter.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "ParquetTupleScheme.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "MapredParquetOutputCommitter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "PerfTest.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "Main.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "RunLengthBitPackingHybridEncoder.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestParquetToThriftReadWriteAndProjection.java",
+      1
+   ],
+   [
+      "blue",
+      "apache-parquet-format-2.3.0-incubating.tar.gz",
+      1
+   ],
+   [
+      "blue",
+      "apache-parquet-format-2.3.0-incubating.tar.gz.asc",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "Command.java",
+      1
+   ],
+   [
+      "Ryan Blue",
+      "MetadataUtils.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BoundedIntValuesFactory.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "MapredParquetOutputCommitter.java",
+      2
+   ],
+   [
+      "Ryan Blue",
+      "AvroTestUtil.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BoundedIntValuesWriter.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "TestFiltered.java",
+      1
+   ],
+   [
+      "Alex Levenson",
+      "BenchmarkDeltaByteArray.java",
       1
    ]
 ]

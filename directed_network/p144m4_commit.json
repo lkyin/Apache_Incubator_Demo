@@ -1,12 +1,607 @@
 [
    [
-      "Dan Burkert",
-      "constants.cc",
+      "Mike Percy",
+      "README.adoc",
+      1
+   ],
+   [
+      "jdcryans",
+      "AlterTableOptions.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "encoded_key.cc",
       1
    ],
    [
       "Todd Lipcon",
-      "rpc_header.proto",
+      "cache.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "SecureRpcHelper.java",
+      1
+   ],
+   [
+      "Mike Percy",
+      "log_reader.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "TabletServerErrorException.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "hybrid_clock-test.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "release_notes.adoc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "protoc-gen-krpc.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "raft_consensus_state.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "RecoverableException.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "cfile_reader.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "predicate_encoder-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "client.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "service_pool.h",
+      1
+   ],
+   [
+      "todd",
+      "tablet-pushdown-test.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "common.proto",
+      1
+   ],
+   [
+      "jdcryans",
+      "DeleteTableResponse.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "scoped_cleanup-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "stl_util.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rle-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rowset_tree.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "acceptor_pool.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "cache-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "AbstractKuduScannerBuilder.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "quickstart.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_replacement-itest.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "TestErrorCollector.java",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rpc_stub-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "kudu-master_configuration_reference.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rowset_info.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "scoped_cleanup.h",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "sys_catalog.h",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "sasl_client.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "RowErrorsAndOverflowStatus.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "sync_point.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "AsyncKuduScanner.java",
+      2
+   ],
+   [
+      "todd",
+      "scan_spec-test.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "KuduSinkTest.java",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "TestContext.scala",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "CompilerInfo.cmake",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_bootstrap-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "nvm_cache.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "allclasses-noframe.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "schema_design.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "cfile_set.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "remote_bootstrap-itest.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "rtest.proto",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "log-dump.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "service_if.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "deltafile-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "throttler.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "installation.adoc",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "mini_cluster.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "MasterErrorException.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "CsvParser.html",
+      2
+   ],
+   [
+      "Mike Percy",
+      "vars.sh",
+      1
+   ],
+   [
+      "Mike Percy",
+      "top_common.html",
+      2
+   ],
+   [
+      "jdcryans",
+      "KuduSession.html",
+      4
+   ],
+   [
+      "Dan Burkert",
+      "sasl_rpc-test.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "AsyncKuduClient.java",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "mock-rowsets.h",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "partial_row.h",
+      1
+   ],
+   [
+      "todd",
+      "tablet_service.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "SessionConfiguration.FlushMode.html",
+      4
+   ],
+   [
+      "Mike Percy",
+      "SimpleKuduEventProducer.java",
+      1
+   ],
+   [
+      "todd",
+      "scan_spec.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "TestStatus.java",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "client.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "url-coding-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rle-encoding.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "wire_protocol-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "LocatedTablet.Replica.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "mt-log-test.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "row_op.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "sasl_server.cc",
+      1
+   ],
+   [
+      "todd",
+      "tablet.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "CompilerInfo.cmake",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "partition-test.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "scanner-internal.cc",
+      2
+   ],
+   [
+      "Dan Burkert",
+      "partition.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_peer_mm_ops.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "predicate-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "stylesheet.css",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_bootstrap.cc",
+      5
+   ],
+   [
+      "jdcryans",
+      "KuduClient.html",
+      4
+   ],
+   [
+      "Dan Burkert",
+      "cfile_util.h",
+      1
+   ],
+   [
+      "todd",
+      "tablet_service.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "apache-kudu-incubating-0.7.1.tar.gz.asc",
+      3
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "column_predicate.h",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "TestKuduSession.java",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "client.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "scan_predicate.h",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "column_predicate-test.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "vldb.cls",
+      2
+   ],
+   [
+      "Mike Percy",
+      "KuduSink.java",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "scanner-internal.h",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "arena.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "dist_test.py",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "algorithm.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "common.proto",
+      1
+   ],
+   [
+      "jdcryans",
+      "Type.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "make_shared.h",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "alter_table-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "installation.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "NoLeaderMasterFoundException.html",
+      4
+   ],
+   [
+      "Dan Burkert",
+      "row_projector.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "raft_consensus_quorum-test.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "schema.h",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "row_key-util.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "help-doc.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "master-test.cc",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "partial_row.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rpc-test-base.h",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "rowblock.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "TabletClient.java",
+      1
+   ],
+   [
+      "jdcryans",
+      "package-frame.html",
+      8
+   ],
+   [
+      "jdcryans",
+      "AsyncKuduScanner.ReadMode.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "url-coding.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_random_access-test.cc",
       1
    ],
    [
@@ -15,13 +610,378 @@
       1
    ],
    [
-      "Dan Burkert",
-      "random.h",
+      "Todd Lipcon",
+      "remote_bootstrap_client-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "PartialRow.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "AsyncKuduSession.html",
+      4
+   ],
+   [
+      "Mike Percy",
+      "remote_bootstrap-itest.cc",
+      1
+   ],
+   [
+      "todd",
+      "cfile_set-test.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "Status.java",
       1
    ],
    [
       "Todd Lipcon",
-      "scoped_cleanup.h",
+      "webserver.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "RowError.html",
+      4
+   ],
+   [
+      "todd",
+      "composite-pushdown-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_metrics.cc",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "pb_util.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "service_if.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "introduction.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "generic_iterators.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "bit-stream-utils.inline.h",
+      1
+   ],
+   [
+      "Mike Percy",
+      "AsyncKuduSession.java",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "tablet_service.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "generic_service.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "scan_predicate-internal.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "index-all.html",
+      2
+   ],
+   [
+      "jdcryans",
+      "PleaseThrottleException.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "IsAlterTableDoneResponse.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "kudu_impala_integration.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "scan_predicate.cc",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "catalog_manager.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "service_pool.cc",
+      2
+   ],
+   [
+      "Misty Stanley-Jones",
+      "installation.adoc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "catalog_manager.cc",
+      2
+   ],
+   [
+      "jdcryans",
+      "InvalidResponseException.html",
+      4
+   ],
+   [
+      "Mike Percy",
+      "status.h",
+      1
+   ],
+   [
+      "todd",
+      "scan_spec.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "DefaultSourceTest.scala",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "AsyncKuduSession.java",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "constants.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "ListTablesResponse.html",
+      4
+   ],
+   [
+      "todd",
+      "tablet_server-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "raft_consensus-itest.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "developing.adoc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "net_util.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "bit-stream-utils.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "hybrid_clock.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rpc_controller.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "column_predicate.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "connection.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "constant-values.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "Slices.java",
+      2
+   ],
+   [
+      "Dan Burkert",
+      "partition_pruner.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "transaction_semantics.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "Operation.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "log_reader.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "developing.adoc",
+      1
+   ],
+   [
+      "todd",
+      "tserver-path-handlers.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "consensus_peers.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "contributing.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "README.adoc",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "client.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rpc_controller.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "KuduScanner.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "webserver.cc",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "Operation.java",
+      1
+   ],
+   [
+      "jdcryans",
+      "overview-summary.html",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "schema.h",
+      1
+   ],
+   [
+      "todd",
+      "row_key-util.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "pprof-path-handlers.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "debug-util.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "cbtree-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "external_mini_cluster_fs_inspector.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "partition.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "RowResultIterator.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "index.html",
+      1
+   ],
+   [
+      "Mike Percy",
+      "client_failover-itest.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "Slice.java",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "throttler.h",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "preflight.py",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_metrics.h",
       1
    ],
    [
@@ -36,257 +996,12 @@
    ],
    [
       "Jean-Daniel Cryans",
-      "help-doc.html",
-      1
-   ],
-   [
-      "jdcryans",
-      "schema_design.html",
-      1
-   ],
-   [
-      "Mike Percy",
-      "SimpleKuduEventProducer.java",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "cache.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "scoped_cleanup-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "generic_service.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "master-test.cc",
-      3
-   ],
-   [
-      "Todd Lipcon",
-      "log_reader.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "partition.cc",
-      2
-   ],
-   [
-      "todd",
-      "tablet_server-test.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "HasFailedRpcException.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "rpc-test-base.h",
-      2
-   ],
-   [
-      "jdcryans",
-      "CreateTableOptions.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "remote_bootstrap_session.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "InvalidResponseException.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_peer-test.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "KuduException.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "transaction_semantics.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "AsyncKuduScanner.java",
-      2
-   ],
-   [
-      "Dan Burkert",
       "column_predicate-test.cc",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "Gemfile.lock",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_server-test.cc",
       1
-   ],
-   [
-      "Mike Percy",
-      "installation.adoc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "debug-util.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "hdr_histogram.cc",
-      2
-   ],
-   [
-      "jdcryans",
-      "ExternalConsistencyMode.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "wire_protocol-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_service.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "contributing.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "key_util.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rle-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "throttler.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "kudu-ts-cli-test.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "cfile_util.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "predicate-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_peer_mm_ops.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "row_key-util.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "vldb.cls",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "rpc-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "throttler.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "LocatedTablet.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "default-path-handlers.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "arena.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "SessionConfiguration.FlushMode.html",
-      4
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "schema.h",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "installation.adoc",
-      3
-   ],
-   [
-      "jdcryans",
-      "AbstractKuduScannerBuilder.html",
-      4
-   ],
-   [
-      "Adar Dembo",
-      "Operation.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "KuduTable.html",
-      4
    ],
    [
       "jdcryans",
       "developing.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "module_builder.cc",
       1
    ],
    [
@@ -296,113 +1011,8 @@
    ],
    [
       "jdcryans",
-      "kudu-tserver_configuration_reference.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "external_mini_cluster.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "AsyncKuduSession.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "overview-frame.html",
-      1
-   ],
-   [
-      "Mike Percy",
-      "vars.sh",
-      1
-   ],
-   [
-      "Mike Percy",
-      "TestErrorCollector.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "stylesheet.css",
-      1
-   ],
-   [
-      "jdcryans",
-      "package-summary.html",
-      8
-   ],
-   [
-      "Mike Percy",
-      "contributing.adoc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "client_failover-itest.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "external_mini_cluster_fs_inspector.cc",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "constant-values.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "stl_util.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "hybrid_clock-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "url-coding-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "overwrite.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "major_delta_compaction-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "Slice.java",
-      2
-   ],
-   [
-      "jdcryans",
       "package-tree.html",
       8
-   ],
-   [
-      "todd",
-      "row_key-util.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "PartialRow.html",
-      4
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "tablet_service.cc",
-      1
    ],
    [
       "Todd Lipcon",
@@ -410,704 +1020,14 @@
       2
    ],
    [
-      "Dan Burkert",
-      "AsyncKuduClient.java",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "ColumnRangePredicate.java",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "webserver.h",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "column_predicate.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "ListTabletServersResponse.html",
-      4
-   ],
-   [
-      "Dan Burkert",
-      "row_key-util.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "partition.cc",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "TestKuduSession.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "RecoverableException.html",
-      4
-   ],
-   [
-      "todd",
-      "scan_spec-test.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "partial_row.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rowset_tree.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "MasterErrorException.html",
-      4
-   ],
-   [
-      "todd",
-      "predicate_encoder.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "LocatedTablet.Replica.html",
-      4
-   ],
-   [
-      "Mike Percy",
-      "release_notes.adoc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "preflight.py",
-      4
-   ],
-   [
-      "Mike Percy",
-      "wire_protocol.proto",
-      1
-   ],
-   [
-      "jdcryans",
-      "help-doc.html",
-      1
-   ],
-   [
-      "jdcryans",
-      "configuration_reference_unsupported.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "bit-stream-utils.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "CommandLineParser.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "build-definitions.sh",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "make_shared.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "KuduTableOutputCommitter.html",
-      3
-   ],
-   [
-      "jdcryans",
-      "NoLeaderMasterFoundException.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "Insert.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "post.html",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "pb_util.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "column_predicate.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_metrics.cc",
-      1
-   ],
-   [
-      "Mike Percy",
-      "client_failover-itest.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "partition-test.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "KuduSession.html",
-      4
-   ],
-   [
-      "Dan Burkert",
-      "KuduContext.scala",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_replacement-itest.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "generic_iterators.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "net_util.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "raw_scoped_refptr_mismatch_checker.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "ts_recovery-itest.cc",
-      2
-   ],
-   [
-      "jdcryans",
-      "release_notes.html",
-      1
-   ],
-   [
-      "Mike Percy",
-      "KuduSinkTest.java",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "overview.html",
-      2
-   ],
-   [
-      "jdcryans",
-      "deprecated-list.html",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "sasl_client.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "pprof-path-handlers.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "cbtree-test.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "quickstart.html",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "deprecated-list.html",
-      1
-   ],
-   [
-      "Misty Stanley-Jones",
-      "kudu_impala_integration.adoc",
-      1
-   ],
-   [
-      "jdcryans",
-      "IsAlterTableDoneResponse.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "SecureRpcHelper.java",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "log_cache.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "hybrid_clock.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "column_predicate.cc",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "mock-rowsets.h",
-      1
-   ],
-   [
-      "Mike Percy",
-      "dynamic_annotations.h",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "README.adoc",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "alter_table-test.cc",
-      1
-   ],
-   [
-      "Mike Percy",
-      "developing.adoc",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "allclasses-noframe.html",
-      1
-   ],
-   [
-      "Mike Percy",
-      "consensus_peers.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "TabletServerErrorException.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "columnblock.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "service_pool.cc",
-      2
-   ],
-   [
-      "jdcryans",
-      "AlterTableOptions.html",
-      4
-   ],
-   [
-      "todd",
-      "row_key-util-test.cc",
-      1
-   ],
-   [
-      "Mike Percy",
-      "log_reader.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "TestColumnRangePredicate.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "kudu_impala_integration.html",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "client.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "SessionConfiguration.html",
-      4
-   ],
-   [
-      "todd",
-      "composite-pushdown-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "ts_tablet_manager.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "tablet_service.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "transfer.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "raft_consensus.cc",
-      1
-   ],
-   [
-      "Mike Percy",
-      "AsyncKuduSession.java",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "client-test.cc",
-      2
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "column_predicate-test.cc",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "scanners.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "RowErrorsAndOverflowStatus.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "debug-util.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "service_if.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "fuzz-itest.cc",
-      3
-   ],
-   [
-      "jdcryans",
-      "DeleteTableResponse.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "Update.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "ImportCsv.html",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "release_notes.adoc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rowset_info.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "schema.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "sasl_server.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "OperationResponse.html",
-      4
-   ],
-   [
-      "todd",
-      "predicate_encoder.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "ColumnRangePredicate.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "deltafile-test.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "constants.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "partition_pruner-test.cc",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "acceptor_pool.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "constants.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rowblock.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "hdr_histogram.h",
-      2
-   ],
-   [
-      "Adar Dembo",
-      "sys_catalog.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "index-all.html",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_random_access-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "connection.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "CsvParser.html",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "tserver.proto",
-      1
-   ],
-   [
-      "Mike Percy",
-      "overview.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "raft_consensus-itest.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "installation.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "webserver.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "RowError.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "predicate_encoder-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "remote_bootstrap_client-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "build-and-test.sh",
-      2
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "column_predicate.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "service_pool.h",
-      1
-   ],
-   [
-      "todd",
-      "row_key-util.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "TabletClient.java",
-      1
-   ],
-   [
-      "todd",
-      "tablet_random_access-test.cc",
-      1
-   ],
-   [
-      "Mike Percy",
-      "status.h",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "release_notes.adoc",
-      5
-   ],
-   [
-      "Todd Lipcon",
-      "algorithm.h",
-      1
-   ],
-   [
       "jdcryans",
       "KuduServerException.html",
       4
    ],
    [
-      "Todd Lipcon",
-      "log-dump.cc",
-      1
-   ],
-   [
       "jdcryans",
-      "overview-summary.html",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "external_mini_cluster.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "scan_predicate.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "apache-kudu-incubating-0.7.1.tar.gz.sha",
+      "index.html",
       3
-   ],
-   [
-      "Todd Lipcon",
-      "partial_row.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "raft_consensus_state.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "KuduTableOutputFormat.html",
-      3
-   ],
-   [
-      "Todd Lipcon",
-      "rowset_tree.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "CompilerInfo.cmake",
-      1
-   ],
-   [
-      "jdcryans",
-      "introduction.html",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "sys_catalog-test.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "KuduTableMapReduceUtil.html",
-      3
-   ],
-   [
-      "Mike Percy",
-      "README.adoc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "sasl_rpc-test.cc",
-      1
    ],
    [
       "Dan Burkert",
@@ -1115,638 +1035,8 @@
       1
    ],
    [
-      "Misty Stanley-Jones",
-      "installation.adoc",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "bottom_common.html",
-      1
-   ],
-   [
-      "jdcryans",
-      "contributing.html",
-      1
-   ],
-   [
-      "Mike Percy",
-      "KuduEventProducer.java",
-      1
-   ],
-   [
-      "Mike Percy",
-      "Status.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "PleaseThrottleException.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "Delete.html",
-      4
-   ],
-   [
-      "Adar Dembo",
-      "AsyncKuduSession.java",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "scan_predicate.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "scanner-internal.cc",
-      2
-   ],
-   [
       "Todd Lipcon",
-      "log_reader.cc",
-      1
-   ],
-   [
-      "todd",
-      "scan_spec.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "allclasses-noframe.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "bit-stream-utils.inline.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "scanner-internal.h",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "sys_catalog.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "scan_predicate-internal.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "external_mini_cluster.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "sync_point.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "log-test.cc",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "scanner-internal.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "codegen-test.cc",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "client-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "top_common.html",
-      1
-   ],
-   [
-      "todd",
-      "tablet-pushdown-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "ts_descriptor.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet.cc",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_metrics.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "bit-util.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "remote_bootstrap-itest.cc",
-      2
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "CompilerInfo.cmake",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "ts_tablet_manager.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "apache-kudu-incubating-0.7.1.tar.gz",
-      3
-   ],
-   [
-      "jdcryans",
-      "ListTablesResponse.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "mt-log-test.cc",
-      2
-   ],
-   [
-      "jdcryans",
-      "Schema.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "kudu.css",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "inbound_call.cc",
-      2
-   ],
-   [
-      "jdcryans",
-      "kudu-tserver_configuration_reference_unsupported.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_bootstrap.cc",
-      5
-   ],
-   [
-      "Todd Lipcon",
-      "partial_row.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "protoc-gen-krpc.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "script.js",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "row_projector.cc",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "scan_predicate.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "administration.html",
-      1
-   ],
-   [
-      "jdcryans",
-      "AsyncKuduScanner.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "blog_layout.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "dist_test.py",
-      1
-   ],
-   [
-      "jdcryans",
-      "serialized-form.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rtest.proto",
-      1
-   ],
-   [
-      "todd",
-      "cfile_set-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "cfile_set.cc",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "allclasses-frame.html",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "partition_pruner.h",
-      1
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "developing.adoc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "scanner-internal.h",
-      1
-   ],
-   [
-      "Mike Percy",
-      "build-definitions.sh",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "encoded_key.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "random.h",
-      1
-   ],
-   [
-      "todd",
-      "tserver.proto",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "row_op.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "hybrid_clock.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "ColumnSchema.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "service_if.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "TableReducer.html",
-      3
-   ],
-   [
-      "Todd Lipcon",
-      "log.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "test_workload.h",
-      1
-   ],
-   [
-      "todd",
-      "sys_catalog.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "cfile_reader.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet.h",
-      3
-   ],
-   [
-      "Todd Lipcon",
-      "pprof-path-handlers.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rpc_controller.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "default-path-handlers.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "package-frame.html",
-      8
-   ],
-   [
-      "jdcryans",
-      "KuduScanner.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "kudu-master_configuration_reference.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "common.proto",
-      1
-   ],
-   [
-      "Mike Percy",
-      "top_common.html",
-      2
-   ],
-   [
-      "Adar Dembo",
-      "installation.adoc",
-      1
-   ],
-   [
-      "jdcryans",
-      "KuduClient.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "debug-util.h",
-      1
-   ],
-   [
-      "Mike Percy",
-      "remote_bootstrap-itest.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "partition_pruner.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "AsyncKuduClient.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "build-thirdparty.sh",
-      3
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "installation.html",
-      3
-   ],
-   [
-      "Todd Lipcon",
-      "log.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "sample.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "raft_consensus_quorum-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "logging.cc",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "write_throttling-itest.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "inbound_call.h",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "client.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "DefaultSource.scala",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rpc_stub-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "catalog_manager.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "sync_point.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "external_mini_cluster_fs_inspector.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "ITScannerMultiTablet.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "Operation.html",
-      4
-   ],
-   [
-      "Dan Burkert",
-      "arena.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "FindProtobuf.cmake",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "check-rat-report.py",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rpc_controller.cc",
-      1
-   ],
-   [
-      "todd",
-      "tablet_service.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tablet_throttle-test.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "client.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "memory.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "logging.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "generic_iterators-test.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "rpc_header.proto",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "column_predicate.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "tuple.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "cluster_itest_util.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "kudu-master_configuration_reference_unsupported.html",
-      1
-   ],
-   [
-      "Mike Percy",
-      "TestStatus.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "RowResult.html",
-      4
-   ],
-   [
-      "jdcryans",
-      "RowResultIterator.html",
-      4
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "row_projector.cc",
-      1
-   ],
-   [
-      "jdcryans",
-      "style_guide.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "service_queue.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "row_op.cc",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "predicate-test.cc",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "Slices.java",
-      2
-   ],
-   [
-      "Jean-Daniel Cryans",
-      "release_notes.html",
-      3
-   ],
-   [
-      "jdcryans",
-      "configuration_reference.html",
+      "default-path-handlers.cc",
       1
    ],
    [
@@ -1756,52 +1046,17 @@
    ],
    [
       "jdcryans",
-      "NonRecoverableException.html",
-      4
-   ],
-   [
-      "Todd Lipcon",
-      "key_util-test.cc",
+      "help-doc.html",
       1
    ],
    [
       "Todd Lipcon",
-      "url-coding.cc",
-      2
+      "memrowset.cc",
+      1
    ],
    [
       "todd",
-      "diskrowset-test-base.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "index.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "nvm_cache.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "rle-encoding.h",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "sasl_server.h",
-      1
-   ],
-   [
-      "jdcryans",
-      "index.html",
-      3
-   ],
-   [
-      "Todd Lipcon",
-      "remote_bootstrap_service-test.cc",
+      "sys_catalog.cc",
       1
    ],
    [
@@ -1810,108 +1065,113 @@
       1
    ],
    [
-      "todd",
-      "tserver-path-handlers.cc",
+      "Todd Lipcon",
+      "cluster_itest_util.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "log-test.cc",
       1
    ],
    [
       "jdcryans",
-      "InterfaceStability.html",
+      "kudu-tserver_configuration_reference.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "AsyncKuduClient.html",
       4
    ],
    [
-      "jdcryans",
-      "overview-tree.html",
-      1
-   ],
-   [
-      "todd",
-      "tablet.cc",
-      1
-   ],
-   [
       "Todd Lipcon",
-      "tablet_bootstrap-test.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "generic_iterators.cc",
+      "service_queue.h",
       1
    ],
    [
       "Jean-Daniel Cryans",
-      "common.proto",
-      1
+      "release_notes.adoc",
+      5
    ],
    [
       "Dan Burkert",
-      "column_predicate.h",
+      "partition.cc",
       2
    ],
    [
       "Todd Lipcon",
-      "heartbeater.cc",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "tablet.h",
-      1
-   ],
-   [
-      "Adar Dembo",
-      "mini_cluster.h",
+      "contributing.html",
       1
    ],
    [
       "jdcryans",
-      "package-use.html",
-      8
+      "overview-frame.html",
+      1
    ],
    [
-      "Todd Lipcon",
-      "delta_compaction-test.cc",
+      "Jean-Daniel Cryans",
+      "README.adoc",
       1
    ],
    [
       "Todd Lipcon",
-      "overwrite.h",
+      "ts_recovery-itest.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "log_cache.cc",
       1
    ],
    [
       "Todd Lipcon",
-      "diskrowset-test.cc",
+      "external_mini_cluster_fs_inspector.h",
       1
    ],
    [
       "Todd Lipcon",
-      "DefaultSourceTest.scala",
+      "pprof-path-handlers.h",
       1
    ],
    [
-      "Adar Dembo",
-      "catalog_manager.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "outbound_call.h",
+      "Jean-Daniel Cryans",
+      "row_projector.cc",
       1
    ],
    [
       "jdcryans",
-      "ConnectionResetException.html",
-      4
+      "kudu-tserver_configuration_reference_unsupported.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "check-rat-report.py",
+      1
+   ],
+   [
+      "todd",
+      "predicate_encoder.h",
+      1
    ],
    [
       "Mike Percy",
-      "RowError.java",
+      "KuduSinkConfigurationConstants.java",
+      1
+   ],
+   [
+      "Mike Percy",
+      "contributing.adoc",
       1
    ],
    [
       "Todd Lipcon",
-      "cache.h",
+      "logging.cc",
+      2
+   ],
+   [
+      "todd",
+      "predicate_encoder.cc",
       1
    ],
    [
@@ -1921,17 +1181,112 @@
    ],
    [
       "Mike Percy",
-      "KuduSinkConfigurationConstants.java",
+      "KuduEventProducer.java",
+      1
+   ],
+   [
+      "jdcryans",
+      "LocatedTablet.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "cache.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "partition_pruner-test.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "transfer.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "serialized-form.html",
       1
    ],
    [
       "Todd Lipcon",
-      "transfer.h",
+      "random.h",
       1
    ],
    [
       "Todd Lipcon",
-      "memrowset.cc",
+      "log_reader.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "sasl_rpc-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "build-definitions.sh",
+      1
+   ],
+   [
+      "jdcryans",
+      "apache-kudu-incubating-0.7.1.tar.gz.sha",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "client-test.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "FindProtobuf.cmake",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "tablet.h",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "top_common.html",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "scanner-internal.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "debug-util.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "administration.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "outbound_call.h",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "deprecated-list.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "Update.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "deprecated-list.html",
       1
    ],
    [
@@ -1941,62 +1296,82 @@
    ],
    [
       "Todd Lipcon",
-      "TestContext.scala",
-      1
-   ],
-   [
-      "Dan Burkert",
-      "BaseKuduTest.java",
+      "heartbeater.cc",
       1
    ],
    [
       "jdcryans",
-      "apache-kudu-incubating-0.7.1.tar.gz.asc",
-      3
-   ],
-   [
-      "todd",
-      "tablet_service.cc",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "url-coding.h",
-      1
-   ],
-   [
-      "Mike Percy",
-      "KuduSink.java",
-      1
-   ],
-   [
-      "Misty Stanley-Jones",
-      "release_notes.adoc",
-      1
-   ],
-   [
-      "todd",
-      "tablet.h",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "catalog_manager.cc",
-      2
-   ],
-   [
-      "Todd Lipcon",
-      "client.cc",
-      2
-   ],
-   [
-      "jdcryans",
-      "Type.html",
+      "RowResult.html",
       4
    ],
    [
       "Todd Lipcon",
-      "memory.h",
+      "KuduRpc.java",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "row_key-util.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "client_failover-itest.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "hdr_histogram.cc",
+      2
+   ],
+   [
+      "jdcryans",
+      "AlterTableResponse.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "generic_iterators.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "inbound_call.h",
+      2
+   ],
+   [
+      "Dan Burkert",
+      "rpc_header.proto",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "release_notes.adoc",
+      1
+   ],
+   [
+      "jdcryans",
+      "kudu-master_configuration_reference_unsupported.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "columnblock.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "ExternalConsistencyMode.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "memory.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "configuration_reference_unsupported.html",
       1
    ],
    [
@@ -2006,13 +1381,68 @@
    ],
    [
       "Todd Lipcon",
-      "index.html",
+      "inbound_call.cc",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "build-and-test.sh",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "preflight.py",
+      4
+   ],
+   [
+      "Dan Burkert",
+      "constants.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "random.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "bit-util.h",
       1
    ],
    [
       "jdcryans",
-      "AlterTableResponse.html",
+      "package-summary.html",
+      8
+   ],
+   [
+      "Todd Lipcon",
+      "tserver.proto",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "constants.cc",
+      1
+   ],
+   [
+      "Misty Stanley-Jones",
+      "release_notes.adoc",
+      1
+   ],
+   [
+      "jdcryans",
+      "InterfaceStability.html",
       4
+   ],
+   [
+      "Todd Lipcon",
+      "ts_tablet_manager.cc",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "external_mini_cluster.cc",
+      1
    ],
    [
       "Dan Burkert",
@@ -2020,9 +1450,49 @@
       3
    ],
    [
-      "Todd Lipcon",
-      "README.adoc",
+      "jdcryans",
+      "HasFailedRpcException.html",
       4
+   ],
+   [
+      "jdcryans",
+      "Schema.html",
+      4
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "installation.html",
+      3
+   ],
+   [
+      "Dan Burkert",
+      "KuduContext.scala",
+      1
+   ],
+   [
+      "jdcryans",
+      "Insert.html",
+      4
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "allclasses-frame.html",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "bottom_common.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "Delete.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "scanner-internal.h",
+      1
    ],
    [
       "Todd Lipcon",
@@ -2030,13 +1500,163 @@
       2
    ],
    [
-      "todd",
-      "scan_spec.cc",
+      "jdcryans",
+      "overview-tree.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_server-test.cc",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "sys_catalog-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "sample.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rpc-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "ts_tablet_manager.h",
+      1
+   ],
+   [
+      "Mike Percy",
+      "overview.html",
       1
    ],
    [
       "jdcryans",
-      "configuration.html",
+      "ConnectionResetException.html",
+      4
+   ],
+   [
+      "Mike Percy",
+      "dynamic_annotations.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "KuduTable.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "hybrid_clock.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "installation.adoc",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "overview.html",
+      2
+   ],
+   [
+      "Dan Burkert",
+      "tablet_service.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "ListTabletServersResponse.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "AsyncKuduScanner.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "ColumnSchema.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "ImportCsv.html",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "fuzz-itest.cc",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "raft_consensus.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "OperationResponse.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "KuduException.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "memory.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rpc_header.proto",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "column_predicate.cc",
+      2
+   ],
+   [
+      "Dan Burkert",
+      "arena.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "script.js",
+      1
+   ],
+   [
+      "jdcryans",
+      "style_guide.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "kudu-ts-cli-test.cc",
+      1
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "release_notes.html",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "log.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_service.cc",
       1
    ],
    [
@@ -2045,8 +1665,93 @@
       1
    ],
    [
+      "Todd Lipcon",
+      "url-coding.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "log.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "post.html",
+      1
+   ],
+   [
       "Dan Burkert",
       "sasl_client.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "NonRecoverableException.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "external_mini_cluster.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "ColumnRangePredicate.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "column_predicate.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "apache-kudu-incubating-0.7.1.tar.gz",
+      3
+   ],
+   [
+      "todd",
+      "tserver.proto",
+      1
+   ],
+   [
+      "todd",
+      "tablet.h",
+      1
+   ],
+   [
+      "Mike Percy",
+      "wire_protocol.proto",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "tablet.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "remote_bootstrap_session.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "major_delta_compaction-test.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "RowError.java",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "Gemfile.lock",
+      2
+   ],
+   [
+      "Adar Dembo",
+      "client-test.cc",
       1
    ],
    [
@@ -2056,22 +1761,297 @@
    ],
    [
       "jdcryans",
-      "allclasses-frame.html",
-      1
-   ],
-   [
-      "Todd Lipcon",
-      "KuduRpc.java",
-      1
-   ],
-   [
-      "jdcryans",
-      "AsyncKuduScanner.ReadMode.html",
+      "InterfaceAudience.html",
       4
    ],
    [
       "Todd Lipcon",
-      "cache-test.cc",
+      "delta_compaction-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "allclasses-frame.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "configuration.html",
+      1
+   ],
+   [
+      "jdcryans",
+      "allclasses-noframe.html",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "sys_catalog.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "key_util-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "diskrowset-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "remote_bootstrap_service-test.cc",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "scanners.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "SessionConfiguration.html",
+      4
+   ],
+   [
+      "jdcryans",
+      "CreateTableOptions.html",
+      4
+   ],
+   [
+      "Todd Lipcon",
+      "write_throttling-itest.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "partition_pruner.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "overwrite.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "package-use.html",
+      8
+   ],
+   [
+      "Todd Lipcon",
+      "sync_point.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "DefaultSource.scala",
+      1
+   ],
+   [
+      "jdcryans",
+      "CommandLineParser.html",
+      4
+   ],
+   [
+      "todd",
+      "row_key-util-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "KuduTableMapReduceUtil.html",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "default-path-handlers.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "overwrite.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "release_notes.html",
+      1
+   ],
+   [
+      "todd",
+      "diskrowset-test-base.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "catalog_manager.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "TestColumnRangePredicate.java",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "codegen-test.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "ITScannerMultiTablet.java",
+      1
+   ],
+   [
+      "Misty Stanley-Jones",
+      "kudu_impala_integration.adoc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "rowset_tree.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "TableReducer.html",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_peer-test.cc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "sasl_server.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "build-thirdparty.sh",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "ColumnRangePredicate.java",
+      1
+   ],
+   [
+      "Adar Dembo",
+      "installation.adoc",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "BaseKuduTest.java",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "raw_scoped_refptr_mismatch_checker.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "external_mini_cluster.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "partial_row.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "logging.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "test_workload.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "generic_iterators-test.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "KuduTableOutputFormat.html",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "index.html",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "key_util.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "kudu.css",
+      1
+   ],
+   [
+      "Dan Burkert",
+      "column_predicate.h",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "transfer.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "debug-util.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "ts_descriptor.cc",
+      1
+   ],
+   [
+      "jdcryans",
+      "configuration_reference.html",
+      1
+   ],
+   [
+      "todd",
+      "row_key-util.h",
+      1
+   ],
+   [
+      "jdcryans",
+      "KuduTableOutputCommitter.html",
+      3
+   ],
+   [
+      "Todd Lipcon",
+      "tablet.cc",
+      4
+   ],
+   [
+      "Dan Burkert",
+      "predicate-test.cc",
+      2
+   ],
+   [
+      "Jean-Daniel Cryans",
+      "scan_predicate.cc",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "tablet_throttle-test.cc",
       1
    ],
    [
@@ -2080,23 +2060,43 @@
       1
    ],
    [
-      "Dan Burkert",
-      "partition.h",
+      "Todd Lipcon",
+      "tuple.h",
       1
    ],
    [
-      "jdcryans",
-      "InterfaceAudience.html",
-      4
-   ],
-   [
-      "Dan Burkert",
-      "sasl_rpc-test.cc",
+      "Todd Lipcon",
+      "module_builder.cc",
       1
    ],
    [
-      "Adar Dembo",
-      "preflight.py",
+      "Jean-Daniel Cryans",
+      "column_predicate.cc",
+      1
+   ],
+   [
+      "todd",
+      "tablet_random_access-test.cc",
+      1
+   ],
+   [
+      "Mike Percy",
+      "build-definitions.sh",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "row_op.h",
+      1
+   ],
+   [
+      "Todd Lipcon",
+      "hdr_histogram.h",
+      2
+   ],
+   [
+      "Todd Lipcon",
+      "blog_layout.html",
       1
    ]
 ]

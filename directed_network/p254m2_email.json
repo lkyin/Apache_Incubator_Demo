@@ -1,15 +1,35 @@
 [
    {
+      "name": "no-reply",
+      "imports": []
+   },
+   {
+      "name": "Flavio Pellanda",
       "imports": [
          "Christian Grobmeier",
          "Christian Grobmeier",
          "Scott Deboy",
          "Scott Deboy",
          "Scott Deboy"
-      ],
-      "name": "Flavio Pellanda"
+      ]
    },
    {
+      "name": "Marcus Holthaus (IMSEC)",
+      "imports": [
+         "Flavio Pellanda",
+         "Scott Deboy"
+      ]
+   },
+   {
+      "name": "Christian Grobmeier",
+      "imports": [
+         "Flavio Pellanda",
+         "Flavio Pellanda",
+         "Flavio Pellanda"
+      ]
+   },
+   {
+      "name": "Scott Deboy",
       "imports": [
          "no-reply",
          "Flavio Pellanda",
@@ -17,29 +37,13 @@
          "Flavio Pellanda",
          "Flavio Pellanda",
          "Urs Lerch"
-      ],
-      "name": "Scott Deboy"
+      ]
    },
    {
+      "name": "Urs Lerch",
       "imports": [
          "Marcus Holthaus (IMSEC)",
          "Scott Deboy"
-      ],
-      "name": "Urs Lerch"
-   },
-   {
-      "imports": [
-         "Flavio Pellanda",
-         "Flavio Pellanda",
-         "Flavio Pellanda"
-      ],
-      "name": "Christian Grobmeier"
-   },
-   {
-      "imports": [
-         "Flavio Pellanda",
-         "Scott Deboy"
-      ],
-      "name": "Marcus Holthaus (IMSEC)"
+      ]
    }
 ]

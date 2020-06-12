@@ -1,17 +1,17 @@
 [
    [
       "dsullivan",
-      "ActivityStreamsSubscriber.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "StreamsPublisherRegistrationServiceImpl.java",
+      "StreamsActivityPublishingServiceImpl.java",
       3
    ],
    [
       "dsullivan",
-      "CassandraPublisherService.java",
+      "CassandraPublisher.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "subscriber.html",
       1
    ],
    [
@@ -21,32 +21,22 @@
    ],
    [
       "dsullivan",
-      "SubscriptionRepository.java",
+      "ActivityStreamsSubscriberDelegate.java",
       1
    ],
    [
       "dsullivan",
-      "ActivityStreamsSubscriberWarehouseImpl.java",
+      "CassandraPublisherRepository.java",
+      3
+   ],
+   [
+      "dsullivan",
+      "CassandraConfiguration.java",
       2
    ],
    [
       "dsullivan",
-      "StreamsWebController.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "PushActivityConsumer.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "CassandraActivityService.java",
-      4
-   ],
-   [
-      "dsullivan",
-      "ActivityStreamsSubscriberRegistrationProcessor.java",
+      "ActivityConsumer.java",
       1
    ],
    [
@@ -61,32 +51,57 @@
    ],
    [
       "dsullivan",
-      "CassandraActivityStreamsEntry.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "CassandraPublisherRepository.java",
+      "StreamsSubscriberRegistrationServiceImpl.java",
       3
    ],
    [
       "dsullivan",
-      "publisher.html",
+      "CassandraKeyspace.java",
+      3
+   ],
+   [
+      "dsullivan",
+      "StreamsActivityReceivingServiceImpl.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "SubscriptionRepository.java",
       1
    ],
    [
       "dsullivan",
-      "CassandraSubscriptionRepository.java",
-      4
-   ],
-   [
-      "dsullivan",
-      "ActivityStreamsSubscriptionImpl.java",
+      "ActivityService.java",
       1
    ],
    [
       "dsullivan",
-      "ActivityStreamsPublisher.java",
+      "StreamsActivityRepositoryService.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "CassandraPublisherService.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "StormSubscriberBolt.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "ActivityStreamsSubscription.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "ActivityStreamsRepository.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "StreamsPublisherRegistrationService.java",
       1
    ],
    [
@@ -96,42 +111,37 @@
    ],
    [
       "dsullivan",
-      "ActivityStreamsSubscription.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "ActivityConsumerWarehouseImpl.java",
+      "StreamsPublisherRepositoryService.java",
       1
    ],
    [
       "dsullivan",
-      "CassandraSubscription.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "StreamsSubscriberRegistrationService.java",
+      "CassandraActivityStreamsEntry.java",
       1
    ],
    [
       "dsullivan",
-      "StreamsActivityPublishingServiceImpl.java",
-      3
+      "ActivityStreamsSubscriptionImpl.java",
+      1
    ],
    [
       "dsullivan",
-      "StreamsSubscriberRegistrationServiceImpl.java",
-      3
+      "CassandraActivityService.java",
+      4
    ],
    [
       "dsullivan",
-      "StormSubscriberBolt.java",
-      2
+      "ActivityConsumerWarehouse.java",
+      1
    ],
    [
       "dsullivan",
-      "PublisherRepository.java",
+      "ActivityStreamsSubscriberRegistrationProcessor.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "ActivityConsumerRouter.java",
       1
    ],
    [
@@ -141,13 +151,23 @@
    ],
    [
       "dsullivan",
-      "publisher.js",
+      "StreamsSubscriptionRepositoryService.java",
       1
    ],
    [
       "dsullivan",
-      "subscriber.js",
+      "publisher.html",
       1
+   ],
+   [
+      "dsullivan",
+      "CassandraActivityStreamsRepositoryTest.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "StreamsWebController.java",
+      2
    ],
    [
       "dsullivan",
@@ -156,13 +176,78 @@
    ],
    [
       "dsullivan",
-      "ActivityConsumer.java",
+      "StreamsPublisherRegistrationServiceImpl.java",
+      3
+   ],
+   [
+      "dsullivan",
+      "ActivityConsumerWarehouseImpl.java",
       1
    ],
    [
       "dsullivan",
-      "CassandraActivityStreamsRepositoryTest.java",
+      "CassandraPublisherRepositoryTest.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "CassandraSubscriptionRepository.java",
+      4
+   ],
+   [
+      "dsullivan",
+      "ActivityStreamsSubscriber.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "PublisherRepository.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "ActivityStreamsSubscriberWarehouseImpl.java",
       2
+   ],
+   [
+      "dsullivan",
+      "StormSubscriberSpout.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "StreamsSubscriberRegistrationService.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "PushActivityConsumer.java",
+      1
+   ],
+   [
+      "dsullivan",
+      "CassandraSubscriptionService.java",
+      4
+   ],
+   [
+      "dsullivan",
+      "StormActivityAggregator.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "CassandraSubscription.java",
+      2
+   ],
+   [
+      "dsullivan",
+      "publisher.js",
+      1
+   ],
+   [
+      "dsullivan",
+      "CassandraActivityServiceTest.java",
+      1
    ],
    [
       "dsullivan",
@@ -176,92 +261,7 @@
    ],
    [
       "dsullivan",
-      "StreamsActivityReceivingServiceImpl.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "ActivityConsumerRouter.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "CassandraKeyspace.java",
-      3
-   ],
-   [
-      "dsullivan",
-      "StreamsPublisherRepositoryService.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "CassandraActivityServiceTest.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "StreamsActivityRepositoryService.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "StreamsPublisherRegistrationService.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "StormActivityAggregator.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "CassandraPublisherRepositoryTest.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "CassandraSubscriptionService.java",
-      4
-   ],
-   [
-      "dsullivan",
-      "ActivityConsumerWarehouse.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "ActivityStreamsRepository.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "CassandraConfiguration.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "ActivityStreamsSubscriberDelegate.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "ActivityService.java",
-      1
-   ],
-   [
-      "dsullivan",
-      "StormSubscriberSpout.java",
-      2
-   ],
-   [
-      "dsullivan",
-      "subscriber.html",
-      1
-   ],
-   [
-      "dsullivan",
-      "CassandraPublisher.java",
+      "subscriber.js",
       1
    ],
    [
@@ -271,7 +271,7 @@
    ],
    [
       "dsullivan",
-      "StreamsSubscriptionRepositoryService.java",
+      "ActivityStreamsPublisher.java",
       1
    ]
 ]

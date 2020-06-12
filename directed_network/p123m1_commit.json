@@ -1,142 +1,22 @@
 [
    [
       "gates",
-      "JavaAction.java",
+      "JobInfo.java",
       1
    ],
    [
       "gates",
-      "LoadFuncBasedInputFormat.java",
+      "TestPermsGrp.java",
       1
    ],
    [
       "gates",
-      "PartInfo.java",
+      "HCatArrayBag.java",
       1
    ],
    [
       "gates",
-      "HCatRecordWriter.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatInputStorageDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "TestHCatUtil.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatInputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "ErrorType.java",
-      1
-   ],
-   [
-      "gates",
-      "TestHCatNonPartitioned.java",
-      1
-   ],
-   [
-      "gates",
-      "OutputJobInfo.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatRecordReader.java",
-      1
-   ],
-   [
-      "gates",
-      "PigStorageInputDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatSemanticAnalyzer.java",
-      1
-   ],
-   [
-      "gates",
-      "CreateDatabaseHook.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatOutputCommitter.java",
-      1
-   ],
-   [
-      "gates",
-      "CreateTableHook.java",
-      1
-   ],
-   [
-      "gates",
-      "TestRCFileInputStorageDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatException.java",
-      1
-   ],
-   [
-      "gates",
-      "TestRCFileMapReduceInputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatFieldSchema.java",
-      1
-   ],
-   [
-      "gates",
-      "AlterTableFileFormatHook.java",
-      1
-   ],
-   [
-      "gates",
-      "RCFileMapReduceRecordReader.java",
-      1
-   ],
-   [
-      "gates",
-      "DefaultHCatRecord.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatConstants.java",
-      1
-   ],
-   [
-      "gates",
-      "TestPigStorageDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "TestHCatOutputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatSchema.java",
-      1
-   ],
-   [
-      "gates",
-      "ExitException.java",
+      "RCFileOutputDriver.java",
       1
    ],
    [
@@ -146,42 +26,72 @@
    ],
    [
       "gates",
-      "HCatRecordable.java",
-      1
-   ],
-   [
-      "gates",
       "AuthUtils.java",
       1
    ],
    [
       "gates",
-      "hcat.sh",
+      "HCatException.java",
       1
    ],
    [
       "gates",
-      "TestHCatPartitioned.java",
+      "PigStorageInputDriver.java",
       1
    ],
    [
       "gates",
-      "PigHCatUtil.java",
+      "TestHCatLoader.java",
       1
    ],
    [
       "gates",
-      "ReaderWriter.java",
+      "HCatOutputCommitter.java",
       1
    ],
    [
       "gates",
-      "MiniCluster.java",
+      "HCatOutputStorageDriver.java",
       1
    ],
    [
       "gates",
-      "sitemap.xmap",
+      "TestPermsInheritance.java",
+      1
+   ],
+   [
+      "gates",
+      "LoadFuncBasedInputFormat.java",
+      1
+   ],
+   [
+      "gates",
+      "RCFileMapReduceOutputFormat.java",
+      1
+   ],
+   [
+      "gates",
+      "DefaultHCatRecord.java",
+      1
+   ],
+   [
+      "gates",
+      "cli.xconf",
+      1
+   ],
+   [
+      "gates",
+      "TestPigStorageDriver.java",
+      1
+   ],
+   [
+      "gates",
+      "AddPartitionHook.java",
+      1
+   ],
+   [
+      "gates",
+      "TestUseDatabase.java",
       1
    ],
    [
@@ -196,22 +106,7 @@
    ],
    [
       "gates",
-      "RCFileInputDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "TestRCFileOutputStorageDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatOutputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "RCFileMapReduceInputFormat.java",
+      "PigHCatUtil.java",
       1
    ],
    [
@@ -221,12 +116,57 @@
    ],
    [
       "gates",
-      "HCatSplit.java",
+      "LoadFuncBasedInputDriver.java",
       1
    ],
    [
       "gates",
-      "TestHCatLoader.java",
+      "HCatSemanticAnalyzer.java",
+      1
+   ],
+   [
+      "gates",
+      "TestRCFileMapReduceInputFormat.java",
+      1
+   ],
+   [
+      "gates",
+      "PartInfo.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatFieldSchema.java",
+      1
+   ],
+   [
+      "gates",
+      "DataType.java",
+      1
+   ],
+   [
+      "gates",
+      "TestHCatOutputFormat.java",
+      1
+   ],
+   [
+      "gates",
+      "ExitException.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatRecord.java",
+      1
+   ],
+   [
+      "gates",
+      "StorerInfo.java",
+      1
+   ],
+   [
+      "gates",
+      "TestRCFileInputStorageDriver.java",
       1
    ],
    [
@@ -241,92 +181,32 @@
    ],
    [
       "gates",
-      "RCFileMapReduceOutputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatArrayBag.java",
-      1
-   ],
-   [
-      "gates",
-      "TestHCatStorer.java",
-      1
-   ],
-   [
-      "gates",
-      "JobInfo.java",
-      1
-   ],
-   [
-      "gates",
-      "AddPartitionHook.java",
-      1
-   ],
-   [
-      "gates",
-      "StorerInfo.java",
-      1
-   ],
-   [
-      "gates",
-      "HCatCli.java",
-      1
-   ],
-   [
-      "gates",
-      "NoExitSecurityManager.java",
-      1
-   ],
-   [
-      "gates",
-      "RCFileOutputDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "LoadFuncBasedInputDriver.java",
-      1
-   ],
-   [
-      "gates",
-      "TestPermsInheritance.java",
-      1
-   ],
-   [
-      "gates",
-      "cli.xconf",
-      1
-   ],
-   [
-      "gates",
-      "HCatSchemaUtils.java",
-      1
-   ],
-   [
-      "gates",
       "TestDefaultHCatRecord.java",
       1
    ],
    [
       "gates",
-      "TestPermsGrp.java",
+      "ReaderWriter.java",
       1
    ],
    [
       "gates",
-      "MyPigStorageDriver.java",
+      "TestHCatPartitioned.java",
       1
    ],
    [
       "gates",
-      "HCatOutputStorageDriver.java",
+      "HCatSchema.java",
       1
    ],
    [
       "gates",
-      "TestUseDatabase.java",
+      "RCFileInputDriver.java",
+      1
+   ],
+   [
+      "gates",
+      "MiniCluster.java",
       1
    ],
    [
@@ -336,27 +216,72 @@
    ],
    [
       "gates",
-      "DataType.java",
+      "CreateTableHook.java",
       1
    ],
    [
       "gates",
-      "ellipse-2.svg",
+      "AlterTableFileFormatHook.java",
       1
    ],
    [
       "gates",
-      "HCatRecord.java",
+      "HCatSplit.java",
       1
    ],
    [
       "gates",
-      "Pair.java",
+      "TestHCatStorer.java",
       1
    ],
    [
       "gates",
-      "HCatStorer.java",
+      "HCatInputFormat.java",
+      1
+   ],
+   [
+      "gates",
+      "ErrorType.java",
+      1
+   ],
+   [
+      "gates",
+      "NoExitSecurityManager.java",
+      1
+   ],
+   [
+      "gates",
+      "TestHCatNonPartitioned.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatCli.java",
+      1
+   ],
+   [
+      "gates",
+      "MyPigStorageDriver.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatSchemaUtils.java",
+      1
+   ],
+   [
+      "gates",
+      "RCFileMapReduceInputFormat.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatLoader.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatOutputFormat.java",
       1
    ],
    [
@@ -366,7 +291,82 @@
    ],
    [
       "gates",
-      "HCatLoader.java",
+      "hcat.sh",
+      1
+   ],
+   [
+      "gates",
+      "HCatRecordReader.java",
+      1
+   ],
+   [
+      "gates",
+      "TestHCatUtil.java",
+      1
+   ],
+   [
+      "gates",
+      "CreateDatabaseHook.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatConstants.java",
+      1
+   ],
+   [
+      "gates",
+      "ellipse-2.svg",
+      1
+   ],
+   [
+      "gates",
+      "RCFileMapReduceRecordReader.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatInputStorageDriver.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatRecordable.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatRecordWriter.java",
+      1
+   ],
+   [
+      "gates",
+      "Pair.java",
+      1
+   ],
+   [
+      "gates",
+      "OutputJobInfo.java",
+      1
+   ],
+   [
+      "gates",
+      "JavaAction.java",
+      1
+   ],
+   [
+      "gates",
+      "TestRCFileOutputStorageDriver.java",
+      1
+   ],
+   [
+      "gates",
+      "HCatStorer.java",
+      1
+   ],
+   [
+      "gates",
+      "sitemap.xmap",
       1
    ]
 ]

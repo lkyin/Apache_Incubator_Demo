@@ -1,13 +1,83 @@
 [
    [
-      "zoe",
-      "index.html",
+      "mahrwald",
+      "AbstractBlueprintTest.java",
+      1
+   ],
+   [
+      "gawor",
+      "WarToWabConverter.java",
       1
    ],
    [
       "mahrwald",
-      "PersistenceContextManager.java",
+      "PersistenceUnitImpl.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "PersistenceUnitImpl.java",
+      1
+   ],
+   [
+      "not",
+      "AriesApplicationManagerImpl.java",
       2
+   ],
+   [
+      "mnuttall",
+      "ZipFileImpl.java",
+      1
+   ],
+   [
+      "not",
+      "ServiceRegistryContextTest.java",
+      2
+   ],
+   [
+      "gnodet",
+      "AriesApplicationManagerImplTest.java",
+      2
+   ],
+   [
+      "not",
+      "ServiceRegistryContext.java",
+      2
+   ],
+   [
+      "not",
+      "NoOpResolver.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "NSHandler.java",
+      3
+   ],
+   [
+      "timothyjward",
+      "PersistenceContextManager.java",
+      1
+   ],
+   [
+      "zoe",
+      "BloggingServiceImpl.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AriesApplication.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "EntityManagerFactoryManager.java",
+      2
+   ],
+   [
+      "zoe",
+      "BlogPersistenceService.java",
+      1
    ],
    [
       "timothyjward",
@@ -16,112 +86,17 @@
    ],
    [
       "gnodet",
-      "AriesApplicationManagerImplTest.java",
-      2
-   ],
-   [
-      "mahrwald",
-      "ReflectionUtils.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ApplicationContextManagerImpl.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogEntryManagerImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "persistence_2_0.xsd.rsrc",
-      1
-   ],
-   [
-      "hughesj",
-      "AppMgrClient.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AriesApplicationImpl.java",
-      2
-   ],
-   [
-      "mahrwald",
-      "ManagedPersistenceContextFactory.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "ManagedPersistenceContextFactory.java",
-      2
-   ],
-   [
-      "mahrwald",
-      "ParsedPersistenceUnit.java",
-      1
-   ],
-   [
-      "jbohn",
-      "DerbyActivator.java",
-      2
-   ],
-   [
-      "gnodet",
-      "MapToDictionary.java",
-      1
-   ],
-   [
-      "mnuttall",
-      "ZipFileImpl.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ResolveConstraint.java",
-      1
-   ],
-   [
-      "gnodet",
-      "ApplicationContextManager.java",
-      1
+      "AriesApplicationManagerImpl.java",
+      6
    ],
    [
       "violetagg",
-      "GenericJTAException.java",
-      1
-   ],
-   [
-      "not",
-      "AriesApplicationManager.java",
+      "txDemoDB.sql",
       1
    ],
    [
       "timothyjward",
-      "PersistenceBundleManager.java",
-      4
-   ],
-   [
-      "zoe",
-      "BlogCommentService.java",
-      1
-   ],
-   [
-      "jbohn",
-      "contentHome.html",
-      1
-   ],
-   [
-      "gnodet",
-      "Activator.java",
-      1
-   ],
-   [
-      "djencks",
-      "BundleInfoImpl.java",
+      "BundleDelegatingClassLoader.java",
       1
    ],
    [
@@ -130,23 +105,168 @@
       2
    ],
    [
-      "mahrwald",
-      "BeanMetadataImpl.java",
+      "timothyjward",
+      "PersistenceBundleLifecycleTest.java",
       1
    ],
    [
       "jbohn",
-      "tradeDB.sql",
-      2
+      "APPLICATION.MF",
+      5
+   ],
+   [
+      "mahrwald",
+      "ProxySubclassGeneratorTest.java",
+      1
+   ],
+   [
+      "jbohn",
+      "PingJDBCRead.java",
+      1
    ],
    [
       "zoe",
-      "._blogDB.sql",
+      "BlogImpl.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "PersistenceBundleManager.java",
+      4
+   ],
+   [
+      "timothyjward",
+      "JTAPersistenceContextRegistryTest.java",
+      3
+   ],
+   [
+      "jbohn",
+      "TradeJpaAm.java",
+      3
+   ],
+   [
+      "jbohn",
+      "TradeConfig.java",
+      3
+   ],
+   [
+      "zoe",
+      "AddComment.java",
+      1
+   ],
+   [
+      "zoe",
+      "AuthorImpl.java",
+      1
+   ],
+   [
+      "gawor",
+      "CaseInsensitiveMap.java",
+      1
+   ],
+   [
+      "violetagg",
+      "TxDBServlet.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "NOTICE.vm",
+      1
+   ],
+   [
+      "zoe",
+      "Comment.java",
       1
    ],
    [
       "jbohn",
-      "PingServlet2JNDI.java",
+      "DerbyActivator.java",
+      2
+   ],
+   [
+      "jbohn",
+      "TradeJdbc.java",
+      3
+   ],
+   [
+      "djencks",
+      "RequirementImpl.java",
+      1
+   ],
+   [
+      "jbohn",
+      "ServiceUtilities.java",
+      1
+   ],
+   [
+      "not",
+      "ApplicationContextManager.java",
+      2
+   ],
+   [
+      "gnodet",
+      "ApplicationContextManager.java",
+      1
+   ],
+   [
+      "gnodet",
+      "OBRAriesResolver.java",
+      2
+   ],
+   [
+      "mahrwald",
+      "BeanRecipe.java",
+      1
+   ],
+   [
+      "not",
+      "OBRBundleInfo.java",
+      1
+   ],
+   [
+      "zoe",
+      "ViewBlog.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "PersistenceManager.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "JTAEntityManager.java",
+      2
+   ],
+   [
+      "mahrwald",
+      "MutableBeanMetadata.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AriesApplicationResolver.java",
+      1
+   ],
+   [
+      "zoe",
+      "Author.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "PersistenceBundleHelper.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "WabConverterService.java",
+      1
+   ],
+   [
+      "violetagg",
+      "DerbyActivator.java",
       1
    ],
    [
@@ -160,13 +280,48 @@
       1
    ],
    [
-      "timothyjward",
-      "NSHandlerTest.java",
+      "zoe",
+      "BlogEntryImpl.java",
       1
    ],
    [
-      "djencks",
-      "BasicAppManagerTest.java",
+      "mahrwald",
+      "FITestSubBean.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "BeanMetadataImpl.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "Car.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "TempBundleDelegatingClassLoader.java",
+      1
+   ],
+   [
+      "zoe",
+      "BlogAuthorImpl.java",
+      1
+   ],
+   [
+      "zoe",
+      "BlogCommentManager.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "BlueprintContainerImpl.java",
+      1
+   ],
+   [
+      "not",
+      "BundleInfoImpl.java",
       1
    ],
    [
@@ -176,33 +331,163 @@
    ],
    [
       "not",
-      "ApplicationContextManagerImpl.java",
+      "ServiceHelper.java",
+      1
+   ],
+   [
+      "gawor",
+      "ClassPathBuilder.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "GlobalPersistenceManager.java",
       2
    ],
    [
-      "gnodet",
+      "mahrwald",
+      "PersistenceUnitInfoImpl.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "ManagedPersistenceUnitInfoFactoryImpl.java",
+      1
+   ],
+   [
+      "zoe",
+      "ViewAuthor.java",
+      2
+   ],
+   [
+      "djencks",
       "BundleInfoImpl.java",
       1
    ],
    [
-      "timothyjward",
-      "PersistenceDescriptorParserException.java",
+      "gnodet",
+      "MapToDictionary.java",
       1
    ],
    [
-      "mnuttall",
-      "AriesApplicationManagerImpl.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "PersistenceManager.java",
+      "zoe",
+      "BlogAuthorManager.java",
       1
    ],
    [
       "mahrwald",
-      "persistence.xsd.rsrc",
+      "PersistenceContextManagerTest.java",
       1
+   ],
+   [
+      "not",
+      "AriesApplicationManager.java",
+      1
+   ],
+   [
+      "zoe",
+      "BlogCommentService.java",
+      1
+   ],
+   [
+      "gawor",
+      "WARConnection.java",
+      3
+   ],
+   [
+      "zoe",
+      "CreateBlogEntryForm.java",
+      1
+   ],
+   [
+      "hughesj",
+      "MinimumImportsTest.java",
+      2
+   ],
+   [
+      "jbohn",
+      "contentHome.html",
+      1
+   ],
+   [
+      "zoe",
+      "BlogAuthorManagerImpl.java",
+      1
+   ],
+   [
+      "djencks",
+      "OBRBundleInfo.java",
+      1
+   ],
+   [
+      "zoe",
+      "EntryImpl.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "ExtNamespaceHandler.java",
+      1
+   ],
+   [
+      "djencks",
+      "ResourceImpl.java",
+      1
+   ],
+   [
+      "djencks",
+      "OBRAriesResolver.java",
+      2
+   ],
+   [
+      "zoe",
+      "BlogPersistenceServiceImpl.java",
+      1
+   ],
+   [
+      "not",
+      "ApplicationResourceImpl.java",
+      1
+   ],
+   [
+      "gnodet",
+      "ApplicationContextManagerImpl.java",
+      1
+   ],
+   [
+      "jbohn",
+      "AccountProfileDataBeanImpl.java",
+      2
+   ],
+   [
+      "zoe",
+      "BloggingService.java",
+      1
+   ],
+   [
+      "jbohn",
+      "PingJDBCWrite.java",
+      1
+   ],
+   [
+      "not",
+      "UserAdmin.java",
+      1
+   ],
+   [
+      "zoe",
+      "Entry.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "AriesBundleTrackerCustomizer.java",
+      1
+   ],
+   [
+      "jbohn",
+      "HoldingDataBeanImpl.java",
+      2
    ],
    [
       "not",
@@ -210,18 +495,63 @@
       1
    ],
    [
-      "timothyjward",
-      "NSHandler.java",
+      "gnodet",
+      "AriesApplicationManager.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "MultiBundleTracker.java",
       2
    ],
    [
       "not",
-      "AriesApplicationManagerImpl.java",
+      "ApplicationContextManagerImpl.java",
       2
    ],
    [
-      "violetagg",
-      "TxDBServlet.java",
+      "zoe",
+      "BlogCommentManagerImpl.java",
+      1
+   ],
+   [
+      "gawor",
+      "WAR_URLServiceHandler.java",
+      1
+   ],
+   [
+      "zoe",
+      "BlogComment.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "PersistenceDescriptorParser.java",
+      1
+   ],
+   [
+      "gawor",
+      "WabConverterTest.java",
+      6
+   ],
+   [
+      "gnodet",
+      "BundleInfoImpl.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "NSHandlerTest.java",
+      3
+   ],
+   [
+      "mahrwald",
+      "blueprint-ext.xsd",
+      1
+   ],
+   [
+      "mahrwald",
+      "ManagedPersistenceContextFactory.java",
       1
    ],
    [
@@ -236,83 +566,13 @@
    ],
    [
       "jbohn",
-      "TradeJdbc.java",
-      3
-   ],
-   [
-      "zoe",
-      "CreateBlogEntryForm.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "WiringTest.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "AriesBundleTrackerCustomizer.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "ProxySubclassGeneratorTest.java",
-      1
-   ],
-   [
-      "gnodet",
-      "BundleInfo.java",
-      1
-   ],
-   [
-      "djencks",
-      "CapabilityImpl.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogImpl.java",
-      1
+      "tradeDB.sql",
+      2
    ],
    [
       "timothyjward",
-      "PersistenceBundleLifecycleTest.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "AbstractBlueprintTest.java",
-      1
-   ],
-   [
-      "djencks",
-      "RequirementImpl.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogAuthorManagerImpl.java",
-      1
-   ],
-   [
-      "gawor",
-      "CachedOutputStream.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "Car.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogPersistenceServiceImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "blueprint-ext.xsd",
-      1
+      "ManagedPersistenceContextFactory.java",
+      2
    ],
    [
       "mahrwald",
@@ -320,109 +580,14 @@
       1
    ],
    [
-      "jbohn",
-      "TradeDBManagerImpl.java",
-      4
-   ],
-   [
-      "violetagg",
-      "DataSourceFactory.java",
-      1
-   ],
-   [
-      "jbohn",
-      "TradeServicesManagerImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "JTAPersistenceContextRegistry.java",
+      "djencks",
+      "Parser.java",
       2
    ],
    [
       "mahrwald",
-      "MultiBundleTracker.java",
-      2
-   ],
-   [
-      "mahrwald",
-      "AbstractBundleTrackerCustomizer.java",
-      2
-   ],
-   [
-      "zoe",
-      "EntryImpl.java",
+      "ReflectionUtils.java",
       1
-   ],
-   [
-      "zoe",
-      "BloggingService.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "FITestBean.java",
-      1
-   ],
-   [
-      "hughesj",
-      "EBAInstaller.java",
-      1
-   ],
-   [
-      "zoe",
-      "Entry.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "ManagedPersistenceUnitInfoImpl.java",
-      1
-   ],
-   [
-      "not",
-      "RequirementImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "BeanRecipe.java",
-      1
-   ],
-   [
-      "zoe",
-      "AuthorImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "PersistenceBundleHelper.java",
-      1
-   ],
-   [
-      "zoe",
-      "AddComment.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogAuthorManager.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "FITestSubBean.java",
-      1
-   ],
-   [
-      "not",
-      "RepositoryDescriptorGenerator.java",
-      1
-   ],
-   [
-      "gnodet",
-      "OBRAriesResolver.java",
-      2
    ],
    [
       "violetagg",
@@ -431,13 +596,28 @@
    ],
    [
       "zoe",
-      "EditAuthorForm.java",
+      "JNDIHelper.java",
       1
    ],
    [
-      "gawor",
-      "WabConverterTest.java",
-      6
+      "jbohn",
+      "TradeJDBCDirect.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "FITestBean.java",
+      1
+   ],
+   [
+      "mnuttall",
+      "AriesApplicationManagerImpl.java",
+      1
+   ],
+   [
+      "not",
+      "RepositoryDescriptorGenerator.java",
+      1
    ],
    [
       "mahrwald",
@@ -445,99 +625,34 @@
       2
    ],
    [
-      "timothyjward",
-      "JTAPersistenceContextRegistryTest.java",
-      3
-   ],
-   [
-      "not",
-      "ServiceHelper.java",
-      1
-   ],
-   [
-      "not",
-      "Framework.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "PersistenceUnitInfoImpl.java",
-      3
-   ],
-   [
       "gawor",
-      "WarToWabConverter.java",
+      "CachedOutputStream.java",
+      1
+   ],
+   [
+      "zoe",
+      "index.html",
+      1
+   ],
+   [
+      "mahrwald",
+      "LICENSE.vm",
+      1
+   ],
+   [
+      "mahrwald",
+      "JTAPersistenceContextRegistry.java",
+      2
+   ],
+   [
+      "mahrwald",
+      "PersistenceBundleManager.java",
       1
    ],
    [
       "djencks",
-      "MinimumImportsTest.java",
+      "CapabilityImpl.java",
       1
-   ],
-   [
-      "timothyjward",
-      "JTAPersistenceContextRegistry.java",
-      4
-   ],
-   [
-      "jbohn",
-      "AccountDataBeanImpl.java",
-      2
-   ],
-   [
-      "gnodet",
-      "AriesApplicationManagerImpl.java",
-      6
-   ],
-   [
-      "gawor",
-      "CaseInsensitiveMap.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "NSHandler.java",
-      3
-   ],
-   [
-      "gawor",
-      "WARConnection.java",
-      3
-   ],
-   [
-      "jbohn",
-      "PingJDBCRead.java",
-      1
-   ],
-   [
-      "gawor",
-      "WAR_URLServiceHandler.java",
-      1
-   ],
-   [
-      "jbohn",
-      "OrderDataBeanImpl.java",
-      2
-   ],
-   [
-      "timothyjward",
-      "PersistenceBundleHelper.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "GlobalPersistenceManager.java",
-      2
-   ],
-   [
-      "mahrwald",
-      "PersistenceUnitImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "SchemaLocatingHandler.java",
-      2
    ],
    [
       "atk",
@@ -546,7 +661,242 @@
    ],
    [
       "mahrwald",
-      "PersistenceContextManagerTest.java",
+      "persistence_2_0.xsd.rsrc",
+      1
+   ],
+   [
+      "mahrwald",
+      "ParsedPersistenceUnit.java",
+      1
+   ],
+   [
+      "violetagg",
+      "DataSourceFactory.java",
+      1
+   ],
+   [
+      "not",
+      "OBRAriesResolver.java",
+      2
+   ],
+   [
+      "zoe",
+      "blogDB.sql",
+      1
+   ],
+   [
+      "violetagg",
+      "GenericJTAException.java",
+      1
+   ],
+   [
+      "zoe",
+      "BlogCommentImpl.java",
+      1
+   ],
+   [
+      "djencks",
+      "BasicAppManagerTest.java",
+      1
+   ],
+   [
+      "not",
+      "RequirementImpl.java",
+      1
+   ],
+   [
+      "gnodet",
+      "Activator.java",
+      1
+   ],
+   [
+      "gnodet",
+      "AriesApplicationImpl.java",
+      2
+   ],
+   [
+      "timothyjward",
+      "JPAContainerTest.java",
+      4
+   ],
+   [
+      "mnuttall",
+      "AriesApplicationImpl.java",
+      1
+   ],
+   [
+      "zoe",
+      "._blogDB.sql",
+      1
+   ],
+   [
+      "djencks",
+      "MinimumImportsTest.java",
+      1
+   ],
+   [
+      "not",
+      "ApplicationContextImpl.java",
+      2
+   ],
+   [
+      "zoe",
+      "EditAuthor.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "ExtendedBeanMetadata.java",
+      1
+   ],
+   [
+      "jbohn",
+      "QuoteDataBeanImpl.java",
+      2
+   ],
+   [
+      "djencks",
+      "ManifestHeaderProcessor.java",
+      1
+   ],
+   [
+      "gawor",
+      "WabConverterITest.java",
+      1
+   ],
+   [
+      "zoe",
+      "BlogEntry.java",
+      1
+   ],
+   [
+      "hughesj",
+      "EBAInstaller.java",
+      1
+   ],
+   [
+      "jbohn",
+      "PingServlet2JNDI.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "WiringTest.java",
+      1
+   ],
+   [
+      "jbohn",
+      "OrderDataBeanImpl.java",
+      2
+   ],
+   [
+      "mahrwald",
+      "PersistenceContextManager.java",
+      2
+   ],
+   [
+      "mahrwald",
+      "SchemaLocatingHandler.java",
+      2
+   ],
+   [
+      "timothyjward",
+      "NSHandlerTest.java",
+      1
+   ],
+   [
+      "jbohn",
+      "TradeJpaCm.java",
+      2
+   ],
+   [
+      "timothyjward",
+      "PersistenceDescriptorParserException.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "ProxySubclassGenerator.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "AbstractBundleTrackerCustomizer.java",
+      2
+   ],
+   [
+      "mahrwald",
+      "persistence.xsd.rsrc",
+      1
+   ],
+   [
+      "timothyjward",
+      "PersistenceUnitInfoImpl.java",
+      3
+   ],
+   [
+      "not",
+      "Framework.java",
+      1
+   ],
+   [
+      "zoe",
+      "BlogEntryManagerImpl.java",
+      1
+   ],
+   [
+      "mahrwald",
+      "Dependency.java",
+      1
+   ],
+   [
+      "gnodet",
+      "NoOpResolver.java",
+      1
+   ],
+   [
+      "not",
+      "BundleStateMBean.java",
+      1
+   ],
+   [
+      "jbohn",
+      "TradeDBManagerImpl.java",
+      4
+   ],
+   [
+      "djencks",
+      "OBRAppManagerTest.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "JTAPersistenceContextRegistry.java",
+      4
+   ],
+   [
+      "zoe",
+      "blog.css",
+      1
+   ],
+   [
+      "gawor",
+      "WarToWabConverterImpl.java",
+      9
+   ],
+   [
+      "jbohn",
+      "TradeServicesManagerImpl.java",
+      1
+   ],
+   [
+      "zoe",
+      "CreateBlogEntry.java",
+      1
+   ],
+   [
+      "timothyjward",
+      "ManagedPersistenceUnitInfoImpl.java",
       1
    ],
    [
@@ -556,28 +906,8 @@
    ],
    [
       "not",
-      "OBRBundleInfo.java",
-      1
-   ],
-   [
-      "violetagg",
-      "DerbyActivator.java",
-      1
-   ],
-   [
-      "zoe",
-      "blog.css",
-      1
-   ],
-   [
-      "timothyjward",
-      "BlueprintContainerImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "ProxySubclassGenerator.java",
-      1
+      "AriesApplicationResolver.java",
+      2
    ],
    [
       "zoe",
@@ -585,53 +915,23 @@
       1
    ],
    [
-      "zoe",
-      "JNDIHelper.java",
-      1
-   ],
-   [
-      "awojtuniak",
-      "PackageData.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "JPAContainerTest.java",
-      4
-   ],
-   [
-      "timothyjward",
-      "ManagedPersistenceUnitInfoFactoryImpl.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "EntityManagerFactoryManager.java",
-      2
-   ],
-   [
-      "mahrwald",
-      "PersistenceXMLParsingTest.java",
-      1
-   ],
-   [
       "not",
-      "ApplicationResourceImpl.java",
+      "OBRAppManagerTest.java",
       1
    ],
    [
-      "timothyjward",
-      "JTAEntityManager.java",
-      2
+      "hughesj",
+      "AppMgrClient.java",
+      1
    ],
    [
-      "not",
-      "ServiceRegistryContext.java",
-      2
+      "gnodet",
+      "BundleInfo.java",
+      1
    ],
    [
-      "zoe",
-      "BlogEntryManager.java",
+      "gnodet",
+      "OBRBundleInfo.java",
       1
    ],
    [
@@ -640,218 +940,8 @@
       2
    ],
    [
-      "gnodet",
-      "AriesApplicationManager.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "Dependency.java",
-      1
-   ],
-   [
-      "gawor",
-      "WarToWabConverterImpl.java",
-      9
-   ],
-   [
-      "zoe",
-      "BloggingServiceImpl.java",
-      1
-   ],
-   [
-      "jbohn",
-      "PingJDBCWrite.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "LICENSE.vm",
-      1
-   ],
-   [
-      "djencks",
-      "Parser.java",
-      2
-   ],
-   [
-      "jbohn",
-      "HoldingDataBeanImpl.java",
-      2
-   ],
-   [
-      "gnodet",
-      "AriesApplicationResolver.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "NSHandlerTest.java",
-      3
-   ],
-   [
-      "violetagg",
-      "txDemoDB.sql",
-      1
-   ],
-   [
-      "zoe",
-      "BlogEntryImpl.java",
-      1
-   ],
-   [
-      "not",
-      "ServiceRegistryContextTest.java",
-      2
-   ],
-   [
-      "djencks",
-      "OBRBundleInfo.java",
-      1
-   ],
-   [
-      "zoe",
-      "Blog.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "NOTICE.vm",
-      1
-   ],
-   [
-      "timothyjward",
-      "BundleDelegatingClassLoader.java",
-      1
-   ],
-   [
-      "gnodet",
-      "AriesApplication.java",
-      1
-   ],
-   [
-      "jbohn",
-      "APPLICATION.MF",
-      5
-   ],
-   [
-      "djencks",
-      "MapToDictionary.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogComment.java",
-      1
-   ],
-   [
-      "jbohn",
-      "QuoteDataBeanImpl.java",
-      2
-   ],
-   [
-      "zoe",
-      "ViewAuthor.java",
-      2
-   ],
-   [
-      "jbohn",
-      "TradeJDBCDirect.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "ExtendedBeanMetadata.java",
-      1
-   ],
-   [
-      "gawor",
-      "WabConverterITest.java",
-      1
-   ],
-   [
-      "not",
-      "OBRAppManagerTest.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogCommentManager.java",
-      1
-   ],
-   [
-      "zoe",
-      "Comment.java",
-      1
-   ],
-   [
-      "zoe",
-      "EditAuthor.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "PersistenceUnitImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "AbstractServiceReferenceRecipe.java",
-      2
-   ],
-   [
-      "jbohn",
-      "ServiceUtilities.java",
-      1
-   ],
-   [
-      "mnuttall",
-      "AriesApplicationImpl.java",
-      1
-   ],
-   [
-      "djencks",
-      "ManifestHeaderProcessor.java",
-      1
-   ],
-   [
-      "gnodet",
-      "NoOpResolver.java",
-      1
-   ],
-   [
-      "not",
-      "BundleInfoImpl.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "PersistenceBundleManager.java",
-      1
-   ],
-   [
-      "mahrwald",
-      "WabConverterService.java",
-      1
-   ],
-   [
-      "timothyjward",
-      "PersistenceContextManager.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogCommentManagerImpl.java",
-      1
-   ],
-   [
-      "jbohn",
-      "TradeJpaCm.java",
-      2
-   ],
-   [
-      "zoe",
-      "BlogPersistenceService.java",
+      "awojtuniak",
+      "PackageData.java",
       1
    ],
    [
@@ -860,143 +950,53 @@
       1
    ],
    [
-      "zoe",
-      "BlogAuthorImpl.java",
+      "mahrwald",
+      "PersistenceXMLParsingTest.java",
       1
    ],
    [
-      "mahrwald",
-      "PersistenceUnitInfoImpl.java",
+      "zoe",
+      "BlogEntryManager.java",
       1
    ],
    [
       "gnodet",
-      "OBRBundleInfo.java",
+      "ResolveConstraint.java",
       1
-   ],
-   [
-      "hughesj",
-      "MinimumImportsTest.java",
-      2
-   ],
-   [
-      "not",
-      "ApplicationContextManager.java",
-      2
    ],
    [
       "djencks",
-      "OBRAriesResolver.java",
-      2
-   ],
-   [
-      "not",
-      "BundleStateMBean.java",
-      1
-   ],
-   [
-      "jbohn",
-      "AccountProfileDataBeanImpl.java",
-      2
-   ],
-   [
-      "jbohn",
-      "TradeJpaAm.java",
-      3
-   ],
-   [
-      "djencks",
-      "ResourceImpl.java",
-      1
-   ],
-   [
-      "zoe",
-      "BlogEntry.java",
-      1
-   ],
-   [
-      "zoe",
-      "ViewBlog.java",
-      1
-   ],
-   [
-      "zoe",
-      "Author.java",
-      1
-   ],
-   [
-      "jbohn",
-      "TradeConfig.java",
-      3
-   ],
-   [
-      "djencks",
-      "OBRAppManagerTest.java",
-      1
-   ],
-   [
-      "zoe",
-      "blogDB.sql",
-      1
-   ],
-   [
-      "timothyjward",
-      "TempBundleDelegatingClassLoader.java",
-      1
-   ],
-   [
-      "zoe",
-      "CreateBlogEntry.java",
+      "MapToDictionary.java",
       1
    ],
    [
       "mahrwald",
-      "MutableBeanMetadata.java",
-      1
-   ],
-   [
-      "gawor",
-      "ClassPathBuilder.java",
-      1
-   ],
-   [
-      "not",
-      "OBRAriesResolver.java",
+      "AbstractServiceReferenceRecipe.java",
       2
    ],
    [
       "timothyjward",
-      "PersistenceDescriptorParser.java",
-      1
-   ],
-   [
-      "not",
-      "AriesApplicationResolver.java",
-      2
-   ],
-   [
-      "mahrwald",
-      "ExtNamespaceHandler.java",
-      1
-   ],
-   [
-      "not",
-      "ApplicationContextImpl.java",
-      2
-   ],
-   [
-      "not",
-      "UserAdmin.java",
+      "PersistenceBundleHelper.java",
       1
    ],
    [
       "zoe",
-      "BlogCommentImpl.java",
+      "Blog.java",
       1
    ],
    [
-      "not",
-      "NoOpResolver.java",
+      "zoe",
+      "EditAuthorForm.java",
       1
+   ],
+   [
+      "jbohn",
+      "AccountDataBeanImpl.java",
+      2
+   ],
+   [
+      "timothyjward",
+      "NSHandler.java",
+      2
    ]
 ]

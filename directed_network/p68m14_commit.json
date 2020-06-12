@@ -1,18 +1,18 @@
 [
    [
       "rvs",
-      "mahout.spec",
-      1
-   ],
-   [
-      "rvs",
       "mahout.dirs",
       1
    ],
    [
       "rvs",
-      "install_hadoop.sh",
-      2
+      "install_pig.sh",
+      1
+   ],
+   [
+      "rvs",
+      "TestHDFSQuota.groovy",
+      1
    ],
    [
       "rvs",
@@ -21,42 +21,22 @@
    ],
    [
       "rvs",
-      "install_datafu.sh",
+      "init.pp",
       1
    ],
    [
       "bmahe",
-      "install_hadoop.sh",
+      "ParameterSetter.java",
       1
    ],
    [
       "rvs",
-      "datafu.spec",
+      "Variable.java",
       1
    ],
    [
-      "rvs",
-      "mahout.install",
-      1
-   ],
-   [
-      "rvs",
+      "bmahe",
       "Property.java",
-      1
-   ],
-   [
-      "ptr",
-      "install_hadoop.sh",
-      1
-   ],
-   [
-      "rvs",
-      "TestJdbcDriver.java",
-      2
-   ],
-   [
-      "rvs",
-      "install_hbase.sh",
       1
    ],
    [
@@ -66,12 +46,17 @@
    ],
    [
       "rvs",
-      "init.pp",
+      "install_hbase.sh",
       1
    ],
    [
       "rvs",
-      "mahout-doc.dirs",
+      "TestJdbcDriver.java",
+      2
+   ],
+   [
+      "ptr",
+      "install_hadoop.sh",
       1
    ],
    [
@@ -81,7 +66,27 @@
    ],
    [
       "bmahe",
+      "TestJdbcDriver.java",
+      2
+   ],
+   [
+      "bmahe",
       "TestHDFSQuota.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "mahout-doc.dirs",
+      1
+   ],
+   [
+      "rvs",
+      "Property.java",
+      1
+   ],
+   [
+      "rvs",
+      "Parameters.java",
       1
    ],
    [
@@ -95,8 +100,13 @@
       3
    ],
    [
+      "rvs",
+      "install_datafu.sh",
+      1
+   ],
+   [
       "bmahe",
-      "Variable.java",
+      "install_hadoop.sh",
       1
    ],
    [
@@ -105,34 +115,14 @@
       1
    ],
    [
-      "rvs",
-      "install_pig.sh",
-      1
-   ],
-   [
-      "bmahe",
-      "TestJdbcDriver.java",
-      2
-   ],
-   [
       "bmahe",
       "bigtop.mk",
       2
    ],
    [
       "rvs",
-      "TestHDFSQuota.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "ParameterSetter.java",
-      1
-   ],
-   [
-      "bmahe",
-      "Property.java",
-      1
+      "install_hadoop.sh",
+      2
    ],
    [
       "rvs",
@@ -141,12 +131,17 @@
    ],
    [
       "rvs",
-      "Parameters.java",
+      "ParameterSetter.java",
+      1
+   ],
+   [
+      "bmahe",
+      "Variable.java",
       1
    ],
    [
       "rvs",
-      "Variable.java",
+      "mahout.install",
       1
    ],
    [
@@ -156,7 +151,12 @@
    ],
    [
       "rvs",
-      "ParameterSetter.java",
+      "mahout.spec",
+      1
+   ],
+   [
+      "rvs",
+      "datafu.spec",
       1
    ]
 ]

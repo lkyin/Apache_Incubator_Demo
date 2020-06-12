@@ -1,14 +1,18 @@
 [
    {
-      "imports": [
-         "jmclean"
-      ],
-      "name": "Julian Hyde"
+      "name": "jmclean",
+      "imports": []
    },
    {
+      "name": "Julian Hyde",
+      "imports": [
+         "jmclean"
+      ]
+   },
+   {
+      "name": "Harshad Deshmukh",
       "imports": [
          "Julian Hyde"
-      ],
-      "name": "Harshad Deshmukh"
+      ]
    }
 ]

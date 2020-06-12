@@ -1,8 +1,83 @@
 [
    [
       "Jacques Nadeau",
-      "FilterTemplate.java",
+      "drill-patch-review.py",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "OrderedPartitionExchange.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "DistributedCache.java",
       1
+   ],
+   [
+      "Steven Phillips",
+      "DistributedMultiMap.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "SortRecordBatchBuilder.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "DataOutputOutputStream.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "Limit.java",
+      3
+   ],
+   [
+      "jacques",
+      "SortTemplate.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "VectorAccessibleSerializable.java",
+      4
+   ],
+   [
+      "jacques",
+      "SimpleParallelizer.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ScanBuilder.java",
+      3
+   ],
+   [
+      "Timothy Chen",
+      "BasicOptimizer.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "OutputTypeDeterminer.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "SampleSorter.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "DistributedMap.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "UserBitShared.proto",
+      2
    ],
    [
       "Steven Phillips",
@@ -10,18 +85,93 @@
       2
    ],
    [
-      "jacques",
-      "DrillRefImpl.java",
+      "Timothy Chen",
+      "JdbcTest.java",
+      3
+   ],
+   [
+      "Steven Phillips",
+      "HazelCache.java",
+      3
+   ],
+   [
+      "Jacques Nadeau",
+      "PhysicalPlan.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "SelectionVector4.java",
+      "PlanProperties.java",
+      5
+   ],
+   [
+      "Timothy Chen",
+      "DrillLimitRule.java",
+      4
+   ],
+   [
+      "Timothy Chen",
+      "TestSimpleLimit.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "LocalCache.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "SimpleRootExec.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "DrillPrepareImpl.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "Filterer.java",
+      "Store.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "OrderedPartitionProjectorTemplate.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "Counter.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "WritableBatch.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "FragmentContext.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "StoreBuilder.java",
+      3
+   ],
+   [
+      "Timothy Chen",
+      "PhysicalVisitor.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "AbstractPhysicalVisitor.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "JdbcAssert.java",
       1
    ],
    [
@@ -35,148 +185,23 @@
       2
    ],
    [
-      "Timothy Chen",
-      "JdbcAssert.java",
-      1
-   ],
-   [
-      "jacques",
-      "PopUnitTestBase.java",
-      1
-   ],
-   [
       "Steven Phillips",
-      "UserBitShared.proto",
-      2
-   ],
-   [
-      "jacques",
-      "VectorContainer.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "ProjectRecordBatch.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "DistributedMap.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "PhysicalVisitor.java",
+      "drill-override.conf",
       1
    ],
    [
       "Jacques Nadeau",
-      "FilterRecordBatch.java",
-      2
-   ],
-   [
-      "jacques",
-      "RecordBatchLoader.java",
+      "SelectionVector4.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "StoreBuilderTest.java",
-      1
-   ],
-   [
-      "jacques",
-      "DrillTable.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalPlanBuilderTest.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "DrillPrepareImpl.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "Counter.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "HCSerializableWrapperClasses.java",
+      "FilterTemplate2.java",
       2
-   ],
-   [
-      "Timothy Chen",
-      "DrillLimitRel.java",
-      3
-   ],
-   [
-      "Steven Phillips",
-      "SampleCopierTemplate.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "LogicalOperator.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "VectorAccessibleSerializable.java",
-      4
-   ],
-   [
-      "Steven Phillips",
-      "AbstractSingleRecordBatch.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "FragmentContext.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "DistributedMultiMap.java",
-      1
    ],
    [
       "Jacques Nadeau",
       "ScanBuilderTest.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "OrderedPartitionSender.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "OrderedPartitionRecordBatch.java",
-      5
-   ],
-   [
-      "Timothy Chen",
-      "StatsCollector.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "SimpleRootExec.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Scan.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "RecordBatchLoader.java",
       1
    ],
    [
@@ -186,92 +211,27 @@
    ],
    [
       "Steven Phillips",
-      "HCVectorAccessibleSerializer.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "ImplCreator.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "DataInputInputStream.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "TestWriteToDisk.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "TestVectorCache.java",
-      3
-   ],
-   [
-      "Steven Phillips",
-      "QueryIdHelper.java",
-      1
-   ],
-   [
-      "jacques",
-      "SimpleParallelizer.java",
-      1
-   ],
-   [
-      "jacques",
-      "TestVectorCache.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "PlanProperties.java",
-      5
-   ],
-   [
-      "Jacques Nadeau",
-      "ScanBuilder.java",
-      3
-   ],
-   [
-      "Steven Phillips",
-      "TestTraceMultiRecordBatch.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JdbcTest.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "RecordBatchData.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "HCDrillSerializableWrapper.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "DistributedCache.java",
-      1
-   ],
-   [
-      "Steven Phillips",
       "ExecConstants.java",
       2
    ],
    [
-      "jacques",
-      "AbstractRecordBatch.java",
+      "Steven Phillips",
+      "SampleCopierTemplate.java",
       1
    ],
    [
-      "Jacques Nadeau",
-      "TestSimpleFilter.java",
+      "Steven Phillips",
+      "VectorContainerSerializable.java",
+      3
+   ],
+   [
+      "jacques",
+      "BatchPrinter.java",
+      3
+   ],
+   [
+      "Steven Phillips",
+      "ExpressionTreeMaterializer.java",
       1
    ],
    [
@@ -281,127 +241,42 @@
    ],
    [
       "Steven Phillips",
-      "OrderedPartitionBatchCreator.java",
-      1
-   ],
-   [
-      "Steven Phillips",
       "DrillSerializable.java",
       2
    ],
    [
       "jacques",
-      "SortTemplate.java",
+      "GeneratorFunctions.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "HCSerializableWrapperClasses.java",
       2
    ],
    [
       "Steven Phillips",
-      "SampleSortTemplate.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "FullEngineTest.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "SampleSorter.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "DrillOptiq.java",
-      1
-   ],
-   [
-      "jacques",
-      "index.html",
-      3
-   ],
-   [
-      "Steven Phillips",
-      "VectorWrap.java",
-      2
-   ],
-   [
-      "Timothy Chen",
-      "LogicalOperatorBase.java",
-      1
-   ],
-   [
-      "jacques",
-      "TestOrderedPartitionExchange.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "HazelCache.java",
-      3
-   ],
-   [
-      "Steven Phillips",
-      "DataOutputOutputStream.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "Trace.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "SortBatch.java",
-      3
-   ],
-   [
-      "Jacques Nadeau",
-      "FilterTemplate2.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "OutgoingRecordBatch.java",
+      "TraceRecordBatch.java",
       4
    ],
    [
       "Steven Phillips",
-      "SelectionVector2.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "LocalCache.java",
-      2
-   ],
-   [
-      "Timothy Chen",
-      "ImplCreator.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "OutputTypeDeterminer.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "DrillSortRule.java",
-      3
-   ],
-   [
-      "Jacques Nadeau",
-      "BasicOptimizer.java",
+      "TestTraceMultiRecordBatch.java",
       1
    ],
    [
       "jacques",
-      "BatchPrinter.java",
-      3
+      "RecordBatchLoader.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "LimitBatchCreator.java",
+      2
    ],
    [
       "Jacques Nadeau",
-      "PhysicalPlan.java",
+      "LogicalPlanBuilderTest.java",
       1
    ],
    [
@@ -411,57 +286,72 @@
    ],
    [
       "Jacques Nadeau",
-      "drill-patch-review.py",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "StoreBuilder.java",
-      3
+      "Scan.java",
+      1
    ],
    [
       "Timothy Chen",
-      "DrillLimitRule.java",
-      4
+      "LimitROP.java",
+      1
    ],
    [
       "Steven Phillips",
-      "AggBatch.java",
+      "QueryIdHelper.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "SelectionVector2.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "FullEngineTest.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "DrillSortRule.java",
+      3
+   ],
+   [
+      "Steven Phillips",
+      "OrderedPartitionProjector.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Filterer.java",
       1
    ],
    [
       "jacques",
-      "TestHashToRandomExchange.java",
+      "PopUnitTestBase.java",
       1
    ],
    [
       "Steven Phillips",
-      "QuerySubmitter.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "drill-override.conf",
+      "DataInputInputStream.java",
       1
    ],
    [
-      "Jacques Nadeau",
-      "Store.java",
+      "jacques",
+      "index.html",
+      3
+   ],
+   [
+      "Steven Phillips",
+      "ProjectRecordBatch.java",
+      1
+   ],
+   [
+      "jacques",
+      "DrillRefImpl.java",
       1
    ],
    [
       "Steven Phillips",
-      "WritableBatch.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "OrderedPartitionProjectorTemplate.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "SampleCopier.java",
+      "RecordBatchLoader.java",
       1
    ],
    [
@@ -470,8 +360,53 @@
       1
    ],
    [
-      "jacques",
-      "RecordBatch.java",
+      "Steven Phillips",
+      "HCDrillSerializableWrapper.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "Trace.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "QuerySubmitter.java",
+      2
+   ],
+   [
+      "Timothy Chen",
+      "LimitRecordBatch.java",
+      3
+   ],
+   [
+      "Steven Phillips",
+      "HCVectorAccessibleSerializer.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "TestWriteToDisk.java",
+      2
+   ],
+   [
+      "Timothy Chen",
+      "DrillLimitRel.java",
+      3
+   ],
+   [
+      "Steven Phillips",
+      "TestLoad.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "ImplCreator.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "drill-module.conf",
       2
    ],
    [
@@ -485,64 +420,9 @@
       1
    ],
    [
-      "Steven Phillips",
-      "VectorContainerSerializable.java",
-      3
-   ],
-   [
-      "Steven Phillips",
-      "OrderedPartitionExchange.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "AbstractPhysicalVisitor.java",
-      2
-   ],
-   [
       "Timothy Chen",
-      "AbstractPhysicalVisitor.java",
+      "ImplCreator.java",
       1
-   ],
-   [
-      "Steven Phillips",
-      "SortRecordBatchBuilder.java",
-      2
-   ],
-   [
-      "Timothy Chen",
-      "DrillSortRel.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "Constant.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "DrillImplementor.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "TestSimpleLimit.java",
-      2
-   ],
-   [
-      "Steven Phillips",
-      "ScanBatch.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "OrderedPartitionProjector.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "JdbcTest.java",
-      3
    ],
    [
       "Steven Phillips",
@@ -551,22 +431,42 @@
    ],
    [
       "jacques",
-      "GeneratorFunctions.java",
+      "VectorAccessible.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "StatsCollector.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "DrillOptiq.java",
       1
    ],
    [
       "Steven Phillips",
-      "SortContainerBuilder.java",
-      2
+      "AggBatch.java",
+      1
    ],
    [
       "Steven Phillips",
-      "TraceRecordBatch.java",
-      4
+      "SampleCopier.java",
+      1
    ],
    [
       "Jacques Nadeau",
-      "LogicalPlan.java",
+      "FilterTemplate.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "OutgoingRecordBatch.java",
+      4
+   ],
+   [
+      "Timothy Chen",
+      "JSONOptions.java",
       1
    ],
    [
@@ -576,8 +476,48 @@
    ],
    [
       "Timothy Chen",
+      "DrillImplementor.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "LogicalOperator.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "JdbcTest.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "AbstractSingleRecordBatch.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "FilterRecordBatch.java",
+      2
+   ],
+   [
+      "Timothy Chen",
+      "DrillSortRel.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
       "BasicOptimizer.java",
       1
+   ],
+   [
+      "jacques",
+      "DrillTable.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "OrderedPartitionSender.java",
+      2
    ],
    [
       "Steven Phillips",
@@ -586,27 +526,92 @@
    ],
    [
       "jacques",
-      "Sorter.java",
+      "AbstractRecordBatch.java",
       1
-   ],
-   [
-      "Steven Phillips",
-      "ExpressionTreeMaterializer.java",
-      1
-   ],
-   [
-      "Steven Phillips",
-      "drill-module.conf",
-      2
    ],
    [
       "Timothy Chen",
-      "LimitROP.java",
+      "Constant.java",
+      1
+   ],
+   [
+      "Timothy Chen",
+      "LogicalOperatorBase.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "VectorWrap.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "SortContainerBuilder.java",
+      2
+   ],
+   [
+      "jacques",
+      "TestHashToRandomExchange.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "SampleSortTemplate.java",
       1
    ],
    [
       "jacques",
-      "VectorAccessible.java",
+      "VectorContainer.java",
+      2
+   ],
+   [
+      "jacques",
+      "TestOrderedPartitionExchange.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "TestSimpleFilter.java",
+      1
+   ],
+   [
+      "jacques",
+      "RecordBatch.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "SortBatch.java",
+      3
+   ],
+   [
+      "jacques",
+      "TestVectorCache.java",
+      2
+   ],
+   [
+      "Steven Phillips",
+      "ScanBatch.java",
+      1
+   ],
+   [
+      "Steven Phillips",
+      "AbstractPhysicalVisitor.java",
+      2
+   ],
+   [
+      "jacques",
+      "Sorter.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "StoreBuilderTest.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "LogicalPlan.java",
       1
    ],
    [
@@ -615,28 +620,23 @@
       1
    ],
    [
-      "Timothy Chen",
-      "LimitRecordBatch.java",
+      "Steven Phillips",
+      "TestVectorCache.java",
       3
    ],
    [
       "Steven Phillips",
-      "TestLoad.java",
-      1
-   ],
-   [
-      "Timothy Chen",
-      "Limit.java",
-      3
-   ],
-   [
-      "Timothy Chen",
-      "LimitBatchCreator.java",
+      "RecordBatchData.java",
       2
    ],
    [
-      "Timothy Chen",
-      "JSONOptions.java",
+      "Steven Phillips",
+      "OrderedPartitionBatchCreator.java",
       1
+   ],
+   [
+      "Steven Phillips",
+      "OrderedPartitionRecordBatch.java",
+      5
    ]
 ]

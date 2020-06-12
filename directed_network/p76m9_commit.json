@@ -1,132 +1,27 @@
 [
    [
       "abroekhuis",
-      "dependency_activator_base.h",
-      3
-   ],
-   [
-      "abroekhuis",
-      "Includes.cmake",
-      2
-   ],
-   [
-      "abroekhuis",
-      "service_factory.h",
-      1
-   ],
-   [
-      "abroekhuis",
       "install_command.c",
       1
    ],
    [
       "abroekhuis",
-      "array_list_test.c",
-      2
+      "framework.c",
+      9
    ],
    [
       "abroekhuis",
-      "serviceTest_private.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "serviceTest.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "test_service.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_revision.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "Test.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle.c",
+      "dependency_activator.c",
       4
    ],
    [
       "abroekhuis",
-      "helloworld-links.html",
+      "download.html",
       1
    ],
    [
       "abroekhuis",
-      "bundle_revision.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "version_range.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_listener.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "requirement.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "index.html",
-      2
-   ],
-   [
-      "abroekhuis",
-      "tracker.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "TestService.java",
-      1
-   ],
-   [
-      "abroekhuis",
-      "publisher.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "ps_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "service_registry.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_writer.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "MANIFEST.MF",
-      15
-   ],
-   [
-      "abroekhuis",
-      "helloworld.html",
+      "mongoose.c",
       1
    ],
    [
@@ -136,17 +31,52 @@
    ],
    [
       "abroekhuis",
-      "support.html",
+      "issuetracking.html",
       1
    ],
    [
       "abroekhuis",
-      "log_reader_service_impl.c",
+      "log_command.c",
       2
    ],
    [
       "abroekhuis",
-      "service_registration.h",
+      "dependency_activator_base.h",
+      3
+   ],
+   [
+      "abroekhuis",
+      "utils.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "attribute.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "publisher.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "test_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "dependency_activator_base.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "serviceTest_private.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_registry.h",
       1
    ],
    [
@@ -156,27 +86,112 @@
    ],
    [
       "abroekhuis",
+      "hash_map_test.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_factory.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest_parser.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "log.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "helloworld.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "serviceTest.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "log_listener.h",
+      1
+   ],
+   [
+      "abroekhuis",
       "linkedlist.h",
       1
    ],
    [
       "abroekhuis",
-      "publisher.h",
+      "component.h",
       1
    ],
    [
       "abroekhuis",
-      "linkedlist.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log.h",
+      "hash_map_test_hash.c",
       2
    ],
    [
       "abroekhuis",
-      "WB Dependency Manager.launch",
+      "log_service_impl.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_context.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "mailinglist.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "buildingandrunning-links.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "ps_command.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "echo_server_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "listenerTest.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "helloworld-links.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "CPackConfigDeploy.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "listenerTest.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_component_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest.c",
       1
    ],
    [
@@ -186,62 +201,22 @@
    ],
    [
       "abroekhuis",
-      "background-links.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_factory.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_reader_service.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "framework.h",
-      5
-   ],
-   [
-      "abroekhuis",
-      "hash_map_test.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "background.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "boardreports.html",
-      2
-   ],
-   [
-      "abroekhuis",
-      "serviceTest.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "log_service_activator.c",
+      "Packaging.cmake",
       3
    ],
    [
       "abroekhuis",
-      "headers.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "CPackConfig.in",
+      "echo_client_private.h",
       1
    ],
    [
       "abroekhuis",
-      "mongoose.h",
+      "shell.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "celix-links.html",
       1
    ],
    [
@@ -251,38 +226,43 @@
    ],
    [
       "abroekhuis",
-      "utils.h",
+      "buildingandrunning.html",
       1
    ],
    [
       "abroekhuis",
-      "linked_list_test.c",
-      3
+      "celix.html",
+      1
    ],
    [
       "abroekhuis",
-      "links.html",
-      4
+      "TestService.java",
+      1
    ],
    [
       "abroekhuis",
-      "log_reader_service_impl.h",
+      "attribute.c",
       2
    ],
    [
       "abroekhuis",
-      "dependency_activator_base.c",
+      "service_registration.h",
       1
    ],
    [
       "abroekhuis",
-      "publisher_private.h",
+      "FindCUnit.cmake",
       1
    ],
    [
       "abroekhuis",
-      "log_writer.h",
+      "linkedlist.c",
       1
+   ],
+   [
+      "abroekhuis",
+      "array_list_test.c",
+      2
    ],
    [
       "abroekhuis",
@@ -296,63 +276,38 @@
    ],
    [
       "abroekhuis",
+      "framework.h",
+      5
+   ],
+   [
+      "abroekhuis",
+      "publisher_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "mongoose.h",
+      1
+   ],
+   [
+      "abroekhuis",
       "echo_client.c",
       1
    ],
    [
       "abroekhuis",
-      "celix.html",
+      "Test.cmake",
       1
    ],
    [
       "abroekhuis",
-      "download.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "launcher.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "download-links.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_service_impl.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "Celix.graffle",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registry.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "issuetracking.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "utils.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_archive.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "attribute.c",
+      "Includes.cmake",
       2
+   ],
+   [
+      "abroekhuis",
+      "bundle_revision.c",
+      1
    ],
    [
       "abroekhuis",
@@ -361,47 +316,27 @@
    ],
    [
       "abroekhuis",
-      "memorypools.html",
+      "background.html",
       1
    ],
    [
       "abroekhuis",
-      "echo_server.h",
-      1
+      "index.html",
+      2
    ],
    [
       "abroekhuis",
-      "log_service.h",
-      1
+      "tracker.h",
+      3
    ],
    [
       "abroekhuis",
-      "manifest_parser.h",
-      1
+      "target.cmake",
+      3
    ],
    [
       "abroekhuis",
-      "manifest.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "contributing.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_entry.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "linked_list_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "resolver.c",
+      "echo_server.c",
       1
    ],
    [
@@ -411,52 +346,12 @@
    ],
    [
       "abroekhuis",
-      "component.h",
+      "log_service.h",
       1
    ],
    [
       "abroekhuis",
-      "service_component_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "target.cmake",
-      3
-   ],
-   [
-      "abroekhuis",
-      "service_dependency.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "Packaging.cmake",
-      3
-   ],
-   [
-      "abroekhuis",
-      "capability.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_component.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "framework.c",
-      9
-   ],
-   [
-      "abroekhuis",
-      "celix-links.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "reports.html",
+      "contributing.html",
       1
    ],
    [
@@ -466,28 +361,8 @@
    ],
    [
       "abroekhuis",
-      "bundle_context.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "shell.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "tracker.h",
-      3
-   ],
-   [
-      "abroekhuis",
-      "manifest_parser.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "attribute.h",
-      2
+      "launcher.c",
+      4
    ],
    [
       "abroekhuis",
@@ -496,122 +371,32 @@
    ],
    [
       "abroekhuis",
-      "buildingandrunning-links.html",
+      "log_reader_service.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "log.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "log_reader_service_impl.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "support.html",
       1
    ],
    [
       "abroekhuis",
-      "dependency_activator.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "CPackConfigPKG.in",
+      "echo_server.h",
       1
-   ],
-   [
-      "abroekhuis",
-      "mailinglist.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_client_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_server_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_context.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "activator.c",
-      7
    ],
    [
       "abroekhuis",
       "log_entry.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "hash_map_test_hash.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "test_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "community.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_server_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "test.service.proto",
-      1
-   ],
-   [
-      "abroekhuis",
-      "module.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "echo_server.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "buildingandrunning.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "design.html",
-      1
-   ],
-   [
-      "abroekhuis",
-      "documentation.html",
-      2
-   ],
-   [
-      "abroekhuis",
-      "listenerTest.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "FindCUnit.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "mongoose.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version.h",
       1
    ],
    [
@@ -621,12 +406,102 @@
    ],
    [
       "abroekhuis",
-      "bundle.h",
-      6
+      "log_writer.h",
+      1
    ],
    [
       "abroekhuis",
-      "listenerTest.h",
+      "resolver.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "activator.c",
+      7
+   ],
+   [
+      "abroekhuis",
+      "design.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "echo_server_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "WB Dependency Manager.launch",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_context.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "documentation.html",
+      2
+   ],
+   [
+      "abroekhuis",
+      "CPackConfigPKG.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "links.html",
+      4
+   ],
+   [
+      "abroekhuis",
+      "background-links.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "CPackConfig.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "boardreports.html",
+      2
+   ],
+   [
+      "abroekhuis",
+      "download-links.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_dependency.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "log_service_activator.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "log_reader_service_impl.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "log_writer.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "log_factory.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "module.c",
       1
    ],
    [
@@ -636,7 +511,132 @@
    ],
    [
       "abroekhuis",
-      "CPackConfigDeploy.in",
+      "utils.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version_range.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest_parser.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "tracker.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "test.service.proto",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_component.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "headers.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "bundle_revision.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "requirement.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "memorypools.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "reports.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "community.html",
+      1
+   ],
+   [
+      "abroekhuis",
+      "linked_list_test.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "test_service.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "linked_list_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "MANIFEST.MF",
+      15
+   ],
+   [
+      "abroekhuis",
+      "log_entry.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle.h",
+      6
+   ],
+   [
+      "abroekhuis",
+      "bundle.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "Celix.graffle",
+      1
+   ],
+   [
+      "abroekhuis",
+      "serviceTest.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "capability.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registry.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "publisher.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_archive.h",
       1
    ]
 ]

@@ -1,15 +1,23 @@
 [
    {
+      "name": "Nick Burch",
+      "imports": []
+   },
+   {
+      "name": "John D. Ament",
+      "imports": []
+   },
+   {
+      "name": "Svante Schubert",
+      "imports": [
+         "Nick Burch"
+      ]
+   },
+   {
+      "name": "Florian Hopf",
       "imports": [
          "Svante Schubert",
          "John D. Ament"
-      ],
-      "name": "Florian Hopf"
-   },
-   {
-      "imports": [
-         "Nick Burch"
-      ],
-      "name": "Svante Schubert"
+      ]
    }
 ]

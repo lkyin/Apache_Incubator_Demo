@@ -1,38 +1,82 @@
 [
    {
+      "name": "karl.wright",
+      "imports": []
+   },
+   {
+      "name": "Jack Krupansky",
+      "imports": [
+         "Karl Wright",
+         "Grant Ingersoll"
+      ]
+   },
+   {
+      "name": "Karl Wright",
+      "imports": [
+         "Robert Muir",
+         "Robert Muir",
+         "Michael McCandless"
+      ]
+   },
+   {
+      "name": "Fred Schmitt (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Mark Miller",
       "imports": [
          "Karl Wright"
-      ],
-      "name": "Mark Miller"
+      ]
    },
    {
-      "imports": [
-         "Robert Muir (JIRA)"
-      ],
-      "name": "Jukka Zitting (JIRA)"
-   },
-   {
-      "imports": [
-         "Robert Muir (JIRA)"
-      ],
-      "name": "Grant Ingersoll (JIRA)"
-   },
-   {
+      "name": "Grant Ingersoll",
       "imports": [
          "Mark Miller",
          "Jack Krupansky",
          "Jack Krupansky",
          "Karl Wright"
-      ],
-      "name": "Grant Ingersoll"
+      ]
    },
    {
+      "name": "Farzad (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Robert Muir (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Jack Krupansky (JIRA)",
       "imports": [
          "Robert Muir (JIRA)"
-      ],
-      "name": "Mark Miller (JIRA)"
+      ]
    },
    {
+      "name": "Grant Ingersoll (JIRA)",
+      "imports": [
+         "Robert Muir (JIRA)"
+      ]
+   },
+   {
+      "name": "Robert Muir",
+      "imports": [
+         "Karl Wright",
+         "karl.wright",
+         "kwright"
+      ]
+   },
+   {
+      "name": "Andrzej Bialecki  (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Mark Miller (JIRA)",
+      "imports": [
+         "Robert Muir (JIRA)"
+      ]
+   },
+   {
+      "name": "Karl Wright (JIRA)",
       "imports": [
          "Andrzej Bialecki  (JIRA)",
          "Farzad (JIRA)",
@@ -48,42 +92,22 @@
          "Jack Krupansky (JIRA)",
          "Fred Schmitt (JIRA)",
          "Fred Schmitt (JIRA)"
-      ],
-      "name": "Karl Wright (JIRA)"
+      ]
    },
    {
+      "name": "Jukka Zitting (JIRA)",
       "imports": [
          "Robert Muir (JIRA)"
-      ],
-      "name": "Jack Krupansky (JIRA)"
+      ]
    },
    {
-      "imports": [
-         "Robert Muir",
-         "Robert Muir",
-         "Michael McCandless"
-      ],
-      "name": "Karl Wright"
-   },
-   {
+      "name": "Michael McCandless",
       "imports": [
          "Karl Wright"
-      ],
-      "name": "Michael McCandless"
+      ]
    },
    {
-      "imports": [
-         "Karl Wright",
-         "karl.wright",
-         "kwright"
-      ],
-      "name": "Robert Muir"
-   },
-   {
-      "imports": [
-         "Karl Wright",
-         "Grant Ingersoll"
-      ],
-      "name": "Jack Krupansky"
+      "name": "kwright",
+      "imports": []
    }
 ]

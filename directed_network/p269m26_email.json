@@ -1,15 +1,19 @@
 [
    {
+      "name": "jmclean",
+      "imports": []
+   },
+   {
+      "name": "John D. Ament",
+      "imports": [
+         "jmclean"
+      ]
+   },
+   {
+      "name": "Edward Capriolo",
       "imports": [
          "John D. Ament",
          "John D. Ament"
-      ],
-      "name": "Edward Capriolo"
-   },
-   {
-      "imports": [
-         "jmclean"
-      ],
-      "name": "John D. Ament"
+      ]
    }
 ]

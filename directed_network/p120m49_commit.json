@@ -1,22 +1,27 @@
 [
    [
-      "tjungblut",
-      "AbsDiffAggregator.java",
+      "edwardyoon",
+      "Counters.java",
       1
    ],
    [
       "tjungblut",
-      "MaxAggregator.java",
+      "MinAggregator.java",
       1
    ],
    [
       "tjungblut",
-      "PageRankTest.java",
+      "PagerankTextToSeqTest.java",
       1
    ],
    [
       "tommaso",
       "IntegerMessage.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "TestCheckpoint.java",
       1
    ],
    [
@@ -26,37 +31,12 @@
    ],
    [
       "tjungblut",
-      "PiEstimatorTest.java",
-      1
-   ],
-   [
-      "tommaso",
-      "DoubleMessage.java",
+      "Aggregator.java",
       1
    ],
    [
       "tjungblut",
-      "GraphJob.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "ExampleDriver.java",
-      1
-   ],
-   [
-      "tommaso",
-      "ByteMessage.java",
-      1
-   ],
-   [
-      "tommaso",
-      "SuperstepPiEstimator.java",
-      2
-   ],
-   [
-      "tjungblut",
-      "RandBench.java",
+      "TaskRunner.java",
       1
    ],
    [
@@ -66,27 +46,7 @@
    ],
    [
       "tjungblut",
-      "Vertex.java",
-      1
-   ],
-   [
-      "tommaso",
-      "TestCheckpoint.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "SSSP.java",
-      1
-   ],
-   [
-      "tommaso",
-      "TestMessages.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "Counters.java",
+      "GraphJobRunner.java",
       1
    ],
    [
@@ -96,37 +56,7 @@
    ],
    [
       "tjungblut",
-      "VertexInterface.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "PagerankTextToSeqTest.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "VertexWritable.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "MindistSearchTest.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "MindistSearch.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "PageRank.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "TestCheckpoint.java",
+      "Vertex.java",
       1
    ],
    [
@@ -140,48 +70,8 @@
       1
    ],
    [
-      "tommaso",
-      "LongMessage.java",
-      1
-   ],
-   [
       "tjungblut",
-      "RandBenchTest.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "PiEstimator.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "MinAggregator.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "Aggregator.java",
-      1
-   ],
-   [
-      "tommaso",
-      "RunJar.java",
-      1
-   ],
-   [
-      "tommaso",
-      "IntegerDoubleMessage.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "AbstractAggregator.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "AverageAggregator.java",
+      "MindistSearch.java",
       1
    ],
    [
@@ -191,17 +81,32 @@
    ],
    [
       "tjungblut",
-      "CombineExampleTest.java",
-      1
-   ],
-   [
-      "tjungblut",
-      "GraphJobRunner.java",
+      "PiEstimator.java",
       1
    ],
    [
       "tommaso",
-      "TestAvroMessageManager.java",
+      "RunJar.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "RandBenchTest.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "SSSP.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "MaxAggregator.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "PageRank.java",
       1
    ],
    [
@@ -211,12 +116,107 @@
    ],
    [
       "tjungblut",
-      "TaskRunner.java",
+      "CombineExampleTest.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "RandBench.java",
+      1
+   ],
+   [
+      "tommaso",
+      "SuperstepPiEstimator.java",
+      2
+   ],
+   [
+      "tommaso",
+      "DoubleMessage.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "GraphJob.java",
       1
    ],
    [
       "tommaso",
       "HttpServer.java",
       49
+   ],
+   [
+      "tjungblut",
+      "AbsDiffAggregator.java",
+      1
+   ],
+   [
+      "tommaso",
+      "TestCheckpoint.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "PiEstimatorTest.java",
+      1
+   ],
+   [
+      "tommaso",
+      "IntegerDoubleMessage.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "PageRankTest.java",
+      1
+   ],
+   [
+      "tommaso",
+      "LongMessage.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "AbstractAggregator.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "MindistSearchTest.java",
+      1
+   ],
+   [
+      "tommaso",
+      "TestMessages.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "ExampleDriver.java",
+      1
+   ],
+   [
+      "tommaso",
+      "TestAvroMessageManager.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "VertexInterface.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "AverageAggregator.java",
+      1
+   ],
+   [
+      "tjungblut",
+      "VertexWritable.java",
+      1
+   ],
+   [
+      "tommaso",
+      "ByteMessage.java",
+      1
    ]
 ]

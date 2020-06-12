@@ -1,192 +1,17 @@
 [
    [
-      "aconway",
-      "BrokerAdapter.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "ClusteredQueue.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "ConnectionStartOkMethodHandler.java",
-      3
-   ],
-   [
-      "rgreig",
-      "AMQFrame.cs",
-      1
-   ],
-   [
-      "ritchiem",
-      "CRAMMD5Initialiser.java",
+      "rgodfrey",
+      "AMQChannelException.java",
       1
    ],
    [
       "rgodfrey",
-      "ContentBodyFactory.java",
+      "SubscriptionImpl.java",
       1
    ],
    [
       "aconway",
-      "AMQP_HighestVersion.h.tmpl",
-      1
-   ],
-   [
-      "aconway",
-      "amqp_types.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "TxRollbackHandler.java",
-      2
-   ],
-   [
-      "bhupendrab",
-      "PingAsyncTestPerf.java",
-      3
-   ],
-   [
-      "aconway",
-      "AMQMethodBody.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQUnexpectedFrameTypeException.java",
-      1
-   ],
-   [
-      "astitcher",
-      "BrokerMessageMessage.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "DeliveryManagerTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "NonTransactionalContext.java",
-      2
-   ],
-   [
-      "bhupendrab",
-      "ServerRegistry.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "TransportConnection.java",
-      1
-   ],
-   [
-      "aconway",
-      "FramingContent.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "CommitRollbackTest.java",
-      2
-   ],
-   [
-      "gsim",
-      "AMQStateManager.java",
-      1
-   ],
-   [
-      "rgreig",
-      "SlicedByteBufferTests.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "MethodConverter_8_0.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "VersionSpecificRegistry.java",
-      1
-   ],
-   [
-      "rgreig",
-      "PingPongProducer.java",
-      2
-   ],
-   [
-      "rgreig",
-      "PingPongTestPerf.java",
-      2
-   ],
-   [
-      "rgreig",
-      "AMQPFastProtocolHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "JMSTextMessage.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolOutputConverter.java",
-      1
-   ],
-   [
-      "aconway",
-      "Makefile.am",
-      18
-   ],
-   [
-      "rgodfrey",
-      "MethodHandler.java",
-      1
-   ],
-   [
-      "aconway",
-      "ProtocolInitiation.cpp",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ExchangeBoundOkMethodHandler.java",
-      1
-   ],
-   [
-      "gsim",
-      "AMQQueue.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQQueueAlertTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "FailoverHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "NodeAware.java",
-      1
-   ],
-   [
-      "aconway",
-      ".vg-supp",
-      1
-   ],
-   [
-      "bhupendrab",
-      "TestMinaProtocolSession.java",
+      "ClientChannelTest.cpp",
       2
    ],
    [
@@ -196,37 +21,57 @@
    ],
    [
       "rgodfrey",
-      "AmqpDomainVersionMap.java",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerMessageBase.h",
+      "AMQConnectionException.java",
       1
    ],
    [
       "rgodfrey",
-      "AmqpConstantsClass.vm",
+      "ClusteredProtocolHandler.java",
       1
    ],
    [
       "rgodfrey",
-      "AmqpOrdinalVersionMap.java",
+      "ChainedClusterMethodHandler.java",
       1
    ],
    [
-      "ritchiem",
-      "ChannelCloseTest.java",
+      "rgreig",
+      "PingPongTestPerf.java",
+      2
+   ],
+   [
+      "rgreig",
+      "AMQPFastProtocolHandler.java",
       1
    ],
    [
       "aconway",
-      "BasicMessageChannel.cpp",
-      1
+      "Makefile.am",
+      18
    ],
    [
       "ritchiem",
-      "AccessResult.java",
+      "QpidCompositeRollingAppender.java",
+      2
+   ],
+   [
+      "astitcher",
+      "MessageHandlerImpl.cpp",
+      1
+   ],
+   [
+      "bhupendrab",
+      "qpidmc.sh",
+      2
+   ],
+   [
+      "ritchiem",
+      "Closeable.java",
+      1
+   ],
+   [
+      "aconway",
+      "echo_service.cpp",
       1
    ],
    [
@@ -236,157 +81,7 @@
    ],
    [
       "rgodfrey",
-      "ChannelCloseOkMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQPFastProtocolHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ClientProperties.java",
-      1
-   ],
-   [
-      "rgreig",
-      "client-java14.iml",
-      1
-   ],
-   [
-      "ritchiem",
-      "MessageListenerTest.java",
-      1
-   ],
-   [
-      "rgreig",
-      "Main.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ClusteredProtocolHandler.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "JMXServerRegistry.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "AMQConnectionException.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "RecordingMethodHandlerFactory.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TxAck.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "PingClient.java",
-      3
-   ],
-   [
-      "ritchiem",
-      "ConfigurationFilePrincipalDatabaseManager.java",
-      4
-   ],
-   [
-      "bhupendrab",
-      "NavigationView.java",
-      3
-   ],
-   [
-      "aconway",
-      "AMQRequestBody.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "BrokerFillMemoryRun.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "PlainPasswordVhostFilePrincipalDatabase.java",
-      3
-   ],
-   [
-      "rgreig",
-      "Qpid.Common.Tests.csproj",
-      2
-   ],
-   [
-      "rgodfrey",
-      "ProtocolVersionListClass.tmpl",
-      1
-   ],
-   [
-      "aconway",
-      "FramingTest.cpp",
-      1
-   ],
-   [
-      "rgreig",
-      "UnaryExpression.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "UnacknowledgedMessageMapImpl.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AmqpClassMap.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ConnectionCloseMethodHandler.java",
-      3
-   ],
-   [
-      "rgodfrey",
-      "ContentHeaderBodyFactory.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQChannel.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicPublishMethodHandler.java",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerMessageMessage.cpp",
-      1
-   ],
-   [
-      "rgreig",
-      "ContentHeaderBody.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "Generator.java",
-      1
-   ],
-   [
-      "gsim",
-      "RecoveryManager.cpp",
+      "BasicAckMethodHandler.java",
       1
    ],
    [
@@ -395,263 +90,68 @@
       1
    ],
    [
+      "aconway",
+      "FramingContent.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "TargetDirectoryException.java",
+      1
+   ],
+   [
+      "rgreig",
+      "EncodingUtils.cs",
+      1
+   ],
+   [
       "ritchiem",
-      "TxAck.java",
+      "AMQConstant.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "ReplayStore.java",
       1
    ],
    [
       "rgodfrey",
-      "ProtocolOutputConverterRegistry.java",
+      "ChannelCloseMethodHandlerNoCloseOk.java",
       1
    ],
    [
+      "ritchiem",
+      "AMQSession.java",
+      4
+   ],
+   [
       "rgodfrey",
-      "FailoverHandler.java",
+      "AmqpClassMap.java",
       1
    ],
    [
       "aconway",
-      "Value.h",
-      2
+      "MethodBodyInstances.h",
+      1
    ],
    [
-      "ritchiem",
+      "rgodfrey",
       "AbstractJMSMessage.java",
       1
    ],
    [
-      "rgodfrey",
-      "ExtendedHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ConnectionTuneOkMethodHandler.java",
-      1
-   ],
-   [
       "rgreig",
-      "topic_publisher.cpp",
+      "CloseBeforeAckTest.java",
       1
    ],
    [
-      "gsim",
-      "BrokerMessageMessage.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "ConcurrentSelectorDeliveryManager.java",
-      4
-   ],
-   [
-      "rgodfrey",
-      "AmqpModel.java",
+      "rhs",
+      "spec.rb",
       1
    ],
    [
       "rgodfrey",
-      "MainRegistry.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TopicListener.csproj",
-      1
-   ],
-   [
-      "rgreig",
-      "ReflectionUtilsException.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolVersionMethodConverter.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AmqpField.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AmqpFlagMap.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "FlowControllingBlockingQueue.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "LanguageConverter.java",
-      1
-   ],
-   [
-      "aconway",
-      "NullMessageStore.h",
-      1
-   ],
-   [
-      "rgreig",
-      "ComparisonExpression.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "QueueDeclareHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicCancelOkMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolOutputConverterImpl.java",
-      1
-   ],
-   [
-      "aconway",
-      "AutoDelete.cpp",
-      1
-   ],
-   [
-      "rgreig",
-      "utils.xsl",
-      1
-   ],
-   [
-      "rgreig",
-      "CommandLineParserTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "DeliveryManager.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQSession.java",
-      1
-   ],
-   [
-      "aconway",
-      "broker.py",
-      2
-   ],
-   [
-      "aconway",
-      "ClientChannel.h",
-      2
-   ],
-   [
-      "bhupendrab",
-      "AMQBrokerManagerMBean.java",
-      3
-   ],
-   [
-      "rgreig",
-      "ContentBody.cs",
-      1
-   ],
-   [
-      "rgreig",
-      "AMQTypedValue.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "MockProtocolSession.java",
-      1
-   ],
-   [
-      "astitcher",
-      "BrokerChannel.cpp",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ClientHandlerRegistry.java",
-      1
-   ],
-   [
-      "aconway",
-      "ProtocolInitiation.h",
-      1
-   ],
-   [
-      "aconway",
-      "MessageBuilder.h",
-      1
-   ],
-   [
-      "bhupendrab",
-      "AbstractHeadersExchangeTestBase.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AmqpOrdinalFieldMap.java",
-      1
-   ],
-   [
-      "aconway",
-      "BasicHeaderProperties.h",
-      2
-   ],
-   [
-      "rgodfrey",
-      "VmPipeTransportConnection.java",
-      1
-   ],
-   [
-      "aconway",
-      "exchange.py",
-      2
-   ],
-   [
-      "rgodfrey",
-      "ProtocolOutputHandler.java",
-      1
-   ],
-   [
-      "gsim",
-      "ExchangeBindings.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ChannelFlowHandler.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AccessManagerImpl.java",
-      4
-   ],
-   [
-      "aconway",
-      "BasicHeaderProperties.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "BasicRecoverMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "FieldTableTest.java",
-      1
-   ],
-   [
-      "aconway",
-      "Broker.h",
+      "BasicCancelMethodHandler.java",
       1
    ],
    [
@@ -661,258 +161,23 @@
    ],
    [
       "rgreig",
-      "TestClient.java",
-      4
+      "ReflectionUtils.java",
+      3
    ],
    [
-      "ritchiem",
-      "AuthenticationManager.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "SubscriptionImpl.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ContentHeaderPropertiesFactory.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "CppGenerator.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ConnectionStartOkMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQMethodEvent.java",
-      1
-   ],
-   [
-      "marnie",
-      "ThresholdAlertingTest.java",
-      1
-   ],
-   [
-      "gsim",
-      "DeliveryManager.java",
+      "aconway",
+      "BrokerMessageMessage.cpp",
       1
    ],
    [
       "aconway",
-      "ClientExchange.h",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerQueue.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "DispatcherTest.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AmqpVersionSet.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AccessManager.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "FieldTableMessageTest.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQConnectionWaitException.java",
+      "BrokerMessageBase.h",
       1
    ],
    [
       "rgreig",
-      "AssemblyInfo.cs",
-      3
-   ],
-   [
-      "rgodfrey",
-      "PoolingFilter.java",
+      "TestEncodingUtils.cs",
       1
-   ],
-   [
-      "rgreig",
-      "HeartbeatBody.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "TxSelectHandler.java",
-      1
-   ],
-   [
-      "rhs",
-      "client.rb",
-      1
-   ],
-   [
-      "ritchiem",
-      "PropertyValueTest.java",
-      2
-   ],
-   [
-      "rgreig",
-      "PingAsyncTestPerf.java",
-      2
-   ],
-   [
-      "aconway",
-      "MessageChannel.h",
-      1
-   ],
-   [
-      "aconway",
-      "QueueTest.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "ResetMessageListenerTest.java",
-      3
-   ],
-   [
-      "ritchiem",
-      "TextMessageTest.java",
-      1
-   ],
-   [
-      "rhs",
-      "qpid.rb",
-      1
-   ],
-   [
-      "ritchiem",
-      "DenyAll.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "BasicConsumeMethodHandler.java",
-      1
-   ],
-   [
-      "rgreig",
-      "BasicMessageConsumer.cs",
-      1
-   ],
-   [
-      "gsim",
-      "QueueUnbindHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "FieldTable.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "AMQQueueMBeanTest.java",
-      3
-   ],
-   [
-      "rgodfrey",
-      "Main.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "BasicRejectMethodHandler.java",
-      3
-   ],
-   [
-      "aconway",
-      "ClientMessage.cpp",
-      3
-   ],
-   [
-      "rgodfrey",
-      "PeerHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicReturnMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQDecoder.java",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerChannel.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicDeliverMethodHandler.java",
-      1
-   ],
-   [
-      "aconway",
-      "AMQP_ClientOperations.h.tmpl",
-      2
-   ],
-   [
-      "rgreig",
-      "BasicMessageProducer.cs",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQProtocolSession.java",
-      3
-   ],
-   [
-      "gsim",
-      "Broker.cpp",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BrokerGroup.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQQueueMBeanTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "Config.java",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerMessage.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQSession.java",
-      4
    ],
    [
       "rgodfrey",
@@ -921,193 +186,68 @@
    ],
    [
       "rgodfrey",
-      "AMQMethodBody.java",
-      2
-   ],
-   [
-      "rgreig",
-      "ReflectionUtils.java",
-      3
-   ],
-   [
-      "aconway",
-      "QueueRegistry.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "ProtocolVersion.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ReplayManager.java",
-      1
-   ],
-   [
-      "aconway",
-      "topic_publisher.cpp",
-      2
-   ],
-   [
-      "rgodfrey",
-      "BasicGetMethodHandler.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "RecoverTest.java",
-      1
-   ],
-   [
-      "rgodfrey",
       "QueueDeleteOkMethodHandler.java",
       1
    ],
    [
-      "rgodfrey",
-      "ChannelCloseMethodHandlerNoCloseOk.java",
-      1
-   ],
-   [
       "rgreig",
-      "ReadOnlyContext.java",
-      1
+      "TestCase1DummyRun.java",
+      3
    ],
    [
       "aconway",
-      "FramingContent.h",
-      2
-   ],
-   [
-      "aconway",
-      "TxAckTest.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "echo_service.cpp",
+      "AMQContentBody.cpp",
       1
    ],
    [
       "ritchiem",
-      "BlockingMethodFrameListener.java",
+      "BasicMessageConsumer.java",
+      3
+   ],
+   [
+      "aconway",
+      "message.py",
+      6
+   ],
+   [
+      "ritchiem",
+      "qpid.stop",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpDomainVersionMap.java",
       1
    ],
    [
       "aconway",
-      "testlib.py",
-      11
-   ],
-   [
-      "rgodfrey",
-      "AmqpClass.java",
+      "Reference.h",
       1
    ],
    [
       "rgreig",
-      "TestReferenceCounting.java",
+      "BlockingSocketProcessor.cs",
+      1
+   ],
+   [
+      "gsim",
+      "ExchangeBindings.java",
       1
    ],
    [
       "rgodfrey",
-      "ConnectionSecureMethodHandler.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "ClusterMethodHandlerFactory.java",
+      "GroupResponseHandler.java",
       1
    ],
    [
-      "rgodfrey",
-      "AMQConnection.java",
-      1
-   ],
-   [
-      "rgreig",
-      "CumulativeProtocolDecoder.cs",
+      "kpvdr",
+      "MethodRegistryClass.tmpl",
       1
    ],
    [
       "aconway",
-      "ClientChannelTest.cpp",
-      2
-   ],
-   [
-      "ritchiem",
-      "BasicCancelMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "TxRollbackHandler.java",
-      1
-   ],
-   [
-      "rgreig",
-      "FieldTable.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolInitiation.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ChainedMethodRecorder.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "TestBroker.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "LocalTransactionalContext.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "AMQBody.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "TxnBuffer.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "SelectorTest.java",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerChannelTest.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "MethodBodyClass.h.tmpl",
-      1
-   ],
-   [
-      "rgreig",
-      "AMQType.cs",
-      1
-   ],
-   [
-      "rgreig",
-      "Qpid.Common.csproj",
-      2
-   ],
-   [
-      "ritchiem",
-      "ChannelCloseOkMethodHandler.java",
-      1
+      "Value.cpp",
+      3
    ],
    [
       "aconway",
@@ -1116,37 +256,42 @@
    ],
    [
       "ritchiem",
-      "UsernamePrincipal.java",
+      "TransportConnection.java",
       1
-   ],
-   [
-      "aconway",
-      "Connection.h",
-      4
    ],
    [
       "rgodfrey",
-      "AMQNoMethodHandlerException.java",
-      2
+      "AMQPFastProtocolHandler.java",
+      1
    ],
    [
-      "ritchiem",
-      "RemoteSubscriptionImpl.java",
+      "rgreig",
+      "utils.xsl",
       1
    ],
    [
       "aconway",
-      "MethodBodyInstances.h",
+      "BrokerQueue.cpp",
       1
    ],
    [
-      "aconway",
-      "MessageStoreModule.cpp",
+      "rgreig",
+      "PT-Qpid-13.sh",
       1
    ],
    [
-      "ritchiem",
-      "UsernamePasswordInitialiser.java",
+      "rgodfrey",
+      "TestBroker.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "Broker.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ResponseHandler.java",
       1
    ],
    [
@@ -1156,567 +301,7 @@
    ],
    [
       "rgodfrey",
-      "AmqpFieldMap.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TestClientDetails.java",
-      4
-   ],
-   [
-      "astitcher",
-      "BrokerMessageMessage.cpp",
-      2
-   ],
-   [
-      "aconway",
-      "AMQHeartbeatBody.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "StateWaiter.java",
-      1
-   ],
-   [
-      "aconway",
-      "InMemoryContent.cpp",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ContentHeaderBody.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQMethodBodyFactory.java",
-      1
-   ],
-   [
-      "aconway",
-      "InMemoryContent.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "TransactionalContext.java",
-      1
-   ],
-   [
-      "rgreig",
-      "AMQStateManager.cs",
-      1
-   ],
-   [
-      "rhs",
-      "channel.rb",
-      1
-   ],
-   [
-      "aconway",
-      "APRSocket.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerMessage.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "APRSocket.h",
-      1
-   ],
-   [
-      "marnie",
-      "AMQTestQueue.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "MultipleConnectionTest.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TestSyncConsumer.cs",
-      1
-   ],
-   [
-      "rgreig",
-      "Qpid.NET.sln",
-      2
-   ],
-   [
-      "rgreig",
-      "InvitingTestDecorator.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ExchangeDeleteHandler.java",
-      1
-   ],
-   [
-      "gsim",
-      "BrokerMessageMessage.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "qpidc.spec.in",
-      6
-   ],
-   [
-      "rgreig",
-      "AMQDataBlockEncoder.cs",
-      1
-   ],
-   [
-      "ritchiem",
-      "qpid.stop",
-      1
-   ],
-   [
-      "rgreig",
-      "PT-Qpid-14.sh",
-      1
-   ],
-   [
-      "rgreig",
-      "DemuxingProtocolCodecFactory.cs",
-      1
-   ],
-   [
-      "rgreig",
-      "AMQMessage.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "ChannelCloseHandler.java",
-      2
-   ],
-   [
-      "rgreig",
-      "TopicPublisher.cs",
-      1
-   ],
-   [
-      "kpvdr",
-      "MethodRegistryClass.tmpl",
-      1
-   ],
-   [
-      "ritchiem",
-      "PlainInitialiser.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "PingTestPerf.java",
-      3
-   ],
-   [
-      "aconway",
-      "LFSessionContext.cpp",
-      3
-   ],
-   [
-      "rgreig",
-      "Program.cs",
-      2
-   ],
-   [
-      "rgreig",
-      "ByteBuffer.cs",
-      1
-   ],
-   [
-      "bhupendrab",
-      "TestMessageFactory.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "MethodHandlerRegistry.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicCancelMethodHandler.java",
-      1
-   ],
-   [
-      "aconway",
-      "AMQDataBlock.h",
-      1
-   ],
-   [
-      "aconway",
-      "FieldTable.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ExchangeBoundHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ChannelCloseTest.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "UnknnownMessageTypeException.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "ManagedConnection.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "ConcurrentLinkedMessageQueueAtomicSize.java",
-      3
-   ],
-   [
-      "bhupendrab",
-      "MBeanView.java",
-      1
-   ],
-   [
-      "aconway",
-      "MessageBuilder.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "TxPublishTest.cpp",
-      1
-   ],
-   [
-      "gsim",
-      "BrokerMessageBase.h",
-      1
-   ],
-   [
-      "bhupendrab",
-      "ExchangeMBeanTest.java",
-      1
-   ],
-   [
-      "rgreig",
-      "FixedByteBuffer.cs",
-      1
-   ],
-   [
-      "rgreig",
-      "QpidHeaders.cs",
-      1
-   ],
-   [
-      "ritchiem",
-      "CombinedTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "BytesMessageTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "PrincipalDatabase.java",
-      1
-   ],
-   [
-      "aconway",
-      "SessionHandlerImpl.cpp",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ChannelCloseHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "NoCloseOKStateManager.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicRecoverMethodHandler.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "NullApplicationRegistry.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "WrappedListener.java",
-      1
-   ],
-   [
-      "aconway",
-      "AMQContentBody.cpp",
-      1
-   ],
-   [
-      "bhupendrab",
-      "AttributesTabControl.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolVersionAware.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQMethodFactory_8_0.java",
-      1
-   ],
-   [
-      "rgreig",
-      "OptOutTestCase.java",
-      1
-   ],
-   [
-      "aconway",
-      "AckMode.h",
-      1
-   ],
-   [
-      "rhs",
-      "spec.rb",
-      1
-   ],
-   [
-      "ritchiem",
-      "MD5PasswordFilePrincipalDatabase.java",
-      3
-   ],
-   [
-      "rgreig",
-      "client_test.cpp",
-      1
-   ],
-   [
-      "rgodfrey",
-      "QueuePurgeHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "MethodRegistryClass.vm",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicConsumeMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "TestReplayManager.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AbstractHeadersExchangeTestBase.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "MinaBrokerProxy.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "UnacknowledgedMessageMapImpl.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "TestApplicationRegistry.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolVersionListClass.vm",
-      1
-   ],
-   [
-      "ritchiem",
-      "BasicAckMethodHandler.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "UnacknowledgedMessage.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "ObjectMessageTest.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "ConcurrentSelectorDeliveryManager.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "GroupRequest.java",
-      1
-   ],
-   [
-      "aconway",
-      "MessageStore.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQBodyImpl.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "SocketTransportConnection.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "RequiredDeliveryException.java",
-      1
-   ],
-   [
-      "aconway",
-      "MessageHandlerImpl.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "StreamMessageTest.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "VirtualHostConfiguration.java",
-      1
-   ],
-   [
-      "rgreig",
-      "AmqChannel.cs",
-      2
-   ],
-   [
-      "rgodfrey",
-      "AMQProtocolSessionTest.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "AMQProtocolSessionMBeanTest.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "SpecificMethodFrameListener.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQMethodBodyInstanceFactory.java",
-      1
-   ],
-   [
-      "rgreig",
-      "ConstantExpression.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolOutputHandler_8_0.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "HeartbeatBody.java",
-      1
-   ],
-   [
-      "aconway",
-      "QueuePolicy.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "PlainSaslServer.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "PropertyExpression.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "DefaultGroupManager.java",
-      1
-   ],
-   [
-      "rgreig",
-      "AMQMessageFactory.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ChannelOpenHandler.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQPFastProtocolHandler.java",
-      1
-   ],
-   [
-      "aconway",
-      "basic.py",
-      3
-   ],
-   [
-      "rgodfrey",
-      "AMQMinaProtocolSession.java",
-      2
-   ],
-   [
-      "aconway",
-      "Buffer.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ClientAdapter.java",
-      1
-   ],
-   [
-      "aconway",
-      "spec.py",
-      5
-   ],
-   [
-      "aconway",
-      "NullMessageStore.cpp",
+      "AmqpModel.java",
       1
    ],
    [
@@ -1726,152 +311,7 @@
    ],
    [
       "ritchiem",
-      "MockProtocolSession.java",
-      1
-   ],
-   [
-      "aconway",
-      "Prefetch.h",
-      1
-   ],
-   [
-      "bhupendrab",
-      "ConcurrentSelectorDeliveryManager.java",
-      5
-   ],
-   [
-      "ritchiem",
-      "ConnectionTest.java",
-      1
-   ],
-   [
-      "aconway",
-      "Buffer.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "AMQContentBody.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "ReturnUnroutableMandatoryMessageTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "SubscriptionSet.java",
-      1
-   ],
-   [
-      "aconway",
-      "MessageTest.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "CloseBeforeAckTest.java",
-      1
-   ],
-   [
-      "aconway",
-      "MethodBodyClass.tmpl",
-      2
-   ],
-   [
-      "aconway",
-      "client_test.cpp",
-      2
-   ],
-   [
-      "rgreig",
-      "ConversationHelper.java",
-      4
-   ],
-   [
-      "rgodfrey",
-      "SimpleBodySendable.java",
-      1
-   ],
-   [
-      "rgreig",
-      "SlicedByteBuffer.cs",
-      1
-   ],
-   [
-      "kpvdr",
-      "MethodBodyClass.tmpl",
-      1
-   ],
-   [
-      "bhupendrab",
-      "NotificationsTabControl.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "Config.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "BasicQosHandler.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "UnprocessedMessage.java",
-      1
-   ],
-   [
-      "rgreig",
-      "ProtocolInitiation.cs",
-      1
-   ],
-   [
-      "rgreig",
-      "IByteBufferAllocator.cs",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQQueue.java",
-      3
-   ],
-   [
-      "ritchiem",
-      "PropertiesPrincipalDatabase.java",
-      1
-   ],
-   [
-      "rgreig",
-      "ConnectionTuneMethodHandler.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "TargetDirectoryException.java",
-      1
-   ],
-   [
-      "aconway",
-      "Connector.h",
-      1
-   ],
-   [
-      "aconway",
-      "AMQFrame.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQMethodListener.java",
-      1
-   ],
-   [
-      "aconway",
-      "AutoDelete.h",
+      "AMQConnection.java",
       1
    ],
    [
@@ -1880,358 +320,28 @@
       1
    ],
    [
-      "rgodfrey",
-      "ReplayStore.java",
-      1
-   ],
-   [
-      "rgreig",
-      "InteropClientTestCase.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "DeliveryManager.java",
+      "ritchiem",
+      "DispatcherTest.java",
       1
    ],
    [
       "aconway",
-      "QueuePolicy.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "QpidCompositeRollingAppender.java",
+      "Basic.h",
       2
    ],
    [
-      "aconway",
-      "AMQP_ClientProxy.h.tmpl",
-      1
-   ],
-   [
       "bhupendrab",
-      "OperationTabControl.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TopicListener.cs",
-      1
-   ],
-   [
-      "aconway",
-      "example.py",
-      3
-   ],
-   [
-      "ritchiem",
-      "MessageQueue.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "VirtualHost.java",
-      1
-   ],
-   [
-      "aconway",
-      "LazyLoadedContentTest.cpp",
-      1
-   ],
-   [
-      "rgreig",
-      "BasicContentHeaderProperties.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ServerHandlerRegistry.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AllowAll.java",
-      1
-   ],
-   [
-      "rgreig",
-      "Coordinator.java",
-      3
-   ],
-   [
-      "rgodfrey",
-      "AmqpTemplateException.java",
-      1
-   ],
-   [
-      "rgreig",
-      "BlockingSocketProcessor.cs",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQQueueBrowser.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "WrappingMethodHandlerFactory.java",
-      1
-   ],
-   [
-      "marnie",
-      "AMQQueueMBeanTest.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ProtocolOutputHandlerFactory.java",
-      1
-   ],
-   [
-      "gsim",
-      "MessageGetHandler.java",
-      1
-   ],
-   [
-      "aconway",
-      "QueueRegistry.h",
-      1
-   ],
-   [
-      "aconway",
-      "LazyLoadedContent.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "QueuePolicyTest.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQConnection.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "AMQQueueAlertTest.java",
+      "AMQQueueMBean.java",
       5
    ],
    [
-      "rgodfrey",
-      "qpid-server-bdb.bat",
+      "gsim",
+      "BrokerMessageMessage.h",
       1
    ],
    [
       "ritchiem",
-      "PlainPasswordFilePrincipalDatabase.java",
-      3
-   ],
-   [
-      "ritchiem",
-      "ClusterMethodHandlerFactory.java",
-      1
-   ],
-   [
-      "aconway",
-      "HeaderProperties.h",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ChannelFlowOkMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQProtocolSession.java",
-      3
-   ],
-   [
-      "aconway",
-      "Main.java",
-      1
-   ],
-   [
-      "aconway",
-      "MessageStoreModule.h",
-      1
-   ],
-   [
-      "aconway",
-      "AMQP_ServerProxy.h.tmpl",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicContentHeaderPropertiesTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQTimeoutException.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "MessagePublishInfoConverter.java",
-      1
-   ],
-   [
-      "bhupendrab",
-      "AMQMinaProtocolSession.java",
-      2
-   ],
-   [
-      "ritchiem",
-      "ConnectionOpenMethodHandler.java",
-      2
-   ],
-   [
-      "aconway",
-      "MessageBuilderTest.cpp",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AbstractJMSMessage.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQProtocolHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "DotnetGenerator.java",
-      1
-   ],
-   [
-      "rgreig",
       "RequiredDeliveryException.java",
-      1
-   ],
-   [
-      "rgreig",
-      "Qpid.Client.Tests.csproj",
-      2
-   ],
-   [
-      "aconway",
-      "reference.py",
-      1
-   ],
-   [
-      "aconway",
-      "Value.cpp",
-      3
-   ],
-   [
-      "bhupendrab",
-      "PingPongTestPerf.java",
-      3
-   ],
-   [
-      "aconway",
-      "BasicMessageChannel.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "VMTestCase.java",
-      2
-   ],
-   [
-      "rgreig",
-      "IHeaders.cs",
-      2
-   ],
-   [
-      "rgreig",
-      "CloseBeforeAckTest.java",
-      1
-   ],
-   [
-      "aconway",
-      "tx.py",
-      3
-   ],
-   [
-      "ritchiem",
-      "Closeable.java",
-      1
-   ],
-   [
-      "rgreig",
-      "ByteBufferHexDumper.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ConnectionSecureOkMethodHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQVersionAwareProtocolSession.java",
-      1
-   ],
-   [
-      "aconway",
-      "IncomingMessage.h",
-      1
-   ],
-   [
-      "rgreig",
-      "PropertiesUtils.java",
-      1
-   ],
-   [
-      "aconway",
-      "AMQP_ServerOperations.h.tmpl",
-      1
-   ],
-   [
-      "aconway",
-      "AMQMethodBody.cpp",
-      1
-   ],
-   [
-      "aconway",
-      "AMQFrame.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "BasicMessageConsumer.java",
-      3
-   ],
-   [
-      "ritchiem",
-      "SessionStartTest.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TestEncodingUtils.cs",
-      1
-   ],
-   [
-      "rhs",
-      "peer.rb",
-      1
-   ],
-   [
-      "rgodfrey",
-      "JavaGenerator.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "Broker.java",
       1
    ],
    [
@@ -2241,98 +351,278 @@
    ],
    [
       "aconway",
-      "Connection.cpp",
-      2
-   ],
-   [
-      "aconway",
-      "DeliveryRecord.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "qpid.stopall",
+      "amqp_types.h",
       1
    ],
    [
       "rgodfrey",
-      "AMQDataBlockDecoder.java",
+      "BasicDeliverTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "LocalTransactionalContext.java",
+      2
+   ],
+   [
+      "aconway",
+      "MessageBuilder.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "UnaryExpression.java",
+      1
+   ],
+   [
+      "aconway",
+      "ClientChannel.cpp",
+      3
+   ],
+   [
+      "ritchiem",
+      "SubscriptionTestHelper.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ClientAdapter.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ContentHeaderBody.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ReplicatingHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "BasicMessageProducer.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "AMQChannel.java",
+      3
+   ],
+   [
+      "rgreig",
+      "PingAsyncTestPerf.java",
+      2
+   ],
+   [
+      "rhs",
+      "qpid.rb",
+      1
+   ],
+   [
+      "rgreig",
+      "AMQFrame.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ConnectionStartOkMethodHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "FieldTable.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "TopicPublisher.csproj",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpMethodMap.java",
       1
    ],
    [
       "bhupendrab",
-      "TestIoSession.java",
-      2
+      "AMQChannel.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "AttributesTabControl.java",
+      1
    ],
    [
       "rgodfrey",
-      "AMQUnexpectedBodyTypeException.java",
+      "AMQMethodListener.java",
+      1
+   ],
+   [
+      "aconway",
+      "broker.py",
       2
+   ],
+   [
+      "rgreig",
+      "AMQDataBlockDecoder.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "TxAck.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ProtocolInitiation.cs",
+      1
+   ],
+   [
+      "aconway",
+      "peer.py",
+      8
+   ],
+   [
+      "rgodfrey",
+      "ExtendedHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ConcurrentSelectorDeliveryManager.java",
+      1
+   ],
+   [
+      "aconway",
+      "LazyLoadedContentTest.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "StreamMessageTest.java",
+      1
+   ],
+   [
+      "aconway",
+      "qpidc.spec.in",
+      6
+   ],
+   [
+      "marnie",
+      "AMQQueueMBeanTest.java",
+      1
+   ],
+   [
+      "aconway",
+      "LFSessionContext.cpp",
+      3
+   ],
+   [
+      "ritchiem",
+      "MessageQueue.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "AbstractHeadersExchangeTestBase.java",
+      1
+   ],
+   [
+      "aconway",
+      "MessageBuilderTest.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "BasicContentHeaderProperties.cs",
+      1
    ],
    [
       "gsim",
-      "RequestToken.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "LatencyTest.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "Client.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TestAMQType.cs",
+      "AMQQueue.java",
       1
    ],
    [
       "rgodfrey",
-      "AMQProtocolHandlerImpl.java",
+      "AMQMethodBodyInstanceFactory.java",
       1
    ],
    [
       "ritchiem",
-      "ConnectionSecureOkMethodHandler.java",
-      1
-   ],
-   [
-      "rgreig",
-      "TestCase2BasicP2P.java",
+      "DeliveryManager.java",
       1
    ],
    [
       "rgodfrey",
-      "ChainedClusterMethodHandler.java",
+      "ChannelFlowHandler.java",
       1
    ],
    [
       "rgodfrey",
-      "ConnectionStartMethodHandler.java",
-      2
-   ],
-   [
-      "rgreig",
-      "AMQConnection.cs",
+      "Printable.java",
       1
    ],
    [
       "aconway",
-      "ClientMessage.h",
+      "Connection.cpp",
       2
    ],
    [
+      "ritchiem",
+      "AMQMessage.java",
+      3
+   ],
+   [
+      "aconway",
+      "EventChannelConnectionTest.cpp",
+      1
+   ],
+   [
       "rgreig",
-      "AMQProtocolListener.cs",
+      "IHeaders.cs",
+      2
+   ],
+   [
+      "aconway",
+      "ProducerConsumerTest.cpp",
       1
    ],
    [
       "aconway",
-      "client.py",
-      5
+      "BasicHeaderProperties.cpp",
+      1
+   ],
+   [
+      "bhupendrab",
+      "PingAsyncTestPerf.java",
+      3
+   ],
+   [
+      "rgreig",
+      "Qpid.Common.csproj",
+      2
+   ],
+   [
+      "rgodfrey",
+      "FieldTable.java",
+      1
+   ],
+   [
+      "aconway",
+      "AMQP_ServerOperations.h.tmpl",
+      1
+   ],
+   [
+      "aconway",
+      "BrokerQueue.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "AccessManagerImpl.java",
+      4
    ],
    [
       "ritchiem",
@@ -2345,114 +635,19 @@
       1
    ],
    [
-      "aconway",
-      "Connector.cpp",
-      1
-   ],
-   [
       "ritchiem",
-      "AMQStateManager.java",
-      3
-   ],
-   [
-      "rgodfrey",
-      "MethodRecorder.java",
-      1
-   ],
-   [
-      "aconway",
-      "DeliveryRecord.cpp",
-      1
-   ],
-   [
-      "ritchiem",
-      "QpidClientConnection.java",
-      2
-   ],
-   [
-      "aconway",
-      "BrokerChannel.cpp",
-      2
-   ],
-   [
-      "astitcher",
-      "MessageHandlerImpl.cpp",
+      "CombinedTest.java",
       1
    ],
    [
       "rgodfrey",
-      "AMQMethodBodyImpl.java",
-      1
-   ],
-   [
-      "aconway",
-      "AccumulatedAckTest.cpp",
-      2
-   ],
-   [
-      "rgreig",
-      "topic_listener.cpp",
-      1
-   ],
-   [
-      "gsim",
-      "AMQMessage.java",
-      1
-   ],
-   [
-      "rgreig",
-      "HeadersExchangeTest.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "CommonContentHeaderProperties.java",
+      "WrappedListener.java",
       1
    ],
    [
       "bhupendrab",
-      "PingPongProducer.java",
-      6
-   ],
-   [
-      "rgreig",
-      "Listener.java",
-      3
-   ],
-   [
-      "aconway",
-      "message.py",
-      6
-   ],
-   [
-      "aconway",
-      "HeaderTest.cpp",
-      1
-   ],
-   [
-      "rgreig",
-      "CommandLineParser.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BlockingMethodFrameListener.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "SimpleClusterTest.java",
-      1
-   ],
-   [
-      "rgreig",
-      "CoordinatingTestCase.java",
-      4
-   ],
-   [
-      "rgreig",
-      "Qpid.Buffer.csproj",
-      1
+      "AMQQueueAlertTest.java",
+      5
    ],
    [
       "bhupendrab",
@@ -2460,8 +655,28 @@
       2
    ],
    [
+      "rgreig",
+      "CumulativeProtocolDecoder.cs",
+      1
+   ],
+   [
       "rgodfrey",
-      "MessageFactoryRegistry.java",
+      "ContentBodyFactory.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "PrincipalDatabaseAuthenticationManager.java",
+      4
+   ],
+   [
+      "ritchiem",
+      "AMQQueue.java",
+      3
+   ],
+   [
+      "aconway",
+      "BrokerChannel.h",
       1
    ],
    [
@@ -2470,54 +685,169 @@
       1
    ],
    [
-      "gsim",
-      "Broker.h",
-      1
-   ],
-   [
-      "gsim",
-      "AMQChannel.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQQueueMBean.java",
-      1
-   ],
-   [
       "rgreig",
-      "HeapByteBuffer.cs",
-      1
+      "PingPongProducer.java",
+      2
    ],
    [
-      "bhupendrab",
-      "MBeanTypeTabControl.java",
+      "aconway",
+      "QueuePolicy.cpp",
       1
    ],
    [
       "rgodfrey",
-      "Printable.java",
+      "AMQMinaProtocolSession.java",
+      2
+   ],
+   [
+      "rhs",
+      "codec.rb",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ChainedMethodRecorder.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "HeartbeatBodyFactory.java",
       1
    ],
    [
       "aconway",
-      "topic_listener.cpp",
+      "BasicMessageChannel.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "BasicCancelMethodHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "BlockingMethodFrameListener.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicPublishMethodHandler.java",
+      1
+   ],
+   [
+      "rhs",
+      "channel.rb",
+      1
+   ],
+   [
+      "bhupendrab",
+      "AMQMinaProtocolSession.java",
       2
    ],
    [
-      "rgodfrey",
-      "NullListener.java",
+      "aconway",
+      "Prefetch.h",
+      1
+   ],
+   [
+      "bhupendrab",
+      "DeliveryManager.java",
       1
    ],
    [
       "rgodfrey",
-      "BasicContentHeaderProperties.java",
+      "ConnectionOpenMethodHandler.java",
       1
+   ],
+   [
+      "rgodfrey",
+      "NoCloseOKStateManager.java",
+      1
+   ],
+   [
+      "aconway",
+      "FramingTest.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQVersionAwareProtocolSession.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ComparisonExpression.java",
+      1
+   ],
+   [
+      "aconway",
+      "tx.py",
+      3
    ],
    [
       "rgreig",
       "ClasspathScanner.java",
       4
+   ],
+   [
+      "rgodfrey",
+      "ProtocolInitiation.java",
+      1
+   ],
+   [
+      "aconway",
+      "ClientChannel.h",
+      2
+   ],
+   [
+      "ritchiem",
+      "ConfigurationFilePrincipalDatabaseManager.java",
+      4
+   ],
+   [
+      "rgreig",
+      "TestReferenceCounting.java",
+      1
+   ],
+   [
+      "aconway",
+      "MessageStoreModule.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ProtocolVersionAware.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "JMSTextMessage.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQProtocolSession.java",
+      3
+   ],
+   [
+      "ritchiem",
+      "PrincipalDatabaseManager.java",
+      1
+   ],
+   [
+      "aconway",
+      "Connector.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MockProtocolSession.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "VmPipeTransportConnection.java",
+      1
    ],
    [
       "rgreig",
@@ -2526,122 +856,572 @@
    ],
    [
       "rgodfrey",
-      "Utils.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "QueueDeleteHandler.java",
+      "MethodConverter_8_0.java",
       1
    ],
    [
       "rgodfrey",
-      "AmqpDomainMap.java",
+      "ConnectionStartMethodHandler.java",
+      2
+   ],
+   [
+      "ritchiem",
+      "SimpleClusterTest.java",
+      1
+   ],
+   [
+      "rgreig",
+      "TestClientDetails.java",
+      4
+   ],
+   [
+      "aconway",
+      "ProtocolInitiation.cpp",
+      1
+   ],
+   [
+      "aconway",
+      "AMQP_ServerProxy.h.tmpl",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicReturnMethodHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "Accessable.java",
+      1
+   ],
+   [
+      "rgreig",
+      "PropertiesUtils.java",
+      1
+   ],
+   [
+      "aconway",
+      "DeliveryRecord.cpp",
+      1
+   ],
+   [
+      "gsim",
+      "MessageGetHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ConsumerProducerQueue.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "GroupRequest.java",
+      1
+   ],
+   [
+      "rgreig",
+      "Qpid.Common.Tests.csproj",
+      2
+   ],
+   [
+      "aconway",
+      "AutoDelete.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "QueueBrowserTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "PlainInitialiser.java",
+      1
+   ],
+   [
+      "rgreig",
+      "CoordinatingTestCase.java",
+      4
+   ],
+   [
+      "ritchiem",
+      "PlainPasswordFilePrincipalDatabase.java",
+      3
+   ],
+   [
+      "rgodfrey",
+      "BasicRejectMethodHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "MessageStore.h",
+      1
+   ],
+   [
+      "aconway",
+      "Connector.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "NullListener.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ByteBufferHexDumper.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicMessageProducer.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "MBeanView.java",
+      1
+   ],
+   [
+      "rgreig",
+      "QpidHeaders.cs",
+      1
+   ],
+   [
+      "rgreig",
+      "SimpleByteBufferTests.cs",
+      1
+   ],
+   [
+      "aconway",
+      "README.rhel3",
+      1
+   ],
+   [
+      "aconway",
+      "Buffer.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQUnexpectedBodyTypeException.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "CommonContentHeaderProperties.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "NullApplicationRegistry.java",
       1
    ],
    [
       "rhs",
-      "basic.rb",
-      1
-   ],
-   [
-      "aconway",
-      "AMQHeaderBody.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "PrincipalDatabaseManager.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQStateManager.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "ConnectionOpenOkMethodHandler.java",
+      "connection.rb",
       1
    ],
    [
       "rgreig",
-      "AMQDataBlockDecoder.cs",
+      "AMQType.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BrokerGroup.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "TxRollbackHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "TopicListener.cs",
+      1
+   ],
+   [
+      "marnie",
+      "AMQTestQueue.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQConnectionWaitException.java",
       1
    ],
    [
       "aconway",
-      "EventChannelConnectionTest.cpp",
+      "AMQMinaProtocolSession.java",
+      2
+   ],
+   [
+      "aconway",
+      "AMQRequestBody.h",
+      1
+   ],
+   [
+      "rgreig",
+      "OptOutTestCase.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ConnectionTuneOkMethodHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "BrokerFillMemoryRun.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "PeerHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "testlib.py",
+      11
+   ],
+   [
+      "ritchiem",
+      "Client.java",
+      1
+   ],
+   [
+      "rgreig",
+      "Qpid.NET.sln",
+      2
+   ],
+   [
+      "rgodfrey",
+      "QueuePurgeHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQMethodBodyFactory.java",
       1
    ],
    [
       "gsim",
-      ".vg-supp",
+      "AMQMessage.java",
       1
-   ],
-   [
-      "bhupendrab",
-      "AMQQueue.java",
-      6
    ],
    [
       "rgodfrey",
-      "BasicDeliverTest.java",
+      "BasicGetMethodHandler.java",
       1
    ],
    [
-      "ritchiem",
-      "ConnectionCloseMethodHandler.java",
+      "rgreig",
+      "AbstractQmsMessage.cs",
       1
-   ],
-   [
-      "aconway",
-      "peer.py",
-      8
    ],
    [
       "bhupendrab",
-      "AMQQueueMBean.java",
-      5
-   ],
-   [
-      "rgreig",
-      "PropertyExpression.java",
+      "MBeanTypeTabControl.java",
       1
    ],
    [
-      "rgreig",
-      "Publisher.java",
-      2
-   ],
-   [
       "aconway",
-      "Basic.cpp",
-      2
+      "AckMode.h",
+      1
    ],
    [
       "ritchiem",
-      "AmqPlainSaslServer.java",
+      "IApplicationRegistry.java",
+      1
+   ],
+   [
+      "aconway",
+      "Main.java",
+      1
+   ],
+   [
+      "aconway",
+      "BrokerAdapter.cpp",
+      1
+   ],
+   [
+      "aconway",
+      "AMQHeartbeatBody.h",
       1
    ],
    [
       "rgreig",
-      "Qpid.Buffer.Tests.csproj",
+      "IByteBufferAllocator.cs",
+      1
+   ],
+   [
+      "rgreig",
+      "AMQStateManager.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "QpidClientConnection.java",
+      2
+   ],
+   [
+      "bhupendrab",
+      "NavigationView.java",
+      3
+   ],
+   [
+      "aconway",
+      "QueuePolicyTest.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "ClusterMethodHandlerFactory.java",
       1
    ],
    [
       "aconway",
-      "delegate.py",
+      "codec.py",
+      3
+   ],
+   [
+      "rgodfrey",
+      "ChannelCloseHandler.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "TestMessageFactory.java",
       1
    ],
    [
       "aconway",
-      "Reference.h",
+      "Content.h",
       1
    ],
    [
-      "gsim",
-      "ConcurrentSelectorDeliveryManager.java",
+      "rgodfrey",
+      "AmqpFieldMap.java",
+      1
+   ],
+   [
+      "aconway",
+      "AMQMethodBody.cpp",
+      1
+   ],
+   [
+      "rhs",
+      "client.rb",
+      1
+   ],
+   [
+      "ritchiem",
+      "PlainPasswordVhostFilePrincipalDatabase.java",
+      3
+   ],
+   [
+      "bhupendrab",
+      "PingPongTestPerf.java",
+      3
+   ],
+   [
+      "aconway",
+      "InMemoryContentTest.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "TestConsumerProducerQueue.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "BasicCancelOkMethodHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "SubscriptionImpl.java",
+      3
+   ],
+   [
+      "rgreig",
+      "ConnectionTuneMethodHandler.cs",
+      1
+   ],
+   [
+      "aconway",
+      "basic.py",
+      3
+   ],
+   [
+      "ritchiem",
+      "ChannelFlowTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ServerHandlerRegistry.java",
+      1
+   ],
+   [
+      "aconway",
+      "AMQP_MethodVersionMap.h.tmpl",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BlockingMethodFrameListener.java",
+      1
+   ],
+   [
+      "aconway",
+      "MessageTest.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "ConnectionStartOkMethodHandler.java",
+      3
+   ],
+   [
+      "ritchiem",
+      "BasicAckMethodHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "qpidc.spec",
+      2
+   ],
+   [
+      "rgodfrey",
+      "RecordingMethodHandlerFactory.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ConversationHelper.java",
+      4
+   ],
+   [
+      "rgreig",
+      "InvitingTestDecorator.java",
+      1
+   ],
+   [
+      "astitcher",
+      "BrokerChannel.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "PT-Qpid-14.sh",
+      1
+   ],
+   [
+      "aconway",
+      "DeliveryRecord.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "ChannelCloseTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpOrdinalFieldMap.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQMethodEvent.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "DotnetGenerator.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "FailoverHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ConnectorConfiguration.java",
+      1
+   ],
+   [
+      "aconway",
+      "MethodBodyClass.tmpl",
+      2
+   ],
+   [
+      "aconway",
+      "BrokerMessage.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "PrincipalDatabase.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "TransactionalContext.java",
+      1
+   ],
+   [
+      "aconway",
+      "IncomingMessage.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "PlainSaslServerFactory.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQNoMethodHandlerException.java",
+      2
+   ],
+   [
+      "rgreig",
+      "ByteBuffer.cs",
+      1
+   ],
+   [
+      "aconway",
+      "APRSocket.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "ConcurrentLinkedMessageQueueAtomicSize.java",
+      3
+   ],
+   [
+      "ritchiem",
+      "StateWaiter.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ClientProperties.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "Utils.java",
       1
    ],
    [
@@ -2651,43 +1431,103 @@
    ],
    [
       "ritchiem",
-      "SubscriptionTestHelper.java",
-      1
+      "ObjectMessageTest.java",
+      2
    ],
    [
-      "rgodfrey",
-      "BlockingHandler.java",
+      "aconway",
+      "AMQFrame.h",
       1
    ],
    [
       "ritchiem",
-      "PrincipalDatabaseAccessManager.java",
+      "BasicRecoverMethodHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "HeadersExchangeTest.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "VersionSpecificRegistry.java",
+      1
+   ],
+   [
+      "rgreig",
+      "AMQProtocolListener.cs",
+      1
+   ],
+   [
+      "gsim",
+      "RecoveryManager.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "TestApplicationRegistry.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "PropertiesPrincipalDatabaseManager.java",
+      1
+   ],
+   [
+      "rgreig",
+      "Main.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "ServiceCreator.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpField.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "ConnectionSecureOkMethodHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ChannelFlowOkMethodHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpClass.java",
+      1
+   ],
+   [
+      "rgreig",
+      "TopicListener.csproj",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MethodHandlerRegistry.java",
+      1
+   ],
+   [
+      "aconway",
+      "BrokerChannelTest.cpp",
+      1
+   ],
+   [
+      "bhupendrab",
+      "AMQQueue.java",
+      6
+   ],
+   [
+      "bhupendrab",
+      "PingClient.java",
       3
-   ],
-   [
-      "ritchiem",
-      "ChannelFlowTest.java",
-      1
-   ],
-   [
-      "rgreig",
-      "EncodingUtils.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ITransportConnection.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "PlainSaslServerFactory.java",
-      1
-   ],
-   [
-      "rgreig",
-      "QpidBytesMessage.cs",
-      1
    ],
    [
       "rgodfrey",
@@ -2695,24 +1535,364 @@
       2
    ],
    [
-      "rgodfrey",
-      "ConnectionOpenMethodHandler.java",
+      "aconway",
+      "LazyLoadedContent.cpp",
       1
    ],
    [
-      "aconway",
-      "AccumulatedAck.h",
-      2
+      "rgodfrey",
+      "BasicContentHeaderProperties.java",
+      1
    ],
    [
-      "rgodfrey",
-      "QueueBindHandler.java",
+      "ritchiem",
+      "ChannelCloseOkMethodHandler.java",
       1
    ],
    [
       "gsim",
-      "AMQRequestBody.h",
+      "AMQStateManager.java",
       1
+   ],
+   [
+      "rgodfrey",
+      "PropertyExpression.java",
+      1
+   ],
+   [
+      "rgreig",
+      "RequiredDeliveryException.java",
+      1
+   ],
+   [
+      "aconway",
+      "BrokerChannel.cpp",
+      2
+   ],
+   [
+      "rgodfrey",
+      "UnacknowledgedMessageMapImpl.java",
+      1
+   ],
+   [
+      "rhs",
+      "peer.rb",
+      1
+   ],
+   [
+      "aconway",
+      "AMQFrame.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "CommandLineParserTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "TextMessageTest.java",
+      1
+   ],
+   [
+      "rgreig",
+      "AssemblyInfo.cs",
+      3
+   ],
+   [
+      "ritchiem",
+      "AuthenticationManager.java",
+      1
+   ],
+   [
+      "aconway",
+      "topic_listener.cpp",
+      2
+   ],
+   [
+      "rgodfrey",
+      "AMQBody.java",
+      1
+   ],
+   [
+      "rgreig",
+      "AMQMessageFactory.cs",
+      1
+   ],
+   [
+      "aconway",
+      "spec.py",
+      5
+   ],
+   [
+      "rgodfrey",
+      "AmqpConstantsClass.vm",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpDomain.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQProtocolSessionTest.java",
+      1
+   ],
+   [
+      "aconway",
+      ".vg-supp",
+      1
+   ],
+   [
+      "aconway",
+      "ClientExchange.h",
+      1
+   ],
+   [
+      "aconway",
+      "QueueTest.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "CloseBeforeAckTest.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "Constants.java",
+      3
+   ],
+   [
+      "rgodfrey",
+      "AMQQueueMBean.java",
+      1
+   ],
+   [
+      "gsim",
+      "RequestToken.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicMessageConsumer.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "ClusteredQueue.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQConnection.java",
+      1
+   ],
+   [
+      "gsim",
+      "Broker.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "NonTransactionalContext.java",
+      2
+   ],
+   [
+      "ritchiem",
+      "BasicConsumeMethodHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "LazyLoadedContent.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ChannelCloseOkMethodHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "AbstractHeadersExchangeTestBase.java",
+      1
+   ],
+   [
+      "aconway",
+      "InProcessBroker.h",
+      1
+   ],
+   [
+      "bhupendrab",
+      "TestMinaProtocolSession.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "TestReplayManager.java",
+      1
+   ],
+   [
+      "aconway",
+      "HeaderProperties.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "VirtualHost.java",
+      1
+   ],
+   [
+      "aconway",
+      "example.py",
+      3
+   ],
+   [
+      "aconway",
+      "MessageHandlerImpl.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "UnacknowledgedMessageMapImpl.java",
+      2
+   ],
+   [
+      "ritchiem",
+      "DeliveryManagerTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "AMQQueueAlertTest.java",
+      1
+   ],
+   [
+      "aconway",
+      "APRSocket.cpp",
+      1
+   ],
+   [
+      "aconway",
+      "AutoDelete.cpp",
+      1
+   ],
+   [
+      "aconway",
+      "BasicHeaderProperties.h",
+      2
+   ],
+   [
+      "aconway",
+      "exchange.py",
+      2
+   ],
+   [
+      "bhupendrab",
+      "OperationTabControl.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ExchangeDeleteHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpMethod.java",
+      1
+   ],
+   [
+      "rgreig",
+      "AMQMethodBody.cs",
+      1
+   ],
+   [
+      "bhupendrab",
+      "MockProtocolSession.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQProtocolHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicContentHeaderPropertiesTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "QueueDeclareHandler.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "NotificationsTabControl.java",
+      1
+   ],
+   [
+      "rgreig",
+      "AMQTypedValue.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQMethodFactory_8_0.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "LatencyTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MethodRecorder.java",
+      1
+   ],
+   [
+      "aconway",
+      "queue.py",
+      2
+   ],
+   [
+      "bhupendrab",
+      "AMQBrokerManagerMBean.java",
+      3
+   ],
+   [
+      "rgreig",
+      "AMQConnection.cs",
+      1
+   ],
+   [
+      "bhupendrab",
+      "VirtualHostConfiguration.java",
+      1
+   ],
+   [
+      "rgreig",
+      "DemuxingProtocolCodecFactory.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ProtocolOutputConverter.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "VMTestCase.java",
+      2
+   ],
+   [
+      "aconway",
+      "Connection.h",
+      4
    ],
    [
       "ritchiem",
@@ -2725,38 +1905,88 @@
       1
    ],
    [
-      "rgodfrey",
-      "AmqpMethod.java",
-      1
-   ],
-   [
       "rgreig",
-      "ConsumerProducerQueue.cs",
+      "TestSyncConsumer.cs",
       1
    ],
    [
       "ritchiem",
-      "AMQChannel.java",
+      "AMQProtocolSession.java",
       3
-   ],
-   [
-      "aconway",
-      "configure.ac",
-      3
-   ],
-   [
-      "aconway",
-      "README.rhel3",
-      1
    ],
    [
       "rgodfrey",
-      "AMQMethodFactory.java",
+      "BasicRecoverMethodHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "AMQHeaderBody.cpp",
       1
    ],
    [
       "rgreig",
-      "AbstractQmsMessage.cs",
+      "CommandLineParser.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQChannel.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "ChannelCloseHandler.java",
+      2
+   ],
+   [
+      "rgreig",
+      "ContentHeaderBody.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "TxRollbackHandler.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "ChannelCloseTest.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "ConcurrentSelectorDeliveryManager.java",
+      5
+   ],
+   [
+      "aconway",
+      "InMemoryContent.h",
+      1
+   ],
+   [
+      "rgreig",
+      "topic_listener.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "SpecificMethodFrameListener.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "JavaGenerator.java",
+      1
+   ],
+   [
+      "gsim",
+      "Broker.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "DenyAll.java",
       1
    ],
    [
@@ -2765,123 +1995,108 @@
       1
    ],
    [
-      "rgreig",
-      "PT-Qpid-13.sh",
-      1
+      "bhupendrab",
+      "PingPongProducer.java",
+      6
    ],
    [
-      "ritchiem",
-      "Subscription.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQProtocolSessionMBean.java",
+      "astitcher",
+      "BrokerMessageMessage.cpp",
       2
    ],
    [
-      "rgodfrey",
-      "ExchangeDeclareHandler.java",
+      "rgreig",
+      "SlicedByteBuffer.cs",
       1
    ],
    [
       "bhupendrab",
-      "AMQChannel.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AmqpTypeMappingException.java",
-      1
-   ],
-   [
-      "rhs",
-      "test.rb",
-      1
-   ],
-   [
-      "bhupendrab",
-      "Constants.java",
-      3
-   ],
-   [
-      "rgodfrey",
-      "BasicMessageConsumer.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "ConcurrencyTest.java",
-      1
-   ],
-   [
-      "aconway",
-      "AMQResponseBody.h",
-      1
-   ],
-   [
-      "aconway",
-      "BrokerAdapter.cpp",
-      1
-   ],
-   [
-      "rgreig",
-      "PingTestPerf.java",
+      "TestIoSession.java",
       2
    ],
    [
-      "ritchiem",
-      "PropertiesPrincipalDatabaseManager.java",
-      1
-   ],
-   [
       "aconway",
-      "AMQP_MethodVersionMap.h.tmpl",
-      1
-   ],
-   [
-      "rgreig",
-      "SimpleByteBufferTests.cs",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AMQMessage.java",
-      2
-   ],
-   [
-      "bhupendrab",
-      "MockProtocolSession.java",
-      1
-   ],
-   [
-      "aconway",
-      "ClientChannel.cpp",
+      "configure.ac",
       3
    ],
    [
       "ritchiem",
-      "MessageRequeueTest.java",
-      4
-   ],
-   [
-      "bhupendrab",
-      "qpidmc.sh",
+      "AccessManager.java",
       2
    ],
    [
+      "rgodfrey",
+      "HeartbeatBody.java",
+      1
+   ],
+   [
+      "rgreig",
+      "AmqChannel.cs",
+      2
+   ],
+   [
+      "rgodfrey",
+      "AmqpConstant.java",
+      1
+   ],
+   [
+      "gsim",
+      "AMQRequestBody.h",
+      1
+   ],
+   [
+      "astitcher",
+      "BrokerMessageMessage.h",
+      1
+   ],
+   [
+      "rgreig",
+      "ReadOnlyContext.java",
+      1
+   ],
+   [
       "ritchiem",
-      "IApplicationRegistry.java",
+      "BytesMessageTest.java",
+      1
+   ],
+   [
+      "kpvdr",
+      "MethodBodyClass.tmpl",
       1
    ],
    [
       "aconway",
-      "FieldTable.cpp",
+      "ProtocolInitiation.h",
       1
    ],
    [
       "rgodfrey",
-      "QueueDeleteHandler.java",
+      "qpid-server-bdb.bat",
+      1
+   ],
+   [
+      "aconway",
+      "client.py",
+      5
+   ],
+   [
+      "rgodfrey",
+      "ConnectionSecureOkMethodHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "QpidBytesMessage.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ProtocolVersionListClass.vm",
+      1
+   ],
+   [
+      "marnie",
+      "ThresholdAlertingTest.java",
       1
    ],
    [
@@ -2890,48 +2105,103 @@
       1
    ],
    [
-      "aconway",
-      "qpidc.spec",
-      2
-   ],
-   [
       "ritchiem",
-      "QueueBrowserTest.java",
-      1
-   ],
-   [
-      "aconway",
-      "LazyLoadedContent.h",
-      1
-   ],
-   [
-      "rhs",
-      "connection.rb",
-      1
-   ],
-   [
-      "ritchiem",
-      "AMQConstant.java",
-      2
-   ],
-   [
-      "rgodfrey",
-      "AMQChannelException.java",
+      "FieldTableMessageTest.java",
       1
    ],
    [
       "rgodfrey",
-      "ConsumerCounts.java",
+      "AmqpTypeMappingException.java",
       1
    ],
    [
       "aconway",
-      "queue.py",
-      2
+      "Buffer.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "FieldTable.cs",
+      1
    ],
    [
       "ritchiem",
-      "MessageListenerMultiConsumerTest.java",
+      "AllowAll.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "UnprocessedMessage.java",
+      1
+   ],
+   [
+      "rgreig",
+      "TestAMQType.cs",
+      1
+   ],
+   [
+      "aconway",
+      "MessageStoreModule.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "Main.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "ConnectionTuneMethodHandler.java",
+      2
+   ],
+   [
+      "aconway",
+      "AMQHeaderBody.h",
+      1
+   ],
+   [
+      "rgreig",
+      "Coordinator.java",
+      3
+   ],
+   [
+      "rgreig",
+      "SlicedByteBufferTests.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "ConnectionTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "AMQPFastProtocolHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ReflectionUtilsException.java",
+      1
+   ],
+   [
+      "aconway",
+      "AMQMethodBody.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "FieldTableTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQBodyImpl.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpTemplateException.java",
       1
    ],
    [
@@ -2941,48 +2211,58 @@
    ],
    [
       "rgodfrey",
-      "AmqpDomain.java",
+      "LanguageConverter.java",
       1
    ],
    [
       "aconway",
-      "MessageHandlerImpl.h",
+      "HeaderTest.cpp",
       1
    ],
    [
-      "rgreig",
-      "ConnectorConfiguration.java",
+      "rgodfrey",
+      "AmqpFlagMap.java",
       1
    ],
    [
       "ritchiem",
-      "TransactedTest.java",
+      "AMQQueueBrowser.java",
+      1
+   ],
+   [
+      "aconway",
+      "ClientMessage.h",
+      2
+   ],
+   [
+      "ritchiem",
+      "ConcurrentSelectorDeliveryManager.java",
+      4
+   ],
+   [
+      "rgreig",
+      "Qpid.Buffer.Tests.csproj",
+      1
+   ],
+   [
+      "rgodfrey",
+      "WrappingMethodHandlerFactory.java",
+      1
+   ],
+   [
+      "aconway",
+      "Basic.cpp",
       2
    ],
    [
       "aconway",
-      "BrokerQueue.h",
-      1
-   ],
-   [
-      "ritchiem",
-      "Accessable.java",
-      1
-   ],
-   [
-      "rhs",
-      "codec.rb",
+      "TxPublishTest.cpp",
       1
    ],
    [
       "aconway",
-      "Content.h",
+      "QueueRegistry.h",
       1
-   ],
-   [
-      "ritchiem",
-      "SubscriptionImpl.java",
-      3
    ],
    [
       "aconway",
@@ -2990,83 +2270,118 @@
       1
    ],
    [
+      "bhupendrab",
+      "PingTestPerf.java",
+      3
+   ],
+   [
       "rgodfrey",
-      "AmqpConstant.java",
+      "MainRegistry.java",
       1
    ],
    [
-      "ritchiem",
-      "PrincipalDatabaseAuthenticationManager.java",
-      4
-   ],
-   [
-      "ritchiem",
-      "AMQMinaProtocolSession.java",
+      "rgodfrey",
+      "ConnectionSecureMethodHandler.java",
       2
    ],
    [
-      "aconway",
-      "InMemoryContentTest.cpp",
+      "ritchiem",
+      "FlowControllingBlockingQueue.java",
+      2
+   ],
+   [
+      "ritchiem",
+      "AMQQueueMBeanTest.java",
       1
    ],
    [
-      "rgreig",
-      "TopicPublisher.csproj",
+      "gsim",
+      "ConcurrentSelectorDeliveryManager.java",
       1
    ],
    [
       "ritchiem",
+      "ConnectionCloseMethodHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ChannelOpenHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "BasicMessageChannel.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "UsernamePasswordInitialiser.java",
+      1
+   ],
+   [
+      "gsim",
+      "AMQChannel.java",
+      1
+   ],
+   [
+      "rgreig",
+      "client-java14.iml",
+      1
+   ],
+   [
+      "aconway",
+      "QueuePolicy.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "AMQStateManager.java",
+      3
+   ],
+   [
+      "rgodfrey",
+      "ConnectionOpenOkMethodHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "BasicRejectMethodHandler.java",
+      3
+   ],
+   [
+      "rgodfrey",
+      "AMQProtocolSessionMBean.java",
+      2
+   ],
+   [
+      "rgreig",
+      "TestCase2BasicP2P.java",
+      1
+   ],
+   [
+      "aconway",
+      "MessageBuilder.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "Generator.java",
+      1
+   ],
+   [
+      "rgreig",
       "AMQMessage.java",
-      3
-   ],
-   [
-      "rgodfrey",
-      "GroupResponseHandler.java",
-      1
-   ],
-   [
-      "ritchiem",
-      "ServiceCreator.java",
       1
    ],
    [
       "rgodfrey",
-      "HeartbeatBodyFactory.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "BasicAckMethodHandler.java",
+      "ProtocolOutputConverterRegistry.java",
       1
    ],
    [
       "rgreig",
-      "TestCase1DummyRun.java",
-      3
-   ],
-   [
-      "rgodfrey",
-      "MethodRegistryClass.tmpl",
-      1
-   ],
-   [
-      "rgodfrey",
-      "ConnectionRedirectMethodHandler.java",
-      1
-   ],
-   [
-      "aconway",
-      "codec.py",
-      3
-   ],
-   [
-      "aconway",
-      "ProducerConsumerTest.cpp",
-      1
-   ],
-   [
-      "rgreig",
-      "SimpleByteBufferAllocator.cs",
+      "PropertyExpression.java",
       1
    ],
    [
@@ -3075,13 +2390,98 @@
       2
    ],
    [
-      "rgreig",
-      "AMQMethodBody.cs",
+      "ritchiem",
+      "MessageRequeueTest.java",
+      4
+   ],
+   [
+      "aconway",
+      "FramingContent.h",
+      2
+   ],
+   [
+      "ritchiem",
+      "AMQTimeoutException.java",
       1
    ],
    [
       "ritchiem",
-      "BasicCancelOkMethodHandler.java",
+      "ReturnUnroutableMandatoryMessageTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "PlainSaslServer.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "PropertyValueTest.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "ConsumerCounts.java",
+      1
+   ],
+   [
+      "gsim",
+      ".vg-supp",
+      1
+   ],
+   [
+      "ritchiem",
+      "TxnBuffer.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "UnacknowledgedMessage.java",
+      2
+   ],
+   [
+      "ritchiem",
+      "QueueDeleteHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQProtocolHandlerImpl.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ContentHeaderBodyFactory.java",
+      1
+   ],
+   [
+      "rgreig",
+      "Publisher.java",
+      2
+   ],
+   [
+      "bhupendrab",
+      "JMXServerRegistry.java",
+      2
+   ],
+   [
+      "rgreig",
+      "PingTestPerf.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "QueueBindHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "ContentBody.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MessagePublishInfoConverter.java",
       1
    ],
    [
@@ -3091,7 +2491,282 @@
    ],
    [
       "rgodfrey",
+      "AmqpOrdinalVersionMap.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ExchangeBoundOkMethodHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "DefaultGroupManager.java",
+      1
+   ],
+   [
+      "aconway",
+      "AccumulatedAck.h",
+      2
+   ],
+   [
+      "rgodfrey",
+      "BasicCancelOkMethodHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MethodHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "MD5PasswordFilePrincipalDatabase.java",
+      3
+   ],
+   [
+      "rgreig",
+      "Listener.java",
+      3
+   ],
+   [
+      "gsim",
+      "BrokerMessageBase.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "MessageListenerTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQMethodBodyImpl.java",
+      1
+   ],
+   [
+      "aconway",
+      "SessionHandlerImpl.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "ResetMessageListenerTest.java",
+      3
+   ],
+   [
+      "rhs",
+      "test.rb",
+      1
+   ],
+   [
+      "gsim",
+      "DeliveryManager.java",
+      1
+   ],
+   [
+      "aconway",
+      "BrokerMessage.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "PoolingFilter.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "TransactedTest.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "ConnectionRedirectMethodHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ExchangeDeclareHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "FieldTable.h",
+      1
+   ],
+   [
+      "rgreig",
+      "InteropClientTestCase.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ProtocolOutputHandler.java",
+      1
+   ],
+   [
+      "bhupendrab",
       "QueueDeclareHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ExchangeBoundHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "AMQResponseBody.h",
+      1
+   ],
+   [
+      "aconway",
+      "AccumulatedAckTest.cpp",
+      2
+   ],
+   [
+      "aconway",
+      "AMQP_ClientProxy.h.tmpl",
+      1
+   ],
+   [
+      "bhupendrab",
+      "ManagedConnection.java",
+      2
+   ],
+   [
+      "rgreig",
+      "SimpleByteBufferAllocator.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "AccessResult.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "MockProtocolSession.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "Subscription.java",
+      1
+   ],
+   [
+      "aconway",
+      "TxAckTest.cpp",
+      1
+   ],
+   [
+      "bhupendrab",
+      "ExchangeMBeanTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "TxSelectHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "QueueDeleteHandler.java",
+      1
+   ],
+   [
+      "rgreig",
+      "BasicMessageConsumer.cs",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ITransportConnection.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "SelectorTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "FailoverHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "AmqPlainSaslServer.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQMethodFactory.java",
+      1
+   ],
+   [
+      "rgreig",
+      "TopicPublisher.cs",
+      1
+   ],
+   [
+      "aconway",
+      "MethodBodyClass.h.tmpl",
+      1
+   ],
+   [
+      "aconway",
+      "AMQContentBody.h",
+      1
+   ],
+   [
+      "ritchiem",
+      "MessageListenerMultiConsumerTest.java",
+      1
+   ],
+   [
+      "aconway",
+      "ProtocolVersion.h",
+      1
+   ],
+   [
+      "rgreig",
+      "Program.cs",
+      2
+   ],
+   [
+      "aconway",
+      "MessageHandlerImpl.h",
+      1
+   ],
+   [
+      "rgreig",
+      "client_test.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpConstantSet.java",
+      1
+   ],
+   [
+      "gsim",
+      "BrokerMessageMessage.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MethodRegistryClass.vm",
+      1
+   ],
+   [
+      "rgreig",
+      "PropertyValueTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQDecoder.java",
       1
    ],
    [
@@ -3101,7 +2776,187 @@
    ],
    [
       "rgodfrey",
-      "ResponseHandler.java",
+      "AMQStateManager.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "MethodRegistryClass.tmpl",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicConsumeMethodHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "QueueRegistry.cpp",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ClusterMethodHandlerFactory.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ProtocolOutputHandler_8_0.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "ConnectionOpenMethodHandler.java",
+      2
+   ],
+   [
+      "rgreig",
+      "HeartbeatBody.cs",
+      1
+   ],
+   [
+      "aconway",
+      "BrokerAdapter.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ClientHandlerRegistry.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "qpid.stopall",
+      1
+   ],
+   [
+      "aconway",
+      "NullMessageStore.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AmqpDomainMap.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQUnexpectedFrameTypeException.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQMethodBody.java",
+      2
+   ],
+   [
+      "rgreig",
+      "HeapByteBuffer.cs",
+      1
+   ],
+   [
+      "aconway",
+      "topic_publisher.cpp",
+      2
+   ],
+   [
+      "ritchiem",
+      "RecoverTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "UsernamePrincipal.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "SimpleBodySendable.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "SocketTransportConnection.java",
+      1
+   ],
+   [
+      "aconway",
+      "client_test.cpp",
+      2
+   ],
+   [
+      "rhs",
+      "basic.rb",
+      1
+   ],
+   [
+      "rgodfrey",
+      "AMQMessage.java",
+      2
+   ],
+   [
+      "rgodfrey",
+      "CppGenerator.java",
+      1
+   ],
+   [
+      "aconway",
+      "InMemoryContent.cpp",
+      1
+   ],
+   [
+      "rgreig",
+      "FixedByteBuffer.cs",
+      1
+   ],
+   [
+      "ritchiem",
+      "ConcurrencyTest.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "CRAMMD5Initialiser.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "SubscriptionSet.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "Config.java",
+      1
+   ],
+   [
+      "aconway",
+      "AMQP_ClientOperations.h.tmpl",
+      2
+   ],
+   [
+      "rgodfrey",
+      "ProtocolOutputConverterImpl.java",
+      1
+   ],
+   [
+      "rgreig",
+      "Qpid.Client.Tests.csproj",
+      2
+   ],
+   [
+      "ritchiem",
+      "RemoteSubscriptionImpl.java",
+      1
+   ],
+   [
+      "aconway",
+      "Value.h",
+      2
+   ],
+   [
+      "rgodfrey",
+      "AmqpVersionSet.java",
       1
    ],
    [
@@ -3110,63 +2965,208 @@
       2
    ],
    [
-      "aconway",
-      "AMQHeaderBody.cpp",
+      "rgodfrey",
+      "AMQSession.java",
       1
    ],
    [
+      "ritchiem",
+      "PrincipalDatabaseAccessManager.java",
+      3
+   ],
+   [
       "rgreig",
-      "TestConsumerProducerQueue.cs",
+      "ConstantExpression.java",
       1
    ],
    [
       "rgodfrey",
-      "BasicMessageProducer.java",
+      "ConnectionCloseMethodHandler.java",
+      3
+   ],
+   [
+      "rgodfrey",
+      "AMQDataBlockDecoder.java",
       1
    ],
    [
       "aconway",
+      "NullMessageStore.cpp",
+      1
+   ],
+   [
+      "ritchiem",
+      "SessionStartTest.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "ServerRegistry.java",
+      2
+   ],
+   [
+      "aconway",
+      "ClientMessage.cpp",
+      3
+   ],
+   [
+      "rgodfrey",
+      "ProtocolOutputHandlerFactory.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "AbstractJMSMessage.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicDeliverMethodHandler.java",
+      1
+   ],
+   [
+      "aconway",
+      "delegate.py",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BasicQosHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MinaBrokerProxy.java",
+      2
+   ],
+   [
+      "ritchiem",
       "AMQMinaProtocolSession.java",
       2
    ],
    [
       "rgreig",
-      "PropertyValueTest.java",
+      "topic_publisher.cpp",
       1
    ],
    [
-      "rgodfrey",
-      "ConnectionTuneMethodHandler.java",
+      "rgreig",
+      "TxAck.java",
+      1
+   ],
+   [
+      "bhupendrab",
+      "Config.java",
       2
    ],
    [
-      "rgodfrey",
-      "AmqpMethodMap.java",
+      "aconway",
+      "reference.py",
       1
    ],
    [
+      "rgreig",
+      "TestClient.java",
+      4
+   ],
+   [
+      "bhupendrab",
+      "AMQProtocolSessionMBeanTest.java",
+      1
+   ],
+   [
+      "rgreig",
+      "AMQDataBlockEncoder.cs",
+      1
+   ],
+   [
+      "bhupendrab",
+      "AMQQueueMBeanTest.java",
+      3
+   ],
+   [
       "rgodfrey",
-      "BasicRejectMethodHandler.java",
+      "ProtocolVersionListClass.tmpl",
       1
    ],
    [
       "aconway",
-      "InProcessBroker.h",
+      "AMQDataBlock.h",
       1
    ],
    [
-      "rgodfrey",
-      "ReplicatingHandler.java",
-      1
-   ],
-   [
-      "rgodfrey",
-      "AmqpConstantSet.java",
+      "ritchiem",
+      "PropertiesPrincipalDatabase.java",
       1
    ],
    [
       "aconway",
-      "Basic.h",
+      "AMQP_HighestVersion.h.tmpl",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ReplayManager.java",
+      1
+   ],
+   [
+      "gsim",
+      "QueueUnbindHandler.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "CommitRollbackTest.java",
       2
+   ],
+   [
+      "aconway",
+      "MessageChannel.h",
+      1
+   ],
+   [
+      "rgodfrey",
+      "UnknnownMessageTypeException.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "MessageFactoryRegistry.java",
+      1
+   ],
+   [
+      "rgreig",
+      "Qpid.Buffer.csproj",
+      1
+   ],
+   [
+      "rgodfrey",
+      "NodeAware.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "BlockingHandler.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ProtocolVersionMethodConverter.java",
+      1
+   ],
+   [
+      "ritchiem",
+      "MultipleConnectionTest.java",
+      1
+   ],
+   [
+      "rgodfrey",
+      "ContentHeaderPropertiesFactory.java",
+      1
+   ],
+   [
+      "aconway",
+      "Broker.h",
+      1
    ]
 ]

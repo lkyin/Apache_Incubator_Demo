@@ -1,27 +1,107 @@
 [
    [
+      "Maxim Khutornenko",
+      "TaskTestUtil.java",
+      1
+   ],
+   [
+      "jfarrell",
+      "client.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "SchedulerThriftInterfaceTest.java",
+      5
+   ],
+   [
+      "dlester",
+      "Gemfile.lock",
+      1
+   ],
+   [
       "Bill Farner",
       "MesosLogTest.java",
       1
    ],
    [
-      "Suman Karumuri",
-      "quota_check.py",
-      2
-   ],
-   [
-      "Bill Farner",
-      "thrift_wrapper_codegen.py",
+      "Mark Chu-Carroll",
+      "test_hooks.py",
       1
    ],
    [
       "Maxim Khutornenko",
-      "mesos_maintenance.py",
+      "HistoryPruner.java",
       1
    ],
    [
       "Suman Karumuri",
-      "Tasks.java",
+      "QuotaInfo.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "IsolatedSchedulerModule.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "StateManagerImplTest.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "MemTaskStoreTest.java",
+      2
+   ],
+   [
+      "jfarrell",
+      "provision-mesos-slave.sh",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "updater_util.py",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "MesosSchedulerImplTest.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "Jobs.java",
+      2
+   ],
+   [
+      "Suman Karumuri",
+      "LogStorage.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "TaskStateMachine.java",
+      2
+   ],
+   [
+      "Suman Karumuri",
+      "ForwardingThrift.java",
+      2
+   ],
+   [
+      "Suman Karumuri",
+      "services.js",
+      4
+   ],
+   [
+      "Bill Farner",
+      "SchedulingFilterImplTest.java",
+      2
+   ],
+   [
+      "Bill Farner",
+      "SchedulerIT.java",
       1
    ],
    [
@@ -30,114 +110,9 @@
       1
    ],
    [
-      "Mark Chu-Carroll",
-      "test_quota.py",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_sla.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "taskStatus.html",
-      8
-   ],
-   [
-      "Suman Karumuri",
-      "quota.py",
-      1
-   ],
-   [
-      "Bill Farner",
-      "LogStorageTest.java",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "test_sla.py",
-      1
-   ],
-   [
       "jfarrell",
-      "provision-aurora-scheduler.sh",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "AsyncModule.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "options.py",
-      3
-   ],
-   [
-      "Suman Karumuri",
-      "SchedulerzRoleTest.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "SchedulerIT.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "config.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "sla.py",
-      4
-   ],
-   [
-      "Bill Farner",
-      "api.thrift",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "admin.py",
+      "build.gradle",
       2
-   ],
-   [
-      "Bill Farner",
-      "GuiceUtils.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_update.py",
-      1
-   ],
-   [
-      "Bill Farner",
-      "ForwardingStore.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "SchedulingFilterImplTest.java",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "IsolatedSchedulerModule.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "SchedulerIT.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "schedulerzrole.st",
-      1
    ],
    [
       "Maxim Khutornenko",
@@ -146,32 +121,22 @@
    ],
    [
       "Suman Karumuri",
-      "Jobs.java",
-      2
+      "StorageBackupTest.java",
+      1
    ],
    [
-      "Maxim Khutornenko",
-      "MesosSchedulerImpl.java",
+      "Suman Karumuri",
+      "SchedulerzJob.java",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "hooked_api.py",
       1
    ],
    [
       "Maxim Khutornenko",
-      "SchedulerCore.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "MesosSchedulerImplTest.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_diff.py",
-      2
-   ],
-   [
-      "jfarrell",
-      "build.gradle",
+      "SchedulerzJob.java",
       2
    ],
    [
@@ -181,132 +146,37 @@
    ],
    [
       "Suman Karumuri",
-      "Quotas.java",
-      2
-   ],
-   [
-      "Maxim Khutornenko",
-      "StateManagerImpl.java",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "services.js",
-      4
-   ],
-   [
-      "Maxim Khutornenko",
-      "schedulerzjob.st",
+      "ServerInfoInterceptor.java",
       1
    ],
    [
-      "Kevin Sweeney",
-      "provision-mesos-slave.sh",
+      "Mark Chu-Carroll",
+      "test_update.py",
       1
    ],
    [
-      "mansu",
-      "test_quota.py",
-      1
-   ],
-   [
-      "jfarrell",
-      "test_bridge.py",
-      1
-   ],
-   [
-      "jfarrell",
-      "provision-dev-environment.sh",
-      1
-   ],
-   [
-      "Brian Wickman",
-      "status_checker.py",
+      "Mark Chu-Carroll",
+      "util.py",
       1
    ],
    [
       "Suman Karumuri",
-      "job.html",
+      "SchedulerzRole.java",
       3
    ],
    [
-      "Bill Farner",
-      "ConstraintFilter.java",
+      "Suman Karumuri",
+      "quota.py",
       1
    ],
    [
-      "Suman Karumuri",
-      "directives.js",
-      8
-   ],
-   [
-      "jfarrell",
-      "client.py",
+      "Mark Chu-Carroll",
+      "test_diff.py",
       1
    ],
    [
       "Maxim Khutornenko",
-      "HistoryPruner.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "IsolatedSchedulerModule.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "JobsTest.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "AsyncStatsModule.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "MemQuotaStore.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "thrift_wrapper_codegen.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "TaskTestUtil.java",
-      1
-   ],
-   [
-      "jfarrell",
-      "provision-zookeeper.sh",
-      1
-   ],
-   [
-      "Bill Farner",
-      "Jobs.java",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "ThriftModule.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "AttributeFilter.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "error.html",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "QuotaCheckResultTest.java",
+      "StateManager.java",
       1
    ],
    [
@@ -316,52 +186,22 @@
    ],
    [
       "Suman Karumuri",
-      "ResourceCounter.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "SchedulerzRole.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "TaskStateMachine.java",
-      2
-   ],
-   [
-      "Mark Chu-Carroll",
-      "jobs.py",
-      4
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_listjobs.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_task_run.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "HistoryPrunerTest.java",
-      2
-   ],
-   [
-      "Bill Farner",
-      "TaskTimeout.java",
+      "AppModule.java",
       1
    ],
    [
       "Mark Chu-Carroll",
-      "scheduler_client.py",
+      "test_plugins.py",
       1
    ],
    [
-      "Suman Karumuri",
-      "SchedulerzJob.java",
+      "Mark Chu-Carroll",
+      "test_maintenance.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_run.py",
       1
    ],
    [
@@ -371,77 +211,17 @@
    ],
    [
       "Maxim Khutornenko",
-      "jobs.py",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_logging.py",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "provision-aurora-scheduler.sh",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "build.gradle",
-      3
-   ],
-   [
-      "Bill Farner",
-      "WriteAheadStorage.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "test_scheduler_client.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "APIVersionInterceptorTest.java",
+      "Maintenance.java",
       1
    ],
    [
       "Bill Farner",
-      "Log.java",
+      "ConstraintFilter.java",
       1
    ],
    [
       "Kevin Sweeney",
-      "http_signaler.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ForwardingThrift.java",
-      2
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_mesos_maintenance.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "test_quota.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "__init__.py",
-      1
-   ],
-   [
-      "dlester",
-      "Gemfile.lock",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_plugins.py",
+      "services.js",
       1
    ],
    [
@@ -450,563 +230,13 @@
       2
    ],
    [
-      "Kevin Sweeney",
-      "FakeDriverFactory.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "schedulingDetail.html",
-      4
-   ],
-   [
-      "Kevin Sweeney",
-      "services.js",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_restart.py",
-      3
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_thrift.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_sla.py",
-      3
-   ],
-   [
-      "Mark Chu-Carroll",
-      "context.py",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "taskLink.html",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_hooks.py",
-      1
-   ],
-   [
-      "Bill Farner",
-      "MesosLog.java",
-      2
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_maintenance.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "Slaves.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_cancel_update.py",
-      2
-   ],
-   [
-      "Kevin Sweeney",
-      "CrontabEntryTest.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "build.gradle",
-      3
-   ],
-   [
-      "Maxim Khutornenko",
-      "Jobs.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "StorageTestUtil.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ResourceAggregates.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_ssh.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_status.py",
-      2
-   ],
-   [
       "Maxim Khutornenko",
       "TasksTest.java",
       1
    ],
    [
-      "Mark Chu-Carroll",
-      "test_create.py",
-      2
-   ],
-   [
       "jfarrell",
-      "test_restart.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "LogStorageTest.java",
-      1
-   ],
-   [
-      "Brian Wickman",
-      "test_thermos_executor.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "schedulerzrole.st",
-      1
-   ],
-   [
-      "Bill Farner",
-      "RecoveryTest.java",
-      1
-   ],
-   [
-      "jfarrell",
-      "test_common.sh",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ThriftIT.java",
-      3
-   ],
-   [
-      "Bill Farner",
-      "TaskStore.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "AopModuleTest.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "QuotaCheckResult.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "StateManagerImplTest.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "FileLog.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "maintenance.py",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_maintenance.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "SlotSizeCounter.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "TaskTestUtil.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ServerInfoInterceptorTest.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "StructDump.java",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "AppModule.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "gc_executor.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "storage.thrift",
-      1
-   ],
-   [
-      "jfarrell",
-      "test_end_to_end.sh",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_updater.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "QuotaStore.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "HistoryPrunerTest.java",
-      1
-   ],
-   [
-      "jfarrell",
-      "FileLogTest.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "TasksTest.java",
-      1
-   ],
-   [
-      "dlester",
-      "config.rb",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "SlotSizeCounterTest.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "aurora_admin.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "taskSandbox.html",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "provision-mesos-master.sh",
-      1
-   ],
-   [
-      "Brian Wickman",
-      "kill_manager.py",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "provision-dev-environment.sh",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "sla.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "home.html",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "TaskStateMachineTest.java",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "LogStorage.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_admin_sla.py",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "scheduler-local.sh",
-      1
-   ],
-   [
-      "Bill Farner",
-      "AsyncModule.java",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "CrontabEntry.java",
-      1
-   ],
-   [
-      "Brian Wickman",
-      "aurora_executor.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "MemTaskStoreTest.java",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "QuotaManager.java",
-      1
-   ],
-   [
-      "dlester",
-      "index.html",
-      42
-   ],
-   [
-      "Maxim Khutornenko",
-      "host_maintenance.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ServerInfoInterceptor.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "role.html",
-      3
-   ],
-   [
-      "Suman Karumuri",
-      "SnapshotStoreImpl.java",
-      1
-   ],
-   [
-      "Kevin Sweeney",
-      "Driver.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "ConfigurationManagerTest.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "test_quota_check.py",
-      2
-   ],
-   [
-      "Maxim Khutornenko",
-      "MemTaskStore.java",
-      2
-   ],
-   [
-      "Bill Farner",
-      "TaskTimeoutTest.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "StateManager.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_end_to_end.sh",
-      1
-   ],
-   [
-      "Bill Farner",
-      "SchedulerLifecycle.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "updater.py",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "util.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "JobKeys.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "core.py",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_run.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_restart.py",
-      1
-   ],
-   [
-      "jfarrell",
-      "bridge.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "base.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "updater_util.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "SchedulerzJob.java",
-      2
-   ],
-   [
-      "jfarrell",
-      "provision-mesos-slave.sh",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "SnapshotStoreImplTest.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "SchedulerThriftInterfaceTest.java",
-      5
-   ],
-   [
-      "Bill Farner",
-      "verify_thrift_checksum.sh",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "core.py",
-      2
-   ],
-   [
-      "Mark Chu-Carroll",
-      "__init__.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ClusterName.java",
-      1
-   ],
-   [
-      "jfarrell",
-      "scheduler-local.sh",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "APIVersionInterceptor.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ForwardingStore.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "test_status.py",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "SchedulerzRole.java",
-      3
-   ],
-   [
-      "Maxim Khutornenko",
-      "thrift.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "test_end_to_end.sh",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "Resources.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "SchedulerLifecycleTest.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "LogManagerTest.java",
-      2
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_admin_sla.py",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "ServletModule.java",
-      6
-   ],
-   [
-      "Mark Chu-Carroll",
-      "core.py",
-      2
-   ],
-   [
-      "Suman Karumuri",
-      "StorageTestUtil.java",
-      1
-   ],
-   [
-      "Mark Chu-Carroll",
-      "task.py",
+      "test_update.py",
       1
    ],
    [
@@ -1016,92 +246,52 @@
    ],
    [
       "Maxim Khutornenko",
-      "Maintenance.java",
-      1
-   ],
-   [
-      "Bill Farner",
-      "LogManager.java",
-      1
-   ],
-   [
-      "Suman Karumuri",
-      "StorageBackupTest.java",
+      "SchedulerIT.java",
       1
    ],
    [
       "Mark Chu-Carroll",
-      "test_kill.py",
-      3
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_run.py",
-      1
-   ],
-   [
-      "jfarrell",
-      "gradle-wrapper.jar",
+      "test_create.py",
       2
    ],
    [
-      "Mark Chu-Carroll",
-      "sla.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "Tasks.java",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "test_host_maintenance.py",
-      1
-   ],
-   [
-      "Maxim Khutornenko",
-      "__init__.py",
-      1
+      "Suman Karumuri",
+      "directives.js",
+      8
    ],
    [
       "jfarrell",
-      "test_update.py",
+      "provision-aurora-scheduler.sh",
       1
    ],
    [
       "Suman Karumuri",
-      "index.html",
-      6
+      "test_sla.py",
+      1
    ],
    [
-      "mansu",
-      "test_updater.py",
+      "Maxim Khutornenko",
+      "schedulerzrole.st",
       1
    ],
    [
       "Mark Chu-Carroll",
-      "test_diff.py",
+      "test_sla.py",
       1
    ],
    [
       "Suman Karumuri",
-      "JobsTest.java",
-      2
-   ],
-   [
-      "jfarrell",
-      "provision-mesos-master.sh",
+      "ForwardingStore.java",
       1
    ],
    [
       "Bill Farner",
-      "SchedulerThriftInterface.java",
+      "AttributeFilter.java",
       1
    ],
    [
-      "Bill Farner",
-      "LogStorage.java",
+      "Mark Chu-Carroll",
+      "config.py",
       1
    ],
    [
@@ -1110,33 +300,93 @@
       5
    ],
    [
+      "Kevin Sweeney",
+      "http_signaler.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "MesosSchedulerImplTest.java",
+      1
+   ],
+   [
       "Suman Karumuri",
-      "app.css",
-      4
+      "ResourceCounter.java",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "sla.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "IsolatedSchedulerModule.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "APIVersionInterceptor.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "TaskTestUtil.java",
+      1
    ],
    [
       "Bill Farner",
-      "SchedulerzRole.java",
+      "TaskTimeoutTest.java",
       1
    ],
    [
-      "jfarrell",
-      "thrift.js",
+      "Maxim Khutornenko",
+      "mesos_maintenance.py",
       1
+   ],
+   [
+      "Suman Karumuri",
+      "ThriftIT.java",
+      3
    ],
    [
       "Mark Chu-Carroll",
-      "test_ssh.py",
-      1
-   ],
-   [
-      "dlester",
-      "main.css",
+      "core.py",
       2
    ],
    [
+      "jfarrell",
+      "test_restart.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "index.html",
+      6
+   ],
+   [
+      "Brian Wickman",
+      "status_checker.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "SchedulerLifecycle.java",
+      1
+   ],
+   [
       "Mark Chu-Carroll",
-      "hooked_api.py",
+      "test_cancel_update.py",
+      2
+   ],
+   [
+      "Bill Farner",
+      "FileLog.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "home.html",
       1
    ],
    [
@@ -1146,8 +396,38 @@
    ],
    [
       "Suman Karumuri",
-      "SchedulerThriftInterface.java",
-      5
+      "test_end_to_end.sh",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "taskLink.html",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "SchedulerzRoleTest.java",
+      1
+   ],
+   [
+      "dlester",
+      "main.css",
+      2
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_status.py",
+      2
+   ],
+   [
+      "dlester",
+      "index.html",
+      42
+   ],
+   [
+      "Suman Karumuri",
+      "SlotSizeCounterTest.java",
+      1
    ],
    [
       "Bill Farner",
@@ -1155,13 +435,208 @@
       1
    ],
    [
+      "Suman Karumuri",
+      "ServerInfoInterceptorTest.java",
+      1
+   ],
+   [
       "Kevin Sweeney",
-      "MesosSchedulerImplTest.java",
+      "ThriftModule.java",
       1
    ],
    [
       "Suman Karumuri",
-      "QuotaInfo.java",
+      "updater.py",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "CrontabEntryTest.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "quota_check.py",
+      2
+   ],
+   [
+      "Bill Farner",
+      "HistoryPrunerTest.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "AopModuleTest.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "aurora_admin.py",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "jobs.py",
+      4
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_quota.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "schedulerzrole.st",
+      1
+   ],
+   [
+      "Bill Farner",
+      "TaskTimeout.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_ssh.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "Tasks.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "build.gradle",
+      3
+   ],
+   [
+      "Bill Farner",
+      "SchedulerLifecycleTest.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "taskSandbox.html",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_status.py",
+      2
+   ],
+   [
+      "Brian Wickman",
+      "kill_manager.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "api.thrift",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "SnapshotStoreImpl.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "GuiceUtils.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "admin.py",
+      2
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_admin_sla.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "LogStorage.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "test_scheduler_client.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "schedulerzjob.st",
+      1
+   ],
+   [
+      "jfarrell",
+      "provision-mesos-master.sh",
+      1
+   ],
+   [
+      "Bill Farner",
+      "RecoveryTest.java",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_kill.py",
+      3
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_logging.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "job.html",
+      3
+   ],
+   [
+      "Suman Karumuri",
+      "ClusterName.java",
+      1
+   ],
+   [
+      "mansu",
+      "test_updater.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "storage.thrift",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "provision-dev-environment.sh",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_thrift.py",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "__init__.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_sla.py",
+      3
+   ],
+   [
+      "Suman Karumuri",
+      "__init__.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "APIVersionInterceptorTest.java",
       1
    ],
    [
@@ -1171,8 +646,183 @@
    ],
    [
       "Maxim Khutornenko",
-      "SchedulerCoreImpl.java",
+      "test_diff.py",
       2
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_task_run.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "Log.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "SchedulerThriftInterface.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "thrift.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "verify_thrift_checksum.sh",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "scheduler_client.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "core.py",
+      2
+   ],
+   [
+      "jfarrell",
+      "FileLogTest.java",
+      1
+   ],
+   [
+      "jfarrell",
+      "scheduler-local.sh",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "Jobs.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "sla.py",
+      4
+   ],
+   [
+      "Suman Karumuri",
+      "test_quota_check.py",
+      2
+   ],
+   [
+      "Maxim Khutornenko",
+      "HistoryPrunerTest.java",
+      2
+   ],
+   [
+      "Maxim Khutornenko",
+      "maintenance.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "Resources.java",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "Driver.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "Quotas.java",
+      2
+   ],
+   [
+      "Suman Karumuri",
+      "QuotaCheckResultTest.java",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_ssh.py",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "FakeDriverFactory.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_maintenance.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "test_quota.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "SchedulerThriftInterface.java",
+      5
+   ],
+   [
+      "Maxim Khutornenko",
+      "__init__.py",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_admin_sla.py",
+      1
+   ],
+   [
+      "jfarrell",
+      "test_bridge.py",
+      1
+   ],
+   [
+      "jfarrell",
+      "test_end_to_end.sh",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "JobsTest.java",
+      2
+   ],
+   [
+      "Suman Karumuri",
+      "error.html",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_mesos_maintenance.py",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_run.py",
+      1
+   ],
+   [
+      "mansu",
+      "test_quota.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "MesosLog.java",
+      2
+   ],
+   [
+      "Bill Farner",
+      "LogStorageTest.java",
+      2
+   ],
+   [
+      "Mark Chu-Carroll",
+      "task.py",
+      1
    ],
    [
       "Maxim Khutornenko",
@@ -1180,8 +830,358 @@
       4
    ],
    [
+      "Mark Chu-Carroll",
+      "test_listjobs.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "QuotaCheckResult.java",
+      1
+   ],
+   [
+      "jfarrell",
+      "provision-zookeeper.sh",
+      1
+   ],
+   [
+      "jfarrell",
+      "bridge.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "LogManager.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_host_maintenance.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "WriteAheadStorage.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "LogStorageTest.java",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "build.gradle",
+      3
+   ],
+   [
+      "Suman Karumuri",
+      "Tasks.java",
+      1
+   ],
+   [
+      "jfarrell",
+      "thrift.js",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "AsyncStatsModule.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "StorageTestUtil.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "Jobs.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "thrift_wrapper_codegen.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "TaskStateMachineTest.java",
+      2
+   ],
+   [
+      "Suman Karumuri",
+      "ResourceAggregates.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "LogManagerTest.java",
+      2
+   ],
+   [
+      "Maxim Khutornenko",
+      "MemTaskStore.java",
+      2
+   ],
+   [
+      "jfarrell",
+      "test_common.sh",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "StorageTestUtil.java",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "context.py",
+      2
+   ],
+   [
+      "Maxim Khutornenko",
+      "jobs.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "JobsTest.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "StateManagerImpl.java",
+      2
+   ],
+   [
+      "Maxim Khutornenko",
+      "SchedulerCore.java",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "CrontabEntry.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "SnapshotStoreImplTest.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "host_maintenance.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "core.py",
+      1
+   ],
+   [
+      "Bill Farner",
+      "StructDump.java",
+      2
+   ],
+   [
+      "Kevin Sweeney",
+      "scheduler-local.sh",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "provision-aurora-scheduler.sh",
+      1
+   ],
+   [
+      "Bill Farner",
+      "AsyncModule.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "taskStatus.html",
+      8
+   ],
+   [
+      "Kevin Sweeney",
+      "provision-mesos-master.sh",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "TasksTest.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "gc_executor.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "ServletModule.java",
+      6
+   ],
+   [
       "Suman Karumuri",
       "filters.js",
       2
+   ],
+   [
+      "Suman Karumuri",
+      "sla.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_updater.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "test_restart.py",
+      1
+   ],
+   [
+      "dlester",
+      "config.rb",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "Slaves.java",
+      1
+   ],
+   [
+      "Kevin Sweeney",
+      "provision-mesos-slave.sh",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "thrift_wrapper_codegen.py",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "QuotaManager.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "app.css",
+      4
+   ],
+   [
+      "Mark Chu-Carroll",
+      "options.py",
+      3
+   ],
+   [
+      "Maxim Khutornenko",
+      "base.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "JobKeys.java",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_restart.py",
+      3
+   ],
+   [
+      "Bill Farner",
+      "ForwardingStore.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "schedulingDetail.html",
+      4
+   ],
+   [
+      "Suman Karumuri",
+      "SlotSizeCounter.java",
+      1
+   ],
+   [
+      "Mark Chu-Carroll",
+      "test_end_to_end.sh",
+      1
+   ],
+   [
+      "Brian Wickman",
+      "aurora_executor.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "SchedulerzRole.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "role.html",
+      3
+   ],
+   [
+      "Maxim Khutornenko",
+      "ConfigurationManagerTest.java",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "MesosSchedulerImpl.java",
+      1
+   ],
+   [
+      "jfarrell",
+      "provision-dev-environment.sh",
+      1
+   ],
+   [
+      "jfarrell",
+      "gradle-wrapper.jar",
+      2
+   ],
+   [
+      "Maxim Khutornenko",
+      "SchedulerCoreImpl.java",
+      2
+   ],
+   [
+      "Brian Wickman",
+      "test_thermos_executor.py",
+      1
+   ],
+   [
+      "Maxim Khutornenko",
+      "AsyncModule.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "QuotaStore.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "TaskStore.java",
+      1
+   ],
+   [
+      "Suman Karumuri",
+      "MemQuotaStore.java",
+      1
+   ],
+   [
+      "Bill Farner",
+      "SchedulerzRole.java",
+      1
    ]
 ]

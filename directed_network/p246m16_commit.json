@@ -1,7 +1,12 @@
 [
    [
       "asavu",
-      "configure_cdh_hbase.sh",
+      "configure_hbase.sh",
+      1
+   ],
+   [
+      "asavu",
+      "install_voldemort.sh",
       1
    ],
    [
@@ -11,32 +16,17 @@
    ],
    [
       "asavu",
-      "ComputeCache.java",
-      19
-   ],
-   [
-      "asavu",
-      "BlobCacheTest.java",
-      2
-   ],
-   [
-      "asavu",
-      "HBaseMasterClusterActionHandler.java",
+      "configure_cdh_hbase.sh",
       1
    ],
    [
       "asavu",
-      "BlobCache.java",
-      1
+      "TemplateBuilderStrategy.java",
+      16
    ],
    [
       "asavu",
-      "ClusterActionHandlerSupport.java",
-      1
-   ],
-   [
-      "asavu",
-      "install_voldemort.sh",
+      "HBaseRegionServerClusterActionHandler.java",
       1
    ],
    [
@@ -51,22 +41,32 @@
    ],
    [
       "asavu",
-      "configure_hbase.sh",
-      1
-   ],
-   [
-      "asavu",
-      "TemplateBuilderStrategy.java",
-      16
-   ],
-   [
-      "asavu",
       "HBaseConfigurationBuilder.java",
       1
    ],
    [
       "asavu",
-      "HBaseRegionServerClusterActionHandler.java",
+      "BlobCacheTest.java",
+      2
+   ],
+   [
+      "asavu",
+      "ClusterActionHandlerSupport.java",
+      1
+   ],
+   [
+      "asavu",
+      "ComputeCache.java",
+      19
+   ],
+   [
+      "asavu",
+      "HBaseMasterClusterActionHandler.java",
+      1
+   ],
+   [
+      "asavu",
+      "BlobCache.java",
       1
    ]
 ]

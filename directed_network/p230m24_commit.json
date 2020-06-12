@@ -1,18 +1,18 @@
 [
    [
       "bryanduxbury",
-      "TestTFramedTransport.java",
-      2
-   ],
-   [
-      "bryanduxbury",
-      "ReadStruct.java",
+      "TMemoryInputTransport.java",
       1
    ],
    [
       "bryanduxbury",
-      "t_java_generator.cc",
-      6
+      "JavaBeansTest.thrift",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "ReadCountingTransport.java",
+      2
    ],
    [
       "bryanduxbury",
@@ -21,57 +21,12 @@
    ],
    [
       "bryanduxbury",
-      "TestTDeserializer.java",
+      "TestTBinaryProtocol.java",
       2
    ],
    [
       "bryanduxbury",
-      "PartialDeserializeTest.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TFramedTransport.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TestHsHaServer.java",
-      2
-   ],
-   [
-      "bryanduxbury",
-      "Fixtures.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TServiceClientFactory.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TestStruct.java",
-      4
-   ],
-   [
-      "bryanduxbury",
-      "ShortStack.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "THsHaServer.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TProtocol.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "WriteCountingTransport.java",
+      "TestNonblockingServer.java",
       2
    ],
    [
@@ -81,17 +36,137 @@
    ],
    [
       "bryanduxbury",
-      "WriteStruct.java",
+      "ShortStack.java",
       1
    ],
    [
       "bryanduxbury",
-      "TestTCompactProtocol.java",
-      3
+      "TNonblockingServer.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "PartialDeserializeTest.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "TServiceClient.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "WriteCountingTransport.java",
+      2
+   ],
+   [
+      "bryanduxbury",
+      "TFramedTransport.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "TServiceClientFactory.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "Fixtures.java",
+      1
+   ],
+   [
+      "dreiss",
+      "Makefile.am",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "TestShortStack.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "ReadStruct.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "TestTDeserializer.java",
+      2
+   ],
+   [
+      "bryanduxbury",
+      "TProtocol.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "DeepCopyTest.java",
+      2
+   ],
+   [
+      "bryanduxbury",
+      "ProtocolTestBase.java",
+      5
+   ],
+   [
+      "bryanduxbury",
+      "TestTFramedTransport.java",
+      2
+   ],
+   [
+      "bryanduxbury",
+      "ServerTestBase.java",
+      2
+   ],
+   [
+      "bryanduxbury",
+      "TCompactProtocol.java",
+      4
    ],
    [
       "bryanduxbury",
       "TProtocolFactory.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "TestStruct.java",
+      4
+   ],
+   [
+      "bryanduxbury",
+      "TMessage.java",
+      2
+   ],
+   [
+      "bryanduxbury",
+      "TestHsHaServer.java",
+      2
+   ],
+   [
+      "bryanduxbury",
+      "THsHaServer.java",
+      1
+   ],
+   [
+      "dreiss",
+      "Mutex.cpp",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "CompareTest.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "IdentityTest.java",
+      1
+   ],
+   [
+      "bryanduxbury",
+      "TestTJSONProtocol.java",
       1
    ],
    [
@@ -106,37 +181,7 @@
    ],
    [
       "bryanduxbury",
-      "DeepCopyTest.java",
-      2
-   ],
-   [
-      "bryanduxbury",
-      "TMessage.java",
-      2
-   ],
-   [
-      "bryanduxbury",
-      "ProtocolTestBase.java",
-      5
-   ],
-   [
-      "bryanduxbury",
-      "TestNonblockingServer.java",
-      2
-   ],
-   [
-      "bryanduxbury",
-      "JavaBeansTest.thrift",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TServiceClient.java",
-      1
-   ],
-   [
-      "dreiss",
-      "Mutex.cpp",
+      "WriteStruct.java",
       1
    ],
    [
@@ -146,58 +191,13 @@
    ],
    [
       "bryanduxbury",
-      "TestTBinaryProtocol.java",
-      2
+      "TestTCompactProtocol.java",
+      3
    ],
    [
       "bryanduxbury",
-      "ReadCountingTransport.java",
-      2
-   ],
-   [
-      "bryanduxbury",
-      "IdentityTest.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TMemoryInputTransport.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "ServerTestBase.java",
-      2
-   ],
-   [
-      "bryanduxbury",
-      "TestTJSONProtocol.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "CompareTest.java",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TCompactProtocol.java",
-      4
-   ],
-   [
-      "bryanduxbury",
-      "TNonblockingServer.java",
-      1
-   ],
-   [
-      "dreiss",
-      "Makefile.am",
-      1
-   ],
-   [
-      "bryanduxbury",
-      "TestShortStack.java",
-      1
+      "t_java_generator.cc",
+      6
    ],
    [
       "bryanduxbury",

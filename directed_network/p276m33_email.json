@@ -1,14 +1,18 @@
 [
    {
-      "imports": [
-         "no-reply"
-      ],
-      "name": "Kevan Miller"
+      "name": "no-reply",
+      "imports": []
    },
    {
+      "name": "Kevan Miller",
+      "imports": [
+         "no-reply"
+      ]
+   },
+   {
+      "name": "David Wood",
       "imports": [
          "Kevan Miller"
-      ],
-      "name": "David Wood"
+      ]
    }
 ]

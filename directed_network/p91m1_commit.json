@@ -1,48 +1,108 @@
 [
    [
-      "Mark Struberg",
-      "TestProjectStages.java",
-      2
-   ],
-   [
       "gpetracek",
-      "EnvironmentPropertyConfigSource.java",
+      "DevDbBean.java",
       1
    ],
    [
       "gpetracek",
-      "DeltaSpikeConfig.java",
-      1
+      "MultiBean.java",
+      3
    ],
    [
       "gpetracek",
-      "ExpressionInterpreter.java",
-      1
-   ],
-   [
-      "Jason Porter",
-      "SeCategory.java",
-      2
-   ],
-   [
-      "Mark Struberg",
-      "ClassDeactivation.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "ClassDeactivator.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "BeanProvider.java",
+      "MBean01.java",
       3
    ],
    [
       "Mark Struberg",
-      "BeanManagerProvider.java",
+      "ShrinkWrapArchiveUtil.java",
+      3
+   ],
+   [
+      "gpetracek",
+      "PropertyExpressionInterpreterTest.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "BeanProvider.java",
       2
+   ],
+   [
+      "Mark Struberg",
+      "org.apache.deltaspike.core.api.projectstage.ProjectStageHolder",
+      1
+   ],
+   [
+      "gpetracek",
+      "OptionalService.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ShrinkWrapArchiveUtil.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "NoBean.java",
+      4
+   ],
+   [
+      "gpetracek",
+      "DevBean.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "AbstractClassDeactivator.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "org.apache.deltaspike.core.api.projectstage.ProjectStageHolder",
+      1
+   ],
+   [
+      "gpetracek",
+      "Deactivatable.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "ClassDeactivatorStorage.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ExcludeExtension.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "DefaultEchoService.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "EchoService.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ConfigSourceTest.java",
+      3
+   ],
+   [
+      "Jason Porter",
+      "EmptyTest.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "NoEchoService.java",
+      1
    ],
    [
       "gpetracek",
@@ -55,39 +115,14 @@
       1
    ],
    [
-      "Mark Struberg",
-      "ShrinkWrapArchiveUtil.java",
-      3
-   ],
-   [
       "gpetracek",
-      "Exclude.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "org.apache.deltaspike.core.api.projectstage.ProjectStageHolder",
+      "DefaultConfigSourceProvider.java",
       1
    ],
    [
       "gpetracek",
       "BeanManagerProviderTest.java",
       3
-   ],
-   [
-      "gpetracek",
-      "MBean01.java",
-      3
-   ],
-   [
-      "Jason Porter",
-      "TestBean.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "NoBean.java",
-      4
    ],
    [
       "Jason Porter",
@@ -96,103 +131,13 @@
    ],
    [
       "gpetracek",
-      "ProjectStageTest.java",
-      2
-   ],
-   [
-      "Mark Struberg",
-      "ConfigSourceProvider.java",
+      "DefaultClassDeactivator.java",
       1
    ],
    [
       "gpetracek",
-      "DevBean.java",
+      "ExpressionInterpreter.java",
       1
-   ],
-   [
-      "gpetracek",
-      "DefaultEchoService.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "ConfigResolver.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "ToLowerCaseEchoService.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "javax.enterprise.inject.spi.Extension",
-      1
-   ],
-   [
-      "gpetracek",
-      "ExcludeTest.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "StdBean.java",
-      1
-   ],
-   [
-      "Mark Struberg",
-      "org.apache.deltaspike.core.api.projectstage.ProjectStageHolder",
-      1
-   ],
-   [
-      "Mark Struberg",
-      "TestBean.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "NoEchoService.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "TestBean.java",
-      2
-   ],
-   [
-      "Mark Struberg",
-      "javax.enterprise.inject.spi.Extension",
-      2
-   ],
-   [
-      "gpetracek",
-      "ProdDbBean.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "DevDbBean.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "ConfigSourceTest.java",
-      3
-   ],
-   [
-      "gpetracek",
-      "EmptyTest.java",
-      1
-   ],
-   [
-      "Mark Struberg",
-      "ConfigSource.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "MultiBean.java",
-      3
    ],
    [
       "gpetracek",
@@ -200,9 +145,14 @@
       2
    ],
    [
-      "Jason Porter",
-      "WebProfileCategory.java",
-      2
+      "gpetracek",
+      "ToUpperCaseEchoService.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "EnvironmentPropertyConfigSource.java",
+      1
    ],
    [
       "Mark Struberg",
@@ -211,182 +161,32 @@
    ],
    [
       "gpetracek",
-      "Bean.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "JndiUtils.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "ExcludeTestProjectStageDevelopment.java",
-      1
-   ],
-   [
-      "Jason Porter",
-      "ShrinkWrapArchiveUtil.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "ProjectStageProducerTest.java",
-      3
-   ],
-   [
-      "gpetracek",
-      "ClassUtils.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "SystemPropertyConfigSource.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "PropertyExpressionInterpreter.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "ToUpperCaseEchoService.java",
-      1
-   ],
-   [
-      "Mark Struberg",
-      "BeanManagerProviderTest.java",
-      2
-   ],
-   [
-      "Jason Porter",
-      "BeanManagerProviderTest.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "AnyLiteral.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "DefaultClassDeactivator.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "MBean02.java",
-      3
-   ],
-   [
-      "gpetracek",
-      "SimpleBeanLookupExample.java",
-      3
-   ],
-   [
-      "gpetracek",
-      "LocalJndiConfigSource.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "ShrinkWrapArchiveUtil.java",
-      2
-   ],
-   [
-      "Jason Porter",
-      "EmptyTest.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "CdiContainer.java",
-      1
-   ],
-   [
-      "Mark Struberg",
-      "ClassUtils.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "DefaultConfigSourceProvider.java",
-      1
-   ],
-   [
-      "Mark Struberg",
-      "ProjectStageHolder.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "AbstractClassDeactivator.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "ProjectStageProducer.java",
-      2
-   ],
-   [
-      "Mark Struberg",
-      "ConfigResolver.java",
-      2
-   ],
-   [
-      "Mark Struberg",
-      "BeanProvider.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "Deactivatable.java",
-      2
-   ],
-   [
-      "gpetracek",
-      "ClassDeactivation.java",
-      3
-   ],
-   [
-      "gpetracek",
-      "PropertyExpressionInterpreterTest.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "SimpleOperationEnum.java",
-      1
-   ],
-   [
-      "Jason Porter",
-      "FullProfileCategory.java",
-      1
-   ],
-   [
-      "gpetracek",
-      "ClassDeactivatorStorage.java",
-      1
-   ],
-   [
-      "Mark Struberg",
-      "ProjectStageTest.java",
-      1
-   ],
-   [
-      "gpetracek",
       "AbstractPropertyExpressionInterpreter.java",
       1
    ],
    [
-      "gpetracek",
-      "ExcludeExtension.java",
+      "Jason Porter",
+      "TestBean.java",
       1
    ],
    [
-      "gpetracek",
-      "OptionalService.java",
+      "Jason Porter",
+      "SeCategory.java",
+      2
+   ],
+   [
+      "Mark Struberg",
+      "TestProjectStages.java",
+      2
+   ],
+   [
+      "Mark Struberg",
+      "ClassDeactivation.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "ConfigSourceProvider.java",
       1
    ],
    [
@@ -396,7 +196,207 @@
    ],
    [
       "gpetracek",
-      "EchoService.java",
+      "AnyLiteral.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "ClassDeactivation.java",
+      3
+   ],
+   [
+      "gpetracek",
+      "ClassUtils.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "BeanProvider.java",
+      3
+   ],
+   [
+      "gpetracek",
+      "ClassDeactivator.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ProdDbBean.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "ConfigResolver.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "TestBean.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "SimpleOperationEnum.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "Exclude.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "ConfigSource.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ToLowerCaseEchoService.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "StdBean.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "DeltaSpikeConfig.java",
+      1
+   ],
+   [
+      "Jason Porter",
+      "WebProfileCategory.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "EmptyTest.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ExcludeTestProjectStageDevelopment.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "ClassUtils.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "ConfigResolver.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "javax.enterprise.inject.spi.Extension",
+      1
+   ],
+   [
+      "gpetracek",
+      "PropertyExpressionInterpreter.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "Bean.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "SimpleBeanLookupExample.java",
+      3
+   ],
+   [
+      "Jason Porter",
+      "ShrinkWrapArchiveUtil.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "BeanManagerProviderTest.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "LocalJndiConfigSource.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ProjectStageProducer.java",
+      2
+   ],
+   [
+      "Jason Porter",
+      "BeanManagerProviderTest.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ProjectStageTest.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "JndiUtils.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ProjectStageProducerTest.java",
+      3
+   ],
+   [
+      "Mark Struberg",
+      "ProjectStageHolder.java",
+      2
+   ],
+   [
+      "gpetracek",
+      "CdiContainer.java",
+      1
+   ],
+   [
+      "Jason Porter",
+      "FullProfileCategory.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "ProjectStageTest.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "SystemPropertyConfigSource.java",
+      1
+   ],
+   [
+      "Mark Struberg",
+      "BeanManagerProvider.java",
+      2
+   ],
+   [
+      "Mark Struberg",
+      "javax.enterprise.inject.spi.Extension",
+      2
+   ],
+   [
+      "gpetracek",
+      "MBean02.java",
+      3
+   ],
+   [
+      "Mark Struberg",
+      "TestBean.java",
+      1
+   ],
+   [
+      "gpetracek",
+      "ExcludeTest.java",
       1
    ]
 ]

@@ -1,72 +1,32 @@
 [
    [
-      "Ming LI",
-      "tablecmds.c",
-      1
-   ],
-   [
-      "hzhang2",
-      "acl.h",
-      3
-   ],
-   [
       "xunzhang",
-      "dumputils.c",
+      "execHHashagg.h",
       1
    ],
    [
       "Paul Guo",
-      "copyfuncs.c",
+      "planner.c",
       1
    ],
    [
       "xunzhang",
-      "url.c",
-      1
-   ],
-   [
-      "Ming LI",
-      "copy.c",
-      1
-   ],
-   [
-      "Ming LI",
-      "errortbl.source",
+      "test_hawq_register_usage2_case2.cpp",
       2
    ],
    [
-      "ivan",
-      "cdbvars.c",
-      1
-   ],
-   [
-      "Wen Lin",
-      "rangerrest.c",
-      2
-   ],
-   [
-      "hzhang2",
-      "guc.c",
-      4
-   ],
-   [
-      "hzhang2",
-      "aclchk.c",
-      4
-   ],
-   [
-      "Oleksandr Diachenko",
-      "gpbridgeapi.c",
-      3
-   ],
-   [
-      "xunzhang",
-      "gpfdist.c",
+      "Paul Guo",
+      "be-secure.c",
       1
    ],
    [
       "ivan",
-      "faultinjector.c",
+      "faultinjector.h",
+      1
+   ],
+   [
+      "paulguo",
+      "partition.sql",
       1
    ],
    [
@@ -76,102 +36,12 @@
    ],
    [
       "xunzhang",
-      "memutilities.h",
+      "nodeTableFunction.c",
       1
    ],
    [
       "xunzhang",
-      "cdbgang.c",
-      2
-   ],
-   [
-      "ivan",
-      "resourcemanager.c",
-      1
-   ],
-   [
-      "Paul Guo",
-      "Makefile.global.in",
-      1
-   ],
-   [
-      "rlei",
-      "hawqinit.sh",
-      1
-   ],
-   [
-      "Paul Guo",
-      "cdbdatalocality.h",
-      1
-   ],
-   [
-      "xunzhang",
-      "cdbpersistentfilespace.c",
-      2
-   ],
-   [
-      "xunzhang",
-      "heap.c",
-      2
-   ],
-   [
-      "Yi",
-      "resqueuemanager.c",
-      1
-   ],
-   [
-      "paulguo",
-      "partition.out",
-      1
-   ],
-   [
-      "xunzhang",
-      "timestamp.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "test_hawq_register_partition.cpp",
-      1
-   ],
-   [
-      "interma",
-      "be-secure.c",
-      1
-   ],
-   [
-      "hzhang2",
-      "cdbvars.c",
-      2
-   ],
-   [
-      "iweng",
-      "resqueuemanager.c",
-      1
-   ],
-   [
-      "ivan",
-      "icudp_full.sql",
-      1
-   ],
-   [
-      "ivan",
-      "resqueuecommand.c",
-      1
-   ],
-   [
-      "Paul Guo",
-      "cdbdatalocality.c",
-      1
-   ],
-   [
-      "Ming LI",
-      "appendonlywriter.h",
-      1
-   ],
-   [
-      "xunzhang",
-      "describe.c",
+      "url.c",
       1
    ],
    [
@@ -180,69 +50,14 @@
       3
    ],
    [
-      "xunzhang",
-      "resourcebroker_LIBYARN_proc.c",
-      1
-   ],
-   [
       "ivan",
-      "ic_common.c",
-      1
-   ],
-   [
-      "xunzhang",
       "faultinjector.c",
-      2
-   ],
-   [
-      "ivan",
-      "resourcebroker_LIBYARN_proc.c",
-      1
-   ],
-   [
-      "Ming LI",
-      "appendonlywriter.c",
-      1
-   ],
-   [
-      "ivan",
-      "resourcemanager_RMSEG.c",
       1
    ],
    [
       "xunzhang",
-      "test_hawq_register.h",
-      1
-   ],
-   [
-      "Paul Guo",
-      "execdesc.h",
-      1
-   ],
-   [
-      "Oleksandr Diachenko",
-      "ProtocolData.java",
-      3
-   ],
-   [
-      "ivan",
-      "cdbvars.h",
-      1
-   ],
-   [
-      "David Yozie",
-      "apache-hawq-nav.erb",
-      1
-   ],
-   [
-      "Oleksandr Diachenko",
-      "HiveTablePartition.java",
-      3
-   ],
-   [
-      "ivan",
-      "requesthandler_ddl.c",
-      1
+      "cdbpersistenttablespace.c",
+      2
    ],
    [
       "Oleksandr Diachenko",
@@ -250,104 +65,69 @@
       3
    ],
    [
-      "Oleksandr Diachenko",
-      "pxfuriparser_test.c",
-      3
-   ],
-   [
-      "Oleksandr Diachenko",
-      "HiveInputFormatFragmenter.java",
-      3
-   ],
-   [
-      "xunzhang",
-      "memutilities.c",
-      1
-   ],
-   [
-      "Oleksandr Diachenko",
-      "HiveDataFragmenter.java",
-      3
-   ],
-   [
-      "ivan",
-      "test_parser.cpp",
-      1
-   ],
-   [
-      "xunzhang",
-      "resourcemanager.c",
-      2
-   ],
-   [
-      "xunzhang",
-      "datetime.c",
-      2
-   ],
-   [
-      "hzhang2",
-      "rangerrest.c",
-      4
-   ],
-   [
-      "interma",
-      "checkinc.py",
-      1
-   ],
-   [
-      "ivan",
-      "user.c",
-      1
-   ],
-   [
-      "ivan",
-      "ic_tcp.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "cdbsreh.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "fe-connect.c",
-      2
-   ],
-   [
-      "ivan",
-      "clsInjectFault.py",
-      1
-   ],
-   [
-      "Oleksandr Diachenko",
-      "HiveColumnarSerdeResolver.java",
-      1
-   ],
-   [
-      "xunzhang",
-      "rangerrest.h",
-      7
-   ],
-   [
       "ivan",
       "ml_ipc.h",
       1
    ],
    [
-      "Paul Guo",
-      "postgres.h",
-      2
-   ],
-   [
-      "Yi",
-      "resourcepool.h",
+      "xunzhang",
+      "FindLibUUID.cmake",
       1
    ],
    [
-      "Paul Guo",
+      "xunzhang",
+      "setrefs.c",
+      1
+   ],
+   [
+      "ivan",
+      "cdbvars.c",
+      1
+   ],
+   [
+      "hzhang2",
       "guc.c",
+      4
+   ],
+   [
+      "Oleksandr Diachenko",
+      "HiveUtilities.java",
+      3
+   ],
+   [
+      "xunzhang",
+      "execBitmapTableScan.c",
       1
+   ],
+   [
+      "ivan",
+      "cdbvars.h",
+      1
+   ],
+   [
+      "rlei",
+      "hawqinit.sh",
+      1
+   ],
+   [
+      "xunzhang",
+      "planner.c",
+      1
+   ],
+   [
+      "ivan",
+      "parser-casegroupby.sql",
+      1
+   ],
+   [
+      "xunzhang",
+      "rangerrest.c",
+      5
+   ],
+   [
+      "Oleksandr Diachenko",
+      "ProtocolData.java",
+      3
    ],
    [
       "xunzhang",
@@ -356,12 +136,112 @@
    ],
    [
       "xunzhang",
-      "fe-exec.c",
+      "heap.c",
       2
    ],
    [
       "xunzhang",
-      "simplestring.c",
+      "resourcemanager.c",
+      2
+   ],
+   [
+      "xunzhang",
+      "print.h",
+      1
+   ],
+   [
+      "xunzhang",
+      "mcxt.c",
+      2
+   ],
+   [
+      "xunzhang",
+      "gpfdist.c",
+      1
+   ],
+   [
+      "Oleksandr Diachenko",
+      "hd_work_mgr_test.c",
+      3
+   ],
+   [
+      "Paul Guo",
+      "copyfuncs.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "dumputils.c",
+      1
+   ],
+   [
+      "Ming LI",
+      "errortbl.source",
+      2
+   ],
+   [
+      "hzhang2",
+      "guc.h",
+      3
+   ],
+   [
+      "xunzhang",
+      "pgstatfuncs.c",
+      2
+   ],
+   [
+      "Oleksandr Diachenko",
+      "HiveORCSerdeResolver.java",
+      2
+   ],
+   [
+      "Oleksandr Diachenko",
+      "pxfmasterapi.h",
+      3
+   ],
+   [
+      "ivan",
+      "resourcepool.c",
+      1
+   ],
+   [
+      "Paul Guo",
+      "tablecmds.c",
+      3
+   ],
+   [
+      "Oleksandr Diachenko",
+      "gpbridgeapi.c",
+      3
+   ],
+   [
+      "hzhang2",
+      "parse_relation.h",
+      2
+   ],
+   [
+      "Oleksandr Diachenko",
+      "pxfuriparser.c",
+      3
+   ],
+   [
+      "Paul Guo",
+      "cdbdatalocality.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "test_hawq_register_rollback.cpp",
+      1
+   ],
+   [
+      "xunzhang",
+      "nabstime.c",
+      1
+   ],
+   [
+      "ivan",
+      "icudp_full.out",
       1
    ],
    [
@@ -371,92 +251,57 @@
    ],
    [
       "xunzhang",
-      "resqueuemanager.c",
+      "guc.c",
       2
    ],
    [
-      "xunzhang",
-      "cdbpersistenttablespace.c",
-      2
-   ],
-   [
-      "xunzhang",
-      "test_hawq_register_usage2_case2.cpp",
-      2
+      "Oleksandr Diachenko",
+      "InputData.java",
+      3
    ],
    [
       "ivan",
-      "cdbdatalocality.c",
+      "requesthandler_ddl.c",
+      1
+   ],
+   [
+      "ivan",
+      "parser-casegroupby.ans",
+      1
+   ],
+   [
+      "Paul Guo",
+      "nodes.h",
       1
    ],
    [
       "Oleksandr Diachenko",
-      "Fragment.java",
+      "HiveDataFragmenter.java",
       3
    ],
    [
-      "xunzhang",
-      "analyze.c",
+      "iweng",
+      "resqueuemanager.c",
+      1
+   ],
+   [
+      "Paul Guo",
+      "execdesc.h",
       1
    ],
    [
       "Oleksandr Diachenko",
-      "pxfuriparser.c",
+      "HiveInputFormatFragmenter.java",
       3
    ],
    [
-      "hzhang2",
-      "cdbvars.h",
-      2
-   ],
-   [
-      "stanlyxiang",
-      "test_hawq_register_usage2_case1.cpp",
+      "Yi",
+      "resqueuemanager.c",
       1
    ],
    [
       "hzhang2",
-      "rangerrest.h",
-      2
-   ],
-   [
-      "xunzhang",
-      "execBitmapTableScan.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "memprot.c",
-      2
-   ],
-   [
-      "xunzhang",
-      "pgstatfuncs.c",
-      2
-   ],
-   [
-      "interma",
-      "rangerrest.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "interval.c",
-      2
-   ],
-   [
-      "hzhang2",
-      "parse_relation.c",
-      4
-   ],
-   [
-      "paulguo",
-      "partition.sql",
-      1
-   ],
-   [
-      "hzhang2",
-      "parse_relation.h",
+      "cdbvars.c",
       2
    ],
    [
@@ -465,18 +310,23 @@
       1
    ],
    [
-      "xunzhang",
-      "acl.h",
-      5
+      "rlei",
+      "HAWQ_HELP.py",
+      1
    ],
    [
-      "xunzhang",
-      "print.h",
+      "Yi",
+      "resourcepool.h",
+      1
+   ],
+   [
+      "ivan",
+      "resourcemanager_RMSEG.c",
       1
    ],
    [
       "xunzhang",
-      "regc_locale.c",
+      "aosegfiles.c",
       1
    ],
    [
@@ -485,19 +335,9 @@
       2
    ],
    [
-      "xunzhang",
-      "tablecmds.c",
-      1
-   ],
-   [
       "hzhang2",
-      "guc.h",
-      3
-   ],
-   [
-      "ivan",
-      "analyze.c",
-      1
+      "parse_relation.c",
+      4
    ],
    [
       "xunzhang",
@@ -506,33 +346,73 @@
    ],
    [
       "xunzhang",
-      "nabstime.c",
+      "memutilities.c",
+      1
+   ],
+   [
+      "interma",
+      "be-secure.c",
       1
    ],
    [
       "xunzhang",
-      "execQual.c",
-      1
+      "parse_relation.c",
+      5
    ],
    [
-      "Oleksandr Diachenko",
-      "HiveORCSerdeResolver.java",
+      "xunzhang",
+      "cdbpersistentfilespace.c",
       2
    ],
    [
-      "ivan",
-      "parser-casegroupby.sql",
+      "stanlyxiang",
+      "test_hawq_register_usage2_case1.cpp",
       1
    ],
    [
       "ivan",
-      "faultinjector.h",
+      "clsInjectFault.py",
       1
    ],
    [
       "xunzhang",
-      "cdbutil.c",
+      "parse_relation.h",
+      3
+   ],
+   [
+      "ivan",
+      "parse_expr.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "resqueuemanager.c",
       2
+   ],
+   [
+      "ivan",
+      "cdbmotion.c",
+      1
+   ],
+   [
+      "ivan",
+      "resourcemanager.c",
+      1
+   ],
+   [
+      "hzhang2",
+      "aclchk.c",
+      4
+   ],
+   [
+      "xunzhang",
+      "analyze.c",
+      1
+   ],
+   [
+      "interma",
+      "rangerrest.h",
+      1
    ],
    [
       "xunzhang",
@@ -540,8 +420,73 @@
       1
    ],
    [
+      "interma",
+      "checkinc.py",
+      1
+   ],
+   [
       "xunzhang",
-      "aosegfiles.c",
+      "test_hawq_register_partition.cpp",
+      1
+   ],
+   [
+      "Wen Lin",
+      "rangerrest.c",
+      2
+   ],
+   [
+      "Ming LI",
+      "execMain.c",
+      3
+   ],
+   [
+      "Ming LI",
+      "copy.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "interval.c",
+      2
+   ],
+   [
+      "ivan",
+      "resourcebroker_LIBYARN_proc.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "segadmin.c",
+      2
+   ],
+   [
+      "xunzhang",
+      "tablecmds.c",
+      1
+   ],
+   [
+      "Paul Guo",
+      "plannodes.h",
+      1
+   ],
+   [
+      "ivan",
+      "ic_tcp.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "test_hawq_register.h",
+      1
+   ],
+   [
+      "ivan",
+      "cdbdatalocality.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "pg_filesystem.c",
       1
    ],
    [
@@ -551,8 +496,98 @@
    ],
    [
       "ivan",
+      "ic_udp.c",
+      2
+   ],
+   [
+      "xunzhang",
+      "describe.c",
+      1
+   ],
+   [
+      "hzhang2",
+      "acl.h",
+      3
+   ],
+   [
+      "xunzhang",
+      "rangerrest.h",
+      7
+   ],
+   [
+      "hzhang2",
+      "rangerrest.c",
+      4
+   ],
+   [
+      "interma",
+      "rangerrest.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "cdbsreh.c",
+      1
+   ],
+   [
+      "ivan",
+      "resqueuecommand.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "print.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "execQual.c",
+      1
+   ],
+   [
+      "hzhang2",
+      "cdbvars.h",
+      2
+   ],
+   [
+      "Oleksandr Diachenko",
+      "pxfheaders.c",
+      3
+   ],
+   [
+      "Paul Guo",
+      "guc.c",
+      1
+   ],
+   [
+      "ivan",
       "requesthandler.c",
       1
+   ],
+   [
+      "xunzhang",
+      "simplestring.h",
+      1
+   ],
+   [
+      "xunzhang",
+      "simplestring.c",
+      1
+   ],
+   [
+      "ivan",
+      "icudp_full.sql",
+      1
+   ],
+   [
+      "Oleksandr Diachenko",
+      "HiveResolver.java",
+      2
+   ],
+   [
+      "xunzhang",
+      "fe-exec.c",
+      2
    ],
    [
       "ivan",
@@ -561,8 +596,88 @@
    ],
    [
       "Oleksandr Diachenko",
-      "InputData.java",
+      "HiveColumnarSerdeResolver.java",
+      1
+   ],
+   [
+      "xunzhang",
+      "regc_locale.c",
+      1
+   ],
+   [
+      "Oleksandr Diachenko",
+      "pxfuriparser_test.c",
       3
+   ],
+   [
+      "Ming LI",
+      "appendonlywriter.h",
+      1
+   ],
+   [
+      "ivan",
+      "user.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "memprot.c",
+      2
+   ],
+   [
+      "paulguo",
+      "partition.out",
+      1
+   ],
+   [
+      "xunzhang",
+      "acl.h",
+      5
+   ],
+   [
+      "Oleksandr Diachenko",
+      "HiveTablePartition.java",
+      3
+   ],
+   [
+      "Yi",
+      "resourcepool.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "resourcebroker_LIBYARN_proc.c",
+      1
+   ],
+   [
+      "Oleksandr Diachenko",
+      "Fragment.java",
+      3
+   ],
+   [
+      "hzhang2",
+      "rangerrest.h",
+      2
+   ],
+   [
+      "Wen Lin",
+      "be-secure.c",
+      1
+   ],
+   [
+      "xunzhang",
+      "datetime.c",
+      2
+   ],
+   [
+      "Ming LI",
+      "tablecmds.c",
+      1
+   ],
+   [
+      "ivan",
+      "analyze.c",
+      1
    ],
    [
       "xunzhang",
@@ -575,59 +690,24 @@
       1
    ],
    [
-      "paulguo",
-      "partition_optimizer.out",
-      1
-   ],
-   [
       "xunzhang",
-      "pg_filesystem.c",
-      1
-   ],
-   [
-      "ivan",
-      "parser-casegroupby.ans",
-      1
-   ],
-   [
-      "xunzhang",
-      "nodeTableFunction.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "print.c",
-      1
-   ],
-   [
-      "interma",
-      "rangerrest.h",
-      1
-   ],
-   [
-      "Wen Lin",
-      "be-secure.c",
-      1
-   ],
-   [
-      "ivan",
-      "cdbmotion.c",
-      1
-   ],
-   [
-      "Yi",
-      "resourcepool.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "parse_relation.c",
-      5
-   ],
-   [
-      "xunzhang",
-      "guc.c",
+      "fe-connect.c",
       2
+   ],
+   [
+      "xunzhang",
+      "cdbgang.c",
+      2
+   ],
+   [
+      "Ming LI",
+      "appendonlywriter.c",
+      1
+   ],
+   [
+      "Paul Guo",
+      "Makefile.global.in",
+      1
    ],
    [
       "xunzhang",
@@ -635,48 +715,13 @@
       3
    ],
    [
-      "Paul Guo",
-      "tablecmds.c",
-      3
-   ],
-   [
-      "xunzhang",
-      "execHHashagg.h",
-      1
-   ],
-   [
-      "Oleksandr Diachenko",
-      "HiveUtilities.java",
-      3
-   ],
-   [
-      "Paul Guo",
-      "planner.c",
+      "ivan",
+      "ic_common.c",
       1
    ],
    [
       "xunzhang",
-      "setrefs.c",
-      1
-   ],
-   [
-      "rlei",
-      "HAWQ_HELP.py",
-      1
-   ],
-   [
-      "Paul Guo",
-      "plannodes.h",
-      1
-   ],
-   [
-      "ivan",
-      "ipc.c",
-      1
-   ],
-   [
-      "ivan",
-      "resourcepool.c",
+      "timestamp.c",
       1
    ],
    [
@@ -686,63 +731,28 @@
    ],
    [
       "xunzhang",
-      "segadmin.c",
+      "faultinjector.c",
       2
    ],
    [
-      "Oleksandr Diachenko",
-      "pxfmasterapi.h",
-      3
-   ],
-   [
-      "xunzhang",
-      "test_hawq_register_rollback.cpp",
-      1
-   ],
-   [
       "ivan",
-      "icudp_full.out",
+      "test_parser.cpp",
       1
    ],
    [
       "Paul Guo",
-      "nodes.h",
-      1
-   ],
-   [
-      "xunzhang",
-      "rangerrest.c",
-      5
-   ],
-   [
-      "Oleksandr Diachenko",
-      "hd_work_mgr_test.c",
-      3
-   ],
-   [
-      "ivan",
-      "parse_expr.c",
-      1
-   ],
-   [
-      "xunzhang",
-      "mcxt.c",
+      "postgres.h",
       2
    ],
    [
-      "Oleksandr Diachenko",
-      "pxfheaders.c",
-      3
-   ],
-   [
-      "xunzhang",
-      "planner.c",
+      "Paul Guo",
+      "cdbdatalocality.h",
       1
    ],
    [
       "xunzhang",
-      "simplestring.h",
-      1
+      "cdbutil.c",
+      2
    ],
    [
       "Oleksandr Diachenko",
@@ -750,33 +760,23 @@
       3
    ],
    [
-      "Oleksandr Diachenko",
-      "HiveResolver.java",
-      2
-   ],
-   [
-      "Ming LI",
-      "execMain.c",
-      3
-   ],
-   [
-      "Paul Guo",
-      "be-secure.c",
+      "xunzhang",
+      "memutilities.h",
       1
    ],
    [
-      "xunzhang",
-      "parse_relation.h",
-      3
-   ],
-   [
-      "xunzhang",
-      "FindLibUUID.cmake",
+      "paulguo",
+      "partition_optimizer.out",
       1
    ],
    [
       "ivan",
-      "ic_udp.c",
-      2
+      "ipc.c",
+      1
+   ],
+   [
+      "David Yozie",
+      "apache-hawq-nav.erb",
+      1
    ]
 ]

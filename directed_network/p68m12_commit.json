@@ -1,37 +1,17 @@
 [
    [
-      "rvs",
-      "package.mk",
-      1
-   ],
-   [
-      "rvs",
-      "flume-node.default",
-      2
-   ],
-   [
       "bmahe",
       "hadoop-httpfs.svc",
       1
    ],
    [
-      "rvs",
-      "hadoop.1",
-      2
-   ],
-   [
-      "rvs",
-      "TestLoadAndVerify.java",
+      "bmahe",
+      "flume.preinst",
       1
    ],
    [
-      "bmahe",
-      "hadoop-hdfs-secondarynamenode.svc",
-      1
-   ],
-   [
-      "bmahe",
-      "LogErrorsUtils.groovy",
+      "plinnell",
+      "hadoop.spec",
       1
    ],
    [
@@ -41,102 +21,17 @@
    ],
    [
       "bmahe",
-      "hadoop-yarn-proxyserver.svc",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-hdfs-datanode.svc",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-yarn-proxyserver.svc",
-      1
-   ],
-   [
-      "rvs",
-      "pig.spec",
-      1
-   ],
-   [
-      "bmahe",
-      "TestHadoopSmoke.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "bigtop.mk",
-      9
-   ],
-   [
-      "bmahe",
-      "hadoop-hdfs-namenode.svc",
-      1
-   ],
-   [
-      "plinnell",
-      "hadoop.spec",
-      1
-   ],
-   [
-      "bmahe",
-      "TestFsck.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "flume.spec",
-      1
-   ],
-   [
-      "bmahe",
-      "hbase.sh",
-      1
-   ],
-   [
-      "bmahe",
-      "flume.preinst",
-      1
-   ],
-   [
-      "rvs",
-      "init.d.tmpl",
-      1
-   ],
-   [
-      "bmahe",
-      "init.d.tmpl",
-      1
-   ],
-   [
-      "bmahe",
       "service-init.d.tpl",
       1
    ],
    [
-      "rvs",
-      "mahout.spec",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop.spec",
-      5
-   ],
-   [
-      "rvs",
-      "giraph.spec",
-      3
-   ],
-   [
-      "rvs",
-      "hadoop-hdfs-namenode.svc",
+      "bmahe",
+      "hadoop-yarn-resourcemanager.svc",
       1
    ],
    [
       "bmahe",
-      "hadoop-hdfs-zkfc.svc",
+      "hadoop-hdfs-secondarynamenode.svc",
       1
    ],
    [
@@ -146,12 +41,87 @@
    ],
    [
       "rvs",
+      "TestLoadAndVerify.java",
+      1
+   ],
+   [
+      "rvs",
       "TestGiraphSmoke.groovy",
       2
    ],
    [
       "rvs",
+      "hadoop-hdfs-namenode.svc",
+      1
+   ],
+   [
+      "bmahe",
+      "TestHadoopSmoke.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "giraph.postinst",
+      1
+   ],
+   [
+      "rvs",
+      "install_hadoop.sh",
+      1
+   ],
+   [
+      "bmahe",
+      "hadoop-hdfs-namenode.svc",
+      1
+   ],
+   [
+      "rvs",
       "flume.spec",
+      1
+   ],
+   [
+      "bmahe",
+      "hbase.sh",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-yarn-resourcemanager.svc",
+      1
+   ],
+   [
+      "rvs",
+      "TestHadoopExamples.groovy",
+      1
+   ],
+   [
+      "bmahe",
+      "LogErrorsUtils.groovy",
+      1
+   ],
+   [
+      "bmahe",
+      "flume.spec",
+      1
+   ],
+   [
+      "rvs",
+      "giraph.prerm",
+      1
+   ],
+   [
+      "bmahe",
+      "hadoop-mapreduce-historyserver.svc",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-yarn-proxyserver.svc",
+      1
+   ],
+   [
+      "rvs",
+      "package.mk",
       1
    ],
    [
@@ -165,28 +135,13 @@
       1
    ],
    [
-      "bmahe",
-      "hadoop-mapreduce-historyserver.svc",
-      1
-   ],
-   [
       "rvs",
       "install_oozie.sh",
       1
    ],
    [
-      "rvs",
-      "install_hadoop.sh",
-      1
-   ],
-   [
-      "rvs",
-      "cluster.pp",
-      2
-   ],
-   [
       "bmahe",
-      "hadoop-hdfs-datanode.svc",
+      "init.d.tmpl",
       1
    ],
    [
@@ -196,32 +151,22 @@
    ],
    [
       "rvs",
-      "giraph.prerm",
-      1
-   ],
-   [
-      "rvs",
-      "TestHadoopExamples.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "giraph.postinst",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-yarn-resourcemanager.svc",
-      1
-   ],
-   [
-      "rvs",
-      "TestHadoopSmoke.groovy",
-      1
-   ],
-   [
-      "rvs",
       "hadoop-yarn-nodemanager.svc",
+      1
+   ],
+   [
+      "rvs",
+      "bigtop.mk",
+      9
+   ],
+   [
+      "rvs",
+      "hadoop-hdfs-datanode.svc",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-httpfs.svc",
       1
    ],
    [
@@ -231,8 +176,28 @@
    ],
    [
       "rvs",
-      "hadoop-hdfs-secondarynamenode.svc",
+      "cluster.pp",
+      2
+   ],
+   [
+      "rvs",
+      "hadoop.1",
+      2
+   ],
+   [
+      "rvs",
+      "hadoop.spec",
+      5
+   ],
+   [
+      "rvs",
+      "init.d.tmpl",
       1
+   ],
+   [
+      "rvs",
+      "flume-node.default",
+      2
    ],
    [
       "rvs",
@@ -240,13 +205,48 @@
       1
    ],
    [
-      "bmahe",
-      "hadoop-yarn-resourcemanager.svc",
+      "rvs",
+      "hadoop-hdfs-secondarynamenode.svc",
       1
    ],
    [
       "rvs",
-      "hadoop-httpfs.svc",
+      "giraph.spec",
+      3
+   ],
+   [
+      "bmahe",
+      "hadoop-yarn-proxyserver.svc",
+      1
+   ],
+   [
+      "bmahe",
+      "hadoop-hdfs-zkfc.svc",
+      1
+   ],
+   [
+      "bmahe",
+      "hadoop-hdfs-datanode.svc",
+      1
+   ],
+   [
+      "rvs",
+      "TestHadoopSmoke.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "pig.spec",
+      1
+   ],
+   [
+      "rvs",
+      "mahout.spec",
+      2
+   ],
+   [
+      "bmahe",
+      "TestFsck.groovy",
       1
    ]
 ]

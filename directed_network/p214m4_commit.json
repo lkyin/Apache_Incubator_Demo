@@ -1,7 +1,17 @@
 [
    [
       "hossman",
-      "DateField.java",
+      "SampleTest.java",
+      1
+   ],
+   [
+      "billa",
+      "scripts.conf",
+      1
+   ],
+   [
+      "billa",
+      "mx4j.jar",
       1
    ],
    [
@@ -11,137 +21,17 @@
    ],
    [
       "billa",
-      "org.mortbay.jetty.jar",
-      1
-   ],
-   [
-      "billa",
-      "javax.servlet.jar",
+      "mx4j-remote.jar",
       1
    ],
    [
       "ehatcher",
-      "SolrServletRequest.java",
-      1
-   ],
-   [
-      "billa",
-      "mx4j.jar",
-      1
-   ],
-   [
-      "hossman",
-      "SampleTest.java",
-      1
-   ],
-   [
-      "hossman",
-      "AbstractSolrTestCase.java",
-      1
-   ],
-   [
-      "billa",
-      "stats.xsl",
-      1
-   ],
-   [
-      "yonik",
-      "SolrServletRequest.java",
-      1
-   ],
-   [
-      "billa",
-      "org.mortbay.jmx.jar",
-      1
-   ],
-   [
-      "hossman",
-      "TestHarness.java",
-      1
-   ],
-   [
-      "billa",
-      "commons-logging.jar",
-      1
+      "LocalSolrQueryRequest.java",
+      2
    ],
    [
       "billa",
       "registry.xsl",
-      1
-   ],
-   [
-      "billa",
-      "index.jsp",
-      2
-   ],
-   [
-      "billa",
-      "post.sh",
-      1
-   ],
-   [
-      "billa",
-      "ant.jar",
-      1
-   ],
-   [
-      "billa",
-      "scripts.conf",
-      1
-   ],
-   [
-      "ehatcher",
-      "BasicFunctionalityTest.java",
-      2
-   ],
-   [
-      "billa",
-      "distributiondump.jsp",
-      1
-   ],
-   [
-      "hossman",
-      "ConvertedLegacyTest.java",
-      1
-   ],
-   [
-      "billa",
-      "tabular.xsl",
-      1
-   ],
-   [
-      "billa",
-      "start.jar",
-      1
-   ],
-   [
-      "billa",
-      "logging.jsp",
-      1
-   ],
-   [
-      "ehatcher",
-      "SolrQueryRequest.java",
-      1
-   ],
-   [
-      "billa",
-      "jasper-runtime.jar",
-      1
-   ],
-   [
-      "ehatcher",
-      "XML.java",
-      1
-   ],
-   [
-      "billa",
-      "admin-extra.html",
-      1
-   ],
-   [
-      "billa",
-      "commons-el.jar",
       1
    ],
    [
@@ -151,7 +41,52 @@
    ],
    [
       "billa",
-      "get-file.jsp",
+      "post.sh",
+      1
+   ],
+   [
+      "billa",
+      "org.mortbay.jetty.jar",
+      1
+   ],
+   [
+      "ehatcher",
+      "SolrQueryRequest.java",
+      1
+   ],
+   [
+      "billa",
+      "commons-el.jar",
+      1
+   ],
+   [
+      "billa",
+      "admin-extra.html",
+      1
+   ],
+   [
+      "billa",
+      "tabular.xsl",
+      1
+   ],
+   [
+      "yonik",
+      "SolrServlet.java",
+      1
+   ],
+   [
+      "billa",
+      "stats.xsl",
+      1
+   ],
+   [
+      "hossman",
+      "AbstractSolrTestCase.java",
+      1
+   ],
+   [
+      "ehatcher",
+      "XML.java",
       1
    ],
    [
@@ -160,32 +95,22 @@
       1
    ],
    [
-      "ehatcher",
-      "LocalSolrQueryRequest.java",
-      2
-   ],
-   [
-      "yonik",
-      "post.sh",
-      1
-   ],
-   [
       "billa",
-      "jasper-compiler.jar",
-      1
-   ],
-   [
-      "billa",
-      "mx4j-remote.jar",
-      1
-   ],
-   [
-      "billa",
-      "mx4j-tools.jar",
+      "jasper-runtime.jar",
       1
    ],
    [
       "hossman",
+      "action.jsp",
+      1
+   ],
+   [
+      "billa",
+      "javax.servlet.jar",
+      1
+   ],
+   [
+      "billa",
       "action.jsp",
       1
    ],
@@ -195,8 +120,83 @@
       1
    ],
    [
+      "hossman",
+      "TestHarness.java",
+      1
+   ],
+   [
       "billa",
-      "action.jsp",
+      "mx4j-tools.jar",
+      1
+   ],
+   [
+      "ehatcher",
+      "BasicFunctionalityTest.java",
+      2
+   ],
+   [
+      "billa",
+      "ant.jar",
+      1
+   ],
+   [
+      "billa",
+      "start.jar",
+      1
+   ],
+   [
+      "hossman",
+      "SolrConfig.java",
+      1
+   ],
+   [
+      "hossman",
+      "DateField.java",
+      1
+   ],
+   [
+      "billa",
+      "threaddump.jsp",
+      1
+   ],
+   [
+      "billa",
+      "jasper-compiler.jar",
+      1
+   ],
+   [
+      "billa",
+      "index.jsp",
+      2
+   ],
+   [
+      "billa",
+      "commons-logging.jar",
+      1
+   ],
+   [
+      "billa",
+      "get-file.jsp",
+      1
+   ],
+   [
+      "yonik",
+      "SolrServletRequest.java",
+      1
+   ],
+   [
+      "ehatcher",
+      "SolrServletRequest.java",
+      1
+   ],
+   [
+      "billa",
+      "distributiondump.jsp",
+      1
+   ],
+   [
+      "yonik",
+      "post.sh",
       1
    ],
    [
@@ -206,17 +206,17 @@
    ],
    [
       "billa",
-      "threaddump.jsp",
+      "org.mortbay.jmx.jar",
+      1
+   ],
+   [
+      "billa",
+      "logging.jsp",
       1
    ],
    [
       "hossman",
-      "SolrConfig.java",
-      1
-   ],
-   [
-      "yonik",
-      "SolrServlet.java",
+      "ConvertedLegacyTest.java",
       1
    ]
 ]

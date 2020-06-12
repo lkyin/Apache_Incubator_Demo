@@ -6,192 +6,7 @@
    ],
    [
       "abroekhuis",
-      "ps_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "main.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "properties.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_revision.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "FindAPR.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "module.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "bundle.c",
-      6
-   ],
-   [
-      "abroekhuis",
-      "attribute.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "shell_tui.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "service_dependency.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "version_range.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "celix_errno.h",
-      3
-   ],
-   [
-      "abroekhuis",
-      "requirement.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "publisher.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "linked_list_iterator.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "ps_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "service_registry.h",
-      3
-   ],
-   [
-      "abroekhuis",
-      "MANIFEST.MF",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registry.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "index.html",
-      2
-   ],
-   [
-      "abroekhuis",
-      "hash_map.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "org.eclipse.cdt.codan.core.prefs",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registration.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_tracker.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "linkedlist.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "array_list.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "WB Dependency Manager.launch",
-      1
-   ],
-   [
-      "abroekhuis",
-      "update_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "WB Service tracker.launch",
-      2
-   ],
-   [
-      "abroekhuis",
-      "array_list_test.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "framework.h",
-      4
-   ],
-   [
-      "abroekhuis",
-      "Echo.launch",
-      1
-   ],
-   [
-      "abroekhuis",
-      "uninstall_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      ".project",
-      1
-   ],
-   [
-      "abroekhuis",
-      "hash_map.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "headers.h",
-      5
-   ],
-   [
-      "abroekhuis",
-      "bundle_activator.h",
+      "dependency_activator.c",
       1
    ],
    [
@@ -201,12 +16,72 @@
    ],
    [
       "abroekhuis",
-      "Doxyfile.in",
+      "resolver.h",
       1
    ],
    [
       "abroekhuis",
-      "org.eclipse.cdt.codan.ui.prefs",
+      "mongoose.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "org.eclipse.cdt.codan.core.prefs",
+      1
+   ],
+   [
+      "abroekhuis",
+      "inputstream.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "utils.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "attribute.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "publisher.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "test_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "filter.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "framework.c",
+      12
+   ],
+   [
+      "abroekhuis",
+      "service_tracker.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "properties.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version_range.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "hash_map_test_hash.c",
       1
    ],
    [
@@ -221,43 +96,53 @@
    ],
    [
       "abroekhuis",
-      "framework_test.c",
+      "attribute.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "Doxyfile.in",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registration.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "ps_command.c",
       2
    ],
    [
       "abroekhuis",
-      "echo_client.c",
+      "WB Service tracker.launch",
+      2
+   ],
+   [
+      "abroekhuis",
+      "array_list.h",
       1
    ],
    [
       "abroekhuis",
-      "test_activator.c",
+      "properties.h",
       1
    ],
    [
       "abroekhuis",
-      "version_range.c",
+      "service_component_private.h",
       1
    ],
    [
       "abroekhuis",
-      "utils.c",
-      1
+      "shell_tui.c",
+      3
    ],
    [
       "abroekhuis",
-      "manifest.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "install_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "attribute.h",
-      1
+      "bundle_cache.c",
+      7
    ],
    [
       "abroekhuis",
@@ -266,43 +151,63 @@
    ],
    [
       "abroekhuis",
-      "service_reference.c",
+      "shell.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "UseDoxygen.cmake",
       1
    ],
    [
       "abroekhuis",
-      "miniunz.c",
+      "echo_server_activator.c",
       1
    ],
    [
       "abroekhuis",
-      "tracker.c",
+      "array_list.c",
       2
    ],
    [
       "abroekhuis",
-      "linked_list_iterator.c",
+      "bundle_activator.h",
       1
    ],
    [
       "abroekhuis",
-      "manifest.c",
+      "update_command.c",
       2
    ],
    [
       "abroekhuis",
-      "resolver.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "inputstream.h",
+      "service_registration.h",
       1
    ],
    [
       "abroekhuis",
-      "stop_command.c",
-      2
+      "linkedlist.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "celix_errno.h",
+      3
+   ],
+   [
+      "abroekhuis",
+      "FindAPR.cmake",
+      1
+   ],
+   [
+      "abroekhuis",
+      "framework.h",
+      4
+   ],
+   [
+      "abroekhuis",
+      "Echo.launch",
+      1
    ],
    [
       "abroekhuis",
@@ -311,7 +216,17 @@
    ],
    [
       "abroekhuis",
-      "service_component_private.h",
+      "framework_test.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "index.html",
+      2
+   ],
+   [
+      "abroekhuis",
+      "tracker.h",
       1
    ],
    [
@@ -321,48 +236,8 @@
    ],
    [
       "abroekhuis",
-      "activator.c",
-      22
-   ],
-   [
-      "abroekhuis",
-      "capability.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_component.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "framework.c",
-      12
-   ],
-   [
-      "abroekhuis",
-      "service_registration.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "wire.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "start_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
       "mongoose.h",
       1
-   ],
-   [
-      "abroekhuis",
-      ".cproject",
-      5
    ],
    [
       "abroekhuis",
@@ -371,12 +246,27 @@
    ],
    [
       "abroekhuis",
-      "shell.c",
-      4
+      "celix Default.launch",
+      3
    ],
    [
       "abroekhuis",
-      "tracker.h",
+      "hash_map.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      ".cproject",
+      5
+   ],
+   [
+      "abroekhuis",
+      "launcher.c",
+      5
+   ],
+   [
+      "abroekhuis",
+      "wire.c",
       1
    ],
    [
@@ -386,107 +276,7 @@
    ],
    [
       "abroekhuis",
-      "hash_map_test.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "filter.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "dependency_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "array_list.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_cache.c",
-      7
-   ],
-   [
-      "abroekhuis",
-      "echo_server_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_context.c",
-      6
-   ],
-   [
-      "abroekhuis",
-      "uninstall_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "wire.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "hash_map_test_hash.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "stop_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_archive.h",
-      3
-   ],
-   [
-      "abroekhuis",
-      "start_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "module.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "launcher.c",
-      5
-   ],
-   [
-      "abroekhuis",
-      "celix Default.launch",
-      3
-   ],
-   [
-      "abroekhuis",
-      "archive.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "resolver.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "UseDoxygen.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "update_command.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "mongoose.c",
+      "requirement.h",
       1
    ],
    [
@@ -496,17 +286,227 @@
    ],
    [
       "abroekhuis",
+      "array_list_test.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "ps_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "resolver.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "activator.c",
+      22
+   ],
+   [
+      "abroekhuis",
+      "wire.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "update_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "start_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "WB Dependency Manager.launch",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_context.c",
+      6
+   ],
+   [
+      "abroekhuis",
+      "archive.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "echo_client.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "install_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_dependency.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "miniunz.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "module.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "module.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "MANIFEST.MF",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registry.h",
+      3
+   ],
+   [
+      "abroekhuis",
+      "version_range.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "tracker.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "manifest.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_component.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "start_command.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "headers.h",
+      5
+   ],
+   [
+      "abroekhuis",
+      "bundle_revision.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "main.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "hash_map.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "requirement.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "org.eclipse.cdt.codan.ui.prefs",
+      1
+   ],
+   [
+      "abroekhuis",
+      "stop_command.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "hash_map_test.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "stop_command.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_registry.c",
+      3
+   ],
+   [
+      "abroekhuis",
       "bundle.h",
       6
    ],
    [
       "abroekhuis",
-      "properties.h",
+      "bundle.c",
+      6
+   ],
+   [
+      "abroekhuis",
+      "linked_list_iterator.h",
       1
    ],
    [
       "abroekhuis",
-      "requirement.h",
+      "service_reference.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "capability.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "uninstall_command.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "linked_list_iterator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      ".project",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_archive.h",
+      3
+   ],
+   [
+      "abroekhuis",
+      "uninstall_command.h",
       1
    ]
 ]

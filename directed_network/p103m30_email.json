@@ -1,26 +1,13 @@
 [
    {
+      "name": "scott comer",
       "imports": [
          "Michael Fitzner",
          "Holger Grandy"
-      ],
-      "name": "scott comer"
+      ]
    },
    {
-      "imports": [
-         "Holger Grandy",
-         "Michael Fitzner"
-      ],
-      "name": "Martijn Dashorst"
-   },
-   {
-      "imports": [
-         "scott comer",
-         "Martijn Dashorst"
-      ],
-      "name": "Michael Fitzner"
-   },
-   {
+      "name": "Holger Grandy (JIRA)",
       "imports": [
          "Michael Fitzner (JIRA)",
          "Michael Fitzner (JIRA)",
@@ -54,13 +41,30 @@
          "Michael Fitzner (JIRA)",
          "Michael Fitzner (JIRA)",
          "Michael Fitzner (JIRA)"
-      ],
-      "name": "Holger Grandy (JIRA)"
+      ]
    },
    {
+      "name": "Michael Fitzner",
+      "imports": [
+         "scott comer",
+         "Martijn Dashorst"
+      ]
+   },
+   {
+      "name": "Holger Grandy",
       "imports": [
          "Martijn Dashorst"
-      ],
-      "name": "Holger Grandy"
+      ]
+   },
+   {
+      "name": "Martijn Dashorst",
+      "imports": [
+         "Holger Grandy",
+         "Michael Fitzner"
+      ]
+   },
+   {
+      "name": "Michael Fitzner (JIRA)",
+      "imports": []
    }
 ]

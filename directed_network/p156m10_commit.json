@@ -1,47 +1,12 @@
 [
    [
       "kwright",
-      "DBInterfaceDerby.java",
-      2
-   ],
-   [
-      "kwright",
-      "JobQueue.java",
-      1
-   ],
-   [
-      "kwright",
-      "IXMLHandler.java",
+      "HopCount.java",
       1
    ],
    [
       "rmuir",
-      "MemexAuthority.java",
-      1
-   ],
-   [
-      "kwright",
-      "IIncrementalIngester.java",
-      1
-   ],
-   [
-      "kwright",
-      "BasicParseState.java",
-      1
-   ],
-   [
-      "kwright",
-      "IncrementalIngester.java",
-      1
-   ],
-   [
-      "kwright",
-      "BaseTable.java",
-      1
-   ],
-   [
-      "kwright",
-      "ManifoldCFJettyRunner.java",
+      "MemexEntity.java",
       1
    ],
    [
@@ -50,28 +15,13 @@
       4
    ],
    [
-      "rmuir",
-      "MemexSupport.java",
+      "kwright",
+      "BaseTable.java",
       1
    ],
    [
       "kwright",
-      "ScriptParseState.java",
-      1
-   ],
-   [
-      "kwright",
-      "hsqldb.jar",
-      1
-   ],
-   [
-      "kwright",
-      "IDBInterface.java",
-      2
-   ],
-   [
-      "kwright",
-      "HopCount.java",
+      "PrereqEventManager.java",
       1
    ],
    [
@@ -81,32 +31,32 @@
    ],
    [
       "kwright",
-      "MemexAuthority.java",
+      "FormDataAccumulator.java",
       1
    ],
    [
       "kwright",
-      "DBInterfacePostgreSQL.java",
-      3
-   ],
-   [
-      "kwright",
-      "IRedirectionHandler.java",
+      "APIServlet.java",
       1
    ],
    [
       "kwright",
-      "FormParseState.java",
+      "MemexConnector.java",
       1
    ],
    [
       "kwright",
-      "run.bat",
-      2
+      "SharedDriveConnector.java",
+      1
    ],
    [
       "rmuir",
-      "MemexConnector.java",
+      "ManifoldCFMemexConnection.java",
+      1
+   ],
+   [
+      "kwright",
+      "JobQueue.java",
       1
    ],
    [
@@ -121,112 +71,7 @@
    ],
    [
       "kwright",
-      "FormDataAccumulator.java",
-      1
-   ],
-   [
-      "kwright",
-      "FormItem.java",
-      1
-   ],
-   [
-      "kwright",
-      "setclasspath.bat",
-      2
-   ],
-   [
-      "kwright",
-      "PrereqEventManager.java",
-      1
-   ],
-   [
-      "rmuir",
-      "MemexEntity.java",
-      1
-   ],
-   [
-      "kwright",
-      "LinkParseState.java",
-      1
-   ],
-   [
-      "kwright",
-      "MemexEntity.java",
-      1
-   ],
-   [
-      "rmuir",
-      "ManifoldCFMemexConnection.java",
-      1
-   ],
-   [
-      "kwright",
-      "run.sh",
-      2
-   ],
-   [
-      "kwright",
-      "APIServlet.java",
-      1
-   ],
-   [
-      "rmuir",
-      "LogicalServer.java",
-      1
-   ],
-   [
-      "kwright",
-      "MemexConnector.java",
-      1
-   ],
-   [
-      "kwright",
-      "IHierarchyParent.java",
-      1
-   ],
-   [
-      "kwright",
-      "WebcrawlerConnector.java",
-      1
-   ],
-   [
-      "kwright",
-      "Carrydown.java",
-      1
-   ],
-   [
-      "kwright",
-      "DBInterfaceHSQLDB.java",
-      3
-   ],
-   [
-      "kwright",
       "IntrinsicLink.java",
-      1
-   ],
-   [
-      "kwright",
-      "JobManager.java",
-      3
-   ],
-   [
-      "kwright",
-      "ManifoldCFMemexConnection.java",
-      1
-   ],
-   [
-      "kwright",
-      "MemexSupport.java",
-      1
-   ],
-   [
-      "kwright",
-      "LogicalServer.java",
-      1
-   ],
-   [
-      "kwright",
-      "SharedDriveConnector.java",
       1
    ],
    [
@@ -236,12 +81,167 @@
    ],
    [
       "kwright",
-      "IDiscoveredLinkHandler.java",
+      "IIncrementalIngester.java",
       1
    ],
    [
       "kwright",
       "ConfigurationNode.java",
+      1
+   ],
+   [
+      "kwright",
+      "MemexSupport.java",
+      1
+   ],
+   [
+      "kwright",
+      "BasicParseState.java",
+      1
+   ],
+   [
+      "kwright",
+      "run.bat",
+      2
+   ],
+   [
+      "kwright",
+      "DBInterfaceHSQLDB.java",
+      3
+   ],
+   [
+      "kwright",
+      "JobManager.java",
+      3
+   ],
+   [
+      "rmuir",
+      "MemexSupport.java",
+      1
+   ],
+   [
+      "kwright",
+      "DBInterfaceDerby.java",
+      2
+   ],
+   [
+      "kwright",
+      "run.sh",
+      2
+   ],
+   [
+      "kwright",
+      "LinkParseState.java",
+      1
+   ],
+   [
+      "kwright",
+      "setclasspath.bat",
+      2
+   ],
+   [
+      "kwright",
+      "WebcrawlerConnector.java",
+      1
+   ],
+   [
+      "kwright",
+      "FormParseState.java",
+      1
+   ],
+   [
+      "kwright",
+      "MemexEntity.java",
+      1
+   ],
+   [
+      "rmuir",
+      "MemexAuthority.java",
+      1
+   ],
+   [
+      "rmuir",
+      "LogicalServer.java",
+      1
+   ],
+   [
+      "kwright",
+      "DBInterfacePostgreSQL.java",
+      3
+   ],
+   [
+      "kwright",
+      "FormItem.java",
+      1
+   ],
+   [
+      "kwright",
+      "LogicalServer.java",
+      1
+   ],
+   [
+      "kwright",
+      "IDiscoveredLinkHandler.java",
+      1
+   ],
+   [
+      "kwright",
+      "IDBInterface.java",
+      2
+   ],
+   [
+      "kwright",
+      "ManifoldCFJettyRunner.java",
+      1
+   ],
+   [
+      "kwright",
+      "IXMLHandler.java",
+      1
+   ],
+   [
+      "kwright",
+      "hsqldb.jar",
+      1
+   ],
+   [
+      "kwright",
+      "IRedirectionHandler.java",
+      1
+   ],
+   [
+      "kwright",
+      "IHierarchyParent.java",
+      1
+   ],
+   [
+      "rmuir",
+      "MemexConnector.java",
+      1
+   ],
+   [
+      "kwright",
+      "ScriptParseState.java",
+      1
+   ],
+   [
+      "kwright",
+      "MemexAuthority.java",
+      1
+   ],
+   [
+      "kwright",
+      "IncrementalIngester.java",
+      1
+   ],
+   [
+      "kwright",
+      "Carrydown.java",
+      1
+   ],
+   [
+      "kwright",
+      "ManifoldCFMemexConnection.java",
       1
    ]
 ]

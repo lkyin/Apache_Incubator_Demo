@@ -1,27 +1,37 @@
 [
    [
       "Jacques Nadeau",
-      "FormatMatcher.java",
+      "HiveReadEntryOld.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "OutputTypeDeterminer.java",
+      "ScanBuilder.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "StoragePluginRegistry.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveInputReader.java",
+      "ReadEntry.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "CommonConstants.java",
+      "SimpleExprVisitor.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "DrillSchemaFactory.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "VariableLengthVectors.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "CastFunctionDefs.java",
       1
    ],
    [
@@ -31,108 +41,13 @@
    ],
    [
       "Jacques Nadeau",
-      "AbstractSingleBuilder.java",
+      "TypeCastRules.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "HiveReadEntryOld.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ConstantChecker.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "StorageEngineConfig.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FunctionRegistry.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "OrderDef.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ParquetGroupScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ParquetRecordReaderTest.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TestCastVarCharToBigInt.java",
+      "HiveReadEntry.java",
       2
-   ],
-   [
-      "Jacques Nadeau",
-      "MathFunctions.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "GroupScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "GroupingAggregate.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveDatabaseSchema.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalVisitor.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "package-info.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveStorageEngineConfig.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "ExpressionTreeMaterializer.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ReadEntryWithPath.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveScanBatchCreator.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "IsNull.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "UnlimitedRawBatchBuffer.java",
-      1
    ],
    [
       "Jacques Nadeau",
@@ -141,143 +56,8 @@
    ],
    [
       "Jacques Nadeau",
-      "HiveStorageEngine.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "QueryContext.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveSchema.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Join.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "InfoSchemaStoragePlugin.java",
+      "Scan.java",
       2
-   ],
-   [
-      "Jacques Nadeau",
-      "InfoSchemaDrillTable.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "Union.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FixedByteAlignedReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TestHashToRandomExchange.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveSubScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "OptiqProvider.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Types.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ColumnDataReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TestHiveScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HashFunctions.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "InfoSchemaTable.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TypeCastRules.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "RowProvider.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "BasicOptimizer.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "VectorSet.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "NullableColumnReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JSONRecordReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "LogicalPlanBuilder.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "DrillbitContext.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TestTools.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "TestSimpleFunctions.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TestCastFunctions.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "ResolverTypePrecedence.java",
-      1
    ],
    [
       "Jacques Nadeau",
@@ -291,317 +71,12 @@
    ],
    [
       "Jacques Nadeau",
-      "SelectedTable.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "NullableFixedByteAlignedReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ValueExpressions.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "AggregateChecker.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Casts.tdd",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "PlanProperties.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ScanBuilder.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "EasyFormatPlugin.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveReadEntry.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "FixedTable.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JSONRecordReaderTest.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "DrillTable.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JSONOptions.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "AbstractSubScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "CastFunctionsSrcVarLen.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "SchemaPath.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "CastFunctionDefs.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JSONGroupScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FormatPluginConfigBase.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ParquetRecordReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveTable.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "RowRecordReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "AbstractLogicalVisitor.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "drill-module.conf",
-      1
-   ],
-   [
-      "tnachen",
-      "PartitionDef.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FragmentContext.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "FormatPluginConfig.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "config.fmpp",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ParquetStorageEngine.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Order.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ReadEntry.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "StoreBuilder.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "StoragePluginConfig.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "TestOrphanSchema.java",
-      3
-   ],
-   [
-      "Jacques Nadeau",
-      "SingleInputOperator.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ConstructorChecker.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "InfoSchemaBatchCreator.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "TemplateClassDefinition.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "EasyGroupScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
       "MathFunctionTemplates.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "VariableLengthVectors.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "DynamicDrillTable.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "SchemaBuilder.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "DrillSchemaFactory.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "EmptyVectorSet.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "SubScan.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Store.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "StorageEngineConfigBase.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "JSONStorageEngine.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "PageReadStatus.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "InfoSchemaGroupScan.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "PartitionDef.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "FieldReference.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "StoragePluginConfigBase.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ColumnReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "PipeProvider.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "HiveSchemaProvider.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "InfoSchemaConfig.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "Wrapper.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "SimpleExprVisitor.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "OrphanSchema.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "JSONSubScan.java",
+      "HiveStorageEngine.java",
       1
    ],
    [
@@ -611,23 +86,33 @@
    ],
    [
       "Jacques Nadeau",
-      "ParquetRowGroupScan.java",
+      "ColumnReader.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "HiveTestDataGenerator.java",
+      "ParquetScanBatchCreator.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "ConstantExpressionIdentifier.java",
+      "ResolverTypePrecedence.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "PipeProvider.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "MathFunctions.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "InfoSchemaBatchCreator.java",
       2
-   ],
-   [
-      "Jacques Nadeau",
-      "TestMathFunctions.java",
-      1
    ],
    [
       "Jacques Nadeau",
@@ -636,37 +121,12 @@
    ],
    [
       "Jacques Nadeau",
-      "FileSystemSchema.java",
+      "EasyGroupScan.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "HiveRecordReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "ParquetFormatPlugin.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "Scan.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "InfoSchemaSubScan.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "NullableBitReader.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "DrillSqlWorker.java",
+      "Store.java",
       1
    ],
    [
@@ -676,7 +136,122 @@
    ],
    [
       "Jacques Nadeau",
-      "CheckStorageConfig.java",
+      "HiveSubScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "PlanProperties.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "AbstractLogicalVisitor.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestTools.java",
+      2
+   ],
+   [
+      "tnachen",
+      "PartitionDef.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "JSONSubScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "EasyFormatPlugin.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ValueExpressions.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "StorageEngineConfigBase.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "OutputTypeDeterminer.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "StoragePluginConfig.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "HiveSchemaProvider.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "ColumnDataReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "NullableFixedByteAlignedReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "RowProvider.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "DrillbitContext.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "EmptyVectorSet.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "PartitionDef.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestHashToRandomExchange.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ConstructorChecker.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "BasicOptimizer.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "SelectedTable.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "FormatMatcher.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "LogicalVisitor.java",
       1
    ],
    [
@@ -686,37 +261,27 @@
    ],
    [
       "Jacques Nadeau",
-      "DrillHandler.java",
+      "StorageEngines.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "DrillConfig.java",
+      "LogicalPlanBuilder.java",
       2
    ],
    [
       "Jacques Nadeau",
-      "ParquetScanBatchCreator.java",
+      "HiveInputReader.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "LocalSyncableFileSystem.java",
+      "ParquetGroupScan.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "TestTableProvider.java",
-      2
-   ],
-   [
-      "Jacques Nadeau",
-      "ExprVisitor.java",
-      1
-   ],
-   [
-      "Jacques Nadeau",
-      "BasicFormatMatcher.java",
+      "HiveTestDataGenerator.java",
       1
    ],
    [
@@ -726,12 +291,32 @@
    ],
    [
       "Jacques Nadeau",
-      "BitReader.java",
+      "FieldReference.java",
       1
    ],
    [
       "Jacques Nadeau",
-      "TestJdbcQuery.java",
+      "JSONGroupScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Order.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Join.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestSimpleFunctions.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "SchemaPath.java",
       2
    ],
    [
@@ -741,8 +326,183 @@
    ],
    [
       "Jacques Nadeau",
+      "HiveSchema.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "NullableColumnReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
       "PhysicalPlanReader.java",
       1
+   ],
+   [
+      "Jacques Nadeau",
+      "ExpressionTreeMaterializer.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "CommonConstants.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ParquetFormatPlugin.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "QueryContext.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "UnlimitedRawBatchBuffer.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FixedTable.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "InfoSchemaGroupScan.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "CastFunctionsSrcVarLen.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FragmentContext.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "TemplateClassDefinition.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Casts.tdd",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "StorageEngineConfig.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ReadEntryWithPath.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "DrillHandler.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "RowRecordReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "GroupScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestOrphanSchema.java",
+      3
+   ],
+   [
+      "Jacques Nadeau",
+      "InfoSchemaTable.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "DynamicDrillTable.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "InfoSchemaConfig.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "DrillTable.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FunctionRegistry.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "BitReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "IsNull.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestJdbcQuery.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "Union.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ParquetStorageEngine.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "AbstractSubScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "InfoSchemaSubScan.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "FileSystemSchema.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "JSONStorageEngine.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestTableProvider.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "DrillConfig.java",
+      2
    ],
    [
       "Jacques Nadeau",
@@ -751,12 +511,252 @@
    ],
    [
       "Jacques Nadeau",
-      "StorageEngines.java",
+      "LocalSyncableFileSystem.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "DrillSqlWorker.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FormatPluginConfig.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Types.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "SingleInputOperator.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "VectorSet.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestCastFunctions.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "FixedByteAlignedReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "FormatPluginConfigBase.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "BasicFormatMatcher.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "StoragePluginRegistry.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "HiveStorageEngineConfig.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "HiveScanBatchCreator.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "CheckStorageConfig.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ParquetRowGroupScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "GroupingAggregate.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "OrphanSchema.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "HiveTable.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "AbstractSingleBuilder.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ParquetRecordReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "config.fmpp",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ParquetRecordReaderTest.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ExprVisitor.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "AggregateChecker.java",
       1
    ],
    [
       "tnachen",
       "OrderDef.java",
       1
+   ],
+   [
+      "Jacques Nadeau",
+      "NullableBitReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "JSONRecordReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "InfoSchemaDrillTable.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "TestHiveScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "HiveDatabaseSchema.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestCastVarCharToBigInt.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "StoragePluginConfigBase.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "OrderDef.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "SchemaBuilder.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "Wrapper.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "StoreBuilder.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "OptiqProvider.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "HiveScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ConstantChecker.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "JSONOptions.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "HashFunctions.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "InfoSchemaStoragePlugin.java",
+      2
+   ],
+   [
+      "Jacques Nadeau",
+      "drill-module.conf",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "SubScan.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "HiveRecordReader.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "PageReadStatus.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "TestMathFunctions.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "JSONRecordReaderTest.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "package-info.java",
+      1
+   ],
+   [
+      "Jacques Nadeau",
+      "ConstantExpressionIdentifier.java",
+      2
    ]
 ]

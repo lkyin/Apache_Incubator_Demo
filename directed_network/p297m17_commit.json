@@ -1,82 +1,52 @@
 [
    [
-      "mmorel",
-      "MockCoreModule.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "UDPEmitter.java",
-      1
-   ],
-   [
       "Matthieu Morel",
+      "newApp.README",
+      2
+   ],
+   [
+      "mmorel",
       "FTWordCountTest.java",
-      3
+      1
    ],
    [
       "Kishore Gopalakrishna",
-      "S4Bootstrap.java",
-      1
+      "GenericEventAdapter.java",
+      2
    ],
    [
-      "mmorel",
-      "TestProducerConsumer.java",
-      1
-   ],
-   [
-      "mmorel",
-      "S4RFetcher.java",
+      "Kishore Gopalakrishna",
+      "ModuleLoaderTestUtils.java",
       1
    ],
    [
       "Matthieu Morel",
-      "UDPDestination.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "HelixBasedCommModule.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "S4HelixBootstrap.java",
-      1
-   ],
-   [
-      "mmorel",
-      "TestEDSL.java",
-      1
-   ],
-   [
-      "mmorel",
-      "App.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "S4Node.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "DefaultCoreModule.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "Deploy.java",
+      "RemoteSenders.java",
       4
    ],
    [
       "Matthieu Morel",
-      "RemoteEmitters.java",
-      4
+      "TestListenerModule.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "CoreTestUtils.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "ProducerApp.java",
+      1
    ],
    [
       "Kishore Gopalakrishna",
-      "PhysicalCluster.java",
+      "EmitterMetrics.java",
+      2
+   ],
+   [
+      "kishoreg",
+      "TCPEmitter.java",
       1
    ],
    [
@@ -86,12 +56,432 @@
    ],
    [
       "Matthieu Morel",
-      "AppStateModelFactory.java",
+      "ClusterFromHelix.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "ZkRemoteStreams.java",
+      4
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "Cluster.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "ZkClientProvider.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "ClusterFromHelix.java",
+      2
+   ],
+   [
+      "mmorel",
+      "CoreTestUtils.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "PhysicalCluster.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "TestModuleLoader.java",
+      3
+   ],
+   [
+      "Matthieu Morel",
+      "ClustersFromZKTest.java",
+      2
+   ],
+   [
+      "mmorel",
+      "DefaultStreamProcessingExecutorServiceFactory.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "RemoteSender.java",
       1
    ],
    [
       "Kishore Gopalakrishna",
+      "AppStateModelFactory.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "CreateCluster.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "BaseModule.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "UDPEmitter.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "TestCommModule.java",
+      3
+   ],
+   [
+      "Kishore Gopalakrishna",
       "AssignmentFromHelix.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "WordCountTest.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "HelixRemoteSenders.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "AddNodes.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "TCPEmitter.java",
+      3
+   ],
+   [
+      "Matthieu Morel",
+      "RemoteStreams.java",
+      4
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "TCPDestination.java",
+      1
+   ],
+   [
+      "mmorel",
+      "Tools.java",
+      1
+   ],
+   [
+      "mmorel",
+      "S4RFetcher.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "Deploy.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "ClustersFromZKNoFailFast.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "Emitter.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "DefaultRemoteSenders.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "TestDeploy.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "DistributedDeploymentManager.java",
+      1
+   ],
+   [
+      "mmorel",
+      "s4-core.gradle",
+      1
+   ],
+   [
+      "kishoreg",
+      "TwitterInputAdapter.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "S4Bootstrap.java",
+      1
+   ],
+   [
+      "mmorel",
+      "S4Metrics.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "UDPBasicTest.java",
+      2
+   ],
+   [
+      "kishoreg",
+      "RebalanceTask.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "AssignmentsFromZKTest1.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "DefaultCoreModule.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "DefaultCoreModule.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "GenericEventAdapter.java",
+      2
+   ],
+   [
+      "kishoreg",
+      "ClusterFromHelix.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "S4RLoaderFactory.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "FileSystemBackendCheckpointingModule.java",
+      1
+   ],
+   [
+      "mmorel",
+      "WindowingPE1.java",
+      1
+   ],
+   [
+      "mmorel",
+      "CheckpointingTest.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "build.gradle",
+      1
+   ],
+   [
+      "mmorel",
+      "NoOpReceiverModule.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "Destination.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "HelixBasedCoreModule.java",
+      2
+   ],
+   [
+      "kishoreg",
+      "DeploymentUtils.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "S4Metrics.java",
+      1
+   ],
+   [
+      "mmorel",
+      "MockCoreModule.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "RemoveTask.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "ClusterStatus.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "RemoteEmitters.java",
+      4
+   ],
+   [
+      "mmorel",
+      "Sender.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "S4Status.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "DefaultCoreModule.java",
+      3
+   ],
+   [
+      "kishoreg",
+      "DeployApp.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "DefaultCommModule.java",
+      7
+   ],
+   [
+      "Matthieu Morel",
+      "AppModule.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "AppStateModel.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "S4Bootstrap.java",
+      4
+   ],
+   [
+      "mmorel",
+      "TestAutomaticDeployment.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "build.gradle",
+      8
+   ],
+   [
+      "Matthieu Morel",
+      "TCPDestination.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "TCPEmitter.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "DefaultRemoteSenders.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "S4HelixBootstrap.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "DeploymentManager.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "Bootstrap.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "HelixBasedCoreModule.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "FTWordCountTest.java",
+      3
+   ],
+   [
+      "Matthieu Morel",
+      "S4Node.java",
+      3
+   ],
+   [
+      "Matthieu Morel",
+      "UDPDestination.java",
+      1
+   ],
+   [
+      "mmorel",
+      "ProtocolTestUtil.java",
+      1
+   ],
+   [
+      "mmorel",
+      "NoOpReceiver.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "TestProducerConsumer.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "ClusterNode.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "UDPEmitter.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "ClustersFromHelix.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "HelixBasedCommModule.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "ZKServer.java",
+      4
+   ],
+   [
+      "mmorel",
+      "FileSystemBasedBackendWithZKStorageCallbackCheckpointingModule.java",
+      1
+   ],
+   [
+      "mmorel",
+      "TestModuleLoaderRemote.java",
       1
    ],
    [
@@ -101,47 +491,42 @@
    ],
    [
       "mmorel",
-      "RemoteSendersExecutorServiceFactory.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "CoreTestUtils.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "S4RLoaderFactory.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TestListenerModule.java",
-      2
-   ],
-   [
-      "kishoreg",
-      "DefaultCoreModule.java",
+      "TestModuleLoader.java",
       1
    ],
    [
       "mmorel",
-      "RecoveryTest.java",
+      "MockReceiverModule.java",
       1
    ],
    [
       "Kishore Gopalakrishna",
-      "ClusterFromZK.java",
+      "Emitter.java",
       1
    ],
    [
       "Matthieu Morel",
-      "MockCommModule.java",
-      2
+      "TestListener.java",
+      3
+   ],
+   [
+      "Matthieu Morel",
+      "RecoveryTest.java",
+      3
    ],
    [
       "mmorel",
-      "DefaultStreamProcessingExecutorServiceFactory.java",
+      "TestEDSL.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "S4StateModel.java",
+      1
+   ],
+   [
+      "mmorel",
+      "ProcessingElement.java",
       1
    ],
    [
@@ -150,28 +535,28 @@
       1
    ],
    [
+      "Kishore Gopalakrishna",
+      "Tools.java",
+      1
+   ],
+   [
       "kishoreg",
-      "HelixBasedCoreModule.java",
+      "S4Bootstrap.java",
       1
    ],
    [
       "Matthieu Morel",
-      "AppStateModel.java",
+      "ModuleLoaderTestUtils.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "WordCountTest.java",
       2
    ],
    [
-      "Matthieu Morel",
-      "PhysicalCluster.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "HelixRemoteStreams.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "RemoveTask.java",
+      "mmorel",
+      "DefaultCoreModule.java",
       1
    ],
    [
@@ -180,43 +565,98 @@
       1
    ],
    [
+      "mmorel",
+      "ReceiverImpl.java",
+      1
+   ],
+   [
       "Matthieu Morel",
-      "newApp.README",
+      "AppStateModel.java",
       2
    ],
    [
-      "Kishore Gopalakrishna",
-      "TCPEmitter.java",
-      3
-   ],
-   [
-      "kishoreg",
-      "BaseModule.java",
-      2
-   ],
-   [
-      "kishoreg",
-      "ClusterFromHelix.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "Tools.java",
+      "mmorel",
+      "WordClassifierPE.java",
       1
    ],
    [
       "mmorel",
-      "s4-core.gradle",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "TCPBasicTest.java",
+      "WordCountTest.java",
       2
    ],
    [
       "Matthieu Morel",
-      "DeployApp.java",
+      "HelixBasedCommModule.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "UDPDestination.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "DistributedDeploymentManager.java",
+      1
+   ],
+   [
+      "mmorel",
+      "ZKServer.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "TestModuleLoaderRemote.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "ClusterFromHelix.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "AssignmentFromZKNoFailFast.java",
+      2
+   ],
+   [
+      "mmorel",
+      "Deploy.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "PhysicalCluster.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "FileSystemArchiveFetcher.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "PhysicalCluster.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "Stream.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "TaskStateModelFactory.java",
+      1
+   ],
+   [
+      "mmorel",
+      "HttpS4RFetcher.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "HelixRemoteStreams.java",
       1
    ],
    [
@@ -230,98 +670,13 @@
       1
    ],
    [
-      "Kishore Gopalakrishna",
-      "DeploymentUtils.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "TestModuleLoader.java",
-      3
-   ],
-   [
-      "Matthieu Morel",
-      "ZkClientProvider.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "Emitter.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "ZkRemoteStreams.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "DefaultCoreModule.java",
-      3
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "TaskStateModelFactory.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "BaseModule.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "S4Node.java",
-      3
-   ],
-   [
       "mmorel",
-      "WordCountTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "BaseModule.java",
-      5
-   ],
-   [
-      "mmorel",
-      "DefaultCoreModule.java",
+      "App.java",
       1
    ],
    [
-      "mmorel",
-      "NoOpReceiverModule.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "ProducerApp.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "UDPEmitter.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "DefaultCommModule.java",
-      7
-   ],
-   [
-      "mmorel",
-      "TestModuleLoader.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "RemoteSenders.java",
-      4
-   ],
-   [
-      "mmorel",
-      "Deploy.java",
+      "kishoreg",
+      "AppConfig.java",
       1
    ],
    [
@@ -331,232 +686,17 @@
    ],
    [
       "Matthieu Morel",
-      "UDPBasicTest.java",
+      "TCPBasicTest.java",
       2
    ],
    [
       "Matthieu Morel",
-      "AppConfig.java",
-      3
-   ],
-   [
-      "Matthieu Morel",
-      "ModuleLoaderTestUtils.java",
-      4
-   ],
-   [
-      "kishoreg",
-      "RebalanceTask.java",
-      1
-   ],
-   [
-      "mmorel",
-      "ProtocolTestUtil.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "TestListener.java",
-      3
-   ],
-   [
-      "kishoreg",
-      "AppConfig.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "TestDeploy.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "MockCoreModule.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "AssignmentsFromZKTest1.java",
+      "AssignmentFromZK.java",
       2
    ],
    [
       "Kishore Gopalakrishna",
-      "TCPEmitter.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "TestModuleLoaderRemote.java",
-      2
-   ],
-   [
-      "mmorel",
-      "TestModuleLoaderRemote.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "FileSystemArchiveFetcher.java",
-      1
-   ],
-   [
-      "mmorel",
-      "DefaultRemoteSendersExecutorServiceFactory.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "TCPDestination.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "TCPEmitter.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "ClusterFromHelix.java",
-      1
-   ],
-   [
-      "mmorel",
-      "MockReceiver.java",
-      1
-   ],
-   [
-      "mmorel",
-      "FTWordCountTest.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "ClusterStatus.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TCPDestination.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "HelixBasedDeploymentManager.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "build.gradle",
-      1
-   ],
-   [
-      "mmorel",
-      "RemoteSenders.java",
-      1
-   ],
-   [
-      "mmorel",
-      "Stream.java",
-      1
-   ],
-   [
-      "mmorel",
-      "CommTestUtils.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "DeploymentManager.java",
-      1
-   ],
-   [
-      "mmorel",
-      "ReceiverImpl.java",
-      1
-   ],
-   [
-      "mmorel",
-      "Sender.java",
-      1
-   ],
-   [
-      "mmorel",
-      "MyApp.java",
-      1
-   ],
-   [
-      "mmorel",
-      "NoOpReceiver.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "ClusterFromZK.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "S4StateModel.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "ClustersFromZK.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "ClusterFromHelix.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "DeploymentManager.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "DeployApp.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Stream.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "S4Metrics.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "HelixBasedCoreModule.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "CreateTask.java",
-      3
-   ],
-   [
-      "Matthieu Morel",
-      "DefaultRemoteEmitters.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "ClustersFromZKTest.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "SenderImpl.java",
-      2
-   ],
-   [
-      "kishoreg",
-      "RemoteSender.java",
+      "S4HelixBootstrap.java",
       1
    ],
    [
@@ -565,8 +705,18 @@
       1
    ],
    [
-      "kishoreg",
-      "TCPEmitter.java",
+      "Kishore Gopalakrishna",
+      "RemoteSender.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "DefaultRemoteEmitters.java",
+      4
+   ],
+   [
+      "mmorel",
+      "MyApp.java",
       1
    ],
    [
@@ -576,107 +726,67 @@
    ],
    [
       "mmorel",
-      "WindowingPE1.java",
+      "MockReceiver.java",
       1
    ],
    [
       "Matthieu Morel",
-      "build.gradle",
-      8
+      "TestAutomaticDeployment.java",
+      2
    ],
    [
       "Kishore Gopalakrishna",
-      "ModuleLoaderTestUtils.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "NoOpDeploymentManager.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "HelixBasedDeploymentManager.java",
+      "DefaultCoreModule.java",
       1
    ],
    [
       "mmorel",
-      "WordClassifierPE.java",
+      "RemoteSenders.java",
       1
    ],
    [
       "Matthieu Morel",
-      "RecoveryTest.java",
-      3
-   ],
-   [
-      "Matthieu Morel",
-      "ClusterFromZKNoFailFast.java",
+      "Status.java",
       2
    ],
    [
-      "Matthieu Morel",
-      "ZKServer.java",
-      4
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "ClusterFromHelix.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "DefaultRemoteSenders.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "Emitter.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
+      "kishoreg",
       "HelixBasedDeploymentManager.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "ClusterFromZK.java",
       1
+   ],
+   [
+      "mmorel",
+      "Stream.java",
+      1
+   ],
+   [
+      "mmorel",
+      "RecoveryTest.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "MockCoreModule.java",
+      2
+   ],
+   [
+      "mmorel",
+      "FileSystemBackendCheckpointingModule.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "SenderImpl.java",
+      2
    ],
    [
       "Matthieu Morel",
       "Server.java",
-      1
-   ],
-   [
-      "mmorel",
-      "CoreTestUtils.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "AssignmentFromZKNoFailFast.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "S4Bootstrap.java",
-      4
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "Bootstrap.java",
-      1
-   ],
-   [
-      "mmorel",
-      "HttpS4RFetcher.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "CreateCluster.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "ClustersFromHelix.java",
       1
    ],
    [
@@ -685,53 +795,18 @@
       1
    ],
    [
-      "Kishore Gopalakrishna",
-      "UDPDestination.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "DeploymentUtils.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "HelixBasedCommModule.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "TwitterInputAdapter.java",
-      1
-   ],
-   [
-      "mmorel",
-      "StreamExecutorServiceFactory.java",
-      1
-   ],
-   [
       "Matthieu Morel",
-      "AssignmentFromZK.java",
+      "TCPEmitter.java",
       2
    ],
    [
       "kishoreg",
-      "AppStateModel.java",
-      1
-   ],
-   [
-      "mmorel",
-      "ZKServer.java",
-      1
+      "Tools.java",
+      2
    ],
    [
       "Kishore Gopalakrishna",
-      "RemoteSender.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "FileSystemBackendCheckpointingModule.java",
+      "HelixBasedDeploymentManager.java",
       1
    ],
    [
@@ -740,138 +815,18 @@
       2
    ],
    [
-      "mmorel",
-      "CheckpointingTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Status.java",
-      2
-   ],
-   [
-      "mmorel",
-      "Tools.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "GenericEventAdapter.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TestCommModule.java",
-      3
-   ],
-   [
-      "Matthieu Morel",
-      "HelixBasedCoreModule.java",
-      2
-   ],
-   [
       "Kishore Gopalakrishna",
-      "EmitterMetrics.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TestProducerConsumer.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "DistributedDeploymentManager.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "WordCountTest.java",
+      "CoreTestUtils.java",
       1
    ],
    [
       "mmorel",
-      "MockReceiverModule.java",
-      1
-   ],
-   [
-      "mmorel",
-      "FileSystemBackendCheckpointingModule.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "HelixBasedCommModule.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "GenericEventAdapter.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "Cluster.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "RemoteStreams.java",
-      4
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "DefaultCoreModule.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "Destination.java",
-      1
-   ],
-   [
-      "kishoreg",
-      "HelixRemoteSenders.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "ClusterNode.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "AppStateModelFactory.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "WordCountTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "DefaultRemoteSenders.java",
-      4
-   ],
-   [
-      "kishoreg",
-      "S4Status.java",
-      2
-   ],
-   [
-      "mmorel",
-      "FileSystemBasedBackendWithZKStorageCallbackCheckpointingModule.java",
+      "RemoteSendersExecutorServiceFactory.java",
       1
    ],
    [
       "Kishore Gopalakrishna",
       "AppStateModel.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "PhysicalCluster.java",
       1
    ],
    [
@@ -881,47 +836,22 @@
    ],
    [
       "Kishore Gopalakrishna",
-      "AddNodes.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "CoreTestUtils.java",
-      1
-   ],
-   [
-      "mmorel",
-      "TestAutomaticDeployment.java",
+      "HelixBasedCommModule.java",
       1
    ],
    [
       "Matthieu Morel",
-      "TestAutomaticDeployment.java",
+      "ClusterFromZKNoFailFast.java",
       2
+   ],
+   [
+      "mmorel",
+      "DefaultRemoteSendersExecutorServiceFactory.java",
+      1
    ],
    [
       "Matthieu Morel",
-      "ClustersFromZKNoFailFast.java",
-      2
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "DistributedDeploymentManager.java",
-      1
-   ],
-   [
-      "Kishore Gopalakrishna",
-      "S4HelixBootstrap.java",
-      1
-   ],
-   [
-      "mmorel",
-      "ProcessingElement.java",
-      1
-   ],
-   [
-      "mmorel",
-      "MockCommModule.java",
+      "AppStateModelFactory.java",
       1
    ],
    [
@@ -930,18 +860,18 @@
       3
    ],
    [
-      "kishoreg",
-      "S4Bootstrap.java",
+      "Kishore Gopalakrishna",
+      "S4Node.java",
       1
    ],
    [
       "mmorel",
-      "S4Metrics.java",
+      "MockCommModule.java",
       1
    ],
    [
-      "Matthieu Morel",
-      "AppModule.java",
+      "Kishore Gopalakrishna",
+      "DeploymentUtils.java",
       1
    ],
    [
@@ -950,8 +880,78 @@
       1
    ],
    [
-      "kishoreg",
-      "Tools.java",
+      "Matthieu Morel",
+      "ClustersFromZK.java",
       2
+   ],
+   [
+      "mmorel",
+      "TestProducerConsumer.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "MockCommModule.java",
+      2
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "DeploymentManager.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "BaseModule.java",
+      5
+   ],
+   [
+      "Matthieu Morel",
+      "DeployApp.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "AppConfig.java",
+      3
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "ClusterFromZK.java",
+      1
+   ],
+   [
+      "Kishore Gopalakrishna",
+      "NoOpDeploymentManager.java",
+      1
+   ],
+   [
+      "mmorel",
+      "StreamExecutorServiceFactory.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "HelixBasedCoreModule.java",
+      1
+   ],
+   [
+      "mmorel",
+      "CommTestUtils.java",
+      1
+   ],
+   [
+      "kishoreg",
+      "CreateTask.java",
+      3
+   ],
+   [
+      "kishoreg",
+      "BaseModule.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "HelixBasedDeploymentManager.java",
+      1
    ]
 ]

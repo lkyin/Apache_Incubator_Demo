@@ -1,72 +1,12 @@
 [
    [
-      "abayer",
-      "sqoop-metastore.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "TestJdbcDriver.java",
-      2
-   ],
-   [
-      "abayer",
-      "YumCmdLinePackageManager.groovy",
-      1
-   ],
-   [
       "rvs",
-      "TestJdbcDriver.java",
+      "hadoop-pig.prerm",
       2
    ],
    [
       "abayer",
-      "hadoop.lintian-overrides",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop.prerm",
-      1
-   ],
-   [
-      "abayer",
-      "itest.apt",
-      2
-   ],
-   [
-      "abayer",
-      "pig.spec",
-      1
-   ],
-   [
-      "abayer",
-      "mysql-load-db.sql",
-      4
-   ],
-   [
-      "rvs",
-      "TestListUtilsTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "install_pig.sh",
-      1
-   ],
-   [
-      "abayer",
-      "devguide.apt",
-      2
-   ],
-   [
-      "abayer",
-      "u3.base",
-      2
-   ],
-   [
-      "abayer",
-      "RPMPackage.groovy",
+      "install_sqoop.sh",
       1
    ],
    [
@@ -76,18 +16,103 @@
    ],
    [
       "abayer",
+      "hadoop.prerm",
+      1
+   ],
+   [
+      "abayer",
+      "mysql-create-db.sql",
+      4
+   ],
+   [
+      "rvs",
       "TestPackagesPseudoDistributedUpgrade.groovy",
       2
    ],
    [
       "abayer",
-      "oozie-examples.sh",
+      "hadoop-hbase.dirs",
+      1
+   ],
+   [
+      "rvs",
+      "JUnitUtils.groovy",
       1
    ],
    [
       "abayer",
-      "hadoop-native.install",
+      "hadoop-hive.sh",
       1
+   ],
+   [
+      "abayer",
+      "DummyTestFail.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "DummyTestPass.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "TestServicesCreateState.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "StateVerifier.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-doc.lintian-overrides",
+      1
+   ],
+   [
+      "abayer",
+      "whirr.spec",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-conf-pseudo.install",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-env.sh",
+      1
+   ],
+   [
+      "abayer",
+      "JUnitUtilsTest.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "oozie.spec",
+      5
+   ],
+   [
+      "rvs",
+      "service-init.d.tpl",
+      4
+   ],
+   [
+      "abayer",
+      "init.d",
+      1
+   ],
+   [
+      "abayer",
+      "JarContentTest.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "StateVerifierZookeeper.groovy",
+      2
    ],
    [
       "rvs",
@@ -95,73 +120,108 @@
       2
    ],
    [
-      "abayer",
-      "select-table.hxt",
-      2
-   ],
-   [
       "rvs",
-      "StateVerifierSqoop.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "DummyTestError.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "ZypperCmdLinePackageManager.groovy",
+      "DEBPackage.groovy",
       1
    ],
    [
       "rvs",
-      "TestOozieSmoke.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-fuse.dirs",
+      "mahout.prerm",
       1
    ],
    [
       "abayer",
-      "TestTestCLI.groovy",
+      "oozie.spec",
+      1
+   ],
+   [
+      "abayer",
+      "u.data",
       2
    ],
    [
       "abayer",
-      "hadoop-zookeeper.sh.suse",
+      "hadoop-fuse.install",
       1
    ],
    [
       "rvs",
-      "StateVerifierHue.groovy",
+      "hadoop.prerm",
+      1
+   ],
+   [
+      "abayer",
+      "hbase.default",
+      1
+   ],
+   [
+      "rvs",
+      "TestServicesVerifyState.groovy",
       2
    ],
    [
       "abayer",
-      "ub.base",
+      "AlternativeTest.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "zookeeper.spec",
+      5
+   ],
+   [
+      "abayer",
+      "mku.sh",
       2
    ],
    [
       "rvs",
-      "sqoop-metastore.sh",
+      "hadoop-hbase.postinst",
       1
    ],
    [
       "abayer",
-      "install_sqoop.sh",
+      "install_zookeeper.sh",
       1
    ],
    [
       "abayer",
-      "service-postinst.tpl",
-      3
+      "allbut.pl",
+      2
+   ],
+   [
+      "abayer",
+      "mahout.preinst",
+      2
+   ],
+   [
+      "rvs",
+      "hadoop-init.tmpl.suse",
+      2
+   ],
+   [
+      "rvs",
+      "StateVerifierHBase.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "TestHadoopExamples.groovy",
+      2
    ],
    [
       "rvs",
       "TestPackagesBasics.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "test.hql",
+      4
+   ],
+   [
+      "rvs",
+      "Shell.groovy",
       1
    ],
    [
@@ -171,477 +231,12 @@
    ],
    [
       "abayer",
-      "smbbucket_3.rc",
+      "index.apt",
       2
-   ],
-   [
-      "rvs",
-      "AlternativeTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "TestPackagesReadiness.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "service-postrm.tpl",
-      3
-   ],
-   [
-      "abayer",
-      "hadoop-hbase.preinst",
-      1
-   ],
-   [
-      "rvs",
-      "PackageTestCommon.groovy",
-      3
-   ],
-   [
-      "rvs",
-      "userguide.apt",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop.1",
-      1
-   ],
-   [
-      "abayer",
-      "install_whirr.sh",
-      1
-   ],
-   [
-      "rvs",
-      "flume.prerm",
-      2
-   ],
-   [
-      "abayer",
-      "hive.1",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hive.sh",
-      1
-   ],
-   [
-      "abayer",
-      "ua.test",
-      2
-   ],
-   [
-      "rvs",
-      "RPMPackage.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "examples.apt",
-      2
-   ],
-   [
-      "abayer",
-      "DeployCDH.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop.install",
-      1
-   ],
-   [
-      "abayer",
-      "u5.test",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-zookeeper.sh",
-      1
-   ],
-   [
-      "abayer",
-      "StateVerifierMapreduce.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "Alternative.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop.spec",
-      6
-   ],
-   [
-      "abayer",
-      "TestHadoopSmoke.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "TestPackagesSingleNode.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop-hbase.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "PackageTestMatchers.java",
-      2
-   ],
-   [
-      "rvs",
-      "TestHadoopExamples.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-pig.postinst",
-      3
-   ],
-   [
-      "abayer",
-      "UGITest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hbase-doc.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "Service.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hbase.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "install_init_scripts.sh",
-      3
-   ],
-   [
-      "rvs",
-      "hadoop-zookeeper.prerm",
-      1
-   ],
-   [
-      "abayer",
-      "install_hadoop.sh",
-      1
-   ],
-   [
-      "abayer",
-      "TestPackagesPseudoDistributed.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "smbbucket_1.rc",
-      2
-   ],
-   [
-      "rvs",
-      "StateVerifierHBase.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-zookeeper.preinst",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-fuse.lintian-overrides",
-      1
-   ],
-   [
-      "abayer",
-      "AptCmdLinePackageManager.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "IntegrationTestSqoopHBase.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "cachedir.jar",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop-hive.sh.suse",
-      1
-   ],
-   [
-      "abayer",
-      "mahout.prerm",
-      2
-   ],
-   [
-      "abayer",
-      "PackageManager.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "mahout.prerm",
-      1
-   ],
-   [
-      "rvs",
-      "HiveBulkScriptExecutor.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-pipes.install",
-      1
-   ],
-   [
-      "rvs",
-      "hbase.default",
-      1
-   ],
-   [
-      "rvs",
-      "zookeeper.spec",
-      5
-   ],
-   [
-      "rvs",
-      "UGI.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "u5.base",
-      2
-   ],
-   [
-      "abayer",
-      "JUnitUtilsTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "install_flume.sh",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "oozie-env.sh",
-      1
-   ],
-   [
-      "abayer",
-      "oozie.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "DummyTestPass.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-conf-pseudo.postinst",
-      1
-   ],
-   [
-      "rvs",
-      "Shell.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hbase-doc.install",
-      1
-   ],
-   [
-      "abayer",
-      "TestFlumeSmoke.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "u1.test",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop-hive.sh",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop.default",
-      1
-   ],
-   [
-      "rvs",
-      "ManagedPackage.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hive.prerm",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-hbase.sh",
-      3
-   ],
-   [
-      "abayer",
-      "test.dat",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-hbase.manpages",
-      1
-   ],
-   [
-      "rvs",
-      "UGITest.groovy",
-      1
    ],
    [
       "rvs",
       "IntegrationTestSqoopHBase.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "DeployCDH.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "TestPackagesPseudoDistributedState.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-fuse.default",
-      1
-   ],
-   [
-      "rvs",
-      "TestHadoopSmoke.groovy",
-      3
-   ],
-   [
-      "abayer",
-      "AlternativeTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hbase.default",
-      1
-   ],
-   [
-      "abayer",
-      "whirr.spec",
-      2
-   ],
-   [
-      "abayer",
-      "u4.test",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-native.lintian-overrides",
-      1
-   ],
-   [
-      "rvs",
-      "OS.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "Service.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "TestHbasePigSmoke.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "install_mahout.sh",
-      2
-   ],
-   [
-      "rvs",
-      "mahout.spec",
-      3
-   ],
-   [
-      "abayer",
-      "hadoop-hbase.default",
-      1
-   ],
-   [
-      "rvs",
-      "examples.apt",
-      1
-   ],
-   [
-      "rvs",
-      "TestServicesVerifyState.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "ShellTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "CDHUpgradeSequence.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "ua.base",
-      2
-   ],
-   [
-      "rvs",
-      "IntegrationTestSqoopHive.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "kv1.seq",
       2
    ],
    [
@@ -650,108 +245,43 @@
       1
    ],
    [
-      "rvs",
-      "Alternative.groovy",
-      1
-   ],
-   [
       "abayer",
-      "hadoop.preinst",
-      1
-   ],
-   [
-      "abayer",
-      "PackageTestErrorProxy.java",
-      2
-   ],
-   [
-      "rvs",
-      "TestFlumeSmoke.groovy",
-      3
-   ],
-   [
-      "abayer",
-      "hive-select-table.hql",
-      4
-   ],
-   [
-      "abayer",
-      "create-table.hxt",
+      "PackageTestMatchers.java",
       2
    ],
    [
       "abayer",
-      "TestServicesCreateState.groovy",
+      "smbbucket_2.rc",
       2
    ],
    [
       "rvs",
-      "sqoop-metastore.sh.suse",
+      "hadoop-hive.sh",
       1
    ],
    [
       "abayer",
-      "TestOozieSmoke.groovy",
+      "IntegrationTestHiveSmokeBulk.groovy",
       2
    ],
    [
-      "rvs",
-      "JarContent.groovy",
+      "abayer",
+      "install_hadoop.sh",
       1
    ],
    [
       "abayer",
-      "hadoop-init.tmpl",
-      1
-   ],
-   [
-      "abayer",
-      "package.mk",
-      1
-   ],
-   [
-      "abayer",
-      "whirr.1",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hive.preinst",
-      1
-   ],
-   [
-      "abayer",
-      "flume.manpages",
-      1
-   ],
-   [
-      "abayer",
-      "TestServicesVerifyState.groovy",
+      "kv1.seq",
       2
    ],
    [
-      "rvs",
-      "hadoop-hive.dirs",
+      "abayer",
+      "source.lintian-overrides",
       1
    ],
    [
       "rvs",
-      "hive.spec",
-      3
-   ],
-   [
-      "abayer",
-      "allbut.pl",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop-init.tmpl",
-      2
-   ],
-   [
-      "rvs",
-      "PackageInstance.groovy",
+      "init.d.suse",
       1
    ],
    [
@@ -761,63 +291,8 @@
    ],
    [
       "abayer",
-      "hadoop-hive-metastore.default",
-      1
-   ],
-   [
-      "rvs",
-      "TestHiveSmokeBulk.groovy",
+      "StateVerifierFlume.groovy",
       2
-   ],
-   [
-      "abayer",
-      "sqoop.spec",
-      1
-   ],
-   [
-      "rvs",
-      "mahout.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hive.postinst",
-      1
-   ],
-   [
-      "rvs",
-      "StateVerifierHDFS.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "IntegrationTestSqoopHive.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "whirr.spec",
-      2
-   ],
-   [
-      "rvs",
-      "PackageManager.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "drop-table.hxt",
-      2
-   ],
-   [
-      "rvs",
-      "TestPackagesSingleNode.groovy",
-      4
-   ],
-   [
-      "abayer",
-      "flume.docs",
-      1
    ],
    [
       "rvs",
@@ -826,98 +301,33 @@
    ],
    [
       "abayer",
-      "init.d",
+      "hadoop-hive.postinst",
       1
    ],
    [
-      "abayer",
-      "u1.base",
+      "rvs",
+      "DeployCDH.groovy",
       2
    ],
    [
       "rvs",
-      "hadoop-fuse.default",
-      1
-   ],
-   [
-      "rvs",
-      "YumCmdLinePackageManager.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "libhdfs-devel.dirs",
-      1
-   ],
-   [
-      "rvs",
-      "StateVerifierOozie.groovy",
+      "flume.prerm",
       2
    ],
    [
       "abayer",
-      "hadoop-hbase.sh",
-      1
-   ],
-   [
-      "rvs",
-      "pig.spec",
-      3
-   ],
-   [
-      "abayer",
-      "u.item",
-      2
-   ],
-   [
-      "rvs",
-      "ServiceTest.groovy",
+      "u.occupation",
       2
    ],
    [
       "abayer",
+      "ua.base",
+      2
+   ],
+   [
+      "rvs",
       "TestServices.groovy",
       2
-   ],
-   [
-      "abayer",
-      "test.hql",
-      4
-   ],
-   [
-      "abayer",
-      "OrderedParameterized.java",
-      1
-   ],
-   [
-      "abayer",
-      "configuration.xsl",
-      1
-   ],
-   [
-      "abayer",
-      "install_hive.sh",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-hbase.prerm",
-      1
-   ],
-   [
-      "rvs",
-      "downloads.apt",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hive.sh.suse",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-pipes.dirs",
-      1
    ],
    [
       "abayer",
@@ -926,177 +336,22 @@
    ],
    [
       "abayer",
-      "pig.1",
-      1
-   ],
-   [
-      "abayer",
-      "smbbucket_2.rc",
-      2
-   ],
-   [
-      "rvs",
-      "CDHServices.groovy",
+      "u4.test",
       2
    ],
    [
       "abayer",
-      "downloads.apt",
-      2
-   ],
-   [
-      "abayer",
-      "IntegrationTestHiveSmokeBulk.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "flume.spec",
-      3
-   ],
-   [
-      "rvs",
-      "service-init.d.tpl",
-      4
-   ],
-   [
-      "abayer",
-      "hadoop-hive-server.default",
+      "UGI.groovy",
       1
    ],
    [
       "abayer",
-      "hadoop-hbase.sh.suse",
+      "PackageManager.groovy",
       1
    ],
    [
       "abayer",
-      "u3.test",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-fuse.manpages",
-      1
-   ],
-   [
-      "abayer",
-      "seed.hql",
-      4
-   ],
-   [
-      "abayer",
-      "libhdfs.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hbase.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "userguide.apt",
-      2
-   ],
-   [
-      "rvs",
-      "JUnitUtils.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "oozie.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "DummyTestError.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-fuse.install",
-      1
-   ],
-   [
-      "abayer",
-      "TestListUtilsTest.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "TestPackagesReadiness.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "JarContentTest.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "TestTestCLI.groovy",
-      3
-   ],
-   [
-      "rvs",
-      "PackageTestRepoMgr.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "AptCmdLinePackageManager.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "sqoop.spec",
-      3
-   ],
-   [
-      "rvs",
-      "OrderedParameterized.java",
-      1
-   ],
-   [
-      "abayer",
-      "init.d.suse",
-      1
-   ],
-   [
-      "rvs",
-      "oozie.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "HiveBulkScriptExecutor.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "ub.test",
-      2
-   ],
-   [
-      "rvs",
-      "init.d.suse",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-conf-pseudo.lintian-overrides",
-      1
-   ],
-   [
-      "abayer",
-      "shlibs.local",
-      1
-   ],
-   [
-      "abayer",
-      "source.lintian-overrides",
+      "install_whirr.sh",
       1
    ],
    [
@@ -1105,188 +360,28 @@
       1
    ],
    [
-      "rvs",
-      "hadoop-init.tmpl.suse",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop-hive.postinst",
-      1
-   ],
-   [
       "abayer",
-      "u2.test",
-      2
+      "ManagedPackage.groovy",
+      1
    ],
    [
       "rvs",
-      "DummyTestPass.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-hbase.install",
-      1
-   ],
-   [
-      "abayer",
-      "hbase.spec",
-      1
-   ],
-   [
-      "abayer",
-      "zookeeper.spec",
-      1
-   ],
-   [
-      "abayer",
-      "PackageManagerTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "StateVerifierZookeeper.groovy",
-      2
+      "TestPackagesSingleNode.groovy",
+      4
    ],
    [
       "rvs",
-      "TestServices.groovy",
+      "downloads.apt",
+      1
+   ],
+   [
+      "abayer",
+      "StateVerifierHue.groovy",
       2
    ],
    [
       "abayer",
-      "oozie.preinst",
-      1
-   ],
-   [
-      "abayer",
-      "u.user",
-      2
-   ],
-   [
-      "abayer",
-      "flume.preinst",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop.prerm",
-      1
-   ],
-   [
-      "abayer",
-      "mahout.spec",
-      3
-   ],
-   [
-      "abayer",
-      "u.data",
-      2
-   ],
-   [
-      "rvs",
-      "JUnitUtilsTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "JarContent.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-zookeeper.sh.suse",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-doc.lintian-overrides",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-hive.prerm",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-fuse-dfs.1",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-native.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "service-init.d.tpl",
-      3
-   ],
-   [
-      "abayer",
-      "oozie.postrm",
-      1
-   ],
-   [
-      "abayer",
-      "hbase.1",
-      1
-   ],
-   [
-      "rvs",
-      "TestPackagesPseudoDistributedUpgrade.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "DEBPackage.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "sqoop-metastore.preinst",
-      1
-   ],
-   [
-      "abayer",
-      "TestListUtils.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-fuse.install",
-      1
-   ],
-   [
-      "abayer",
-      "install_zookeeper.sh",
-      1
-   ],
-   [
-      "bmahe",
-      "pig.spec",
-      1
-   ],
-   [
-      "abayer",
-      "StateVerifierSqoop.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "Shell.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "smb_bucket_input.rc",
+      "itest.apt",
       2
    ],
    [
@@ -1296,7 +391,62 @@
    ],
    [
       "abayer",
-      "u2.base",
+      "sqoop-metastore.sh.suse",
+      1
+   ],
+   [
+      "abayer",
+      "cachedir.jar",
+      2
+   ],
+   [
+      "rvs",
+      "mahout.spec",
+      3
+   ],
+   [
+      "rvs",
+      "TestHbasePigSmoke.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "PackageTestCommon.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "TestJdbcDriver.java",
+      2
+   ],
+   [
+      "abayer",
+      "zookeeper.1",
+      1
+   ],
+   [
+      "abayer",
+      "complex.seq",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-pipes.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-hive-server.default",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop.lintian-overrides",
+      1
+   ],
+   [
+      "abayer",
+      "ub.base",
       2
    ],
    [
@@ -1306,122 +456,72 @@
    ],
    [
       "abayer",
-      "libhdfs.install",
-      1
-   ],
-   [
-      "rvs",
-      "hadoop-conf-pseudo.prerm",
-      1
-   ],
-   [
-      "abayer",
-      "StateVerifierHBase.groovy",
+      "TestServicesVerifyState.groovy",
       2
    ],
    [
       "abayer",
-      "hadoop-doc.dirs",
+      "oozie.preinst",
       1
    ],
    [
       "abayer",
-      "UGI.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "StateVerifierFlume.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "StateVerifierHue.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop.spec",
-      1
-   ],
-   [
-      "abayer",
-      "complex.seq",
+      "u5.base",
       2
    ],
    [
       "rvs",
-      "CDHUpgradeSequence.groovy",
+      "TestServicesCreateStateMissing.groovy",
+      2
+   ],
+   [
+      "rvs",
+      "TestTestCLI.groovy",
+      3
+   ],
+   [
+      "rvs",
+      "TestHiveSmokeBulk.groovy",
       2
    ],
    [
       "abayer",
-      "StateVerifierOozie.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "TestPackagesPseudoDistributedState.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "devguide.apt",
-      1
-   ],
-   [
-      "rvs",
-      "PackageManagerTest.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "oozie.spec",
-      5
-   ],
-   [
-      "rvs",
-      "StateVerifierZookeeper.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "TestPackagesPseudoDistributed.groovy",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop.install",
+      "hbase.spec",
       1
    ],
    [
       "abayer",
-      "ManagedPackage.groovy",
+      "install_pig.sh",
       1
    ],
    [
-      "abayer",
-      "kv1_broken.seq",
+      "rvs",
+      "TestHadoopExamples.groovy",
       2
    ],
    [
       "abayer",
-      "PackageTestCommon.groovy",
+      "TestPackagesReadiness.groovy",
       2
    ],
    [
-      "bmahe",
-      "hadoop.spec",
+      "rvs",
+      "sqoop-metastore.sh.suse",
       1
    ],
    [
       "abayer",
-      "hadoop.manpages",
+      "hadoop-hbase.default",
       1
    ],
    [
       "abayer",
-      "hadoop-env.sh",
+      "pig.spec",
+      1
+   ],
+   [
+      "abayer",
+      "init.d.suse",
       1
    ],
    [
@@ -1431,92 +531,77 @@
    ],
    [
       "abayer",
-      "StateVerifierFlume.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "DEBPackage.groovy",
-      1
-   ],
-   [
-      "rvs",
       "TestHbasePigSmoke.groovy",
       2
    ],
    [
+      "rvs",
+      "StateVerifierSqoop.groovy",
+      2
+   ],
+   [
       "abayer",
-      "u.occupation",
+      "u2.test",
+      2
+   ],
+   [
+      "abayer",
+      "TestTestCLI.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "whirr.1",
+      1
+   ],
+   [
+      "rvs",
+      "UGI.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "u1.base",
+      2
+   ],
+   [
+      "abayer",
+      "StateVerifierSqoop.groovy",
       2
    ],
    [
       "rvs",
-      "ZypperCmdLinePackageManager.groovy",
-      1
+      "hadoop-init.tmpl",
+      2
    ],
    [
       "abayer",
-      "hive.spec",
-      1
-   ],
-   [
-      "abayer",
-      "sqoop-metastore.sh",
-      1
+      "service-init.d.tpl",
+      3
    ],
    [
       "rvs",
-      "hadoop-hbase.sh.suse",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-doc.install",
-      1
-   ],
-   [
-      "abayer",
-      "hive-drop-table.hql",
-      4
-   ],
-   [
-      "abayer",
-      "zookeeper.1",
-      1
-   ],
-   [
-      "abayer",
-      "OS.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "hadoop-pig.preinst",
+      "hive.spec",
       3
    ],
    [
       "abayer",
-      "PackageTestRepoMgr.groovy",
+      "hadoop-zookeeper.sh.suse",
+      1
+   ],
+   [
+      "rvs",
+      "StateVerifierMapreduce.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "TestPackagesPseudoDistributed.groovy",
       2
    ],
    [
       "rvs",
-      "OrderedParameterizedTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "oozie.spec",
-      1
-   ],
-   [
-      "abayer",
-      "index.apt",
-      2
-   ],
-   [
-      "rvs",
-      "PackageTestErrorProxy.java",
+      "StateVerifierOozie.groovy",
       2
    ],
    [
@@ -1526,8 +611,83 @@
    ],
    [
       "abayer",
-      "sqoop-metastore.sh.suse",
+      "hadoop-hbase.sh",
       1
+   ],
+   [
+      "abayer",
+      "u3.test",
+      2
+   ],
+   [
+      "bmahe",
+      "pig.spec",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-hbase.postinst",
+      1
+   ],
+   [
+      "rvs",
+      "TestPackagesPseudoDistributedState.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "install_mahout.sh",
+      2
+   ],
+   [
+      "abayer",
+      "oozie.postrm",
+      1
+   ],
+   [
+      "abayer",
+      "create-table.hxt",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-hbase.prerm",
+      1
+   ],
+   [
+      "abayer",
+      "select-table.hxt",
+      2
+   ],
+   [
+      "rvs",
+      "ServiceTest.groovy",
+      2
+   ],
+   [
+      "rvs",
+      "ManagedPackage.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "TestListUtilsTest.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "PackageTestMatchers.java",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-fuse.manpages",
+      1
+   ],
+   [
+      "abayer",
+      "kv1_broken.seq",
+      2
    ],
    [
       "abayer",
@@ -1536,128 +696,38 @@
    ],
    [
       "abayer",
-      "TestHadoopExamples.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "DummyTestFail.groovy",
+      "pig.1",
       1
    ],
    [
       "abayer",
-      "map.sh",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop-zookeeper.postinst",
+      "hadoop.default",
       1
    ],
    [
       "abayer",
-      "OrderedParameterizedTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "mku.sh",
-      2
-   ],
-   [
-      "rvs",
-      "hadoop-pig.prerm",
-      2
-   ],
-   [
-      "rvs",
-      "DummyTestFail.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "StateVerifier.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "bigtop.mk",
-      2
-   ],
-   [
-      "abayer",
-      "apache.access.2.log",
-      2
-   ],
-   [
-      "rvs",
-      "TestServicesCreateStateMissing.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "hadoop.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "ServiceTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "StateVerifierHDFS.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "append_licenses.sh",
-      1
-   ],
-   [
-      "abayer",
-      "flume.postinst",
-      1
-   ],
-   [
-      "abayer",
-      "pig.dirs",
-      1
-   ],
-   [
-      "abayer",
-      "JarContentTest.groovy",
-      1
-   ],
-   [
-      "abayer",
-      "libhdfs-devel.install",
+      "hadoop.install",
       1
    ],
    [
       "rvs",
-      "TestServicesCreateState.groovy",
-      2
+      "YumCmdLinePackageManager.groovy",
+      1
    ],
    [
       "abayer",
-      "CDHServices.groovy",
-      2
+      "hadoop-pig.postinst",
+      3
    ],
    [
       "abayer",
-      "flume.spec",
-      2
+      "hadoop-hbase-doc.dirs",
+      1
    ],
    [
       "rvs",
-      "StateVerifierMapreduce.groovy",
-      2
-   ],
-   [
-      "abayer",
-      "mysql-create-db.sql",
-      4
+      "devguide.apt",
+      1
    ],
    [
       "abayer",
@@ -1665,18 +735,128 @@
       1
    ],
    [
+      "rvs",
+      "hadoop-fuse.install",
+      1
+   ],
+   [
       "abayer",
-      "mahout.preinst",
+      "OrderedParameterized.java",
+      1
+   ],
+   [
+      "abayer",
+      "hive.spec",
+      1
+   ],
+   [
+      "rvs",
+      "ZypperCmdLinePackageManager.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "JarContent.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-zookeeper.sh",
+      1
+   ],
+   [
+      "abayer",
+      "smbbucket_1.rc",
+      2
+   ],
+   [
+      "abayer",
+      "YumCmdLinePackageManager.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "TestHadoopSmoke.groovy",
+      3
+   ],
+   [
+      "abayer",
+      "hadoop-source.install",
+      1
+   ],
+   [
+      "abayer",
+      "UGITest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "Alternative.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "sqoop-metastore.sh",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-doc.install",
+      1
+   ],
+   [
+      "rvs",
+      "StateVerifierFlume.groovy",
       2
    ],
    [
       "rvs",
-      "PackageTestMatchers.java",
+      "StateVerifierHDFS.groovy",
       2
    ],
    [
       "rvs",
-      "ShellTest.groovy",
+      "install_init_scripts.sh",
+      1
+   ],
+   [
+      "abayer",
+      "libhdfs-devel.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "PackageManagerTest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-hbase.manpages",
+      1
+   ],
+   [
+      "rvs",
+      "flume.spec",
+      3
+   ],
+   [
+      "abayer",
+      "PackageTestRepoMgr.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "sqoop.spec",
+      1
+   ],
+   [
+      "abayer",
+      "AptCmdLinePackageManager.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "TestPackagesPseudoDistributed.groovy",
       2
    ],
    [
@@ -1686,12 +866,342 @@
    ],
    [
       "abayer",
-      "hadoop-source.install",
+      "oozie.postinst",
+      1
+   ],
+   [
+      "abayer",
+      "StateVerifierZookeeper.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "map.sh",
+      2
+   ],
+   [
+      "abayer",
+      "seed.hql",
+      4
+   ],
+   [
+      "abayer",
+      "install_hive.sh",
+      2
+   ],
+   [
+      "rvs",
+      "CDHUpgradeSequence.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "StateVerifierHDFS.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "libhdfs-devel.install",
+      1
+   ],
+   [
+      "abayer",
+      "hive-select-table.hql",
+      4
+   ],
+   [
+      "abayer",
+      "ZypperCmdLinePackageManager.groovy",
       1
    ],
    [
       "rvs",
-      "install_init_scripts.sh",
+      "hadoop-hive.prerm",
+      2
+   ],
+   [
+      "abayer",
+      "TestHadoopSmoke.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-fuse.default",
+      1
+   ],
+   [
+      "abayer",
+      "oozie-examples.sh",
+      1
+   ],
+   [
+      "abayer",
+      "service-postrm.tpl",
+      3
+   ],
+   [
+      "abayer",
+      "hadoop-fuse.lintian-overrides",
+      1
+   ],
+   [
+      "rvs",
+      "hbase.default",
+      1
+   ],
+   [
+      "abayer",
+      "IntegrationTestSqoopHBase.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "flume.manpages",
+      1
+   ],
+   [
+      "rvs",
+      "PackageManager.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "service-postinst.tpl",
+      3
+   ],
+   [
+      "rvs",
+      "JarContentTest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "ShellTest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "JarContent.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-fuse.default",
+      1
+   ],
+   [
+      "abayer",
+      "TestServices.groovy",
+      2
+   ],
+   [
+      "rvs",
+      "CDHServices.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "zookeeper.spec",
+      1
+   ],
+   [
+      "rvs",
+      "TestJdbcDriver.java",
+      2
+   ],
+   [
+      "bmahe",
+      "hadoop.spec",
+      1
+   ],
+   [
+      "abayer",
+      "TestFlumeSmoke.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "UGITest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "TestPackagesPseudoDistributedState.groovy",
+      2
+   ],
+   [
+      "rvs",
+      "hadoop-hbase.sh.suse",
+      1
+   ],
+   [
+      "abayer",
+      "u.item",
+      2
+   ],
+   [
+      "rvs",
+      "PackageInstance.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-hive.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "RPMPackage.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "downloads.apt",
+      2
+   ],
+   [
+      "abayer",
+      "flume.docs",
+      1
+   ],
+   [
+      "abayer",
+      "OS.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "DEBPackage.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "mahout.prerm",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-fuse.dirs",
+      1
+   ],
+   [
+      "rvs",
+      "pig.spec",
+      3
+   ],
+   [
+      "rvs",
+      "hadoop.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-zookeeper.postinst",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-pipes.install",
+      1
+   ],
+   [
+      "rvs",
+      "sqoop-metastore.sh",
+      1
+   ],
+   [
+      "abayer",
+      "sqoop-metastore.postinst",
+      1
+   ],
+   [
+      "abayer",
+      "libhdfs.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "drop-table.hxt",
+      2
+   ],
+   [
+      "abayer",
+      "apache.access.2.log",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-hive-metastore.default",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-zookeeper.sh.suse",
+      1
+   ],
+   [
+      "rvs",
+      "DummyTestFail.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "OrderedParameterizedTest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "libhdfs.install",
+      1
+   ],
+   [
+      "abayer",
+      "IntegrationTestSqoopHive.groovy",
+      2
+   ],
+   [
+      "rvs",
+      "PackageTestCommon.groovy",
+      3
+   ],
+   [
+      "abayer",
+      "hadoop-hbase.install",
+      1
+   ],
+   [
+      "abayer",
+      "flume.postinst",
+      1
+   ],
+   [
+      "rvs",
+      "Alternative.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "hbase.1",
+      1
+   ],
+   [
+      "rvs",
+      "mahout.postinst",
+      1
+   ],
+   [
+      "abayer",
+      "configuration.xsl",
+      1
+   ],
+   [
+      "rvs",
+      "IntegrationTestSqoopHive.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "shlibs.local",
       1
    ],
    [
@@ -1700,8 +1210,478 @@
       1
    ],
    [
+      "rvs",
+      "hadoop-zookeeper.prerm",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-hive.preinst",
+      1
+   ],
+   [
+      "rvs",
+      "AptCmdLinePackageManager.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "install_flume.sh",
+      1
+   ],
+   [
+      "abayer",
+      "DummyTestError.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "TestOozieSmoke.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-conf-pseudo.lintian-overrides",
+      1
+   ],
+   [
+      "abayer",
+      "smb_bucket_input.rc",
+      2
+   ],
+   [
+      "abayer",
+      "TestPackagesPseudoDistributedUpgrade.groovy",
+      2
+   ],
+   [
+      "rvs",
+      "ShellTest.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "DummyTestPass.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-hbase.sh",
+      3
+   ],
+   [
+      "rvs",
+      "DummyTestError.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "hive-drop-table.hql",
+      4
+   ],
+   [
+      "rvs",
+      "HiveBulkScriptExecutor.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "TestServicesCreateState.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "mysql-load-db.sql",
+      4
+   ],
+   [
+      "abayer",
+      "oozie-env.sh",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-doc.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-hbase.preinst",
+      1
+   ],
+   [
+      "abayer",
+      "TestOozieSmoke.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-hbase-doc.install",
+      1
+   ],
+   [
+      "rvs",
+      "AlternativeTest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "u1.test",
+      2
+   ],
+   [
+      "abayer",
+      "sqoop-metastore.preinst",
+      1
+   ],
+   [
+      "abayer",
+      "pig.dirs",
+      1
+   ],
+   [
+      "rvs",
+      "userguide.apt",
+      1
+   ],
+   [
+      "abayer",
+      "hive.1",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop.1",
+      1
+   ],
+   [
+      "abayer",
+      "TestListUtils.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-pig.preinst",
+      3
+   ],
+   [
+      "abayer",
+      "install_init_scripts.sh",
+      3
+   ],
+   [
+      "rvs",
+      "examples.apt",
+      1
+   ],
+   [
+      "rvs",
+      "RPMPackage.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "StateVerifierHue.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "u2.base",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-native.lintian-overrides",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-fuse-dfs.1",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-conf-pseudo.prerm",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-conf-pseudo.postinst",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop.preinst",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop.postinst",
+      1
+   ],
+   [
+      "abayer",
+      "bigtop.mk",
+      2
+   ],
+   [
+      "abayer",
+      "u.user",
+      2
+   ],
+   [
+      "rvs",
+      "hadoop.spec",
+      6
+   ],
+   [
+      "rvs",
+      "TestPackagesReadiness.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "TestListUtilsTest.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop-hive.sh.suse",
+      1
+   ],
+   [
+      "abayer",
+      "userguide.apt",
+      2
+   ],
+   [
+      "rvs",
+      "PackageManagerTest.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-init.tmpl",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-hive.sh.suse",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-native.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "ua.test",
+      2
+   ],
+   [
+      "abayer",
+      "test.dat",
+      2
+   ],
+   [
+      "rvs",
+      "oozie.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "u3.base",
+      2
+   ],
+   [
+      "abayer",
+      "CDHUpgradeSequence.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "StateVerifierMapreduce.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "CDHServices.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop.spec",
+      1
+   ],
+   [
+      "rvs",
+      "sqoop.spec",
+      3
+   ],
+   [
+      "abayer",
+      "package.mk",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop-hbase.sh.suse",
+      1
+   ],
+   [
+      "abayer",
+      "ServiceTest.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop.manpages",
+      1
+   ],
+   [
+      "abayer",
+      "hadoop.dirs",
+      1
+   ],
+   [
+      "abayer",
+      "HiveBulkScriptExecutor.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "PackageTestErrorProxy.java",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-zookeeper.preinst",
+      1
+   ],
+   [
+      "rvs",
+      "hadoop.install",
+      1
+   ],
+   [
+      "abayer",
+      "Service.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "StateVerifierOozie.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-hive.prerm",
+      1
+   ],
+   [
+      "abayer",
+      "flume.spec",
+      2
+   ],
+   [
+      "rvs",
+      "TestFlumeSmoke.groovy",
+      3
+   ],
+   [
+      "abayer",
+      "ub.test",
+      2
+   ],
+   [
+      "rvs",
+      "PackageTestRepoMgr.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "mahout.spec",
+      3
+   ],
+   [
+      "rvs",
+      "OrderedParameterized.java",
+      1
+   ],
+   [
+      "abayer",
+      "append_licenses.sh",
+      1
+   ],
+   [
+      "abayer",
+      "examples.apt",
+      2
+   ],
+   [
       "abayer",
       "hadoop-init.tmpl.suse",
+      1
+   ],
+   [
+      "abayer",
+      "smbbucket_3.rc",
+      2
+   ],
+   [
+      "abayer",
+      "u5.test",
+      2
+   ],
+   [
+      "abayer",
+      "flume.preinst",
+      1
+   ],
+   [
+      "rvs",
+      "Service.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "OS.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "PackageTestErrorProxy.java",
+      2
+   ],
+   [
+      "abayer",
+      "devguide.apt",
+      2
+   ],
+   [
+      "rvs",
+      "whirr.spec",
+      2
+   ],
+   [
+      "abayer",
+      "StateVerifierHBase.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "DeployCDH.groovy",
+      2
+   ],
+   [
+      "abayer",
+      "hadoop-native.install",
+      1
+   ],
+   [
+      "abayer",
+      "OrderedParameterizedTest.groovy",
       1
    ],
    [
@@ -1710,8 +1690,28 @@
       2
    ],
    [
+      "rvs",
+      "hadoop-hive.postinst",
+      1
+   ],
+   [
       "abayer",
-      "hadoop-conf-pseudo.install",
+      "Shell.groovy",
+      1
+   ],
+   [
+      "abayer",
+      "TestPackagesSingleNode.groovy",
+      2
+   ],
+   [
+      "rvs",
+      "oozie.postinst",
+      1
+   ],
+   [
+      "rvs",
+      "JUnitUtilsTest.groovy",
       1
    ]
 ]

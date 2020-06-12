@@ -1,18 +1,8 @@
 [
    [
       "Sijie Guo",
-      "zookeeper.conf.dynamic.template",
-      1
-   ],
-   [
-      "Sijie Guo",
       "BKDistributedLogManager.java",
       2
-   ],
-   [
-      "Sijie Guo",
-      "TestNonBlockingReads.java",
-      1
    ],
    [
       "Sijie Guo",
@@ -21,107 +11,12 @@
    ],
    [
       "Sijie Guo",
-      "dl-merge-pr.py",
-      5
-   ],
-   [
-      "Sijie Guo",
-      "example-stream_0.conf",
+      "DistributedLock.java",
       1
-   ],
-   [
-      "Sijie Guo",
-      "bk_server.conf",
-      2
-   ],
-   [
-      "Sijie Guo",
-      "BKDLUtils.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "metadata.thrift",
-      1
-   ],
-   [
-      "Franck Cuny",
-      "vagrant.rst",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "TestDistributedLogBase.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "TestAsyncReaderWriter.java",
-      2
-   ],
-   [
-      "Sijie Guo",
-      "SessionLock.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "TestBKDistributedLogManager.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "ZKDistributedLock.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "TestBKLogSegmentWriter.java",
-      1
-   ],
-   [
-      "sijie",
-      "TestDistributedLock.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "MetricsServletContextListener.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "DistributedLogConfiguration.java",
-      2
    ],
    [
       "Franck Cuny",
       "docker.rst",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "TestDynamicConfigurationFeatureProvider.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "HealthCheckServletContextListener.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "LocalDLMEmulator.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "bk_docker_wrapper.sh",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "decider.conf",
       1
    ],
    [
@@ -131,32 +26,27 @@
    ],
    [
       "Sijie Guo",
-      "TestDistributedLogService.java",
+      "BKDLUtils.java",
       1
    ],
    [
       "Sijie Guo",
-      "messaging.thrift",
+      "bk_docker_wrapper.sh",
       1
    ],
    [
       "Sijie Guo",
-      "bookie.conf.template",
+      "TestDistributedLogBase.java",
       1
    ],
    [
       "Sijie Guo",
-      "DLMTestUtil.java",
+      "benchmark.conf",
       1
    ],
    [
       "Sijie Guo",
-      "TestDistributedLogConfiguration.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "server_decider.conf",
+      "TestBKLogSegmentWriter.java",
       1
    ],
    [
@@ -166,22 +56,17 @@
    ],
    [
       "Sijie Guo",
-      "BKLogWriteHandler.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "DistributedLock.java",
-      1
-   ],
-   [
-      "Sijie Guo",
-      "service.thrift",
-      1
-   ],
-   [
-      "Sijie Guo",
       "write_proxy.conf",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "TestDynamicConfigurationFeatureProvider.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "metadata.thrift",
       1
    ],
    [
@@ -190,13 +75,8 @@
       5
    ],
    [
-      "Franck Cuny",
-      "dl-merge-pr.py",
-      3
-   ],
-   [
       "Sijie Guo",
-      "TestConfigurationSubscription.java",
+      "BKLogWriteHandler.java",
       1
    ],
    [
@@ -206,7 +86,127 @@
    ],
    [
       "Sijie Guo",
-      "benchmark.conf",
+      "example-stream_0.conf",
       1
+   ],
+   [
+      "Franck Cuny",
+      "dl-merge-pr.py",
+      3
+   ],
+   [
+      "Sijie Guo",
+      "zookeeper.conf.dynamic.template",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "TestDistributedLogService.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "bk_server.conf",
+      2
+   ],
+   [
+      "Sijie Guo",
+      "TestConfigurationSubscription.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "TestBKDistributedLogManager.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "LocalDLMEmulator.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "TestNonBlockingReads.java",
+      1
+   ],
+   [
+      "Franck Cuny",
+      "vagrant.rst",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "server_decider.conf",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "MetricsServletContextListener.java",
+      1
+   ],
+   [
+      "sijie",
+      "TestDistributedLock.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "ZKDistributedLock.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "TestDistributedLogConfiguration.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "DLMTestUtil.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "SessionLock.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "HealthCheckServletContextListener.java",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "DistributedLogConfiguration.java",
+      2
+   ],
+   [
+      "Sijie Guo",
+      "bookie.conf.template",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "service.thrift",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "messaging.thrift",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "decider.conf",
+      1
+   ],
+   [
+      "Sijie Guo",
+      "TestAsyncReaderWriter.java",
+      2
+   ],
+   [
+      "Sijie Guo",
+      "dl-merge-pr.py",
+      5
    ]
 ]

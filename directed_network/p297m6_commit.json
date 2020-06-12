@@ -1,17 +1,192 @@
 [
    [
       "Matthieu Morel",
-      "Emitter.java",
+      "MetricsName.java",
       2
    ],
    [
       "Matthieu Morel",
-      "InitiateCheckpointingEvent.java",
+      "MultiPartitionDeliveryTest.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "CheckpointingCoordinator.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TCPCommTest.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "UDPEmitter.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "RecoveryTest.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "ProtocolTestUtil.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "LoopBackEmitter.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "s4-edsl.gradle",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "TCPEmitter.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "UDPListener.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TopologyFromZKTest.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "WordCountTest.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "PEContainer.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "UDPBasedTest.java",
+      2
+   ],
+   [
+      "mmorel",
+      "TestModule.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "SaveStateTask.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TestUtils.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "WordClassifier.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "SafeKeeper.java",
       2
    ],
    [
       "Matthieu Morel",
       "SerializeTask.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "s4-core.gradle",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "Cluster.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "AbstractPE.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "SimpleDeliveryTest.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "TCPBasedTest.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "PartitionInfo.java",
+      4
+   ],
+   [
+      "Matthieu Morel",
+      "FileBasedClusterManagementTestModule.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "RecoveryTimeoutTest.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TCPListener.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "UDPCommTest.java",
+      2
+   ],
+   [
+      "mmorel",
+      "Main.java",
+      1
+   ],
+   [
+      "Matthieu Morel",
+      "Emitter.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "DeliveryTestUtil.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "Listener.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "TaskSetup.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "QueueingEmitter.java",
+      2
+   ],
+   [
+      "Matthieu Morel",
+      "InitiateCheckpointingEvent.java",
       2
    ],
    [
@@ -26,27 +201,7 @@
    ],
    [
       "Matthieu Morel",
-      "AbstractPE.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "SaveStateTask.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "MetricsName.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TCPBasedTest.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "UDPListener.java",
+      "StatefulTestPE.java",
       2
    ],
    [
@@ -56,52 +211,7 @@
    ],
    [
       "Matthieu Morel",
-      "ProtocolTestUtil.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "QueueingEmitter.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "PEContainer.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TaskSetup.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "UDPBasedTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "SimpleDeliveryTest.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "DeliveryTestUtil.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "Cluster.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "CheckpointingCoordinator.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "FetchTask.java",
+      "NetworkGlitchTest.java",
       2
    ],
    [
@@ -110,29 +220,9 @@
       2
    ],
    [
-      "Matthieu Morel",
-      "TCPListener.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "s4-edsl.gradle",
+      "mmorel",
+      "ZkBasedTest.java",
       1
-   ],
-   [
-      "Matthieu Morel",
-      "RecoveryTimeoutTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "LoopBackEmitter.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "UDPEmitter.java",
-      2
    ],
    [
       "Matthieu Morel",
@@ -141,97 +231,7 @@
    ],
    [
       "Matthieu Morel",
-      "TopologyFromZKTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "StatefulTestPE.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "WordCountTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "FileBasedClusterManagementTestModule.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "RecoveryTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TCPEmitter.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "WordClassifier.java",
-      2
-   ],
-   [
-      "mmorel",
-      "Main.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "PartitionInfo.java",
-      4
-   ],
-   [
-      "Matthieu Morel",
-      "NetworkGlitchTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "s4-core.gradle",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "SafeKeeper.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "UDPCommTest.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "TestUtils.java",
-      2
-   ],
-   [
-      "Matthieu Morel",
-      "MultiPartitionDeliveryTest.java",
-      4
-   ],
-   [
-      "mmorel",
-      "ZkBasedTest.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "Listener.java",
-      2
-   ],
-   [
-      "mmorel",
-      "TestModule.java",
-      1
-   ],
-   [
-      "Matthieu Morel",
-      "TCPCommTest.java",
+      "FetchTask.java",
       2
    ]
 ]

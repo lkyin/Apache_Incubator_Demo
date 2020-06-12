@@ -1,43 +1,18 @@
 [
    [
       "joern",
-      "ConllXSentenceSampleStreamFactory.java",
+      "BioNLP2004NameSampleStreamFactory.java",
       1
    ],
    [
       "joern",
-      "CreateModel.java",
-      2
-   ],
-   [
-      "joern",
-      "NameToSentenceSampleStreamFactory.java",
+      "ArgumentParser.java",
       1
    ],
    [
       "joern",
-      "TokenizerViewPage.java",
+      "AbstractConverterTool.java",
       1
-   ],
-   [
-      "joern",
-      "POSTaggerCrossValidatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "AbstractEndOfSentenceScanner.java",
-      1
-   ],
-   [
-      "joern",
-      "ParseTreeChunkListScorerTest.java",
-      2
-   ],
-   [
-      "joern",
-      "NGramModel.java",
-      2
    ],
    [
       "joern",
@@ -46,62 +21,27 @@
    ],
    [
       "joern",
-      "SentenceDetectorView.java",
-      1
-   ],
-   [
-      "joern",
-      "GISModelWriter.java",
-      2
-   ],
-   [
-      "joern",
-      "Span.java",
-      2
-   ],
-   [
-      "joern",
-      "BuildContextGenerator.java",
-      2
-   ],
-   [
-      "joern",
-      "GeneratedSentenceProcessor.java",
-      1
-   ],
-   [
-      "joern",
-      "POSTaggerEvaluatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "Parser.java",
-      3
-   ],
-   [
-      "joern",
-      "ChunkerCrossValidatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "download.html",
-      1
-   ],
-   [
-      "joern",
-      "PerceptronTrainer.java",
-      1
-   ],
-   [
-      "joern",
-      "CorpusServerPlugin.java",
-      1
-   ],
-   [
-      "joern",
       "maven-dependency.html",
+      1
+   ],
+   [
+      "joern",
+      "SentenceDetector.java",
+      1
+   ],
+   [
+      "joern",
+      "OnePassDataIndexer.java",
+      2
+   ],
+   [
+      "jkosin",
+      "BioNLP2004NameSampleStream.java",
+      1
+   ],
+   [
+      "jkosin",
+      "Conll03NameSampleStream.java",
       1
    ],
    [
@@ -111,52 +51,52 @@
    ],
    [
       "joern",
-      "ParserTool.java",
-      1
-   ],
-   [
-      "joern",
-      "RealValueFileEventStreamTest.java",
-      1
-   ],
-   [
-      "joern",
-      "CasConsumerUtil.java",
-      1
-   ],
-   [
-      "joern",
-      "SearchCorpusServerJob.java",
+      "ADSentenceStream.java",
       2
    ],
    [
       "joern",
-      "SentenceDetectorTrainerTool.java",
+      "TwoPassDataIndexer.java",
+      2
+   ],
+   [
+      "joern",
+      "ParseTreeMatcherDeterministicTest.java",
+      2
+   ],
+   [
+      "joern",
+      "NameSampleStreamFactory.java",
       1
    ],
    [
       "joern",
-      "CommonNounResolver.java",
+      "TokenSampleStream.java",
       1
    ],
    [
       "joern",
-      "SuffixFeatureGenerator.java",
+      "DefaultEndOfSentenceScanner.java",
       1
    ],
    [
       "joern",
-      "DiscourseElement.java",
+      "EpistemicStatesTrainingSet.java",
       1
    ],
    [
       "joern",
-      "CSQueueCollectionReader.java",
+      "WordTagSampleStreamFactory.java",
       1
    ],
    [
       "joern",
-      "CharacterNgramFeatureGenerator.java",
+      "OpennlpUtil.java",
+      4
+   ],
+   [
+      "joern",
+      "OpenPreferenceDialog.java",
       1
    ],
    [
@@ -166,12 +106,67 @@
    ],
    [
       "joern",
-      "Evaluator.java",
+      "TokenizerModelResource.java",
       1
    ],
    [
-      "jkosin",
-      "Conll02NameSampleStreamFactory.java",
+      "joern",
+      "TokenizerME.java",
+      1
+   ],
+   [
+      "joern",
+      "ShallowParseMentionFinder.java",
+      1
+   ],
+   [
+      "joern",
+      "NumberUtil.java",
+      2
+   ],
+   [
+      "joern",
+      "CheckContextGenerator.java",
+      2
+   ],
+   [
+      "joern",
+      "DomainToModelMap.java",
+      1
+   ],
+   [
+      "joern",
+      "ChunkerCrossValidatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "ListHeap.java",
+      1
+   ],
+   [
+      "joern",
+      "PorterStemmerTest.java",
+      1
+   ],
+   [
+      "joern",
+      "documentation.html",
+      1
+   ],
+   [
+      "joern",
+      "ResolverUtils.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenizerJob.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenizerMEEvaluatorTool.java",
       1
    ],
    [
@@ -181,13 +176,283 @@
    ],
    [
       "joern",
-      "ADNameSampleStreamFactory.java",
+      "PhraseNode.java",
       3
    ],
    [
       "joern",
-      "DocumentSample.java",
+      "SentenceDetectorTrainerTool.java",
       1
+   ],
+   [
+      "joern",
+      "Utils.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractResolver.java",
+      2
+   ],
+   [
+      "joern",
+      "ContainingConstraint.java",
+      2
+   ],
+   [
+      "joern",
+      ".cvsignore",
+      1
+   ],
+   [
+      "joern",
+      "WindowFeatureGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "POSTaggerME.java",
+      1
+   ],
+   [
+      "joern",
+      "RelatedSentenceFinder.java",
+      1
+   ],
+   [
+      "joern",
+      "RealValueFileEventStreamTest.java",
+      1
+   ],
+   [
+      "joern",
+      "UimaUtil.java",
+      2
+   ],
+   [
+      "joern",
+      "GeneralizationListReducerTest.java",
+      2
+   ],
+   [
+      "joern",
+      "LemmaPair.java",
+      1
+   ],
+   [
+      "joern",
+      "ConfirmAnnotationAction.java",
+      1
+   ],
+   [
+      "joern",
+      "CmdLineUtil.java",
+      3
+   ],
+   [
+      "joern",
+      "Span.java",
+      2
+   ],
+   [
+      "joern",
+      "download.html",
+      1
+   ],
+   [
+      "joern",
+      "index.html",
+      3
+   ],
+   [
+      "joern",
+      "AnnotationComparator.java",
+      2
+   ],
+   [
+      "joern",
+      "Normalizer.java",
+      1
+   ],
+   [
+      "joern",
+      "Evaluator.java",
+      1
+   ],
+   [
+      "joern",
+      "POSTaggerEvaluatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "TrainingParameters.java",
+      1
+   ],
+   [
+      "joern",
+      "SentenceDetectorTrainer.java",
+      2
+   ],
+   [
+      "jkosin",
+      "ConllXPOSSampleStream.java",
+      1
+   ],
+   [
+      "joern",
+      "AttachContextGenerator.java",
+      2
+   ],
+   [
+      "joern",
+      "CommonNounResolver.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenizerViewPage.java",
+      1
+   ],
+   [
+      "jkosin",
+      "LeipzigDoccatSampleStream.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenSample.java",
+      1
+   ],
+   [
+      "joern",
+      "ParseTreeChunk.java",
+      1
+   ],
+   [
+      "joern",
+      "AdditionalContextFeatureGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "CasConsumerUtil.java",
+      1
+   ],
+   [
+      "joern",
+      "ParserConstants.java",
+      2
+   ],
+   [
+      "joern",
+      "ParserChunker2MatcherProcessor.java",
+      3
+   ],
+   [
+      "joern",
+      "SentenceContentProvider.java",
+      4
+   ],
+   [
+      "joern",
+      "SyntMatcherTest.java",
+      3
+   ],
+   [
+      "joern",
+      "ChunkerTrainerTool.java",
+      1
+   ],
+   [
+      "joern",
+      "OnePassRealValueDataIndexer.java",
+      2
+   ],
+   [
+      "joern",
+      "PrefixFeatureGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "SentenceNode.java",
+      3
+   ],
+   [
+      "joern",
+      "NameFinderEventStream.java",
+      1
+   ],
+   [
+      "joern",
+      "ParseTreeChunkFactoryTest.java",
+      2
+   ],
+   [
+      "joern",
+      "Parser.java",
+      3
+   ],
+   [
+      "joern",
+      "TokenNameFinderTrainerTool.java",
+      2
+   ],
+   [
+      "joern",
+      "ParserTrainerTool.java",
+      1
+   ],
+   [
+      "joern",
+      "SuffixFeatureGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "SentenceDetectorCrossValidatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "ChunkerTrainer.java",
+      2
+   ],
+   [
+      "joern",
+      "ParserTool.java",
+      1
+   ],
+   [
+      "joern",
+      "GISModelWriter.java",
+      2
+   ],
+   [
+      "joern",
+      "AbstractDataIndexer.java",
+      2
+   ],
+   [
+      "joern",
+      "TokenizerTrainerTool.java",
+      1
+   ],
+   [
+      "joern",
+      "ObjectGISModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "DictionarySerializer.java",
+      1
+   ],
+   [
+      "joern",
+      "ParseTreeChunkTest.java",
+      2
    ],
    [
       "joern",
@@ -196,7 +461,177 @@
    ],
    [
       "joern",
-      "TokenizerPreferencePage.java",
+      "mail-lists.html",
+      1
+   ],
+   [
+      "jkosin",
+      "ConllXPOSSampleStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "Parse.java",
+      3
+   ],
+   [
+      "joern",
+      "PortugueseContractionUtility.java",
+      1
+   ],
+   [
+      "joern",
+      "ModelUtil.java",
+      2
+   ],
+   [
+      "joern",
+      "NumberEnum.java",
+      1
+   ],
+   [
+      "joern",
+      "POSTaggerCrossValidatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "PerceptronTrainer.java",
+      1
+   ],
+   [
+      "joern",
+      "SentenceDetectorViewPage.java",
+      6
+   ],
+   [
+      "joern",
+      "Tokenizer.java",
+      2
+   ],
+   [
+      "joern",
+      "TokSpanEventStream.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenNameFinderEvaluatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenizerCrossValidatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "PageFetcher.java",
+      2
+   ],
+   [
+      "jkosin",
+      "Conll02NameSampleStream.java",
+      1
+   ],
+   [
+      "joern",
+      "ConllXPOSSampleStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "ComparablePredicate.java",
+      1
+   ],
+   [
+      "joern",
+      "CorpusServerPlugin.java",
+      1
+   ],
+   [
+      "joern",
+      "ChunkSample.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractContextGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenizerTrainer.java",
+      2
+   ],
+   [
+      "joern",
+      "NameFinderViewPage.java",
+      4
+   ],
+   [
+      "joern",
+      "BagOfWordsFeatureGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "SequenceStream.java",
+      1
+   ],
+   [
+      "joern",
+      "FileEventStream.java",
+      2
+   ],
+   [
+      "joern",
+      "TrainEval.java",
+      1
+   ],
+   [
+      "joern",
+      "ComparableEvent.java",
+      2
+   ],
+   [
+      "joern",
+      "PorterStemmer.java",
+      3
+   ],
+   [
+      "joern",
+      "TreeHeap.java",
+      1
+   ],
+   [
+      "joern",
+      "StringDistanceMeasurer.java",
+      2
+   ],
+   [
+      "joern",
+      "ADNameSampleStream.java",
+      1
+   ],
+   [
+      "joern",
+      "RELEASE_NOTES.html",
+      3
+   ],
+   [
+      "joern",
+      "HitBase.java",
+      2
+   ],
+   [
+      "joern",
+      "DiscourseElement.java",
+      1
+   ],
+   [
+      "joern",
+      "DefaultCasDocumentProvider.java",
       1
    ],
    [
@@ -210,114 +645,14 @@
       1
    ],
    [
-      "jkosin",
-      "ConllXPOSSampleStreamFactory.java",
+      "joern",
+      "GeneratedSentenceProcessor.java",
       1
    ],
    [
       "joern",
-      "Conll02NameSampleStreamFactory.java",
+      "IntegerPool.java",
       1
-   ],
-   [
-      "joern",
-      "TokenizerME.java",
-      1
-   ],
-   [
-      "joern",
-      "DictionarySerializer.java",
-      1
-   ],
-   [
-      "joern",
-      "team.html",
-      1
-   ],
-   [
-      "joern",
-      "TwoPassDataIndexer.java",
-      2
-   ],
-   [
-      "joern",
-      "AbstractModel.java",
-      2
-   ],
-   [
-      "joern",
-      "LemmaPair.java",
-      1
-   ],
-   [
-      "joern",
-      "DefaultEndOfSentenceScanner.java",
-      1
-   ],
-   [
-      "joern",
-      "CheckContextGenerator.java",
-      2
-   ],
-   [
-      "joern",
-      "POSToSentenceSampleStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenizerTrainerTool.java",
-      1
-   ],
-   [
-      "jkosin",
-      "opennlp.bat",
-      3
-   ],
-   [
-      "joern",
-      "NameSampleDataStreamTest.java",
-      1
-   ],
-   [
-      "joern",
-      "ParserEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "SentenceContentProvider.java",
-      4
-   ],
-   [
-      "joern",
-      "GeneralizationListReducer.java",
-      1
-   ],
-   [
-      "joern",
-      "SyntacticTreeNode.java",
-      3
-   ],
-   [
-      "joern",
-      "MentionContext.java",
-      1
-   ],
-   [
-      "joern",
-      "CorpusServerCasEditorInput.java",
-      1
-   ],
-   [
-      "joern",
-      "SentenceDetectorTrainer.java",
-      2
-   ],
-   [
-      "joern",
-      "PhraseNode.java",
-      3
    ],
    [
       "joern",
@@ -326,72 +661,42 @@
    ],
    [
       "joern",
-      "Context.java",
-      1
-   ],
-   [
-      "joern",
-      "AbstractContextGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "ParserChunker2MatcherProcessor.java",
-      3
-   ],
-   [
-      "joern",
-      "GeneralizationListReducerTest.java",
-      2
-   ],
-   [
-      "jkosin",
-      "Conll03NameSampleStream.java",
-      1
-   ],
-   [
-      "joern",
-      "ParseTreeChunkFactoryTest.java",
+      "CorpusServerPreferenceConstants.java",
       2
    ],
    [
       "joern",
-      "WindowFeatureGenerator.java",
+      "StoryDiscourseNavigator.java",
+      2
+   ],
+   [
+      "joern",
+      "ParseTreeMatcher.java",
       1
    ],
    [
       "joern",
-      "POSManager.java",
+      "ParseTreeChunkListScorer.java",
       1
    ],
    [
       "joern",
-      "TokenizerJob.java",
+      "Fragment.java",
       1
    ],
    [
       "joern",
-      "RelatedSentenceFinder.java",
+      "SearchCorpusServerJob.java",
+      2
+   ],
+   [
+      "joern",
+      "NameToTokenSampleStreamFactory.java",
       1
    ],
    [
       "joern",
-      "documentation.html",
-      1
-   ],
-   [
-      "joern",
-      "AbstractParse.java",
-      1
-   ],
-   [
-      "jkosin",
-      "Conll02NameSampleStream.java",
-      1
-   ],
-   [
-      "joern",
-      "TokSpanEventStream.java",
+      "AbstractSentenceDetector.java",
       1
    ],
    [
@@ -401,22 +706,287 @@
    ],
    [
       "joern",
-      "ChunkSample.java",
+      "SentenceLabelProvider.java",
+      1
+   ],
+   [
+      "jkosin",
+      "opennlp.bat",
+      3
+   ],
+   [
+      "joern",
+      "POSTaggerTrainerTool.java",
       1
    ],
    [
       "joern",
-      "SentenceDetectorViewPage.java",
-      6
+      "AbstractEndOfSentenceScanner.java",
+      1
    ],
    [
       "joern",
-      "ComparableEvent.java",
+      "CLI.java",
+      1
+   ],
+   [
+      "joern",
+      "Chunker.java",
       2
    ],
    [
       "joern",
+      "POSTaggerTrainer.java",
+      2
+   ],
+   [
+      "joern",
+      "SentenceDetectorME.java",
+      1
+   ],
+   [
+      "joern",
+      "PerceptronModelWriter.java",
+      2
+   ],
+   [
+      "joern",
+      "building.html",
+      1
+   ],
+   [
+      "joern",
+      "DoccatTrainerTool.java",
+      1
+   ],
+   [
+      "joern",
+      "LeipzigDocumentSampleStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "GeneralizationListReducer.java",
+      1
+   ],
+   [
+      "joern",
+      "POSDictionary.java",
+      2
+   ],
+   [
+      "joern",
+      "CSQueueCollectionReader.java",
+      1
+   ],
+   [
+      "joern",
+      "ADNameSampleStreamFactory.java",
+      3
+   ],
+   [
+      "joern",
+      "Entity.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractTokenizer.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractCasChangeTrigger.java",
+      1
+   ],
+   [
+      "joern",
+      "DocumentSample.java",
+      1
+   ],
+   [
+      "joern",
+      "WordNode.java",
+      3
+   ],
+   [
+      "joern",
+      "TokenPatternFeatureGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "news.html",
+      1
+   ],
+   [
+      "joern",
+      "Event.java",
+      2
+   ],
+   [
+      "joern",
+      "CreateModel.java",
+      2
+   ],
+   [
+      "joern",
+      "NGramModel.java",
+      2
+   ],
+   [
+      "joern",
+      "BingWebQueryRunner.java",
+      2
+   ],
+   [
+      "joern",
+      "SentenceDetectorView.java",
+      1
+   ],
+   [
+      "joern",
+      "LemmaFormManagerTest.java",
+      2
+   ],
+   [
+      "joern",
+      "RegexNameFinder.java",
+      2
+   ],
+   [
+      "joern",
+      "CorpusExplorerView.java",
+      5
+   ],
+   [
+      "joern",
+      "team.html",
+      1
+   ],
+   [
+      "joern",
+      "AbstractModel.java",
+      2
+   ],
+   [
+      "joern",
+      "Conll02NameSampleStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "BuildContextGenerator.java",
+      2
+   ],
+   [
+      "joern",
+      "TokenNameFinderTool.java",
+      1
+   ],
+   [
+      "joern",
+      "JWNLDictionary.java",
+      1
+   ],
+   [
+      "joern",
+      "ChunkContextGenerator.java",
+      2
+   ],
+   [
+      "jkosin",
+      "Conll02NameSampleStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "DictionaryBuilderTool.java",
+      1
+   ],
+   [
+      "joern",
+      "SentenceDetectorEvaluatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "ParseTreeMatcherDeterministic.java",
+      2
+   ],
+   [
+      "joern",
+      "StringList.java",
+      1
+   ],
+   [
+      "joern",
+      "TokenizerPreferencePage.java",
+      1
+   ],
+   [
+      "joern",
       "AnnotatorUtil.java",
+      1
+   ],
+   [
+      "joern",
+      "ConllXSentenceSampleStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "ObjectStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "Context.java",
+      1
+   ],
+   [
+      "joern",
+      "NameSampleDataStreamTest.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractParse.java",
+      1
+   ],
+   [
+      "joern",
+      "CensusDictionaryCreatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "NameToSentenceSampleStreamFactory.java",
+      1
+   ],
+   [
+      "joern",
+      "NameFinder.java",
+      2
+   ],
+   [
+      "joern",
+      "SyntacticTreeNode.java",
+      3
+   ],
+   [
+      "joern",
+      "CorpusServerCasEditorInput.java",
+      1
+   ],
+   [
+      "joern",
+      "MentionContext.java",
+      1
+   ],
+   [
+      "joern",
+      "DefaultNameContextGenerator.java",
       1
    ],
    [
@@ -431,127 +1001,32 @@
    ],
    [
       "joern",
-      "Fragment.java",
+      "source-code.html",
       1
    ],
    [
       "joern",
-      "Chunker.java",
+      "ModelTrainer.java",
       2
    ],
    [
       "joern",
-      "CorpusServerPreferenceConstants.java",
+      "POSManager.java",
+      1
+   ],
+   [
+      "joern",
+      "NameSample.java",
       2
    ],
    [
       "joern",
-      "SequenceStream.java",
-      1
+      "NameFinderTrainer.java",
+      5
    ],
    [
       "joern",
-      "PorterStemmer.java",
-      3
-   ],
-   [
-      "joern",
-      "TokenizerModelResource.java",
-      1
-   ],
-   [
-      "joern",
-      "ObjectStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "RegexNameFinder.java",
-      2
-   ],
-   [
-      "joern",
-      "PerceptronModelWriter.java",
-      2
-   ],
-   [
-      "joern",
-      "ParseTreeMatcher.java",
-      1
-   ],
-   [
-      "joern",
-      "SimplePerceptronSequenceTrainer.java",
-      1
-   ],
-   [
-      "joern",
-      "OnePassRealValueDataIndexer.java",
-      2
-   ],
-   [
-      "joern",
-      "Event.java",
-      2
-   ],
-   [
-      "joern",
-      "DefaultNameContextGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenSampleStream.java",
-      1
-   ],
-   [
-      "joern",
-      "ADNameSampleStream.java",
-      1
-   ],
-   [
-      "jkosin",
-      "LeipzigDoccatSampleStream.java",
-      1
-   ],
-   [
-      "joern",
-      "Conll03NameSampleStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "ParserTrainerTool.java",
-      1
-   ],
-   [
-      "jkosin",
-      "ConllXPOSSampleStream.java",
-      1
-   ],
-   [
-      "joern",
-      "RealValueModelTest.java",
-      1
-   ],
-   [
-      "joern",
-      "AbstractTokenizer.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenPatternFeatureGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "BingWebQueryRunner.java",
-      2
-   ],
-   [
-      "joern",
-      "Stemmer.java",
+      "POSToSentenceSampleStreamFactory.java",
       1
    ],
    [
@@ -561,492 +1036,7 @@
    ],
    [
       "joern",
-      "ArgumentParser.java",
-      1
-   ],
-   [
-      "joern",
-      "SyntMatcherTest.java",
-      3
-   ],
-   [
-      "joern",
-      "PageFetcher.java",
-      2
-   ],
-   [
-      "joern",
-      "SentenceDetectorME.java",
-      1
-   ],
-   [
-      "joern",
-      "NameFinder.java",
-      2
-   ],
-   [
-      "joern",
-      "ConfirmAnnotationAction.java",
-      1
-   ],
-   [
-      "joern",
-      "SentenceDetectorEvaluatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenNameFinderTrainerTool.java",
-      2
-   ],
-   [
-      "joern",
-      "Tokenizer.java",
-      2
-   ],
-   [
-      "joern",
-      "ModelUtil.java",
-      2
-   ],
-   [
-      "joern",
-      "ChunkerTrainerTool.java",
-      1
-   ],
-   [
-      "joern",
-      "JWNLDictionary.java",
-      1
-   ],
-   [
-      "joern",
-      "StoryDiscourseNavigator.java",
-      2
-   ],
-   [
-      "joern",
-      "ResolverUtils.java",
-      1
-   ],
-   [
-      "joern",
-      "OpennlpUtil.java",
-      4
-   ],
-   [
-      "joern",
-      "CLI.java",
-      1
-   ],
-   [
-      "joern",
-      "POSDictionary.java",
-      2
-   ],
-   [
-      "joern",
-      "source-code.html",
-      1
-   ],
-   [
-      "joern",
-      "AbstractDataIndexer.java",
-      2
-   ],
-   [
-      "joern",
-      "EpistemicStatesTrainingSet.java",
-      1
-   ],
-   [
-      "joern",
-      "DictionaryBuilderTool.java",
-      1
-   ],
-   [
-      "joern",
-      "ObjectGISModelReader.java",
-      1
-   ],
-   [
-      "joern",
-      "DefaultCasDocumentProvider.java",
-      1
-   ],
-   [
-      "joern",
-      "AnnotationComparator.java",
-      2
-   ],
-   [
-      "joern",
-      "TokenizerMEEvaluatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "FileEventStream.java",
-      2
-   ],
-   [
-      "joern",
-      "POSTaggerTrainer.java",
-      2
-   ],
-   [
-      "joern",
-      "TokenizerTrainer.java",
-      2
-   ],
-   [
-      "joern",
-      "AbstractConverterTool.java",
-      1
-   ],
-   [
-      "joern",
-      "POSTaggerTrainerTool.java",
-      1
-   ],
-   [
-      "joern",
-      "DoccatTrainerTool.java",
-      1
-   ],
-   [
-      "joern",
-      "NameFinderEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "InSpanGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "PrefixFeatureGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "TreeHeap.java",
-      1
-   ],
-   [
-      "joern",
-      "PortugueseContractionUtility.java",
-      1
-   ],
-   [
-      "joern",
-      "NumberUtil.java",
-      2
-   ],
-   [
-      "joern",
-      "Entity.java",
-      1
-   ],
-   [
-      "joern",
-      "ChunkerTrainer.java",
-      2
-   ],
-   [
-      "joern",
-      "NameSample.java",
-      2
-   ],
-   [
-      "joern",
-      "NameToTokenSampleStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "Parse.java",
-      3
-   ],
-   [
-      "joern",
-      "CmdLineUtil.java",
-      3
-   ],
-   [
-      "joern",
-      "NameSampleStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "ParseTreeMatcherDeterministicTest.java",
-      2
-   ],
-   [
-      "joern",
-      "AttachContextGenerator.java",
-      2
-   ],
-   [
-      "joern",
-      "LemmaFormManagerTest.java",
-      2
-   ],
-   [
-      "joern",
-      "ADSentenceStream.java",
-      2
-   ],
-   [
-      "joern",
-      "GISTrainer.java",
-      1
-   ],
-   [
-      "joern",
-      "PorterStemmerTest.java",
-      1
-   ],
-   [
-      "joern",
-      "BingQueryRunner.java",
-      2
-   ],
-   [
-      "joern",
-      "ComparablePredicate.java",
-      1
-   ],
-   [
-      "joern",
-      "SentenceDetectorCrossValidatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "NameFinderViewPage.java",
-      4
-   ],
-   [
-      "joern",
-      ".cvsignore",
-      1
-   ],
-   [
-      "joern",
-      "TokenizerCrossValidatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenNameFinderEvaluatorTool.java",
-      1
-   ],
-   [
-      "jkosin",
-      "BioNLP2004NameSampleStream.java",
-      1
-   ],
-   [
-      "joern",
-      "ChunkContextGenerator.java",
-      2
-   ],
-   [
-      "joern",
-      "AbstractResolver.java",
-      2
-   ],
-   [
-      "joern",
-      "TextProcessor.java",
-      3
-   ],
-   [
-      "joern",
-      "NameFinderTrainer.java",
-      5
-   ],
-   [
-      "joern",
-      "AdditionalContextFeatureGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "WordTagSampleStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "BioNLP2004NameSampleStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "Utils.java",
-      1
-   ],
-   [
-      "joern",
-      "ContainingConstraint.java",
-      2
-   ],
-   [
-      "joern",
-      "LeipzigDocumentSampleStreamFactory.java",
-      1
-   ],
-   [
-      "joern",
-      "CensusDictionaryCreatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "RELEASE_NOTES.html",
-      3
-   ],
-   [
-      "joern",
-      "AbstractCasChangeTrigger.java",
-      1
-   ],
-   [
-      "joern",
-      "CountedSet.java",
-      1
-   ],
-   [
-      "joern",
-      "ParseTreeChunkTest.java",
-      2
-   ],
-   [
-      "joern",
-      "SentenceLabelProvider.java",
-      1
-   ],
-   [
-      "joern",
-      "building.html",
-      1
-   ],
-   [
-      "joern",
-      "ParserConstants.java",
-      2
-   ],
-   [
-      "joern",
-      "DomainToModelMap.java",
-      1
-   ],
-   [
-      "joern",
-      "TokenNameFinderCrossValidatorTool.java",
-      1
-   ],
-   [
-      "joern",
-      "CorpusExplorerView.java",
-      5
-   ],
-   [
-      "joern",
-      "NumberEnum.java",
-      1
-   ],
-   [
-      "joern",
-      "SentenceNode.java",
-      3
-   ],
-   [
-      "joern",
-      "StringList.java",
-      1
-   ],
-   [
-      "joern",
-      "index.html",
-      3
-   ],
-   [
-      "joern",
-      "TokenNameFinderTool.java",
-      1
-   ],
-   [
-      "joern",
-      "OpenPreferenceDialog.java",
-      1
-   ],
-   [
-      "joern",
-      "ParseTreeChunk.java",
-      1
-   ],
-   [
-      "joern",
-      "Normalizer.java",
-      1
-   ],
-   [
-      "joern",
-      "ShallowParseMentionFinder.java",
-      1
-   ],
-   [
-      "joern",
-      "ParseTreeMatcherDeterministic.java",
-      2
-   ],
-   [
-      "joern",
-      "news.html",
-      1
-   ],
-   [
-      "joern",
-      "TokenSample.java",
-      1
-   ],
-   [
-      "joern",
-      "SimpleTokenizer.java",
-      1
-   ],
-   [
-      "joern",
-      "ADChunkSampleStreamFactory.java",
-      2
-   ],
-   [
-      "joern",
-      "ModelTrainer.java",
-      2
-   ],
-   [
-      "joern",
-      "TrainEval.java",
-      1
-   ],
-   [
-      "joern",
-      "IntegerPool.java",
-      1
-   ],
-   [
-      "joern",
-      "POSTaggerME.java",
-      1
-   ],
-   [
-      "joern",
-      "BagOfWordsFeatureGenerator.java",
+      "Stemmer.java",
       1
    ],
    [
@@ -1056,27 +1046,47 @@
    ],
    [
       "joern",
-      "SentenceDetector.java",
+      "InSpanGenerator.java",
       1
    ],
    [
       "joern",
-      "TrainingParameters.java",
+      "Conll03NameSampleStreamFactory.java",
       1
    ],
    [
       "joern",
-      "OnePassDataIndexer.java",
+      "SimpleTokenizer.java",
+      1
+   ],
+   [
+      "joern",
+      "CountedSet.java",
+      1
+   ],
+   [
+      "joern",
+      "ADChunkSampleStreamFactory.java",
       2
    ],
    [
       "joern",
-      "StringDistanceMeasurer.java",
+      "GISTrainer.java",
+      1
+   ],
+   [
+      "joern",
+      "ParseTreeChunkListScorerTest.java",
       2
    ],
    [
       "joern",
-      "ListHeap.java",
+      "TextProcessor.java",
+      3
+   ],
+   [
+      "joern",
+      "SimplePerceptronSequenceTrainer.java",
       1
    ],
    [
@@ -1086,37 +1096,27 @@
    ],
    [
       "joern",
-      "AbstractSentenceDetector.java",
+      "ParserEventStream.java",
       1
    ],
    [
       "joern",
-      "UimaUtil.java",
+      "TokenNameFinderCrossValidatorTool.java",
+      1
+   ],
+   [
+      "joern",
+      "CharacterNgramFeatureGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "BingQueryRunner.java",
       2
    ],
    [
       "joern",
-      "HitBase.java",
-      2
-   ],
-   [
-      "joern",
-      "ConllXPOSSampleStreamFactory.java",
+      "RealValueModelTest.java",
       1
-   ],
-   [
-      "joern",
-      "mail-lists.html",
-      1
-   ],
-   [
-      "joern",
-      "ParseTreeChunkListScorer.java",
-      1
-   ],
-   [
-      "joern",
-      "WordNode.java",
-      3
    ]
 ]

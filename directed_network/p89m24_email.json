@@ -1,21 +1,25 @@
 [
    {
+      "name": "John Smith",
+      "imports": []
+   },
+   {
+      "name": "Sam Shah",
       "imports": [
          "Matthew Hayes",
          "Matthew Hayes"
-      ],
-      "name": "Sam Shah"
+      ]
    },
    {
-      "imports": [
-         "John Smith"
-      ],
-      "name": "Matthew Hayes"
-   },
-   {
+      "name": "Will Vaughan",
       "imports": [
          "Sam Shah"
-      ],
-      "name": "Will Vaughan"
+      ]
+   },
+   {
+      "name": "Matthew Hayes",
+      "imports": [
+         "John Smith"
+      ]
    }
 ]

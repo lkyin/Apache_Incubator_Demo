@@ -1,107 +1,7 @@
 [
    [
       "boisvert",
-      "BpelParser.java",
-      1
-   ],
-   [
-      "mszefler",
-      "ProcessAndInstanceManagementImpl.java",
-      1
-   ],
-   [
-      "mszefler",
-      "HProcessInstance.java",
-      2
-   ],
-   [
-      "boisvert",
-      "GeronimoFactory.java",
-      1
-   ],
-   [
-      "mszefler",
-      "HCorrelator.java",
-      1
-   ],
-   [
-      "mriou",
-      "ProcessAndInstanceManagementImpl.java",
-      3
-   ],
-   [
-      "mriou",
-      "FileUtils.java",
-      1
-   ],
-   [
-      "mszefler",
-      "PICK.java",
-      1
-   ],
-   [
-      "mriou",
-      "DeploymentUnitImpl.java",
-      3
-   ],
-   [
-      "assaf",
-      "InvokeGenerator.java",
-      2
-   ],
-   [
-      "mriou",
-      "FOREACH.java",
-      1
-   ],
-   [
-      "mriou",
-      "EH_EVENT.java",
-      1
-   ],
-   [
-      "mszefler",
-      "HCorrelatorMessage.java",
-      2
-   ],
-   [
-      "mriou",
-      "DeploymentManager.java",
-      1
-   ],
-   [
-      "boisvert",
-      "ScopeImpl.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestInstantiatingPick.bpel",
-      2
-   ],
-   [
-      "assaf",
-      "ProcessMessageExchangeEvent.java",
-      1
-   ],
-   [
-      "mszefler",
-      "ProcessDaoImpl.java",
-      2
-   ],
-   [
-      "boisvert",
-      "BpelProcessState.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestActivityFlow.bpel",
-      10
-   ],
-   [
-      "mriou",
-      "TestScheduler.java",
+      "Bpel11WaitActivityState.java",
       1
    ],
    [
@@ -110,74 +10,19 @@
       1
    ],
    [
-      "assaf",
-      "ActivityRecovery.java",
-      1
-   ],
-   [
-      "mriou",
-      "BpelEngineImpl.java",
-      2
-   ],
-   [
-      "boisvert",
-      "OdeComponent.java",
-      2
-   ],
-   [
-      "mriou",
-      "JotmFactory.java",
-      1
-   ],
-   [
-      "boisvert",
-      "EndpointFactory.java",
-      1
-   ],
-   [
-      "boisvert",
-      "Bpel11WaitActivityState.java",
-      1
-   ],
-   [
-      "mriou",
-      "HFaultData.java",
-      1
-   ],
-   [
-      "assaf",
-      "ActivityInfo.java",
-      1
-   ],
-   [
-      "mriou",
-      "DeploymentPoller.java",
-      2
-   ],
-   [
-      "boisvert",
-      "SharedLocalConnectionManager.java",
-      1
-   ],
-   [
-      "mszefler",
-      "ExternalService.java",
-      2
-   ],
-   [
-      "boisvert",
-      "XAConnectionManager.java",
-      1
-   ],
-   [
       "lwaterman",
-      "NegativeCorrelationTest.bpel",
+      "MessageExchangeContextImpl.java",
+      3
+   ],
+   [
+      "mriou",
+      "TestAssign.wsdl",
       1
    ],
    [
-      "lwaterman",
-      "TestDynamicPick.wsdl",
-      2
+      "mriou",
+      "XPathMessages.java",
+      1
    ],
    [
       "boisvert",
@@ -185,308 +30,43 @@
       1
    ],
    [
-      "boisvert",
-      "OnMessageImpl.java",
+      "mriou",
+      "DefaultXsltFinder.java",
       1
    ],
    [
-      "mriou",
-      "DefaultWsdlFinder.java",
+      "mszefler",
+      "HCorrelatorSelector.java",
       3
    ],
    [
       "boisvert",
-      "OnAlarmImpl.java",
+      "JacobVPU.java",
+      1
+   ],
+   [
+      "mszefler",
+      "OdeConsumer.java",
       1
    ],
    [
       "boisvert",
-      "MyRoleMessageExchangeImpl.java",
+      "NoOpInterceptor.java",
       1
    ],
    [
-      "lwaterman",
-      "testCorrelation.bpel",
-      5
-   ],
-   [
-      "boisvert",
-      "VariableImpl.java",
+      "mriou",
+      "BaseBpelState.java",
       1
    ],
    [
-      "boisvert",
-      "BpelServerImpl.java",
+      "mriou",
+      "HelloXslWorld.bpel",
       2
    ],
    [
-      "boisvert",
-      "OdeConnectionImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "GeronimoFactory.java",
-      1
-   ],
-   [
-      "boisvert",
-      "XPath10ExpressionCompilerImpl.java",
-      1
-   ],
-   [
-      "boisvert",
-      "ScopeDaoImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "OdeXPathFunctionLibrary.java",
-      1
-   ],
-   [
       "assaf",
-      "process.bpel",
-      1
-   ],
-   [
-      "assaf",
-      "InstanceManagement.java",
-      1
-   ],
-   [
-      "assaf",
-      "FailureHandling.java",
-      1
-   ],
-   [
-      "mszefler",
-      "BpelEngineImpl.java",
-      2
-   ],
-   [
-      "mszefler",
-      "CorrelatorDaoImpl.java",
-      3
-   ],
-   [
-      "assaf",
-      "Scheduler.java",
-      1
-   ],
-   [
-      "mszefler",
-      "ODEServer.java",
-      1
-   ],
-   [
-      "mszefler",
-      "CorrelationSetDaoImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "ODEServer.java",
-      6
-   ],
-   [
-      "mriou",
-      "REPLY.java",
-      1
-   ],
-   [
-      "mszefler",
-      ".project",
-      3
-   ],
-   [
-      "assaf",
-      "CoreBpelTest.java",
-      3
-   ],
-   [
-      "mszefler",
-      "ProcessInstanceDAO.java",
-      2
-   ],
-   [
-      "mriou",
-      "ExternalService.java",
-      1
-   ],
-   [
-      "mszefler",
-      "InstanceLockManager.java",
-      1
-   ],
-   [
-      "mriou",
-      "EH_ALARM.java",
-      1
-   ],
-   [
-      "boisvert",
-      "DocumentInfoGenerator.java",
-      1
-   ],
-   [
-      "assaf",
-      "pmapi.xsd",
-      1
-   ],
-   [
-      "mszefler",
-      "BpelCompiler.java",
-      1
-   ],
-   [
-      "boisvert",
-      "BindingContextImpl.java",
-      1
-   ],
-   [
-      "boisvert",
-      "ODEServer.java",
-      1
-   ],
-   [
-      "boisvert",
-      "OdeService.java",
-      1
-   ],
-   [
-      "mriou",
-      "DeploymentWebService.java",
-      12
-   ],
-   [
-      "mriou",
-      "BindingContextImpl.java",
-      1
-   ],
-   [
-      "boisvert",
-      ".classpath",
-      2
-   ],
-   [
-      "mriou",
-      "BpelServerImpl.java",
-      8
-   ],
-   [
-      "mszefler",
-      "MessageExchangeContextImpl.java",
-      1
-   ],
-   [
-      "mszefler",
-      "MessageExchangeDaoImpl.java",
-      1
-   ],
-   [
-      "assaf",
-      "ActivityRecoveryDaoImpl.java",
-      3
-   ],
-   [
-      "lwaterman",
-      "NegativeInitializationTest.wsdl",
-      1
-   ],
-   [
-      "mriou",
-      "HelloXslWorld.wsdl",
-      1
-   ],
-   [
-      "boisvert",
-      "BaseDAOTest.java",
-      1
-   ],
-   [
-      "mszefler",
-      "HObject.java",
-      1
-   ],
-   [
-      "boisvert",
-      "EndpointReferenceContext.java",
-      1
-   ],
-   [
-      "assaf",
-      "GoodCompileTest.java",
-      2
-   ],
-   [
-      "mriou",
-      "WHILE.java",
-      1
-   ],
-   [
-      "assaf",
-      "ActivityRecoveryTest.java",
-      3
-   ],
-   [
-      "boisvert",
-      "SCOPE.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestAssign.wsdl",
-      3
-   ],
-   [
-      "mriou",
-      "WsdlFinderXMLEntityResolver.java",
-      2
-   ],
-   [
-      "mriou",
-      "THROW.java",
-      1
-   ],
-   [
-      "boisvert",
-      "ProcessDAO.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestStaticOnMessage.bpel",
-      1
-   ],
-   [
-      "boisvert",
-      "ListInstanceTest.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "NegativeInitializationTest.bpel",
-      1
-   ],
-   [
-      "mriou",
-      "DeploymentManagerImpl.java",
-      6
-   ],
-   [
-      "assaf",
-      "BpelRuntimeContext.java",
-      3
-   ],
-   [
-      "mriou",
-      "WSDLRegistry.java",
-      2
-   ],
-   [
-      "mszefler",
-      "ServiceBridge.java",
+      "MessageExchangeImpl.java",
       1
    ],
    [
@@ -496,53 +76,38 @@
    ],
    [
       "boisvert",
-      "InstanceSelectionTest.java",
-      1
-   ],
-   [
-      "assaf",
-      "AsyncProcess2.bpel",
-      1
-   ],
-   [
-      "assaf",
-      "failure-no-retry.bpel",
+      "XPath10ExpressionCompilerImpl.java",
       1
    ],
    [
       "lwaterman",
-      "TestStaticOnMessage.wsdl",
+      "TestStaticOnMessage.bpel",
+      1
+   ],
+   [
+      "assaf",
+      "ActivityInfo.java",
       1
    ],
    [
       "boisvert",
-      "BpelRuntimeContextImpl.java",
-      2
-   ],
-   [
-      "assaf",
-      "failure-to-fault.bpel",
-      1
-   ],
-   [
-      "assaf",
-      "types.xsd",
+      "GeronimoFactory.java",
       1
    ],
    [
       "lwaterman",
-      "testCorrelation.wsdl",
-      5
+      "TestAssign.bpel",
+      4
    ],
    [
       "mriou",
-      "BpelRuntimeContextImpl.java",
-      2
+      "INVOKE.java",
+      1
    ],
    [
-      "mriou",
-      "BPELTest.java",
-      3
+      "lwaterman",
+      "NegativeInitializationTest.wsdl",
+      1
    ],
    [
       "mszefler",
@@ -550,58 +115,48 @@
       1
    ],
    [
-      "assaf",
-      "failure-inheritence.bpel",
-      2
-   ],
-   [
       "boisvert",
-      "XPath20ExpressionRuntime.java",
-      2
-   ],
-   [
-      "mszefler",
-      "PickGeneratorMessages.java",
+      "INVOKE.java",
       1
    ],
    [
-      "lwaterman",
-      "TestActivityFlow.wsdl",
-      8
-   ],
-   [
       "mriou",
-      "BpelCompiler.java",
+      "BPELTest.java",
       3
    ],
    [
-      "boisvert",
-      "PartnerLinkImpl.java",
-      1
-   ],
-   [
-      "boisvert",
-      "JDBCManagedConnectionFactory.java",
-      1
-   ],
-   [
-      "boisvert",
-      "LeastRecentlyUsedCache.java",
-      1
-   ],
-   [
-      "assaf",
-      "HProcessInstance.java",
-      1
-   ],
-   [
-      "mszefler",
-      "BpelProcess.java",
+      "mriou",
+      "PartnerRoleChannelImpl.java",
       1
    ],
    [
       "mriou",
-      "ACTIVITYGUARD.java",
+      "DUWsdlFinder.java",
+      1
+   ],
+   [
+      "boisvert",
+      "OdeManagedConnectionImpl.java",
+      1
+   ],
+   [
+      "mszefler",
+      "MessageExchangeDaoImpl.java",
+      1
+   ],
+   [
+      "mszefler",
+      "EH_EVENT.java",
+      1
+   ],
+   [
+      "boisvert",
+      "OnMessageImpl.java",
+      1
+   ],
+   [
+      "mriou",
+      "JotmFactory.java",
       1
    ],
    [
@@ -610,243 +165,13 @@
       2
    ],
    [
-      "lwaterman",
-      "testFaultHandlers.wsdl",
-      2
-   ],
-   [
-      "assaf",
-      "CompilerContext.java",
-      2
-   ],
-   [
-      "mszefler",
-      "MyRoleMessageExchangeImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "XsltFinder.java",
-      1
-   ],
-   [
       "boisvert",
-      "PickActivityImpl.java",
-      1
-   ],
-   [
-      "mszefler",
-      "WSDLRegistryTest.java",
-      1
-   ],
-   [
-      "mriou",
-      "DocumentRegistry.java",
-      1
-   ],
-   [
-      "mriou",
-      "HelloXslWorld.xsl",
-      3
-   ],
-   [
-      "boisvert",
-      "HCorrelator.java",
-      1
-   ],
-   [
-      "mszefler",
-      ".classpath",
-      3
-   ],
-   [
-      "mszefler",
-      "BpelC.java",
-      1
-   ],
-   [
-      "mszefler",
-      "ACTIVITY.java",
-      1
-   ],
-   [
-      "mszefler",
-      "HCorrelatorEntry.java",
-      1
-   ],
-   [
-      "assaf",
-      "ActivityRecoveryDAO.java",
-      3
-   ],
-   [
-      "mriou",
-      "CapturingXMLEntityResolver.java",
-      1
-   ],
-   [
-      "mszefler",
-      "BPELTest.java",
-      1
+      "DeploymentManagerImpl.java",
+      2
    ],
    [
       "assaf",
       "ActivityGenerator.java",
-      1
-   ],
-   [
-      "mriou",
-      "BpelDAOConnectionImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "StaticCheckTCase.java",
-      1
-   ],
-   [
-      "mriou",
-      "OElementVarType.java",
-      1
-   ],
-   [
-      "boisvert",
-      "Contexts.java",
-      1
-   ],
-   [
-      "mriou",
-      "TestAssign.wsdl",
-      1
-   ],
-   [
-      "mriou",
-      "HMessageExchange.java",
-      1
-   ],
-   [
-      "boisvert",
-      "JacobVPU.java",
-      1
-   ],
-   [
-      "boisvert",
-      "DOMUtils.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "probeService.wsdl",
-      3
-   ],
-   [
-      "mriou",
-      "BpelC.java",
-      2
-   ],
-   [
-      "mszefler",
-      "StaticCheckTCase.java",
-      1
-   ],
-   [
-      "assaf",
-      "GeronimoFactory.java",
-      3
-   ],
-   [
-      "lwaterman",
-      "TestStaticPick.bpel",
-      3
-   ],
-   [
-      "assaf",
-      "failure-to-recovery.bpel",
-      1
-   ],
-   [
-      "assaf",
-      "QuartzSchedulerImpl.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestInstantiatingPick.wsdl",
-      2
-   ],
-   [
-      "mriou",
-      "XPathMessages.java",
-      1
-   ],
-   [
-      "boisvert",
-      "TreeBuilder.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "BindingContextImpl.java",
-      2
-   ],
-   [
-      "mriou",
-      "TestAssign.bpel",
-      9
-   ],
-   [
-      "assaf",
-      "HMessageExchange.java",
-      1
-   ],
-   [
-      "boisvert",
-      "TestScheduler.java",
-      1
-   ],
-   [
-      "boisvert",
-      "BpelFromState.java",
-      1
-   ],
-   [
-      "boisvert",
-      "OdeLifeCycle.java",
-      2
-   ],
-   [
-      "lwaterman",
-      "BpelRuntimeContextImpl.java",
-      1
-   ],
-   [
-      "assaf",
-      "services.wsdl",
-      2
-   ],
-   [
-      "lwaterman",
-      "NegativeCorrelationTest.wsdl",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestStaticPick.wsdl",
-      3
-   ],
-   [
-      "mszefler",
-      "PartnerRoleMessageExchangeImpl.java",
-      1
-   ],
-   [
-      "assaf",
-      "FlowGenerator.java",
-      2
-   ],
-   [
-      "mriou",
-      "WsdlFinder.java",
       1
    ],
    [
@@ -856,42 +181,117 @@
    ],
    [
       "boisvert",
-      "NoOpInterceptor.java",
+      "BaseDAOTest.java",
+      1
+   ],
+   [
+      "mszefler",
+      "ACTIVITY.java",
+      1
+   ],
+   [
+      "assaf",
+      "CoreBpelTest.java",
+      3
+   ],
+   [
+      "boisvert",
+      "MockBpelServer.java",
+      2
+   ],
+   [
+      "boisvert",
+      "SharedLocalConnectionManager.java",
+      1
+   ],
+   [
+      "mszefler",
+      "BpelC.java",
+      1
+   ],
+   [
+      "mszefler",
+      ".classpath",
+      3
+   ],
+   [
+      "mriou",
+      "EH_ALARM.java",
+      1
+   ],
+   [
+      "mszefler",
+      "InstanceLockManager.java",
       1
    ],
    [
       "boisvert",
-      "MessageExchangeContext.java",
-      1
+      "OdeLifeCycle.java",
+      2
    ],
    [
-      "mszefler",
-      "EH_EVENT.java",
+      "lwaterman",
+      "TestAssign.wsdl",
+      3
+   ],
+   [
+      "lwaterman",
+      "testFaultHandlers.wsdl",
+      2
+   ],
+   [
+      "lwaterman",
+      "TestTimer.wsdl",
+      2
+   ],
+   [
+      "boisvert",
+      "PartnerLinkImpl.java",
       1
    ],
    [
       "mriou",
-      "DUWsdlFinder.java",
-      1
-   ],
-   [
-      "mszefler",
-      "SessionManager.java",
+      "WsdlFinder.java",
       1
    ],
    [
       "mriou",
-      "MessageExchangeContextImpl.java",
+      "ProcessDDInitializer.java",
+      1
+   ],
+   [
+      "assaf",
+      "HProcessInstance.java",
       1
    ],
    [
       "lwaterman",
-      "TestSimpleTypeParts.wsdl",
+      "NegativeCorrelationTest.wsdl",
+      1
+   ],
+   [
+      "mszefler",
+      "BpelProcess.java",
+      1
+   ],
+   [
+      "mriou",
+      "BindingContextImpl.java",
       1
    ],
    [
       "boisvert",
-      "HibernateInstancesQueryCompiler.java",
+      "BpelServerImpl.java",
+      2
+   ],
+   [
+      "boisvert",
+      "MyRoleMessageExchange.java",
+      1
+   ],
+   [
+      "mriou",
+      "SaxonContext.java",
       1
    ],
    [
@@ -900,168 +300,58 @@
       1
    ],
    [
-      "assaf",
+      "boisvert",
+      "HCorrelator.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestInstantiatingPick.wsdl",
+      2
+   ],
+   [
+      "lwaterman",
+      "TestStaticPick.wsdl",
+      3
+   ],
+   [
+      "mszefler",
+      "HCorrelator.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestStaticPick.bpel",
+      3
+   ],
+   [
+      "mszefler",
       "ProcessInstanceDaoImpl.java",
-      4
+      2
    ],
    [
       "mriou",
-      "DefaultXsltFinder.java",
-      1
-   ],
-   [
-      "mriou",
-      "BaseBpelState.java",
-      1
-   ],
-   [
-      "assaf",
-      "MockBpelServer.java",
-      4
-   ],
-   [
-      "assaf",
-      "SequenceGenerator.java",
+      "BpelRuntimeContextImpl.java",
       2
    ],
    [
       "boisvert",
-      "DeploymentManagerImpl.java",
-      2
-   ],
-   [
-      "mriou",
-      "JaxpVariableResolver.java",
-      5
-   ],
-   [
-      "mriou",
-      "HProcessInstance.java",
-      2
-   ],
-   [
-      "mriou",
-      "PartnerRoleChannelImpl.java",
+      "ScopeDaoImpl.java",
       1
    ],
    [
-      "mszefler",
+      "mriou",
+      "CapturingXMLEntityResolver.java",
+      1
+   ],
+   [
+      "boisvert",
       "OdeService.java",
       1
    ],
    [
-      "mriou",
-      "XPath20ExpressionRuntime.java",
-      3
-   ],
-   [
-      "mriou",
-      "PICK.java",
-      1
-   ],
-   [
       "mszefler",
-      "ProcessInstanceDaoImpl.java",
-      2
-   ],
-   [
-      "assaf",
-      "ProcessInstanceDAO.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "JaxpVariableResolver.java",
-      1
-   ],
-   [
-      "mriou",
-      "OXsdTypeVarType.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestXPathNamespace1.wsdl",
-      1
-   ],
-   [
-      "mriou",
-      "ASSIGN.java",
-      5
-   ],
-   [
-      "mriou",
-      "DocumentEntityResolver.java",
-      3
-   ],
-   [
-      "assaf",
-      "MessageExchangeImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "ODEConfigProperties.java",
-      6
-   ],
-   [
-      "boisvert",
-      "OdeManagedConnectionImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "HelloXslWorld.bpel",
-      2
-   ],
-   [
-      "boisvert",
-      "Messages.java",
-      2
-   ],
-   [
-      "mszefler",
-      "MessageExchange.java",
-      1
-   ],
-   [
-      "assaf",
-      "BpelCompiler.java",
-      2
-   ],
-   [
-      "mriou",
-      "ProcessDDInitializer.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "MessageExchange.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestTimer.bpel",
-      2
-   ],
-   [
-      "boisvert",
-      "BindingContext.java",
-      1
-   ],
-   [
-      "mszefler",
-      "CorrelationKey.java",
-      1
-   ],
-   [
-      "boisvert",
-      "ListProcessTest.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "testCompensationHandlers.bpel",
+      "BaseBpelState.java",
       2
    ],
    [
@@ -1071,118 +361,163 @@
    ],
    [
       "mriou",
-      "JaxpFunctionResolver.java",
-      4
-   ],
-   [
-      "mriou",
-      "INVOKE.java",
+      "WHILE.java",
       1
    ],
    [
       "mszefler",
-      "WorkEvent.java",
-      1
+      "BpelRuntimeContextImpl.java",
+      2
    ],
    [
       "mszefler",
-      "MessageDaoImpl.java",
-      1
-   ],
-   [
-      "boisvert",
-      "ProcessDDInitializer.java",
-      1
-   ],
-   [
-      "boisvert",
-      "Bpel11ProcessState.java",
+      "ServiceBridge.java",
       1
    ],
    [
       "mriou",
-      "tables_mysql_innodb.sql",
+      "HFaultData.java",
+      1
+   ],
+   [
+      "assaf",
+      "failure-to-recovery.bpel",
       1
    ],
    [
       "boisvert",
+      "XAConnectionManager.java",
+      1
+   ],
+   [
+      "assaf",
+      "ActivityRecoveryTest.java",
+      3
+   ],
+   [
+      "mriou",
+      "OdeXPathFunctionLibrary.java",
+      1
+   ],
+   [
+      "assaf",
+      "BpelCompiler.java",
+      2
+   ],
+   [
+      "mriou",
+      "StaticCheckTCase.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "BpelRuntimeContextImpl.java",
+      1
+   ],
+   [
+      "mriou",
+      "DeploymentPoller.java",
+      2
+   ],
+   [
+      "boisvert",
+      "DocumentInfoGenerator.java",
+      1
+   ],
+   [
+      "assaf",
+      "GeronimoFactory.java",
+      3
+   ],
+   [
+      "mszefler",
+      "IndexedObject.java",
+      2
+   ],
+   [
+      "mszefler",
+      "ODEServer.java",
+      1
+   ],
+   [
+      "boisvert",
+      "OdeComponent.java",
+      2
+   ],
+   [
+      "assaf",
+      "CompilerContext.java",
+      2
+   ],
+   [
+      "mszefler",
+      "MessageRouteDaoImpl.java",
+      1
+   ],
+   [
+      "mszefler",
+      "MessageExchange.java",
+      1
+   ],
+   [
+      "boisvert",
+      "OdeConnectionImpl.java",
+      1
+   ],
+   [
+      "mriou",
+      "WsdlFinderXMLEntityResolver.java",
+      2
+   ],
+   [
+      "assaf",
+      "ActivityFailureEvent.java",
+      1
+   ],
+   [
+      "mriou",
+      "BpelServerImpl.java",
+      8
+   ],
+   [
+      "mriou",
       "BpelEngineImpl.java",
       2
    ],
    [
+      "lwaterman",
+      "probeService.wsdl",
+      3
+   ],
+   [
+      "boisvert",
+      "TestScheduler.java",
+      1
+   ],
+   [
+      "mriou",
+      "OElementVarType.java",
+      1
+   ],
+   [
+      "mriou",
+      "EH_EVENT.java",
+      1
+   ],
+   [
       "mszefler",
-      "ExecutionQueueImpl.java",
-      3
+      "PICK.java",
+      1
    ],
    [
       "boisvert",
-      "MyRoleMessageExchange.java",
+      "PickActivityImpl.java",
       1
    ],
    [
       "assaf",
-      "BpelRuntimeContextImpl.java",
-      4
-   ],
-   [
-      "boisvert",
-      "ProcessDaoImpl.java",
+      "HMessageExchange.java",
       1
-   ],
-   [
-      "boisvert",
-      "INVOKE.java",
-      1
-   ],
-   [
-      "mriou",
-      "ManagementService.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestXPathNamespace1.bpel",
-      1
-   ],
-   [
-      "assaf",
-      "INVOKE.java",
-      3
-   ],
-   [
-      "mriou",
-      "SaxonContext.java",
-      1
-   ],
-   [
-      "boisvert",
-      "XAConnectionImpl.java",
-      1
-   ],
-   [
-      "mriou",
-      "OdeLifeCycle.java",
-      1
-   ],
-   [
-      "lwaterman",
-      "TestSimpleTypeParts.bpel",
-      1
-   ],
-   [
-      "lwaterman",
-      "testCompensationHandlers.wsdl",
-      2
-   ],
-   [
-      "lwaterman",
-      "PartnerRoleChannelImpl.java",
-      2
-   ],
-   [
-      "assaf",
-      "DefaultActivityGenerator.java",
-      4
    ],
    [
       "lwaterman",
@@ -1190,8 +525,78 @@
       12
    ],
    [
+      "mszefler",
+      "HCorrelatorMessage.java",
+      2
+   ],
+   [
       "assaf",
-      "HPartnerLink.java",
+      "WhileGenerator.java",
+      2
+   ],
+   [
+      "boisvert",
+      "ODEServer.java",
+      1
+   ],
+   [
+      "boisvert",
+      "BpelParser.java",
+      1
+   ],
+   [
+      "mszefler",
+      "BPELTest.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestStaticOnMessage.wsdl",
+      1
+   ],
+   [
+      "mriou",
+      "DocumentRegistry.java",
+      1
+   ],
+   [
+      "mszefler",
+      "BpelCompiler.java",
+      1
+   ],
+   [
+      "assaf",
+      "ProcessInstanceDaoImpl.java",
+      4
+   ],
+   [
+      "mriou",
+      "BpelCompiler.java",
+      3
+   ],
+   [
+      "boisvert",
+      "ScopeImpl.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestSimpleTypeParts.wsdl",
+      1
+   ],
+   [
+      "boisvert",
+      "XAManagedConnectionFactory.java",
+      1
+   ],
+   [
+      "mszefler",
+      "ExecutionQueueImpl.java",
+      3
+   ],
+   [
+      "lwaterman",
+      "TestSimpleVariableType.wsdl",
       1
    ],
    [
@@ -1200,54 +605,104 @@
       1
    ],
    [
-      "assaf",
-      "ActivityFailureEvent.java",
-      1
-   ],
-   [
-      "assaf",
-      "HActivityRecovery.java",
-      2
-   ],
-   [
-      "lwaterman",
-      "TestTimer.wsdl",
-      2
-   ],
-   [
-      "mszefler",
-      "HProcess.java",
+      "boisvert",
+      "ListInstanceTest.java",
       1
    ],
    [
       "boisvert",
-      "MockBpelServer.java",
+      "BpelEngineImpl.java",
       2
    ],
    [
-      "assaf",
-      "BpelProcess.java",
-      2
+      "mriou",
+      "FOREACH.java",
+      1
    ],
    [
-      "lwaterman",
-      "TestSimpleVariableType.wsdl",
+      "boisvert",
+      "EndpointFactory.java",
+      1
+   ],
+   [
+      "boisvert",
+      "SCOPE.java",
       1
    ],
    [
       "mriou",
-      "BpelCompileCommand.java",
+      "BpelC.java",
+      2
+   ],
+   [
+      "assaf",
+      "process.bpel",
+      1
+   ],
+   [
+      "boisvert",
+      "EndpointReferenceContext.java",
+      1
+   ],
+   [
+      "mriou",
+      "THROW.java",
+      1
+   ],
+   [
+      "boisvert",
+      "Bpel11ProcessState.java",
+      1
+   ],
+   [
+      "assaf",
+      "Scheduler.java",
+      1
+   ],
+   [
+      "assaf",
+      "ActivityRecovery.java",
       1
    ],
    [
       "mszefler",
-      "HCorrelatorSelector.java",
-      3
+      "HCorrelatorEntry.java",
+      1
+   ],
+   [
+      "assaf",
+      "services.wsdl",
+      2
+   ],
+   [
+      "mriou",
+      "DeploymentWebService.java",
+      12
    ],
    [
       "mszefler",
-      "BaseBpelState.java",
-      2
+      "CorrelationSetDaoImpl.java",
+      1
+   ],
+   [
+      "boisvert",
+      "XAConnectionImpl.java",
+      1
+   ],
+   [
+      "boisvert",
+      "TreeBuilder.java",
+      1
+   ],
+   [
+      "mriou",
+      "FileUtils.java",
+      1
+   ],
+   [
+      "assaf",
+      "MockBpelServer.java",
+      4
    ],
    [
       "assaf",
@@ -1255,9 +710,9 @@
       2
    ],
    [
-      "lwaterman",
-      "MessageExchangeContextImpl.java",
-      3
+      "mszefler",
+      "ProcessInstanceDAO.java",
+      2
    ],
    [
       "lwaterman",
@@ -1265,33 +720,133 @@
       1
    ],
    [
-      "lwaterman",
-      "TestAssign.bpel",
-      4
-   ],
-   [
-      "mszefler",
-      "OdeConsumer.java",
+      "boisvert",
+      "ProcessDAO.java",
       1
    ],
    [
-      "mszefler",
-      "BpelRuntimeContextImpl.java",
-      2
+      "mriou",
+      "DeploymentManagerImpl.java",
+      6
    ],
    [
       "boisvert",
-      "XAManagedConnectionFactory.java",
+      "ListProcessTest.java",
       1
    ],
    [
       "assaf",
-      "WhileGenerator.java",
+      "BpelProcess.java",
       2
    ],
    [
       "mszefler",
-      "MessageRouteDaoImpl.java",
+      "ExternalService.java",
+      2
+   ],
+   [
+      "mszefler",
+      "MyRoleMessageExchangeImpl.java",
+      1
+   ],
+   [
+      "mriou",
+      "HelloXslWorld.xsl",
+      3
+   ],
+   [
+      "lwaterman",
+      "BindingContextImpl.java",
+      2
+   ],
+   [
+      "assaf",
+      "GoodCompileTCase.java",
+      1
+   ],
+   [
+      "mszefler",
+      "CorrelatorDaoImpl.java",
+      3
+   ],
+   [
+      "mriou",
+      "OXsdTypeVarType.java",
+      1
+   ],
+   [
+      "assaf",
+      "pmapi.xsd",
+      1
+   ],
+   [
+      "mszefler",
+      "StaticCheckTCase.java",
+      1
+   ],
+   [
+      "boisvert",
+      "InstanceSelectionTest.java",
+      1
+   ],
+   [
+      "mriou",
+      "ASSIGN.java",
+      5
+   ],
+   [
+      "mriou",
+      "REPLY.java",
+      1
+   ],
+   [
+      "boisvert",
+      "Contexts.java",
+      1
+   ],
+   [
+      "mriou",
+      "GeronimoFactory.java",
+      1
+   ],
+   [
+      "assaf",
+      "SequenceGenerator.java",
+      2
+   ],
+   [
+      "assaf",
+      "types.xsd",
+      1
+   ],
+   [
+      "boisvert",
+      "BindingContext.java",
+      1
+   ],
+   [
+      "boisvert",
+      "BpelProcessState.java",
+      1
+   ],
+   [
+      "mriou",
+      "JaxpVariableResolver.java",
+      5
+   ],
+   [
+      "lwaterman",
+      "testCompensationHandlers.bpel",
+      2
+   ],
+   [
+      "boisvert",
+      "ProcessDDInitializer.java",
+      1
+   ],
+   [
+      "mriou",
+      "OdeLifeCycle.java",
       1
    ],
    [
@@ -1301,12 +856,457 @@
    ],
    [
       "assaf",
-      "GoodCompileTCase.java",
+      "DefaultActivityGenerator.java",
+      4
+   ],
+   [
+      "mszefler",
+      "WorkEvent.java",
+      1
+   ],
+   [
+      "boisvert",
+      "LeastRecentlyUsedCache.java",
+      1
+   ],
+   [
+      "assaf",
+      "HPartnerLink.java",
+      1
+   ],
+   [
+      "boisvert",
+      "JDBCManagedConnectionFactory.java",
+      1
+   ],
+   [
+      "mriou",
+      "BpelCompileCommand.java",
       1
    ],
    [
       "mszefler",
-      "IndexedObject.java",
+      "SessionManager.java",
+      1
+   ],
+   [
+      "mriou",
+      "tables_mysql_innodb.sql",
+      1
+   ],
+   [
+      "mszefler",
+      "HObject.java",
+      1
+   ],
+   [
+      "mriou",
+      "XPath20ExpressionRuntime.java",
+      3
+   ],
+   [
+      "lwaterman",
+      "PartnerRoleChannelImpl.java",
+      2
+   ],
+   [
+      "assaf",
+      "AsyncProcess2.bpel",
+      1
+   ],
+   [
+      "mriou",
+      "ExternalService.java",
+      1
+   ],
+   [
+      "mriou",
+      "JaxpFunctionResolver.java",
+      4
+   ],
+   [
+      "lwaterman",
+      "TestInstantiatingPick.bpel",
+      2
+   ],
+   [
+      "boisvert",
+      "ProcessDaoImpl.java",
+      1
+   ],
+   [
+      "assaf",
+      "failure-to-fault.bpel",
+      1
+   ],
+   [
+      "mriou",
+      "HelloXslWorld.wsdl",
+      1
+   ],
+   [
+      "mriou",
+      "MessageExchangeContextImpl.java",
+      1
+   ],
+   [
+      "boisvert",
+      "DOMUtils.java",
+      1
+   ],
+   [
+      "mriou",
+      "DeploymentUnitImpl.java",
+      3
+   ],
+   [
+      "assaf",
+      "INVOKE.java",
+      3
+   ],
+   [
+      "mszefler",
+      "CorrelationKey.java",
+      1
+   ],
+   [
+      "assaf",
+      "HActivityRecovery.java",
+      2
+   ],
+   [
+      "boisvert",
+      "MessageExchangeContext.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "MessageExchange.java",
+      1
+   ],
+   [
+      "boisvert",
+      ".classpath",
+      2
+   ],
+   [
+      "mriou",
+      "DeploymentManager.java",
+      1
+   ],
+   [
+      "mszefler",
+      "OdeService.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "testCompensationHandlers.wsdl",
+      2
+   ],
+   [
+      "assaf",
+      "GoodCompileTest.java",
+      2
+   ],
+   [
+      "lwaterman",
+      "TestXPathNamespace1.wsdl",
+      1
+   ],
+   [
+      "assaf",
+      "QuartzSchedulerImpl.java",
+      1
+   ],
+   [
+      "assaf",
+      "ActivityRecoveryDaoImpl.java",
+      3
+   ],
+   [
+      "mriou",
+      "TestScheduler.java",
+      1
+   ],
+   [
+      "mriou",
+      "WSDLRegistry.java",
+      2
+   ],
+   [
+      "mriou",
+      "ACTIVITYGUARD.java",
+      1
+   ],
+   [
+      "mriou",
+      "ODEServer.java",
+      6
+   ],
+   [
+      "mszefler",
+      "PickGeneratorMessages.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestDynamicPick.wsdl",
+      2
+   ],
+   [
+      "mriou",
+      "TestAssign.bpel",
+      9
+   ],
+   [
+      "boisvert",
+      "XPath20ExpressionRuntime.java",
+      2
+   ],
+   [
+      "assaf",
+      "failure-no-retry.bpel",
+      1
+   ],
+   [
+      "mszefler",
+      "WSDLRegistryTest.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestActivityFlow.bpel",
+      10
+   ],
+   [
+      "mszefler",
+      "MessageExchangeContextImpl.java",
+      1
+   ],
+   [
+      "mszefler",
+      "HProcessInstance.java",
+      2
+   ],
+   [
+      "lwaterman",
+      "TestXPathNamespace1.bpel",
+      1
+   ],
+   [
+      "boisvert",
+      "OnAlarmImpl.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestActivityFlow.wsdl",
+      8
+   ],
+   [
+      "mszefler",
+      ".project",
+      3
+   ],
+   [
+      "boisvert",
+      "HibernateInstancesQueryCompiler.java",
+      1
+   ],
+   [
+      "assaf",
+      "failure-inheritence.bpel",
+      2
+   ],
+   [
+      "lwaterman",
+      "NegativeCorrelationTest.bpel",
+      1
+   ],
+   [
+      "mriou",
+      "DocumentEntityResolver.java",
+      3
+   ],
+   [
+      "mriou",
+      "ODEConfigProperties.java",
+      6
+   ],
+   [
+      "lwaterman",
+      "testCorrelation.bpel",
+      5
+   ],
+   [
+      "mriou",
+      "PICK.java",
+      1
+   ],
+   [
+      "boisvert",
+      "MyRoleMessageExchangeImpl.java",
+      1
+   ],
+   [
+      "mszefler",
+      "BpelEngineImpl.java",
+      2
+   ],
+   [
+      "boisvert",
+      "Messages.java",
+      2
+   ],
+   [
+      "boisvert",
+      "BpelRuntimeContextImpl.java",
+      2
+   ],
+   [
+      "mriou",
+      "ManagementService.java",
+      1
+   ],
+   [
+      "mriou",
+      "BpelDAOConnectionImpl.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestTimer.bpel",
+      2
+   ],
+   [
+      "mszefler",
+      "ProcessDaoImpl.java",
+      2
+   ],
+   [
+      "assaf",
+      "InstanceManagement.java",
+      1
+   ],
+   [
+      "boisvert",
+      "BindingContextImpl.java",
+      1
+   ],
+   [
+      "mriou",
+      "HMessageExchange.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "JaxpVariableResolver.java",
+      1
+   ],
+   [
+      "boisvert",
+      "VariableImpl.java",
+      1
+   ],
+   [
+      "mszefler",
+      "ProcessAndInstanceManagementImpl.java",
+      1
+   ],
+   [
+      "assaf",
+      "ActivityRecoveryDAO.java",
+      3
+   ],
+   [
+      "boisvert",
+      "BpelFromState.java",
+      1
+   ],
+   [
+      "mriou",
+      "ProcessAndInstanceManagementImpl.java",
+      3
+   ],
+   [
+      "mriou",
+      "DefaultWsdlFinder.java",
+      3
+   ],
+   [
+      "assaf",
+      "FailureHandling.java",
+      1
+   ],
+   [
+      "assaf",
+      "FlowGenerator.java",
+      2
+   ],
+   [
+      "assaf",
+      "BpelRuntimeContextImpl.java",
+      4
+   ],
+   [
+      "assaf",
+      "BpelRuntimeContext.java",
+      3
+   ],
+   [
+      "assaf",
+      "InvokeGenerator.java",
+      2
+   ],
+   [
+      "assaf",
+      "ProcessInstanceDAO.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "TestSimpleTypeParts.bpel",
+      1
+   ],
+   [
+      "assaf",
+      "ProcessMessageExchangeEvent.java",
+      1
+   ],
+   [
+      "mriou",
+      "XsltFinder.java",
+      1
+   ],
+   [
+      "mszefler",
+      "MessageDaoImpl.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "testCorrelation.wsdl",
+      5
+   ],
+   [
+      "mszefler",
+      "HProcess.java",
+      1
+   ],
+   [
+      "lwaterman",
+      "NegativeInitializationTest.bpel",
+      1
+   ],
+   [
+      "mszefler",
+      "PartnerRoleMessageExchangeImpl.java",
+      1
+   ],
+   [
+      "mriou",
+      "HProcessInstance.java",
       2
    ]
 ]

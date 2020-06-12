@@ -1,62 +1,27 @@
 [
    [
       "marrs",
-      "StreamTest.java",
+      "FileUtils.java",
       1
    ],
    [
       "marrs",
-      "osgi.bnd",
+      "FilebasedBackupRepositoryTest.java",
       1
    ],
    [
       "marrs",
-      "BundleStreamGenerator.java",
-      1
+      "ExecuterTest.java",
+      2
    ],
    [
       "marrs",
-      "SchedulerConstants.java",
-      1
+      "SimpleDiscoveryTest.java",
+      2
    ],
    [
       "marrs",
-      "DeploymentTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "IfconfigIdentificationTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "MockCachedRepository.java",
-      1
-   ],
-   [
-      "marrs",
-      "BundleFileStoreTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "AdminTestUtil.java",
-      1
-   ],
-   [
-      "marrs",
-      "MockBundleStore.java",
-      1
-   ],
-   [
-      "marrs",
-      "RepositoryUserAdminSerializationTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "DeploymentUpdateTaskTest.java",
+      "TestProvider.java",
       1
    ],
    [
@@ -66,7 +31,67 @@
    ],
    [
       "marrs",
+      "BundleStreamGenerator.java",
+      1
+   ],
+   [
+      "marrs",
+      "TestConstants.java",
+      1
+   ],
+   [
+      "marrs",
+      "LogTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "SchedulerTest.java",
+      2
+   ],
+   [
+      "marrs",
+      "BundleServletTest.java",
+      1
+   ],
+   [
+      "marrs",
       "NetUtils.java",
+      1
+   ],
+   [
+      "marrs",
+      "osgi.bnd",
+      1
+   ],
+   [
+      "marrs",
+      "ConfiguratorTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "SchedulerConstants.java",
+      1
+   ],
+   [
+      "marrs",
+      "MockBundleStore.java",
+      1
+   ],
+   [
+      "marrs",
+      "SortedRangeSetTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "BundleFileStoreTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "MockMetadataGenerator.java",
       1
    ],
    [
@@ -81,127 +106,12 @@
    ],
    [
       "marrs",
-      "SimpleDiscoveryTest.java",
-      2
-   ],
-   [
-      "marrs",
-      "BindexMetadataTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "ServerLogStoreTester.java",
-      1
-   ],
-   [
-      "marrs",
-      "MockBackupRepository.java",
-      1
-   ],
-   [
-      "marrs",
-      "ExecuterTest.java",
-      2
-   ],
-   [
-      "marrs",
-      "TestProvider.java",
-      1
-   ],
-   [
-      "marrs",
-      "GatewayLogStoreTester.java",
-      1
-   ],
-   [
-      "marrs",
       "RepositoryImplTest.java",
       1
    ],
    [
       "marrs",
-      "SortedRangeSetTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "MockConfigAdmin.java",
-      1
-   ],
-   [
-      "marrs",
-      "TestUtils.java",
-      1
-   ],
-   [
-      "marrs",
-      "ConfiguratorTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "FileBasedProviderTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "LogDescriptorTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "TestData.java",
-      1
-   ],
-   [
-      "marrs",
-      "SchedulerTest.java",
-      2
-   ],
-   [
-      "marrs",
-      "LogSyncTaskTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "MockMetadataGenerator.java",
-      1
-   ],
-   [
-      "marrs",
-      "Activator.java",
-      2
-   ],
-   [
-      "marrs",
-      "DeploymentServletTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "TestConstants.java",
-      1
-   ],
-   [
-      "marrs",
-      "CachedRepositoryImplTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "PropertyBasedDiscoveryTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "FilebasedBackupRepositoryTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "BundleServletTest.java",
+      "MockCachedRepository.java",
       1
    ],
    [
@@ -211,12 +121,97 @@
    ],
    [
       "marrs",
+      "AdminTestUtil.java",
+      1
+   ],
+   [
+      "marrs",
+      "GatewayLogStoreTester.java",
+      1
+   ],
+   [
+      "marrs",
+      "FileBasedProviderTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "DeploymentServletTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "DeploymentUpdateTaskTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "Activator.java",
+      2
+   ],
+   [
+      "marrs",
+      "MockConfigAdmin.java",
+      1
+   ],
+   [
+      "marrs",
+      "BindexMetadataTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "LogSyncTaskTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "CachedRepositoryImplTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "TestData.java",
+      1
+   ],
+   [
+      "marrs",
+      "MockConfiguration.java",
+      1
+   ],
+   [
+      "marrs",
+      "TestUtils.java",
+      1
+   ],
+   [
+      "marrs",
+      "LogDescriptorTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "ServerLogStoreTester.java",
+      1
+   ],
+   [
+      "marrs",
       "MockRepository.java",
       1
    ],
    [
       "marrs",
-      "SimpleIdentificationTest.java",
+      "DeploymentTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "IfconfigIdentificationTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "ArtifactTest.java",
       1
    ],
    [
@@ -231,32 +226,37 @@
    ],
    [
       "marrs",
-      "FileUtils.java",
+      "RepositoryUserAdminSerializationTest.java",
       1
    ],
    [
       "marrs",
-      "BundleServlet.java",
+      "PropertyBasedDiscoveryTest.java",
       1
    ],
    [
       "marrs",
-      "ArtifactTest.java",
+      "SimpleIdentificationTest.java",
       1
    ],
    [
       "marrs",
-      "LogTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "MockConfiguration.java",
+      "MockBackupRepository.java",
       1
    ],
    [
       "marrs",
       "ModelTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "StreamTest.java",
+      1
+   ],
+   [
+      "marrs",
+      "BundleServlet.java",
       1
    ]
 ]

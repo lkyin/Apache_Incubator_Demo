@@ -1,22 +1,22 @@
 [
    [
       "jbonofre",
-      "deployment-build-1.pom.sha1",
+      "deployment-build-1.pom",
       1
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.samples-3.0.0-SNAPSHOT.pom",
+      "dependencymanager-reactor-3.0.0-SNAPSHOT.pom.sha1",
       1
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.compat-3.0.0-SNAPSHOT.pom.sha1",
+      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.pom",
       1
    ],
    [
-      "marrs",
-      "osgi.bnd",
+      "jbonofre",
+      "org.apache.felix.dependencymanager-3.0.0-SNAPSHOT.pom",
       1
    ],
    [
@@ -26,12 +26,27 @@
    ],
    [
       "jbonofre",
-      "DeploymentIntegrationTest.java",
+      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.jar.sha1",
       1
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.test-3.0.0-SNAPSHOT.jar",
+      "org.apache.felix.metatype-1.0.5-SNAPSHOT.pom",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.jar.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.samples-3.0.0-SNAPSHOT.jar.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.jar",
       1
    ],
    [
@@ -41,52 +56,12 @@
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.pom.sha1",
+      "org.apache.felix.dependencymanager.test-3.0.0-SNAPSHOT.jar.sha1",
       1
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.annotation-3.0.0-SNAPSHOT.pom",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.pom.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.annotation-3.0.0-SNAPSHOT.jar.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager-3.0.0-SNAPSHOT.jar.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.compat-3.0.0-SNAPSHOT.pom",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.annotation-3.0.0-SNAPSHOT.pom.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.pom.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.jar",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager-3.0.0-SNAPSHOT.pom",
+      "MinimalGatewayTest.java",
       1
    ],
    [
@@ -100,38 +75,8 @@
       1
    ],
    [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.pom",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.compat-3.0.0-SNAPSHOT.jar",
-      1
-   ],
-   [
-      "jbonofre",
-      "AssemblyConfigureTest.java",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.jar.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.pom",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager-3.0.0-SNAPSHOT.jar",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.jar",
+      "marrs",
+      "osgi.bnd",
       1
    ],
    [
@@ -141,72 +86,7 @@
    ],
    [
       "jbonofre",
-      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.jar",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.shell-3.0.0-SNAPSHOT.pom.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "deployment-build-1.pom",
-      1
-   ],
-   [
-      "jbonofre",
-      "osgi.bnd",
-      52
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.metatype-1.0.5-SNAPSHOT.pom",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.pom",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.jar.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.metatype-1.0.5-SNAPSHOT.pom.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.jar.sha1",
-      1
-   ],
-   [
-      "angelos",
-      "osgi.bnd",
-      2
-   ],
-   [
-      "angelos",
-      "Main.java",
-      2
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.test-3.0.0-SNAPSHOT.pom.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.test-3.0.0-SNAPSHOT.jar.sha1",
-      1
-   ],
-   [
-      "jbonofre",
-      "org.apache.felix.dependencymanager.shell-3.0.0-SNAPSHOT.jar",
+      "org.apache.felix.metatype-1.0.5-SNAPSHOT.jar.sha1",
       1
    ],
    [
@@ -216,17 +96,27 @@
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.jar.sha1",
+      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.jar",
       1
    ],
    [
-      "marrs",
-      "VaadinClient.java",
+      "jbonofre",
+      "deployment-build-1.pom.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.pom.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "Options.java",
       3
    ],
    [
       "jbonofre",
-      "dependencymanager-reactor-3.0.0-SNAPSHOT.pom.sha1",
+      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.jar",
       1
    ],
    [
@@ -236,7 +126,52 @@
    ],
    [
       "jbonofre",
+      "org.apache.felix.dependencymanager.compat-3.0.0-SNAPSHOT.pom.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.jar.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager-3.0.0-SNAPSHOT.jar",
+      1
+   ],
+   [
+      "angelos",
+      "osgi.bnd",
+      2
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.pom.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.compat-3.0.0-SNAPSHOT.pom",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.shell-3.0.0-SNAPSHOT.jar.sha1",
+      1
+   ],
+   [
+      "jbonofre",
       "org.apache.felix.dependencymanager.samples-3.0.0-SNAPSHOT.pom.sha1",
+      1
+   ],
+   [
+      "angelos",
+      "SchedulerTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.pom",
       1
    ],
    [
@@ -246,7 +181,37 @@
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.samples-3.0.0-SNAPSHOT.jar.sha1",
+      "org.apache.felix.dependencymanager.annotation-3.0.0-SNAPSHOT.jar.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.jar",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.pom.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "AssemblyConfigureTest.java",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.deployment.rp.autoconf-0.1.0-SNAPSHOT.pom.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "dependencymanager-reactor-3.0.0-SNAPSHOT.pom",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.annotation-3.0.0-SNAPSHOT.pom.sha1",
       1
    ],
    [
@@ -261,42 +226,77 @@
    ],
    [
       "jbonofre",
-      "MinimalGatewayTest.java",
+      "org.apache.felix.metatype-1.0.5-SNAPSHOT.pom.sha1",
       1
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.shell-3.0.0-SNAPSHOT.jar.sha1",
+      "DeploymentIntegrationTest.java",
       1
    ],
    [
       "jbonofre",
-      "org.apache.felix.metatype-1.0.5-SNAPSHOT.jar.sha1",
+      "org.apache.felix.dependencymanager.samples.annotation-3.0.0-SNAPSHOT.jar.sha1",
       1
    ],
    [
       "jbonofre",
-      "dependencymanager-reactor-3.0.0-SNAPSHOT.pom",
-      1
-   ],
-   [
-      "angelos",
-      "SchedulerTest.java",
+      "org.apache.felix.dependencymanager-3.0.0-SNAPSHOT.jar.sha1",
       1
    ],
    [
       "jbonofre",
-      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.jar",
+      "org.apache.felix.dependencymanager.annotation-3.0.0-SNAPSHOT.pom",
       1
    ],
    [
       "jbonofre",
-      "Options.java",
+      "org.apache.felix.dependencymanager.test-3.0.0-SNAPSHOT.jar",
+      1
+   ],
+   [
+      "marrs",
+      "VaadinClient.java",
       3
    ],
    [
       "jbonofre",
-      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.pom.sha1",
+      "org.apache.felix.dependencymanager.shell-3.0.0-SNAPSHOT.pom.sha1",
       1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.runtime-3.0.0-SNAPSHOT.pom",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.compat-3.0.0-SNAPSHOT.jar",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.shell-3.0.0-SNAPSHOT.jar",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.test-3.0.0-SNAPSHOT.pom.sha1",
+      1
+   ],
+   [
+      "jbonofre",
+      "org.apache.felix.dependencymanager.samples-3.0.0-SNAPSHOT.pom",
+      1
+   ],
+   [
+      "jbonofre",
+      "osgi.bnd",
+      52
+   ],
+   [
+      "angelos",
+      "Main.java",
+      2
    ]
 ]

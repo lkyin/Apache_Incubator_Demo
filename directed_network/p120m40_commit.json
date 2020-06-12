@@ -1,12 +1,52 @@
 [
    [
       "edwardyoon",
-      "package.html",
+      "PiEstimator.java",
       1
    ],
    [
       "edwardyoon",
-      "ShortestPathVertex.java",
+      "ShortestPaths.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "ShortestPathsGraphLoader.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "PeerNames.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "SimpleTaskScheduler.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "PartitionableWritable.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "ShortestPathVertexPartitioner.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "PageRank.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "Constants.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "ClusterStatus.java",
       1
    ],
    [
@@ -21,67 +61,12 @@
    ],
    [
       "edwardyoon",
+      "HamaClusterTestCase.java",
+      1
+   ],
+   [
+      "edwardyoon",
       "HttpServer.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "SimpleTaskScheduler.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "ShortestPaths.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "BSPPeerProtocol.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "ShortestPathsGraphLoader.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "PageRank.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "AbstractGraphPartitioner.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "PageRankBase.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "GroomServerManager.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "ShortestPathsBase.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "Checkpointer.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "Vertex.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "Constants.java",
       1
    ],
    [
@@ -91,47 +76,12 @@
    ],
    [
       "edwardyoon",
-      "hudsonBuildHamaPatch.sh",
+      "Vertex.java",
       1
    ],
    [
       "edwardyoon",
-      "GroomServerStatus.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "PageRankVertex.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "index.html",
-      1
-   ],
-   [
-      "edwardyoon",
-      "who_we_are.html",
-      1
-   ],
-   [
-      "edwardyoon",
-      "PiEstimator.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "BSPPeer.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "BSPMaster.java",
-      2
-   ],
-   [
-      "edwardyoon",
-      "TestBSPMasterGroomServer.java",
+      "PageRankBase.java",
       1
    ],
    [
@@ -141,27 +91,12 @@
    ],
    [
       "edwardyoon",
-      "ShortestPathVertexPartitioner.java",
+      "who_we_are.html",
       1
    ],
    [
       "edwardyoon",
-      "PartitionableWritable.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "HamaClusterTestCase.java",
-      1
-   ],
-   [
-      "edwardyoon",
-      "favicon.ico",
-      1
-   ],
-   [
-      "edwardyoon",
-      "JobInProgress.java",
+      "hudsonBuildHamaPatch.sh",
       1
    ],
    [
@@ -171,13 +106,28 @@
    ],
    [
       "edwardyoon",
-      "SerializePrinting.java",
+      "JobInProgress.java",
       1
    ],
    [
       "edwardyoon",
-      "TaskRunner.java",
-      2
+      "Checkpointer.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "index.html",
+      1
+   ],
+   [
+      "edwardyoon",
+      "package.html",
+      1
+   ],
+   [
+      "edwardyoon",
+      "ShortestPathsBase.java",
+      1
    ],
    [
       "edwardyoon",
@@ -186,8 +136,18 @@
    ],
    [
       "edwardyoon",
-      "ClusterStatus.java",
-      1
+      "BSPMaster.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "TestCheckpoint.java",
+      2
+   ],
+   [
+      "edwardyoon",
+      "TaskRunner.java",
+      2
    ],
    [
       "edwardyoon",
@@ -196,17 +156,57 @@
    ],
    [
       "edwardyoon",
-      "PeerNames.java",
+      "PageRankVertex.java",
       1
+   ],
+   [
+      "edwardyoon",
+      "ShortestPathVertex.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "GroomServerStatus.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "GroomServerManager.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "AbstractGraphPartitioner.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "SerializePrinting.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "favicon.ico",
+      1
+   ],
+   [
+      "edwardyoon",
+      "TestBSPMasterGroomServer.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "BSPPeerProtocol.java",
+      1
+   ],
+   [
+      "edwardyoon",
+      "BSPPeer.java",
+      2
    ],
    [
       "edwardyoon",
       "AdjacentPair.java",
       1
-   ],
-   [
-      "edwardyoon",
-      "TestCheckpoint.java",
-      2
    ]
 ]

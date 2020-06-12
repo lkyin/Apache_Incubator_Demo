@@ -1,37 +1,32 @@
 [
    [
       "yurize",
-      "WaveletBasedConversationBlip.java",
-      1
+      "FakeWaveView.java",
+      2
+   ],
+   [
+      "yurize",
+      "GenericGWTTestBase.java",
+      2
    ],
    [
       "Yuri Zelikov",
-      "build.sbt",
-      4
-   ],
-   [
-      "yurize",
-      "FakeWaveViewServiceUpdate.java",
-      2
-   ],
-   [
-      "yurize",
-      "FakeIdGenerator.java",
-      2
-   ],
-   [
-      "yuri.zelikov",
-      "MemoryPerUserWaveViewProviderTest.java",
+      ".classpath",
       1
    ],
    [
       "yurize",
-      "FakeWaveletDataListener.java",
-      2
+      "BlipOperationServicesTest.java",
+      1
    ],
    [
       "yurize",
-      "FakeServerRpcController.java",
+      "FakeWaveletListener.java",
+      2
+   ],
+   [
+      "Yuri Zelikov",
+      "DocumentFreeSelectionHelper.java",
       1
    ],
    [
@@ -41,67 +36,7 @@
    ],
    [
       "yurize",
-      "MockParticipationHelper.java",
-      2
-   ],
-   [
-      "yurize",
       "FakeEditorContext.java",
-      1
-   ],
-   [
-      "yurize",
-      "TestingConstants.java",
-      1
-   ],
-   [
-      "yurize",
-      "DocumentModifyServiceTest.java",
-      1
-   ],
-   [
-      "yurize",
-      "GenericGWTTestBase.java",
-      2
-   ],
-   [
-      "yurize",
-      "UndercurrentHarness.java",
-      1
-   ],
-   [
-      "Yuri Zelikov",
-      "StubSelectionHelper.java",
-      1
-   ],
-   [
-      "yurize",
-      "StubSelectionHelper.java",
-      1
-   ],
-   [
-      "yuri.zelikov",
-      "UiBuilderTestHelper.java",
-      1
-   ],
-   [
-      "yurize",
-      "ContentSerialisationUtil.java",
-      1
-   ],
-   [
-      "yuri.zelikov",
-      "SolrWaveIndexerImpl.java",
-      1
-   ],
-   [
-      "Yuri Zelikov",
-      ".classpath",
-      1
-   ],
-   [
-      "yurize",
-      "TestEditors.java",
       1
    ],
    [
@@ -110,13 +45,63 @@
       1
    ],
    [
+      "Yuri Zelikov",
+      "build.sbt",
+      4
+   ],
+   [
+      "Yuri Zelikov",
+      "Matchers.java",
+      1
+   ],
+   [
+      "Yuri Zelikov",
+      "TestInlineDoodad.java",
+      1
+   ],
+   [
       "yurize",
-      "WaveletDataFactory.java",
+      "ContentSerialisationUtil.java",
+      1
+   ],
+   [
+      "Yuri Zelikov",
+      "ExceptionLogHandler.java",
+      1
+   ],
+   [
+      "yurize",
+      "StubSelectionHelper.java",
+      1
+   ],
+   [
+      "yurize",
+      "FakeEditorEvent.java",
+      1
+   ],
+   [
+      "yurize",
+      "FakeWaveletDataListener.java",
       2
    ],
    [
       "yurize",
-      "BlipOperationServicesTest.java",
+      "DocOpCreator.java",
+      2
+   ],
+   [
+      "Yuri Zelikov",
+      "ContentSerialisationUtil.java",
+      1
+   ],
+   [
+      "yuri.zelikov",
+      "ServerRpcProvider.java",
+      1
+   ],
+   [
+      "Yuri Zelikov",
+      "StubSelectionHelper.java",
       1
    ],
    [
@@ -126,13 +111,33 @@
    ],
    [
       "Yuri Zelikov",
-      "TestEditors.java",
+      "TestingConstants.java",
       1
    ],
    [
       "Yuri Zelikov",
-      "MockTypingSink.java",
+      "StubDocumentOperationSink.java",
       1
+   ],
+   [
+      "yuri.zelikov",
+      "MemoryPerUserWaveViewProviderTest.java",
+      1
+   ],
+   [
+      "yurize",
+      "FakeUser.java",
+      1
+   ],
+   [
+      "yurize",
+      "TestEditors.java",
+      1
+   ],
+   [
+      "yurize",
+      "TestOperations.java",
+      2
    ],
    [
       "Yuri Zelikov",
@@ -141,7 +146,47 @@
    ],
    [
       "yurize",
-      "FakeEditorEvent.java",
+      "MockWaveletOperationContextFactory.java",
+      2
+   ],
+   [
+      "yurize",
+      "RandomNindoGenerator.java",
+      2
+   ],
+   [
+      "yurize",
+      "WaveletBasedConversationBlip.java",
+      1
+   ],
+   [
+      "yurize",
+      "DocumentModifyServiceTest.java",
+      1
+   ],
+   [
+      "Yuri Zelikov",
+      "TestEditors.java",
+      1
+   ],
+   [
+      "yurize",
+      "TestingConstants.java",
+      1
+   ],
+   [
+      "yurize",
+      "RandomDocOpGenerator.java",
+      2
+   ],
+   [
+      "yuri.zelikov",
+      "build.sbt",
+      1
+   ],
+   [
+      "yurize",
+      "WaveletSetTitleServiceTest.java",
       1
    ],
    [
@@ -151,12 +196,7 @@
    ],
    [
       "yurize",
-      "FakeDocument.java",
-      2
-   ],
-   [
-      "yurize",
-      "Matchers.java",
+      "OperationServiceHelper.java",
       1
    ],
    [
@@ -166,17 +206,32 @@
    ],
    [
       "yurize",
-      "OpBasedWaveletFactory.java",
+      "BasicFactories.java",
       2
    ],
    [
-      "Yuri Zelikov",
-      "Matchers.java",
+      "yurize",
+      "RandomProviderImpl.java",
+      2
+   ],
+   [
+      "yuri.zelikov",
+      "SolrWaveIndexerImpl.java",
       1
    ],
    [
       "yurize",
-      "UndercurrentHarness.html",
+      "Factory.java",
+      2
+   ],
+   [
+      "yurize",
+      "FakeWaveViewServiceUpdate.java",
+      2
+   ],
+   [
+      "yurize",
+      "OpBasedWaveletFactory.java",
       2
    ],
    [
@@ -191,156 +246,26 @@
    ],
    [
       "yurize",
-      "DocumentFreeSelectionHelper.java",
+      "ParticipantServicesTest.java",
       1
    ],
    [
-      "yurize",
-      "DeltaTestUtil.java",
-      2
-   ],
-   [
-      "yurize",
-      "BasicFactories.java",
-      2
-   ],
-   [
-      "yurize",
+      "Yuri Zelikov",
       "MockTypingSink.java",
       1
    ],
    [
       "yurize",
-      "FakeUser.java",
-      1
-   ],
-   [
-      "yurize",
-      "FakeWaveletListener.java",
-      2
-   ],
-   [
-      "yurize",
-      "ModelTestUtils.java",
-      2
-   ],
-   [
-      "Yuri Zelikov",
-      "TestingConstants.java",
-      1
-   ],
-   [
-      "yurize",
-      "FakeHashedVersionFactory.java",
-      2
-   ],
-   [
-      "yurize",
-      "FakeSilentOperationSink.java",
-      2
-   ],
-   [
-      "yuri.zelikov",
-      "build.sbt",
-      1
-   ],
-   [
-      "yurize",
-      "RandomNindoGenerator.java",
-      2
-   ],
-   [
-      "yurize",
-      "OpMatchers.java",
-      2
-   ],
-   [
-      "yurize",
-      "GenericTestBase.java",
-      2
-   ],
-   [
-      "yurize",
-      "WaveletSetTitleServiceTest.java",
-      1
-   ],
-   [
-      "yurize",
-      "OperationServiceHelper.java",
-      1
-   ],
-   [
-      "yurize",
-      "RandomProviderImpl.java",
-      2
-   ],
-   [
-      "Yuri Zelikov",
-      "FakeServerRpcController.java",
-      1
-   ],
-   [
-      "Yuri Zelikov",
-      "OperationServiceHelper.java",
-      1
-   ],
-   [
-      "yuri.zelikov",
-      "ServerRpcProvider.java",
-      1
-   ],
-   [
-      "yurize",
-      "MockWaveletOperationContextFactory.java",
-      2
-   ],
-   [
-      "Yuri Zelikov",
-      "FakeUser.java",
-      1
-   ],
-   [
-      "Yuri Zelikov",
-      "ContentSerialisationUtil.java",
-      1
-   ],
-   [
-      "yurize",
-      "Factory.java",
-      2
-   ],
-   [
-      "Yuri Zelikov",
-      ".project",
-      1
-   ],
-   [
-      "yurize",
-      "TestOperations.java",
-      2
-   ],
-   [
-      "yurize",
-      "FetchWaveServiceTest.java",
-      1
-   ],
-   [
-      "Yuri Zelikov",
       "DocumentFreeSelectionHelper.java",
       1
    ],
    [
       "yurize",
-      "FakeWaveView.java",
+      "UndercurrentHarness.html",
       2
    ],
    [
       "yurize",
-      "FakeOperationChannel.java",
-      2
-   ],
-   [
-      "Yuri Zelikov",
       "ExceptionLogHandler.java",
       1
    ],
@@ -351,32 +276,17 @@
    ],
    [
       "yurize",
-      "DocOpCreator.java",
+      "ModelTestUtils.java",
       2
    ],
    [
       "Yuri Zelikov",
-      "FakeEditorContext.java",
+      "FakeServerRpcController.java",
       1
    ],
    [
       "yurize",
-      "RandomDocOpGenerator.java",
-      2
-   ],
-   [
-      "Yuri Zelikov",
-      "StubDocumentOperationSink.java",
-      1
-   ],
-   [
-      "yurize",
-      "ParticipantServicesTest.java",
-      1
-   ],
-   [
-      "yurize",
-      "FakeConversationView.java",
+      "GenericTestBase.java",
       2
    ],
    [
@@ -386,22 +296,112 @@
    ],
    [
       "yurize",
-      "MockWaveViewService.java",
+      "FakeConversationView.java",
       2
    ],
    [
       "Yuri Zelikov",
-      "TestInlineDoodad.java",
+      ".project",
       1
    ],
    [
       "yurize",
-      "ExceptionLogHandler.java",
+      "UndercurrentHarness.java",
+      1
+   ],
+   [
+      "yurize",
+      "FakeDocument.java",
+      2
+   ],
+   [
+      "yuri.zelikov",
+      "UiBuilderTestHelper.java",
+      1
+   ],
+   [
+      "yurize",
+      "WaveletDataFactory.java",
+      2
+   ],
+   [
+      "yurize",
+      "FetchWaveServiceTest.java",
+      1
+   ],
+   [
+      "yurize",
+      "FakeIdGenerator.java",
+      2
+   ],
+   [
+      "yurize",
+      "MockParticipationHelper.java",
+      2
+   ],
+   [
+      "yurize",
+      "Matchers.java",
       1
    ],
    [
       "yurize",
       "BlipTestUtils.java",
       2
+   ],
+   [
+      "yurize",
+      "MockTypingSink.java",
+      1
+   ],
+   [
+      "yurize",
+      "FakeServerRpcController.java",
+      1
+   ],
+   [
+      "yurize",
+      "FakeSilentOperationSink.java",
+      2
+   ],
+   [
+      "yurize",
+      "FakeOperationChannel.java",
+      2
+   ],
+   [
+      "Yuri Zelikov",
+      "FakeEditorContext.java",
+      1
+   ],
+   [
+      "yurize",
+      "OpMatchers.java",
+      2
+   ],
+   [
+      "yurize",
+      "FakeHashedVersionFactory.java",
+      2
+   ],
+   [
+      "yurize",
+      "DeltaTestUtil.java",
+      2
+   ],
+   [
+      "Yuri Zelikov",
+      "FakeUser.java",
+      1
+   ],
+   [
+      "yurize",
+      "MockWaveViewService.java",
+      2
+   ],
+   [
+      "Yuri Zelikov",
+      "OperationServiceHelper.java",
+      1
    ]
 ]

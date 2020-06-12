@@ -1,22 +1,17 @@
 [
    [
       "wrowe",
-      "mod_ftp.dsp",
-      1
+      "Makefile.in",
+      3
    ],
    [
       "wrowe",
-      ".cvsignore",
-      10
+      "ftp_config.h.in",
+      2
    ],
    [
       "wrowe",
-      "mod_ftp_cmd_pwd.dsp",
-      1
-   ],
-   [
-      "wrowe",
-      "ftp_limitlogin.c",
+      "ftp_data_connection.c",
       1
    ],
    [
@@ -26,57 +21,12 @@
    ],
    [
       "wrowe",
-      "config-win32.awk",
+      "mod_ftp_cmd_pwd.dsp",
       1
    ],
    [
       "wrowe",
-      "configure.in",
-      1
-   ],
-   [
-      "wrowe",
-      "ftp_config.h.in",
-      2
-   ],
-   [
-      "wrowe",
-      "ftp_inet_pton.c",
-      1
-   ],
-   [
-      "wrowe",
-      "Makefile.in",
-      3
-   ],
-   [
-      "wrowe",
-      "ftp_request.c",
-      1
-   ],
-   [
-      "wrowe",
-      "stamp-h.in",
-      1
-   ],
-   [
-      "wrowe",
-      "ftp_commands.c",
-      1
-   ],
-   [
-      "wrowe",
-      "ftp_data_connection.c",
-      1
-   ],
-   [
-      "wrowe",
-      "ftp_message.c",
-      1
-   ],
-   [
-      "wrowe",
-      "ftp_connection.c",
+      "ftp_protocol.c",
       1
    ],
    [
@@ -86,7 +36,12 @@
    ],
    [
       "wrowe",
-      "ftp_data_filters.c",
+      "ftp_message.c",
+      1
+   ],
+   [
+      "wrowe",
+      "stamp-h.in",
       1
    ],
    [
@@ -96,12 +51,12 @@
    ],
    [
       "wrowe",
-      "ftp_util.c",
+      "ftp_inet_pton.c",
       1
    ],
    [
       "wrowe",
-      "ftp_glob.c",
+      "ftp_limitlogin.c",
       1
    ],
    [
@@ -111,12 +66,57 @@
    ],
    [
       "wrowe",
-      "ftp_filters.c",
+      "ftp_util.c",
       1
    ],
    [
       "wrowe",
-      "ftp_protocol.c",
+      "ftp_data_filters.c",
+      1
+   ],
+   [
+      "wrowe",
+      "ftp_glob.c",
+      1
+   ],
+   [
+      "wrowe",
+      "config-win32.awk",
+      1
+   ],
+   [
+      "wrowe",
+      ".cvsignore",
+      10
+   ],
+   [
+      "wrowe",
+      "ftp_connection.c",
+      1
+   ],
+   [
+      "wrowe",
+      "configure.in",
+      1
+   ],
+   [
+      "wrowe",
+      "ftp_commands.c",
+      1
+   ],
+   [
+      "wrowe",
+      "mod_ftp.dsp",
+      1
+   ],
+   [
+      "wrowe",
+      "ftp_request.c",
+      1
+   ],
+   [
+      "wrowe",
+      "ftp_filters.c",
       1
    ]
 ]

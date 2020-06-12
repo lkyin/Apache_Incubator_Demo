@@ -1,28 +1,18 @@
 [
    [
-      "marrs",
-      "Activator.java",
-      39
+      "angelos",
+      "ServletConfiguratorIntegrationTest.java",
+      1
    ],
    [
       "marrs",
-      "osgi.bnd",
-      14
+      "org.osgi.core.jar",
+      1
    ],
    [
       "marrs",
-      "DeploymentCheckTask.java",
-      2
-   ],
-   [
-      "marrs",
-      "StatefulGatewayRepositoryImpl.java",
-      2
-   ],
-   [
-      "marrs",
-      "AssociationService.java",
-      2
+      "org.apache.felix.eventadmin.jar",
+      1
    ],
    [
       "marrs",
@@ -35,8 +25,73 @@
       1
    ],
    [
-      "tonit",
+      "marrs",
+      "PropertyBasedIdentification.java",
+      1
+   ],
+   [
+      "marrs",
+      "Configurator.java",
+      1
+   ],
+   [
+      "angelos",
+      "TestActivatorBase.java",
+      1
+   ],
+   [
+      "angelos",
+      "Activator.java",
+      50
+   ],
+   [
+      "marrs",
+      "run.sh",
+      2
+   ],
+   [
+      "marrs",
+      "UserAdminConfigurator.java",
+      1
+   ],
+   [
+      "angelos",
+      "RepositoryAdminImpl.java",
+      1
+   ],
+   [
+      "angelos",
+      "org.apache.felix.dependencymanager.jar",
+      1
+   ],
+   [
+      "angelos",
+      "RepositoryAdminTest.java",
+      1
+   ],
+   [
+      "marrs",
       "osgi.bnd",
+      14
+   ],
+   [
+      "marrs",
+      "BundleStore.java",
+      1
+   ],
+   [
+      "marrs",
+      "FileBasedProvider.java",
+      1
+   ],
+   [
+      "angelos",
+      "ServiceMetaTypeInformation.java",
+      1
+   ],
+   [
+      "marrs",
+      "GetServerLoadAction.java",
       1
    ],
    [
@@ -46,67 +101,17 @@
    ],
    [
       "marrs",
-      "GetServerTypeAction.java",
-      1
-   ],
-   [
-      "angelos",
-      "ServletConfiguratorIntegrationTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "Configurator.java",
-      1
-   ],
-   [
-      "marrs",
-      "Main.java",
-      2
-   ],
-   [
-      "marrs",
-      "ChangeNotifierImpl.java",
-      2
-   ],
-   [
-      "marrs",
-      "Inspector.java",
-      1
-   ],
-   [
-      "marrs",
       "PropertyBasedIdentificationTest.java",
       1
    ],
    [
-      "marrs",
-      "SchedulerTask.java",
-      2
-   ],
-   [
-      "marrs",
-      "CheckoutServiceImpl.java",
-      1
-   ],
-   [
-      "angelos",
-      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.jar",
+      "tonit",
+      "osgi.bnd",
       1
    ],
    [
       "marrs",
-      "run.sh",
-      2
-   ],
-   [
-      "marrs",
-      "ResourceStore.java",
-      1
-   ],
-   [
-      "marrs",
-      "org.osgi.core.jar",
+      "LicenseTable.java",
       1
    ],
    [
@@ -121,72 +126,12 @@
    ],
    [
       "angelos",
-      "RepositoryAdminImpl.java",
+      "org.apache.felix.deploymentadmin-0.9.0-SNAPSHOT.jar",
       1
    ],
    [
       "marrs",
-      "GetLocationAction.java",
-      1
-   ],
-   [
-      "angelos",
-      "org.apache.felix.dependencymanager.jar",
-      1
-   ],
-   [
-      "marrs",
-      "platform.setup",
-      1
-   ],
-   [
-      "marrs",
-      "BundleFileStore.java",
-      1
-   ],
-   [
-      "marrs",
-      "FileBasedProvider.java",
-      1
-   ],
-   [
-      "marrs",
-      "LocationServiceImpl.java",
-      1
-   ],
-   [
-      "angelos",
-      "TestActivatorBase.java",
-      1
-   ],
-   [
-      "marrs",
-      "GetServerLoadAction.java",
-      1
-   ],
-   [
-      "marrs",
-      "UPnPLocationServiceWrapper.java",
-      1
-   ],
-   [
-      "marrs",
-      "WebUIConsoleServlet.java",
-      1
-   ],
-   [
-      "marrs",
-      "BundleStore.java",
-      1
-   ],
-   [
-      "angelos",
-      "RepositoryAdminTest.java",
-      1
-   ],
-   [
-      "marrs",
-      "org.apache.felix.eventadmin.jar",
+      "UPnPBasedDiscovery.java",
       1
    ],
    [
@@ -196,8 +141,23 @@
    ],
    [
       "marrs",
-      "LicenseTable.java",
+      "AssociationService.java",
+      2
+   ],
+   [
+      "marrs",
+      "UPnPLocationServiceWrapper.java",
       1
+   ],
+   [
+      "marrs",
+      "Main.java",
+      2
+   ],
+   [
+      "marrs",
+      "Activator.java",
+      39
    ],
    [
       "marrs",
@@ -205,63 +165,18 @@
       3
    ],
    [
-      "angelos",
-      "ServiceMetaTypeInformation.java",
-      1
-   ],
-   [
-      "angelos",
-      "Activator.java",
-      50
-   ],
-   [
-      "angelos",
-      "RepositoryObjectImpl.java",
-      1
-   ],
-   [
-      "marrs",
-      "Processor.java",
-      1
-   ],
-   [
-      "marrs",
-      "PopupMessageAction.java",
-      1
-   ],
-   [
-      "marrs",
-      "PropertyBasedIdentification.java",
-      1
-   ],
-   [
-      "marrs",
-      "UserAdminStore.java",
-      1
-   ],
-   [
-      "marrs",
-      "PropertyBasedDiscovery.java",
-      1
-   ],
-   [
-      "marrs",
-      "AddBundleDialog.java",
-      1
-   ],
-   [
-      "marrs",
-      "AssociationServiceImpl.java",
-      1
-   ],
-   [
       "marrs",
       "ProvisioningDevice.java",
       1
    ],
    [
-      "angelos",
-      "RepositoryFactory.java",
+      "marrs",
+      "GetServerTypeAction.java",
+      1
+   ],
+   [
+      "marrs",
+      "UpdateUserAdminTask.java",
       1
    ],
    [
@@ -271,7 +186,42 @@
    ],
    [
       "marrs",
-      "GroupTable.java",
+      "ChangeNotifierImpl.java",
+      2
+   ],
+   [
+      "angelos",
+      "RepositoryFactory.java",
+      1
+   ],
+   [
+      "marrs",
+      "CheckoutServiceImpl.java",
+      1
+   ],
+   [
+      "marrs",
+      "DeploymentCheckTask.java",
+      2
+   ],
+   [
+      "angelos",
+      "RepositoryObjectImpl.java",
+      1
+   ],
+   [
+      "marrs",
+      "UserAdminStore.java",
+      1
+   ],
+   [
+      "marrs",
+      "platform.setup",
+      1
+   ],
+   [
+      "marrs",
+      "LocationServiceImpl.java",
       1
    ],
    [
@@ -281,17 +231,27 @@
    ],
    [
       "marrs",
-      "UPnPBasedDiscovery.java",
+      "BundleFileStore.java",
       1
    ],
    [
       "marrs",
-      "StreamGeneratorImpl.java",
+      "AddBundleDialog.java",
       1
    ],
    [
       "marrs",
-      "UserAdminConfigurator.java",
+      "org.osgi.compendium.jar",
+      1
+   ],
+   [
+      "marrs",
+      "GroupTable.java",
+      1
+   ],
+   [
+      "marrs",
+      "ResourceStore.java",
       1
    ],
    [
@@ -301,7 +261,7 @@
    ],
    [
       "marrs",
-      "LogSyncTask.java",
+      "AssociationServiceImpl.java",
       1
    ],
    [
@@ -316,12 +276,52 @@
    ],
    [
       "marrs",
-      "UpdateUserAdminTask.java",
+      "GetLocationAction.java",
       1
    ],
    [
       "marrs",
-      "org.osgi.compendium.jar",
+      "WebUIConsoleServlet.java",
+      1
+   ],
+   [
+      "marrs",
+      "StatefulGatewayRepositoryImpl.java",
+      2
+   ],
+   [
+      "marrs",
+      "StreamGeneratorImpl.java",
+      1
+   ],
+   [
+      "marrs",
+      "LogSyncTask.java",
+      1
+   ],
+   [
+      "marrs",
+      "PopupMessageAction.java",
+      1
+   ],
+   [
+      "marrs",
+      "Processor.java",
+      1
+   ],
+   [
+      "marrs",
+      "Inspector.java",
+      1
+   ],
+   [
+      "marrs",
+      "SchedulerTask.java",
+      2
+   ],
+   [
+      "marrs",
+      "PropertyBasedDiscovery.java",
       1
    ]
 ]

@@ -1,18 +1,8 @@
 [
    [
       "jlboudart",
-      "compile-test-groovy.ant",
-      3
-   ],
-   [
-      "jlboudart",
-      "compile-test-java.ant",
-      3
-   ],
-   [
-      "jlboudart",
-      "compile-scala.ant",
-      3
+      "abstract-test.ant",
+      1
    ],
    [
       "jlboudart",
@@ -21,18 +11,8 @@
    ],
    [
       "jlboudart",
-      "ivy-utils.ant",
-      1
-   ],
-   [
-      "jlboudart",
-      "default-version-strategy.ant",
-      2
-   ],
-   [
-      "jlboudart",
-      "abstract-test.ant",
-      1
+      "module.ivy",
+      3
    ],
    [
       "jlboudart",
@@ -41,42 +21,7 @@
    ],
    [
       "jlboudart",
-      "compile-java.ant",
-      3
-   ],
-   [
-      "jlboudart",
-      "scaladoc.ant",
-      1
-   ],
-   [
-      "jlboudart",
-      "deps-lib.ant",
-      2
-   ],
-   [
-      "jlboudart",
-      "checkstyle.ant",
-      2
-   ],
-   [
-      "jlboudart",
-      "abstract-compile.ant",
-      1
-   ],
-   [
-      "jlboudart",
-      "clean-std.ant",
-      2
-   ],
-   [
-      "jlboudart",
-      "module.ivy",
-      3
-   ],
-   [
-      "jlboudart",
-      "maven-publication.ant",
+      "ivy-publication.ant",
       1
    ],
    [
@@ -86,17 +31,72 @@
    ],
    [
       "jlboudart",
-      "distribution.ant",
+      "checkstyle.ant",
       2
    ],
    [
       "jlboudart",
-      "ivy-publication.ant",
+      "scaladoc.ant",
       1
    ],
    [
       "jlboudart",
       "compile-test-scala.ant",
       3
+   ],
+   [
+      "jlboudart",
+      "compile-test-groovy.ant",
+      3
+   ],
+   [
+      "jlboudart",
+      "default-version-strategy.ant",
+      2
+   ],
+   [
+      "jlboudart",
+      "abstract-compile.ant",
+      1
+   ],
+   [
+      "jlboudart",
+      "compile-java.ant",
+      3
+   ],
+   [
+      "jlboudart",
+      "deps-lib.ant",
+      2
+   ],
+   [
+      "jlboudart",
+      "compile-scala.ant",
+      3
+   ],
+   [
+      "jlboudart",
+      "distribution.ant",
+      2
+   ],
+   [
+      "jlboudart",
+      "clean-std.ant",
+      2
+   ],
+   [
+      "jlboudart",
+      "maven-publication.ant",
+      1
+   ],
+   [
+      "jlboudart",
+      "compile-test-java.ant",
+      3
+   ],
+   [
+      "jlboudart",
+      "ivy-utils.ant",
+      1
    ]
 ]

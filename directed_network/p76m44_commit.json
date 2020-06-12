@@ -1,212 +1,12 @@
 [
    [
-      "pnoltes",
-      "service_registration_mock.c",
-      2
-   ],
-   [
       "abroekhuis",
-      "service_tracker.h",
+      "resolver.h",
       1
    ],
    [
       "pnoltes",
-      "hessian_2.0_out.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "attribute.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registry_mock.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "service_registry.h",
-      2
-   ],
-   [
-      "pnoltes",
-      "service_registry_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "a.c",
-      1
-   ],
-   [
-      "bpetri",
-      "array_list_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_tracker_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "framework_listener.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle.c",
-      5
-   ],
-   [
-      "abroekhuis",
-      "filter_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "capability_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "celix_errno.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "requirement.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "manifest_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "filter.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_cache_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "properties.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_writer.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "deployment_admin.h",
-      1
-   ],
-   [
-      "bpetri",
-      "discovery.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "manifest_parser.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "bundle_context_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version_test.cpp",
-      1
-   ],
-   [
-      "pnoltes",
-      "bundle_archive.c",
-      4
-   ],
-   [
-      "bpetri",
-      "FindUUID.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "remote_service_admin_impl.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "test.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "celix_threads.h",
-      4
-   ],
-   [
-      "abroekhuis",
-      "Packaging.cmake",
-      2
-   ],
-   [
-      "abroekhuis",
-      "bundle_listener.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "discovery.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "service_registration.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_reference_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_tracker_private.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "service_reference.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "linked_list_test.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "refining_driver.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "module.h",
+      "service_reference_mock.c",
       1
    ],
    [
@@ -216,7 +16,27 @@
    ],
    [
       "abroekhuis",
-      "shell_private.h",
+      "bundle_revision_mock.c",
+      3
+   ],
+   [
+      "pnoltes",
+      "module.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "hessian_2.0_out.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "utils.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "capability_test.cpp",
       1
    ],
    [
@@ -226,33 +46,43 @@
    ],
    [
       "abroekhuis",
-      "import_registration_impl.c",
+      "inspect_command.c",
       2
    ],
    [
-      "abroekhuis",
-      "capability_test.cpp",
-      1
-   ],
-   [
-      "pnoltes",
-      "filter.c",
+      "bpetri",
+      "discovery.c",
       1
    ],
    [
       "abroekhuis",
-      "version_mock.c",
+      "framework.c",
+      9
+   ],
+   [
+      "abroekhuis",
+      "resolver_mock.c",
       1
    ],
    [
       "abroekhuis",
-      "framework_private.h",
-      5
+      "properties.c",
+      1
    ],
    [
       "abroekhuis",
-      "bundle_revision_mock.c",
+      "version_range.c",
       3
+   ],
+   [
+      "abroekhuis",
+      "bundle_cache_test.cpp",
+      1
+   ],
+   [
+      "bpetri",
+      "array_list_test.cpp",
+      1
    ],
    [
       "abroekhuis",
@@ -261,21 +91,151 @@
    ],
    [
       "abroekhuis",
-      "manifest.h",
+      "export_registration_impl.c",
+      2
+   ],
+   [
+      "pnoltes",
+      "service_registration.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest.c",
       2
    ],
    [
       "abroekhuis",
-      "attribute.h",
+      "deploy.cmake",
       2
    ],
    [
       "abroekhuis",
+      "bundle_context.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "event_handler_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "log_command.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_tracker_private.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "celix_threads.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "shell_tui.c",
+      1
+   ],
+   [
+      "bpetri",
+      "remote_service_admin_shm_impl.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version_range_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_tracker.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest_parser_mock.c",
+      2
+   ],
+   [
+      "pnoltes",
+      "log.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "shell.c",
+      2
+   ],
+   [
+      "pnoltes",
+      "bundle_archive.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "version_mock.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "celix_threads.h",
+      1
+   ],
+   [
+      "bpetri",
+      "remote_service_admin_impl.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "celix_threads.h",
+      4
+   ],
+   [
+      "abroekhuis",
+      "version_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "framework.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "b.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "discovery_activator.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "bundle_revision.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "service_tracker_test.cpp",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_revision_test.cpp",
+      1
+   ],
+   [
+      "pnoltes",
       "deployment_admin.c",
       2
    ],
    [
-      "abroekhuis",
+      "pnoltes",
       "service_reference.c",
       1
    ],
@@ -286,97 +246,17 @@
    ],
    [
       "abroekhuis",
-      "version.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "attribute_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "wire_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "CPackConfig.in",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_entry.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "requirement_mock.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "filter.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_reference_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registration_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "shell_tui.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "remote_shell.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_dependency.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version_range_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "capability.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version_range.h",
-      1
-   ],
-   [
-      "bpetri",
-      "log.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
       "wire.c",
       1
    ],
    [
+      "pnoltes",
+      "celix_errno.h",
+      1
+   ],
+   [
       "abroekhuis",
-      "bundle_context.h",
+      "shell_mediator.c",
       1
    ],
    [
@@ -386,12 +266,32 @@
    ],
    [
       "abroekhuis",
-      "bundle_archive_mock.c",
-      2
+      "bundle_test.cpp",
+      1
    ],
    [
       "pnoltes",
-      "service_reference.h",
+      "linked_list.c",
+      3
+   ],
+   [
+      "abroekhuis",
+      "deployment_admin.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "activator.c",
+      8
+   ],
+   [
+      "abroekhuis",
+      "celix_errorcodes.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "wire.h",
       1
    ],
    [
@@ -401,27 +301,12 @@
    ],
    [
       "abroekhuis",
-      "discovery_activator.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "service_tracker_customizer.h",
+      "requirement_test.cpp",
       1
    ],
    [
       "abroekhuis",
-      "celix_log.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_cache.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "b.h",
+      "wire_mock.c",
       1
    ],
    [
@@ -430,198 +315,28 @@
       1
    ],
    [
-      "pnoltes",
-      "shape_component.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "framework.c",
+      "abroekhuis",
+      "device_manager.c",
       2
    ],
    [
       "abroekhuis",
-      "service_tracker_customizer.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "test.h",
+      "service_tracker_customizer_mock.c",
       1
    ],
    [
       "pnoltes",
-      "service_registry.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "capability.h",
+      "filter.h",
       1
    ],
    [
       "abroekhuis",
-      "inspect_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "celix_errorcodes.c",
+      "CPackConfig.in",
       1
    ],
    [
       "abroekhuis",
-      "resolver.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "module.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "attribute_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle.h",
-      2
-   ],
-   [
-      "abroekhuis",
-      "shell_mediator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "remote_service_admin_shm_impl.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_cache_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "install_command.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_factory.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "main.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_mock.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "deployment_admin.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "bundle_archive.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "bundle_revision.h",
-      4
-   ],
-   [
-      "abroekhuis",
-      "bundle_private.h",
-      2
-   ],
-   [
-      "pnoltes",
-      "linked_list.c",
-      3
-   ],
-   [
-      "pnoltes",
-      "service_registry_mock.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "b.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "bundle_revision.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "log.c",
-      2
-   ],
-   [
-      "pnoltes",
-      "service_registration.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "linked_list.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "array_list.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "wire.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "manifest.in",
-      1
-   ],
-   [
-      "abroekhuis",
-      "ps_command.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "service_reference_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_registry.c",
-      1
-   ],
-   [
-      "pnoltes",
-      "linked_list_iterator.h",
-      1
-   ],
-   [
-      "bpetri",
-      "remote_service_admin_shm_impl.h",
+      "log_service_activator.c",
       1
    ],
    [
@@ -636,13 +351,43 @@
    ],
    [
       "pnoltes",
-      "linked_list_test.c",
+      "service_registry_private.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "filter.c",
       1
    ],
    [
       "abroekhuis",
-      "bundle_archive.h",
+      "utils.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "version_range.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest_test.cpp",
+      1
+   ],
+   [
+      "pnoltes",
+      "wire.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "framework.c",
       2
+   ],
+   [
+      "abroekhuis",
+      "bundle_revision.h",
+      4
    ],
    [
       "pnoltes",
@@ -651,27 +396,12 @@
    ],
    [
       "abroekhuis",
-      "remote_service_admin_activator.c",
+      "version_test.cpp",
       1
    ],
    [
       "abroekhuis",
-      "framework.h",
-      1
-   ],
-   [
-      "bpetri",
-      "remote_service_admin_impl.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "bundle_revision_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_service_activator.c",
+      "celix_log.h",
       1
    ],
    [
@@ -681,97 +411,27 @@
    ],
    [
       "abroekhuis",
-      "manifest.c",
+      "bundle_archive_mock.c",
       2
    ],
    [
       "abroekhuis",
-      "utils.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "resolver_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "module.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "FindUUID.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "driver_loader.c",
-      2
-   ],
-   [
-      "pnoltes",
       "Packaging.cmake",
-      1
-   ],
-   [
-      "pnoltes",
-      "celix_errno.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "discovery.c",
-      5
-   ],
-   [
-      "abroekhuis",
-      "launcher.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "version_range.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "celix_threads.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "utils.c",
-      3
-   ],
-   [
-      "abroekhuis",
-      "framework_mock.c",
       2
    ],
    [
       "abroekhuis",
-      "event_handler_activator.c",
+      "service_listener.h",
       1
    ],
    [
       "abroekhuis",
-      "bundle_cache_test.cpp",
-      1
+      "topology_manager.c",
+      2
    ],
    [
       "abroekhuis",
-      "shell_mediator.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "resolver.c",
-      4
-   ],
-   [
-      "pnoltes",
-      "manifest_parser.h",
+      "log_entry.h",
       1
    ],
    [
@@ -781,123 +441,68 @@
    ],
    [
       "abroekhuis",
-      "service_registration.c",
-      1
+      "bundle.c",
+      5
    ],
    [
       "abroekhuis",
-      "export_registration_impl.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "device_manager.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "version_range_test.cpp",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_component.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "framework.c",
-      9
-   ],
-   [
-      "pnoltes",
-      "service_registration_private.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "shell.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "deployment_package.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "manifest_parser.c",
-      4
-   ],
-   [
-      "abroekhuis",
-      "bundle_cache.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "array_list_test.cpp",
+      "refining_driver.c",
       1
    ],
    [
       "pnoltes",
-      "celix_threads.h",
+      "linked_list_test.c",
       1
-   ],
-   [
-      "bpetri",
-      "CodeCoverage.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_tracker_customizer_mock.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "a.h",
-      1
-   ],
-   [
-      "bpetri",
-      "discovery.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "log_command.c",
-      2
-   ],
-   [
-      "abroekhuis",
-      "activator.c",
-      8
-   ],
-   [
-      "abroekhuis",
-      "wire.h",
-      1
-   ],
-   [
-      "abroekhuis",
-      "event_admin_activator.c",
-      1
-   ],
-   [
-      "abroekhuis",
-      "manifest_parser_mock.c",
-      2
    ],
    [
       "pnoltes",
-      "celix_threads.c",
+      "array_list.h",
       1
    ],
    [
       "abroekhuis",
-      "manifest_test.cpp",
+      "service_reference_test.cpp",
       1
+   ],
+   [
+      "abroekhuis",
+      "version.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "bundle_cache_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "test.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_tracker_customizer.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "install_command.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "a.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_cache_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "framework_private.h",
+      5
    ],
    [
       "abroekhuis",
@@ -906,27 +511,22 @@
    ],
    [
       "abroekhuis",
-      "bundle_context_private.h",
-      1
-   ],
-   [
-      "pnoltes",
-      "log.h",
+      "remote_service_admin_shm_impl.h",
       1
    ],
    [
       "abroekhuis",
-      "topology_manager.c",
+      "capability.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "attribute.h",
       2
    ],
    [
-      "pnoltes",
-      "deploy.cmake",
-      1
-   ],
-   [
-      "abroekhuis",
-      "service_listener.h",
+      "bpetri",
+      "CodeCoverage.cmake",
       1
    ],
    [
@@ -936,22 +536,422 @@
    ],
    [
       "abroekhuis",
-      "manifest_parser.h",
+      "remote_shell.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "remote_service_admin_impl.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "service_factory.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "log.c",
       2
    ],
    [
       "abroekhuis",
+      "version.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "event_admin_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_cache.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "attribute.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registration.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "ps_command.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "service_registry.c",
+      3
+   ],
+   [
+      "pnoltes",
+      "service_reference.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "capability.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_cache.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "shell_mediator.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "framework_mock.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "version_range_test.cpp",
+      1
+   ],
+   [
+      "pnoltes",
+      "service_registration_mock.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "requirement_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "celix_threads.c",
+      4
+   ],
+   [
+      "pnoltes",
+      "service_registry.h",
+      2
+   ],
+   [
+      "pnoltes",
       "deploy.cmake",
+      1
+   ],
+   [
+      "abroekhuis",
+      "test.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "FindUUID.cmake",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "shell_private.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "manifest_parser.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_tracker_customizer.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "linked_list_test.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "Packaging.cmake",
+      1
+   ],
+   [
+      "abroekhuis",
+      "launcher.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "deployment_package.c",
+      2
+   ],
+   [
+      "pnoltes",
+      "service_registry_mock.c",
       2
    ],
    [
       "abroekhuis",
-      "requirement_test.cpp",
+      "manifest_parser.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "discovery.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_private.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "manifest.in",
+      1
+   ],
+   [
+      "pnoltes",
+      "module.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_archive.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "attribute_mock.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "linked_list.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "array_list_test.cpp",
+      1
+   ],
+   [
+      "bpetri",
+      "discovery.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_reference_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_context_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "driver_loader.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "resolver.c",
+      4
+   ],
+   [
+      "abroekhuis",
+      "celix_errno.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registry_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_context_test.cpp",
+      1
+   ],
+   [
+      "abroekhuis",
+      "filter.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "remote_service_admin_activator.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "attribute_test.cpp",
       1
    ],
    [
       "abroekhuis",
       "remote_service_admin_impl.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "discovery.c",
+      5
+   ],
+   [
+      "abroekhuis",
+      "service_dependency.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "framework_listener.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "log_writer.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "module.c",
+      3
+   ],
+   [
+      "pnoltes",
+      "shape_component.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "manifest.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "manifest_parser.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "capability_mock.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "service_registration.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_component.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "main.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "requirement.c",
+      1
+   ],
+   [
+      "bpetri",
+      "log.c",
+      1
+   ],
+   [
+      "pnoltes",
+      "manifest_parser.c",
+      2
+   ],
+   [
+      "abroekhuis",
+      "import_registration_impl.c",
+      2
+   ],
+   [
+      "pnoltes",
+      "deployment_admin.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "linked_list_iterator.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "filter_mock.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "a.h",
+      1
+   ],
+   [
+      "pnoltes",
+      "service_registration_private.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "b.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_listener.h",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_reference.c",
+      1
+   ],
+   [
+      "bpetri",
+      "FindUUID.cmake",
+      1
+   ],
+   [
+      "abroekhuis",
+      "service_registry.c",
+      1
+   ],
+   [
+      "abroekhuis",
+      "bundle_archive.h",
+      2
+   ],
+   [
+      "abroekhuis",
+      "service_registration_test.cpp",
       1
    ]
 ]

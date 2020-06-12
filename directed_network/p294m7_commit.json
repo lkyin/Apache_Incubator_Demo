@@ -1,18 +1,38 @@
 [
    [
       "Jianqiao Zhu",
-      "FuseJoinSelect.hpp",
+      "AggregationHandleCount.hpp",
       1
    ],
    [
       "jianqiao",
-      "AggregationHandleAvg_unittest.cpp",
-      1
+      "BitVector.hpp",
+      5
    ],
    [
       "Jianqiao Zhu",
-      "QueryContext.proto",
-      16
+      "SelectOperator.hpp",
+      18
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilterDeploymentInfo.hpp",
+      4
+   ],
+   [
+      "jianqiao",
+      "SelectOperator.hpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationHandleAvg.cpp",
+      2
+   ],
+   [
+      "Saket Saurabh",
+      "Comparison-inl.hpp",
+      12
    ],
    [
       "zuyuz",
@@ -20,38 +40,63 @@
       1
    ],
    [
-      "jianqiao",
-      "AggregationHandleMin_unittest.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "StorageBlock.hpp",
-      7
-   ],
-   [
-      "Jianqiao",
-      "CommandExecutor.cpp",
-      7
-   ],
-   [
-      "jianqiao",
-      "VarCharType.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "FastSeparateChainingHashTable.hpp",
-      29
-   ],
-   [
-      "jianqiao",
+      "Jianqiao Zhu",
       "HashTable.hpp",
-      2
+      3
+   ],
+   [
+      "jianqiao",
+      "LIPFilterFactory.hpp",
+      1
    ],
    [
       "Jianqiao Zhu",
-      "Selection.hpp",
+      "QueryContext.hpp",
+      26
+   ],
+   [
+      "Harshad Deshmukh",
+      "HashTable.hpp",
+      6
+   ],
+   [
+      "Jianqiao Zhu",
+      "RelationalOperator.hpp",
+      16
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExecutionGenerator.hpp",
+      39
+   ],
+   [
+      "hbdeshmukh",
+      "LIPFilterUtil.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "LIPFilter.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExecutionGenerator.cpp",
+      46
+   ],
+   [
+      "jianqiao",
+      "SqlParser_gen.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "HashJoinOperator.cpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "AggregationStateManager.hpp",
       1
    ],
    [
@@ -60,38 +105,238 @@
       2
    ],
    [
+      "Harshad Deshmukh",
+      "StarSchemaHashJoinOrderOptimization.hpp",
+      7
+   ],
+   [
       "Jianqiao Zhu",
-      "Selection.cpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "DisjointTreeForest_unittest.cpp",
-      1
+      "QueryContext.proto",
+      16
    ],
    [
       "jianqiao",
-      "FastSeparateChainingHashTable.hpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "AggregationHandleMax.cpp",
+      "AggregationHashTable.hpp",
       1
    ],
    [
       "Jianqiao Zhu",
-      "DAG.hpp",
-      2
+      "LIPFilterFactory.hpp",
+      14
    ],
    [
-      "hbdeshmukh",
-      "SqlParser_gen.hpp",
+      "Jianqiao Zhu",
+      "ScalarAttribute.cpp",
+      16
+   ],
+   [
+      "Harshad Deshmukh",
+      "ExecutionGenerator.hpp",
+      7
+   ],
+   [
+      "Hakan Memisoglu",
+      "SeparateChainingHashTable.hpp",
       3
    ],
    [
+      "Jianqiao Zhu",
+      "SimpleCostModel.cpp",
+      7
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilterConfiguration.hpp",
+      15
+   ],
+   [
+      "Saket Saurabh",
+      "BasicColumnStoreValueAccessor.hpp",
+      12
+   ],
+   [
+      "jianqiao",
+      "AggregationStateHashTable.hpp",
+      1
+   ],
+   [
+      "Saket Saurabh",
+      "PackedRowStoreTupleStorageSubBlock_unittest.cpp",
+      18
+   ],
+   [
+      "Jianqiao Zhu",
+      "PlanVisualizer.cpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilter.cpp",
+      9
+   ],
+   [
+      "Jianqiao Zhu",
+      "StorageBlock.hpp",
+      11
+   ],
+   [
+      "jianqiao",
+      "LIPFilterUtil.hpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "SelectOperator.cpp",
+      2
+   ],
+   [
       "hbdeshmukh",
-      "LIPFilterBuilder.hpp",
+      "DisjointTreeForest.hpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationStateManager.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "StorageBlock.cpp",
+      13
+   ],
+   [
+      "Jianqiao Zhu",
+      "StarSchemaHashJoinOrderOptimization.hpp",
+      19
+   ],
+   [
+      "jianqiao",
+      "DatetimeLit.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "PlanVisualizer.hpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "SingleIdentityHashFilter.hpp",
+      15
+   ],
+   [
+      "jianqiao",
+      "StarSchemaHashJoinOrderOptimization.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleSum.hpp",
+      2
+   ],
+   [
+      "Jianqiao",
+      "CommandExecutor.cpp",
+      7
+   ],
+   [
+      "jianqiao",
+      "Type.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "PhysicalGenerator.cpp",
+      26
+   ],
+   [
+      "Jianqiao Zhu",
+      "TypeFunctors.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "SplitRowStoreTupleStorageSubBlock.hpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "StorageBlock.hpp",
+      8
+   ],
+   [
+      "Saket Saurabh",
+      "AsciiStringComparators-inl.hpp",
+      12
+   ],
+   [
+      "Zuyu Zhang",
+      "Shiftboss.cpp",
+      11
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryContext.hpp",
+      16
+   ],
+   [
+      "hbdeshmukh",
+      "StorageBlock.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "TypeFunctors.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "StarSchemaSimpleCostModel.cpp",
+      7
+   ],
+   [
+      "Harshad Deshmukh",
+      "StarSchemaHashJoinOrderOptimization.cpp",
+      7
+   ],
+   [
+      "Harshad Deshmukh",
+      "StorageBlock.cpp",
+      7
+   ],
+   [
+      "jianqiao",
+      "LIPFilterFactory.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExecutionHeuristics.hpp",
+      8
+   ],
+   [
+      "Jianqiao Zhu",
+      "WorkOrderFactory.cpp",
+      12
+   ],
+   [
+      "Harshad Deshmukh",
+      "FastHashTableFactory.hpp",
+      5
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationOperator.cpp",
+      19
+   ],
+   [
+      "Jianqiao Zhu",
+      "FastHashTable.hpp",
+      3
+   ],
+   [
+      "jianqiao",
+      "VarCharType.hpp",
       1
    ],
    [
@@ -101,13 +346,278 @@
    ],
    [
       "Jianqiao Zhu",
-      "LIPFilterDeploymentInfo.hpp",
-      4
+      "DisjointTreeForest_unittest.cpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationHashTable.hpp",
+      1
    ],
    [
       "jianqiao",
-      "SplitRowStoreTupleStorageSubBlock.cpp",
+      "DatetimeIntervalType.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "StarSchemaSimpleCostModel.hpp",
+      12
+   ],
+   [
+      "jianqiao",
+      "AggregationOperationState.cpp",
+      3
+   ],
+   [
+      "Jianqiao Zhu",
+      "DatetimeIntervalType.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "DisjointTreeForest.hpp",
+      8
+   ],
+   [
+      "Saket Saurabh",
+      "ValueAccessor.hpp",
+      12
+   ],
+   [
+      "Jianqiao Zhu",
+      "AttachLIPFilters.hpp",
+      11
+   ],
+   [
+      "Jianqiao Zhu",
+      "BasicColumnStoreTupleStorageSubBlock.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "HashTableUntypedKeyManager.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "FastSeparateChainingHashTable.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "HashJoinOperator.hpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "CompositeHash.hpp",
+      7
+   ],
+   [
+      "Jianqiao Zhu",
+      "QueryExecutionUtil.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "LIPFilter.hpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "QueryContext.cpp",
+      19
+   ],
+   [
+      "Jianqiao Zhu",
+      "HashTablePool.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "HashTablePool.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "ExecutionGenerator.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "LIPFilterDeployment.cpp",
+      1
+   ],
+   [
+      "Saket Saurabh",
+      "CompressedColumnStoreValueAccessor.hpp",
+      6
+   ],
+   [
+      "Harshad Deshmukh",
+      "PartitionedHashTablePool.hpp",
+      7
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleMax.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "CostModel.hpp",
+      7
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationHandleSum.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationConcreteHandle.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "PhysicalGenerator.cpp",
+      7
+   ],
+   [
+      "Zuyu Zhang",
+      "PolicyEnforcerDistributed.cpp",
+      11
+   ],
+   [
+      "Saket Saurabh",
+      "CompressedPackedRowStoreValueAccessor.hpp",
+      6
+   ],
+   [
+      "Jianqiao Zhu",
+      "PackedRowStoreTupleStorageSubBlock.cpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "HashTable.proto",
       5
+   ],
+   [
+      "jianqiao",
+      "BuildHashOperator.cpp",
+      2
+   ],
+   [
+      "Hakan Memisoglu",
+      "SimpleScalarSeparateChainingHashTable.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleSum.cpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "ForemanDistributed.cpp",
+      11
+   ],
+   [
+      "Jianqiao Zhu",
+      "HashTableBase.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "FastHashTable.hpp",
+      3
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationHandle.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "LIPFilterDeployment.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExecutionHeuristics_unittest.cpp",
+      2
+   ],
+   [
+      "Harshad Deshmukh",
+      "FinalizeAggregationOperator.hpp",
+      7
+   ],
+   [
+      "jianqiao",
+      "DAG.hpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "SimpleCostModel.hpp",
+      7
+   ],
+   [
+      "Harshad Deshmukh",
+      "AggregationOperationState.hpp",
+      18
+   ],
+   [
+      "jianqiao",
+      "LIPFilterAdaptiveProber.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "InsertDestination.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "SqlParser_gen.cpp",
+      3
+   ],
+   [
+      "zuyuz",
+      "DisjointTreeForest_unittest.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "CharType.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "HashJoinOperator.hpp",
+      21
+   ],
+   [
+      "hbdeshmukh",
+      "ExecutionHeuristics_unittest.cpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationConcreteHandle.cpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "QueryContext.cpp",
+      5
+   ],
+   [
+      "Harshad Deshmukh",
+      "AttachLIPFilters.cpp",
+      7
    ],
    [
       "Zuyu Zhang",
@@ -115,8 +625,258 @@
       11
    ],
    [
+      "Jianqiao Zhu",
+      "FinalizeAggregationOperator.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "Selection.cpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "FastSeparateChainingHashTable.hpp",
+      29
+   ],
+   [
+      "Jianqiao Zhu",
+      "DisjointTreeForest.hpp",
+      5
+   ],
+   [
+      "Jianqiao Zhu",
+      "NumericSuperType.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExpressionUtil.hpp",
+      9
+   ],
+   [
       "jianqiao",
+      "AggregationResultIterator.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleMax.hpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilterAdapter.hpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "DAG.hpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "InlineMemcpy.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "iwyu_helper.py",
+      2
+   ],
+   [
+      "hbdeshmukh",
+      "SqlParser_gen.hpp",
+      3
+   ],
+   [
+      "Harshad Deshmukh",
+      "AttachLIPFilters.hpp",
+      7
+   ],
+   [
+      "Saket Saurabh",
+      "PatternMatchingComparators-inl.hpp",
+      12
+   ],
+   [
+      "Jianqiao Zhu",
+      "NullType.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "BinaryOperation.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationOperator.hpp",
+      18
+   ],
+   [
+      "Jianqiao Zhu",
+      "BasicColumnStoreTupleStorageSubBlock.cpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleCount_unittest.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationHandleCount.cpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "iwyu_helper.py",
+      1
+   ],
+   [
+      "jianqiao",
+      "PackedRowStoreTupleStorageSubBlock.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "StarSchemaSimpleCostModel.cpp",
+      20
+   ],
+   [
+      "jianqiao",
+      "PlanVisualizer.cpp",
+      11
+   ],
+   [
+      "Harshad Deshmukh",
+      "LIPFilterConfiguration.hpp",
+      7
+   ],
+   [
+      "jianqiao",
+      "LIPFilter.proto",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilterAdaptiveProber.hpp",
+      15
+   ],
+   [
+      "Jianqiao Zhu",
+      "FastHashTableFactory.hpp",
+      3
+   ],
+   [
+      "jianqiao",
+      "AggregationOperationState.hpp",
+      3
+   ],
+   [
+      "Jianqiao Zhu",
+      "HashTable.proto",
+      3
+   ],
+   [
+      "jianqiao",
+      "SqlParser_gen.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationOperationState.cpp",
+      20
+   ],
+   [
+      "zuyuz",
+      "PlanVisualizer.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "QueryPlan.hpp",
+      11
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleSum_unittest.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "PolicyEnforcerBase.hpp",
+      11
+   ],
+   [
+      "jianqiao",
+      "DisjointTreeForest_unittest.cpp",
+      6
+   ],
+   [
+      "Jianqiao Zhu",
+      "DatetimeType.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "FastHashTable.hpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleMin_unittest.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "ExecutionHeuristics.cpp",
+      8
+   ],
+   [
+      "Jianqiao Zhu",
+      "YearMonthIntervalType.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
       "HashTableFactory.hpp",
+      5
+   ],
+   [
+      "jianqiao",
+      "LIPFilter.hpp",
+      9
+   ],
+   [
+      "jianqiao",
+      "LIPFilterBuilder.hpp",
+      6
+   ],
+   [
+      "Harshad Deshmukh",
+      "FinalizeAggregationOperator.cpp",
+      7
+   ],
+   [
+      "Harshad Deshmukh",
+      "BitVector.hpp",
+      4
+   ],
+   [
+      "jianqiao",
+      "HashTableBase.hpp",
+      2
+   ],
+   [
+      "jianqiao",
+      "TupleStorageSubBlock.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "TypeFunctors.cpp",
       1
    ],
    [
@@ -130,199 +890,24 @@
       1
    ],
    [
-      "Jianqiao Zhu",
-      "AggregationHandle.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "QueryExecutionUtil.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilterUtil.hpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationStateManager.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationHandleDistinct.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "HashTableFactory.hpp",
-      5
-   ],
-   [
-      "Jianqiao Zhu",
-      "FastHashTable.hpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "LIPFilter.proto",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationOperationState.cpp",
-      25
-   ],
-   [
-      "Saket Saurabh",
-      "SplitRowStoreValueAccessor.hpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilter.cpp",
-      9
-   ],
-   [
-      "jianqiao",
-      "AggregationResultIterator.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "LIPFilterFactory.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "BasicColumnStoreTupleStorageSubBlock.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilterFactory.hpp",
-      14
-   ],
-   [
-      "jianqiao",
-      "HashTablePool.hpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "AggregationHandleMin.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "NumericSuperType.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "ExecutionGenerator.cpp",
-      7
-   ],
-   [
-      "jianqiao",
-      "PlanVisualizer.hpp",
-      8
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationConcreteHandle.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "Tuple.hpp",
-      7
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilterAdapter.hpp",
-      4
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationHandle.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationHandleCount.cpp",
-      2
-   ],
-   [
-      "Harshad Deshmukh",
-      "FinalizeAggregationOperator.cpp",
-      7
-   ],
-   [
-      "Harshad Deshmukh",
-      "HashTable.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
+      "zuyuz",
       "ExecutionHeuristics_unittest.cpp",
-      4
-   ],
-   [
-      "jianqiao",
-      "LIPFilter.hpp",
-      9
+      1
    ],
    [
       "Jianqiao Zhu",
-      "LIPFilterFactory.cpp",
-      18
-   ],
-   [
-      "Jianqiao Zhu",
-      "AttachLIPFilters.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "ExpressionUtil.hpp",
-      9
-   ],
-   [
-      "Harshad Deshmukh",
-      "ExecutionGenerator.hpp",
-      7
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashJoin.hpp",
+      "Tuple.hpp",
       1
    ],
    [
       "jianqiao",
-      "PackedRowStoreTupleStorageSubBlock.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashJoin.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "PlanVisualizer.hpp",
+      "BuildHashOperator.hpp",
       2
    ],
    [
       "jianqiao",
-      "DisjointTreeForest.hpp",
-      8
-   ],
-   [
-      "Harshad Deshmukh",
-      "AttachLIPFilters.hpp",
-      7
+      "HashTableFactory.hpp",
+      1
    ],
    [
       "Jianqiao Zhu",
@@ -331,52 +916,137 @@
    ],
    [
       "jianqiao",
-      "TypeFunctors.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationOperationState.hpp",
-      18
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashTable.proto",
-      3
-   ],
-   [
-      "jianqiao",
-      "FastHashTableFactory.hpp",
-      3
-   ],
-   [
-      "Saket Saurabh",
-      "CompressedColumnStoreValueAccessor.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "PlanVisualizer.cpp",
-      5
-   ],
-   [
-      "Jianqiao Zhu",
-      "SimpleHashSetExactFilter.hpp",
+      "HashTable.hpp",
       2
    ],
    [
       "jianqiao",
-      "CharType.hpp",
+      "DatetimeType.hpp",
       1
    ],
    [
       "Jianqiao Zhu",
-      "HashTableFactory.hpp",
+      "AggregationOperationState.hpp",
+      17
+   ],
+   [
+      "jianqiao",
+      "YearMonthIntervalType.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "NumericSuperType.hpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "StorageBlock.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "DateType.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "WorkOrder.proto",
+      10
+   ],
+   [
+      "hbdeshmukh",
+      "DisjointTreeForest_unittest.cpp",
+      4
+   ],
+   [
+      "Jianqiao Zhu",
+      "HashTableUntypedKeyManager.hpp",
+      1
+   ],
+   [
+      "Harshad Deshmukh",
+      "HashTableBase.hpp",
+      11
+   ],
+   [
+      "Saket Saurabh",
+      "SplitRowStoreValueAccessor.hpp",
+      6
+   ],
+   [
+      "jianqiao",
+      "SplitRowStoreTupleStorageSubBlock_unittest.cpp",
+      5
+   ],
+   [
+      "Jianqiao Zhu",
+      "OptimizerTextTest.cpp",
+      9
+   ],
+   [
+      "Saket Saurabh",
+      "ColumnVectorsValueAccessor.hpp",
       6
    ],
    [
       "Jianqiao Zhu",
-      "HashTablePool.hpp",
+      "HashJoin.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "StarSchemaHashJoinOrderOptimization.cpp",
+      2
+   ],
+   [
+      "Jianqiao Zhu",
+      "AggregationStateHashTable.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "AttachLIPFilters.cpp",
+      19
+   ],
+   [
+      "jianqiao",
+      "NullType.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "StorageBlock.cpp",
+      6
+   ],
+   [
+      "jianqiao",
+      "RelationalOperator.hpp",
+      2
+   ],
+   [
+      "zuyuz",
+      "PlanVisualizer.cpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "TypeFunctors.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilterGenerator.hpp",
+      24
+   ],
+   [
+      "Harshad Deshmukh",
+      "Tuple.hpp",
+      7
+   ],
+   [
+      "Jianqiao Zhu",
+      "SimpleHashSetExactFilter.hpp",
       2
    ],
    [
@@ -386,263 +1056,8 @@
    ],
    [
       "Harshad Deshmukh",
-      "FastHashTableFactory.hpp",
-      5
-   ],
-   [
-      "jianqiao",
-      "RelationalOperator.hpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "SelectOperator.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "PhysicalGenerator.cpp",
-      26
-   ],
-   [
-      "Hakan Memisoglu",
-      "SeparateChainingHashTable.hpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "FastHashTable.hpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "WorkOrder.proto",
-      10
-   ],
-   [
-      "jianqiao",
-      "DatetimeLit.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "YearMonthIntervalType.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationOperator.hpp",
-      18
-   ],
-   [
-      "jianqiao",
-      "AggregationHandleCount_unittest.cpp",
-      1
-   ],
-   [
-      "Saket Saurabh",
-      "PackedRowStoreValueAccessor.hpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryContext.cpp",
-      5
-   ],
-   [
-      "Jianqiao Zhu",
-      "IntervalLit.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "StarSchemaHashJoinOrderOptimization.hpp",
-      19
-   ],
-   [
-      "Harshad Deshmukh",
-      "PartitionedHashTablePool.hpp",
-      7
-   ],
-   [
-      "Jianqiao Zhu",
-      "PackedRowStoreTupleStorageSubBlock.hpp",
-      1
-   ],
-   [
-      "Saket Saurabh",
-      "ColumnVectorsValueAccessor.hpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "TopLevelPlan.hpp",
-      9
-   ],
-   [
-      "Jianqiao Zhu",
-      "SingleIdentityHashFilter.hpp",
-      15
-   ],
-   [
-      "Jianqiao Zhu",
-      "DatetimeLit.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationConcreteHandle.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "SimpleCostModel.cpp",
-      7
-   ],
-   [
-      "Jianqiao Zhu",
-      "BuildHashOperator.cpp",
-      21
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilterConfiguration.hpp",
-      15
-   ],
-   [
-      "Jianqiao Zhu",
-      "ExecutionGenerator.cpp",
-      46
-   ],
-   [
-      "Jianqiao Zhu",
-      "StarSchemaSimpleCostModel.hpp",
-      12
-   ],
-   [
-      "Jianqiao Zhu",
-      "QueryContext.hpp",
-      26
-   ],
-   [
-      "Harshad Deshmukh",
-      "LIPFilterConfiguration.hpp",
-      7
-   ],
-   [
-      "Harshad Deshmukh",
-      "HashTableBase.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "StorageBlockLayout.cpp",
-      1
-   ],
-   [
-      "Saket Saurabh",
-      "ValueAccessor.hpp",
-      12
-   ],
-   [
-      "Zuyu Zhang",
-      "QueryExecutionUtil.hpp",
-      18
-   ],
-   [
-      "Zuyu Zhang",
-      "Shiftboss.cpp",
-      11
-   ],
-   [
-      "Zuyu Zhang",
-      "ForemanDistributed.cpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "FuseJoinSelect.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "CompositeHash.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "RelationalOperator.hpp",
-      16
-   ],
-   [
-      "hbdeshmukh",
-      "PlanVisualizer.hpp",
-      4
-   ],
-   [
-      "jianqiao",
-      "SqlParser_gen.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationHandleAvg.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "WorkOrderFactory.cpp",
-      12
-   ],
-   [
-      "Harshad Deshmukh",
-      "FastHashTable.hpp",
-      5
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationStateHashTable.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "StorageBlock.hpp",
-      8
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationHandleAvg.hpp",
-      2
-   ],
-   [
-      "zuyuz",
-      "PlanVisualizer.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "SplitRowStoreTupleStorageSubBlock.hpp",
-      5
-   ],
-   [
-      "Saket Saurabh",
-      "ScalarAttribute.cpp",
-      6
-   ],
-   [
-      "jianqiao",
       "AggregationOperationState.cpp",
-      3
-   ],
-   [
-      "Jianqiao Zhu",
-      "iwyu_helper.py",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "LIPFilter.hpp",
-      4
+      25
    ],
    [
       "Jianqiao Zhu",
@@ -651,83 +1066,8 @@
    ],
    [
       "Jianqiao Zhu",
-      "AggregationHashTable.hpp",
+      "PartitionedHashTablePool.hpp",
       1
-   ],
-   [
-      "Zuyu Zhang",
-      "DistributedExecutionGeneratorTestRunner.hpp",
-      11
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationHandleSum.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "StorageBlock.hpp",
-      11
-   ],
-   [
-      "jianqiao",
-      "InsertDestination.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "AggregationHandleSum_unittest.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "LIPFilterFactory.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "ExecutionHeuristics.hpp",
-      8
-   ],
-   [
-      "Jianqiao Zhu",
-      "OptimizerTextTest.cpp",
-      9
-   ],
-   [
-      "Harshad Deshmukh",
-      "TopLevelPlan.hpp",
-      7
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashTable.hpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "DateType.hpp",
-      1
-   ],
-   [
-      "Hakan Memisoglu",
-      "SimpleScalarSeparateChainingHashTable.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "StarSchemaHashJoinOrderOptimization.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "DatetimeIntervalType.hpp",
-      1
-   ],
-   [
-      "Saket Saurabh",
-      "CompressedPackedRowStoreValueAccessor.hpp",
-      6
    ],
    [
       "Jianqiao Zhu",
@@ -735,103 +1075,8 @@
       1
    ],
    [
-      "jianqiao",
-      "SingleIdentityHashFilter.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "SplitRowStoreTupleStorageSubBlock_unittest.cpp",
-      5
-   ],
-   [
-      "jianqiao",
-      "AggregationOperator.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "SelectOperator.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "BuildHashOperator.cpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "SimpleCostModel.hpp",
-      7
-   ],
-   [
-      "hbdeshmukh",
-      "DisjointTreeForest_unittest.cpp",
-      4
-   ],
-   [
-      "jianqiao",
-      "AggregationStateManager.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "LIPFilterBuilder.hpp",
-      6
-   ],
-   [
-      "hbdeshmukh",
-      "StorageBlock.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "LIPFilterUtil.hpp",
-      5
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilterDeployment.hpp",
-      14
-   ],
-   [
-      "jianqiao",
-      "AggregationStateHashTable.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "StorageBlock.cpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "PackedRowStoreTupleStorageSubBlock.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "HashTableBase.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "DatetimeType.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "PartitionedHashTablePool.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "PhysicalGenerator.cpp",
-      7
-   ],
-   [
-      "jianqiao",
-      "AggregationHandleMax_unittest.cpp",
+      "Saket Saurabh",
+      "BitVector.hpp",
       1
    ],
    [
@@ -840,144 +1085,54 @@
       7
    ],
    [
-      "jianqiao",
-      "Type.hpp",
-      1
-   ],
-   [
       "Jianqiao Zhu",
-      "QueryContext.cpp",
-      19
-   ],
-   [
-      "jianqiao",
-      "TypeFunctors.hpp",
-      1
-   ],
-   [
-      "Zuyu Zhang",
-      "ForemanDistributed.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "SelectOperator.cpp",
-      20
-   ],
-   [
-      "Jianqiao Zhu",
-      "DateType.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "PackedRowStoreTupleStorageSubBlock.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "StarSchemaSimpleCostModel.cpp",
-      20
-   ],
-   [
-      "hbdeshmukh",
-      "StorageBlock.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "AttachLIPFilters.cpp",
-      7
-   ],
-   [
-      "jianqiao",
-      "AggregationOperator_unittest.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "DisjointTreeForest.hpp",
-      5
-   ],
-   [
-      "Harshad Deshmukh",
-      "HashTable.proto",
-      5
-   ],
-   [
-      "Harshad Deshmukh",
-      "AggregationHandleMin.hpp",
-      11
-   ],
-   [
-      "jianqiao",
-      "DatetimeType.hpp",
-      1
-   ],
-   [
-      "hbdeshmukh",
-      "LIPFilterUtil.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "QueryContext.hpp",
-      16
-   ],
-   [
-      "Jianqiao Zhu",
-      "ScalarAttribute.cpp",
-      16
-   ],
-   [
-      "Jianqiao Zhu",
-      "TypeFunctors.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "CostModel.hpp",
-      7
-   ],
-   [
-      "jianqiao",
       "BuildHashOperator.hpp",
+      20
+   ],
+   [
+      "Jianqiao Zhu",
+      "CompositeHash.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilter.hpp",
+      23
+   ],
+   [
+      "Harshad Deshmukh",
+      "AggregationHandleMax.hpp",
+      11
+   ],
+   [
+      "jianqiao",
+      "AggregationOperator.hpp",
       2
    ],
    [
       "Jianqiao Zhu",
-      "LIPFilterGenerator.hpp",
-      24
+      "FuseJoinSelect.cpp",
+      1
+   ],
+   [
+      "hbdeshmukh",
+      "PlanVisualizer.cpp",
+      5
+   ],
+   [
+      "Harshad Deshmukh",
+      "StorageBlock.hpp",
+      7
    ],
    [
       "Jianqiao Zhu",
-      "LIPFilterAdaptiveProber.hpp",
-      15
+      "AggregationHandleAvg.hpp",
+      2
    ],
    [
       "Harshad Deshmukh",
       "HashTablePool.hpp",
       7
-   ],
-   [
-      "jianqiao",
-      "SqlParser_gen.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "HashJoinOperator.hpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "AggregationHashTable.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "LIPFilterDeployment.hpp",
-      1
    ],
    [
       "Harshad Deshmukh",
@@ -990,58 +1145,68 @@
       1
    ],
    [
-      "jianqiao",
-      "LIPFilter.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "LIPFilterAdaptiveProber.hpp",
-      1
-   ],
-   [
-      "Saket Saurabh",
-      "BasicColumnStoreValueAccessor.hpp",
-      12
-   ],
-   [
-      "jianqiao",
-      "DatetimeIntervalType.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "BitVector.hpp",
-      5
-   ],
-   [
       "Jianqiao Zhu",
-      "FastHashTableFactory.hpp",
-      3
+      "StarSchemaHashJoinOrderOptimization.cpp",
+      9
+   ],
+   [
+      "hbdeshmukh",
+      "LIPFilterBuilder.hpp",
+      1
    ],
    [
       "Harshad Deshmukh",
-      "StarSchemaHashJoinOrderOptimization.hpp",
-      7
+      "AggregationHandleSum.hpp",
+      11
    ],
    [
-      "jianqiao",
-      "NumericSuperType.hpp",
+      "zuyuz",
+      "SqlParser_gen.cpp",
       1
    ],
    [
+      "Jianqiao Zhu",
+      "PlanVisualizer.hpp",
+      2
+   ],
+   [
+      "Zuyu Zhang",
+      "DistributedExecutionGeneratorTestRunner.hpp",
+      11
+   ],
+   [
+      "Harshad Deshmukh",
+      "AggregationHandleAvg.hpp",
+      11
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilterUtil.hpp",
+      3
+   ],
+   [
       "Saket Saurabh",
-      "PackedRowStoreTupleStorageSubBlock_unittest.cpp",
-      18
+      "ScalarAttribute.cpp",
+      6
    ],
    [
       "Jianqiao Zhu",
-      "LIPFilterGenerator.cpp",
-      22
+      "TopLevelPlan.hpp",
+      9
+   ],
+   [
+      "jianqiao",
+      "AggregationOperator_unittest.cpp",
+      1
    ],
    [
       "Jianqiao Zhu",
-      "FinalizeAggregationOperator.cpp",
+      "LIPFilterDeployment.hpp",
+      14
+   ],
+   [
+      "Jianqiao Zhu",
+      "IntervalLit.hpp",
       1
    ],
    [
@@ -1050,83 +1215,28 @@
       1
    ],
    [
-      "zuyuz",
-      "SqlParser_gen.cpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "StorageBlock.cpp",
-      7
-   ],
-   [
-      "hbdeshmukh",
-      "SqlParser_gen.cpp",
+      "jianqiao",
+      "FastHashTableFactory.hpp",
       3
    ],
    [
-      "zuyuz",
-      "ExecutionHeuristics_unittest.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "BasicColumnStoreTupleStorageSubBlock.cpp",
+      "jianqiao",
+      "AggregationHandleMin.hpp",
       2
    ],
    [
-      "Saket Saurabh",
-      "PatternMatchingComparators-inl.hpp",
-      12
-   ],
-   [
-      "jianqiao",
-      "LIPFilterDeployment.cpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "NullType.hpp",
-      1
-   ],
-   [
-      "Harshad Deshmukh",
-      "FinalizeAggregationOperator.hpp",
-      7
-   ],
-   [
-      "zuyuz",
-      "DisjointTreeForest.hpp",
-      1
-   ],
-   [
       "Jianqiao Zhu",
-      "AggregationHandleCount.hpp",
-      1
+      "SelectOperator.cpp",
+      20
    ],
    [
       "jianqiao",
-      "BinaryOperation.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilterBuilder.hpp",
-      18
-   ],
-   [
-      "Saket Saurabh",
-      "Comparison-inl.hpp",
-      12
-   ],
-   [
-      "jianqiao",
-      "AggregationOperator.hpp",
+      "AggregationOperator.cpp",
       2
    ],
    [
-      "Saket Saurabh",
-      "BitVector.hpp",
+      "jianqiao",
+      "PackedRowStoreTupleStorageSubBlock.cpp",
       1
    ],
    [
@@ -1135,53 +1245,43 @@
       1
    ],
    [
-      "Jianqiao Zhu",
-      "AggregationHandleAvg.cpp",
-      2
+      "Harshad Deshmukh",
+      "TopLevelPlan.hpp",
+      7
    ],
    [
       "Jianqiao Zhu",
-      "ExecutionHeuristics.cpp",
-      8
+      "AggregationHandleDistinct.cpp",
+      1
    ],
    [
       "Jianqiao Zhu",
-      "HashTableBase.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "AttachLIPFilters.cpp",
-      19
-   ],
-   [
-      "Jianqiao Zhu",
-      "LIPFilter.hpp",
-      23
-   ],
-   [
-      "jianqiao",
-      "TupleStorageSubBlock.hpp",
+      "PackedRowStoreTupleStorageSubBlock.hpp",
       1
    ],
    [
       "Zuyu Zhang",
-      "PolicyEnforcerBase.hpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationOperationState.hpp",
-      17
+      "QueryExecutionUtil.hpp",
+      18
    ],
    [
       "jianqiao",
-      "ArithmeticBinaryOperators.hpp",
+      "SingleIdentityHashFilter.hpp",
       1
    ],
    [
+      "Jianqiao Zhu",
+      "LIPFilterFactory.cpp",
+      18
+   ],
+   [
       "jianqiao",
-      "YearMonthIntervalType.hpp",
+      "ExecutionHeuristics_unittest.cpp",
+      8
+   ],
+   [
+      "Jianqiao Zhu",
+      "FuseJoinSelect.hpp",
       1
    ],
    [
@@ -1190,164 +1290,24 @@
       12
    ],
    [
-      "jianqiao",
-      "ExecutionHeuristics_unittest.cpp",
-      8
-   ],
-   [
-      "jianqiao",
-      "HashJoinOperator.cpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "PlanVisualizer.cpp",
-      4
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashTableUntypedKeyManager.hpp",
-      1
-   ],
-   [
       "Saket Saurabh",
-      "AsciiStringComparators-inl.hpp",
+      "PackedRowStoreValueAccessor.hpp",
       12
    ],
    [
-      "Jianqiao Zhu",
-      "DisjointTreeForest_unittest.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "AggregationHandleMax.hpp",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "PolicyEnforcerDistributed.cpp",
-      11
-   ],
-   [
       "Harshad Deshmukh",
-      "BitVector.hpp",
-      4
-   ],
-   [
-      "Jianqiao Zhu",
-      "QueryPlan.hpp",
-      11
-   ],
-   [
-      "jianqiao",
-      "AggregationHandleSum.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationOperationState.cpp",
-      20
-   ],
-   [
-      "Jianqiao Zhu",
-      "NullType.hpp",
-      1
-   ],
-   [
-      "zuyuz",
-      "PlanVisualizer.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "BuildHashOperator.hpp",
-      20
-   ],
-   [
-      "jianqiao",
-      "iwyu_helper.py",
-      2
-   ],
-   [
-      "Zuyu Zhang",
-      "PolicyEnforcerBase.cpp",
+      "AggregationHandleMin.hpp",
       11
    ],
    [
       "Jianqiao Zhu",
-      "AggregationOperator.cpp",
-      19
+      "LIPFilterGenerator.cpp",
+      22
    ],
    [
       "jianqiao",
-      "AggregationHandleSum.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "PlanVisualizer.cpp",
-      11
-   ],
-   [
-      "Jianqiao Zhu",
-      "HashJoinOperator.hpp",
-      21
-   ],
-   [
-      "jianqiao",
-      "AggregationOperationState.hpp",
-      3
-   ],
-   [
-      "jianqiao",
-      "StarSchemaHashJoinOrderOptimization.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "HashTableUntypedKeyManager.hpp",
-      1
-   ],
-   [
-      "jianqiao",
-      "DAG.hpp",
-      2
-   ],
-   [
-      "hbdeshmukh",
-      "DisjointTreeForest.hpp",
-      4
-   ],
-   [
-      "jianqiao",
-      "DisjointTreeForest_unittest.cpp",
-      6
-   ],
-   [
-      "Jianqiao Zhu",
-      "ExecutionHeuristics_unittest.cpp",
-      2
-   ],
-   [
-      "jianqiao",
-      "ExecutionGenerator.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "InlineMemcpy.hpp",
-      2
-   ],
-   [
-      "Jianqiao Zhu",
-      "StorageBlock.cpp",
-      13
-   ],
-   [
-      "Jianqiao Zhu",
-      "SelectOperator.hpp",
-      18
+      "SplitRowStoreTupleStorageSubBlock.cpp",
+      5
    ],
    [
       "Jianqiao Zhu",
@@ -1355,48 +1315,88 @@
       13
    ],
    [
-      "Harshad Deshmukh",
-      "CompositeHash.hpp",
-      7
+      "Jianqiao Zhu",
+      "DatetimeLit.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "DateType.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "ArithmeticBinaryOperators.hpp",
+      1
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleAvg_unittest.cpp",
+      1
    ],
    [
       "Jianqiao Zhu",
-      "ExecutionGenerator.hpp",
-      39
+      "HashTableFactory.hpp",
+      6
    ],
    [
-      "Harshad Deshmukh",
-      "AggregationHandleMax.hpp",
+      "Jianqiao Zhu",
+      "HashJoin.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "PolicyEnforcerBase.cpp",
       11
    ],
    [
-      "Harshad Deshmukh",
-      "StarSchemaSimpleCostModel.cpp",
-      7
-   ],
-   [
-      "Jianqiao Zhu",
-      "StarSchemaHashJoinOrderOptimization.cpp",
-      9
-   ],
-   [
-      "Jianqiao Zhu",
-      "AggregationHandleSum.cpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "Tuple.hpp",
-      1
-   ],
-   [
-      "Jianqiao Zhu",
-      "TypeFunctors.cpp",
-      1
+      "jianqiao",
+      "PlanVisualizer.hpp",
+      8
    ],
    [
       "Harshad Deshmukh",
-      "StarSchemaHashJoinOrderOptimization.cpp",
+      "ExecutionGenerator.cpp",
       7
+   ],
+   [
+      "jianqiao",
+      "AggregationHandleMax_unittest.cpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "BuildHashOperator.cpp",
+      21
+   ],
+   [
+      "Jianqiao Zhu",
+      "StorageBlockLayout.cpp",
+      1
+   ],
+   [
+      "Zuyu Zhang",
+      "ForemanDistributed.hpp",
+      11
+   ],
+   [
+      "zuyuz",
+      "DisjointTreeForest.hpp",
+      1
+   ],
+   [
+      "Jianqiao Zhu",
+      "LIPFilterBuilder.hpp",
+      18
+   ],
+   [
+      "Harshad Deshmukh",
+      "AggregationHandle.hpp",
+      11
+   ],
+   [
+      "Jianqiao Zhu",
+      "Selection.hpp",
+      1
    ]
 ]

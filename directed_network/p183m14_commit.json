@@ -1,77 +1,7 @@
 [
    [
       "joern",
-      "Sequence.java",
-      1
-   ],
-   [
-      "jkosin",
-      "DictionaryNameFinderTest.java",
-      1
-   ],
-   [
-      "joern",
-      "AbstractModelReader.java",
-      1
-   ],
-   [
-      "jbaldrid",
-      "PrepAttachDataUtil.java",
-      1
-   ],
-   [
-      "joern",
-      "PerceptronModelReader.java",
-      1
-   ],
-   [
-      "jkosin",
-      "Span.java",
-      1
-   ],
-   [
-      "joern",
       "PlainTextByLineDataStream.java",
-      1
-   ],
-   [
-      "joern",
-      "OldFormatGISModelReader.java",
-      1
-   ],
-   [
-      "joern",
-      "ObjectGISModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "DoubleStringPair.java",
-      1
-   ],
-   [
-      "joern",
-      "ListEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "MutableContext.java",
-      1
-   ],
-   [
-      "joern",
-      "UniformPrior.java",
-      1
-   ],
-   [
-      "joern",
-      "SuffixSensitiveGISModelReader.java",
-      1
-   ],
-   [
-      "joern",
-      "BinaryPerceptronModelReader.java",
       1
    ],
    [
@@ -81,7 +11,27 @@
    ],
    [
       "joern",
-      "Prior.java",
+      "SequenceStream.java",
+      1
+   ],
+   [
+      "joern",
+      "FileEventStream.java",
+      1
+   ],
+   [
+      "jkosin",
+      "NameFinderME.java",
+      1
+   ],
+   [
+      "joern",
+      "ModelApplier.java",
+      1
+   ],
+   [
+      "joern",
+      "TrainUtil.java",
       1
    ],
    [
@@ -91,22 +41,17 @@
    ],
    [
       "joern",
-      "AbstractDataIndexer.java",
-      1
-   ],
-   [
-      "joern",
-      "EventCollectorAsStream.java",
-      1
-   ],
-   [
-      "joern",
-      "PerceptronTrainer.java",
-      1
-   ],
-   [
-      "joern",
       "BinaryPerceptronModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "MaxentModel.java",
       1
    ],
    [
@@ -116,87 +61,12 @@
    ],
    [
       "joern",
-      "ObjectGISModelReader.java",
+      "GISModelWriter.java",
       1
    ],
    [
       "joern",
-      "IntegerPool.java",
-      1
-   ],
-   [
-      "joern",
-      "FileEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "GenericModelReader.java",
-      1
-   ],
-   [
-      "joern",
-      "DynamicEvalParameters.java",
-      1
-   ],
-   [
-      "joern",
-      "PlainTextGISModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "PlainTextPerceptronModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "IndexHashTable.java",
-      1
-   ],
-   [
-      "joern",
-      "ModelSetter.java",
-      1
-   ],
-   [
-      "joern",
-      "HashSumEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "ContextGenerator.java",
-      1
-   ],
-   [
-      "joern",
-      "SequenceStreamEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "DataStream.java",
-      1
-   ],
-   [
-      "joern",
-      "EventCollector.java",
-      1
-   ],
-   [
-      "joern",
-      "GISModelReader.java",
-      1
-   ],
-   [
-      "joern",
-      "DataIndexer.java",
-      1
-   ],
-   [
-      "joern",
-      "Main.java",
+      "TwoPassDataIndexer.java",
       1
    ],
    [
@@ -206,7 +76,242 @@
    ],
    [
       "joern",
+      "Counter.java",
+      1
+   ],
+   [
+      "joern",
+      "NameFinderModelInputDialog.java",
+      1
+   ],
+   [
+      "joern",
+      "BinaryFileDataReader.java",
+      1
+   ],
+   [
+      "joern",
+      "IntegerPool.java",
+      1
+   ],
+   [
+      "joern",
+      "MutableContext.java",
+      1
+   ],
+   [
+      "joern",
+      "ModelSetter.java",
+      1
+   ],
+   [
+      "joern",
+      "ListEventStream.java",
+      1
+   ],
+   [
+      "joern",
+      "Prior.java",
+      1
+   ],
+   [
+      "joern",
+      "DomainToModelMap.java",
+      1
+   ],
+   [
+      "joern",
+      "PlainTextPerceptronModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "OnePassDataIndexer.java",
+      1
+   ],
+   [
+      "joern",
+      "PlainTextGISModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "ObjectDataReader.java",
+      1
+   ],
+   [
+      "joern",
+      "EventCollectorAsStream.java",
+      1
+   ],
+   [
+      "joern",
+      "ModelReplacementManager.java",
+      1
+   ],
+   [
+      "joern",
+      "PlainTextPerceptronModelReader.java",
+      1
+   ],
+   [
+      "joern",
       "PlainTextFileDataReader.java",
+      1
+   ],
+   [
+      "joern",
+      "PerceptronModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "EventCollector.java",
+      1
+   ],
+   [
+      "joern",
+      "ContextGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "GIS.java",
+      1
+   ],
+   [
+      "joern",
+      "Sequence.java",
+      1
+   ],
+   [
+      "joern",
+      "EvalParameters.java",
+      1
+   ],
+   [
+      "joern",
+      "BasicContextGenerator.java",
+      1
+   ],
+   [
+      "joern",
+      "ComparableEvent.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractModelReader.java",
+      1
+   ],
+   [
+      "jkosin",
+      "team.html",
+      1
+   ],
+   [
+      "joern",
+      "PlainTextGISModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "ObjectGISModelWriter.java",
+      1
+   ],
+   [
+      "jkosin",
+      "DictionaryNameFinder.java",
+      2
+   ],
+   [
+      "jkosin",
+      "Span.java",
+      1
+   ],
+   [
+      "joern",
+      "Event.java",
+      1
+   ],
+   [
+      "joern",
+      "PerceptronModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "GenericModelReader.java",
+      1
+   ],
+   [
+      "jkosin",
+      "news.html",
+      1
+   ],
+   [
+      "joern",
+      "HashSumEventStream.java",
+      1
+   ],
+   [
+      "joern",
+      "PerceptronModel.java",
+      1
+   ],
+   [
+      "joern",
+      "RealBasicEventStream.java",
+      1
+   ],
+   [
+      "joern",
+      "AbstractModel.java",
+      1
+   ],
+   [
+      "jbaldrid",
+      "PrepAttachDataUtil.java",
+      1
+   ],
+   [
+      "joern",
+      "BinToAscii.java",
+      2
+   ],
+   [
+      "joern",
+      "IndexHashTable.java",
+      1
+   ],
+   [
+      "jkosin",
+      "DictionaryNameFinderTest.java",
+      1
+   ],
+   [
+      "joern",
+      "ObjectGISModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "OnePassRealValueDataIndexer.java",
+      1
+   ],
+   [
+      "joern",
+      "Evalable.java",
+      1
+   ],
+   [
+      "jbaldrid",
+      "MANIFEST.MF",
+      1
+   ],
+   [
+      "jbaldrid",
+      "PerceptronPrepAttachTest.java",
       1
    ],
    [
@@ -220,78 +325,8 @@
       1
    ],
    [
-      "jbaldrid",
-      "IndexHashTableTest.java",
-      1
-   ],
-   [
-      "joern",
-      "GISTrainer.java",
-      1
-   ],
-   [
-      "joern",
-      "MaxentModel.java",
-      1
-   ],
-   [
-      "joern",
-      "ComparablePredicate.java",
-      1
-   ],
-   [
-      "joern",
-      "TwoPassDataIndexer.java",
-      1
-   ],
-   [
-      "jkosin",
-      "DictionaryNameFinder.java",
-      2
-   ],
-   [
-      "joern",
-      "ObjectDataReader.java",
-      1
-   ],
-   [
-      "joern",
-      "BasicContextGenerator.java",
-      1
-   ],
-   [
       "joern",
       "SuffixSensitiveGISModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "Counter.java",
-      1
-   ],
-   [
-      "joern",
-      "GenericModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "BinaryGISModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "RealValueFileEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "ModelApplier.java",
-      1
-   ],
-   [
-      "jbaldrid",
-      "RealValueFileEventStreamTest.java",
       1
    ],
    [
@@ -301,82 +336,32 @@
    ],
    [
       "joern",
+      "Context.java",
+      1
+   ],
+   [
+      "joern",
+      "DataIndexer.java",
+      1
+   ],
+   [
+      "joern",
       "EventStream.java",
       1
    ],
    [
       "joern",
-      "Context.java",
-      1
-   ],
-   [
-      "jkosin",
-      "news.html",
-      1
-   ],
-   [
-      "jbaldrid",
-      "ScaleDoesntMatterTest.java",
+      "AbstractDataIndexer.java",
       1
    ],
    [
       "joern",
-      "BinaryGISModelReader.java",
+      "RealValueFileEventStream.java",
       1
    ],
    [
       "joern",
-      "SuffixSensitivePerceptronModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "BinToAscii.java",
-      2
-   ],
-   [
-      "joern",
-      "GISModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "DomainToModelMap.java",
-      1
-   ],
-   [
-      "joern",
-      "AbstractModel.java",
-      1
-   ],
-   [
-      "joern",
-      "ComparableEvent.java",
-      1
-   ],
-   [
-      "jbaldrid",
-      "PerceptronPrepAttachTest.java",
-      1
-   ],
-   [
-      "joern",
-      "GIS.java",
-      1
-   ],
-   [
-      "joern",
-      "PlainTextGISModelReader.java",
-      1
-   ],
-   [
-      "joern",
-      "SequenceStream.java",
-      1
-   ],
-   [
-      "joern",
-      "TrainUtil.java",
+      "ModelDomain.java",
       1
    ],
    [
@@ -385,73 +370,8 @@
       1
    ],
    [
-      "jkosin",
-      "team.html",
-      1
-   ],
-   [
       "joern",
-      "AbstractModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "RealBasicEventStream.java",
-      1
-   ],
-   [
-      "joern",
-      "PlainTextPerceptronModelReader.java",
-      1
-   ],
-   [
-      "joern",
-      "ModelTrainer.java",
-      1
-   ],
-   [
-      "joern",
-      "PerceptronModelWriter.java",
-      1
-   ],
-   [
-      "joern",
-      "NameFinderModelInputDialog.java",
-      1
-   ],
-   [
-      "joern",
-      "SimplePerceptronSequenceTrainer.java",
-      1
-   ],
-   [
-      "joern",
-      "OnePassRealValueDataIndexer.java",
-      1
-   ],
-   [
-      "joern",
-      "Event.java",
-      1
-   ],
-   [
-      "joern",
-      "ModelReplacementManager.java",
-      1
-   ],
-   [
-      "jbaldrid",
-      "MANIFEST.MF",
-      1
-   ],
-   [
-      "joern",
-      "Evalable.java",
-      1
-   ],
-   [
-      "joern",
-      "OnePassDataIndexer.java",
+      "Main.java",
       1
    ],
    [
@@ -461,27 +381,107 @@
    ],
    [
       "joern",
-      "ModelDomain.java",
+      "DataStream.java",
       1
    ],
    [
-      "jkosin",
-      "NameFinderME.java",
-      1
-   ],
-   [
-      "joern",
-      "EvalParameters.java",
+      "jbaldrid",
+      "ScaleDoesntMatterTest.java",
       1
    ],
    [
       "joern",
-      "PerceptronModel.java",
+      "ModelTrainer.java",
       1
    ],
    [
       "joern",
-      "BinaryFileDataReader.java",
+      "BinaryGISModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "BinaryGISModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "BinaryPerceptronModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "UniformPrior.java",
+      1
+   ],
+   [
+      "joern",
+      "DoubleStringPair.java",
+      1
+   ],
+   [
+      "joern",
+      "SequenceStreamEventStream.java",
+      1
+   ],
+   [
+      "joern",
+      "PerceptronTrainer.java",
+      1
+   ],
+   [
+      "joern",
+      "SuffixSensitivePerceptronModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "OldFormatGISModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "SuffixSensitiveGISModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "GISModelReader.java",
+      1
+   ],
+   [
+      "joern",
+      "GISTrainer.java",
+      1
+   ],
+   [
+      "joern",
+      "GenericModelWriter.java",
+      1
+   ],
+   [
+      "joern",
+      "SimplePerceptronSequenceTrainer.java",
+      1
+   ],
+   [
+      "joern",
+      "ComparablePredicate.java",
+      1
+   ],
+   [
+      "jbaldrid",
+      "RealValueFileEventStreamTest.java",
+      1
+   ],
+   [
+      "joern",
+      "DynamicEvalParameters.java",
+      1
+   ],
+   [
+      "jbaldrid",
+      "IndexHashTableTest.java",
       1
    ]
 ]

@@ -6,117 +6,17 @@
    ],
    [
       "bmahe",
-      "zookeeper-server.sh.suse",
-      1
-   ],
-   [
-      "bmahe",
-      "mahout-doc.install",
-      1
-   ],
-   [
-      "rvs",
-      "TestHDFSBalancer.groovy",
-      1
-   ],
-   [
-      "rvs",
-      "TestHbck.groovy",
-      1
-   ],
-   [
-      "cos",
-      "TestHDFSQuota.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "hama-conf-pseudo.dirs",
-      1
-   ],
-   [
-      "bmahe",
-      "install_hadoop.sh",
-      1
-   ],
-   [
-      "rvs",
-      "TestHBaseImportExport.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "hama-bspmaster.postinst",
-      1
-   ],
-   [
-      "bmahe",
-      "bigtop.mk",
-      3
-   ],
-   [
-      "rvs",
-      "cluster.pp",
+      "mahout.spec",
       2
    ],
    [
       "rvs",
-      "hue-beeswax.install",
-      1
-   ],
-   [
-      "bmahe",
-      "hama.default",
-      1
+      "install_pig.sh",
+      2
    ],
    [
       "rvs",
-      "install_hbase.sh",
-      1
-   ],
-   [
-      "bmahe",
-      "hadoop.spec",
-      1
-   ],
-   [
-      "bmahe",
-      "install_hama.sh",
-      1
-   ],
-   [
-      "bmahe",
-      "hbase.sh",
-      1
-   ],
-   [
-      "rvs",
-      "datafu.spec",
-      1
-   ],
-   [
-      "rvs",
-      "pig.spec",
-      1
-   ],
-   [
-      "rvs",
-      "install_hue.sh",
-      1
-   ],
-   [
-      "rvs",
-      "hue-server.prerm",
-      1
-   ],
-   [
-      "rvs",
-      "bigtop.mk",
-      6
-   ],
-   [
-      "bmahe",
-      "hama-groom.postinst",
+      "TestHDFSQuota.groovy",
       1
    ],
    [
@@ -126,18 +26,23 @@
    ],
    [
       "rvs",
-      "hbase.spec",
-      3
+      "TestCopyTable.java",
+      1
    ],
    [
-      "rvs",
-      "install_zookeeper.sh",
+      "bmahe",
+      "hama-groom.postinst",
       1
    ],
    [
       "rvs",
-      "hbase.default",
+      "init.pp",
       2
+   ],
+   [
+      "rvs",
+      "TestPackagesBasics.groovy",
+      1
    ],
    [
       "rvs",
@@ -145,33 +50,18 @@
       1
    ],
    [
-      "bmahe",
-      "hama.spec",
+      "rvs",
+      "cluster.pp",
       2
    ],
    [
       "rvs",
-      "TestDFSAdmin.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "hama-conf-pseudo.postinst",
+      "install_hbase.sh",
       1
    ],
    [
       "rvs",
-      "TestImportTsv.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "bigtop-utils.spec",
-      4
-   ],
-   [
-      "bmahe",
-      "hama-conf-pseudo.install",
+      "Service.groovy",
       1
    ],
    [
@@ -180,23 +70,18 @@
       1
    ],
    [
-      "rvs",
-      "TestCopyTable.java",
-      1
-   ],
-   [
-      "rvs",
-      "hue-common.install",
-      1
-   ],
-   [
       "bmahe",
       "hama.install",
       1
    ],
    [
-      "rvs",
-      "TestHBaseBalancer.groovy",
+      "ptr",
+      "site.pp",
+      1
+   ],
+   [
+      "bmahe",
+      "hama.dirs",
       1
    ],
    [
@@ -205,23 +90,58 @@
       1
    ],
    [
+      "bmahe",
+      "bigtop.mk",
+      3
+   ],
+   [
       "rvs",
-      "TestHDFSQuota.groovy",
+      "TestHbck.groovy",
       1
    ],
    [
       "rvs",
-      "mahout.spec",
+      "install_whirr.sh",
+      1
+   ],
+   [
+      "bmahe",
+      "TestHamaExamples.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "hbase.default",
       2
    ],
    [
       "bmahe",
-      "mahout.spec",
-      2
+      "zookeeper-server.sh.suse",
+      1
+   ],
+   [
+      "rvs",
+      "TestHBaseBalancer.groovy",
+      1
    ],
    [
       "bmahe",
-      "hama-doc.install",
+      "hama-doc.dirs",
+      1
+   ],
+   [
+      "bmahe",
+      "hbase.sh",
+      1
+   ],
+   [
+      "bmahe",
+      "mahout-doc.install",
+      1
+   ],
+   [
+      "bmahe",
+      "mahout.dirs",
       1
    ],
    [
@@ -231,22 +151,12 @@
    ],
    [
       "bmahe",
-      "hama.prerm",
+      "hama-conf-pseudo.dirs",
       1
    ],
    [
       "rvs",
-      "install_datafu.sh",
-      1
-   ],
-   [
-      "rvs",
-      "install_whirr.sh",
-      1
-   ],
-   [
-      "rvs",
-      "movies.tsv",
+      "pig-udf-datafu.install",
       1
    ],
    [
@@ -256,87 +166,7 @@
    ],
    [
       "rvs",
-      "pig-udf-datafu.install",
-      1
-   ],
-   [
-      "bmahe",
-      "hama-conf-pseudo.prerm",
-      1
-   ],
-   [
-      "rvs",
-      "hue-app.prerm.tpl",
-      1
-   ],
-   [
-      "rvs",
-      "init.pp",
-      2
-   ],
-   [
-      "bmahe",
-      "mahout.dirs",
-      1
-   ],
-   [
-      "bmahe",
-      "TestHamaExamples.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "hama-doc.dirs",
-      1
-   ],
-   [
-      "ptr",
-      "site.pp",
-      1
-   ],
-   [
-      "rvs",
-      "StateVerifierHBase.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "zookeeper-server.sh",
-      1
-   ],
-   [
-      "bmahe",
-      "hama.dirs",
-      1
-   ],
-   [
-      "bmahe",
-      "hama.postinst",
-      1
-   ],
-   [
-      "rvs",
-      "TestPackagesBasics.groovy",
-      1
-   ],
-   [
-      "bmahe",
-      "hama.preinst",
-      1
-   ],
-   [
-      "rvs",
-      "hue-common.postrm",
-      2
-   ],
-   [
-      "rvs",
-      "hue-common.postinst",
-      1
-   ],
-   [
-      "rvs",
-      "install_pig.sh",
+      "hue.spec",
       2
    ],
    [
@@ -346,22 +176,17 @@
    ],
    [
       "bmahe",
-      "mahout.install",
-      1
-   ],
-   [
-      "bmahe",
       "mahout-doc.dirs",
       1
    ],
    [
       "rvs",
-      "StateVerifierHDFS.groovy",
+      "datafu.spec",
       1
    ],
    [
-      "bmahe",
-      "hive.spec",
+      "rvs",
+      "TestHDFSBalancer.groovy",
       1
    ],
    [
@@ -370,19 +195,159 @@
       2
    ],
    [
-      "rvs",
-      "Service.groovy",
-      1
-   ],
-   [
       "ptr",
       "init.pp",
       1
    ],
    [
+      "bmahe",
+      "hama-conf-pseudo.prerm",
+      1
+   ],
+   [
       "rvs",
-      "hue.spec",
+      "StateVerifierHDFS.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "install_zookeeper.sh",
+      1
+   ],
+   [
+      "bmahe",
+      "hama-conf-pseudo.postinst",
+      1
+   ],
+   [
+      "bmahe",
+      "install_hama.sh",
+      1
+   ],
+   [
+      "bmahe",
+      "hama.postinst",
+      1
+   ],
+   [
+      "bmahe",
+      "bigtop-utils.spec",
+      4
+   ],
+   [
+      "bmahe",
+      "hama.spec",
       2
+   ],
+   [
+      "rvs",
+      "hue-common.postinst",
+      1
+   ],
+   [
+      "rvs",
+      "hue-app.prerm.tpl",
+      1
+   ],
+   [
+      "rvs",
+      "movies.tsv",
+      1
+   ],
+   [
+      "bmahe",
+      "hama.preinst",
+      1
+   ],
+   [
+      "bmahe",
+      "hadoop.spec",
+      1
+   ],
+   [
+      "rvs",
+      "hue-beeswax.install",
+      1
+   ],
+   [
+      "bmahe",
+      "hive.spec",
+      1
+   ],
+   [
+      "cos",
+      "TestHDFSQuota.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "bigtop.mk",
+      6
+   ],
+   [
+      "rvs",
+      "StateVerifierHBase.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "hue-common.postrm",
+      2
+   ],
+   [
+      "rvs",
+      "install_hue.sh",
+      1
+   ],
+   [
+      "bmahe",
+      "zookeeper-server.sh",
+      1
+   ],
+   [
+      "rvs",
+      "TestImportTsv.groovy",
+      1
+   ],
+   [
+      "bmahe",
+      "hama.prerm",
+      1
+   ],
+   [
+      "rvs",
+      "hbase.spec",
+      3
+   ],
+   [
+      "bmahe",
+      "hama-conf-pseudo.install",
+      1
+   ],
+   [
+      "rvs",
+      "install_datafu.sh",
+      1
+   ],
+   [
+      "bmahe",
+      "install_hadoop.sh",
+      1
+   ],
+   [
+      "rvs",
+      "hue-common.install",
+      1
+   ],
+   [
+      "rvs",
+      "TestFsck.groovy",
+      1
+   ],
+   [
+      "bmahe",
+      "hama-bspmaster.postinst",
+      1
    ],
    [
       "rvs",
@@ -390,8 +355,43 @@
       2
    ],
    [
+      "bmahe",
+      "mahout.install",
+      1
+   ],
+   [
+      "bmahe",
+      "hama.default",
+      1
+   ],
+   [
       "rvs",
-      "TestFsck.groovy",
+      "pig.spec",
+      1
+   ],
+   [
+      "bmahe",
+      "hama-doc.install",
+      1
+   ],
+   [
+      "rvs",
+      "hue-server.prerm",
+      1
+   ],
+   [
+      "rvs",
+      "TestHBaseImportExport.groovy",
+      1
+   ],
+   [
+      "rvs",
+      "mahout.spec",
+      2
+   ],
+   [
+      "rvs",
+      "TestDFSAdmin.groovy",
       1
    ]
 ]

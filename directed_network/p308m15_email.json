@@ -1,22 +1,30 @@
 [
    {
+      "name": "Robert Burrell Donkin",
+      "imports": []
+   },
+   {
+      "name": "Coach Wei",
       "imports": [
          "Robert Burrell Donkin",
          "Robert Burrell Donkin"
-      ],
-      "name": "Coach Wei"
+      ]
    },
    {
+      "name": "Scott Boyd (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Trevor Oldak (JIRA)",
+      "imports": [
+         "Scott Boyd (JIRA)"
+      ]
+   },
+   {
+      "name": "James Margaris (JIRA)",
       "imports": [
          "Scott Boyd (JIRA)",
          "Scott Boyd (JIRA)"
-      ],
-      "name": "James Margaris (JIRA)"
-   },
-   {
-      "imports": [
-         "Scott Boyd (JIRA)"
-      ],
-      "name": "Trevor Oldak (JIRA)"
+      ]
    }
 ]

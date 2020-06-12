@@ -1,35 +1,39 @@
 [
    {
-      "imports": [
-         "Svante Schubert",
-         "Svante Schubert"
-      ],
-      "name": "jonathon"
-   },
-   {
+      "name": "Rob Weir",
       "imports": [
          "Svante Schubert"
-      ],
-      "name": "Nicholas Evans"
+      ]
    },
    {
+      "name": "Svante Schubert",
       "imports": [
          "jonathon",
          "Apache Jenkins Server",
          "Ian C"
-      ],
-      "name": "Svante Schubert"
+      ]
    },
    {
-      "imports": [
-         "Nicholas Evans"
-      ],
-      "name": "Ian C"
-   },
-   {
+      "name": "Nicholas Evans",
       "imports": [
          "Svante Schubert"
-      ],
-      "name": "Rob Weir"
+      ]
+   },
+   {
+      "name": "Apache Jenkins Server",
+      "imports": []
+   },
+   {
+      "name": "jonathon",
+      "imports": [
+         "Svante Schubert",
+         "Svante Schubert"
+      ]
+   },
+   {
+      "name": "Ian C",
+      "imports": [
+         "Nicholas Evans"
+      ]
    }
 ]

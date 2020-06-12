@@ -1,21 +1,25 @@
 [
    {
-      "imports": [
-         "no-reply"
-      ],
-      "name": "Luciano Resende"
+      "name": "no-reply",
+      "imports": []
    },
    {
-      "imports": [
-         "Jean-Sebastien Delfino"
-      ],
-      "name": "john pradeep"
-   },
-   {
+      "name": "Jean-Sebastien Delfino",
       "imports": [
          "Luciano Resende",
          "john pradeep"
-      ],
-      "name": "Jean-Sebastien Delfino"
+      ]
+   },
+   {
+      "name": "john pradeep",
+      "imports": [
+         "Jean-Sebastien Delfino"
+      ]
+   },
+   {
+      "name": "Luciano Resende",
+      "imports": [
+         "no-reply"
+      ]
    }
 ]

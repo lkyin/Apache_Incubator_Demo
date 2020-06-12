@@ -1,27 +1,12 @@
 [
    [
       "aching",
+      "TestJsonBase64Format.java",
+      1
+   ],
+   [
+      "aching",
       "NettyWorkerServer.java",
-      1
-   ],
-   [
-      "ssc",
-      "TestBspBasic.java",
-      1
-   ],
-   [
-      "aching",
-      "WritableRequest.java",
-      1
-   ],
-   [
-      "aching",
-      "RequestServerHandler.java",
-      1
-   ],
-   [
-      "ssc",
-      "FileUtils.java",
       1
    ],
    [
@@ -31,57 +16,7 @@
    ],
    [
       "aching",
-      "WorkerClient.java",
-      1
-   ],
-   [
-      "ssc",
-      "TestZooKeeperExt.java",
-      1
-   ],
-   [
-      "ssc",
-      "BspCase.java",
-      1
-   ],
-   [
-      "aching",
-      "WorkerInfo.java",
-      1
-   ],
-   [
-      "aching",
-      "ConnectionTest.java",
-      1
-   ],
-   [
-      "aching",
-      "NettyWorkerClientServer.java",
-      1
-   ],
-   [
-      "ssc",
-      "TestEdgeListVertex.java",
-      1
-   ],
-   [
-      "aching",
-      "Edge.java",
-      1
-   ],
-   [
-      "aching",
-      "BspServiceWorker.java",
-      1
-   ],
-   [
-      "aching",
-      "MockUtils.java",
-      1
-   ],
-   [
-      "ssc",
-      "TestNotEnoughMapTasks.java",
+      "WorkerServer.java",
       1
    ],
    [
@@ -91,17 +26,12 @@
    ],
    [
       "aching",
-      "NettyWorkerClient.java",
-      1
-   ],
-   [
-      "aching",
-      "SendPartitionMessagesRequest.java",
+      "SendPartitionMutationsRequest.java",
       2
    ],
    [
       "aching",
-      "TestManualCheckpoint.java",
+      "PageRankBenchmark.java",
       1
    ],
    [
@@ -111,37 +41,37 @@
    ],
    [
       "ssc",
-      "TestJsonBase64Format.java",
+      "TestMutateGraphVertex.java",
       1
    ],
    [
       "aching",
-      "RequestEncoder.java",
-      1
-   ],
-   [
-      "aching",
-      "BasicRPCCommunications.java",
-      1
-   ],
-   [
-      "ssc",
-      "SimplePageRankVertex.java",
-      1
-   ],
-   [
-      "aching",
-      "GraphState.java",
-      1
-   ],
-   [
-      "aching",
-      "TestJsonBase64Format.java",
+      "SendMessageCache.java",
       1
    ],
    [
       "ssc",
       "TestManualCheckpoint.java",
+      1
+   ],
+   [
+      "aching",
+      "TestManualCheckpoint.java",
+      1
+   ],
+   [
+      "aching",
+      "RequestDecoder.java",
+      1
+   ],
+   [
+      "aching",
+      "ConnectionTest.java",
+      1
+   ],
+   [
+      "ssc",
+      "TestGraphPartitioner.java",
       1
    ],
    [
@@ -156,47 +86,17 @@
    ],
    [
       "aching",
-      "SendMessageCache.java",
-      1
-   ],
-   [
-      "aching",
-      "GiraphJob.java",
+      "WorkerInfo.java",
       1
    ],
    [
       "ssc",
-      "TextAggregatorWriter.java",
-      1
-   ],
-   [
-      "aching",
-      "ServerData.java",
-      1
-   ],
-   [
-      "aching",
       "TestAutoCheckpoint.java",
       1
    ],
    [
       "aching",
-      "SendVertexRequest.java",
-      1
-   ],
-   [
-      "ssc",
-      "InternalVertexRunner.java",
-      1
-   ],
-   [
-      "aching",
-      "NettyServer.java",
-      1
-   ],
-   [
-      "ssc",
-      "TestMutateGraphVertex.java",
+      "NettyWorkerClient.java",
       1
    ],
    [
@@ -206,18 +106,58 @@
    ],
    [
       "aching",
-      "RequestDecoder.java",
+      "Edge.java",
       1
    ],
    [
       "aching",
-      "WorkerServer.java",
+      "RequestServerHandler.java",
       1
    ],
    [
       "aching",
-      "SendPartitionMutationsRequest.java",
-      2
+      "GiraphJob.java",
+      1
+   ],
+   [
+      "aching",
+      "WritableRequest.java",
+      1
+   ],
+   [
+      "aching",
+      "MockUtils.java",
+      1
+   ],
+   [
+      "ssc",
+      "TextAggregatorWriter.java",
+      1
+   ],
+   [
+      "ssc",
+      "InternalVertexRunner.java",
+      1
+   ],
+   [
+      "aching",
+      "GraphState.java",
+      1
+   ],
+   [
+      "ssc",
+      "TestNotEnoughMapTasks.java",
+      1
+   ],
+   [
+      "aching",
+      "WorkerClientServer.java",
+      1
+   ],
+   [
+      "aching",
+      "SendVertexRequest.java",
+      1
    ],
    [
       "aching",
@@ -226,7 +166,27 @@
    ],
    [
       "ssc",
-      "GraphMapper.java",
+      "SimplePageRankVertex.java",
+      1
+   ],
+   [
+      "ssc",
+      "BspCase.java",
+      1
+   ],
+   [
+      "aching",
+      "ServerData.java",
+      1
+   ],
+   [
+      "ssc",
+      "TestJsonBase64Format.java",
+      1
+   ],
+   [
+      "aching",
+      "TestAutoCheckpoint.java",
       1
    ],
    [
@@ -236,22 +196,62 @@
    ],
    [
       "aching",
-      "PageRankBenchmark.java",
-      1
-   ],
-   [
-      "ssc",
-      "TestAutoCheckpoint.java",
-      1
-   ],
-   [
-      "ssc",
-      "TestGraphPartitioner.java",
+      "NettyWorkerClientServer.java",
       1
    ],
    [
       "aching",
-      "WorkerClientServer.java",
+      "SendPartitionMessagesRequest.java",
+      2
+   ],
+   [
+      "aching",
+      "RequestEncoder.java",
+      1
+   ],
+   [
+      "aching",
+      "BasicRPCCommunications.java",
+      1
+   ],
+   [
+      "aching",
+      "NettyServer.java",
+      1
+   ],
+   [
+      "ssc",
+      "FileUtils.java",
+      1
+   ],
+   [
+      "ssc",
+      "GraphMapper.java",
+      1
+   ],
+   [
+      "aching",
+      "BspServiceWorker.java",
+      1
+   ],
+   [
+      "ssc",
+      "TestZooKeeperExt.java",
+      1
+   ],
+   [
+      "aching",
+      "WorkerClient.java",
+      1
+   ],
+   [
+      "ssc",
+      "TestEdgeListVertex.java",
+      1
+   ],
+   [
+      "ssc",
+      "TestBspBasic.java",
       1
    ]
 ]

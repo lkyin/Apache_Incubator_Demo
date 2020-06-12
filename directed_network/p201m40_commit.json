@@ -1,8 +1,33 @@
 [
    [
       "peter_firmstone",
-      "policyProviderGrantAll.policy",
+      "UnitTestUtilities.java",
       1
+   ],
+   [
+      "peter_firmstone",
+      "RevokeablePolicy.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "GetPropertyAction.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "policyProviderGrant02.policy",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "RevokeableDynamicPolicySpi.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "ConcurrentDynamicPolicyProvider.java",
+      2
    ],
    [
       "peter_firmstone",
@@ -11,72 +36,22 @@
    ],
    [
       "peter_firmstone",
-      "spec-index.html",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "DefaultPolicyScanner.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "DynamicPolicyProvider.java",
+      "PreferredClassProvider.java",
       2
    ],
    [
       "peter_firmstone",
-      "ConcurrentPermissionsTest.java",
+      "Util.java",
       1
    ],
    [
       "peter_firmstone",
-      "RegistrySunExporter.java",
+      "ProfilingSecurityManager.java",
       1
    ],
    [
       "peter_firmstone",
-      "TestUtilities.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "GrantPermission.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "GrantPermissionTest.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "DynamicPolicyProviderImpl.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "index.html",
-      3
-   ],
-   [
-      "peter_firmstone",
-      "ServiceRegistrar.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "PermissionPendingResolution.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "policyProviderNoGetProperty.policy",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "PolicyUtilsTest.java",
+      "PolicyUtils.java",
       1
    ],
    [
@@ -86,7 +61,32 @@
    ],
    [
       "peter_firmstone",
-      "BasicUntrustedObjectSecurityContext.java",
+      "NullPolicyParser.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "Grants.java",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "WeakIdentityMap.java",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "policyProviderNoGetProperty.policy",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "DefaultPolicyScanner.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "ConcurrentPermissions.java",
       1
    ],
    [
@@ -96,57 +96,37 @@
    ],
    [
       "peter_firmstone",
-      "QAConfig.java",
+      "qaHarness.prop",
       1
    ],
    [
       "peter_firmstone",
-      "MyPrincipal.java",
+      "DynamicPolicyProviderImpl.java",
       1
    ],
    [
       "peter_firmstone",
-      "Messages.java",
+      "Support_Configuration.java",
       1
    ],
    [
       "peter_firmstone",
-      "build.html",
-      2
+      "index.html",
+      3
    ],
    [
       "peter_firmstone",
-      "MultiReadPermissionCollection.java",
+      "jinitest.policy",
       1
    ],
    [
       "peter_firmstone",
-      "WeakGroup.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "RevokePermission.java",
+      "qa.policy",
       1
    ],
    [
       "peter_firmstone",
-      "UnitTestUtilities.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "PolicyEntryTest.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "GetPropertyAction.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "policyProviderNoAccessClass.policy",
+      "Multihomed.java",
       1
    ],
    [
@@ -156,27 +136,27 @@
    ],
    [
       "peter_firmstone",
-      "PreferredClassLoader.java",
+      "GrantPermissionTest.java",
       1
    ],
    [
       "peter_firmstone",
-      "defaulttest.policy",
+      "policyProviderNoAccessClass.policy",
       1
    ],
    [
       "peter_firmstone",
-      "PolicyEntry.java",
-      7
-   ],
-   [
-      "peter_firmstone",
-      "Multihomed.java",
+      "QAConfig.java",
       1
    ],
    [
       "peter_firmstone",
-      "policyProviderGrant01.policy",
+      "FakePrincipal.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "PermissionPendingResolutionCollection.java",
       1
    ],
    [
@@ -191,162 +171,7 @@
    ],
    [
       "peter_firmstone",
-      "DyanamicConcurrentPolicyProvider.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "arch2_0.html",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "RevokeableDynamicPolicySpi.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "qa.policy",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "WeakIdentityMap.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "jinitest.policy",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "Grants.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "FakePrincipal.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "PolicyFileProvider.java",
-      1
-   ],
-   [
-      "peter_firmstone",
       "qa1.logging",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "UnresolvedPrincipal.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "DefaultPolicyParserTest.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "Support_Configuration.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "PolicyUtils.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "RevokeablePolicy.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "info-index.html",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "ConcurrentDynamicPolicyProvider.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "PreferredClassProvider.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "PermissionCollectionTest.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "PolicyParser.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "DefaultPolicyParser.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "ProfilingSecurityManager.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "Support_Resources.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "RevokeablePermissionCollection.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "Util.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "policyProviderGrant02.policy",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "ConcurrentPermissions.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "PermissionPendingResolutionCollection.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "ClassDepend.java",
-      2
-   ],
-   [
-      "peter_firmstone",
-      "Permissions_ImplTest.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "TestDescription.java",
-      1
-   ],
-   [
-      "peter_firmstone",
-      "NullPolicyParser.java",
       1
    ],
    [
@@ -356,7 +181,182 @@
    ],
    [
       "peter_firmstone",
-      "qaHarness.prop",
+      "Support_Resources.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "DefaultPolicyParserTest.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "PolicyEntry.java",
+      7
+   ],
+   [
+      "peter_firmstone",
+      "GrantPermission.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "MultiReadPermissionCollection.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "policyProviderGrant01.policy",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "BasicUntrustedObjectSecurityContext.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "PolicyParser.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "ClassDepend.java",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "PreferredClassLoader.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "PolicyEntryTest.java",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "spec-index.html",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "RevokePermission.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "Messages.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "ServiceRegistrar.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "DyanamicConcurrentPolicyProvider.java",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "PolicyUtilsTest.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "PermissionPendingResolution.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "PermissionCollectionTest.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "Permissions_ImplTest.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "DefaultPolicyParser.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "defaulttest.policy",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "policyProviderGrantAll.policy",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "WeakGroup.java",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "ConcurrentPermissionsTest.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "RevokeablePermissionCollection.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "DynamicPolicyProvider.java",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "PolicyFileProvider.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "arch2_0.html",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "UnresolvedPrincipal.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "build.html",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "info-index.html",
+      2
+   ],
+   [
+      "peter_firmstone",
+      "TestDescription.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "MyPrincipal.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "TestUtilities.java",
+      1
+   ],
+   [
+      "peter_firmstone",
+      "RegistrySunExporter.java",
       1
    ]
 ]

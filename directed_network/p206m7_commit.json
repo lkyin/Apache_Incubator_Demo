@@ -1,33 +1,8 @@
 [
    [
-      "shreepadma",
-      "SentryPolicyStoreProcessorFactory.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "NoGroupMappingService.java",
-      3
-   ],
-   [
-      "shreepadma",
-      "sentry_store.thrift",
-      1
-   ],
-   [
-      "Brock Noland",
-      "test-patch.py",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSimpleDBPolicyEngineLocalFS.java",
-      1
-   ],
-   [
-      "gchanan",
-      "PolicyFiles.java",
-      1
+      "Gregory Chanan",
+      "smart-apply-patch.sh",
+      2
    ],
    [
       "gchanan",
@@ -36,97 +11,22 @@
    ],
    [
       "gchanan",
-      "AbstractDFS.java",
+      "DFSFactory.java",
+      1
+   ],
+   [
+      "brock",
+      "TListSentryRolesRequest.java",
       1
    ],
    [
       "gchanan",
-      "SentryPolicyStoreProcessor.java",
+      "AbstractSearchPrivilegeValidator.java",
       1
    ],
    [
       "gchanan",
-      "UnmanagedHiveServer.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "SentryServiceFactory.java",
-      2
-   ],
-   [
-      "Brock Noland",
-      "sentry-oracle-1.4.0.sql",
-      1
-   ],
-   [
-      "gchanan",
-      "AbstractSearchRoleValidator.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TListSentryRolesResponse.java",
-      2
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryService.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "TestDBWildcardPermission.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "sentry_common_serviceConstants.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "TestSentryPolicyStoreProcessor.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "NotificationHandlerInvoker.java",
-      1
-   ],
-   [
-      "gchanan",
-      "AbstractTestSimplePolicyEngine.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TAlterSentryRoleAddGroupsRequest.java",
-      2
-   ],
-   [
-      "gchanan",
-      "TestDBWildcardPermission.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "SentrySolrAuthorizationException.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "TestPathUtils.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryMain.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestPerDBConfiguration.java",
+      "DFS.java",
       1
    ],
    [
@@ -135,13 +35,253 @@
       1
    ],
    [
+      "shreepadma",
+      "TListSentryRolesRequest.java",
+      2
+   ],
+   [
       "gchanan",
-      "TestDatabaseRequiredInRole.java",
+      "TestKeyValue.java",
       1
    ],
    [
       "gchanan",
-      "CollectionRequiredInPrivilege.java",
+      "AbstractSolrSentryTestBase.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TSentryStatus.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestGetGroupMapping.java",
+      6
+   ],
+   [
+      "shreepadma",
+      "sentry_common_serviceConstants.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "DBWildcardPermission.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SearchWildcardPrivilege.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "TestCollection.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "HiveAuthzBinding.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "sentry_common_service.thrift",
+      1
+   ],
+   [
+      "gchanan",
+      "AbstractTestWithStaticConfiguration.java",
+      1
+   ],
+   [
+      "gchanan",
+      "PolicyFiles.java",
+      1
+   ],
+   [
+      "brock",
+      "TestSimpleUpdatePositiveTest.java",
+      1
+   ],
+   [
+      "gchanan",
+      "InternalHiveServer.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "NotificationHandlerInvoker.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestNoAuthorizationProvider.java",
+      3
+   ],
+   [
+      "brock",
+      "SentryPolicyService.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestSearchWildcardPrivilege.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestSearchModelAuthorizables.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "Privilege.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SimpleDBPolicyEngine.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryPolicyStoreProcessor.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestPrivilegesAtTableScope.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "test-patch.py",
+      1
+   ],
+   [
+      "shreepadma",
+      "TAlterSentryRoleDeleteGroupsResponse.java",
+      2
+   ],
+   [
+      "Brock Noland",
+      "DBWildcardPermission.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SentryConfigurationException.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryServiceIntegrationBase.java",
+      2
+   ],
+   [
+      "gchanan",
+      "TestSearchPolicyEngineDFS.java",
+      1
+   ],
+   [
+      "brock",
+      "MSentryRole.java",
+      1
+   ],
+   [
+      "brock",
+      "TestQueryOperations.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "HiveAuthzBindingPreExecHook.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryPolicyServiceClient.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestSearchAuthorizationProviderGeneralCases.java",
+      1
+   ],
+   [
+      "gchanan",
+      "UnmanagedHiveServer.java",
+      1
+   ],
+   [
+      "brock",
+      "SentryPolicyStoreProcessor.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "NotificationHandler.java",
+      1
+   ],
+   [
+      "gchanan",
+      "HiveServerFactory.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SentryServiceIntegrationBase.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryServiceIntegrationBase.java",
+      1
+   ],
+   [
+      "gchanan",
+      "ProviderBackendContext.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "SimpleDBPolicyEngine.java",
+      2
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "TestSentryServiceFailureCase.java",
+      1
+   ],
+   [
+      "brock",
+      "TestCollAdminCoreOperations.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestCollAdminCoreOperations.java",
+      2
+   ],
+   [
+      "gchanan",
+      "HadoopGroupMappingService.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "sentry-mysql-1.4.0.sql",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryConfigurationException.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "TestSentryPolicyStoreProcessor.java",
       1
    ],
    [
@@ -151,633 +291,13 @@
    ],
    [
       "gchanan",
-      "ResourceAuthorizationProvider.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "HiveAuthzPrivilegesMap.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryPolicyStoreProcessor.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "Privilege.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "sentry-postgres-1.4.0.sql",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "sentry-mysql-1.4.0.sql",
-      1
-   ],
-   [
-      "gchanan",
-      "TestUpdateOperations.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "DBWildcardPermission.java",
-      1
-   ],
-   [
-      "gchanan",
-      "CollectionRequiredInRole.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "ProviderBackend.java",
-      2
-   ],
-   [
-      "gchanan",
-      "ModifiableUserAuthenticationFilter.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "SentryConfigTool.java",
-      1
-   ],
-   [
-      "brock",
-      "TDropSentryRoleRequest.java",
-      1
-   ],
-   [
-      "brock",
-      "ModifiableUserAuthenticationFilter.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryStore.java",
-      1
-   ],
-   [
-      "gchanan",
-      "GroupMappingService.java",
-      1
-   ],
-   [
-      "gchanan",
-      "HadoopGroupResourceAuthorizationProvider.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "TestConfigTool.java",
-      2
-   ],
-   [
-      "gchanan",
-      "SearchWildcardPermission.java",
-      1
-   ],
-   [
-      "gchanan",
-      "LocalGroupMappingService.java",
-      1
-   ],
-   [
-      "brock",
-      "SentryPolicyService.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "SentryServiceHandler.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "Status.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "TSentryResponseStatus.java",
-      2
-   ],
-   [
-      "gchanan",
-      "TestLocalGroupMapping.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestKeyValue.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "CommitContext.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "sentry_common_service.thrift",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryServiceIntegrationBase.java",
-      1
-   ],
-   [
-      "gchanan",
-      "MockGroupMappingServiceProvider.java",
-      1
-   ],
-   [
-      "brock",
-      "SentryService.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TCreateSentryRoleResponse.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "ProcessorFactory.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestPolicyParsingNegative.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSearchPolicyEngineDFS.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TCreateSentryRoleRequest.java",
-      2
-   ],
-   [
-      "gchanan",
-      "AbstractSearchPrivilegeValidator.java",
-      1
-   ],
-   [
-      "gchanan",
-      "ProviderBackend.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "SentryPolicyServiceClient.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "sentry-postgres-1.4.0.sql",
-      1
-   ],
-   [
-      "gchanan",
-      "AuthorizationProvider.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestDBModelAuthorizables.java",
-      1
-   ],
-   [
-      "gchanan",
-      "AbstractSolrSentryTestBase.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "SimpleFileProviderBackend.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "Constants.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "TSentryStatus.java",
-      1
-   ],
-   [
-      "gchanan",
-      "DatabaseRequiredInRole.java",
-      1
-   ],
-   [
-      "gchanan",
-      "MSentryPrivilege.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSentryOnFailureHookLoading.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "SolrAuthzBinding.java",
-      3
-   ],
-   [
-      "gchanan",
-      "DBPolicyFileBackend.java",
-      1
-   ],
-   [
-      "gchanan",
-      "ServersAllIsInvalid.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TAlterSentryRoleDeleteGroupsResponse.java",
-      2
-   ],
-   [
-      "Gregory Chanan",
-      "TestHiveAuthzConf.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestQueryOperations.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "DBWildcardPrivilege.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestGetGroupMapping.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestResourceAuthorizationProviderSpecialCases.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryAlreadyExistsException.java",
-      1
-   ],
-   [
-      "gchanan",
-      "SimpleSearchPolicyEngine.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "smart-apply-patch.sh",
-      2
-   ],
-   [
-      "Brock Noland",
-      "PolicyEngine.java",
-      2
-   ],
-   [
-      "Brock Noland",
-      "smart-apply-patch.sh",
-      1
-   ],
-   [
-      "brock",
-      "SentryStore.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryConfigurationException.java",
-      1
-   ],
-   [
-      "brock",
-      "TestUpdateOperations.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "ModifiableUserAuthenticationFilter.java",
-      3
-   ],
-   [
-      "gchanan",
-      "HiveServerFactory.java",
-      1
-   ],
-   [
-      "gchanan",
-      "AbstractTestSearchPolicyEngine.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSearchWildcardPermission.java",
-      1
-   ],
-   [
-      "brock",
-      "MSentryPrivilege.java",
-      1
-   ],
-   [
-      "gchanan",
-      "HadoopGroupMappingService.java",
-      1
-   ],
-   [
-      "gchanan",
-      "InternalHiveServer.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TSentryPrivilege.java",
-      2
-   ],
-   [
-      "Gregory Chanan",
-      "DatabaseMustMatch.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "SentryPolicyStoreProcessor.java",
-      1
-   ],
-   [
-      "brock",
-      "SentryPolicyServiceClient.java",
-      1
-   ],
-   [
-      "Jarek Jarcec Cecho",
-      "HiveAuthzConf.java",
-      2
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryNoSuchObjectException.java",
-      1
-   ],
-   [
-      "gchanan",
-      "DFSFactory.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "test-patch.py",
-      1
-   ],
-   [
-      "Brock Noland",
-      "TestGetGroupMapping.java",
-      6
-   ],
-   [
-      "gchanan",
-      "MiniDFS.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "HiveAuthzBinding.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "Context.java",
-      2
-   ],
-   [
-      "Brock Noland",
-      "SentryConfigurationException.java",
-      2
-   ],
-   [
-      "gchanan",
-      "NoGroupMappingService.java",
-      1
-   ],
-   [
-      "gchanan",
-      "KerberosConfiguration.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "ConnectionDeniedException.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "SentryStore.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "SentryConfigTool.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "SentryServiceClient.java",
-      1
-   ],
-   [
-      "gchanan",
-      "LocalGroupResourceAuthorizationProvider.java",
-      1
-   ],
-   [
-      "gchanan",
-      "ClusterDFS.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "ResourceAuthorizationProvider.java",
-      6
-   ],
-   [
-      "Brock Noland",
-      "HiveAuthzConf.java",
-      3
-   ],
-   [
-      "Brock Noland",
-      "HiveAuthzBinding.java",
-      2
-   ],
-   [
-      "Gregory Chanan",
-      "SolrAuthzConf.java",
-      1
-   ],
-   [
-      "gchanan",
       "TestSearchAuthorizationProviderSpecialCases.java",
       1
    ],
    [
       "gchanan",
-      "SearchWildcardPrivilege.java",
+      "TestGetGroupMapping.java",
       1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "test-patch.py",
-      2
-   ],
-   [
-      "Gregory Chanan",
-      "SentryOnFailureHookContextImpl.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "AbstractHiveServer.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "SentryService.java",
-      2
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "TestSentryServiceFailureCase.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "SentryPolicyServiceClient.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "AbstractDBPrivilegeValidator.java",
-      1
-   ],
-   [
-      "gchanan",
-      "SentryServiceIntegrationBase.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TestSentryServiceFailureCase.java",
-      1
-   ],
-   [
-      "brock",
-      "sentry_policy_service.thrift",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "PrivilegeUtils.java",
-      1
-   ],
-   [
-      "gchanan",
-      "ServerNameMustMatch.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "NotificationHandler.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "sentry-mysql-1.4.0.sql",
-      1
-   ],
-   [
-      "brock",
-      "TestSimpleUpdatePositiveTest.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "TestCollection.java",
-      1
-   ],
-   [
-      "brock",
-      "SentryPolicyStoreProcessor.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "SentryServiceClientFactory.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "SentryThriftService.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "PrivilegeValidator.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "sentry_policy_service.thrift",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "SolrAuthzBinding.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TCreateSentryPrivilegeRequest.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "TCreateSentryPrivilegeResponse.java",
-      2
-   ],
-   [
-      "Gregory Chanan",
-      "DatabaseRequiredInPrivilege.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "config-tool.sh",
-      2
    ],
    [
       "gchanan",
@@ -786,173 +306,8 @@
    ],
    [
       "shreepadma",
-      "TestSentryServiceIntegration.java",
-      1
-   ],
-   [
-      "brock",
-      "MSentryRole.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "TestPathUtils.java",
-      1
-   ],
-   [
-      "gchanan",
-      "HdfsTestUtil.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "GSSCallback.java",
+      "KerberosConfiguration.java",
       2
-   ],
-   [
-      "gchanan",
-      "TestSearchPolicyNegative.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestResourceAuthorizationProviderGeneralCases.java",
-      1
-   ],
-   [
-      "gchanan",
-      "NoAuthorizationProvider.java",
-      1
-   ],
-   [
-      "gchanan",
-      "Roles.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "PolicyStoreConstants.java",
-      1
-   ],
-   [
-      "gchanan",
-      "AbstractTestWithStaticConfiguration.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TAlterSentryRoleAddGroupsResponse.java",
-      2
-   ],
-   [
-      "Gregory Chanan",
-      "SentryOnFailureHookContext.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "sentry-oracle-1.4.0.sql",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSearchModelAuthorizables.java",
-      1
-   ],
-   [
-      "gchanan",
-      "EmbeddedHiveServer.java",
-      1
-   ],
-   [
-      "brock",
-      "MSentryGroup.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSimpleDBPolicyEngineDFS.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "SentryConfigurationException.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "HiveAuthzBindingPreExecHook.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestCollAdminCoreOperations.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "test-patch.py",
-      2
-   ],
-   [
-      "Brock Noland",
-      "AbstractSolrSentryTestBase.java",
-      3
-   ],
-   [
-      "Brock Noland",
-      "SimpleSearchPolicyEngine.java",
-      2
-   ],
-   [
-      "Brock Noland",
-      "PathUtils.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "TestNoAuthorizationProvider.java",
-      3
-   ],
-   [
-      "gchanan",
-      "SimpleFileProviderBackend.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "TestNotificationHandlerInvoker.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "SimpleDBPolicyEngine.java",
-      2
-   ],
-   [
-      "Brock Noland",
-      "TestCollAdminCoreOperations.java",
-      2
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "ServiceConstants.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "AbstractDBRoleValidator.java",
-      1
-   ],
-   [
-      "gchanan",
-      "ProviderBackendContext.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "HiveAuthzBindingHook.java",
-      1
    ],
    [
       "shreepadma",
@@ -961,37 +316,42 @@
    ],
    [
       "gchanan",
-      "SentryConfigurationException.java",
+      "TestSearchPolicyNegative.java",
       1
    ],
    [
       "Brock Noland",
-      "TestSolrAuthzBinding.java",
-      3
+      "PolicyEngine.java",
+      2
    ],
    [
       "gchanan",
-      "TestSentryPolicyStoreProcessor.java",
+      "TestPolicyParsingNegative.java",
+      1
+   ],
+   [
+      "gchanan",
+      "Roles.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "AbstractHiveServer.java",
+      1
+   ],
+   [
+      "gchanan",
+      "EmbeddedHiveServer.java",
       1
    ],
    [
       "Gregory Chanan",
-      "PathUtils.java",
+      "SentryOnFailureHookContext.java",
       1
    ],
    [
-      "Shreepadma Venugopalan",
-      "SentryUserException.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSearchWildcardPrivilege.java",
-      1
-   ],
-   [
-      "brock",
-      "TListSentryRolesRequest.java",
+      "Gregory Chanan",
+      "DatabaseRequiredInPrivilege.java",
       1
    ],
    [
@@ -1000,73 +360,68 @@
       1
    ],
    [
-      "shreepadma",
-      "TSentryGroup.java",
-      2
-   ],
-   [
-      "shreepadma",
-      "KerberosConfiguration.java",
-      2
-   ],
-   [
       "Brock Noland",
-      "HiveAuthzBindingHook.java",
-      3
-   ],
-   [
-      "brock",
-      "package.jdo",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "PolicyEngine.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "JunitAuthenticationFilter.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "TestPrivilegesAtDatabaseScope.java",
-      1
-   ],
-   [
-      "Brock Noland",
-      "AuthorizationProvider.java",
-      5
-   ],
-   [
-      "brock",
-      "TestSentryServiceIntegration.java",
+      "sentry-mysql-1.4.0.sql",
       1
    ],
    [
       "shreepadma",
-      "SentryPolicyService.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
       "ProcessorFactory.java",
       1
    ],
    [
-      "gchanan",
-      "Context.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
+      "shreepadma",
       "SentryPolicyStoreProcessorFactory.java",
       1
    ],
    [
+      "shreepadma",
+      "TListSentryRolesResponse.java",
+      2
+   ],
+   [
+      "gchanan",
+      "NoAuthorizationProvider.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SimpleFileProviderBackend.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestSearchWildcardPermission.java",
+      1
+   ],
+   [
       "Shreepadma Venugopalan",
-      "Command.java",
+      "SentryPolicyServiceClient.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "AbstractSolrSentryTestBase.java",
+      3
+   ],
+   [
+      "shreepadma",
+      "TCreateSentryPrivilegeResponse.java",
+      2
+   ],
+   [
+      "shreepadma",
+      "sentry_store.thrift",
+      1
+   ],
+   [
+      "gchanan",
+      "ModifiableUserAuthenticationFilter.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "sentry_policy_service.thrift",
       1
    ],
    [
@@ -1075,28 +430,98 @@
       1
    ],
    [
-      "gchanan",
-      "SimpleDBPolicyEngine.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "TestURI.java",
+      "brock",
+      "TestUpdateOperations.java",
       1
    ],
    [
       "Brock Noland",
-      "TestUpdateOperations.java",
+      "smart-apply-patch.sh",
+      1
+   ],
+   [
+      "gchanan",
+      "ServerNameMustMatch.java",
+      1
+   ],
+   [
+      "brock",
+      "TDropSentryRoleResponse.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "PathUtils.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "AbstractDBPrivilegeValidator.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryThriftService.java",
+      1
+   ],
+   [
+      "brock",
+      "MSentryGroup.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestPathUtils.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TSentryGroup.java",
       2
    ],
    [
-      "Shreepadma Venugopalan",
-      "Status.java",
+      "Brock Noland",
+      "SentryConfigTool.java",
       2
    ],
    [
       "gchanan",
-      "TestDBWildcardPrivilege.java",
+      "CollectionRequiredInRole.java",
+      1
+   ],
+   [
+      "gchanan",
+      "MiniDFS.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "SentrySolrAuthorizationException.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "test-patch.py",
+      2
+   ],
+   [
+      "gchanan",
+      "AbstractTestSearchPolicyEngine.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "HiveAuthzConf.java",
+      3
+   ],
+   [
+      "Gregory Chanan",
+      "PermissionFactory.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "TestHiveAuthzConf.java",
       1
    ],
    [
@@ -1106,17 +531,77 @@
    ],
    [
       "gchanan",
-      "PolicyFile.java",
+      "AbstractSearchRoleValidator.java",
       1
    ],
    [
       "gchanan",
-      "SearchPolicyFileBackend.java",
+      "TestQueryOperations.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SimpleSearchPolicyEngine.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestPerDBConfiguration.java",
       1
    ],
    [
       "brock",
-      "TestQueryOperations.java",
+      "MSentryPrivilege.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestDatabaseRequiredInRole.java",
+      1
+   ],
+   [
+      "brock",
+      "ModifiableUserAuthenticationFilter.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "PrivilegeValidator.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "SolrAuthzBinding.java",
+      3
+   ],
+   [
+      "Gregory Chanan",
+      "PrivilegeUtils.java",
+      1
+   ],
+   [
+      "brock",
+      "SentryStore.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryPolicyStoreProcessor.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "AuthorizationProvider.java",
+      5
+   ],
+   [
+      "gchanan",
+      "ClusterDFS.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "PathUtils.java",
       1
    ],
    [
@@ -1126,12 +611,222 @@
    ],
    [
       "shreepadma",
-      "SentryServiceIntegrationBase.java",
+      "Constants.java",
+      2
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "sentry-oracle-1.4.0.sql",
+      1
+   ],
+   [
+      "gchanan",
+      "LocalGroupMappingService.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "ProviderBackend.java",
       2
    ],
    [
       "gchanan",
-      "DFS.java",
+      "PolicyFile.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryUserException.java",
+      1
+   ],
+   [
+      "gchanan",
+      "GroupMappingService.java",
+      1
+   ],
+   [
+      "brock",
+      "package.jdo",
+      1
+   ],
+   [
+      "gchanan",
+      "TestDBWildcardPermission.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestDBWildcardPrivilege.java",
+      1
+   ],
+   [
+      "brock",
+      "sentry_policy_service.thrift",
+      1
+   ],
+   [
+      "Brock Noland",
+      "SimpleSearchPolicyEngine.java",
+      2
+   ],
+   [
+      "gchanan",
+      "Context.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestSimpleDBPolicyEngineDFS.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestDBModelAuthorizables.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestPrivilegesAtDatabaseScope.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "HiveAuthzBinding.java",
+      2
+   ],
+   [
+      "Brock Noland",
+      "NoGroupMappingService.java",
+      3
+   ],
+   [
+      "brock",
+      "SentryPolicyServiceClient.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "Constants.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestUpdateOperations.java",
+      2
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "ServiceConstants.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "SimpleFileProviderBackend.java",
+      2
+   ],
+   [
+      "Jarek Jarcec Cecho",
+      "HiveAuthzConf.java",
+      2
+   ],
+   [
+      "shreepadma",
+      "TCreateSentryRoleResponse.java",
+      2
+   ],
+   [
+      "gchanan",
+      "AuthorizationProvider.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TCreateSentryPrivilegeRequest.java",
+      2
+   ],
+   [
+      "shreepadma",
+      "SentryServiceHandler.java",
+      1
+   ],
+   [
+      "gchanan",
+      "KerberosConfiguration.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "SentryConfigTool.java",
+      1
+   ],
+   [
+      "gchanan",
+      "DBPolicyFileBackend.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "Command.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TestSentryServiceFailureCase.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestLocalGroupMapping.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "HiveAuthzBindingHook.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SentryPolicyStoreProcessor.java",
+      1
+   ],
+   [
+      "gchanan",
+      "HadoopGroupResourceAuthorizationProvider.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TSentryPrivilege.java",
+      2
+   ],
+   [
+      "Gregory Chanan",
+      "PolicyEngine.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TSentryResponseStatus.java",
+      2
+   ],
+   [
+      "Gregory Chanan",
+      "HiveAuthzPrivilegesMap.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryPolicyService.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "PolicyStoreConstants.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "SolrAuthzConf.java",
       1
    ],
    [
@@ -1141,7 +836,297 @@
    ],
    [
       "Gregory Chanan",
+      "TestURI.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "config-tool.sh",
+      2
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "ProcessorFactory.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "Status.java",
+      2
+   ],
+   [
+      "Gregory Chanan",
       "MockUserToGroupMapping.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "SentryConfigurationException.java",
+      2
+   ],
+   [
+      "gchanan",
+      "ResourceAuthorizationProvider.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "GSSCallback.java",
+      2
+   ],
+   [
+      "Brock Noland",
+      "HiveAuthzBindingHook.java",
+      3
+   ],
+   [
+      "Brock Noland",
+      "sentry-postgres-1.4.0.sql",
+      1
+   ],
+   [
+      "brock",
+      "TestSentryServiceIntegration.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "DBWildcardPrivilege.java",
+      1
+   ],
+   [
+      "gchanan",
+      "SearchPolicyFileBackend.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "SolrAuthzBinding.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryServiceFactory.java",
+      2
+   ],
+   [
+      "Gregory Chanan",
+      "SentryOnFailureHookContextImpl.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TestSentryServiceIntegration.java",
+      1
+   ],
+   [
+      "gchanan",
+      "NoGroupMappingService.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "TestNotificationHandlerInvoker.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "JunitAuthenticationFilter.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestResourceAuthorizationProviderSpecialCases.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryServiceClient.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TAlterSentryRoleAddGroupsRequest.java",
+      2
+   ],
+   [
+      "Brock Noland",
+      "ResourceAuthorizationProvider.java",
+      6
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryNoSuchObjectException.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryPolicyStoreProcessorFactory.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "AbstractDBRoleValidator.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "Context.java",
+      2
+   ],
+   [
+      "Brock Noland",
+      "TestDBWildcardPermission.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryServiceClientFactory.java",
+      2
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "CommitContext.java",
+      1
+   ],
+   [
+      "brock",
+      "SentryService.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TCreateSentryRoleRequest.java",
+      2
+   ],
+   [
+      "Brock Noland",
+      "sentry-oracle-1.4.0.sql",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "TestPathUtils.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "TAlterSentryRoleAddGroupsResponse.java",
+      2
+   ],
+   [
+      "brock",
+      "TDropSentryRoleRequest.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "ConnectionDeniedException.java",
+      2
+   ],
+   [
+      "gchanan",
+      "AbstractDFS.java",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryAlreadyExistsException.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "Status.java",
+      2
+   ],
+   [
+      "gchanan",
+      "TestSentryOnFailureHookLoading.java",
+      1
+   ],
+   [
+      "gchanan",
+      "ProviderBackend.java",
+      1
+   ],
+   [
+      "gchanan",
+      "ServersAllIsInvalid.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestResourceAuthorizationProviderGeneralCases.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestCollAdminCoreOperations.java",
+      1
+   ],
+   [
+      "gchanan",
+      "HdfsTestUtil.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestSentryPolicyStoreProcessor.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestConfigTool.java",
+      1
+   ],
+   [
+      "gchanan",
+      "LocalGroupResourceAuthorizationProvider.java",
+      1
+   ],
+   [
+      "gchanan",
+      "CollectionRequiredInPrivilege.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestSolrAuthzBinding.java",
+      3
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryStore.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryStore.java",
+      1
+   ],
+   [
+      "shreepadma",
+      "SentryService.java",
+      2
+   ],
+   [
+      "Brock Noland",
+      "test-patch.py",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "sentry-postgres-1.4.0.sql",
+      1
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryMain.java",
+      1
+   ],
+   [
+      "gchanan",
+      "DatabaseRequiredInRole.java",
       1
    ],
    [
@@ -1150,58 +1135,73 @@
       2
    ],
    [
+      "gchanan",
+      "MSentryPrivilege.java",
+      1
+   ],
+   [
+      "gchanan",
+      "AbstractTestSimplePolicyEngine.java",
+      1
+   ],
+   [
+      "gchanan",
+      "MockGroupMappingServiceProvider.java",
+      1
+   ],
+   [
+      "gchanan",
+      "TestSimpleDBPolicyEngineLocalFS.java",
+      1
+   ],
+   [
+      "Brock Noland",
+      "TestConfigTool.java",
+      2
+   ],
+   [
+      "Gregory Chanan",
+      "DatabaseMustMatch.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "test-patch.py",
+      2
+   ],
+   [
+      "gchanan",
+      "SearchWildcardPermission.java",
+      1
+   ],
+   [
+      "Gregory Chanan",
+      "SentryConfigurationException.java",
+      1
+   ],
+   [
       "Brock Noland",
       "NoAuthorizationProvider.java",
       5
    ],
    [
       "gchanan",
-      "TestConfigTool.java",
+      "TestUpdateOperations.java",
       1
    ],
    [
-      "brock",
-      "TestCollAdminCoreOperations.java",
+      "Brock Noland",
+      "ModifiableUserAuthenticationFilter.java",
+      3
+   ],
+   [
+      "Shreepadma Venugopalan",
+      "SentryService.java",
       1
    ],
    [
       "Gregory Chanan",
       "PrivilegeFactory.java",
-      1
-   ],
-   [
-      "Shreepadma Venugopalan",
-      "Constants.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "DBWildcardPermission.java",
-      1
-   ],
-   [
-      "Gregory Chanan",
-      "PermissionFactory.java",
-      1
-   ],
-   [
-      "gchanan",
-      "TestSearchAuthorizationProviderGeneralCases.java",
-      1
-   ],
-   [
-      "brock",
-      "TDropSentryRoleResponse.java",
-      1
-   ],
-   [
-      "shreepadma",
-      "TListSentryRolesRequest.java",
-      2
-   ],
-   [
-      "gchanan",
-      "TestPrivilegesAtTableScope.java",
       1
    ]
 ]

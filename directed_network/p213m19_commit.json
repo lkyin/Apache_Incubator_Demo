@@ -1,18 +1,13 @@
 [
    [
       "jvazquez",
-      "SlingGeneratorServletResponse.java",
+      "Xslt.java",
       1
    ],
    [
       "jvazquez",
-      "CreateGroupTest.java",
+      "XplConstants.java",
       1
-   ],
-   [
-      "jvazquez",
-      "DocumentImpl.java",
-      2
    ],
    [
       "cziegeler",
@@ -21,12 +16,12 @@
    ],
    [
       "jvazquez",
-      "AbstractStepImpl.java",
-      2
+      "test-content.xslt",
+      1
    ],
    [
       "jvazquez",
-      "UpdateGroupServlet.java",
+      "RemoveAuthorizablesTest.java",
       1
    ],
    [
@@ -36,272 +31,7 @@
    ],
    [
       "jvazquez",
-      "SlingGenerator.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "RequestData.java",
-      1
-   ],
-   [
-      "cziegeler",
-      "Validator.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "RemoveAcesTest.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "PipelineImpl.java",
-      3
-   ],
-   [
-      "jvazquez",
-      "acl.html.esp",
-      1
-   ],
-   [
-      "jvazquez",
-      "XplElementFactory.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "EnvironmentImpl.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "ModifyAceServlet.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "Xslt.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "Input.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "MultiContainerStep.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "html.xpl",
-      5
-   ],
-   [
-      "jvazquez",
-      "RemoveAuthorizablesTest.java",
-      1
-   ],
-   [
-      "fmeschbe",
-      "AbstractDispatcherTagHandler.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "UpdateUserTest.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "test-html.xslt",
-      2
-   ],
-   [
-      "jvazquez",
-      "XsltTest.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "SlingGeneratorServletOutputStream.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "XplConstants.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "AbstractCompoundStepImpl.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "XplElement.java",
-      2
-   ],
-   [
-      "cziegeler",
-      "ValidatorTest.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "ace.html.esp",
-      1
-   ],
-   [
-      "cziegeler",
-      "ValidationMojo.java",
-      3
-   ],
-   [
-      "jvazquez",
-      "RenderingTestBase.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "GetAclServlet.java",
-      1
-   ],
-   [
-      "cziegeler",
-      "SlingPropertyValueHandler.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "AbstractAccessManagerTest.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "Activator.java",
-      1
-   ],
-   [
-      "fmeschbe",
-      "Activator.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "XsltImpl.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "test-content.xslt",
-      1
-   ],
-   [
-      "cziegeler",
-      "RequestLogger.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "ChangeUserPasswordServlet.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "UpdateGroupTest.java",
-      1
-   ],
-   [
-      "fmeschbe",
-      "JcrResourceBundleProvider.java",
-      1
-   ],
-   [
-      "cziegeler",
-      "AbstractBundleInstallMojo.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "AbstractGroupPostServlet.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "CompoundStep.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "SlingTransformer.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "InputImpl.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "Step.java",
-      2
-   ],
-   [
-      "bdelacretaz",
-      "XmlReaderTest.java",
-      1
-   ],
-   [
-      "cziegeler",
-      "taglib.tld",
-      1
-   ],
-   [
-      "jvazquez",
-      "AbstractUserPostServlet.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "Document.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "DeleteAuthorizableServlet.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "expected-static.html",
-      1
-   ],
-   [
-      "jvazquez",
-      "XplBuilderTest.java",
-      2
-   ],
-   [
-      "jvazquez",
-      "AtomicStep.java",
-      1
-   ],
-   [
-      "fmeschbe",
-      "StartLevelManager.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "CreateGroupServlet.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "ModifyAceTest.java",
+      "DeleteAcesServlet.java",
       1
    ],
    [
@@ -311,17 +41,62 @@
    ],
    [
       "jvazquez",
-      "XProcScriptEngine.java",
+      "XplElementFactoryImpl.java",
       2
    ],
    [
       "jvazquez",
-      "AbstractXplElementImpl.java",
-      3
+      "ModifyAceTest.java",
+      1
    ],
    [
       "jvazquez",
-      "Pipeline.java",
+      "DeleteAuthorizableServlet.java",
+      1
+   ],
+   [
+      "fmeschbe",
+      "JcrResourceBundleProvider.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "XplBuilderTest.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "Step.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "XplElement.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "UpdateGroupTest.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "Document.java",
+      1
+   ],
+   [
+      "fmeschbe",
+      "AbstractDispatcherTagHandler.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "RemoveAcesTest.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "expected-static.html",
       1
    ],
    [
@@ -330,19 +105,24 @@
       1
    ],
    [
-      "jvazquez",
-      "CreateUserServlet.java",
-      1
-   ],
-   [
-      "fmeschbe",
-      "StartLevelManagerPlugin.java",
+      "cziegeler",
+      "SlingPropertyValueHandler.java",
       1
    ],
    [
       "jvazquez",
-      "DeleteAcesServlet.java",
+      "CreateGroupServlet.java",
       1
+   ],
+   [
+      "jvazquez",
+      "AbstractStepImpl.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "EnvironmentImpl.java",
+      2
    ],
    [
       "jvazquez",
@@ -351,12 +131,112 @@
    ],
    [
       "jvazquez",
-      "CreateUserTest.java",
+      "ace.html.esp",
+      1
+   ],
+   [
+      "jvazquez",
+      "AtomicStep.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "Activator.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "Pipeline.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "CompoundStep.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "MultiContainerStep.java",
+      1
+   ],
+   [
+      "cziegeler",
+      "ValidatorTest.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "InputImpl.java",
+      2
+   ],
+   [
+      "fmeschbe",
+      "StartLevelManagerPlugin.java",
+      1
+   ],
+   [
+      "cziegeler",
+      "taglib.tld",
+      1
+   ],
+   [
+      "cziegeler",
+      "RequestLogger.java",
       1
    ],
    [
       "jvazquez",
       "AbstractAuthorizablePostServlet.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "CreateGroupTest.java",
+      1
+   ],
+   [
+      "bdelacretaz",
+      "XmlReaderTest.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "UpdateUserTest.java",
+      1
+   ],
+   [
+      "cziegeler",
+      "Validator.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "SlingGeneratorServletOutputStream.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "RenderingTestBase.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "PipelineImpl.java",
+      3
+   ],
+   [
+      "jvazquez",
+      "AbstractUserPostServlet.java",
+      1
+   ],
+   [
+      "bdelacretaz",
+      "sample.xsl",
+      1
+   ],
+   [
+      "fmeschbe",
+      "Activator.java",
       1
    ],
    [
@@ -366,28 +246,73 @@
    ],
    [
       "jvazquez",
+      "XProcScriptEngine.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "AbstractAccessManagerTest.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "SlingGeneratorServletResponse.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "html.xpl",
+      5
+   ],
+   [
+      "jvazquez",
+      "test-html.xslt",
+      2
+   ],
+   [
+      "jvazquez",
       "AbstractUserManagerTest.java",
       1
    ],
    [
-      "bdelacretaz",
-      "sample.xsl",
+      "jvazquez",
+      "acl.html.esp",
       1
    ],
    [
       "cziegeler",
-      "JcrModifiablePropertyMap.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "AbstractAccessPostServlet.java",
-      1
-   ],
-   [
-      "jvazquez",
-      "XplElementFactoryImpl.java",
+      "AbstractBundleInstallMojo.java",
       2
+   ],
+   [
+      "jvazquez",
+      "ChangeUserPasswordServlet.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "CreateUserTest.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "CreateUserServlet.java",
+      1
+   ],
+   [
+      "fmeschbe",
+      "StartLevelManager.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "RequestData.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "Input.java",
+      1
    ],
    [
       "cziegeler",
@@ -396,7 +321,82 @@
    ],
    [
       "jvazquez",
+      "UpdateGroupServlet.java",
+      1
+   ],
+   [
+      "cziegeler",
+      "ValidationMojo.java",
+      3
+   ],
+   [
+      "jvazquez",
+      "XsltTest.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "GetAclServlet.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "ModifyAceServlet.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "DocumentImpl.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "AbstractAccessPostServlet.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "SlingGenerator.java",
+      2
+   ],
+   [
+      "cziegeler",
+      "JcrModifiablePropertyMap.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "SlingTransformer.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "XplElementFactory.java",
+      1
+   ],
+   [
+      "jvazquez",
       "Environment.java",
+      1
+   ],
+   [
+      "jvazquez",
+      "AbstractXplElementImpl.java",
+      3
+   ],
+   [
+      "jvazquez",
+      "XsltImpl.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "AbstractCompoundStepImpl.java",
+      2
+   ],
+   [
+      "jvazquez",
+      "AbstractGroupPostServlet.java",
       1
    ]
 ]

@@ -1,48 +1,8 @@
 [
    [
-      "Aaron McCurry",
-      "PagingPrintWriter.java",
-      2
-   ],
-   [
-      "Chris Rohr",
-      "queries.tpl.html",
-      4
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.b_utils.js",
-      4
-   ],
-   [
-      "Aaron McCurry",
-      "ColumnBasedPrintWriter.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "FacetExecutor.java",
-      7
-   ],
-   [
-      "Aaron McCurry",
-      "TermsDataCommand.java",
-      2
-   ],
-   [
       "Chris Rohr",
       "blurconsole.dashboard.js",
       3
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.scss",
-      3
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.queries.scss",
-      2
    ],
    [
       "Aaron McCurry",
@@ -51,8 +11,13 @@
    ],
    [
       "Aaron McCurry",
-      "GenericBlurRecordWriter.java",
-      2
+      "FacetExecutor.java",
+      7
+   ],
+   [
+      "Aaron McCurry",
+      "BlurIndexSimpleWriter.java",
+      3
    ],
    [
       "Aaron McCurry",
@@ -60,33 +25,28 @@
       2
    ],
    [
-      "Aaron McCurry",
-      "OptimizeTableCommand.java",
+      "Chris Rohr",
+      "dashboard.tpl.html",
       2
-   ],
-   [
-      "Aaron McCurry",
-      "CheckOutputSpecs.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "BlurUtil.java",
-      1
    ],
    [
       "Chris Rohr",
-      "blurconsole.model.js",
+      "blurconsole.b_utils.js",
+      4
+   ],
+   [
+      "Aaron McCurry",
+      "TestingPagingCollector.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "BlurClusterTest.java",
       6
    ],
    [
       "Aaron McCurry",
-      "BlurOutputFormat.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "DeepPagingCache.java",
+      "MasterBasedDistributedLayoutFactoryTest.java",
       2
    ],
    [
@@ -95,14 +55,24 @@
       3
    ],
    [
-      "Aaron McCurry",
-      "BlurClusterTest.java",
-      6
+      "Chris Rohr",
+      "blurconsole.js",
+      2
    ],
    [
-      "Chris Rohr",
-      "blurconsole.utils.js",
-      3
+      "Aaron McCurry",
+      "TableDisplay.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "DeepPagingCache.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "GenericBlurRecordWriter.java",
+      2
    ],
    [
       "Aaron McCurry",
@@ -111,13 +81,18 @@
    ],
    [
       "Aaron McCurry",
-      "using-blur.html",
+      "OptimizeTableCommand.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "ThriftBlurShardServer.java",
       2
    ],
    [
       "Chris Rohr",
-      "index.html",
-      8
+      "blurconsole.shell.js",
+      3
    ],
    [
       "Aaron McCurry",
@@ -125,13 +100,13 @@
       1
    ],
    [
-      "Aaron McCurry",
-      "BlurControllerServer.java",
-      1
+      "Chris Rohr",
+      "blurconsole.tables.js",
+      6
    ],
    [
       "Chris Rohr",
-      "blurconsole.tables.js",
+      "blurconsole.model.js",
       6
    ],
    [
@@ -145,78 +120,8 @@
       3
    ],
    [
-      "Chris Rohr",
-      "tables.tpl.html",
-      2
-   ],
-   [
       "Aaron McCurry",
-      "ThriftBlurShardServer.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "Executors.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "SuperQuery.java",
-      1
-   ],
-   [
-      "Aaron McCurry",
-      "IndexManagerTest.java",
-      2
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.dashboard.scss",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "MasterBasedDistributedLayoutFactoryTest.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "IterablePaging.java",
-      2
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.data.js",
-      2
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.shell.js",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "TestingPagingCollector.java",
-      2
-   ],
-   [
-      "Chris Rohr",
-      "blurconsole.queries.js",
-      4
-   ],
-   [
-      "Chris Rohr",
-      "dashboard.tpl.html",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "FacetQuery.java",
-      3
-   ],
-   [
-      "Aaron McCurry",
-      "MetricsConstants.java",
+      "BlurOutputFormat.java",
       2
    ],
    [
@@ -225,13 +130,8 @@
       2
    ],
    [
-      "Aaron McCurry",
-      "TableDisplay.java",
-      2
-   ],
-   [
-      "Aaron McCurry",
-      "IndexImporterTest.java",
+      "Chris Rohr",
+      "test.js",
       2
    ],
    [
@@ -241,22 +141,122 @@
    ],
    [
       "Aaron McCurry",
-      "BlurIndexSimpleWriter.java",
-      3
+      "BlurControllerServer.java",
+      1
    ],
    [
-      "Chris Rohr",
-      "test.js",
+      "Aaron McCurry",
+      "IndexImporterTest.java",
       2
    ],
    [
       "Aaron McCurry",
-      "HdfsDirectory.java",
+      "IterablePaging.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "IndexManagerTest.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "SuperQuery.java",
+      1
+   ],
+   [
+      "Aaron McCurry",
+      "FacetQuery.java",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "PagingPrintWriter.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "MetricsConstants.java",
       2
    ],
    [
       "Chris Rohr",
-      "blurconsole.js",
+      "index.html",
+      8
+   ],
+   [
+      "Aaron McCurry",
+      "Executors.java",
+      2
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.scss",
+      3
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.utils.js",
+      3
+   ],
+   [
+      "Aaron McCurry",
+      "BlurUtil.java",
+      1
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.data.js",
+      2
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.dashboard.scss",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "TermsDataCommand.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "CheckOutputSpecs.java",
+      2
+   ],
+   [
+      "Aaron McCurry",
+      "ColumnBasedPrintWriter.java",
+      2
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.queries.scss",
+      2
+   ],
+   [
+      "Chris Rohr",
+      "blurconsole.queries.js",
+      4
+   ],
+   [
+      "Aaron McCurry",
+      "using-blur.html",
+      2
+   ],
+   [
+      "Chris Rohr",
+      "tables.tpl.html",
+      2
+   ],
+   [
+      "Chris Rohr",
+      "queries.tpl.html",
+      4
+   ],
+   [
+      "Aaron McCurry",
+      "HdfsDirectory.java",
       2
    ]
 ]

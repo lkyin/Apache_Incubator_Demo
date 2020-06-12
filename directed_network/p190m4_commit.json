@@ -1,112 +1,37 @@
 [
    [
       "gates",
-      "MapLookupSpec.java",
+      "POMapreduce.java",
+      3
+   ],
+   [
+      "gates",
+      "LORead.java",
       1
+   ],
+   [
+      "gates",
+      "LOLoad.java",
+      1
+   ],
+   [
+      "gates",
+      "MAX.java",
+      2
    ],
    [
       "olga",
-      "BufferedPositionedInputStream.java",
+      "TextLoader.java",
       1
    ],
    [
       "gates",
-      "FuncEvalSpec.java",
-      2
-   ],
-   [
-      "gates",
-      "TupleFactory.java",
+      "SUBTRACT.java",
       1
    ],
    [
       "gates",
-      "FalseCond.java",
-      1
-   ],
-   [
-      "gates",
-      "GFCross.java",
-      1
-   ],
-   [
-      "olga",
-      "PigStorage.java",
-      1
-   ],
-   [
-      "gates",
-      "POCogroup.java",
-      2
-   ],
-   [
-      "gates",
-      "TimestampedTuple.java",
-      1
-   ],
-   [
-      "gates",
-      "Cond.java",
-      1
-   ],
-   [
-      "gates",
-      "QueryParser.jjt",
-      1
-   ],
-   [
-      "gates",
-      "SpillableMemoryManager.java",
-      2
-   ],
-   [
-      "gates",
-      "ARITY.java",
-      1
-   ],
-   [
-      "gates",
-      "FilterSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "TestAlgebraicEval.java",
-      2
-   ],
-   [
-      "gates",
-      "GFAny.java",
-      1
-   ],
-   [
-      "gates",
-      "DataMap.java",
-      1
-   ],
-   [
-      "gates",
-      "LOStore.java",
-      1
-   ],
-   [
-      "gates",
-      "GruntParser.java",
-      1
-   ],
-   [
-      "gates",
-      "POUnion.java",
-      1
-   ],
-   [
-      "gates",
-      "FuncCond.java",
-      1
-   ],
-   [
-      "gates",
-      "BinCondSpec.java",
+      "PhysicalOperator.java",
       1
    ],
    [
@@ -116,72 +41,62 @@
    ],
    [
       "gates",
-      "Tuple.java",
+      "MapreducePlanCompiler.java",
       2
    ],
    [
       "gates",
-      "SUBTRACT.java",
+      "GFReplicate.java",
       1
    ],
    [
       "gates",
-      "NonDefaultBagFactory.java",
+      "TupleWindowSpec.java",
       1
    ],
    [
       "gates",
-      "PigServer.java",
+      "POSort.java",
       2
    ],
    [
       "gates",
-      "NotCond.java",
+      "LOEval.java",
       1
    ],
    [
       "gates",
-      "BagFactory.java",
+      "DataMap.java",
+      1
+   ],
+   [
+      "gates",
+      "CompositeEvalSpec.java",
+      1
+   ],
+   [
+      "gates",
+      "POSplitMaster.java",
+      1
+   ],
+   [
+      "gates",
+      "IntermedResult.java",
       2
    ],
    [
       "gates",
-      "UnflattenCollector.java",
+      "POLoad.java",
+      1
+   ],
+   [
+      "gates",
+      "TestAlgebraicEval.java",
       2
    ],
    [
       "olga",
-      "TestBuiltin.java",
-      2
-   ],
-   [
-      "gates",
-      "DataBagFileWriter.java",
-      3
-   ],
-   [
-      "gates",
-      "DistinctDataBag.java",
-      3
-   ],
-   [
-      "gates",
-      "TestDataModel.java",
-      2
-   ],
-   [
-      "gates",
-      "PigInputFormat.java",
-      1
-   ],
-   [
-      "gates",
-      "JarManager.java",
-      1
-   ],
-   [
-      "gates",
-      "BinStorage.java",
+      "PigStorage.java",
       1
    ],
    [
@@ -191,77 +106,7 @@
    ],
    [
       "gates",
-      "AVG.java",
-      2
-   ],
-   [
-      "gates",
-      "DataAtom.java",
-      1
-   ],
-   [
-      "gates",
-      "Main.java",
-      1
-   ],
-   [
-      "gates",
-      "COUNT.java",
-      2
-   ],
-   [
-      "gates",
-      "StarSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "AmendableTuple.java",
-      1
-   ],
-   [
-      "gates",
-      "LOCogroup.java",
-      1
-   ],
-   [
-      "gates",
-      "PhysicalPlan.java",
-      2
-   ],
-   [
-      "gates",
-      "Spillable.java",
-      1
-   ],
-   [
-      "gates",
-      "CompCond.java",
-      1
-   ],
-   [
-      "gates",
-      "IndexedTuple.java",
-      1
-   ],
-   [
-      "gates",
-      "TestBuiltin.java",
-      3
-   ],
-   [
-      "gates",
-      "EvalFunc.java",
-      1
-   ],
-   [
-      "gates",
-      "MapReduceLauncher.java",
-      2
-   ],
-   [
-      "gates",
-      "ConstSpec.java",
+      "POUnion.java",
       1
    ],
    [
@@ -276,142 +121,7 @@
    ],
    [
       "gates",
-      "OrdDescNumeric.java",
-      1
-   ],
-   [
-      "gates",
-      "SortPartitioner.java",
-      1
-   ],
-   [
-      "gates",
-      "TrueCond.java",
-      1
-   ],
-   [
-      "gates",
-      "DataType.java",
-      1
-   ],
-   [
-      "gates",
       "ShellBagEvalFunc.java",
-      2
-   ],
-   [
-      "gates",
-      "MAX.java",
-      2
-   ],
-   [
-      "gates",
-      "ADD.java",
-      1
-   ],
-   [
-      "gates",
-      "Datum.java",
-      1
-   ],
-   [
-      "gates",
-      "EvalSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "FindQuantiles.java",
-      2
-   ],
-   [
-      "gates",
-      "DefaultDataBag.java",
-      3
-   ],
-   [
-      "gates",
-      "TestEvalPipeline.java",
-      2
-   ],
-   [
-      "gates",
-      "DataCollector.java",
-      2
-   ],
-   [
-      "gates",
-      "POSplitSlave.java",
-      1
-   ],
-   [
-      "gates",
-      "PigLogger.java",
-      2
-   ],
-   [
-      "gates",
-      "LOLoad.java",
-      1
-   ],
-   [
-      "gates",
-      "FlattenCollector.java",
-      1
-   ],
-   [
-      "gates",
-      "PhysicalOperator.java",
-      1
-   ],
-   [
-      "gates",
-      "GFReplicate.java",
-      1
-   ],
-   [
-      "gates",
-      "Util.java",
-      3
-   ],
-   [
-      "gates",
-      "LOSort.java",
-      1
-   ],
-   [
-      "gates",
-      "PigContext.java",
-      4
-   ],
-   [
-      "olga",
-      "TextLoader.java",
-      1
-   ],
-   [
-      "gates",
-      "IntermedResult.java",
-      2
-   ],
-   [
-      "gates",
-      "GenerateSpec.java",
-      2
-   ],
-   [
-      "gates",
-      "PigMapReduce.java",
-      2
-   ],
-   [
-      "gates",
-      "SortedDataBag.java",
-      3
-   ],
-   [
-      "gates",
-      "MapreducePlanCompiler.java",
       2
    ],
    [
@@ -421,67 +131,42 @@
    ],
    [
       "gates",
-      "POStore.java",
+      "LOStore.java",
+      1
+   ],
+   [
+      "gates",
+      "OrdDescNumeric.java",
+      1
+   ],
+   [
+      "gates",
+      "TestEvalPipeline.java",
       2
    ],
    [
       "gates",
-      "BufferedPositionedInputStream.java",
+      "NonDefaultBagFactory.java",
       1
    ],
    [
       "gates",
-      "DIVIDE.java",
+      "DistinctDataBag.java",
+      3
+   ],
+   [
+      "gates",
+      "LOUnion.java",
       1
    ],
    [
       "gates",
-      "PigSplit.java",
-      1
-   ],
-   [
-      "gates",
-      "DIFF.java",
+      "SortDistinctSpec.java",
       2
    ],
    [
       "gates",
-      "DefaultBagFactory.java",
-      1
-   ],
-   [
-      "gates",
-      "DefaultAbstractBag.java",
-      1
-   ],
-   [
-      "gates",
-      "PigScriptParser.jj",
-      1
-   ],
-   [
-      "gates",
-      "POSort.java",
-      2
-   ],
-   [
-      "gates",
-      "POLoad.java",
-      1
-   ],
-   [
-      "gates",
-      "TupleWindowSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "PORead.java",
-      2
-   ],
-   [
-      "gates",
-      "LOSplit.java",
+      "MapLookupSpec.java",
       1
    ],
    [
@@ -491,52 +176,17 @@
    ],
    [
       "gates",
-      "pig.pl",
+      "StarSpec.java",
       1
    ],
    [
       "gates",
-      "TextLoader.java",
-      1
-   ],
-   [
-      "gates",
-      "SUM.java",
-      2
-   ],
-   [
-      "gates",
-      "LORead.java",
-      1
-   ],
-   [
-      "gates",
-      "PigCombine.java",
-      2
-   ],
-   [
-      "gates",
-      "MIN.java",
-      2
-   ],
-   [
-      "gates",
-      "POSplitMaster.java",
-      1
-   ],
-   [
-      "gates",
-      "TestMapReduce.java",
+      "DataBagFileWriter.java",
       3
    ],
    [
       "gates",
-      "CompositeEvalSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "FileLocalizer.java",
+      "LogicalOperator.java",
       1
    ],
    [
@@ -546,22 +196,32 @@
    ],
    [
       "gates",
-      "TestDataBag.java",
-      2
-   ],
-   [
-      "gates",
-      "POMapreduce.java",
-      3
-   ],
-   [
-      "gates",
-      "RegexpCond.java",
+      "POSplitSlave.java",
       1
    ],
    [
       "gates",
-      "LOUnion.java",
+      "EvalFunc.java",
+      1
+   ],
+   [
+      "gates",
+      "DataAtom.java",
+      1
+   ],
+   [
+      "gates",
+      "FalseCond.java",
+      1
+   ],
+   [
+      "gates",
+      "TestDataModel.java",
+      2
+   ],
+   [
+      "gates",
+      "FlattenCollector.java",
       1
    ],
    [
@@ -570,34 +230,24 @@
       1
    ],
    [
-      "gates",
-      "PigFile.java",
+      "olga",
+      "TestBuiltin.java",
       2
    ],
    [
       "gates",
-      "SortDistinctSpec.java",
+      "CompCond.java",
+      1
+   ],
+   [
+      "gates",
+      "PigMapReduce.java",
       2
    ],
    [
       "gates",
-      "WindowSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "TimeWindowSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "ProjectSpec.java",
-      1
-   ],
-   [
-      "gates",
-      "LogicalOperator.java",
-      1
+      "UnflattenCollector.java",
+      2
    ],
    [
       "gates",
@@ -606,12 +256,12 @@
    ],
    [
       "gates",
-      "LOEval.java",
-      1
+      "PigCombine.java",
+      2
    ],
    [
       "gates",
-      "TOKENIZE.java",
+      "TimeWindowSpec.java",
       1
    ],
    [
@@ -621,12 +271,362 @@
    ],
    [
       "gates",
-      "POEval.java",
+      "MapReduceLauncher.java",
+      2
+   ],
+   [
+      "gates",
+      "DefaultDataBag.java",
+      3
+   ],
+   [
+      "gates",
+      "pig.pl",
       1
+   ],
+   [
+      "gates",
+      "BinStorage.java",
+      1
+   ],
+   [
+      "gates",
+      "WindowSpec.java",
+      1
+   ],
+   [
+      "gates",
+      "POStore.java",
+      2
+   ],
+   [
+      "gates",
+      "RegexpCond.java",
+      1
+   ],
+   [
+      "gates",
+      "SortedDataBag.java",
+      3
+   ],
+   [
+      "gates",
+      "JarManager.java",
+      1
+   ],
+   [
+      "gates",
+      "FuncEvalSpec.java",
+      2
+   ],
+   [
+      "gates",
+      "PhysicalPlan.java",
+      2
+   ],
+   [
+      "gates",
+      "AVG.java",
+      2
+   ],
+   [
+      "gates",
+      "PigContext.java",
+      4
+   ],
+   [
+      "gates",
+      "GruntParser.java",
+      1
+   ],
+   [
+      "gates",
+      "Util.java",
+      3
+   ],
+   [
+      "gates",
+      "Cond.java",
+      1
+   ],
+   [
+      "gates",
+      "TextLoader.java",
+      1
+   ],
+   [
+      "gates",
+      "COUNT.java",
+      2
+   ],
+   [
+      "gates",
+      "ARITY.java",
+      1
+   ],
+   [
+      "gates",
+      "AmendableTuple.java",
+      1
+   ],
+   [
+      "gates",
+      "TestDataBag.java",
+      2
+   ],
+   [
+      "gates",
+      "TrueCond.java",
+      1
+   ],
+   [
+      "gates",
+      "IndexedTuple.java",
+      1
+   ],
+   [
+      "gates",
+      "FindQuantiles.java",
+      2
+   ],
+   [
+      "gates",
+      "PigServer.java",
+      2
+   ],
+   [
+      "gates",
+      "PigInputFormat.java",
+      1
+   ],
+   [
+      "olga",
+      "BufferedPositionedInputStream.java",
+      1
+   ],
+   [
+      "gates",
+      "ADD.java",
+      1
+   ],
+   [
+      "gates",
+      "FilterSpec.java",
+      1
+   ],
+   [
+      "gates",
+      "TestMapReduce.java",
+      3
+   ],
+   [
+      "gates",
+      "LOSplit.java",
+      1
+   ],
+   [
+      "gates",
+      "SpillableMemoryManager.java",
+      2
+   ],
+   [
+      "gates",
+      "DataType.java",
+      1
+   ],
+   [
+      "gates",
+      "FuncCond.java",
+      1
+   ],
+   [
+      "gates",
+      "TestBuiltin.java",
+      3
+   ],
+   [
+      "gates",
+      "DataCollector.java",
+      2
+   ],
+   [
+      "gates",
+      "DIFF.java",
+      2
+   ],
+   [
+      "gates",
+      "Main.java",
+      1
+   ],
+   [
+      "gates",
+      "PigLogger.java",
+      2
    ],
    [
       "gates",
       "TestPigFile.java",
       3
+   ],
+   [
+      "gates",
+      "QueryParser.jjt",
+      1
+   ],
+   [
+      "gates",
+      "LOSort.java",
+      1
+   ],
+   [
+      "gates",
+      "Tuple.java",
+      2
+   ],
+   [
+      "gates",
+      "PigFile.java",
+      2
+   ],
+   [
+      "gates",
+      "POCogroup.java",
+      2
+   ],
+   [
+      "gates",
+      "PigScriptParser.jj",
+      1
+   ],
+   [
+      "gates",
+      "GenerateSpec.java",
+      2
+   ],
+   [
+      "gates",
+      "DIVIDE.java",
+      1
+   ],
+   [
+      "gates",
+      "SortPartitioner.java",
+      1
+   ],
+   [
+      "gates",
+      "BufferedPositionedInputStream.java",
+      1
+   ],
+   [
+      "gates",
+      "GFCross.java",
+      1
+   ],
+   [
+      "gates",
+      "Datum.java",
+      1
+   ],
+   [
+      "gates",
+      "DefaultBagFactory.java",
+      1
+   ],
+   [
+      "gates",
+      "Spillable.java",
+      1
+   ],
+   [
+      "gates",
+      "GFAny.java",
+      1
+   ],
+   [
+      "gates",
+      "ProjectSpec.java",
+      1
+   ],
+   [
+      "gates",
+      "BinCondSpec.java",
+      1
+   ],
+   [
+      "gates",
+      "MIN.java",
+      2
+   ],
+   [
+      "gates",
+      "BagFactory.java",
+      2
+   ],
+   [
+      "gates",
+      "LOCogroup.java",
+      1
+   ],
+   [
+      "gates",
+      "ConstSpec.java",
+      1
+   ],
+   [
+      "gates",
+      "SUM.java",
+      2
+   ],
+   [
+      "gates",
+      "NotCond.java",
+      1
+   ],
+   [
+      "gates",
+      "PORead.java",
+      2
+   ],
+   [
+      "gates",
+      "TupleFactory.java",
+      1
+   ],
+   [
+      "gates",
+      "DefaultAbstractBag.java",
+      1
+   ],
+   [
+      "gates",
+      "TimestampedTuple.java",
+      1
+   ],
+   [
+      "gates",
+      "TOKENIZE.java",
+      1
+   ],
+   [
+      "gates",
+      "EvalSpec.java",
+      1
+   ],
+   [
+      "gates",
+      "PigSplit.java",
+      1
+   ],
+   [
+      "gates",
+      "POEval.java",
+      1
+   ],
+   [
+      "gates",
+      "FileLocalizer.java",
+      1
    ]
 ]

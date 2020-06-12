@@ -1,77 +1,22 @@
 [
    [
       "Prasad Mujumdar",
-      "SentryPolicyServiceClient.java",
+      "SentryHealthCheckServletContextListener.java",
       1
-   ],
-   [
-      "Prasad Mujumdar",
-      "TestPrivilegesAtFunctionScope.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryHDFSService.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "TestSentryServiceIntegration.java",
-      2
    ],
    [
       "prasadm",
-      "TestSentryAuthorizationProvider.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "HiveAuthzConf.java",
-      2
-   ],
-   [
-      "prasadm",
-      "TestHMSPaths.java",
+      "AuthzPathsDumper.java",
       3
    ],
    [
-      "prasadm",
-      "TestMetastoreEndToEnd.java",
-      1
-   ],
-   [
       "Arun Suresh",
-      "SentryHDFSServiceProcessorFactory.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TAlterSentryRoleAddGroupsRequest.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TListSentryPrivilegesForProviderResponse.java",
-      4
-   ],
-   [
-      "Arun Suresh",
-      "SentryMetastorePostEventListener.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TDropSentryRoleResponse.java",
-      4
-   ],
-   [
-      "prasadm",
       "SentryService.java",
       1
    ],
    [
       "prasadm",
-      "UpdateableAuthzPaths.java",
+      "Updateable.java",
       3
    ],
    [
@@ -81,22 +26,317 @@
    ],
    [
       "prasadm",
-      "TPermissionsUpdate.java",
-      3
+      "SentryPolicyStorePlugin.java",
+      2
    ],
    [
-      "Prasad Mujumdar",
-      "TestMetaStoreWithPigHCat.java",
+      "Lenni Kuff",
+      "AbstractTestWithStaticConfiguration.java",
       1
    ],
    [
       "prasadm",
-      "TRenamePrivilegesRequest.java",
+      "HMSPaths.java",
+      3
+   ],
+   [
+      "Arun Suresh",
+      "SentryPermissions.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TSentryGroup.java",
       4
    ],
    [
       "prasadm",
-      "TAlterSentryRoleGrantPrivilegeRequest.java",
+      "TSentryRole.java",
+      4
+   ],
+   [
+      "prasadm",
+      "SentryPlugin.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryAuthorizationInfo.java",
+      2
+   ],
+   [
+      "Prasad Mujumdar",
+      "PathsUpdate.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TestSentryAuthorizationProvider.java",
+      1
+   ],
+   [
+      "Arun Suresh",
+      "AbstractMetastoreTestWithStaticConfiguration.java",
+      1
+   ],
+   [
+      "Arun Suresh",
+      "SentryAuthorizationConstants.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TPathEntry.java",
+      3
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryPermissions.java",
+      2
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryHDFSService.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TAuthzUpdateResponse.java",
+      3
+   ],
+   [
+      "Prasad Mujumdar",
+      "TestUpdateableAuthzPaths.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "AbstractTestWithStaticConfiguration.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TPathChanges.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TestHDFSIntegration.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "AuthorizingObjectStore.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TListSentryRolesResponse.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TestUpdateableAuthzPaths.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TestSentryServerWithoutKerberos.java",
+      2
+   ],
+   [
+      "Arun Suresh",
+      "SentryPolicyServiceClient.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "HMSPathsDumper.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "AbstractMetastoreTestWithStaticConfiguration.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TAlterSentryRoleRevokePrivilegeResponse.java",
+      4
+   ],
+   [
+      "Lenni Kuff",
+      "SentryPolicyStoreProcessor.java",
+      2
+   ],
+   [
+      "prasadm",
+      "SentryHDFSService.java",
+      3
+   ],
+   [
+      "prasadm",
+      "sentry_common_serviceConstants.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryHDFSServiceProcessorFactory.java",
+      1
+   ],
+   [
+      "prasadm",
+      "SentryAuthorizationInfoX.java",
+      1
+   ],
+   [
+      "prasadm",
+      "SentryMetastoreListenerPlugin.java",
+      2
+   ],
+   [
+      "Prasad Mujumdar",
+      "TSentryConfigValueResponse.java",
+      1
+   ],
+   [
+      "Arun Suresh",
+      "SentryHDFSServiceProcessor.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "HiveAuthzConf.java",
+      2
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryMetricsServletContextListener.java",
+      1
+   ],
+   [
+      "prasadm",
+      "SentryHDFSServiceProcessorFactory.java",
+      3
+   ],
+   [
+      "Arun Suresh",
+      "TestSentryAuthorizationProvider.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryMetrics.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryWebServer.java",
+      1
+   ],
+   [
+      "prasadm",
+      "UpdateableAuthzPaths.java",
+      3
+   ],
+   [
+      "Arun Suresh",
+      "UpdateableAuthzPaths.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TAlterSentryRoleAddGroupsRequest.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "TestPrivilegesAtFunctionScope.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "MockSentryAuthorizationProvider.java",
+      2
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "ServiceConstants.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TAlterSentryRoleGrantPrivilegeResponse.java",
+      4
+   ],
+   [
+      "Lenni Kuff",
+      "SentryService.java",
+      1
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryPlugin.java",
+      1
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryHDFSServiceProcessor.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TRoleChanges.java",
+      3
+   ],
+   [
+      "prasadm",
+      "AuthzPaths.java",
+      3
+   ],
+   [
+      "Arun Suresh",
+      "TestHMSPathsFullDump.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "TestSentryAuthorizationProvider.java",
+      2
+   ],
+   [
+      "prasadm",
+      "UpdateableAuthzPermissions.java",
+      2
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryAuthorizationConstants.java",
+      2
+   ],
+   [
+      "Prasad Mujumdar",
+      "Updateable.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "TestSentryStore.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryPolicyService.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TPrivilegeChanges.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TAlterSentryRoleAddGroupsResponse.java",
       4
    ],
    [
@@ -106,128 +346,18 @@
    ],
    [
       "Sravya Tirukkovalur",
-      "SentryAuthorizationInfo.java",
-      1
-   ],
-   [
-      "prasadm",
-      "UpdateForwarder.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TCreateSentryRoleResponse.java",
-      4
-   ],
-   [
-      "Prasad Mujumdar",
-      "HMSPathsDumper.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TPathsUpdate.java",
-      3
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryPolicyStoreProcessor.java",
-      3
-   ],
-   [
-      "prasadm",
-      "SentryAuthorizationProvider.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryService.java",
-      1
-   ],
-   [
-      "prasadm",
-      "AbstractMetastoreTestWithStaticConfiguration.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "AuthorizingObjectStore.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryAuthorizationInfoX.java",
-      2
-   ],
-   [
-      "prasadm",
       "SimpleDBProviderBackend.java",
       1
    ],
    [
-      "prasadm",
-      "HMSPaths.java",
-      3
-   ],
-   [
-      "Arun Suresh",
-      "TestHMSPathsFullDump.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TPathChanges.java",
-      3
-   ],
-   [
-      "Prasad Mujumdar",
-      "TestSentryStore.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TPathEntry.java",
-      3
-   ],
-   [
       "Arun Suresh",
       "SentryAuthorizationProvider.java",
       1
    ],
    [
-      "Lenni Kuff",
-      "SentryMetrics.java",
-      1
-   ],
-   [
-      "sravya",
-      "StaticUserGroup.java",
-      1
-   ],
-   [
       "prasadm",
-      "SentryPolicyServiceClient.java",
-      1
-   ],
-   [
-      "prasadm",
-      "sentry_policy_service.thrift",
-      3
-   ],
-   [
-      "prasadm",
-      "SentryPermissions.java",
-      1
-   ],
-   [
-      "Lenni Kuff",
-      "ServiceConstants.java",
-      1
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryUpdater.java",
-      1
+      "SentryPolicyStoreProcessor.java",
+      2
    ],
    [
       "prasadm",
@@ -236,352 +366,22 @@
    ],
    [
       "prasadm",
-      "TRenamePrivilegesResponse.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TDropPrivilegesResponse.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TAlterSentryRoleGrantPrivilegeResponse.java",
-      4
-   ],
-   [
-      "prasadm",
-      "AuthzPaths.java",
-      3
-   ],
-   [
-      "prasadm",
-      "ServiceConstants.java",
-      4
-   ],
-   [
-      "prasadm",
-      "AuthzPathsDumper.java",
-      3
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "TestHDFSIntegration.java",
-      2
-   ],
-   [
-      "prasadm",
-      "MetastorePlugin.java",
-      3
-   ],
-   [
-      "Arun Suresh",
-      "SentryHDFSServiceProcessor.java",
-      1
-   ],
-   [
-      "prasadm",
-      "sentry_common_serviceConstants.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TestSentryServerWithoutKerberos.java",
-      2
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryPolicyService.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TListSentryPrivilegesRequest.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TSentryGrantOption.java",
-      4
-   ],
-   [
-      "Prasad Mujumdar",
-      "TestHMSPathsFullDump.java",
-      1
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "sentry_hdfs_service.thrift",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryHDFSService.java",
-      3
-   ],
-   [
-      "Lenni Kuff",
-      "SentryPolicyStoreProcessor.java",
-      2
-   ],
-   [
-      "prasadm",
-      "TSentryRole.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TSentryGroup.java",
-      4
-   ],
-   [
-      "Prasad Mujumdar",
-      "PathsUpdate.java",
-      1
-   ],
-   [
-      "Arun Suresh",
-      "SentryPlugin.java",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryStore.java",
-      2
-   ],
-   [
-      "Arun Suresh",
-      "SentryPolicyStorePlugin.java",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryPolicyStorePlugin.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
       "SimpleDBProviderBackend.java",
       1
    ],
    [
       "prasadm",
-      "TSentryPrivilege.java",
-      4
-   ],
-   [
-      "Arun Suresh",
-      "SentryPermissions.java",
-      1
-   ],
-   [
-      "Arun Suresh",
-      "SentryPolicyStoreProcessor.java",
-      1
-   ],
-   [
-      "prasadm",
-      "UpdateableAuthzPermissions.java",
-      2
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryMetricsServletContextListener.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "MockSentryAuthorizationProvider.java",
-      2
-   ],
-   [
-      "prasadm",
-      "TListSentryPrivilegesForProviderRequest.java",
-      4
-   ],
-   [
-      "Prasad Mujumdar",
-      "ServiceConstants.java",
-      2
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryHDFSServiceProcessor.java",
-      1
-   ],
-   [
-      "Sravya Tirukkovalur",
       "ExtendedMetastoreClient.java",
-      2
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryHealthCheckServletContextListener.java",
-      1
-   ],
-   [
-      "Arun Suresh",
-      "TestHDFSIntegration.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryMetastorePostEventListener.java",
-      3
-   ],
-   [
-      "Arun Suresh",
-      "SentryService.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TestUpdateableAuthzPaths.java",
-      3
-   ],
-   [
-      "prasadm",
-      "TRoleChanges.java",
-      3
-   ],
-   [
-      "prasadm",
-      "UpdateablePermissions.java",
-      3
-   ],
-   [
-      "Arun Suresh",
-      "UpdateableAuthzPermissions.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "TSentryConfigValueRequest.java",
-      1
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryAuthorizationProvider.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryHDFSServiceClient.java",
-      2
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryUpdater.java",
-      2
-   ],
-   [
-      "prasadm",
-      "TListSentryPrivilegesByAuthRequest.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TAlterSentryRoleAddGroupsResponse.java",
-      4
-   ],
-   [
-      "prasadm",
-      "MetastoreClient.java",
-      3
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryAuthorizationInfo.java",
-      2
-   ],
-   [
-      "Arun Suresh",
-      "UpdateableAuthzPaths.java",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryPlugin.java",
       4
    ],
    [
       "Prasad Mujumdar",
-      "SentryAuthorizationProvider.java",
-      2
-   ],
-   [
-      "Arun Suresh",
-      "TestSentryAuthorizationProvider.java",
+      "HiveServerFactory.java",
       1
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "ServiceConstants.java",
-      1
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryPlugin.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TSentryActiveRoleSet.java",
-      4
    ],
    [
       "Prasad Mujumdar",
-      "TestUpdateableAuthzPaths.java",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryAuthorizationConstants.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TAlterSentryRoleDeleteGroupsResponse.java",
-      4
-   ],
-   [
-      "prasadm",
-      "SentryHDFSServiceProcessorFactory.java",
-      3
-   ],
-   [
-      "Lenni Kuff",
-      "AbstractTestWithStaticConfiguration.java",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryPolicyService.java",
-      4
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryAuthorizationConstants.java",
-      2
-   ],
-   [
-      "Prasad Mujumdar",
-      "TestSentryAuthorizationProvider.java",
-      2
-   ],
-   [
-      "prasadm",
-      "SentryHDFSServiceProcessor.java",
-      4
-   ],
-   [
-      "Arun Suresh",
-      "AbstractMetastoreTestWithStaticConfiguration.java",
-      1
-   ],
-   [
-      "prasadm",
-      "sentry_common_service.thrift",
+      "SentryPolicyStoreProcessor.java",
       3
    ],
    [
@@ -591,7 +391,7 @@
    ],
    [
       "prasadm",
-      "sentry_hdfs_service.thrift",
+      "TListSentryPrivilegesByAuthRequest.java",
       4
    ],
    [
@@ -600,148 +400,23 @@
       3
    ],
    [
-      "Prasad Mujumdar",
-      "AbstractTestWithStaticConfiguration.java",
-      1
-   ],
-   [
-      "Arun Suresh",
-      "MetastorePlugin.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "Updateable.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "PermissionsUpdate.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TDropPrivilegesRequest.java",
-      4
-   ],
-   [
-      "Sravya Tirukkovalur",
-      "SentryHDFSServiceProcessorFactory.java",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryAuthorizationInfoX.java",
-      1
-   ],
-   [
       "Lenni Kuff",
-      "SentryService.java",
+      "ServiceConstants.java",
       1
    ],
    [
       "prasadm",
-      "SentryPolicyStoreProcessor.java",
-      2
-   ],
-   [
-      "Prasad Mujumdar",
-      "AuthzPaths.java",
+      "SentryPolicyServiceClient.java",
       1
    ],
    [
       "prasadm",
-      "TAlterSentryRoleRevokePrivilegeResponse.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TAuthzUpdateResponse.java",
-      3
-   ],
-   [
-      "prasadm",
-      "TListSentryRolesResponse.java",
-      4
-   ],
-   [
-      "Prasad Mujumdar",
-      "MetastorePlugin.java",
+      "TestMetastoreEndToEnd.java",
       1
    ],
    [
       "Prasad Mujumdar",
-      "MetastoreClient.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "HMSPaths.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "sentry-upgrade-postgres-1.4.0-to-1.5.0.sql",
-      1
-   ],
-   [
-      "prasadm",
-      "TestHMSPathsFullDump.java",
-      3
-   ],
-   [
-      "Prasad Mujumdar",
-      "002-SENTRY-339.oracle.sql",
-      1
-   ],
-   [
-      "prasadm",
-      "TestSentryPolicyStoreProcessor.java",
-      2
-   ],
-   [
-      "Prasad Mujumdar",
-      "AbstractMetastoreTestWithStaticConfiguration.java",
-      1
-   ],
-   [
-      "prasadm",
-      "SentryUpdater.java",
-      1
-   ],
-   [
-      "Arun Suresh",
-      "SentryMetastoreListenerPlugin.java",
-      1
-   ],
-   [
-      "Prasad Mujumdar",
-      "HiveServerFactory.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TAlterSentryRoleDeleteGroupsRequest.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TDropSentryRoleRequest.java",
-      4
-   ],
-   [
-      "Prasad Mujumdar",
-      "SentryPermissions.java",
-      2
-   ],
-   [
-      "prasadm",
-      "TestUpdateForwarder.java",
-      3
-   ],
-   [
-      "Lenni Kuff",
-      "TestSentryServiceIntegration.java",
+      "sentry_policy_service.thrift",
       1
    ],
    [
@@ -750,23 +425,108 @@
       2
    ],
    [
-      "prasadm",
-      "TPrivilegeChanges.java",
-      3
-   ],
-   [
-      "prasadm",
-      "MockSentryAuthorizationProvider.java",
+      "Prasad Mujumdar",
+      "TestAuthorizingObjectStore.java",
       1
    ],
    [
       "Prasad Mujumdar",
-      "003-SENTRY-380.oracle.sql",
+      "SentryAuthorizationProvider.java",
+      2
+   ],
+   [
+      "prasadm",
+      "PathsUpdate.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TDropPrivilegesRequest.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TestUpdateForwarder.java",
+      3
+   ],
+   [
+      "Arun Suresh",
+      "SentryPlugin.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryAuthorizationInfoX.java",
+      2
+   ],
+   [
+      "prasadm",
+      "ServiceConstants.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TPathsUpdate.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TDropSentryRoleRequest.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "HMSPathsSerDe.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "AuthzPaths.java",
+      1
+   ],
+   [
+      "Arun Suresh",
+      "UpdateableAuthzPermissions.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "UpdateableAuthzPaths.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "ServiceConstants.java",
+      2
+   ],
+   [
+      "prasadm",
+      "TListSentryPrivilegesRequest.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TRenamePrivilegesRequest.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryUpdater.java",
+      2
+   ],
+   [
+      "prasadm",
+      "TSentryPrivilegeMap.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryPolicyServiceClient.java",
       1
    ],
    [
       "prasadm",
-      "TCreateSentryRoleRequest.java",
+      "TDropSentryRoleResponse.java",
       4
    ],
    [
@@ -776,62 +536,97 @@
    ],
    [
       "prasadm",
-      "TListSentryRolesRequest.java",
-      4
+      "SentryAuthorizationConstants.java",
+      1
    ],
    [
-      "Arun Suresh",
-      "SentryPolicyServiceClient.java",
+      "Prasad Mujumdar",
+      "MetastorePlugin.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "sentry-upgrade-postgres-1.4.0-to-1.5.0.sql",
       1
    ],
    [
       "prasadm",
-      "TSentryResponseStatus.java",
+      "SentryPolicyService.java",
       4
    ],
    [
-      "Prasad Mujumdar",
-      "HMSPathsSerDe.java",
-      1
+      "prasadm",
+      "MetastorePlugin.java",
+      3
    ],
    [
       "Sravya Tirukkovalur",
+      "sentry_hdfs_service.thrift",
+      1
+   ],
+   [
+      "prasadm",
+      "SentryStore.java",
+      2
+   ],
+   [
+      "prasadm",
+      "UpdateablePermissions.java",
+      3
+   ],
+   [
+      "prasadm",
+      "sentry_hdfs_service.thrift",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryUpdater.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TestSentryPolicyStoreProcessor.java",
+      2
+   ],
+   [
+      "prasadm",
+      "TListSentryPrivilegesForProviderRequest.java",
+      4
+   ],
+   [
+      "prasadm",
+      "UpdateForwarder.java",
+      4
+   ],
+   [
+      "Arun Suresh",
+      "SentryMetastoreListenerPlugin.java",
+      1
+   ],
+   [
+      "prasadm",
+      "sentry_common_service.thrift",
+      3
+   ],
+   [
+      "prasadm",
+      "TAlterSentryRoleDeleteGroupsRequest.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TestHMSPathsFullDump.java",
+      3
+   ],
+   [
+      "prasadm",
       "SentryHDFSServiceClient.java",
       2
    ],
    [
-      "Prasad Mujumdar",
-      "SentryStore.java",
-      3
-   ],
-   [
-      "prasadm",
-      "PathsUpdate.java",
-      3
-   ],
-   [
-      "prasadm",
-      "ExtendedMetastoreClient.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TListSentryPrivilegesByAuthResponse.java",
-      4
-   ],
-   [
-      "prasadm",
-      "TestHDFSIntegration.java",
-      1
-   ],
-   [
-      "prasadm",
-      "TSentryPrivilegeMap.java",
-      4
-   ],
-   [
       "Arun Suresh",
-      "ServiceConstants.java",
+      "SentryHDFSServiceClient.java",
       1
    ],
    [
@@ -841,53 +636,53 @@
    ],
    [
       "Prasad Mujumdar",
-      "SentryMetrics.java",
+      "TestMetaStoreWithPigHCat.java",
       1
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryMetastorePostEventListener.java",
+      3
    ],
    [
       "prasadm",
-      "SentryMetastoreListenerPlugin.java",
+      "TSentryGrantOption.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "TestHDFSIntegration.java",
       2
    ],
    [
-      "Prasad Mujumdar",
-      "UpdateableAuthzPaths.java",
-      1
+      "prasadm",
+      "TSentryResponseStatus.java",
+      4
    ],
    [
-      "Prasad Mujumdar",
-      "sentry_policy_service.thrift",
+      "prasadm",
+      "TListSentryPrivilegesForProviderResponse.java",
+      4
+   ],
+   [
+      "prasadm",
+      "SentryPermissions.java",
       1
    ],
    [
       "Arun Suresh",
-      "SentryAuthorizationConstants.java",
+      "MetastorePlugin.java",
       1
-   ],
-   [
-      "prasadm",
-      "Updateable.java",
-      3
    ],
    [
       "Prasad Mujumdar",
-      "SentryWebServer.java",
+      "TSentryConfigValueRequest.java",
       1
-   ],
-   [
-      "prasadm",
-      "PermissionsUpdate.java",
-      3
    ],
    [
       "Prasad Mujumdar",
-      "TSentryConfigValueResponse.java",
+      "MetastoreClient.java",
       1
-   ],
-   [
-      "prasadm",
-      "SentryHDFSServiceClient.java",
-      2
    ],
    [
       "prasadm",
@@ -895,13 +690,218 @@
       4
    ],
    [
+      "prasadm",
+      "SentryAuthorizationProvider.java",
+      1
+   ],
+   [
+      "sravya",
+      "StaticUserGroup.java",
+      1
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryHDFSServiceClient.java",
+      2
+   ],
+   [
+      "Arun Suresh",
+      "SentryHDFSServiceProcessorFactory.java",
+      1
+   ],
+   [
       "Prasad Mujumdar",
-      "TestAuthorizingObjectStore.java",
+      "TestHMSPathsFullDump.java",
+      1
+   ],
+   [
+      "prasadm",
+      "SentryUpdater.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TSentryPrivilege.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "HMSPaths.java",
       1
    ],
    [
       "Arun Suresh",
+      "ServiceConstants.java",
+      1
+   ],
+   [
+      "prasadm",
+      "AbstractMetastoreTestWithStaticConfiguration.java",
+      1
+   ],
+   [
+      "Arun Suresh",
+      "SentryPolicyStorePlugin.java",
+      1
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "ExtendedMetastoreClient.java",
+      2
+   ],
+   [
+      "prasadm",
+      "TAlterSentryRoleGrantPrivilegeRequest.java",
+      4
+   ],
+   [
+      "Lenni Kuff",
+      "SentryMetrics.java",
+      1
+   ],
+   [
+      "prasadm",
+      "sentry_policy_service.thrift",
+      3
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryStore.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TAlterSentryRoleDeleteGroupsResponse.java",
+      4
+   ],
+   [
+      "Lenni Kuff",
+      "TestSentryServiceIntegration.java",
+      1
+   ],
+   [
+      "prasadm",
+      "MockSentryAuthorizationProvider.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
       "SentryHDFSServiceClient.java",
+      2
+   ],
+   [
+      "Prasad Mujumdar",
+      "TestSentryServiceIntegration.java",
+      2
+   ],
+   [
+      "prasadm",
+      "PermissionsUpdate.java",
+      3
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryAuthorizationInfo.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "PermissionsUpdate.java",
+      1
+   ],
+   [
+      "Arun Suresh",
+      "TestHDFSIntegration.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TDropPrivilegesResponse.java",
+      4
+   ],
+   [
+      "Sravya Tirukkovalur",
+      "SentryAuthorizationProvider.java",
+      1
+   ],
+   [
+      "Arun Suresh",
+      "SentryPolicyStoreProcessor.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TListSentryRolesRequest.java",
+      4
+   ],
+   [
+      "prasadm",
+      "MetastoreClient.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TPermissionsUpdate.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TListSentryPrivilegesByAuthResponse.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TSentryActiveRoleSet.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TCreateSentryRoleResponse.java",
+      4
+   ],
+   [
+      "prasadm",
+      "TRenamePrivilegesResponse.java",
+      4
+   ],
+   [
+      "Arun Suresh",
+      "SentryMetastorePostEventListener.java",
+      1
+   ],
+   [
+      "Prasad Mujumdar",
+      "002-SENTRY-339.oracle.sql",
+      1
+   ],
+   [
+      "prasadm",
+      "SentryHDFSServiceProcessor.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "003-SENTRY-380.oracle.sql",
+      1
+   ],
+   [
+      "prasadm",
+      "SentryService.java",
+      1
+   ],
+   [
+      "prasadm",
+      "TestHMSPaths.java",
+      3
+   ],
+   [
+      "prasadm",
+      "TCreateSentryRoleRequest.java",
+      4
+   ],
+   [
+      "Prasad Mujumdar",
+      "SentryService.java",
       1
    ]
 ]

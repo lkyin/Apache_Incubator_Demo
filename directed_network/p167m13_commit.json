@@ -1,602 +1,52 @@
 [
    [
-      "sterling",
-      "nffs_misc.c",
-      1
-   ],
-   [
-      "ccollins",
-      "large_unlink_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "nffs_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "cbor_buf_writer.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_test_util.c",
-      1
-   ],
-   [
-      "sterling",
-      "event_test_poll_sr.c",
-      1
-   ],
-   [
-      "Vipul Rahane",
-      "hal_flash.c",
-      2
-   ],
-   [
-      "sterling",
-      "sem_test.h",
-      1
-   ],
-   [
-      "David G. Simmons",
-      "newtutil.go",
-      2
-   ],
-   [
-      "sterling",
-      "stats_shell.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "package.go",
-      1
-   ],
-   [
-      "sterling",
-      "testutil_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_queue.c",
-      1
-   ],
-   [
-      "sterling",
-      "lost_found_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs_test_util.c",
-      3
-   ],
-   [
-      "ccollins",
-      "os_mempool_test_case.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "image_ec.c",
-      1
-   ],
-   [
       "Peter Snyder",
-      "mempool_test.h",
-      2
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_nv_ns_01.c",
-      1
-   ],
-   [
-      "sterling",
-      "imgmgr_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "fs_file.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "ble.h",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test_len.c",
-      1
-   ],
-   [
-      "sterling",
-      "event_test_src.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "nrf51dk-16kbram_download.sh",
-      4
-   ],
-   [
-      "Vipul Rahane",
-      "bsp.h",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "os_cputime.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_gpio.c",
-      12
-   ],
-   [
-      "Christopher Collins",
-      "ble_svc_tps.h",
-      2
-   ],
-   [
-      "wes3",
-      "nrf52.ld",
+      "testutil.h",
       1
    ],
    [
       "Marko Kiiskila",
-      "mn_sock_util.c",
-      1
-   ],
-   [
-      "sterling",
-      "nrf51_hw_id.c",
-      1
-   ],
-   [
-      "sterling",
-      "util.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "config_nmgr.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "system_nrf51.c",
-      5
-   ],
-   [
-      "ccollins",
-      "os_callout_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "gc_on_oom_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_callout_test_speak.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_spi_soft_ssi.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "runtest_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "coredump.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "decode.go",
-      6
-   ],
-   [
-      "ccollins",
-      "event_test_poll_0timo.c",
-      1
-   ],
-   [
-      "sterling",
-      "init.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "hal_timer.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "common.sh",
-      1
-   ],
-   [
-      "sterling",
-      "overwrite_one_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "deps.go",
+      "boot_serial.c",
       2
    ],
    [
       "ccollins",
-      "config_test_save_one_fcb.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_vm_ns_11_b.c",
+      "wear_level_test.c",
       1
    ],
    [
       "sterling",
-      "ble_gatts_reg_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test.c",
+      "hal_system.h",
       1
    ],
    [
       "sterling",
-      "uart.h",
+      "wifi_mgmt.h",
       1
    ],
    [
       "Christopher Collins",
-      "newtmgr.c",
-      3
-   ],
-   [
-      "sterling",
-      "nmgr_os.h",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test_append.c",
-      1
-   ],
-   [
-      "ccollins",
-      "testutil.c",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_save_2_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "fs_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_path.c",
-      1
-   ],
-   [
-      "sterling",
-      "ob_mbuf_test_adj.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4_eth_cfg.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "gatt_svr.c",
-      2
-   ],
-   [
-      "William San Filippo",
-      "hal_watchdog.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "bmd300eval.ld",
-      2
-   ],
-   [
-      "sterling",
-      "os_cfg.h",
-      1
-   ],
-   [
-      "sterling",
-      "log_reboot.h",
-      1
-   ],
-   [
-      "sterling",
-      "newtmgr.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_os_tick.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "main.c",
-      43
-   ],
-   [
-      "sterling",
-      "ble_att_svr_test.c",
-      1
-   ],
-   [
-      "sterling",
       "abort.c",
       1
    ],
    [
-      "sterling",
-      "os_sem.h",
-      1
-   ],
-   [
       "ccollins",
-      "gcc_startup_nrf51_split.s",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "append_test.c",
+      "bignum_test.c",
       1
    ],
    [
       "sterling",
-      "cbmem_test.h",
+      "ble_att_clt_test.c",
       1
    ],
    [
       "sterling",
-      "bleuart.h",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_insert2.c",
-      2
-   ],
-   [
-      "William San Filippo",
-      "uart_bitbang.c",
-      1
-   ],
-   [
-      "sterling",
-      "cborattr.h",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_save_in_file.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "eventq_test.c",
-      2
-   ],
-   [
-      "ccollins",
-      "os_callout_test_stop.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_setup_nffs.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_phy.h",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_insert3.c",
-      2
-   ],
-   [
-      "sterling",
-      "nffs_priv.h",
+      "ble_uuid.h",
       1
    ],
    [
       "Christopher Collins",
-      "nmgr_uart.c",
-      1
-   ],
-   [
-      "sterling",
-      "incomplete_block_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "sha256_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "cortex_m0.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_hci_ev.c",
-      1
-   ],
-   [
-      "sterling",
-      "cbor_cnt_writer.h",
-      1
-   ],
-   [
-      "sterling",
-      "cbor_mbuf_writer.h",
-      1
-   ],
-   [
-      "ccollins",
-      "log_setup_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_atomic.c",
-      1
-   ],
-   [
-      "sterling",
-      "log_shell.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_eddystone.h",
-      1
-   ],
-   [
-      "ccollins",
-      "sem_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "primo_download.sh",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_conn.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_resolv.h",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "config.h",
-      1
-   ],
-   [
-      "ccollins",
-      "large_system_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "syscfg.go",
-      3
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_vb_ns_11.c",
-      2
-   ],
-   [
-      "sterling",
-      "sha512_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "nrf52_hw_id.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_utils.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_spi.c",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "bmd300eval_download.sh",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_small_file.c",
-      1
-   ],
-   [
-      "sterling",
-      "truncate_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "overwrite_many_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_ctrl.h",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "custom.css",
-      9
-   ],
-   [
-      "sterling",
-      "stm32f4xx_hw_id.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "flash_map.c",
-      2
-   ],
-   [
-      "sterling",
-      "config_file.h",
+      "oc_gatt.h",
       1
    ],
    [
@@ -605,1034 +55,9 @@
       1
    ],
    [
-      "Sterling Hughes",
-      "split.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "target_cmds.go",
-      7
-   ],
-   [
-      "Marko Kiiskila",
-      "flash_map.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_att_cmd_priv.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "ble_ll_adv.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "bootutil.h",
-      5
-   ],
-   [
-      "sterling",
-      "many_children_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "util.go",
-      17
-   ],
-   [
-      "ccollins",
-      "startup_STM32F40x.s",
-      8
-   ],
-   [
-      "sterling",
-      "os_callout.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_scan.c",
-      1
-   ],
-   [
-      "ccollins",
-      "nrf51.ld",
-      1
-   ],
-   [
-      "ccollins",
-      "boot_test_nv_ns_10.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "nffs.gdb",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "bletiny.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_mbuf.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_att_clt.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_flash.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "peer.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hw.c",
-      3
-   ],
-   [
-      "sterling",
-      "stm32f4_eth.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "loader.c",
-      9
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_no_hash.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_cputime.h",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "v2.css",
-      18
-   ],
-   [
-      "ccollins",
-      "sem_test.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "crash.go",
-      2
-   ],
-   [
-      "ccollins",
-      "log_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "coredump.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_multiple_in_file.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4xx_hal_spi.h",
-      1
-   ],
-   [
-      "sterling",
-      "imgmgr_coredump.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-nucleo-f401re.ld",
-      2
-   ],
-   [
-      "sterling",
-      "json_simple_decode.c",
-      1
-   ],
-   [
-      "ccollins",
-      "ble_hs_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_test.h",
-      1
-   ],
-   [
-      "ccollins",
-      "mempool_test.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "gcc_startup_nrf52_split.s",
-      2
-   ],
-   [
-      "William San Filippo",
-      "boot-nrf51dk-16kbram.ld",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "boot_test.c",
-      6
-   ],
-   [
-      "Christopher Collins",
-      "image.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_scan.h",
-      1
-   ],
-   [
-      "sterling",
-      "hal_uart_nxp.h",
-      1
-   ],
-   [
-      "ccollins",
-      "ripemd160_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "gcm_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "nrf52dk.ld",
-      1
-   ],
-   [
-      "sterling",
-      "mn_sock_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_l2cap.h",
-      1
-   ],
-   [
-      "ccollins",
-      "event_test_src.c",
-      1
-   ],
-   [
-      "sterling",
-      "mn_socket.h",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_multiple_in_file.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "build_cmds.go",
-      2
-   ],
-   [
-      "sterling",
-      "prompt.h",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "deps.go",
-      4
-   ],
-   [
-      "Marko Kiiskila",
-      "nrf51_hw_id.c",
-      1
-   ],
-   [
-      "ccollins",
-      "overwrite_two_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "hex_test.c",
-      1
-   ],
-   [
-      "aditihilbert",
-      "securitybullets.html",
-      1
-   ],
-   [
-      "ccollins",
-      "append_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_getset_bytes.c",
-      2
-   ],
-   [
-      "sterling",
-      "os_dev.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_resolv.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "gcc_startup_nrf52.s",
-      2
-   ],
-   [
-      "sterling",
-      "sbrk.c",
-      12
-   ],
-   [
-      "sterling",
-      "frdm-k64f_hal.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_serial_empty_img_msg.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4_eth.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_adv.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "split_priv.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-nrf51xxac.ld",
-      4
-   ],
-   [
-      "Gavin Jefferies",
-      "base.html",
-      15
-   ],
-   [
-      "sterling",
-      "append_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_sem_test_case_2.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "bootutil.h",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test_init.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "sim.gdb",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "cmsis_nvic.h",
-      2
-   ],
-   [
-      "sterling",
-      "cache_large_file_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "json_simple_encode.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_inode.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_priv.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "adc_nrf51.h",
-      1
-   ],
-   [
-      "sterling",
-      "hal_common.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs_cfg.c",
-      1
-   ],
-   [
-      "sterling",
-      "hci_common.h",
-      1
-   ],
-   [
-      "sterling",
-      "crash_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "random.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_gpio.h",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_empty_file.c",
-      1
-   ],
-   [
-      "ccollins",
-      "nffs_test_utils.h",
-      1
-   ],
-   [
-      "sterling",
-      "console.h",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "ecp_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_svc_lls.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs_test_util.h",
-      2
-   ],
-   [
-      "sterling",
-      "ble_eddystone.c",
-      1
-   ],
-   [
-      "ccollins",
-      "incomplete_block_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "gcm_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "testutil.c",
-      2
-   ],
-   [
-      "sterling",
-      "run_from_loader.ld",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs_hci_cmd.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "image_validate.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_hci.c",
-      1
-   ],
-   [
-      "ccollins",
-      "boot_test_revert_continue.c",
-      2
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_no_flag_has_hash.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_conn_priv.h",
-      1
-   ],
-   [
-      "ccollins",
-      "log_append_fcb.c",
-      1
-   ],
-   [
-      "wes3",
-      "gcc_startup_nrf51_split.s",
-      1
-   ],
-   [
-      "sterling",
-      "os_sanity.c",
-      1
-   ],
-   [
-      "ccollins",
-      "truncate_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_scan.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "connble.go",
-      4
-   ],
-   [
-      "Peter Snyder",
-      "boot_serial_img_msg.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_supp_cmd.c",
-      1
-   ],
-   [
-      "sterling",
-      "wifi_cli.c",
-      1
-   ],
-   [
-      "sterling",
-      "crash_nmgr.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_nv_ns_11.c",
-      1
-   ],
-   [
-      "ccollins",
-      "mbuf_test.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "log.c",
-      1
-   ],
-   [
-      "ccollins",
-      "os_test_arch_arm.c",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test_append_too_big.c",
-      1
-   ],
-   [
-      "ccollins",
-      "inet_ntop_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_conn_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "mfg.c",
-      1
-   ],
-   [
-      "wes3",
-      "nrf52dk.ld",
-      1
-   ],
-   [
-      "ccollins",
-      "os_sem_test_case_1.c",
-      1
-   ],
-   [
-      "ccollins",
-      "callout_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "split_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_mutex_test_basic.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "nrf51dk_download.sh",
-      6
-   ],
-   [
-      "sterling",
-      "mn_sock_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "os_eventq.c",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "system_stm32f4xx.c",
-      2
-   ],
-   [
-      "sterling",
-      "mcu_sim.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs.c",
-      6
-   ],
-   [
-      "Peter Snyder",
-      "os_sem_test_case_4.c",
-      2
-   ],
-   [
-      "sterling",
-      "cc.h",
-      1
-   ],
-   [
-      "sterling",
-      "crash_cli.c",
-      1
-   ],
-   [
-      "sterling",
-      "wifi_priv.h",
-      1
-   ],
-   [
-      "ccollins",
-      "case.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "md5_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stats_nmgr.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "nffs_test.c",
-      2
-   ],
-   [
-      "sterling",
-      "prompt.c",
-      1
-   ],
-   [
-      "ccollins",
-      "corrupt_block_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_getset_bytes.c",
-      2
-   ],
-   [
-      "sterling",
-      "ip_init.c",
-      1
-   ],
-   [
-      "sterling",
-      "native_itf.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_ctrl.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_callout_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "native_sock.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm_lgcy.c",
-      1
-   ],
-   [
-      "sterling",
-      "log_nmgr.c",
-      1
-   ],
-   [
-      "sterling",
-      "fs_dirent.c",
-      1
-   ],
-   [
-      "ccollins",
-      "stm32f407.ld",
-      1
-   ],
-   [
-      "sterling",
-      "ble_att_priv.h",
-      1
-   ],
-   [
-      "ccollins",
-      "open_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_hash.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "os_sched.h",
-      2
-   ],
-   [
-      "sterling",
-      "mkdir_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_file.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_mbuf_test_append.c",
-      1
-   ],
-   [
-      "sterling",
-      "mynewt.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "mgmt.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_os_tick.c",
-      4
-   ],
-   [
-      "sterling",
-      "ble_hs_id.c",
-      1
-   ],
-   [
-      "sterling",
-      "stats.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4discovery_debug.sh",
-      5
-   ],
-   [
-      "sterling",
-      "config_line.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_config.c",
-      1
-   ],
-   [
-      "sterling",
-      "lwip_if.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "oicmgr.c",
-      8
-   ],
-   [
-      "William San Filippo",
-      "hal_timer.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "newtutil.go",
-      6
-   ],
-   [
-      "Christopher Collins",
-      "mfg.h",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "toc.html",
-      3
-   ],
-   [
-      "ccollins",
-      "unlink_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "cbor_buf_reader.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ocf_ble.c",
-      2
-   ],
-   [
-      "sterling",
-      "storage.c",
-      1
-   ],
-   [
-      "sterling",
-      "bleuart.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "landing.html",
-      15
-   ],
-   [
-      "wes3",
-      "boot-rb-nano2.ld",
-      1
-   ],
-   [
-      "sterling",
-      "inet_pton_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "primo_download.sh",
-      2
-   ],
-   [
-      "ccollins",
-      "eventq_test.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "oc_loop.c",
-      1
-   ],
-   [
-      "ccollins",
-      "ob_mbuf_test_pullup.c",
-      1
-   ],
-   [
-      "ccollins",
-      "tu_args.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "bootutil_test.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_nv_bs_11.c",
-      1
-   ],
-   [
-      "sterling",
-      "x509_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_startup.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4_eth.c",
-      1
-   ],
-   [
-      "ccollins",
-      "test_json_simple.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_watchdog.c",
-      5
-   ],
-   [
-      "sterling",
-      "hex2str.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_gpio.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "bleprph.h",
-      1
-   ],
-   [
-      "sterling",
-      "mfg.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "olimex_stm32-e407_devboard_debug.sh",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "vars.go",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_conn.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_test_util_store.h",
-      1
-   ],
-   [
       "sterling",
-      "config_cli.c",
+      "ble_hs_hci.c",
       1
-   ],
-   [
-      "Peter Snyder",
-      "eventq_test.h",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "boot_test.h",
-      2
    ],
    [
       "Peter Snyder",
@@ -1640,1398 +65,13 @@
       2
    ],
    [
-      "sterling",
-      "ble_ll_sched.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ocf_sample.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "frdm-k64_download.sh",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_serial_upload_bigger_image.c",
-      5
-   ],
-   [
-      "ccollins",
-      "mn_sock_util.c",
-      1
-   ],
-   [
       "Sterling Hughes",
-      "boot_test_no_flag_has_hash.c",
+      "bootutil_test.h",
       1
-   ],
-   [
-      "sterling",
-      "hci_common.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_i2c.c",
-      5
-   ],
-   [
-      "ccollins",
-      "config_test_commit.c",
-      2
-   ],
-   [
-      "sterling",
-      "config_store.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_watchdog.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_sanity.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "hmac_drbg_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "str2hex.c",
-      1
-   ],
-   [
-      "ccollins",
-      "event_test_poll_sr.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "nrf51dk-16kbram_download.sh",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_reset_cause.c",
-      8
-   ],
-   [
-      "Christopher Collins",
-      "bootutil_misc.h",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "nucleo-f401re_debug.sh",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "nucleo-f401re_download.sh",
-      5
-   ],
-   [
-      "sterling",
-      "nffs_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "boot.c",
-      4
-   ],
-   [
-      "sterling",
-      "os_arch_arm.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "zsyscall_linux_mips64.go",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4discovery_download.sh",
-      4
-   ],
-   [
-      "sterling",
-      "ble_ll_resolv.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_vm_ns_11_b.c",
-      2
-   ],
-   [
-      "sterling",
-      "os.c",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gap_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "base64.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_queue.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_nv_ns_10.c",
-      1
-   ],
-   [
-      "sterling",
-      "encoding_test_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_svc_ans.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs_adv.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "wifi.c",
-      2
-   ],
-   [
-      "sterling",
-      "os_mutex.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "json_decode.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "nrf52dk_download.sh",
-      1
-   ],
-   [
-      "ccollins",
-      "md5_test.c",
-      1
-   ],
-   [
-      "aditihilbert",
-      "ble.html",
-      6
-   ],
-   [
-      "sterling",
-      "log_reboot.c",
-      1
-   ],
-   [
-      "ccollins",
-      "mutex_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "large_system_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_svc_ans.h",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "paths.go",
-      9
-   ],
-   [
-      "ccollins",
-      "os_mbuf_test_dup.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_pvcy_priv.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "openocd.sh",
-      5
-   ],
-   [
-      "sterling",
-      "mn_socket_aconv.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "wifi.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_flash_int.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "uart_hal.c",
-      1
-   ],
-   [
-      "ccollins",
-      "overwrite_one_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "mkdir_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_save_one_file.c",
-      1
-   ],
-   [
-      "ccollins",
-      "nrf52xxaa.ld",
-      2
-   ],
-   [
-      "sterling",
-      "ble_gatts_read_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "results.c",
-      1
-   ],
-   [
-      "ccollins",
-      "config_fcb.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_serial_empty_msg.c",
-      1
-   ],
-   [
-      "sterling",
-      "mem.h",
-      1
-   ],
-   [
-      "sterling",
-      "suite.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_adv_priv.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_vm_ns_11_2areas.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gatt_find_s_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "build.go",
-      13
-   ],
-   [
-      "sterling",
-      "ble_hs_mbuf.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "results.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_system_start.c",
-      4
-   ],
-   [
-      "Marko Kiiskila",
-      "jlink.sh",
-      2
-   ],
-   [
-      "ccollins",
-      "flash_map_test_case_1.c",
-      1
-   ],
-   [
-      "wes3",
-      "nrf52xxaa.ld",
-      2
-   ],
-   [
-      "sterling",
-      "stm32f4xx_mynewt_hal.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm_sc.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "nrf51xxac.ld",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "split_config.c",
-      2
-   ],
-   [
-      "Peter Snyder",
-      "runtest.h",
-      1
-   ],
-   [
-      "sterling",
-      "stats.c",
-      1
-   ],
-   [
-      "wes3",
-      "nrf51xxac.ld",
-      1
-   ],
-   [
-      "paulfdietrich",
-      "cons_tty.c",
-      1
-   ],
-   [
-      "ccollins",
-      "corrupt_scratch_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_time.c",
-      1
-   ],
-   [
-      "wes3",
-      "boot-nrf52xxaa.ld",
-      2
-   ],
-   [
-      "sterling",
-      "config_init.c",
-      1
-   ],
-   [
-      "sterling",
-      "event_test_poll_timeout_sr.c",
-      1
-   ],
-   [
-      "ccollins",
-      "os_test_arch_sim.c",
-      1
-   ],
-   [
-      "sterling",
-      "fs_if.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "complete_cmd.go",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "oicmgr.c",
-      2
-   ],
-   [
-      "aditihilbert",
-      "talks.html",
-      5
-   ],
-   [
-      "sterling",
-      "os_mbuf_test_extend.c",
-      1
-   ],
-   [
-      "sterling",
-      "log_append_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "mgmt.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_uuid.c",
-      1
-   ],
-   [
-      "ccollins",
-      "inet_pton_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_timer.c",
-      3
-   ],
-   [
-      "sterling",
-      "ble_hs_conn_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "log_setup_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_priv.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "inet_def_service.c",
-      4
-   ],
-   [
-      "sterling",
-      "ble_att.h",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test_empty_walk.c",
-      1
-   ],
-   [
-      "sterling",
-      "id.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_i2c.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_conn.c",
-      1
-   ],
-   [
-      "ccollins",
-      "os_mbuf_test_append.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_gpio.c",
-      5
-   ],
-   [
-      "sterling",
-      "nffs_test_utils.h",
-      1
-   ],
-   [
-      "sterling",
-      "mn_sock_util.c",
-      1
-   ],
-   [
-      "sterling",
-      "log.c",
-      2
-   ],
-   [
-      "ccollins",
-      "arc4_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_fault.c",
-      3
-   ],
-   [
-      "ccollins",
-      "gcc_startup_nrf52.s",
-      6
-   ],
-   [
-      "sterling",
-      "sha1_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "test_json_utils.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_nv_bs_11_2areas.c",
-      3
-   ],
-   [
-      "ccollins",
-      "os_mutex_test_basic.c",
-      1
-   ],
-   [
-      "Micha?? Narajowski",
-      "gcc_startup_nrf52_split.s",
-      4
-   ],
-   [
-      "William San Filippo",
-      "stm32f401.ld",
-      2
-   ],
-   [
-      "wes3",
-      "hal_bsp.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_mempool.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_svc_lls.h",
-      2
-   ],
-   [
-      "sterling",
-      "config_test_save_2_fcb.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_vm_ns_01.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "shell.c",
-      2
-   ],
-   [
-      "sterling",
-      "fs.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "connudp.go",
-      6
-   ],
-   [
-      "sterling",
-      "callout_test.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "libc_stubs.c",
-      12
-   ],
-   [
-      "sterling",
-      "newtmgr.h",
-      1
-   ],
-   [
-      "ccollins",
-      "nffs_test_system_01.c",
-      2
-   ],
-   [
-      "William San Filippo",
-      "boot-nrf51xxaa.ld",
-      4
-   ],
-   [
-      "Christopher Collins",
-      "event_test_poll_single_sr.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_os_test.c",
-      3
-   ],
-   [
-      "Sterling Hughes",
-      "ccm_test.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "nrf_drv_twi.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "log_flush_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_mempool_test_case.c",
-      1
-   ],
-   [
-      "sterling",
-      "split_file_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_walk.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "zsyscall_linux_amd64.go",
-      1
-   ],
-   [
-      "sterling",
-      "test_json.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_hci.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "newt.go",
-      3
-   ],
-   [
-      "sterling",
-      "shell_prompt.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_nv_bs_11_2areas.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "mn_sock_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "stm32f4discovery_download.sh",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "os_fault.c",
-      2
-   ],
-   [
-      "ccollins",
-      "read_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_store.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "os_sem_test_basic.c",
-      2
-   ],
-   [
-      "sterling",
-      "config_empty_lookups.c",
-      2
-   ],
-   [
-      "sterling",
-      "os.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_hci.h",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_test.h",
-      2
-   ],
-   [
-      "sterling",
-      "corrupt_scratch_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "nrf52dk_debug.sh",
-      3
-   ],
-   [
-      "sterling",
-      "mbuf_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_crc.c",
-      1
-   ],
-   [
-      "ccollins",
-      "os_test_priv.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "load.go",
-      4
-   ],
-   [
-      "ccollins",
-      "util_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "rb-nano2_debug.sh",
-      2
-   ],
-   [
-      "sterling",
-      "hal_spi.h",
-      1
-   ],
-   [
-      "sterling",
-      "hal_uart.c",
-      5
-   ],
-   [
-      "ccollins",
-      "fcb_test_append.c",
-      1
-   ],
-   [
-      "sterling",
-      "newtmgr_ble.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_vm_ns_01.c",
-      2
-   ],
-   [
-      "Peter Snyder",
-      "log.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "os_test.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "image_validate.c",
-      1
-   ],
-   [
-      "aditihilbert",
-      "secondary-banner.html",
-      3
-   ],
-   [
-      "sterling",
-      "ble_l2cap_sig_cmd.c",
-      1
-   ],
-   [
-      "sterling",
-      "oc_loop.c",
-      1
-   ],
-   [
-      "wes3",
-      "system_nrf52.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "split.c",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "id.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_task.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "mgmt.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_id.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "logs.go",
-      2
    ],
    [
       "sterling",
       "mfg.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gatts.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "stm32f407.ld",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hci_uart.h",
-      1
-   ],
-   [
-      "sterling",
-      "shell.h",
-      1
-   ],
-   [
-      "ccollins",
-      "boot_test_vm_ns_01.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "ble_svc_ias.h",
-      2
-   ],
-   [
-      "Peter Snyder",
-      "testutil.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "hex.c",
-      1
-   ],
-   [
-      "ccollins",
-      "flash_map_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm.h",
-      1
-   ],
-   [
-      "wes3",
-      "rb-nano2.ld",
-      1
-   ],
-   [
-      "sterling",
-      "event_test_poll_single_sr.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_log.h",
-      1
-   ],
-   [
-      "ccollins",
-      "cache_large_file_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "socket_tests.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_uuid_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "log.h",
-      1
-   ],
-   [
-      "sterling",
-      "log.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_sem.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_rotate.c",
-      1
-   ],
-   [
-      "sterling",
-      "shell_os.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "main.c",
-      8
-   ],
-   [
-      "sterling",
-      "fcb_test_init.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_save_1_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "flash_map.h",
-      1
-   ],
-   [
-      "sterling",
-      "mgmt.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "aes_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test_reset.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "imgmgr_state.c",
-      4
-   ],
-   [
-      "Christopher Collins",
-      "event_test_poll_timeout_sr.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "os_bsp.c",
-      29
-   ],
-   [
-      "Christopher Collins",
-      "repo.go",
-      4
-   ],
-   [
-      "sterling",
-      "conf_test_nffs.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "mfg_cmds.go",
-      8
-   ],
-   [
-      "aditihilbert",
-      "configurability.html",
-      3
-   ],
-   [
-      "sterling",
-      "flash_map.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "nrf51dk-16kbram_debug.sh",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "mgmt.h",
-      2
-   ],
-   [
-      "sterling",
-      "nffs_test_system_01.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "mn_sock_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "bootutil_misc.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "main.c",
-      12
-   ],
-   [
-      "sterling",
-      "ble_sm_sc_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "log_nmgr.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_compress_reset.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_spi_soft_ssi.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "template.html",
-      6
-   ],
-   [
-      "sterling",
-      "testutil.c",
-      1
-   ],
-   [
-      "aditihilbert",
-      "landing.html",
-      14
-   ],
-   [
-      "Christopher Collins",
-      "buildutil.go",
-      2
-   ],
-   [
-      "Micha?? Narajowski",
-      "gcc_startup_nrf52.s",
-      4
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_system_start.c",
-      4
-   ],
-   [
-      "sterling",
-      "ble_gatt.h",
-      1
-   ],
-   [
-      "sterling",
-      "hal_flash.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_os_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "adaptor.c",
-      1
-   ],
-   [
-      "ccollins",
-      "os_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "bsp.h",
-      13
-   ],
-   [
-      "sterling",
-      "os_callout_test_stop.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "primo_debug.sh",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gatt_disc_c_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_callout.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "boot_serial.h",
-      2
-   ],
-   [
-      "sterling",
-      "rename_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_gap_test.c",
-      2
-   ],
-   [
-      "sterling",
-      "cbor_buf_reader.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "misc.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_sem_test_case_4.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gatts_notify_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_insert3.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "rb-nano2_download.sh",
-      4
-   ],
-   [
-      "sterling",
-      "nffs_test_debug.c",
-      1
-   ],
-   [
-      "sterling",
-      "oicmgr.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "nrf_drv_config.h",
-      3
-   ],
-   [
-      "ccollins",
-      "json_simple_encode.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_serial_upload_bigger_image.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "configurability.html",
-      3
-   ],
-   [
-      "William San Filippo",
-      "system_nrf52.c",
-      4
-   ],
-   [
-      "sterling",
-      "log_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_i2c.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "runtest_cli.c",
-      1
-   ],
-   [
-      "ccollins",
-      "os_sem_test_case_2.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_uart.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "cmdrunner.go",
-      4
-   ],
-   [
-      "Christopher Collins",
-      "project_cmds.go",
-      2
-   ],
-   [
-      "ccollins",
-      "flash_map.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_timer.c",
-      9
-   ],
-   [
-      "Sterling Hughes",
-      "misc.c",
-      3
-   ],
-   [
-      "Christopher Collins",
-      "flash_map.h",
-      1
-   ],
-   [
-      "sterling",
-      "wifi_mgmt.h",
       1
    ],
    [
@@ -3041,362 +81,7 @@
    ],
    [
       "sterling",
-      "imgmgr_util.c",
-      1
-   ],
-   [
-      "sterling",
-      "cmsis_nvic.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_adv.h",
-      1
-   ],
-   [
-      "ccollins",
-      "suite.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "localpackage.go",
-      5
-   ],
-   [
-      "Christopher Collins",
-      "oc_gatt.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_no_hash.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm_cmd.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_bsp.h",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_gc.c",
-      1
-   ],
-   [
-      "sterling",
-      "flash_map_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_svc_ias.c",
-      2
-   ],
-   [
-      "William San Filippo",
-      "ble_hci_uart.c",
-      1
-   ],
-   [
-      "sterling",
-      "stm32f4discovery.ld",
-      1
-   ],
-   [
-      "sterling",
-      "serial_adaptor.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_block.c",
-      1
-   ],
-   [
-      "ccollins",
-      "boot_test_vm_ns_11_b.c",
-      2
-   ],
-   [
-      "ccollins",
-      "mempool_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_svc_gatt.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test_append_fill.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "os_callout.h",
-      2
-   ],
-   [
-      "sterling",
-      "hal_i2c.c",
-      3
-   ],
-   [
-      "Peter Snyder",
-      "runtest.go",
-      4
-   ],
-   [
-      "Gavin Jefferies",
-      "about.html",
-      3
-   ],
-   [
-      "sterling",
-      "uart_hal.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-nrf51-arduino_101.ld",
-      2
-   ],
-   [
-      "sterling",
-      "nffs_area.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "quick-start.html",
-      6
-   ],
-   [
-      "sterling",
-      "olimex_stm32-e407_devboard.ld",
-      1
-   ],
-   [
-      "sterling",
-      "sem_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "config.h",
-      2
-   ],
-   [
-      "sterling",
-      "ble_gatt_write_test.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "os_sem_test_case_2.c",
-      2
-   ],
-   [
-      "ccollins",
-      "testutil.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "bootutil_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ibeacon.h",
-      1
-   ],
-   [
-      "spoonofpower",
-      "build.go",
-      1
-   ],
-   [
-      "sterling",
-      "eventq_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_revert.c",
-      1
-   ],
-   [
-      "sterling",
-      "cons_tty.c",
-      1
-   ],
-   [
-      "sterling",
-      "nmgr_uart.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_mutex_test_case_2.c",
-      1
-   ],
-   [
-      "sterling",
-      "mn_socket.c",
-      1
-   ],
-   [
-      "sterling",
-      "flash_map_test_case_2.c",
-      1
-   ],
-   [
-      "sterling",
-      "imgmgr_state.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_mbuf_test_get_pkghdr.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_dev.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "bletest_priv.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_timer.c",
-      2
-   ],
-   [
-      "sterling",
-      "hal_system.c",
-      5
-   ],
-   [
-      "sterling",
-      "fcb_elem_info.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_serial.c",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "adc_nrf51.c",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_save_3_fcb.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "os_bsp.c",
-      19
-   ],
-   [
-      "Marko Kiiskila",
-      "inet_def_service.h",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "crash_test.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "ble_ll_adv.h",
-      1
-   ],
-   [
-      "sterling",
-      "native_sock.h",
-      1
-   ],
-   [
-      "sterling",
-      "rsa_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "fsutil.h",
-      1
-   ],
-   [
-      "sterling",
-      "inet_def_service.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_cputime.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "newtmgr.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "bignum_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_log.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "ble_hci_uart.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "wifi_mgmt.h",
-      1
-   ],
-   [
-      "sterling",
-      "flash_map_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "mbedtls_test.c",
+      "stm32f4_bsp.h",
       1
    ],
    [
@@ -3406,363 +91,63 @@
    ],
    [
       "sterling",
-      "cons_fmt.c",
+      "json.h",
       1
    ],
    [
       "sterling",
-      "ble_hci_uart.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "testutil.h",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_nv_bs_10.c",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_save_in_file.c",
+      "crash_test.c",
       1
    ],
    [
       "sterling",
-      "endian.h",
+      "os_sched.c",
+      1
+   ],
+   [
+      "sterling",
+      "native_sock_priv.h",
       1
    ],
    [
       "Marko Kiiskila",
-      "frdm-k64_debug.sh",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm_test_util.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_mbuf_test_alloc.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_store_ram.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_system.c",
-      5
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4xx_hal_i2c.h",
+      "socket_tests.c",
       1
    ],
    [
       "William San Filippo",
-      "nrf51dk-16kbram.ld",
-      2
-   ],
-   [
-      "sterling",
-      "mcu_hal.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "gatt_svr.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "testutil.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "ble_hci_uart.c",
-      2
-   ],
-   [
-      "sterling",
-      "clock.c",
-      1
-   ],
-   [
-      "wes3",
-      "stm32f407.ld",
-      1
-   ],
-   [
-      "William San Filippo",
-      "sbrk.c",
-      1
-   ],
-   [
-      "sterling",
-      "oc_gatt.h",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "conf_test_fcb.h",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_test_utils.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test_append_too_big.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_nv_bs_10.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_common.c",
-      1
-   ],
-   [
-      "sterling",
-      "cbmem_test_case_1.c",
-      1
-   ],
-   [
-      "ccollins",
-      "sha1_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "run_from_sram.ld",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs_misc.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_sched.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "nrf52dk_download.sh",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "sysinit.h",
-      4
-   ],
-   [
-      "Marko Kiiskila",
-      "boot_serial.c",
-      2
-   ],
-   [
-      "sterling",
-      "mutex_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_whitelist.h",
-      1
-   ],
-   [
-      "ccollins",
-      "str2hex.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_test_util.h",
-      1
-   ],
-   [
-      "sterling",
-      "eventq_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "imgmgr_cli.c",
-      3
-   ],
-   [
-      "ccollins",
-      "nffs_test.c",
-      3
-   ],
-   [
-      "Sterling Hughes",
-      "image.h",
-      1
-   ],
-   [
-      "wes3",
-      "os_bsp.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_gap.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "stm32f4discovery.ld",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "os.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "custom.js",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "rb-nano2_debug.sh",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs_conn_test.c",
-      2
-   ],
-   [
-      "ccollins",
-      "nffs_test_debug.c",
+      "hal_watchdog.c",
       1
    ],
    [
       "Sterling Hughes",
-      "build.go",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_invalid_hash.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "mutex_test.c",
+      "mbedtls_test.h",
       2
    ],
    [
       "sterling",
-      "config_test_getset_int.c",
-      2
-   ],
-   [
-      "sterling",
-      "mbuf_test.h",
+      "nffs_block.c",
       1
    ],
    [
       "ccollins",
-      "eventq_test.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-stm32f4discovery.ld",
-      2
-   ],
-   [
-      "sterling",
-      "ble_ll_scan.h",
+      "event_test_poll_0timo.c",
       1
    ],
    [
       "Christopher Collins",
-      "gcc_startup_nrf52_split.s",
-      4
-   ],
-   [
-      "William San Filippo",
-      "hal_bsp.c",
-      24
-   ],
-   [
-      "wes3",
-      "startup_STM32F40x.s",
-      4
-   ],
-   [
-      "Peter Snyder",
-      "commands.go",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "log2smtest.rb",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_bsp.h",
-      2
-   ],
-   [
-      "sterling",
-      "lwip_mynewt.c",
+      "event_test_poll_timeout_sr.c",
       1
    ],
    [
-      "Marko Kiiskila",
-      "main.c",
-      17
-   ],
-   [
-      "William San Filippo",
-      "gcc_startup_nrf51_split.s",
-      7
-   ],
-   [
-      "Sterling Hughes",
-      "mbedtls_test.c",
+      "sterling",
+      "oc_loop.c",
       1
    ],
    [
       "ccollins",
-      "boot_test_vm_ns_11_a.c",
+      "config_test_getset_bytes.c",
       2
-   ],
-   [
-      "Christopher Collins",
-      "os_callout.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_eventq.c",
-      1
    ],
    [
       "Christopher Collins",
@@ -3770,578 +155,8 @@
       1
    ],
    [
-      "Christopher Collins",
-      "ble_hs_mbuf_priv.h",
-      2
-   ],
-   [
-      "ccollins",
-      "cbmem_test_case_3.c",
-      1
-   ],
-   [
       "Marko Kiiskila",
-      "imgmgr.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4xx_mynewt_hal.h",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test_multiple_scratch.c",
-      1
-   ],
-   [
-      "aditihilbert",
-      "community.html",
-      3
-   ],
-   [
-      "sterling",
-      "ble_hs_hci_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_insert2.c",
-      2
-   ],
-   [
-      "sterling",
-      "log_cbmem.c",
-      1
-   ],
-   [
-      "sterling",
-      "fs_cli.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "arc4_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_arch.h",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "nffs_misc.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_vb_ns_11.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "abort.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_cache.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "os_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_append.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "serial_adaptor.c",
-      3
-   ],
-   [
-      "sterling",
-      "imgmgr.h",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_format.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_l2cap_sig_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "create.go",
-      16
-   ],
-   [
-      "Christopher Collins",
-      "loader.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "newtmgr_os.c",
-      1
-   ],
-   [
-      "sterling",
-      "nimble_opt.h",
-      1
-   ],
-   [
-      "ccollins",
-      "config_test_getset_unknown.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "id.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_gpio.h",
-      2
-   ],
-   [
-      "ccollins",
-      "nffs_test_priv.h",
-      2
-   ],
-   [
-      "sterling",
-      "nucleo-f401re.ld",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "zsyscall_linux_ppc64.go",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "build.py",
-      4
-   ],
-   [
-      "Vipul Rahane",
-      "log_nmgr.c",
-      2
-   ],
-   [
-      "ccollins",
-      "config_test_compress_reset.c",
-      1
-   ],
-   [
-      "sterling",
-      "hex.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "meta.go",
-      10
-   ],
-   [
-      "Marko Kiiskila",
-      "mcu.h",
-      5
-   ],
-   [
-      "sterling",
-      "ble_store.h",
-      1
-   ],
-   [
-      "sterling",
-      "conf_test_nffs.h",
-      1
-   ],
-   [
-      "ccollins",
-      "cbmem_test_case_2.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "targetbuild.go",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "load.go",
-      14
-   ],
-   [
-      "sterling",
-      "log_walk_fcb.c",
-      1
-   ],
-   [
-      "ccollins",
-      "cbmem_test_case_1.c",
-      1
-   ],
-   [
-      "ccollins",
-      "boot_test_vm_ns_11_2areas.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_adaptor.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_serial_img_msg.c",
-      5
-   ],
-   [
-      "sterling",
-      "fs_mkdir.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_serial_empty_img_msg.c",
-      3
-   ],
-   [
-      "ccollins",
-      "hmac_drbg_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "testreport_priv.h",
-      1
-   ],
-   [
-      "ccollins",
-      "rsa_test.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "newtmgr.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "defs.go",
-      2
-   ],
-   [
-      "ccollins",
-      "readdir_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "hal_common.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "sbrk.c",
-      2
-   ],
-   [
-      "sterling",
-      "stats_nmgr.c",
-      1
-   ],
-   [
-      "ccollins",
-      "test_json_utils.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_invalid_hash.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "gcc_startup_nrf52.s",
-      4
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_nv_ns_10.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_cfg.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_vm_ns_11_2areas.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "interfaces.go",
-      4
-   ],
-   [
-      "Gavin Jefferies",
-      "ble.html",
-      3
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_utils.c",
-      1
-   ],
-   [
-      "sterling",
-      "inet_def_service.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "nrf52xxaa.ld",
-      4
-   ],
-   [
-      "sterling",
-      "nffs_flash.c",
-      1
-   ],
-   [
-      "sterling",
-      "open_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "native_sock.h",
-      1
-   ],
-   [
-      "ccollins",
-      "os_mutex_test_case_1.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "stats.c",
-      1
-   ],
-   [
-      "sterling",
-      "log_flush_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "xcvr.h",
-      3
-   ],
-   [
-      "Peter Snyder",
-      "os_task.h",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "nucleo-f401re_download.sh",
-      2
-   ],
-   [
-      "sterling",
-      "boot-nucleo-f401re.ld",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4xx_hw_id.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ibeacon.c",
-      1
-   ],
-   [
-      "sterling",
-      "datetime.c",
-      1
-   ],
-   [
-      "sterling",
-      "ip_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "cborattr.c",
-      1
-   ],
-   [
-      "ccollins",
-      "conf_test_fcb.h",
-      1
-   ],
-   [
-      "sterling",
-      "config_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_file.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "event_test_poll_0timo.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-nrf51dk.ld",
-      4
-   ],
-   [
-      "Marko Kiiskila",
-      "crash_cli.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_conn.c",
-      1
-   ],
-   [
-      "ccollins",
-      "gc_on_oom_test.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "mempool_test.c",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "bmd300eval_debug.sh",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "os_arch_arm.c",
-      2
-   ],
-   [
-      "sterling",
-      "coredump.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test_empty_walk.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "bsp.h",
-      5
-   ],
-   [
-      "sterling",
-      "imgmgr_cli.c",
-      1
-   ],
-   [
-      "ccollins",
-      "event_test_poll_single_sr.c",
-      1
-   ],
-   [
-      "ccollins",
-      "test_json.c",
-      1
-   ],
-   [
-      "sterling",
-      "uart_hal.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "log_reboot.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_ll_rand.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "nrf51dk_debug.sh",
-      2
-   ],
-   [
-      "sterling",
-      "ble_ll_adv.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "mn_sock_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_insert.c",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "dhm_test.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "talks.html",
-      6
-   ],
-   [
-      "Marko Kiiskila",
-      "compiler.go",
-      2
-   ],
-   [
-      "sterling",
-      "fcb_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "long_filename_test.c",
+      "oc_ri.h",
       1
    ],
    [
@@ -4351,557 +166,17 @@
    ],
    [
       "sterling",
-      "config_nmgr.c",
-      1
+      "run_from_loader.ld",
+      2
    ],
    [
-      "William San Filippo",
-      "ble_ll_scan.h",
+      "sterling",
+      "corrupt_scratch_test.c",
       1
    ],
    [
       "ccollins",
-      "boot-nrf52xxaa.ld",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "stm32f4xx_hal_conf.h",
-      1
-   ],
-   [
-      "sterling",
-      "fs_mount.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_commit.c",
-      2
-   ],
-   [
-      "ccollins",
-      "config_setup_nffs.c",
-      1
-   ],
-   [
-      "aditihilbert",
-      "main-banner.html",
-      3
-   ],
-   [
-      "Christopher Collins",
-      "os_callout.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "cbor_mbuf_reader.h",
-      2
-   ],
-   [
-      "sterling",
-      "gc_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_vm_ns_11_a.c",
-      1
-   ],
-   [
-      "ccollins",
-      "ob_mbuf_test_adj.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_bsp.h",
-      1
-   ],
-   [
-      "sterling",
-      "cbmem_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "wear_level_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "conf_test_nffs.h",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "nav.html",
-      12
-   ],
-   [
-      "sterling",
-      "ble_att.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_att_svr.c",
-      1
-   ],
-   [
-      "ccollins",
-      "sha256_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "flash_map.c",
-      1
-   ],
-   [
-      "sterling",
-      "native_bsp.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_l2cap_sig.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "os_test_priv.h",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "native_sock_priv.h",
-      2
-   ],
-   [
-      "sterling",
-      "ble_ll_whitelist.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "compiler.go",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hci_trans.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "json_simple_decode.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_test_util_store.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_dbg_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "testutil.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "oc_ri.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_cputime.c",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "flash_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_svc_gap.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "run_cmds.go",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "mbedtls_test.h",
-      2
-   ],
-   [
-      "ccollins",
-      "sha512_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_test_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "mcu.h",
-      5
-   ],
-   [
-      "Sterling Hughes",
-      "boot.c",
-      1
-   ],
-   [
-      "ccollins",
-      "xtea_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "os_callout_test_speak.c",
-      1
-   ],
-   [
-      "Vipul Rahane",
-      "hal_bsp.c",
-      2
-   ],
-   [
-      "ccollins",
-      "long_filename_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_empty_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "mempool_test.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "sem_test.h",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "boards.h",
-      10
-   ],
-   [
-      "Christopher Collins",
-      "bsp_package.go",
-      7
-   ],
-   [
-      "ccollins",
-      "conf_test_nffs.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "mgmt.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "sign_key.h",
-      1
-   ],
-   [
-      "ccollins",
-      "hex2str.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_conn_hci.c",
-      1
-   ],
-   [
-      "sterling",
-      "lwip_socket.c",
-      1
-   ],
-   [
-      "sterling",
-      "nrf52_hw_id.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_store_ram.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_nv_ns_01.c",
-      2
-   ],
-   [
-      "sterling",
-      "os_test_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "wifi.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "mfg.go",
-      11
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_nv_bs_10.c",
-      2
-   ],
-   [
-      "ccollins",
-      "config_test_empty_file.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "project.go",
-      10
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_spi.c",
-      10
-   ],
-   [
-      "sterling",
-      "io.c",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "error.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "flash.go",
-      5
-   ],
-   [
-      "ccollins",
-      "mbuf_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ip_adaptor.c",
-      3
-   ],
-   [
-      "Peter Snyder",
-      "boot_test.h",
-      2
-   ],
-   [
-      "aditihilbert",
-      "template.html",
-      3
-   ],
-   [
-      "Peter Snyder",
-      "os_sem_test_case_3.c",
-      2
-   ],
-   [
-      "ccollins",
-      "config_test_empty_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "cbmem_test_case_2.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_svc_gap.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "flash_map_test_case_1.c",
-      1
-   ],
-   [
-      "ccollins",
-      "encoding_test_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_dir.c",
-      1
-   ],
-   [
-      "Vipul Rahane",
-      "image.go",
-      2
-   ],
-   [
-      "sterling",
-      "ble_gatt_disc_d_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "mn_socket_ops.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gattc.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "zsyscall_linux_ppc64le.go",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "omgr.go",
-      6
-   ],
-   [
-      "Christopher Collins",
-      "os_callout_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_sem_test_case_1.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_test.c",
-      2
-   ],
-   [
-      "paulfdietrich",
-      "connserial.go",
-      3
-   ],
-   [
-      "sterling",
-      "os_arch_sim.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "os_cputime.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_hw_id.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs_priv.h",
-      2
-   ],
-   [
-      "ccollins",
-      "fcb_test_rotate.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "gcc_startup_nrf51_split.s",
-      6
-   ],
-   [
-      "Christopher Collins",
-      "os_callout_test_stop.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_time.h",
-      1
-   ],
-   [
-      "ccollins",
-      "lost_found_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "shell_os.c",
-      3
-   ],
-   [
-      "sterling",
-      "fcb.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_sched.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "compiler.go",
-      1
-   ],
-   [
-      "sterling",
-      "os_mbuf.c",
-      1
-   ],
-   [
-      "sterling",
-      "ob_mbuf_test_pullup.c",
-      1
-   ],
-   [
-      "sterling",
-      "flash_test.c",
+      "eventq_test.h",
       1
    ],
    [
@@ -4910,263 +185,38 @@
       1
    ],
    [
-      "sterling",
-      "flash_map_test_case_1.c",
-      1
+      "wes3",
+      "nrf52xxaa.ld",
+      2
+   ],
+   [
+      "William San Filippo",
+      "boot-olimex_stm32-e407_devboard.ld",
+      2
    ],
    [
       "sterling",
+      "config_test_small_file.c",
+      1
+   ],
+   [
+      "Paul Dietrich",
       "newtmgr_os.c",
       1
    ],
    [
-      "Marko Kiiskila",
-      "boot_serial_priv.h",
-      2
-   ],
-   [
-      "wes3",
-      "gcc_startup_nrf52_split.s",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "native_sock.c",
-      2
-   ],
-   [
-      "ccollins",
-      "nffs_test_utils.c",
-      1
-   ],
-   [
-      "ccollins",
-      "gcc_startup_nrf52_split.s",
-      6
-   ],
-   [
-      "sterling",
-      "testreport.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "cmd.c",
-      1
-   ],
-   [
-      "ccollins",
-      "many_children_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "mem.c",
-      1
-   ],
-   [
-      "sterling",
-      "cortex_m4.h",
-      3
-   ],
-   [
-      "William San Filippo",
-      "core_cm3.h",
-      1
-   ],
-   [
-      "sterling",
-      "hal_bsp.c",
-      13
-   ],
-   [
-      "ccollins",
-      "boot_test_nv_ns_11.c",
-      2
-   ],
-   [
-      "sterling",
-      "cbor_mbuf_writer.c",
-      1
-   ],
-   [
-      "ccollins",
-      "rb-nano2.ld",
-      1
-   ],
-   [
-      "sterling",
-      "os_malloc.h",
-      1
-   ],
-   [
-      "sterling",
-      "case.c",
-      1
-   ],
-   [
-      "sterling",
-      "fcb_test_rotate.c",
-      1
-   ],
-   [
-      "sterling",
-      "boot-stm32f4discovery.ld",
-      1
-   ],
-   [
-      "sterling",
-      "os_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_atomic_priv.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "suite.c",
-      3
-   ],
-   [
-      "sterling",
-      "coredump.h",
-      1
-   ],
-   [
       "Christopher Collins",
-      "boot_test_no_flag_has_hash.c",
-      2
-   ],
-   [
-      "sterling",
-      "adaptor.h",
-      1
-   ],
-   [
-      "ccollins",
-      "testutil_arch_sim.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm_lgcy_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "imgmgr_state.c",
-      5
-   ],
-   [
-      "William San Filippo",
-      "ble_ll.c",
-      1
-   ],
-   [
-      "sterling",
-      "imgmgr.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_uuid.h",
-      1
-   ],
-   [
-      "ccollins",
-      "nrf51xxac.ld",
-      1
-   ],
-   [
-      "William San Filippo",
-      "ble_ll_conn.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "os_mutex_test_basic.c",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "adc_nrf52.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_mbuf_test_dup.c",
-      1
-   ],
-   [
-      "ccollins",
-      "rename_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "image_rsa.c",
-      1
-   ],
-   [
-      "sterling",
-      "unittests.h",
-      1
-   ],
-   [
-      "sterling",
-      "unlink_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "shell.h",
-      1
-   ],
-   [
-      "marko",
-      "stm32f401xe.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "build_cmds.go",
-      6
-   ],
-   [
-      "Marko Kiiskila",
-      "connserial.go",
+      "nffs.gdb",
       2
    ],
    [
       "ccollins",
-      "mbedtls_test.h",
-      1
-   ],
-   [
-      "ccollins",
-      "util_test_priv.h",
+      "boot-rb-nano2.ld",
       1
    ],
    [
       "sterling",
-      "fcb_test_len.c",
-      1
-   ],
-   [
-      "sterling",
-      "callout_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "bmd300eval_download.sh",
-      2
-   ],
-   [
-      "sterling",
-      "ble_ll_conn.h",
+      "ble_hs_hci_priv.h",
       1
    ],
    [
@@ -5175,78 +225,403 @@
       1
    ],
    [
-      "ccollins",
-      "log_walk_fcb.c",
-      1
-   ],
-   [
       "sterling",
-      "nimble_opt_auto.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_l2cap.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "boot-nucleo-f401re.ld",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "build.go",
-      2
-   ],
-   [
-      "sterling",
-      "conf_test_fcb.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "download.html",
-      6
-   ],
-   [
-      "Peter Snyder",
-      "case.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_uuid_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "error.h",
+      "native_bsp.h",
       1
    ],
    [
       "Christopher Collins",
-      "log_test.c",
+      "hal_timer.c",
       1
    ],
    [
-      "William San Filippo",
-      "nrf51-arduino_101.ld",
-      2
+      "ccollins",
+      "aes_test.c",
+      1
    ],
    [
-      "William San Filippo",
-      "gcc_startup_nrf51.s",
-      8
-   ],
-   [
-      "William San Filippo",
-      "nrf51dk.ld",
+      "Marko Kiiskila",
+      "imgmgr_state.c",
       4
    ],
    [
       "sterling",
-      "cbmem.c",
+      "suite.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "os_sem_test_case_4.c",
+      2
+   ],
+   [
+      "sterling",
+      "ble_att_priv.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "coredump.c",
+      1
+   ],
+   [
+      "ccollins",
+      "test_json.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "sim.gdb",
+      2
+   ],
+   [
+      "sterling",
+      "ble_eddystone.h",
+      1
+   ],
+   [
+      "ccollins",
+      "split_file_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "boot-nrf51xxac.ld",
+      4
+   ],
+   [
+      "Micha?? Narajowski",
+      "gcc_startup_nrf52_split.s",
+      4
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_nv_bs_11.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "build.go",
+      13
+   ],
+   [
+      "ccollins",
+      "test_json.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "adc_nrf51.c",
+      1
+   ],
+   [
+      "sterling",
+      "conf_test_nffs.c",
+      1
+   ],
+   [
+      "ccollins",
+      "gcc_startup_nrf51.s",
+      2
+   ],
+   [
+      "sterling",
+      "coredump.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_test.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "frdm-k64_download.sh",
+      1
+   ],
+   [
+      "sterling",
+      "log_append_fcb.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "wifi.c",
+      1
+   ],
+   [
+      "sterling",
+      "config.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4_eth.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "newtmgr.c",
+      3
+   ],
+   [
+      "sterling",
+      "cons_fmt.c",
+      1
+   ],
+   [
+      "sterling",
+      "large_write_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "load.go",
+      14
+   ],
+   [
+      "sterling",
+      "config_json_line.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "hal_i2c.c",
+      5
+   ],
+   [
+      "William San Filippo",
+      "boot-nrf52xxaa.ld",
+      4
+   ],
+   [
+      "ccollins",
+      "readdir_test.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "os_test.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "oc_loop.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_serial_empty_img_msg.c",
+      3
+   ],
+   [
+      "sterling",
+      "config_test_empty_file.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_mempool_test_case.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_vm_ns_11_b.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_test_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "xtea_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs.c",
+      6
+   ],
+   [
+      "Christopher Collins",
+      "build_cmds.go",
+      6
+   ],
+   [
+      "sterling",
+      "cons_tty.c",
+      1
+   ],
+   [
+      "sterling",
+      "lost_found_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ip_adaptor.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "peer.c",
+      1
+   ],
+   [
+      "sterling",
+      "lwip_if.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_task.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "error.h",
+      1
+   ],
+   [
+      "ccollins",
+      "fcb_test_append_too_big.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gap_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_dev.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_spi.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_sem_test_case_2.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "nav.html",
+      12
+   ],
+   [
+      "Marko Kiiskila",
+      "native_sock.c",
+      2
+   ],
+   [
+      "Sterling Hughes",
+      "bletiny.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_init.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_serial.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_mutex_test_case_2.c",
+      1
+   ],
+   [
+      "sterling",
+      "stm32f4discovery.ld",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_bsp.c",
+      24
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "connserial.go",
+      2
+   ],
+   [
+      "William San Filippo",
+      "core_cm0.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "build.go",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "nrf51dk_download.sh",
+      6
+   ],
+   [
+      "Marko Kiiskila",
+      "boot_serial_priv.h",
+      2
+   ],
+   [
+      "ccollins",
+      "mn_sock_test.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "shell_os.c",
+      3
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4_eth_cfg.h",
+      1
+   ],
+   [
+      "sterling",
+      "random.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "repo.go",
+      4
+   ],
+   [
+      "ccollins",
+      "boot_test_vm_ns_11_2areas.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "imgmgr_fs.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gatts.c",
+      1
+   ],
+   [
+      "sterling",
+      "fs_dirent.c",
       1
    ],
    [
@@ -5256,702 +631,182 @@
    ],
    [
       "sterling",
-      "ble_hs_hci_util.c",
-      1
-   ],
-   [
-      "Paul Dietrich",
-      "newtmgr_os.c",
+      "mcu_hal.h",
       1
    ],
    [
       "sterling",
-      "nmgr_shell.c",
+      "ble_gatt.h",
       1
    ],
    [
       "Christopher Collins",
-      "zsyscall_linux_arm.go",
+      "complete_cmd.go",
       1
    ],
    [
       "ccollins",
-      "conf_test.h",
+      "corrupt_scratch_test.c",
       1
    ],
    [
       "sterling",
-      "config_test_getset_unknown.c",
-      2
-   ],
-   [
-      "sterling",
-      "config.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "core_cm4.h",
-      1
-   ],
-   [
-      "ccollins",
-      "large_write_test.c",
+      "fcb_test_init.c",
       1
    ],
    [
       "sterling",
-      "overwrite_many_test.c",
+      "ble_hs_misc.c",
       1
    ],
    [
-      "Christopher Collins",
-      "ble_svc_tps.c",
-      4
-   ],
-   [
-      "Peter Snyder",
-      "os_sem_test_case_1.c",
-      2
-   ],
-   [
-      "ccollins",
-      "fcb_test_append_fill.c",
-      1
-   ],
-   [
-      "ccollins",
-      "entropy_test.c",
+      "Marko Kiiskila",
+      "mn_sock_util.c",
       1
    ],
    [
       "sterling",
-      "shell_prompt.c",
-      1
-   ],
-   [
-      "ccollins",
-      "gcc_startup_nrf51.s",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "bootutil_priv.h",
-      6
-   ],
-   [
-      "ccollins",
-      "config_test_getset_int.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "ble_hci_ram.h",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hci_ram.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_hs_adv_test.c",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "cborconstants_p.h",
-      2
-   ],
-   [
-      "sterling",
-      "boot-olimex_stm32-e407_devboard.ld",
-      1
-   ],
-   [
-      "William San Filippo",
-      "ble_ll_scan.c",
+      "ble_hs_adv.h",
       1
    ],
    [
       "sterling",
-      "ble_ll_conn_hci.c",
-      1
-   ],
-   [
-      "sterling",
-      "inet_ntop_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "zsyscall_linux_mips64le.go",
-      1
-   ],
-   [
-      "sterling",
-      "os_sched.h",
+      "config_test_multiple_in_file.c",
       1
    ],
    [
       "Peter Snyder",
-      "os_mempool_test_case.c",
+      "os_task.c",
       2
    ],
    [
-      "sterling",
-      "log_console.c",
-      1
-   ],
-   [
       "ccollins",
-      "config_test_insert.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm_test_util.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gatt_disc_s_test.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_serial_setup.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_l2cap_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_adaptor.c",
-      4
-   ],
-   [
-      "ccollins",
-      "x509_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_spi.h",
-      1
-   ],
-   [
-      "sterling",
-      "large_write_test.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "nrf51xxaa.ld",
-      4
-   ],
-   [
-      "ccollins",
-      "os_sem_test_basic.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_bsp.c",
-      24
-   ],
-   [
-      "ccollins",
-      "mutex_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_bsp.c",
-      11
-   ],
-   [
-      "sterling",
-      "lwipopts.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "mn_socket_aconv.c",
-      2
-   ],
-   [
-      "sterling",
-      "native_sock_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "string_array.go",
-      1
-   ],
-   [
-      "sterling",
-      "os_sem_test_case_3.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-olimex_stm32-e407_devboard.ld",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "bsp_package.go",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "os_eventq.h",
-      2
-   ],
-   [
-      "sterling",
-      "os_mutex.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "callout_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll_adv.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gap.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_hci.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_heap.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "os_mbuf.c",
-      1
-   ],
-   [
-      "ccollins",
-      "os_mutex_test_case_2.c",
-      1
-   ],
-   [
-      "sterling",
-      "ip_adaptor.c",
-      1
-   ],
-   [
-      "ccollins",
-      "gc_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "newtmgr.h",
-      4
-   ],
-   [
-      "sterling",
-      "ble_att_cmd.c",
+      "flash_map_test.c",
       1
    ],
    [
       "Sterling Hughes",
-      "boot_test_nv_ns_01.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "socket_tests.c",
-      1
-   ],
-   [
-      "ccollins",
-      "testutil_arch_arm.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "imgmgr.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot.c",
-      2
-   ],
-   [
-      "ccollins",
-      "boot_test_vm_ns_10.c",
-      2
-   ],
-   [
-      "sterling",
-      "ignore.h",
-      1
-   ],
-   [
-      "ccollins",
-      "mn_sock_test.h",
+      "bignum_test.c",
       1
    ],
    [
       "sterling",
-      "fcb_getnext.c",
+      "ble_svc_gatt.c",
+      1
+   ],
+   [
+      "sterling",
+      "cbor_mbuf_reader.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_mutex.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_att_svr_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "native_sock.h",
       1
    ],
    [
       "Sterling Hughes",
-      "blecent.h",
-      1
-   ],
-   [
-      "sterling",
-      "fsutil.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_timer.h",
+      "boot_test_revert_continue.c",
       1
    ],
    [
       "ccollins",
-      "boot-rb-nano2.ld",
-      1
-   ],
-   [
-      "ccollins",
-      "os_mbuf_test_get_pkghdr.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "adaptor.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_save_one_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_json_line.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "loader.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "oc_ri.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_hci.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "gcc_startup_nrf51.s",
-      8
-   ],
-   [
-      "ccollins",
-      "config_test_save_1_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "corrupt_block_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "stats.h",
-      1
-   ],
-   [
-      "sterling",
-      "uart.c",
-      1
-   ],
-   [
-      "sterling",
-      "ripemd160_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      ".rat-excludes",
+      "boot_test_vm_ns_11_b.c",
       2
    ],
    [
       "sterling",
-      "os_arch_stack_frame.s",
-      1
-   ],
-   [
-      "sterling",
-      "os_heap.c",
-      1
-   ],
-   [
-      "sterling",
-      "readdir_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_mempool.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_phy.c",
-      3
-   ],
-   [
-      "ccollins",
-      "ecp_test.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "sem_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_conn_test.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "runtest_nmgr.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4xx_hal_i2c.c",
-      1
-   ],
-   [
-      "sterling",
-      "crc8.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "system_nrf52.c",
-      4
-   ],
-   [
-      "Christopher Collins",
-      "inet_def_service.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hs_id_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "nrf51_hal.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-nrf52xxaa.ld",
-      4
-   ],
-   [
-      "paulfdietrich",
-      "os_arch_arm.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs_startup_priv.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "rb-nano2_download.sh",
-      1
-   ],
-   [
-      "sterling",
-      "mutex_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "log_test.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "adaptor.h",
-      3
-   ],
-   [
-      "sterling",
-      "os_eventq.h",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_nv_bs_11.c",
-      1
-   ],
-   [
-      "ccollins",
-      "nffs_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "stm32f4_eth_cfg.h",
-      1
-   ],
-   [
-      "sterling",
-      "log_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "test_json.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "read.go",
-      4
-   ],
-   [
-      "marko",
-      "hal_watchdog.c",
-      1
-   ],
-   [
-      "ccollins",
-      "callout_test.c",
-      1
-   ],
-   [
-      "ccollins",
       "cbmem_test.c",
       1
    ],
    [
       "sterling",
-      "mempool_test.c",
+      "ble_ll_hci_ev.c",
       1
    ],
    [
       "ccollins",
-      "conf_test.c",
+      "flash_map.h",
       1
    ],
    [
-      "sterling",
-      "ble_hs_hci_evt.c",
+      "William San Filippo",
+      "stm32f4xx_hal_conf.h",
       1
    ],
    [
-      "sterling",
-      "json_encode.c",
+      "Sterling Hughes",
+      "flash_map.c",
       1
    ],
    [
-      "sterling",
-      "os_msys_init.c",
+      "ccollins",
+      "flash_map_test.h",
       1
    ],
    [
-      "Christopher Collins",
-      "bootutil_misc.c",
-      7
+      "ccollins",
+      "nffs_test_system_01.c",
+      2
    ],
    [
       "sterling",
-      "hal_spi.c",
-      3
-   ],
-   [
-      "Christopher Collins",
-      "image_cmds.go",
-      3
-   ],
-   [
-      "sterling",
-      "large_unlink_test.c",
+      "log_nmgr.c",
       1
    ],
    [
-      "sterling",
-      "ble_l2cap_test.c",
+      "aditihilbert",
+      "build.py",
       1
    ],
    [
       "Christopher Collins",
-      "target.go",
+      "boot_test_vm_ns_11_2areas.c",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_nv_bs_11_2areas.c",
       1
    ],
    [
       "Marko Kiiskila",
-      "nrf51dk_download.sh",
+      "hal_flash.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "configurability.html",
       3
    ],
    [
       "sterling",
-      "ble_att_clt_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "split.h",
-      2
-   ],
-   [
-      "Christopher Collins",
-      "os_test.c",
+      "hex.c",
       1
    ],
    [
       "sterling",
-      "ble_hs_adv_test.c",
+      "ble_gatts_notify_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "hex2str.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "adc_nrf51.h",
       1
    ],
    [
@@ -5960,593 +815,78 @@
       2
    ],
    [
-      "Sterling Hughes",
-      "boot_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_sm_test.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "bsp.h",
-      4
-   ],
-   [
-      "sterling",
-      "read_test.c",
-      1
-   ],
-   [
       "ccollins",
-      "os_mbuf_test_extend.c",
+      "fcb_test_init.c",
       1
    ],
    [
-      "William San Filippo",
-      "primo.ld",
-      2
-   ],
-   [
-      "Sterling Hughes",
-      "split.c",
-      2
-   ],
-   [
       "sterling",
-      "config_test_save_one_file.c",
+      "mkdir_test.c",
       1
    ],
    [
       "Marko Kiiskila",
-      "newtmgr.c",
+      "conn.go",
       2
    ],
    [
-      "Peter Snyder",
-      "os_sched.c",
-      2
-   ],
-   [
-      "aditihilbert",
-      "build.py",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gatt_conn_test.c",
+      "wes3",
+      "boot-nrf52dk.ld",
       1
    ],
    [
       "ccollins",
-      "encoding_test.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "main-banner.html",
-      9
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_i2c.c",
-      3
-   ],
-   [
-      "Peter Snyder",
-      "os_mutex_test_case_2.c",
-      2
-   ],
-   [
-      "sterling",
-      "nffs.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_task.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_fcb.h",
-      1
-   ],
-   [
-      "sterling",
-      "run_from_flash.ld",
-      2
-   ],
-   [
-      "Marko Kiiskila",
-      "native_itf.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs_dbg.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "core_cm0.h",
-      1
-   ],
-   [
-      "sterling",
-      "newtmgr_ble.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_mbuf.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "imgmgr_coredump.c",
-      1
-   ],
-   [
-      "Gavin Jefferies",
-      "events.html",
-      3
-   ],
-   [
-      "sterling",
-      "fcb_test_reset.c",
-      1
-   ],
-   [
-      "sterling",
-      "hex.c",
+      "nffs_test.h",
       1
    ],
    [
       "ccollins",
-      "bignum_test.c",
+      "dhm_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "mn_socket.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_scan.c",
       1
    ],
    [
       "Marko Kiiskila",
-      "hal_system.h",
-      2
-   ],
-   [
-      "sterling",
-      "ble_gap_priv.h",
+      "nrf52_hw_id.c",
       1
    ],
    [
       "ccollins",
-      "boot_test_nv_ns_01.c",
+      "config_test_empty_fcb.c",
       1
    ],
    [
       "sterling",
-      "xtea_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4xx_hal_spi.c",
-      2
-   ],
-   [
-      "William San Filippo",
-      "stm32f4_bsp.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "log.c",
-      4
-   ],
-   [
-      "ccollins",
-      "boot_test_revert.c",
-      2
-   ],
-   [
-      "Gavin Jefferies",
-      "community.html",
-      3
-   ],
-   [
-      "Christopher Collins",
-      "syscall_linux.go",
-      1
-   ],
-   [
-      "sterling",
-      "cbmem.h",
-      1
-   ],
-   [
-      "ccollins",
-      "log_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll_adv.c",
+      "ble_store_ram.h",
       1
    ],
    [
       "Sterling Hughes",
-      "bleprph.h",
-      1
-   ],
-   [
-      "sterling",
-      "ble.h",
+      "boot_test_nv_bs_10.c",
       1
    ],
    [
       "Christopher Collins",
-      "eventq_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_no_hash.c",
-      3
-   ],
-   [
-      "Christopher Collins",
-      "inet_def_service.c",
-      1
+      "sbrk.c",
+      2
    ],
    [
       "ccollins",
-      "split_file_test.c",
+      "nrf52.ld",
       1
    ],
    [
       "Marko Kiiskila",
-      "bsp_sysid.h",
-      13
-   ],
-   [
-      "ccollins",
-      "ccm_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "targetbuild.go",
-      10
-   ],
-   [
-      "ccollins",
-      "conf_test_fcb.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "imgmgr_fs.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "boot_test_revert_continue.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_hw.h",
-      1
-   ],
-   [
-      "sterling",
-      "json.h",
-      1
-   ],
-   [
-      "sterling",
-      "cbmem_test_case_3.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_system.h",
-      1
-   ],
-   [
-      "sterling",
-      "datetime.h",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_save_3_fcb.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_cputime.c",
-      1
-   ],
-   [
-      "ccollins",
-      "aes_test.c",
-      1
-   ],
-   [
-      "sterling",
-      "stm32f4_bsp.h",
-      1
-   ],
-   [
-      "ccollins",
-      "pkcs5_test.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_revert_continue.c",
-      1
-   ],
-   [
-      "Peter Snyder",
-      "sem_test.c",
-      2
-   ],
-   [
-      "ccollins",
-      "os_callout_test_speak.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "newtmgr_ble.c",
-      1
-   ],
-   [
-      "sterling",
-      "hal_uart.h",
-      1
-   ],
-   [
-      "sterling",
-      "os_mutex_test_case_1.c",
-      1
-   ],
-   [
-      "sterling",
-      "config_test_small_file.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "system_nrf52.c",
-      4
-   ],
-   [
-      "Peter Snyder",
-      "boot_test_nv_bs_11_2areas.c",
-      1
-   ],
-   [
-      "ccollins",
-      "flash_map_test_case_2.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "hal_hw_id.c",
-      2
-   ],
-   [
-      "William San Filippo",
-      "nucleo-f401re.ld",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs_hci_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "fcb_test_multiple_scratch.c",
-      1
-   ],
-   [
-      "ccollins",
-      "json_simple_decode.c",
-      1
-   ],
-   [
-      "sterling",
-      "os_sem_test_basic.c",
-      1
-   ],
-   [
-      "ccollins",
-      "cbmem_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "imgmgr_fs.c",
-      1
-   ],
-   [
-      "sterling",
-      "encoding_test.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "core_cm0plus.h",
-      1
-   ],
-   [
-      "ccollins",
-      "os_sem_test_case_3.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "os.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "zsyscall_linux_386.go",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "parse.c",
-      1
-   ],
-   [
-      "sterling",
-      "flash_map.c",
-      1
-   ],
-   [
-      "sterling",
-      "nrf52_hal.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "nrf_drv_twi.h",
-      1
-   ],
-   [
-      "ccollins",
-      "conf_test_suite.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_gatt_priv.h",
-      1
-   ],
-   [
-      "William San Filippo",
-      "boot-primo.ld",
-      2
-   ],
-   [
-      "Peter Snyder",
-      "runtest.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "hal_spi_soft_ssi.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_sm_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "crash_test_priv.h",
-      1
-   ],
-   [
-      "sterling",
-      "overwrite_two_test.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "newtmgr_os.c",
-      3
-   ],
-   [
-      "Sterling Hughes",
-      "bletest_hci.c",
-      1
-   ],
-   [
-      "William San Filippo",
-      "olimex_stm32-e407_devboard.ld",
-      2
-   ],
-   [
-      "sterling",
-      "cbor_mbuf_reader.c",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "stm32f4xx_hal_conf.h",
-      3
-   ],
-   [
-      "Christopher Collins",
-      "adaptor.c",
-      3
-   ],
-   [
-      "ccollins",
-      "event_test_poll_timeout_sr.c",
-      1
-   ],
-   [
-      "sterling",
-      "crash_test.h",
-      1
-   ],
-   [
-      "sterling",
-      "nffs_write.c",
-      1
-   ],
-   [
-      "sterling",
-      "shell_priv.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "boot_test_revert.c",
-      1
-   ],
-   [
-      "sterling",
-      "ble_ll.h",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "entropy_test.c",
-      1
-   ],
-   [
-      "Sterling Hughes",
-      "pkcs5_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "mn_sock_test.c",
-      1
-   ],
-   [
-      "ccollins",
-      "boot_test_vb_ns_11.c",
-      2
-   ],
-   [
-      "sterling",
-      "ble_hs.h",
-      1
-   ],
-   [
-      "sterling",
-      "sysinit.h",
+      "nrf52dk_download.sh",
       1
    ],
    [
@@ -6555,18 +895,378 @@
       1
    ],
    [
-      "Peter Snyder",
-      "mutex_test.h",
-      2
+      "Christopher Collins",
+      "callout_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "lwip_socket.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4discovery_download.sh",
+      4
    ],
    [
       "ccollins",
-      "overwrite_three_test.c",
+      "nffs_test_debug.c",
       1
    ],
    [
       "ccollins",
-      "dhm_test.c",
+      "gc_on_oom_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_save_1_fcb.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "testutil.h",
+      2
+   ],
+   [
+      "sterling",
+      "fcb_rotate.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "hal_i2c.h",
+      3
+   ],
+   [
+      "ccollins",
+      "cbmem_test_case_3.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_cbmem.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "image_ec.c",
+      1
+   ],
+   [
+      "ccollins",
+      "pkcs5_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test.h",
+      1
+   ],
+   [
+      "ccollins",
+      "overwrite_two_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_nv_bs_11_2areas.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_system_start.c",
+      4
+   ],
+   [
+      "sterling",
+      "ble_sm_test_util.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "image.h",
+      1
+   ],
+   [
+      "sterling",
+      "truncate_test.c",
+      1
+   ],
+   [
+      "wes3",
+      "rb-nano2.ld",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "newtutil.go",
+      4
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_timer.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "meta.go",
+      10
+   ],
+   [
+      "William San Filippo",
+      "nrf51xxaa.ld",
+      4
+   ],
+   [
+      "sterling",
+      "os.h",
+      1
+   ],
+   [
+      "sterling",
+      "boot-olimex_stm32-e407_devboard.ld",
+      1
+   ],
+   [
+      "sterling",
+      "mynewt.c",
+      1
+   ],
+   [
+      "ccollins",
+      "encoding_test_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "encoding_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_mutex.h",
+      1
+   ],
+   [
+      "ccollins",
+      "testutil_arch_arm.c",
+      1
+   ],
+   [
+      "sterling",
+      "id.c",
+      1
+   ],
+   [
+      "sterling",
+      "flash_map_test.h",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "ble.html",
+      3
+   ],
+   [
+      "ccollins",
+      "mkdir_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "md5_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "test.c",
+      1
+   ],
+   [
+      "sterling",
+      "base64.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_atomic_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_uuid_test.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "runtest_nmgr.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "cborconstants_p.h",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "main.c",
+      43
+   ],
+   [
+      "Christopher Collins",
+      "os_arch_arm.c",
+      2
+   ],
+   [
+      "ccollins",
+      "mbuf_test.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "interfaces.go",
+      4
+   ],
+   [
+      "sterling",
+      "ble_ll_whitelist.h",
+      1
+   ],
+   [
+      "Vipul Rahane",
+      "hal_bsp.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "zsyscall_linux_386.go",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "build.go",
+      2
+   ],
+   [
+      "sterling",
+      "hal_spi_soft_ssi.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test_append_fill.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_task.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "defs.go",
+      2
+   ],
+   [
+      "ccollins",
+      "os_mutex_test_basic.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "frdm-k64_debug.sh",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "runtest.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "case.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_append.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ocf_sample.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_callout_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_conn_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "adaptor.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll.h",
+      1
+   ],
+   [
+      "ccollins",
+      "boot_test_revert.c",
+      2
+   ],
+   [
+      "sterling",
+      "config_fcb.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "events.html",
+      3
+   ],
+   [
+      "Peter Snyder",
+      "boot_serial_upload_bigger_image.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_watchdog.c",
+      5
+   ],
+   [
+      "Sterling Hughes",
+      "pkcs5_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test_multiple_scratch.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_cfg.c",
       1
    ],
    [
@@ -6576,82 +1276,42 @@
    ],
    [
       "sterling",
-      "ble_ll_ctrl.c",
+      "mempool_test.h",
       1
    ],
    [
       "Christopher Collins",
-      "run_cmds.go",
-      3
-   ],
-   [
-      "William San Filippo",
-      "hal_i2c.h",
-      3
-   ],
-   [
-      "Gavin Jefferies",
-      "base.js",
-      3
-   ],
-   [
-      "Marko Kiiskila",
-      "split.h",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "ble_ll.h",
-      1
-   ],
-   [
-      "Marko Kiiskila",
-      "newtutil.go",
-      4
-   ],
-   [
-      "sterling",
-      "ble_util.c",
-      1
-   ],
-   [
-      "wes3",
-      "gcc_startup_nrf51.s",
-      1
-   ],
-   [
-      "sterling",
-      "ble_svc_gatt.h",
+      "ble_ll_conn_priv.h",
       1
    ],
    [
       "ccollins",
-      "nrf52.ld",
-      1
-   ],
-   [
-      "sterling",
-      "hal_flash.c",
-      6
-   ],
-   [
-      "Christopher Collins",
-      "ble_store_ram.c",
-      1
-   ],
-   [
-      "Christopher Collins",
-      "log_setup_fcb.c",
+      "config_setup_nffs.c",
       1
    ],
    [
       "Peter Snyder",
-      "os_task.c",
-      2
+      "boot_serial_img_msg.c",
+      1
    ],
    [
-      "Christopher Collins",
-      "os_mbuf.h",
+      "Gavin Jefferies",
+      "about.html",
+      3
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_uart.c",
+      1
+   ],
+   [
+      "sterling",
+      "config_file.c",
+      1
+   ],
+   [
+      "sterling",
+      "nimble_opt_auto.h",
       1
    ],
    [
@@ -6661,103 +1321,523 @@
    ],
    [
       "sterling",
-      "id.c",
-      1
-   ],
-   [
-      "ccollins",
-      "flash_map_test.c",
+      "test_json_utils.c",
       1
    ],
    [
       "Marko Kiiskila",
-      "olimex_stm32-e407_devboard_download.sh",
-      3
+      "config_nmgr.c",
+      1
    ],
    [
       "ccollins",
-      "config_test.h",
+      "read_test.c",
       1
    ],
    [
       "sterling",
-      "overwrite_three_test.c",
-      1
+      "hal_i2c.c",
+      3
    ],
    [
-      "wes3",
-      "boot-nrf52dk.ld",
+      "sterling",
+      "hal_i2c.h",
       1
    ],
    [
       "sterling",
-      "wifi_mgmt_if.h",
+      "newtmgr_ble.h",
+      1
+   ],
+   [
+      "sterling",
+      "shell.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_startup_priv.h",
       1
    ],
    [
       "Marko Kiiskila",
-      "conn.go",
+      "boot.c",
+      4
+   ],
+   [
+      "sterling",
+      "ble_hs_hci_util.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gatt_write_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "long_filename_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "crash_nmgr.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_invalid_hash.c",
       2
    ],
    [
       "ccollins",
-      "os_sem_test_case_4.c",
+      "config_test_save_2_fcb.c",
       1
    ],
    [
-      "paulfdietrich",
-      "image.go",
+      "ccollins",
+      "x509_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test_append_too_big.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "boot-nrf51xxaa.ld",
+      4
+   ],
+   [
+      "William San Filippo",
+      "nucleo-f401re.ld",
       2
    ],
    [
       "sterling",
-      "wear_level_test.c",
+      "corrupt_block_test.c",
       1
    ],
    [
       "sterling",
-      "ble_hs_endian_priv.h",
+      "fs_mkdir.c",
       1
    ],
    [
-      "Christopher Collins",
-      "olimex_stm32-e407_devboard_download.sh",
+      "sterling",
+      "testreport.c",
+      1
+   ],
+   [
+      "sterling",
+      "mutex_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "bsp_sysid.h",
+      13
+   ],
+   [
+      "sterling",
+      "run_from_sram.ld",
       2
    ],
    [
-      "sterling",
-      "shell.c",
+      "Vipul Rahane",
+      "bsp.h",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "os_mutex_test_case_2.c",
+      2
+   ],
+   [
+      "ccollins",
+      "os_test_arch_arm.c",
       1
    ],
    [
       "sterling",
-      "fcb.c",
+      "ble_hs_adv_priv.h",
+      1
+   ],
+   [
+      "ccollins",
+      "os_mbuf_test_dup.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_eventq.c",
       1
    ],
    [
       "Christopher Collins",
-      "boot_test_nv_bs_11.c",
+      "json_simple_decode.c",
+      1
+   ],
+   [
+      "aditihilbert",
+      "secondary-banner.html",
       3
    ],
    [
+      "David G. Simmons",
+      "newtutil.go",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "cmdrunner.go",
+      4
+   ],
+   [
       "sterling",
-      "flash_test.h",
+      "os_mbuf_test_dup.c",
       1
    ],
    [
-      "Christopher Collins",
-      "boot_test_utils.c",
+      "Micha?? Narajowski",
+      "gcc_startup_nrf52.s",
+      4
+   ],
+   [
+      "Marko Kiiskila",
+      "system_stm32f4xx.c",
       2
    ],
    [
       "ccollins",
-      "os_mbuf_test_alloc.c",
+      "gc_test.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "base.html",
+      15
+   ],
+   [
+      "William San Filippo",
+      "boot-primo.ld",
+      2
+   ],
+   [
+      "sterling",
+      "os_mbuf_test_append.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "stm32f4discovery_download.sh",
+      2
+   ],
+   [
+      "sterling",
+      "os.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "bleprph.h",
       1
    ],
    [
       "ccollins",
+      "config_test_insert3.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_revert_continue.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_save_one_file.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_test_system_01.c",
+      1
+   ],
+   [
+      "sterling",
+      "newtmgr_ble.c",
+      1
+   ],
+   [
+      "sterling",
+      "inet_ntop_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_insert2.c",
+      2
+   ],
+   [
+      "sterling",
+      "ble_l2cap_priv.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "newtmgr_os.c",
+      3
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_bsp.h",
+      2
+   ],
+   [
+      "sterling",
+      "cbmem.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_format.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_rand.c",
+      1
+   ],
+   [
+      "ccollins",
+      "rsa_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "cortex_m0.h",
+      1
+   ],
+   [
+      "ccollins",
+      "boot_test_vb_ns_11.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "olimex_stm32-e407_devboard_debug.sh",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "ble_gap_test.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "nffs_test.c",
+      2
+   ],
+   [
+      "William San Filippo",
+      "hal_cputime.c",
+      3
+   ],
+   [
+      "Peter Snyder",
+      "results.c",
+      1
+   ],
+   [
+      "ccollins",
+      "flash_map_test_case_2.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4xx_hw_id.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_os_test.c",
+      3
+   ],
+   [
+      "Marko Kiiskila",
+      "inet_def_service.h",
+      2
+   ],
+   [
+      "sterling",
+      "nffs_area.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_no_hash.c",
+      3
+   ],
+   [
+      "William San Filippo",
+      "boot-nrf51-arduino_101.ld",
+      2
+   ],
+   [
+      "sterling",
+      "ble_ll_resolv.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_l2cap_sig_cmd.c",
+      1
+   ],
+   [
+      "sterling",
+      "mn_sock_util.c",
+      1
+   ],
+   [
+      "sterling",
+      "stats_nmgr.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "image_validate.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "log.c",
+      1
+   ],
+   [
+      "ccollins",
+      "nffs_test_utils.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "openocd.sh",
+      5
+   ],
+   [
+      "sterling",
+      "ble_ll_adv.c",
+      1
+   ],
+   [
+      "sterling",
       "config_empty_lookups.c",
       2
+   ],
+   [
+      "sterling",
+      "os_sem.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "md5_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_svc_lls.h",
+      2
+   ],
+   [
+      "ccollins",
+      "sem_test.h",
+      1
+   ],
+   [
+      "ccollins",
+      "flash_map_test_case_1.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "cmd.c",
+      1
+   ],
+   [
+      "sterling",
+      "cborattr.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "adaptor.c",
+      3
+   ],
+   [
+      "sterling",
+      "case.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_uuid_priv.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "loader.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_mempool.h",
+      1
+   ],
+   [
+      "ccollins",
+      "rb-nano2.ld",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gatt_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "mem.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "bmd300eval_download.sh",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "os_sem_test_basic.c",
+      2
+   ],
+   [
+      "William San Filippo",
+      "system_nrf52.c",
+      4
+   ],
+   [
+      "sterling",
+      "ble_hci_ram.c",
+      1
+   ],
+   [
+      "sterling",
+      "abort.c",
+      1
    ],
    [
       "sterling",
@@ -6766,7 +1846,1832 @@
    ],
    [
       "sterling",
+      "hal_flash.c",
+      6
+   ],
+   [
+      "sterling",
+      "cbmem_test_case_2.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "runtest.go",
+      4
+   ],
+   [
+      "Gavin Jefferies",
+      "download.html",
+      6
+   ],
+   [
+      "Sterling Hughes",
+      "bletest_hci.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "mutex_test.c",
+      2
+   ],
+   [
+      "sterling",
+      "stm32f4xx_mynewt_hal.h",
+      1
+   ],
+   [
+      "sterling",
+      "event_test_src.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "mgmt.h",
+      2
+   ],
+   [
+      "sterling",
+      "log_reboot.c",
+      1
+   ],
+   [
+      "sterling",
+      "oicmgr.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "os_sem_test_case_3.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_time.h",
+      1
+   ],
+   [
+      "ccollins",
+      "conf_test_nffs.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "entropy_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "conf_test_fcb.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_os_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "encoding_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_elem_info.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "json_decode.c",
+      1
+   ],
+   [
+      "ccollins",
+      "testutil.c",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_save_1_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "targetbuild.go",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "nrf51_hw_id.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4xx_hal_i2c.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "mgmt.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_serial_img_msg.c",
+      5
+   ],
+   [
+      "ccollins",
+      "sha1_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "mn_sock_util.c",
+      1
+   ],
+   [
+      "sterling",
+      "results.c",
+      1
+   ],
+   [
+      "wes3",
+      "startup_STM32F40x.s",
+      4
+   ],
+   [
+      "Peter Snyder",
+      "os_mempool_test_case.c",
+      2
+   ],
+   [
+      "sterling",
+      "hal_timer.c",
+      3
+   ],
+   [
+      "sterling",
+      "cbor_cnt_writer.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "os_callout.h",
+      2
+   ],
+   [
+      "sterling",
+      "os_mempool.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "eventq_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "newtutil.go",
+      6
+   ],
+   [
+      "William San Filippo",
+      "gcc_startup_nrf52.s",
+      2
+   ],
+   [
+      "sterling",
+      "ble_ll_conn_hci.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_nv_ns_01.c",
+      1
+   ],
+   [
+      "sterling",
+      "cbmem.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "split.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "shell.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "bsp_package.go",
+      7
+   ],
+   [
+      "Marko Kiiskila",
+      "connudp.go",
+      6
+   ],
+   [
+      "Christopher Collins",
+      "mn_socket_aconv.c",
+      2
+   ],
+   [
+      "ccollins",
+      "fcb_test_len.c",
+      1
+   ],
+   [
+      "sterling",
+      "rename_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "mfg_cmds.go",
+      8
+   ],
+   [
+      "Christopher Collins",
+      "cbor_mbuf_reader.h",
+      2
+   ],
+   [
+      "William San Filippo",
+      "hal_bsp.c",
+      24
+   ],
+   [
+      "sterling",
+      "ble_hs_hci_cmd.c",
+      1
+   ],
+   [
+      "sterling",
+      "imgmgr_coredump.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4xx_hal_i2c.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_empty_file.c",
+      1
+   ],
+   [
+      "ccollins",
+      "test_json_utils.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "gcc_startup_nrf51.s",
+      8
+   ],
+   [
+      "sterling",
+      "x509_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "large_unlink_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_cputime.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_conn.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "mfg.h",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test_empty_walk.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_hash.c",
+      1
+   ],
+   [
+      "ccollins",
+      "overwrite_one_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "imgmgr.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs_priv.h",
+      2
+   ],
+   [
+      "ccollins",
+      "hmac_drbg_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "append_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "fs.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs_conn_test.c",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "mgmt.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "newtmgr_os.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_bsp.c",
+      13
+   ],
+   [
+      "Christopher Collins",
+      "bootutil_misc.c",
+      7
+   ],
+   [
+      "William San Filippo",
+      "ble_ll_conn.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "imgmgr_coredump.c",
+      1
+   ],
+   [
+      "sterling",
+      "nrf52_hal.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "nucleo-f401re_debug.sh",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "stats_nmgr.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "nrf_drv_twi.c",
+      1
+   ],
+   [
+      "aditihilbert",
+      "talks.html",
+      5
+   ],
+   [
+      "sterling",
+      "large_system_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_flush_fcb.c",
+      1
+   ],
+   [
+      "wes3",
+      "boot-nrf52xxaa.ld",
+      2
+   ],
+   [
+      "William San Filippo",
+      "nrf51dk.ld",
+      4
+   ],
+   [
+      "sterling",
+      "config_test_save_2_fcb.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "mbedtls_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_save_in_file.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_adv.c",
+      1
+   ],
+   [
+      "sterling",
+      "nmgr_shell.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_adaptor.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "main-banner.html",
+      9
+   ],
+   [
+      "Peter Snyder",
+      "log.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "paths.go",
+      9
+   ],
+   [
+      "sterling",
+      "nffs_misc.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_att_cmd_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "eventq_test.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "os_test_priv.h",
+      2
+   ],
+   [
+      "wes3",
+      "nrf52.ld",
+      1
+   ],
+   [
+      "sterling",
+      "ble_l2cap.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "nrf_drv_twi.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_fault.c",
+      3
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_vb_ns_11.c",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "os_sem_test_case_1.c",
+      2
+   ],
+   [
+      "ccollins",
+      "config_test_insert.c",
+      2
+   ],
+   [
+      "sterling",
+      "fs_priv.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "mfg.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_att.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_gpio.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_nv_ns_10.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_mbuf_test_extend.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_hci.h",
+      1
+   ],
+   [
+      "sterling",
+      "overwrite_one_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "lwip_mynewt.c",
+      1
+   ],
+   [
+      "sterling",
+      "shell_prompt.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "uart_bitbang.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "zsyscall_linux_ppc64.go",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "common.sh",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "targetbuild.go",
+      10
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs_adv_test.c",
+      2
+   ],
+   [
+      "ccollins",
+      "str2hex.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "bleprph.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "imgmgr_cli.c",
+      3
+   ],
+   [
+      "ccollins",
+      "boot_test_nv_ns_01.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_no_flag_has_hash.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_queue.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_test_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_conn.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_cache.c",
+      1
+   ],
+   [
+      "sterling",
+      "callout_test.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "wifi.c",
+      2
+   ],
+   [
+      "William San Filippo",
+      "nrf51xxac.ld",
+      2
+   ],
+   [
+      "sterling",
+      "shell_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "hal_timer.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_callout_test_stop.c",
+      1
+   ],
+   [
+      "sterling",
+      "nmgr_os.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "hal_cputime.h",
+      1
+   ],
+   [
+      "ccollins",
+      "testutil_arch_sim.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "omgr.go",
+      6
+   ],
+   [
+      "sterling",
+      "ble_gap.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test.c",
+      2
+   ],
+   [
+      "ccollins",
+      "os_sem_test_basic.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_bsp.c",
+      11
+   ],
+   [
+      "Marko Kiiskila",
+      "newtmgr.h",
+      4
+   ],
+   [
+      "William San Filippo",
+      "os_bsp.c",
+      29
+   ],
+   [
+      "ccollins",
+      "event_test_src.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_svc_ias.h",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "inet_def_service.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "dhm_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "nrf51_hal.h",
+      1
+   ],
+   [
+      "sterling",
+      "xcvr.h",
+      3
+   ],
+   [
+      "ccollins",
+      "sem_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "mn_sock_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "cbor_buf_reader.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ocf_ble.c",
+      2
+   ],
+   [
+      "sterling",
+      "hex2str.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "zsyscall_linux_mips64le.go",
+      1
+   ],
+   [
+      "sterling",
+      "bleuart.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "log.h",
+      1
+   ],
+   [
+      "sterling",
+      "testreport.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "deps.go",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "ble_hci_uart.c",
+      1
+   ],
+   [
+      "ccollins",
+      "boot_test_vm_ns_11_a.c",
+      2
+   ],
+   [
+      "sterling",
+      "ble_hs_test_util_store.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_store.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_reset_cause.c",
+      8
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_system.c",
+      5
+   ],
+   [
+      "sterling",
+      "mempool_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "open_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "primo.ld",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "log2smtest.rb",
+      2
+   ],
+   [
+      "sterling",
+      "inet_def_service.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "hal_common.c",
+      1
+   ],
+   [
+      "sterling",
+      "fs_cli.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_uuid.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_l2cap_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "boot-bmd300eval.ld",
+      2
+   ],
+   [
+      "sterling",
+      "config_test_insert2.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "stm32f4xx_hw_id.c",
+      1
+   ],
+   [
+      "sterling",
+      "mn_socket_ops.h",
+      1
+   ],
+   [
+      "sterling",
+      "endian.h",
+      1
+   ],
+   [
+      "ccollins",
+      "fcb_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_store_ram.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "nucleo-f401re_download.sh",
+      2
+   ],
+   [
+      "sterling",
+      "config_test_insert3.c",
+      2
+   ],
+   [
+      "paulfdietrich",
+      "cons_tty.c",
+      1
+   ],
+   [
+      "sterling",
+      "native_itf.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_serial_empty_img_msg.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_att_cmd.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_queue.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_getnext.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "bsp.h",
+      5
+   ],
+   [
+      "ccollins",
+      "mempool_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "cbor_buf_reader.c",
+      1
+   ],
+   [
+      "sterling",
+      "crash_cli.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "runtest_cli.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_hci.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "gcc_startup_nrf52_split.s",
+      4
+   ],
+   [
+      "sterling",
+      "sysinit.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_conn.c",
+      1
+   ],
+   [
+      "sterling",
+      "gc_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "primo_download.sh",
+      2
+   ],
+   [
+      "sterling",
+      "mn_socket.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_mbuf_test_get_pkghdr.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "arc4_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "boot_test_nv_ns_11.c",
+      2
+   ],
+   [
+      "sterling",
+      "ble_hs_dbg.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "zsyscall_linux_arm.go",
+      1
+   ],
+   [
+      "sterling",
+      "sbrk.c",
+      12
+   ],
+   [
+      "Christopher Collins",
+      "split_config.c",
+      2
+   ],
+   [
+      "sterling",
+      "ble_hs_hci_evt.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_gc.c",
+      1
+   ],
+   [
+      "sterling",
+      "sem_test.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "stm32f4_bsp.h",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "v2.css",
+      18
+   ],
+   [
+      "sterling",
+      "config_test_getset_int.c",
+      2
+   ],
+   [
+      "ccollins",
+      "util_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "uart_hal.c",
+      1
+   ],
+   [
+      "paulfdietrich",
+      "image.go",
+      2
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_revert.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "package.go",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "log_flush_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_store.h",
+      1
+   ],
+   [
+      "ccollins",
+      "incomplete_block_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "split.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_eventq.h",
+      1
+   ],
+   [
+      "ccollins",
+      "nrf52dk.ld",
+      1
+   ],
+   [
+      "sterling",
+      "mgmt.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "nrf51dk-16kbram_download.sh",
+      2
+   ],
+   [
+      "Sterling Hughes",
+      "parse.c",
+      1
+   ],
+   [
+      "ccollins",
+      "sha256_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "frdm-k64f_hal.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "ble.h",
+      1
+   ],
+   [
+      "sterling",
+      "fcb.h",
+      1
+   ],
+   [
+      "aditihilbert",
+      "securitybullets.html",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "sem_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs_mbuf_priv.h",
+      2
+   ],
+   [
+      "sterling",
+      "cortex_m4.h",
+      3
+   ],
+   [
+      "Marko Kiiskila",
+      "nrf51dk_download.sh",
+      3
+   ],
+   [
+      "ccollins",
+      "os_mutex_test_case_1.c",
+      1
+   ],
+   [
+      "sterling",
+      "config_priv.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_eventq.h",
+      2
+   ],
+   [
+      "wes3",
+      "os_bsp.c",
+      2
+   ],
+   [
+      "sterling",
+      "flash_map.c",
+      1
+   ],
+   [
+      "ccollins",
+      "case.c",
+      1
+   ],
+   [
+      "ccollins",
+      "cbmem_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test_len.c",
+      1
+   ],
+   [
+      "ccollins",
+      "fcb_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "testutil.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "wifi_mgmt.h",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_no_hash.c",
+      1
+   ],
+   [
+      "sterling",
+      "flash_map_test_case_1.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "boot-nrf51dk.ld",
+      4
+   ],
+   [
+      "sterling",
+      "hal_system.c",
+      5
+   ],
+   [
+      "sterling",
+      "ble_util.c",
+      1
+   ],
+   [
+      "sterling",
+      "fs_if.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_msys_init.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test_append.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_common.c",
+      1
+   ],
+   [
+      "sterling",
+      "imgmgr.h",
+      1
+   ],
+   [
+      "ccollins",
+      "event_test_poll_sr.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_callout.h",
+      1
+   ],
+   [
+      "sterling",
+      "overwrite_three_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "os_cputime.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_supp_cmd.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_nv_bs_11.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "bootutil_misc.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_conn_hci.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "jlink.sh",
+      2
+   ],
+   [
+      "sterling",
       "event_test_poll_0timo.c",
+      1
+   ],
+   [
+      "ccollins",
+      "nffs_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_config.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "adaptor.h",
+      3
+   ],
+   [
+      "sterling",
+      "str2hex.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_sem_test_case_4.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "custom.css",
+      9
+   ],
+   [
+      "sterling",
+      "ble_ll_resolv.h",
+      1
+   ],
+   [
+      "sterling",
+      "mfg.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_commit.c",
+      2
+   ],
+   [
+      "Sterling Hughes",
+      "bletest_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_adv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gatts_reg_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_mbuf_test_alloc.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_resolv.c",
+      1
+   ],
+   [
+      "sterling",
+      "event_test_poll_timeout_sr.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_watchdog.h",
+      1
+   ],
+   [
+      "sterling",
+      "imgmgr.c",
+      1
+   ],
+   [
+      "sterling",
+      "error.h",
+      1
+   ],
+   [
+      "sterling",
+      "readdir_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "imgmgr_cli.c",
+      1
+   ],
+   [
+      "sterling",
+      "serial_adaptor.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gatts_read_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_test_arch_sim.c",
+      1
+   ],
+   [
+      "sterling",
+      "flash_test.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "ecp_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "log.h",
+      1
+   ],
+   [
+      "ccollins",
+      "startup_STM32F40x.s",
+      8
+   ],
+   [
+      "sterling",
+      "cache_large_file_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "mcu_sim.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "boot-nucleo-f401re.ld",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "misc.c",
+      3
+   ],
+   [
+      "sterling",
+      "log.c",
+      2
+   ],
+   [
+      "ccollins",
+      "arc4_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "os_cputime.c",
+      1
+   ],
+   [
+      "sterling",
+      "testutil_priv.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "newt.go",
+      3
+   ],
+   [
+      "sterling",
+      "ble_ll_sched.h",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "logs.go",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "zsyscall_linux_amd64.go",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "os_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "stm32f401.ld",
+      2
+   ],
+   [
+      "sterling",
+      "config_test_save_in_file.c",
+      1
+   ],
+   [
+      "sterling",
+      "mcu.h",
+      5
+   ],
+   [
+      "sterling",
+      "wifi_mgmt_if.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_scan.h",
+      1
+   ],
+   [
+      "ccollins",
+      "fcb_test_append_fill.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_sched.h",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_test_utils.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_svc_tps.c",
+      4
+   ],
+   [
+      "ccollins",
+      "boot_test_nv_ns_10.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "core_cm0plus.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "log_nmgr.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gatt_disc_s_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4discovery_debug.sh",
+      5
+   ],
+   [
+      "aditihilbert",
+      "ble.html",
+      6
+   ],
+   [
+      "William San Filippo",
+      "nrf51dk-16kbram.ld",
+      2
+   ],
+   [
+      "ccollins",
+      "nffs_test_priv.h",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "os_sched.c",
+      2
+   ],
+   [
+      "sterling",
+      "nffs_crc.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "main.c",
+      17
+   ],
+   [
+      "sterling",
+      "ble_att.h",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_path.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_hci.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_test_priv.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "primo_download.sh",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "native_itf.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "log_reboot.c",
+      2
+   ],
+   [
+      "sterling",
+      "conf_test_fcb.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "ble_ll_adv.c",
+      1
+   ],
+   [
+      "ccollins",
+      "mn_sock_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gatt_conn_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_empty_fcb.c",
+      1
+   ],
+   [
+      "ccollins",
+      "boot-nrf52xxaa.ld",
+      2
+   ],
+   [
+      "sterling",
+      "nffs_inode.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_phy.c",
+      3
+   ],
+   [
+      "ccollins",
+      "os_sem_test_case_4.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "project.go",
+      10
+   ],
+   [
+      "wes3",
+      "hal_bsp.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "loader.c",
+      1
+   ],
+   [
+      "ccollins",
+      "conf_test_nffs.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "nrf52dk_debug.sh",
+      3
+   ],
+   [
+      "sterling",
+      "rsa_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_atomic.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_nv_bs_11_2areas.c",
+      3
+   ],
+   [
+      "ccollins",
+      "eventq_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "mn_sock_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm_lgcy.c",
+      1
+   ],
+   [
+      "sterling",
+      "config.h",
       1
    ],
    [
@@ -6776,7 +3681,482 @@
    ],
    [
       "sterling",
-      "testreport.h",
+      "flash_map_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_revert.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_utils.c",
+      2
+   ],
+   [
+      "ccollins",
+      "os_mbuf_test_extend.c",
+      1
+   ],
+   [
+      "ccollins",
+      "boot_test_vm_ns_10.c",
+      2
+   ],
+   [
+      "ccollins",
+      "callout_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_spi_soft_ssi.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_conn.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "ble_ll_scan.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "split_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_arch_stack_frame.s",
+      1
+   ],
+   [
+      "sterling",
+      "uart_hal.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "split.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "event_test_poll_single_sr.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "suite.c",
+      3
+   ],
+   [
+      "ccollins",
+      "open_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "coredump.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "hal_gpio.h",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "newtmgr_ble.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_callout.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "adaptor.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_mbuf.h",
+      1
+   ],
+   [
+      "ccollins",
+      "xtea_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "nffs_test_utils.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_walk.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_mbuf_test_append.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_heap.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm_test_util.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_phy.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "os.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "quick-start.html",
+      6
+   ],
+   [
+      "ccollins",
+      "callout_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gap.h",
+      1
+   ],
+   [
+      "sterling",
+      "olimex_stm32-e407_devboard.ld",
+      1
+   ],
+   [
+      "sterling",
+      "uart_hal.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_id.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_vm_ns_11_a.c",
+      1
+   ],
+   [
+      "sterling",
+      "stats.h",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "mn_sock_test.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "split.h",
+      2
+   ],
+   [
+      "sterling",
+      "storage.c",
+      1
+   ],
+   [
+      "sterling",
+      "stats_shell.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_system.h",
+      2
+   ],
+   [
+      "ccollins",
+      "fcb_test_multiple_scratch.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "ccm_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "read_test.c",
+      1
+   ],
+   [
+      "aditihilbert",
+      "configurability.html",
+      3
+   ],
+   [
+      "sterling",
+      "ble_hs_mbuf.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "image.go",
+      2
+   ],
+   [
+      "sterling",
+      "config_file.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_save_one_fcb.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "compiler.go",
+      1
+   ],
+   [
+      "sterling",
+      "ble_att_clt.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "zsyscall_linux_ppc64le.go",
+      1
+   ],
+   [
+      "wes3",
+      "stm32f407.ld",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_nv_bs_11.c",
+      3
+   ],
+   [
+      "Christopher Collins",
+      "serial_adaptor.c",
+      3
+   ],
+   [
+      "ccollins",
+      "config_test_multiple_in_file.c",
+      1
+   ],
+   [
+      "wes3",
+      "gcc_startup_nrf52_split.s",
+      3
+   ],
+   [
+      "sterling",
+      "sha1_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_whitelist.c",
+      1
+   ],
+   [
+      "ccollins",
+      "gcm_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "sign_key.h",
+      1
+   ],
+   [
+      "sterling",
+      "event_test_poll_sr.c",
+      1
+   ],
+   [
+      "ccollins",
+      "unlink_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "image_cmds.go",
+      3
+   ],
+   [
+      "sterling",
+      "eventq_test.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "os.c",
+      1
+   ],
+   [
+      "sterling",
+      "uart.h",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "testutil.c",
+      2
+   ],
+   [
+      "ccollins",
+      "event_test_poll_timeout_sr.c",
+      1
+   ],
+   [
+      "paulfdietrich",
+      "connserial.go",
+      3
+   ],
+   [
+      "sterling",
+      "ble_store_ram.c",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "base.js",
+      3
+   ],
+   [
+      "Christopher Collins",
+      "bootutil_misc.h",
+      3
+   ],
+   [
+      "ccollins",
+      "log_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "bootutil.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "mcu.h",
+      5
+   ],
+   [
+      "sterling",
+      "cc.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_att_svr.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_test.h",
+      2
+   ],
+   [
+      "sterling",
+      "config_cli.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_gpio.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "util.go",
+      17
+   ],
+   [
+      "Gavin Jefferies",
+      "custom.js",
+      3
+   ],
+   [
+      "Peter Snyder",
+      "os_sched.h",
+      2
+   ],
+   [
+      "sterling",
+      "mutex_test.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "compiler.go",
+      2
+   ],
+   [
+      "sterling",
+      "console.h",
+      2
+   ],
+   [
+      "sterling",
+      "ble_sm_cmd.c",
+      1
+   ],
+   [
+      "sterling",
+      "many_children_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "many_children_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "core_cm4.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_sem.h",
+      1
+   ],
+   [
+      "sterling",
+      "newtmgr_os.c",
       1
    ],
    [
@@ -6785,8 +4165,353 @@
       1
    ],
    [
+      "Sterling Hughes",
+      "boot_test_vm_ns_11_2areas.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_uart.c",
+      5
+   ],
+   [
+      "sterling",
+      "ble_gatt_find_s_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_callout_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "bleuart.h",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_commit.c",
+      2
+   ],
+   [
+      "sterling",
+      "fs_file.c",
+      1
+   ],
+   [
+      "sterling",
+      "shell_os.c",
+      1
+   ],
+   [
+      "ccollins",
+      "ob_mbuf_test_pullup.c",
+      1
+   ],
+   [
+      "ccollins",
+      "conf_test_suite.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_nv_ns_11.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "bsp.h",
+      4
+   ],
+   [
+      "Christopher Collins",
+      "mfg.go",
+      11
+   ],
+   [
+      "Sterling Hughes",
+      "blecent.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_spi.c",
+      10
+   ],
+   [
+      "sterling",
+      "encoding_test_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "overwrite_many_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs.h",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_invalid_hash.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_dir.c",
+      1
+   ],
+   [
       "ccollins",
       "boot-nrf52dk.ld",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs_cfg.c",
+      1
+   ],
+   [
+      "sterling",
+      "prompt.h",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4xx_hal_spi.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "bootutil_priv.h",
+      6
+   ],
+   [
+      "William San Filippo",
+      "boot-stm32f4discovery.ld",
+      2
+   ],
+   [
+      "ccollins",
+      "ob_mbuf_test_adj.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_ctrl.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "libc_stubs.c",
+      12
+   ],
+   [
+      "Christopher Collins",
+      "os_callout.c",
+      1
+   ],
+   [
+      "ccollins",
+      "cbmem_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "testutil.c",
+      2
+   ],
+   [
+      "sterling",
+      "hal_os_tick.c",
+      4
+   ],
+   [
+      "Vipul Rahane",
+      "image.go",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "boot_serial.h",
+      2
+   ],
+   [
+      "aditihilbert",
+      "landing.html",
+      14
+   ],
+   [
+      "Christopher Collins",
+      "olimex_stm32-e407_devboard_download.sh",
+      2
+   ],
+   [
+      "Sterling Hughes",
+      "split.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_test.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "image_rsa.c",
+      1
+   ],
+   [
+      "sterling",
+      "boot-nucleo-f401re.ld",
+      1
+   ],
+   [
+      "William San Filippo",
+      "nrf_drv_config.h",
+      3
+   ],
+   [
+      "sterling",
+      "cbmem_test_case_3.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_svc_gap.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "gcc_startup_nrf51_split.s",
+      7
+   ],
+   [
+      "Peter Snyder",
+      "newtmgr.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_i2c.h",
+      1
+   ],
+   [
+      "ccollins",
+      "os_sem_test_case_1.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "run_cmds.go",
+      3
+   ],
+   [
+      "sterling",
+      "ble_svc_lls.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "compiler.go",
+      2
+   ],
+   [
+      "sterling",
+      "ob_mbuf_test_adj.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_callout_test_speak.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "native_sock.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hs_test_util.h",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_nv_ns_10.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_svc_ans.c",
+      2
+   ],
+   [
+      "ccollins",
+      "os_callout_test_stop.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm_lgcy_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hw.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_serial_upload_bigger_image.c",
+      5
+   ],
+   [
+      "Marko Kiiskila",
+      "system_nrf52.c",
+      4
+   ],
+   [
+      "Christopher Collins",
+      "mgmt.h",
+      1
+   ],
+   [
+      "sterling",
+      "long_filename_test.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "sem_test.h",
+      2
+   ],
+   [
+      "ccollins",
+      "config_test_compress_reset.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_log.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4xx_mynewt_hal.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs.c",
+      1
+   ],
+   [
+      "sterling",
+      "shell_prompt.h",
       1
    ],
    [
@@ -6796,12 +4521,2287 @@
    ],
    [
       "Christopher Collins",
-      "image.go",
+      "ble_hs_test_util.c",
+      3
+   ],
+   [
+      "sterling",
+      "mem.h",
+      1
+   ],
+   [
+      "sterling",
+      "util.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_vb_ns_11.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_save_3_fcb.c",
+      1
+   ],
+   [
+      "ccollins",
+      "conf_test_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_flash.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_spi.h",
+      1
+   ],
+   [
+      "ccollins",
+      "entropy_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "nimble_opt.h",
+      1
+   ],
+   [
+      "sterling",
+      "boot-stm32f4discovery.ld",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_test.h",
+      1
+   ],
+   [
+      "ccollins",
+      "inet_pton_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_walk_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_ctrl.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_callout_test_stop.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_dbg_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "json_encode.c",
+      1
+   ],
+   [
+      "ccollins",
+      "append_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "prompt.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_nv_ns_01.c",
+      2
+   ],
+   [
+      "sterling",
+      "hal_uart_nxp.h",
+      1
+   ],
+   [
+      "ccollins",
+      "conf_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "id.c",
+      1
+   ],
+   [
+      "sterling",
+      "wifi_cli.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "localpackage.go",
+      5
+   ],
+   [
+      "sterling",
+      "split_file_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_log.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "bmd300eval_debug.sh",
+      1
+   ],
+   [
+      "William San Filippo",
+      "core_cm3.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      ".rat-excludes",
+      2
+   ],
+   [
+      "sterling",
+      "hex.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_hci_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_svc_tps.h",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_no_flag_has_hash.c",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_save_one_file.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb.c",
+      1
+   ],
+   [
+      "ccollins",
+      "json_simple_encode.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "target_cmds.go",
+      7
+   ],
+   [
+      "ccollins",
+      "config_test_getset_int.c",
+      2
+   ],
+   [
+      "sterling",
+      "shell.c",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_getset_bytes.c",
+      2
+   ],
+   [
+      "sterling",
+      "json_simple_encode.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_reboot.h",
+      1
+   ],
+   [
+      "ccollins",
+      "os_mutex_test_case_2.c",
+      1
+   ],
+   [
+      "sterling",
+      "wifi.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_hw_id.c",
+      2
+   ],
+   [
+      "wes3",
+      "boot-rb-nano2.ld",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_scan.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_test_util.h",
+      1
+   ],
+   [
+      "sterling",
+      "log_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_priv.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "stm32f407.ld",
       2
    ],
    [
       "William San Filippo",
-      "boot-bmd300eval.ld",
+      "hal_timer.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "ble_hci_uart.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_priv.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_adv.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "rb-nano2_download.sh",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test.h",
+      2
+   ],
+   [
+      "sterling",
+      "ignore.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_mbuf.h",
+      1
+   ],
+   [
+      "sterling",
+      "cbor_buf_writer.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_store.c",
+      1
+   ],
+   [
+      "sterling",
+      "fcb_test_rotate.c",
+      1
+   ],
+   [
+      "sterling",
+      "oc_gatt.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "system_nrf51.c",
+      5
+   ],
+   [
+      "ccollins",
+      "util_test_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "mgmt.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4xx_hal_spi.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "append_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "inet_ntop_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_scan.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_empty_lookups.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_mutex_test_case_1.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_utils.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_svc_ias.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_i2c.c",
+      3
+   ],
+   [
+      "ccollins",
+      "os_mbuf_test_alloc.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "target.go",
+      1
+   ],
+   [
+      "sterling",
+      "nffs.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_insert.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "read.go",
+      4
+   ],
+   [
+      "Marko Kiiskila",
+      "cmsis_nvic.h",
+      2
+   ],
+   [
+      "William San Filippo",
+      "gcc_startup_nrf52_split.s",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "os_sem_test_case_2.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_time.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_getset_unknown.c",
+      2
+   ],
+   [
+      "sterling",
+      "ble_gatt_disc_d_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "newtmgr.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_svc_gatt.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_l2cap_sig_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm_sc_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "rb-nano2_debug.sh",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "boot.c",
+      2
+   ],
+   [
+      "sterling",
+      "hal_gpio.c",
+      5
+   ],
+   [
+      "sterling",
+      "ip_priv.h",
+      1
+   ],
+   [
+      "ccollins",
+      "gcc_startup_nrf52_split.s",
+      6
+   ],
+   [
+      "aditihilbert",
+      "main-banner.html",
+      3
+   ],
+   [
+      "Christopher Collins",
+      "ble_svc_ans.h",
+      2
+   ],
+   [
+      "ccollins",
+      "overwrite_three_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "mbuf_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "log_fcb.c",
+      1
+   ],
+   [
+      "ccollins",
+      "ecp_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_callout_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "sbrk.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "primo_debug.sh",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_ll_ctrl.c",
+      1
+   ],
+   [
+      "ccollins",
+      "mbedtls_test.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "stats.h",
+      1
+   ],
+   [
+      "sterling",
+      "hci_common.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "adc_nrf52.h",
+      1
+   ],
+   [
+      "sterling",
+      "hal_uart.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_nv_ns_01.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "flash_test.c",
+      1
+   ],
+   [
+      "paulfdietrich",
+      "os_arch_arm.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "stats.c",
+      1
+   ],
+   [
+      "sterling",
+      "nmgr_uart.c",
+      1
+   ],
+   [
+      "ccollins",
+      "log_setup_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "crash_test_priv.h",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_serial_setup.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "nrf52dk_download.sh",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "olimex_stm32-e407_devboard_download.sh",
+      3
+   ],
+   [
+      "ccollins",
+      "overwrite_many_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_cfg.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "oicmgr.c",
+      8
+   ],
+   [
+      "William San Filippo",
+      "ble_ll_adv.h",
+      1
+   ],
+   [
+      "ccollins",
+      "boot_test_vm_ns_01.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "flash.go",
+      5
+   ],
+   [
+      "ccollins",
+      "fcb_test_reset.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "gatt_svr.c",
+      1
+   ],
+   [
+      "ccollins",
+      "truncate_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "nrf51dk-16kbram_download.sh",
+      4
+   ],
+   [
+      "Peter Snyder",
+      "mempool_test.h",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "loader.c",
+      9
+   ],
+   [
+      "Christopher Collins",
+      "ip_adaptor.c",
+      3
+   ],
+   [
+      "Christopher Collins",
+      "create.go",
+      16
+   ],
+   [
+      "sterling",
+      "hal_os_tick.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_mbuf.h",
+      1
+   ],
+   [
+      "ccollins",
+      "mutex_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "wear_level_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_arch.h",
+      3
+   ],
+   [
+      "sterling",
+      "os_heap.c",
+      1
+   ],
+   [
+      "sterling",
+      "uart.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "sem_test.c",
+      2
+   ],
+   [
+      "sterling",
+      "cbmem_test_case_1.c",
+      1
+   ],
+   [
+      "ccollins",
+      "nrf51xxac.ld",
+      1
+   ],
+   [
+      "sterling",
+      "hci_common.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "config.h",
+      2
+   ],
+   [
+      "ccollins",
+      "rename_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "datetime.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "buildutil.go",
+      2
+   ],
+   [
+      "sterling",
+      "nffs_write.c",
+      1
+   ],
+   [
+      "sterling",
+      "init.h",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "talks.html",
+      6
+   ],
+   [
+      "marko",
+      "stm32f401xe.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_no_flag_has_hash.c",
+      2
+   ],
+   [
+      "ccollins",
+      "os_sem_test_case_3.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "hal_gpio.c",
+      12
+   ],
+   [
+      "sterling",
+      "fcb_test_reset.c",
+      1
+   ],
+   [
+      "sterling",
+      "sem_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "inet_def_service.c",
+      4
+   ],
+   [
+      "ccollins",
+      "sha512_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_hci.h",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_test_utils.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_utils.c",
+      1
+   ],
+   [
+      "ccollins",
+      "fcb_test_empty_walk.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_adaptor.c",
+      4
+   ],
+   [
+      "wes3",
+      "gcc_startup_nrf51.s",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "os_fault.c",
+      2
+   ],
+   [
+      "Gavin Jefferies",
+      "build.py",
+      4
+   ],
+   [
+      "Christopher Collins",
+      "zsyscall_linux_mips64.go",
+      1
+   ],
+   [
+      "ccollins",
+      "large_write_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "run_from_flash.ld",
+      2
+   ],
+   [
+      "Gavin Jefferies",
+      "toc.html",
+      3
+   ],
+   [
+      "sterling",
+      "ble_l2cap.c",
+      1
+   ],
+   [
+      "ccollins",
+      "mempool_test.h",
+      1
+   ],
+   [
+      "ccollins",
+      "ccm_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_sem_test_case_3.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "connble.go",
+      4
+   ],
+   [
+      "sterling",
+      "cborattr.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "crash.go",
+      2
+   ],
+   [
+      "sterling",
+      "nrf51_hw_id.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_flash.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "split_priv.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "hex.c",
+      1
+   ],
+   [
+      "ccollins",
+      "json_simple_decode.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_callout_test_speak.c",
+      1
+   ],
+   [
+      "Vipul Rahane",
+      "log_nmgr.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4xx_hal_conf.h",
+      3
+   ],
+   [
+      "Peter Snyder",
+      "eventq_test.h",
+      2
+   ],
+   [
+      "William San Filippo",
+      "hal_timer.c",
+      9
+   ],
+   [
+      "sterling",
+      "imgmgr_state.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "inet_def_service.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "ble_ll_scan.h",
+      1
+   ],
+   [
+      "sterling",
+      "unittests.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "hal_spi.c",
+      3
+   ],
+   [
+      "Gavin Jefferies",
+      "landing.html",
+      15
+   ],
+   [
+      "sterling",
+      "ripemd160_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "syscall_linux.go",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "flash_map_test_case_1.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hci_ram.h",
+      2
+   ],
+   [
+      "sterling",
+      "nffs_file.c",
+      1
+   ],
+   [
+      "sterling",
+      "imgmgr_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "flash_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "gcm_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "hal_flash_int.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "adaptor.c",
+      1
+   ],
+   [
+      "sterling",
+      "mbuf_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "conf_test_nffs.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_arch_sim.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "gcc_startup_nrf52.s",
+      4
+   ],
+   [
+      "Marko Kiiskila",
+      "oc_ri.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "mempool_test.c",
+      2
+   ],
+   [
+      "Gavin Jefferies",
+      "community.html",
+      3
+   ],
+   [
+      "ccollins",
+      "event_test_poll_single_sr.c",
+      1
+   ],
+   [
+      "sterling",
+      "incomplete_block_test.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "os_task.h",
+      2
+   ],
+   [
+      "Sterling Hughes",
+      "bootutil_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hci_trans.h",
+      1
+   ],
+   [
+      "sterling",
+      "fsutil.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "hmac_drbg_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boards.h",
+      10
+   ],
+   [
+      "sterling",
+      "datetime.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_callout_test_speak.c",
+      1
+   ],
+   [
+      "sterling",
+      "cbor_mbuf_writer.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_hw_id.c",
+      2
+   ],
+   [
+      "ccollins",
+      "cache_large_file_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "clock.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "bmd300eval.ld",
+      2
+   ],
+   [
+      "ccollins",
+      "config_test_small_file.c",
+      1
+   ],
+   [
+      "ccollins",
+      "corrupt_block_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "event_test_poll_0timo.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_mbuf.c",
+      1
+   ],
+   [
+      "sterling",
+      "mn_socket_aconv.c",
+      1
+   ],
+   [
+      "sterling",
+      "stm32f4_eth.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_line.c",
+      1
+   ],
+   [
+      "sterling",
+      "sha256_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_endian_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "sha512_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "tu_args.c",
+      1
+   ],
+   [
+      "sterling",
+      "unlink_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_test_save_one_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_gap_test.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "os_mutex_test_basic.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "mn_sock_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_sem_test_basic.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "nrf51dk_debug.sh",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "imgmgr_state.c",
+      5
+   ],
+   [
+      "sterling",
+      "os_dev.h",
+      1
+   ],
+   [
+      "sterling",
+      "hal_bsp.h",
+      1
+   ],
+   [
+      "sterling",
+      "fs_mount.c",
+      1
+   ],
+   [
+      "ccollins",
+      "conf_test.h",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "commands.go",
+      2
+   ],
+   [
+      "sterling",
+      "stats.c",
+      1
+   ],
+   [
+      "ccollins",
+      "boot_test_revert_continue.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "stm32f4_eth.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "gcc_startup_nrf51_split.s",
+      6
+   ],
+   [
+      "Marko Kiiskila",
+      "native_sock_priv.h",
+      2
+   ],
+   [
+      "ccollins",
+      "log_test.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_test_getset_unknown.c",
+      2
+   ],
+   [
+      "sterling",
+      "inet_def_service.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_id.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "eventq_test.c",
+      2
+   ],
+   [
+      "sterling",
+      "nrf52_hw_id.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ibeacon.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_cputime.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_shell.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_setup_fcb.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "nmgr_uart.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "run_cmds.go",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "flash_map.h",
+      1
+   ],
+   [
+      "sterling",
+      "flash_map_test_case_2.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test.c",
+      6
+   ],
+   [
+      "sterling",
+      "fsutil.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "bootutil.h",
+      5
+   ],
+   [
+      "sterling",
+      "os_sanity.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "mn_sock_test.h",
+      1
+   ],
+   [
+      "Gavin Jefferies",
+      "template.html",
+      6
+   ],
+   [
+      "sterling",
+      "ble_hs_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs.c",
+      1
+   ],
+   [
+      "ccollins",
+      "suite.c",
+      1
+   ],
+   [
+      "wes3",
+      "system_nrf52.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "log.c",
+      4
+   ],
+   [
+      "sterling",
+      "config_test_compress_reset.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_vm_ns_11_b.c",
+      2
+   ],
+   [
+      "sterling",
+      "json_simple_decode.c",
+      1
+   ],
+   [
+      "aditihilbert",
+      "template.html",
+      3
+   ],
+   [
+      "sterling",
+      "lwipopts.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "build_cmds.go",
+      2
+   ],
+   [
+      "ccollins",
+      "mutex_test.h",
+      1
+   ],
+   [
+      "ccollins",
+      "mbedtls_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "fcb_test_append.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "imgmgr.c",
+      1
+   ],
+   [
+      "sterling",
+      "ob_mbuf_test_pullup.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "system_nrf52.c",
+      4
+   ],
+   [
+      "Christopher Collins",
+      "flash_map.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "syscfg.go",
+      3
+   ],
+   [
+      "sterling",
+      "config_test_save_3_fcb.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "boot-nrf51dk-16kbram.ld",
+      2
+   ],
+   [
+      "sterling",
+      "cmsis_nvic.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_conn.c",
+      1
+   ],
+   [
+      "sterling",
+      "log_console.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "crash_test.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "runtest_priv.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "rb-nano2_download.sh",
+      4
+   ],
+   [
+      "sterling",
+      "os_arch_arm.c",
+      2
+   ],
+   [
+      "sterling",
+      "cbmem_test.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "misc.c",
+      1
+   ],
+   [
+      "sterling",
+      "crc8.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_mempool_test_case.c",
+      1
+   ],
+   [
+      "sterling",
+      "os_mutex_test_basic.c",
+      1
+   ],
+   [
+      "aditihilbert",
+      "community.html",
+      3
+   ],
+   [
+      "sterling",
+      "socket_tests.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_id_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "config_fcb.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm_test.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_common.c",
+      1
+   ],
+   [
+      "ccollins",
+      "nrf51.ld",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "oicmgr.c",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "crash_cli.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_test_util.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "newtmgr.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_malloc.h",
+      1
+   ],
+   [
+      "sterling",
+      "callout_test.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "shell.c",
+      2
+   ],
+   [
+      "William San Filippo",
+      "hal_bsp.h",
+      1
+   ],
+   [
+      "sterling",
+      "gc_on_oom_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_l2cap_sig.c",
+      1
+   ],
+   [
+      "ccollins",
+      "gcc_startup_nrf51_split.s",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "bmd300eval_download.sh",
+      1
+   ],
+   [
+      "sterling",
+      "overwrite_two_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "lost_found_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "ble_hs_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hw.c",
+      3
+   ],
+   [
+      "sterling",
+      "test_json.c",
+      1
+   ],
+   [
+      "ccollins",
+      "flash_map.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_sm_sc.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "sysinit.h",
+      4
+   ],
+   [
+      "sterling",
+      "stm32f4_eth_cfg.h",
+      1
+   ],
+   [
+      "sterling",
+      "testreport_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_conn_test.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "gcc_startup_nrf51.s",
+      8
+   ],
+   [
+      "Christopher Collins",
+      "string_array.go",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hci_uart.h",
+      1
+   ],
+   [
+      "Vipul Rahane",
+      "hal_flash.c",
+      2
+   ],
+   [
+      "sterling",
+      "os_callout.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_no_hash.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "boot-nucleo-f401re.ld",
+      2
+   ],
+   [
+      "sterling",
+      "os_sem_test_case_1.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "os_bsp.c",
+      19
+   ],
+   [
+      "ccollins",
+      "nrf52xxaa.ld",
+      2
+   ],
+   [
+      "sterling",
+      "native_sock.c",
+      1
+   ],
+   [
+      "sterling",
+      "config_setup_nffs.c",
+      1
+   ],
+   [
+      "marko",
+      "hal_watchdog.c",
+      1
+   ],
+   [
+      "sterling",
+      "ip_init.c",
+      1
+   ],
+   [
+      "ccollins",
+      "log_walk_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ibeacon.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test.h",
+      2
+   ],
+   [
+      "wes3",
+      "gcc_startup_nrf51_split.s",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "os_eventq.c",
+      3
+   ],
+   [
+      "sterling",
+      "os_sanity.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_pvcy_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "os_mbuf.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "newtmgr.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_adv.c",
+      1
+   ],
+   [
+      "ccollins",
+      "large_system_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "flash_map.h",
+      1
+   ],
+   [
+      "sterling",
+      "hal_spi.c",
+      3
+   ],
+   [
+      "William San Filippo",
+      "main.c",
+      8
+   ],
+   [
+      "Marko Kiiskila",
+      "rb-nano2_debug.sh",
+      1
+   ],
+   [
+      "sterling",
+      "conf_test_fcb.c",
+      1
+   ],
+   [
+      "sterling",
+      "wifi_priv.h",
+      1
+   ],
+   [
+      "sterling",
+      "ble_eddystone.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "decode.go",
+      6
+   ],
+   [
+      "sterling",
+      "ble_gatt_disc_c_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "gatt_svr.c",
+      2
+   ],
+   [
+      "sterling",
+      "config_nmgr.c",
+      1
+   ],
+   [
+      "ccollins",
+      "test_json_simple.c",
+      1
+   ],
+   [
+      "sterling",
+      "cbor_mbuf_writer.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "load.go",
+      4
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_vm_ns_01.c",
+      2
+   ],
+   [
+      "Christopher Collins",
+      "vars.go",
+      2
+   ],
+   [
+      "sterling",
+      "ble_ll_sched.c",
+      1
+   ],
+   [
+      "spoonofpower",
+      "build.go",
+      1
+   ],
+   [
+      "sterling",
+      "crash_test.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "ble_hci_uart.c",
+      2
+   ],
+   [
+      "sterling",
+      "ble_sm.h",
+      1
+   ],
+   [
+      "William San Filippo",
+      "olimex_stm32-e407_devboard.ld",
+      2
+   ],
+   [
+      "ccollins",
+      "fcb_test_rotate.c",
+      1
+   ],
+   [
+      "sterling",
+      "large_unlink_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "bsp.h",
+      13
+   ],
+   [
+      "sterling",
+      "ble_svc_gap.c",
+      1
+   ],
+   [
+      "sterling",
+      "nucleo-f401re.ld",
+      1
+   ],
+   [
+      "ccollins",
+      "hex_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "cbmem_test_case_1.c",
+      1
+   ],
+   [
+      "ccollins",
+      "stm32f407.ld",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "image.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "flash_map.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hs_startup.c",
+      1
+   ],
+   [
+      "sterling",
+      "newtmgr.h",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "mutex_test.h",
+      2
+   ],
+   [
+      "Marko Kiiskila",
+      "nrf51dk-16kbram_debug.sh",
+      2
+   ],
+   [
+      "sterling",
+      "testutil.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "id.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "boot_test_vm_ns_01.c",
+      1
+   ],
+   [
+      "Peter Snyder",
+      "boot_test_nv_bs_10.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "log_setup_fcb.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "nffs_misc.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_hci_uart.c",
+      1
+   ],
+   [
+      "sterling",
+      "ble_ll_conn_priv.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "bsp_package.go",
+      2
+   ],
+   [
+      "William San Filippo",
+      "nrf52xxaa.ld",
+      4
+   ],
+   [
+      "sterling",
+      "ble_hs_test_util_store.h",
+      1
+   ],
+   [
+      "ccollins",
+      "testutil.h",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "image_validate.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "project_cmds.go",
+      2
+   ],
+   [
+      "Peter Snyder",
+      "boot_serial_empty_msg.c",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "nucleo-f401re_download.sh",
+      5
+   ],
+   [
+      "sterling",
+      "ble_hs_adv_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "nffs_test_debug.c",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "log_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "os_mbuf_test_get_pkghdr.c",
+      1
+   ],
+   [
+      "ccollins",
+      "gcc_startup_nrf52.s",
+      6
+   ],
+   [
+      "sterling",
+      "id.h",
+      1
+   ],
+   [
+      "Marko Kiiskila",
+      "hal_system_start.c",
+      4
+   ],
+   [
+      "ccollins",
+      "mbuf_test.c",
+      1
+   ],
+   [
+      "Sterling Hughes",
+      "aes_test.c",
+      1
+   ],
+   [
+      "ccollins",
+      "log_append_fcb.c",
+      1
+   ],
+   [
+      "wes3",
+      "nrf51xxac.ld",
+      1
+   ],
+   [
+      "ccollins",
+      "os_sem_test_case_2.c",
+      1
+   ],
+   [
+      "ccollins",
+      "config_fcb.h",
+      1
+   ],
+   [
+      "sterling",
+      "io.c",
+      2
+   ],
+   [
+      "William San Filippo",
+      "hal_spi_soft_ssi.c",
+      2
+   ],
+   [
+      "ccollins",
+      "nffs_test.c",
+      3
+   ],
+   [
+      "Sterling Hughes",
+      "main.c",
+      12
+   ],
+   [
+      "Peter Snyder",
+      "runtest.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "boot_test_nv_bs_10.c",
+      2
+   ],
+   [
+      "sterling",
+      "imgmgr_util.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "ble_ll.c",
+      1
+   ],
+   [
+      "ccollins",
+      "ripemd160_test.c",
+      1
+   ],
+   [
+      "sterling",
+      "coredump.h",
+      1
+   ],
+   [
+      "Christopher Collins",
+      "deps.go",
+      4
+   ],
+   [
+      "ccollins",
+      "cbmem_test_case_2.c",
+      1
+   ],
+   [
+      "sterling",
+      "imgmgr_fs.c",
+      1
+   ],
+   [
+      "William San Filippo",
+      "stm32f4discovery.ld",
+      2
+   ],
+   [
+      "sterling",
+      "ble_gattc.c",
+      1
+   ],
+   [
+      "sterling",
+      "event_test_poll_single_sr.c",
+      1
+   ],
+   [
+      "sterling",
+      "inet_pton_test.c",
+      1
+   ],
+   [
+      "wes3",
+      "nrf52dk.ld",
+      1
+   ],
+   [
+      "William San Filippo",
+      "nrf51-arduino_101.ld",
       2
    ]
 ]

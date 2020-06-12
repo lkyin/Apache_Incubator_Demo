@@ -1,35 +1,39 @@
 [
    {
-      "imports": [
-         "jmsnell"
-      ],
-      "name": "Ugo Cei"
+      "name": "jmsnell",
+      "imports": []
    },
    {
+      "name": "Brian Moseley",
       "imports": [
          "James M Snell",
          "Stephen Duncan"
-      ],
-      "name": "Brian Moseley"
+      ]
    },
    {
+      "name": "Stephen Duncan",
       "imports": [
          "Brian Moseley"
-      ],
-      "name": "Stephen Duncan"
+      ]
    },
    {
+      "name": "Sanjiva Weerawarana",
+      "imports": [
+         "Brian Moseley"
+      ]
+   },
+   {
+      "name": "James M Snell",
       "imports": [
          "Brian Moseley",
          "Brian Moseley",
          "Ugo Cei"
-      ],
-      "name": "James M Snell"
+      ]
    },
    {
+      "name": "Ugo Cei",
       "imports": [
-         "Brian Moseley"
-      ],
-      "name": "Sanjiva Weerawarana"
+         "jmsnell"
+      ]
    }
 ]

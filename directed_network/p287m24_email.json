@@ -1,14 +1,18 @@
 [
    {
-      "imports": [
-         "Marvin"
-      ],
-      "name": "Dennis Lundberg"
+      "name": "Marvin",
+      "imports": []
    },
    {
+      "name": "Dennis Lundberg",
+      "imports": [
+         "Marvin"
+      ]
+   },
+   {
+      "name": "Brett Porter",
       "imports": [
          "Dennis Lundberg"
-      ],
-      "name": "Brett Porter"
+      ]
    }
 ]

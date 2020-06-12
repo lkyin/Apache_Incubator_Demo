@@ -1,107 +1,52 @@
 [
    [
       "Internal Jenkins",
-      "hdfs-scanner.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "plan-fragment-executor.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "SelectNode.java",
+      "ModifyStmt.java",
       1
    ],
    [
-      "Internal Jenkins",
-      "ToSqlUtils.java",
-      5
-   ],
-   [
-      "tarmstrong",
-      "query-exec-state.h",
+      "henry",
+      "test_shell_commandline.py",
       1
    ],
    [
       "Impala Public Jenkins",
-      "suballocator.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "query-state.cc",
-      2
-   ],
-   [
-      "tarmstrong",
-      "ColumnLineageGraph.java",
+      "Table.java",
       1
-   ],
-   [
-      "Impala Public Jenkins",
-      "udf-init-close-deterministic.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "DropFunctionStmt.java",
-      1
-   ],
-   [
-      "Alex Behm",
-      "test_kudu.py",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "TableLoadingMgr.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "fragment-mgr.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzeAuthStmtsTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "thrift-client.cc",
-      2
    ],
    [
       "mjacobs",
-      "fragment-exec-state.h",
+      "PlannerTestBase.java",
       1
    ],
    [
-      "tarmstrong",
+      "mjacobs",
+      "Analyzer.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Analyzer.java",
+      9
+   ],
+   [
+      "kwho",
       "kudu_partition_ddl.test",
       1
    ],
    [
       "Internal Jenkins",
-      "generate-schema-statements.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "MetaStoreClientPool.java",
-      1
+      "HdfsPartitionFilter.java",
+      3
    ],
    [
       "Impala Public Jenkins",
-      "ExprSubstitutionMap.java",
-      1
+      "udf-internal.h",
+      2
    ],
    [
-      "Internal Jenkins",
-      "DiskIdMapper.java",
+      "Tim Armstrong",
+      "Frontend.java",
       1
    ],
    [
@@ -110,53 +55,108 @@
       1
    ],
    [
-      "Jim Apple",
-      "community.html",
-      1
-   ],
-   [
-      "tarmstrong",
-      "thread-resource-mgr.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "impala-server.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "PlannerTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "out-of-range-timestamp-abort-on-error.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "SingleNodePlanner.java",
-      3
-   ],
-   [
-      "tarmstrong",
-      "FrontendTest.java",
-      1
-   ],
-   [
       "Impala Public Jenkins",
-      "out-of-range-timestamp-abort-on-error.test",
+      "null-literal.h",
       2
    ],
    [
       "Impala Public Jenkins",
-      "HdfsTable.java",
-      3
+      "scalar-fn-call.cc",
+      2
    ],
    [
-      "kwho",
+      "Impala Public Jenkins",
+      "ExprSubstitutionMap.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "parquet.test",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "JoinNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CatalogOpExecutor.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "DistributedPlanner.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "LiteralExpr.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "check-hbase-nodes.py",
+      4
+   ],
+   [
+      "Impala Public Jenkins",
+      "AnalyticWindow.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "PlannerTestBase.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "tpch-kudu.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu_create.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "fragment-instance-state.cc",
+      2
+   ],
+   [
+      "Alex Behm",
       "test_kudu.py",
+      2
+   ],
+   [
+      "tarmstrong",
+      "runtime-state.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_cancellation.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_upsert.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "query-state.cc",
+      2
+   ],
+   [
+      "henry",
+      "test_kudu.py",
+      1
+   ],
+   [
+      "Dimitris Tsirogiannis",
+      "tpcds_kudu_template.sql",
       1
    ],
    [
@@ -166,33 +166,168 @@
    ],
    [
       "Internal Jenkins",
-      "test_scanners.py",
-      1
+      "thrift-client.h",
+      3
    ],
    [
-      "Impala Public Jenkins",
-      "AnalyticWindow.java",
+      "Internal Jenkins",
+      "scalar-fn-call.h",
       2
    ],
    [
-      "Jim Apple",
-      "impala-docs.html",
+      "mjacobs",
+      "impala-internal-service.h",
       1
    ],
    [
-      "tarmstrong",
-      "tpch_kudu_template.sql",
-      1
-   ],
-   [
-      "tarmstrong",
-      "generate-schema-statements.py",
+      "Internal Jenkins",
+      "RequestPoolService.java",
       1
    ],
    [
       "Impala Public Jenkins",
-      "test_mt_dop.py",
+      "hyperloglog-uda.cc",
       1
+   ],
+   [
+      "tarmstrong",
+      "AnalysisContext.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "tpcds_kudu_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AuditingTest.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "FrontendTest.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "tpch_schema_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "FileSystemUtil.java",
+      2
+   ],
+   [
+      "tarmstrong",
+      "FrontendTest.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "udf.test",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "PrivilegeRequest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ParallelPlanner.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "KuduCatalogOpExecutor.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_kudu.py",
+      11
+   ],
+   [
+      "John Russell",
+      "impala.ditamap",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "partition-ddl-predicates-all-fs.test",
+      2
+   ],
+   [
+      "mjacobs",
+      "impala-server.h",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "ColumnDef.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "mt-dop-parquet-nested.test",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "mcjit-mem-mgr.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "timestamp-value.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_cursor.py",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "DistributedPlanner.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "fe-support.cc",
+      6
+   ],
+   [
+      "tarmstrong",
+      "Frontend.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "MetadataOp.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "buildall.sh",
+      2
+   ],
+   [
+      "Dan Hecht",
+      "walltime.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AggregateInfoBase.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "bad-cert.pem",
+      2
    ],
    [
       "Internal Jenkins",
@@ -205,159 +340,14 @@
       1
    ],
    [
-      "kwho",
-      "functional_schema_template.sql",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AuthorizeableUri.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "plan-fragment-executor.cc",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "MetaStoreUtil.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "TableDef.java",
-      4
-   ],
-   [
-      "Impala Public Jenkins",
-      "ExternalDataSourceExecutor.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "impala_test_suite.py",
-      2
-   ],
-   [
-      "mjacobs",
-      "impala-internal-service.h",
-      1
-   ],
-   [
       "tarmstrong",
-      "uid-util.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableSetFileFormatStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "LiteralExpr.java",
-      1
-   ],
-   [
-      "Dan Hecht",
-      "time.h",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "expr-context.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "generate_error_codes.py",
-      1
-   ],
-   [
-      "mjacobs",
-      "SingleNodePlanner.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "udf.test",
-      4
-   ],
-   [
-      "mjacobs",
-      "fragment-mgr.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "scalar-fn-call.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "Table.java",
+      "kudu_upsert.test",
       1
    ],
    [
       "kwho",
-      "generate-schema-statements.py",
+      "test_kudu.py",
       1
-   ],
-   [
-      "Internal Jenkins",
-      "bad-cert.pem",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "fragment-instance-state.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "test_dimensions.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs.test",
-      2
-   ],
-   [
-      "tarmstrong",
-      "SelectStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "RuntimeFilterGenerator.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Frontend.java",
-      4
-   ],
-   [
-      "Impala Public Jenkins",
-      "ComputeStatsStmt.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "exprs.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "udf-init-close.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CreateTableStmt.java",
-      3
    ],
    [
       "Internal Jenkins",
@@ -366,943 +356,18 @@
    ],
    [
       "Internal Jenkins",
-      "sql-scanner.flex",
-      4
-   ],
-   [
-      "Dimitris Tsirogiannis",
-      "tpcds_kudu_template.sql",
+      "ColumnDef.java",
       1
-   ],
-   [
-      "Impala Public Jenkins",
-      "scalar-fn-call.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-scan-node.test",
-      2
    ],
    [
       "kwho",
-      "kudu_update.test",
+      "test_shell_commandline.py",
       1
-   ],
-   [
-      "Impala Public Jenkins",
-      "LimitElement.java",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "expr-test.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-table-sink.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "KuduUtil.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "ShowPartitionsStmt.java",
-      2
-   ],
-   [
-      "tarmstrong",
-      "HdfsScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "RangePartition.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CastExpr.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "runtime-state.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu-timeouts-catalogd.test",
-      1
-   ],
-   [
-      "mjacobs",
-      "desc-tbl-builder.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "webserver.cc",
-      2
-   ],
-   [
-      "kwho",
-      "kudu-timeouts-catalogd.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduScanNode.java",
-      5
-   ],
-   [
-      "Internal Jenkins",
-      "parquet.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "CreateTableAsSelectStmt.java",
-      2
-   ],
-   [
-      "mjacobs",
-      "thread-resource-mgr.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Column.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "FrontendTestBase.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "CatalogOpExecutor.java",
-      1
-   ],
-   [
-      "Jim Apple",
-      "overview.html",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AuthorizationPolicy.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-table-sink.h",
-      2
    ],
    [
       "tarmstrong",
       "runtime-state.cc",
       1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_insert.test",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "test_scanners_fuzz.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "parquet-column-readers.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "simple-scheduler.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "parquet.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node-errors.test",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "DistributedPlanner.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableStmt.java",
-      2
-   ],
-   [
-      "mjacobs",
-      "SelectStmt.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "container-util.h",
-      1
-   ],
-   [
-      "mjacobs",
-      "query-schedule.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala_test_suite.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "ParallelPlanner.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "tpcds_kudu_template.sql",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "SelectStmt.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "ColumnDef.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "expr-context.cc",
-      3
-   ],
-   [
-      "Impala Public Jenkins",
-      "TimestampLiteral.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "data-source-scan-node.cc",
-      2
-   ],
-   [
-      "tarmstrong",
-      "functional_schema_template.sql",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test_cancellation.py",
-      1
-   ],
-   [
-      "tarmstrong",
-      "desc-tbl-builder.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "udf.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "query-exec-mgr.h",
-      2
-   ],
-   [
-      "kwho",
-      "kudu_stats.test",
-      1
-   ],
-   [
-      "kwho",
-      "kudu_delete.test",
-      1
-   ],
-   [
-      "Dan Hecht",
-      "stopwatch.h",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "udf-non-deterministic.test",
-      2
-   ],
-   [
-      "tarmstrong",
-      "fragment-exec-state.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_stats.test",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "exec-env.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "SortNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsPartition.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "sql-parser.cup",
-      9
-   ],
-   [
-      "mjacobs",
-      "impala-server.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "data-stream-test.cc",
-      4
-   ],
-   [
-      "Impala Public Jenkins",
-      "mt-dop.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "out-of-range-timestamp-continue-on-error.test",
-      2
-   ],
-   [
-      "mjacobs",
-      "impala-hs2-server.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "query-state.h",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "make_impala.sh",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "UnionNode.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "CatalogServiceCatalog.java",
-      1
-   ],
-   [
-      "kwho",
-      "kudu_upsert.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PlannerTest.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "mt-dop-parquet-nested.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "free-pool.h",
-      1
-   ],
-   [
-      "kwho",
-      "tpch_kudu_template.sql",
-      1
-   ],
-   [
-      "tarmstrong",
-      "ImpalaInternalService.thrift",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_describe.test",
-      1
-   ],
-   [
-      "Taras Bobrovytsky",
-      "model_translator.py",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "FeSupport.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "PrivilegeRequest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-selectivity.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "coordinator.h",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "atomic.h",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "KuduCatalogOpExecutor.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "impala-internal-service.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpch-kudu.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "out-of-range-timestamp-continue-on-error.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "literal.h",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "mt-dop-parquet.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "KuduScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "free-pool.cc",
-      1
-   ],
-   [
-      "mjacobs",
-      "thread.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "TruncateStmt.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "MetadataOp.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "outer-joins.test",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "tpch_schema_template.sql",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "DropTableOrViewStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "JniFrontend.java",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "AuthorizationChecker.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "hyperloglog-uda.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "llvm-codegen.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "HBaseScanNode.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "fragment-exec-state.h",
-      1
-   ],
-   [
-      "kwho",
-      "lineage.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "hash-table.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "AggregateInfo.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-scanner.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "functional_schema_template.sql",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "parquet-column-readers.h",
-      2
-   ],
-   [
-      "tarmstrong",
-      "kudu_create.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "PlannerTestBase.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "PlannerTest.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test-env.h",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "HdfsScanNode.java",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "ColumnDef.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "catalog-op-executor.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableAddDropRangePartitionStmt.java",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "AvroSchemaParser.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "Privilege.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PrivilegeSpec.java",
-      1
-   ],
-   [
-      "John Russell",
-      "impala_pdf.ditaval",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpcds_kudu_template.sql",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "DataSourceScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "FileSystemUtil.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "LoadDataStmt.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_delete.test",
-      1
-   ],
-   [
-      "kwho",
-      "ParserTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "DataSourceScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "buildall.sh",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "SortNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "show-create-table.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "exec-env.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "test_kudu.py",
-      11
-   ],
-   [
-      "Taras Bobrovytsky",
-      "query_object_testdata.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "parquet-reader.cc",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-parquet-scanner.cc",
-      1
-   ],
-   [
-      "henry",
-      "test_kudu.py",
-      1
-   ],
-   [
-      "Jim Apple",
-      "bylaws.html",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableAddReplaceColsStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "DistributeParam.java",
-      3
-   ],
-   [
-      "mjacobs",
-      "simple-scheduler.cc",
-      1
-   ],
-   [
-      "kwho",
-      "kudu_partition_ddl.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "bad-key.pem",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CreateUdfStmt.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "runtime-state.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyticEvalNode.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "UnionNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "DataSourceTable.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduPartitionParam.java",
-      4
-   ],
-   [
-      "Impala Public Jenkins",
-      "RequestPoolService.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_describe.test",
-      3
-   ],
-   [
-      "Impala Public Jenkins",
-      "concurrent_select.py",
-      2
-   ],
-   [
-      "kwho",
-      "test_cancellation.py",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "JoinNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ComputeStatsStmt.java",
-      2
-   ],
-   [
-      "mjacobs",
-      "impala-server.h",
-      1
-   ],
-   [
-      "Dan Hecht",
-      "walltime.h",
-      2
-   ],
-   [
-      "mjacobs",
-      "impala-beeswax-server.cc",
-      1
-   ],
-   [
-      "Henry Robinson",
-      "plan-fragment-executor.cc",
-      2
-   ],
-   [
-      "mjacobs",
-      "impala-internal-service.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "FunctionCallExpr.java",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "impala-config.sh",
-      6
-   ],
-   [
-      "mjacobs",
-      "udf.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "null-literal.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "ImpaladCatalog.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ImpalaInternalService.thrift",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "Planner.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "TableLoader.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "HBaseScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AggregationNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ShowFilesStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "User.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsTable.java",
-      6
-   ],
-   [
-      "Impala Public Jenkins",
-      "Table.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "StmtRewriter.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "buildall.sh",
-      2
-   ],
-   [
-      "tarmstrong",
-      "test_kudu.py",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "test_lifecycle.py",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_update.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ImpalaInternalAdminUser.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_compute_stats.py",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "fe-support.cc",
-      6
-   ],
-   [
-      "Impala Public Jenkins",
-      "build_thirdparty.sh",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "buffered-block-mgr-test.cc",
-      2
-   ],
-   [
-      "mjacobs",
-      "FrontendTest.java",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "HdfsTable.java",
-      3
    ],
    [
       "Jim Apple",
@@ -1310,323 +375,8 @@
       1
    ],
    [
-      "Internal Jenkins",
-      "coordinator.cc",
-      3
-   ],
-   [
-      "kwho",
-      "test_shell_commandline.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "subquery-rewrite.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "fragment-exec-state.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "exchange-node.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "InlineViewRef.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "FileSystemUtil.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "TableLoader.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "runtime-state.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "literal.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "bit-util.h",
-      1
-   ],
-   [
-      "mjacobs",
-      "query-exec-state.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-timeouts-catalogd.test",
-      2
-   ],
-   [
-      "tarmstrong",
-      "Frontend.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "impala-config.sh",
-      8
-   ],
-   [
-      "mjacobs",
-      "AnalysisContext.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "KuduTable.java",
-      7
-   ],
-   [
-      "Impala Public Jenkins",
-      "LiteralExpr.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "parquet-resolution-by-name.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "parse_util.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableSetLocationStmt.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "run-tests.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AggregateInfoBase.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyzeDDLTest.java",
-      12
-   ],
-   [
-      "John Russell",
-      "Cloudera-Impala-Release-Notes.ditamap",
-      1
-   ],
-   [
-      "tarmstrong",
-      "ParserTest.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu-scan-node.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "KuduUtil.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "fragment-exec-state.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PlanHint.java",
-      2
-   ],
-   [
-      "tarmstrong",
-      "query-exec-state.cc",
-      1
-   ],
-   [
-      "Dan Hecht",
-      "walltime.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "JoinNode.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "runtime-filter-bank.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "fragment-exec-state.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Analyzer.java",
-      9
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_upsert.test",
-      2
-   ],
-   [
-      "tarmstrong",
-      "impala-http-handler.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "test_shell_commandline.py",
-      2
-   ],
-   [
       "Impala Public Jenkins",
       "JniFrontend.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "client-cache.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "PartitionSet.java",
-      4
-   ],
-   [
-      "Impala Public Jenkins",
-      "scope-exit-trigger.h",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "CatalogOpExecutor.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "HdfsCachingUtil.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "insert.test",
-      4
-   ],
-   [
-      "Impala Public Jenkins",
-      "parquet-resolution-by-name.test",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "expr.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "suballocator.cc",
-      2
-   ],
-   [
-      "kwho",
-      "kudu_alter.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ModifyStmt.java",
-      1
-   ],
-   [
-      "John Russell",
-      "impala_sqlref.ditamap",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "UnionNode.java",
-      1
-   ],
-   [
-      "kwho",
-      "tpch_schema_template.sql",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableChangeColStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsCachingUtil.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "aggregate-functions-ir.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "lineage.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "runtime-filter-bank.cc",
-      1
-   ],
-   [
-      "tarmstrong",
-      "impala-hs2-server.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_alter.test",
-      8
-   ],
-   [
-      "Impala Public Jenkins",
-      "copy-udfs-udas.sh",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "null-literal.h",
-      2
-   ],
-   [
-      "mjacobs",
-      "test-env.h",
       1
    ],
    [
@@ -1635,488 +385,28 @@
       2
    ],
    [
-      "Tim Armstrong",
-      "mcjit-mem-mgr.h",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_insert.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "client-cache.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AuthorizationTest.java",
-      5
-   ],
-   [
-      "henry",
-      "test_shell_commandline.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_mt_dop.py",
-      3
-   ],
-   [
-      "Impala Public Jenkins",
-      "make_impala.sh",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "TableDataLayout.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "test_file_parser.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalyticInfo.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "AnalysisContext.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_delete.test",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "UnionStmt.java",
-      2
-   ],
-   [
-      "Tim Armstrong",
-      "common-footer.tmpl",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "test-udfs.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CreateOrAlterViewStmtBase.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "test-env.cc",
-      1
-   ],
-   [
-      "John Russell",
-      "impala_html.ditaval",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "Frontend.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "Analyzer.java",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "unnest-node.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "AggregateInfo.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "DistributedPlanner.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "query-exec-mgr.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "Column.java",
-      1
-   ],
-   [
-      "kwho",
-      "kudu_describe.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "exprs.test",
-      3
-   ],
-   [
-      "Internal Jenkins",
-      "blocking-join-node.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "statestore-test.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "hdfs-parquet-scanner.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node-base.cc",
-      2
-   ],
-   [
-      "tarmstrong",
-      "UnionNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "JniCatalog.thrift",
-      3
-   ],
-   [
-      "Impala Public Jenkins",
-      "names.h",
-      2
-   ],
-   [
-      "mjacobs",
-      "ImpalaInternalService.thrift",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Planner.java",
-      3
-   ],
-   [
-      "kwho",
-      "tpcds_kudu_template.sql",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "text-converter.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "Frontend.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_alter.test",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu_create.test",
-      6
-   ],
-   [
-      "Internal Jenkins",
-      "PartitionStatsUtil.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "ColumnLineageGraph.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "tpch_schema_template.sql",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "buffered-tuple-stream-test.cc",
-      2
-   ],
-   [
       "Impala Public Jenkins",
       "hdfs-scan-node-mt.cc",
       1
    ],
    [
-      "Impala Public Jenkins",
-      "coordinator.cc",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "SingleNodePlanner.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "kudu_stats.test",
-      1
-   ],
-   [
-      "tarmstrong",
-      "fe-support.cc",
-      1
-   ],
-   [
       "Internal Jenkins",
-      "AlterTableDropPartitionStmt.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "fragment-mgr.cc",
-      1
-   ],
-   [
-      "Tim Armstrong",
-      "JniFrontend.java",
-      2
-   ],
-   [
-      "tarmstrong",
-      "TestUtils.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "db_connection.py",
-      2
-   ],
-   [
-      "tarmstrong",
-      "impala-server.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node.h",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsPartitionPruner.java",
-      2
-   ],
-   [
-      "Impala Public Jenkins",
-      "kudu_insert.test",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "udf.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "CatalogOpExecutor.java",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "CatalogServiceCatalog.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsScanNode.java",
-      3
-   ],
-   [
-      "Taras Bobrovytsky",
-      "query.py",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "udf-internal.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "ParserTest.java",
-      7
-   ],
-   [
-      "Impala Public Jenkins",
-      "SelectStmt.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "InsertStmt.java",
+      "tpch_schema_template.sql",
       2
    ],
    [
       "mjacobs",
-      "query-state.h",
+      "query-schedule.cc",
       1
    ],
    [
       "Internal Jenkins",
-      "ExternalDataSourceExecutor.java",
+      "SortNode.java",
       1
    ],
    [
       "Internal Jenkins",
-      "PrivilegeRequestBuilder.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "Analyzer.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "request-pool-service.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "test_cursor.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "hdfs-scan-node.cc",
-      3
-   ],
-   [
-      "Jim Apple",
-      "index.html",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "authentication.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Frontend.thrift",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "AuthorizeableDb.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AuditingTest.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "DataSourceTable.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PartitionSpec.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "out_of_range_timestamp.parquet",
-      1
-   ],
-   [
-      "mjacobs",
-      "fragment-mgr.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "hash-table-test.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "HdfsPartitionFilter.java",
-      3
-   ],
-   [
-      "Tim Armstrong",
-      "FrontendTest.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "AlterTableAddPartitionStmt.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "query-exec-state.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "pkg_resources.py",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "tpch_kudu_template.sql",
-      2
-   ],
-   [
-      "tarmstrong",
-      "impala-beeswax-server.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "Expr.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "SingleNodePlanner.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "kudu-util.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "scanner-context.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "ImpalaInternalService.thrift",
+      "KuduUtil.java",
       2
    ],
    [
@@ -2126,7 +416,72 @@
    ],
    [
       "Internal Jenkins",
-      "test_fetch_first.py",
+      "generate-schema-statements.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "Privilege.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "TruncateStmt.java",
+      1
+   ],
+   [
+      "Taras Bobrovytsky",
+      "model_translator.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "SelectStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "runtime-state.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AuthorizationChecker.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "buffered-tuple-stream-test.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AvroSchemaParser.java",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "test_dimensions.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "mt-dop-parquet.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node-errors.test",
+      2
+   ],
+   [
+      "tarmstrong",
+      "kudu_insert.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Column.java",
       1
    ],
    [
@@ -2136,37 +491,67 @@
    ],
    [
       "Internal Jenkins",
-      "RequestPoolService.java",
+      "kudu-util.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyticInfo.java",
       1
    ],
    [
       "Internal Jenkins",
-      "ShowStatsStmt.java",
-      2
+      "fragment-exec-state.h",
+      1
+   ],
+   [
+      "mjacobs",
+      "thread-resource-mgr.h",
+      1
+   ],
+   [
+      "mjacobs",
+      "HdfsScanNode.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "query-exec-state.h",
+      1
+   ],
+   [
+      "mjacobs",
+      "fragment-mgr.h",
+      1
    ],
    [
       "tarmstrong",
-      "thread.h",
+      "container-util.h",
       1
-   ],
-   [
-      "Internal Jenkins",
-      "AnalysisContext.java",
-      2
    ],
    [
       "Impala Public Jenkins",
-      "mt-dop-parquet.test",
+      "literal.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AggregationNode.java",
       1
    ],
    [
       "tarmstrong",
-      "kudu_upsert.test",
+      "test-env.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu_delete.test",
       1
    ],
    [
       "Internal Jenkins",
-      "test_cancellation.py",
+      "thrift-client.cc",
       2
    ],
    [
@@ -2176,37 +561,47 @@
    ],
    [
       "Internal Jenkins",
-      "scalar-fn-call.h",
-      2
-   ],
-   [
-      "mjacobs",
-      "TestUtils.java",
-      1
-   ],
-   [
-      "mjacobs",
-      "impala-http-handler.cc",
-      1
-   ],
-   [
-      "John Russell",
-      "impala.ditamap",
-      1
-   ],
-   [
-      "tarmstrong",
-      "query-schedule.cc",
-      1
-   ],
-   [
-      "mjacobs",
-      "PlannerTestBase.java",
+      "PartitionSpec.java",
       1
    ],
    [
       "Impala Public Jenkins",
-      "bootstrap_build.sh",
+      "run-tests.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DiskIdMapper.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "tpch_kudu_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "scanner-context.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "names.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "client-cache.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_file_parser.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "UnionNode.java",
       1
    ],
    [
@@ -2215,183 +610,73 @@
       2
    ],
    [
-      "mjacobs",
-      "request-pool-service.cc",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "check-hbase-nodes.py",
-      4
-   ],
-   [
-      "Internal Jenkins",
-      "union-node.cc",
+      "Impala Public Jenkins",
+      "udf.cc",
       2
-   ],
-   [
-      "mjacobs",
-      "HdfsScanNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "ToSqlTest.java",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "timestamp-value.h",
-      1
    ],
    [
       "Impala Public Jenkins",
-      "SelectNode.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "PlannerTestBase.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "MetadataOp.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "CreateDropRoleStmt.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "grant_revoke.test",
-      2
-   ],
-   [
-      "mjacobs",
       "Frontend.java",
       1
    ],
    [
       "Internal Jenkins",
-      "hdfs-scan-node-mt.cc",
+      "atomic.h",
       1
    ],
    [
-      "Impala Public Jenkins",
-      "AnalyticExpr.java",
-      2
-   ],
-   [
-      "kwho",
-      "kudu-scan-node.test",
+      "Tim Armstrong",
+      "test_lifecycle.py",
       1
    ],
    [
       "Internal Jenkins",
-      "KuduCatalogOpExecutor.java",
-      8
+      "coordinator.h",
+      3
    ],
    [
-      "Internal Jenkins",
-      "simple-scheduler.cc",
+      "Tim Armstrong",
+      "JniFrontend.java",
       2
    ],
    [
       "Internal Jenkins",
-      "runtime-state.cc",
+      "CatalogServiceCatalog.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "TableDataLayout.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "MetaStoreUtil.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "HdfsCachingUtil.java",
       1
    ],
    [
       "tarmstrong",
-      "impala-internal-service.cc",
+      "generate-schema-statements.py",
       1
    ],
    [
       "Internal Jenkins",
-      "partition-ddl-predicates-all-fs.test",
-      2
-   ],
-   [
-      "kwho",
-      "kudu_create.test",
-      1
-   ],
-   [
-      "kwho",
-      "kudu_insert.test",
+      "PartitionStatsUtil.java",
       1
    ],
    [
       "Internal Jenkins",
-      "test_alloc_fail.py",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "TableRef.java",
-      2
-   ],
-   [
-      "mjacobs",
-      "fe-support.cc",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "ImpaladCatalog.java",
-      1
-   ],
-   [
-      "tarmstrong",
-      "container-util.h",
+      "HBaseScanNode.java",
       1
    ],
    [
       "Internal Jenkins",
-      "thrift-server-test.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "fragment-instance-state.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "ExprSubstitutionMap.java",
-      1
-   ],
-   [
-      "Impala Public Jenkins",
-      "MetaStoreClientPool.java",
-      1
-   ],
-   [
-      "Matthew Jacobs",
-      "impala-config.sh",
-      6
-   ],
-   [
-      "Impala Public Jenkins",
-      "expr.h",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "SentryPolicyService.java",
-      1
-   ],
-   [
-      "Internal Jenkins",
-      "expr-test.cc",
-      2
-   ],
-   [
-      "Internal Jenkins",
-      "scanner-context.h",
+      "subquery-rewrite.test",
       1
    ],
    [
@@ -2401,13 +686,268 @@
    ],
    [
       "Internal Jenkins",
-      "kudu_partition_ddl.test",
-      6
+      "ToSqlUtils.java",
+      5
    ],
    [
       "Internal Jenkins",
-      "expr-benchmark.cc",
+      "exchange-node.cc",
       2
+   ],
+   [
+      "tarmstrong",
+      "kudu-scan-node.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "simple-scheduler.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "llvm-codegen.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "exprs.test",
+      3
+   ],
+   [
+      "tarmstrong",
+      "kudu_update.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AuthorizationPolicy.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeDDLTest.java",
+      12
+   ],
+   [
+      "mjacobs",
+      "UnionNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "blocking-join-node.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-table-sink.h",
+      2
+   ],
+   [
+      "Tim Armstrong",
+      "unnest-node.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "FrontendTest.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "desc-tbl-builder.h",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "scope-exit-trigger.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scanner.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "webserver.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "impala-internal-service.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "desc-tbl-builder.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "out_of_range_timestamp.parquet",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "ComputeStatsStmt.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "TestUtils.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "text-converter.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ToSqlTest.java",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "TableLoadingMgr.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "CatalogServiceCatalog.java",
+      1
+   ],
+   [
+      "kwho",
+      "tpch_kudu_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "free-pool.h",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "AnalyticExpr.java",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "hdfs-parquet-scanner.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "fragment-exec-state.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "PrivilegeSpec.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "scalar-fn-call.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-scanner.cc",
+      6
+   ],
+   [
+      "Impala Public Jenkins",
+      "udf-init-close-deterministic.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "UnionStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "LiteralExpr.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "copy-udfs-udas.sh",
+      2
+   ],
+   [
+      "tarmstrong",
+      "impala-server.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "fragment-instance-state.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "exec-env.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "tpcds_kudu_template.sql",
+      2
+   ],
+   [
+      "kwho",
+      "generate-schema-statements.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "SelectNode.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "expr.cc",
+      2
+   ],
+   [
+      "mjacobs",
+      "PlannerTest.java",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "FrontendTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableChangeColStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "parquet-resolution-by-name.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_compute_stats.py",
+      2
+   ],
+   [
+      "Sailesh Mukil",
+      "model_translator.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyzeAuthStmtsTest.java",
+      1
    ],
    [
       "Taras Bobrovytsky",
@@ -2416,17 +956,802 @@
    ],
    [
       "Internal Jenkins",
-      "thrift-client.h",
+      "test_scanners.py",
+      1
+   ],
+   [
+      "mjacobs",
+      "impala-hs2-server.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "out-of-range-timestamp-continue-on-error.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "thrift-server-test.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "CreateOrAlterViewStmtBase.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "KuduScanNode.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "SortNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_fetch_first.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "query-exec-state.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "free-pool.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-timeouts-catalogd.test",
+      2
+   ],
+   [
+      "mjacobs",
+      "container-util.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node.cc",
       3
    ],
    [
-      "Tim Armstrong",
-      "hdfs-scan-node-mt.cc",
+      "Internal Jenkins",
+      "ShowStatsStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "PrivilegeRequestBuilder.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "query-exec-mgr.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "HdfsPartitionPruner.java",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "aggregate-functions-ir.cc",
+      1
+   ],
+   [
+      "kwho",
+      "kudu_describe.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "grant_revoke.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "PlannerTest.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "suballocator.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "JniFrontend.java",
+      3
+   ],
+   [
+      "Impala Public Jenkins",
+      "parse_util.py",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "expr-context.h",
+      3
+   ],
+   [
+      "tarmstrong",
+      "PlannerTestBase.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ExprSubstitutionMap.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "show-create-table.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "mt-dop-parquet.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CreateUdfStmt.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "UnionNode.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "runtime-filter-bank.cc",
+      1
+   ],
+   [
+      "kwho",
+      "kudu-scan-node.test",
+      1
+   ],
+   [
+      "mjacobs",
+      "simple-scheduler.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_stats.test",
+      3
+   ],
+   [
+      "Jim Apple",
+      "overview.html",
       1
    ],
    [
       "Internal Jenkins",
       "ExprRewriteRulesTest.java",
+      2
+   ],
+   [
+      "tarmstrong",
+      "ImpalaInternalService.thrift",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "SelectNode.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "TimestampLiteral.java",
+      2
+   ],
+   [
+      "kwho",
+      "kudu_stats.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "Planner.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "runtime-state.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "generate_error_codes.py",
+      1
+   ],
+   [
+      "John Russell",
+      "impala_pdf.ditaval",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "HdfsScanNode.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "FunctionCallExpr.java",
+      2
+   ],
+   [
+      "tarmstrong",
+      "FrontendTestBase.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Expr.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu-timeouts-catalogd.test",
+      1
+   ],
+   [
+      "mjacobs",
+      "impala-server.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu_partition_ddl.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "impala-server.h",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "test_mt_dop.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "TableDef.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "Frontend.thrift",
+      2
+   ],
+   [
+      "mjacobs",
+      "ColumnLineageGraph.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "parquet-resolution-by-name.test",
+      2
+   ],
+   [
+      "tarmstrong",
+      "fe-support.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableAddDropRangePartitionStmt.java",
+      3
+   ],
+   [
+      "Impala Public Jenkins",
+      "TableLoader.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "HdfsTable.java",
+      6
+   ],
+   [
+      "Matthew Jacobs",
+      "impala-config.sh",
+      6
+   ],
+   [
+      "Impala Public Jenkins",
+      "expr-test.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "bad-key.pem",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableSetLocationStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "parquet.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "hash-table.h",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "out-of-range-timestamp-continue-on-error.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "Planner.java",
+      3
+   ],
+   [
+      "kwho",
+      "kudu_update.test",
+      1
+   ],
+   [
+      "mjacobs",
+      "AnalysisContext.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "impala-internal-service.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "outer-joins.test",
+      4
+   ],
+   [
+      "kwho",
+      "lineage.test",
+      1
+   ],
+   [
+      "kwho",
+      "kudu_insert.test",
+      1
+   ],
+   [
+      "Jim Apple",
+      "bylaws.html",
+      1
+   ],
+   [
+      "mjacobs",
+      "test-env.h",
+      1
+   ],
+   [
+      "kwho",
+      "tpcds_kudu_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "sql-parser.cup",
+      9
+   ],
+   [
+      "Internal Jenkins",
+      "PlanHint.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "statestore-test.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "impala_test_suite.py",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "test-udfs.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "data-stream-test.cc",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "ExternalDataSourceExecutor.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "db_connection.py",
+      2
+   ],
+   [
+      "tarmstrong",
+      "thread.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu_describe.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "HdfsCachingUtil.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-parquet-scanner.cc",
+      1
+   ],
+   [
+      "mjacobs",
+      "udf.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_describe.test",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "sql-scanner.flex",
+      4
+   ],
+   [
+      "mjacobs",
+      "test-env.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CreateTableAsSelectStmt.java",
+      2
+   ],
+   [
+      "mjacobs",
+      "SingleNodePlanner.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "MetadataOp.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu.test",
+      3
+   ],
+   [
+      "tarmstrong",
+      "kudu_alter.test",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "CatalogOpExecutor.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "make_impala.sh",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "hash-table-test.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "SentryPolicyService.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "JoinNode.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "fragment-mgr.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AggregateInfo.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "HdfsPartition.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "RuntimeFilterGenerator.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "null-literal.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "ColumnLineageGraph.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AnalyticEvalNode.java",
+      1
+   ],
+   [
+      "John Russell",
+      "Cloudera-Impala-Release-Notes.ditamap",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DropTableOrViewStmt.java",
+      1
+   ],
+   [
+      "Jim Apple",
+      "index.html",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "HBaseScanNode.java",
+      1
+   ],
+   [
+      "Henry Robinson",
+      "plan-fragment-executor.cc",
+      2
+   ],
+   [
+      "kwho",
+      "kudu_upsert.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DataSourceTable.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "fragment-exec-state.h",
+      1
+   ],
+   [
+      "mjacobs",
+      "query-state.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "TableLoader.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "literal.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "KuduCatalogOpExecutor.java",
+      8
+   ],
+   [
+      "Internal Jenkins",
+      "impala_test_suite.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ImpaladCatalog.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "thread-resource-mgr.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "udf.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "impala-internal-service.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "exprs.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "ExternalDataSourceExecutor.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "HdfsTable.java",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "fragment-exec-state.cc",
+      1
+   ],
+   [
+      "mjacobs",
+      "FrontendTestBase.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "expr-context.cc",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "SelectList.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "KuduPartitionParam.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "AnalysisContext.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ImpalaInternalAdminUser.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AuthorizeableUri.java",
+      1
+   ],
+   [
+      "Jim Apple",
+      "community.html",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "TableRef.java",
+      2
+   ],
+   [
+      "John Russell",
+      "impala_sqlref.ditamap",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "KuduUtil.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DropFunctionStmt.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "timestamp-functions.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "bit-util.h",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "buildall.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableAddReplaceColsStmt.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "SelectStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "simple-scheduler.cc",
+      2
+   ],
+   [
+      "Taras Bobrovytsky",
+      "query_object_testdata.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "union-node.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_partition_ddl.test",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "ParserTest.java",
+      7
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableSetFileFormatStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "JniCatalog.thrift",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "InlineViewRef.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "concurrent_select.py",
       2
    ],
    [
@@ -2436,38 +1761,498 @@
    ],
    [
       "Internal Jenkins",
-      "kudu.test",
+      "SingleNodePlanner.java",
       3
    ],
    [
       "Internal Jenkins",
-      "avro-schema-changes.test",
+      "plan-fragment-executor.cc",
+      3
+   ],
+   [
+      "Tim Armstrong",
+      "HdfsTable.java",
+      3
+   ],
+   [
+      "Tim Armstrong",
+      "hdfs-scan-node-mt.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "plan-fragment-executor.h",
+      3
+   ],
+   [
+      "Internal Jenkins",
+      "buffered-block-mgr-test.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "LoadDataStmt.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "ImpalaInternalService.thrift",
       2
    ],
    [
       "Impala Public Jenkins",
-      "timestamp-functions.cc",
-      1
-   ],
-   [
-      "Sailesh Mukil",
-      "model_translator.py",
+      "SingleNodePlanner.java",
       1
    ],
    [
       "Internal Jenkins",
-      "FrontendTest.java",
+      "hdfs-scan-node-base.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "tpch_kudu_template.sql",
+      2
+   ],
+   [
+      "mjacobs",
+      "thread.h",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "AggregateInfo.java",
       1
    ],
    [
       "Internal Jenkins",
-      "SelectList.java",
+      "ShowPartitionsStmt.java",
+      2
+   ],
+   [
+      "Tim Armstrong",
+      "make_impala.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "parquet-column-readers.h",
+      2
+   ],
+   [
+      "mjacobs",
+      "fragment-exec-state.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "kudu_stats.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "build_thirdparty.sh",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableDropPartitionStmt.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "fragment-mgr.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "exec-env.h",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "HdfsScanNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "StmtRewriter.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "SelectStmt.java",
+      1
+   ],
+   [
+      "kwho",
+      "kudu_create.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "InsertStmt.java",
+      2
+   ],
+   [
+      "mjacobs",
+      "ImpalaInternalService.thrift",
+      1
+   ],
+   [
+      "tarmstrong",
+      "lineage.test",
+      1
+   ],
+   [
+      "mjacobs",
+      "query-exec-state.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "query-exec-mgr.h",
+      2
+   ],
+   [
+      "kwho",
+      "kudu-timeouts-catalogd.test",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_alter.test",
+      8
+   ],
+   [
+      "Impala Public Jenkins",
+      "udf-init-close.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_create.test",
+      6
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs.test",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "Column.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "insert.test",
+      4
+   ],
+   [
+      "kwho",
+      "functional_schema_template.sql",
+      1
+   ],
+   [
+      "kwho",
+      "tpch_schema_template.sql",
+      1
+   ],
+   [
+      "mjacobs",
+      "Frontend.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "impala-config.sh",
+      8
+   ],
+   [
+      "Internal Jenkins",
+      "data-source-scan-node.cc",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "kudu_insert.test",
+      1
+   ],
+   [
+      "kwho",
+      "kudu_alter.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "UnionNode.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Frontend.java",
+      4
+   ],
+   [
+      "mjacobs",
+      "impala-beeswax-server.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "pkg_resources.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "test_cancellation.py",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "functional_schema_template.sql",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_insert.test",
+      2
+   ],
+   [
+      "mjacobs",
+      "request-pool-service.cc",
+      1
+   ],
+   [
+      "tarmstrong",
+      "uid-util.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "test_alloc_fail.py",
+      2
+   ],
+   [
+      "mjacobs",
+      "fe-support.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "DataSourceTable.java",
+      1
+   ],
+   [
+      "Taras Bobrovytsky",
+      "query.py",
+      1
+   ],
+   [
+      "kwho",
+      "ParserTest.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "FileSystemUtil.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "udf-non-deterministic.test",
       2
    ],
    [
       "tarmstrong",
-      "FrontendTestBase.java",
+      "impala-hs2-server.cc",
       1
+   ],
+   [
+      "Internal Jenkins",
+      "expr-test.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-selectivity.test",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "expr.h",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "coordinator.cc",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "CatalogOpExecutor.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AuthorizationTest.java",
+      5
+   ],
+   [
+      "mjacobs",
+      "runtime-state.h",
+      1
+   ],
+   [
+      "mjacobs",
+      "runtime-filter-bank.cc",
+      1
+   ],
+   [
+      "John Russell",
+      "impala_html.ditaval",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "AuthorizeableDb.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "query-state.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "Table.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "out-of-range-timestamp-abort-on-error.test",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "mt-dop-parquet.test",
+      1
+   ],
+   [
+      "kwho",
+      "kudu_delete.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "functional_schema_template.sql",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "User.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "MetaStoreClientPool.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "parquet-column-readers.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "FeSupport.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-scan-node.test",
+      2
+   ],
+   [
+      "tarmstrong",
+      "SingleNodePlanner.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "KuduScanNode.java",
+      5
+   ],
+   [
+      "tarmstrong",
+      "Analyzer.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "hdfs-scan-node-mt.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "ImpaladCatalog.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "ParserTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "PartitionSet.java",
+      4
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-scanner.h",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "LimitElement.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "kudu-table-sink.cc",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "impala-config.sh",
+      6
+   ],
+   [
+      "tarmstrong",
+      "TestUtils.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "impala-http-handler.cc",
+      1
+   ],
+   [
+      "Tim Armstrong",
+      "common-footer.tmpl",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ShowFilesStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "KuduTable.java",
+      7
    ],
    [
       "Impala Public Jenkins",
@@ -2476,23 +2261,238 @@
    ],
    [
       "Internal Jenkins",
-      "mt-dop-parquet.test",
+      "CastExpr.java",
+      1
+   ],
+   [
+      "tarmstrong",
+      "HdfsScanNode.java",
+      1
+   ],
+   [
+      "mjacobs",
+      "fragment-exec-state.h",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "DataSourceScanNode.java",
       1
    ],
    [
       "Internal Jenkins",
-      "kudu-scanner.cc",
-      6
+      "AlterTableAddPartitionStmt.java",
+      1
    ],
    [
-      "mjacobs",
-      "runtime-state.h",
+      "Impala Public Jenkins",
+      "mt-dop.test",
+      1
+   ],
+   [
+      "tarmstrong",
+      "impala-http-handler.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "kudu_delete.test",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "test_mt_dop.py",
+      3
+   ],
+   [
+      "tarmstrong",
+      "impala-beeswax-server.cc",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "test_scanners_fuzz.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "scanner-context.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "coordinator.cc",
+      3
+   ],
+   [
+      "Dan Hecht",
+      "time.h",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "RequestPoolService.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "authentication.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "ComputeStatsStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "RangePartition.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "ImpalaInternalService.thrift",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "suballocator.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "avro-schema-changes.test",
+      2
+   ],
+   [
+      "tarmstrong",
+      "request-pool-service.cc",
+      1
+   ],
+   [
+      "Dan Hecht",
+      "walltime.h",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "CreateDropRoleStmt.java",
+      1
+   ],
+   [
+      "Dan Hecht",
+      "stopwatch.h",
+      2
+   ],
+   [
+      "Impala Public Jenkins",
+      "out-of-range-timestamp-abort-on-error.test",
+      2
+   ],
+   [
+      "tarmstrong",
+      "query-schedule.cc",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "parquet-reader.cc",
+      4
+   ],
+   [
+      "Impala Public Jenkins",
+      "runtime-state.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "expr-benchmark.cc",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "DistributeParam.java",
+      3
+   ],
+   [
+      "Jim Apple",
+      "impala-docs.html",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "CreateTableStmt.java",
+      3
+   ],
+   [
+      "kwho",
+      "test_cancellation.py",
+      1
+   ],
+   [
+      "tarmstrong",
+      "test_shell_commandline.py",
+      2
+   ],
+   [
+      "tarmstrong",
+      "PlannerTest.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "MetaStoreClientPool.java",
+      1
+   ],
+   [
+      "Impala Public Jenkins",
+      "SelectStmt.java",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "DataSourceScanNode.java",
       1
    ],
    [
       "Internal Jenkins",
       "CatalogObjects.thrift",
       4
+   ],
+   [
+      "Impala Public Jenkins",
+      "bootstrap_build.sh",
+      1
+   ],
+   [
+      "tarmstrong",
+      "fragment-mgr.h",
+      1
+   ],
+   [
+      "tarmstrong",
+      "query-exec-state.h",
+      1
+   ],
+   [
+      "Internal Jenkins",
+      "catalog-op-executor.cc",
+      2
+   ],
+   [
+      "tarmstrong",
+      "test_kudu.py",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "AlterTableStmt.java",
+      2
+   ],
+   [
+      "Internal Jenkins",
+      "client-cache.h",
+      2
    ],
    [
       "tarmstrong",

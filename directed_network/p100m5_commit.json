@@ -1,12 +1,42 @@
 [
    [
       "jlboudart",
-      "compile-test-java.ant",
+      "std-java-application.ivy.sha1",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "NoOp.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "module.ivy",
+      3
+   ],
+   [
+      "jlboudart",
+      "PluginService.java",
       1
    ],
    [
       "jlboudart",
       "build-tools.ant",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "PropertyDebugHelper.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "ProjectMan.java",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "DebugUtils.java",
       1
    ],
    [
@@ -16,32 +46,7 @@
    ],
    [
       "kpsiddharth",
-      "Locator.java",
-      2
-   ],
-   [
-      "jlboudart",
-      "deps-lib.ant",
-      1
-   ],
-   [
-      "jlboudart",
-      "abstract-test.ant",
-      1
-   ],
-   [
-      "kpsiddharth",
-      "Inspector.java",
-      3
-   ],
-   [
-      "jlboudart",
-      "ivy-provisioning.ant",
-      1
-   ],
-   [
-      "jlboudart",
-      "MetaBuildExecutor.java",
+      "DefaultAuditor.java",
       2
    ],
    [
@@ -51,43 +56,13 @@
    ],
    [
       "jlboudart",
-      "EasyAntMain.java",
-      1
-   ],
-   [
-      "kpsiddharth",
-      "DebugTask.java",
+      "MetaBuildExecutor.java",
       2
    ],
    [
-      "jlboudart",
-      "std-ant-plugin.jar.sha1",
-      1
-   ],
-   [
       "kpsiddharth",
-      "DebugPrompt.java",
+      "Auditor.java",
       1
-   ],
-   [
-      "jlboudart",
-      "ProjectMan.java",
-      1
-   ],
-   [
-      "jlboudart",
-      "compile-java.ant",
-      1
-   ],
-   [
-      "jlboudart",
-      "std-java-webapplication.ivy.sha1",
-      1
-   ],
-   [
-      "kpsiddharth",
-      "DebugSupport.java",
-      2
    ],
    [
       "kpsiddharth",
@@ -96,47 +71,7 @@
    ],
    [
       "jlboudart",
-      "DefaultEasyAntDescriptor.java",
-      1
-   ],
-   [
-      "jlboudart",
       "std-ant-plugin.ivy.sha1",
-      1
-   ],
-   [
-      "jlboudart",
-      "std-java-application.ivy.sha1",
-      1
-   ],
-   [
-      "kpsiddharth",
-      "Main.java",
-      2
-   ],
-   [
-      "jlboudart",
-      "module.ant",
-      1
-   ],
-   [
-      "kpsiddharth",
-      "DebugUtils.java",
-      1
-   ],
-   [
-      "kpsiddharth",
-      "DebugCommandSet.java",
-      3
-   ],
-   [
-      "jlboudart",
-      "std-java-application.jar.sha1",
-      1
-   ],
-   [
-      "jlboudart",
-      "EasyAntProjectHelper.java",
       1
    ],
    [
@@ -146,77 +81,17 @@
    ],
    [
       "kpsiddharth",
-      "Auditor.java",
-      1
-   ],
-   [
-      "jlboudart",
-      "module.ivy",
-      3
-   ],
-   [
-      "jlboudart",
-      "EasyAntEngine.java",
-      2
-   ],
-   [
-      "jlboudart",
-      "SearchModule.java",
-      1
-   ],
-   [
-      "kpsiddharth",
       "module.ivy",
       1
    ],
    [
-      "jlboudart",
-      "std-skeleton.jar.sha1",
-      1
-   ],
-   [
-      "jlboudart",
-      "DefaultPluginServiceImpl.java",
-      1
-   ],
-   [
-      "jlboudart",
-      "meta-build-autoactivator.ant",
-      1
-   ],
-   [
-      "jlboudart",
-      "PluginServiceTest.java",
-      1
-   ],
-   [
-      "jlboudart",
-      "EasyAntReportModuleParser.java",
-      1
-   ],
-   [
       "kpsiddharth",
-      "DefaultAuditor.java",
+      "DebugSupport.java",
       2
    ],
    [
-      "kpsiddharth",
-      "PropertyDebugHelper.java",
-      1
-   ],
-   [
       "jlboudart",
-      "std-java-webapplication.jar.sha1",
-      1
-   ],
-   [
-      "kpsiddharth",
-      "ProjectHelper2.java",
-      2
-   ],
-   [
-      "kpsiddharth",
-      "NoOp.java",
+      "std-java-webapplication.ivy.sha1",
       1
    ],
    [
@@ -226,7 +101,132 @@
    ],
    [
       "jlboudart",
-      "PluginService.java",
+      "EasyAntReportModuleParser.java",
       1
+   ],
+   [
+      "jlboudart",
+      "meta-build-autoactivator.ant",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "ProjectHelper2.java",
+      2
+   ],
+   [
+      "kpsiddharth",
+      "DebugPrompt.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "EasyAntEngine.java",
+      2
+   ],
+   [
+      "jlboudart",
+      "compile-test-java.ant",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "Inspector.java",
+      3
+   ],
+   [
+      "jlboudart",
+      "module.ant",
+      1
+   ],
+   [
+      "jlboudart",
+      "abstract-test.ant",
+      1
+   ],
+   [
+      "jlboudart",
+      "EasyAntMain.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "std-skeleton.jar.sha1",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "DebugTask.java",
+      2
+   ],
+   [
+      "jlboudart",
+      "PluginServiceTest.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "ivy-provisioning.ant",
+      1
+   ],
+   [
+      "jlboudart",
+      "deps-lib.ant",
+      1
+   ],
+   [
+      "jlboudart",
+      "EasyAntProjectHelper.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "std-java-webapplication.jar.sha1",
+      1
+   ],
+   [
+      "jlboudart",
+      "DefaultEasyAntDescriptor.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "SearchModule.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "std-java-application.jar.sha1",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "Main.java",
+      2
+   ],
+   [
+      "jlboudart",
+      "DefaultPluginServiceImpl.java",
+      1
+   ],
+   [
+      "jlboudart",
+      "compile-java.ant",
+      1
+   ],
+   [
+      "jlboudart",
+      "std-ant-plugin.jar.sha1",
+      1
+   ],
+   [
+      "kpsiddharth",
+      "DebugCommandSet.java",
+      3
+   ],
+   [
+      "kpsiddharth",
+      "Locator.java",
+      2
    ]
 ]

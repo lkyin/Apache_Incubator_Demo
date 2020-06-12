@@ -1,67 +1,42 @@
 [
    [
-      "jm",
-      "spamd.raw",
-      3
-   ],
-   [
       "quinlan",
-      "20_head_tests.cf",
-      2
-   ],
-   [
-      "felicity",
-      "Util.pm",
-      5
+      "20_anti_ratware.cf",
+      1
    ],
    [
       "jm",
-      "Makefile.PL",
-      2
-   ],
-   [
-      "quinlan",
       "PerMsgStatus.pm",
       3
    ],
    [
       "quinlan",
-      "sa-stats.pl",
+      "23_bayes.cf",
       1
    ],
    [
-      "jm",
-      "spamd_ldap.t",
-      1
-   ],
-   [
-      "mss",
-      "Makefile.PL",
-      2
-   ],
-   [
-      "jm",
-      "Received.pm",
-      3
-   ],
-   [
-      "jm",
-      "Conf.pm",
-      10
-   ],
-   [
-      "jm",
-      "DBBasedAddrList.pm",
+      "felicity",
+      "10_misc.cf",
       2
    ],
    [
       "felicity",
-      "sha1.t",
+      "PerMsgStatus.pm",
+      17
+   ],
+   [
+      "mss",
+      "spamc.c",
+      4
+   ],
+   [
+      "mss",
+      "qmail-spamc.c",
       2
    ],
    [
-      "quinlan",
-      "20_uri_tests.cf",
+      "felicity",
+      "bayesdbm.t",
       1
    ],
    [
@@ -70,33 +45,38 @@
       1
    ],
    [
-      "quinlan",
-      "20_anti_ratware.cf",
+      "jm",
+      "spamassassin.spec",
       1
    ],
    [
       "quinlan",
-      "utils.h",
-      1
-   ],
-   [
-      "quinlan",
-      "Util.pm",
+      "70_broken_rules.cf",
       2
    ],
    [
-      "quinlan",
-      "20_phrases.cf",
-      1
+      "jm",
+      "MANIFEST.SKIP",
+      4
    ],
    [
       "quinlan",
-      "PluginHandler.pm",
+      "Win32Locker.pm",
       1
    ],
    [
-      "quinlan",
-      "spamc.c",
+      "jm",
+      "BayesStoreDBM.pm",
+      2
+   ],
+   [
+      "felicity",
+      "MsgParser.pm",
+      7
+   ],
+   [
+      "jm",
+      "craig-evolve.c",
       1
    ],
    [
@@ -105,63 +85,138 @@
       2
    ],
    [
-      "mss",
-      "spamc.c",
-      4
-   ],
-   [
       "felicity",
-      "30_text_fr.cf",
+      "sha1.t",
       2
    ],
    [
-      "felicity",
-      "EncappedMessage.pm",
+      "jm",
+      "CmdLearn.pm",
       1
-   ],
-   [
-      "felicity",
-      "mimeparse.t",
-      4
    ],
    [
       "jm",
-      "Test.pm",
+      "PluginHandler.pm",
+      3
+   ],
+   [
+      "quinlan",
+      "TextCat.pm",
       1
    ],
    [
       "felicity",
-      "Conf.pm",
+      "PhraseFreqs.pm",
+      1
+   ],
+   [
+      "jm",
+      "TextCat.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "20_meta_tests.cf",
+      1
+   ],
+   [
+      "mss",
+      "Util.pm",
+      1
+   ],
+   [
+      "jm",
+      "utils.h",
+      2
+   ],
+   [
+      "jm",
+      "bayes_mysql.sql",
+      1
+   ],
+   [
+      "felicity",
+      "BayesStoreDBM.pm",
+      1
+   ],
+   [
+      "jm",
+      "spamc.c",
+      3
+   ],
+   [
+      "felicity",
+      "Razor2.patch",
+      1
+   ],
+   [
+      "quinlan",
+      "utils.c",
+      1
+   ],
+   [
+      "felicity",
+      "20_body_tests.cf",
+      1
+   ],
+   [
+      "quinlan",
+      "CmdLearn.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "MsgContainer.pm",
+      7
+   ],
+   [
+      "jm",
+      "bayessql.t",
+      1
+   ],
+   [
+      "quinlan",
+      "30_text_de.cf",
+      2
+   ],
+   [
+      "quinlan",
+      "spamc.c",
+      1
+   ],
+   [
+      "quinlan",
+      "Received.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "SpamAssassin.pm",
+      1
+   ],
+   [
+      "jm",
+      "bayes_sqlite.sql",
+      1
+   ],
+   [
+      "felicity",
+      "Parser.pm",
+      1
+   ],
+   [
+      "felicity",
+      "rule_tests.t",
+      3
+   ],
+   [
+      "felicity",
+      "Util.pm",
       5
    ],
    [
       "quinlan",
-      "regression_tests.cf",
-      1
-   ],
-   [
-      "felicity",
-      "bayesdbm.t",
-      1
-   ],
-   [
-      "jm",
-      "spamassassin.spec",
-      1
-   ],
-   [
-      "felicity",
-      "redhat-rc-script.sh",
-      1
-   ],
-   [
-      "mss",
-      "SATest.pm",
-      2
-   ],
-   [
-      "quinlan",
-      "libspamc.h",
+      "20_phrases.cf",
       1
    ],
    [
@@ -171,27 +226,12 @@
    ],
    [
       "jm",
-      "SpamAssassin.pm",
-      4
-   ],
-   [
-      "quinlan",
-      "23_bayes.cf",
+      "true-false-pos-neg-filter.pl",
       1
    ],
    [
       "jm",
-      "bayes_sqlite.sql",
-      1
-   ],
-   [
-      "jm",
-      "perceptron.c",
-      2
-   ],
-   [
-      "quinlan",
-      "NetSet.pm",
+      "SATest.pl",
       1
    ],
    [
@@ -201,27 +241,12 @@
    ],
    [
       "felicity",
-      "perceptron.c",
+      "EncappedMIME.pm",
       1
-   ],
-   [
-      "felicity",
-      "10_misc.cf",
-      2
-   ],
-   [
-      "quinlan",
-      "20_dnsbl_tests.cf",
-      4
    ],
    [
       "jm",
-      "README.awl",
-      1
-   ],
-   [
-      "felicity",
-      "dns.t",
+      "AutoWhitelist.pm",
       1
    ],
    [
@@ -230,148 +255,18 @@
       2
    ],
    [
-      "felicity",
-      "spamassassin.raw",
-      11
-   ],
-   [
       "quinlan",
-      "Conf.pm",
+      "ConfSourceSQL.pm",
       1
    ],
    [
       "quinlan",
-      "BayesStore.pm",
-      1
-   ],
-   [
-      "jm",
-      "getopt.c",
-      1
-   ],
-   [
-      "felicity",
-      "Razor2.patch",
-      1
-   ],
-   [
-      "jm",
-      "bayes_mysql.sql",
-      1
-   ],
-   [
-      "jm",
-      "README.perceptron",
+      "10_misc.cf",
       1
    ],
    [
       "quinlan",
-      "utils.c",
-      1
-   ],
-   [
-      "mss",
-      "bayesdbm.t",
-      1
-   ],
-   [
-      "quinlan",
-      "20_body_tests.cf",
-      2
-   ],
-   [
-      "jm",
-      "60_whitelist.cf",
-      1
-   ],
-   [
-      "felicity",
-      "Parser.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "uri.t",
-      1
-   ],
-   [
-      "jm",
-      "bayesdbm.t",
-      1
-   ],
-   [
-      "jm",
-      "qmail-spamc.c",
-      2
-   ],
-   [
-      "jm",
-      "sql_based_whitelist.t",
-      1
-   ],
-   [
-      "jm",
-      "SATest.pm",
-      1
-   ],
-   [
-      "jm",
-      "libspamc.c",
-      3
-   ],
-   [
-      "jm",
-      "CmdLearn.pm",
-      1
-   ],
-   [
-      "felicity",
-      "Received.pm",
-      1
-   ],
-   [
-      "felicity",
-      "Bayes.pm",
-      3
-   ],
-   [
-      "quinlan",
-      "ArchiveIterator.pm",
-      2
-   ],
-   [
-      "felicity",
-      "20_body_tests.cf",
-      1
-   ],
-   [
-      "jm",
-      "true-false-pos-neg-filter.pl",
-      1
-   ],
-   [
-      "jm",
-      "Plugin.pm",
-      2
-   ],
-   [
-      "felicity",
-      "50_scores.cf",
-      3
-   ],
-   [
-      "felicity",
-      "PhraseFreqs.pm",
-      1
-   ],
-   [
-      "jm",
-      "70_cvs_rules_under_test.cf",
-      20
-   ],
-   [
-      "jm",
-      "sa_test.ldif",
+      "sa-stats.pl",
       1
    ],
    [
@@ -381,138 +276,8 @@
    ],
    [
       "jm",
-      "ConfSourceLDAP.pm",
-      1
-   ],
-   [
-      "jm",
-      "Locales.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "libspamc.c",
-      1
-   ],
-   [
-      "mss",
-      "Util.pm",
-      1
-   ],
-   [
-      "mss",
-      "bayessql.t",
-      1
-   ],
-   [
-      "felicity",
-      "PerMsgStatus.pm",
-      17
-   ],
-   [
-      "felicity",
-      "30_text_de.cf",
-      2
-   ],
-   [
-      "mss",
-      "spamd.raw",
-      2
-   ],
-   [
-      "jm",
-      "not_gtube.eml",
-      1
-   ],
-   [
-      "jm",
-      "TextCat.pm",
-      1
-   ],
-   [
-      "jm",
-      "Util.pm",
-      3
-   ],
-   [
-      "mss",
-      "configure.pl",
-      1
-   ],
-   [
-      "felicity",
-      "rule_tests.t",
-      3
-   ],
-   [
-      "jm",
-      "MANIFEST.SKIP",
-      4
-   ],
-   [
-      "quinlan",
-      "HTML.pm",
-      20
-   ],
-   [
-      "felicity",
-      "sa-learn.raw",
-      3
-   ],
-   [
-      "felicity",
-      "PerMsgLearner.pm",
-      2
-   ],
-   [
-      "jm",
-      "PerMsgStatus.pm",
-      3
-   ],
-   [
-      "jm",
-      "README.testing",
-      1
-   ],
-   [
-      "jm",
-      "SQLBasedAddrList.pm",
-      2
-   ],
-   [
-      "felicity",
-      "70_cvs_rules_under_test.cf",
-      2
-   ],
-   [
-      "felicity",
-      "spamc.c",
-      1
-   ],
-   [
-      "quinlan",
-      "60_whitelist.cf",
-      1
-   ],
-   [
-      "jm",
-      "configure.pl",
-      1
-   ],
-   [
-      "jm",
-      "BayesStoreDBM.pm",
-      2
-   ],
-   [
-      "felicity",
-      "SATest.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "20_fake_helo_tests.cf",
-      1
+      "Conf.pm",
+      10
    ],
    [
       "quinlan",
@@ -520,68 +285,23 @@
       2
    ],
    [
-      "mss",
-      "utils.c",
-      2
-   ],
-   [
       "jm",
-      "SATest.pl",
-      1
-   ],
-   [
-      "mss",
-      "libspamc.c",
-      1
-   ],
-   [
-      "quinlan",
-      "Win32Locker.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "CmdLearn.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "EvalTests.pm",
-      5
-   ],
-   [
-      "quinlan",
-      "70_cvs_rules_under_test.cf",
-      14
+      "Makefile.PL",
+      2
    ],
    [
       "felicity",
-      "MsgParser.pm",
-      7
-   ],
-   [
-      "quinlan",
-      "true-false-pos-neg-filter.pl",
+      "perceptron.c",
       1
    ],
    [
-      "felicity",
-      "spamassassin.spec",
-      2
-   ],
-   [
       "quinlan",
-      "ConfSourceSQL.pm",
-      1
-   ],
-   [
-      "jm",
-      "BayesStoreSQL.pm",
+      "20_ratware.cf",
       2
    ],
    [
       "jm",
-      "plugin.t",
+      "bayes_pg.sql",
       1
    ],
    [
@@ -591,7 +311,62 @@
    ],
    [
       "quinlan",
+      "build.pl",
+      1
+   ],
+   [
+      "felicity",
+      "README.perceptron",
+      1
+   ],
+   [
+      "quinlan",
+      "utils.h",
+      1
+   ],
+   [
+      "felicity",
+      "spamassassin.raw",
+      11
+   ],
+   [
+      "felicity",
+      "Conf.pm",
+      5
+   ],
+   [
+      "quinlan",
       "MailingList.pm",
+      1
+   ],
+   [
+      "jm",
+      "README.awl",
+      1
+   ],
+   [
+      "jm",
+      "README.testing",
+      1
+   ],
+   [
+      "felicity",
+      "ArchiveIterator.pm",
+      5
+   ],
+   [
+      "felicity",
+      "MsgContainer.pm",
+      13
+   ],
+   [
+      "quinlan",
+      "AutoWhitelist.pm",
+      1
+   ],
+   [
+      "mss",
+      "libspamc.c",
       1
    ],
    [
@@ -601,117 +376,82 @@
    ],
    [
       "felicity",
-      "strip2.t",
-      1
-   ],
-   [
-      "quinlan",
-      "DBBasedAddrList.pm",
+      "spamc.c",
       1
    ],
    [
       "felicity",
-      "MsgContainer.pm",
-      13
-   ],
-   [
-      "jm",
-      "awl_mysql.sql",
-      1
-   ],
-   [
-      "jm",
-      "50_scores.cf",
+      "SATest.pm",
       1
    ],
    [
       "quinlan",
-      "SpamAssassin.pm",
+      "true-false-pos-neg-filter.pl",
       1
    ],
    [
       "mss",
-      "libspamc.h",
+      "spamc.pod",
       1
-   ],
-   [
-      "felicity",
-      "AuditMessage.pm",
-      1
-   ],
-   [
-      "mss",
-      "qmail-spamc.c",
-      2
    ],
    [
       "jm",
-      "AutoWhitelist.pm",
+      "Locales.pm",
       1
    ],
    [
-      "felicity",
-      "70_testing.cf",
-      2
-   ],
-   [
-      "felicity",
-      "EncappedMIME.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "Plugin.pm",
-      1
-   ],
-   [
-      "felicity",
-      "CmdLearn.pm",
-      7
-   ],
-   [
-      "quinlan",
-      "SHA1.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "Dns.pm",
+      "jm",
+      "utils.c",
       3
    ],
    [
+      "quinlan",
+      "20_dnsbl_tests.cf",
+      4
+   ],
+   [
       "felicity",
-      "BayesStoreDBM.pm",
+      "EncappedMessage.pm",
+      1
+   ],
+   [
+      "felicity",
+      "spamassassin.spec",
+      2
+   ],
+   [
+      "jm",
+      "plugin.t",
       1
    ],
    [
       "quinlan",
-      "20_html_tests.cf",
-      7
-   ],
-   [
-      "jm",
-      "70_testing.cf",
-      1
-   ],
-   [
-      "felicity",
-      "2.63_change_summary",
-      1
-   ],
-   [
-      "felicity",
-      "MIME.pm",
+      "perceptron.c",
       1
    ],
    [
       "jm",
-      "MsgContainer.pm",
+      "DBBasedAddrList.pm",
+      2
+   ],
+   [
+      "quinlan",
+      "20_body_tests.cf",
+      2
+   ],
+   [
+      "jm",
+      "ConfSourceLDAP.pm",
       1
    ],
    [
       "jm",
-      "SHA1.pm",
+      "Received.pm",
+      3
+   ],
+   [
+      "quinlan",
+      "NetSet.pm",
       1
    ],
    [
@@ -721,147 +461,12 @@
    ],
    [
       "jm",
-      "PluginHandler.pm",
-      3
-   ],
-   [
-      "felicity",
-      "ArchiveIterator.pm",
-      5
-   ],
-   [
-      "felicity",
-      "SpamAssassin.pm",
-      10
-   ],
-   [
-      "quinlan",
-      "30_text_de.cf",
-      2
-   ],
-   [
-      "quinlan",
-      "MsgContainer.pm",
-      7
-   ],
-   [
-      "quinlan",
-      "20_ratware.cf",
-      2
-   ],
-   [
-      "jm",
-      "craig-evolve.c",
-      1
-   ],
-   [
-      "jm",
-      "spamc.c",
-      3
-   ],
-   [
-      "quinlan",
-      "TextCat.pm",
+      "sql_based_whitelist.t",
       1
    ],
    [
       "felicity",
-      "Message.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "70_testing.cf",
-      17
-   ],
-   [
-      "quinlan",
-      "Reporter.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "50_scores.cf",
-      3
-   ],
-   [
-      "jm",
-      "utils.h",
-      2
-   ],
-   [
-      "quinlan",
-      "MANIFEST.SKIP",
-      1
-   ],
-   [
-      "jm",
-      "bayessql.t",
-      1
-   ],
-   [
-      "mss",
-      "README.win",
-      1
-   ],
-   [
-      "quinlan",
-      "20_meta_tests.cf",
-      1
-   ],
-   [
-      "felicity",
-      "EvalTests.pm",
-      7
-   ],
-   [
-      "quinlan",
-      "perceptron.c",
-      1
-   ],
-   [
-      "jm",
-      "desc_length.pl",
-      1
-   ],
-   [
-      "quinlan",
-      "PerMsgLearner.pm",
-      1
-   ],
-   [
-      "felicity",
-      "spamd.raw",
-      6
-   ],
-   [
-      "jm",
-      "utils.c",
-      3
-   ],
-   [
-      "felicity",
-      "NoMailAudit.pm",
-      1
-   ],
-   [
-      "jm",
-      "bayes_pg.sql",
-      1
-   ],
-   [
-      "quinlan",
-      "UnixLocker.pm",
-      1
-   ],
-   [
-      "quinlan",
-      "70_broken_rules.cf",
-      2
-   ],
-   [
-      "mss",
-      "spamc.pod",
+      "Received.pm",
       1
    ],
    [
@@ -871,28 +476,288 @@
    ],
    [
       "quinlan",
-      "PersistentAddrList.pm",
+      "PerMsgStatus.pm",
+      3
+   ],
+   [
+      "quinlan",
+      "60_whitelist.cf",
       1
    ],
    [
       "quinlan",
-      "AutoWhitelist.pm",
+      "ArchiveIterator.pm",
+      2
+   ],
+   [
+      "mss",
+      "bayessql.t",
+      1
+   ],
+   [
+      "jm",
+      "SpamAssassin.pm",
+      4
+   ],
+   [
+      "felicity",
+      "PerMsgLearner.pm",
+      2
+   ],
+   [
+      "mss",
+      "utils.c",
+      2
+   ],
+   [
+      "felicity",
+      "mimeparse.t",
+      4
+   ],
+   [
+      "quinlan",
+      "HTML.pm",
+      20
+   ],
+   [
+      "quinlan",
+      "Util.pm",
+      2
+   ],
+   [
+      "felicity",
+      "AuditMessage.pm",
       1
    ],
    [
       "quinlan",
-      "Locker.pm",
+      "50_scores.cf",
+      3
+   ],
+   [
+      "quinlan",
+      "libspamc.h",
+      1
+   ],
+   [
+      "felicity",
+      "70_testing.cf",
+      2
+   ],
+   [
+      "felicity",
+      "strip2.t",
       1
    ],
    [
       "quinlan",
-      "build.pl",
+      "MANIFEST.SKIP",
+      1
+   ],
+   [
+      "quinlan",
+      "PerMsgLearner.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "20_html_tests.cf",
+      7
+   ],
+   [
+      "felicity",
+      "NoMailAudit.pm",
+      1
+   ],
+   [
+      "jm",
+      "BayesStoreSQL.pm",
+      2
+   ],
+   [
+      "felicity",
+      "redhat-rc-script.sh",
+      1
+   ],
+   [
+      "quinlan",
+      "UnixLocker.pm",
+      1
+   ],
+   [
+      "felicity",
+      "70_cvs_rules_under_test.cf",
+      2
+   ],
+   [
+      "jm",
+      "50_scores.cf",
+      1
+   ],
+   [
+      "mss",
+      "spamd.raw",
+      2
+   ],
+   [
+      "quinlan",
+      "EvalTests.pm",
+      5
+   ],
+   [
+      "quinlan",
+      "BayesStore.pm",
+      1
+   ],
+   [
+      "jm",
+      "README.perceptron",
+      1
+   ],
+   [
+      "quinlan",
+      "libspamc.c",
       1
    ],
    [
       "quinlan",
       "30_text_fr.cf",
       2
+   ],
+   [
+      "jm",
+      "not_gtube.eml",
+      1
+   ],
+   [
+      "felicity",
+      "30_text_de.cf",
+      2
+   ],
+   [
+      "quinlan",
+      "uri.t",
+      1
+   ],
+   [
+      "felicity",
+      "Bayes.pm",
+      3
+   ],
+   [
+      "felicity",
+      "SpamAssassin.pm",
+      10
+   ],
+   [
+      "jm",
+      "bayesdbm.t",
+      1
+   ],
+   [
+      "felicity",
+      "dns.t",
+      1
+   ],
+   [
+      "jm",
+      "spamd_ldap.t",
+      1
+   ],
+   [
+      "mss",
+      "configure.pl",
+      1
+   ],
+   [
+      "mss",
+      "bayesdbm.t",
+      1
+   ],
+   [
+      "quinlan",
+      "Dns.pm",
+      3
+   ],
+   [
+      "jm",
+      "60_whitelist.cf",
+      1
+   ],
+   [
+      "jm",
+      "Test.pm",
+      1
+   ],
+   [
+      "jm",
+      "awl_mysql.sql",
+      1
+   ],
+   [
+      "felicity",
+      "CmdLearn.pm",
+      7
+   ],
+   [
+      "felicity",
+      "EvalTests.pm",
+      7
+   ],
+   [
+      "quinlan",
+      "20_head_tests.cf",
+      2
+   ],
+   [
+      "quinlan",
+      "DBBasedAddrList.pm",
+      1
+   ],
+   [
+      "felicity",
+      "MIME.pm",
+      1
+   ],
+   [
+      "jm",
+      "SHA1.pm",
+      1
+   ],
+   [
+      "jm",
+      "perceptron.c",
+      2
+   ],
+   [
+      "quinlan",
+      "70_testing.cf",
+      17
+   ],
+   [
+      "jm",
+      "70_cvs_rules_under_test.cf",
+      20
+   ],
+   [
+      "jm",
+      "SATest.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "PluginHandler.pm",
+      1
+   ],
+   [
+      "mss",
+      "README.win",
+      1
+   ],
+   [
+      "jm",
+      "Util.pm",
+      3
    ],
    [
       "felicity",
@@ -905,19 +770,109 @@
       1
    ],
    [
+      "jm",
+      "70_testing.cf",
+      1
+   ],
+   [
       "felicity",
-      "README.perceptron",
+      "2.63_change_summary",
       1
    ],
    [
       "quinlan",
-      "Received.pm",
+      "20_fake_helo_tests.cf",
       1
    ],
    [
       "quinlan",
-      "10_misc.cf",
+      "SHA1.pm",
       1
+   ],
+   [
+      "quinlan",
+      "Plugin.pm",
+      1
+   ],
+   [
+      "jm",
+      "Plugin.pm",
+      2
+   ],
+   [
+      "jm",
+      "libspamc.c",
+      3
+   ],
+   [
+      "jm",
+      "MsgContainer.pm",
+      1
+   ],
+   [
+      "mss",
+      "Makefile.PL",
+      2
+   ],
+   [
+      "felicity",
+      "Message.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "regression_tests.cf",
+      1
+   ],
+   [
+      "jm",
+      "qmail-spamc.c",
+      2
+   ],
+   [
+      "quinlan",
+      "70_cvs_rules_under_test.cf",
+      14
+   ],
+   [
+      "quinlan",
+      "PersistentAddrList.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "Conf.pm",
+      1
+   ],
+   [
+      "quinlan",
+      "Reporter.pm",
+      1
+   ],
+   [
+      "felicity",
+      "30_text_fr.cf",
+      2
+   ],
+   [
+      "quinlan",
+      "20_uri_tests.cf",
+      1
+   ],
+   [
+      "jm",
+      "SQLBasedAddrList.pm",
+      2
+   ],
+   [
+      "felicity",
+      "50_scores.cf",
+      3
+   ],
+   [
+      "mss",
+      "SATest.pm",
+      2
    ],
    [
       "jm",
@@ -926,7 +881,52 @@
    ],
    [
       "jm",
+      "sa_test.ldif",
+      1
+   ],
+   [
+      "jm",
+      "spamd.raw",
+      3
+   ],
+   [
+      "jm",
       "20_body_tests.cf",
+      1
+   ],
+   [
+      "felicity",
+      "spamd.raw",
+      6
+   ],
+   [
+      "jm",
+      "desc_length.pl",
+      1
+   ],
+   [
+      "mss",
+      "libspamc.h",
+      1
+   ],
+   [
+      "felicity",
+      "sa-learn.raw",
+      3
+   ],
+   [
+      "jm",
+      "getopt.c",
+      1
+   ],
+   [
+      "jm",
+      "configure.pl",
+      1
+   ],
+   [
+      "quinlan",
+      "Locker.pm",
       1
    ]
 ]

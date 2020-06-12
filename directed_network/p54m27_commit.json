@@ -1,138 +1,173 @@
 [
    [
       "Kaxil Naik",
-      "docker_operator.py",
+      "spark_jdbc_script.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "databricks_operator.py",
       1
    ],
    [
       "Kaxil Naik",
+      "salesforce_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "decorators.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "jira_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "hive_stats_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "gcs_operator.py",
+      1
+   ],
+   [
+      "r39132",
+      "test_email_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_hive_hook.py",
+      3
+   ],
+   [
+      "Stefan Seelmann",
       "jobs.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "kubernetes_executor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "cassandra_sensor.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "bigquery_get_data.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "emr_terminate_job_flow_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "file_to_gcs.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "prev_dagrun_dep.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "dataproc_operator.py",
+      2
+   ],
+   [
+      "Stefan Seelmann",
+      "test_views.py",
       2
    ],
    [
       "kaxilnaik",
-      "postgres_operator.py",
-      1
-   ],
-   [
-      "Sumit Maheshwari",
-      "example_qubole_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "s3_to_gcs_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
       "emr_add_steps_operator.py",
       1
    ],
    [
-      "Kaxil Naik",
-      "test_bigquery_hook.py",
-      3
-   ],
-   [
-      "Kaxil Naik",
-      "test_hive_hook.py",
+      "kaxilnaik",
+      "gcs_sensor.py",
       1
    ],
    [
       "Kaxil Naik",
-      "datastore_hook.py",
-      2
-   ],
-   [
-      "Fokko Driesprong",
-      "test_hive_hook.py",
-      3
-   ],
-   [
-      "Kaxil Naik",
-      "jenkins_job_trigger_operator.py",
+      "example_trigger_controller_dag.py",
       1
    ],
    [
       "Kaxil Naik",
-      "tutorial.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "web_hdfs_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "trigger_rule_dep.py",
+      "vertica_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "example_emr_job_flow_manual_steps.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "models.py",
-      6
-   ],
-   [
-      "Fokko Driesprong",
-      "fs_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "dask_executor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "mongo_to_s3.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_http_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "spark_sql_hook.py",
+      "sftp_sensor.py",
       1
    ],
    [
       "kaxilnaik",
-      "hipchat_operator.py",
+      "dataflow_operator.py",
       1
    ],
    [
-      "Fokko Driesprong",
-      "generic_transfer.py",
+      "kaxilnaik",
+      "pubsub_sensor.py",
       1
    ],
    [
       "Kaxil Naik",
-      "email_operator.py",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "models.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "endpoints.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "docker_hook.py",
+      "concepts.rst",
       2
+   ],
+   [
+      "Kaxil Naik",
+      "check_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "sqlite_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "bigquery_table_delete_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "run-with-systemd.rst",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_trigger_target_dag.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "druid_operator.py",
+      1
+   ],
+   [
+      "Joy Gao",
+      "master.html",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "google_auth.py",
+      1
    ],
    [
       "kaxilnaik",
@@ -140,58 +175,58 @@
       1
    ],
    [
-      "kaxilnaik",
-      "hive_to_dynamodb.py",
+      "Kaxil Naik",
+      "cloudant_hook.py",
       1
    ],
    [
       "Kaxil Naik",
-      "docker_copy_data.py",
+      "redis_hook.py",
       1
    ],
    [
       "Kaxil Naik",
+      "example_bash_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_python_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
       "vertica_hook.py",
       1
    ],
    [
       "Kaxil Naik",
-      "example_qubole_operator.py",
+      "example_xcom.py",
       1
    ],
    [
       "Kaxil Naik",
-      "fs_hook.py",
-      1
+      "dbapi_hook.py",
+      2
    ],
    [
       "Fokko Driesprong",
-      "test_cassandra_hook.py",
+      "hive_to_mysql.py",
       1
    ],
    [
-      "Fokko Driesprong",
-      "sql_sensor.py",
+      "Kaxil Naik",
+      "pod_generator.py",
       1
    ],
    [
-      "r39132",
-      "mysql_hook.py",
+      "Kaxil Naik",
+      "test_sql_sensor.py",
       1
    ],
    [
-      "Kengo Seki",
-      "postgres_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "db.py",
-      1
-   ],
-   [
-      "Maxime Beauchemin",
-      "code.rst",
+      "kaxilnaik",
+      "vertica_to_mysql.py",
       1
    ],
    [
@@ -201,277 +236,17 @@
    ],
    [
       "Kaxil Naik",
-      "test_mongo_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcp_pubsub_hook.py",
+      "create-connection.rst",
       2
-   ],
-   [
-      "Kaxil Naik",
-      "mesos_executor.py",
-      1
    ],
    [
       "r39132",
-      "profiling.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "use-test-config.rst",
+      "test_hive_hook.py",
       1
    ],
    [
       "kaxilnaik",
-      "sftp_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "slack_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "exec_date_after_start_date_dep.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "snowflake_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "test_cassandra_to_gcs_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "sqlite_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "base_task_runner.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "datastore_export_operator.py",
-      1
-   ],
-   [
-      "Sumit Maheshwari",
-      "test_qubole_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "snowflake_hook.py",
-      1
-   ],
-   [
-      "r39132",
-      "test_email_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "azure_fileshare_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "ssh_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "spark_sql_operator.py",
-      1
-   ],
-   [
-      "r39132",
-      "operators.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "databricks_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "file_to_gcs.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "python_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "mssql_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_databricks_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcs_to_bq.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "hive_to_samba_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "hipchat_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "ftp_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "write-logs.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcp_dataflow_hook.py",
-      2
-   ],
-   [
-      "Fokko Driesprong",
-      "sensors.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "sqoop_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "secure-connections.rst",
-      2
-   ],
-   [
-      "Fokko Driesprong",
-      "s3_to_redshift_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "default_celery.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "postgres_to_gcs_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "ftp_sensor.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "qubole_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "samba_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "mysql_to_hive.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "mysql_hook.py",
-      2
-   ],
-   [
-      "Fokko Driesprong",
-      "s3_file_transform_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "base_ti_dep.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "exceptions.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "sftp_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "manage-connections.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcp_container_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "check_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_branch_python_dop_operator_3.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "bash_sensor.py",
-      1
-   ],
-   [
-      "r39132",
-      "ldap_auth.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "dataproc_operator.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "pubsub_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "metastore_partition_sensor.py",
+      "bigquery_to_gcs.py",
       1
    ],
    [
@@ -481,77 +256,97 @@
    ],
    [
       "Kaxil Naik",
-      "github_enterprise_auth.py",
+      "jira_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "write-logs.rst",
+      1
+   ],
+   [
+      "Shintaro Murakami",
+      "models.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "test_zip.zip",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_passing_params_via_test_command.py",
+      1
+   ],
+   [
+      "Maxime Beauchemin",
+      "cli.py",
+      4
+   ],
+   [
+      "kaxilnaik",
+      "emr_create_job_flow_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "datadog_hook.py",
       1
    ],
    [
       "kaxilnaik",
-      "mlengine_operator_utils.py",
-      1
-   ],
-   [
-      "r39132",
-      "plugins.rst",
+      "vertica_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "winrm_operator.py",
+      "kube_client.py",
+      2
+   ],
+   [
+      "Fokko Driesprong",
+      "s3_to_redshift_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "bigquery_operator.py",
+      3
+   ],
+   [
+      "Kaxil Naik",
+      "datastore_hook.py",
+      2
+   ],
+   [
+      "kaxilnaik",
+      "ftp_sensor.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "bigquery_check_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_http_operator.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "__init__.py",
-      10
+      "db.py",
+      1
    ],
    [
-      "Kaxil Naik",
-      "gcp_mlengine_hook.py",
+      "kaxilnaik",
+      "bigquery_to_bigquery.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "postgres_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
       "test_cassandra_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "awsbatch_operator.py",
-      1
-   ],
-   [
-      "Joy Gao",
-      "security.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_sql_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_twitter_dag.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "mongo_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "ecs_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "salesforce_hook.py",
       1
    ],
    [
@@ -561,98 +356,238 @@
    ],
    [
       "Fokko Driesprong",
-      "kube_client.py",
-      1
+      "__init__.py",
+      10
+   ],
+   [
+      "r39132",
+      "gantt.html",
+      2
    ],
    [
       "Kaxil Naik",
-      "integration.rst",
+      "index.rst",
+      3
+   ],
+   [
+      "Kaxil Naik",
+      "1.log",
       4
    ],
    [
-      "kaxilnaik",
-      "aws_redshift_cluster_sensor.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "spark_jdbc_operator.py",
+      "Maxime Beauchemin",
+      "faq.rst",
       1
    ],
    [
       "Kaxil Naik",
-      "mssql_to_hive.py",
+      "example_branch_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "airflow_local_settings.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcs_operator.py",
+      1
+   ],
+   [
+      "Sumit Maheshwari",
+      "qubole_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "emr_add_steps_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcs_to_s3.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "exceptions.py",
+      1
+   ],
+   [
+      "Joy Gao",
+      "mongo_to_s3.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_azure_fileshare_hook.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "s3_prefix_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "password_auth.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_gcs_to_gcs_operator.py",
+      "default_login.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "S3_hook.py",
+      "valid_state_dep.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "mongo_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_twitter_dag.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "python_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "vertica_to_hive.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcp_api_base_hook.py",
       2
    ],
    [
+      "Fokko Driesprong",
+      "hive.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "jdbc_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcs_download_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "base_task_runner.py",
+      1
+   ],
+   [
       "kaxilnaik",
-      "pig_operator.py",
+      "dataproc_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "wasb_hook.py",
+      "sequential_executor.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "discord_webhook_operator.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "task_concurrency_dep.py",
+      "cassandra_hook.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "pig_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "entrypoint.sh",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "default_celery.py",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "graph.html",
+      "docker_hook.py",
       2
    ],
    [
       "Kaxil Naik",
-      "run-with-systemd.rst",
+      "mesos_executor.py",
       1
+   ],
+   [
+      "Kaxil Naik",
+      "s3_list_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "file_sensor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "mssql_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "hive_to_samba_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "kubernetes_pod_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "deny_all.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "base_executor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "awsbatch_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "use-mesos.rst",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "snowflake_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "jenkins_job_trigger_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "bash_operator.py",
+      2
    ],
    [
       "Maxime Beauchemin",
-      "models.py",
-      8
+      "dag.html",
+      2
    ],
    [
-      "Kaxil Naik",
-      "ti_log.html",
-      2
+      "Maxime Beauchemin",
+      "code.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "ldap_auth.py",
+      1
+   ],
+   [
+      "Hongyi Wang",
+      "bigquery_hook.py",
+      1
    ],
    [
       "kaxilnaik",
@@ -661,11 +596,916 @@
    ],
    [
       "Fokko Driesprong",
-      "presto_hook.py",
+      "base_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "pig_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "emr_job_flow_sensor.py",
       1
    ],
    [
       "Kaxil Naik",
+      "secure-connections.rst",
+      2
+   ],
+   [
+      "Fokko Driesprong",
+      "not_running_dep.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "use-dask.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "airflow_local_settings.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_spark_sql_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_bigquery_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "ssh_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "generic_transfer.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "installation.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "fs_hook.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "sqlalchemy.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "delete_dag.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "manage-connections.rst",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "__init__.py",
+      18
+   ],
+   [
+      "Kaxil Naik",
+      "ldap_auth.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "dag_ti_slots_available_dep.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "local_executor.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "__init__.py",
+      3
+   ],
+   [
+      "Kaxil Naik",
+      "configuration.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "mssql_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "mark_tasks.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "task_concurrency_dep.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "s3_list_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "s3_to_hive_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "jdbc_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_kubernetes_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "pig_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "hive_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "aws_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_latest_only_with_trigger.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "start.rst",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "dask_executor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_s3_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "ssh_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "kerberos_auth.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "slack_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_cassandra_sensor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_latest_only.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "redis_key_sensor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "bigquery_table_delete_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "mysql_to_hive.py",
+      3
+   ],
+   [
+      "kaxilnaik",
+      "gcs_to_s3.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "dbapi_hook.py",
+      4
+   ],
+   [
+      "kaxilnaik",
+      "hive_to_dynamodb.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "endpoints.py",
+      1
+   ],
+   [
+      "Joy Gao",
+      "security.rst",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "faq.rst",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "spark_jdbc_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "dummy_operator.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "models.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "snowflake_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "views.py",
+      2
+   ],
+   [
+      "Joy Gao",
+      "github_enterprise_auth.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "qubole_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "jenkins_job_trigger_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "redshift_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "check_operator.py",
+      2
+   ],
+   [
+      "kaxilnaik",
+      "bash_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "not_skipped_dep.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "gcs_to_bq.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "hive_stats_operator.py",
+      1
+   ],
+   [
+      "Hongyi Wang",
+      "mysql_to_gcs.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "run-with-upstart.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "postgres_hook.py",
+      3
+   ],
+   [
+      "Kaxil Naik",
+      "azure_fileshare_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "pubsub_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "webhdfs_hook.py",
+      1
+   ],
+   [
+      "r39132",
+      "faq.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "S3_hook.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "hive_to_mysql.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "code.rst",
+      4
+   ],
+   [
+      "r39132",
+      "core.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_kubernetes_executor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_dataproc_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "wasb_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "sensors.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "s3_file_transform_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "hive_to_druid.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "856955da8476_fix_sqlite_foreign_key.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "kubernetes_pod_operator.py",
+      2
+   ],
+   [
+      "Fokko Driesprong",
+      "bash_task_runner.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "emr_step_sensor.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "hdfs_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "dates.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "05f30312d566_merge_heads.py",
+      1
+   ],
+   [
+      "Maxime Beauchemin",
+      "jobs.py",
+      4
+   ],
+   [
+      "Kaxil Naik",
+      "vertica_to_mysql.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "snowflake_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "bigquery_sensor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "qubole_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "default_celery.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcp_container_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "mssql_to_hive.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_gcp_mlengine_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "sqlite_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "segment_track_event_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "slack_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "file_to_wasb.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "trigger_rule_dep.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "use-test-config.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "http_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "spark_jdbc_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "operators.py",
+      4
+   ],
+   [
+      "r39132",
+      "operators.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "default_celery.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "get_task.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "postgres_to_gcs_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "github_enterprise_auth.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "jobs.py",
+      5
+   ],
+   [
+      "Kaxil Naik",
+      "test_cassandra_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "hdfs_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "core.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_branch_python_dop_operator_3.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "presto_check_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "presto_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "datastore_import_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "bigquery_hook.py",
+      4
+   ],
+   [
+      "Fokko Driesprong",
+      "not_in_retry_period_dep.py",
+      1
+   ],
+   [
+      "Kengo Seki",
+      "test_postgres_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "sftp_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "slack_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcp_pubsub_hook.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "example_pubsub_flow.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "github_enterprise_auth.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "trigger_dag.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "default.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "aws_dynamodb_hook.py",
+      1
+   ],
+   [
+      "r39132",
+      "forms.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "hipchat_operator.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "test_db.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "web_hdfs_sensor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "conf.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_mongo_to_s3_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "default_webserver_config.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "f23433877c24_fix_mysql_not_null_constraint.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "fs_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "password_auth.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "get_dag_runs.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "presto_to_mysql.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "dag_unpaused_dep.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "ftp_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "vertica_to_hive.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "worker_configuration.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "jobs.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "entrypoint.sh",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_subdag_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "oracle_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "use-celery.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "oracle_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "jira_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "bash_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "http_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "databricks_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "mssql_to_hive.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "code.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "base_ti_dep.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "metastore_partition_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "dagrun_exists_dep.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "mysql_to_hive.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_gcp_api_base_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "sftp_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "dep_context.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "base_dag.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_base_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "latest_only_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_short_circuit_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "mssql_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_cassandra_to_gcs_operator.py",
+      1
+   ],
+   [
+      "r39132",
+      "test_s3_to_redshift_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "local_client.py",
+      1
+   ],
+   [
+      "Joy Gao",
+      "utils.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "cassandra_to_gcs.py",
+      1
+   ],
+   [
+      "r39132",
+      "profiling.rst",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "s3_key_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "external_task_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "exec_date_after_start_date_dep.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_dag_runs_endpoint.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_qubole_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "python_operator.py",
+      1
+   ],
+   [
+      "Joy Gao",
       "views.py",
       2
    ],
@@ -676,227 +1516,77 @@
    ],
    [
       "Kaxil Naik",
-      "use-celery.rst",
+      "mongo_to_s3.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcp_dataproc_hook.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "gcp_dataflow_hook.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "bigquery_get_data.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_kubernetes_pod_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "pig_operator.py",
+      1
+   ],
+   [
+      "r39132",
+      "test_views.py",
+      2
+   ],
+   [
+      "Fokko Driesprong",
+      "generic_transfer.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcp_container_hook.py",
       1
    ],
    [
       "kaxilnaik",
-      "gcs_list_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "dagrun_exists_dep.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "mlengine_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_passing_params_via_test_command.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "__init__.py",
-      18
-   ],
-   [
-      "Fokko Driesprong",
-      "code.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "conf.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "python_operator.py",
-      1
-   ],
-   [
-      "Kevin Yang",
-      "cli.py",
-      1
-   ],
-   [
-      "Maxime Beauchemin",
-      "cli.py",
-      4
-   ],
-   [
-      "Fokko Driesprong",
-      "google_auth.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_azure_fileshare_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "api_client.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "s3_key_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "dbapi_hook.py",
-      4
-   ],
-   [
-      "Fokko Driesprong",
-      "jdbc_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "get_task.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "test_base_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "oracle_hook.py",
+      "emr_base_sensor.py",
       1
    ],
    [
       "r39132",
-      "test_s3_to_redshift_operator.py",
+      "plugins.rst",
       1
    ],
    [
       "Kaxil Naik",
-      "concepts.rst",
+      "vertica_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "kubernetes_executor.py",
       2
    ],
    [
-      "Kaxil Naik",
-      "aws_dynamodb_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "hive_to_mysql.py",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "test_db.py",
-      1
-   ],
-   [
-      "r39132",
-      "views.py",
-      2
-   ],
-   [
-      "Kengo Seki",
-      "test_postgres_hook.py",
-      1
-   ],
-   [
-      "r39132",
-      "security.rst",
-      1
-   ],
-   [
       "Fokko Driesprong",
-      "http_operator.py",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "856955da8476_fix_sqlite_foreign_key.py",
+      "s3_prefix_sensor.py",
       1
    ],
    [
       "Kaxil Naik",
-      "example_skip_dag.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "kubernetes_pod_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "cassandra_to_gcs.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "delete_dag.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "jira_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "mssql_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_gcp_mlengine_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "emr_create_job_flow_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "oracle_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_bigquery_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "use-mesos.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_python_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "models.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "example_docker_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "create-connection.rst",
+      "test_views.py",
       2
    ],
    [
@@ -906,112 +1596,7 @@
    ],
    [
       "Kaxil Naik",
-      "test_utils.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcp_container_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "get_dag_runs.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "gcs_to_s3.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "deny_all.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "redshift_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_zip.zip",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "bigquery_to_gcs.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "test_dag_runs_endpoint.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "configuration.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "airflow_local_settings.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_latest_only_with_trigger.py",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "05f30312d566_merge_heads.py",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "test_views.py",
-      2
-   ],
-   [
-      "Joy Gao",
-      "utils.py",
-      1
-   ],
-   [
-      "Joy Gao",
-      "mongo_to_s3.py",
-      1
-   ],
-   [
-      "Joy Gao",
-      "master.html",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "ldap_auth.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "generic_transfer.py",
-      1
-   ],
-   [
-      "r39132",
-      "test_redshift_to_s3_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "vertica_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "cassandra_sensor.py",
+      "api_client.py",
       1
    ],
    [
@@ -1020,183 +1605,43 @@
       1
    ],
    [
-      "Fokko Driesprong",
-      "test_spark_sql_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "hive_partition_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "zendesk_hook.py",
-      1
-   ],
-   [
       "kaxilnaik",
-      "cgroup_task_runner.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "vertica_to_mysql.py",
+      "gcs_download_operator.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "cassandra_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "dataproc_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "hive_stats_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "bigquery_operator.py",
-      3
-   ],
-   [
-      "Fokko Driesprong",
-      "test_mysql_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "emr_base_sensor.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "s3_list_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "check_operator.py",
+      "hive_hooks.py",
       2
    ],
    [
+      "kaxilnaik",
+      "ecs_operator.py",
+      1
+   ],
+   [
       "Kaxil Naik",
-      "spark_jdbc_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "vertica_to_mysql.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "databricks_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "bash_operator.py",
+      "gcs_hook.py",
       2
-   ],
-   [
-      "Kaxil Naik",
-      "jenkins_hook.py",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "jobs.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "oracle_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "vertica_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "get_task_instance.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "bigquery_to_bigquery.py",
-      1
    ],
    [
       "Maxime Beauchemin",
-      "jobs.py",
-      4
+      "settings.py",
+      1
    ],
    [
       "Fokko Driesprong",
-      "utils.py",
-      3
-   ],
-   [
-      "Kaxil Naik",
-      "faq.rst",
+      "test_postgres_hook.py",
       2
    ],
    [
-      "Fokko Driesprong",
-      "setup.py",
-      3
-   ],
-   [
-      "kaxilnaik",
-      "bigquery_sensor.py",
+      "r39132",
+      "test_redshift_to_s3_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "mssql_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "qubole_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "json_client.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "file_to_wasb.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_qubole_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "kube_client.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "http_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "hive.py",
+      "gcs_to_bq.py",
       1
    ],
    [
@@ -1205,138 +1650,18 @@
       1
    ],
    [
-      "Maxime Beauchemin",
-      "settings.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "emr_terminate_job_flow_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "spark_submit_operator.py",
-      1
-   ],
-   [
       "Fokko Driesprong",
-      "sqlite_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "pod_launcher.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "valid_state_dep.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "redis_key_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "initialize-database.rst",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "jenkins_job_trigger_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "hive_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "discord_webhook_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "bigquery_check_operator.py",
-      1
-   ],
-   [
-      "r39132",
-      "gantt.html",
-      2
-   ],
-   [
-      "kaxilnaik",
-      "bigquery_to_bigquery.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "file_to_wasb.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "views.py",
+      "setup.py",
       3
    ],
    [
       "Kaxil Naik",
-      "bigquery_hook.py",
-      4
-   ],
-   [
-      "Kaxil Naik",
-      "dbapi_hook.py",
+      "ti_log.html",
       2
    ],
    [
-      "Fokko Driesprong",
-      "not_in_retry_period_dep.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "airflow_local_settings.py",
-      1
-   ],
-   [
       "Kaxil Naik",
-      "test_cassandra_sensor.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "emr_job_flow_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "dag_ti_slots_available_dep.py",
-      1
-   ],
-   [
-      "Sumit Maheshwari",
-      "qubole_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "start.rst",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "hdfs_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "local_executor.py",
+      "hive_hooks.py",
       1
    ],
    [
@@ -1346,403 +1671,8 @@
    ],
    [
       "Kaxil Naik",
-      "databricks_hook.py",
+      "example_skip_dag.py",
       1
-   ],
-   [
-      "kaxilnaik",
-      "file_to_gcs.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "wasb_sensor.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "gcs_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "pubsub_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_trigger_target_dag.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_gcp_container_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "pod_generator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_short_circuit_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "sqoop_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "dataflow_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "core.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "docker_operator.py",
-      3
-   ],
-   [
-      "Fokko Driesprong",
-      "presto_to_mysql.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "kubernetes_pod_operator.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "jira_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "dummy_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcs_to_s3.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "dag_unpaused_dep.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "hdfs_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "datadog_hook.py",
-      1
-   ],
-   [
-      "Maxime Beauchemin",
-      "dag.html",
-      2
-   ],
-   [
-      "Fokko Driesprong",
-      "kerberos_auth.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "dates.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "not_skipped_dep.py",
-      1
-   ],
-   [
-      "r39132",
-      "faq.rst",
-      1
-   ],
-   [
-      "Shintaro Murakami",
-      "models.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "bigquery_table_delete_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "sqlite_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "snowflake_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "__init__.py",
-      3
-   ],
-   [
-      "Maxime Beauchemin",
-      "faq.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "cloudant_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "snowflake_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "not_running_dep.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "latest_only_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "s3_to_hive_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "installation.rst",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_bash_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "jobs.py",
-      5
-   ],
-   [
-      "Fokko Driesprong",
-      "vertica_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "password_auth.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "sftp_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "emr_step_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "1.log",
-      4
-   ],
-   [
-      "Kaxil Naik",
-      "set-config.rst",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "runnable_exec_date_dep.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "spark_jdbc_script.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "awsbatch_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcs_download_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "worker_configuration.py",
-      3
-   ],
-   [
-      "Kaxil Naik",
-      "redis_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "trigger_dag.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_kubernetes_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "hive_stats_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "emr_terminate_job_flow_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "emr_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "github_enterprise_auth.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "bigquery_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "slack_webhook_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "bigquery_to_gcs.py",
-      1
-   ],
-   [
-      "r39132",
-      "email_operator.py",
-      1
-   ],
-   [
-      "r39132",
-      "setup.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "emr_create_job_flow_operator.py",
-      1
-   ],
-   [
-      "Hongyi Wang",
-      "mysql_to_gcs.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "pubsub_sensor.py",
-      1
-   ],
-   [
-      "Joy Gao",
-      "views.py",
-      2
-   ],
-   [
-      "r39132",
-      "core.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "test_docker_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "subdag.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "bash_task_runner.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "external_task_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "ldap_auth.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcp_api_base_hook.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "gcp_dataproc_hook.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "sequential_executor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "webhdfs_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "google_auth.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "default_webserver_config.py",
-      1
-   ],
-   [
-      "Ash Berlin-Taylor",
-      "models.py",
-      2
    ],
    [
       "Fokko Driesprong",
@@ -1750,118 +1680,18 @@
       1
    ],
    [
-      "r39132",
-      "test_views.py",
-      2
-   ],
-   [
       "Kaxil Naik",
-      "aws_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "s3_to_hive_operator.py",
-      1
-   ],
-   [
-      "Joy Gao",
-      "github_enterprise_auth.py",
+      "s3_to_gcs_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "segment_track_event_operator.py",
+      "hive_to_samba_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "test_views.py",
-      2
-   ],
-   [
-      "Fokko Driesprong",
-      "hdfs_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcs_hook.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "code.rst",
-      4
-   ],
-   [
-      "kaxilnaik",
-      "emr_add_steps_operator.py",
-      1
-   ],
-   [
-      "Alex Guziel",
-      "jira_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "base_dag.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "base_sensor_operator.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "example_branch_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "bigquery_table_delete_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "cassandra_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "gcs_to_bq.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "ssh_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "jdbc_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "pig_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_latest_only.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_pubsub_flow.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "ecs_operator.py",
+      "discord_webhook_hook.py",
       1
    ],
    [
@@ -1871,217 +1701,37 @@
    ],
    [
       "Kaxil Naik",
-      "sftp_sensor.py",
-      1
-   ],
-   [
-      "r39132",
-      "tests.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "worker_configuration.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "presto_check_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_kubernetes_executor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "redshift_to_s3_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "gcs_list_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "discord_webhook_hook.py",
+      "configuration.py",
       1
    ],
    [
       "kaxilnaik",
-      "jira_operator.py",
+      "mysql_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "sftp_operator.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "postgres_hook.py",
-      3
-   ],
-   [
-      "Hongyi Wang",
-      "bigquery_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "presto_to_mysql.py",
+      "jdbc_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "example_trigger_controller_dag.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "example_kubernetes_operator.py",
+      "docker_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "cli.py",
-      2
-   ],
-   [
-      "Fokko Driesprong",
-      "decorators.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "bigquery_get_data.py",
+      "discord_webhook_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "use-dask.rst",
-      1
-   ],
-   [
-      "Stefan Seelmann",
-      "views.py",
-      2
-   ],
-   [
-      "kaxilnaik",
-      "gcs_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "jdbc_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "sftp_sensor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "test_postgres_hook.py",
-      2
-   ],
-   [
-      "Kaxil Naik",
-      "setup.py",
-      6
-   ],
-   [
-      "Kaxil Naik",
-      "gcs_to_gcs.py",
-      2
-   ],
-   [
-      "Stefan Seelmann",
-      "sqlalchemy.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "hive_hooks.py",
-      2
-   ],
-   [
-      "r39132",
-      "test_hive_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "dep_context.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "file_sensor.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "jira_sensor.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "local_client.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "prev_dagrun_dep.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "celery_executor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "base_hook.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "mssql_to_hive.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "db.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_gcp_api_base_hook.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "hive_to_druid.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "index.rst",
-      3
-   ],
-   [
-      "Kaxil Naik",
-      "configuration.rst",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "test_s3_hook.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "datastore_import_operator.py",
+      "example_emr_job_flow_manual_steps.py",
       1
    ],
    [
@@ -2091,117 +1741,37 @@
    ],
    [
       "Kaxil Naik",
-      "s3_list_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "test_kubernetes_pod_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_subdag_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "slack_webhook_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "run-with-upstart.rst",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "spark_sql_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "discord_webhook_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "bash_operator.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "operators.py",
-      4
-   ],
-   [
-      "Kaxil Naik",
-      "hive_to_samba_operator.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "slack_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "example_xcom.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "default.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "vertica_to_hive.py",
-      1
-   ],
-   [
-      "kaxilnaik",
-      "vertica_to_hive.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "hive_operator.py",
-      1
-   ],
-   [
-      "Kaxil Naik",
-      "kubernetes_executor.py",
-      1
-   ],
-   [
-      "Fokko Driesprong",
-      "mysql_to_hive.py",
+      "test_bigquery_hook.py",
       3
    ],
    [
-      "r39132",
-      "forms.py",
-      2
+      "kaxilnaik",
+      "emr_terminate_job_flow_operator.py",
+      1
    ],
    [
-      "Stefan Seelmann",
-      "f23433877c24_fix_mysql_not_null_constraint.py",
+      "Alex Guziel",
+      "jira_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "presto_to_mysql.py",
       1
    ],
    [
       "Fokko Driesprong",
-      "kubernetes_executor.py",
-      2
+      "example_kubernetes_operator.py",
+      1
    ],
    [
-      "Kaxil Naik",
-      "mark_tasks.py",
+      "Sumit Maheshwari",
+      "example_qubole_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "test_mongo_to_s3_operator.py",
+      "test_gcp_container_hook.py",
       1
    ],
    [
@@ -2215,23 +1785,213 @@
       1
    ],
    [
+      "Kaxil Naik",
+      "ecs_operator.py",
+      1
+   ],
+   [
       "Fokko Driesprong",
-      "default_login.py",
+      "models.py",
+      6
+   ],
+   [
+      "Kaxil Naik",
+      "db.py",
       1
    ],
    [
       "kaxilnaik",
-      "druid_operator.py",
+      "s3_to_hive_operator.py",
+      1
+   ],
+   [
+      "Kevin Yang",
+      "cli.py",
       1
    ],
    [
       "kaxilnaik",
-      "ssh_operator.py",
+      "sftp_sensor.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "views.py",
+      3
+   ],
+   [
+      "Fokko Driesprong",
+      "worker_configuration.py",
+      3
+   ],
+   [
+      "Kaxil Naik",
+      "docker_copy_data.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "subdag.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "utils.py",
+      3
+   ],
+   [
+      "Fokko Driesprong",
+      "hive_partition_sensor.py",
       1
    ],
    [
       "kaxilnaik",
-      "mysql_operator.py",
+      "datastore_export_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "spark_sql_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "redshift_to_s3_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "mysql_hook.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "winrm_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "google_auth.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "sqlite_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "base_sensor_operator.py",
+      2
+   ],
+   [
+      "r39132",
+      "security.rst",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "aws_redshift_cluster_sensor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "ssh_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "bigquery_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "jira_hook.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "views.py",
+      2
+   ],
+   [
+      "kaxilnaik",
+      "sqoop_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "slack_webhook_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "mlengine_operator_utils.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_gcs_to_gcs_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "spark_sql_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_docker_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "snowflake_operator.py",
+      1
+   ],
+   [
+      "Maxime Beauchemin",
+      "models.py",
+      8
+   ],
+   [
+      "kaxilnaik",
+      "oracle_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "postgres_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "setup.py",
+      6
+   ],
+   [
+      "Kaxil Naik",
+      "mlengine_operator.py",
+      1
+   ],
+   [
+      "Ash Berlin-Taylor",
+      "models.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "models.py",
+      2
+   ],
+   [
+      "kaxilnaik",
+      "cgroup_task_runner.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "hive_operator.py",
       1
    ],
    [
@@ -2240,13 +2000,78 @@
       1
    ],
    [
-      "Kaxil Naik",
-      "gcs_operator.py",
+      "kaxilnaik",
+      "hipchat_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "bigquery_get_data.py",
+      "example_docker_operator.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "pod_launcher.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "zendesk_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "slack_webhook_hook.py",
+      1
+   ],
+   [
+      "r39132",
+      "tests.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "set-config.rst",
+      1
+   ],
+   [
+      "r39132",
+      "email_operator.py",
+      1
+   ],
+   [
+      "r39132",
+      "setup.py",
+      2
+   ],
+   [
+      "r39132",
+      "mysql_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "samba_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "integration.rst",
+      4
+   ],
+   [
+      "Sumit Maheshwari",
+      "test_qubole_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "emr_create_job_flow_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "spark_submit_operator.py",
       1
    ],
    [
@@ -2255,13 +2080,23 @@
       1
    ],
    [
-      "Kaxil Naik",
-      "test_dataproc_operator.py",
+      "kaxilnaik",
+      "awsbatch_operator.py",
       1
    ],
    [
-      "kaxilnaik",
-      "gcs_download_operator.py",
+      "Kaxil Naik",
+      "wasb_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "hdfs_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "file_to_gcs.py",
       1
    ],
    [
@@ -2270,23 +2105,188 @@
       1
    ],
    [
-      "Fokko Driesprong",
-      "slack_hook.py",
+      "Kaxil Naik",
+      "cassandra_hook.py",
       1
    ],
    [
-      "Fokko Driesprong",
-      "hive_to_mysql.py",
+      "kaxilnaik",
+      "pubsub_operator.py",
       1
    ],
    [
       "Kaxil Naik",
-      "hive_hooks.py",
+      "get_task_instance.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "password_auth.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "emr_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "docker_operator.py",
+      3
+   ],
+   [
+      "Kaxil Naik",
+      "cli.py",
+      2
+   ],
+   [
+      "Kengo Seki",
+      "postgres_hook.py",
       1
    ],
    [
       "Kaxil Naik",
-      "base_executor.py",
+      "email_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcs_list_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "spark_sql_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcs_to_gcs.py",
+      2
+   ],
+   [
+      "Fokko Driesprong",
+      "sql_sensor.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "initialize-database.rst",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "celery_executor.py",
+      1
+   ],
+   [
+      "Stefan Seelmann",
+      "graph.html",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "jenkins_hook.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "test_mysql_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "sqoop_hook.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "file_to_wasb.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "runnable_exec_date_dep.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "json_client.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "gcs_list_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "bigquery_to_gcs.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "databricks_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "tutorial.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_qubole_operator.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_mongo_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_hive_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "gcp_mlengine_hook.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "test_utils.py",
+      1
+   ],
+   [
+      "Fokko Driesprong",
+      "kube_client.py",
+      1
+   ],
+   [
+      "Kaxil Naik",
+      "example_databricks_operator.py",
+      1
+   ],
+   [
+      "kaxilnaik",
+      "postgres_operator.py",
+      1
+   ],
+   [
+      "r39132",
+      "views.py",
+      2
+   ],
+   [
+      "Kaxil Naik",
+      "bigquery_to_bigquery.py",
+      1
+   ],
+   [
+      "r39132",
+      "ldap_auth.py",
       1
    ]
 ]

@@ -1,47 +1,32 @@
 [
    [
-      "David Fort",
-      "Makefile.am",
-      2
-   ],
-   [
       "Nick Couchman",
-      "ReferralAuthHandler.java",
-      4
-   ],
-   [
-      "Carl Harris",
-      "ListenerService.java",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "001-create-schema.sql",
-      2
-   ],
-   [
-      "Carl Harris",
-      "build-guacamole.sh",
-      1
-   ],
-   [
-      "Michael Jumper",
-      "AuthenticationService.java",
+      "002-create-admin-user.sql",
       2
    ],
    [
       "Nick Couchman",
       "ConfigurationService.java",
-      8
-   ],
-   [
-      "Carl Harris",
-      "TunnelConnectListener.java",
-      1
+      4
    ],
    [
       "Nick Couchman",
-      "CASGuacamoleProperties.java",
+      "PrivateKeyGuacamoleProperty.java",
+      12
+   ],
+   [
+      "Carl Harris",
+      "TunnelRequestService.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "AuthenticationSuccessListener.java",
+      2
+   ],
+   [
+      "Carl Harris",
+      "ExtensionManifest.java",
       2
    ],
    [
@@ -50,24 +35,14 @@
       2
    ],
    [
-      "Michael Jumper",
-      "UserEvent.java",
-      2
-   ],
-   [
-      "Michael Jumper",
-      "TunnelConnectEvent.java",
-      2
+      "Nick Couchman",
+      "TicketValidationService.java",
+      18
    ],
    [
       "Carl Harris",
-      "ProviderFactory.java",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "LDAPGuacamoleProperties.java",
-      4
+      ".dockerignore",
+      2
    ],
    [
       "Nick Couchman",
@@ -76,13 +51,13 @@
    ],
    [
       "Nick Couchman",
-      "configure.ac",
-      1
+      "CASGuacamoleProperties.java",
+      6
    ],
    [
       "Nick Couchman",
-      "TicketValidationService.java",
-      18
+      "LDAPGuacamoleProperties.java",
+      4
    ],
    [
       "Nick Couchman",
@@ -90,33 +65,8 @@
       10
    ],
    [
-      "Nick Couchman",
-      "PrivateKeyGuacamoleProperty.java",
-      10
-   ],
-   [
       "Michael Jumper",
-      "index.html",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "ConnectionService.java",
-      8
-   ],
-   [
-      "Carl Harris",
-      "ExtensionManifest.java",
-      2
-   ],
-   [
-      "Nick Couchman",
-      "002-create-admin-user.sql",
-      2
-   ],
-   [
-      "Carl Harris",
-      "AuthenticationSuccessListener.java",
+      "TunnelConnectEvent.java",
       2
    ],
    [
@@ -126,37 +76,22 @@
    ],
    [
       "Carl Harris",
-      "TunnelCloseListener.java",
+      "ListenerService.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "AuthenticationService.java",
       2
    ],
    [
       "Nick Couchman",
-      "LDAPConnectionService.java",
+      "ConnectionService.java",
       8
    ],
    [
-      "Nick Couchman",
-      "AuthenticationProviderService.java",
-      24
-   ],
-   [
-      "Jukka-Pekka Virtanen",
-      "move-fd.c",
-      1
-   ],
-   [
-      "Nick Couchman",
-      "ConfigurationService.java",
-      4
-   ],
-   [
       "Carl Harris",
-      "TunnelRequestService.java",
-      1
-   ],
-   [
-      "Carl Harris",
-      "AuthenticationService.java",
+      "TunnelConnectListener.java",
       1
    ],
    [
@@ -165,13 +100,23 @@
       1
    ],
    [
-      "Carl Harris",
-      "AuthenticationFailureListener.java",
-      1
+      "Nick Couchman",
+      "AuthenticationProviderService.java",
+      24
    ],
    [
-      "itsankoff",
-      "user.c",
+      "Nick Couchman",
+      "CASGuacamoleProperties.java",
+      2
+   ],
+   [
+      "Nick Couchman",
+      "LDAPConnectionService.java",
+      8
+   ],
+   [
+      "Jukka-Pekka Virtanen",
+      "move-fd.c",
       1
    ],
    [
@@ -180,8 +125,53 @@
       2
    ],
    [
+      "itsankoff",
+      "user.c",
+      1
+   ],
+   [
+      "Carl Harris",
+      "AuthenticationFailureListener.java",
+      1
+   ],
+   [
+      "Michael Jumper",
+      "AuthenticationSuccessEvent.java",
+      2
+   ],
+   [
+      "Michael Jumper",
+      "index.html",
+      1
+   ],
+   [
+      "Nick Couchman",
+      "001-create-schema.sql",
+      2
+   ],
+   [
+      "Nick Couchman",
+      "PrivateKeyGuacamoleProperty.java",
+      10
+   ],
+   [
+      "Carl Harris",
+      "ProviderFactory.java",
+      1
+   ],
+   [
       "Carl Harris",
       "ExtensionModule.java",
+      1
+   ],
+   [
+      "Carl Harris",
+      "build-guacamole.sh",
+      1
+   ],
+   [
+      "Nick Couchman",
+      "Makefile.am",
       1
    ],
    [
@@ -191,8 +181,8 @@
    ],
    [
       "Nick Couchman",
-      "PrivateKeyGuacamoleProperty.java",
-      12
+      "configure.ac",
+      1
    ],
    [
       "Nick Couchman",
@@ -201,22 +191,32 @@
    ],
    [
       "Nick Couchman",
-      "CASGuacamoleProperties.java",
-      6
+      "ConfigurationService.java",
+      8
    ],
    [
-      "Carl Harris",
-      ".dockerignore",
+      "Michael Jumper",
+      "UserEvent.java",
       2
    ],
    [
       "Nick Couchman",
-      "Makefile.am",
+      "ReferralAuthHandler.java",
+      4
+   ],
+   [
+      "Carl Harris",
+      "AuthenticationService.java",
       1
    ],
    [
-      "Michael Jumper",
-      "AuthenticationSuccessEvent.java",
+      "David Fort",
+      "Makefile.am",
+      2
+   ],
+   [
+      "Carl Harris",
+      "TunnelCloseListener.java",
       2
    ]
 ]

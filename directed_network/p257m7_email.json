@@ -1,27 +1,31 @@
 [
    {
+      "name": "Marvin",
+      "imports": []
+   },
+   {
+      "name": "Roger Schildmeijer",
+      "imports": [
+         "Marvin"
+      ]
+   },
+   {
+      "name": "Emmanuel Lecharny",
       "imports": [
          "Mohammad Nour El-Din"
-      ],
-      "name": "Emmanuel Lecharny"
+      ]
    },
    {
+      "name": "=?ISO-8859-1?Q?S=E9ven_Le_Mesle?=",
       "imports": [
          "Emmanuel Lecharny"
-      ],
-      "name": "=?ISO-8859-1?Q?S=E9ven_Le_Mesle?="
+      ]
    },
    {
+      "name": "Mohammad Nour El-Din",
       "imports": [
          "Marvin",
          "=?ISO-8859-1?Q?S=E9ven_Le_Mesle?="
-      ],
-      "name": "Mohammad Nour El-Din"
-   },
-   {
-      "imports": [
-         "Marvin"
-      ],
-      "name": "Roger Schildmeijer"
+      ]
    }
 ]
