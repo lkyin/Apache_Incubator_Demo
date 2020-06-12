@@ -56,7 +56,6 @@ function readTextFile(file){
 }
 
 var data = eval(readTextFile('test.txt'))
-
 var color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
 var svg_t = d3.select("body").append("svg").attr("width", 960).attr("height", 800);
 
@@ -125,15 +124,13 @@ var graph;
 
 // load the data
 
-d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
+d3.json(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
 {
   if (error) throw error;
   graph = _graph;
   initializeDisplay();
   initializeSimulation();
 });
-
-
 
 //////////// FORCE SIMULATION //////////// 
 
@@ -156,7 +153,7 @@ function updateData() {
     // clear the canvas
     d3.selectAll("svg > *").remove();
     //reload data project and month
-    d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
+    d3.json(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_${forceProperties.selected_data.ntype}.json`, function(error, _graph) 
     {
       if (error) throw error;
       graph = _graph;
