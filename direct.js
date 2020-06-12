@@ -30,6 +30,31 @@ d3.json(`network_data/p${forceProperties.selected_data.project}m${forcePropertie
     update(graph.links, graph.nodes);
 })
 
+function UpdateEmailNet(){
+
+    svg.selectAll("*").remove();
+
+    svg.append('defs').append('marker')
+    .attrs({'id':'arrowhead',
+        'viewBox':'-0 -5 10 10',
+        'refX':13,
+        'refY':0,
+        'orient':'auto',
+        'markerWidth':13,
+        'markerHeight':13,
+        'xoverflow':'visible'})
+    .append('svg:path')
+    .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+    .attr('fill', '#999')
+    .style('stroke','none');
+    
+    d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`, function (error, graph) {
+        if (error) throw error;
+        update(graph.links, graph.nodes);
+    })
+    
+}
+
 function update(links, nodes) {
     link = svg.selectAll(".link")
         .data(links)

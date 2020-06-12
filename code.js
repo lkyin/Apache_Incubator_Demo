@@ -126,5 +126,6 @@ function UpdateTechnicalNet(){
 
 function updateAll(){
   UpdateTechnicalNet()
+  UpdateEmailNet()
 }
 
