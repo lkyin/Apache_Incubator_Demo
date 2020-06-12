@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "19618",
-         "group": 4
-      },
-      {
-         "id": "5158",
-         "group": 2
-      },
-      {
-         "id": "19895",
-         "group": 2
-      },
-      {
-         "id": "19484",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Hongxu Ma",
          "value": 1,
-         "target": "19618",
-         "source": "19484"
+         "target": "Lei Chang"
       },
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "19484",
-         "source": "19895"
+         "target": "Lei Chang"
       },
       {
+         "source": "Lei Chang",
          "value": 1,
-         "target": "19895",
-         "source": "19484"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Lei Chang",
          "value": 1,
-         "target": "5158",
-         "source": "19484"
+         "target": "Hongxu Ma"
       },
       {
+         "source": "Lei Chang",
          "value": 1,
-         "target": "19484",
-         "source": "5158"
+         "target": "Lav Jain"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lei Chang",
+         "group": 3
+      },
+      {
+         "id": "Lav Jain",
+         "group": 4
+      },
+      {
+         "id": "Hongxu Ma",
+         "group": 2
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 4
       }
    ]
 }

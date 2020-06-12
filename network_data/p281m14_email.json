@@ -1,56 +1,56 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14815",
-         "group": 2
+         "source": "Stuart Monteith",
+         "value": 1,
+         "target": "ant elder"
       },
       {
-         "id": "23236",
+         "source": "Stuart Monteith",
+         "value": 1,
+         "target": "Mark Hindess"
+      },
+      {
+         "source": "ant elder",
+         "value": 1,
+         "target": "Stuart Monteith"
+      },
+      {
+         "source": "Steve Poole",
+         "value": 2,
+         "target": "Stuart Monteith"
+      },
+      {
+         "source": "Robert Burrell Donkin",
+         "value": 1,
+         "target": "Stuart Monteith"
+      },
+      {
+         "source": "Stuart Monteith",
+         "value": 1,
+         "target": "Robert Burrell Donkin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stuart Monteith",
          "group": 4
       },
       {
-         "id": "23234",
+         "id": "ant elder",
+         "group": 4
+      },
+      {
+         "id": "Robert Burrell Donkin",
          "group": 3
       },
       {
-         "id": "13723",
-         "group": 4
+         "id": "Mark Hindess",
+         "group": 1
       },
       {
-         "id": "517",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "23236",
-         "source": "13723"
-      },
-      {
-         "value": 2,
-         "target": "23236",
-         "source": "23234"
-      },
-      {
-         "value": 1,
-         "target": "13723",
-         "source": "23236"
-      },
-      {
-         "value": 1,
-         "target": "14815",
-         "source": "23236"
-      },
-      {
-         "value": 1,
-         "target": "517",
-         "source": "23236"
-      },
-      {
-         "value": 1,
-         "target": "23236",
-         "source": "517"
+         "id": "Steve Poole",
+         "group": 3
       }
    ]
 }

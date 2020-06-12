@@ -1,50 +1,50 @@
 {
+   "links": [
+      {
+         "source": "James Margaris (JIRA)",
+         "value": 1,
+         "target": "David Day (JIRA)"
+      },
+      {
+         "source": "Michael Mikhaylov (JIRA)",
+         "value": 6,
+         "target": "Trevor Oldak (JIRA)"
+      },
+      {
+         "source": "Robert Burrell Donkin",
+         "value": 1,
+         "target": "Bob Buffone"
+      },
+      {
+         "source": "Bob Buffone",
+         "value": 1,
+         "target": "Robert Burrell Donkin"
+      }
+   ],
    "nodes": [
       {
-         "id": "28567",
+         "id": "Robert Burrell Donkin",
          "group": 3
       },
       {
-         "id": "13723",
+         "id": "Trevor Oldak (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Bob Buffone",
+         "group": 2
+      },
+      {
+         "id": "David Day (JIRA)",
          "group": 1
       },
       {
-         "id": "44940",
-         "group": 2
-      },
-      {
-         "id": "44964",
-         "group": 2
-      },
-      {
-         "id": "44961",
+         "id": "Michael Mikhaylov (JIRA)",
          "group": 4
       },
       {
-         "id": "44939",
+         "id": "James Margaris (JIRA)",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "44961",
-         "source": "44939"
-      },
-      {
-         "value": 1,
-         "target": "13723",
-         "source": "28567"
-      },
-      {
-         "value": 1,
-         "target": "28567",
-         "source": "13723"
-      },
-      {
-         "value": 6,
-         "target": "44940",
-         "source": "44964"
       }
    ]
 }

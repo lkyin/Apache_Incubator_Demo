@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "18656",
-         "group": 4
-      },
-      {
-         "id": "4107",
-         "group": 2
-      },
-      {
-         "id": "4102",
-         "group": 4
-      },
-      {
-         "id": "18421",
-         "group": 2
-      },
-      {
-         "id": "18419",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "18421",
-         "source": "4107"
+         "target": "Mike Jumper"
       },
       {
+         "source": "Frode Langelo",
          "value": 1,
-         "target": "18656",
-         "source": "18419"
+         "target": "Mike Jumper"
       },
       {
+         "source": "Mike Jumper",
          "value": 1,
-         "target": "18421",
-         "source": "18656"
+         "target": "Olivier Lamy"
       },
       {
+         "source": "James Muehlner",
          "value": 1,
-         "target": "18419",
-         "source": "18421"
+         "target": "Frode Langelo"
       },
       {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "4107",
-         "source": "18421"
+         "target": "Mike Jumper"
       },
       {
+         "source": "Mike Jumper",
          "value": 1,
-         "target": "18421",
-         "source": "4102"
+         "target": "James Muehlner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Frode Langelo",
+         "group": 3
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 2
+      },
+      {
+         "id": "Mike Jumper",
+         "group": 4
+      },
+      {
+         "id": "James Muehlner",
+         "group": 2
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 3
       }
    ]
 }

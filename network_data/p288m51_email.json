@@ -1,69 +1,69 @@
 {
-   "nodes": [
-      {
-         "id": "29910",
-         "group": 3
-      },
-      {
-         "id": "4718",
-         "group": 3
-      },
-      {
-         "id": "11330",
-         "group": 4
-      },
-      {
-         "id": "308",
-         "group": 1
-      },
-      {
-         "id": "249",
-         "group": 4
-      },
-      {
-         "id": "11318",
-         "group": 1
-      },
-      {
-         "id": "5961",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Ian C",
          "value": 1,
-         "target": "249",
-         "source": "11330"
+         "target": "Rob Weir"
       },
       {
+         "source": "Svante Schubert",
          "value": 1,
-         "target": "308",
-         "source": "4718"
+         "target": "Apache Jenkins Server"
       },
       {
+         "source": "Stian Soiland-Reyes",
          "value": 1,
-         "target": "11318",
-         "source": "5961"
+         "target": "Rob Weir"
       },
       {
+         "source": "Rob Weir",
          "value": 1,
-         "target": "308",
-         "source": "29910"
+         "target": "Marvin"
       },
       {
+         "source": "Stian Soiland-Reyes",
          "value": 1,
-         "target": "29910",
-         "source": "11318"
+         "target": "Ian C"
       },
       {
+         "source": "Marvin Humphrey",
          "value": 1,
-         "target": "29910",
-         "source": "5961"
+         "target": "Marvin"
       },
       {
+         "source": "Rob Weir",
          "value": 1,
-         "target": "5961",
-         "source": "29910"
+         "target": "Stian Soiland-Reyes"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Rob Weir",
+         "group": 1
+      },
+      {
+         "id": "Svante Schubert",
+         "group": 2
+      },
+      {
+         "id": "Marvin",
+         "group": 3
+      },
+      {
+         "id": "Marvin Humphrey",
+         "group": 3
+      },
+      {
+         "id": "Apache Jenkins Server",
+         "group": 4
+      },
+      {
+         "id": "Stian Soiland-Reyes",
+         "group": 4
+      },
+      {
+         "id": "Ian C",
+         "group": 4
       }
    ]
 }

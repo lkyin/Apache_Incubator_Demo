@@ -1,71 +1,76 @@
 {
-   "nodes": [
-      {
-         "id": "7096",
-         "group": 1
-      },
-      {
-         "id": "7116",
-         "group": 3
-      },
-      {
-         "id": "7097",
-         "group": 3
-      },
-      {
-         "id": "7110",
-         "group": 1
-      },
-      {
-         "id": "7114",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "7114",
-         "source": "7116"
-      },
-      {
+         "source": "Aaron McCurry",
          "value": 3,
-         "target": "7110",
-         "source": "7097"
+         "target": "crohr"
       },
       {
-         "value": 19,
-         "target": "7110",
-         "source": "7116"
+         "source": "crohr",
+         "value": 5,
+         "target": "amccurry"
       },
       {
-         "value": 37,
-         "target": "7116",
-         "source": "7096"
-      },
-      {
-         "value": 27,
-         "target": "7097",
-         "source": "7096"
-      },
-      {
-         "value": 1,
-         "target": "7114",
-         "source": "7096"
-      },
-      {
-         "value": 40,
-         "target": "7110",
-         "source": "7096"
-      },
-      {
-         "value": 1,
-         "target": "7114",
-         "source": "7097"
-      },
-      {
+         "source": "Aaron McCurry",
          "value": 14,
-         "target": "7097",
-         "source": "7116"
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "amccurry",
+         "value": 37,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "amccurry",
+         "value": 35,
+         "target": "crohr"
+      },
+      {
+         "source": "crohr",
+         "value": 19,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "amccurry",
+         "value": 1,
+         "target": "chrisrohr"
+      },
+      {
+         "source": "chrisrohr",
+         "value": 2,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 27,
+         "target": "amccurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "chrisrohr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Aaron McCurry",
+         "group": 1
+      },
+      {
+         "id": "Chris Rohr",
+         "group": 3
+      },
+      {
+         "id": "amccurry",
+         "group": 2
+      },
+      {
+         "id": "chrisrohr",
+         "group": 2
+      },
+      {
+         "id": "crohr",
+         "group": 1
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "14860",
-         "group": 2
-      },
-      {
-         "id": "5237",
-         "group": 2
-      },
-      {
-         "id": "14854",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "5237",
-         "source": "14860"
+         "source": "Shwetha GS",
+         "value": 6,
+         "target": "shwethags"
       },
       {
-         "value": 6,
-         "target": "14854",
-         "source": "5237"
+         "source": "Suhas V",
+         "value": 1,
+         "target": "shwethags"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Suhas V",
+         "group": 1
+      },
+      {
+         "id": "Shwetha GS",
+         "group": 3
+      },
+      {
+         "id": "shwethags",
+         "group": 4
       }
    ]
 }

@@ -1,69 +1,69 @@
 {
-   "nodes": [
-      {
-         "id": "370",
-         "group": 3
-      },
-      {
-         "id": "20169",
-         "group": 3
-      },
-      {
-         "id": "20175",
-         "group": 1
-      },
-      {
-         "id": "308",
-         "group": 1
-      },
-      {
-         "id": "20166",
-         "group": 4
-      },
-      {
-         "id": "3334",
-         "group": 4
-      },
-      {
-         "id": "1110",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "20169",
-         "source": "20175"
+         "target": "Roman Shaposhnik"
       },
       {
-         "value": 2,
-         "target": "20169",
-         "source": "370"
-      },
-      {
-         "value": 1,
-         "target": "308",
-         "source": "20169"
-      },
-      {
-         "value": 2,
-         "target": "20166",
-         "source": "370"
-      },
-      {
+         "source": "Adam Berry",
          "value": 3,
-         "target": "370",
-         "source": "20169"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
-         "value": 1,
-         "target": "370",
-         "source": "1110"
+         "source": "Mattmann, Chris A (388J)",
+         "value": 2,
+         "target": "Bob Kerns"
       },
       {
+         "source": "Adam Berry",
          "value": 1,
-         "target": "3334",
-         "source": "370"
+         "target": "Marvin"
+      },
+      {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 2,
+         "target": "Adam Berry"
+      },
+      {
+         "source": "Suresh Marru",
+         "value": 1,
+         "target": "Mattmann, Chris A (388J)"
+      },
+      {
+         "source": "Evert Lammerts",
+         "value": 1,
+         "target": "Adam Berry"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Suresh Marru",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 2
+      },
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 2
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 3
+      },
+      {
+         "id": "Bob Kerns",
+         "group": 2
+      },
+      {
+         "id": "Adam Berry",
+         "group": 2
+      },
+      {
+         "id": "Evert Lammerts",
+         "group": 2
       }
    ]
 }

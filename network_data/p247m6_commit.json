@@ -1,236 +1,231 @@
 {
+   "links": [
+      {
+         "source": "ivaynberg",
+         "value": 8,
+         "target": "knopp"
+      },
+      {
+         "source": "knopp",
+         "value": 1,
+         "target": "ivaynberg"
+      },
+      {
+         "source": "ivaynberg",
+         "value": 7,
+         "target": "jcompagner"
+      },
+      {
+         "source": "ehillenius",
+         "value": 4,
+         "target": "dashorst"
+      },
+      {
+         "source": "jdonnerstag",
+         "value": 3,
+         "target": "almaw"
+      },
+      {
+         "source": "knopp",
+         "value": 1,
+         "target": "jdonnerstag"
+      },
+      {
+         "source": "janne",
+         "value": 1,
+         "target": "ehillenius"
+      },
+      {
+         "source": "ehillenius",
+         "value": 3,
+         "target": "frankbille"
+      },
+      {
+         "source": "janne",
+         "value": 1,
+         "target": "jbq"
+      },
+      {
+         "source": "jdonnerstag",
+         "value": 3,
+         "target": "knopp"
+      },
+      {
+         "source": "janne",
+         "value": 1,
+         "target": "almaw"
+      },
+      {
+         "source": "jbq",
+         "value": 1,
+         "target": "frankbille"
+      },
+      {
+         "source": "ehillenius",
+         "value": 13,
+         "target": "knopp"
+      },
+      {
+         "source": "frankbille",
+         "value": 3,
+         "target": "almaw"
+      },
+      {
+         "source": "jbq",
+         "value": 6,
+         "target": "jcompagner"
+      },
+      {
+         "source": "jbq",
+         "value": 17,
+         "target": "ehillenius"
+      },
+      {
+         "source": "jbq",
+         "value": 4,
+         "target": "knopp"
+      },
+      {
+         "source": "ehillenius",
+         "value": 28,
+         "target": "almaw"
+      },
+      {
+         "source": "ivaynberg",
+         "value": 10,
+         "target": "almaw"
+      },
+      {
+         "source": "jbq",
+         "value": 9,
+         "target": "ivaynberg"
+      },
+      {
+         "source": "almaw",
+         "value": 1,
+         "target": "jbq"
+      },
+      {
+         "source": "jbq",
+         "value": 2,
+         "target": "dashorst"
+      },
+      {
+         "source": "jbq",
+         "value": 21,
+         "target": "almaw"
+      },
+      {
+         "source": "ehillenius",
+         "value": 21,
+         "target": "jcompagner"
+      },
+      {
+         "source": "almaw",
+         "value": 4,
+         "target": "dashorst"
+      },
+      {
+         "source": "jdonnerstag",
+         "value": 4,
+         "target": "jcompagner"
+      },
+      {
+         "source": "knopp",
+         "value": 6,
+         "target": "almaw"
+      },
+      {
+         "source": "ehillenius",
+         "value": 20,
+         "target": "ivaynberg"
+      },
+      {
+         "source": "jcompagner",
+         "value": 1,
+         "target": "dashorst"
+      },
+      {
+         "source": "frankbille",
+         "value": 1,
+         "target": "knopp"
+      },
+      {
+         "source": "frankbille",
+         "value": 2,
+         "target": "ivaynberg"
+      },
+      {
+         "source": "ehillenius",
+         "value": 6,
+         "target": "jdonnerstag"
+      },
+      {
+         "source": "almaw",
+         "value": 7,
+         "target": "jcompagner"
+      },
+      {
+         "source": "knopp",
+         "value": 4,
+         "target": "jcompagner"
+      },
+      {
+         "source": "janne",
+         "value": 1,
+         "target": "dashorst"
+      },
+      {
+         "source": "ivaynberg",
+         "value": 5,
+         "target": "jdonnerstag"
+      },
+      {
+         "source": "jbq",
+         "value": 14,
+         "target": "jdonnerstag"
+      }
+   ],
    "nodes": [
       {
-         "id": "44328",
-         "group": 1
-      },
-      {
-         "id": "44294",
-         "group": 3
-      },
-      {
-         "id": "44297",
-         "group": 4
-      },
-      {
-         "id": "44310",
-         "group": 4
-      },
-      {
-         "id": "44295",
-         "group": 1
-      },
-      {
-         "id": "44293",
+         "id": "jbq",
          "group": 2
       },
       {
-         "id": "44291",
-         "group": 4
-      },
-      {
-         "id": "44381",
-         "group": 4
-      },
-      {
-         "id": "44313",
-         "group": 4
-      },
-      {
-         "id": "44292",
+         "id": "ehillenius",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "44292",
-         "source": "44310"
       },
       {
-         "value": 1,
-         "target": "44295",
-         "source": "44381"
+         "id": "janne",
+         "group": 3
       },
       {
-         "value": 21,
-         "target": "44381",
-         "source": "44328"
+         "id": "almaw",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "44291",
-         "source": "44293"
+         "id": "dashorst",
+         "group": 4
       },
       {
-         "value": 4,
-         "target": "44313",
-         "source": "44297"
+         "id": "frankbille",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "44294",
-         "source": "44381"
+         "id": "ivaynberg",
+         "group": 2
       },
       {
-         "value": 21,
-         "target": "44292",
-         "source": "44293"
+         "id": "jdonnerstag",
+         "group": 3
       },
       {
-         "value": 6,
-         "target": "44328",
-         "source": "44295"
+         "id": "jcompagner",
+         "group": 2
       },
       {
-         "value": 20,
-         "target": "44292",
-         "source": "44297"
-      },
-      {
-         "value": 4,
-         "target": "44313",
-         "source": "44293"
-      },
-      {
-         "value": 1,
-         "target": "44310",
-         "source": "44291"
-      },
-      {
-         "value": 3,
-         "target": "44294",
-         "source": "44328"
-      },
-      {
-         "value": 4,
-         "target": "44313",
-         "source": "44295"
-      },
-      {
-         "value": 6,
-         "target": "44292",
-         "source": "44313"
-      },
-      {
-         "value": 2,
-         "target": "44297",
-         "source": "44294"
-      },
-      {
-         "value": 2,
-         "target": "44381",
-         "source": "44291"
-      },
-      {
-         "value": 1,
-         "target": "44328",
-         "source": "44381"
-      },
-      {
-         "value": 3,
-         "target": "44292",
-         "source": "44294"
-      },
-      {
-         "value": 4,
-         "target": "44291",
-         "source": "44328"
-      },
-      {
-         "value": 4,
-         "target": "44292",
-         "source": "44291"
-      },
-      {
-         "value": 3,
-         "target": "44313",
-         "source": "44328"
-      },
-      {
-         "value": 10,
-         "target": "44297",
-         "source": "44328"
-      },
-      {
-         "value": 7,
-         "target": "44328",
-         "source": "44293"
-      },
-      {
-         "value": 9,
-         "target": "44297",
-         "source": "44295"
-      },
-      {
-         "value": 1,
-         "target": "44310",
-         "source": "44381"
-      },
-      {
-         "value": 9,
-         "target": "44297",
-         "source": "44381"
-      },
-      {
-         "value": 1,
-         "target": "44294",
-         "source": "44295"
-      },
-      {
-         "value": 6,
-         "target": "44381",
-         "source": "44293"
-      },
-      {
-         "value": 7,
-         "target": "44297",
-         "source": "44293"
-      },
-      {
-         "value": 14,
-         "target": "44313",
-         "source": "44381"
-      },
-      {
-         "value": 13,
-         "target": "44292",
-         "source": "44295"
-      },
-      {
-         "value": 3,
-         "target": "44381",
-         "source": "44295"
-      },
-      {
-         "value": 17,
-         "target": "44292",
-         "source": "44381"
-      },
-      {
-         "value": 2,
-         "target": "44293",
-         "source": "44295"
-      },
-      {
-         "value": 1,
-         "target": "44310",
-         "source": "44328"
-      },
-      {
-         "value": 28,
-         "target": "44292",
-         "source": "44328"
-      },
-      {
-         "value": 1,
-         "target": "44297",
-         "source": "44313"
-      },
-      {
-         "value": 2,
-         "target": "44295",
-         "source": "44293"
+         "id": "knopp",
+         "group": 2
       }
    ]
 }

@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3571",
-         "group": 1
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "Marvin Humphrey"
       },
       {
-         "id": "13735",
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "John D. Ament",
          "group": 4
       },
       {
-         "id": "4399",
-         "group": 1
+         "id": "Richard Frovarp",
+         "group": 2
       },
       {
-         "id": "13688",
+         "id": "Thorsten Scherler",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4399",
-         "source": "13688"
       },
       {
-         "value": 1,
-         "target": "4399",
-         "source": "3571"
-      },
-      {
-         "value": 1,
-         "target": "4399",
-         "source": "13735"
+         "id": "Marvin Humphrey",
+         "group": 2
       }
    ]
 }

@@ -1,72 +1,72 @@
 {
-   "nodes": [
-      {
-         "id": "14671",
-         "group": 2
-      },
-      {
-         "id": "14683",
-         "group": 4
-      },
-      {
-         "id": "14691",
-         "group": 4
-      },
-      {
-         "id": "14701",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "14671",
-         "source": "14691"
-      },
-      {
-         "value": 1,
-         "target": "14671",
-         "source": "14701"
-      },
-      {
+         "source": "Ethan Jewett",
          "value": 3,
-         "target": "14671",
-         "source": "14683"
+         "target": "Vassil Dichev"
       },
       {
+         "source": "Richard Hirsch",
          "value": 10,
-         "target": "14683",
-         "source": "14691"
+         "target": "Vassil Dichev"
       },
       {
-         "value": 3,
-         "target": "14691",
-         "source": "14701"
-      },
-      {
+         "source": "Ethan Jewett",
          "value": 5,
-         "target": "14691",
-         "source": "14671"
+         "target": "Richard Hirsch"
       },
       {
+         "source": "Ethan Jewett",
          "value": 1,
-         "target": "14701",
-         "source": "14671"
+         "target": "=?iso-8859-1?Q?Anne_Kathrine_Petter=F8e?="
       },
       {
-         "value": 1,
-         "target": "14701",
-         "source": "14691"
+         "source": "Richard Hirsch",
+         "value": 5,
+         "target": "Ethan Jewett"
       },
       {
+         "source": "Vassil Dichev",
          "value": 9,
-         "target": "14691",
-         "source": "14683"
+         "target": "Richard Hirsch"
       },
       {
+         "source": "Richard Hirsch",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?Anne_Kathrine_Petter=F8e?="
+      },
+      {
+         "source": "Vassil Dichev",
          "value": 3,
-         "target": "14683",
-         "source": "14671"
+         "target": "Ethan Jewett"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Anne_Kathrine_Petter=F8e?=",
+         "value": 1,
+         "target": "Ethan Jewett"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Anne_Kathrine_Petter=F8e?=",
+         "value": 3,
+         "target": "Richard Hirsch"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Ethan Jewett",
+         "group": 4
+      },
+      {
+         "id": "=?iso-8859-1?Q?Anne_Kathrine_Petter=F8e?=",
+         "group": 3
+      },
+      {
+         "id": "Vassil Dichev",
+         "group": 1
+      },
+      {
+         "id": "Richard Hirsch",
+         "group": 2
       }
    ]
 }

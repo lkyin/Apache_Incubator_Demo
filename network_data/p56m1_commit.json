@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "4130",
-         "group": 4
-      },
-      {
-         "id": "4128",
-         "group": 2
-      },
-      {
-         "id": "4131",
-         "group": 4
-      },
-      {
-         "id": "4129",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 11,
-         "target": "4129",
-         "source": "4128"
-      },
-      {
-         "value": 9,
-         "target": "4131",
-         "source": "4128"
-      },
-      {
-         "value": 5,
-         "target": "4131",
-         "source": "4130"
-      },
-      {
+         "source": "vgogate",
          "value": 19,
-         "target": "4128",
-         "source": "4130"
+         "target": "omalley"
+      },
+      {
+         "source": "eyang",
+         "value": 11,
+         "target": "omalley"
+      },
+      {
+         "source": "ddas",
+         "value": 5,
+         "target": "vgogate"
+      },
+      {
+         "source": "ddas",
+         "value": 9,
+         "target": "omalley"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "eyang",
+         "group": 1
+      },
+      {
+         "id": "ddas",
+         "group": 1
+      },
+      {
+         "id": "vgogate",
+         "group": 1
+      },
+      {
+         "id": "omalley",
+         "group": 3
       }
    ]
 }

@@ -1,134 +1,129 @@
 {
-   "nodes": [
-      {
-         "id": "35330",
-         "group": 4
-      },
-      {
-         "id": "35328",
-         "group": 2
-      },
-      {
-         "id": "35327",
-         "group": 1
-      },
-      {
-         "id": "544",
-         "group": 4
-      },
-      {
-         "id": "35363",
-         "group": 4
-      },
-      {
-         "id": "35333",
-         "group": 3
-      },
-      {
-         "id": "35329",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 10,
-         "target": "35333",
-         "source": "35330"
-      },
-      {
-         "value": 27,
-         "target": "35329",
-         "source": "35330"
-      },
-      {
-         "value": 2,
-         "target": "35328",
-         "source": "35327"
-      },
-      {
-         "value": 1,
-         "target": "35329",
-         "source": "544"
-      },
-      {
-         "value": 2,
-         "target": "35328",
-         "source": "35330"
-      },
-      {
+         "source": "lryan",
          "value": 5,
-         "target": "35329",
-         "source": "35333"
+         "target": "doll"
       },
       {
+         "source": "doll",
          "value": 1,
-         "target": "35330",
-         "source": "544"
+         "target": "lryan"
       },
       {
+         "source": "lindner",
+         "value": 1,
+         "target": "johnh"
+      },
+      {
+         "source": "doll",
+         "value": 3,
+         "target": "zhen"
+      },
+      {
+         "source": "etnu",
          "value": 2,
-         "target": "35329",
-         "source": "35363"
+         "target": "lryan"
       },
       {
+         "source": "etnu",
+         "value": 5,
+         "target": "zhen"
+      },
+      {
+         "source": "johnh",
          "value": 2,
-         "target": "35330",
-         "source": "35363"
+         "target": "doll"
       },
       {
-         "value": 1,
-         "target": "35327",
-         "source": "35329"
+         "source": "lryan",
+         "value": 5,
+         "target": "lindner"
       },
       {
+         "source": "doll",
          "value": 3,
-         "target": "35327",
-         "source": "35363"
+         "target": "lindner"
       },
       {
+         "source": "etnu",
          "value": 1,
-         "target": "35330",
-         "source": "35329"
+         "target": "brianm"
       },
       {
-         "value": 3,
-         "target": "35327",
-         "source": "35333"
+         "source": "lindner",
+         "value": 22,
+         "target": "doll"
       },
       {
-         "value": 26,
-         "target": "35327",
-         "source": "35330"
-      },
-      {
-         "value": 8,
-         "target": "35330",
-         "source": "35327"
-      },
-      {
+         "source": "etnu",
          "value": 1,
-         "target": "35330",
-         "source": "35333"
+         "target": "johnh"
       },
       {
+         "source": "johnh",
+         "value": 1,
+         "target": "lindner"
+      },
+      {
+         "source": "etnu",
+         "value": 28,
+         "target": "lindner"
+      },
+      {
+         "source": "johnh",
+         "value": 1,
+         "target": "etnu"
+      },
+      {
+         "source": "lindner",
          "value": 2,
-         "target": "35329",
-         "source": "35328"
+         "target": "zhen"
       },
       {
-         "value": 3,
-         "target": "35363",
-         "source": "35330"
+         "source": "brianm",
+         "value": 1,
+         "target": "lindner"
       },
       {
-         "value": 24,
-         "target": "35329",
-         "source": "35327"
+         "source": "lryan",
+         "value": 9,
+         "target": "etnu"
       },
       {
-         "value": 3,
-         "target": "35333",
-         "source": "35327"
+         "source": "etnu",
+         "value": 34,
+         "target": "doll"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "johnh",
+         "group": 4
+      },
+      {
+         "id": "doll",
+         "group": 4
+      },
+      {
+         "id": "brianm",
+         "group": 3
+      },
+      {
+         "id": "lindner",
+         "group": 3
+      },
+      {
+         "id": "lryan",
+         "group": 3
+      },
+      {
+         "id": "etnu",
+         "group": 4
+      },
+      {
+         "id": "zhen",
+         "group": 2
       }
    ]
 }

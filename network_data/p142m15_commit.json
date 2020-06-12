@@ -1,57 +1,52 @@
 {
+   "links": [
+      {
+         "source": "junrao",
+         "value": 24,
+         "target": "nehanarkhede"
+      },
+      {
+         "source": "junrao",
+         "value": 3,
+         "target": "prashanthmenon"
+      },
+      {
+         "source": "nehanarkhede",
+         "value": 1,
+         "target": "prashanthmenon"
+      },
+      {
+         "source": "junrao",
+         "value": 17,
+         "target": "jjkoshy"
+      },
+      {
+         "source": "prashanthmenon",
+         "value": 1,
+         "target": "jjkoshy"
+      },
+      {
+         "source": "nehanarkhede",
+         "value": 7,
+         "target": "jjkoshy"
+      }
+   ],
    "nodes": [
       {
-         "id": "8283",
+         "id": "junrao",
          "group": 2
       },
       {
-         "id": "22949",
+         "id": "nehanarkhede",
          "group": 4
       },
       {
-         "id": "22945",
-         "group": 4
+         "id": "prashanthmenon",
+         "group": 3
       },
       {
-         "id": "22948",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 24,
-         "target": "22945",
-         "source": "8283"
-      },
-      {
-         "value": 1,
-         "target": "22948",
-         "source": "22949"
-      },
-      {
-         "value": 1,
-         "target": "22945",
-         "source": "22948"
-      },
-      {
-         "value": 1,
-         "target": "22949",
-         "source": "22945"
-      },
-      {
-         "value": 17,
-         "target": "22948",
-         "source": "8283"
-      },
-      {
-         "value": 6,
-         "target": "22948",
-         "source": "22945"
-      },
-      {
-         "value": 3,
-         "target": "22949",
-         "source": "8283"
+         "id": "jjkoshy",
+         "group": 2
       }
    ]
 }

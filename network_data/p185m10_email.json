@@ -1,107 +1,107 @@
 {
-   "nodes": [
-      {
-         "id": "30811",
-         "group": 1
-      },
-      {
-         "id": "30812",
-         "group": 1
-      },
-      {
-         "id": "30809",
-         "group": 1
-      },
-      {
-         "id": "30806",
-         "group": 3
-      },
-      {
-         "id": "30804",
-         "group": 3
-      },
-      {
-         "id": "5892",
-         "group": 1
-      },
-      {
-         "id": "12129",
-         "group": 1
-      },
-      {
-         "id": "5938",
-         "group": 4
-      },
-      {
-         "id": "30795",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "5938",
-         "source": "30804"
+         "source": "Gurkan Erdogdu",
+         "value": 2,
+         "target": "Mark Struberg"
       },
       {
+         "source": "Gurkan Erdogdu",
+         "value": 1,
+         "target": "Mark Struberg (JIRA)"
+      },
+      {
+         "source": "Gurkan Erdogdu",
+         "value": 1,
+         "target": "James Carman"
+      },
+      {
+         "source": "Gurkan Erdogdu",
+         "value": 2,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Gurkan Erdogdu (JIRA)",
+         "value": 2,
+         "target": "Mark Struberg (JIRA)"
+      },
+      {
+         "source": "Gurkan Erdogdu (JIRA)",
+         "value": 1,
+         "target": "Sven Linstaedt (JIRA)"
+      },
+      {
+         "source": "Mark Struberg",
          "value": 4,
-         "target": "30804",
-         "source": "5892"
+         "target": "Gurkan Erdogdu"
       },
       {
+         "source": "Gurkan Erdogdu",
          "value": 1,
-         "target": "12129",
-         "source": "30812"
+         "target": "Paul J. Reder"
       },
       {
-         "value": 2,
-         "target": "5892",
-         "source": "12129"
-      },
-      {
+         "source": "Sven Linstaedt (JIRA)",
          "value": 1,
-         "target": "30806",
-         "source": "12129"
+         "target": "Mark Struberg (JIRA)"
       },
       {
+         "source": "Gurkan Erdogdu",
          "value": 1,
-         "target": "30811",
-         "source": "30804"
+         "target": "Monteiro Jean-Louis"
       },
       {
+         "source": "James Carman",
          "value": 1,
-         "target": "12129",
-         "source": "30806"
+         "target": "Gurkan Erdogdu"
       },
       {
+         "source": "Monteiro Jean-Louis",
          "value": 1,
-         "target": "30809",
-         "source": "30795"
+         "target": "Gurkan Erdogdu"
       },
       {
+         "source": "Paul J. Reder",
          "value": 1,
-         "target": "5938",
-         "source": "30809"
+         "target": "Gurkan Erdogdu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mark Struberg",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "12129",
-         "source": "30811"
+         "id": "Mark Struberg (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "30812",
-         "source": "30804"
+         "id": "Sven Linstaedt (JIRA)",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "5938",
-         "source": "30795"
+         "id": "Gurkan Erdogdu",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "5892",
-         "source": "30804"
+         "id": "Gurkan Erdogdu (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Gurkan Erdogdu",
+         "group": 4
+      },
+      {
+         "id": "James Carman",
+         "group": 1
+      },
+      {
+         "id": "Monteiro Jean-Louis",
+         "group": 2
+      },
+      {
+         "id": "Paul J. Reder",
+         "group": 3
       }
    ]
 }

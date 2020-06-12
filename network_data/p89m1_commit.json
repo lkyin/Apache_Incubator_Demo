@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "12012",
-         "group": 1
-      },
-      {
-         "id": "12014",
-         "group": 4
-      },
-      {
-         "id": "12013",
-         "group": 4
-      },
-      {
-         "id": "12011",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "12013",
-         "source": "12012"
-      },
-      {
-         "value": 1,
-         "target": "12013",
-         "source": "12011"
-      },
-      {
-         "value": 2,
-         "target": "12014",
-         "source": "12012"
-      },
-      {
+         "source": "William Vaughan",
          "value": 6,
-         "target": "12013",
-         "source": "12014"
+         "target": "Matt Hayes"
       },
       {
+         "source": "William Vaughan",
+         "value": 1,
+         "target": "mhayes"
+      },
+      {
+         "source": "William Vaughan",
+         "value": 5,
+         "target": "wvaughan"
+      },
+      {
+         "source": "Matt Hayes",
          "value": 2,
-         "target": "12011",
-         "source": "12012"
+         "target": "wvaughan"
+      },
+      {
+         "source": "mhayes",
+         "value": 2,
+         "target": "wvaughan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "William Vaughan",
+         "group": 2
+      },
+      {
+         "id": "Matt Hayes",
+         "group": 4
+      },
+      {
+         "id": "mhayes",
+         "group": 3
+      },
+      {
+         "id": "wvaughan",
+         "group": 3
       }
    ]
 }

@@ -1,74 +1,74 @@
 {
+   "links": [
+      {
+         "source": "alexdma",
+         "value": 2,
+         "target": "concelvio"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 2,
+         "target": "rwesten"
+      },
+      {
+         "source": "ogrisel",
+         "value": 3,
+         "target": "sfermigier"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 3,
+         "target": "ogrisel"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 2,
+         "target": "alexdma"
+      },
+      {
+         "source": "sfermigier",
+         "value": 2,
+         "target": "rwesten"
+      },
+      {
+         "source": "ogrisel",
+         "value": 1,
+         "target": "rwesten"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 9,
+         "target": "sfermigier"
+      }
+   ],
    "nodes": [
       {
-         "id": "37760",
+         "id": "bdelacretaz",
          "group": 2
       },
       {
-         "id": "8696",
-         "group": 2
-      },
-      {
-         "id": "37750",
+         "id": "concelvio",
          "group": 3
       },
       {
-         "id": "394",
+         "id": "anuzzolese",
+         "group": 4
+      },
+      {
+         "id": "ogrisel",
+         "group": 1
+      },
+      {
+         "id": "alexdma",
          "group": 2
       },
       {
-         "id": "8881",
+         "id": "sfermigier",
+         "group": 2
+      },
+      {
+         "id": "rwesten",
          "group": 4
-      },
-      {
-         "id": "37763",
-         "group": 4
-      },
-      {
-         "id": "37761",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "8881",
-         "source": "394"
-      },
-      {
-         "value": 1,
-         "target": "8881",
-         "source": "37750"
-      },
-      {
-         "value": 2,
-         "target": "37761",
-         "source": "37763"
-      },
-      {
-         "value": 2,
-         "target": "37761",
-         "source": "37760"
-      },
-      {
-         "value": 3,
-         "target": "37750",
-         "source": "8696"
-      },
-      {
-         "value": 3,
-         "target": "394",
-         "source": "37750"
-      },
-      {
-         "value": 2,
-         "target": "8881",
-         "source": "8696"
-      },
-      {
-         "value": 9,
-         "target": "394",
-         "source": "8696"
       }
    ]
 }

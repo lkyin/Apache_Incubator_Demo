@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "8876",
-         "group": 4
-      },
-      {
-         "id": "8872",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "reto",
          "value": 1,
-         "target": "8872",
-         "source": "8876"
+         "target": "hasan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "reto",
+         "group": 3
+      },
+      {
+         "id": "hasan",
+         "group": 1
       }
    ]
 }

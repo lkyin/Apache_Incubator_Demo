@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "31787",
-         "group": 4
-      },
-      {
-         "id": "31785",
-         "group": 2
-      },
-      {
-         "id": "31786",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "gbrown",
          "value": 43,
-         "target": "31786",
-         "source": "31785"
+         "target": "tvolkert"
       },
       {
-         "value": 6,
-         "target": "31786",
-         "source": "31787"
-      },
-      {
+         "source": "brindy",
          "value": 1,
-         "target": "31785",
-         "source": "31787"
+         "target": "tvolkert"
+      },
+      {
+         "source": "gbrown",
+         "value": 6,
+         "target": "brindy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gbrown",
+         "group": 1
+      },
+      {
+         "id": "brindy",
+         "group": 2
+      },
+      {
+         "id": "tvolkert",
+         "group": 3
       }
    ]
 }

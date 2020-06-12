@@ -1,38 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "34712",
-         "group": 1
-      },
-      {
-         "id": "34701",
-         "group": 1
-      },
-      {
-         "id": "21055",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "34701",
-         "source": "21055"
-      },
-      {
+         "source": "lskuff",
          "value": 2,
-         "target": "34701",
-         "source": "34712"
+         "target": "Lenni Kuff"
       },
       {
+         "source": "Lenni Kuff",
          "value": 1,
-         "target": "21055",
-         "source": "34712"
+         "target": "Colin Ma"
       },
       {
-         "value": 1,
-         "target": "21055",
-         "source": "34701"
+         "source": "lskuff",
+         "value": 2,
+         "target": "Colin Ma"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "lskuff",
+         "group": 3
+      },
+      {
+         "id": "Lenni Kuff",
+         "group": 3
+      },
+      {
+         "id": "Colin Ma",
+         "group": 1
       }
    ]
 }

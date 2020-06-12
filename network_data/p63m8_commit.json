@@ -1,57 +1,62 @@
 {
-   "nodes": [
-      {
-         "id": "5238",
-         "group": 3
-      },
-      {
-         "id": "5222",
-         "group": 4
-      },
-      {
-         "id": "5239",
-         "group": 4
-      },
-      {
-         "id": "5237",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 29,
-         "target": "5239",
-         "source": "5238"
-      },
-      {
-         "value": 19,
-         "target": "5237",
-         "source": "5238"
-      },
-      {
-         "value": 35,
-         "target": "5237",
-         "source": "5239"
-      },
-      {
-         "value": 25,
-         "target": "5239",
-         "source": "5237"
-      },
-      {
-         "value": 56,
-         "target": "5239",
-         "source": "5222"
-      },
-      {
-         "value": 32,
-         "target": "5237",
-         "source": "5222"
-      },
-      {
+         "source": "Suma Shivaprasad",
          "value": 37,
-         "target": "5222",
-         "source": "5238"
+         "target": "Shwetha GS"
+      },
+      {
+         "source": "sumasai",
+         "value": 23,
+         "target": "Suma Shivaprasad"
+      },
+      {
+         "source": "Shwetha GS",
+         "value": 7,
+         "target": "shwethags"
+      },
+      {
+         "source": "Suma Shivaprasad",
+         "value": 19,
+         "target": "shwethags"
+      },
+      {
+         "source": "sumasai",
+         "value": 56,
+         "target": "Shwetha GS"
+      },
+      {
+         "source": "Suma Shivaprasad",
+         "value": 6,
+         "target": "sumasai"
+      },
+      {
+         "source": "sumasai",
+         "value": 60,
+         "target": "shwethags"
+      },
+      {
+         "source": "shwethags",
+         "value": 25,
+         "target": "Shwetha GS"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sumasai",
+         "group": 2
+      },
+      {
+         "id": "shwethags",
+         "group": 1
+      },
+      {
+         "id": "Suma Shivaprasad",
+         "group": 4
+      },
+      {
+         "id": "Shwetha GS",
+         "group": 2
       }
    ]
 }

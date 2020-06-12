@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "Max",
+         "value": 5,
+         "target": "jamesmalone"
+      },
+      {
+         "source": "jbonofre",
+         "value": 20,
+         "target": "jamesmalone"
+      },
+      {
+         "source": "jamesmalone",
+         "value": 12,
+         "target": "Davor Bonaci"
+      },
+      {
+         "source": "Max",
+         "value": 1,
+         "target": "jbonofre"
+      }
+   ],
    "nodes": [
       {
-         "id": "399",
+         "id": "jbonofre",
          "group": 2
       },
       {
-         "id": "6024",
+         "id": "jamesmalone",
          "group": 4
       },
       {
-         "id": "5985",
-         "group": 2
+         "id": "Max",
+         "group": 3
       },
       {
-         "id": "5982",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 12,
-         "target": "5982",
-         "source": "5985"
-      },
-      {
-         "value": 20,
-         "target": "5982",
-         "source": "399"
-      },
-      {
-         "value": 1,
-         "target": "6024",
-         "source": "399"
-      },
-      {
-         "value": 5,
-         "target": "5982",
-         "source": "6024"
+         "id": "Davor Bonaci",
+         "group": 4
       }
    ]
 }

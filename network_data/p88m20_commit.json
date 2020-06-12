@@ -1,51 +1,46 @@
 {
+   "links": [
+      {
+         "source": "dkulp",
+         "value": 20,
+         "target": "gmazza"
+      },
+      {
+         "source": "bharath",
+         "value": 3,
+         "target": "dkulp"
+      },
+      {
+         "source": "ffang",
+         "value": 1,
+         "target": "dkulp"
+      },
+      {
+         "source": "dkulp",
+         "value": 17,
+         "target": "bimargulies"
+      }
+   ],
    "nodes": [
       {
-         "id": "192",
+         "id": "ffang",
+         "group": 2
+      },
+      {
+         "id": "bharath",
          "group": 4
       },
       {
-         "id": "4937",
-         "group": 4
-      },
-      {
-         "id": "11774",
-         "group": 3
-      },
-      {
-         "id": "11771",
+         "id": "gmazza",
          "group": 1
       },
       {
-         "id": "11745",
+         "id": "dkulp",
+         "group": 1
+      },
+      {
+         "id": "bimargulies",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "11745",
-         "source": "4937"
-      },
-      {
-         "value": 17,
-         "target": "4937",
-         "source": "192"
-      },
-      {
-         "value": 3,
-         "target": "11774",
-         "source": "4937"
-      },
-      {
-         "value": 1,
-         "target": "11771",
-         "source": "4937"
-      },
-      {
-         "value": 19,
-         "target": "4937",
-         "source": "11771"
       }
    ]
 }

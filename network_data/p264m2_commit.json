@@ -1,47 +1,52 @@
 {
+   "links": [
+      {
+         "source": "pescetti",
+         "value": 1,
+         "target": "dortef"
+      },
+      {
+         "source": "jani",
+         "value": 1,
+         "target": "dortef"
+      },
+      {
+         "source": "jani",
+         "value": 1,
+         "target": "orcmid"
+      },
+      {
+         "source": "pescetti",
+         "value": 1,
+         "target": "jani"
+      },
+      {
+         "source": "dortef",
+         "value": 1,
+         "target": "orcmid"
+      },
+      {
+         "source": "dortef",
+         "value": 8,
+         "target": "jani"
+      }
+   ],
    "nodes": [
       {
-         "id": "11306",
+         "id": "orcmid",
          "group": 3
       },
       {
-         "id": "11312",
+         "id": "pescetti",
+         "group": 1
+      },
+      {
+         "id": "dortef",
          "group": 2
       },
       {
-         "id": "11311",
-         "group": 4
-      },
-      {
-         "id": "11310",
+         "id": "jani",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "11311",
-         "source": "11312"
-      },
-      {
-         "value": 1,
-         "target": "11306",
-         "source": "11310"
-      },
-      {
-         "value": 9,
-         "target": "11306",
-         "source": "11311"
-      },
-      {
-         "value": 1,
-         "target": "11310",
-         "source": "11311"
-      },
-      {
-         "value": 1,
-         "target": "11306",
-         "source": "11312"
       }
    ]
 }

@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "4950",
-         "group": 2
-      },
-      {
-         "id": "4956",
-         "group": 4
-      },
-      {
-         "id": "4935",
-         "group": 2
-      },
-      {
-         "id": "4952",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "mnuttall",
          "value": 1,
-         "target": "4952",
-         "source": "4935"
+         "target": "timothyjward"
       },
       {
+         "source": "mahrwald",
          "value": 2,
-         "target": "4956",
-         "source": "4950"
+         "target": "timothyjward"
       },
       {
+         "source": "gawor",
          "value": 1,
-         "target": "4956",
-         "source": "4935"
+         "target": "timothyjward"
       },
       {
+         "source": "gawor",
          "value": 1,
-         "target": "4952",
-         "source": "4956"
+         "target": "mnuttall"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mahrwald",
+         "group": 2
+      },
+      {
+         "id": "mnuttall",
+         "group": 1
+      },
+      {
+         "id": "gawor",
+         "group": 2
+      },
+      {
+         "id": "timothyjward",
+         "group": 4
       }
    ]
 }

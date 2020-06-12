@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "tripod",
+         "value": 18,
+         "target": "stefan"
+      },
+      {
+         "source": "mreutegg",
+         "value": 32,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
+         "value": 1,
+         "target": "mreutegg"
+      }
+   ],
    "nodes": [
       {
-         "id": "21584",
+         "id": "tripod",
          "group": 2
       },
       {
-         "id": "21580",
+         "id": "mreutegg",
+         "group": 1
+      },
+      {
+         "id": "stefan",
          "group": 4
-      },
-      {
-         "id": "21581",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 18,
-         "target": "21581",
-         "source": "21580"
-      },
-      {
-         "value": 32,
-         "target": "21581",
-         "source": "21584"
-      },
-      {
-         "value": 1,
-         "target": "21580",
-         "source": "21584"
       }
    ]
 }

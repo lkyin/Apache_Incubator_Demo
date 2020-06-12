@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "37767",
-         "group": 2
+         "source": "suat",
+         "value": 7,
+         "target": "rwesten"
       },
       {
-         "id": "37761",
+         "source": "alexdma",
+         "value": 1,
+         "target": "suat"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "alexdma",
          "group": 3
       },
       {
-         "id": "8881",
+         "id": "suat",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "37761",
-         "source": "37767"
       },
       {
-         "value": 7,
-         "target": "8881",
-         "source": "37767"
+         "id": "rwesten",
+         "group": 3
       }
    ]
 }

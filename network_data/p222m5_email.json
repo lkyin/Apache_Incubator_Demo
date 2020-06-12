@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "11681",
-         "group": 4
-      },
-      {
-         "id": "33106",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Chris Geer",
          "value": 1,
-         "target": "11681",
-         "source": "33106"
+         "target": "Matt Franklin"
       },
       {
+         "source": "Matt Franklin",
          "value": 1,
-         "target": "33106",
-         "source": "11681"
+         "target": "Chris Geer"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matt Franklin",
+         "group": 2
+      },
+      {
+         "id": "Chris Geer",
+         "group": 4
       }
    ]
 }

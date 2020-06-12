@@ -1,60 +1,60 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "28837",
-         "group": 3
+         "source": "Chris Kruk",
+         "value": 2,
+         "target": "Antonio Sanso"
       },
       {
-         "id": "28838",
+         "source": "Antonio Sanso",
+         "value": 8,
+         "target": "Chris Kruk"
+      },
+      {
+         "source": "Chris Kruk",
+         "value": 2,
+         "target": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?="
+      },
+      {
+         "source": "Antonio Sanso (JIRA)",
+         "value": 3,
+         "target": "Peter Turcsanyi (JIRA)"
+      },
+      {
+         "source": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
+         "value": 2,
+         "target": "Chris Kruk"
+      },
+      {
+         "source": "Raymond Feng (JIRA)",
+         "value": 2,
+         "target": "Peter Turcsanyi (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Raymond Feng (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Peter Turcsanyi (JIRA)",
          "group": 1
       },
       {
-         "id": "28768",
+         "id": "Antonio Sanso",
+         "group": 1
+      },
+      {
+         "id": "Chris Kruk",
+         "group": 2
+      },
+      {
+         "id": "Antonio Sanso (JIRA)",
          "group": 4
       },
       {
-         "id": "28791",
-         "group": 3
-      },
-      {
-         "id": "28827",
-         "group": 4
-      },
-      {
-         "id": "23252",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 8,
-         "target": "28837",
-         "source": "28791"
-      },
-      {
-         "value": 2,
-         "target": "28768",
-         "source": "28837"
-      },
-      {
-         "value": 3,
-         "target": "28838",
-         "source": "23252"
-      },
-      {
-         "value": 2,
-         "target": "28791",
-         "source": "28837"
-      },
-      {
-         "value": 2,
-         "target": "28838",
-         "source": "28827"
-      },
-      {
-         "value": 2,
-         "target": "28837",
-         "source": "28768"
+         "id": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
+         "group": 2
       }
    ]
 }

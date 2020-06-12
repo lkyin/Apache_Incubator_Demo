@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "rmatthews",
+         "value": 1,
+         "target": "danhaywood"
+      },
+      {
+         "source": "kevin",
+         "value": 4,
+         "target": "danhaywood"
+      },
+      {
+         "source": "danhaywood",
+         "value": 1,
+         "target": "struberg"
+      }
+   ],
    "nodes": [
       {
-         "id": "21349",
-         "group": 1
-      },
-      {
-         "id": "21348",
-         "group": 1
-      },
-      {
-         "id": "5927",
+         "id": "struberg",
          "group": 3
       },
       {
-         "id": "21350",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5927",
-         "source": "21349"
+         "id": "rmatthews",
+         "group": 4
       },
       {
-         "value": 4,
-         "target": "21350",
-         "source": "21349"
+         "id": "kevin",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "21348",
-         "source": "21349"
+         "id": "danhaywood",
+         "group": 1
       }
    ]
 }

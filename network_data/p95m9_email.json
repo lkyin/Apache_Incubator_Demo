@@ -1,148 +1,148 @@
 {
-   "nodes": [
-      {
-         "id": "403",
-         "group": 1
-      },
-      {
-         "id": "13010",
-         "group": 1
-      },
-      {
-         "id": "13017",
-         "group": 2
-      },
-      {
-         "id": "13000",
-         "group": 3
-      },
-      {
-         "id": "13053",
-         "group": 2
-      },
-      {
-         "id": "13037",
-         "group": 4
-      },
-      {
-         "id": "13054",
-         "group": 2
-      },
-      {
-         "id": "13003",
-         "group": 4
-      },
-      {
-         "id": "13056",
-         "group": 4
-      },
-      {
-         "id": "8778",
-         "group": 2
-      },
-      {
-         "id": "12992",
-         "group": 4
-      },
-      {
-         "id": "13031",
-         "group": 2
-      },
-      {
-         "id": "13004",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "13003",
-         "source": "403"
+         "source": "Vincent Tence",
+         "value": 2,
+         "target": "directory-cvs"
       },
       {
+         "source": "Alex Karasulu",
          "value": 1,
-         "target": "13017",
-         "source": "13003"
+         "target": "Berin Loritsch"
       },
       {
+         "source": "Jeff Machols",
+         "value": 1,
+         "target": "Alex Karasulu"
+      },
+      {
+         "source": "Berin Loritsch",
+         "value": 2,
+         "target": "Alex Karasulu"
+      },
+      {
+         "source": "Stephen McConnell",
+         "value": 3,
+         "target": "Nicola Ken Barozzi"
+      },
+      {
+         "source": "Nicola Ken Barozzi",
+         "value": 1,
+         "target": "Vincent Tence"
+      },
+      {
+         "source": "Jeff Machols",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?=22Tenc=E9=2C_Vincent=22?="
+      },
+      {
+         "source": "Alex Karasulu",
          "value": 7,
-         "target": "13017",
-         "source": "13010"
+         "target": "Vincent Tence"
       },
       {
-         "value": 2,
-         "target": "13010",
-         "source": "13053"
-      },
-      {
+         "source": "Nicola Ken Barozzi",
          "value": 1,
-         "target": "13000",
-         "source": "13003"
+         "target": "Stephen McConnell"
       },
       {
-         "value": 3,
-         "target": "13003",
-         "source": "13000"
-      },
-      {
-         "value": 1,
-         "target": "13010",
-         "source": "8778"
-      },
-      {
-         "value": 9,
-         "target": "13000",
-         "source": "13010"
-      },
-      {
-         "value": 1,
-         "target": "13010",
-         "source": "403"
-      },
-      {
-         "value": 1,
-         "target": "13010",
-         "source": "13004"
-      },
-      {
-         "value": 1,
-         "target": "13031",
-         "source": "13010"
-      },
-      {
+         "source": "Stephen McConnell",
          "value": 5,
-         "target": "13010",
-         "source": "13000"
+         "target": "Alex Karasulu"
       },
       {
+         "source": "Alex Karasulu",
+         "value": 9,
+         "target": "Stephen McConnell"
+      },
+      {
+         "source": "Brett Porter",
          "value": 1,
-         "target": "13054",
-         "source": "13004"
+         "target": "Alex Karasulu"
       },
       {
+         "source": "Vincent Tence",
          "value": 3,
-         "target": "13010",
-         "source": "13017"
+         "target": "Alex Karasulu"
       },
       {
+         "source": "Alex Karasulu",
+         "value": 1,
+         "target": "Vincent Tence"
+      },
+      {
+         "source": "Niclas Hedhman",
+         "value": 1,
+         "target": "Nicola Ken Barozzi"
+      },
+      {
+         "source": "Alex Karasulu",
+         "value": 1,
+         "target": "Niclas Hedhman"
+      },
+      {
+         "source": "directory-dev",
          "value": 6,
-         "target": "13037",
-         "source": "13056"
+         "target": "jira"
       },
       {
-         "value": 2,
-         "target": "12992",
-         "source": "13017"
-      },
-      {
+         "source": "Niclas Hedhman",
          "value": 1,
-         "target": "13053",
-         "source": "13010"
+         "target": "Alex Karasulu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alex Karasulu",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "403",
-         "source": "13010"
+         "id": "Stephen McConnell",
+         "group": 1
+      },
+      {
+         "id": "Nicola Ken Barozzi",
+         "group": 3
+      },
+      {
+         "id": "Vincent Tence",
+         "group": 4
+      },
+      {
+         "id": "directory-dev",
+         "group": 1
+      },
+      {
+         "id": "Jeff Machols",
+         "group": 4
+      },
+      {
+         "id": "directory-cvs",
+         "group": 4
+      },
+      {
+         "id": "Brett Porter",
+         "group": 4
+      },
+      {
+         "id": "=?iso-8859-1?Q?=22Tenc=E9=2C_Vincent=22?=",
+         "group": 4
+      },
+      {
+         "id": "jira",
+         "group": 3
+      },
+      {
+         "id": "Berin Loritsch",
+         "group": 4
+      },
+      {
+         "id": "Niclas Hedhman",
+         "group": 3
+      },
+      {
+         "id": "Vincent Tence",
+         "group": 1
       }
    ]
 }

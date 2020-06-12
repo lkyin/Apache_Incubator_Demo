@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "21580",
-         "group": 2
-      },
-      {
-         "id": "21581",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "tripod",
          "value": 21,
-         "target": "21581",
-         "source": "21580"
+         "target": "stefan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
+         "group": 3
+      },
+      {
+         "id": "stefan",
+         "group": 1
       }
    ]
 }

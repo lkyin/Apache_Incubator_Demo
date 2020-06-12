@@ -1,90 +1,115 @@
 {
-   "nodes": [
-      {
-         "id": "7096",
-         "group": 1
-      },
-      {
-         "id": "7097",
-         "group": 3
-      },
-      {
-         "id": "7116",
-         "group": 1
-      },
-      {
-         "id": "7107",
-         "group": 3
-      },
-      {
-         "id": "7110",
-         "group": 2
-      },
-      {
-         "id": "7114",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "7114",
-         "source": "7116"
+         "source": "crohr",
+         "value": 17,
+         "target": "amccurry"
       },
       {
-         "value": 7,
-         "target": "7114",
-         "source": "7107"
-      },
-      {
-         "value": 18,
-         "target": "7110",
-         "source": "7116"
-      },
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "7096"
-      },
-      {
-         "value": 21,
-         "target": "7107",
-         "source": "7116"
-      },
-      {
-         "value": 39,
-         "target": "7110",
-         "source": "7096"
-      },
-      {
-         "value": 8,
-         "target": "7114",
-         "source": "7096"
-      },
-      {
+         "source": "Aaron McCurry",
          "value": 15,
-         "target": "7110",
-         "source": "7097"
+         "target": "crohr"
       },
       {
+         "source": "crohr",
+         "value": 5,
+         "target": "chrisrohr"
+      },
+      {
+         "source": "amccurry",
+         "value": 22,
+         "target": "crohr"
+      },
+      {
+         "source": "chrisrohr",
+         "value": 6,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Chris Rohr",
+         "value": 10,
+         "target": "amccurry"
+      },
+      {
+         "source": "crohr",
          "value": 18,
-         "target": "7116",
-         "source": "7096"
+         "target": "Chris Rohr"
       },
       {
+         "source": "amccurry",
          "value": 8,
-         "target": "7114",
-         "source": "7110"
+         "target": "chrisrohr"
       },
       {
-         "value": 27,
-         "target": "7110",
-         "source": "7107"
+         "source": "Chris Rohr",
+         "value": 21,
+         "target": "Chris Rohr"
       },
       {
-         "value": 27,
-         "target": "7107",
-         "source": "7096"
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "amccurry"
+      },
+      {
+         "source": "crohr",
+         "value": 17,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "amccurry",
+         "value": 18,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Chris Rohr",
+         "value": 1,
+         "target": "chrisrohr"
+      },
+      {
+         "source": "amccurry",
+         "value": 17,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "chrisrohr",
+         "value": 3,
+         "target": "crohr"
+      },
+      {
+         "source": "Chris Rohr",
+         "value": 10,
+         "target": "crohr"
+      },
+      {
+         "source": "chrisrohr",
+         "value": 6,
+         "target": "Chris Rohr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Aaron McCurry",
+         "group": 3
+      },
+      {
+         "id": "amccurry",
+         "group": 3
+      },
+      {
+         "id": "crohr",
+         "group": 3
+      },
+      {
+         "id": "Chris Rohr",
+         "group": 4
+      },
+      {
+         "id": "chrisrohr",
+         "group": 3
+      },
+      {
+         "id": "Chris Rohr",
+         "group": 2
       }
    ]
 }

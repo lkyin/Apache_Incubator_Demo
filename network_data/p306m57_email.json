@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "42988",
-         "group": 2
-      },
-      {
-         "id": "43364",
-         "group": 3
-      },
-      {
-         "id": "43011",
-         "group": 3
-      },
-      {
-         "id": "43363",
-         "group": 3
-      },
-      {
-         "id": "43038",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Pablo Ojanguren",
          "value": 1,
-         "target": "43038",
-         "source": "42988"
+         "target": "Thomas Wrobel"
       },
       {
+         "source": "Thomas Wrobel",
          "value": 1,
-         "target": "43364",
-         "source": "43011"
+         "target": "Evan Hughes"
       },
       {
+         "source": "Evan Hughes",
          "value": 1,
-         "target": "43363",
-         "source": "43011"
+         "target": "jih tsok"
       },
       {
+         "source": "Evan Hughes",
          "value": 1,
-         "target": "43011",
-         "source": "43038"
+         "target": "akash mehrotra"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Pablo Ojanguren",
+         "group": 2
+      },
+      {
+         "id": "akash mehrotra",
+         "group": 1
+      },
+      {
+         "id": "jih tsok",
+         "group": 3
+      },
+      {
+         "id": "Evan Hughes",
+         "group": 2
+      },
+      {
+         "id": "Thomas Wrobel",
+         "group": 4
       }
    ]
 }

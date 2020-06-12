@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "8608",
-         "group": 4
-      },
-      {
-         "id": "37996",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "37996",
-         "source": "8608"
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "Justin Erenkrantz"
       },
       {
-         "value": 2,
-         "target": "8608",
-         "source": "37996"
+         "source": "Justin Erenkrantz",
+         "value": 1,
+         "target": "Martin Sebor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Martin Sebor",
+         "group": 1
+      },
+      {
+         "id": "Justin Erenkrantz",
+         "group": 4
       }
    ]
 }

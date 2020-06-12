@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "17568",
-         "group": 1
-      },
-      {
-         "id": "17561",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "aching",
          "value": 1,
-         "target": "17561",
-         "source": "17568"
+         "target": "ssc"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "aching",
+         "group": 3
+      },
+      {
+         "id": "ssc",
+         "group": 4
       }
    ]
 }

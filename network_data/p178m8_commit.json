@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "angeloh",
+         "value": 10,
+         "target": "tucu"
+      },
+      {
+         "source": "kamrul",
+         "value": 2,
+         "target": "tucu"
+      }
+   ],
    "nodes": [
       {
-         "id": "28968",
+         "id": "kamrul",
+         "group": 3
+      },
+      {
+         "id": "angeloh",
          "group": 1
       },
       {
-         "id": "28978",
+         "id": "tucu",
          "group": 2
-      },
-      {
-         "id": "29002",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 10,
-         "target": "29002",
-         "source": "28978"
-      },
-      {
-         "value": 2,
-         "target": "29002",
-         "source": "28968"
       }
    ]
 }

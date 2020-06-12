@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "andy",
+         "value": 3,
+         "target": "castagna"
+      },
+      {
+         "source": "andy",
+         "value": 1,
+         "target": "ijd"
+      },
+      {
+         "source": "andy",
+         "value": 1,
+         "target": "sallen"
+      },
+      {
+         "source": "castagna",
+         "value": 1,
+         "target": "sallen"
+      },
+      {
+         "source": "andy",
+         "value": 1,
+         "target": "rvesse"
+      }
+   ],
    "nodes": [
       {
-         "id": "22163",
+         "id": "andy",
          "group": 4
       },
       {
-         "id": "22159",
+         "id": "castagna",
          "group": 2
       },
       {
-         "id": "22164",
-         "group": 2
+         "id": "sallen",
+         "group": 4
       },
       {
-         "id": "10038",
-         "group": 3
+         "id": "ijd",
+         "group": 4
       },
       {
-         "id": "22160",
+         "id": "rvesse",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "10038",
-         "source": "22163"
-      },
-      {
-         "value": 3,
-         "target": "22160",
-         "source": "10038"
-      },
-      {
-         "value": 1,
-         "target": "10038",
-         "source": "22164"
-      },
-      {
-         "value": 1,
-         "target": "22160",
-         "source": "22163"
-      },
-      {
-         "value": 1,
-         "target": "10038",
-         "source": "22159"
       }
    ]
 }

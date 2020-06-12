@@ -1,57 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "3331",
-         "group": 4
-      },
-      {
-         "id": "39869",
-         "group": 2
-      },
-      {
-         "id": "36629",
-         "group": 4
-      },
-      {
-         "id": "24013",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "3331",
-         "source": "36629"
+         "source": "Siddharth Seth",
+         "value": 6,
+         "target": "Hitesh Shah"
       },
       {
-         "value": 1,
-         "target": "3331",
-         "source": "24013"
-      },
-      {
-         "value": 2,
-         "target": "24013",
-         "source": "39869"
-      },
-      {
-         "value": 1,
-         "target": "36629",
-         "source": "24013"
-      },
-      {
-         "value": 2,
-         "target": "36629",
-         "source": "3331"
-      },
-      {
-         "value": 8,
-         "target": "24013",
-         "source": "36629"
-      },
-      {
+         "source": "Siddharth Seth",
          "value": 9,
-         "target": "24013",
-         "source": "3331"
+         "target": "Bikas Saha"
+      },
+      {
+         "source": "bikas",
+         "value": 2,
+         "target": "Bikas Saha"
+      },
+      {
+         "source": "Hitesh Shah",
+         "value": 10,
+         "target": "Bikas Saha"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bikas",
+         "group": 1
+      },
+      {
+         "id": "Hitesh Shah",
+         "group": 1
+      },
+      {
+         "id": "Siddharth Seth",
+         "group": 2
+      },
+      {
+         "id": "Bikas Saha",
+         "group": 1
       }
    ]
 }

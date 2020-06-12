@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14584",
-         "group": 2
+         "source": "benniven",
+         "value": 19,
+         "target": "doebele"
       },
       {
-         "id": "14590",
+         "source": "francisdb",
+         "value": 16,
+         "target": "doebele"
+      },
+      {
+         "source": "benniven",
+         "value": 8,
+         "target": "francisdb"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "benniven",
          "group": 3
       },
       {
-         "id": "14600",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 8,
-         "target": "14600",
-         "source": "14590"
+         "id": "francisdb",
+         "group": 2
       },
       {
-         "value": 16,
-         "target": "14590",
-         "source": "14584"
-      },
-      {
-         "value": 19,
-         "target": "14600",
-         "source": "14584"
+         "id": "doebele",
+         "group": 2
       }
    ]
 }

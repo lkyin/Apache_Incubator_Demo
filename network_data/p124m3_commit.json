@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "olivier lamy",
+         "value": 2,
+         "target": "Kishore Gopalakrishna"
+      },
+      {
+         "source": "Kishore Gopalakrishna",
+         "value": 1,
+         "target": "kishoreg"
+      },
+      {
+         "source": "olamy",
+         "value": 55,
+         "target": "kishoreg"
+      }
+   ],
    "nodes": [
       {
-         "id": "20189",
-         "group": 2
+         "id": "Kishore Gopalakrishna",
+         "group": 4
       },
       {
-         "id": "9235",
-         "group": 1
-      },
-      {
-         "id": "20190",
+         "id": "olivier lamy",
          "group": 3
       },
       {
-         "id": "4099",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 55,
-         "target": "4099",
-         "source": "20189"
+         "id": "olamy",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "20190",
-         "source": "9235"
-      },
-      {
-         "value": 1,
-         "target": "20190",
-         "source": "20189"
+         "id": "kishoreg",
+         "group": 1
       }
    ]
 }

@@ -1,85 +1,85 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4092",
-         "group": 2
+         "source": "Urs Lerch",
+         "value": 1,
+         "target": "Scott Deboy"
       },
       {
-         "id": "4095",
+         "source": "Marcus Holthaus (IMSEC)",
+         "value": 1,
+         "target": "Flavio Pellanda"
+      },
+      {
+         "source": "Scott Deboy",
+         "value": 1,
+         "target": "no-reply"
+      },
+      {
+         "source": "Marcus Holthaus (IMSEC)",
+         "value": 1,
+         "target": "Scott Deboy"
+      },
+      {
+         "source": "Scott Deboy",
+         "value": 1,
+         "target": "Marcus Holthaus (IMSEC)"
+      },
+      {
+         "source": "Scott Deboy",
+         "value": 1,
+         "target": "Urs Lerch"
+      },
+      {
+         "source": "Flavio Pellanda",
+         "value": 2,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Christian Grobmeier",
+         "value": 3,
+         "target": "Flavio Pellanda"
+      },
+      {
+         "source": "Urs Lerch",
+         "value": 1,
+         "target": "Marcus Holthaus (IMSEC)"
+      },
+      {
+         "source": "Flavio Pellanda",
+         "value": 3,
+         "target": "Scott Deboy"
+      },
+      {
+         "source": "Scott Deboy",
+         "value": 3,
+         "target": "Flavio Pellanda"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Flavio Pellanda",
          "group": 1
       },
       {
-         "id": "4094",
+         "id": "Christian Grobmeier",
+         "group": 3
+      },
+      {
+         "id": "no-reply",
+         "group": 1
+      },
+      {
+         "id": "Scott Deboy",
          "group": 4
       },
       {
-         "id": "4091",
-         "group": 2
-      },
-      {
-         "id": "4093",
+         "id": "Marcus Holthaus (IMSEC)",
          "group": 1
       },
       {
-         "id": "206",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4094",
-         "source": "4095"
-      },
-      {
-         "value": 1,
-         "target": "4094",
-         "source": "4093"
-      },
-      {
-         "value": 1,
-         "target": "4095",
-         "source": "4094"
-      },
-      {
-         "value": 3,
-         "target": "4095",
-         "source": "4092"
-      },
-      {
-         "value": 1,
-         "target": "4092",
-         "source": "4094"
-      },
-      {
-         "value": 1,
-         "target": "4093",
-         "source": "4095"
-      },
-      {
-         "value": 3,
-         "target": "4092",
-         "source": "4091"
-      },
-      {
-         "value": 2,
-         "target": "4091",
-         "source": "4092"
-      },
-      {
-         "value": 3,
-         "target": "4092",
-         "source": "4095"
-      },
-      {
-         "value": 1,
-         "target": "206",
-         "source": "4095"
-      },
-      {
-         "value": 1,
-         "target": "4095",
-         "source": "4093"
+         "id": "Urs Lerch",
+         "group": 4
       }
    ]
 }

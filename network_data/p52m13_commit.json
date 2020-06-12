@@ -1,50 +1,45 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "527",
-         "group": 1
+         "source": "tabish",
+         "value": 28,
+         "target": "nmittler"
       },
       {
-         "id": "545",
+         "source": "jstrachan",
+         "value": 1,
+         "target": "aco"
+      },
+      {
+         "source": "rajdavies",
+         "value": 1,
+         "target": "gnodet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jstrachan",
          "group": 4
       },
       {
-         "id": "532",
+         "id": "nmittler",
          "group": 2
       },
       {
-         "id": "536",
-         "group": 2
-      },
-      {
-         "id": "543",
-         "group": 1
-      },
-      {
-         "id": "535",
+         "id": "rajdavies",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "535",
-         "source": "527"
       },
       {
-         "value": 11,
-         "target": "543",
-         "source": "545"
+         "id": "tabish",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "532",
-         "source": "536"
+         "id": "aco",
+         "group": 4
       },
       {
-         "value": 17,
-         "target": "545",
-         "source": "543"
+         "id": "gnodet",
+         "group": 4
       }
    ]
 }

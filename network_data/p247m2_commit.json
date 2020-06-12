@@ -1,94 +1,94 @@
 {
+   "links": [
+      {
+         "source": "ehillenius",
+         "value": 1,
+         "target": "dashorst"
+      },
+      {
+         "source": "ivaynberg",
+         "value": 1,
+         "target": "jcompagner"
+      },
+      {
+         "source": "ehillenius",
+         "value": 3,
+         "target": "jcompagner"
+      },
+      {
+         "source": "ehillenius",
+         "value": 2,
+         "target": "frankbille"
+      },
+      {
+         "source": "ivaynberg",
+         "value": 2,
+         "target": "dashorst"
+      },
+      {
+         "source": "ehillenius",
+         "value": 6,
+         "target": "ivaynberg"
+      },
+      {
+         "source": "jcompagner",
+         "value": 1,
+         "target": "dashorst"
+      },
+      {
+         "source": "ehillenius",
+         "value": 1,
+         "target": "knopp"
+      },
+      {
+         "source": "frankbille",
+         "value": 2,
+         "target": "knopp"
+      },
+      {
+         "source": "ivaynberg",
+         "value": 1,
+         "target": "knopp"
+      },
+      {
+         "source": "ehillenius",
+         "value": 3,
+         "target": "jdonnerstag"
+      },
+      {
+         "source": "ivaynberg",
+         "value": 1,
+         "target": "jdonnerstag"
+      }
+   ],
    "nodes": [
       {
-         "id": "44291",
-         "group": 2
-      },
-      {
-         "id": "44294",
-         "group": 4
-      },
-      {
-         "id": "44313",
+         "id": "ehillenius",
          "group": 3
       },
       {
-         "id": "44295",
-         "group": 3
-      },
-      {
-         "id": "44293",
-         "group": 2
-      },
-      {
-         "id": "44292",
+         "id": "knopp",
          "group": 1
       },
       {
-         "id": "44297",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "44291",
-         "source": "44293"
+         "id": "dashorst",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "44292",
-         "source": "44291"
+         "id": "frankbille",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "44313",
-         "source": "44297"
+         "id": "ivaynberg",
+         "group": 2
       },
       {
-         "value": 3,
-         "target": "44292",
-         "source": "44293"
+         "id": "jdonnerstag",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "44297",
-         "source": "44293"
-      },
-      {
-         "value": 1,
-         "target": "44297",
-         "source": "44295"
-      },
-      {
-         "value": 1,
-         "target": "44292",
-         "source": "44295"
-      },
-      {
-         "value": 2,
-         "target": "44292",
-         "source": "44294"
-      },
-      {
-         "value": 2,
-         "target": "44297",
-         "source": "44291"
-      },
-      {
-         "value": 3,
-         "target": "44292",
-         "source": "44313"
-      },
-      {
-         "value": 6,
-         "target": "44292",
-         "source": "44297"
-      },
-      {
-         "value": 2,
-         "target": "44294",
-         "source": "44295"
+         "id": "jcompagner",
+         "group": 1
       }
    ]
 }

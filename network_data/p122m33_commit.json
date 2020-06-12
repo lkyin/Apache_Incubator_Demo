@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "19496",
-         "group": 4
-      },
-      {
-         "id": "19494",
-         "group": 4
-      },
-      {
-         "id": "19602",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "rlei",
          "value": 3,
-         "target": "19602",
-         "source": "19494"
+         "target": "interma"
       },
       {
-         "value": 9,
-         "target": "19602",
-         "source": "19496"
-      },
-      {
+         "source": "rlei",
          "value": 5,
-         "target": "19494",
-         "source": "19496"
+         "target": "rlei"
+      },
+      {
+         "source": "interma",
+         "value": 9,
+         "target": "rlei"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rlei",
+         "group": 4
+      },
+      {
+         "id": "interma",
+         "group": 2
+      },
+      {
+         "id": "rlei",
+         "group": 2
       }
    ]
 }

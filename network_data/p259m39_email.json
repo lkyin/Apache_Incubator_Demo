@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "7078",
-         "group": 4
-      },
-      {
-         "id": "7077",
-         "group": 2
-      },
-      {
-         "id": "7040",
-         "group": 4
-      },
-      {
-         "id": "41",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "du.haipeng",
          "value": 1,
-         "target": "7077",
-         "source": "41"
+         "target": "Chen Liu"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "7040",
-         "source": "7077"
+         "target": "SamuelKevin"
       },
       {
+         "source": "SamuelKevin",
          "value": 1,
-         "target": "7078",
-         "source": "7040"
+         "target": "du.haipeng"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "du.haipeng",
+         "group": 2
+      },
+      {
+         "id": "SamuelKevin",
+         "group": 3
+      },
+      {
+         "id": "Chen Liu",
+         "group": 1
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 2
       }
    ]
 }

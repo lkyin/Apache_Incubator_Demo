@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "308",
-         "group": 3
-      },
-      {
-         "id": "5928",
-         "group": 1
-      },
-      {
-         "id": "4107",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "4107",
-         "source": "5928"
+         "target": "Marvin"
       },
       {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "5928",
-         "source": "4107"
+         "target": "Romain Manni-Bucau"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "308",
-         "source": "4107"
+         "target": "Olivier Lamy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 2
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 3
       }
    ]
 }

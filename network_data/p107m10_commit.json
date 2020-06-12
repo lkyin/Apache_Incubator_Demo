@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "aharui",
+         "value": 2,
+         "target": "bigosmallm"
+      },
+      {
+         "source": "aharui",
+         "value": 26,
+         "target": "cframpton"
+      },
+      {
+         "source": "pent",
+         "value": 3,
+         "target": "cframpton"
+      },
+      {
+         "source": "aharui",
+         "value": 7,
+         "target": "pent"
+      },
+      {
+         "source": "bigosmallm",
+         "value": 3,
+         "target": "erikdebruin"
+      },
+      {
+         "source": "aharui",
+         "value": 1,
+         "target": "erikdebruin"
+      }
+   ],
    "nodes": [
       {
-         "id": "15567",
-         "group": 3
+         "id": "aharui",
+         "group": 4
       },
       {
-         "id": "15566",
-         "group": 3
+         "id": "pent",
+         "group": 4
       },
       {
-         "id": "15587",
-         "group": 3
-      },
-      {
-         "id": "15585",
+         "id": "cframpton",
          "group": 1
       },
       {
-         "id": "15586",
+         "id": "bigosmallm",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "15585",
-         "source": "15587"
       },
       {
-         "value": 1,
-         "target": "15587",
-         "source": "15567"
-      },
-      {
-         "value": 7,
-         "target": "15586",
-         "source": "15567"
-      },
-      {
-         "value": 26,
-         "target": "15566",
-         "source": "15567"
-      },
-      {
-         "value": 3,
-         "target": "15586",
-         "source": "15566"
-      },
-      {
-         "value": 2,
-         "target": "15585",
-         "source": "15567"
+         "id": "erikdebruin",
+         "group": 1
       }
    ]
 }

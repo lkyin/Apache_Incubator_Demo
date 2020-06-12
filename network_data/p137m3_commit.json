@@ -1,28 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "5925",
-         "group": 2
-      },
-      {
-         "id": "22346",
-         "group": 2
-      },
-      {
-         "id": "22347",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 8,
-         "target": "5925",
-         "source": "22346"
+         "source": "salyh",
+         "value": 6,
+         "target": "Romain Manni-Bucau"
       },
       {
+         "source": "salyh",
          "value": 8,
-         "target": "22347",
-         "source": "22346"
+         "target": "salyh"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 2,
+         "target": "salyh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "salyh",
+         "group": 4
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "salyh",
+         "group": 3
       }
    ]
 }

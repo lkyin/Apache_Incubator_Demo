@@ -1,69 +1,69 @@
 {
-   "nodes": [
-      {
-         "id": "38055",
-         "group": 4
-      },
-      {
-         "id": "37997",
-         "group": 4
-      },
-      {
-         "id": "38054",
-         "group": 2
-      },
-      {
-         "id": "38000",
-         "group": 2
-      },
-      {
-         "id": "37996",
-         "group": 4
-      },
-      {
-         "id": "38044",
-         "group": 1
-      },
-      {
-         "id": "37995",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "38044",
-         "source": "37996"
-      },
-      {
-         "value": 4,
-         "target": "37996",
-         "source": "37997"
-      },
-      {
-         "value": 3,
-         "target": "38054",
-         "source": "38000"
-      },
-      {
-         "value": 5,
-         "target": "38044",
-         "source": "37997"
-      },
-      {
+         "source": "Martin Sebor",
          "value": 1,
-         "target": "37995",
-         "source": "37996"
+         "target": "ablack"
       },
       {
+         "source": "Martin Sebor (JIRA)",
          "value": 3,
-         "target": "37997",
-         "source": "37996"
+         "target": "Mukesh Kapoor (JIRA)"
       },
       {
+         "source": "Martin Sebor (JIRA)",
          "value": 6,
-         "target": "38055",
-         "source": "38000"
+         "target": "Mark Brown (JIRA)"
+      },
+      {
+         "source": "Andrew Black",
+         "value": 4,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 5,
+         "target": "Farid Zaripov"
+      },
+      {
+         "source": "Andrew Black",
+         "value": 5,
+         "target": "Farid Zaripov"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 3,
+         "target": "Andrew Black"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Andrew Black",
+         "group": 4
+      },
+      {
+         "id": "Mukesh Kapoor (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "ablack",
+         "group": 4
+      },
+      {
+         "id": "Farid Zaripov",
+         "group": 4
+      },
+      {
+         "id": "Martin Sebor",
+         "group": 3
+      },
+      {
+         "id": "Martin Sebor (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Mark Brown (JIRA)",
+         "group": 2
       }
    ]
 }

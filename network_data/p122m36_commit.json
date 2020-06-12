@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "19618",
-         "group": 2
-      },
-      {
-         "id": "19640",
-         "group": 2
-      },
-      {
-         "id": "19648",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Lav Jain",
          "value": 2,
-         "target": "19648",
-         "source": "19618"
+         "target": "Francisco Guerrero"
       },
       {
+         "source": "Francisco Guerrero",
          "value": 2,
-         "target": "19648",
-         "source": "19640"
+         "target": "Shivram Mani"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lav Jain",
+         "group": 3
+      },
+      {
+         "id": "Francisco Guerrero",
+         "group": 3
+      },
+      {
+         "id": "Shivram Mani",
+         "group": 2
       }
    ]
 }

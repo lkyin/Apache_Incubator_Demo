@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "23232",
-         "group": 3
-      },
-      {
-         "id": "23230",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "monteith",
          "value": 2,
-         "target": "23230",
-         "source": "23232"
+         "target": "spoole"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "monteith",
+         "group": 2
+      },
+      {
+         "id": "spoole",
+         "group": 3
       }
    ]
 }

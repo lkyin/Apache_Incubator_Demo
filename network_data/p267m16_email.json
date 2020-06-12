@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "13735",
-         "group": 4
-      },
-      {
-         "id": "13416",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "13416",
-         "source": "13735"
+         "source": "Ken Krugler",
+         "value": 2,
+         "target": "Richard Frovarp"
       },
       {
-         "value": 2,
-         "target": "13735",
-         "source": "13416"
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "Ken Krugler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Richard Frovarp",
+         "group": 3
+      },
+      {
+         "id": "Ken Krugler",
+         "group": 1
       }
    ]
 }

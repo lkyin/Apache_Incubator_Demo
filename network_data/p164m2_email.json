@@ -1,56 +1,56 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "25242",
-         "group": 2
+         "source": "Patrick Hunt",
+         "value": 1,
+         "target": "Eric Sammer"
       },
       {
-         "id": "206",
+         "source": "Patrick Hunt",
+         "value": 1,
+         "target": "Nigel Daley"
+      },
+      {
+         "source": "Nigel Daley",
+         "value": 1,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Eric Sammer",
+         "value": 1,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 1,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Patrick Hunt",
+         "value": 1,
+         "target": "no-reply"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
          "group": 1
       },
       {
-         "id": "16649",
-         "group": 3
-      },
-      {
-         "id": "6704",
-         "group": 3
-      },
-      {
-         "id": "370",
+         "id": "Mattmann, Chris A (388J)",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6704",
-         "source": "25242"
       },
       {
-         "value": 1,
-         "target": "16649",
-         "source": "6704"
+         "id": "Patrick Hunt",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "6704",
-         "source": "370"
+         "id": "Eric Sammer",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "206",
-         "source": "6704"
-      },
-      {
-         "value": 1,
-         "target": "25242",
-         "source": "6704"
-      },
-      {
-         "value": 1,
-         "target": "6704",
-         "source": "16649"
+         "id": "Nigel Daley",
+         "group": 3
       }
    ]
 }

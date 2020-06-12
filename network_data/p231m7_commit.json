@@ -1,95 +1,125 @@
 {
-   "nodes": [
-      {
-         "id": "40395",
-         "group": 2
-      },
-      {
-         "id": "394",
-         "group": 2
-      },
-      {
-         "id": "28063",
-         "group": 3
-      },
-      {
-         "id": "1100",
-         "group": 1
-      },
-      {
-         "id": "8694",
-         "group": 1
-      },
-      {
-         "id": "40394",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 16,
-         "target": "394",
-         "source": "1100"
-      },
-      {
-         "value": 9,
-         "target": "40394",
-         "source": "1100"
-      },
-      {
-         "value": 3,
-         "target": "40395",
-         "source": "1100"
-      },
-      {
+         "source": "kbennett",
          "value": 1,
-         "target": "28063",
-         "source": "394"
+         "target": "jukka"
       },
       {
-         "value": 4,
-         "target": "28063",
-         "source": "8694"
-      },
-      {
+         "source": "bdelacretaz",
          "value": 3,
-         "target": "394",
-         "source": "40394"
+         "target": "ridabenjelloun"
       },
       {
+         "source": "siren",
          "value": 3,
-         "target": "28063",
-         "source": "40394"
+         "target": "ridabenjelloun"
       },
       {
-         "value": 4,
-         "target": "28063",
-         "source": "1100"
+         "source": "jukka",
+         "value": 3,
+         "target": "kbennett"
       },
       {
-         "value": 12,
-         "target": "394",
-         "source": "8694"
+         "source": "siren",
+         "value": 3,
+         "target": "jukka"
       },
       {
-         "value": 10,
-         "target": "40394",
-         "source": "8694"
+         "source": "mattmann",
+         "value": 3,
+         "target": "kbennett"
       },
       {
-         "value": 1,
-         "target": "394",
-         "source": "40395"
-      },
-      {
-         "value": 4,
-         "target": "40395",
-         "source": "8694"
-      },
-      {
+         "source": "mattmann",
          "value": 35,
-         "target": "8694",
-         "source": "1100"
+         "target": "jukka"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "kbennett"
+      },
+      {
+         "source": "mattmann",
+         "value": 9,
+         "target": "ridabenjelloun"
+      },
+      {
+         "source": "jukka",
+         "value": 6,
+         "target": "ridabenjelloun"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 14,
+         "target": "mattmann"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "siren"
+      },
+      {
+         "source": "jukka",
+         "value": 1,
+         "target": "siren"
+      },
+      {
+         "source": "jukka",
+         "value": 2,
+         "target": "bdelacretaz"
+      },
+      {
+         "source": "ridabenjelloun",
+         "value": 4,
+         "target": "jukka"
+      },
+      {
+         "source": "mattmann",
+         "value": 2,
+         "target": "bdelacretaz"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 10,
+         "target": "jukka"
+      },
+      {
+         "source": "mattmann",
+         "value": 2,
+         "target": "siren"
+      },
+      {
+         "source": "siren",
+         "value": 2,
+         "target": "mattmann"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
+         "group": 1
+      },
+      {
+         "id": "mattmann",
+         "group": 1
+      },
+      {
+         "id": "siren",
+         "group": 4
+      },
+      {
+         "id": "ridabenjelloun",
+         "group": 2
+      },
+      {
+         "id": "jukka",
+         "group": 2
+      },
+      {
+         "id": "kbennett",
+         "group": 3
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "388",
-         "group": 2
+         "source": "Aaron McCurry",
+         "value": 4,
+         "target": "Tim Williams"
       },
       {
-         "id": "7135",
+         "source": "Tim Williams",
+         "value": 2,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "Gagan Juneja"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tim Williams",
+         "group": 4
+      },
+      {
+         "id": "Aaron McCurry",
          "group": 3
       },
       {
-         "id": "7097",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "7097",
-         "source": "388"
-      },
-      {
-         "value": 1,
-         "target": "7135",
-         "source": "7097"
-      },
-      {
-         "value": 4,
-         "target": "388",
-         "source": "7097"
+         "id": "Gagan Juneja",
+         "group": 1
       }
    ]
 }

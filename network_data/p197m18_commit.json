@@ -1,19 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "5261",
-         "group": 2
-      },
-      {
-         "id": "5249",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "5249",
-         "source": "5261"
+         "source": "Madhan Neethiraj",
+         "value": 3,
+         "target": "madhan"
+      },
+      {
+         "source": "madhan",
+         "value": 1,
+         "target": "Madhan Neethiraj"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "madhan",
+         "group": 1
+      },
+      {
+         "id": "Madhan Neethiraj",
+         "group": 1
       }
    ]
 }

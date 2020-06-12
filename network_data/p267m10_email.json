@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "13703",
-         "group": 3
-      },
-      {
-         "id": "8907",
-         "group": 4
-      },
-      {
-         "id": "13714",
-         "group": 2
-      },
-      {
-         "id": "13704",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "=?UTF-8?Q?Florent_Andr=C3=A9?="
+      },
+      {
+         "source": "Mingfai",
+         "value": 1,
+         "target": "Ryan McKinley"
+      },
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "Ryan McKinley"
+      },
+      {
+         "source": "Ryan McKinley",
+         "value": 1,
+         "target": "Mingfai"
+      },
+      {
+         "source": "Mingfai",
          "value": 3,
-         "target": "13704",
-         "source": "13714"
+         "target": "Thorsten Scherler"
       },
       {
-         "value": 1,
-         "target": "8907",
-         "source": "13704"
-      },
-      {
-         "value": 1,
-         "target": "13703",
-         "source": "13704"
-      },
-      {
+         "source": "Thorsten Scherler",
          "value": 2,
-         "target": "13714",
-         "source": "13704"
+         "target": "Mingfai"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mingfai",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "13703",
-         "source": "13714"
+         "id": "Ryan McKinley",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "13714",
-         "source": "13703"
+         "id": "Thorsten Scherler",
+         "group": 4
+      },
+      {
+         "id": "=?UTF-8?Q?Florent_Andr=C3=A9?=",
+         "group": 4
       }
    ]
 }

@@ -1,52 +1,67 @@
 {
-   "nodes": [
-      {
-         "id": "7621",
-         "group": 1
-      },
-      {
-         "id": "7645",
-         "group": 3
-      },
-      {
-         "id": "7625",
-         "group": 1
-      },
-      {
-         "id": "7622",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 13,
-         "target": "7625",
-         "source": "7645"
+         "source": "Julian Hyde",
+         "value": 2,
+         "target": "julianhyde"
       },
       {
-         "value": 8,
-         "target": "7622",
-         "source": "7625"
-      },
-      {
-         "value": 6,
-         "target": "7622",
-         "source": "7645"
-      },
-      {
+         "source": "julianhyde",
          "value": 4,
-         "target": "7645",
-         "source": "7621"
+         "target": "Vladimir Sitnikov"
       },
       {
-         "value": 5,
-         "target": "7625",
-         "source": "7621"
+         "source": "Julian Hyde",
+         "value": 2,
+         "target": "Vladimir Sitnikov"
       },
       {
+         "source": "julianhyde",
+         "value": 11,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "Julian Hyde",
          "value": 1,
-         "target": "7622",
-         "source": "7621"
+         "target": "jhyde"
+      },
+      {
+         "source": "Vladimir Sitnikov",
+         "value": 3,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "jhyde",
+         "value": 7,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "julianhyde",
+         "value": 6,
+         "target": "jhyde"
+      },
+      {
+         "source": "Vladimir Sitnikov",
+         "value": 1,
+         "target": "jhyde"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "julianhyde",
+         "group": 2
+      },
+      {
+         "id": "jhyde",
+         "group": 4
+      },
+      {
+         "id": "Vladimir Sitnikov",
+         "group": 4
+      },
+      {
+         "id": "Julian Hyde",
+         "group": 1
       }
    ]
 }

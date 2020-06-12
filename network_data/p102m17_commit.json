@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "esjewett",
+         "value": 5,
+         "target": "akpetteroe"
+      },
+      {
+         "source": "esjewett",
+         "value": 11,
+         "target": "rhirsch"
+      },
+      {
+         "source": "rhirsch",
+         "value": 8,
+         "target": "akpetteroe"
+      }
+   ],
    "nodes": [
       {
-         "id": "14672",
+         "id": "esjewett",
+         "group": 1
+      },
+      {
+         "id": "rhirsch",
          "group": 3
       },
       {
-         "id": "14669",
+         "id": "akpetteroe",
          "group": 2
-      },
-      {
-         "id": "14670",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "14670",
-         "source": "14672"
-      },
-      {
-         "value": 8,
-         "target": "14670",
-         "source": "14669"
-      },
-      {
-         "value": 5,
-         "target": "14669",
-         "source": "14672"
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "43268",
-         "group": 3
-      },
-      {
-         "id": "42984",
-         "group": 3
-      },
-      {
-         "id": "42979",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Andrew Kaplanov",
          "value": 1,
-         "target": "42979",
-         "source": "43268"
+         "target": "Yuri Zelikov"
       },
       {
+         "source": "Fleeky Flanco",
          "value": 1,
-         "target": "42979",
-         "source": "42984"
+         "target": "Yuri Zelikov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Yuri Zelikov",
+         "group": 2
+      },
+      {
+         "id": "Andrew Kaplanov",
+         "group": 3
+      },
+      {
+         "id": "Fleeky Flanco",
+         "group": 2
       }
    ]
 }

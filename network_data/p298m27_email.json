@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 4
-      },
-      {
-         "id": "4107",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Olivier Lamy",
          "value": 3,
-         "target": "4107",
-         "source": "5928"
+         "target": "Romain Manni-Bucau"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 3,
-         "target": "5928",
-         "source": "4107"
+         "target": "Olivier Lamy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 3
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 3
       }
    ]
 }

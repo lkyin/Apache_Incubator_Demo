@@ -1,81 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "39319",
-         "group": 1
-      },
-      {
-         "id": "39322",
-         "group": 1
-      },
-      {
-         "id": "39324",
-         "group": 1
-      },
-      {
-         "id": "39325",
-         "group": 2
-      },
-      {
-         "id": "39323",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Arvind Surve",
          "value": 9,
-         "target": "39325",
-         "source": "39319"
+         "target": "Deron Eriksson"
       },
       {
-         "value": 2,
-         "target": "39324",
-         "source": "39319"
+         "source": "Matthias Boehm",
+         "value": 18,
+         "target": "mboehm7"
       },
       {
+         "source": "Matthias Boehm",
+         "value": 9,
+         "target": "Deron Eriksson"
+      },
+      {
+         "source": "Arvind Surve",
          "value": 7,
-         "target": "39323",
-         "source": "39319"
+         "target": "Matthias Boehm"
       },
       {
+         "source": "Matthias Boehm",
          "value": 2,
-         "target": "39319",
-         "source": "39323"
+         "target": "Mike Dusenberry"
       },
       {
-         "value": 9,
-         "target": "39319",
-         "source": "39325"
+         "source": "Arvind Surve",
+         "value": 4,
+         "target": "mboehm7"
       },
       {
+         "source": "mboehm7",
          "value": 2,
-         "target": "39323",
-         "source": "39325"
+         "target": "Deron Eriksson"
       },
       {
+         "source": "Mike Dusenberry",
          "value": 1,
-         "target": "39324",
-         "source": "39323"
+         "target": "Deron Eriksson"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Arvind Surve",
+         "group": 3
       },
       {
-         "value": 9,
-         "target": "39322",
-         "source": "39323"
+         "id": "Matthias Boehm",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "39325",
-         "source": "39322"
+         "id": "mboehm7",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "39322",
-         "source": "39325"
+         "id": "Deron Eriksson",
+         "group": 1
       },
       {
-         "value": 7,
-         "target": "39322",
-         "source": "39319"
+         "id": "Mike Dusenberry",
+         "group": 4
       }
    ]
 }

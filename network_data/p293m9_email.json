@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "5922",
-         "group": 1
-      },
-      {
-         "id": "6706",
-         "group": 4
-      },
-      {
-         "id": "3334",
-         "group": 1
-      },
-      {
-         "id": "6710",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "5922",
-         "source": "6710"
+         "target": "Andrei Savu"
       },
       {
+         "source": "Andrei Savu",
+         "value": 1,
+         "target": "Tom White"
+      },
+      {
+         "source": "Mohammad Nour El-Din",
          "value": 10,
-         "target": "6710",
-         "source": "5922"
+         "target": "Andrei Savu"
       },
       {
+         "source": "Andrei Savu",
          "value": 1,
-         "target": "3334",
-         "source": "6710"
+         "target": "Mohammad Nour El-Din"
       },
       {
+         "source": "Andrei Savu",
          "value": 1,
-         "target": "6710",
-         "source": "3334"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Tom White",
          "value": 1,
-         "target": "6706",
-         "source": "6710"
+         "target": "Andrei Savu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Roman Shaposhnik",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "6710",
-         "source": "6706"
+         "id": "Andrei Savu",
+         "group": 2
+      },
+      {
+         "id": "Mohammad Nour El-Din",
+         "group": 3
+      },
+      {
+         "id": "Tom White",
+         "group": 2
       }
    ]
 }

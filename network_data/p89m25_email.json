@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4718",
-         "group": 2
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Roman Shaposhnik"
       },
       {
-         "id": "5158",
+         "source": "Roman Shaposhnik",
+         "value": 2,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Marvin Humphrey",
          "group": 1
       },
       {
-         "id": "12020",
+         "id": "Matthew Hayes",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5158",
-         "source": "12020"
       },
       {
-         "value": 1,
-         "target": "4718",
-         "source": "12020"
-      },
-      {
-         "value": 2,
-         "target": "12020",
-         "source": "5158"
+         "id": "Roman Shaposhnik",
+         "group": 1
       }
    ]
 }

@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "31061",
-         "group": 2
-      },
-      {
-         "id": "6044",
-         "group": 2
-      },
-      {
-         "id": "31046",
-         "group": 4
-      },
-      {
-         "id": "20681",
-         "group": 4
-      },
-      {
-         "id": "31044",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "julien",
          "value": 1,
-         "target": "31044",
-         "source": "31061"
+         "target": "tianshuo"
       },
       {
+         "source": "Tianshuo Deng",
          "value": 1,
-         "target": "31044",
-         "source": "31046"
+         "target": "julien"
       },
       {
+         "source": "Ryan Blue",
          "value": 1,
-         "target": "20681",
-         "source": "6044"
+         "target": "Tom White"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Ryan Blue",
+         "group": 3
+      },
+      {
+         "id": "Tianshuo Deng",
+         "group": 1
+      },
+      {
+         "id": "julien",
+         "group": 1
+      },
+      {
+         "id": "Tom White",
+         "group": 2
+      },
+      {
+         "id": "tianshuo",
+         "group": 4
       }
    ]
 }

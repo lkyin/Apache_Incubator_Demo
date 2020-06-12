@@ -1,42 +1,37 @@
 {
+   "links": [
+      {
+         "source": "ffang",
+         "value": 7,
+         "target": "gnodet"
+      },
+      {
+         "source": "gertv",
+         "value": 2,
+         "target": "gnodet"
+      },
+      {
+         "source": "gnodet",
+         "value": 3,
+         "target": "tterm"
+      }
+   ],
    "nodes": [
       {
-         "id": "34921",
+         "id": "gertv",
+         "group": 4
+      },
+      {
+         "id": "ffang",
          "group": 3
       },
       {
-         "id": "11745",
-         "group": 1
+         "id": "gnodet",
+         "group": 3
       },
       {
-         "id": "536",
-         "group": 1
-      },
-      {
-         "id": "34923",
+         "id": "tterm",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "536",
-         "source": "34921"
-      },
-      {
-         "value": 7,
-         "target": "536",
-         "source": "11745"
-      },
-      {
-         "value": 2,
-         "target": "34921",
-         "source": "536"
-      },
-      {
-         "value": 2,
-         "target": "536",
-         "source": "34923"
       }
    ]
 }

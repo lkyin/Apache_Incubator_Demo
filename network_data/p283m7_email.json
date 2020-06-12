@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "24056",
-         "group": 3
-      },
-      {
-         "id": "20292",
-         "group": 3
-      },
-      {
-         "id": "24059",
-         "group": 2
-      },
-      {
-         "id": "21701",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Ludovic Maitre",
          "value": 2,
-         "target": "21701",
-         "source": "24059"
+         "target": "Steve Toback"
       },
       {
-         "value": 1,
-         "target": "21701",
-         "source": "24056"
-      },
-      {
-         "value": 1,
-         "target": "20292",
-         "source": "24059"
-      },
-      {
+         "source": "Steve Toback",
          "value": 2,
-         "target": "24059",
-         "source": "21701"
+         "target": "Ludovic Maitre"
+      },
+      {
+         "source": "Steve Toback",
+         "value": 1,
+         "target": "William A. Rowe, Jr."
+      },
+      {
+         "source": "Neil Stein",
+         "value": 1,
+         "target": "Ludovic Maitre"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Neil Stein",
+         "group": 1
+      },
+      {
+         "id": "Steve Toback",
+         "group": 3
+      },
+      {
+         "id": "Ludovic Maitre",
+         "group": 4
+      },
+      {
+         "id": "William A. Rowe, Jr.",
+         "group": 1
       }
    ]
 }

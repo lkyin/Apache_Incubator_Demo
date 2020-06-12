@@ -1,72 +1,72 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "46389",
-         "group": 1
+         "source": "michael herndon (JIRA)",
+         "value": 5,
+         "target": "David Betteridge (JIRA)"
       },
       {
-         "id": "46440",
+         "source": "Alex Maskaev (JIRA)",
+         "value": 2,
+         "target": "David Betteridge (JIRA)"
+      },
+      {
+         "source": "Digy (JIRA)",
+         "value": 1,
+         "target": "Maverick904 (JIRA)"
+      },
+      {
+         "source": "michael herndon (JIRA)",
+         "value": 1,
+         "target": "Itamar Syn-Hershko (JIRA)"
+      },
+      {
+         "source": "michael herndon (JIRA)",
+         "value": 2,
+         "target": "Troy Howard (JIRA)"
+      },
+      {
+         "source": "Michael Herndon",
+         "value": 3,
+         "target": "Stefan Bodewig"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maverick904 (JIRA)",
          "group": 2
       },
       {
-         "id": "46366",
-         "group": 4
-      },
-      {
-         "id": "13009",
-         "group": 4
-      },
-      {
-         "id": "46439",
-         "group": 4
-      },
-      {
-         "id": "46441",
-         "group": 4
-      },
-      {
-         "id": "46370",
-         "group": 1
-      },
-      {
-         "id": "46354",
+         "id": "michael herndon (JIRA)",
          "group": 3
       },
       {
-         "id": "46398",
+         "id": "Itamar Syn-Hershko (JIRA)",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "13009",
-         "source": "46389"
       },
       {
-         "value": 2,
-         "target": "46439",
-         "source": "46440"
+         "id": "Alex Maskaev (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "46441",
-         "source": "46354"
+         "id": "Stefan Bodewig",
+         "group": 4
       },
       {
-         "value": 5,
-         "target": "46439",
-         "source": "46370"
+         "id": "Michael Herndon",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "46398",
-         "source": "46370"
+         "id": "Troy Howard (JIRA)",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "46366",
-         "source": "46370"
+         "id": "Digy (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "David Betteridge (JIRA)",
+         "group": 3
       }
    ]
 }

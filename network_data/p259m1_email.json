@@ -1,38 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "7036",
-         "group": 3
-      },
-      {
-         "id": "84",
-         "group": 1
-      },
-      {
-         "id": "7037",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Ting Peng",
          "value": 1,
-         "target": "84",
-         "source": "7037"
+         "target": "Bill Stoddard"
       },
       {
+         "source": "Bill Stoddard",
          "value": 1,
-         "target": "84",
-         "source": "7036"
+         "target": "J Aaron Farr"
       },
       {
+         "source": "Ting Peng",
          "value": 1,
-         "target": "7036",
-         "source": "7037"
+         "target": "J Aaron Farr"
       },
       {
+         "source": "Bill Stoddard",
          "value": 1,
-         "target": "7037",
-         "source": "7036"
+         "target": "Ting Peng"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "J Aaron Farr",
+         "group": 2
+      },
+      {
+         "id": "Bill Stoddard",
+         "group": 4
+      },
+      {
+         "id": "Ting Peng",
+         "group": 2
       }
    ]
 }

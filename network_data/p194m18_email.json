@@ -1,46 +1,46 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "32128",
-         "group": 1
+         "source": "pferrel",
+         "value": 36,
+         "target": "shimamoto"
       },
       {
-         "id": "32199",
+         "source": "takezoe",
+         "value": 18,
+         "target": "shimamoto"
+      },
+      {
+         "source": "asfgit",
+         "value": 18,
+         "target": "shimamoto"
+      },
+      {
+         "source": "hareeshmu",
+         "value": 18,
+         "target": "takezoe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "hareeshmu",
          "group": 3
       },
       {
-         "id": "32005",
+         "id": "pferrel",
+         "group": 1
+      },
+      {
+         "id": "takezoe",
          "group": 4
       },
       {
-         "id": "4452",
+         "id": "asfgit",
+         "group": 1
+      },
+      {
+         "id": "shimamoto",
          "group": 4
-      },
-      {
-         "id": "32138",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 36,
-         "target": "32138",
-         "source": "32005"
-      },
-      {
-         "value": 18,
-         "target": "32138",
-         "source": "4452"
-      },
-      {
-         "value": 18,
-         "target": "32128",
-         "source": "32199"
-      },
-      {
-         "value": 18,
-         "target": "32138",
-         "source": "32128"
       }
    ]
 }

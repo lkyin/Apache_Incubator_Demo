@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "4091",
-         "group": 1
-      },
-      {
-         "id": "45927",
-         "group": 3
-      },
-      {
-         "id": "45918",
-         "group": 3
-      },
-      {
-         "id": "45940",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "45927",
-         "source": "4091"
-      },
-      {
+         "source": "James Pic",
          "value": 2,
-         "target": "45940",
-         "source": "4091"
+         "target": "Christian Grobmeier"
       },
       {
+         "source": "Christian Grobmeier",
          "value": 1,
-         "target": "45940",
-         "source": "45918"
+         "target": "Maxime Thomas"
       },
       {
+         "source": "Maxime Thomas",
          "value": 1,
-         "target": "45918",
-         "source": "45940"
+         "target": "Christian Grobmeier"
       },
       {
-         "value": 1,
-         "target": "4091",
-         "source": "45927"
-      },
-      {
+         "source": "Christian Grobmeier",
          "value": 2,
-         "target": "4091",
-         "source": "45940"
+         "target": "James Pic"
+      },
+      {
+         "source": "Derick Rethans",
+         "value": 1,
+         "target": "James Pic"
+      },
+      {
+         "source": "James Pic",
+         "value": 1,
+         "target": "Derick Rethans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maxime Thomas",
+         "group": 4
+      },
+      {
+         "id": "Christian Grobmeier",
+         "group": 4
+      },
+      {
+         "id": "Derick Rethans",
+         "group": 4
+      },
+      {
+         "id": "James Pic",
+         "group": 3
       }
    ]
 }

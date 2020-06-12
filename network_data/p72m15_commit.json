@@ -1,61 +1,66 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7621",
-         "group": 4
+         "source": "Jacques Nadeau",
+         "value": 1,
+         "target": "jhyde"
       },
       {
-         "id": "7657",
+         "source": "Julian Hyde",
+         "value": 3,
+         "target": "jhyde"
+      },
+      {
+         "source": "Vladimir Sitnikov",
+         "value": 5,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "jhyde",
+         "value": 7,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "Jesus Camacho Rodriguez",
+         "value": 3,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "Vladimir Sitnikov",
+         "value": 1,
+         "target": "Jacques Nadeau"
+      },
+      {
+         "source": "Jacques Nadeau",
+         "value": 1,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "Vladimir Sitnikov",
+         "value": 3,
+         "target": "jhyde"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jacques Nadeau",
+         "group": 2
+      },
+      {
+         "id": "Vladimir Sitnikov",
          "group": 3
       },
       {
-         "id": "7625",
-         "group": 4
-      },
-      {
-         "id": "7628",
-         "group": 4
-      },
-      {
-         "id": "7622",
+         "id": "Jesus Camacho Rodriguez",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7628",
-         "source": "7621"
       },
       {
-         "value": 5,
-         "target": "7625",
-         "source": "7621"
+         "id": "jhyde",
+         "group": 3
       },
       {
-         "value": 10,
-         "target": "7622",
-         "source": "7625"
-      },
-      {
-         "value": 3,
-         "target": "7657",
-         "source": "7625"
-      },
-      {
-         "value": 1,
-         "target": "7622",
-         "source": "7628"
-      },
-      {
-         "value": 1,
-         "target": "7625",
-         "source": "7628"
-      },
-      {
-         "value": 3,
-         "target": "7622",
-         "source": "7621"
+         "id": "Julian Hyde",
+         "group": 3
       }
    ]
 }

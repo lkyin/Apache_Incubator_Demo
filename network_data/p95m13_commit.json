@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "12986",
-         "group": 2
-      },
-      {
-         "id": "12994",
-         "group": 2
-      },
-      {
-         "id": "12995",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "trustin",
          "value": 36,
-         "target": "12995",
-         "source": "12986"
+         "target": "akarasulu"
       },
       {
+         "source": "erodriguez",
          "value": 6,
-         "target": "12994",
-         "source": "12986"
+         "target": "akarasulu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "trustin",
+         "group": 1
+      },
+      {
+         "id": "erodriguez",
+         "group": 1
+      },
+      {
+         "id": "akarasulu",
+         "group": 1
       }
    ]
 }

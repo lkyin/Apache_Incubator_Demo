@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "10038",
-         "group": 4
-      },
-      {
-         "id": "22160",
-         "group": 1
-      },
-      {
-         "id": "22158",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "10038",
-         "source": "22158"
+         "source": "andy",
+         "value": 3,
+         "target": "castagna"
       },
       {
-         "value": 3,
-         "target": "22160",
-         "source": "10038"
+         "source": "andy",
+         "value": 1,
+         "target": "damian"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "andy",
+         "group": 1
+      },
+      {
+         "id": "castagna",
+         "group": 1
+      },
+      {
+         "id": "damian",
+         "group": 4
       }
    ]
 }

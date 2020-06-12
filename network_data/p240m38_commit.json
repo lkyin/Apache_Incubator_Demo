@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29745",
-         "group": 3
+         "source": "schor",
+         "value": 2,
+         "target": "eae"
       },
       {
-         "id": "42185",
+         "source": "schor",
+         "value": 1,
+         "target": "burn"
+      },
+      {
+         "source": "joern",
+         "value": 1,
+         "target": "cwiklik"
+      },
+      {
+         "source": "schor",
+         "value": 1,
+         "target": "cwiklik"
+      },
+      {
+         "source": "burn",
+         "value": 3,
+         "target": "cwiklik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "eae",
          "group": 4
       },
       {
-         "id": "42182",
-         "group": 3
-      },
-      {
-         "id": "42189",
+         "id": "schor",
          "group": 2
       },
       {
-         "id": "42188",
+         "id": "joern",
+         "group": 1
+      },
+      {
+         "id": "burn",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42182",
-         "source": "42188"
       },
       {
-         "value": 1,
-         "target": "42182",
-         "source": "42189"
-      },
-      {
-         "value": 3,
-         "target": "42188",
-         "source": "42189"
-      },
-      {
-         "value": 2,
-         "target": "42182",
-         "source": "42185"
-      },
-      {
-         "value": 1,
-         "target": "42188",
-         "source": "29745"
+         "id": "cwiklik",
+         "group": 1
       }
    ]
 }

@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "tedyu",
+         "value": 1,
+         "target": "Jon Maron"
+      },
+      {
+         "source": "Steve Loughran",
+         "value": 1,
+         "target": "tedyu"
+      },
+      {
+         "source": "tedyu",
+         "value": 1,
+         "target": "Billie Rinaldi"
+      },
+      {
+         "source": "Steve Loughran",
+         "value": 6,
+         "target": "Jon Maron"
+      }
+   ],
    "nodes": [
       {
-         "id": "36512",
+         "id": "Steve Loughran",
+         "group": 2
+      },
+      {
+         "id": "tedyu",
          "group": 3
       },
       {
-         "id": "4164",
-         "group": 1
+         "id": "Billie Rinaldi",
+         "group": 3
       },
       {
-         "id": "6712",
+         "id": "Jon Maron",
          "group": 4
-      },
-      {
-         "id": "4382",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6712",
-         "source": "36512"
-      },
-      {
-         "value": 1,
-         "target": "4382",
-         "source": "36512"
-      },
-      {
-         "value": 1,
-         "target": "4164",
-         "source": "36512"
-      },
-      {
-         "value": 6,
-         "target": "4382",
-         "source": "6712"
       }
    ]
 }

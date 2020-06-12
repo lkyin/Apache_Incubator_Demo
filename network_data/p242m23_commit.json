@@ -1,92 +1,97 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42444",
-         "group": 2
+         "source": "snoopdave",
+         "value": 11,
+         "target": "Dave Johnson"
       },
       {
-         "id": "42441",
+         "source": "Shawn Feldman",
+         "value": 3,
+         "target": "Todd Nine"
+      },
+      {
+         "source": "Todd Nine",
+         "value": 1,
+         "target": "GERey"
+      },
+      {
+         "source": "Michael Russo",
+         "value": 1,
+         "target": "Shawn Feldman"
+      },
+      {
+         "source": "Shawn Feldman",
+         "value": 2,
+         "target": "GERey"
+      },
+      {
+         "source": "Shawn Feldman",
+         "value": 1,
+         "target": "Michael Russo"
+      },
+      {
+         "source": "Mike Dunker",
+         "value": 7,
+         "target": "Mike Dunker"
+      },
+      {
+         "source": "toddnine",
+         "value": 25,
+         "target": "Mike Dunker"
+      },
+      {
+         "source": "Todd Nine",
+         "value": 1,
+         "target": "Mike Dunker"
+      },
+      {
+         "source": "Michael Russo",
+         "value": 1,
+         "target": "Todd Nine"
+      },
+      {
+         "source": "toddnine",
+         "value": 4,
+         "target": "Mike Dunker"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "toddnine",
+         "group": 3
+      },
+      {
+         "id": "Shawn Feldman",
          "group": 1
       },
       {
-         "id": "42472",
+         "id": "Dave Johnson",
          "group": 4
       },
       {
-         "id": "42440",
-         "group": 1
+         "id": "Todd Nine",
+         "group": 4
       },
       {
-         "id": "42505",
+         "id": "GERey",
          "group": 2
       },
       {
-         "id": "42506",
+         "id": "Mike Dunker",
          "group": 1
       },
       {
-         "id": "33774",
+         "id": "Michael Russo",
+         "group": 3
+      },
+      {
+         "id": "Mike Dunker",
+         "group": 3
+      },
+      {
+         "id": "snoopdave",
          "group": 1
-      },
-      {
-         "id": "42476",
-         "group": 3
-      },
-      {
-         "id": "42503",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "42472",
-         "source": "33774"
-      },
-      {
-         "value": 1,
-         "target": "42503",
-         "source": "42441"
-      },
-      {
-         "value": 2,
-         "target": "42503",
-         "source": "42476"
-      },
-      {
-         "value": 3,
-         "target": "42476",
-         "source": "42441"
-      },
-      {
-         "value": 4,
-         "target": "42506",
-         "source": "42440"
-      },
-      {
-         "value": 1,
-         "target": "42506",
-         "source": "42441"
-      },
-      {
-         "value": 2,
-         "target": "42476",
-         "source": "42444"
-      },
-      {
-         "value": 7,
-         "target": "42505",
-         "source": "42506"
-      },
-      {
-         "value": 1,
-         "target": "42441",
-         "source": "42444"
-      },
-      {
-         "value": 25,
-         "target": "42505",
-         "source": "42440"
       }
    ]
 }

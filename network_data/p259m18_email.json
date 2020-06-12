@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7062",
-         "group": 4
+         "source": "Bernd Fondermann",
+         "value": 2,
+         "target": "Samuel Kevin"
       },
       {
-         "id": "7047",
+         "source": "Bill Stoddard",
+         "value": 1,
+         "target": "Samuel Kevin"
+      },
+      {
+         "source": "Samuel Kevin",
+         "value": 1,
+         "target": "Bernd Fondermann"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Samuel Kevin",
+         "group": 1
+      },
+      {
+         "id": "Bernd Fondermann",
          "group": 2
       },
       {
-         "id": "4981",
+         "id": "Bill Stoddard",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "7062",
-         "source": "7047"
-      },
-      {
-         "value": 1,
-         "target": "7047",
-         "source": "7062"
-      },
-      {
-         "value": 1,
-         "target": "7062",
-         "source": "4981"
       }
    ]
 }

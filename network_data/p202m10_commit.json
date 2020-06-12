@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "33604",
-         "group": 3
-      },
-      {
-         "id": "33601",
-         "group": 1
-      },
-      {
-         "id": "33649",
-         "group": 1
-      },
-      {
-         "id": "33629",
-         "group": 1
-      },
-      {
-         "id": "33638",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "lizhanhui",
          "value": 1,
-         "target": "33638",
-         "source": "33604"
+         "target": "shutian.lzh"
       },
       {
+         "source": "yukon",
          "value": 3,
-         "target": "33638",
-         "source": "33601"
+         "target": "vsair"
       },
       {
+         "source": "vongosling",
          "value": 6,
-         "target": "33601",
-         "source": "33604"
+         "target": "shutian.lzh"
       },
       {
+         "source": "yukon",
          "value": 6,
-         "target": "33649",
-         "source": "33604"
+         "target": "vongosling"
       },
       {
-         "value": 77,
-         "target": "33629",
-         "source": "33604"
-      },
-      {
+         "source": "vongosling",
          "value": 1,
-         "target": "33629",
-         "source": "33649"
+         "target": "vsair"
+      },
+      {
+         "source": "lizhanhui",
+         "value": 77,
+         "target": "vongosling"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "lizhanhui",
+         "group": 1
+      },
+      {
+         "id": "shutian.lzh",
+         "group": 2
+      },
+      {
+         "id": "yukon",
+         "group": 2
+      },
+      {
+         "id": "vongosling",
+         "group": 4
+      },
+      {
+         "id": "vsair",
+         "group": 3
       }
    ]
 }

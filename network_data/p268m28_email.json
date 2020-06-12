@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "4102",
-         "group": 1
-      },
-      {
-         "id": "3728",
-         "group": 1
-      },
-      {
-         "id": "3801",
-         "group": 3
-      },
-      {
-         "id": "6097",
-         "group": 3
-      },
-      {
-         "id": "17148",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Manu Zhang",
          "value": 1,
-         "target": "6097",
-         "source": "17148"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "4102",
-         "source": "3728"
+         "target": "Manu Zhang"
       },
       {
+         "source": "codecov-io",
          "value": 1,
-         "target": "3728",
-         "source": "4102"
+         "target": "manuzhang"
       },
       {
+         "source": "Manu Zhang",
          "value": 1,
-         "target": "3801",
-         "source": "3728"
+         "target": "jmclean"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Manu Zhang",
+         "group": 4
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 4
+      },
+      {
+         "id": "jmclean",
+         "group": 4
+      },
+      {
+         "id": "codecov-io",
+         "group": 1
+      },
+      {
+         "id": "manuzhang",
+         "group": 3
       }
    ]
 }

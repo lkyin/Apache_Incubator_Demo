@@ -1,86 +1,86 @@
 {
-   "nodes": [
-      {
-         "id": "7470",
-         "group": 1
-      },
-      {
-         "id": "7520",
-         "group": 4
-      },
-      {
-         "id": "7456",
-         "group": 1
-      },
-      {
-         "id": "7521",
-         "group": 2
-      },
-      {
-         "id": "7507",
-         "group": 4
-      },
-      {
-         "id": "7473",
-         "group": 2
-      },
-      {
-         "id": "1028",
-         "group": 3
-      },
-      {
-         "id": "7542",
-         "group": 3
-      },
-      {
-         "id": "7511",
-         "group": 1
-      },
-      {
-         "id": "7457",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Assaf Arkin (JIRA)",
          "value": 1,
-         "target": "7507",
-         "source": "7457"
+         "target": "Teppo Kurki (JIRA)"
       },
       {
-         "value": 1,
-         "target": "7470",
-         "source": "7457"
-      },
-      {
-         "value": 1,
-         "target": "7521",
-         "source": "1028"
-      },
-      {
+         "source": "Alex Boisvert (JIRA)",
          "value": 2,
-         "target": "7520",
-         "source": "7521"
+         "target": "Assaf Arkin (JIRA)"
       },
       {
+         "source": "Timo Rantalaiho (JIRA)",
          "value": 1,
-         "target": "7511",
-         "source": "7456"
+         "target": "Teppo Kurki (JIRA)"
       },
       {
+         "source": "Alex Boisvert (JIRA)",
          "value": 1,
-         "target": "7542",
-         "source": "7521"
+         "target": "Alexis Midon (JIRA)"
       },
       {
+         "source": "Matthieu Riou",
          "value": 1,
-         "target": "7511",
-         "source": "7473"
+         "target": "Alex Boisvert"
       },
       {
+         "source": "Alex Boisvert",
+         "value": 1,
+         "target": "Ittay Dror"
+      },
+      {
+         "source": "Alex Boisvert (JIRA)",
+         "value": 1,
+         "target": "Sean Ahn (JIRA)"
+      },
+      {
+         "source": "Alex Boisvert",
          "value": 2,
-         "target": "7456",
-         "source": "7457"
+         "target": "Matthieu Riou"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sean Ahn (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Matthieu Riou",
+         "group": 4
+      },
+      {
+         "id": "Assaf Arkin (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Timo Rantalaiho (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Teppo Kurki (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Alex Boisvert",
+         "group": 4
+      },
+      {
+         "id": "Ittay Dror",
+         "group": 1
+      },
+      {
+         "id": "Alexis Midon (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Matthieu Riou",
+         "group": 4
+      },
+      {
+         "id": "Alex Boisvert (JIRA)",
+         "group": 3
       }
    ]
 }

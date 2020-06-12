@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "angelos",
+         "value": 1,
+         "target": "marrs"
+      },
+      {
+         "source": "marrs",
+         "value": 1,
+         "target": "tonit"
+      }
+   ],
    "nodes": [
       {
-         "id": "400",
+         "id": "angelos",
+         "group": 2
+      },
+      {
+         "id": "marrs",
          "group": 3
       },
       {
-         "id": "395",
+         "id": "tonit",
          "group": 1
-      },
-      {
-         "id": "397",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "397",
-         "source": "395"
-      },
-      {
-         "value": 1,
-         "target": "395",
-         "source": "400"
       }
    ]
 }

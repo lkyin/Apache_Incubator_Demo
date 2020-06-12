@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "15007",
-         "group": 3
-      },
-      {
-         "id": "401",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "pauls",
          "value": 2,
-         "target": "401",
-         "source": "15007"
+         "target": "rickhall"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pauls",
+         "group": 1
+      },
+      {
+         "id": "rickhall",
+         "group": 2
       }
    ]
 }

@@ -1,101 +1,101 @@
 {
-   "nodes": [
-      {
-         "id": "4892",
-         "group": 3
-      },
-      {
-         "id": "4479",
-         "group": 2
-      },
-      {
-         "id": "46846",
-         "group": 3
-      },
-      {
-         "id": "46814",
-         "group": 4
-      },
-      {
-         "id": "46833",
-         "group": 1
-      },
-      {
-         "id": "308",
-         "group": 4
-      },
-      {
-         "id": "249",
-         "group": 2
-      },
-      {
-         "id": "29935",
-         "group": 1
-      },
-      {
-         "id": "30026",
-         "group": 1
-      },
-      {
-         "id": "11318",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Florian Hopf",
          "value": 1,
-         "target": "30026",
-         "source": "29935"
+         "target": "Rob Weir"
       },
       {
-         "value": 1,
-         "target": "249",
-         "source": "30026"
-      },
-      {
-         "value": 1,
-         "target": "46833",
-         "source": "11318"
-      },
-      {
-         "value": 1,
-         "target": "46833",
-         "source": "30026"
-      },
-      {
-         "value": 1,
-         "target": "46846",
-         "source": "30026"
-      },
-      {
+         "source": "Rob Weir",
          "value": 2,
-         "target": "308",
-         "source": "30026"
+         "target": "Marvin"
       },
       {
+         "source": "Rob Weir",
+         "value": 1,
+         "target": "Florian Hopf"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Louis_Su=E1rez-Potts?=",
+         "value": 1,
+         "target": "Rob Weir"
+      },
+      {
+         "source": "Florian Hopf",
+         "value": 1,
+         "target": "Rob Weir"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Florian Hopf"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Rob Weir"
+      },
+      {
+         "source": "Rob Weir",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      },
+      {
+         "source": "Rob Weir",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "Rob Weir",
+         "value": 1,
+         "target": "Leonardo Alexandre Ferreira Leite"
+      },
+      {
+         "source": "Leonardo Alexandre Ferreira Leite",
          "value": 2,
-         "target": "30026",
-         "source": "46846"
+         "target": "Rob Weir"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Florian Hopf",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "30026",
-         "source": "4479"
+         "id": "Rob Weir",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "30026",
-         "source": "46833"
+         "id": "Leonardo Alexandre Ferreira Leite",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "4892",
-         "source": "30026"
+         "id": "Ian C",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "30026",
-         "source": "46814"
+         "id": "Marvin",
+         "group": 4
+      },
+      {
+         "id": "Dave Fisher",
+         "group": 4
+      },
+      {
+         "id": "Florian Hopf",
+         "group": 4
+      },
+      {
+         "id": "Apache Jenkins Server",
+         "group": 3
+      },
+      {
+         "id": "John D. Ament",
+         "group": 4
+      },
+      {
+         "id": "=?iso-8859-1?Q?Louis_Su=E1rez-Potts?=",
+         "group": 2
       }
    ]
 }

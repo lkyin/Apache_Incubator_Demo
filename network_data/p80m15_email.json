@@ -1,82 +1,82 @@
 {
+   "links": [
+      {
+         "source": "Malcolm Edgar",
+         "value": 2,
+         "target": "Bob Schellink"
+      },
+      {
+         "source": "Bob Schellink (JIRA)",
+         "value": 2,
+         "target": "Itou Akihiro (JIRA)"
+      },
+      {
+         "source": "Bob Schellink (JIRA)",
+         "value": 1,
+         "target": "Adrian A. (JIRA)"
+      },
+      {
+         "source": "Adrian A. (JIRA)",
+         "value": 1,
+         "target": "Malcolm Edgar (JIRA)"
+      },
+      {
+         "source": "Adrian A. (JIRA)",
+         "value": 4,
+         "target": "Joseph Schmidt (JIRA)"
+      },
+      {
+         "source": "Bob Schellink",
+         "value": 1,
+         "target": "Adrian A."
+      },
+      {
+         "source": "Adrian A.",
+         "value": 3,
+         "target": "Bob Schellink"
+      },
+      {
+         "source": "Bob Schellink (JIRA)",
+         "value": 1,
+         "target": "Finn Bock (JIRA)"
+      }
+   ],
    "nodes": [
       {
-         "id": "9061",
+         "id": "Malcolm Edgar",
+         "group": 2
+      },
+      {
+         "id": "Adrian A. (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Itou Akihiro (JIRA)",
          "group": 3
       },
       {
-         "id": "9086",
+         "id": "Malcolm Edgar (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Bob Schellink",
+         "group": 3
+      },
+      {
+         "id": "Finn Bock (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Joseph Schmidt (JIRA)",
          "group": 4
       },
       {
-         "id": "9067",
-         "group": 2
-      },
-      {
-         "id": "9058",
+         "id": "Bob Schellink (JIRA)",
          "group": 4
       },
       {
-         "id": "9072",
-         "group": 1
-      },
-      {
-         "id": "8516",
-         "group": 1
-      },
-      {
-         "id": "8536",
-         "group": 1
-      },
-      {
-         "id": "9087",
-         "group": 1
-      },
-      {
-         "id": "9038",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "9061",
-         "source": "9058"
-      },
-      {
-         "value": 2,
-         "target": "9086",
-         "source": "9058"
-      },
-      {
-         "value": 2,
-         "target": "9038",
-         "source": "8516"
-      },
-      {
-         "value": 1,
-         "target": "8536",
-         "source": "9061"
-      },
-      {
-         "value": 4,
-         "target": "9067",
-         "source": "9061"
-      },
-      {
-         "value": 3,
-         "target": "9038",
-         "source": "9072"
-      },
-      {
-         "value": 1,
-         "target": "9087",
-         "source": "9058"
-      },
-      {
-         "value": 1,
-         "target": "9072",
-         "source": "9038"
+         "id": "Adrian A.",
+         "group": 4
       }
    ]
 }

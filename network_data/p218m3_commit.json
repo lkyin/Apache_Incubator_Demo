@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "37747",
-         "group": 1
-      },
-      {
-         "id": "37745",
-         "group": 4
-      },
-      {
-         "id": "37750",
-         "group": 2
-      },
-      {
-         "id": "394",
-         "group": 2
-      },
-      {
-         "id": "8881",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "8881",
-         "source": "37750"
-      },
-      {
-         "value": 1,
-         "target": "8881",
-         "source": "37747"
-      },
-      {
+         "source": "bdelacretaz",
          "value": 50,
-         "target": "8881",
-         "source": "394"
+         "target": "rwesten"
       },
       {
+         "source": "bdelacretaz",
          "value": 2,
-         "target": "394",
-         "source": "37750"
+         "target": "wkasper"
       },
       {
+         "source": "bdelacretaz",
          "value": 2,
-         "target": "394",
-         "source": "37745"
+         "target": "ogrisel"
       },
       {
+         "source": "ogrisel",
+         "value": 1,
+         "target": "rwesten"
+      },
+      {
+         "source": "fchrist",
+         "value": 1,
+         "target": "rwesten"
+      },
+      {
+         "source": "wkasper",
          "value": 2,
-         "target": "8881",
-         "source": "37745"
+         "target": "rwesten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
+         "group": 4
+      },
+      {
+         "id": "ogrisel",
+         "group": 2
+      },
+      {
+         "id": "wkasper",
+         "group": 3
+      },
+      {
+         "id": "fchrist",
+         "group": 4
+      },
+      {
+         "id": "rwesten",
+         "group": 1
       }
    ]
 }

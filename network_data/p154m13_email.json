@@ -1,75 +1,75 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "24079",
-         "group": 3
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "David E. Wheeler"
       },
       {
-         "id": "24093",
+         "source": "David E. Wheeler",
+         "value": 3,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "bch",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "Joe Schaefer"
+      },
+      {
+         "source": "Peter Karman",
+         "value": 2,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Marvin Humphrey",
+         "value": 2,
+         "target": "Peter Karman"
+      },
+      {
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "Mattmann, Chris A (388J)"
+      },
+      {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 4,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Joe Schaefer",
+         "value": 3,
+         "target": "Marvin Humphrey"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bch",
+         "group": 4
+      },
+      {
+         "id": "Joe Schaefer",
          "group": 1
       },
       {
-         "id": "370",
-         "group": 3
-      },
-      {
-         "id": "4399",
+         "id": "Mattmann, Chris A (388J)",
          "group": 2
       },
       {
-         "id": "24101",
-         "group": 3
+         "id": "David E. Wheeler",
+         "group": 1
       },
       {
-         "id": "8425",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8425",
-         "source": "4399"
+         "id": "Peter Karman",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "370",
-         "source": "4399"
-      },
-      {
-         "value": 1,
-         "target": "4399",
-         "source": "24101"
-      },
-      {
-         "value": 3,
-         "target": "4399",
-         "source": "8425"
-      },
-      {
-         "value": 4,
-         "target": "4399",
-         "source": "370"
-      },
-      {
-         "value": 3,
-         "target": "4399",
-         "source": "24093"
-      },
-      {
-         "value": 2,
-         "target": "24079",
-         "source": "4399"
-      },
-      {
-         "value": 1,
-         "target": "24093",
-         "source": "4399"
-      },
-      {
-         "value": 2,
-         "target": "4399",
-         "source": "24079"
+         "id": "Marvin Humphrey",
+         "group": 1
       }
    ]
 }

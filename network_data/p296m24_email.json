@@ -1,45 +1,45 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "33360",
-         "group": 3
+         "source": "Horn, Julian C",
+         "value": 1,
+         "target": "Pascal Brewing (JIRA)"
       },
       {
-         "id": "33298",
+         "source": "Gord Tanner",
+         "value": 1,
+         "target": "Ilya Buziuk (JIRA)"
+      },
+      {
+         "source": "Brent Lintner",
+         "value": 1,
+         "target": "Ross Martin (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Horn, Julian C",
          "group": 2
       },
       {
-         "id": "10100",
+         "id": "Ilya Buziuk (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Gord Tanner",
+         "group": 4
+      },
+      {
+         "id": "Ross Martin (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Brent Lintner",
          "group": 1
       },
       {
-         "id": "33281",
+         "id": "Pascal Brewing (JIRA)",
          "group": 2
-      },
-      {
-         "id": "11265",
-         "group": 3
-      },
-      {
-         "id": "33363",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "33363",
-         "source": "33281"
-      },
-      {
-         "value": 1,
-         "target": "33360",
-         "source": "11265"
-      },
-      {
-         "value": 1,
-         "target": "33298",
-         "source": "10100"
       }
    ]
 }

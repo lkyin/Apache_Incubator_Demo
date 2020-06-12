@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "lahiru",
+         "value": 7,
+         "target": "smarru"
+      },
+      {
+         "source": "heshan",
+         "value": 3,
+         "target": "lahiru"
+      },
+      {
+         "source": "lahiru",
+         "value": 2,
+         "target": "patanachai"
+      },
+      {
+         "source": "heshan",
+         "value": 2,
+         "target": "smarru"
+      }
+   ],
    "nodes": [
       {
-         "id": "1106",
-         "group": 3
-      },
-      {
-         "id": "1095",
-         "group": 2
-      },
-      {
-         "id": "1104",
+         "id": "heshan",
          "group": 1
       },
       {
-         "id": "1103",
+         "id": "lahiru",
+         "group": 4
+      },
+      {
+         "id": "patanachai",
+         "group": 1
+      },
+      {
+         "id": "smarru",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "1104",
-         "source": "1103"
-      },
-      {
-         "value": 3,
-         "target": "1103",
-         "source": "1106"
-      },
-      {
-         "value": 2,
-         "target": "1095",
-         "source": "1106"
-      },
-      {
-         "value": 7,
-         "target": "1095",
-         "source": "1103"
       }
    ]
 }

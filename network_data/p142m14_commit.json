@@ -1,57 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "22944",
-         "group": 1
-      },
-      {
-         "id": "8283",
-         "group": 4
-      },
-      {
-         "id": "22945",
-         "group": 4
-      },
-      {
-         "id": "22948",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "junrao",
          "value": 22,
-         "target": "22945",
-         "source": "8283"
+         "target": "nehanarkhede"
       },
       {
-         "value": 1,
-         "target": "22944",
-         "source": "22945"
-      },
-      {
-         "value": 1,
-         "target": "22944",
-         "source": "8283"
-      },
-      {
+         "source": "junrao",
          "value": 9,
-         "target": "22948",
-         "source": "8283"
+         "target": "jjkoshy"
       },
       {
+         "source": "nehanarkhede",
+         "value": 2,
+         "target": "jkreps"
+      },
+      {
+         "source": "nehanarkhede",
          "value": 1,
-         "target": "22948",
-         "source": "22945"
+         "target": "jjkoshy"
       },
       {
-         "value": 3,
-         "target": "8283",
-         "source": "22944"
+         "source": "junrao",
+         "value": 4,
+         "target": "jkreps"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "junrao",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "22945",
-         "source": "22944"
+         "id": "nehanarkhede",
+         "group": 4
+      },
+      {
+         "id": "jkreps",
+         "group": 4
+      },
+      {
+         "id": "jjkoshy",
+         "group": 2
       }
    ]
 }

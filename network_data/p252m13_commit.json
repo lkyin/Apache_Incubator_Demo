@@ -1,105 +1,125 @@
 {
-   "nodes": [
-      {
-         "id": "45182",
-         "group": 3
-      },
-      {
-         "id": "45176",
-         "group": 2
-      },
-      {
-         "id": "45177",
-         "group": 4
-      },
-      {
-         "id": "45252",
-         "group": 4
-      },
-      {
-         "id": "34125",
-         "group": 3
-      },
-      {
-         "id": "45244",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "45252",
-         "source": "45244"
+         "source": "bzz",
+         "value": 2,
+         "target": "moon"
       },
       {
-         "value": 21,
-         "target": "34125",
-         "source": "45182"
-      },
-      {
-         "value": 3,
-         "target": "45176",
-         "source": "34125"
-      },
-      {
-         "value": 14,
-         "target": "45252",
-         "source": "34125"
-      },
-      {
-         "value": 3,
-         "target": "45252",
-         "source": "45176"
-      },
-      {
-         "value": 1,
-         "target": "45177",
-         "source": "45244"
-      },
-      {
-         "value": 33,
-         "target": "45177",
-         "source": "45176"
-      },
-      {
-         "value": 16,
-         "target": "45177",
-         "source": "45182"
-      },
-      {
-         "value": 6,
-         "target": "45252",
-         "source": "45177"
-      },
-      {
-         "value": 13,
-         "target": "45244",
-         "source": "45182"
-      },
-      {
-         "value": 7,
-         "target": "45244",
-         "source": "34125"
-      },
-      {
-         "value": 19,
-         "target": "45252",
-         "source": "45182"
-      },
-      {
+         "source": "Alexander Bezzubov",
          "value": 4,
-         "target": "45177",
-         "source": "34125"
+         "target": "moon"
       },
       {
+         "source": "Alexander Bezzubov",
          "value": 3,
-         "target": "45176",
-         "source": "45182"
+         "target": "bzz"
       },
       {
+         "source": "moon",
+         "value": 31,
+         "target": "bzz"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 3,
+         "target": "bzz"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 21,
+         "target": "Alexander Bezzubov"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 19,
+         "target": "Jongyoul Lee"
+      },
+      {
+         "source": "Damien CORNEAU",
          "value": 1,
-         "target": "45244",
-         "source": "45176"
+         "target": "bzz"
+      },
+      {
+         "source": "moon",
+         "value": 1,
+         "target": "Jongyoul Lee"
+      },
+      {
+         "source": "Jongyoul Lee",
+         "value": 1,
+         "target": "Alexander Bezzubov"
+      },
+      {
+         "source": "moon",
+         "value": 5,
+         "target": "Lee moon soo"
+      },
+      {
+         "source": "Alexander Bezzubov",
+         "value": 7,
+         "target": "Damien CORNEAU"
+      },
+      {
+         "source": "Damien CORNEAU",
+         "value": 1,
+         "target": "Jongyoul Lee"
+      },
+      {
+         "source": "Alexander Bezzubov",
+         "value": 13,
+         "target": "Jongyoul Lee"
+      },
+      {
+         "source": "Jongyoul Lee",
+         "value": 3,
+         "target": "bzz"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 11,
+         "target": "moon"
+      },
+      {
+         "source": "Jongyoul Lee",
+         "value": 5,
+         "target": "moon"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 13,
+         "target": "Damien CORNEAU"
+      },
+      {
+         "source": "Damien CORNEAU",
+         "value": 1,
+         "target": "moon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Bezzubov",
+         "group": 3
+      },
+      {
+         "id": "bzz",
+         "group": 3
+      },
+      {
+         "id": "Lee moon soo",
+         "group": 3
+      },
+      {
+         "id": "moon",
+         "group": 3
+      },
+      {
+         "id": "Damien CORNEAU",
+         "group": 1
+      },
+      {
+         "id": "Jongyoul Lee",
+         "group": 2
       }
    ]
 }

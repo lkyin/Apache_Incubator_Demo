@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "31252",
-         "group": 3
-      },
-      {
-         "id": "31251",
-         "group": 2
-      },
-      {
-         "id": "8694",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "lehmi",
          "value": 1,
-         "target": "31251",
-         "source": "8694"
+         "target": "carrier"
       },
       {
+         "source": "jukka",
          "value": 1,
-         "target": "31251",
-         "source": "31252"
+         "target": "lehmi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jukka",
+         "group": 4
+      },
+      {
+         "id": "lehmi",
+         "group": 4
+      },
+      {
+         "id": "carrier",
+         "group": 1
       }
    ]
 }

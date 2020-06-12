@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "jhaile",
+         "value": 4,
+         "target": "lhazlewood"
+      },
+      {
+         "source": "adc",
+         "value": 33,
+         "target": "jhaile"
+      },
+      {
+         "source": "adc",
+         "value": 9,
+         "target": "lhazlewood"
+      }
+   ],
    "nodes": [
       {
-         "id": "36065",
+         "id": "jhaile",
          "group": 2
       },
       {
-         "id": "36068",
-         "group": 1
+         "id": "adc",
+         "group": 4
       },
       {
-         "id": "207",
+         "id": "lhazlewood",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 33,
-         "target": "207",
-         "source": "36068"
-      },
-      {
-         "value": 4,
-         "target": "36068",
-         "source": "36065"
-      },
-      {
-         "value": 9,
-         "target": "207",
-         "source": "36065"
       }
    ]
 }

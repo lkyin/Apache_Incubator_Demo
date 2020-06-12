@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "39578",
-         "group": 1
-      },
-      {
-         "id": "39571",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Kozuch, Michael A",
          "value": 2,
-         "target": "39571",
-         "source": "39578"
+         "target": "Michael Stroucken"
       },
       {
+         "source": "Michael Stroucken",
          "value": 1,
-         "target": "39578",
-         "source": "39571"
+         "target": "Kozuch, Michael A"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Michael Stroucken",
+         "group": 3
+      },
+      {
+         "id": "Kozuch, Michael A",
+         "group": 3
       }
    ]
 }

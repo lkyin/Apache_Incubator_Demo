@@ -1,100 +1,100 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "18756",
-         "group": 1
+         "source": "Edward J. Yoon (JIRA)",
+         "value": 1,
+         "target": "Chanwit Kaewkasi (JIRA)"
       },
       {
-         "id": "6719",
+         "source": "Filipe David Manana",
+         "value": 2,
+         "target": "Edward J. Yoon"
+      },
+      {
+         "source": "Edward J. Yoon (JIRA)",
+         "value": 10,
+         "target": "Filipe Manana (JIRA)"
+      },
+      {
+         "source": "Edward J. Yoon (JIRA)",
+         "value": 4,
+         "target": "Hyunsik Choi (JIRA)"
+      },
+      {
+         "source": "Filipe David Manana",
+         "value": 2,
+         "target": "edwardyoon"
+      },
+      {
+         "source": "Edward J. Yoon",
+         "value": 1,
+         "target": "Sangwon Seo"
+      },
+      {
+         "source": "Edward J. Yoon",
+         "value": 6,
+         "target": "Filipe David Manana"
+      },
+      {
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "no-reply"
+      },
+      {
+         "source": "Edward J. Yoon",
+         "value": 1,
+         "target": "Brett Porter"
+      },
+      {
+         "source": "Sangwon Seo",
+         "value": 1,
+         "target": "Edward J. Yoon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Filipe David Manana",
+         "group": 3
+      },
+      {
+         "id": "Edward J. Yoon",
+         "group": 3
+      },
+      {
+         "id": "Chanwit Kaewkasi (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Filipe Manana (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "edwardyoon",
          "group": 2
       },
       {
-         "id": "18761",
-         "group": 4
+         "id": "Edward J. Yoon (JIRA)",
+         "group": 1
       },
       {
-         "id": "6696",
-         "group": 4
-      },
-      {
-         "id": "18810",
+         "id": "no-reply",
          "group": 3
       },
       {
-         "id": "17571",
+         "id": "Hyunsik Choi (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Edward J. Yoon",
          "group": 1
       },
       {
-         "id": "8778",
-         "group": 1
-      },
-      {
-         "id": "6212",
+         "id": "Brett Porter",
          "group": 4
       },
       {
-         "id": "206",
-         "group": 3
-      },
-      {
-         "id": "18788",
-         "group": 1
-      },
-      {
-         "id": "18809",
+         "id": "Sangwon Seo",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "6696",
-         "source": "18809"
-      },
-      {
-         "value": 1,
-         "target": "18761",
-         "source": "6212"
-      },
-      {
-         "value": 1,
-         "target": "6719",
-         "source": "18788"
-      },
-      {
-         "value": 1,
-         "target": "206",
-         "source": "8778"
-      },
-      {
-         "value": 4,
-         "target": "17571",
-         "source": "6212"
-      },
-      {
-         "value": 1,
-         "target": "18788",
-         "source": "6719"
-      },
-      {
-         "value": 10,
-         "target": "18810",
-         "source": "6212"
-      },
-      {
-         "value": 1,
-         "target": "8778",
-         "source": "18756"
-      },
-      {
-         "value": 2,
-         "target": "6719",
-         "source": "18809"
-      },
-      {
-         "value": 6,
-         "target": "18809",
-         "source": "6719"
       }
    ]
 }

@@ -1,147 +1,152 @@
 {
+   "links": [
+      {
+         "source": "tink",
+         "value": 5,
+         "target": "mschmalle"
+      },
+      {
+         "source": "peterelst",
+         "value": 7,
+         "target": "joes"
+      },
+      {
+         "source": "mschmalle",
+         "value": 3,
+         "target": "frishy"
+      },
+      {
+         "source": "peterelst",
+         "value": 2,
+         "target": "dougarthur"
+      },
+      {
+         "source": "rduartes",
+         "value": 1,
+         "target": "joes"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 9,
+         "target": "peterelst"
+      },
+      {
+         "source": "rduartes",
+         "value": 1,
+         "target": "mschmalle"
+      },
+      {
+         "source": "wave",
+         "value": 1,
+         "target": "joes"
+      },
+      {
+         "source": "mschmalle",
+         "value": 8,
+         "target": "peterelst"
+      },
+      {
+         "source": "wave",
+         "value": 1,
+         "target": "peterelst"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 5,
+         "target": "dougarthur"
+      },
+      {
+         "source": "tink",
+         "value": 4,
+         "target": "frishy"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 9,
+         "target": "mschmalle"
+      },
+      {
+         "source": "rduartes",
+         "value": 1,
+         "target": "peterelst"
+      },
+      {
+         "source": "peterelst",
+         "value": 2,
+         "target": "mschmalle"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 6,
+         "target": "joes"
+      },
+      {
+         "source": "dougarthur",
+         "value": 2,
+         "target": "joes"
+      },
+      {
+         "source": "mschmalle",
+         "value": 5,
+         "target": "dougarthur"
+      },
+      {
+         "source": "dougarthur",
+         "value": 3,
+         "target": "peterelst"
+      },
+      {
+         "source": "mschmalle",
+         "value": 7,
+         "target": "joes"
+      },
+      {
+         "source": "wave",
+         "value": 1,
+         "target": "mschmalle"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "rduartes"
+      }
+   ],
    "nodes": [
       {
-         "id": "15576",
-         "group": 1
-      },
-      {
-         "id": "15571",
-         "group": 3
-      },
-      {
-         "id": "394",
+         "id": "bdelacretaz",
          "group": 4
       },
       {
-         "id": "15572",
-         "group": 2
-      },
-      {
-         "id": "15565",
-         "group": 3
-      },
-      {
-         "id": "15569",
+         "id": "mschmalle",
          "group": 1
       },
       {
-         "id": "15574",
+         "id": "frishy",
          "group": 2
       },
       {
-         "id": "189",
+         "id": "dougarthur",
+         "group": 4
+      },
+      {
+         "id": "wave",
          "group": 1
       },
       {
-         "id": "15579",
+         "id": "joes",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 9,
-         "target": "394",
-         "source": "15576"
       },
       {
-         "value": 5,
-         "target": "15576",
-         "source": "15565"
+         "id": "tink",
+         "group": 3
       },
       {
-         "value": 3,
-         "target": "15574",
-         "source": "15579"
+         "id": "rduartes",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "15576",
-         "source": "15569"
-      },
-      {
-         "value": 1,
-         "target": "15572",
-         "source": "15571"
-      },
-      {
-         "value": 1,
-         "target": "394",
-         "source": "15571"
-      },
-      {
-         "value": 1,
-         "target": "15579",
-         "source": "15574"
-      },
-      {
-         "value": 5,
-         "target": "15572",
-         "source": "15574"
-      },
-      {
-         "value": 1,
-         "target": "15572",
-         "source": "15569"
-      },
-      {
-         "value": 1,
-         "target": "15571",
-         "source": "15576"
-      },
-      {
-         "value": 9,
-         "target": "15572",
-         "source": "394"
-      },
-      {
-         "value": 7,
-         "target": "189",
-         "source": "15576"
-      },
-      {
-         "value": 10,
-         "target": "15572",
-         "source": "15576"
-      },
-      {
-         "value": 1,
-         "target": "189",
-         "source": "15569"
-      },
-      {
-         "value": 3,
-         "target": "15572",
-         "source": "15579"
-      },
-      {
-         "value": 2,
-         "target": "189",
-         "source": "15565"
-      },
-      {
-         "value": 7,
-         "target": "15572",
-         "source": "189"
-      },
-      {
-         "value": 5,
-         "target": "394",
-         "source": "15565"
-      },
-      {
-         "value": 5,
-         "target": "15572",
-         "source": "15565"
-      },
-      {
-         "value": 6,
-         "target": "394",
-         "source": "189"
-      },
-      {
-         "value": 1,
-         "target": "189",
-         "source": "15571"
+         "id": "peterelst",
+         "group": 3
       }
    ]
 }

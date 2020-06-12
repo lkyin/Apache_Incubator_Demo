@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "13280",
-         "group": 3
-      },
-      {
-         "id": "7628",
-         "group": 3
-      },
-      {
-         "id": "7662",
-         "group": 1
-      },
-      {
-         "id": "7690",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Jacques Nadeau",
          "value": 2,
-         "target": "7662",
-         "source": "13280"
+         "target": "Timothy Chen"
       },
       {
+         "source": "jacques",
          "value": 2,
-         "target": "7690",
-         "source": "7628"
+         "target": "Steven Phillips"
       },
       {
+         "source": "Steven Phillips",
          "value": 3,
-         "target": "7690",
-         "source": "13280"
+         "target": "Timothy Chen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jacques",
+         "group": 2
+      },
+      {
+         "id": "Jacques Nadeau",
+         "group": 3
+      },
+      {
+         "id": "Timothy Chen",
+         "group": 2
+      },
+      {
+         "id": "Steven Phillips",
+         "group": 4
       }
    ]
 }

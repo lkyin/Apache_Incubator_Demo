@@ -1,42 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42182",
-         "group": 4
+         "source": "schor",
+         "value": 1,
+         "target": "eae"
       },
       {
-         "id": "42185",
+         "source": "twgoetz",
+         "value": 1,
+         "target": "mbaessler"
+      },
+      {
+         "source": "mbaessler",
+         "value": 4,
+         "target": "schor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "twgoetz",
          "group": 3
       },
       {
-         "id": "29744",
-         "group": 4
-      },
-      {
-         "id": "42184",
+         "id": "mbaessler",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42182",
-         "source": "42184"
       },
       {
-         "value": 1,
-         "target": "29744",
-         "source": "42184"
+         "id": "schor",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "42184",
-         "source": "42182"
-      },
-      {
-         "value": 1,
-         "target": "42182",
-         "source": "42185"
+         "id": "eae",
+         "group": 3
       }
    ]
 }

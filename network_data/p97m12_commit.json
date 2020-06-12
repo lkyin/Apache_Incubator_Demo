@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "7620",
-         "group": 2
-      },
-      {
-         "id": "7662",
-         "group": 3
-      },
-      {
-         "id": "7628",
-         "group": 3
-      },
-      {
-         "id": "13450",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "13450",
-         "source": "7662"
-      },
-      {
-         "value": 1,
-         "target": "7662",
-         "source": "7620"
-      },
-      {
+         "source": "Ben Becker",
          "value": 13,
-         "target": "13450",
-         "source": "7628"
+         "target": "Jacques Nadeau"
       },
       {
+         "source": "jacques",
+         "value": 5,
+         "target": "Ben Becker"
+      },
+      {
+         "source": "jacques",
          "value": 113,
-         "target": "7628",
-         "source": "7662"
+         "target": "Jacques Nadeau"
       },
       {
+         "source": "Julian Hyde",
+         "value": 1,
+         "target": "jacques"
+      },
+      {
+         "source": "Julian Hyde",
          "value": 2,
-         "target": "7628",
-         "source": "7620"
+         "target": "Jacques Nadeau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Julian Hyde",
+         "group": 1
+      },
+      {
+         "id": "jacques",
+         "group": 3
+      },
+      {
+         "id": "Ben Becker",
+         "group": 4
+      },
+      {
+         "id": "Jacques Nadeau",
+         "group": 1
       }
    ]
 }

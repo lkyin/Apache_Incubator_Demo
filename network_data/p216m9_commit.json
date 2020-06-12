@@ -1,28 +1,33 @@
 {
+   "links": [
+      {
+         "source": "Reynold Xin",
+         "value": 2,
+         "target": "Aaron Davidson"
+      },
+      {
+         "source": "Aaron Davidson",
+         "value": 1,
+         "target": "adav"
+      },
+      {
+         "source": "adav",
+         "value": 1,
+         "target": "Aaron Davidson"
+      }
+   ],
    "nodes": [
       {
-         "id": "37130",
+         "id": "Reynold Xin",
+         "group": 3
+      },
+      {
+         "id": "adav",
          "group": 1
       },
       {
-         "id": "37227",
-         "group": 3
-      },
-      {
-         "id": "37120",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "37120",
-         "source": "37227"
-      },
-      {
-         "value": 2,
-         "target": "37120",
-         "source": "37130"
+         "id": "Aaron Davidson",
+         "group": 1
       }
    ]
 }

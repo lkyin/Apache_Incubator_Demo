@@ -1,47 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3331",
-         "group": 3
+         "source": "Hitesh Shah",
+         "value": 10,
+         "target": "Bikas Saha"
       },
       {
-         "id": "36629",
+         "source": "Siddharth Seth",
+         "value": 19,
+         "target": "Bikas Saha"
+      },
+      {
+         "source": "Gopal V",
+         "value": 1,
+         "target": "Siddharth Seth"
+      },
+      {
+         "source": "Siddharth Seth",
+         "value": 17,
+         "target": "Hitesh Shah"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gopal V",
          "group": 1
       },
       {
-         "id": "24013",
-         "group": 3
+         "id": "Siddharth Seth",
+         "group": 4
       },
       {
-         "id": "39876",
+         "id": "Hitesh Shah",
+         "group": 4
+      },
+      {
+         "id": "Bikas Saha",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "36629",
-         "source": "3331"
-      },
-      {
-         "value": 15,
-         "target": "3331",
-         "source": "36629"
-      },
-      {
-         "value": 1,
-         "target": "39876",
-         "source": "36629"
-      },
-      {
-         "value": 10,
-         "target": "24013",
-         "source": "3331"
-      },
-      {
-         "value": 19,
-         "target": "24013",
-         "source": "36629"
       }
    ]
 }

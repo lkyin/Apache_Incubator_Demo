@@ -1,70 +1,70 @@
 {
-   "nodes": [
-      {
-         "id": "9043",
-         "group": 2
-      },
-      {
-         "id": "8516",
-         "group": 2
-      },
-      {
-         "id": "9038",
-         "group": 3
-      },
-      {
-         "id": "9041",
-         "group": 1
-      },
-      {
-         "id": "9042",
-         "group": 3
-      },
-      {
-         "id": "8503",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "9038",
-         "source": "8503"
+         "source": "Malcolm Edgar",
+         "value": 3,
+         "target": "Bob Schellink"
       },
       {
-         "value": 5,
-         "target": "9038",
-         "source": "9041"
+         "source": "Bob Schellink",
+         "value": 2,
+         "target": "Marc Sulivan"
       },
       {
+         "source": "Bob Schellink",
+         "value": 5,
+         "target": "Ricardo Lecheta"
+      },
+      {
+         "source": "Andrus Adamchik",
+         "value": 5,
+         "target": "Bob Schellink"
+      },
+      {
+         "source": "Ricardo Lecheta",
+         "value": 5,
+         "target": "Bob Schellink"
+      },
+      {
+         "source": "Bob Schellink",
+         "value": 2,
+         "target": "Malcolm Edgar"
+      },
+      {
+         "source": "Bob Schellink",
          "value": 1,
-         "target": "9043",
-         "source": "9038"
+         "target": "Demetrios Kyriakis"
       },
       {
+         "source": "Bob Schellink",
          "value": 3,
-         "target": "8503",
-         "source": "9038"
+         "target": "Andrus Adamchik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Malcolm Edgar",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "8516",
-         "source": "9038"
+         "id": "Marc Sulivan",
+         "group": 3
       },
       {
-         "value": 5,
-         "target": "9041",
-         "source": "9038"
+         "id": "Ricardo Lecheta",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "9042",
-         "source": "9038"
+         "id": "Bob Schellink",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "9038",
-         "source": "8516"
+         "id": "Demetrios Kyriakis",
+         "group": 3
+      },
+      {
+         "id": "Andrus Adamchik",
+         "group": 2
       }
    ]
 }

@@ -1,47 +1,42 @@
 {
+   "links": [
+      {
+         "source": "solomax",
+         "value": 30,
+         "target": "sebawagner"
+      },
+      {
+         "source": "solomax",
+         "value": 3,
+         "target": "ggrekhov"
+      },
+      {
+         "source": "aaf",
+         "value": 3,
+         "target": "ggrekhov"
+      },
+      {
+         "source": "ggrekhov",
+         "value": 2,
+         "target": "sebawagner"
+      }
+   ],
    "nodes": [
       {
-         "id": "29356",
+         "id": "solomax",
          "group": 2
       },
       {
-         "id": "29392",
+         "id": "aaf",
+         "group": 3
+      },
+      {
+         "id": "ggrekhov",
          "group": 4
       },
       {
-         "id": "29355",
-         "group": 2
-      },
-      {
-         "id": "29373",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "29373",
-         "source": "29356"
-      },
-      {
-         "value": 1,
-         "target": "29355",
-         "source": "29373"
-      },
-      {
-         "value": 30,
-         "target": "29355",
-         "source": "29356"
-      },
-      {
-         "value": 1,
-         "target": "29373",
-         "source": "29355"
-      },
-      {
-         "value": 3,
-         "target": "29392",
-         "source": "29373"
+         "id": "sebawagner",
+         "group": 1
       }
    ]
 }

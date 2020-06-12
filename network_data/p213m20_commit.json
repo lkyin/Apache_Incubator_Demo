@@ -1,66 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "394",
-         "group": 3
-      },
-      {
-         "id": "8694",
-         "group": 1
-      },
-      {
-         "id": "15018",
-         "group": 1
-      },
-      {
-         "id": "36663",
-         "group": 3
-      },
-      {
-         "id": "398",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "cziegeler",
+         "value": 1,
+         "target": "vramdal"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "vramdal"
+      },
+      {
+         "source": "fmeschbe",
+         "value": 1,
+         "target": "vramdal"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 2,
+         "target": "cziegeler"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "fmeschbe"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 2,
+         "target": "jukka"
+      },
+      {
+         "source": "fmeschbe",
          "value": 9,
-         "target": "398",
-         "source": "15018"
+         "target": "cziegeler"
       },
       {
-         "value": 2,
-         "target": "394",
-         "source": "398"
-      },
-      {
+         "source": "jukka",
          "value": 1,
-         "target": "8694",
-         "source": "398"
+         "target": "cziegeler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "394",
-         "source": "8694"
+         "id": "fmeschbe",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "394",
-         "source": "36663"
+         "id": "jukka",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "394",
-         "source": "15018"
+         "id": "cziegeler",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "36663",
-         "source": "15018"
-      },
-      {
-         "value": 1,
-         "target": "398",
-         "source": "36663"
+         "id": "vramdal",
+         "group": 1
       }
    ]
 }

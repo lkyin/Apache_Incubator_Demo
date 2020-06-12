@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "26227",
-         "group": 1
-      },
-      {
-         "id": "33133",
-         "group": 2
-      },
-      {
-         "id": "26219",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "johnyangk",
          "value": 1,
-         "target": "33133",
-         "source": "26227"
+         "target": "chobrian"
       },
       {
+         "source": "bgchun",
          "value": 1,
-         "target": "26219",
-         "source": "33133"
+         "target": "chobrian"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bgchun",
+         "group": 3
+      },
+      {
+         "id": "johnyangk",
+         "group": 3
+      },
+      {
+         "id": "chobrian",
+         "group": 3
       }
    ]
 }

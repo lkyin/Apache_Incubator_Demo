@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13300",
-         "group": 2
+         "source": "tshiran",
+         "value": 3,
+         "target": "Jacques Nadeau"
       },
       {
-         "id": "13395",
+         "source": "tshiran",
+         "value": 2,
+         "target": "Gera Shegalov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tshiran",
+         "group": 3
+      },
+      {
+         "id": "Jacques Nadeau",
          "group": 1
       },
       {
-         "id": "13406",
+         "id": "Gera Shegalov",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "13406",
-         "source": "13300"
-      },
-      {
-         "value": 3,
-         "target": "13395",
-         "source": "13300"
       }
    ]
 }

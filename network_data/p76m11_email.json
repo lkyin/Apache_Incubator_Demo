@@ -1,60 +1,60 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8611",
-         "group": 4
+         "source": "MULDER Frank Willem",
+         "value": 1,
+         "target": "Marcel Offermans"
       },
       {
-         "id": "8661",
+         "source": "Alexander Broekhuis (JIRA)",
+         "value": 2,
+         "target": "Rob ten Hove (JIRA)"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 9,
+         "target": "MULDER Frank Willem"
+      },
+      {
+         "source": "Alexander Broekhuis (JIRA)",
+         "value": 6,
+         "target": "Frank Mulder (JIRA)"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "MULDER Frank Willem",
+         "value": 2,
+         "target": "Alexander Broekhuis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Frank Mulder (JIRA)",
          "group": 2
       },
       {
-         "id": "8613",
+         "id": "Marcel Offermans",
+         "group": 2
+      },
+      {
+         "id": "Rob ten Hove (JIRA)",
          "group": 3
       },
       {
-         "id": "402",
-         "group": 3
+         "id": "Alexander Broekhuis",
+         "group": 2
       },
       {
-         "id": "8615",
-         "group": 1
+         "id": "MULDER Frank Willem",
+         "group": 2
       },
       {
-         "id": "8651",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8651",
-         "source": "402"
-      },
-      {
-         "value": 6,
-         "target": "8615",
-         "source": "8611"
-      },
-      {
-         "value": 2,
-         "target": "8613",
-         "source": "8611"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "8661"
-      },
-      {
-         "value": 2,
-         "target": "8651",
-         "source": "8661"
-      },
-      {
-         "value": 9,
-         "target": "8661",
-         "source": "8651"
+         "id": "Alexander Broekhuis (JIRA)",
+         "group": 2
       }
    ]
 }

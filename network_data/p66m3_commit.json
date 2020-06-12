@@ -1,47 +1,52 @@
 {
+   "links": [
+      {
+         "source": "dwoods",
+         "value": 5,
+         "target": "romanstumm"
+      },
+      {
+         "source": "romanstumm",
+         "value": 1,
+         "target": "struberg"
+      },
+      {
+         "source": "romanstumm",
+         "value": 1,
+         "target": "jrbauer"
+      },
+      {
+         "source": "dwoods",
+         "value": 1,
+         "target": "struberg"
+      },
+      {
+         "source": "romanstumm",
+         "value": 4,
+         "target": "dwoods"
+      },
+      {
+         "source": "dwoods",
+         "value": 1,
+         "target": "jrbauer"
+      }
+   ],
    "nodes": [
       {
-         "id": "7564",
+         "id": "romanstumm",
+         "group": 1
+      },
+      {
+         "id": "jrbauer",
          "group": 4
       },
       {
-         "id": "7566",
+         "id": "dwoods",
+         "group": 3
+      },
+      {
+         "id": "struberg",
          "group": 2
-      },
-      {
-         "id": "5927",
-         "group": 2
-      },
-      {
-         "id": "7568",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5927",
-         "source": "7566"
-      },
-      {
-         "value": 1,
-         "target": "7568",
-         "source": "7566"
-      },
-      {
-         "value": 1,
-         "target": "5927",
-         "source": "7564"
-      },
-      {
-         "value": 9,
-         "target": "7566",
-         "source": "7564"
-      },
-      {
-         "value": 1,
-         "target": "7568",
-         "source": "7564"
       }
    ]
 }

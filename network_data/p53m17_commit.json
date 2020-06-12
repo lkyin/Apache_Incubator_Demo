@@ -1,57 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "1103",
-         "group": 3
-      },
-      {
-         "id": "1095",
-         "group": 3
-      },
-      {
-         "id": "1106",
-         "group": 2
-      },
-      {
-         "id": "1107",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "samindaw",
          "value": 7,
-         "target": "1107",
-         "source": "1095"
+         "target": "smarru"
       },
       {
-         "value": 57,
-         "target": "1107",
-         "source": "1103"
-      },
-      {
-         "value": 6,
-         "target": "1103",
-         "source": "1106"
-      },
-      {
-         "value": 6,
-         "target": "1095",
-         "source": "1103"
-      },
-      {
-         "value": 6,
-         "target": "1103",
-         "source": "1095"
-      },
-      {
+         "source": "heshan",
          "value": 2,
-         "target": "1107",
-         "source": "1106"
+         "target": "samindaw"
       },
       {
+         "source": "lahiru",
+         "value": 57,
+         "target": "samindaw"
+      },
+      {
+         "source": "heshan",
          "value": 9,
-         "target": "1095",
-         "source": "1106"
+         "target": "smarru"
+      },
+      {
+         "source": "lahiru",
+         "value": 12,
+         "target": "smarru"
+      },
+      {
+         "source": "heshan",
+         "value": 6,
+         "target": "lahiru"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "heshan",
+         "group": 3
+      },
+      {
+         "id": "lahiru",
+         "group": 3
+      },
+      {
+         "id": "samindaw",
+         "group": 3
+      },
+      {
+         "id": "smarru",
+         "group": 4
       }
    ]
 }

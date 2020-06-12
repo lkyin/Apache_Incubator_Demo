@@ -1,38 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "388",
-         "group": 3
-      },
-      {
-         "id": "3571",
-         "group": 4
-      },
-      {
-         "id": "7097",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "3571",
-         "source": "7097"
-      },
-      {
+         "source": "John D. Ament",
          "value": 2,
-         "target": "7097",
-         "source": "3571"
+         "target": "Aaron McCurry"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "7097",
-         "source": "388"
+         "target": "Tim Williams"
       },
       {
+         "source": "Tim Williams",
          "value": 1,
-         "target": "388",
-         "source": "3571"
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Aaron McCurry",
+         "group": 3
+      },
+      {
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "Tim Williams",
+         "group": 4
       }
    ]
 }

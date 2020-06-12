@@ -1,61 +1,71 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "28617",
-         "group": 2
+         "source": "ilgrosso",
+         "value": 1,
+         "target": "elecharny"
       },
       {
-         "id": "5868",
+         "source": "ilgrosso",
+         "value": 62,
+         "target": "rene"
+      },
+      {
+         "source": "rene",
+         "value": 10,
+         "target": "fmartelli"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 43,
+         "target": "coheigea"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 34,
+         "target": "fmartelli"
+      },
+      {
+         "source": "fmartelli",
+         "value": 1,
+         "target": "rene"
+      },
+      {
+         "source": "coheigea",
+         "value": 7,
+         "target": "fmartelli"
+      },
+      {
+         "source": "fmartelli",
+         "value": 3,
+         "target": "ilgrosso"
+      },
+      {
+         "source": "coheigea",
+         "value": 6,
+         "target": "rene"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ilgrosso",
          "group": 1
       },
       {
-         "id": "28618",
+         "id": "fmartelli",
+         "group": 3
+      },
+      {
+         "id": "elecharny",
+         "group": 4
+      },
+      {
+         "id": "coheigea",
          "group": 2
       },
       {
-         "id": "39242",
-         "group": 2
-      },
-      {
-         "id": "29148",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5868",
-         "source": "28617"
-      },
-      {
-         "value": 62,
-         "target": "39242",
-         "source": "28617"
-      },
-      {
-         "value": 37,
-         "target": "28618",
-         "source": "28617"
-      },
-      {
-         "value": 43,
-         "target": "29148",
-         "source": "28617"
-      },
-      {
-         "value": 6,
-         "target": "29148",
-         "source": "39242"
-      },
-      {
-         "value": 7,
-         "target": "29148",
-         "source": "28618"
-      },
-      {
-         "value": 11,
-         "target": "39242",
-         "source": "28618"
+         "id": "rene",
+         "group": 3
       }
    ]
 }

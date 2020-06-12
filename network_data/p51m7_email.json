@@ -1,82 +1,82 @@
 {
-   "nodes": [
-      {
-         "id": "411",
-         "group": 3
-      },
-      {
-         "id": "410",
-         "group": 3
-      },
-      {
-         "id": "420",
-         "group": 1
-      },
-      {
-         "id": "419",
-         "group": 3
-      },
-      {
-         "id": "405",
-         "group": 4
-      },
-      {
-         "id": "422",
-         "group": 3
-      },
-      {
-         "id": "402",
-         "group": 1
-      },
-      {
-         "id": "180",
-         "group": 1
-      },
-      {
-         "id": "421",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "180",
-         "source": "405"
+         "source": "Marcel Offermans",
+         "value": 2,
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Jean-Baptiste Onofre",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Marcel Offermans",
          "value": 4,
-         "target": "420",
-         "source": "402"
+         "target": "=?utf-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?="
       },
       {
+         "source": "Martijn van Berkum",
+         "value": 1,
+         "target": "Toni Menzel"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Marcel Offermans (JIRA)",
          "value": 6,
-         "target": "410",
-         "source": "411"
+         "target": "Toni Menzel (JIRA)"
       },
       {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
+      },
+      {
+         "source": "Carsten Ziegeler",
          "value": 2,
-         "target": "180",
-         "source": "402"
+         "target": "Marcel Offermans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Toni Menzel (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "402",
-         "source": "421"
+         "id": "Marcel Offermans",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "405",
-         "source": "422"
+         "id": "=?utf-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?=",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "402",
-         "source": "180"
+         "id": "Jean-Baptiste Onofre",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "419",
-         "source": "402"
+         "id": "Martijn van Berkum",
+         "group": 3
+      },
+      {
+         "id": "Carsten Ziegeler",
+         "group": 1
+      },
+      {
+         "id": "Marcel Offermans (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Toni Menzel",
+         "group": 3
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 2
       }
    ]
 }

@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "15039",
-         "group": 3
+         "source": "Walter Ray-Dulany",
+         "value": 13,
+         "target": "eawilliams"
       },
       {
-         "id": "31744",
+         "source": "Tim Ellison",
+         "value": 10,
+         "target": "eawilliams"
+      },
+      {
+         "source": "Jacob Wilder",
+         "value": 1,
+         "target": "eawilliams"
+      },
+      {
+         "source": "raydulany",
+         "value": 149,
+         "target": "eawilliams"
+      },
+      {
+         "source": "Tim Ellison",
+         "value": 2,
+         "target": "Walter Ray-Dulany"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jacob Wilder",
+         "group": 1
+      },
+      {
+         "id": "Tim Ellison",
          "group": 4
       },
       {
-         "id": "31762",
-         "group": 2
+         "id": "Walter Ray-Dulany",
+         "group": 1
       },
       {
-         "id": "31760",
+         "id": "raydulany",
+         "group": 1
+      },
+      {
+         "id": "eawilliams",
          "group": 3
-      },
-      {
-         "id": "31761",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "31760",
-         "source": "15039"
-      },
-      {
-         "value": 149,
-         "target": "31761",
-         "source": "31744"
-      },
-      {
-         "value": 10,
-         "target": "31744",
-         "source": "15039"
-      },
-      {
-         "value": 13,
-         "target": "31760",
-         "source": "31744"
-      },
-      {
-         "value": 1,
-         "target": "31762",
-         "source": "31744"
       }
    ]
 }

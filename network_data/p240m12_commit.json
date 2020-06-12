@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "29744",
-         "group": 3
-      },
-      {
-         "id": "42183",
-         "group": 4
-      },
-      {
-         "id": "42182",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "alally",
          "value": 1,
-         "target": "29744",
-         "source": "42182"
+         "target": "schor"
       },
       {
+         "source": "twgoetz",
          "value": 1,
-         "target": "42182",
-         "source": "42183"
+         "target": "schor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "twgoetz",
+         "group": 3
+      },
+      {
+         "id": "alally",
+         "group": 1
+      },
+      {
+         "id": "schor",
+         "group": 3
       }
    ]
 }

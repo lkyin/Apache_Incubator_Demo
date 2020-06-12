@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7472",
-         "group": 1
+         "source": "boisvert",
+         "value": 4,
+         "target": "assaf"
       },
       {
-         "id": "7466",
+         "source": "vborja",
+         "value": 14,
+         "target": "assaf"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "vborja",
+         "group": 2
+      },
+      {
+         "id": "boisvert",
          "group": 4
       },
       {
-         "id": "7453",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "7453",
-         "source": "7466"
-      },
-      {
-         "value": 14,
-         "target": "7453",
-         "source": "7472"
+         "id": "assaf",
+         "group": 4
       }
    ]
 }

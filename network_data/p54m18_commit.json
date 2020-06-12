@@ -1,85 +1,100 @@
 {
-   "nodes": [
-      {
-         "id": "1371",
-         "group": 4
-      },
-      {
-         "id": "1324",
-         "group": 3
-      },
-      {
-         "id": "1329",
-         "group": 1
-      },
-      {
-         "id": "1419",
-         "group": 3
-      },
-      {
-         "id": "1654",
-         "group": 1
-      },
-      {
-         "id": "1421",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "1421",
-         "source": "1371"
-      },
-      {
-         "value": 5,
-         "target": "1654",
-         "source": "1419"
-      },
-      {
-         "value": 19,
-         "target": "1329",
-         "source": "1371"
-      },
-      {
+         "source": "Chris Riccomini",
          "value": 3,
-         "target": "1654",
-         "source": "1371"
+         "target": "Alex Guziel"
       },
       {
+         "source": "Chris Riccomini",
+         "value": 16,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 1,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "bolke",
          "value": 5,
-         "target": "1324",
-         "source": "1371"
+         "target": "Alex Guziel"
       },
       {
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "criccomini"
+      },
+      {
+         "source": "Bolke de Bruin",
          "value": 4,
-         "target": "1654",
-         "source": "1329"
+         "target": "Alex Guziel"
       },
       {
+         "source": "Chris Riccomini",
+         "value": 9,
+         "target": "bolke"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 5,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "bolke",
+         "value": 33,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "bolke",
+         "value": 1,
+         "target": "criccomini"
+      },
+      {
+         "source": "bolke",
          "value": 2,
-         "target": "1324",
-         "source": "1419"
+         "target": "Dan Davydov"
       },
       {
-         "value": 1,
-         "target": "1421",
-         "source": "1419"
+         "source": "bolke",
+         "value": 3,
+         "target": "Chris Riccomini"
       },
       {
-         "value": 12,
-         "target": "1419",
-         "source": "1371"
+         "source": "Bolke de Bruin",
+         "value": 7,
+         "target": "bolke"
       },
       {
-         "value": 1,
-         "target": "1324",
-         "source": "1329"
+         "source": "Bolke de Bruin",
+         "value": 3,
+         "target": "Chris Riccomini"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bolke",
+         "group": 2
       },
       {
-         "value": 40,
-         "target": "1419",
-         "source": "1329"
+         "id": "criccomini",
+         "group": 4
+      },
+      {
+         "id": "Alex Guziel",
+         "group": 1
+      },
+      {
+         "id": "Dan Davydov",
+         "group": 3
+      },
+      {
+         "id": "Chris Riccomini",
+         "group": 4
+      },
+      {
+         "id": "Bolke de Bruin",
+         "group": 3
       }
    ]
 }

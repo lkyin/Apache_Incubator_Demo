@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "5158",
-         "group": 4
+         "source": "Roman Shaposhnik",
+         "value": 1,
+         "target": "David Akehurst"
       },
       {
-         "id": "6734",
+         "source": "David Akehurst",
+         "value": 1,
+         "target": "Roman Shaposhnik"
+      },
+      {
+         "source": "Roman Shaposhnik",
+         "value": 1,
+         "target": "David Akehurst"
+      },
+      {
+         "source": "Konstantin Boudnik",
+         "value": 1,
+         "target": "Roman Shaposhnik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Roman Shaposhnik",
          "group": 3
       },
       {
-         "id": "3334",
-         "group": 2
-      },
-      {
-         "id": "28042",
+         "id": "David Akehurst",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "28042",
-         "source": "5158"
       },
       {
-         "value": 1,
-         "target": "28042",
-         "source": "3334"
+         "id": "Konstantin Boudnik",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "3334",
-         "source": "28042"
-      },
-      {
-         "value": 1,
-         "target": "5158",
-         "source": "6734"
+         "id": "Roman Shaposhnik",
+         "group": 2
       }
    ]
 }

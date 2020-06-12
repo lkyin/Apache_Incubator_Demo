@@ -1,133 +1,118 @@
 {
-   "nodes": [
-      {
-         "id": "35330",
-         "group": 2
-      },
-      {
-         "id": "35328",
-         "group": 1
-      },
-      {
-         "id": "35333",
-         "group": 1
-      },
-      {
-         "id": "544",
-         "group": 3
-      },
-      {
-         "id": "35363",
-         "group": 2
-      },
-      {
-         "id": "35325",
-         "group": 3
-      },
-      {
-         "id": "35327",
-         "group": 2
-      },
-      {
-         "id": "35331",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "lryan",
+         "value": 1,
+         "target": "doll"
+      },
+      {
+         "source": "lryan",
+         "value": 2,
+         "target": "beaton"
+      },
+      {
+         "source": "etnu",
          "value": 13,
-         "target": "35331",
-         "source": "35330"
+         "target": "beaton"
       },
       {
-         "value": 6,
-         "target": "35333",
-         "source": "35330"
+         "source": "doll",
+         "value": 2,
+         "target": "zhen"
       },
       {
+         "source": "beaton",
          "value": 1,
-         "target": "35333",
-         "source": "35363"
+         "target": "zhen"
       },
       {
+         "source": "beaton",
          "value": 3,
-         "target": "35327",
-         "source": "35325"
+         "target": "brianm"
       },
       {
+         "source": "etnu",
+         "value": 5,
+         "target": "zhen"
+      },
+      {
+         "source": "beaton",
+         "value": 1,
+         "target": "doll"
+      },
+      {
+         "source": "doll",
+         "value": 3,
+         "target": "chabotc"
+      },
+      {
+         "source": "etnu",
+         "value": 6,
+         "target": "brianm"
+      },
+      {
+         "source": "lryan",
+         "value": 1,
+         "target": "zhen"
+      },
+      {
+         "source": "doll",
+         "value": 1,
+         "target": "beaton"
+      },
+      {
+         "source": "etnu",
+         "value": 1,
+         "target": "johnh"
+      },
+      {
+         "source": "lryan",
+         "value": 6,
+         "target": "etnu"
+      },
+      {
+         "source": "doll",
          "value": 8,
-         "target": "35327",
-         "source": "544"
+         "target": "brianm"
       },
       {
-         "value": 1,
-         "target": "35363",
-         "source": "35327"
+         "source": "etnu",
+         "value": 4,
+         "target": "doll"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "lryan",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "35328",
-         "source": "35330"
+         "id": "beaton",
+         "group": 2
       },
       {
-         "value": 6,
-         "target": "35330",
-         "source": "544"
+         "id": "doll",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "35330",
-         "source": "35363"
+         "id": "brianm",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "35331",
-         "source": "35363"
+         "id": "chabotc",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "35327",
-         "source": "35363"
+         "id": "johnh",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "35331",
-         "source": "544"
+         "id": "etnu",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "35363",
-         "source": "35330"
-      },
-      {
-         "value": 1,
-         "target": "35327",
-         "source": "35331"
-      },
-      {
-         "value": 1,
-         "target": "35330",
-         "source": "35327"
-      },
-      {
-         "value": 1,
-         "target": "35331",
-         "source": "35327"
-      },
-      {
-         "value": 1,
-         "target": "35333",
-         "source": "35327"
-      },
-      {
-         "value": 2,
-         "target": "35331",
-         "source": "35333"
-      },
-      {
-         "value": 3,
-         "target": "35327",
-         "source": "35330"
+         "id": "zhen",
+         "group": 3
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12117",
-         "group": 4
+         "source": "gerdogdu",
+         "value": 2,
+         "target": "bergmark"
       },
       {
-         "id": "30793",
+         "source": "gerdogdu",
+         "value": 22,
+         "target": "struberg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gerdogdu",
          "group": 3
       },
       {
-         "id": "5927",
+         "id": "bergmark",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 22,
-         "target": "5927",
-         "source": "12117"
       },
       {
-         "value": 2,
-         "target": "30793",
-         "source": "12117"
+         "id": "struberg",
+         "group": 3
       }
    ]
 }

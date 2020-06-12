@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "34143",
-         "group": 4
-      },
-      {
-         "id": "20232",
-         "group": 4
-      },
-      {
-         "id": "34145",
-         "group": 1
-      },
-      {
-         "id": "34142",
-         "group": 1
-      },
-      {
-         "id": "34146",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "34145",
-         "source": "20232"
-      },
-      {
-         "value": 3,
-         "target": "34142",
-         "source": "34143"
-      },
-      {
-         "value": 2,
-         "target": "34146",
-         "source": "20232"
-      },
-      {
+         "source": "Matthieu Morel",
          "value": 1,
-         "target": "34142",
-         "source": "20232"
+         "target": "Bruce Robbins"
+      },
+      {
+         "source": "Matthieu Morel",
+         "value": 2,
+         "target": "Karthik Kambatla"
+      },
+      {
+         "source": "Bruce Robbins",
+         "value": 3,
+         "target": "Bruce Robbins"
+      },
+      {
+         "source": "Leo Neumeyer",
+         "value": 4,
+         "target": "Matthieu Morel"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Leo Neumeyer",
+         "group": 1
+      },
+      {
+         "id": "Matthieu Morel",
+         "group": 2
+      },
+      {
+         "id": "Karthik Kambatla",
+         "group": 3
+      },
+      {
+         "id": "Bruce Robbins",
+         "group": 2
+      },
+      {
+         "id": "Bruce Robbins",
+         "group": 2
       }
    ]
 }

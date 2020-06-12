@@ -1,55 +1,55 @@
 {
-   "nodes": [
-      {
-         "id": "5884",
-         "group": 1
-      },
-      {
-         "id": "5905",
-         "group": 4
-      },
-      {
-         "id": "5907",
-         "group": 2
-      },
-      {
-         "id": "5902",
-         "group": 1
-      },
-      {
-         "id": "308",
-         "group": 2
-      },
-      {
-         "id": "5873",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Roger Schildmeijer (Commented) (JIRA)",
          "value": 1,
-         "target": "5884",
-         "source": "5873"
+         "target": "Adam Lofts (Created) (JIRA)"
       },
       {
+         "source": "Roger Schildmeijer",
          "value": 1,
-         "target": "308",
-         "source": "5873"
+         "target": "Marvin"
       },
       {
+         "source": "Roger Schildmeijer (Commented) (JIRA)",
+         "value": 1,
+         "target": "Roger Schildmeijer (Created) (JIRA)"
+      },
+      {
+         "source": "Johnathan Meehan",
          "value": 2,
-         "target": "5873",
-         "source": "5884"
+         "target": "Roger Schildmeijer"
       },
       {
+         "source": "Roger Schildmeijer",
          "value": 1,
-         "target": "5907",
-         "source": "5905"
+         "target": "Johnathan Meehan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Roger Schildmeijer (Created) (JIRA)",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "5902",
-         "source": "5905"
+         "id": "Johnathan Meehan",
+         "group": 1
+      },
+      {
+         "id": "Roger Schildmeijer",
+         "group": 3
+      },
+      {
+         "id": "Marvin",
+         "group": 3
+      },
+      {
+         "id": "Roger Schildmeijer (Commented) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Adam Lofts (Created) (JIRA)",
+         "group": 2
       }
    ]
 }

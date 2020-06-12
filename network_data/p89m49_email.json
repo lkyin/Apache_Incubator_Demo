@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "5158",
-         "group": 1
-      },
-      {
-         "id": "12020",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Matthew Hayes",
          "value": 2,
-         "target": "5158",
-         "source": "12020"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Roman Shaposhnik",
          "value": 2,
-         "target": "12020",
-         "source": "5158"
+         "target": "Matthew Hayes"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matthew Hayes",
+         "group": 3
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 3
       }
    ]
 }

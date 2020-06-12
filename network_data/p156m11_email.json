@@ -1,70 +1,70 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "11644",
-         "group": 4
+         "source": "Jack Krupansky",
+         "value": 5,
+         "target": "Karl Wright"
       },
       {
-         "id": "24244",
+         "source": "Grant Ingersoll",
+         "value": 2,
+         "target": "Jack Krupansky"
+      },
+      {
+         "source": "Karl Wright",
+         "value": 7,
+         "target": "Jack Krupansky"
+      },
+      {
+         "source": "Jack Krupansky",
+         "value": 1,
+         "target": "Grant Ingersoll"
+      },
+      {
+         "source": "Karl Wright",
+         "value": 14,
+         "target": "Grant Ingersoll"
+      },
+      {
+         "source": "karl.wright",
+         "value": 1,
+         "target": "Jack Krupansky"
+      },
+      {
+         "source": "Farzad Valad (JIRA)",
+         "value": 1,
+         "target": "Karl Wright (JIRA)"
+      },
+      {
+         "source": "Grant Ingersoll",
+         "value": 14,
+         "target": "Karl Wright"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "karl.wright",
          "group": 3
       },
       {
-         "id": "24235",
+         "id": "Grant Ingersoll",
+         "group": 1
+      },
+      {
+         "id": "Karl Wright (JIRA)",
          "group": 2
       },
       {
-         "id": "24221",
+         "id": "Jack Krupansky",
+         "group": 2
+      },
+      {
+         "id": "Farzad Valad (JIRA)",
          "group": 1
       },
       {
-         "id": "24225",
-         "group": 1
-      },
-      {
-         "id": "24210",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "24210",
-         "source": "24244"
-      },
-      {
-         "value": 5,
-         "target": "24235",
-         "source": "24225"
-      },
-      {
-         "value": 1,
-         "target": "24225",
-         "source": "24221"
-      },
-      {
-         "value": 2,
-         "target": "24225",
-         "source": "11644"
-      },
-      {
-         "value": 14,
-         "target": "11644",
-         "source": "24235"
-      },
-      {
-         "value": 1,
-         "target": "11644",
-         "source": "24225"
-      },
-      {
-         "value": 14,
-         "target": "24235",
-         "source": "11644"
-      },
-      {
-         "value": 7,
-         "target": "24225",
-         "source": "24235"
+         "id": "Karl Wright",
+         "group": 4
       }
    ]
 }

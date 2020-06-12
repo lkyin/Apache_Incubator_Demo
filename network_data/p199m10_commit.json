@@ -1,85 +1,80 @@
 {
-   "nodes": [
-      {
-         "id": "32894",
-         "group": 1
-      },
-      {
-         "id": "1097",
-         "group": 1
-      },
-      {
-         "id": "32900",
-         "group": 4
-      },
-      {
-         "id": "32906",
-         "group": 1
-      },
-      {
-         "id": "32899",
-         "group": 1
-      },
-      {
-         "id": "32905",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "jcian",
+         "value": 11,
+         "target": "carlucci"
+      },
+      {
+         "source": "jcian",
          "value": 1,
-         "target": "32899",
-         "source": "32900"
+         "target": "secooper"
       },
       {
+         "source": "ate",
          "value": 2,
-         "target": "1097",
-         "source": "32900"
+         "target": "carlucci"
       },
       {
+         "source": "carlucci",
          "value": 5,
-         "target": "32906",
-         "source": "32900"
+         "target": "secooper"
       },
       {
-         "value": 10,
-         "target": "32900",
-         "source": "32899"
-      },
-      {
+         "source": "jcian",
          "value": 1,
-         "target": "32906",
-         "source": "1097"
+         "target": "jasha"
       },
       {
-         "value": 1,
-         "target": "32906",
-         "source": "32899"
-      },
-      {
+         "source": "carlucci",
          "value": 2,
-         "target": "32900",
-         "source": "32894"
+         "target": "mpierce"
       },
       {
+         "source": "jcian",
          "value": 2,
-         "target": "1097",
-         "source": "32899"
+         "target": "mpierce"
       },
       {
+         "source": "carlucci",
          "value": 1,
-         "target": "32900",
-         "source": "32905"
+         "target": "jasha"
       },
       {
+         "source": "ate",
          "value": 1,
-         "target": "32905",
-         "source": "32899"
+         "target": "secooper"
       },
       {
+         "source": "mpierce",
          "value": 1,
-         "target": "32906",
-         "source": "32894"
+         "target": "secooper"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jasha",
+         "group": 3
+      },
+      {
+         "id": "jcian",
+         "group": 2
+      },
+      {
+         "id": "carlucci",
+         "group": 4
+      },
+      {
+         "id": "secooper",
+         "group": 4
+      },
+      {
+         "id": "mpierce",
+         "group": 1
+      },
+      {
+         "id": "ate",
+         "group": 3
       }
    ]
 }

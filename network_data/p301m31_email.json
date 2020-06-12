@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "38152",
-         "group": 1
-      },
-      {
-         "id": "38095",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Akopov, Sergei (GE Intelligent Platforms)",
          "value": 1,
-         "target": "38095",
-         "source": "38152"
+         "target": "Kamaljit Bath"
       },
       {
+         "source": "Kamaljit Bath",
          "value": 1,
-         "target": "38152",
-         "source": "38095"
+         "target": "Akopov, Sergei (GE Intelligent Platforms)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Kamaljit Bath",
+         "group": 2
+      },
+      {
+         "id": "Akopov, Sergei (GE Intelligent Platforms)",
+         "group": 3
       }
    ]
 }

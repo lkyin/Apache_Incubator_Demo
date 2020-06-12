@@ -1,47 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "3928",
-         "group": 4
-      },
-      {
-         "id": "3927",
-         "group": 3
-      },
-      {
-         "id": "3934",
-         "group": 3
-      },
-      {
-         "id": "3935",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "3934",
-         "source": "3928"
+         "source": "Dave Brondsema",
+         "value": 27,
+         "target": "Cory Johns"
       },
       {
-         "value": 59,
-         "target": "3927",
-         "source": "3928"
+         "source": "Dave Brondsema",
+         "value": 1,
+         "target": "Kyle Adams"
       },
       {
-         "value": 1,
-         "target": "3935",
-         "source": "3927"
+         "source": "Cory Johns",
+         "value": 32,
+         "target": "Dave Brondsema"
       },
       {
+         "source": "Kyle Adams",
          "value": 1,
-         "target": "3934",
-         "source": "3927"
+         "target": "Cory Johns"
       },
       {
+         "source": "Dave Brondsema",
          "value": 1,
-         "target": "3935",
-         "source": "3928"
+         "target": "rbowen"
+      },
+      {
+         "source": "rbowen",
+         "value": 1,
+         "target": "Cory Johns"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dave Brondsema",
+         "group": 1
+      },
+      {
+         "id": "Kyle Adams",
+         "group": 4
+      },
+      {
+         "id": "rbowen",
+         "group": 1
+      },
+      {
+         "id": "Cory Johns",
+         "group": 2
       }
    ]
 }

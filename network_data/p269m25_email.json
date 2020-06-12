@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "P. Taylor Goetz",
+         "value": 1,
+         "target": "johndament"
+      },
+      {
+         "source": "Edward Capriolo",
+         "value": 1,
+         "target": "P. Taylor Goetz"
+      },
+      {
+         "source": "Edward Capriolo",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 2,
+         "target": "Edward Capriolo"
+      }
+   ],
    "nodes": [
       {
-         "id": "3341",
+         "id": "John D. Ament",
          "group": 4
       },
       {
-         "id": "17918",
+         "id": "johndament",
          "group": 3
       },
       {
-         "id": "4723",
+         "id": "Edward Capriolo",
+         "group": 4
+      },
+      {
+         "id": "P. Taylor Goetz",
          "group": 2
-      },
-      {
-         "id": "3571",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "17918",
-         "source": "3571"
-      },
-      {
-         "value": 1,
-         "target": "4723",
-         "source": "17918"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "17918"
-      },
-      {
-         "value": 1,
-         "target": "3341",
-         "source": "4723"
       }
    ]
 }

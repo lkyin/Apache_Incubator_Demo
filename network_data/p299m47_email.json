@@ -1,70 +1,70 @@
 {
+   "links": [
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Gour Saha"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 2,
+         "target": "Billie Rinaldi"
+      },
+      {
+         "source": "Billie Rinaldi",
+         "value": 2,
+         "target": "Gour Saha"
+      },
+      {
+         "source": "=?UTF-8?B?64Ko6rK97JmE?=",
+         "value": 1,
+         "target": "Billie Rinaldi"
+      },
+      {
+         "source": "Gour Saha",
+         "value": 2,
+         "target": "Billie Rinaldi"
+      },
+      {
+         "source": "Billie Rinaldi",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "Ted Yu",
+         "value": 1,
+         "target": "Billie Rinaldi"
+      },
+      {
+         "source": "Gour Saha",
+         "value": 1,
+         "target": "John D. Ament"
+      }
+   ],
    "nodes": [
       {
-         "id": "4892",
+         "id": "Billie Rinaldi",
          "group": 4
       },
       {
-         "id": "4164",
+         "id": "Gour Saha",
+         "group": 3
+      },
+      {
+         "id": "=?UTF-8?B?64Ko6rK97JmE?=",
          "group": 1
       },
       {
-         "id": "322",
-         "group": 4
+         "id": "Ted Yu",
+         "group": 3
       },
       {
-         "id": "36659",
+         "id": "John D. Ament",
          "group": 2
       },
       {
-         "id": "3571",
-         "group": 4
-      },
-      {
-         "id": "36515",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4892",
-         "source": "4164"
-      },
-      {
-         "value": 2,
-         "target": "4164",
-         "source": "36515"
-      },
-      {
-         "value": 1,
-         "target": "36515",
-         "source": "4892"
-      },
-      {
-         "value": 1,
-         "target": "4164",
-         "source": "36659"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "36515"
-      },
-      {
-         "value": 2,
-         "target": "36515",
-         "source": "4164"
-      },
-      {
-         "value": 2,
-         "target": "4164",
-         "source": "3571"
-      },
-      {
-         "value": 1,
-         "target": "4164",
-         "source": "322"
+         "id": "John D. Ament",
+         "group": 2
       }
    ]
 }

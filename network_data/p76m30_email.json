@@ -1,71 +1,71 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "402",
-         "group": 3
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Marvin"
       },
       {
-         "id": "308",
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "erik",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "erik"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "erik"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 4,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Pepijn Noltes",
+         "value": 5,
+         "target": "Alexander Broekhuis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Broekhuis",
          "group": 4
       },
       {
-         "id": "8651",
-         "group": 2
+         "id": "erik",
+         "group": 1
       },
       {
-         "id": "8662",
-         "group": 2
+         "id": "Marcel Offermans",
+         "group": 4
       },
       {
-         "id": "8674",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "8651",
-         "source": "8662"
+         "id": "Pepijn Noltes",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "8674",
-         "source": "8662"
-      },
-      {
-         "value": 4,
-         "target": "8662",
-         "source": "8651"
-      },
-      {
-         "value": 1,
-         "target": "8674",
-         "source": "402"
-      },
-      {
-         "value": 1,
-         "target": "308",
-         "source": "402"
-      },
-      {
-         "value": 1,
-         "target": "8662",
-         "source": "402"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "8662"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "8674"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "8651"
+         "id": "Marvin",
+         "group": 1
       }
    ]
 }

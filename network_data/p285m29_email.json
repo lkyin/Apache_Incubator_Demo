@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "25237",
-         "group": 4
-      },
-      {
-         "id": "25235",
-         "group": 4
-      },
-      {
-         "id": "16502",
-         "group": 2
-      },
-      {
-         "id": "4452",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "rmetzger",
          "value": 1,
-         "target": "25237",
-         "source": "16502"
+         "target": "chiwanpark"
       },
       {
+         "source": "asfgit",
          "value": 2,
-         "target": "25235",
-         "source": "4452"
+         "target": "fegaras"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fegaras",
+         "group": 4
+      },
+      {
+         "id": "rmetzger",
+         "group": 4
+      },
+      {
+         "id": "asfgit",
+         "group": 4
+      },
+      {
+         "id": "chiwanpark",
+         "group": 2
       }
    ]
 }

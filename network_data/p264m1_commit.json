@@ -1,66 +1,71 @@
 {
-   "nodes": [
-      {
-         "id": "11306",
-         "group": 1
-      },
-      {
-         "id": "11310",
-         "group": 1
-      },
-      {
-         "id": "11311",
-         "group": 2
-      },
-      {
-         "id": "11307",
-         "group": 2
-      },
-      {
-         "id": "11308",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "jani",
          "value": 1,
-         "target": "11307",
-         "source": "11310"
+         "target": "dortef"
       },
       {
-         "value": 13,
-         "target": "11308",
-         "source": "11307"
-      },
-      {
-         "value": 1,
-         "target": "11311",
-         "source": "11310"
-      },
-      {
-         "value": 3,
-         "target": "11306",
-         "source": "11311"
-      },
-      {
-         "value": 2,
-         "target": "11306",
-         "source": "11307"
-      },
-      {
-         "value": 1,
-         "target": "11306",
-         "source": "11310"
-      },
-      {
+         "source": "Peter Kelly",
          "value": 31,
-         "target": "11308",
-         "source": "11311"
+         "target": "jani"
       },
       {
+         "source": "dortef",
+         "value": 2,
+         "target": "jani"
+      },
+      {
+         "source": "pmkelly",
+         "value": 13,
+         "target": "Peter Kelly"
+      },
+      {
+         "source": "pmkelly",
+         "value": 1,
+         "target": "orcmid"
+      },
+      {
+         "source": "dortef",
+         "value": 1,
+         "target": "orcmid"
+      },
+      {
+         "source": "pmkelly",
          "value": 552,
-         "target": "11307",
-         "source": "11311"
+         "target": "jani"
+      },
+      {
+         "source": "jani",
+         "value": 1,
+         "target": "orcmid"
+      },
+      {
+         "source": "pmkelly",
+         "value": 2,
+         "target": "dortef"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pmkelly",
+         "group": 3
+      },
+      {
+         "id": "Peter Kelly",
+         "group": 3
+      },
+      {
+         "id": "jani",
+         "group": 4
+      },
+      {
+         "id": "orcmid",
+         "group": 3
+      },
+      {
+         "id": "dortef",
+         "group": 2
       }
    ]
 }

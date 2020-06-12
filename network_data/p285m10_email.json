@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "6719",
-         "group": 4
-      },
-      {
-         "id": "16569",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Edward J. Yoon",
          "value": 1,
-         "target": "6719",
-         "source": "16569"
+         "target": "Leonidas Fegaras"
       },
       {
+         "source": "Leonidas Fegaras",
          "value": 1,
-         "target": "16569",
-         "source": "6719"
+         "target": "Edward J. Yoon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Edward J. Yoon",
+         "group": 3
+      },
+      {
+         "id": "Leonidas Fegaras",
+         "group": 3
       }
    ]
 }

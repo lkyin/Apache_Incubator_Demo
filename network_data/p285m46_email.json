@@ -1,47 +1,47 @@
 {
+   "links": [
+      {
+         "source": "John D. Ament",
+         "value": 2,
+         "target": "Alan Cabrera"
+      },
+      {
+         "source": "Alan Cabrera",
+         "value": 1,
+         "target": "Leonidas Fegaras"
+      },
+      {
+         "source": "Alan Cabrera",
+         "value": 2,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Alan Cabrera"
+      },
+      {
+         "source": "Alan Cabrera",
+         "value": 1,
+         "target": "John D. Ament"
+      }
+   ],
    "nodes": [
       {
-         "id": "3571",
+         "id": "Alan Cabrera",
+         "group": 2
+      },
+      {
+         "id": "Alan Cabrera",
+         "group": 3
+      },
+      {
+         "id": "John D. Ament",
          "group": 4
       },
       {
-         "id": "16569",
-         "group": 2
-      },
-      {
-         "id": "8843",
-         "group": 2
-      },
-      {
-         "id": "8842",
+         "id": "Leonidas Fegaras",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8843",
-         "source": "3571"
-      },
-      {
-         "value": 2,
-         "target": "8842",
-         "source": "3571"
-      },
-      {
-         "value": 2,
-         "target": "3571",
-         "source": "8842"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "8843"
-      },
-      {
-         "value": 1,
-         "target": "16569",
-         "source": "8842"
       }
    ]
 }

@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "4201",
-         "group": 1
-      },
-      {
-         "id": "333",
-         "group": 4
-      },
-      {
-         "id": "4187",
-         "group": 2
-      },
-      {
-         "id": "4215",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Eric Yang",
          "value": 1,
-         "target": "333",
-         "source": "4187"
+         "target": "Owen O''Malley"
       },
       {
+         "source": "Sergey Avseyev (Commented) (JIRA)",
          "value": 1,
-         "target": "4201",
-         "source": "4215"
+         "target": "Ahmed Fathalla (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Eric Yang",
+         "group": 1
+      },
+      {
+         "id": "Ahmed Fathalla (Created) (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Owen O''Malley",
+         "group": 1
+      },
+      {
+         "id": "Sergey Avseyev (Commented) (JIRA)",
+         "group": 4
       }
    ]
 }

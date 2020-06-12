@@ -1,93 +1,93 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "22367",
-         "group": 1
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Henry Saputra"
       },
       {
-         "id": "22380",
+         "source": "John Hewitt",
+         "value": 1,
+         "target": "Matt Post"
+      },
+      {
+         "source": "Henry Saputra",
+         "value": 1,
+         "target": "lewis john mcgibbney"
+      },
+      {
+         "source": "Chris Mattmann",
+         "value": 1,
+         "target": "Tom Barber"
+      },
+      {
+         "source": "Tom Barber",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Henry Saputra",
+         "value": 2,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 2,
+         "target": "lewis john mcgibbney"
+      },
+      {
+         "source": "=?UTF-8?Q?Karel_Novotn=c3=bd?=",
+         "value": 1,
+         "target": "Matt Post"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "John Hewitt"
+      },
+      {
+         "source": "Matt Post",
+         "value": 1,
+         "target": "=?UTF-8?Q?Karel_Novotn=c3=bd?="
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Chris Mattmann"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tommaso Teofili",
          "group": 3
       },
       {
-         "id": "22440",
+         "id": "=?UTF-8?Q?Karel_Novotn=c3=bd?=",
+         "group": 3
+      },
+      {
+         "id": "Matt Post",
          "group": 4
       },
       {
-         "id": "22436",
+         "id": "John Hewitt",
+         "group": 2
+      },
+      {
+         "id": "Tom Barber",
+         "group": 4
+      },
+      {
+         "id": "Henry Saputra",
+         "group": 4
+      },
+      {
+         "id": "Chris Mattmann",
+         "group": 3
+      },
+      {
+         "id": "lewis john mcgibbney",
          "group": 1
-      },
-      {
-         "id": "5137",
-         "group": 2
-      },
-      {
-         "id": "4488",
-         "group": 4
-      },
-      {
-         "id": "5135",
-         "group": 2
-      },
-      {
-         "id": "387",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "22380",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "5135",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "22436"
-      },
-      {
-         "value": 1,
-         "target": "22367",
-         "source": "22380"
-      },
-      {
-         "value": 1,
-         "target": "387",
-         "source": "5137"
-      },
-      {
-         "value": 1,
-         "target": "22436",
-         "source": "5135"
-      },
-      {
-         "value": 1,
-         "target": "22367",
-         "source": "22440"
-      },
-      {
-         "value": 1,
-         "target": "22440",
-         "source": "22367"
-      },
-      {
-         "value": 2,
-         "target": "4488",
-         "source": "5137"
-      },
-      {
-         "value": 1,
-         "target": "5137",
-         "source": "4488"
-      },
-      {
-         "value": 2,
-         "target": "387",
-         "source": "4488"
       }
    ]
 }

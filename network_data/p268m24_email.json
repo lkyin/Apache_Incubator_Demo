@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "6097",
-         "group": 4
+         "source": "manuzhang",
+         "value": 1,
+         "target": "hepin1989"
       },
       {
-         "id": "17187",
+         "source": "asfgit",
+         "value": 1,
+         "target": "hepin1989"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "manuzhang",
          "group": 2
       },
       {
-         "id": "4452",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "17187",
-         "source": "4452"
+         "id": "asfgit",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "17187",
-         "source": "6097"
+         "id": "hepin1989",
+         "group": 1
       }
    ]
 }

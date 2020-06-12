@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "34915",
-         "group": 3
+         "source": "chirino",
+         "value": 3,
+         "target": "gnodet"
       },
       {
-         "id": "536",
+         "source": "pdodds",
+         "value": 4,
+         "target": "gnodet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "chirino",
          "group": 2
       },
       {
-         "id": "528",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "536",
-         "source": "528"
+         "id": "pdodds",
+         "group": 2
       },
       {
-         "value": 4,
-         "target": "536",
-         "source": "34915"
+         "id": "gnodet",
+         "group": 3
       }
    ]
 }

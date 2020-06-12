@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "402",
-         "group": 4
-      },
-      {
-         "id": "8651",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Marcel Offermans",
          "value": 1,
-         "target": "8651",
-         "source": "402"
+         "target": "Alexander Broekhuis"
       },
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "402",
-         "source": "8651"
+         "target": "Marcel Offermans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Broekhuis",
+         "group": 2
+      },
+      {
+         "id": "Marcel Offermans",
+         "group": 3
       }
    ]
 }

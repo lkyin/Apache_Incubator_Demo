@@ -1,52 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42182",
-         "group": 4
+         "source": "twgoetz",
+         "value": 10,
+         "target": "mbaessler"
       },
       {
-         "id": "29744",
+         "source": "mbaessler",
+         "value": 1,
+         "target": "schor"
+      },
+      {
+         "source": "twgoetz",
+         "value": 1,
+         "target": "alally"
+      },
+      {
+         "source": "twgoetz",
+         "value": 10,
+         "target": "schor"
+      },
+      {
+         "source": "alally",
+         "value": 1,
+         "target": "mbaessler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "twgoetz",
          "group": 1
       },
       {
-         "id": "42183",
-         "group": 4
-      },
-      {
-         "id": "42184",
+         "id": "alally",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42184",
-         "source": "42183"
       },
       {
-         "value": 4,
-         "target": "29744",
-         "source": "42184"
+         "id": "mbaessler",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "42183",
-         "source": "29744"
-      },
-      {
-         "value": 1,
-         "target": "42182",
-         "source": "42184"
-      },
-      {
-         "value": 6,
-         "target": "42184",
-         "source": "29744"
-      },
-      {
-         "value": 10,
-         "target": "42182",
-         "source": "29744"
+         "id": "schor",
+         "group": 3
       }
    ]
 }

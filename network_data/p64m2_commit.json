@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "5677",
-         "group": 4
-      },
-      {
-         "id": "5681",
-         "group": 4
-      },
-      {
-         "id": "5675",
-         "group": 3
-      },
-      {
-         "id": "5676",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "5681",
-         "source": "5677"
+         "source": "jfarrell",
+         "value": 3,
+         "target": "dlester"
       },
       {
-         "value": 3,
-         "target": "5675",
-         "source": "5676"
+         "source": "Bill Farner",
+         "value": 1,
+         "target": "Maxim Khutornenko"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bill Farner",
+         "group": 1
+      },
+      {
+         "id": "Maxim Khutornenko",
+         "group": 2
+      },
+      {
+         "id": "jfarrell",
+         "group": 1
+      },
+      {
+         "id": "dlester",
+         "group": 3
       }
    ]
 }

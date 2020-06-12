@@ -1,55 +1,55 @@
 {
+   "links": [
+      {
+         "source": "shimamoto",
+         "value": 9,
+         "target": "Naoki Takezoe"
+      },
+      {
+         "source": "Shinsuke Sugaya",
+         "value": 1,
+         "target": "takezoe"
+      },
+      {
+         "source": "shimamoto",
+         "value": 1,
+         "target": "Shinsuke Sugaya"
+      },
+      {
+         "source": "shimamoto",
+         "value": 1,
+         "target": "takezoe"
+      },
+      {
+         "source": "jenkins",
+         "value": 2,
+         "target": "git-site-role"
+      }
+   ],
    "nodes": [
       {
-         "id": "31954",
-         "group": 3
-      },
-      {
-         "id": "31957",
-         "group": 4
-      },
-      {
-         "id": "4849",
-         "group": 3
-      },
-      {
-         "id": "4848",
-         "group": 3
-      },
-      {
-         "id": "9036",
+         "id": "Shinsuke Sugaya",
          "group": 1
       },
       {
-         "id": "31955",
+         "id": "git-site-role",
+         "group": 2
+      },
+      {
+         "id": "shimamoto",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "4849",
-         "source": "4848"
       },
       {
-         "value": 9,
-         "target": "31957",
-         "source": "31954"
+         "id": "takezoe",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "31957",
-         "source": "9036"
+         "id": "jenkins",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "31955",
-         "source": "31957"
-      },
-      {
-         "value": 1,
-         "target": "31955",
-         "source": "9036"
+         "id": "Naoki Takezoe",
+         "group": 1
       }
    ]
 }

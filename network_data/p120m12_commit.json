@@ -1,19 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "6696",
-         "group": 4
-      },
-      {
-         "id": "18752",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "18752",
-         "source": "6696"
+         "source": "samuel",
+         "value": 4,
+         "target": "edwardyoon"
+      },
+      {
+         "source": "edwardyoon",
+         "value": 1,
+         "target": "samuel"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "edwardyoon",
+         "group": 1
+      },
+      {
+         "id": "samuel",
+         "group": 4
       }
    ]
 }

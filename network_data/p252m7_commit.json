@@ -1,19 +1,24 @@
 {
+   "links": [
+      {
+         "source": "moon",
+         "value": 5,
+         "target": "Lee moon soo"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 11,
+         "target": "moon"
+      }
+   ],
    "nodes": [
       {
-         "id": "45182",
+         "id": "moon",
          "group": 3
       },
       {
-         "id": "45177",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 16,
-         "target": "45177",
-         "source": "45182"
+         "id": "Lee moon soo",
+         "group": 2
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "26249",
-         "group": 4
+         "source": "Chris2011",
+         "value": 1,
+         "target": "Wade Chandler"
       },
       {
-         "id": "26252",
+         "source": "Wade Chandler",
+         "value": 4,
+         "target": "wadechandler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chris2011",
+         "group": 1
+      },
+      {
+         "id": "wadechandler",
          "group": 3
       },
       {
-         "id": "26253",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "26252",
-         "source": "26249"
-      },
-      {
-         "value": 4,
-         "target": "26253",
-         "source": "26252"
+         "id": "Wade Chandler",
+         "group": 1
       }
    ]
 }

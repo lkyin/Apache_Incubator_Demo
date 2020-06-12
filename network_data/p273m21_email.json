@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "20370",
-         "group": 4
-      },
-      {
-         "id": "20369",
-         "group": 2
-      },
-      {
-         "id": "20371",
-         "group": 4
-      },
-      {
-         "id": "20372",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "P.N.",
+         "value": 3,
+         "target": "pbs"
+      },
+      {
+         "source": "P.N.",
+         "value": 3,
+         "target": "Maciek =?ISO-8859-1?Q?Pr=F3chniak?="
+      },
+      {
+         "source": "Maciek =?ISO-8859-1?Q?Pr=F3chniak?=",
          "value": 2,
-         "target": "20369",
-         "source": "20372"
+         "target": "P.N."
       },
       {
+         "source": "pbs",
          "value": 1,
-         "target": "20369",
-         "source": "20370"
+         "target": "P.N."
       },
       {
-         "value": 3,
-         "target": "20371",
-         "source": "20369"
-      },
-      {
-         "value": 3,
-         "target": "20372",
-         "source": "20369"
-      },
-      {
+         "source": "Bartek Zdanowski",
          "value": 1,
-         "target": "20369",
-         "source": "20371"
+         "target": "P.N."
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maciek =?ISO-8859-1?Q?Pr=F3chniak?=",
+         "group": 1
+      },
+      {
+         "id": "P.N.",
+         "group": 3
+      },
+      {
+         "id": "pbs",
+         "group": 4
+      },
+      {
+         "id": "Bartek Zdanowski",
+         "group": 4
       }
    ]
 }

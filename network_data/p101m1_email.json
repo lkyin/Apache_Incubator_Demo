@@ -1,32 +1,32 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "9052",
-         "group": 2
+         "source": "Henning Schmiedehausen",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?J=F6rg_Reiher?="
       },
       {
-         "id": "7522",
+         "source": "Martijn Dashorst",
+         "value": 1,
+         "target": "Henning Schmiedehausen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Henning Schmiedehausen",
          "group": 1
       },
       {
-         "id": "7050",
-         "group": 4
+         "id": "Martijn Dashorst",
+         "group": 2
       },
       {
-         "id": "14630",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "9052",
-         "source": "7522"
+         "id": "Henning Schmiedehausen",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "14630",
-         "source": "7050"
+         "id": "=?iso-8859-1?Q?J=F6rg_Reiher?=",
+         "group": 1
       }
    ]
 }

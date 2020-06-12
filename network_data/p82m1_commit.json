@@ -1,33 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "10036",
-         "group": 1
-      },
-      {
-         "id": "10033",
-         "group": 1
-      },
-      {
-         "id": "10032",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 21,
-         "target": "10032",
-         "source": "10036"
-      },
-      {
-         "value": 14,
-         "target": "10032",
-         "source": "10033"
-      },
-      {
+         "source": "Sergio Fern??ndez",
          "value": 16,
-         "target": "10033",
-         "source": "10036"
+         "target": "wikier"
+      },
+      {
+         "source": "wikier",
+         "value": 14,
+         "target": "Peter Ansell"
+      },
+      {
+         "source": "Sergio Fern??ndez",
+         "value": 16,
+         "target": "Peter Ansell"
+      },
+      {
+         "source": "wikier",
+         "value": 5,
+         "target": "Sergio Fern??ndez"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "wikier",
+         "group": 4
+      },
+      {
+         "id": "Peter Ansell",
+         "group": 3
+      },
+      {
+         "id": "Sergio Fern??ndez",
+         "group": 2
       }
    ]
 }

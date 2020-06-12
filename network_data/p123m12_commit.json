@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "19956",
-         "group": 1
-      },
-      {
-         "id": "19969",
-         "group": 2
-      },
-      {
-         "id": "19970",
-         "group": 2
-      },
-      {
-         "id": "19958",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "toffer",
          "value": 14,
-         "target": "19970",
-         "source": "19956"
+         "target": "gates"
       },
       {
-         "value": 3,
-         "target": "19958",
-         "source": "19970"
-      },
-      {
-         "value": 8,
-         "target": "19958",
-         "source": "19956"
-      },
-      {
-         "value": 2,
-         "target": "19970",
-         "source": "19969"
-      },
-      {
+         "source": "khorgath",
          "value": 5,
-         "target": "19969",
-         "source": "19956"
+         "target": "gates"
+      },
+      {
+         "source": "toffer",
+         "value": 3,
+         "target": "hashutosh"
+      },
+      {
+         "source": "hashutosh",
+         "value": 8,
+         "target": "gates"
+      },
+      {
+         "source": "toffer",
+         "value": 2,
+         "target": "khorgath"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "toffer",
+         "group": 4
+      },
+      {
+         "id": "khorgath",
+         "group": 2
+      },
+      {
+         "id": "hashutosh",
+         "group": 4
+      },
+      {
+         "id": "gates",
+         "group": 4
       }
    ]
 }

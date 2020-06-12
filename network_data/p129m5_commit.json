@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "20940",
-         "group": 1
-      },
-      {
-         "id": "20948",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Tim Armstrong",
          "value": 3,
-         "target": "20948",
-         "source": "20940"
+         "target": "Internal Jenkins"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tim Armstrong",
+         "group": 3
+      },
+      {
+         "id": "Internal Jenkins",
+         "group": 2
       }
    ]
 }

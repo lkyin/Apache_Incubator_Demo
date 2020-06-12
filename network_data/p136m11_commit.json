@@ -1,66 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "22159",
-         "group": 2
-      },
-      {
-         "id": "22158",
-         "group": 4
-      },
-      {
-         "id": "10038",
-         "group": 3
-      },
-      {
-         "id": "22160",
-         "group": 3
-      },
-      {
-         "id": "22161",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "22159",
-         "source": "22158"
-      },
-      {
+         "source": "andy",
          "value": 15,
-         "target": "22160",
-         "source": "10038"
+         "target": "castagna"
       },
       {
+         "source": "andy",
+         "value": 1,
+         "target": "ijd"
+      },
+      {
+         "source": "der",
+         "value": 1,
+         "target": "damian"
+      },
+      {
+         "source": "der",
+         "value": 1,
+         "target": "ijd"
+      },
+      {
+         "source": "damian",
+         "value": 1,
+         "target": "ijd"
+      },
+      {
+         "source": "castagna",
          "value": 5,
-         "target": "22160",
-         "source": "22159"
+         "target": "ijd"
       },
       {
+         "source": "der",
          "value": 1,
-         "target": "10038",
-         "source": "22158"
+         "target": "andy"
       },
       {
+         "source": "andy",
          "value": 1,
-         "target": "22159",
-         "source": "22161"
+         "target": "damian"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "der",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "10038",
-         "source": "22161"
+         "id": "andy",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "10038",
-         "source": "22159"
+         "id": "castagna",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22158",
-         "source": "22161"
+         "id": "damian",
+         "group": 3
+      },
+      {
+         "id": "ijd",
+         "group": 1
       }
    ]
 }

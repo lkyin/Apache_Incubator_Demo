@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29910",
-         "group": 4
+         "source": "Rob Weir",
+         "value": 1,
+         "target": "Marvin Humphrey"
       },
       {
-         "id": "4718",
+         "source": "Rob Weir",
+         "value": 1,
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Rob Weir"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Rob Weir",
          "group": 1
       },
       {
-         "id": "11330",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "29910",
-         "source": "11330"
+         "id": "Marvin Humphrey",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4718",
-         "source": "29910"
-      },
-      {
-         "value": 1,
-         "target": "11330",
-         "source": "29910"
+         "id": "Svante Schubert",
+         "group": 3
       }
    ]
 }

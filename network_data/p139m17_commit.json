@@ -1,76 +1,76 @@
 {
+   "links": [
+      {
+         "source": "jalkanen",
+         "value": 1,
+         "target": "florianh"
+      },
+      {
+         "source": "ajaquith",
+         "value": 1,
+         "target": "brushed"
+      },
+      {
+         "source": "jalkanen",
+         "value": 60,
+         "target": "metskem"
+      },
+      {
+         "source": "ajaquith",
+         "value": 9,
+         "target": "metskem"
+      },
+      {
+         "source": "florianh",
+         "value": 1,
+         "target": "brushed"
+      },
+      {
+         "source": "jalkanen",
+         "value": 4,
+         "target": "brushed"
+      },
+      {
+         "source": "metskem",
+         "value": 1,
+         "target": "florianh"
+      },
+      {
+         "source": "jalkanen",
+         "value": 42,
+         "target": "ajaquith"
+      },
+      {
+         "source": "ajaquith",
+         "value": 1,
+         "target": "florianh"
+      },
+      {
+         "source": "metskem",
+         "value": 1,
+         "target": "brushed"
+      }
+   ],
    "nodes": [
       {
-         "id": "22456",
+         "id": "jalkanen",
          "group": 1
       },
       {
-         "id": "22452",
+         "id": "ajaquith",
          "group": 2
       },
       {
-         "id": "22453",
-         "group": 3
-      },
-      {
-         "id": "22454",
+         "id": "metskem",
          "group": 1
       },
       {
-         "id": "22457",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 42,
-         "target": "22453",
-         "source": "22452"
+         "id": "florianh",
+         "group": 3
       },
       {
-         "value": 9,
-         "target": "22453",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "22457",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22453"
-      },
-      {
-         "value": 60,
-         "target": "22452",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "22457",
-         "source": "22453"
-      },
-      {
-         "value": 1,
-         "target": "22457",
-         "source": "22452"
-      },
-      {
-         "value": 1,
-         "target": "22457",
-         "source": "22454"
-      },
-      {
-         "value": 4,
-         "target": "22454",
-         "source": "22452"
+         "id": "brushed",
+         "group": 3
       }
    ]
 }

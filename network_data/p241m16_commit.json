@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "42365",
-         "group": 1
-      },
-      {
-         "id": "42355",
-         "group": 3
-      },
-      {
-         "id": "42363",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "42363",
-         "source": "42365"
+         "target": "Thomas Draier"
       },
       {
+         "source": "shuber",
+         "value": 1,
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "shuber",
          "value": 2,
-         "target": "42363",
-         "source": "42355"
+         "target": "Serge Huber"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "shuber",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "42355",
-         "source": "42365"
+         "id": "Serge Huber",
+         "group": 1
+      },
+      {
+         "id": "Thomas Draier",
+         "group": 2
       }
    ]
 }

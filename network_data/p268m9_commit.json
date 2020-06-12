@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "17093",
-         "group": 1
-      },
-      {
-         "id": "17113",
-         "group": 3
-      },
-      {
-         "id": "6111",
-         "group": 3
-      },
-      {
-         "id": "17106",
-         "group": 3
-      },
-      {
-         "id": "17099",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "17099",
-         "source": "17106"
-      },
-      {
-         "value": 1,
-         "target": "17113",
-         "source": "17093"
-      },
-      {
-         "value": 1,
-         "target": "6111",
-         "source": "17113"
-      },
-      {
+         "source": "Kam Kasravi",
          "value": 3,
-         "target": "17099",
-         "source": "6111"
+         "target": "manuzhang"
+      },
+      {
+         "source": "huafengw",
+         "value": 1,
+         "target": "kamkasravi"
+      },
+      {
+         "source": "kamkasravi",
+         "value": 1,
+         "target": "manuzhang"
+      },
+      {
+         "source": "huafengw",
+         "value": 2,
+         "target": "Kam Kasravi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Kam Kasravi",
+         "group": 3
+      },
+      {
+         "id": "huafengw",
+         "group": 2
+      },
+      {
+         "id": "huafengw",
+         "group": 2
+      },
+      {
+         "id": "kamkasravi",
+         "group": 4
+      },
+      {
+         "id": "manuzhang",
+         "group": 3
       }
    ]
 }

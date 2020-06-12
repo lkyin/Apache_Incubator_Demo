@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "21363",
-         "group": 1
-      },
-      {
-         "id": "21369",
-         "group": 1
-      },
-      {
-         "id": "21421",
-         "group": 1
-      },
-      {
-         "id": "21359",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Kevin Meyer - KMZ",
+         "value": 2,
+         "target": "Dan Haywood"
+      },
+      {
+         "source": "Dan Haywood",
+         "value": 2,
+         "target": "Kevin Meyer - KMZ"
+      },
+      {
+         "source": "Richardson, Jason - FSA, Kansas City, MO",
          "value": 1,
-         "target": "21369",
-         "source": "21363"
+         "target": "Dan Haywood"
       },
       {
+         "source": "Mike Burton",
+         "value": 2,
+         "target": "Dan Haywood"
+      },
+      {
+         "source": "Dan Haywood",
          "value": 1,
-         "target": "21363",
-         "source": "21421"
+         "target": "Mike Burton"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dan Haywood",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "21363",
-         "source": "21359"
+         "id": "Richardson, Jason - FSA, Kansas City, MO",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "21359",
-         "source": "21363"
+         "id": "Kevin Meyer - KMZ",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "21363",
-         "source": "21369"
+         "id": "Mike Burton",
+         "group": 1
       }
    ]
 }

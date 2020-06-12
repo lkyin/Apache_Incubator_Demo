@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "39892",
-         "group": 3
+         "source": "Vinod Kumar Vavilapalli",
+         "value": 1,
+         "target": "Siddharth Seth"
       },
       {
-         "id": "3331",
+         "source": "Hitesh Shah",
+         "value": 1,
+         "target": "Mark Wagner"
+      },
+      {
+         "source": "Mark Wagner",
+         "value": 1,
+         "target": "Hitesh Shah"
+      },
+      {
+         "source": "Siddharth Seth",
+         "value": 1,
+         "target": "Hitesh Shah"
+      },
+      {
+         "source": "Hitesh Shah",
+         "value": 1,
+         "target": "Vinod Kumar Vavilapalli"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Siddharth Seth",
          "group": 1
       },
       {
-         "id": "4413",
+         "id": "Hitesh Shah",
+         "group": 1
+      },
+      {
+         "id": "Vinod Kumar Vavilapalli",
          "group": 2
       },
       {
-         "id": "39887",
+         "id": "Mark Wagner",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3331",
-         "source": "39887"
-      },
-      {
-         "value": 1,
-         "target": "39887",
-         "source": "4413"
-      },
-      {
-         "value": 1,
-         "target": "3331",
-         "source": "39892"
-      },
-      {
-         "value": 1,
-         "target": "4413",
-         "source": "3331"
-      },
-      {
-         "value": 1,
-         "target": "39892",
-         "source": "3331"
       }
    ]
 }

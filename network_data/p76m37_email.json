@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "8637",
-         "group": 1
-      },
-      {
-         "id": "8651",
-         "group": 2
-      },
-      {
-         "id": "8674",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "8637",
-         "source": "8651"
+         "target": "Bjoern Petri (JIRA)"
       },
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "8674",
-         "source": "8651"
+         "target": "erik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Broekhuis",
+         "group": 4
+      },
+      {
+         "id": "erik",
+         "group": 4
+      },
+      {
+         "id": "Bjoern Petri (JIRA)",
+         "group": 4
       }
    ]
 }

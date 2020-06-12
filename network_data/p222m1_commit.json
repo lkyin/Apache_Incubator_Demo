@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "letourneau",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "ahart",
+         "value": 1,
+         "target": "joes"
+      },
+      {
+         "source": "ahart",
+         "value": 1,
+         "target": "letourneau"
+      },
+      {
+         "source": "ahart",
+         "value": 1,
+         "target": "mfranklin"
+      }
+   ],
    "nodes": [
       {
-         "id": "9100",
+         "id": "ahart",
          "group": 3
       },
       {
-         "id": "38840",
-         "group": 4
-      },
-      {
-         "id": "189",
+         "id": "letourneau",
          "group": 1
       },
       {
-         "id": "32898",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "38840"
+         "id": "mfranklin",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "189",
-         "source": "9100"
-      },
-      {
-         "value": 1,
-         "target": "38840",
-         "source": "9100"
-      },
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "9100"
+         "id": "joes",
+         "group": 4
       }
    ]
 }

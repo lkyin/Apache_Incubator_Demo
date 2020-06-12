@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "12138",
-         "group": 4
-      },
-      {
-         "id": "28229",
-         "group": 3
-      },
-      {
-         "id": "28226",
-         "group": 4
-      },
-      {
-         "id": "28227",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Jean-Sebastien Delfino",
          "value": 1,
-         "target": "28226",
-         "source": "28227"
+         "target": "John"
       },
       {
+         "source": "Sagara Gunathunga  (JIRA)",
          "value": 1,
-         "target": "12138",
-         "source": "28229"
+         "target": "Pasindu Gunarathne (JIRA)"
       },
       {
+         "source": "John",
          "value": 1,
-         "target": "28229",
-         "source": "12138"
+         "target": "Jean-Sebastien Delfino"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Pasindu Gunarathne (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Jean-Sebastien Delfino",
+         "group": 2
+      },
+      {
+         "id": "John",
+         "group": 1
+      },
+      {
+         "id": "Sagara Gunathunga  (JIRA)",
+         "group": 1
       }
    ]
 }

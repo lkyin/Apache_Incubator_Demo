@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "34585",
-         "group": 2
-      },
-      {
-         "id": "34625",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "34585",
-         "source": "34625"
+         "source": "Charles Matthew Chen",
+         "value": 1,
+         "target": "Jonathan Giles"
       },
       {
-         "value": 1,
-         "target": "34625",
-         "source": "34585"
+         "source": "Jonathan Giles",
+         "value": 2,
+         "target": "Charles Matthew Chen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Charles Matthew Chen",
+         "group": 4
+      },
+      {
+         "id": "Jonathan Giles",
+         "group": 1
       }
    ]
 }

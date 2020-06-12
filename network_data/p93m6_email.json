@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "12862",
-         "group": 2
-      },
-      {
-         "id": "404",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Dave Olsen",
          "value": 3,
-         "target": "404",
-         "source": "12862"
+         "target": "Bertrand Delacretaz"
       },
       {
+         "source": "Bertrand Delacretaz",
          "value": 3,
-         "target": "12862",
-         "source": "404"
+         "target": "Dave Olsen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 3
+      },
+      {
+         "id": "Dave Olsen",
+         "group": 2
       }
    ]
 }

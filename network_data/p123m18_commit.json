@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "toffer",
+         "value": 35,
+         "target": "travis"
+      },
+      {
+         "source": "travis",
+         "value": 3,
+         "target": "avandana"
+      },
+      {
+         "source": "toffer",
+         "value": 2,
+         "target": "avandana"
+      },
+      {
+         "source": "travis",
+         "value": 1,
+         "target": "gates"
+      }
+   ],
    "nodes": [
       {
-         "id": "19973",
-         "group": 1
-      },
-      {
-         "id": "19970",
-         "group": 4
-      },
-      {
-         "id": "19972",
+         "id": "toffer",
          "group": 3
       },
       {
-         "id": "19956",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "19972",
-         "source": "19973"
+         "id": "travis",
+         "group": 3
       },
       {
-         "value": 35,
-         "target": "19970",
-         "source": "19973"
+         "id": "avandana",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "19972",
-         "source": "19970"
-      },
-      {
-         "value": 1,
-         "target": "19956",
-         "source": "19973"
+         "id": "gates",
+         "group": 2
       }
    ]
 }

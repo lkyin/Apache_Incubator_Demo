@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "14765",
-         "group": 2
-      },
-      {
-         "id": "14801",
-         "group": 2
-      },
-      {
-         "id": "14755",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "scott comer",
          "value": 1,
-         "target": "14801",
-         "source": "14765"
+         "target": "Holger Grandy"
       },
       {
+         "source": "Youngjin Park (youngjpa)",
          "value": 1,
-         "target": "14765",
-         "source": "14755"
+         "target": "scott comer"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Youngjin Park (youngjpa)",
+         "group": 3
+      },
+      {
+         "id": "Holger Grandy",
+         "group": 4
+      },
+      {
+         "id": "scott comer",
+         "group": 1
       }
    ]
 }

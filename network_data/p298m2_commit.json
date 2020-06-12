@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "5924",
-         "group": 2
-      },
-      {
-         "id": "4099",
-         "group": 2
-      },
-      {
-         "id": "28249",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "rmannibucau",
          "value": 74,
-         "target": "4099",
-         "source": "5924"
+         "target": "olamy"
       },
       {
+         "source": "rmannibucau",
          "value": 1,
-         "target": "28249",
-         "source": "5924"
+         "target": "vanto"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rmannibucau",
+         "group": 4
+      },
+      {
+         "id": "vanto",
+         "group": 3
+      },
+      {
+         "id": "olamy",
+         "group": 2
       }
    ]
 }

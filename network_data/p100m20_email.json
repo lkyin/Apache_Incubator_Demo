@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "249",
-         "group": 3
+         "source": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "value": 2,
+         "target": "Jean-Louis Boudart"
       },
       {
-         "id": "14383",
+         "source": "Jean-Louis Boudart",
+         "value": 2,
+         "target": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?="
+      },
+      {
+         "source": "Jean-Louis Boudart",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jean-Louis Boudart",
          "group": 4
       },
       {
-         "id": "14384",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "14383",
-         "source": "14384"
+         "id": "Apache Jenkins Server",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "14384",
-         "source": "14383"
-      },
-      {
-         "value": 1,
-         "target": "249",
-         "source": "14384"
+         "id": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "group": 4
       }
    ]
 }

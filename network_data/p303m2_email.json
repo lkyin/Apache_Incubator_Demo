@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "15075",
-         "group": 4
-      },
-      {
-         "id": "8431",
-         "group": 3
-      },
-      {
-         "id": "41448",
-         "group": 4
-      },
-      {
-         "id": "32",
-         "group": 3
-      },
-      {
-         "id": "41445",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Garrett Rooney (JIRA)",
          "value": 1,
-         "target": "41445",
-         "source": "32"
+         "target": "Leo Simons (JIRA)"
       },
       {
+         "source": "J Aaron Farr (JIRA)",
          "value": 1,
-         "target": "41445",
-         "source": "15075"
+         "target": "Leo Simons (JIRA)"
       },
       {
+         "source": "Leo Simons",
          "value": 1,
-         "target": "41448",
-         "source": "8431"
+         "target": "David Reid"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Leo Simons",
+         "group": 3
+      },
+      {
+         "id": "Garrett Rooney (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "J Aaron Farr (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "David Reid",
+         "group": 3
+      },
+      {
+         "id": "Leo Simons (JIRA)",
+         "group": 2
       }
    ]
 }

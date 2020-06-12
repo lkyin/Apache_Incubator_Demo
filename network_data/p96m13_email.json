@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "13173",
-         "group": 3
-      },
-      {
-         "id": "13163",
-         "group": 4
-      },
-      {
-         "id": "13160",
-         "group": 3
-      },
-      {
-         "id": "13165",
-         "group": 4
-      },
-      {
-         "id": "4452",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "sijie",
          "value": 1,
-         "target": "13173",
-         "source": "13165"
+         "target": "jderrickk"
       },
       {
+         "source": "Sijie Guo",
+         "value": 1,
+         "target": "Jia Zhai"
+      },
+      {
+         "source": "asfgit",
          "value": 3,
-         "target": "13165",
-         "source": "4452"
+         "target": "sijie"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sijie Guo",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "13160",
-         "source": "13163"
+         "id": "asfgit",
+         "group": 3
+      },
+      {
+         "id": "sijie",
+         "group": 2
+      },
+      {
+         "id": "jderrickk",
+         "group": 4
+      },
+      {
+         "id": "Jia Zhai",
+         "group": 1
       }
    ]
 }

@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "Maxim Rusak",
+         "value": 7,
+         "target": "edward"
+      },
+      {
+         "source": "edward",
+         "value": 3,
+         "target": "Terry Weymouth"
+      },
+      {
+         "source": "Maxim Rusak",
+         "value": 2,
+         "target": "Terry Weymouth"
+      },
+      {
+         "source": "Mirage Abeysekara",
+         "value": 1,
+         "target": "edward"
+      },
+      {
+         "source": "Mirage Abeysekara",
+         "value": 1,
+         "target": "Terry Weymouth"
+      },
+      {
+         "source": "Mirage Abeysekara",
+         "value": 1,
+         "target": "Maxim Rusak"
+      }
+   ],
    "nodes": [
       {
-         "id": "17927",
+         "id": "edward",
+         "group": 2
+      },
+      {
+         "id": "Maxim Rusak",
+         "group": 2
+      },
+      {
+         "id": "Terry Weymouth",
          "group": 1
       },
       {
-         "id": "17931",
-         "group": 2
-      },
-      {
-         "id": "17929",
-         "group": 2
-      },
-      {
-         "id": "17928",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "17928",
-         "source": "17929"
-      },
-      {
-         "value": 7,
-         "target": "17927",
-         "source": "17931"
-      },
-      {
-         "value": 3,
-         "target": "17929",
-         "source": "17931"
-      },
-      {
-         "value": 1,
-         "target": "17928",
-         "source": "17931"
-      },
-      {
-         "value": 1,
-         "target": "17928",
-         "source": "17927"
-      },
-      {
-         "value": 2,
-         "target": "17929",
-         "source": "17927"
+         "id": "Mirage Abeysekara",
+         "group": 4
       }
    ]
 }

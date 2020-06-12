@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "tellison",
+         "value": 1,
+         "target": "geirm"
+      },
+      {
+         "source": "tellison",
+         "value": 3,
+         "target": "archie"
+      }
+   ],
    "nodes": [
       {
-         "id": "18903",
+         "id": "tellison",
          "group": 3
       },
       {
-         "id": "1022",
-         "group": 1
-      },
-      {
-         "id": "18901",
+         "id": "geirm",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "18901",
-         "source": "18903"
       },
       {
-         "value": 1,
-         "target": "1022",
-         "source": "18903"
+         "id": "archie",
+         "group": 4
       }
    ]
 }

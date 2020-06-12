@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "580",
-         "group": 3
-      },
-      {
-         "id": "28942",
-         "group": 3
-      },
-      {
-         "id": "206",
-         "group": 2
-      },
-      {
-         "id": "370",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Mccleese, Sean W (388A)",
          "value": 1,
-         "target": "28942",
-         "source": "370"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Kevan Miller",
          "value": 1,
-         "target": "370",
-         "source": "28942"
+         "target": "no-reply"
       },
       {
+         "source": "Kevan Miller",
          "value": 1,
-         "target": "580",
-         "source": "370"
+         "target": "Mccleese, Sean W (388A)"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "206",
-         "source": "580"
+         "target": "Kevan Miller"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "28942",
-         "source": "580"
+         "target": "Mccleese, Sean W (388A)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
+         "group": 2
+      },
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 1
+      },
+      {
+         "id": "Mccleese, Sean W (388A)",
+         "group": 3
+      },
+      {
+         "id": "Kevan Miller",
+         "group": 3
       }
    ]
 }

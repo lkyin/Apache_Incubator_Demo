@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "45925",
-         "group": 3
+         "source": "James Pic",
+         "value": 2,
+         "target": "Jerome Renard"
       },
       {
-         "id": "45927",
+         "source": "Jerome Renard",
+         "value": 1,
+         "target": "=?ISO-8859-2?Q?Petar_=A9panja?="
+      },
+      {
+         "source": "Jerome Renard",
+         "value": 4,
+         "target": "James Pic"
+      },
+      {
+         "source": "James Pic",
+         "value": 1,
+         "target": "Maxime Thomas"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maxime Thomas",
          "group": 1
       },
       {
-         "id": "45940",
+         "id": "Jerome Renard",
          "group": 3
       },
       {
-         "id": "45962",
+         "id": "=?ISO-8859-2?Q?Petar_=A9panja?=",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "45925",
-         "source": "45940"
       },
       {
-         "value": 1,
-         "target": "45927",
-         "source": "45940"
-      },
-      {
-         "value": 1,
-         "target": "45962",
-         "source": "45925"
-      },
-      {
-         "value": 4,
-         "target": "45940",
-         "source": "45925"
+         "id": "James Pic",
+         "group": 4
       }
    ]
 }

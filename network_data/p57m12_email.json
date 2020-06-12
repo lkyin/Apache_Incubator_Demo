@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "4488",
-         "group": 4
-      },
-      {
-         "id": "28779",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "rinesh kumar",
          "value": 2,
-         "target": "28779",
-         "source": "4488"
+         "target": "Tommaso Teofili"
       },
       {
+         "source": "Tommaso Teofili",
          "value": 2,
-         "target": "4488",
-         "source": "28779"
+         "target": "rinesh kumar"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tommaso Teofili",
+         "group": 3
+      },
+      {
+         "id": "rinesh kumar",
+         "group": 2
       }
    ]
 }

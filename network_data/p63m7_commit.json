@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "5238",
-         "group": 1
+         "source": "Suma Shivaprasad",
+         "value": 7,
+         "target": "Shwetha GS"
       },
       {
-         "id": "5222",
+         "source": "shwethags",
+         "value": 3,
+         "target": "Shwetha GS"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "shwethags",
          "group": 2
       },
       {
-         "id": "5237",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "5237",
-         "source": "5222"
+         "id": "Suma Shivaprasad",
+         "group": 3
       },
       {
-         "value": 7,
-         "target": "5222",
-         "source": "5238"
+         "id": "Shwetha GS",
+         "group": 3
       }
    ]
 }

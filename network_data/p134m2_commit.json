@@ -1,84 +1,79 @@
 {
-   "nodes": [
-      {
-         "id": "21985",
-         "group": 3
-      },
-      {
-         "id": "21982",
-         "group": 1
-      },
-      {
-         "id": "21974",
-         "group": 2
-      },
-      {
-         "id": "21973",
-         "group": 1
-      },
-      {
-         "id": "21972",
-         "group": 2
-      },
-      {
-         "id": "6693",
-         "group": 4
-      },
-      {
-         "id": "6708",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "21972",
-         "source": "6708"
-      },
-      {
-         "value": 2,
-         "target": "21974",
-         "source": "6708"
-      },
-      {
-         "value": 2,
-         "target": "6708",
-         "source": "21973"
-      },
-      {
-         "value": 1,
-         "target": "6693",
-         "source": "21974"
-      },
-      {
-         "value": 4,
-         "target": "21973",
-         "source": "21972"
-      },
-      {
+         "source": "Matt Stephenson",
          "value": 12,
-         "target": "21972",
-         "source": "21985"
+         "target": "everett"
       },
       {
+         "source": "mattstep",
          "value": 1,
-         "target": "21982",
-         "source": "21972"
+         "target": "everett"
       },
       {
-         "value": 27,
-         "target": "21972",
-         "source": "21973"
+         "source": "Andrew Bayer",
+         "value": 2,
+         "target": "everett"
       },
       {
+         "source": "Everett Toews",
+         "value": 31,
+         "target": "everett"
+      },
+      {
+         "source": "Andrew Gaul",
+         "value": 1,
+         "target": "abayer"
+      },
+      {
+         "source": "Andrew Bayer",
          "value": 50,
-         "target": "6693",
-         "source": "6708"
+         "target": "abayer"
       },
       {
+         "source": "Everett Toews",
+         "value": 2,
+         "target": "Andrew Bayer"
+      },
+      {
+         "source": "Everett Toews",
          "value": 9,
-         "target": "21973",
-         "source": "21985"
+         "target": "Matt Stephenson"
+      },
+      {
+         "source": "Andrew Bayer",
+         "value": 2,
+         "target": "Andrew Gaul"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Everett Toews",
+         "group": 2
+      },
+      {
+         "id": "Andrew Bayer",
+         "group": 1
+      },
+      {
+         "id": "abayer",
+         "group": 2
+      },
+      {
+         "id": "mattstep",
+         "group": 1
+      },
+      {
+         "id": "Andrew Gaul",
+         "group": 1
+      },
+      {
+         "id": "Matt Stephenson",
+         "group": 1
+      },
+      {
+         "id": "everett",
+         "group": 2
       }
    ]
 }

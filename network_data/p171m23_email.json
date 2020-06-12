@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "1228",
-         "group": 2
-      },
-      {
-         "id": "4994",
-         "group": 2
-      },
-      {
-         "id": "41",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "1228",
-         "source": "41"
+         "target": "Dulini Atapattu"
       },
       {
+         "source": "Raymond Feng",
          "value": 1,
-         "target": "41",
-         "source": "4994"
+         "target": "Luciano Resende"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dulini Atapattu",
+         "group": 3
+      },
+      {
+         "id": "Raymond Feng",
+         "group": 4
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 3
       }
    ]
 }

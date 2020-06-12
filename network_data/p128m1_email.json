@@ -1,94 +1,94 @@
 {
-   "nodes": [
-      {
-         "id": "20789",
-         "group": 3
-      },
-      {
-         "id": "5158",
-         "group": 1
-      },
-      {
-         "id": "20790",
-         "group": 2
-      },
-      {
-         "id": "6734",
-         "group": 1
-      },
-      {
-         "id": "20785",
-         "group": 3
-      },
-      {
-         "id": "20709",
-         "group": 2
-      },
-      {
-         "id": "20779",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "20789",
-         "source": "5158"
+         "target": "Konstantin Boudnik"
       },
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "20785",
-         "source": "20790"
+         "target": "Dmitriy Setrakyan"
       },
       {
+         "source": "Konstantin Boudnik",
          "value": 1,
-         "target": "6734",
-         "source": "20789"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Dmitriy Setrakyan",
          "value": 1,
-         "target": "20790",
-         "source": "20709"
+         "target": "Konstantin Boudnik"
       },
       {
+         "source": "Ilya Sterin",
          "value": 1,
-         "target": "20789",
-         "source": "20785"
+         "target": "Alexey Goncharuk"
       },
       {
+         "source": "Konstantin Boudnik",
          "value": 1,
-         "target": "20709",
-         "source": "20790"
+         "target": "Valentin Kulichenko"
       },
       {
+         "source": "Valentin Kulichenko",
          "value": 1,
-         "target": "20779",
-         "source": "6734"
+         "target": "Ilya Sterin"
       },
       {
+         "source": "Alexey Goncharuk",
          "value": 1,
-         "target": "6734",
-         "source": "5158"
+         "target": "Dmitriy Setrakyan"
       },
       {
+         "source": "Valentin Kulichenko",
          "value": 1,
-         "target": "20709",
-         "source": "20779"
+         "target": "Yakov Zhdanov"
       },
       {
+         "source": "Ilya Sterin",
          "value": 1,
-         "target": "20790",
-         "source": "20779"
+         "target": "Yakov Zhdanov"
       },
       {
+         "source": "Yakov Zhdanov",
          "value": 1,
-         "target": "20779",
-         "source": "20709"
+         "target": "Ilya Sterin"
       },
       {
+         "source": "Yakov Zhdanov",
          "value": 1,
-         "target": "5158",
-         "source": "6734"
+         "target": "Valentin Kulichenko"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dmitriy Setrakyan",
+         "group": 4
+      },
+      {
+         "id": "Yakov Zhdanov",
+         "group": 1
+      },
+      {
+         "id": "Konstantin Boudnik",
+         "group": 4
+      },
+      {
+         "id": "Ilya Sterin",
+         "group": 3
+      },
+      {
+         "id": "Valentin Kulichenko",
+         "group": 3
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 2
+      },
+      {
+         "id": "Alexey Goncharuk",
+         "group": 1
       }
    ]
 }

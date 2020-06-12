@@ -1,52 +1,42 @@
 {
+   "links": [
+      {
+         "source": "Serge Huber",
+         "value": 3,
+         "target": "amidani"
+      },
+      {
+         "source": "dgaillard",
+         "value": 2,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 6,
+         "target": "Abdelkader Midani"
+      },
+      {
+         "source": "Abdelkader Midani",
+         "value": 4,
+         "target": "amidani"
+      }
+   ],
    "nodes": [
       {
-         "id": "42363",
+         "id": "dgaillard",
          "group": 4
       },
       {
-         "id": "42391",
+         "id": "Serge Huber",
+         "group": 2
+      },
+      {
+         "id": "amidani",
          "group": 3
       },
       {
-         "id": "42390",
-         "group": 1
-      },
-      {
-         "id": "42380",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "42390",
-         "source": "42363"
-      },
-      {
-         "value": 3,
-         "target": "42363",
-         "source": "42391"
-      },
-      {
-         "value": 2,
-         "target": "42363",
-         "source": "42380"
-      },
-      {
-         "value": 3,
-         "target": "42363",
-         "source": "42390"
-      },
-      {
-         "value": 3,
-         "target": "42391",
-         "source": "42390"
-      },
-      {
-         "value": 1,
-         "target": "42390",
-         "source": "42391"
+         "id": "Abdelkader Midani",
+         "group": 2
       }
    ]
 }

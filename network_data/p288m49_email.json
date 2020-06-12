@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      },
+      {
+         "source": "Nick Burch",
+         "value": 1,
+         "target": "Svante Schubert"
+      }
+   ],
    "nodes": [
       {
-         "id": "249",
+         "id": "Apache Jenkins Server",
          "group": 2
       },
       {
-         "id": "11330",
-         "group": 4
+         "id": "Svante Schubert",
+         "group": 1
       },
       {
-         "id": "7004",
+         "id": "Nick Burch",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "249",
-         "source": "11330"
-      },
-      {
-         "value": 1,
-         "target": "11330",
-         "source": "7004"
       }
    ]
 }

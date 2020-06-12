@@ -1,76 +1,71 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8874",
-         "group": 1
+         "source": "tommaso",
+         "value": 1,
+         "target": "hasan"
       },
       {
-         "id": "8872",
+         "source": "reto",
+         "value": 2,
+         "target": "hasan"
+      },
+      {
+         "source": "tommaso",
+         "value": 3,
+         "target": "ito"
+      },
+      {
+         "source": "mir",
+         "value": 11,
+         "target": "ito"
+      },
+      {
+         "source": "mir",
+         "value": 24,
+         "target": "reto"
+      },
+      {
+         "source": "mir",
+         "value": 1,
+         "target": "tommaso"
+      },
+      {
+         "source": "tommaso",
+         "value": 9,
+         "target": "reto"
+      },
+      {
+         "source": "mir",
+         "value": 11,
+         "target": "hasan"
+      },
+      {
+         "source": "reto",
+         "value": 11,
+         "target": "ito"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mir",
          "group": 2
       },
       {
-         "id": "8875",
+         "id": "tommaso",
          "group": 1
       },
       {
-         "id": "8873",
-         "group": 1
-      },
-      {
-         "id": "8876",
+         "id": "reto",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8876",
-         "source": "8872"
       },
       {
-         "value": 1,
-         "target": "8872",
-         "source": "8876"
+         "id": "ito",
+         "group": 2
       },
       {
-         "value": 11,
-         "target": "8875",
-         "source": "8872"
-      },
-      {
-         "value": 11,
-         "target": "8873",
-         "source": "8876"
-      },
-      {
-         "value": 11,
-         "target": "8873",
-         "source": "8875"
-      },
-      {
-         "value": 1,
-         "target": "8874",
-         "source": "8873"
-      },
-      {
-         "value": 1,
-         "target": "8874",
-         "source": "8876"
-      },
-      {
-         "value": 9,
-         "target": "8874",
-         "source": "8872"
-      },
-      {
-         "value": 3,
-         "target": "8874",
-         "source": "8875"
-      },
-      {
-         "value": 24,
-         "target": "8873",
-         "source": "8872"
+         "id": "hasan",
+         "group": 4
       }
    ]
 }

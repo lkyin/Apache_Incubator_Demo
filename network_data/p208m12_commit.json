@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "536",
-         "group": 4
-      },
-      {
-         "id": "34918",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "grantm",
          "value": 3,
-         "target": "34918",
-         "source": "536"
+         "target": "gnodet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "grantm",
+         "group": 2
+      },
+      {
+         "id": "gnodet",
+         "group": 1
       }
    ]
 }

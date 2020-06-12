@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "18085",
-         "group": 2
-      },
-      {
-         "id": "18083",
-         "group": 3
-      },
-      {
-         "id": "18084",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "18083",
-         "source": "18085"
+         "source": "guoyp",
+         "value": 3,
+         "target": "Guo"
       },
       {
-         "value": 3,
-         "target": "18083",
-         "source": "18084"
+         "source": "Guo",
+         "value": 2,
+         "target": "Liu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "guoyp",
+         "group": 3
+      },
+      {
+         "id": "Guo",
+         "group": 3
+      },
+      {
+         "id": "Liu",
+         "group": 3
       }
    ]
 }

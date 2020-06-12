@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "Michael Stroucken",
+         "value": 7,
+         "target": "Richard Gass"
+      },
+      {
+         "source": "Michael Stroucken",
+         "value": 2,
+         "target": "rgass"
+      },
+      {
+         "source": "Richard Gass",
+         "value": 3,
+         "target": "Michael Stroucken"
+      }
+   ],
    "nodes": [
       {
-         "id": "39571",
+         "id": "Michael Stroucken",
+         "group": 4
+      },
+      {
+         "id": "Richard Gass",
          "group": 1
       },
       {
-         "id": "39558",
+         "id": "rgass",
          "group": 2
-      },
-      {
-         "id": "39574",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "39571",
-         "source": "39574"
-      },
-      {
-         "value": 2,
-         "target": "39558",
-         "source": "39571"
-      },
-      {
-         "value": 7,
-         "target": "39574",
-         "source": "39571"
       }
    ]
 }

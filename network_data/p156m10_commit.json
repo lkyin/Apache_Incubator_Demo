@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "24204",
-         "group": 1
-      },
-      {
-         "id": "24203",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "kwright",
          "value": 6,
-         "target": "24203",
-         "source": "24204"
+         "target": "rmuir"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kwright",
+         "group": 2
+      },
+      {
+         "id": "rmuir",
+         "group": 4
       }
    ]
 }

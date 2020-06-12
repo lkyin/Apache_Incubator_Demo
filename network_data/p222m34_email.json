@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "38869",
-         "group": 1
+         "source": "jfrazee",
+         "value": 4,
+         "target": "steveblackmon"
       },
       {
-         "id": "4452",
+         "source": "asfgit",
+         "value": 11,
+         "target": "steveblackmon"
+      },
+      {
+         "source": "eponvert",
+         "value": 1,
+         "target": "steveblackmon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "steveblackmon",
          "group": 2
       },
       {
-         "id": "24949",
+         "id": "jfrazee",
          "group": 1
       },
       {
-         "id": "22925",
+         "id": "asfgit",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "22925",
-         "source": "4452"
       },
       {
-         "value": 1,
-         "target": "22925",
-         "source": "38869"
-      },
-      {
-         "value": 4,
-         "target": "22925",
-         "source": "24949"
+         "id": "eponvert",
+         "group": 4
       }
    ]
 }

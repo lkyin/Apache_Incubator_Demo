@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "22456",
-         "group": 1
-      },
-      {
-         "id": "22455",
-         "group": 2
-      },
-      {
-         "id": "22457",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "metskem",
          "value": 1,
-         "target": "22457",
-         "source": "22455"
+         "target": "florianh"
       },
       {
+         "source": "metskem",
          "value": 2,
-         "target": "22455",
-         "source": "22456"
+         "target": "juanpablo"
       },
       {
+         "source": "florianh",
          "value": 1,
-         "target": "22457",
-         "source": "22456"
+         "target": "juanpablo"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "metskem",
+         "group": 4
+      },
+      {
+         "id": "florianh",
+         "group": 3
+      },
+      {
+         "id": "juanpablo",
+         "group": 1
       }
    ]
 }

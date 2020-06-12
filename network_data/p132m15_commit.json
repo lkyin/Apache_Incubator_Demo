@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "angela",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "jukka",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "mreutegg",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "angela",
+         "value": 1,
+         "target": "jukka"
+      }
+   ],
    "nodes": [
       {
-         "id": "8694",
-         "group": 2
-      },
-      {
-         "id": "21584",
-         "group": 4
-      },
-      {
-         "id": "21580",
+         "id": "tripod",
          "group": 3
       },
       {
-         "id": "21588",
+         "id": "angela",
          "group": 2
       },
       {
-         "id": "21581",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21581",
-         "source": "8694"
+         "id": "jukka",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "21581",
-         "source": "21580"
+         "id": "stefan",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "21581",
-         "source": "21584"
-      },
-      {
-         "value": 1,
-         "target": "21588",
-         "source": "8694"
-      },
-      {
-         "value": 1,
-         "target": "21581",
-         "source": "21588"
+         "id": "mreutegg",
+         "group": 2
       }
    ]
 }

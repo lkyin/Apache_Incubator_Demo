@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "28046",
-         "group": 2
-      },
-      {
-         "id": "8778",
-         "group": 2
-      },
-      {
-         "id": "12988",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "michael.breidenband",
          "value": 1,
-         "target": "12988",
-         "source": "8778"
+         "target": "brett"
       },
       {
+         "source": "Brett Porter",
          "value": 1,
-         "target": "12988",
-         "source": "28046"
+         "target": "brett"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "michael.breidenband",
+         "group": 1
+      },
+      {
+         "id": "Brett Porter",
+         "group": 2
+      },
+      {
+         "id": "brett",
+         "group": 3
       }
    ]
 }

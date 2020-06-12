@@ -1,96 +1,96 @@
 {
-   "nodes": [
-      {
-         "id": "39377",
-         "group": 1
-      },
-      {
-         "id": "39369",
-         "group": 1
-      },
-      {
-         "id": "39404",
-         "group": 3
-      },
-      {
-         "id": "39371",
-         "group": 4
-      },
-      {
-         "id": "39380",
-         "group": 4
-      },
-      {
-         "id": "39335",
-         "group": 3
-      },
-      {
-         "id": "39389",
-         "group": 2
-      },
-      {
-         "id": "39388",
-         "group": 4
-      },
-      {
-         "id": "39397",
-         "group": 2
-      },
-      {
-         "id": "39321",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Berthold Reinwald",
          "value": 1,
-         "target": "39377",
-         "source": "39371"
+         "target": "Matthias Boehm"
       },
       {
+         "source": "Nakul Jindal",
          "value": 1,
-         "target": "39371",
-         "source": "39388"
+         "target": "Matthias Boehm"
       },
       {
+         "source": "dusenberrymw",
          "value": 1,
-         "target": "39335",
-         "source": "39404"
+         "target": "Deron Eriksson"
       },
       {
-         "value": 1,
-         "target": "39389",
-         "source": "39321"
-      },
-      {
-         "value": 1,
-         "target": "39380",
-         "source": "39371"
-      },
-      {
-         "value": 1,
-         "target": "39371",
-         "source": "39377"
-      },
-      {
-         "value": 1,
-         "target": "39404",
-         "source": "39369"
-      },
-      {
+         "source": "fschueler",
          "value": 2,
-         "target": "39404",
-         "source": "39397"
+         "target": "Matthias Boehm"
       },
       {
+         "source": "Matthias Boehm",
          "value": 1,
-         "target": "39404",
-         "source": "39335"
+         "target": "Nakul Jindal"
       },
       {
+         "source": "Deron Eriksson",
+         "value": 1,
+         "target": "Acs S"
+      },
+      {
+         "source": "Acs S",
+         "value": 1,
+         "target": "Deron Eriksson"
+      },
+      {
+         "source": "Deron Eriksson",
+         "value": 1,
+         "target": "Frederick R Reiss"
+      },
+      {
+         "source": "Matthias Boehm",
          "value": 3,
-         "target": "39397",
-         "source": "39404"
+         "target": "fschueler"
+      },
+      {
+         "source": "Glenn Weidner",
+         "value": 1,
+         "target": "jenkins"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Nakul Jindal",
+         "group": 3
+      },
+      {
+         "id": "dusenberrymw",
+         "group": 2
+      },
+      {
+         "id": "Deron Eriksson",
+         "group": 3
+      },
+      {
+         "id": "Acs S",
+         "group": 3
+      },
+      {
+         "id": "Matthias Boehm",
+         "group": 2
+      },
+      {
+         "id": "Frederick R Reiss",
+         "group": 1
+      },
+      {
+         "id": "fschueler",
+         "group": 4
+      },
+      {
+         "id": "Glenn Weidner",
+         "group": 1
+      },
+      {
+         "id": "Berthold Reinwald",
+         "group": 4
+      },
+      {
+         "id": "jenkins",
+         "group": 1
       }
    ]
 }

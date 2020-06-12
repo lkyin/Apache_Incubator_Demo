@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "fapeeler",
+         "value": 2,
+         "target": "arkurth"
+      },
+      {
+         "source": "fapeeler",
+         "value": 1,
+         "target": "jfthomps"
+      },
+      {
+         "source": "fapeeler",
+         "value": 1,
+         "target": "bmbouter"
+      }
+   ],
    "nodes": [
       {
-         "id": "42624",
+         "id": "fapeeler",
+         "group": 2
+      },
+      {
+         "id": "jfthomps",
+         "group": 2
+      },
+      {
+         "id": "arkurth",
          "group": 3
       },
       {
-         "id": "42623",
-         "group": 1
-      },
-      {
-         "id": "42622",
-         "group": 1
-      },
-      {
-         "id": "42621",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42622",
-         "source": "42624"
-      },
-      {
-         "value": 1,
-         "target": "42622",
-         "source": "42621"
-      },
-      {
-         "value": 2,
-         "target": "42622",
-         "source": "42623"
+         "id": "bmbouter",
+         "group": 2
       }
    ]
 }

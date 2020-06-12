@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "boisvert",
+         "value": 1,
+         "target": "assaf"
+      },
+      {
+         "source": "mriou",
+         "value": 2,
+         "target": "assaf"
+      },
+      {
+         "source": "vborja",
+         "value": 8,
+         "target": "assaf"
+      }
+   ],
    "nodes": [
       {
-         "id": "1023",
-         "group": 1
+         "id": "vborja",
+         "group": 4
       },
       {
-         "id": "7472",
-         "group": 1
-      },
-      {
-         "id": "7466",
+         "id": "boisvert",
          "group": 3
       },
       {
-         "id": "7453",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7453",
-         "source": "7466"
+         "id": "assaf",
+         "group": 4
       },
       {
-         "value": 8,
-         "target": "7453",
-         "source": "7472"
-      },
-      {
-         "value": 2,
-         "target": "7453",
-         "source": "1023"
+         "id": "mriou",
+         "group": 4
       }
    ]
 }

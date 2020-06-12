@@ -1,38 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "38156",
-         "group": 3
-      },
-      {
-         "id": "4723",
-         "group": 1
-      },
-      {
-         "id": "17925",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 7,
-         "target": "4723",
-         "source": "38156"
+         "source": "Derek Dagit",
+         "value": 12,
+         "target": "P. Taylor Goetz"
       },
       {
-         "value": 5,
-         "target": "17925",
-         "source": "4723"
-      },
-      {
-         "value": 5,
-         "target": "38156",
-         "source": "4723"
-      },
-      {
+         "source": "ptgoetz",
          "value": 2,
-         "target": "17925",
-         "source": "38156"
+         "target": "Derek Dagit"
+      },
+      {
+         "source": "ptgoetz",
+         "value": 5,
+         "target": "P. Taylor Goetz"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ptgoetz",
+         "group": 2
+      },
+      {
+         "id": "Derek Dagit",
+         "group": 3
+      },
+      {
+         "id": "P. Taylor Goetz",
+         "group": 3
       }
    ]
 }

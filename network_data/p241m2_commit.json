@@ -1,56 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "399",
-         "group": 4
-      },
-      {
-         "id": "42362",
-         "group": 2
-      },
-      {
-         "id": "42355",
-         "group": 1
-      },
-      {
-         "id": "42359",
-         "group": 2
-      },
-      {
-         "id": "42361",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "jbonofre",
          "value": 13,
-         "target": "42361",
-         "source": "399"
+         "target": "Chris Laprun"
       },
       {
-         "value": 2,
-         "target": "42361",
-         "source": "42359"
-      },
-      {
-         "value": 12,
-         "target": "42359",
-         "source": "399"
-      },
-      {
-         "value": 2,
-         "target": "42359",
-         "source": "42361"
-      },
-      {
-         "value": 3,
-         "target": "42362",
-         "source": "399"
-      },
-      {
+         "source": "jbonofre",
          "value": 15,
-         "target": "42355",
-         "source": "399"
+         "target": "shuber"
+      },
+      {
+         "source": "jbonofre",
+         "value": 3,
+         "target": "Quentin Lamerand"
+      },
+      {
+         "source": "Chris Laprun",
+         "value": 4,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "jbonofre",
+         "value": 12,
+         "target": "Serge Huber"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Quentin Lamerand",
+         "group": 3
+      },
+      {
+         "id": "jbonofre",
+         "group": 4
+      },
+      {
+         "id": "Chris Laprun",
+         "group": 4
+      },
+      {
+         "id": "Serge Huber",
+         "group": 4
+      },
+      {
+         "id": "shuber",
+         "group": 2
       }
    ]
 }

@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "Martin Sebor (JIRA)",
+         "value": 1,
+         "target": "Jeremy Dean (JIRA)"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "Anton Pevtsov"
+      }
+   ],
    "nodes": [
       {
-         "id": "37996",
+         "id": "Martin Sebor",
+         "group": 1
+      },
+      {
+         "id": "Jeremy Dean (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Martin Sebor (JIRA)",
          "group": 2
       },
       {
-         "id": "38017",
-         "group": 4
-      },
-      {
-         "id": "38000",
-         "group": 3
-      },
-      {
-         "id": "38018",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "38018",
-         "source": "38000"
-      },
-      {
-         "value": 2,
-         "target": "38017",
-         "source": "37996"
+         "id": "Anton Pevtsov",
+         "group": 2
       }
    ]
 }

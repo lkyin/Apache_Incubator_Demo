@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "17821",
-         "group": 1
+         "source": "Lionel Liu",
+         "value": 5,
+         "target": "William Guo"
       },
       {
-         "id": "18084",
+         "source": "guoyp",
+         "value": 15,
+         "target": "William Guo"
+      },
+      {
+         "source": "Lionel Liu",
+         "value": 37,
+         "target": "guoyp"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lionel Liu",
          "group": 4
       },
       {
-         "id": "18092",
+         "id": "guoyp",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 15,
-         "target": "18084",
-         "source": "17821"
       },
       {
-         "value": 5,
-         "target": "18092",
-         "source": "17821"
-      },
-      {
-         "value": 37,
-         "target": "18092",
-         "source": "18084"
+         "id": "William Guo",
+         "group": 1
       }
    ]
 }

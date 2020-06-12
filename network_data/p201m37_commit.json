@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "33441",
-         "group": 3
-      },
-      {
-         "id": "33444",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "peter_firmstone",
          "value": 43,
-         "target": "33444",
-         "source": "33441"
+         "target": "thobbs"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "peter_firmstone",
+         "group": 2
+      },
+      {
+         "id": "thobbs",
+         "group": 1
       }
    ]
 }

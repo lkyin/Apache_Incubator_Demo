@@ -1,79 +1,84 @@
 {
-   "nodes": [
-      {
-         "id": "527",
-         "group": 2
-      },
-      {
-         "id": "34915",
-         "group": 2
-      },
-      {
-         "id": "532",
-         "group": 2
-      },
-      {
-         "id": "534",
-         "group": 2
-      },
-      {
-         "id": "528",
-         "group": 4
-      },
-      {
-         "id": "536",
-         "group": 2
-      },
-      {
-         "id": "538",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "532",
-         "source": "538"
+         "source": "rajdavies",
+         "value": 1,
+         "target": "chirino"
       },
       {
-         "value": 6,
-         "target": "538",
-         "source": "528"
-      },
-      {
-         "value": 2,
-         "target": "532",
-         "source": "528"
-      },
-      {
+         "source": "chirino",
          "value": 78,
-         "target": "536",
-         "source": "528"
+         "target": "gnodet"
       },
       {
+         "source": "chirino",
          "value": 1,
-         "target": "528",
-         "source": "34915"
+         "target": "rajdavies"
       },
       {
-         "value": 4,
-         "target": "532",
-         "source": "536"
-      },
-      {
+         "source": "chirino",
          "value": 1,
-         "target": "534",
-         "source": "527"
+         "target": "pdodds"
       },
       {
-         "value": 1,
-         "target": "536",
-         "source": "527"
-      },
-      {
+         "source": "jgapuz",
          "value": 7,
-         "target": "538",
-         "source": "536"
+         "target": "gnodet"
+      },
+      {
+         "source": "jgapuz",
+         "value": 2,
+         "target": "rajdavies"
+      },
+      {
+         "source": "jstrachan",
+         "value": 1,
+         "target": "gnodet"
+      },
+      {
+         "source": "foconer",
+         "value": 1,
+         "target": "jstrachan"
+      },
+      {
+         "source": "jgapuz",
+         "value": 6,
+         "target": "chirino"
+      },
+      {
+         "source": "rajdavies",
+         "value": 4,
+         "target": "gnodet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "chirino",
+         "group": 4
+      },
+      {
+         "id": "jgapuz",
+         "group": 2
+      },
+      {
+         "id": "foconer",
+         "group": 2
+      },
+      {
+         "id": "jstrachan",
+         "group": 3
+      },
+      {
+         "id": "rajdavies",
+         "group": 1
+      },
+      {
+         "id": "pdodds",
+         "group": 4
+      },
+      {
+         "id": "gnodet",
+         "group": 3
       }
    ]
 }

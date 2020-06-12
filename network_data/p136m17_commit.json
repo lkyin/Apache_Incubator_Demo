@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "22163",
-         "group": 2
+         "source": "andy",
+         "value": 5,
+         "target": "rvesse"
       },
       {
-         "id": "22164",
+         "source": "sallen",
+         "value": 5,
+         "target": "rvesse"
+      },
+      {
+         "source": "andy",
+         "value": 5,
+         "target": "sallen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "andy",
          "group": 4
       },
       {
-         "id": "10038",
+         "id": "sallen",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "10038",
-         "source": "22163"
       },
       {
-         "value": 5,
-         "target": "22164",
-         "source": "22163"
-      },
-      {
-         "value": 5,
-         "target": "10038",
-         "source": "22164"
+         "id": "rvesse",
+         "group": 3
       }
    ]
 }

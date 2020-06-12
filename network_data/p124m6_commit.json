@@ -1,61 +1,71 @@
 {
+   "links": [
+      {
+         "source": "zzhang",
+         "value": 2,
+         "target": "zzhang"
+      },
+      {
+         "source": "zzhang",
+         "value": 4,
+         "target": "slu2011"
+      },
+      {
+         "source": "slu2011",
+         "value": 1,
+         "target": "zzhang"
+      },
+      {
+         "source": "zzhang",
+         "value": 17,
+         "target": "slu2011"
+      },
+      {
+         "source": "slu2011",
+         "value": 3,
+         "target": "Kishore Gopalakrishna"
+      },
+      {
+         "source": "zzhang",
+         "value": 4,
+         "target": "zzhang"
+      },
+      {
+         "source": "zzhang",
+         "value": 2,
+         "target": "Swaroop Jagadish"
+      },
+      {
+         "source": "zzhang",
+         "value": 2,
+         "target": "Kishore Gopalakrishna"
+      },
+      {
+         "source": "slu2011",
+         "value": 2,
+         "target": "zzhang"
+      }
+   ],
    "nodes": [
       {
-         "id": "20190",
-         "group": 3
+         "id": "zzhang",
+         "group": 2
       },
       {
-         "id": "20195",
-         "group": 3
-      },
-      {
-         "id": "20206",
+         "id": "zzhang",
          "group": 4
       },
       {
-         "id": "20191",
+         "id": "slu2011",
+         "group": 1
+      },
+      {
+         "id": "Swaroop Jagadish",
          "group": 3
       },
       {
-         "id": "20192",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "20191",
-         "source": "20195"
-      },
-      {
-         "value": 3,
-         "target": "20195",
-         "source": "20190"
-      },
-      {
-         "value": 2,
-         "target": "20192",
-         "source": "20190"
-      },
-      {
-         "value": 19,
-         "target": "20192",
-         "source": "20195"
-      },
-      {
-         "value": 4,
-         "target": "20195",
-         "source": "20191"
-      },
-      {
-         "value": 6,
-         "target": "20192",
-         "source": "20191"
-      },
-      {
-         "value": 2,
-         "target": "20192",
-         "source": "20206"
+         "id": "Kishore Gopalakrishna",
+         "group": 3
       }
    ]
 }

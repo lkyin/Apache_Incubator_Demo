@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 2
-      },
-      {
-         "id": "5892",
-         "group": 1
-      },
-      {
-         "id": "22364",
-         "group": 2
-      },
-      {
-         "id": "5945",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Mark Struberg",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Reinhard Sandtner",
          "value": 2,
-         "target": "5945",
-         "source": "5928"
+         "target": "Romain Manni-Bucau"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "5892",
-         "source": "5928"
+         "target": "Mark Struberg"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 2,
-         "target": "5928",
-         "source": "5945"
+         "target": "Reinhard Sandtner"
       },
       {
+         "source": "Karl Grosse",
          "value": 1,
-         "target": "5928",
-         "source": "22364"
+         "target": "Romain Manni-Bucau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "5928",
-         "source": "5892"
+         "id": "Karl Grosse",
+         "group": 1
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 3
+      },
+      {
+         "id": "Reinhard Sandtner",
+         "group": 3
       }
    ]
 }

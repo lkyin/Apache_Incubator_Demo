@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4488",
-         "group": 1
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "David Jencks"
       },
       {
-         "id": "17351",
+         "source": "David Jencks",
+         "value": 1,
+         "target": "Simone Tripodi"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Pid"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Jencks",
+         "group": 3
+      },
+      {
+         "id": "Simone Tripodi",
          "group": 4
       },
       {
-         "id": "607",
+         "id": "Tommaso Teofili",
+         "group": 4
+      },
+      {
+         "id": "Pid",
          "group": 2
-      },
-      {
-         "id": "7574",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "7574",
-         "source": "607"
-      },
-      {
-         "value": 1,
-         "target": "607",
-         "source": "7574"
       }
    ]
 }

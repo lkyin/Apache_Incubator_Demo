@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "21055",
-         "group": 2
-      },
-      {
-         "id": "20971",
-         "group": 1
-      },
-      {
-         "id": "20980",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "John Russell",
          "value": 1,
-         "target": "20971",
-         "source": "21055"
+         "target": "Henry Robinson"
       },
       {
+         "source": "Lenni Kuff",
          "value": 1,
-         "target": "20971",
-         "source": "20980"
+         "target": "Henry Robinson"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lenni Kuff",
+         "group": 3
+      },
+      {
+         "id": "Henry Robinson",
+         "group": 3
+      },
+      {
+         "id": "John Russell",
+         "group": 4
       }
    ]
 }

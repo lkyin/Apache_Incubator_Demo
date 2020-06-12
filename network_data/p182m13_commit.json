@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "29356",
-         "group": 1
-      },
-      {
-         "id": "29355",
-         "group": 2
-      },
-      {
-         "id": "29373",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "solomax",
          "value": 17,
-         "target": "29355",
-         "source": "29356"
+         "target": "sebawagner"
       },
       {
+         "source": "ggrekhov",
          "value": 1,
-         "target": "29355",
-         "source": "29373"
+         "target": "sebawagner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "solomax",
+         "group": 3
+      },
+      {
+         "id": "ggrekhov",
+         "group": 3
+      },
+      {
+         "id": "sebawagner",
+         "group": 1
       }
    ]
 }

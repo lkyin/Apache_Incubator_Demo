@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "12073",
-         "group": 1
-      },
-      {
-         "id": "12072",
-         "group": 2
-      },
-      {
-         "id": "3503",
-         "group": 1
-      },
-      {
-         "id": "12020",
-         "group": 1
-      },
-      {
-         "id": "12051",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Matthew Hayes",
+         "value": 2,
+         "target": "Jarek Cecho"
+      },
+      {
+         "source": "Mohammad Amin",
          "value": 1,
-         "target": "12020",
-         "source": "3503"
+         "target": "wang jian"
       },
       {
+         "source": "Jarek Cecho",
          "value": 2,
-         "target": "3503",
-         "source": "12020"
+         "target": "Matthew Hayes"
       },
       {
+         "source": "Matthew Hayes",
+         "value": 2,
+         "target": "Russell Jurney"
+      },
+      {
+         "source": "Russell Jurney",
          "value": 1,
-         "target": "12051",
-         "source": "12072"
+         "target": "Matthew Hayes"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mohammad Amin",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "12020",
-         "source": "12073"
+         "id": "Russell Jurney",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "12073",
-         "source": "12020"
+         "id": "wang jian",
+         "group": 3
+      },
+      {
+         "id": "Matthew Hayes",
+         "group": 1
+      },
+      {
+         "id": "Jarek Cecho",
+         "group": 3
       }
    ]
 }

@@ -1,81 +1,76 @@
 {
+   "links": [
+      {
+         "source": "junrao",
+         "value": 34,
+         "target": "nehanarkhede"
+      },
+      {
+         "source": "nehanarkhede",
+         "value": 63,
+         "target": "jkreps"
+      },
+      {
+         "source": "junrao",
+         "value": 4,
+         "target": "joestein"
+      },
+      {
+         "source": "junrao",
+         "value": 22,
+         "target": "jkreps"
+      },
+      {
+         "source": "joestein",
+         "value": 6,
+         "target": "jjkoshy"
+      },
+      {
+         "source": "jkreps",
+         "value": 22,
+         "target": "jjkoshy"
+      },
+      {
+         "source": "junrao",
+         "value": 13,
+         "target": "jjkoshy"
+      },
+      {
+         "source": "nehanarkhede",
+         "value": 11,
+         "target": "joestein"
+      },
+      {
+         "source": "joestein",
+         "value": 9,
+         "target": "jkreps"
+      },
+      {
+         "source": "nehanarkhede",
+         "value": 27,
+         "target": "jjkoshy"
+      }
+   ],
    "nodes": [
       {
-         "id": "22947",
-         "group": 1
-      },
-      {
-         "id": "22944",
-         "group": 3
-      },
-      {
-         "id": "22945",
+         "id": "junrao",
          "group": 4
       },
       {
-         "id": "8283",
+         "id": "nehanarkhede",
+         "group": 3
+      },
+      {
+         "id": "joestein",
          "group": 1
       },
       {
-         "id": "22948",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "8283",
-         "source": "22947"
+         "id": "jkreps",
+         "group": 4
       },
       {
-         "value": 32,
-         "target": "22945",
-         "source": "8283"
-      },
-      {
-         "value": 6,
-         "target": "22948",
-         "source": "22947"
-      },
-      {
-         "value": 9,
-         "target": "22944",
-         "source": "22947"
-      },
-      {
-         "value": 13,
-         "target": "22948",
-         "source": "8283"
-      },
-      {
-         "value": 2,
-         "target": "8283",
-         "source": "22945"
-      },
-      {
-         "value": 22,
-         "target": "22948",
-         "source": "22944"
-      },
-      {
-         "value": 22,
-         "target": "8283",
-         "source": "22944"
-      },
-      {
-         "value": 27,
-         "target": "22948",
-         "source": "22945"
-      },
-      {
-         "value": 11,
-         "target": "22945",
-         "source": "22947"
-      },
-      {
-         "value": 63,
-         "target": "22945",
-         "source": "22944"
+         "id": "jjkoshy",
+         "group": 1
       }
    ]
 }

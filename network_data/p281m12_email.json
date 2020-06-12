@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "23245",
-         "group": 3
-      },
-      {
-         "id": "23236",
-         "group": 1
-      },
-      {
-         "id": "13723",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Stuart Monteith",
          "value": 1,
-         "target": "13723",
-         "source": "23236"
+         "target": "Bobrovsky, Konstantin S"
       },
       {
+         "source": "Bobrovsky, Konstantin S",
          "value": 1,
-         "target": "23245",
-         "source": "23236"
+         "target": "Stuart Monteith"
       },
       {
+         "source": "Stuart Monteith",
          "value": 1,
-         "target": "23236",
-         "source": "23245"
+         "target": "Robert Burrell Donkin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stuart Monteith",
+         "group": 2
+      },
+      {
+         "id": "Robert Burrell Donkin",
+         "group": 4
+      },
+      {
+         "id": "Bobrovsky, Konstantin S",
+         "group": 2
       }
    ]
 }

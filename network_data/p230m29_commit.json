@@ -1,47 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "39923",
-         "group": 2
+         "source": "bryanduxbury",
+         "value": 1,
+         "target": "todd"
       },
       {
-         "id": "23290",
+         "source": "bryanduxbury",
+         "value": 1,
+         "target": "molinaro"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 41,
+         "target": "dreiss"
+      },
+      {
+         "source": "molinaro",
+         "value": 1,
+         "target": "dreiss"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bryanduxbury",
          "group": 1
       },
       {
-         "id": "39920",
+         "id": "molinaro",
+         "group": 3
+      },
+      {
+         "id": "dreiss",
+         "group": 2
+      },
+      {
+         "id": "todd",
          "group": 4
-      },
-      {
-         "id": "39916",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "39916",
-         "source": "39920"
-      },
-      {
-         "value": 1,
-         "target": "39920",
-         "source": "23290"
-      },
-      {
-         "value": 1,
-         "target": "39916",
-         "source": "39923"
-      },
-      {
-         "value": 35,
-         "target": "39920",
-         "source": "39916"
-      },
-      {
-         "value": 1,
-         "target": "39920",
-         "source": "39923"
       }
    ]
 }

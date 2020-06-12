@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "rvs",
+         "value": 1,
+         "target": "ptr"
+      },
+      {
+         "source": "cos",
+         "value": 1,
+         "target": "rvs"
+      },
+      {
+         "source": "bmahe",
+         "value": 3,
+         "target": "rvs"
+      }
+   ],
    "nodes": [
       {
-         "id": "6702",
-         "group": 2
-      },
-      {
-         "id": "6697",
-         "group": 3
-      },
-      {
-         "id": "6701",
+         "id": "rvs",
          "group": 4
       },
       {
-         "id": "6695",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6697",
-         "source": "6702"
+         "id": "cos",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "6701",
-         "source": "6697"
+         "id": "bmahe",
+         "group": 3
       },
       {
-         "value": 3,
-         "target": "6695",
-         "source": "6697"
+         "id": "ptr",
+         "group": 3
       }
    ]
 }

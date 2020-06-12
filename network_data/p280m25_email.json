@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "308",
-         "group": 2
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
       },
       {
-         "id": "4107",
+         "source": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "sebb",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Olivier Lamy",
          "group": 4
       },
       {
-         "id": "419",
+         "id": "Marvin",
+         "group": 1
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 4
+      },
+      {
+         "id": "sebb",
          "group": 2
-      },
-      {
-         "id": "378",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "308",
-         "source": "419"
-      },
-      {
-         "value": 1,
-         "target": "419",
-         "source": "4107"
-      },
-      {
-         "value": 1,
-         "target": "419",
-         "source": "378"
       }
    ]
 }

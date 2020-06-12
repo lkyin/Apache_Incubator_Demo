@@ -1,66 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "21445",
-         "group": 1
-      },
-      {
-         "id": "46338",
-         "group": 3
-      },
-      {
-         "id": "46341",
-         "group": 1
-      },
-      {
-         "id": "46342",
-         "group": 3
-      },
-      {
-         "id": "46343",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 8,
-         "target": "46341",
-         "source": "46342"
-      },
-      {
-         "value": 1,
-         "target": "46338",
-         "source": "46342"
-      },
-      {
-         "value": 7,
-         "target": "46341",
-         "source": "46338"
-      },
-      {
-         "value": 8,
-         "target": "46341",
-         "source": "21445"
-      },
-      {
-         "value": 2,
-         "target": "46342",
-         "source": "46343"
-      },
-      {
-         "value": 6,
-         "target": "46342",
-         "source": "21445"
-      },
-      {
-         "value": 1,
-         "target": "46342",
-         "source": "46338"
-      },
-      {
+         "source": "ccurrens",
          "value": 3,
-         "target": "46341",
-         "source": "46343"
+         "target": "sisve"
+      },
+      {
+         "source": "synhershko",
+         "value": 8,
+         "target": "ccurrens"
+      },
+      {
+         "source": "synhershko",
+         "value": 6,
+         "target": "bodewig"
+      },
+      {
+         "source": "bodewig",
+         "value": 8,
+         "target": "ccurrens"
+      },
+      {
+         "source": "pnasser",
+         "value": 2,
+         "target": "synhershko"
+      },
+      {
+         "source": "synhershko",
+         "value": 2,
+         "target": "sisve"
+      },
+      {
+         "source": "pnasser",
+         "value": 7,
+         "target": "ccurrens"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pnasser",
+         "group": 1
+      },
+      {
+         "id": "synhershko",
+         "group": 3
+      },
+      {
+         "id": "bodewig",
+         "group": 4
+      },
+      {
+         "id": "ccurrens",
+         "group": 3
+      },
+      {
+         "id": "sisve",
+         "group": 3
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "46338",
-         "group": 3
-      },
-      {
-         "id": "46336",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "pnasser",
          "value": 64,
-         "target": "46336",
-         "source": "46338"
+         "target": "digy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pnasser",
+         "group": 1
+      },
+      {
+         "id": "digy",
+         "group": 2
       }
    ]
 }

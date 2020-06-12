@@ -1,81 +1,81 @@
 {
-   "nodes": [
-      {
-         "id": "4091",
-         "group": 4
-      },
-      {
-         "id": "4093",
-         "group": 1
-      },
-      {
-         "id": "4095",
-         "group": 4
-      },
-      {
-         "id": "4092",
-         "group": 1
-      },
-      {
-         "id": "4094",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "4094",
-         "source": "4095"
-      },
-      {
-         "value": 1,
-         "target": "4093",
-         "source": "4091"
-      },
-      {
-         "value": 2,
-         "target": "4091",
-         "source": "4093"
-      },
-      {
+         "source": "Urs Lerch",
          "value": 4,
-         "target": "4092",
-         "source": "4093"
+         "target": "Flavio Pellanda"
       },
       {
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Flavio Pellanda"
+      },
+      {
+         "source": "Flavio Pellanda",
+         "value": 1,
+         "target": "Scott Deboy"
+      },
+      {
+         "source": "Urs Lerch",
          "value": 3,
-         "target": "4093",
-         "source": "4092"
+         "target": "Scott Deboy"
       },
       {
-         "value": 1,
-         "target": "4092",
-         "source": "4091"
-      },
-      {
+         "source": "Scott Deboy",
          "value": 3,
-         "target": "4093",
-         "source": "4095"
+         "target": "Urs Lerch"
       },
       {
-         "value": 1,
-         "target": "4091",
-         "source": "4092"
+         "source": "Urs Lerch",
+         "value": 2,
+         "target": "Christian Grobmeier"
       },
       {
-         "value": 1,
-         "target": "4092",
-         "source": "4095"
-      },
-      {
-         "value": 1,
-         "target": "4095",
-         "source": "4092"
-      },
-      {
+         "source": "Flavio Pellanda",
          "value": 3,
-         "target": "4095",
-         "source": "4093"
+         "target": "Urs Lerch"
+      },
+      {
+         "source": "Scott Deboy",
+         "value": 1,
+         "target": "Marcus Holthaus (IMSEC)"
+      },
+      {
+         "source": "Flavio Pellanda",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Urs Lerch"
+      },
+      {
+         "source": "Scott Deboy",
+         "value": 1,
+         "target": "Flavio Pellanda"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Scott Deboy",
+         "group": 2
+      },
+      {
+         "id": "Flavio Pellanda",
+         "group": 2
+      },
+      {
+         "id": "Christian Grobmeier",
+         "group": 2
+      },
+      {
+         "id": "Marcus Holthaus (IMSEC)",
+         "group": 1
+      },
+      {
+         "id": "Urs Lerch",
+         "group": 2
       }
    ]
 }

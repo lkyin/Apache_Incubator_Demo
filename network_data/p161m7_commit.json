@@ -1,64 +1,64 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "24798",
-         "group": 2
+         "source": "cstella",
+         "value": 2,
+         "target": "nickallen"
       },
       {
-         "id": "12023",
+         "source": "cstella",
+         "value": 1,
+         "target": "Nick Allen"
+      },
+      {
+         "source": "rmerriman",
+         "value": 4,
+         "target": "rmerriman"
+      },
+      {
+         "source": "cstella",
+         "value": 9,
+         "target": "cestella"
+      },
+      {
+         "source": "David Lyle",
+         "value": 1,
+         "target": "Nick Allen"
+      },
+      {
+         "source": "nickallen",
+         "value": 2,
+         "target": "cestella"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Lyle",
+         "group": 3
+      },
+      {
+         "id": "cestella",
          "group": 4
       },
       {
-         "id": "24813",
+         "id": "rmerriman",
          "group": 1
       },
       {
-         "id": "24812",
+         "id": "cstella",
          "group": 1
       },
       {
-         "id": "24799",
-         "group": 2
+         "id": "rmerriman",
+         "group": 3
       },
       {
-         "id": "24792",
+         "id": "nickallen",
+         "group": 3
+      },
+      {
+         "id": "Nick Allen",
          "group": 1
-      },
-      {
-         "id": "24815",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "24813",
-         "source": "12023"
-      },
-      {
-         "value": 9,
-         "target": "12023",
-         "source": "24792"
-      },
-      {
-         "value": 1,
-         "target": "24812",
-         "source": "24798"
-      },
-      {
-         "value": 4,
-         "target": "24815",
-         "source": "24799"
-      },
-      {
-         "value": 1,
-         "target": "12023",
-         "source": "24798"
-      },
-      {
-         "value": 2,
-         "target": "24813",
-         "source": "24792"
       }
    ]
 }

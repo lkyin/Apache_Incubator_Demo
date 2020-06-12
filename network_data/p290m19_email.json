@@ -1,79 +1,79 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29145",
-         "group": 1
+         "source": "=?UTF-8?Q?Emmanuel_L=c3=a9charny?=",
+         "value": 1,
+         "target": "John D. Ament"
       },
       {
-         "id": "29167",
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Hadrian Zbarcea"
+      },
+      {
+         "source": "David Ash",
+         "value": 1,
+         "target": "Kuan YU"
+      },
+      {
+         "source": "David Ash",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "David Ash",
+         "value": 1,
+         "target": "Yanik Grignon"
+      },
+      {
+         "source": "Yanik Grignon",
+         "value": 1,
+         "target": "=?UTF-8?Q?Emmanuel_L=c3=a9charny?="
+      },
+      {
+         "source": "Colm O hEigeartaigh",
+         "value": 1,
+         "target": "=?UTF-8?Q?Emmanuel_L=c3=a9charny?="
+      },
+      {
+         "source": "Hadrian Zbarcea",
+         "value": 1,
+         "target": "=?UTF-8?Q?Emmanuel_L=c3=a9charny?="
+      },
+      {
+         "source": "John D. Ament",
+         "value": 2,
+         "target": "David Ash"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Hadrian Zbarcea",
+         "group": 2
+      },
+      {
+         "id": "Kuan YU",
+         "group": 2
+      },
+      {
+         "id": "=?UTF-8?Q?Emmanuel_L=c3=a9charny?=",
+         "group": 4
+      },
+      {
+         "id": "David Ash",
          "group": 3
       },
       {
-         "id": "3571",
-         "group": 1
+         "id": "Yanik Grignon",
+         "group": 3
       },
       {
-         "id": "29171",
+         "id": "John D. Ament",
          "group": 2
       },
       {
-         "id": "454",
-         "group": 1
-      },
-      {
-         "id": "18401",
-         "group": 2
-      },
-      {
-         "id": "29177",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "29167",
-         "source": "3571"
-      },
-      {
-         "value": 1,
-         "target": "18401",
-         "source": "29145"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "29167"
-      },
-      {
-         "value": 1,
-         "target": "18401",
-         "source": "29171"
-      },
-      {
-         "value": 1,
-         "target": "454",
-         "source": "3571"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "18401"
-      },
-      {
-         "value": 1,
-         "target": "29171",
-         "source": "29167"
-      },
-      {
-         "value": 1,
-         "target": "29177",
-         "source": "29167"
-      },
-      {
-         "value": 1,
-         "target": "18401",
-         "source": "454"
+         "id": "Colm O hEigeartaigh",
+         "group": 3
       }
    ]
 }

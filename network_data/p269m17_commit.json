@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "17932",
-         "group": 2
-      },
-      {
-         "id": "17931",
-         "group": 2
-      },
-      {
-         "id": "17928",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Mirage Abeysekara",
          "value": 1,
-         "target": "17931",
-         "source": "17932"
+         "target": "edward"
       },
       {
-         "value": 1,
-         "target": "17928",
-         "source": "17931"
-      },
-      {
+         "source": "pxsalehi",
          "value": 2,
-         "target": "17928",
-         "source": "17932"
+         "target": "Mirage Abeysekara"
+      },
+      {
+         "source": "pxsalehi",
+         "value": 1,
+         "target": "edward"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pxsalehi",
+         "group": 4
+      },
+      {
+         "id": "Mirage Abeysekara",
+         "group": 1
+      },
+      {
+         "id": "edward",
+         "group": 2
       }
    ]
 }

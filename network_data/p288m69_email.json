@@ -1,84 +1,84 @@
 {
-   "nodes": [
-      {
-         "id": "46755",
-         "group": 2
-      },
-      {
-         "id": "4479",
-         "group": 1
-      },
-      {
-         "id": "30673",
-         "group": 2
-      },
-      {
-         "id": "11330",
-         "group": 2
-      },
-      {
-         "id": "3571",
-         "group": 1
-      },
-      {
-         "id": "11318",
-         "group": 4
-      },
-      {
-         "id": "22436",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "11330",
-         "source": "4479"
-      },
-      {
+         "source": "Ian C",
          "value": 2,
-         "target": "30673",
-         "source": "46755"
+         "target": "Oliver Rau"
       },
       {
-         "value": 2,
-         "target": "22436",
-         "source": "11330"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "11330"
-      },
-      {
-         "value": 1,
-         "target": "4479",
-         "source": "11330"
-      },
-      {
+         "source": "=?UTF-8?Q?J=C3=BCrgen_Schmidt?=",
          "value": 3,
-         "target": "11330",
-         "source": "22436"
+         "target": "Svante Schubert"
       },
       {
-         "value": 1,
-         "target": "11318",
-         "source": "11330"
-      },
-      {
+         "source": "Oliver Rau",
          "value": 2,
-         "target": "46755",
-         "source": "11318"
+         "target": "=?UTF-8?Q?J=C3=BCrgen_Schmidt?="
       },
       {
+         "source": "Svante Schubert",
+         "value": 2,
+         "target": "Tom Barber"
+      },
+      {
+         "source": "Svante Schubert",
          "value": 1,
-         "target": "22436",
-         "source": "11318"
+         "target": "Dave Fisher"
       },
       {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Ian C"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "Tom Barber",
          "value": 3,
-         "target": "11330",
-         "source": "30673"
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Tom Barber"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dave Fisher",
+         "group": 2
+      },
+      {
+         "id": "Svante Schubert",
+         "group": 1
+      },
+      {
+         "id": "Tom Barber",
+         "group": 2
+      },
+      {
+         "id": "=?UTF-8?Q?J=C3=BCrgen_Schmidt?=",
+         "group": 2
+      },
+      {
+         "id": "Oliver Rau",
+         "group": 3
+      },
+      {
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "Ian C",
+         "group": 3
       }
    ]
 }

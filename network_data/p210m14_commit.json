@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "36065",
-         "group": 4
-      },
-      {
-         "id": "207",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "adc",
          "value": 21,
-         "target": "207",
-         "source": "36065"
+         "target": "lhazlewood"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "adc",
+         "group": 3
+      },
+      {
+         "id": "lhazlewood",
+         "group": 4
       }
    ]
 }

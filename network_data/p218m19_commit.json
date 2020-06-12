@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "37767",
-         "group": 3
+         "source": "suat",
+         "value": 5,
+         "target": "rwesten"
       },
       {
-         "id": "37747",
+         "source": "fchrist",
+         "value": 2,
+         "target": "rwesten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fchrist",
          "group": 1
       },
       {
-         "id": "8881",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "8881",
-         "source": "37767"
+         "id": "suat",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "8881",
-         "source": "37747"
+         "id": "rwesten",
+         "group": 1
       }
    ]
 }

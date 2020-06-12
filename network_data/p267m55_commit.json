@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "13690",
-         "group": 3
-      },
-      {
-         "id": "13698",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "tobr",
          "value": 2,
-         "target": "13690",
-         "source": "13698"
+         "target": "thorsten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tobr",
+         "group": 4
+      },
+      {
+         "id": "thorsten",
+         "group": 3
       }
    ]
 }

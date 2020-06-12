@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "402",
-         "group": 4
-      },
-      {
-         "id": "403",
-         "group": 4
-      },
-      {
-         "id": "404",
-         "group": 3
-      },
-      {
-         "id": "405",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Marcel Offermans",
          "value": 2,
-         "target": "402",
-         "source": "405"
+         "target": "Bertrand Delacretaz"
       },
       {
+         "source": "Toni Menzel",
+         "value": 2,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Bertrand Delacretaz",
          "value": 1,
-         "target": "402",
-         "source": "404"
+         "target": "Marcel Offermans"
       },
       {
-         "value": 1,
-         "target": "403",
-         "source": "402"
-      },
-      {
+         "source": "Marcel Offermans",
          "value": 3,
-         "target": "405",
-         "source": "402"
+         "target": "Toni Menzel"
       },
       {
-         "value": 2,
-         "target": "404",
-         "source": "402"
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Niclas Hedhman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 4
+      },
+      {
+         "id": "Marcel Offermans",
+         "group": 2
+      },
+      {
+         "id": "Niclas Hedhman",
+         "group": 4
+      },
+      {
+         "id": "Toni Menzel",
+         "group": 1
       }
    ]
 }

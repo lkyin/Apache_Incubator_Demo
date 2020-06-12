@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "tommaso",
+         "value": 1,
+         "target": "reto"
+      },
+      {
+         "source": "mir",
+         "value": 3,
+         "target": "ito"
+      },
+      {
+         "source": "mir",
+         "value": 5,
+         "target": "reto"
+      },
+      {
+         "source": "reto",
+         "value": 2,
+         "target": "ito"
+      }
+   ],
    "nodes": [
       {
-         "id": "8872",
+         "id": "mir",
          "group": 3
       },
       {
-         "id": "8875",
-         "group": 2
-      },
-      {
-         "id": "8873",
+         "id": "tommaso",
          "group": 4
       },
       {
-         "id": "8874",
+         "id": "reto",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8874",
-         "source": "8872"
       },
       {
-         "value": 3,
-         "target": "8873",
-         "source": "8875"
-      },
-      {
-         "value": 2,
-         "target": "8875",
-         "source": "8872"
-      },
-      {
-         "value": 5,
-         "target": "8873",
-         "source": "8872"
+         "id": "ito",
+         "group": 1
       }
    ]
 }

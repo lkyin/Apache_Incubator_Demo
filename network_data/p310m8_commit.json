@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "45127",
-         "group": 3
-      },
-      {
-         "id": "45122",
-         "group": 1
-      },
-      {
-         "id": "45119",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "bravi",
          "value": 5,
-         "target": "45122",
-         "source": "45127"
+         "target": "enolan"
       },
       {
+         "source": "bravi",
          "value": 1,
-         "target": "45119",
-         "source": "45127"
+         "target": "dmiddlem"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bravi",
+         "group": 3
+      },
+      {
+         "id": "dmiddlem",
+         "group": 3
+      },
+      {
+         "id": "enolan",
+         "group": 1
       }
    ]
 }

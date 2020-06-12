@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "19590",
-         "group": 3
+         "source": "rlei",
+         "value": 3,
+         "target": "Wen Lin"
       },
       {
-         "id": "19502",
+         "source": "amyrazz44",
+         "value": 4,
+         "target": "rlei"
+      },
+      {
+         "source": "amyrazz44",
+         "value": 4,
+         "target": "Wen Lin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "amyrazz44",
          "group": 4
       },
       {
-         "id": "19494",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "19494",
-         "source": "19590"
+         "id": "rlei",
+         "group": 4
       },
       {
-         "value": 3,
-         "target": "19494",
-         "source": "19502"
-      },
-      {
-         "value": 4,
-         "target": "19502",
-         "source": "19590"
+         "id": "Wen Lin",
+         "group": 4
       }
    ]
 }

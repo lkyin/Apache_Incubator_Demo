@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "31788",
-         "group": 2
-      },
-      {
-         "id": "31787",
-         "group": 4
-      },
-      {
-         "id": "31785",
-         "group": 3
-      },
-      {
-         "id": "31786",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "smartini",
          "value": 1,
-         "target": "31786",
-         "source": "31787"
+         "target": "brindy"
       },
       {
-         "value": 134,
-         "target": "31786",
-         "source": "31788"
-      },
-      {
-         "value": 59,
-         "target": "31785",
-         "source": "31788"
-      },
-      {
+         "source": "gbrown",
          "value": 49,
-         "target": "31786",
-         "source": "31785"
+         "target": "tvolkert"
       },
       {
+         "source": "smartini",
+         "value": 59,
+         "target": "tvolkert"
+      },
+      {
+         "source": "gbrown",
          "value": 1,
-         "target": "31787",
-         "source": "31788"
+         "target": "brindy"
+      },
+      {
+         "source": "gbrown",
+         "value": 134,
+         "target": "smartini"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gbrown",
+         "group": 4
+      },
+      {
+         "id": "smartini",
+         "group": 4
+      },
+      {
+         "id": "brindy",
+         "group": 4
+      },
+      {
+         "id": "tvolkert",
+         "group": 1
       }
    ]
 }

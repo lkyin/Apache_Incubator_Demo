@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "mafr",
+         "value": 1,
+         "target": "joes"
+      },
+      {
+         "source": "Josh Wills",
+         "value": 4,
+         "target": "Gabriel Reid"
+      }
+   ],
    "nodes": [
       {
-         "id": "11575",
+         "id": "Josh Wills",
+         "group": 1
+      },
+      {
+         "id": "mafr",
          "group": 4
       },
       {
-         "id": "11576",
+         "id": "Gabriel Reid",
          "group": 3
       },
       {
-         "id": "11574",
-         "group": 2
-      },
-      {
-         "id": "189",
+         "id": "joes",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "11574",
-         "source": "11576"
-      },
-      {
-         "value": 1,
-         "target": "189",
-         "source": "11575"
       }
    ]
 }

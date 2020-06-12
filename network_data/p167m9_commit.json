@@ -1,118 +1,113 @@
 {
-   "nodes": [
-      {
-         "id": "25845",
-         "group": 4
-      },
-      {
-         "id": "25866",
-         "group": 4
-      },
-      {
-         "id": "25889",
-         "group": 2
-      },
-      {
-         "id": "25842",
-         "group": 2
-      },
-      {
-         "id": "25870",
-         "group": 1
-      },
-      {
-         "id": "25848",
-         "group": 3
-      },
-      {
-         "id": "25868",
-         "group": 1
-      },
-      {
-         "id": "25843",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "ccollins",
          "value": 1,
-         "target": "25866",
-         "source": "25845"
+         "target": "Peter Snyder"
       },
       {
-         "value": 2,
-         "target": "25868",
-         "source": "25845"
-      },
-      {
-         "value": 3,
-         "target": "25842",
-         "source": "25845"
-      },
-      {
+         "source": "aditi",
          "value": 1,
-         "target": "25868",
-         "source": "25843"
+         "target": "Peter Snyder"
       },
       {
+         "source": "Gavin Jefferies",
+         "value": 1,
+         "target": "aditi"
+      },
+      {
+         "source": "Marko Kiiskila",
+         "value": 1,
+         "target": "William San Filippo"
+      },
+      {
+         "source": "ccollins",
          "value": 26,
-         "target": "25868",
-         "source": "25848"
+         "target": "Christopher Collins"
       },
       {
+         "source": "Marko Kiiskila",
+         "value": 2,
+         "target": "aditi"
+      },
+      {
+         "source": "Peter Snyder",
          "value": 1,
-         "target": "25889",
-         "source": "25843"
+         "target": "Christopher Collins"
       },
       {
+         "source": "Marko Kiiskila",
+         "value": 7,
+         "target": "Christopher Collins"
+      },
+      {
+         "source": "Gavin Jefferies",
          "value": 4,
-         "target": "25842",
-         "source": "25866"
+         "target": "aditihilbert"
       },
       {
-         "value": 6,
-         "target": "25843",
-         "source": "25868"
-      },
-      {
+         "source": "William San Filippo",
          "value": 1,
-         "target": "25889",
-         "source": "25845"
+         "target": "aditi"
       },
       {
+         "source": "William San Filippo",
          "value": 1,
-         "target": "25870",
-         "source": "25843"
+         "target": "Peter Snyder"
       },
       {
-         "value": 1,
-         "target": "25870",
-         "source": "25889"
-      },
-      {
-         "value": 1,
-         "target": "25870",
-         "source": "25845"
-      },
-      {
-         "value": 1,
-         "target": "25889",
-         "source": "25868"
-      },
-      {
+         "source": "William San Filippo",
          "value": 2,
-         "target": "25843",
-         "source": "25845"
+         "target": "Christopher Collins"
       },
       {
-         "value": 2,
-         "target": "25870",
-         "source": "25868"
+         "source": "aditi",
+         "value": 3,
+         "target": "aditihilbert"
       },
       {
+         "source": "Marko Kiiskila",
          "value": 1,
-         "target": "25889",
-         "source": "25848"
+         "target": "Peter Snyder"
+      },
+      {
+         "source": "aditi",
+         "value": 2,
+         "target": "Christopher Collins"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Marko Kiiskila",
+         "group": 2
+      },
+      {
+         "id": "ccollins",
+         "group": 4
+      },
+      {
+         "id": "William San Filippo",
+         "group": 1
+      },
+      {
+         "id": "aditi",
+         "group": 3
+      },
+      {
+         "id": "Peter Snyder",
+         "group": 1
+      },
+      {
+         "id": "Gavin Jefferies",
+         "group": 4
+      },
+      {
+         "id": "aditihilbert",
+         "group": 1
+      },
+      {
+         "id": "Christopher Collins",
+         "group": 1
       }
    ]
 }

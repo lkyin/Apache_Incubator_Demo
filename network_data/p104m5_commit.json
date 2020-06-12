@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "5225",
-         "group": 3
-      },
-      {
-         "id": "14852",
-         "group": 3
-      },
-      {
-         "id": "14851",
-         "group": 1
-      },
-      {
-         "id": "14854",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Venkatesh Seetharam",
+         "value": 1,
+         "target": "srikanth.sundarrajan"
+      },
+      {
+         "source": "Shwetha GS",
+         "value": 1,
+         "target": "sriksun"
+      },
+      {
+         "source": "Shwetha GS",
          "value": 2,
-         "target": "14854",
-         "source": "14851"
+         "target": "srikanth.sundarrajan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Venkatesh Seetharam",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "14854",
-         "source": "14852"
+         "id": "Shwetha GS",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "14851",
-         "source": "5225"
+         "id": "sriksun",
+         "group": 1
+      },
+      {
+         "id": "srikanth.sundarrajan",
+         "group": 1
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "40996",
-         "group": 3
-      },
-      {
-         "id": "4849",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "hbeatty",
          "value": 1,
-         "target": "4849",
-         "source": "40996"
+         "target": "jenkins"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "hbeatty",
+         "group": 2
+      },
+      {
+         "id": "jenkins",
+         "group": 1
       }
    ]
 }

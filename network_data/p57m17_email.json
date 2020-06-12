@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "Maciej Machulak",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Paul Lindner"
+      },
+      {
+         "source": "Stefan Seelmann",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "Paul Lindner",
+         "value": 1,
+         "target": "Stefan Seelmann"
+      }
+   ],
    "nodes": [
       {
-         "id": "28773",
+         "id": "Maciej Machulak",
+         "group": 1
+      },
+      {
+         "id": "Stefan Seelmann",
+         "group": 4
+      },
+      {
+         "id": "Paul Lindner",
          "group": 2
       },
       {
-         "id": "17351",
-         "group": 4
-      },
-      {
-         "id": "28761",
-         "group": 3
-      },
-      {
-         "id": "28769",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "28773",
-         "source": "28761"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "28773"
-      },
-      {
-         "value": 1,
-         "target": "28761",
-         "source": "17351"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "28769"
+         "id": "Pid",
+         "group": 2
       }
    ]
 }

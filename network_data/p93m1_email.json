@@ -1,69 +1,69 @@
 {
+   "links": [
+      {
+         "source": "Andrew Savory",
+         "value": 1,
+         "target": "Scott Wilson"
+      },
+      {
+         "source": "Andrew Savory (Updated) (JIRA)",
+         "value": 5,
+         "target": "Andrew Savory (Created) (JIRA)"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Andrew Savory"
+      },
+      {
+         "source": "Scott Wilson",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Andrew Savory (Commented) (JIRA)",
+         "value": 1,
+         "target": "Andrew Savory (Created) (JIRA)"
+      },
+      {
+         "source": "Andrew Savory (Resolved) (JIRA)",
+         "value": 2,
+         "target": "Andrew Savory (Created) (JIRA)"
+      },
+      {
+         "source": "Andrew Savory",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      }
+   ],
    "nodes": [
       {
-         "id": "12833",
+         "id": "Andrew Savory (Created) (JIRA)",
          "group": 3
       },
       {
-         "id": "12834",
+         "id": "Scott Wilson",
          "group": 1
       },
       {
-         "id": "12856",
-         "group": 3
+         "id": "Bertrand Delacretaz",
+         "group": 2
       },
       {
-         "id": "12835",
-         "group": 3
+         "id": "Andrew Savory (Commented) (JIRA)",
+         "group": 2
       },
       {
-         "id": "404",
-         "group": 3
-      },
-      {
-         "id": "12836",
+         "id": "Andrew Savory (Updated) (JIRA)",
          "group": 4
       },
       {
-         "id": "10253",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "12833",
-         "source": "12836"
+         "id": "Andrew Savory",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "12856",
-         "source": "10253"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "12856"
-      },
-      {
-         "value": 1,
-         "target": "12833",
-         "source": "12835"
-      },
-      {
-         "value": 1,
-         "target": "10253",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "10253"
-      },
-      {
-         "value": 5,
-         "target": "12833",
-         "source": "12834"
+         "id": "Andrew Savory (Resolved) (JIRA)",
+         "group": 2
       }
    ]
 }

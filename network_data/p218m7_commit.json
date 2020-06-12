@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "37750",
-         "group": 1
-      },
-      {
-         "id": "8881",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "ogrisel",
          "value": 4,
-         "target": "8881",
-         "source": "37750"
+         "target": "rwesten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ogrisel",
+         "group": 4
+      },
+      {
+         "id": "rwesten",
+         "group": 3
       }
    ]
 }

@@ -1,66 +1,66 @@
 {
+   "links": [
+      {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "Justin Erenkrantz"
+      },
+      {
+         "source": "Justin Erenkrantz",
+         "value": 1,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Justin Erenkrantz",
+         "value": 1,
+         "target": "Andrew Black"
+      },
+      {
+         "source": "Andrew Black",
+         "value": 14,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 13,
+         "target": "Farid Zaripov"
+      },
+      {
+         "source": "Andrew Black",
+         "value": 2,
+         "target": "Farid Zaripov"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "faridz"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 19,
+         "target": "Andrew Black"
+      }
+   ],
    "nodes": [
       {
-         "id": "37997",
+         "id": "Andrew Black",
+         "group": 3
+      },
+      {
+         "id": "Martin Sebor",
          "group": 1
       },
       {
-         "id": "37996",
+         "id": "Justin Erenkrantz",
          "group": 2
       },
       {
-         "id": "37994",
-         "group": 4
+         "id": "Farid Zaripov",
+         "group": 3
       },
       {
-         "id": "8608",
-         "group": 4
-      },
-      {
-         "id": "38044",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 13,
-         "target": "38044",
-         "source": "37996"
-      },
-      {
-         "value": 1,
-         "target": "37996",
-         "source": "8608"
-      },
-      {
-         "value": 2,
-         "target": "37994",
-         "source": "37996"
-      },
-      {
-         "value": 2,
-         "target": "8608",
-         "source": "37996"
-      },
-      {
-         "value": 2,
-         "target": "38044",
-         "source": "37997"
-      },
-      {
-         "value": 1,
-         "target": "37997",
-         "source": "8608"
-      },
-      {
-         "value": 19,
-         "target": "37997",
-         "source": "37996"
-      },
-      {
-         "value": 14,
-         "target": "37996",
-         "source": "37997"
+         "id": "faridz",
+         "group": 3
       }
    ]
 }

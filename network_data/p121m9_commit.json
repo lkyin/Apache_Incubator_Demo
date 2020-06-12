@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "18903",
-         "group": 1
-      },
-      {
-         "id": "1022",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "tellison",
          "value": 263,
-         "target": "1022",
-         "source": "18903"
+         "target": "geirm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tellison",
+         "group": 4
+      },
+      {
+         "id": "geirm",
+         "group": 4
       }
    ]
 }

@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "20190",
-         "group": 4
-      },
-      {
-         "id": "20232",
-         "group": 4
-      },
-      {
-         "id": "20189",
-         "group": 2
-      },
-      {
-         "id": "34141",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "kishoreg",
          "value": 1,
-         "target": "34141",
-         "source": "20190"
+         "target": "mmorel"
       },
       {
+         "source": "Matthieu Morel",
+         "value": 6,
+         "target": "Kishore Gopalakrishna"
+      },
+      {
+         "source": "mmorel",
+         "value": 1,
+         "target": "Kishore Gopalakrishna"
+      },
+      {
+         "source": "kishoreg",
          "value": 2,
-         "target": "20189",
-         "source": "20190"
+         "target": "Kishore Gopalakrishna"
       },
       {
+         "source": "Matthieu Morel",
          "value": 6,
-         "target": "20232",
-         "source": "20190"
+         "target": "mmorel"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matthieu Morel",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "20189",
-         "source": "34141"
+         "id": "mmorel",
+         "group": 3
       },
       {
-         "value": 6,
-         "target": "34141",
-         "source": "20232"
+         "id": "kishoreg",
+         "group": 3
+      },
+      {
+         "id": "Kishore Gopalakrishna",
+         "group": 1
       }
    ]
 }

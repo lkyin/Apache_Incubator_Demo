@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "5928",
-         "group": 3
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "Jean-Louis MONTEIRO"
       },
       {
-         "id": "5934",
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "Jean-Louis MONTEIRO"
+      },
+      {
+         "source": "=?UTF-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?=",
+         "value": 1,
+         "target": "Jean-Louis MONTEIRO"
+      },
+      {
+         "source": "Jean-Louis MONTEIRO",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 4
+      },
+      {
+         "id": "=?UTF-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?=",
          "group": 2
       },
       {
-         "id": "4107",
-         "group": 1
+         "id": "Olivier Lamy",
+         "group": 4
       },
       {
-         "id": "430",
+         "id": "Jean-Louis MONTEIRO",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5934",
-         "source": "4107"
-      },
-      {
-         "value": 1,
-         "target": "5928",
-         "source": "5934"
-      },
-      {
-         "value": 1,
-         "target": "5934",
-         "source": "5928"
-      },
-      {
-         "value": 1,
-         "target": "5934",
-         "source": "430"
       }
    ]
 }

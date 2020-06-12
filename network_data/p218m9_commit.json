@@ -1,79 +1,79 @@
 {
-   "nodes": [
-      {
-         "id": "8880",
-         "group": 1
-      },
-      {
-         "id": "37763",
-         "group": 1
-      },
-      {
-         "id": "37745",
-         "group": 4
-      },
-      {
-         "id": "8881",
-         "group": 4
-      },
-      {
-         "id": "37767",
-         "group": 3
-      },
-      {
-         "id": "37761",
-         "group": 3
-      },
-      {
-         "id": "37747",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "alexdma",
          "value": 2,
-         "target": "8881",
-         "source": "37761"
+         "target": "rwesten"
       },
       {
-         "value": 6,
-         "target": "8881",
-         "source": "37747"
-      },
-      {
-         "value": 1,
-         "target": "37761",
-         "source": "37763"
-      },
-      {
-         "value": 4,
-         "target": "37747",
-         "source": "37767"
-      },
-      {
-         "value": 1,
-         "target": "8881",
-         "source": "8880"
-      },
-      {
-         "value": 1,
-         "target": "37747",
-         "source": "37745"
-      },
-      {
-         "value": 2,
-         "target": "37747",
-         "source": "37763"
-      },
-      {
-         "value": 1,
-         "target": "37761",
-         "source": "37767"
-      },
-      {
+         "source": "alexdma",
          "value": 92,
-         "target": "37747",
-         "source": "37761"
+         "target": "fchrist"
+      },
+      {
+         "source": "alexdma",
+         "value": 1,
+         "target": "suat"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 2,
+         "target": "fchrist"
+      },
+      {
+         "source": "fchrist",
+         "value": 6,
+         "target": "rwesten"
+      },
+      {
+         "source": "wkasper",
+         "value": 1,
+         "target": "fchrist"
+      },
+      {
+         "source": "alexdma",
+         "value": 1,
+         "target": "anuzzolese"
+      },
+      {
+         "source": "fchrist",
+         "value": 4,
+         "target": "suat"
+      },
+      {
+         "source": "florent",
+         "value": 1,
+         "target": "rwesten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fchrist",
+         "group": 1
+      },
+      {
+         "id": "suat",
+         "group": 4
+      },
+      {
+         "id": "anuzzolese",
+         "group": 1
+      },
+      {
+         "id": "florent",
+         "group": 4
+      },
+      {
+         "id": "wkasper",
+         "group": 2
+      },
+      {
+         "id": "alexdma",
+         "group": 4
+      },
+      {
+         "id": "rwesten",
+         "group": 1
       }
    ]
 }

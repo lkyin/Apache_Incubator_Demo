@@ -1,129 +1,119 @@
 {
+   "links": [
+      {
+         "source": "mss",
+         "value": 5,
+         "target": "felicity"
+      },
+      {
+         "source": "jm",
+         "value": 10,
+         "target": "quinlan"
+      },
+      {
+         "source": "parker",
+         "value": 1,
+         "target": "quinlan"
+      },
+      {
+         "source": "felicity",
+         "value": 1,
+         "target": "sidney"
+      },
+      {
+         "source": "mss",
+         "value": 1,
+         "target": "parker"
+      },
+      {
+         "source": "jm",
+         "value": 6,
+         "target": "felicity"
+      },
+      {
+         "source": "quinlan",
+         "value": 1,
+         "target": "sidney"
+      },
+      {
+         "source": "jm",
+         "value": 1,
+         "target": "yackley"
+      },
+      {
+         "source": "felicity",
+         "value": 9,
+         "target": "quinlan"
+      },
+      {
+         "source": "mss",
+         "value": 3,
+         "target": "quinlan"
+      },
+      {
+         "source": "felicity",
+         "value": 1,
+         "target": "yackley"
+      },
+      {
+         "source": "jm",
+         "value": 1,
+         "target": "sidney"
+      },
+      {
+         "source": "jm",
+         "value": 1,
+         "target": "mss"
+      },
+      {
+         "source": "mss",
+         "value": 5,
+         "target": "sidney"
+      },
+      {
+         "source": "mss",
+         "value": 2,
+         "target": "jm"
+      },
+      {
+         "source": "quinlan",
+         "value": 1,
+         "target": "yackley"
+      },
+      {
+         "source": "parker",
+         "value": 3,
+         "target": "felicity"
+      }
+   ],
    "nodes": [
       {
-         "id": "36956",
+         "id": "yackley",
+         "group": 4
+      },
+      {
+         "id": "mss",
          "group": 2
       },
       {
-         "id": "36959",
-         "group": 4
-      },
-      {
-         "id": "36963",
+         "id": "jm",
          "group": 3
       },
       {
-         "id": "36955",
-         "group": 4
+         "id": "parker",
+         "group": 1
       },
       {
-         "id": "36957",
-         "group": 4
+         "id": "felicity",
+         "group": 1
       },
       {
-         "id": "36961",
-         "group": 4
-      },
-      {
-         "id": "36965",
+         "id": "quinlan",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "36965",
-         "source": "36956"
       },
       {
-         "value": 8,
-         "target": "36959",
-         "source": "36957"
-      },
-      {
-         "value": 1,
-         "target": "36959",
-         "source": "36963"
-      },
-      {
-         "value": 10,
-         "target": "36959",
-         "source": "36956"
-      },
-      {
-         "value": 5,
-         "target": "36955",
-         "source": "36963"
-      },
-      {
-         "value": 3,
-         "target": "36961",
-         "source": "36957"
-      },
-      {
-         "value": 1,
-         "target": "36957",
-         "source": "36959"
-      },
-      {
-         "value": 1,
-         "target": "36956",
-         "source": "36957"
-      },
-      {
-         "value": 5,
-         "target": "36957",
-         "source": "36956"
-      },
-      {
-         "value": 5,
-         "target": "36957",
-         "source": "36955"
-      },
-      {
-         "value": 3,
-         "target": "36959",
-         "source": "36955"
-      },
-      {
-         "value": 1,
-         "target": "36961",
-         "source": "36955"
-      },
-      {
-         "value": 1,
-         "target": "36965",
-         "source": "36957"
-      },
-      {
-         "value": 1,
-         "target": "36955",
-         "source": "36956"
-      },
-      {
-         "value": 1,
-         "target": "36957",
-         "source": "36963"
-      },
-      {
-         "value": 1,
-         "target": "36959",
-         "source": "36965"
-      },
-      {
-         "value": 2,
-         "target": "36956",
-         "source": "36955"
-      },
-      {
-         "value": 1,
-         "target": "36959",
-         "source": "36961"
-      },
-      {
-         "value": 1,
-         "target": "36956",
-         "source": "36963"
+         "id": "sidney",
+         "group": 4
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "6697",
-         "group": 2
+         "source": "plinnell",
+         "value": 1,
+         "target": "rvs"
       },
       {
-         "id": "6699",
+         "source": "rvs",
+         "value": 12,
+         "target": "bmahe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bmahe",
          "group": 4
       },
       {
-         "id": "6695",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 12,
-         "target": "6695",
-         "source": "6697"
+         "id": "plinnell",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "6699",
-         "source": "6697"
+         "id": "rvs",
+         "group": 1
       }
    ]
 }

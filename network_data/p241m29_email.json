@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "42405",
-         "group": 1
-      },
-      {
-         "id": "42359",
-         "group": 1
-      },
-      {
-         "id": "42401",
-         "group": 2
-      },
-      {
-         "id": "4102",
-         "group": 1
-      },
-      {
-         "id": "42383",
-         "group": 2
-      },
-      {
-         "id": "42402",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Serge Huber",
          "value": 2,
-         "target": "42359",
-         "source": "42401"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
-         "value": 1,
-         "target": "42402",
-         "source": "42383"
-      },
-      {
-         "value": 2,
-         "target": "4102",
-         "source": "42359"
-      },
-      {
+         "source": "Serge Huber",
          "value": 4,
-         "target": "42401",
-         "source": "42359"
+         "target": "Diogo Munaro Vieira"
       },
       {
+         "source": "Damien GAILLARD",
          "value": 1,
-         "target": "42359",
-         "source": "42405"
+         "target": "Saddam Hussain"
       },
       {
+         "source": "Diogo Munaro Vieira",
          "value": 2,
-         "target": "42405",
-         "source": "4102"
+         "target": "Serge Huber"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "value": 2,
+         "target": "Jarek Lipski"
+      },
+      {
+         "source": "Jarek Lipski",
          "value": 1,
-         "target": "42383",
-         "source": "42402"
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Saddam Hussain",
+         "value": 1,
+         "target": "Damien GAILLARD"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Diogo Munaro Vieira",
+         "group": 4
+      },
+      {
+         "id": "Damien GAILLARD",
+         "group": 3
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 1
+      },
+      {
+         "id": "Saddam Hussain",
+         "group": 2
+      },
+      {
+         "id": "Serge Huber",
+         "group": 1
+      },
+      {
+         "id": "Jarek Lipski",
+         "group": 2
       }
    ]
 }

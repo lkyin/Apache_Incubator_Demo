@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3503",
-         "group": 4
+         "source": "Jakob Homan",
+         "value": 1,
+         "target": "Matthew Hayes"
       },
       {
-         "id": "12075",
+         "source": "Matthew Hayes",
+         "value": 3,
+         "target": "Russell Jurney"
+      },
+      {
+         "source": "Russell Jurney",
+         "value": 3,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Jason Reid"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Jakob Homan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jason Reid",
          "group": 1
       },
       {
-         "id": "12020",
-         "group": 2
+         "id": "Jakob Homan",
+         "group": 1
       },
       {
-         "id": "1584",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12075",
-         "source": "12020"
+         "id": "Russell Jurney",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "12020",
-         "source": "3503"
-      },
-      {
-         "value": 3,
-         "target": "3503",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "1584",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "1584"
+         "id": "Matthew Hayes",
+         "group": 1
       }
    ]
 }

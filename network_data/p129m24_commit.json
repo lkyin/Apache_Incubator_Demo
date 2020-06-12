@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "20941",
-         "group": 2
+         "source": "mikeb",
+         "value": 1,
+         "target": "Impala Public Jenkins"
       },
       {
-         "id": "21006",
+         "source": "Impala Public Jenkins",
+         "value": 3,
+         "target": "kwho"
+      },
+      {
+         "source": "tarmstrong",
+         "value": 1,
+         "target": "Alex Behm"
+      },
+      {
+         "source": "Impala Public Jenkins",
+         "value": 20,
+         "target": "tarmstrong"
+      },
+      {
+         "source": "Impala Public Jenkins",
+         "value": 2,
+         "target": "Alex Behm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kwho",
          "group": 1
       },
       {
-         "id": "20999",
+         "id": "Impala Public Jenkins",
+         "group": 2
+      },
+      {
+         "id": "Alex Behm",
          "group": 4
       },
       {
-         "id": "21050",
-         "group": 3
-      },
-      {
-         "id": "20963",
+         "id": "mikeb",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "20999",
-         "source": "21006"
       },
       {
-         "value": 1,
-         "target": "21050",
-         "source": "21006"
-      },
-      {
-         "value": 20,
-         "target": "20963",
-         "source": "21006"
-      },
-      {
-         "value": 2,
-         "target": "21006",
-         "source": "20941"
-      },
-      {
-         "value": 1,
-         "target": "20963",
-         "source": "20941"
+         "id": "tarmstrong",
+         "group": 2
       }
    ]
 }

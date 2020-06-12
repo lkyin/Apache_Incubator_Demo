@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "15567",
-         "group": 3
-      },
-      {
-         "id": "15566",
-         "group": 2
-      },
-      {
-         "id": "15584",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "15584",
-         "source": "15566"
+         "source": "aharui",
+         "value": 5,
+         "target": "cframpton"
       },
       {
-         "value": 5,
-         "target": "15566",
-         "source": "15567"
+         "source": "cherreman",
+         "value": 3,
+         "target": "cframpton"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "aharui",
+         "group": 1
+      },
+      {
+         "id": "cherreman",
+         "group": 1
+      },
+      {
+         "id": "cframpton",
+         "group": 3
       }
    ]
 }

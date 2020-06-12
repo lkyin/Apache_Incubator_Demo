@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "28059",
-         "group": 4
-      },
-      {
-         "id": "39916",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "dreiss",
          "value": 6,
-         "target": "39916",
-         "source": "28059"
+         "target": "cutting"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "cutting",
+         "group": 1
+      },
+      {
+         "id": "dreiss",
+         "group": 1
       }
    ]
 }

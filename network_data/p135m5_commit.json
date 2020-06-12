@@ -1,61 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "21209",
-         "group": 2
-      },
-      {
-         "id": "22108",
-         "group": 3
-      },
-      {
-         "id": "22112",
-         "group": 2
-      },
-      {
-         "id": "1022",
-         "group": 3
-      },
-      {
-         "id": "22107",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "clr",
          "value": 1,
-         "target": "22112",
-         "source": "22107"
+         "target": "mcaisse"
       },
       {
-         "value": 1,
-         "target": "1022",
-         "source": "22107"
-      },
-      {
+         "source": "geirm",
          "value": 12,
-         "target": "1022",
-         "source": "21209"
+         "target": "clr"
       },
       {
-         "value": 8,
-         "target": "22112",
-         "source": "22108"
-      },
-      {
+         "source": "brazil",
          "value": 1,
-         "target": "22108",
-         "source": "21209"
+         "target": "mbo"
       },
       {
+         "source": "brazil",
          "value": 1,
-         "target": "22112",
-         "source": "21209"
+         "target": "mcaisse"
       },
       {
+         "source": "mbo",
          "value": 1,
-         "target": "22107",
-         "source": "21209"
+         "target": "clr"
+      },
+      {
+         "source": "geirm",
+         "value": 1,
+         "target": "mcaisse"
+      },
+      {
+         "source": "mbo",
+         "value": 7,
+         "target": "brazil"
+      },
+      {
+         "source": "brazil",
+         "value": 1,
+         "target": "clr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mbo",
+         "group": 2
+      },
+      {
+         "id": "geirm",
+         "group": 2
+      },
+      {
+         "id": "clr",
+         "group": 4
+      },
+      {
+         "id": "mcaisse",
+         "group": 1
+      },
+      {
+         "id": "brazil",
+         "group": 3
       }
    ]
 }

@@ -1,47 +1,47 @@
 {
+   "links": [
+      {
+         "source": "Werner Keil",
+         "value": 1,
+         "target": "eberhard speer jr."
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 2,
+         "target": "eberhard speer jr."
+      },
+      {
+         "source": "Werner Keil",
+         "value": 3,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Werner Keil",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 2,
+         "target": "Werner Keil"
+      }
+   ],
    "nodes": [
       {
-         "id": "308",
+         "id": "Bertrand Delacretaz",
          "group": 3
       },
       {
-         "id": "12867",
-         "group": 2
-      },
-      {
-         "id": "404",
+         "id": "eberhard speer jr.",
          "group": 4
       },
       {
-         "id": "12872",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "404",
-         "source": "12867"
+         "id": "Werner Keil",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "12867",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "12872",
-         "source": "12867"
-      },
-      {
-         "value": 2,
-         "target": "12872",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "308",
-         "source": "12867"
+         "id": "Marvin",
+         "group": 3
       }
    ]
 }

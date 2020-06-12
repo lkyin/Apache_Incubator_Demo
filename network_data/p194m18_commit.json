@@ -1,19 +1,19 @@
 {
+   "links": [
+      {
+         "source": "jenkins",
+         "value": 1,
+         "target": "git-site-role"
+      }
+   ],
    "nodes": [
       {
-         "id": "4848",
+         "id": "jenkins",
          "group": 3
       },
       {
-         "id": "4849",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4849",
-         "source": "4848"
+         "id": "git-site-role",
+         "group": 4
       }
    ]
 }

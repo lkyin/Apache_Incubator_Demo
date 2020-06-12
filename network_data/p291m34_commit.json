@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "11694",
-         "group": 1
-      },
-      {
-         "id": "31560",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "avd",
          "value": 18,
-         "target": "31560",
-         "source": "11694"
+         "target": "lresende"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "avd",
+         "group": 4
+      },
+      {
+         "id": "lresende",
+         "group": 2
       }
    ]
 }

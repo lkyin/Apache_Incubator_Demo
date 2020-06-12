@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "535",
-         "group": 4
+         "source": "gnodet",
+         "value": 1,
+         "target": "bsnyder"
       },
       {
-         "id": "7466",
+         "source": "boisvert",
+         "value": 1,
+         "target": "gnodet"
+      },
+      {
+         "source": "aco",
+         "value": 1,
+         "target": "gnodet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "boisvert",
          "group": 2
       },
       {
-         "id": "536",
+         "id": "aco",
+         "group": 1
+      },
+      {
+         "id": "gnodet",
+         "group": 2
+      },
+      {
+         "id": "bsnyder",
          "group": 3
-      },
-      {
-         "id": "34916",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "536",
-         "source": "7466"
-      },
-      {
-         "value": 1,
-         "target": "535",
-         "source": "536"
-      },
-      {
-         "value": 1,
-         "target": "536",
-         "source": "34916"
       }
    ]
 }

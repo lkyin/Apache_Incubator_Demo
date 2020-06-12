@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "7062",
-         "group": 3
-      },
-      {
-         "id": "4981",
-         "group": 3
-      },
-      {
-         "id": "7065",
-         "group": 1
-      },
-      {
-         "id": "41",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "7062",
-         "source": "7065"
-      },
-      {
+         "source": "Luciano Resende",
          "value": 3,
-         "target": "41",
-         "source": "7062"
+         "target": "Samuel Kevin"
       },
       {
+         "source": "Samuel Kevin",
+         "value": 1,
+         "target": "Bill Stoddard"
+      },
+      {
+         "source": "Samuel Kevin",
          "value": 3,
-         "target": "7062",
-         "source": "41"
+         "target": "Luciano Resende"
       },
       {
+         "source": "Bill Stoddard",
          "value": 1,
-         "target": "4981",
-         "source": "7062"
+         "target": "Samuel Kevin"
       },
       {
+         "source": "Arthur Chen",
          "value": 1,
-         "target": "7065",
-         "source": "7062"
+         "target": "Samuel Kevin"
       },
       {
+         "source": "Samuel Kevin",
          "value": 1,
-         "target": "7062",
-         "source": "4981"
+         "target": "Arthur Chen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Arthur Chen",
+         "group": 1
+      },
+      {
+         "id": "Samuel Kevin",
+         "group": 2
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 3
+      },
+      {
+         "id": "Bill Stoddard",
+         "group": 3
       }
    ]
 }

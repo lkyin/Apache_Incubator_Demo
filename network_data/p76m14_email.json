@@ -1,77 +1,77 @@
 {
-   "nodes": [
-      {
-         "id": "8622",
-         "group": 4
-      },
-      {
-         "id": "8623",
-         "group": 4
-      },
-      {
-         "id": "8624",
-         "group": 1
-      },
-      {
-         "id": "8661",
-         "group": 2
-      },
-      {
-         "id": "402",
-         "group": 4
-      },
-      {
-         "id": "8621",
-         "group": 2
-      },
-      {
-         "id": "8651",
-         "group": 1
-      },
-      {
-         "id": "308",
-         "group": 2
-      },
-      {
-         "id": "8625",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Alexander Broekhuis (Updated) (JIRA)",
          "value": 1,
-         "target": "8621",
-         "source": "8622"
+         "target": "Arjan Snoek (Created) (JIRA)"
       },
       {
+         "source": "Marcel Offermans",
          "value": 1,
-         "target": "8621",
-         "source": "8624"
+         "target": "MULDER Frank Willem"
       },
       {
-         "value": 1,
-         "target": "8621",
-         "source": "8625"
-      },
-      {
-         "value": 1,
-         "target": "8661",
-         "source": "8651"
-      },
-      {
-         "value": 1,
-         "target": "8661",
-         "source": "402"
-      },
-      {
+         "source": "Arjan Snoek (Updated) (JIRA)",
          "value": 5,
-         "target": "8621",
-         "source": "8623"
+         "target": "Arjan Snoek (Created) (JIRA)"
       },
       {
+         "source": "Alexander Broekhuis (Commented) (JIRA)",
          "value": 1,
-         "target": "308",
-         "source": "8651"
+         "target": "Arjan Snoek (Created) (JIRA)"
+      },
+      {
+         "source": "Arjan Snoek (Commented) (JIRA)",
+         "value": 1,
+         "target": "Arjan Snoek (Created) (JIRA)"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "MULDER Frank Willem"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Marvin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Broekhuis",
+         "group": 4
+      },
+      {
+         "id": "Arjan Snoek (Updated) (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Marcel Offermans",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 1
+      },
+      {
+         "id": "Alexander Broekhuis (Updated) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "MULDER Frank Willem",
+         "group": 1
+      },
+      {
+         "id": "Arjan Snoek (Created) (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Alexander Broekhuis (Commented) (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Arjan Snoek (Commented) (JIRA)",
+         "group": 3
       }
    ]
 }

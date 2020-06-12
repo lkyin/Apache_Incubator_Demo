@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "22944",
-         "group": 3
-      },
-      {
-         "id": "1421",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "criccomini",
          "value": 85,
-         "target": "1421",
-         "source": "22944"
+         "target": "jkreps"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "criccomini",
+         "group": 2
+      },
+      {
+         "id": "jkreps",
+         "group": 1
       }
    ]
 }

@@ -1,47 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14852",
-         "group": 2
+         "source": "venkatesh",
+         "value": 7,
+         "target": "sriksun"
       },
       {
-         "id": "14851",
+         "source": "srikanth.sundarrajan",
+         "value": 4,
+         "target": "venkatesh"
+      },
+      {
+         "source": "venkatesh",
+         "value": 1,
+         "target": "venkatesh"
+      },
+      {
+         "source": "venkatesh",
+         "value": 9,
+         "target": "srikanth.sundarrajan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "venkatesh",
+         "group": 4
+      },
+      {
+         "id": "sriksun",
          "group": 1
       },
       {
-         "id": "14853",
-         "group": 3
+         "id": "srikanth.sundarrajan",
+         "group": 4
       },
       {
-         "id": "5227",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "14853",
-         "source": "14851"
-      },
-      {
-         "value": 9,
-         "target": "5227",
-         "source": "14851"
-      },
-      {
-         "value": 7,
-         "target": "5227",
-         "source": "14852"
-      },
-      {
-         "value": 1,
-         "target": "14851",
-         "source": "14853"
-      },
-      {
-         "value": 1,
-         "target": "5227",
-         "source": "14853"
+         "id": "venkatesh",
+         "group": 4
       }
    ]
 }

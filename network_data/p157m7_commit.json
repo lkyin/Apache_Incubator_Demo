@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "ansell",
+         "value": 2,
+         "target": "Peter Ansell"
+      },
+      {
+         "source": "Peter Ansell",
+         "value": 2,
+         "target": "Raffaele Palmieri"
+      },
+      {
+         "source": "Sebastian Schaffert",
+         "value": 6,
+         "target": "Raffaele Palmieri"
+      }
+   ],
    "nodes": [
       {
-         "id": "24349",
+         "id": "Sebastian Schaffert",
+         "group": 4
+      },
+      {
+         "id": "ansell",
          "group": 1
       },
       {
-         "id": "24343",
-         "group": 2
-      },
-      {
-         "id": "10033",
+         "id": "Peter Ansell",
          "group": 4
       },
       {
-         "id": "4484",
+         "id": "Raffaele Palmieri",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "10033",
-         "source": "24349"
-      },
-      {
-         "value": 6,
-         "target": "24343",
-         "source": "24349"
-      },
-      {
-         "value": 2,
-         "target": "4484",
-         "source": "10033"
       }
    ]
 }

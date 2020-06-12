@@ -1,43 +1,43 @@
 {
-   "nodes": [
-      {
-         "id": "30508",
-         "group": 2
-      },
-      {
-         "id": "30026",
-         "group": 2
-      },
-      {
-         "id": "30373",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Ian",
          "value": 2,
-         "target": "30026",
-         "source": "30373"
+         "target": "Rob Weir"
       },
       {
+         "source": "Rob Weir",
          "value": 1,
-         "target": "30373",
-         "source": "30508"
+         "target": "Noah Tilton"
       },
       {
+         "source": "Noah Tilton",
          "value": 1,
-         "target": "30026",
-         "source": "30508"
+         "target": "Ian"
       },
       {
+         "source": "Rob Weir",
          "value": 1,
-         "target": "30373",
-         "source": "30026"
+         "target": "Ian"
       },
       {
+         "source": "Noah Tilton",
          "value": 1,
-         "target": "30508",
-         "source": "30026"
+         "target": "Rob Weir"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Noah Tilton",
+         "group": 4
+      },
+      {
+         "id": "Rob Weir",
+         "group": 3
+      },
+      {
+         "id": "Ian",
+         "group": 3
       }
    ]
 }

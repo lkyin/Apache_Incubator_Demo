@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "13703",
-         "group": 2
-      },
-      {
-         "id": "11644",
-         "group": 4
-      },
-      {
-         "id": "13688",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "11644",
-         "source": "13688"
+         "source": "Thorsten Scherler",
+         "value": 2,
+         "target": "Ryan McKinley"
       },
       {
-         "value": 2,
-         "target": "13703",
-         "source": "13688"
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "Grant Ingersoll"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Grant Ingersoll",
+         "group": 1
+      },
+      {
+         "id": "Ryan McKinley",
+         "group": 3
+      },
+      {
+         "id": "Thorsten Scherler",
+         "group": 1
       }
    ]
 }

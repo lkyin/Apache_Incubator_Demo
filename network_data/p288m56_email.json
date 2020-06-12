@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "249",
-         "group": 3
-      },
-      {
-         "id": "11330",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Svante Schubert",
          "value": 1,
-         "target": "249",
-         "source": "11330"
+         "target": "Apache Jenkins Server"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Apache Jenkins Server",
+         "group": 4
+      },
+      {
+         "id": "Svante Schubert",
+         "group": 2
       }
    ]
 }

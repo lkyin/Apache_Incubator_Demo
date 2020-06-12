@@ -1,70 +1,70 @@
 {
-   "nodes": [
-      {
-         "id": "22367",
-         "group": 4
-      },
-      {
-         "id": "22368",
-         "group": 2
-      },
-      {
-         "id": "22370",
-         "group": 3
-      },
-      {
-         "id": "10045",
-         "group": 4
-      },
-      {
-         "id": "22369",
-         "group": 3
-      },
-      {
-         "id": "22377",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Kellen Sunderland",
+         "value": 1,
+         "target": "Felix Hieber"
+      },
+      {
+         "source": "Lewis John McGibbney",
          "value": 4,
-         "target": "22369",
-         "source": "10045"
+         "target": "Felix Hieber"
       },
       {
+         "source": "Felix Hieber",
+         "value": 3,
+         "target": "Matt Post"
+      },
+      {
+         "source": "mjpost",
+         "value": 3,
+         "target": "Lewis John McGibbney"
+      },
+      {
+         "source": "mjpost",
          "value": 9,
-         "target": "22370",
-         "source": "22367"
+         "target": "Matt Post"
       },
       {
+         "source": "mjpost",
          "value": 1,
-         "target": "22369",
-         "source": "22368"
+         "target": "antot"
       },
       {
-         "value": 3,
-         "target": "22370",
-         "source": "10045"
-      },
-      {
+         "source": "mjpost",
          "value": 32,
-         "target": "22370",
-         "source": "22369"
+         "target": "Felix Hieber"
       },
       {
+         "source": "antot",
          "value": 1,
-         "target": "22370",
-         "source": "22377"
+         "target": "Matt Post"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "antot",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "22369",
-         "source": "22367"
+         "id": "Lewis John McGibbney",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "22377",
-         "source": "22367"
+         "id": "Felix Hieber",
+         "group": 1
+      },
+      {
+         "id": "Matt Post",
+         "group": 1
+      },
+      {
+         "id": "mjpost",
+         "group": 1
+      },
+      {
+         "id": "Kellen Sunderland",
+         "group": 1
       }
    ]
 }

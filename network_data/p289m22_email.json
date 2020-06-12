@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "28746",
-         "group": 3
-      },
-      {
-         "id": "28743",
-         "group": 2
-      },
-      {
-         "id": "28741",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "28746",
-         "source": "28741"
-      },
-      {
-         "value": 1,
-         "target": "28741",
-         "source": "28743"
-      },
-      {
+         "source": "Shanti Subramanyam",
          "value": 2,
-         "target": "28743",
-         "source": "28741"
+         "target": "Vasileios Kontorinis"
+      },
+      {
+         "source": "Shanti Subramanyam",
+         "value": 1,
+         "target": "hao zhang"
+      },
+      {
+         "source": "Vasileios Kontorinis",
+         "value": 1,
+         "target": "Shanti Subramanyam"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Vasileios Kontorinis",
+         "group": 4
+      },
+      {
+         "id": "Shanti Subramanyam",
+         "group": 1
+      },
+      {
+         "id": "hao zhang",
+         "group": 4
       }
    ]
 }

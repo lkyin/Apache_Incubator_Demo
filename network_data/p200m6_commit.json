@@ -1,89 +1,89 @@
 {
-   "nodes": [
-      {
-         "id": "33145",
-         "group": 3
-      },
-      {
-         "id": "33146",
-         "group": 4
-      },
-      {
-         "id": "33142",
-         "group": 4
-      },
-      {
-         "id": "33130",
-         "group": 1
-      },
-      {
-         "id": "33131",
-         "group": 1
-      },
-      {
-         "id": "33125",
-         "group": 1
-      },
-      {
-         "id": "33127",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 12,
-         "target": "33127",
-         "source": "33145"
-      },
-      {
-         "value": 3,
-         "target": "33142",
-         "source": "33125"
-      },
-      {
-         "value": 18,
-         "target": "33146",
-         "source": "33145"
-      },
-      {
-         "value": 2,
-         "target": "33127",
-         "source": "33131"
-      },
-      {
-         "value": 5,
-         "target": "33125",
-         "source": "33130"
-      },
-      {
-         "value": 67,
-         "target": "33146",
-         "source": "33125"
-      },
-      {
-         "value": 14,
-         "target": "33125",
-         "source": "33131"
-      },
-      {
-         "value": 1,
-         "target": "33127",
-         "source": "33130"
-      },
-      {
+         "source": "sezgin",
          "value": 24,
-         "target": "33127",
-         "source": "33146"
+         "target": "Markus Weimer"
       },
       {
+         "source": "Markus Weimer",
          "value": 107,
-         "target": "33127",
-         "source": "33125"
+         "target": "weimer"
       },
       {
+         "source": "sezgin",
+         "value": 67,
+         "target": "weimer"
+      },
+      {
+         "source": "Beysim Sezgin",
          "value": 18,
-         "target": "33125",
-         "source": "33145"
+         "target": "weimer"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 2,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "weimer",
+         "value": 14,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "juliaw",
+         "value": 5,
+         "target": "weimer"
+      },
+      {
+         "source": "Beysim Sezgin",
+         "value": 12,
+         "target": "Markus Weimer"
+      },
+      {
+         "source": "juliaw",
+         "value": 1,
+         "target": "Markus Weimer"
+      },
+      {
+         "source": "sezgin",
+         "value": 18,
+         "target": "Beysim Sezgin"
+      },
+      {
+         "source": "weimer",
+         "value": 3,
+         "target": "Brian Cho"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Markus Weimer",
+         "group": 2
+      },
+      {
+         "id": "weimer",
+         "group": 1
+      },
+      {
+         "id": "juliaw",
+         "group": 2
+      },
+      {
+         "id": "sezgin",
+         "group": 4
+      },
+      {
+         "id": "Beysim Sezgin",
+         "group": 1
+      },
+      {
+         "id": "Brian Cho",
+         "group": 4
+      },
+      {
+         "id": "Julia Wang",
+         "group": 2
       }
    ]
 }

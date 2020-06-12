@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "24716",
-         "group": 1
-      },
-      {
-         "id": "24713",
-         "group": 1
-      },
-      {
-         "id": "24729",
-         "group": 2
-      },
-      {
-         "id": "24731",
-         "group": 2
-      },
-      {
-         "id": "24727",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Kasper S??rensen",
          "value": 1,
-         "target": "24727",
-         "source": "24716"
+         "target": "tomaszguzialek"
       },
       {
-         "value": 1,
-         "target": "24731",
-         "source": "24716"
-      },
-      {
+         "source": "tomaszguzialek",
          "value": 25,
-         "target": "24729",
-         "source": "24713"
+         "target": "kaspersor"
+      },
+      {
+         "source": "Kasper S??rensen",
+         "value": 1,
+         "target": "Alberto Rodriguez"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kaspersor",
+         "group": 2
+      },
+      {
+         "id": "Kasper S??rensen",
+         "group": 4
+      },
+      {
+         "id": "tomaszguzialek",
+         "group": 1
+      },
+      {
+         "id": "tomaszguzialek",
+         "group": 3
+      },
+      {
+         "id": "Alberto Rodriguez",
+         "group": 2
       }
    ]
 }

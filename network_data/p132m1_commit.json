@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "15006",
-         "group": 3
-      },
-      {
-         "id": "21580",
-         "group": 2
-      },
-      {
-         "id": "21581",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "tripod",
+         "value": 2,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
+         "value": 2,
+         "target": "fielding"
+      },
+      {
+         "source": "fielding",
          "value": 49,
-         "target": "21581",
-         "source": "15006"
+         "target": "stefan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "15006",
-         "source": "21580"
+         "id": "fielding",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "21581",
-         "source": "21580"
+         "id": "stefan",
+         "group": 3
       }
    ]
 }

@@ -1,71 +1,71 @@
 {
-   "nodes": [
-      {
-         "id": "4107",
-         "group": 2
-      },
-      {
-         "id": "419",
-         "group": 2
-      },
-      {
-         "id": "4102",
-         "group": 2
-      },
-      {
-         "id": "18421",
-         "group": 1
-      },
-      {
-         "id": "18419",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "4107",
-         "source": "4102"
-      },
-      {
-         "value": 5,
-         "target": "18421",
-         "source": "4107"
-      },
-      {
-         "value": 2,
-         "target": "419",
-         "source": "4107"
-      },
-      {
-         "value": 4,
-         "target": "4102",
-         "source": "18421"
-      },
-      {
-         "value": 1,
-         "target": "18421",
-         "source": "18419"
-      },
-      {
-         "value": 1,
-         "target": "4107",
-         "source": "18419"
-      },
-      {
-         "value": 1,
-         "target": "18419",
-         "source": "18421"
-      },
-      {
-         "value": 7,
-         "target": "4107",
-         "source": "18421"
-      },
-      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 3,
-         "target": "18421",
-         "source": "4102"
+         "target": "Mike Jumper"
+      },
+      {
+         "source": "James Muehlner",
+         "value": 1,
+         "target": "Mike Jumper"
+      },
+      {
+         "source": "Mike Jumper",
+         "value": 7,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 2,
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 5,
+         "target": "Mike Jumper"
+      },
+      {
+         "source": "Mike Jumper",
+         "value": 1,
+         "target": "James Muehlner"
+      },
+      {
+         "source": "James Muehlner",
+         "value": 1,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "Mike Jumper",
+         "value": 4,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "value": 2,
+         "target": "Olivier Lamy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 3
+      },
+      {
+         "id": "Mike Jumper",
+         "group": 2
+      },
+      {
+         "id": "James Muehlner",
+         "group": 3
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 2
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 2
       }
    ]
 }

@@ -1,99 +1,104 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42398",
-         "group": 1
+         "source": "Dinesh",
+         "value": 1,
+         "target": "dinesh1996"
       },
       {
-         "id": "42405",
+         "source": "Dinesh",
+         "value": 1,
+         "target": "Jarek Lipski"
+      },
+      {
+         "source": "shuber",
+         "value": 1,
+         "target": "dgaillard"
+      },
+      {
+         "source": "shuber",
+         "value": 1,
+         "target": "Jarek Lipski"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 7,
+         "target": "Jarek Lipski"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "dgaillard"
+      },
+      {
+         "source": "dgaillard",
+         "value": 1,
+         "target": "Jarek Lipski"
+      },
+      {
+         "source": "dgaillard",
+         "value": 2,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "shuber",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Jarek Lipski"
+      },
+      {
+         "source": "shuber",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "dgaillard"
+      },
+      {
+         "source": "dinesh1996",
+         "value": 1,
+         "target": "Serge Huber"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "shuber",
+         "group": 2
+      },
+      {
+         "id": "dgaillard",
+         "group": 3
+      },
+      {
+         "id": "Dinesh",
+         "group": 3
+      },
+      {
+         "id": "dinesh1996",
          "group": 4
       },
       {
-         "id": "42380",
+         "id": "Serge Huber",
          "group": 3
       },
       {
-         "id": "42404",
-         "group": 3
-      },
-      {
-         "id": "42355",
-         "group": 1
-      },
-      {
-         "id": "42363",
-         "group": 3
-      },
-      {
-         "id": "42359",
+         "id": "Serge Huber",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42404",
-         "source": "42398"
       },
       {
-         "value": 1,
-         "target": "42363",
-         "source": "42359"
-      },
-      {
-         "value": 1,
-         "target": "42398",
-         "source": "42405"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "42355"
-      },
-      {
-         "value": 1,
-         "target": "42404",
-         "source": "42363"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42380"
-      },
-      {
-         "value": 1,
-         "target": "42355",
-         "source": "42405"
-      },
-      {
-         "value": 7,
-         "target": "42363",
-         "source": "42405"
-      },
-      {
-         "value": 1,
-         "target": "42405",
-         "source": "42380"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42405"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42355"
-      },
-      {
-         "value": 1,
-         "target": "42355",
-         "source": "42380"
-      },
-      {
-         "value": 3,
-         "target": "42363",
-         "source": "42380"
+         "id": "Jarek Lipski",
+         "group": 3
       }
    ]
 }

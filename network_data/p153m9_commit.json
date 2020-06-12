@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "46338",
-         "group": 2
-      },
-      {
-         "id": "46341",
-         "group": 2
-      },
-      {
-         "id": "46336",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 26,
-         "target": "46341",
-         "source": "46338"
+         "source": "pnasser",
+         "value": 1,
+         "target": "digy"
       },
       {
-         "value": 1,
-         "target": "46336",
-         "source": "46338"
+         "source": "pnasser",
+         "value": 26,
+         "target": "ccurrens"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pnasser",
+         "group": 4
+      },
+      {
+         "id": "ccurrens",
+         "group": 2
+      },
+      {
+         "id": "digy",
+         "group": 1
       }
    ]
 }

@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "24079",
-         "group": 3
-      },
-      {
-         "id": "7073",
-         "group": 4
-      },
-      {
-         "id": "4399",
-         "group": 3
-      },
-      {
-         "id": "15166",
-         "group": 3
-      },
-      {
-         "id": "370",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Marvin Humphrey",
          "value": 1,
-         "target": "370",
-         "source": "24079"
+         "target": "Simon Willnauer"
       },
       {
-         "value": 1,
-         "target": "4399",
-         "source": "7073"
-      },
-      {
-         "value": 1,
-         "target": "15166",
-         "source": "4399"
-      },
-      {
-         "value": 1,
-         "target": "24079",
-         "source": "4399"
-      },
-      {
+         "source": "Simon Willnauer",
          "value": 2,
-         "target": "4399",
-         "source": "15166"
+         "target": "Marvin Humphrey"
       },
       {
+         "source": "Peter Karman",
          "value": 2,
-         "target": "4399",
-         "source": "24079"
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "Peter Karman"
+      },
+      {
+         "source": "Peter Karman",
+         "value": 1,
+         "target": "Mattmann, Chris A (388J)"
+      },
+      {
+         "source": "Upayavira",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 2
+      },
+      {
+         "id": "Peter Karman",
+         "group": 3
+      },
+      {
+         "id": "Upayavira",
+         "group": 3
+      },
+      {
+         "id": "Simon Willnauer",
+         "group": 1
+      },
+      {
+         "id": "Marvin Humphrey",
+         "group": 3
       }
    ]
 }

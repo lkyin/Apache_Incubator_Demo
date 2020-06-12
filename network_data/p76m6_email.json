@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "402",
-         "group": 2
-      },
-      {
-         "id": "4432",
-         "group": 4
-      },
-      {
-         "id": "8651",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Marcel Offermans",
          "value": 2,
-         "target": "8651",
-         "source": "402"
+         "target": "Alexander Broekhuis"
       },
       {
+         "source": "Nick Kew",
          "value": 1,
-         "target": "8651",
-         "source": "4432"
+         "target": "Alexander Broekhuis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Broekhuis",
+         "group": 2
+      },
+      {
+         "id": "Marcel Offermans",
+         "group": 3
+      },
+      {
+         "id": "Nick Kew",
+         "group": 1
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "14365",
-         "group": 2
-      },
-      {
-         "id": "14362",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "jlboudart",
          "value": 2,
-         "target": "14362",
-         "source": "14365"
+         "target": "hibou"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "hibou",
+         "group": 3
+      },
+      {
+         "id": "jlboudart",
+         "group": 2
       }
    ]
 }

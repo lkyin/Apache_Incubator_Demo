@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "11696",
-         "group": 3
-      },
-      {
-         "id": "4483",
-         "group": 3
-      },
-      {
-         "id": "4099",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "olamy",
          "value": 28,
-         "target": "4483",
-         "source": "4099"
+         "target": "simonetripodi"
       },
       {
+         "source": "simonetripodi",
          "value": 14,
-         "target": "4483",
-         "source": "11696"
+         "target": "randgalt"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "olamy",
+         "group": 2
+      },
+      {
+         "id": "randgalt",
+         "group": 4
+      },
+      {
+         "id": "simonetripodi",
+         "group": 3
       }
    ]
 }

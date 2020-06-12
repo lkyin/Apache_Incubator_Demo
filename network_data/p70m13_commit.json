@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "7219",
-         "group": 1
-      },
-      {
-         "id": "7225",
-         "group": 3
-      },
-      {
-         "id": "7238",
-         "group": 1
-      },
-      {
-         "id": "7230",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "7230",
-         "source": "7225"
-      },
-      {
+         "source": "heneveld",
          "value": 3,
-         "target": "7238",
-         "source": "7225"
+         "target": "Alex Heneveld"
       },
       {
+         "source": "Sam Corbett",
          "value": 1,
-         "target": "7225",
-         "source": "7219"
+         "target": "Alex Heneveld"
+      },
+      {
+         "source": "Svetoslav Neykov",
+         "value": 6,
+         "target": "Alex Heneveld"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "heneveld",
+         "group": 2
+      },
+      {
+         "id": "Svetoslav Neykov",
+         "group": 4
+      },
+      {
+         "id": "Sam Corbett",
+         "group": 4
+      },
+      {
+         "id": "Alex Heneveld",
+         "group": 1
       }
    ]
 }

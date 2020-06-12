@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "Peter Kelly",
+         "value": 18,
+         "target": "jani"
+      },
+      {
+         "source": "Gabriela Gibson",
+         "value": 13,
+         "target": "Peter Kelly"
+      },
+      {
+         "source": "Gabriela Gibson",
+         "value": 39,
+         "target": "jani"
+      },
+      {
+         "source": "pmkelly",
+         "value": 15,
+         "target": "Peter Kelly"
+      },
+      {
+         "source": "pmkelly",
+         "value": 34,
+         "target": "Gabriela Gibson"
+      },
+      {
+         "source": "pmkelly",
+         "value": 190,
+         "target": "jani"
+      }
+   ],
    "nodes": [
       {
-         "id": "11313",
-         "group": 4
+         "id": "pmkelly",
+         "group": 3
       },
       {
-         "id": "11311",
-         "group": 1
-      },
-      {
-         "id": "11307",
+         "id": "Gabriela Gibson",
          "group": 2
       },
       {
-         "id": "11308",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 39,
-         "target": "11311",
-         "source": "11313"
+         "id": "Peter Kelly",
+         "group": 4
       },
       {
-         "value": 13,
-         "target": "11308",
-         "source": "11313"
-      },
-      {
-         "value": 15,
-         "target": "11308",
-         "source": "11307"
-      },
-      {
-         "value": 34,
-         "target": "11307",
-         "source": "11313"
-      },
-      {
-         "value": 18,
-         "target": "11308",
-         "source": "11311"
-      },
-      {
-         "value": 190,
-         "target": "11307",
-         "source": "11311"
+         "id": "jani",
+         "group": 2
       }
    ]
 }

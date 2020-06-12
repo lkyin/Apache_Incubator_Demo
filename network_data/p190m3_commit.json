@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "19956",
-         "group": 3
-      },
-      {
-         "id": "31632",
-         "group": 4
-      },
-      {
-         "id": "31633",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "utkarsh",
          "value": 2,
-         "target": "31633",
-         "source": "19956"
+         "target": "gates"
       },
       {
+         "source": "olston",
          "value": 2,
-         "target": "31632",
-         "source": "19956"
+         "target": "gates"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "utkarsh",
+         "group": 2
+      },
+      {
+         "id": "olston",
+         "group": 3
+      },
+      {
+         "id": "gates",
+         "group": 1
       }
    ]
 }

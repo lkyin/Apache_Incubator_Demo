@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "10163",
-         "group": 1
-      },
-      {
-         "id": "33343",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Parashuram Narasimhan (MS OPEN TECH)",
          "value": 1,
-         "target": "10163",
-         "source": "33343"
+         "target": "Raymond Camden"
       },
       {
+         "source": "Raymond Camden",
          "value": 2,
-         "target": "33343",
-         "source": "10163"
+         "target": "Parashuram Narasimhan (MS OPEN TECH)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Parashuram Narasimhan (MS OPEN TECH)",
+         "group": 2
+      },
+      {
+         "id": "Raymond Camden",
+         "group": 4
       }
    ]
 }

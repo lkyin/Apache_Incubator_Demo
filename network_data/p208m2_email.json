@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "28263",
-         "group": 2
-      },
-      {
-         "id": "58",
-         "group": 1
-      },
-      {
-         "id": "7521",
-         "group": 2
-      },
-      {
-         "id": "561",
-         "group": 4
-      },
-      {
-         "id": "539",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Philip Dodds",
          "value": 1,
-         "target": "539",
-         "source": "28263"
+         "target": "Guillaume Nodet"
       },
       {
+         "source": "Davanum Srinivas",
          "value": 1,
-         "target": "561",
-         "source": "28263"
+         "target": "Alex Boisvert"
       },
       {
+         "source": "Guillaume Nodet",
          "value": 1,
-         "target": "7521",
-         "source": "561"
+         "target": "Alex Boisvert"
       },
       {
+         "source": "James Strachan",
          "value": 1,
-         "target": "561",
-         "source": "7521"
+         "target": "Philip Dodds"
       },
       {
+         "source": "Philip Dodds",
          "value": 1,
-         "target": "28263",
-         "source": "539"
+         "target": "James Strachan"
       },
       {
+         "source": "Alex Boisvert",
          "value": 1,
-         "target": "7521",
-         "source": "58"
+         "target": "Guillaume Nodet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Davanum Srinivas",
+         "group": 3
+      },
+      {
+         "id": "Alex Boisvert",
+         "group": 3
+      },
+      {
+         "id": "Philip Dodds",
+         "group": 3
+      },
+      {
+         "id": "James Strachan",
+         "group": 3
+      },
+      {
+         "id": "Guillaume Nodet",
+         "group": 3
       }
    ]
 }

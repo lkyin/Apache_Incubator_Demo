@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13702",
-         "group": 2
+         "source": "Mingfai Ma (JIRA)",
+         "value": 1,
+         "target": "Thorsten Scherler (JIRA)"
       },
       {
-         "id": "13701",
+         "source": "Mingfai Ma (JIRA)",
+         "value": 1,
+         "target": "Ryan McKinley (JIRA)"
+      },
+      {
+         "source": "Thorsten Scherler (JIRA)",
+         "value": 2,
+         "target": "Mingfai Ma (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mingfai Ma (JIRA)",
          "group": 4
       },
       {
-         "id": "13717",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "13701",
-         "source": "13717"
+         "id": "Thorsten Scherler (JIRA)",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "13702",
-         "source": "13717"
-      },
-      {
-         "value": 2,
-         "target": "13717",
-         "source": "13701"
+         "id": "Ryan McKinley (JIRA)",
+         "group": 4
       }
    ]
 }

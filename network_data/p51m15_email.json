@@ -1,86 +1,86 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "410",
-         "group": 1
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "no-reply"
       },
       {
-         "id": "411",
+         "source": "Toni Menzel (JIRA)",
+         "value": 3,
+         "target": "Angelo van der Sijpt (JIRA)"
+      },
+      {
+         "source": "Marcel Offermans (JIRA)",
+         "value": 2,
+         "target": "Angelo van der Sijpt (JIRA)"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 3,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 1,
+         "target": "Lars Fischer"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Graham Jenson"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 2,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 1,
+         "target": "Marcel Offermans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Toni Menzel (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Bertrand Delacretaz",
          "group": 3
       },
       {
-         "id": "206",
-         "group": 1
-      },
-      {
-         "id": "405",
+         "id": "Marcel Offermans",
          "group": 2
       },
       {
-         "id": "402",
+         "id": "Toni Menzel",
+         "group": 3
+      },
+      {
+         "id": "Graham Jenson",
+         "group": 1
+      },
+      {
+         "id": "no-reply",
          "group": 4
       },
       {
-         "id": "441",
-         "group": 1
-      },
-      {
-         "id": "409",
+         "id": "Lars Fischer",
          "group": 2
       },
       {
-         "id": "440",
-         "group": 1
-      },
-      {
-         "id": "415",
-         "group": 4
-      },
-      {
-         "id": "404",
+         "id": "Angelo van der Sijpt (JIRA)",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "441",
-         "source": "415"
       },
       {
-         "value": 2,
-         "target": "402",
-         "source": "404"
+         "id": "Marcel Offermans (JIRA)",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "402",
-         "source": "405"
-      },
-      {
-         "value": 1,
-         "target": "440",
-         "source": "402"
-      },
-      {
-         "value": 3,
-         "target": "409",
-         "source": "410"
-      },
-      {
-         "value": 2,
-         "target": "409",
-         "source": "411"
-      },
-      {
-         "value": 1,
-         "target": "206",
-         "source": "404"
-      },
-      {
-         "value": 3,
-         "target": "404",
-         "source": "402"
+         "id": "Toni Menzel",
+         "group": 1
       }
    ]
 }

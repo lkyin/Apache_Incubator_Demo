@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "1028",
-         "group": 4
-      },
-      {
-         "id": "39560",
-         "group": 2
-      },
-      {
-         "id": "39559",
-         "group": 4
-      },
-      {
-         "id": "39562",
-         "group": 4
-      },
-      {
-         "id": "8422",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Matthieu Riou",
          "value": 2,
-         "target": "1028",
-         "source": "39559"
+         "target": "Ryan, Michael P"
       },
       {
-         "value": 1,
-         "target": "39559",
-         "source": "39560"
-      },
-      {
+         "source": "Ryan, Michael P",
          "value": 2,
-         "target": "8422",
-         "source": "39559"
+         "target": "Craig L Russell"
       },
       {
+         "source": "matthieu",
          "value": 1,
-         "target": "39560",
-         "source": "39559"
+         "target": "Craig L Russell"
       },
       {
+         "source": "Ryan, Michael P",
+         "value": 1,
+         "target": "Daniel Mercer"
+      },
+      {
+         "source": "Daniel Mercer",
+         "value": 1,
+         "target": "Ryan, Michael P"
+      },
+      {
+         "source": "Ryan, Michael P",
          "value": 2,
-         "target": "39559",
-         "source": "1028"
+         "target": "Matthieu Riou"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Craig L Russell",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "8422",
-         "source": "39562"
+         "id": "Matthieu Riou",
+         "group": 2
+      },
+      {
+         "id": "Daniel Mercer",
+         "group": 2
+      },
+      {
+         "id": "Ryan, Michael P",
+         "group": 2
+      },
+      {
+         "id": "matthieu",
+         "group": 2
       }
    ]
 }

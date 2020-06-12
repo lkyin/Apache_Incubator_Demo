@@ -1,89 +1,84 @@
 {
+   "links": [
+      {
+         "source": "bryanduxbury",
+         "value": 1,
+         "target": "jake"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 8,
+         "target": "molinaro"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 1,
+         "target": "roger"
+      },
+      {
+         "source": "molinaro",
+         "value": 1,
+         "target": "dreiss"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 3,
+         "target": "mcslee"
+      },
+      {
+         "source": "roger",
+         "value": 1,
+         "target": "dreiss"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 2,
+         "target": "dreiss"
+      },
+      {
+         "source": "molinaro",
+         "value": 2,
+         "target": "mcslee"
+      },
+      {
+         "source": "roger",
+         "value": 1,
+         "target": "molinaro"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 4,
+         "target": "todd"
+      }
+   ],
    "nodes": [
       {
-         "id": "39918",
+         "id": "roger",
          "group": 1
       },
       {
-         "id": "39923",
+         "id": "molinaro",
+         "group": 2
+      },
+      {
+         "id": "dreiss",
          "group": 4
       },
       {
-         "id": "39920",
+         "id": "bryanduxbury",
          "group": 2
       },
       {
-         "id": "39916",
-         "group": 3
-      },
-      {
-         "id": "39919",
-         "group": 1
-      },
-      {
-         "id": "23290",
-         "group": 1
-      },
-      {
-         "id": "39924",
+         "id": "jake",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "39916",
-         "source": "39920"
       },
       {
-         "value": 1,
-         "target": "39920",
-         "source": "39924"
+         "id": "mcslee",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "39920",
-         "source": "39916"
-      },
-      {
-         "value": 1,
-         "target": "39923",
-         "source": "39916"
-      },
-      {
-         "value": 4,
-         "target": "39920",
-         "source": "23290"
-      },
-      {
-         "value": 1,
-         "target": "39916",
-         "source": "39924"
-      },
-      {
-         "value": 8,
-         "target": "39920",
-         "source": "39923"
-      },
-      {
-         "value": 1,
-         "target": "39920",
-         "source": "39919"
-      },
-      {
-         "value": 2,
-         "target": "39923",
-         "source": "39918"
-      },
-      {
-         "value": 1,
-         "target": "39923",
-         "source": "39924"
-      },
-      {
-         "value": 3,
-         "target": "39920",
-         "source": "39918"
+         "id": "todd",
+         "group": 4
       }
    ]
 }

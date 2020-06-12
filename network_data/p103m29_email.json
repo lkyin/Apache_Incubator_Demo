@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "7522",
-         "group": 3
-      },
-      {
-         "id": "14809",
-         "group": 3
-      },
-      {
-         "id": "14793",
-         "group": 1
-      },
-      {
-         "id": "14765",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "scott comer",
          "value": 1,
-         "target": "14809",
-         "source": "14765"
+         "target": "Holger Grandy"
       },
       {
+         "source": "Scott Comer",
          "value": 1,
-         "target": "7522",
-         "source": "14809"
+         "target": "Holger Grandy"
       },
       {
+         "source": "Holger Grandy",
          "value": 1,
-         "target": "14809",
-         "source": "14793"
+         "target": "Martijn Dashorst"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Scott Comer",
+         "group": 2
+      },
+      {
+         "id": "Holger Grandy",
+         "group": 3
+      },
+      {
+         "id": "scott comer",
+         "group": 2
+      },
+      {
+         "id": "Martijn Dashorst",
+         "group": 2
       }
    ]
 }

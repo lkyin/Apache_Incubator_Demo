@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "19737",
-         "group": 2
+         "source": "xtang",
+         "value": 1,
+         "target": "Frank McQuillan"
       },
       {
-         "id": "24117",
+         "source": "Xiaocheng Tang",
+         "value": 1,
+         "target": "Frank McQuillan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Xiaocheng Tang",
          "group": 4
       },
       {
-         "id": "24123",
+         "id": "xtang",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "24117",
-         "source": "19737"
       },
       {
-         "value": 1,
-         "target": "24123",
-         "source": "19737"
+         "id": "Frank McQuillan",
+         "group": 1
       }
    ]
 }

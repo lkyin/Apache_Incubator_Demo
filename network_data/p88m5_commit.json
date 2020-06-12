@@ -1,156 +1,156 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "11765",
-         "group": 2
+         "source": "dandiep",
+         "value": 10,
+         "target": "andreasmyth"
       },
       {
-         "id": "11755",
+         "source": "ningjiang",
+         "value": 2,
+         "target": "eglynn"
+      },
+      {
+         "source": "jliu",
+         "value": 1,
+         "target": "eglynn"
+      },
+      {
+         "source": "dandiep",
+         "value": 5,
+         "target": "ema"
+      },
+      {
+         "source": "ningjiang",
+         "value": 1,
+         "target": "jliu"
+      },
+      {
+         "source": "andreasmyth",
+         "value": 2,
+         "target": "jliu"
+      },
+      {
+         "source": "ema",
+         "value": 1,
+         "target": "jliu"
+      },
+      {
+         "source": "dandiep",
+         "value": 3,
+         "target": "ningjiang"
+      },
+      {
+         "source": "dandiep",
+         "value": 7,
+         "target": "mmao"
+      },
+      {
+         "source": "mmao",
+         "value": 1,
+         "target": "jliu"
+      },
+      {
+         "source": "jliu",
+         "value": 3,
+         "target": "mmao"
+      },
+      {
+         "source": "ema",
+         "value": 46,
+         "target": "mmao"
+      },
+      {
+         "source": "dandiep",
+         "value": 1,
+         "target": "dkulp"
+      },
+      {
+         "source": "andreasmyth",
+         "value": 2,
+         "target": "ema"
+      },
+      {
+         "source": "andreasmyth",
+         "value": 6,
+         "target": "eglynn"
+      },
+      {
+         "source": "dandiep",
+         "value": 4,
+         "target": "eglynn"
+      },
+      {
+         "source": "ningjiang",
+         "value": 1,
+         "target": "mmao"
+      },
+      {
+         "source": "ajaypaibir",
+         "value": 3,
+         "target": "tli"
+      },
+      {
+         "source": "andreasmyth",
+         "value": 1,
+         "target": "dkulp"
+      },
+      {
+         "source": "tli",
+         "value": 1,
+         "target": "ema"
+      },
+      {
+         "source": "tli",
+         "value": 1,
+         "target": "mmao"
+      },
+      {
+         "source": "dandiep",
+         "value": 5,
+         "target": "jliu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "andreasmyth",
+         "group": 3
+      },
+      {
+         "id": "dandiep",
          "group": 1
       },
       {
-         "id": "11747",
-         "group": 4
-      },
-      {
-         "id": "7",
+         "id": "ema",
          "group": 3
       },
       {
-         "id": "11750",
+         "id": "mmao",
+         "group": 1
+      },
+      {
+         "id": "eglynn",
+         "group": 2
+      },
+      {
+         "id": "ningjiang",
          "group": 3
       },
       {
-         "id": "4937",
+         "id": "jliu",
          "group": 2
       },
       {
-         "id": "11754",
-         "group": 3
+         "id": "ajaypaibir",
+         "group": 1
       },
       {
-         "id": "11746",
-         "group": 2
+         "id": "dkulp",
+         "group": 1
       },
       {
-         "id": "11748",
-         "group": 2
-      },
-      {
-         "id": "11751",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "11750",
-         "source": "7"
-      },
-      {
-         "value": 1,
-         "target": "11751",
-         "source": "11754"
-      },
-      {
-         "value": 4,
-         "target": "11750",
-         "source": "11751"
-      },
-      {
-         "value": 10,
-         "target": "11748",
-         "source": "7"
-      },
-      {
-         "value": 6,
-         "target": "11748",
-         "source": "11755"
-      },
-      {
-         "value": 5,
-         "target": "7",
-         "source": "11747"
-      },
-      {
-         "value": 1,
-         "target": "11750",
-         "source": "11747"
-      },
-      {
-         "value": 46,
-         "target": "11751",
-         "source": "11747"
-      },
-      {
-         "value": 1,
-         "target": "11748",
-         "source": "4937"
-      },
-      {
-         "value": 1,
-         "target": "11746",
-         "source": "11747"
-      },
-      {
-         "value": 2,
-         "target": "11748",
-         "source": "11747"
-      },
-      {
-         "value": 1,
-         "target": "11751",
-         "source": "7"
-      },
-      {
-         "value": 3,
-         "target": "7",
-         "source": "11754"
-      },
-      {
-         "value": 1,
-         "target": "11746",
-         "source": "11751"
-      },
-      {
-         "value": 3,
-         "target": "11746",
-         "source": "11765"
-      },
-      {
-         "value": 1,
-         "target": "11750",
-         "source": "11755"
-      },
-      {
-         "value": 1,
-         "target": "7",
-         "source": "4937"
-      },
-      {
-         "value": 4,
-         "target": "7",
-         "source": "11755"
-      },
-      {
-         "value": 6,
-         "target": "7",
-         "source": "11751"
-      },
-      {
-         "value": 1,
-         "target": "11750",
-         "source": "11754"
-      },
-      {
-         "value": 2,
-         "target": "11754",
-         "source": "11755"
-      },
-      {
-         "value": 2,
-         "target": "11750",
-         "source": "11748"
+         "id": "tli",
+         "group": 1
       }
    ]
 }

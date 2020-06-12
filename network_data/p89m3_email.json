@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "12053",
-         "group": 2
-      },
-      {
-         "id": "12020",
-         "group": 2
-      },
-      {
-         "id": "6949",
-         "group": 3
-      },
-      {
-         "id": "308",
-         "group": 3
-      },
-      {
-         "id": "12043",
-         "group": 2
-      },
-      {
-         "id": "1584",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Jakob Homan",
          "value": 1,
-         "target": "12053",
-         "source": "12020"
+         "target": "Marvin"
       },
       {
-         "value": 1,
-         "target": "308",
-         "source": "1584"
-      },
-      {
-         "value": 1,
-         "target": "1584",
-         "source": "12043"
-      },
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "6949"
-      },
-      {
+         "source": "Jakob Homan",
          "value": 2,
-         "target": "12043",
-         "source": "1584"
+         "target": "Will Vaughan"
       },
       {
+         "source": "Will Vaughan",
          "value": 1,
-         "target": "12020",
-         "source": "12043"
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Jarek Jarcec Cecho",
+         "value": 1,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Daniel Wang"
+      },
+      {
+         "source": "Will Vaughan",
+         "value": 1,
+         "target": "Jakob Homan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Marvin",
+         "group": 3
+      },
+      {
+         "id": "Jakob Homan",
+         "group": 4
+      },
+      {
+         "id": "Matthew Hayes",
+         "group": 3
+      },
+      {
+         "id": "Daniel Wang",
+         "group": 4
+      },
+      {
+         "id": "Will Vaughan",
+         "group": 2
+      },
+      {
+         "id": "Jarek Jarcec Cecho",
+         "group": 2
       }
    ]
 }

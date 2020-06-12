@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "1028",
-         "group": 4
-      },
-      {
-         "id": "533",
-         "group": 2
-      },
-      {
-         "id": "1076",
-         "group": 1
-      },
-      {
-         "id": "1046",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Christopher Lim",
          "value": 1,
-         "target": "1076",
-         "source": "533"
+         "target": "Steffen Horlacher (JIRA)"
       },
       {
+         "source": "Steffen Horlacher (JIRA)",
          "value": 1,
-         "target": "533",
-         "source": "1028"
+         "target": "Matthieu Riou (JIRA)"
       },
       {
+         "source": "Matthieu Riou",
          "value": 1,
-         "target": "1046",
-         "source": "1076"
+         "target": "Christopher Lim"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Christopher Lim",
+         "group": 4
+      },
+      {
+         "id": "Matthieu Riou",
+         "group": 3
+      },
+      {
+         "id": "Matthieu Riou (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Steffen Horlacher (JIRA)",
+         "group": 2
       }
    ]
 }

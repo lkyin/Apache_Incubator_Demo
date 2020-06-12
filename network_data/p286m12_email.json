@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "8778",
-         "group": 4
-      },
-      {
-         "id": "27866",
-         "group": 4
-      },
-      {
-         "id": "27846",
-         "group": 3
-      },
-      {
-         "id": "27865",
-         "group": 3
-      },
-      {
-         "id": "27843",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Evan Worley",
          "value": 6,
-         "target": "27846",
-         "source": "27843"
+         "target": "Shane Isbell"
       },
       {
+         "source": "Shane Isbell",
          "value": 1,
-         "target": "27865",
-         "source": "27846"
+         "target": "Marco Mistroni"
       },
       {
+         "source": "Brett Porter",
          "value": 1,
-         "target": "27846",
-         "source": "8778"
+         "target": "Shane Isbell"
       },
       {
+         "source": "Evan Worley",
          "value": 1,
-         "target": "27866",
-         "source": "27843"
+         "target": "Mimil Mimil"
       },
       {
+         "source": "Shane Isbell",
          "value": 6,
-         "target": "27843",
-         "source": "27846"
+         "target": "Evan Worley"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Evan Worley",
+         "group": 2
+      },
+      {
+         "id": "Mimil Mimil",
+         "group": 3
+      },
+      {
+         "id": "Marco Mistroni",
+         "group": 2
+      },
+      {
+         "id": "Brett Porter",
+         "group": 1
+      },
+      {
+         "id": "Shane Isbell",
+         "group": 2
       }
    ]
 }

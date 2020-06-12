@@ -1,76 +1,76 @@
 {
-   "nodes": [
-      {
-         "id": "15014",
-         "group": 4
-      },
-      {
-         "id": "15007",
-         "group": 4
-      },
-      {
-         "id": "15016",
-         "group": 3
-      },
-      {
-         "id": "401",
-         "group": 4
-      },
-      {
-         "id": "15010",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "furfari",
+         "value": 1,
+         "target": "santillan"
+      },
+      {
+         "source": "furfari",
+         "value": 3,
+         "target": "rickhall"
+      },
+      {
+         "source": "rickhall",
+         "value": 3,
+         "target": "sfrenot"
+      },
+      {
+         "source": "furfari",
+         "value": 3,
+         "target": "sfrenot"
+      },
+      {
+         "source": "pauls",
+         "value": 1,
+         "target": "sfrenot"
+      },
+      {
+         "source": "rickhall",
          "value": 2,
-         "target": "15016",
-         "source": "15007"
+         "target": "santillan"
       },
       {
+         "source": "pauls",
          "value": 1,
-         "target": "15016",
-         "source": "15014"
+         "target": "santillan"
       },
       {
-         "value": 3,
-         "target": "15010",
-         "source": "15007"
-      },
-      {
+         "source": "pauls",
          "value": 1,
-         "target": "15010",
-         "source": "15016"
+         "target": "furfari"
       },
       {
+         "source": "pauls",
          "value": 1,
-         "target": "401",
-         "source": "15014"
+         "target": "rickhall"
       },
       {
-         "value": 3,
-         "target": "15010",
-         "source": "15014"
-      },
-      {
+         "source": "sfrenot",
          "value": 1,
-         "target": "15010",
-         "source": "401"
+         "target": "santillan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pauls",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "401",
-         "source": "15007"
+         "id": "furfari",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "401",
-         "source": "15016"
+         "id": "santillan",
+         "group": 4
       },
       {
-         "value": 3,
-         "target": "15007",
-         "source": "15014"
+         "id": "sfrenot",
+         "group": 4
+      },
+      {
+         "id": "rickhall",
+         "group": 2
       }
    ]
 }

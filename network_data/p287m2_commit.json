@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "27901",
-         "group": 1
-      },
-      {
-         "id": "27902",
-         "group": 2
-      },
-      {
-         "id": "12988",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "apadilla",
          "value": 2,
-         "target": "12988",
-         "source": "27902"
+         "target": "brett"
       },
       {
+         "source": "jocaba",
          "value": 4,
-         "target": "27902",
-         "source": "27901"
+         "target": "apadilla"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jocaba",
+         "group": 3
+      },
+      {
+         "id": "apadilla",
+         "group": 4
+      },
+      {
+         "id": "brett",
+         "group": 3
       }
    ]
 }

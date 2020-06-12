@@ -1,109 +1,104 @@
 {
+   "links": [
+      {
+         "source": "jcian",
+         "value": 6,
+         "target": "carlucci"
+      },
+      {
+         "source": "ate",
+         "value": 1,
+         "target": "jasha"
+      },
+      {
+         "source": "mpierce",
+         "value": 11,
+         "target": "jasha"
+      },
+      {
+         "source": "mfranklin",
+         "value": 9,
+         "target": "jasha"
+      },
+      {
+         "source": "jcian",
+         "value": 2,
+         "target": "jasha"
+      },
+      {
+         "source": "raminder",
+         "value": 2,
+         "target": "mpierce"
+      },
+      {
+         "source": "carlucci",
+         "value": 10,
+         "target": "jasha"
+      },
+      {
+         "source": "raminder",
+         "value": 5,
+         "target": "carlucci"
+      },
+      {
+         "source": "mpierce",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "jcian",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "raminder",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "carlucci",
+         "value": 6,
+         "target": "mpierce"
+      },
+      {
+         "source": "carlucci",
+         "value": 7,
+         "target": "mfranklin"
+      },
+      {
+         "source": "raminder",
+         "value": 5,
+         "target": "jasha"
+      }
+   ],
    "nodes": [
       {
-         "id": "32894",
-         "group": 2
+         "id": "ate",
+         "group": 3
       },
       {
-         "id": "1097",
-         "group": 2
-      },
-      {
-         "id": "1098",
-         "group": 2
-      },
-      {
-         "id": "32899",
-         "group": 1
-      },
-      {
-         "id": "32900",
+         "id": "jasha",
          "group": 4
       },
       {
-         "id": "32905",
+         "id": "jcian",
          "group": 3
       },
       {
-         "id": "32898",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "32899"
+         "id": "carlucci",
+         "group": 4
       },
       {
-         "value": 5,
-         "target": "32905",
-         "source": "32900"
+         "id": "mpierce",
+         "group": 2
       },
       {
-         "value": 5,
-         "target": "32905",
-         "source": "1098"
+         "id": "raminder",
+         "group": 1
       },
       {
-         "value": 5,
-         "target": "32900",
-         "source": "32905"
-      },
-      {
-         "value": 2,
-         "target": "1097",
-         "source": "1098"
-      },
-      {
-         "value": 2,
-         "target": "32905",
-         "source": "32899"
-      },
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "1098"
-      },
-      {
-         "value": 11,
-         "target": "1097",
-         "source": "32905"
-      },
-      {
-         "value": 6,
-         "target": "1097",
-         "source": "32900"
-      },
-      {
-         "value": 7,
-         "target": "32898",
-         "source": "32900"
-      },
-      {
-         "value": 6,
-         "target": "32900",
-         "source": "32899"
-      },
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "1097"
-      },
-      {
-         "value": 1,
-         "target": "32905",
-         "source": "32894"
-      },
-      {
-         "value": 9,
-         "target": "32898",
-         "source": "32905"
-      },
-      {
-         "value": 5,
-         "target": "32900",
-         "source": "1098"
+         "id": "mfranklin",
+         "group": 4
       }
    ]
 }

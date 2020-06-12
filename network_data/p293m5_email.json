@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "Andrei Savu",
+         "value": 2,
+         "target": "Rahul Sharma"
+      },
+      {
+         "source": "Andrei Savu",
+         "value": 1,
+         "target": "Rahul Sharma (JIRA)"
+      },
+      {
+         "source": "Rahul Sharma",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      },
+      {
+         "source": "Rahul Sharma",
+         "value": 1,
+         "target": "Andrei Savu"
+      }
+   ],
    "nodes": [
       {
-         "id": "249",
+         "id": "Apache Jenkins Server",
          "group": 4
       },
       {
-         "id": "11592",
+         "id": "Andrei Savu",
          "group": 3
       },
       {
-         "id": "6710",
+         "id": "Rahul Sharma",
          "group": 4
       },
       {
-         "id": "11608",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6710",
-         "source": "11608"
-      },
-      {
-         "value": 1,
-         "target": "11592",
-         "source": "6710"
-      },
-      {
-         "value": 2,
-         "target": "11608",
-         "source": "6710"
-      },
-      {
-         "value": 1,
-         "target": "249",
-         "source": "11608"
+         "id": "Rahul Sharma (JIRA)",
+         "group": 3
       }
    ]
 }

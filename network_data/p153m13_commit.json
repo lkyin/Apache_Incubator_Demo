@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "46338",
-         "group": 4
-      },
-      {
-         "id": "46341",
-         "group": 4
-      },
-      {
-         "id": "189",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "ccurrens",
+         "value": 1,
+         "target": "joes"
+      },
+      {
+         "source": "pnasser",
          "value": 3,
-         "target": "189",
-         "source": "46338"
+         "target": "joes"
       },
       {
+         "source": "pnasser",
          "value": 1,
-         "target": "46341",
-         "source": "46338"
+         "target": "ccurrens"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pnasser",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "189",
-         "source": "46341"
+         "id": "ccurrens",
+         "group": 3
+      },
+      {
+         "id": "joes",
+         "group": 1
       }
    ]
 }

@@ -1,80 +1,80 @@
 {
-   "nodes": [
-      {
-         "id": "12867",
-         "group": 4
-      },
-      {
-         "id": "12872",
-         "group": 2
-      },
-      {
-         "id": "12881",
-         "group": 3
-      },
-      {
-         "id": "308",
-         "group": 4
-      },
-      {
-         "id": "12874",
-         "group": 4
-      },
-      {
-         "id": "404",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Werner Keil",
          "value": 1,
-         "target": "12867",
-         "source": "12872"
+         "target": "Bertrand Delacretaz"
       },
       {
-         "value": 2,
-         "target": "12874",
-         "source": "12867"
-      },
-      {
-         "value": 1,
-         "target": "12867",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "12881",
-         "source": "12867"
-      },
-      {
-         "value": 1,
-         "target": "12867",
-         "source": "12881"
-      },
-      {
-         "value": 1,
-         "target": "308",
-         "source": "12867"
-      },
-      {
+         "source": "Reza",
          "value": 3,
-         "target": "12867",
-         "source": "12874"
+         "target": "Werner Keil"
       },
       {
+         "source": "Werner Keil",
          "value": 1,
-         "target": "404",
-         "source": "12867"
+         "target": "Marvin"
       },
       {
+         "source": "eberhard speer jr.",
+         "value": 1,
+         "target": "Werner Keil"
+      },
+      {
+         "source": "Werner Keil",
+         "value": 2,
+         "target": "Reza"
+      },
+      {
+         "source": "Radu Cotescu",
+         "value": 1,
+         "target": "Werner Keil"
+      },
+      {
+         "source": "Werner Keil",
          "value": 5,
-         "target": "12872",
-         "source": "12867"
+         "target": "eberhard speer jr."
       },
       {
+         "source": "Werner Keil",
          "value": 1,
-         "target": "12872",
-         "source": "12874"
+         "target": "Radu Cotescu"
+      },
+      {
+         "source": "Reza",
+         "value": 1,
+         "target": "eberhard speer jr."
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Werner Keil"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 2
+      },
+      {
+         "id": "eberhard speer jr.",
+         "group": 1
+      },
+      {
+         "id": "Reza",
+         "group": 4
+      },
+      {
+         "id": "Radu Cotescu",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 2
+      },
+      {
+         "id": "Werner Keil",
+         "group": 1
       }
    ]
 }

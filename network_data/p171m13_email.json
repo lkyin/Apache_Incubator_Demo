@@ -1,55 +1,55 @@
 {
+   "links": [
+      {
+         "source": "john pradeep",
+         "value": 1,
+         "target": "Jean-Sebastien Delfino"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "john pradeep"
+      },
+      {
+         "source": "Sagara Gunathunga  (JIRA)",
+         "value": 2,
+         "target": "Pasindu Gunarathne (JIRA)"
+      },
+      {
+         "source": "john pradeep",
+         "value": 1,
+         "target": "Luciano Resende"
+      },
+      {
+         "source": "John",
+         "value": 1,
+         "target": "Jean-Sebastien Delfino"
+      }
+   ],
    "nodes": [
       {
-         "id": "12138",
-         "group": 2
+         "id": "john pradeep",
+         "group": 3
       },
       {
-         "id": "12966",
+         "id": "Luciano Resende",
          "group": 1
       },
       {
-         "id": "41",
-         "group": 1
+         "id": "Jean-Sebastien Delfino",
+         "group": 3
       },
       {
-         "id": "28227",
+         "id": "Pasindu Gunarathne (JIRA)",
          "group": 4
       },
       {
-         "id": "28226",
-         "group": 2
+         "id": "John",
+         "group": 3
       },
       {
-         "id": "28229",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12138",
-         "source": "28229"
-      },
-      {
-         "value": 2,
-         "target": "28226",
-         "source": "28227"
-      },
-      {
-         "value": 1,
-         "target": "12966",
-         "source": "41"
-      },
-      {
-         "value": 1,
-         "target": "12138",
-         "source": "12966"
-      },
-      {
-         "value": 1,
-         "target": "41",
-         "source": "12966"
+         "id": "Sagara Gunathunga  (JIRA)",
+         "group": 1
       }
    ]
 }

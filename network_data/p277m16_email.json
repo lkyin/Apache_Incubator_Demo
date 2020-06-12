@@ -1,32 +1,32 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "21261",
-         "group": 1
+         "source": "asfgit",
+         "value": 1,
+         "target": "barbaragomes"
       },
       {
-         "id": "21249",
+         "source": "Tony Faustini",
+         "value": 1,
+         "target": "Justin Mclean"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "asfgit",
          "group": 2
       },
       {
-         "id": "3873",
-         "group": 3
-      },
-      {
-         "id": "4452",
+         "id": "Tony Faustini",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21249",
-         "source": "4452"
       },
       {
-         "value": 1,
-         "target": "3873",
-         "source": "21261"
+         "id": "barbaragomes",
+         "group": 4
+      },
+      {
+         "id": "Justin Mclean",
+         "group": 1
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "22456",
-         "group": 3
-      },
-      {
-         "id": "22454",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "metskem",
          "value": 1,
-         "target": "22454",
-         "source": "22456"
+         "target": "brushed"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "metskem",
+         "group": 1
+      },
+      {
+         "id": "brushed",
+         "group": 1
       }
    ]
 }

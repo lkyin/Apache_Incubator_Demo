@@ -1,66 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "186",
-         "group": 4
-      },
-      {
-         "id": "199",
-         "group": 3
-      },
-      {
-         "id": "16957",
-         "group": 4
-      },
-      {
-         "id": "16962",
-         "group": 3
-      },
-      {
-         "id": "210",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 43,
-         "target": "210",
-         "source": "16957"
-      },
-      {
-         "value": 4,
-         "target": "210",
-         "source": "199"
-      },
-      {
-         "value": 47,
-         "target": "16957",
-         "source": "186"
-      },
-      {
-         "value": 12,
-         "target": "16957",
-         "source": "199"
-      },
-      {
-         "value": 19,
-         "target": "210",
-         "source": "186"
-      },
-      {
+         "source": "Mike Walch",
          "value": 1,
-         "target": "16962",
-         "source": "16957"
+         "target": "mwalch"
       },
       {
+         "source": "Keith Turner",
+         "value": 4,
+         "target": "Keith Turner"
+      },
+      {
+         "source": "Keith Turner",
+         "value": 19,
+         "target": "kturner"
+      },
+      {
+         "source": "Mike Walch",
+         "value": 43,
+         "target": "Keith Turner"
+      },
+      {
+         "source": "mwalch",
          "value": 3,
-         "target": "16962",
-         "source": "186"
+         "target": "kturner"
       },
       {
+         "source": "Mike Walch",
+         "value": 12,
+         "target": "Keith Turner"
+      },
+      {
+         "source": "Keith Turner",
          "value": 7,
-         "target": "199",
-         "source": "186"
+         "target": "kturner"
+      },
+      {
+         "source": "Mike Walch",
+         "value": 47,
+         "target": "kturner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mike Walch",
+         "group": 1
+      },
+      {
+         "id": "Keith Turner",
+         "group": 4
+      },
+      {
+         "id": "mwalch",
+         "group": 2
+      },
+      {
+         "id": "Keith Turner",
+         "group": 2
+      },
+      {
+         "id": "kturner",
+         "group": 2
       }
    ]
 }

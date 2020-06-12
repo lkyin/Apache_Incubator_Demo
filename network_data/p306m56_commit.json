@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42961",
-         "group": 3
+         "source": "Evan Hughes",
+         "value": 1,
+         "target": "Ali Lown"
       },
       {
-         "id": "43011",
+         "source": "al",
+         "value": 2,
+         "target": "Evan Hughes"
+      },
+      {
+         "source": "al",
+         "value": 1,
+         "target": "Ali Lown"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "al",
          "group": 2
       },
       {
-         "id": "42995",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "43011",
-         "source": "42995"
+         "id": "Evan Hughes",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "42961",
-         "source": "42995"
-      },
-      {
-         "value": 2,
-         "target": "42961",
-         "source": "43011"
+         "id": "Ali Lown",
+         "group": 2
       }
    ]
 }

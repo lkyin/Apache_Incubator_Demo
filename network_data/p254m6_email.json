@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4091",
-         "group": 2
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Urs Lerch"
       },
       {
-         "id": "4093",
+         "source": "Urs Lerch",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Christian Grobmeier",
+         "value": 2,
+         "target": "no-reply"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
          "group": 1
       },
       {
-         "id": "206",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4093",
-         "source": "4091"
+         "id": "Christian Grobmeier",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "206",
-         "source": "4091"
-      },
-      {
-         "value": 1,
-         "target": "4091",
-         "source": "4093"
+         "id": "Urs Lerch",
+         "group": 4
       }
    ]
 }

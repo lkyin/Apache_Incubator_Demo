@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "34585",
-         "group": 1
-      },
-      {
-         "id": "34604",
-         "group": 1
-      },
-      {
-         "id": "8422",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Joe",
          "value": 1,
-         "target": "34604",
-         "source": "34585"
+         "target": "Charles Matthew Chen"
       },
       {
+         "source": "Craig L Russell",
          "value": 1,
-         "target": "34585",
-         "source": "34604"
+         "target": "Charles Matthew Chen"
       },
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "34585",
-         "source": "8422"
+         "target": "Joe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Craig L Russell",
+         "group": 4
+      },
+      {
+         "id": "Charles Matthew Chen",
+         "group": 1
+      },
+      {
+         "id": "Joe",
+         "group": 4
       }
    ]
 }

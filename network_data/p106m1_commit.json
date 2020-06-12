@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3334",
-         "group": 2
+         "source": "Roman Shaposhnik",
+         "value": 1,
+         "target": "mage"
       },
       {
-         "id": "15247",
+         "source": "Roman Shaposhnik",
+         "value": 1,
+         "target": "Greg Stein"
+      },
+      {
+         "source": "Greg Stein",
+         "value": 1,
+         "target": "mage"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Roman Shaposhnik",
+         "group": 4
+      },
+      {
+         "id": "mage",
          "group": 1
       },
       {
-         "id": "3974",
+         "id": "Greg Stein",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3974",
-         "source": "15247"
-      },
-      {
-         "value": 1,
-         "target": "15247",
-         "source": "3334"
-      },
-      {
-         "value": 1,
-         "target": "3974",
-         "source": "3334"
       }
    ]
 }

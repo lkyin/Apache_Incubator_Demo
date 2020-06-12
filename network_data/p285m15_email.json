@@ -1,32 +1,32 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "16572",
-         "group": 2
+         "source": "Alan Cabrera",
+         "value": 1,
+         "target": "Fegaras, Leonidas"
       },
       {
-         "id": "6719",
+         "source": "Mohammad Noureldin",
+         "value": 1,
+         "target": "Edward J. Yoon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Fegaras, Leonidas",
+         "group": 4
+      },
+      {
+         "id": "Edward J. Yoon",
+         "group": 4
+      },
+      {
+         "id": "Mohammad Noureldin",
          "group": 3
       },
       {
-         "id": "8842",
-         "group": 1
-      },
-      {
-         "id": "25232",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "16572",
-         "source": "8842"
-      },
-      {
-         "value": 1,
-         "target": "6719",
-         "source": "25232"
+         "id": "Alan Cabrera",
+         "group": 3
       }
    ]
 }

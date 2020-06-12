@@ -1,60 +1,60 @@
 {
+   "links": [
+      {
+         "source": "Greg Ganger",
+         "value": 1,
+         "target": "Richard Gass"
+      },
+      {
+         "source": "Richard Gass",
+         "value": 1,
+         "target": "Michael Stroucken"
+      },
+      {
+         "source": "Michael Stroucken",
+         "value": 1,
+         "target": "Richard Gass"
+      },
+      {
+         "source": "Kozuch, Michael A",
+         "value": 1,
+         "target": "Michael Stroucken"
+      },
+      {
+         "source": "Michael Ryan",
+         "value": 1,
+         "target": "Kozuch, Michael A"
+      },
+      {
+         "source": "Michael Stroucken",
+         "value": 1,
+         "target": "Greg Ganger"
+      }
+   ],
    "nodes": [
       {
-         "id": "39568",
-         "group": 1
-      },
-      {
-         "id": "39578",
-         "group": 3
-      },
-      {
-         "id": "39580",
-         "group": 1
-      },
-      {
-         "id": "39574",
-         "group": 4
-      },
-      {
-         "id": "39573",
+         "id": "Michael Stroucken",
          "group": 2
       },
       {
-         "id": "39571",
+         "id": "Kozuch, Michael A",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "39574",
-         "source": "39568"
       },
       {
-         "value": 1,
-         "target": "39568",
-         "source": "39571"
+         "id": "Michael Stroucken",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "39580",
-         "source": "39574"
+         "id": "Greg Ganger",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "39578",
-         "source": "39573"
+         "id": "Richard Gass",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "39574",
-         "source": "39580"
-      },
-      {
-         "value": 1,
-         "target": "39580",
-         "source": "39578"
+         "id": "Michael Ryan",
+         "group": 2
       }
    ]
 }

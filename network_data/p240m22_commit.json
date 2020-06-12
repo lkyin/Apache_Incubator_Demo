@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "42185",
-         "group": 3
-      },
-      {
-         "id": "42182",
-         "group": 4
-      },
-      {
-         "id": "29745",
-         "group": 4
-      },
-      {
-         "id": "42184",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "joern",
+         "value": 2,
+         "target": "eae"
+      },
+      {
+         "source": "mbaessler",
          "value": 3,
-         "target": "42184",
-         "source": "29745"
+         "target": "joern"
       },
       {
+         "source": "schor",
          "value": 1,
-         "target": "42184",
-         "source": "42182"
+         "target": "joern"
       },
       {
-         "value": 2,
-         "target": "42184",
-         "source": "42185"
-      },
-      {
-         "value": 2,
-         "target": "29745",
-         "source": "42185"
-      },
-      {
+         "source": "mbaessler",
          "value": 1,
-         "target": "42182",
-         "source": "29745"
+         "target": "schor"
+      },
+      {
+         "source": "mbaessler",
+         "value": 2,
+         "target": "eae"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mbaessler",
+         "group": 4
+      },
+      {
+         "id": "schor",
+         "group": 2
+      },
+      {
+         "id": "joern",
+         "group": 4
+      },
+      {
+         "id": "eae",
+         "group": 1
       }
    ]
 }

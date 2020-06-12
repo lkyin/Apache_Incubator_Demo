@@ -1,134 +1,134 @@
 {
-   "nodes": [
-      {
-         "id": "38012",
-         "group": 2
-      },
-      {
-         "id": "20292",
-         "group": 3
-      },
-      {
-         "id": "1121",
-         "group": 3
-      },
-      {
-         "id": "38008",
-         "group": 1
-      },
-      {
-         "id": "37998",
-         "group": 1
-      },
-      {
-         "id": "38011",
-         "group": 1
-      },
-      {
-         "id": "38005",
-         "group": 1
-      },
-      {
-         "id": "38013",
-         "group": 2
-      },
-      {
-         "id": "38000",
-         "group": 4
-      },
-      {
-         "id": "38006",
-         "group": 4
-      },
-      {
-         "id": "8608",
-         "group": 4
-      },
-      {
-         "id": "37996",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "David Crossley",
          "value": 2,
-         "target": "37996",
-         "source": "1121"
+         "target": "Martin Sebor"
       },
       {
-         "value": 2,
-         "target": "38006",
-         "source": "37996"
-      },
-      {
-         "value": 1,
-         "target": "38011",
-         "source": "38000"
-      },
-      {
-         "value": 1,
-         "target": "20292",
-         "source": "37996"
-      },
-      {
-         "value": 1,
-         "target": "37996",
-         "source": "37998"
-      },
-      {
-         "value": 1,
-         "target": "1121",
-         "source": "37996"
-      },
-      {
-         "value": 1,
-         "target": "38000",
-         "source": "38011"
-      },
-      {
-         "value": 5,
-         "target": "37996",
-         "source": "8608"
-      },
-      {
-         "value": 2,
-         "target": "38012",
-         "source": "37996"
-      },
-      {
+         "source": "Martin Sebor",
          "value": 4,
-         "target": "8608",
-         "source": "37996"
+         "target": "Justin Erenkrantz"
       },
       {
+         "source": "Justin Erenkrantz",
+         "value": 5,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Lance Diduck (JIRA)",
+         "value": 1,
+         "target": "Martin Sebor (JIRA)"
+      },
+      {
+         "source": "Alessio Marchetti",
          "value": 2,
-         "target": "37996",
-         "source": "38006"
+         "target": "Martin Sebor"
       },
       {
+         "source": "Martin Sebor (JIRA)",
          "value": 1,
-         "target": "38000",
-         "source": "38013"
+         "target": "Lance Diduck (JIRA)"
       },
       {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "LANCE DIDUCK, BLOOMBERG/ 731 LEXIN"
+      },
+      {
+         "source": "Steve Downey (JIRA)",
          "value": 1,
-         "target": "37996",
-         "source": "20292"
+         "target": "Martin Sebor (JIRA)"
       },
       {
+         "source": "Martin Sebor (JIRA)",
          "value": 6,
-         "target": "38008",
-         "source": "38000"
+         "target": "Alex Ostapenko (JIRA)"
       },
       {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "Alessio Marchetti"
+      },
+      {
+         "source": "Martin Sebor",
          "value": 7,
-         "target": "38005",
-         "source": "37996"
+         "target": "Alex Ostapenko"
       },
       {
+         "source": "Martin Sebor",
          "value": 1,
-         "target": "8608",
-         "source": "20292"
+         "target": "William A. Rowe, Jr."
+      },
+      {
+         "source": "William A. Rowe, Jr.",
+         "value": 1,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 1,
+         "target": "David Crossley"
+      },
+      {
+         "source": "William A. Rowe, Jr.",
+         "value": 1,
+         "target": "Justin Erenkrantz"
+      },
+      {
+         "source": "Liviu Nicoara",
+         "value": 1,
+         "target": "Martin Sebor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lance Diduck (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Liviu Nicoara",
+         "group": 3
+      },
+      {
+         "id": "Martin Sebor (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Alex Ostapenko (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Justin Erenkrantz",
+         "group": 4
+      },
+      {
+         "id": "LANCE DIDUCK, BLOOMBERG/ 731 LEXIN",
+         "group": 1
+      },
+      {
+         "id": "Alex Ostapenko",
+         "group": 1
+      },
+      {
+         "id": "Steve Downey (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Martin Sebor",
+         "group": 3
+      },
+      {
+         "id": "Alessio Marchetti",
+         "group": 4
+      },
+      {
+         "id": "David Crossley",
+         "group": 2
+      },
+      {
+         "id": "William A. Rowe, Jr.",
+         "group": 3
       }
    ]
 }

@@ -1,61 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "35326",
-         "group": 4
-      },
-      {
-         "id": "35330",
-         "group": 3
-      },
-      {
-         "id": "35333",
-         "group": 4
-      },
-      {
-         "id": "35332",
-         "group": 2
-      },
-      {
-         "id": "35329",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "etnu",
          "value": 1,
-         "target": "35326",
-         "source": "35330"
+         "target": "evan"
       },
       {
+         "source": "lryan",
          "value": 7,
-         "target": "35333",
-         "source": "35330"
+         "target": "lindner"
       },
       {
-         "value": 14,
-         "target": "35329",
-         "source": "35330"
-      },
-      {
-         "value": 1,
-         "target": "35326",
-         "source": "35333"
-      },
-      {
+         "source": "etnu",
          "value": 2,
-         "target": "35330",
-         "source": "35333"
+         "target": "lryan"
       },
       {
-         "value": 8,
-         "target": "35329",
-         "source": "35333"
+         "source": "lryan",
+         "value": 1,
+         "target": "evan"
       },
       {
+         "source": "lindner",
          "value": 8,
-         "target": "35329",
-         "source": "35332"
+         "target": "ieb"
+      },
+      {
+         "source": "lryan",
+         "value": 7,
+         "target": "etnu"
+      },
+      {
+         "source": "etnu",
+         "value": 14,
+         "target": "lindner"
+      },
+      {
+         "source": "lindner",
+         "value": 1,
+         "target": "lryan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "etnu",
+         "group": 3
+      },
+      {
+         "id": "lindner",
+         "group": 1
+      },
+      {
+         "id": "evan",
+         "group": 1
+      },
+      {
+         "id": "ieb",
+         "group": 4
+      },
+      {
+         "id": "lryan",
+         "group": 2
       }
    ]
 }

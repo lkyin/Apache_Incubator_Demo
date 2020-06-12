@@ -1,51 +1,56 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7096",
-         "group": 4
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "Gagan"
       },
       {
-         "id": "7104",
+         "source": "Gagan",
+         "value": 1,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "twilliams",
+         "value": 1,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "amccurry",
+         "value": 2,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 4,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 17,
+         "target": "amccurry"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "twilliams",
          "group": 2
       },
       {
-         "id": "7097",
-         "group": 3
-      },
-      {
-         "id": "7107",
-         "group": 3
-      },
-      {
-         "id": "7095",
+         "id": "Aaron McCurry",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 17,
-         "target": "7097",
-         "source": "7096"
       },
       {
-         "value": 2,
-         "target": "7097",
-         "source": "7104"
+         "id": "amccurry",
+         "group": 3
       },
       {
-         "value": 4,
-         "target": "7107",
-         "source": "7097"
+         "id": "Gagan",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "7107",
-         "source": "7096"
-      },
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "7095"
+         "id": "Chris Rohr",
+         "group": 2
       }
    ]
 }

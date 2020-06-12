@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "28221",
-         "group": 3
-      },
-      {
-         "id": "12138",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Jean-Sebastien Delfino",
          "value": 1,
-         "target": "12138",
-         "source": "28221"
+         "target": "Sagara Gunathunga"
       },
       {
+         "source": "Sagara Gunathunga",
          "value": 1,
-         "target": "28221",
-         "source": "12138"
+         "target": "Jean-Sebastien Delfino"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sagara Gunathunga",
+         "group": 4
+      },
+      {
+         "id": "Jean-Sebastien Delfino",
+         "group": 3
       }
    ]
 }

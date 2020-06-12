@@ -1,76 +1,81 @@
 {
+   "links": [
+      {
+         "source": "tbennett",
+         "value": 1,
+         "target": "humberto"
+      },
+      {
+         "source": "furfari",
+         "value": 1,
+         "target": "rickhall"
+      },
+      {
+         "source": "rickhall",
+         "value": 3,
+         "target": "humberto"
+      },
+      {
+         "source": "furfari",
+         "value": 1,
+         "target": "tbennett"
+      },
+      {
+         "source": "pauls",
+         "value": 1,
+         "target": "rickhall"
+      },
+      {
+         "source": "furfari",
+         "value": 1,
+         "target": "pauls"
+      },
+      {
+         "source": "pauls",
+         "value": 1,
+         "target": "humberto"
+      },
+      {
+         "source": "tbennett",
+         "value": 1,
+         "target": "rickhall"
+      },
+      {
+         "source": "humberto",
+         "value": 1,
+         "target": "rickhall"
+      },
+      {
+         "source": "tbennett",
+         "value": 1,
+         "target": "pauls"
+      },
+      {
+         "source": "furfari",
+         "value": 1,
+         "target": "humberto"
+      }
+   ],
    "nodes": [
       {
-         "id": "15011",
-         "group": 1
-      },
-      {
-         "id": "15007",
-         "group": 2
-      },
-      {
-         "id": "401",
-         "group": 4
-      },
-      {
-         "id": "15009",
+         "id": "pauls",
          "group": 3
       },
       {
-         "id": "15010",
+         "id": "furfari",
+         "group": 2
+      },
+      {
+         "id": "tbennett",
+         "group": 4
+      },
+      {
+         "id": "humberto",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "15010",
-         "source": "401"
       },
       {
-         "value": 1,
-         "target": "15010",
-         "source": "15007"
-      },
-      {
-         "value": 1,
-         "target": "15009",
-         "source": "401"
-      },
-      {
-         "value": 1,
-         "target": "401",
-         "source": "15011"
-      },
-      {
-         "value": 1,
-         "target": "15009",
-         "source": "15011"
-      },
-      {
-         "value": 1,
-         "target": "15009",
-         "source": "15007"
-      },
-      {
-         "value": 1,
-         "target": "401",
-         "source": "15007"
-      },
-      {
-         "value": 1,
-         "target": "15010",
-         "source": "15011"
-      },
-      {
-         "value": 4,
-         "target": "15007",
-         "source": "15011"
-      },
-      {
-         "value": 1,
-         "target": "15010",
-         "source": "15009"
+         "id": "rickhall",
+         "group": 2
       }
    ]
 }

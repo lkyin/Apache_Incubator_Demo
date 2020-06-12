@@ -1,74 +1,74 @@
 {
+   "links": [
+      {
+         "source": "Mohammad Nour El-Din",
+         "value": 1,
+         "target": "gerdogdu"
+      },
+      {
+         "source": "Mohammad Nour El-Din",
+         "value": 5,
+         "target": "Gurkan Erdogdu"
+      },
+      {
+         "source": "Mohammad Nour El-Din",
+         "value": 3,
+         "target": "Kevan Miller"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "Matthias Wessendorf"
+      },
+      {
+         "source": "Gurkan Erdogdu (JIRA)",
+         "value": 5,
+         "target": "Mohammad Nour (JIRA)"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "Gurkan Erdogdu"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 3,
+         "target": "Mohammad Nour El-Din"
+      },
+      {
+         "source": "Matthias Wessendorf",
+         "value": 2,
+         "target": "Gurkan Erdogdu"
+      }
+   ],
    "nodes": [
       {
-         "id": "7573",
+         "id": "gerdogdu",
          "group": 4
       },
       {
-         "id": "21382",
-         "group": 1
-      },
-      {
-         "id": "12117",
-         "group": 1
-      },
-      {
-         "id": "580",
+         "id": "Mohammad Nour El-Din",
          "group": 3
       },
       {
-         "id": "12129",
+         "id": "Kevan Miller",
+         "group": 1
+      },
+      {
+         "id": "Matthias Wessendorf",
          "group": 4
       },
       {
-         "id": "5878",
-         "group": 4
+         "id": "Gurkan Erdogdu (JIRA)",
+         "group": 2
       },
       {
-         "id": "30795",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "580",
-         "source": "5878"
+         "id": "Mohammad Nour (JIRA)",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "12129",
-         "source": "580"
-      },
-      {
-         "value": 1,
-         "target": "12117",
-         "source": "5878"
-      },
-      {
-         "value": 1,
-         "target": "7573",
-         "source": "580"
-      },
-      {
-         "value": 3,
-         "target": "5878",
-         "source": "580"
-      },
-      {
-         "value": 5,
-         "target": "12129",
-         "source": "5878"
-      },
-      {
-         "value": 5,
-         "target": "21382",
-         "source": "30795"
-      },
-      {
-         "value": 2,
-         "target": "12129",
-         "source": "7573"
+         "id": "Gurkan Erdogdu",
+         "group": 3
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8778",
-         "group": 2
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "David Durham"
       },
       {
-         "id": "28040",
+         "source": "Lars Corneliussen",
+         "value": 1,
+         "target": "David Durham"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lars Corneliussen",
          "group": 1
       },
       {
-         "id": "28003",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "28040",
-         "source": "8778"
+         "id": "David Durham",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "28040",
-         "source": "28003"
+         "id": "Brett Porter",
+         "group": 2
       }
    ]
 }

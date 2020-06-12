@@ -1,33 +1,48 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7564",
-         "group": 1
+         "source": "dwoods",
+         "value": 19,
+         "target": "romanstumm"
       },
       {
-         "id": "7566",
+         "source": "dwoods",
+         "value": 35,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 11,
+         "target": "dwoods"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 11,
+         "target": "romanstumm"
+      },
+      {
+         "source": "romanstumm",
+         "value": 26,
+         "target": "dwoods"
+      },
+      {
+         "source": "romanstumm",
+         "value": 11,
+         "target": "simonetripodi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "romanstumm",
          "group": 2
       },
       {
-         "id": "4483",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 46,
-         "target": "4483",
-         "source": "7564"
+         "id": "simonetripodi",
+         "group": 3
       },
       {
-         "value": 22,
-         "target": "4483",
-         "source": "7566"
-      },
-      {
-         "value": 45,
-         "target": "7566",
-         "source": "7564"
+         "id": "dwoods",
+         "group": 1
       }
    ]
 }

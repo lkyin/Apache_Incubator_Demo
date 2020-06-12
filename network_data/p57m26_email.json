@@ -1,74 +1,74 @@
 {
-   "nodes": [
-      {
-         "id": "8887",
-         "group": 2
-      },
-      {
-         "id": "4488",
-         "group": 1
-      },
-      {
-         "id": "28791",
-         "group": 2
-      },
-      {
-         "id": "28827",
-         "group": 1
-      },
-      {
-         "id": "28828",
-         "group": 4
-      },
-      {
-         "id": "23252",
-         "group": 4
-      },
-      {
-         "id": "4994",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Tommaso Teofili",
          "value": 1,
-         "target": "8887",
-         "source": "23252"
+         "target": "Raymond Feng (JIRA)"
       },
       {
+         "source": "Raymond Feng (JIRA)",
          "value": 2,
-         "target": "4994",
-         "source": "4488"
+         "target": "Alex Osborne (JIRA)"
       },
       {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Antonio Sanso"
+      },
+      {
+         "source": "Tommaso Teofili",
          "value": 2,
-         "target": "28828",
-         "source": "28827"
+         "target": "Raymond Feng"
       },
       {
+         "source": "Raymond Feng",
          "value": 1,
-         "target": "28791",
-         "source": "4488"
+         "target": "Tommaso Teofili (JIRA)"
       },
       {
+         "source": "Antonio Sanso (JIRA)",
          "value": 1,
-         "target": "28828",
-         "source": "23252"
+         "target": "Alex Osborne (JIRA)"
       },
       {
+         "source": "Antonio Sanso (JIRA)",
          "value": 1,
-         "target": "28827",
-         "source": "4488"
+         "target": "Tommaso Teofili (JIRA)"
       },
       {
+         "source": "Raymond Feng",
          "value": 1,
-         "target": "28791",
-         "source": "4994"
+         "target": "Antonio Sanso"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Raymond Feng (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "8887",
-         "source": "4994"
+         "id": "Tommaso Teofili (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Tommaso Teofili",
+         "group": 4
+      },
+      {
+         "id": "Raymond Feng",
+         "group": 1
+      },
+      {
+         "id": "Antonio Sanso",
+         "group": 3
+      },
+      {
+         "id": "Antonio Sanso (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Alex Osborne (JIRA)",
+         "group": 1
       }
    ]
 }

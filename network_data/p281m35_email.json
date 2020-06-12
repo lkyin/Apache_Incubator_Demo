@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "23234",
-         "group": 2
-      },
-      {
-         "id": "23236",
-         "group": 2
-      },
-      {
-         "id": "206",
-         "group": 1
-      },
-      {
-         "id": "13723",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Robert Burrell Donkin",
          "value": 1,
-         "target": "23236",
-         "source": "13723"
+         "target": "no-reply"
       },
       {
+         "source": "Robert Burrell Donkin",
+         "value": 1,
+         "target": "Stuart Monteith"
+      },
+      {
+         "source": "Robert Burrell Donkin",
+         "value": 1,
+         "target": "Steve Poole"
+      },
+      {
+         "source": "Steve Poole",
+         "value": 1,
+         "target": "Stuart Monteith"
+      },
+      {
+         "source": "Stuart Monteith",
          "value": 2,
-         "target": "13723",
-         "source": "23236"
+         "target": "Robert Burrell Donkin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stuart Monteith",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "206",
-         "source": "13723"
+         "id": "no-reply",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "23234",
-         "source": "13723"
+         "id": "Robert Burrell Donkin",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "23236",
-         "source": "23234"
+         "id": "Steve Poole",
+         "group": 3
       }
    ]
 }

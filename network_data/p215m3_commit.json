@@ -1,213 +1,238 @@
 {
+   "links": [
+      {
+         "source": "mss",
+         "value": 1,
+         "target": "felicity"
+      },
+      {
+         "source": "duncf",
+         "value": 1,
+         "target": "parker"
+      },
+      {
+         "source": "parker",
+         "value": 1,
+         "target": "None"
+      },
+      {
+         "source": "sidney",
+         "value": 1,
+         "target": "quinlan"
+      },
+      {
+         "source": "jm",
+         "value": 9,
+         "target": "duncf"
+      },
+      {
+         "source": "jm",
+         "value": 29,
+         "target": "quinlan"
+      },
+      {
+         "source": "felicity",
+         "value": 2,
+         "target": "sidney"
+      },
+      {
+         "source": "parker",
+         "value": 2,
+         "target": "sidney"
+      },
+      {
+         "source": "parker",
+         "value": 5,
+         "target": "duncf"
+      },
+      {
+         "source": "None",
+         "value": 2,
+         "target": "jm"
+      },
+      {
+         "source": "jm",
+         "value": 10,
+         "target": "parker"
+      },
+      {
+         "source": "duncf",
+         "value": 1,
+         "target": "mss"
+      },
+      {
+         "source": "parker",
+         "value": 1,
+         "target": "mss"
+      },
+      {
+         "source": "None",
+         "value": 2,
+         "target": "felicity"
+      },
+      {
+         "source": "jm",
+         "value": 2,
+         "target": "sidney"
+      },
+      {
+         "source": "parker",
+         "value": 1,
+         "target": "jm"
+      },
+      {
+         "source": "duncf",
+         "value": 2,
+         "target": "sidney"
+      },
+      {
+         "source": "mss",
+         "value": 1,
+         "target": "duncf"
+      },
+      {
+         "source": "felicity",
+         "value": 1,
+         "target": "mss"
+      },
+      {
+         "source": "duncf",
+         "value": 2,
+         "target": "felicity"
+      },
+      {
+         "source": "sidney",
+         "value": 1,
+         "target": "felicity"
+      },
+      {
+         "source": "duncf",
+         "value": 11,
+         "target": "quinlan"
+      },
+      {
+         "source": "None",
+         "value": 2,
+         "target": "quinlan"
+      },
+      {
+         "source": "parker",
+         "value": 4,
+         "target": "quinlan"
+      },
+      {
+         "source": "mss",
+         "value": 1,
+         "target": "quinlan"
+      },
+      {
+         "source": "jm",
+         "value": 24,
+         "target": "felicity"
+      },
+      {
+         "source": "jm",
+         "value": 1,
+         "target": "mss"
+      },
+      {
+         "source": "mss",
+         "value": 1,
+         "target": "parker"
+      },
+      {
+         "source": "felicity",
+         "value": 8,
+         "target": "duncf"
+      },
+      {
+         "source": "quinlan",
+         "value": 2,
+         "target": "sidney"
+      },
+      {
+         "source": "duncf",
+         "value": 2,
+         "target": "None"
+      },
+      {
+         "source": "felicity",
+         "value": 18,
+         "target": "quinlan"
+      },
+      {
+         "source": "sidney",
+         "value": 1,
+         "target": "jm"
+      },
+      {
+         "source": "felicity",
+         "value": 3,
+         "target": "parker"
+      },
+      {
+         "source": "duncf",
+         "value": 2,
+         "target": "jm"
+      },
+      {
+         "source": "felicity",
+         "value": 4,
+         "target": "jm"
+      },
+      {
+         "source": "sidney",
+         "value": 1,
+         "target": "None"
+      },
+      {
+         "source": "mss",
+         "value": 1,
+         "target": "jm"
+      },
+      {
+         "source": "mss",
+         "value": 1,
+         "target": "None"
+      },
+      {
+         "source": "parker",
+         "value": 7,
+         "target": "felicity"
+      }
+   ],
    "nodes": [
       {
-         "id": "36956",
-         "group": 2
-      },
-      {
-         "id": "36959",
-         "group": 3
-      },
-      {
-         "id": "36955",
+         "id": "duncf",
          "group": 1
       },
       {
-         "id": "36963",
-         "group": 3
+         "id": "None",
+         "group": 1
       },
       {
-         "id": "36961",
+         "id": "mss",
          "group": 4
       },
       {
-         "id": "36957",
+         "id": "jm",
+         "group": 1
+      },
+      {
+         "id": "parker",
          "group": 3
       },
       {
-         "id": "36958",
-         "group": 2
+         "id": "felicity",
+         "group": 3
       },
       {
-         "id": "12991",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 10,
-         "target": "36957",
-         "source": "36959"
+         "id": "quinlan",
+         "group": 4
       },
       {
-         "value": 8,
-         "target": "36959",
-         "source": "36957"
-      },
-      {
-         "value": 1,
-         "target": "36963",
-         "source": "36959"
-      },
-      {
-         "value": 1,
-         "target": "12991",
-         "source": "36963"
-      },
-      {
-         "value": 5,
-         "target": "36958",
-         "source": "36961"
-      },
-      {
-         "value": 2,
-         "target": "36957",
-         "source": "36955"
-      },
-      {
-         "value": 9,
-         "target": "36961",
-         "source": "36956"
-      },
-      {
-         "value": 2,
-         "target": "36961",
-         "source": "36955"
-      },
-      {
-         "value": 6,
-         "target": "36958",
-         "source": "36957"
-      },
-      {
-         "value": 2,
-         "target": "36958",
-         "source": "36955"
-      },
-      {
-         "value": 2,
-         "target": "36958",
-         "source": "36959"
-      },
-      {
-         "value": 2,
-         "target": "36961",
-         "source": "36963"
-      },
-      {
-         "value": 1,
-         "target": "36963",
-         "source": "36956"
-      },
-      {
-         "value": 4,
-         "target": "36959",
-         "source": "36961"
-      },
-      {
-         "value": 1,
-         "target": "36961",
-         "source": "36958"
-      },
-      {
-         "value": 2,
-         "target": "12991",
-         "source": "36957"
-      },
-      {
-         "value": 3,
-         "target": "36957",
-         "source": "36963"
-      },
-      {
-         "value": 2,
-         "target": "36959",
-         "source": "36963"
-      },
-      {
-         "value": 29,
-         "target": "36959",
-         "source": "36956"
-      },
-      {
-         "value": 2,
-         "target": "36955",
-         "source": "36956"
-      },
-      {
-         "value": 3,
-         "target": "36961",
-         "source": "36957"
-      },
-      {
-         "value": 11,
-         "target": "36958",
-         "source": "36956"
-      },
-      {
-         "value": 2,
-         "target": "36956",
-         "source": "36961"
-      },
-      {
-         "value": 7,
-         "target": "36957",
-         "source": "36961"
-      },
-      {
-         "value": 28,
-         "target": "36957",
-         "source": "36956"
-      },
-      {
-         "value": 9,
-         "target": "36959",
-         "source": "36958"
-      },
-      {
-         "value": 1,
-         "target": "36959",
-         "source": "36955"
-      },
-      {
-         "value": 2,
-         "target": "36956",
-         "source": "36963"
-      },
-      {
-         "value": 2,
-         "target": "12991",
-         "source": "36959"
-      },
-      {
-         "value": 4,
-         "target": "36957",
-         "source": "36958"
-      },
-      {
-         "value": 2,
-         "target": "12991",
-         "source": "36956"
-      },
-      {
-         "value": 2,
-         "target": "12991",
-         "source": "36958"
-      },
-      {
-         "value": 1,
-         "target": "12991",
-         "source": "36961"
-      },
-      {
-         "value": 1,
-         "target": "12991",
-         "source": "36955"
-      },
-      {
-         "value": 2,
-         "target": "36958",
-         "source": "36963"
+         "id": "sidney",
+         "group": 3
       }
    ]
 }

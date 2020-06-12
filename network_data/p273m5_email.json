@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "20352",
-         "group": 4
-      },
-      {
-         "id": "20351",
-         "group": 1
-      },
-      {
-         "id": "20345",
-         "group": 4
-      },
-      {
-         "id": "20346",
-         "group": 1
-      },
-      {
-         "id": "20344",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Rafal Rusin (JIRA)",
          "value": 1,
-         "target": "20344",
-         "source": "20352"
+         "target": "=?utf-8?Q?Witek_Wo=C5=82ejszo_=28JIRA=29?="
       },
       {
+         "source": "Rafal Rusin",
          "value": 1,
-         "target": "20346",
-         "source": "20345"
+         "target": "Aaron Anderson"
       },
       {
+         "source": "Aaron Anderson",
+         "value": 1,
+         "target": "Rafal Rusin"
+      },
+      {
+         "source": "Maciej Prochniak (JIRA)",
+         "value": 1,
+         "target": "=?utf-8?Q?Witek_Wo=C5=82ejszo_=28JIRA=29?="
+      },
+      {
+         "source": "Rafal Rusin (JIRA)",
          "value": 4,
-         "target": "20351",
-         "source": "20345"
+         "target": "Maciej Prochniak (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maciej Prochniak (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "20346",
-         "source": "20351"
+         "id": "Rafal Rusin",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "20352",
-         "source": "20344"
+         "id": "Rafal Rusin (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "=?utf-8?Q?Witek_Wo=C5=82ejszo_=28JIRA=29?=",
+         "group": 1
+      },
+      {
+         "id": "Aaron Anderson",
+         "group": 3
       }
    ]
 }

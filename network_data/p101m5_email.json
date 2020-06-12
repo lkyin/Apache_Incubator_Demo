@@ -1,74 +1,74 @@
 {
-   "nodes": [
-      {
-         "id": "14589",
-         "group": 3
-      },
-      {
-         "id": "14631",
-         "group": 2
-      },
-      {
-         "id": "14630",
-         "group": 4
-      },
-      {
-         "id": "7522",
-         "group": 3
-      },
-      {
-         "id": "14587",
-         "group": 4
-      },
-      {
-         "id": "14629",
-         "group": 2
-      },
-      {
-         "id": "13758",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "13758",
-         "source": "14631"
-      },
-      {
-         "value": 1,
-         "target": "14630",
-         "source": "14631"
-      },
-      {
-         "value": 1,
-         "target": "14630",
-         "source": "13758"
-      },
-      {
+         "source": "Martijn Dashorst",
          "value": 3,
-         "target": "14631",
-         "source": "7522"
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
       },
       {
+         "source": "=?utf-8?Q?J=C3=B6rg_Reiher_=28JIRA=29?=",
          "value": 1,
-         "target": "14629",
-         "source": "14630"
+         "target": "francisdb (JIRA)"
       },
       {
+         "source": "=?iso-8859-1?Q?J=F6rg_Reiher?=",
          "value": 1,
-         "target": "14589",
-         "source": "14587"
+         "target": "Manuel Gamerdinger"
       },
       {
-         "value": 9,
-         "target": "14631",
-         "source": "13758"
-      },
-      {
+         "source": "=?iso-8859-1?Q?J=F6rg_Reiher?=",
          "value": 2,
-         "target": "13758",
-         "source": "14630"
+         "target": "Francis De Brabandere"
+      },
+      {
+         "source": "Francis De Brabandere",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?J=F6rg_Reiher?="
+      },
+      {
+         "source": "Francis De Brabandere",
+         "value": 9,
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 6,
+         "target": "Francis De Brabandere"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?J=F6rg_Reiher?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Francis De Brabandere",
+         "group": 2
+      },
+      {
+         "id": "=?utf-8?Q?J=C3=B6rg_Reiher_=28JIRA=29?=",
+         "group": 4
+      },
+      {
+         "id": "francisdb (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Martijn Dashorst",
+         "group": 3
+      },
+      {
+         "id": "Manuel Gamerdinger",
+         "group": 3
+      },
+      {
+         "id": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "group": 2
+      },
+      {
+         "id": "=?iso-8859-1?Q?J=F6rg_Reiher?=",
+         "group": 4
       }
    ]
 }

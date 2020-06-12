@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "38846",
-         "group": 2
-      },
-      {
-         "id": "38859",
-         "group": 4
-      },
-      {
-         "id": "22914",
-         "group": 2
-      },
-      {
-         "id": "38863",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Robert Douglas",
+         "value": 1,
+         "target": "sblackmon"
+      },
+      {
+         "source": "Robert Douglas",
+         "value": 1,
+         "target": "Steve Blackmon"
+      },
+      {
+         "source": "Robert Douglas",
          "value": 2,
-         "target": "38863",
-         "source": "38859"
+         "target": "Ryan Ebanks"
       },
       {
-         "value": 1,
-         "target": "22914",
-         "source": "38859"
-      },
-      {
+         "source": "sblackmon",
          "value": 9,
-         "target": "22914",
-         "source": "38846"
+         "target": "Steve Blackmon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Robert Douglas",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "38859",
-         "source": "38846"
+         "id": "sblackmon",
+         "group": 3
+      },
+      {
+         "id": "Ryan Ebanks",
+         "group": 3
+      },
+      {
+         "id": "Steve Blackmon",
+         "group": 4
       }
    ]
 }

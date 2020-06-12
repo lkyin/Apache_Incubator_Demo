@@ -1,61 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "17878",
-         "group": 1
-      },
-      {
-         "id": "28943",
-         "group": 4
-      },
-      {
-         "id": "4380",
-         "group": 3
-      },
-      {
-         "id": "36431",
-         "group": 4
-      },
-      {
-         "id": "370",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 2,
-         "target": "17878",
-         "source": "370"
+         "target": "Adam Estrada"
       },
       {
+         "source": "Adam Estrada",
          "value": 1,
-         "target": "36431",
-         "source": "370"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "17878",
-         "source": "28943"
+         "target": "Luc Maisonobe"
       },
       {
+         "source": "Adam Estrada",
          "value": 2,
-         "target": "4380",
-         "source": "17878"
+         "target": "Andrew Hart"
       },
       {
+         "source": "Andrew Hart",
          "value": 2,
-         "target": "17878",
-         "source": "4380"
+         "target": "Adam Estrada"
       },
       {
+         "source": "Luc Maisonobe",
          "value": 1,
-         "target": "370",
-         "source": "36431"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Andrew Hart",
          "value": 1,
-         "target": "370",
-         "source": "17878"
+         "target": "Adam Estrada"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Andrew Hart",
+         "group": 2
+      },
+      {
+         "id": "Adam Estrada",
+         "group": 2
+      },
+      {
+         "id": "Luc Maisonobe",
+         "group": 4
+      },
+      {
+         "id": "Andrew Hart",
+         "group": 4
+      },
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 4
       }
    ]
 }

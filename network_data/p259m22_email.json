@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "visionfly",
+         "value": 1,
+         "target": "Arthur Chen"
+      },
+      {
+         "source": "Samuel Kevin",
+         "value": 1,
+         "target": "Arthur Chen"
+      },
+      {
+         "source": "Samuel Kevin",
+         "value": 1,
+         "target": "qinjian (JIRA)"
+      },
+      {
+         "source": "Samuel Kevin",
+         "value": 1,
+         "target": "visionfly"
+      },
+      {
+         "source": "Arthur Chen",
+         "value": 1,
+         "target": "Samuel Kevin"
+      },
+      {
+         "source": "visionfly",
+         "value": 1,
+         "target": "Samuel Kevin"
+      }
+   ],
    "nodes": [
       {
-         "id": "7062",
+         "id": "Arthur Chen",
+         "group": 4
+      },
+      {
+         "id": "Samuel Kevin",
          "group": 2
       },
       {
-         "id": "7067",
-         "group": 4
+         "id": "visionfly",
+         "group": 1
       },
       {
-         "id": "7065",
-         "group": 4
-      },
-      {
-         "id": "7066",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7062",
-         "source": "7065"
-      },
-      {
-         "value": 1,
-         "target": "7066",
-         "source": "7062"
-      },
-      {
-         "value": 1,
-         "target": "7065",
-         "source": "7066"
-      },
-      {
-         "value": 1,
-         "target": "7067",
-         "source": "7062"
-      },
-      {
-         "value": 1,
-         "target": "7062",
-         "source": "7066"
-      },
-      {
-         "value": 1,
-         "target": "7065",
-         "source": "7062"
+         "id": "qinjian (JIRA)",
+         "group": 2
       }
    ]
 }

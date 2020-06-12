@@ -1,59 +1,59 @@
 {
-   "nodes": [
-      {
-         "id": "527",
-         "group": 2
-      },
-      {
-         "id": "545",
-         "group": 2
-      },
-      {
-         "id": "531",
-         "group": 1
-      },
-      {
-         "id": "532",
-         "group": 3
-      },
-      {
-         "id": "528",
-         "group": 3
-      },
-      {
-         "id": "543",
-         "group": 2
-      },
-      {
-         "id": "535",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "tabish",
+         "value": 33,
+         "target": "nmittler"
+      },
+      {
+         "source": "rajdavies",
+         "value": 8,
+         "target": "chirino"
+      },
+      {
+         "source": "rajdavies",
          "value": 1,
-         "target": "535",
-         "source": "527"
+         "target": "jlim"
       },
       {
-         "value": 11,
-         "target": "543",
-         "source": "545"
-      },
-      {
+         "source": "chirino",
          "value": 1,
-         "target": "532",
-         "source": "531"
+         "target": "rajdavies"
       },
       {
-         "value": 22,
-         "target": "545",
-         "source": "543"
+         "source": "jstrachan",
+         "value": 1,
+         "target": "aco"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "chirino",
+         "group": 4
       },
       {
-         "value": 9,
-         "target": "532",
-         "source": "528"
+         "id": "jstrachan",
+         "group": 3
+      },
+      {
+         "id": "nmittler",
+         "group": 2
+      },
+      {
+         "id": "rajdavies",
+         "group": 3
+      },
+      {
+         "id": "jlim",
+         "group": 1
+      },
+      {
+         "id": "tabish",
+         "group": 1
+      },
+      {
+         "id": "aco",
+         "group": 2
       }
    ]
 }

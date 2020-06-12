@@ -1,100 +1,85 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "39319",
-         "group": 3
+         "source": "Arvind Surve",
+         "value": 2,
+         "target": "Deron Eriksson"
       },
       {
-         "id": "39323",
+         "source": "Matthias Boehm",
+         "value": 26,
+         "target": "mboehm7"
+      },
+      {
+         "source": "Arvind Surve",
+         "value": 5,
+         "target": "Matthias Boehm"
+      },
+      {
+         "source": "Deron Eriksson",
+         "value": 4,
+         "target": "Niketan Pansare"
+      },
+      {
+         "source": "Matthias Boehm",
+         "value": 9,
+         "target": "Deron Eriksson"
+      },
+      {
+         "source": "Mike Dusenberry",
+         "value": 1,
+         "target": "Niketan Pansare"
+      },
+      {
+         "source": "Matthias Boehm",
+         "value": 4,
+         "target": "Mike Dusenberry"
+      },
+      {
+         "source": "Arvind Surve",
+         "value": 5,
+         "target": "mboehm7"
+      },
+      {
+         "source": "mboehm7",
+         "value": 1,
+         "target": "Deron Eriksson"
+      },
+      {
+         "source": "Mike Dusenberry",
+         "value": 8,
+         "target": "Deron Eriksson"
+      },
+      {
+         "source": "Matthias Boehm",
+         "value": 1,
+         "target": "Niketan Pansare"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Arvind Surve",
          "group": 1
       },
       {
-         "id": "39324",
+         "id": "Matthias Boehm",
+         "group": 1
+      },
+      {
+         "id": "Deron Eriksson",
+         "group": 1
+      },
+      {
+         "id": "Niketan Pansare",
+         "group": 1
+      },
+      {
+         "id": "mboehm7",
+         "group": 1
+      },
+      {
+         "id": "Mike Dusenberry",
          "group": 2
-      },
-      {
-         "id": "39320",
-         "group": 2
-      },
-      {
-         "id": "39325",
-         "group": 2
-      },
-      {
-         "id": "39322",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "39319",
-         "source": "39322"
-      },
-      {
-         "value": 4,
-         "target": "39324",
-         "source": "39319"
-      },
-      {
-         "value": 2,
-         "target": "39320",
-         "source": "39323"
-      },
-      {
-         "value": 12,
-         "target": "39319",
-         "source": "39325"
-      },
-      {
-         "value": 5,
-         "target": "39322",
-         "source": "39325"
-      },
-      {
-         "value": 2,
-         "target": "39323",
-         "source": "39322"
-      },
-      {
-         "value": 8,
-         "target": "39324",
-         "source": "39323"
-      },
-      {
-         "value": 14,
-         "target": "39325",
-         "source": "39319"
-      },
-      {
-         "value": 1,
-         "target": "39320",
-         "source": "39324"
-      },
-      {
-         "value": 9,
-         "target": "39323",
-         "source": "39319"
-      },
-      {
-         "value": 1,
-         "target": "39323",
-         "source": "39325"
-      },
-      {
-         "value": 1,
-         "target": "39320",
-         "source": "39319"
-      },
-      {
-         "value": 2,
-         "target": "39323",
-         "source": "39320"
-      },
-      {
-         "value": 4,
-         "target": "39322",
-         "source": "39319"
       }
    ]
 }

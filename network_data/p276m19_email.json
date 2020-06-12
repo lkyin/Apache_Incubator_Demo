@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "21227",
-         "group": 2
-      },
-      {
-         "id": "21229",
-         "group": 3
-      },
-      {
-         "id": "21217",
-         "group": 3
-      },
-      {
-         "id": "21231",
-         "group": 3
-      },
-      {
-         "id": "21211",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Xiping Wang",
          "value": 1,
-         "target": "21211",
-         "source": "21231"
+         "target": "David Wood (JIRA)"
       },
       {
-         "value": 1,
-         "target": "21227",
-         "source": "21231"
-      },
-      {
-         "value": 1,
-         "target": "21217",
-         "source": "21231"
-      },
-      {
+         "source": "David Wood",
          "value": 3,
-         "target": "21229",
-         "source": "21231"
+         "target": "Xiping Wang"
       },
       {
-         "value": 3,
-         "target": "21231",
-         "source": "21229"
-      },
-      {
+         "source": "Neeraj Joshi",
          "value": 1,
-         "target": "21231",
-         "source": "21211"
+         "target": "Xiping Wang"
+      },
+      {
+         "source": "Xiping Wang",
+         "value": 1,
+         "target": "Neeraj Joshi"
+      },
+      {
+         "source": "Xiping Wang",
+         "value": 3,
+         "target": "David Wood"
+      },
+      {
+         "source": "Xiping Wang",
+         "value": 1,
+         "target": "dawood"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Xiping Wang",
+         "group": 2
+      },
+      {
+         "id": "David Wood (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "David Wood",
+         "group": 2
+      },
+      {
+         "id": "dawood",
+         "group": 3
+      },
+      {
+         "id": "Neeraj Joshi",
+         "group": 2
       }
    ]
 }

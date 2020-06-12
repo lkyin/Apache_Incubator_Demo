@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "22947",
-         "group": 4
+         "source": "nehanarkhede",
+         "value": 9,
+         "target": "joestein"
       },
       {
-         "id": "8283",
+         "source": "junrao",
+         "value": 16,
+         "target": "nehanarkhede"
+      },
+      {
+         "source": "junrao",
+         "value": 11,
+         "target": "joestein"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "junrao",
          "group": 3
       },
       {
-         "id": "22945",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "8283",
-         "source": "22947"
+         "id": "nehanarkhede",
+         "group": 4
       },
       {
-         "value": 16,
-         "target": "22945",
-         "source": "8283"
-      },
-      {
-         "value": 9,
-         "target": "22945",
-         "source": "22947"
+         "id": "joestein",
+         "group": 4
       }
    ]
 }

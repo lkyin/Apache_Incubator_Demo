@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "amccurry",
+         "value": 1,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "amccurry",
+         "value": 1,
+         "target": "chrisrohr"
+      },
+      {
+         "source": "chrisrohr",
+         "value": 1,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 17,
+         "target": "amccurry"
+      }
+   ],
    "nodes": [
       {
-         "id": "7096",
+         "id": "Aaron McCurry",
          "group": 1
       },
       {
-         "id": "7097",
-         "group": 4
+         "id": "amccurry",
+         "group": 1
       },
       {
-         "id": "7107",
+         "id": "chrisrohr",
          "group": 3
       },
       {
-         "id": "7114",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 17,
-         "target": "7097",
-         "source": "7096"
-      },
-      {
-         "value": 1,
-         "target": "7114",
-         "source": "7107"
-      },
-      {
-         "value": 1,
-         "target": "7107",
-         "source": "7096"
-      },
-      {
-         "value": 1,
-         "target": "7114",
-         "source": "7096"
+         "id": "Chris Rohr",
+         "group": 3
       }
    ]
 }

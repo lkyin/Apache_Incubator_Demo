@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "8778",
-         "group": 3
-      },
-      {
-         "id": "28003",
-         "group": 1
-      },
-      {
-         "id": "28043",
-         "group": 3
-      },
-      {
-         "id": "28042",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Brett Porter",
          "value": 1,
-         "target": "28043",
-         "source": "8778"
+         "target": "MCIVER Jim"
       },
       {
+         "source": "Lars Corneliussen",
          "value": 1,
-         "target": "28042",
-         "source": "28003"
+         "target": "David Akehurst"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lars Corneliussen",
+         "group": 3
+      },
+      {
+         "id": "David Akehurst",
+         "group": 4
+      },
+      {
+         "id": "MCIVER Jim",
+         "group": 2
+      },
+      {
+         "id": "Brett Porter",
+         "group": 2
       }
    ]
 }

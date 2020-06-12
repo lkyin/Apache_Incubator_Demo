@@ -1,55 +1,55 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4479",
-         "group": 3
+         "source": "Wilson Barbosa",
+         "value": 1,
+         "target": "Dave Fisher"
       },
       {
-         "id": "46898",
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Chris Thistlethwaite"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Kirchhoff, Bjoern"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Svante Schubert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Svante Schubert",
          "group": 2
       },
       {
-         "id": "11330",
-         "group": 1
-      },
-      {
-         "id": "42837",
-         "group": 1
-      },
-      {
-         "id": "3571",
+         "id": "Dave Fisher",
          "group": 4
       },
       {
-         "id": "46771",
+         "id": "John D. Ament",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "11330",
-         "source": "4479"
       },
       {
-         "value": 1,
-         "target": "46898",
-         "source": "11330"
+         "id": "Chris Thistlethwaite",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "11330",
-         "source": "3571"
+         "id": "Kirchhoff, Bjoern",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "42837",
-         "source": "11330"
-      },
-      {
-         "value": 1,
-         "target": "4479",
-         "source": "46771"
+         "id": "Wilson Barbosa",
+         "group": 3
       }
    ]
 }

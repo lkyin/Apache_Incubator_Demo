@@ -1,52 +1,57 @@
 {
+   "links": [
+      {
+         "source": "olamy",
+         "value": 24,
+         "target": "bperroud"
+      },
+      {
+         "source": "olamy",
+         "value": 2,
+         "target": "iocanel"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 24,
+         "target": "bperroud"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 1,
+         "target": "iocanel"
+      },
+      {
+         "source": "bperroud",
+         "value": 6,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "olamy",
+         "value": 40,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "bperroud",
+         "value": 12,
+         "target": "olamy"
+      }
+   ],
    "nodes": [
       {
-         "id": "4483",
-         "group": 3
-      },
-      {
-         "id": "12908",
-         "group": 1
-      },
-      {
-         "id": "4099",
+         "id": "bperroud",
          "group": 2
       },
       {
-         "id": "11704",
+         "id": "olamy",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "11704",
-         "source": "4099"
       },
       {
-         "value": 24,
-         "target": "12908",
-         "source": "4099"
+         "id": "simonetripodi",
+         "group": 2
       },
       {
-         "value": 30,
-         "target": "4483",
-         "source": "12908"
-      },
-      {
-         "value": 1,
-         "target": "11704",
-         "source": "4483"
-      },
-      {
-         "value": 40,
-         "target": "4483",
-         "source": "4099"
-      },
-      {
-         "value": 12,
-         "target": "4099",
-         "source": "12908"
+         "id": "iocanel",
+         "group": 1
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "45127",
-         "group": 4
+         "source": "bravi",
+         "value": 6,
+         "target": "enolan"
       },
       {
-         "id": "45119",
+         "source": "dmiddlem",
+         "value": 4,
+         "target": "enolan"
+      },
+      {
+         "source": "bravi",
+         "value": 32,
+         "target": "dmiddlem"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bravi",
          "group": 1
       },
       {
-         "id": "45122",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "45122",
-         "source": "45127"
+         "id": "dmiddlem",
+         "group": 4
       },
       {
-         "value": 4,
-         "target": "45119",
-         "source": "45122"
-      },
-      {
-         "value": 32,
-         "target": "45119",
-         "source": "45127"
+         "id": "enolan",
+         "group": 3
       }
    ]
 }

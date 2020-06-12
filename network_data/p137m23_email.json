@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 1
-      },
-      {
-         "id": "5955",
-         "group": 3
-      },
-      {
-         "id": "1137",
-         "group": 1
-      },
-      {
-         "id": "22366",
-         "group": 3
-      },
-      {
-         "id": "5959",
-         "group": 3
-      },
-      {
-         "id": "22353",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "reinhard.sandtner",
          "value": 1,
-         "target": "1137",
-         "source": "5928"
+         "target": "Hendrik Dev"
       },
       {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "Sebb (JIRA)"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "ravi sankar"
+      },
+      {
+         "source": "ravi sankar",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Romain Manni-Bucau",
          "value": 3,
-         "target": "5959",
-         "source": "5928"
+         "target": "Mark Struberg"
       },
       {
+         "source": "Mark Struberg",
          "value": 1,
-         "target": "22353",
-         "source": "5955"
+         "target": "Romain Manni-Bucau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ravi sankar",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "5928",
-         "source": "22366"
+         "id": "Mark Struberg",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "5928",
-         "source": "5959"
+         "id": "Hendrik Dev",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "22366",
-         "source": "5928"
+         "id": "reinhard.sandtner",
+         "group": 1
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "Sebb (JIRA)",
+         "group": 3
       }
    ]
 }

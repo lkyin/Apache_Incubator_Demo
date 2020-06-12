@@ -1,74 +1,74 @@
 {
-   "nodes": [
-      {
-         "id": "1096",
-         "group": 3
-      },
-      {
-         "id": "4522",
-         "group": 2
-      },
-      {
-         "id": "10040",
-         "group": 3
-      },
-      {
-         "id": "10032",
-         "group": 3
-      },
-      {
-         "id": "10036",
-         "group": 4
-      },
-      {
-         "id": "5961",
-         "group": 4
-      },
-      {
-         "id": "10037",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "4522",
-         "source": "10036"
-      },
-      {
-         "value": 1,
-         "target": "5961",
-         "source": "10036"
-      },
-      {
-         "value": 55,
-         "target": "10032",
-         "source": "10040"
-      },
-      {
-         "value": 29,
-         "target": "10032",
-         "source": "1096"
-      },
-      {
+         "source": "Stian Soiland-Reyes",
          "value": 4,
-         "target": "5961",
-         "source": "4522"
+         "target": "Andy Seaborne"
       },
       {
-         "value": 2,
-         "target": "5961",
-         "source": "10037"
-      },
-      {
+         "source": "gmcdonald",
          "value": 17,
-         "target": "10040",
-         "source": "1096"
+         "target": "stain"
       },
       {
+         "source": "Stian Soiland-Reyes",
          "value": 1,
-         "target": "5961",
-         "source": "10040"
+         "target": "stain"
+      },
+      {
+         "source": "wikier",
+         "value": 55,
+         "target": "stain"
+      },
+      {
+         "source": "Sergio Fern??ndez",
+         "value": 1,
+         "target": "Andy Seaborne"
+      },
+      {
+         "source": "Stian Soiland-Reyes",
+         "value": 1,
+         "target": "Sergio Fern??ndez"
+      },
+      {
+         "source": "Stian Soiland-Reyes",
+         "value": 2,
+         "target": "Benedikt Ritter"
+      },
+      {
+         "source": "gmcdonald",
+         "value": 29,
+         "target": "wikier"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gmcdonald",
+         "group": 4
+      },
+      {
+         "id": "wikier",
+         "group": 1
+      },
+      {
+         "id": "Andy Seaborne",
+         "group": 2
+      },
+      {
+         "id": "stain",
+         "group": 3
+      },
+      {
+         "id": "Stian Soiland-Reyes",
+         "group": 4
+      },
+      {
+         "id": "Benedikt Ritter",
+         "group": 4
+      },
+      {
+         "id": "Sergio Fern??ndez",
+         "group": 4
       }
    ]
 }

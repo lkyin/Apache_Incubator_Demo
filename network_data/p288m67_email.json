@@ -1,55 +1,55 @@
 {
+   "links": [
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Ian C"
+      },
+      {
+         "source": "Ian",
+         "value": 1,
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Svante Schubert"
+      }
+   ],
    "nodes": [
       {
-         "id": "46831",
-         "group": 4
-      },
-      {
-         "id": "4892",
-         "group": 2
-      },
-      {
-         "id": "11330",
-         "group": 2
-      },
-      {
-         "id": "249",
-         "group": 1
-      },
-      {
-         "id": "3571",
+         "id": "Svante Schubert",
          "group": 3
       },
       {
-         "id": "11318",
+         "id": "Ian",
+         "group": 4
+      },
+      {
+         "id": "Apache Jenkins Server",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "249",
-         "source": "11330"
       },
       {
-         "value": 1,
-         "target": "11330",
-         "source": "46831"
+         "id": "John D. Ament",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "11318",
-         "source": "11330"
+         "id": "John D. Ament",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4892",
-         "source": "3571"
-      },
-      {
-         "value": 1,
-         "target": "11330",
-         "source": "11318"
+         "id": "Ian C",
+         "group": 4
       }
    ]
 }

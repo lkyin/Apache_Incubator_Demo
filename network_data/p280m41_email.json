@@ -1,38 +1,38 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4107",
-         "group": 1
+         "source": "Dietz, Randall",
+         "value": 3,
+         "target": "Olivier Lamy"
       },
       {
-         "id": "23227",
+         "source": "=?windows-1252?Q?Jean-Baptiste_Onofr=E9?=",
+         "value": 1,
+         "target": "Dietz, Randall"
+      },
+      {
+         "source": "Dietz, Randall",
+         "value": 1,
+         "target": "=?windows-1252?Q?Jean-Baptiste_Onofr=E9?="
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 3,
+         "target": "Dietz, Randall"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dietz, Randall",
          "group": 2
       },
       {
-         "id": "14907",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "23227",
-         "source": "4107"
+         "id": "Olivier Lamy",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "23227",
-         "source": "14907"
-      },
-      {
-         "value": 1,
-         "target": "14907",
-         "source": "23227"
-      },
-      {
-         "value": 3,
-         "target": "4107",
-         "source": "23227"
+         "id": "=?windows-1252?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 4
       }
    ]
 }

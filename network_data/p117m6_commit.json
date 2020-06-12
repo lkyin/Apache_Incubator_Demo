@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "18084",
-         "group": 4
-      },
-      {
-         "id": "18091",
-         "group": 4
-      },
-      {
-         "id": "18092",
-         "group": 4
-      },
-      {
-         "id": "18086",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 15,
-         "target": "18086",
-         "source": "18091"
-      },
-      {
-         "value": 6,
-         "target": "18086",
-         "source": "18092"
-      },
-      {
+         "source": "Lionel Liu",
          "value": 32,
-         "target": "18092",
-         "source": "18091"
+         "target": "Liu"
       },
       {
+         "source": "Lionel Liu",
+         "value": 6,
+         "target": "William Guo"
+      },
+      {
+         "source": "William Guo",
          "value": 20,
-         "target": "18086",
-         "source": "18084"
+         "target": "guoyp"
       },
       {
+         "source": "William Guo",
+         "value": 15,
+         "target": "Liu"
+      },
+      {
+         "source": "Lionel Liu",
          "value": 41,
-         "target": "18092",
-         "source": "18084"
+         "target": "guoyp"
       },
       {
+         "source": "Liu",
          "value": 43,
-         "target": "18084",
-         "source": "18091"
+         "target": "guoyp"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lionel Liu",
+         "group": 2
+      },
+      {
+         "id": "William Guo",
+         "group": 4
+      },
+      {
+         "id": "Liu",
+         "group": 1
+      },
+      {
+         "id": "guoyp",
+         "group": 4
       }
    ]
 }

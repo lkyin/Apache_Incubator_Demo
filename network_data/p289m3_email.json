@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "28710",
-         "group": 4
+         "source": "Shanti Subramanyam (JIRA)",
+         "value": 4,
+         "target": "William Sobel (JIRA)"
       },
       {
-         "id": "28705",
+         "source": "Craig L Russell",
+         "value": 1,
+         "target": "Shanti Subramanyam - PAE"
+      },
+      {
+         "source": "Shanti Subramanyam (JIRA)",
+         "value": 3,
+         "target": "Nick Lanham (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Craig L Russell",
          "group": 2
       },
       {
-         "id": "28709",
+         "id": "Nick Lanham (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Shanti Subramanyam (JIRA)",
          "group": 1
       },
       {
-         "id": "8422",
+         "id": "Shanti Subramanyam - PAE",
          "group": 1
       },
       {
-         "id": "28707",
+         "id": "William Sobel (JIRA)",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "28705",
-         "source": "8422"
-      },
-      {
-         "value": 4,
-         "target": "28710",
-         "source": "28707"
-      },
-      {
-         "value": 3,
-         "target": "28709",
-         "source": "28707"
       }
    ]
 }

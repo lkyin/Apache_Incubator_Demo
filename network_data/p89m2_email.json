@@ -1,79 +1,79 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3503",
-         "group": 4
+         "source": "Jakob Homan",
+         "value": 1,
+         "target": "Marvin"
       },
       {
-         "id": "12020",
+         "source": "Sam Shah",
+         "value": 2,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Jakob Homan",
+         "value": 1,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 3,
+         "target": "wang jian"
+      },
+      {
+         "source": "Sam Shah",
+         "value": 1,
+         "target": "Russell Jurney"
+      },
+      {
+         "source": "Jakob Homan",
+         "value": 2,
+         "target": "Jarek Jarcec Cecho"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Jakob Homan"
+      },
+      {
+         "source": "Russell Jurney",
+         "value": 1,
+         "target": "Sam Shah"
+      },
+      {
+         "source": "Jarek Jarcec Cecho",
+         "value": 2,
+         "target": "Matthew Hayes"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Russell Jurney",
+         "group": 1
+      },
+      {
+         "id": "Jakob Homan",
          "group": 2
       },
       {
-         "id": "6949",
-         "group": 1
-      },
-      {
-         "id": "308",
+         "id": "Marvin",
          "group": 3
       },
       {
-         "id": "12051",
+         "id": "Jarek Jarcec Cecho",
+         "group": 3
+      },
+      {
+         "id": "Matthew Hayes",
+         "group": 4
+      },
+      {
+         "id": "wang jian",
          "group": 1
       },
       {
-         "id": "12048",
-         "group": 1
-      },
-      {
-         "id": "1584",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "6949",
-         "source": "1584"
-      },
-      {
-         "value": 1,
-         "target": "308",
-         "source": "1584"
-      },
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "1584"
-      },
-      {
-         "value": 2,
-         "target": "12020",
-         "source": "6949"
-      },
-      {
-         "value": 3,
-         "target": "12051",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "1584",
-         "source": "12020"
-      },
-      {
-         "value": 2,
-         "target": "12020",
-         "source": "12048"
-      },
-      {
-         "value": 1,
-         "target": "12048",
-         "source": "3503"
-      },
-      {
-         "value": 1,
-         "target": "3503",
-         "source": "12048"
+         "id": "Sam Shah",
+         "group": 3
       }
    ]
 }

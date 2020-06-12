@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "aidan",
+         "value": 1,
+         "target": "ritchiem"
+      },
+      {
+         "source": "gsim",
+         "value": 1,
+         "target": "rajith"
+      }
+   ],
    "nodes": [
       {
-         "id": "32279",
+         "id": "gsim",
+         "group": 2
+      },
+      {
+         "id": "aidan",
          "group": 1
       },
       {
-         "id": "32292",
-         "group": 4
-      },
-      {
-         "id": "32271",
-         "group": 3
-      },
-      {
-         "id": "32272",
+         "id": "rajith",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "32271",
-         "source": "32292"
       },
       {
-         "value": 1,
-         "target": "32272",
-         "source": "32279"
+         "id": "ritchiem",
+         "group": 3
       }
    ]
 }

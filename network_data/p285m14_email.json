@@ -1,47 +1,47 @@
 {
+   "links": [
+      {
+         "source": "Edward J. Yoon",
+         "value": 1,
+         "target": "Alan Cabrera"
+      },
+      {
+         "source": "Alan Cabrera",
+         "value": 1,
+         "target": "Leonidas Fegaras"
+      },
+      {
+         "source": "Leonidas Fegaras",
+         "value": 1,
+         "target": "Edward J. Yoon"
+      },
+      {
+         "source": "Edward J. Yoon",
+         "value": 1,
+         "target": "moon soo Lee"
+      },
+      {
+         "source": "moon soo Lee",
+         "value": 1,
+         "target": "Edward J. Yoon"
+      }
+   ],
    "nodes": [
       {
-         "id": "6719",
+         "id": "Edward J. Yoon",
+         "group": 3
+      },
+      {
+         "id": "Leonidas Fegaras",
          "group": 1
       },
       {
-         "id": "13347",
+         "id": "moon soo Lee",
          "group": 3
       },
       {
-         "id": "16569",
-         "group": 2
-      },
-      {
-         "id": "8842",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6719",
-         "source": "16569"
-      },
-      {
-         "value": 1,
-         "target": "13347",
-         "source": "6719"
-      },
-      {
-         "value": 1,
-         "target": "6719",
-         "source": "13347"
-      },
-      {
-         "value": 1,
-         "target": "8842",
-         "source": "6719"
-      },
-      {
-         "value": 1,
-         "target": "16569",
-         "source": "8842"
+         "id": "Alan Cabrera",
+         "group": 4
       }
    ]
 }

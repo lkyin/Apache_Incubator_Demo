@@ -1,65 +1,65 @@
 {
+   "links": [
+      {
+         "source": "Philip Jespersen",
+         "value": 1,
+         "target": "Scott Wilson"
+      },
+      {
+         "source": "Stefano Andreani",
+         "value": 2,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Christian Stocker",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Stefano Andreani"
+      },
+      {
+         "source": "Scott Wilson",
+         "value": 2,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Andrew Savory",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Scott Wilson"
+      }
+   ],
    "nodes": [
       {
-         "id": "12857",
-         "group": 2
-      },
-      {
-         "id": "12859",
-         "group": 1
-      },
-      {
-         "id": "12856",
-         "group": 2
-      },
-      {
-         "id": "10253",
-         "group": 4
-      },
-      {
-         "id": "404",
+         "id": "Bertrand Delacretaz",
          "group": 3
       },
       {
-         "id": "12858",
+         "id": "Scott Wilson",
+         "group": 3
+      },
+      {
+         "id": "Stefano Andreani",
+         "group": 4
+      },
+      {
+         "id": "Philip Jespersen",
+         "group": 4
+      },
+      {
+         "id": "Christian Stocker",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "404",
-         "source": "12856"
       },
       {
-         "value": 1,
-         "target": "12856",
-         "source": "12859"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "12857"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "10253"
-      },
-      {
-         "value": 1,
-         "target": "12858",
-         "source": "404"
-      },
-      {
-         "value": 2,
-         "target": "404",
-         "source": "12858"
-      },
-      {
-         "value": 1,
-         "target": "12856",
-         "source": "404"
+         "id": "Andrew Savory",
+         "group": 2
       }
    ]
 }

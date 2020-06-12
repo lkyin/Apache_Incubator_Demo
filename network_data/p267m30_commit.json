@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "13697",
-         "group": 4
-      },
-      {
-         "id": "13696",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "rfrovarp",
          "value": 11,
-         "target": "13697",
-         "source": "13696"
+         "target": "bchapuis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rfrovarp",
+         "group": 1
+      },
+      {
+         "id": "bchapuis",
+         "group": 3
       }
    ]
 }

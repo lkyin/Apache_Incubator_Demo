@@ -1,88 +1,88 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "28003",
-         "group": 1
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "Marvin Humphrey"
       },
       {
-         "id": "28007",
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "AKEHURST David"
+      },
+      {
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      },
+      {
+         "source": "AKEHURST David",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "Dennis Lundberg"
+      },
+      {
+         "source": "Lars Corneliussen",
+         "value": 4,
+         "target": "christofer.dutz@c-ware.de"
+      },
+      {
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "Raphael Bircher"
+      },
+      {
+         "source": "christofer.dutz@c-ware.de",
+         "value": 3,
+         "target": "Lars Corneliussen"
+      },
+      {
+         "source": "Lars Corneliussen",
+         "value": 1,
+         "target": "Brett Porter"
+      },
+      {
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "Lars Corneliussen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lars Corneliussen",
+         "group": 2
+      },
+      {
+         "id": "Raphael Bircher",
          "group": 4
       },
       {
-         "id": "16143",
+         "id": "christofer.dutz@c-ware.de",
+         "group": 2
+      },
+      {
+         "id": "Apache Jenkins Server",
+         "group": 1
+      },
+      {
+         "id": "AKEHURST David",
+         "group": 4
+      },
+      {
+         "id": "Dennis Lundberg",
          "group": 3
       },
       {
-         "id": "8778",
+         "id": "Brett Porter",
          "group": 1
       },
       {
-         "id": "249",
-         "group": 1
-      },
-      {
-         "id": "28044",
-         "group": 1
-      },
-      {
-         "id": "4399",
+         "id": "Marvin Humphrey",
          "group": 2
-      },
-      {
-         "id": "28045",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "28003",
-         "source": "16143"
-      },
-      {
-         "value": 1,
-         "target": "249",
-         "source": "8778"
-      },
-      {
-         "value": 1,
-         "target": "28003",
-         "source": "8778"
-      },
-      {
-         "value": 4,
-         "target": "16143",
-         "source": "28003"
-      },
-      {
-         "value": 1,
-         "target": "8778",
-         "source": "28003"
-      },
-      {
-         "value": 1,
-         "target": "28044",
-         "source": "4399"
-      },
-      {
-         "value": 1,
-         "target": "28007",
-         "source": "4399"
-      },
-      {
-         "value": 1,
-         "target": "4399",
-         "source": "28045"
-      },
-      {
-         "value": 1,
-         "target": "4399",
-         "source": "8778"
-      },
-      {
-         "value": 1,
-         "target": "28045",
-         "source": "4399"
       }
    ]
 }

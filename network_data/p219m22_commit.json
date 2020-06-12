@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "sebor",
+         "value": 1,
+         "target": "faridz"
+      },
+      {
+         "source": "ablack",
+         "value": 1,
+         "target": "sebor"
+      }
+   ],
    "nodes": [
       {
-         "id": "37994",
+         "id": "ablack",
          "group": 3
       },
       {
-         "id": "37991",
-         "group": 2
-      },
-      {
-         "id": "37995",
+         "id": "sebor",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "37995",
-         "source": "37991"
       },
       {
-         "value": 1,
-         "target": "37991",
-         "source": "37994"
+         "id": "faridz",
+         "group": 1
       }
    ]
 }

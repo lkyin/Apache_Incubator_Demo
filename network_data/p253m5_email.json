@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "453",
-         "group": 1
-      },
-      {
-         "id": "1028",
-         "group": 1
-      },
-      {
-         "id": "1026",
-         "group": 2
-      },
-      {
-         "id": "1031",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "1028",
-         "source": "1026"
-      },
-      {
-         "value": 1,
-         "target": "1026",
-         "source": "1028"
-      },
-      {
-         "value": 1,
-         "target": "1026",
-         "source": "453"
-      },
-      {
+         "source": "Geir Magnusson Jr",
          "value": 2,
-         "target": "1031",
-         "source": "1028"
+         "target": "Matthieu Riou"
       },
       {
+         "source": "Bruce Snyder",
          "value": 1,
-         "target": "453",
-         "source": "1028"
+         "target": "Geir Magnusson Jr."
       },
       {
+         "source": "Geir Magnusson Jr.",
+         "value": 1,
+         "target": "Matthieu Riou"
+      },
+      {
+         "source": "Matthieu Riou",
          "value": 2,
-         "target": "1028",
-         "source": "1031"
+         "target": "Geir Magnusson Jr"
+      },
+      {
+         "source": "Matthieu Riou",
+         "value": 1,
+         "target": "Geir Magnusson Jr."
+      },
+      {
+         "source": "Matthieu Riou",
+         "value": 1,
+         "target": "Bruce Snyder"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Geir Magnusson Jr",
+         "group": 4
+      },
+      {
+         "id": "Matthieu Riou",
+         "group": 2
+      },
+      {
+         "id": "Bruce Snyder",
+         "group": 3
+      },
+      {
+         "id": "Geir Magnusson Jr.",
+         "group": 3
       }
    ]
 }

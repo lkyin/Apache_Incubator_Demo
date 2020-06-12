@@ -1,56 +1,56 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8838",
-         "group": 3
+         "source": "Eric Yang (JIRA)",
+         "value": 3,
+         "target": "Eric Yang (Created) (JIRA)"
       },
       {
-         "id": "8840",
+         "source": "Eric Yang (JIRA)",
+         "value": 11,
+         "target": "Jie Huang (JIRA)"
+      },
+      {
+         "source": "Eric Yang (JIRA)",
+         "value": 8,
+         "target": "Saisai Shao (JIRA)"
+      },
+      {
+         "source": "Hudson (JIRA)",
+         "value": 2,
+         "target": "Saisai Shao (JIRA)"
+      },
+      {
+         "source": "Hudson (JIRA)",
+         "value": 2,
+         "target": "Eric Yang (Created) (JIRA)"
+      },
+      {
+         "source": "Hudson (JIRA)",
+         "value": 1,
+         "target": "Jie Huang (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jie Huang (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Saisai Shao (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Hudson (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Eric Yang (JIRA)",
          "group": 1
       },
       {
-         "id": "4557",
-         "group": 3
-      },
-      {
-         "id": "4180",
-         "group": 2
-      },
-      {
-         "id": "4177",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 8,
-         "target": "8840",
-         "source": "4177"
-      },
-      {
-         "value": 2,
-         "target": "8840",
-         "source": "4557"
-      },
-      {
-         "value": 1,
-         "target": "8838",
-         "source": "4557"
-      },
-      {
-         "value": 3,
-         "target": "4180",
-         "source": "4177"
-      },
-      {
-         "value": 2,
-         "target": "4180",
-         "source": "4557"
-      },
-      {
-         "value": 11,
-         "target": "8838",
-         "source": "4177"
+         "id": "Eric Yang (Created) (JIRA)",
+         "group": 4
       }
    ]
 }

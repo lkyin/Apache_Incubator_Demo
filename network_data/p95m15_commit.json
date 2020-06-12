@@ -1,84 +1,89 @@
 {
-   "nodes": [
-      {
-         "id": "12997",
-         "group": 2
-      },
-      {
-         "id": "12994",
-         "group": 4
-      },
-      {
-         "id": "12988",
-         "group": 4
-      },
-      {
-         "id": "12990",
-         "group": 2
-      },
-      {
-         "id": "12987",
-         "group": 2
-      },
-      {
-         "id": "12986",
-         "group": 1
-      },
-      {
-         "id": "12995",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "12988",
-         "source": "12986"
-      },
-      {
+         "source": "bayard",
          "value": 1,
-         "target": "12995",
-         "source": "12994"
+         "target": "akarasulu"
       },
       {
+         "source": "erodriguez",
          "value": 1,
-         "target": "12988",
-         "source": "12994"
+         "target": "brett"
       },
       {
+         "source": "akarasulu",
+         "value": 1,
+         "target": "trustin"
+      },
+      {
+         "source": "bayard",
          "value": 3,
-         "target": "12987",
-         "source": "12997"
+         "target": "psteitz"
       },
       {
+         "source": "akarasulu",
          "value": 1,
-         "target": "12986",
-         "source": "12997"
+         "target": "psteitz"
       },
       {
+         "source": "vtence",
+         "value": 2,
+         "target": "akarasulu"
+      },
+      {
+         "source": "erodriguez",
          "value": 66,
-         "target": "12994",
-         "source": "12986"
+         "target": "akarasulu"
       },
       {
-         "value": 9,
-         "target": "12995",
-         "source": "12986"
+         "source": "trustin",
+         "value": 8,
+         "target": "akarasulu"
       },
       {
+         "source": "trustin",
          "value": 2,
-         "target": "12995",
-         "source": "12987"
+         "target": "psteitz"
       },
       {
-         "value": 2,
-         "target": "12986",
-         "source": "12990"
-      },
-      {
+         "source": "trustin",
          "value": 1,
-         "target": "12986",
-         "source": "12987"
+         "target": "erodriguez"
+      },
+      {
+         "source": "akarasulu",
+         "value": 2,
+         "target": "brett"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "trustin",
+         "group": 2
+      },
+      {
+         "id": "bayard",
+         "group": 4
+      },
+      {
+         "id": "psteitz",
+         "group": 4
+      },
+      {
+         "id": "vtence",
+         "group": 4
+      },
+      {
+         "id": "brett",
+         "group": 3
+      },
+      {
+         "id": "erodriguez",
+         "group": 2
+      },
+      {
+         "id": "akarasulu",
+         "group": 1
       }
    ]
 }

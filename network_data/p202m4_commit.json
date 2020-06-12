@@ -1,74 +1,69 @@
 {
+   "links": [
+      {
+         "source": "dongeforever",
+         "value": 1,
+         "target": "zander"
+      },
+      {
+         "source": "shtykh_roman",
+         "value": 1,
+         "target": "dongeforever"
+      },
+      {
+         "source": "Zhanhui Li",
+         "value": 9,
+         "target": "yukon"
+      },
+      {
+         "source": "zhangke",
+         "value": 79,
+         "target": "yukon"
+      },
+      {
+         "source": "yukon",
+         "value": 3,
+         "target": "zander"
+      },
+      {
+         "source": "dongeforever",
+         "value": 7,
+         "target": "yukon"
+      },
+      {
+         "source": "shtykh_roman",
+         "value": 1,
+         "target": "yukon"
+      }
+   ],
    "nodes": [
       {
-         "id": "33601",
-         "group": 1
-      },
-      {
-         "id": "33608",
-         "group": 2
-      },
-      {
-         "id": "17271",
-         "group": 2
-      },
-      {
-         "id": "33624",
-         "group": 4
-      },
-      {
-         "id": "33611",
+         "id": "shtykh_roman",
          "group": 3
       },
       {
-         "id": "33626",
+         "id": "yukon",
+         "group": 1
+      },
+      {
+         "id": "dongeforever",
          "group": 4
       },
       {
-         "id": "33627",
+         "id": "Zhanhui Li",
+         "group": 3
+      },
+      {
+         "id": "zhangke",
+         "group": 1
+      },
+      {
+         "id": "dongeforever",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 9,
-         "target": "33608",
-         "source": "33601"
       },
       {
-         "value": 79,
-         "target": "33624",
-         "source": "33601"
-      },
-      {
-         "value": 3,
-         "target": "33627",
-         "source": "33601"
-      },
-      {
-         "value": 1,
-         "target": "33626",
-         "source": "33627"
-      },
-      {
-         "value": 2,
-         "target": "33601",
-         "source": "33626"
-      },
-      {
-         "value": 5,
-         "target": "33626",
-         "source": "33601"
-      },
-      {
-         "value": 1,
-         "target": "17271",
-         "source": "33611"
-      },
-      {
-         "value": 1,
-         "target": "17271",
-         "source": "33601"
+         "id": "zander",
+         "group": 4
       }
    ]
 }

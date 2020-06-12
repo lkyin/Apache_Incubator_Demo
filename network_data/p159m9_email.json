@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "24428",
-         "group": 4
-      },
-      {
-         "id": "24446",
-         "group": 3
-      },
-      {
-         "id": "24450",
-         "group": 3
-      },
-      {
-         "id": "24448",
-         "group": 4
-      },
-      {
-         "id": "24449",
-         "group": 4
-      },
-      {
-         "id": "4703",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 7,
-         "target": "24449",
-         "source": "24428"
+         "source": "Benjamin Hindman",
+         "value": 1,
+         "target": "Matei Zaharia"
       },
       {
+         "source": "Matei Zaharia",
+         "value": 1,
+         "target": "Zhiyong Xie"
+      },
+      {
+         "source": "Joe Xie",
          "value": 5,
-         "target": "24428",
-         "source": "24449"
+         "target": "Matei Zaharia"
       },
       {
+         "source": "Matei Zaharia",
+         "value": 7,
+         "target": "Joe Xie"
+      },
+      {
+         "source": "Michael Armbrust",
          "value": 1,
-         "target": "24446",
-         "source": "24448"
+         "target": "Benjamin Hindman"
       },
       {
+         "source": "Ted Dunning",
          "value": 1,
-         "target": "24428",
-         "source": "24446"
+         "target": "Benjamin Hindman"
       },
       {
-         "value": 1,
-         "target": "24446",
-         "source": "4703"
-      },
-      {
-         "value": 1,
-         "target": "24450",
-         "source": "24428"
-      },
-      {
+         "source": "Benjamin Hindman",
          "value": 2,
-         "target": "24448",
-         "source": "24446"
+         "target": "Michael Armbrust"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Ted Dunning",
+         "group": 1
+      },
+      {
+         "id": "Matei Zaharia",
+         "group": 2
+      },
+      {
+         "id": "Joe Xie",
+         "group": 2
+      },
+      {
+         "id": "Benjamin Hindman",
+         "group": 3
+      },
+      {
+         "id": "Zhiyong Xie",
+         "group": 1
+      },
+      {
+         "id": "Michael Armbrust",
+         "group": 3
       }
    ]
 }

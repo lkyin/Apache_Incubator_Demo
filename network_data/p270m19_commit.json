@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "17985",
-         "group": 1
-      },
-      {
-         "id": "17988",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "apopescu",
          "value": 7,
-         "target": "17988",
-         "source": "17985"
+         "target": "clombart"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "apopescu",
+         "group": 3
+      },
+      {
+         "id": "clombart",
+         "group": 1
       }
    ]
 }

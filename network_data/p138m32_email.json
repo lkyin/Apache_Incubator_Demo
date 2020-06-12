@@ -1,78 +1,78 @@
 {
-   "nodes": [
-      {
-         "id": "22367",
-         "group": 1
-      },
-      {
-         "id": "22373",
-         "group": 3
-      },
-      {
-         "id": "3801",
-         "group": 1
-      },
-      {
-         "id": "5135",
-         "group": 2
-      },
-      {
-         "id": "5137",
-         "group": 2
-      },
-      {
-         "id": "4488",
-         "group": 2
-      },
-      {
-         "id": "3837",
-         "group": 3
-      },
-      {
-         "id": "22436",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Tom Barber",
          "value": 1,
-         "target": "22373",
-         "source": "5135"
+         "target": "Chris Mattmann"
       },
       {
+         "source": "Henry Saputra",
          "value": 1,
-         "target": "5135",
-         "source": "22436"
+         "target": "Chris Mattmann"
       },
       {
+         "source": "Chris Mattmann",
+         "value": 1,
+         "target": "Thamme Gowda"
+      },
+      {
+         "source": "Justin Mclean",
+         "value": 1,
+         "target": "jmclean"
+      },
+      {
+         "source": "Tommaso Teofili",
          "value": 2,
-         "target": "5135",
-         "source": "4488"
+         "target": "Chris Mattmann"
       },
       {
+         "source": "Chris Mattmann",
          "value": 1,
-         "target": "5135",
-         "source": "5137"
+         "target": "Matt Post"
       },
       {
+         "source": "Chris Mattmann",
          "value": 3,
-         "target": "4488",
-         "source": "5135"
+         "target": "Tommaso Teofili"
       },
       {
+         "source": "Matt Post",
          "value": 1,
-         "target": "22367",
-         "source": "5135"
+         "target": "Chris Mattmann"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tommaso Teofili",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "3801",
-         "source": "3837"
+         "id": "jmclean",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "5135",
-         "source": "22367"
+         "id": "Matt Post",
+         "group": 3
+      },
+      {
+         "id": "Chris Mattmann",
+         "group": 4
+      },
+      {
+         "id": "Tom Barber",
+         "group": 3
+      },
+      {
+         "id": "Henry Saputra",
+         "group": 2
+      },
+      {
+         "id": "Justin Mclean",
+         "group": 2
+      },
+      {
+         "id": "Thamme Gowda",
+         "group": 1
       }
    ]
 }

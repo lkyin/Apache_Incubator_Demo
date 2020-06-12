@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 2
-      },
-      {
-         "id": "5924",
-         "group": 3
-      },
-      {
-         "id": "5675",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "rmannibucau",
          "value": 1,
-         "target": "5924",
-         "source": "5675"
+         "target": "jfarrell"
       },
       {
+         "source": "rmannibucau",
          "value": 28,
-         "target": "5924",
-         "source": "5928"
+         "target": "Romain Manni-Bucau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rmannibucau",
+         "group": 2
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "jfarrell",
+         "group": 1
       }
    ]
 }

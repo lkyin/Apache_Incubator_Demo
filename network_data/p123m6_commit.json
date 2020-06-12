@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "19956",
-         "group": 1
-      },
-      {
-         "id": "19969",
-         "group": 1
-      },
-      {
-         "id": "19958",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "khorgath",
          "value": 1,
-         "target": "19969",
-         "source": "19956"
+         "target": "gates"
       },
       {
+         "source": "hashutosh",
          "value": 4,
-         "target": "19958",
-         "source": "19956"
+         "target": "gates"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "khorgath",
+         "group": 4
+      },
+      {
+         "id": "hashutosh",
+         "group": 2
+      },
+      {
+         "id": "gates",
+         "group": 3
       }
    ]
 }

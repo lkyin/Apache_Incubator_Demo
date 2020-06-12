@@ -1,52 +1,52 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "22452",
-         "group": 3
+         "source": "ajaquith",
+         "value": 1,
+         "target": "brushed"
       },
       {
-         "id": "22455",
+         "source": "ajaquith",
+         "value": 2,
+         "target": "juanpablo"
+      },
+      {
+         "source": "jalkanen",
+         "value": 1,
+         "target": "brushed"
+      },
+      {
+         "source": "jalkanen",
+         "value": 30,
+         "target": "ajaquith"
+      },
+      {
+         "source": "jalkanen",
+         "value": 2,
+         "target": "juanpablo"
+      },
+      {
+         "source": "juanpablo",
+         "value": 1,
+         "target": "brushed"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jalkanen",
+         "group": 4
+      },
+      {
+         "id": "ajaquith",
+         "group": 1
+      },
+      {
+         "id": "brushed",
          "group": 2
       },
       {
-         "id": "22453",
+         "id": "juanpablo",
          "group": 3
-      },
-      {
-         "id": "22454",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 30,
-         "target": "22453",
-         "source": "22452"
-      },
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22455"
-      },
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22453"
-      },
-      {
-         "value": 2,
-         "target": "22453",
-         "source": "22455"
-      },
-      {
-         "value": 2,
-         "target": "22455",
-         "source": "22452"
-      },
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22452"
       }
    ]
 }

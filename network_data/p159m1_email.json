@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "6706",
-         "group": 2
-      },
-      {
-         "id": "24428",
-         "group": 4
-      },
-      {
-         "id": "24429",
-         "group": 1
-      },
-      {
-         "id": "206",
-         "group": 4
-      },
-      {
-         "id": "24430",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Matei Zaharia",
+         "value": 1,
+         "target": "Ian Holsman"
+      },
+      {
+         "source": "Matei Zaharia",
          "value": 3,
-         "target": "24428",
-         "source": "6706"
+         "target": "Tom White"
       },
       {
+         "source": "Ian Holsman",
          "value": 1,
-         "target": "24428",
-         "source": "24430"
+         "target": "Matei Zaharia"
       },
       {
+         "source": "Matei Zaharia",
+         "value": 1,
+         "target": "no-reply"
+      },
+      {
+         "source": "Tom White",
          "value": 3,
-         "target": "6706",
-         "source": "24428"
+         "target": "Matei Zaharia"
       },
       {
+         "source": "Andy Konwinski",
          "value": 1,
-         "target": "206",
-         "source": "24428"
+         "target": "Matei Zaharia"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "24429",
-         "source": "24428"
+         "id": "Andy Konwinski",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "24428",
-         "source": "24429"
+         "id": "Matei Zaharia",
+         "group": 3
+      },
+      {
+         "id": "Tom White",
+         "group": 2
+      },
+      {
+         "id": "Ian Holsman",
+         "group": 2
       }
    ]
 }

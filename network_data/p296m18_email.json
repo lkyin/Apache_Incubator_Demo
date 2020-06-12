@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "10163",
-         "group": 2
+         "source": "Brent Lintner",
+         "value": 4,
+         "target": "Raymond Camden"
       },
       {
-         "id": "11265",
+         "source": "Raymond Camden",
+         "value": 3,
+         "target": "Brent Lintner"
+      },
+      {
+         "source": "Raymond Camden",
+         "value": 1,
+         "target": "jeremy Colton (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jeremy Colton (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Brent Lintner",
          "group": 4
       },
       {
-         "id": "33338",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "10163",
-         "source": "11265"
-      },
-      {
-         "value": 1,
-         "target": "33338",
-         "source": "10163"
-      },
-      {
-         "value": 3,
-         "target": "11265",
-         "source": "10163"
+         "id": "Raymond Camden",
+         "group": 2
       }
    ]
 }

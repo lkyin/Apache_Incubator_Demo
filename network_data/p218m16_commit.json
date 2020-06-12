@@ -1,74 +1,74 @@
 {
-   "nodes": [
-      {
-         "id": "37772",
-         "group": 2
-      },
-      {
-         "id": "37767",
-         "group": 4
-      },
-      {
-         "id": "37747",
-         "group": 4
-      },
-      {
-         "id": "8881",
-         "group": 4
-      },
-      {
-         "id": "37763",
-         "group": 3
-      },
-      {
-         "id": "37761",
-         "group": 2
-      },
-      {
-         "id": "37838",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "sinaci",
          "value": 1,
-         "target": "8881",
-         "source": "37761"
+         "target": "alexdma"
       },
       {
-         "value": 3,
-         "target": "37838",
-         "source": "37767"
-      },
-      {
+         "source": "szabyg",
          "value": 1,
-         "target": "8881",
-         "source": "37772"
+         "target": "rwesten"
       },
       {
-         "value": 13,
-         "target": "8881",
-         "source": "37747"
-      },
-      {
-         "value": 1,
-         "target": "37761",
-         "source": "37763"
-      },
-      {
-         "value": 1,
-         "target": "37838",
-         "source": "37761"
-      },
-      {
-         "value": 1,
-         "target": "37747",
-         "source": "37838"
-      },
-      {
+         "source": "sinaci",
          "value": 2,
-         "target": "8881",
-         "source": "37838"
+         "target": "rwesten"
+      },
+      {
+         "source": "sinaci",
+         "value": 1,
+         "target": "fchrist"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 1,
+         "target": "alexdma"
+      },
+      {
+         "source": "fchrist",
+         "value": 13,
+         "target": "rwesten"
+      },
+      {
+         "source": "sinaci",
+         "value": 3,
+         "target": "suat"
+      },
+      {
+         "source": "alexdma",
+         "value": 1,
+         "target": "rwesten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sinaci",
+         "group": 2
+      },
+      {
+         "id": "fchrist",
+         "group": 1
+      },
+      {
+         "id": "suat",
+         "group": 2
+      },
+      {
+         "id": "anuzzolese",
+         "group": 1
+      },
+      {
+         "id": "szabyg",
+         "group": 3
+      },
+      {
+         "id": "alexdma",
+         "group": 4
+      },
+      {
+         "id": "rwesten",
+         "group": 1
       }
    ]
 }

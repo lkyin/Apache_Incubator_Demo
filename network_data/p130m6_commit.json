@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "21349",
-         "group": 2
+         "source": "rmatthews",
+         "value": 22,
+         "target": "danhaywood"
       },
       {
-         "id": "21350",
+         "source": "kevin",
+         "value": 7,
+         "target": "danhaywood"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rmatthews",
          "group": 3
       },
       {
-         "id": "21348",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 7,
-         "target": "21350",
-         "source": "21349"
+         "id": "kevin",
+         "group": 4
       },
       {
-         "value": 22,
-         "target": "21348",
-         "source": "21349"
+         "id": "danhaywood",
+         "group": 4
       }
    ]
 }

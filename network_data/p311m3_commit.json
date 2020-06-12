@@ -1,57 +1,72 @@
 {
+   "links": [
+      {
+         "source": "sebastian",
+         "value": 1,
+         "target": "toby"
+      },
+      {
+         "source": "oms",
+         "value": 11,
+         "target": "kore"
+      },
+      {
+         "source": "oms",
+         "value": 10,
+         "target": "sebastian"
+      },
+      {
+         "source": "toby",
+         "value": 1,
+         "target": "oms"
+      },
+      {
+         "source": "sebastian",
+         "value": 1,
+         "target": "oms"
+      },
+      {
+         "source": "kore",
+         "value": 1,
+         "target": "oms"
+      },
+      {
+         "source": "oms",
+         "value": 2115,
+         "target": "toby"
+      },
+      {
+         "source": "sebastian",
+         "value": 1,
+         "target": "kore"
+      },
+      {
+         "source": "toby",
+         "value": 10,
+         "target": "sebastian"
+      },
+      {
+         "source": "toby",
+         "value": 3025,
+         "target": "kore"
+      }
+   ],
    "nodes": [
       {
-         "id": "45915",
-         "group": 3
+         "id": "oms",
+         "group": 1
       },
       {
-         "id": "45913",
-         "group": 4
-      },
-      {
-         "id": "45914",
+         "id": "toby",
          "group": 2
       },
       {
-         "id": "45912",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3025,
-         "target": "45914",
-         "source": "45913"
+         "id": "sebastian",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "45913",
-         "source": "45912"
-      },
-      {
-         "value": 11,
-         "target": "45912",
-         "source": "45915"
-      },
-      {
-         "value": 10,
-         "target": "45912",
-         "source": "45913"
-      },
-      {
-         "value": 1,
-         "target": "45914",
-         "source": "45912"
-      },
-      {
-         "value": 12,
-         "target": "45914",
-         "source": "45915"
-      },
-      {
-         "value": 2116,
-         "target": "45913",
-         "source": "45915"
+         "id": "kore",
+         "group": 2
       }
    ]
 }

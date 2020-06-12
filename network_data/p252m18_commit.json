@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "45182",
-         "group": 2
-      },
-      {
-         "id": "45244",
-         "group": 2
-      },
-      {
-         "id": "45230",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Lee moon soo",
+         "value": 1,
+         "target": "Damien CORNEAU"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 1,
+         "target": "Prabhjyot Singh"
+      },
+      {
+         "source": "Prabhjyot Singh",
          "value": 2,
-         "target": "45230",
-         "source": "45244"
+         "target": "Damien CORNEAU"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lee moon soo",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "45230",
-         "source": "45182"
+         "id": "Prabhjyot Singh",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "45244",
-         "source": "45182"
+         "id": "Damien CORNEAU",
+         "group": 3
       }
    ]
 }

@@ -1,99 +1,99 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 4
-      },
-      {
-         "id": "5934",
-         "group": 3
-      },
-      {
-         "id": "4107",
-         "group": 4
-      },
-      {
-         "id": "419",
-         "group": 3
-      },
-      {
-         "id": "4099",
-         "group": 3
-      },
-      {
-         "id": "5924",
-         "group": 3
-      },
-      {
-         "id": "28270",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "5934",
-         "source": "4107"
-      },
-      {
-         "value": 13,
-         "target": "4107",
-         "source": "5928"
-      },
-      {
-         "value": 14,
-         "target": "5928",
-         "source": "4107"
-      },
-      {
-         "value": 1,
-         "target": "5924",
-         "source": "4107"
-      },
-      {
-         "value": 1,
-         "target": "4107",
-         "source": "419"
-      },
-      {
-         "value": 1,
-         "target": "419",
-         "source": "5928"
-      },
-      {
-         "value": 1,
-         "target": "5934",
-         "source": "5928"
-      },
-      {
-         "value": 1,
-         "target": "5928",
-         "source": "419"
-      },
-      {
-         "value": 1,
-         "target": "5924",
-         "source": "5928"
-      },
-      {
+         "source": "Jean-Louis MONTEIRO",
          "value": 2,
-         "target": "5928",
-         "source": "5934"
+         "target": "Romain Manni-Bucau"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "419",
-         "source": "4107"
+         "target": "Jean-Louis MONTEIRO"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "4107",
-         "source": "28270"
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
       },
       {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 13,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "value": 1,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Tammo van Lessen",
+         "value": 1,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "rmannibucau"
+      },
+      {
+         "source": "Romain Manni-Bucau",
          "value": 9,
-         "target": "4099",
-         "source": "5928"
+         "target": "olamy"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "Jean-Louis MONTEIRO"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "rmannibucau"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 14,
+         "target": "Romain Manni-Bucau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rmannibucau",
+         "group": 3
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 1
+      },
+      {
+         "id": "olamy",
+         "group": 4
+      },
+      {
+         "id": "Jean-Louis MONTEIRO",
+         "group": 3
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 2
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 1
+      },
+      {
+         "id": "Tammo van Lessen",
+         "group": 3
       }
    ]
 }

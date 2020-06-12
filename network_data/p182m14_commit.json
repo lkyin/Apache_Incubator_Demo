@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29356",
-         "group": 2
+         "source": "solomax",
+         "value": 18,
+         "target": "sebawagner"
       },
       {
-         "id": "29392",
+         "source": "aaf",
+         "value": 9,
+         "target": "sebawagner"
+      },
+      {
+         "source": "solomax",
+         "value": 10,
+         "target": "aaf"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "solomax",
+         "group": 4
+      },
+      {
+         "id": "aaf",
          "group": 1
       },
       {
-         "id": "29355",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 10,
-         "target": "29392",
-         "source": "29356"
-      },
-      {
-         "value": 9,
-         "target": "29355",
-         "source": "29392"
-      },
-      {
-         "value": 18,
-         "target": "29355",
-         "source": "29356"
+         "id": "sebawagner",
+         "group": 1
       }
    ]
 }

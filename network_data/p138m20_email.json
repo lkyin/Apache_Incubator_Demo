@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "22367",
-         "group": 4
-      },
-      {
-         "id": "22392",
-         "group": 3
-      },
-      {
-         "id": "10031",
-         "group": 1
-      },
-      {
-         "id": "4488",
-         "group": 3
-      },
-      {
-         "id": "5135",
-         "group": 1
-      },
-      {
-         "id": "387",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Matt Post",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "lewis john mcgibbney"
+      },
+      {
+         "source": "Matt Post",
+         "value": 1,
+         "target": "lewis john mcgibbney"
+      },
+      {
+         "source": "kellen sunderland",
+         "value": 1,
+         "target": "Mattmann, Chris A (3010)"
+      },
+      {
+         "source": "Mattmann, Chris A (3010)",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Chris Mattmann",
+         "value": 1,
+         "target": "Matt Post"
+      },
+      {
+         "source": "Tommaso Teofili",
          "value": 2,
-         "target": "5135",
-         "source": "4488"
+         "target": "Chris Mattmann"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tommaso Teofili",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "4488",
-         "source": "22367"
+         "id": "Mattmann, Chris A (3010)",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "387",
-         "source": "22367"
+         "id": "Matt Post",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "4488",
-         "source": "10031"
+         "id": "kellen sunderland",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "10031",
-         "source": "22392"
+         "id": "Chris Mattmann",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22367",
-         "source": "5135"
-      },
-      {
-         "value": 1,
-         "target": "387",
-         "source": "4488"
+         "id": "lewis john mcgibbney",
+         "group": 2
       }
    ]
 }

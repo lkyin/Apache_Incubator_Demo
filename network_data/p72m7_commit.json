@@ -1,62 +1,67 @@
 {
-   "nodes": [
-      {
-         "id": "7621",
-         "group": 4
-      },
-      {
-         "id": "7644",
-         "group": 3
-      },
-      {
-         "id": "7625",
-         "group": 2
-      },
-      {
-         "id": "7622",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 8,
-         "target": "7625",
-         "source": "7621"
-      },
-      {
-         "value": 20,
-         "target": "7622",
-         "source": "7625"
-      },
-      {
-         "value": 4,
-         "target": "7622",
-         "source": "7644"
-      },
-      {
+         "source": "vladimirsitnikov",
          "value": 2,
-         "target": "7644",
-         "source": "7625"
+         "target": "jhyde"
       },
       {
-         "value": 1,
-         "target": "7621",
-         "source": "7644"
-      },
-      {
+         "source": "Julian Hyde",
          "value": 2,
-         "target": "7644",
-         "source": "7621"
+         "target": "jhyde"
       },
       {
+         "source": "Vladimir Sitnikov",
          "value": 8,
-         "target": "7622",
-         "source": "7621"
+         "target": "Julian Hyde"
       },
       {
-         "value": 4,
-         "target": "7625",
-         "source": "7644"
+         "source": "jhyde",
+         "value": 18,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "jhyde",
+         "value": 5,
+         "target": "Vladimir Sitnikov"
+      },
+      {
+         "source": "Vladimir Sitnikov",
+         "value": 3,
+         "target": "vladimirsitnikov"
+      },
+      {
+         "source": "jhyde",
+         "value": 2,
+         "target": "vladimirsitnikov"
+      },
+      {
+         "source": "vladimirsitnikov",
+         "value": 6,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "Vladimir Sitnikov",
+         "value": 3,
+         "target": "jhyde"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jhyde",
+         "group": 4
+      },
+      {
+         "id": "vladimirsitnikov",
+         "group": 1
+      },
+      {
+         "id": "Vladimir Sitnikov",
+         "group": 4
+      },
+      {
+         "id": "Julian Hyde",
+         "group": 4
       }
    ]
 }

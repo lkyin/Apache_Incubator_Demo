@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "4180",
-         "group": 1
-      },
-      {
-         "id": "8820",
-         "group": 2
-      },
-      {
-         "id": "4197",
-         "group": 2
-      },
-      {
-         "id": "8819",
-         "group": 1
-      },
-      {
-         "id": "4185",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Adam Denenberg (Updated) (JIRA)",
          "value": 1,
-         "target": "4180",
-         "source": "4185"
+         "target": "Adam Denenberg (Created) (JIRA)"
       },
       {
+         "source": "Eric Yang (Updated) (JIRA)",
          "value": 1,
-         "target": "8819",
-         "source": "8820"
+         "target": "Eric Yang (Created) (JIRA)"
       },
       {
+         "source": "Eric Yang (Resolved) (JIRA)",
          "value": 1,
-         "target": "4180",
-         "source": "4197"
+         "target": "Eric Yang (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Eric Yang (Created) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Adam Denenberg (Updated) (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Eric Yang (Updated) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Adam Denenberg (Created) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Eric Yang (Resolved) (JIRA)",
+         "group": 3
       }
    ]
 }

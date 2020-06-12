@@ -1,52 +1,52 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29147",
-         "group": 3
+         "source": "Colm O hEigeartaigh",
+         "value": 153,
+         "target": "coheigea"
       },
       {
-         "id": "29145",
+         "source": "pdragosh",
+         "value": 387,
+         "target": "coheigea"
+      },
+      {
+         "source": "Colm O hEigeartaigh",
+         "value": 65,
+         "target": "Pamela Dragosh"
+      },
+      {
+         "source": "pdragosh",
+         "value": 84,
+         "target": "Pamela Dragosh"
+      },
+      {
+         "source": "Pamela Dragosh",
+         "value": 69,
+         "target": "coheigea"
+      },
+      {
+         "source": "pdragosh",
+         "value": 189,
+         "target": "Colm O hEigeartaigh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "pdragosh",
+         "group": 1
+      },
+      {
+         "id": "Colm O hEigeartaigh",
          "group": 4
       },
       {
-         "id": "29148",
-         "group": 2
-      },
-      {
-         "id": "29146",
+         "id": "Pamela Dragosh",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 84,
-         "target": "29146",
-         "source": "29147"
       },
       {
-         "value": 69,
-         "target": "29146",
-         "source": "29148"
-      },
-      {
-         "value": 387,
-         "target": "29148",
-         "source": "29147"
-      },
-      {
-         "value": 153,
-         "target": "29148",
-         "source": "29145"
-      },
-      {
-         "value": 189,
-         "target": "29145",
-         "source": "29147"
-      },
-      {
-         "value": 65,
-         "target": "29146",
-         "source": "29145"
+         "id": "coheigea",
+         "group": 2
       }
    ]
 }

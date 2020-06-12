@@ -1,65 +1,70 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "32273",
-         "group": 1
+         "source": "steshaw",
+         "value": 7,
+         "target": "rhs"
       },
       {
-         "id": "32271",
+         "source": "rhs",
+         "value": 1,
+         "target": "aconway"
+      },
+      {
+         "source": "cctrieloff",
+         "value": 1,
+         "target": "rhs"
+      },
+      {
+         "source": "steshaw",
+         "value": 1,
+         "target": "ritchiem"
+      },
+      {
+         "source": "aconway",
+         "value": 16,
+         "target": "rhs"
+      },
+      {
+         "source": "gsim",
+         "value": 1,
+         "target": "aconway"
+      },
+      {
+         "source": "gsim",
+         "value": 7,
+         "target": "rhs"
+      },
+      {
+         "source": "rhs",
+         "value": 52,
+         "target": "ritchiem"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "aconway",
          "group": 3
       },
       {
-         "id": "12116",
-         "group": 1
+         "id": "steshaw",
+         "group": 3
       },
       {
-         "id": "32272",
+         "id": "rhs",
          "group": 4
       },
       {
-         "id": "32269",
-         "group": 3
+         "id": "gsim",
+         "group": 1
       },
       {
-         "id": "32270",
+         "id": "cctrieloff",
+         "group": 1
+      },
+      {
+         "id": "ritchiem",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 7,
-         "target": "32272",
-         "source": "32269"
-      },
-      {
-         "value": 1,
-         "target": "32270",
-         "source": "32271"
-      },
-      {
-         "value": 7,
-         "target": "32270",
-         "source": "32269"
-      },
-      {
-         "value": 1,
-         "target": "12116",
-         "source": "32269"
-      },
-      {
-         "value": 1,
-         "target": "32272",
-         "source": "32273"
-      },
-      {
-         "value": 52,
-         "target": "32269",
-         "source": "32271"
-      },
-      {
-         "value": 17,
-         "target": "32269",
-         "source": "32273"
       }
    ]
 }

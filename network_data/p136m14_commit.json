@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "22163",
-         "group": 3
-      },
-      {
-         "id": "22159",
-         "group": 4
-      },
-      {
-         "id": "10038",
-         "group": 4
-      },
-      {
-         "id": "22160",
-         "group": 3
-      },
-      {
-         "id": "22158",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "10038",
-         "source": "22163"
-      },
-      {
+         "source": "andy",
          "value": 3,
-         "target": "22160",
-         "source": "10038"
+         "target": "castagna"
       },
       {
-         "value": 4,
-         "target": "22158",
-         "source": "10038"
-      },
-      {
+         "source": "sallen",
          "value": 1,
-         "target": "22158",
-         "source": "22163"
+         "target": "andy"
       },
       {
+         "source": "sallen",
          "value": 1,
-         "target": "22159",
-         "source": "22163"
+         "target": "ijd"
       },
       {
+         "source": "andy",
          "value": 24,
-         "target": "10038",
-         "source": "22159"
+         "target": "ijd"
+      },
+      {
+         "source": "sallen",
+         "value": 1,
+         "target": "damian"
+      },
+      {
+         "source": "andy",
+         "value": 4,
+         "target": "damian"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "andy",
+         "group": 4
+      },
+      {
+         "id": "castagna",
+         "group": 2
+      },
+      {
+         "id": "sallen",
+         "group": 1
+      },
+      {
+         "id": "ijd",
+         "group": 2
+      },
+      {
+         "id": "damian",
+         "group": 2
       }
    ]
 }

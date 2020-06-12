@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "46340",
-         "group": 4
-      },
-      {
-         "id": "46337",
-         "group": 4
-      },
-      {
-         "id": "46336",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "thoward",
          "value": 25,
-         "target": "46336",
-         "source": "46337"
+         "target": "digy"
       },
       {
+         "source": "mherndon",
          "value": 3,
-         "target": "46336",
-         "source": "46340"
+         "target": "digy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "thoward",
+         "group": 1
+      },
+      {
+         "id": "mherndon",
+         "group": 4
+      },
+      {
+         "id": "digy",
+         "group": 2
       }
    ]
 }

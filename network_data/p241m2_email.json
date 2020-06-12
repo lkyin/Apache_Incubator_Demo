@@ -1,94 +1,94 @@
 {
-   "nodes": [
-      {
-         "id": "42367",
-         "group": 4
-      },
-      {
-         "id": "42359",
-         "group": 3
-      },
-      {
-         "id": "42364",
-         "group": 2
-      },
-      {
-         "id": "42366",
-         "group": 4
-      },
-      {
-         "id": "3571",
-         "group": 3
-      },
-      {
-         "id": "404",
-         "group": 1
-      },
-      {
-         "id": "4102",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Abdelkader Midani",
          "value": 1,
-         "target": "4102",
-         "source": "42366"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Wentao Liu",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Serge Huber",
          "value": 3,
-         "target": "4102",
-         "source": "42359"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "Quentin Lamerand",
+         "value": 1,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 2,
-         "target": "42366",
-         "source": "4102"
+         "target": "Abdelkader Midani"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "42364",
-         "source": "4102"
+         "target": "Quentin Lamerand"
       },
       {
+         "source": "Wentao Liu",
          "value": 1,
-         "target": "404",
-         "source": "42359"
+         "target": "Abdelkader Midani"
       },
       {
-         "value": 1,
-         "target": "42359",
-         "source": "42367"
-      },
-      {
-         "value": 1,
-         "target": "42366",
-         "source": "42367"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "42359"
-      },
-      {
+         "source": "Serge Huber",
          "value": 2,
-         "target": "42367",
-         "source": "42359"
+         "target": "Wentao Liu"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 2,
-         "target": "42359",
-         "source": "4102"
+         "target": "Serge Huber"
       },
       {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "4102",
-         "source": "42364"
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Quentin Lamerand",
+         "group": 3
+      },
+      {
+         "id": "Wentao Liu",
+         "group": 3
+      },
+      {
+         "id": "Abdelkader Midani",
+         "group": 3
+      },
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 1
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 1
+      },
+      {
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "Serge Huber",
+         "group": 2
       }
    ]
 }

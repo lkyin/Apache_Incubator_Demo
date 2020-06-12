@@ -1,74 +1,74 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 1
-      },
-      {
-         "id": "4107",
-         "group": 4
-      },
-      {
-         "id": "36392",
-         "group": 4
-      },
-      {
-         "id": "4099",
-         "group": 2
-      },
-      {
-         "id": "308",
-         "group": 2
-      },
-      {
-         "id": "5892",
-         "group": 4
-      },
-      {
-         "id": "36390",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "4107",
-         "source": "5928"
-      },
-      {
-         "value": 3,
-         "target": "5928",
-         "source": "4107"
-      },
-      {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "5928",
-         "source": "36392"
+         "target": "jlmonteiro"
       },
       {
+         "source": "Mark Struberg",
          "value": 1,
-         "target": "36392",
-         "source": "5928"
+         "target": "Marvin"
       },
       {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "36390",
-         "source": "4107"
+         "target": "Mark Struberg"
       },
       {
-         "value": 1,
-         "target": "308",
-         "source": "5892"
-      },
-      {
+         "source": "Romain Manni-Bucau",
          "value": 4,
-         "target": "4099",
-         "source": "5928"
+         "target": "olamy"
       },
       {
+         "source": "Romain Manni-Bucau",
+         "value": 2,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "Harsha Siriwardena",
          "value": 1,
-         "target": "5892",
-         "source": "4107"
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "Harsha Siriwardena"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 3,
+         "target": "Romain Manni-Bucau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "olamy",
+         "group": 3
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 2
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 4
+      },
+      {
+         "id": "Marvin",
+         "group": 2
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 4
+      },
+      {
+         "id": "jlmonteiro",
+         "group": 3
+      },
+      {
+         "id": "Harsha Siriwardena",
+         "group": 3
       }
    ]
 }

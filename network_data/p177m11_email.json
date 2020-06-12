@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "8608",
-         "group": 4
-      },
-      {
-         "id": "28925",
-         "group": 4
-      },
-      {
-         "id": "370",
-         "group": 2
-      },
-      {
-         "id": "1112",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Chris A. Mattmann (JIRA)",
          "value": 11,
-         "target": "370",
-         "source": "8608"
+         "target": "Dave Kale (JIRA)"
       },
       {
+         "source": "Justin Erenkrantz",
          "value": 11,
-         "target": "28925",
-         "source": "1112"
+         "target": "Mattmann, Chris A (388J)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 1
+      },
+      {
+         "id": "Justin Erenkrantz",
+         "group": 4
+      },
+      {
+         "id": "Chris A. Mattmann (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Dave Kale (JIRA)",
+         "group": 2
       }
    ]
 }

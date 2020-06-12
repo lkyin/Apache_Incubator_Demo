@@ -1,33 +1,43 @@
 {
-   "nodes": [
-      {
-         "id": "33440",
-         "group": 4
-      },
-      {
-         "id": "33450",
-         "group": 1
-      },
-      {
-         "id": "33444",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "pats",
+         "value": 1,
+         "target": "jcosters"
+      },
+      {
+         "source": "jcosters",
          "value": 21,
-         "target": "33444",
-         "source": "33440"
+         "target": "peter_firmstone"
       },
       {
-         "value": 69,
-         "target": "33444",
-         "source": "33450"
+         "source": "jcosters",
+         "value": 57,
+         "target": "pats"
       },
       {
-         "value": 58,
-         "target": "33450",
-         "source": "33440"
+         "source": "pats",
+         "value": 53,
+         "target": "peter_firmstone"
+      },
+      {
+         "source": "peter_firmstone",
+         "value": 16,
+         "target": "pats"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jcosters",
+         "group": 2
+      },
+      {
+         "id": "pats",
+         "group": 3
+      },
+      {
+         "id": "peter_firmstone",
+         "group": 1
       }
    ]
 }

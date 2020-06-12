@@ -1,57 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "11361",
-         "group": 4
-      },
-      {
-         "id": "11362",
-         "group": 3
-      },
-      {
-         "id": "9263",
-         "group": 3
-      },
-      {
-         "id": "11363",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 21,
-         "target": "11363",
-         "source": "11362"
-      },
-      {
+         "source": "nslater",
          "value": 3,
-         "target": "9263",
-         "source": "11361"
+         "target": "cmlenz"
       },
       {
-         "value": 25,
-         "target": "11362",
-         "source": "11361"
-      },
-      {
-         "value": 1,
-         "target": "11363",
-         "source": "9263"
-      },
-      {
-         "value": 1,
-         "target": "11362",
-         "source": "9263"
-      },
-      {
-         "value": 14,
-         "target": "9263",
-         "source": "11363"
-      },
-      {
+         "source": "jan",
          "value": 27,
-         "target": "11363",
-         "source": "11361"
+         "target": "cmlenz"
+      },
+      {
+         "source": "damien",
+         "value": 21,
+         "target": "jan"
+      },
+      {
+         "source": "nslater",
+         "value": 1,
+         "target": "damien"
+      },
+      {
+         "source": "damien",
+         "value": 25,
+         "target": "cmlenz"
+      },
+      {
+         "source": "nslater",
+         "value": 15,
+         "target": "jan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "nslater",
+         "group": 4
+      },
+      {
+         "id": "damien",
+         "group": 2
+      },
+      {
+         "id": "jan",
+         "group": 3
+      },
+      {
+         "id": "cmlenz",
+         "group": 2
       }
    ]
 }

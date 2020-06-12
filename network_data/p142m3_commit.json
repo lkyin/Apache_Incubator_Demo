@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "22944",
-         "group": 3
-      },
-      {
-         "id": "8283",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "junrao",
          "value": 1,
-         "target": "8283",
-         "source": "22944"
+         "target": "jkreps"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "junrao",
+         "group": 1
+      },
+      {
+         "id": "jkreps",
+         "group": 2
       }
    ]
 }

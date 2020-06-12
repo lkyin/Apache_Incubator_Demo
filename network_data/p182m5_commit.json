@@ -1,61 +1,61 @@
 {
+   "links": [
+      {
+         "source": "solomax",
+         "value": 13,
+         "target": "sebawagner"
+      },
+      {
+         "source": "solomax",
+         "value": 1,
+         "target": "ggrekhov"
+      },
+      {
+         "source": "ggrekhov",
+         "value": 20,
+         "target": "sebawagner"
+      },
+      {
+         "source": "timur",
+         "value": 4,
+         "target": "sebawagner"
+      },
+      {
+         "source": "timur",
+         "value": 3,
+         "target": "ggrekhov"
+      },
+      {
+         "source": "solomax",
+         "value": 1,
+         "target": "eschwert"
+      },
+      {
+         "source": "solomax",
+         "value": 10,
+         "target": "timur"
+      }
+   ],
    "nodes": [
       {
-         "id": "29356",
+         "id": "solomax",
          "group": 3
       },
       {
-         "id": "29433",
-         "group": 3
+         "id": "timur",
+         "group": 2
       },
       {
-         "id": "29355",
+         "id": "ggrekhov",
          "group": 4
       },
       {
-         "id": "29365",
+         "id": "eschwert",
+         "group": 4
+      },
+      {
+         "id": "sebawagner",
          "group": 3
-      },
-      {
-         "id": "29373",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 10,
-         "target": "29433",
-         "source": "29356"
-      },
-      {
-         "value": 1,
-         "target": "29373",
-         "source": "29356"
-      },
-      {
-         "value": 4,
-         "target": "29433",
-         "source": "29355"
-      },
-      {
-         "value": 1,
-         "target": "29365",
-         "source": "29356"
-      },
-      {
-         "value": 3,
-         "target": "29433",
-         "source": "29373"
-      },
-      {
-         "value": 13,
-         "target": "29355",
-         "source": "29356"
-      },
-      {
-         "value": 20,
-         "target": "29355",
-         "source": "29373"
       }
    ]
 }

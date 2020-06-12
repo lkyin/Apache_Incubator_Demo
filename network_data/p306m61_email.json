@@ -1,94 +1,94 @@
 {
-   "nodes": [
-      {
-         "id": "10034",
-         "group": 3
-      },
-      {
-         "id": "43057",
-         "group": 1
-      },
-      {
-         "id": "43357",
-         "group": 3
-      },
-      {
-         "id": "43011",
-         "group": 3
-      },
-      {
-         "id": "7073",
-         "group": 1
-      },
-      {
-         "id": "43023",
-         "group": 3
-      },
-      {
-         "id": "42995",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "43011",
-         "source": "7073"
-      },
-      {
+         "source": "Ali Lown",
          "value": 2,
-         "target": "43057",
-         "source": "43011"
+         "target": "Evan Hughes"
       },
       {
+         "source": "Evan Hughes",
          "value": 2,
-         "target": "43011",
-         "source": "42995"
+         "target": "Yuri Z"
       },
       {
+         "source": "Michael MacFadden",
          "value": 1,
-         "target": "42995",
-         "source": "43023"
+         "target": "Ali Lown"
       },
       {
+         "source": "Ian Dunlop",
          "value": 1,
-         "target": "43011",
-         "source": "10034"
+         "target": "Evan Hughes"
       },
       {
+         "source": "Evan Hughes",
          "value": 1,
-         "target": "43357",
-         "source": "43011"
+         "target": "Ian Dunlop"
       },
       {
-         "value": 1,
-         "target": "43023",
-         "source": "7073"
-      },
-      {
+         "source": "Yuri Z",
          "value": 2,
-         "target": "7073",
-         "source": "43011"
+         "target": "Ian Dunlop"
       },
       {
-         "value": 1,
-         "target": "10034",
-         "source": "43011"
+         "source": "Evan Hughes",
+         "value": 2,
+         "target": "Upayavira"
       },
       {
-         "value": 1,
-         "target": "43057",
-         "source": "10034"
-      },
-      {
+         "source": "Yuri Z",
          "value": 4,
-         "target": "43011",
-         "source": "43057"
+         "target": "Evan Hughes"
       },
       {
-         "value": 2,
-         "target": "10034",
-         "source": "43057"
+         "source": "Upayavira",
+         "value": 1,
+         "target": "Michael MacFadden"
+      },
+      {
+         "source": "Ian Dunlop",
+         "value": 1,
+         "target": "Yuri Z"
+      },
+      {
+         "source": "Upayavira",
+         "value": 1,
+         "target": "Evan Hughes"
+      },
+      {
+         "source": "Evan Hughes",
+         "value": 1,
+         "target": "David Murphy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Yuri Z",
+         "group": 2
+      },
+      {
+         "id": "Upayavira",
+         "group": 3
+      },
+      {
+         "id": "Ali Lown",
+         "group": 1
+      },
+      {
+         "id": "David Murphy",
+         "group": 3
+      },
+      {
+         "id": "Michael MacFadden",
+         "group": 4
+      },
+      {
+         "id": "Ian Dunlop",
+         "group": 3
+      },
+      {
+         "id": "Evan Hughes",
+         "group": 2
       }
    ]
 }

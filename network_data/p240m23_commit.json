@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "42185",
-         "group": 4
-      },
-      {
-         "id": "29744",
-         "group": 4
-      },
-      {
-         "id": "42182",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "29744",
-         "source": "42185"
-      },
-      {
+         "source": "schor",
          "value": 12,
-         "target": "42182",
-         "source": "42185"
+         "target": "eae"
       },
       {
+         "source": "twgoetz",
          "value": 1,
-         "target": "29744",
-         "source": "42182"
+         "target": "eae"
+      },
+      {
+         "source": "twgoetz",
+         "value": 1,
+         "target": "schor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "twgoetz",
+         "group": 2
+      },
+      {
+         "id": "schor",
+         "group": 4
+      },
+      {
+         "id": "eae",
+         "group": 4
       }
    ]
 }

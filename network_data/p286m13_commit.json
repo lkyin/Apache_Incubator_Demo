@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "eworley",
+         "value": 6,
+         "target": "sisbell"
+      },
+      {
+         "source": "sisbell",
+         "value": 3,
+         "target": "brett"
+      }
+   ],
    "nodes": [
       {
-         "id": "27842",
+         "id": "brett",
          "group": 4
       },
       {
-         "id": "27844",
+         "id": "eworley",
+         "group": 4
+      },
+      {
+         "id": "sisbell",
          "group": 1
-      },
-      {
-         "id": "12988",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "27844",
-         "source": "27842"
-      },
-      {
-         "value": 3,
-         "target": "12988",
-         "source": "27842"
       }
    ]
 }

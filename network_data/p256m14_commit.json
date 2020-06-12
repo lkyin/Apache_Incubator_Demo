@@ -1,38 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "4851",
-         "group": 4
-      },
-      {
-         "id": "4850",
-         "group": 1
-      },
-      {
-         "id": "4852",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "4852",
-         "source": "4851"
-      },
-      {
-         "value": 1,
-         "target": "4850",
-         "source": "4852"
-      },
-      {
+         "source": "emblemparade",
          "value": 81,
-         "target": "4850",
-         "source": "4851"
+         "target": "Tal Liron"
       },
       {
-         "value": 1,
-         "target": "4852",
-         "source": "4850"
+         "source": "emblemparade",
+         "value": 2,
+         "target": "max-orlov"
+      },
+      {
+         "source": "Tal Liron",
+         "value": 2,
+         "target": "max-orlov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "emblemparade",
+         "group": 3
+      },
+      {
+         "id": "Tal Liron",
+         "group": 3
+      },
+      {
+         "id": "max-orlov",
+         "group": 1
       }
    ]
 }

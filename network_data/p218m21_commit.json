@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "37767",
-         "group": 3
+         "source": "suat",
+         "value": 25,
+         "target": "rwesten"
       },
       {
-         "id": "37761",
+         "source": "alexdma",
+         "value": 1,
+         "target": "suat"
+      },
+      {
+         "source": "alexdma",
+         "value": 1,
+         "target": "rwesten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "alexdma",
          "group": 1
       },
       {
-         "id": "8881",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8881",
-         "source": "37761"
+         "id": "suat",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "37761",
-         "source": "37767"
-      },
-      {
-         "value": 25,
-         "target": "8881",
-         "source": "37767"
+         "id": "rwesten",
+         "group": 1
       }
    ]
 }

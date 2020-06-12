@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "13712",
-         "group": 4
-      },
-      {
-         "id": "13789",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
          "value": 1,
-         "target": "13712",
-         "source": "13789"
+         "target": "Thorsten Scherler"
       },
       {
+         "source": "Thorsten Scherler",
          "value": 1,
-         "target": "13789",
-         "source": "13712"
+         "target": "=?ISO-8859-1?Q?Tobias_R=FCbner?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
+         "group": 2
+      },
+      {
+         "id": "Thorsten Scherler",
+         "group": 3
       }
    ]
 }

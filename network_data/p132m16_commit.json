@@ -1,101 +1,101 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "15018",
-         "group": 4
+         "source": "stefan",
+         "value": 4,
+         "target": "dpfister"
       },
       {
-         "id": "21584",
+         "source": "tripod",
+         "value": 1,
+         "target": "angela"
+      },
+      {
+         "source": "mreutegg",
+         "value": 4,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
+         "value": 1,
+         "target": "fmeschbe"
+      },
+      {
+         "source": "angela",
+         "value": 1,
+         "target": "fmeschbe"
+      },
+      {
+         "source": "tripod",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "jukka",
+         "value": 1,
+         "target": "ppiegaze"
+      },
+      {
+         "source": "mreutegg",
+         "value": 1,
+         "target": "dpfister"
+      },
+      {
+         "source": "fielding",
+         "value": 5,
+         "target": "ppiegaze"
+      },
+      {
+         "source": "jukka",
+         "value": 2,
+         "target": "stefan"
+      },
+      {
+         "source": "angela",
+         "value": 4,
+         "target": "bcm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
          "group": 3
       },
       {
-         "id": "15006",
-         "group": 1
-      },
-      {
-         "id": "21588",
-         "group": 1
-      },
-      {
-         "id": "21581",
-         "group": 4
-      },
-      {
-         "id": "8694",
-         "group": 4
-      },
-      {
-         "id": "8",
+         "id": "ppiegaze",
          "group": 2
       },
       {
-         "id": "21580",
-         "group": 4
+         "id": "bcm",
+         "group": 1
       },
       {
-         "id": "8693",
-         "group": 4
-      },
-      {
-         "id": "21589",
+         "id": "fmeschbe",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21581",
-         "source": "21580"
       },
       {
-         "value": 4,
-         "target": "21581",
-         "source": "8693"
+         "id": "mreutegg",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "21580",
-         "source": "15018"
+         "id": "angela",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "21588",
-         "source": "15018"
+         "id": "jukka",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "21581",
-         "source": "8694"
+         "id": "fielding",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "21589",
-         "source": "8694"
+         "id": "dpfister",
+         "group": 1
       },
       {
-         "value": 4,
-         "target": "21588",
-         "source": "8"
-      },
-      {
-         "value": 1,
-         "target": "21588",
-         "source": "21580"
-      },
-      {
-         "value": 5,
-         "target": "21589",
-         "source": "15006"
-      },
-      {
-         "value": 4,
-         "target": "21581",
-         "source": "21584"
-      },
-      {
-         "value": 1,
-         "target": "8693",
-         "source": "21584"
+         "id": "stefan",
+         "group": 1
       }
    ]
 }

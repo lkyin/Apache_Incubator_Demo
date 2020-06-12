@@ -1,80 +1,80 @@
 {
-   "nodes": [
-      {
-         "id": "11639",
-         "group": 3
-      },
-      {
-         "id": "11638",
-         "group": 3
-      },
-      {
-         "id": "308",
-         "group": 4
-      },
-      {
-         "id": "4399",
-         "group": 3
-      },
-      {
-         "id": "11637",
-         "group": 4
-      },
-      {
-         "id": "370",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "=?ISO-8859-1?Q?J=F6rn_Kottmann?=",
          "value": 1,
-         "target": "308",
-         "source": "11639"
+         "target": "Marvin"
       },
       {
-         "value": 1,
-         "target": "11637",
-         "source": "11639"
-      },
-      {
+         "source": "Masanz, James J.",
          "value": 2,
-         "target": "370",
-         "source": "11638"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
-         "value": 2,
-         "target": "11638",
-         "source": "11639"
-      },
-      {
+         "source": "=?ISO-8859-1?Q?J=F6rn_Kottmann?=",
          "value": 1,
-         "target": "11639",
-         "source": "370"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?J=F6rn_Kottmann?="
+      },
+      {
+         "source": "=?ISO-8859-1?Q?J=F6rn_Kottmann?=",
+         "value": 2,
+         "target": "Masanz, James J."
+      },
+      {
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "Masanz, James J."
+      },
+      {
+         "source": "Chen, Pei",
+         "value": 2,
+         "target": "Mattmann, Chris A (388J)"
+      },
+      {
+         "source": "Mattmann, Chris A (388J)",
          "value": 4,
-         "target": "11638",
-         "source": "370"
+         "target": "Masanz, James J."
       },
       {
+         "source": "Masanz, James J.",
          "value": 2,
-         "target": "11639",
-         "source": "11638"
+         "target": "=?ISO-8859-1?Q?J=F6rn_Kottmann?="
       },
       {
+         "source": "=?ISO-8859-1?Q?J=F6rn_Kottmann?=",
          "value": 1,
-         "target": "370",
-         "source": "11639"
+         "target": "Chen, Pei"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Masanz, James J.",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "11638",
-         "source": "4399"
+         "id": "Marvin",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "370",
-         "source": "11637"
+         "id": "Mattmann, Chris A (388J)",
+         "group": 1
+      },
+      {
+         "id": "=?ISO-8859-1?Q?J=F6rn_Kottmann?=",
+         "group": 2
+      },
+      {
+         "id": "Chen, Pei",
+         "group": 1
+      },
+      {
+         "id": "Marvin Humphrey",
+         "group": 1
       }
    ]
 }

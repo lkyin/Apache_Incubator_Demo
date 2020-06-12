@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "395",
-         "group": 3
-      },
-      {
-         "id": "8610",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "marrs",
          "value": 1,
-         "target": "8610",
-         "source": "395"
+         "target": "abroekhuis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "marrs",
+         "group": 2
+      },
+      {
+         "id": "abroekhuis",
+         "group": 2
       }
    ]
 }

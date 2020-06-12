@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "33440",
-         "group": 3
-      },
-      {
-         "id": "33444",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "jcosters",
          "value": 2,
-         "target": "33444",
-         "source": "33440"
+         "target": "peter_firmstone"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jcosters",
+         "group": 4
+      },
+      {
+         "id": "peter_firmstone",
+         "group": 1
       }
    ]
 }

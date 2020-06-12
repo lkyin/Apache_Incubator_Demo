@@ -1,46 +1,46 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13",
-         "group": 3
+         "source": "Suhothayan Sriskandarajah",
+         "value": 1,
+         "target": "Avdhesh Yadav"
       },
       {
-         "id": "31587",
+         "source": "Martin Cooper",
+         "value": 2,
+         "target": "Avdhesh Yadav"
+      },
+      {
+         "source": "Avdhesh Yadav",
+         "value": 2,
+         "target": "Martin Cooper"
+      },
+      {
+         "source": "Sriskandarajah Suhothayan (JIRA)",
+         "value": 1,
+         "target": "Avdhesh Yadav (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sriskandarajah Suhothayan (JIRA)",
          "group": 1
       },
       {
-         "id": "14651",
+         "id": "Avdhesh Yadav (JIRA)",
          "group": 2
       },
       {
-         "id": "31581",
-         "group": 3
-      },
-      {
-         "id": "31584",
+         "id": "Avdhesh Yadav",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "14651",
-         "source": "13"
       },
       {
-         "value": 2,
-         "target": "13",
-         "source": "14651"
+         "id": "Suhothayan Sriskandarajah",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "31581",
-         "source": "31587"
-      },
-      {
-         "value": 1,
-         "target": "14651",
-         "source": "31584"
+         "id": "Martin Cooper",
+         "group": 2
       }
    ]
 }

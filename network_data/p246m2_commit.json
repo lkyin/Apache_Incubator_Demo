@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "24416",
-         "group": 1
+         "source": "johan",
+         "value": 2,
+         "target": "tomwhite"
       },
       {
-         "id": "8352",
+         "source": "phunt",
+         "value": 1,
+         "target": "tomwhite"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "phunt",
          "group": 3
       },
       {
-         "id": "34656",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "34656",
-         "source": "24416"
+         "id": "johan",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "8352",
-         "source": "24416"
+         "id": "tomwhite",
+         "group": 1
       }
    ]
 }

@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29193",
-         "group": 2
+         "source": "Craig L Russell",
+         "value": 2,
+         "target": "Geir Magnusson Jr"
       },
       {
-         "id": "29181",
+         "source": "Eddie O''Neil",
+         "value": 1,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Kevin Sutter",
+         "value": 1,
+         "target": "Patrick Linskey"
+      },
+      {
+         "source": "Geir Magnusson Jr",
+         "value": 2,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 2,
+         "target": "Patrick Linskey"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Craig L Russell",
          "group": 1
       },
       {
-         "id": "29192",
-         "group": 3
+         "id": "Kevin Sutter",
+         "group": 1
       },
       {
-         "id": "1089",
-         "group": 3
+         "id": "Geir Magnusson Jr",
+         "group": 1
       },
       {
-         "id": "8422",
+         "id": "Patrick Linskey",
+         "group": 1
+      },
+      {
+         "id": "Eddie O''Neil",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "1089",
-         "source": "8422"
-      },
-      {
-         "value": 1,
-         "target": "29192",
-         "source": "29181"
-      },
-      {
-         "value": 1,
-         "target": "8422",
-         "source": "29193"
-      },
-      {
-         "value": 2,
-         "target": "29192",
-         "source": "8422"
-      },
-      {
-         "value": 2,
-         "target": "8422",
-         "source": "1089"
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "14584",
-         "group": 2
-      },
-      {
-         "id": "14600",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "benniven",
          "value": 1,
-         "target": "14600",
-         "source": "14584"
+         "target": "doebele"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "benniven",
+         "group": 1
+      },
+      {
+         "id": "doebele",
+         "group": 3
       }
    ]
 }

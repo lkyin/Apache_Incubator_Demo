@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12999",
-         "group": 2
+         "source": "Wes McKean",
+         "value": 1,
+         "target": "aok123"
       },
       {
-         "id": "13001",
+         "source": "Stephen McConnell",
+         "value": 1,
+         "target": "aok123"
+      },
+      {
+         "source": "Jeff Machols",
+         "value": 1,
+         "target": "Stephen McConnell"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stephen McConnell",
          "group": 3
       },
       {
-         "id": "13000",
-         "group": 1
+         "id": "Wes McKean",
+         "group": 3
       },
       {
-         "id": "13004",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12999",
-         "source": "13000"
+         "id": "Jeff Machols",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "13000",
-         "source": "13004"
-      },
-      {
-         "value": 1,
-         "target": "12999",
-         "source": "13001"
+         "id": "aok123",
+         "group": 3
       }
    ]
 }

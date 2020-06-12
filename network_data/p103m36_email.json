@@ -1,64 +1,64 @@
 {
+   "links": [
+      {
+         "source": "Martin Veith (JIRA)",
+         "value": 5,
+         "target": "Michael Fitzner (JIRA)"
+      },
+      {
+         "source": "Michael Fitzner (JIRA)",
+         "value": 1,
+         "target": "Michal Miksovic (JIRA)"
+      },
+      {
+         "source": "Michael Fitzner (JIRA)",
+         "value": 4,
+         "target": "Holger Grandy (JIRA)"
+      },
+      {
+         "source": "Michael Fitzner (JIRA)",
+         "value": 1,
+         "target": "Martin Veith (JIRA)"
+      },
+      {
+         "source": "Martin Veith",
+         "value": 1,
+         "target": "scott comer"
+      },
+      {
+         "source": "scott comer (JIRA)",
+         "value": 1,
+         "target": "Michal Miksovic (JIRA)"
+      }
+   ],
    "nodes": [
       {
-         "id": "14765",
+         "id": "scott comer (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Michael Fitzner (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "scott comer",
+         "group": 4
+      },
+      {
+         "id": "Martin Veith (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Martin Veith",
          "group": 3
       },
       {
-         "id": "14823",
+         "id": "Holger Grandy (JIRA)",
          "group": 4
       },
       {
-         "id": "14802",
-         "group": 4
-      },
-      {
-         "id": "14760",
-         "group": 2
-      },
-      {
-         "id": "14821",
-         "group": 2
-      },
-      {
-         "id": "14820",
-         "group": 2
-      },
-      {
-         "id": "14810",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "14821",
-         "source": "14810"
-      },
-      {
-         "value": 1,
-         "target": "14765",
-         "source": "14823"
-      },
-      {
-         "value": 1,
-         "target": "14821",
-         "source": "14760"
-      },
-      {
-         "value": 4,
-         "target": "14802",
-         "source": "14810"
-      },
-      {
-         "value": 1,
-         "target": "14820",
-         "source": "14810"
-      },
-      {
-         "value": 5,
-         "target": "14810",
-         "source": "14820"
+         "id": "Michal Miksovic (JIRA)",
+         "group": 1
       }
    ]
 }

@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "19606",
-         "group": 4
+         "source": "Alexander Denissov",
+         "value": 5,
+         "target": "shivzone"
       },
       {
-         "id": "19629",
+         "source": "Alex Diachenko",
+         "value": 1,
+         "target": "shivzone"
+      },
+      {
+         "source": "rlei",
+         "value": 1,
+         "target": "shivzone"
+      },
+      {
+         "source": "Alex Diachenko",
+         "value": 1,
+         "target": "Alexander Denissov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alex Diachenko",
+         "group": 1
+      },
+      {
+         "id": "rlei",
          "group": 3
       },
       {
-         "id": "19598",
+         "id": "Alexander Denissov",
          "group": 2
       },
       {
-         "id": "19494",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "19629",
-         "source": "19606"
-      },
-      {
-         "value": 1,
-         "target": "19598",
-         "source": "19629"
-      },
-      {
-         "value": 1,
-         "target": "19494",
-         "source": "19606"
-      },
-      {
-         "value": 5,
-         "target": "19598",
-         "source": "19606"
+         "id": "shivzone",
+         "group": 3
       }
    ]
 }

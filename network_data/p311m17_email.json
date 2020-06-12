@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "45957",
-         "group": 1
-      },
-      {
-         "id": "45979",
-         "group": 1
-      },
-      {
-         "id": "45941",
-         "group": 2
-      },
-      {
-         "id": "45928",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Henri Bergius",
          "value": 2,
-         "target": "45979",
-         "source": "45957"
+         "target": "David Rekowski"
       },
       {
+         "source": "David Rekowski",
          "value": 2,
-         "target": "45957",
-         "source": "45979"
+         "target": "Henri Bergius"
       },
       {
+         "source": "Sebastian Bergmann",
          "value": 1,
-         "target": "45928",
-         "source": "45941"
+         "target": "Benjamin Eberlei"
       },
       {
+         "source": "Benjamin Eberlei",
          "value": 1,
-         "target": "45941",
-         "source": "45928"
+         "target": "Sebastian Bergmann"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Henri Bergius",
+         "group": 4
+      },
+      {
+         "id": "David Rekowski",
+         "group": 2
+      },
+      {
+         "id": "Benjamin Eberlei",
+         "group": 3
+      },
+      {
+         "id": "Sebastian Bergmann",
+         "group": 3
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "38867",
-         "group": 3
-      },
-      {
-         "id": "22914",
-         "group": 1
-      },
-      {
-         "id": "4473",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Steve Blackmon (@steveblackmon)",
+         "value": 1,
+         "target": "sblackmon"
+      },
+      {
+         "source": "Steve Blackmon",
+         "value": 1,
+         "target": "sblackmon"
+      },
+      {
+         "source": "Steve Blackmon (@steveblackmon)",
          "value": 9,
-         "target": "4473",
-         "source": "38867"
+         "target": "Steve Blackmon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Steve Blackmon (@steveblackmon)",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "4473",
-         "source": "22914"
+         "id": "sblackmon",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22914",
-         "source": "38867"
+         "id": "Steve Blackmon",
+         "group": 3
       }
    ]
 }

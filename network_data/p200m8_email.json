@@ -1,57 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "5308",
-         "group": 1
-      },
-      {
-         "id": "20409",
-         "group": 3
-      },
-      {
-         "id": "33193",
-         "group": 1
-      },
-      {
-         "id": "20467",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Byung-Gon Chun",
+         "value": 1,
+         "target": "Chris Douglas"
+      },
+      {
+         "source": "Markus Weimer",
          "value": 2,
-         "target": "20467",
-         "source": "20409"
+         "target": "Byung-Gon Chun"
       },
       {
-         "value": 2,
-         "target": "20409",
-         "source": "33193"
-      },
-      {
-         "value": 1,
-         "target": "33193",
-         "source": "20409"
-      },
-      {
-         "value": 1,
-         "target": "33193",
-         "source": "5308"
-      },
-      {
-         "value": 1,
-         "target": "5308",
-         "source": "20467"
-      },
-      {
-         "value": 1,
-         "target": "20467",
-         "source": "33193"
-      },
-      {
+         "source": "Byung-Gon Chun",
          "value": 3,
-         "target": "20409",
-         "source": "20467"
+         "target": "Markus Weimer"
+      },
+      {
+         "source": "Chris Douglas",
+         "value": 1,
+         "target": "Brian Cho"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 1,
+         "target": "Brian Cho"
+      },
+      {
+         "source": "Brian Cho",
+         "value": 2,
+         "target": "Markus Weimer"
+      },
+      {
+         "source": "Brian Cho",
+         "value": 1,
+         "target": "Byung-Gon Chun"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Byung-Gon Chun",
+         "group": 2
+      },
+      {
+         "id": "Chris Douglas",
+         "group": 2
+      },
+      {
+         "id": "Markus Weimer",
+         "group": 4
+      },
+      {
+         "id": "Brian Cho",
+         "group": 2
       }
    ]
 }

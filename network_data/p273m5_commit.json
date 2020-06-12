@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "20342",
-         "group": 3
-      },
-      {
-         "id": "20341",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "witek",
          "value": 3,
-         "target": "20341",
-         "source": "20342"
+         "target": "rr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "witek",
+         "group": 2
+      },
+      {
+         "id": "rr",
+         "group": 3
       }
    ]
 }

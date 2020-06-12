@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "22456",
-         "group": 1
-      },
-      {
-         "id": "22452",
-         "group": 1
-      },
-      {
-         "id": "22453",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "22452",
-         "source": "22456"
-      },
-      {
+         "source": "ajaquith",
          "value": 15,
-         "target": "22453",
-         "source": "22456"
+         "target": "metskem"
       },
       {
+         "source": "jalkanen",
+         "value": 1,
+         "target": "metskem"
+      },
+      {
+         "source": "jalkanen",
          "value": 2,
-         "target": "22453",
-         "source": "22452"
+         "target": "ajaquith"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jalkanen",
+         "group": 1
+      },
+      {
+         "id": "ajaquith",
+         "group": 4
+      },
+      {
+         "id": "metskem",
+         "group": 3
       }
    ]
 }

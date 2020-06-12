@@ -1,61 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "20254",
-         "group": 2
+         "source": "Matt Pelletier",
+         "value": 2,
+         "target": "Recordon, David"
       },
       {
-         "id": "20261",
+         "source": "Paul Querna",
+         "value": 1,
+         "target": "recordond"
+      },
+      {
+         "source": "Recordon, David",
+         "value": 1,
+         "target": "elliott cable"
+      },
+      {
+         "source": "Paul Querna",
+         "value": 1,
+         "target": "Recordon, David"
+      },
+      {
+         "source": "Recordon, David",
+         "value": 2,
+         "target": "Matt Pelletier"
+      },
+      {
+         "source": "elliott cable",
+         "value": 1,
+         "target": "Recordon, David"
+      },
+      {
+         "source": "elliott cable",
+         "value": 1,
+         "target": "Paul Querna"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "elliott cable",
          "group": 4
       },
       {
-         "id": "16",
+         "id": "recordond",
+         "group": 1
+      },
+      {
+         "id": "Matt Pelletier",
+         "group": 4
+      },
+      {
+         "id": "Paul Querna",
+         "group": 1
+      },
+      {
+         "id": "Recordon, David",
          "group": 3
-      },
-      {
-         "id": "20251",
-         "group": 1
-      },
-      {
-         "id": "20296",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "20261",
-         "source": "20251"
-      },
-      {
-         "value": 1,
-         "target": "20296",
-         "source": "20261"
-      },
-      {
-         "value": 2,
-         "target": "20251",
-         "source": "20261"
-      },
-      {
-         "value": 1,
-         "target": "20254",
-         "source": "16"
-      },
-      {
-         "value": 1,
-         "target": "20261",
-         "source": "20296"
-      },
-      {
-         "value": 1,
-         "target": "16",
-         "source": "20296"
-      },
-      {
-         "value": 1,
-         "target": "20261",
-         "source": "16"
       }
    ]
 }

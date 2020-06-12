@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "Mark Struberg",
+         "value": 2,
+         "target": "Hendrik Dev"
+      },
+      {
+         "source": "Hendrik Dev",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Karl Grosse",
+         "value": 1,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Hendrik Dev",
+         "value": 1,
+         "target": "Mark Struberg"
+      }
+   ],
    "nodes": [
       {
-         "id": "5928",
-         "group": 3
-      },
-      {
-         "id": "5892",
-         "group": 3
-      },
-      {
-         "id": "22364",
+         "id": "Romain Manni-Bucau",
          "group": 1
       },
       {
-         "id": "22353",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5892",
-         "source": "22364"
+         "id": "Karl Grosse",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "5892",
-         "source": "22353"
+         "id": "Mark Struberg",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "5928",
-         "source": "22353"
-      },
-      {
-         "value": 2,
-         "target": "22353",
-         "source": "5892"
+         "id": "Hendrik Dev",
+         "group": 2
       }
    ]
 }

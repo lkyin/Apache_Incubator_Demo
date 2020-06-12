@@ -1,70 +1,70 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "15014",
-         "group": 4
+         "source": "santillan",
+         "value": 2,
+         "target": "rickhall"
       },
       {
-         "id": "15010",
+         "source": "furfari",
+         "value": 2,
+         "target": "rickhall"
+      },
+      {
+         "source": "furfari",
+         "value": 3,
+         "target": "sfrenot"
+      },
+      {
+         "source": "sfrenot",
+         "value": 1,
+         "target": "rickhall"
+      },
+      {
+         "source": "pauls",
+         "value": 9,
+         "target": "rickhall"
+      },
+      {
+         "source": "furfari",
+         "value": 1,
+         "target": "santillan"
+      },
+      {
+         "source": "sfrenot",
+         "value": 1,
+         "target": "santillan"
+      },
+      {
+         "source": "marrs",
+         "value": 1,
+         "target": "rickhall"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "marrs",
          "group": 3
       },
       {
-         "id": "401",
+         "id": "pauls",
+         "group": 3
+      },
+      {
+         "id": "rickhall",
          "group": 2
       },
       {
-         "id": "395",
-         "group": 4
-      },
-      {
-         "id": "15007",
-         "group": 4
-      },
-      {
-         "id": "15016",
+         "id": "furfari",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "15016",
-         "source": "15007"
       },
       {
-         "value": 1,
-         "target": "15016",
-         "source": "15014"
+         "id": "santillan",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "15010",
-         "source": "15007"
-      },
-      {
-         "value": 1,
-         "target": "15007",
-         "source": "395"
-      },
-      {
-         "value": 1,
-         "target": "15016",
-         "source": "15010"
-      },
-      {
-         "value": 3,
-         "target": "15010",
-         "source": "15014"
-      },
-      {
-         "value": 1,
-         "target": "15014",
-         "source": "15007"
-      },
-      {
-         "value": 9,
-         "target": "401",
-         "source": "15007"
+         "id": "sfrenot",
+         "group": 2
       }
    ]
 }

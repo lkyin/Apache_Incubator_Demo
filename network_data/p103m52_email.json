@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "7522",
-         "group": 2
-      },
-      {
-         "id": "14823",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Martijn Dashorst",
          "value": 1,
-         "target": "14823",
-         "source": "7522"
+         "target": "Martin Veith"
       },
       {
+         "source": "Martin Veith",
          "value": 2,
-         "target": "7522",
-         "source": "14823"
+         "target": "Martijn Dashorst"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Martijn Dashorst",
+         "group": 3
+      },
+      {
+         "id": "Martin Veith",
+         "group": 1
       }
    ]
 }

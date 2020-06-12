@@ -1,33 +1,38 @@
 {
+   "links": [
+      {
+         "source": "Josh Wills",
+         "value": 1,
+         "target": "Gabriel Reid"
+      },
+      {
+         "source": "Gabriel Reid",
+         "value": 5,
+         "target": "Josh Wills"
+      },
+      {
+         "source": "jwills",
+         "value": 5,
+         "target": "Gabriel Reid"
+      },
+      {
+         "source": "jwills",
+         "value": 23,
+         "target": "Josh Wills"
+      }
+   ],
    "nodes": [
       {
-         "id": "7664",
+         "id": "jwills",
          "group": 3
       },
       {
-         "id": "11566",
-         "group": 2
+         "id": "Gabriel Reid",
+         "group": 3
       },
       {
-         "id": "11567",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 23,
-         "target": "11566",
-         "source": "7664"
-      },
-      {
-         "value": 5,
-         "target": "11567",
-         "source": "11566"
-      },
-      {
-         "value": 6,
-         "target": "11567",
-         "source": "7664"
+         "id": "Josh Wills",
+         "group": 3
       }
    ]
 }

@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "142",
-         "group": 3
-      },
-      {
-         "id": "31256",
-         "group": 3
-      },
-      {
-         "id": "31255",
-         "group": 1
-      },
-      {
-         "id": "479",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Jukka Zitting",
          "value": 1,
-         "target": "142",
-         "source": "31255"
+         "target": "Ben Litchfield"
       },
       {
+         "source": "Jukka Zitting",
          "value": 1,
-         "target": "31255",
-         "source": "142"
+         "target": "Daniel Wilson"
       },
       {
+         "source": "Jeremias Maerki",
          "value": 2,
-         "target": "142",
-         "source": "31256"
+         "target": "Jukka Zitting"
       },
       {
-         "value": 1,
-         "target": "31256",
-         "source": "142"
-      },
-      {
-         "value": 1,
-         "target": "479",
-         "source": "142"
-      },
-      {
+         "source": "Daniel Wilson",
          "value": 2,
-         "target": "142",
-         "source": "479"
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "Jukka Zitting",
+         "value": 1,
+         "target": "Jeremias Maerki"
+      },
+      {
+         "source": "Ben Litchfield",
+         "value": 1,
+         "target": "Jukka Zitting"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jeremias Maerki",
+         "group": 3
+      },
+      {
+         "id": "Ben Litchfield",
+         "group": 2
+      },
+      {
+         "id": "Daniel Wilson",
+         "group": 4
+      },
+      {
+         "id": "Jukka Zitting",
+         "group": 4
       }
    ]
 }

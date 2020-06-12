@@ -1,61 +1,61 @@
 {
+   "links": [
+      {
+         "source": "Robert Burrell Donkin",
+         "value": 2,
+         "target": "Steve Poole"
+      },
+      {
+         "source": "ant elder",
+         "value": 1,
+         "target": "Robert Burrell Donkin"
+      },
+      {
+         "source": "Stuart Monteith",
+         "value": 1,
+         "target": "Steve Poole"
+      },
+      {
+         "source": "Steve Poole",
+         "value": 2,
+         "target": "Stuart Monteith"
+      },
+      {
+         "source": "Robert Burrell Donkin",
+         "value": 3,
+         "target": "Stuart Monteith"
+      },
+      {
+         "source": "Stuart Monteith",
+         "value": 1,
+         "target": "Mark Hindess"
+      },
+      {
+         "source": "Stuart Monteith",
+         "value": 4,
+         "target": "Robert Burrell Donkin"
+      }
+   ],
    "nodes": [
       {
-         "id": "23234",
+         "id": "Stuart Monteith",
          "group": 1
       },
       {
-         "id": "517",
+         "id": "ant elder",
+         "group": 1
+      },
+      {
+         "id": "Robert Burrell Donkin",
          "group": 2
       },
       {
-         "id": "23236",
-         "group": 4
+         "id": "Mark Hindess",
+         "group": 1
       },
       {
-         "id": "13723",
+         "id": "Steve Poole",
          "group": 3
-      },
-      {
-         "id": "14815",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "23236",
-         "source": "13723"
-      },
-      {
-         "value": 1,
-         "target": "23234",
-         "source": "23236"
-      },
-      {
-         "value": 1,
-         "target": "14815",
-         "source": "23236"
-      },
-      {
-         "value": 2,
-         "target": "23236",
-         "source": "23234"
-      },
-      {
-         "value": 4,
-         "target": "13723",
-         "source": "23236"
-      },
-      {
-         "value": 1,
-         "target": "13723",
-         "source": "517"
-      },
-      {
-         "value": 2,
-         "target": "23234",
-         "source": "13723"
       }
    ]
 }

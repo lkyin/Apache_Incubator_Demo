@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42185",
-         "group": 4
+         "source": "cwiklik",
+         "value": 1,
+         "target": "eae"
       },
       {
-         "id": "42188",
+         "source": "schor",
+         "value": 2,
+         "target": "eae"
+      },
+      {
+         "source": "schor",
+         "value": 34,
+         "target": "cwiklik"
+      },
+      {
+         "source": "burn",
+         "value": 2,
+         "target": "cwiklik"
+      },
+      {
+         "source": "eae",
+         "value": 1,
+         "target": "cwiklik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "eae",
          "group": 2
       },
       {
-         "id": "42189",
-         "group": 4
+         "id": "schor",
+         "group": 2
       },
       {
-         "id": "42182",
+         "id": "burn",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 33,
-         "target": "42188",
-         "source": "42182"
       },
       {
-         "value": 2,
-         "target": "42188",
-         "source": "42185"
-      },
-      {
-         "value": 1,
-         "target": "42182",
-         "source": "42188"
-      },
-      {
-         "value": 2,
-         "target": "42182",
-         "source": "42185"
-      },
-      {
-         "value": 2,
-         "target": "42188",
-         "source": "42189"
+         "id": "cwiklik",
+         "group": 3
       }
    ]
 }

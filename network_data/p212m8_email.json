@@ -1,41 +1,41 @@
 {
+   "links": [
+      {
+         "source": "=?gb18030?B?zuLqySBTaGVuZyBXdQ==?=",
+         "value": 1,
+         "target": "xin zhang"
+      },
+      {
+         "source": "xin zhang",
+         "value": 1,
+         "target": "=?gb2312?B?xe3Twsn9IFBlbmcgWW9uZ3NoZW5n?="
+      },
+      {
+         "source": "=?utf-8?B?5ZC05pmfIFNoZW5nIFd1?=",
+         "value": 1,
+         "target": "=?utf-8?B?5YiYIOa1qeadqA==?="
+      }
+   ],
    "nodes": [
       {
-         "id": "36472",
+         "id": "=?utf-8?B?5YiYIOa1qeadqA==?=",
+         "group": 4
+      },
+      {
+         "id": "xin zhang",
+         "group": 4
+      },
+      {
+         "id": "=?gb2312?B?xe3Twsn9IFBlbmcgWW9uZ3NoZW5n?=",
          "group": 1
       },
       {
-         "id": "21328",
+         "id": "=?gb18030?B?zuLqySBTaGVuZyBXdQ==?=",
          "group": 2
       },
       {
-         "id": "36466",
+         "id": "=?utf-8?B?5ZC05pmfIFNoZW5nIFd1?=",
          "group": 3
-      },
-      {
-         "id": "36461",
-         "group": 3
-      },
-      {
-         "id": "13961",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "36461",
-         "source": "13961"
-      },
-      {
-         "value": 1,
-         "target": "36466",
-         "source": "21328"
-      },
-      {
-         "value": 1,
-         "target": "36472",
-         "source": "36461"
       }
    ]
 }

@@ -1,56 +1,66 @@
 {
+   "links": [
+      {
+         "source": "clalance",
+         "value": 1,
+         "target": "lutter"
+      },
+      {
+         "source": "mfojtik",
+         "value": 1,
+         "target": "spark"
+      },
+      {
+         "source": "marios",
+         "value": 1,
+         "target": "spark"
+      },
+      {
+         "source": "mfojtik",
+         "value": 3,
+         "target": "lutter"
+      },
+      {
+         "source": "lutter",
+         "value": 1,
+         "target": "mfojtik"
+      },
+      {
+         "source": "lutter",
+         "value": 1,
+         "target": "clalance"
+      },
+      {
+         "source": "marios",
+         "value": 5,
+         "target": "mfojtik"
+      },
+      {
+         "source": "lutter",
+         "value": 1,
+         "target": "marios"
+      }
+   ],
    "nodes": [
       {
-         "id": "12128",
-         "group": 1
+         "id": "lutter",
+         "group": 3
       },
       {
-         "id": "12121",
-         "group": 1
-      },
-      {
-         "id": "12123",
-         "group": 1
-      },
-      {
-         "id": "12122",
+         "id": "marios",
          "group": 4
       },
       {
-         "id": "12127",
+         "id": "clalance",
+         "group": 4
+      },
+      {
+         "id": "spark",
+         "group": 3
+      },
+      {
+         "id": "mfojtik",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12127",
-         "source": "12122"
-      },
-      {
-         "value": 1,
-         "target": "12127",
-         "source": "12121"
-      },
-      {
-         "value": 2,
-         "target": "12123",
-         "source": "12128"
-      },
-      {
-         "value": 1,
-         "target": "12122",
-         "source": "12123"
-      },
-      {
-         "value": 5,
-         "target": "12122",
-         "source": "12121"
-      },
-      {
-         "value": 4,
-         "target": "12123",
-         "source": "12121"
       }
    ]
 }

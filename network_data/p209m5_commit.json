@@ -1,101 +1,96 @@
 {
-   "nodes": [
-      {
-         "id": "35333",
-         "group": 3
-      },
-      {
-         "id": "35329",
-         "group": 2
-      },
-      {
-         "id": "35459",
-         "group": 2
-      },
-      {
-         "id": "35327",
-         "group": 3
-      },
-      {
-         "id": "35330",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 29,
-         "target": "35333",
-         "source": "35330"
+         "source": "doll",
+         "value": 3,
+         "target": "lryan"
       },
       {
+         "source": "sgala",
+         "value": 2,
+         "target": "doll"
+      },
+      {
+         "source": "sgala",
+         "value": 2,
+         "target": "lryan"
+      },
+      {
+         "source": "etnu",
          "value": 19,
-         "target": "35330",
-         "source": "35459"
+         "target": "lryan"
       },
       {
-         "value": 3,
-         "target": "35329",
-         "source": "35330"
-      },
-      {
-         "value": 3,
-         "target": "35329",
-         "source": "35327"
-      },
-      {
-         "value": 2,
-         "target": "35329",
-         "source": "35333"
-      },
-      {
+         "source": "lindner",
          "value": 1,
-         "target": "35459",
-         "source": "35330"
+         "target": "lryan"
       },
       {
+         "source": "lryan",
+         "value": 10,
+         "target": "doll"
+      },
+      {
+         "source": "lindner",
+         "value": 3,
+         "target": "doll"
+      },
+      {
+         "source": "etnu",
+         "value": 3,
+         "target": "lindner"
+      },
+      {
+         "source": "lryan",
          "value": 1,
-         "target": "35459",
-         "source": "35333"
+         "target": "lindner"
       },
       {
-         "value": 6,
-         "target": "35327",
-         "source": "35333"
+         "source": "etnu",
+         "value": 14,
+         "target": "doll"
       },
       {
-         "value": 6,
-         "target": "35327",
-         "source": "35330"
+         "source": "lryan",
+         "value": 12,
+         "target": "etnu"
       },
       {
-         "value": 8,
-         "target": "35330",
-         "source": "35327"
+         "source": "doll",
+         "value": 4,
+         "target": "sgala"
       },
       {
-         "value": 3,
-         "target": "35459",
-         "source": "35327"
+         "source": "etnu",
+         "value": 20,
+         "target": "sgala"
       },
       {
-         "value": 2,
-         "target": "35330",
-         "source": "35333"
-      },
-      {
-         "value": 8,
-         "target": "35333",
-         "source": "35459"
-      },
-      {
-         "value": 3,
-         "target": "35327",
-         "source": "35459"
-      },
-      {
+         "source": "lryan",
          "value": 7,
-         "target": "35333",
-         "source": "35327"
+         "target": "sgala"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "etnu",
+         "group": 4
+      },
+      {
+         "id": "lryan",
+         "group": 3
+      },
+      {
+         "id": "doll",
+         "group": 1
+      },
+      {
+         "id": "lindner",
+         "group": 1
+      },
+      {
+         "id": "sgala",
+         "group": 4
       }
    ]
 }

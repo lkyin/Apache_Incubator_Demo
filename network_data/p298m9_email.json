@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "5934",
-         "group": 4
-      },
-      {
-         "id": "5928",
-         "group": 1
-      },
-      {
-         "id": "4107",
-         "group": 2
-      },
-      {
-         "id": "7129",
-         "group": 4
-      },
-      {
-         "id": "4399",
-         "group": 2
-      },
-      {
-         "id": "430",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "=?UTF-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?=",
          "value": 1,
-         "target": "5934",
-         "source": "4107"
+         "target": "Olivier Lamy"
       },
       {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Jean-Louis MONTEIRO",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Romain Manni-Bucau",
          "value": 3,
-         "target": "4107",
-         "source": "5928"
+         "target": "Olivier Lamy"
       },
       {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "4399",
-         "source": "4107"
+         "target": "Otis Gospodnetic"
       },
       {
-         "value": 1,
-         "target": "5928",
-         "source": "5934"
-      },
-      {
-         "value": 1,
-         "target": "4107",
-         "source": "430"
-      },
-      {
-         "value": 1,
-         "target": "7129",
-         "source": "4107"
-      },
-      {
+         "source": "Olivier Lamy",
          "value": 3,
-         "target": "5928",
-         "source": "4107"
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "Jean-Louis MONTEIRO"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?=",
+         "group": 3
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 4
+      },
+      {
+         "id": "Jean-Louis MONTEIRO",
+         "group": 2
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 3
+      },
+      {
+         "id": "Otis Gospodnetic",
+         "group": 1
+      },
+      {
+         "id": "Marvin Humphrey",
+         "group": 1
       }
    ]
 }

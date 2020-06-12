@@ -1,52 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "23256",
-         "group": 2
-      },
-      {
-         "id": "23255",
-         "group": 2
-      },
-      {
-         "id": "4167",
-         "group": 4
-      },
-      {
-         "id": "23254",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "23254",
-         "source": "4167"
-      },
-      {
-         "value": 19,
-         "target": "23254",
-         "source": "23256"
-      },
-      {
+         "source": "Kevin Minder",
          "value": 36,
-         "target": "23254",
-         "source": "23255"
+         "target": "kminder"
       },
       {
-         "value": 21,
-         "target": "23255",
-         "source": "23256"
+         "source": "Kevin Minder",
+         "value": 4,
+         "target": "Larry McCay"
       },
       {
+         "source": "Dilli Dorai Arumugam",
+         "value": 1,
+         "target": "kminder"
+      },
+      {
+         "source": "Larry McCay",
          "value": 2,
-         "target": "4167",
-         "source": "23256"
+         "target": "Dilli Dorai Arumugam"
       },
       {
+         "source": "Larry McCay",
+         "value": 19,
+         "target": "kminder"
+      },
+      {
+         "source": "Larry McCay",
+         "value": 17,
+         "target": "Kevin Minder"
+      },
+      {
+         "source": "Dilli Dorai Arumugam",
          "value": 2,
-         "target": "4167",
-         "source": "23255"
+         "target": "Kevin Minder"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dilli Dorai Arumugam",
+         "group": 1
+      },
+      {
+         "id": "Larry McCay",
+         "group": 3
+      },
+      {
+         "id": "Kevin Minder",
+         "group": 2
+      },
+      {
+         "id": "kminder",
+         "group": 3
       }
    ]
 }

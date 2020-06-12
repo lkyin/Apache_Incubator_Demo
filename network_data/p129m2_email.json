@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "6044",
-         "group": 1
-      },
-      {
-         "id": "20980",
-         "group": 1
-      },
-      {
-         "id": "21055",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "John Russell",
          "value": 1,
-         "target": "21055",
-         "source": "6044"
+         "target": "Tom White"
       },
       {
+         "source": "Tom White",
          "value": 1,
-         "target": "6044",
-         "source": "20980"
+         "target": "Lenni Kuff"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lenni Kuff",
+         "group": 3
+      },
+      {
+         "id": "John Russell",
+         "group": 3
+      },
+      {
+         "id": "Tom White",
+         "group": 4
       }
    ]
 }

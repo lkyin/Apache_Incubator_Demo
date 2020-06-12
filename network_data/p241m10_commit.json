@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "42366",
-         "group": 1
-      },
-      {
-         "id": "42364",
-         "group": 4
-      },
-      {
-         "id": "42365",
-         "group": 1
-      },
-      {
-         "id": "42363",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Serge Huber",
          "value": 2,
-         "target": "42363",
-         "source": "42365"
+         "target": "Thomas Draier"
       },
       {
+         "source": "Quentin Lamerand",
          "value": 1,
-         "target": "42365",
-         "source": "42364"
+         "target": "Thomas Draier"
       },
       {
+         "source": "Quentin Lamerand",
          "value": 1,
-         "target": "42365",
-         "source": "42366"
+         "target": "Abdelkader Midani"
       },
       {
+         "source": "Abdelkader Midani",
          "value": 1,
-         "target": "42364",
-         "source": "42366"
+         "target": "Thomas Draier"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Quentin Lamerand",
+         "group": 3
+      },
+      {
+         "id": "Serge Huber",
+         "group": 3
+      },
+      {
+         "id": "Abdelkader Midani",
+         "group": 4
+      },
+      {
+         "id": "Thomas Draier",
+         "group": 2
       }
    ]
 }

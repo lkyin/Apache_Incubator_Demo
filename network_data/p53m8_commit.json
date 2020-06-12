@@ -1,81 +1,76 @@
 {
+   "links": [
+      {
+         "source": "chathura",
+         "value": 9,
+         "target": "samindaw"
+      },
+      {
+         "source": "chathura",
+         "value": 2,
+         "target": "smarru"
+      },
+      {
+         "source": "samindaw",
+         "value": 1,
+         "target": "smarru"
+      },
+      {
+         "source": "heshan",
+         "value": 5,
+         "target": "lahiru"
+      },
+      {
+         "source": "heshan",
+         "value": 2,
+         "target": "samindaw"
+      },
+      {
+         "source": "lahiru",
+         "value": 1,
+         "target": "smarru"
+      },
+      {
+         "source": "heshan",
+         "value": 4,
+         "target": "smarru"
+      },
+      {
+         "source": "lahiru",
+         "value": 10,
+         "target": "chathura"
+      },
+      {
+         "source": "lahiru",
+         "value": 6,
+         "target": "samindaw"
+      },
+      {
+         "source": "heshan",
+         "value": 1,
+         "target": "chathura"
+      }
+   ],
    "nodes": [
       {
-         "id": "1103",
-         "group": 2
-      },
-      {
-         "id": "1095",
-         "group": 2
-      },
-      {
-         "id": "1107",
+         "id": "heshan",
          "group": 1
       },
       {
-         "id": "1106",
-         "group": 3
+         "id": "lahiru",
+         "group": 1
       },
       {
-         "id": "1105",
+         "id": "chathura",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "1107",
-         "source": "1095"
       },
       {
-         "value": 5,
-         "target": "1103",
-         "source": "1106"
+         "id": "samindaw",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "1107",
-         "source": "1106"
-      },
-      {
-         "value": 1,
-         "target": "1105",
-         "source": "1107"
-      },
-      {
-         "value": 8,
-         "target": "1107",
-         "source": "1105"
-      },
-      {
-         "value": 10,
-         "target": "1105",
-         "source": "1103"
-      },
-      {
-         "value": 2,
-         "target": "1105",
-         "source": "1095"
-      },
-      {
-         "value": 1,
-         "target": "1105",
-         "source": "1106"
-      },
-      {
-         "value": 6,
-         "target": "1107",
-         "source": "1103"
-      },
-      {
-         "value": 1,
-         "target": "1095",
-         "source": "1103"
-      },
-      {
-         "value": 4,
-         "target": "1095",
-         "source": "1106"
+         "id": "smarru",
+         "group": 2
       }
    ]
 }

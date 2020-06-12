@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "45176",
-         "group": 2
-      },
-      {
-         "id": "45177",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "moon",
          "value": 1,
-         "target": "45177",
-         "source": "45176"
+         "target": "bzz"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "moon",
+         "group": 3
+      },
+      {
+         "id": "bzz",
+         "group": 4
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "16639",
-         "group": 2
-      },
-      {
-         "id": "16638",
-         "group": 2
-      },
-      {
-         "id": "16637",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "16637",
-         "source": "16638"
+         "source": "arvind",
+         "value": 6,
+         "target": "esammer"
       },
       {
-         "value": 6,
-         "target": "16638",
-         "source": "16639"
+         "source": "jmhsieh",
+         "value": 3,
+         "target": "esammer"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "arvind",
+         "group": 2
+      },
+      {
+         "id": "jmhsieh",
+         "group": 2
+      },
+      {
+         "id": "esammer",
+         "group": 2
       }
    ]
 }

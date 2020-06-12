@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "2",
-         "group": 3
-      },
-      {
-         "id": "1",
-         "group": 4
-      },
-      {
-         "id": "4",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "jmsnell",
          "value": 27,
-         "target": "4",
-         "source": "2"
+         "target": "rooneg"
       },
       {
+         "source": "jmsnell",
          "value": 1,
-         "target": "1",
-         "source": "2"
+         "target": "eliast"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jmsnell",
+         "group": 1
+      },
+      {
+         "id": "rooneg",
+         "group": 3
+      },
+      {
+         "id": "eliast",
+         "group": 3
       }
    ]
 }

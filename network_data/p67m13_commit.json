@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "6474",
-         "group": 3
+         "source": "mmerz",
+         "value": 7,
+         "target": "ekoneil"
       },
       {
-         "id": "6476",
+         "source": "rich",
+         "value": 7,
+         "target": "ekoneil"
+      },
+      {
+         "source": "bryanche",
+         "value": 1,
+         "target": "steveh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rich",
          "group": 4
       },
       {
-         "id": "6487",
+         "id": "steveh",
          "group": 2
       },
       {
-         "id": "6482",
-         "group": 2
+         "id": "bryanche",
+         "group": 3
       },
       {
-         "id": "6468",
+         "id": "ekoneil",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 7,
-         "target": "6468",
-         "source": "6476"
       },
       {
-         "value": 7,
-         "target": "6468",
-         "source": "6482"
-      },
-      {
-         "value": 1,
-         "target": "6487",
-         "source": "6474"
+         "id": "mmerz",
+         "group": 2
       }
    ]
 }

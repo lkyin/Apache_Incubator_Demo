@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "17092",
-         "group": 2
-      },
-      {
-         "id": "202",
-         "group": 3
-      },
-      {
-         "id": "8485",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Alan D. Cabrera",
          "value": 1,
-         "target": "17092",
-         "source": "202"
+         "target": "Alexey Petrenko"
       },
       {
+         "source": "Matt Hogstrom",
          "value": 1,
-         "target": "17092",
-         "source": "8485"
+         "target": "Alexey Petrenko"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexey Petrenko",
+         "group": 4
+      },
+      {
+         "id": "Alan D. Cabrera",
+         "group": 4
+      },
+      {
+         "id": "Matt Hogstrom",
+         "group": 1
       }
    ]
 }

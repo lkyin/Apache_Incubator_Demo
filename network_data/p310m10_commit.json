@@ -1,41 +1,46 @@
 {
+   "links": [
+      {
+         "source": "mvescovi",
+         "value": 1,
+         "target": "bravi"
+      },
+      {
+         "source": "bravi",
+         "value": 2,
+         "target": "enolan"
+      },
+      {
+         "source": "bravi",
+         "value": 3,
+         "target": "mvescovi"
+      },
+      {
+         "source": "rickmcguire",
+         "value": 1,
+         "target": "apetrenko"
+      }
+   ],
    "nodes": [
       {
-         "id": "45127",
+         "id": "bravi",
+         "group": 3
+      },
+      {
+         "id": "rickmcguire",
          "group": 2
       },
       {
-         "id": "4938",
-         "group": 1
-      },
-      {
-         "id": "45122",
+         "id": "apetrenko",
          "group": 3
       },
       {
-         "id": "19043",
-         "group": 3
+         "id": "enolan",
+         "group": 4
       },
       {
-         "id": "45128",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "45122",
-         "source": "45127"
-      },
-      {
-         "value": 4,
-         "target": "45128",
-         "source": "45127"
-      },
-      {
-         "value": 1,
-         "target": "4938",
-         "source": "19043"
+         "id": "mvescovi",
+         "group": 4
       }
    ]
 }

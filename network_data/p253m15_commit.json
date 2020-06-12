@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "1025",
-         "group": 1
-      },
-      {
-         "id": "1022",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "geirm",
          "value": 13,
-         "target": "1022",
-         "source": "1025"
+         "target": "clim"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "geirm",
+         "group": 3
+      },
+      {
+         "id": "clim",
+         "group": 1
       }
    ]
 }

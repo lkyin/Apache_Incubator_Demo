@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4848",
-         "group": 1
+         "source": "Robert Butts",
+         "value": 1,
+         "target": "git-site-role"
       },
       {
-         "id": "41021",
+         "source": "jenkins",
+         "value": 1,
+         "target": "Robert Butts"
+      },
+      {
+         "source": "jenkins",
+         "value": 11,
+         "target": "git-site-role"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jenkins",
          "group": 4
       },
       {
-         "id": "4849",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "4849",
-         "source": "4848"
+         "id": "Robert Butts",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "4849",
-         "source": "41021"
-      },
-      {
-         "value": 1,
-         "target": "41021",
-         "source": "4848"
+         "id": "git-site-role",
+         "group": 4
       }
    ]
 }

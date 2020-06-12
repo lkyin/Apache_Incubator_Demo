@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "43057",
-         "group": 2
-      },
-      {
-         "id": "3341",
-         "group": 4
-      },
-      {
-         "id": "42988",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Yuri Z",
          "value": 1,
-         "target": "42988",
-         "source": "43057"
+         "target": "Pablo Ojanguren"
       },
       {
+         "source": "Yuri Z",
          "value": 1,
-         "target": "3341",
-         "source": "43057"
+         "target": "johndament"
       },
       {
+         "source": "Pablo Ojanguren",
          "value": 1,
-         "target": "43057",
-         "source": "42988"
+         "target": "Yuri Z"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Pablo Ojanguren",
+         "group": 3
+      },
+      {
+         "id": "Yuri Z",
+         "group": 2
+      },
+      {
+         "id": "johndament",
+         "group": 4
       }
    ]
 }

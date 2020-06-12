@@ -1,61 +1,61 @@
 {
+   "links": [
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Lukasz Moren",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Stefan Seelmann"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Maciej Machulak"
+      },
+      {
+         "source": "Maciej Machulak",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Stefan Seelmann"
+      },
+      {
+         "source": "Stefan Seelmann",
+         "value": 1,
+         "target": "Lukasz Moren"
+      }
+   ],
    "nodes": [
       {
-         "id": "4488",
+         "id": "Stefan Seelmann",
+         "group": 2
+      },
+      {
+         "id": "Maciej Machulak",
          "group": 3
       },
       {
-         "id": "17351",
-         "group": 4
+         "id": "Tommaso Teofili",
+         "group": 2
       },
       {
-         "id": "28769",
+         "id": "Pid",
          "group": 1
       },
       {
-         "id": "28773",
-         "group": 1
-      },
-      {
-         "id": "28772",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "28772"
-      },
-      {
-         "value": 1,
-         "target": "28773",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "28773",
-         "source": "17351"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "28769"
-      },
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "17351"
-      },
-      {
-         "value": 1,
-         "target": "28769",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "28772",
-         "source": "28773"
+         "id": "Lukasz Moren",
+         "group": 2
       }
    ]
 }

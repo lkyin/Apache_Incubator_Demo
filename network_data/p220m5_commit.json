@@ -1,50 +1,50 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "38177",
-         "group": 1
+         "source": "ptgoetz",
+         "value": 1,
+         "target": "Robert (Bobby) Evans"
       },
       {
-         "id": "38165",
+         "source": "wurstmeister",
+         "value": 1,
+         "target": "Edison Xu"
+      },
+      {
+         "source": "ptgoetz",
+         "value": 1,
+         "target": "supercargo"
+      },
+      {
+         "source": "wurstmeister",
+         "value": 1,
+         "target": "Danijel Schiavuzzi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ptgoetz",
+         "group": 2
+      },
+      {
+         "id": "Edison Xu",
          "group": 4
       },
       {
-         "id": "38180",
+         "id": "supercargo",
+         "group": 4
+      },
+      {
+         "id": "Robert (Bobby) Evans",
          "group": 3
       },
       {
-         "id": "17925",
-         "group": 1
+         "id": "wurstmeister",
+         "group": 4
       },
       {
-         "id": "38170",
-         "group": 1
-      },
-      {
-         "id": "38178",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "17925",
-         "source": "38165"
-      },
-      {
-         "value": 1,
-         "target": "38180",
-         "source": "38177"
-      },
-      {
-         "value": 1,
-         "target": "17925",
-         "source": "38170"
-      },
-      {
-         "value": 1,
-         "target": "38178",
-         "source": "38177"
+         "id": "Danijel Schiavuzzi",
+         "group": 2
       }
    ]
 }

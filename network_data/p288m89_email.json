@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "4479",
-         "group": 1
-      },
-      {
-         "id": "11330",
-         "group": 1
-      },
-      {
-         "id": "22436",
-         "group": 4
-      },
-      {
-         "id": "29599",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Tom Barber",
          "value": 1,
-         "target": "29599",
-         "source": "11330"
+         "target": "Dave Fisher"
       },
       {
+         "source": "Svante Schubert",
          "value": 1,
-         "target": "4479",
-         "source": "22436"
+         "target": "Yegor Kozlov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dave Fisher",
+         "group": 2
+      },
+      {
+         "id": "Yegor Kozlov",
+         "group": 2
+      },
+      {
+         "id": "Svante Schubert",
+         "group": 3
+      },
+      {
+         "id": "Tom Barber",
+         "group": 1
       }
    ]
 }

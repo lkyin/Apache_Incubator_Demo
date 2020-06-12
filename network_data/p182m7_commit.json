@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "29356",
-         "group": 3
-      },
-      {
-         "id": "29355",
-         "group": 3
-      },
-      {
-         "id": "29373",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "29373",
-         "source": "29356"
-      },
-      {
+         "source": "solomax",
          "value": 15,
-         "target": "29355",
-         "source": "29356"
+         "target": "sebawagner"
       },
       {
+         "source": "solomax",
+         "value": 1,
+         "target": "ggrekhov"
+      },
+      {
+         "source": "ggrekhov",
          "value": 2,
-         "target": "29355",
-         "source": "29373"
+         "target": "sebawagner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "solomax",
+         "group": 2
+      },
+      {
+         "id": "ggrekhov",
+         "group": 2
+      },
+      {
+         "id": "sebawagner",
+         "group": 4
       }
    ]
 }

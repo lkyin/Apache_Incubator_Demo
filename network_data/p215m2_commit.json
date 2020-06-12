@@ -1,62 +1,72 @@
 {
+   "links": [
+      {
+         "source": "felicity",
+         "value": 20,
+         "target": "quinlan"
+      },
+      {
+         "source": "mss",
+         "value": 4,
+         "target": "felicity"
+      },
+      {
+         "source": "jm",
+         "value": 3,
+         "target": "mss"
+      },
+      {
+         "source": "mss",
+         "value": 6,
+         "target": "quinlan"
+      },
+      {
+         "source": "jm",
+         "value": 27,
+         "target": "quinlan"
+      },
+      {
+         "source": "jm",
+         "value": 20,
+         "target": "felicity"
+      },
+      {
+         "source": "felicity",
+         "value": 2,
+         "target": "jm"
+      },
+      {
+         "source": "mss",
+         "value": 9,
+         "target": "jm"
+      },
+      {
+         "source": "quinlan",
+         "value": 4,
+         "target": "jm"
+      },
+      {
+         "source": "felicity",
+         "value": 2,
+         "target": "mss"
+      }
+   ],
    "nodes": [
       {
-         "id": "36955",
+         "id": "jm",
          "group": 4
       },
       {
-         "id": "36956",
-         "group": 2
+         "id": "felicity",
+         "group": 4
       },
       {
-         "id": "36959",
+         "id": "quinlan",
+         "group": 4
+      },
+      {
+         "id": "mss",
          "group": 1
-      },
-      {
-         "id": "36957",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 31,
-         "target": "36959",
-         "source": "36956"
-      },
-      {
-         "value": 6,
-         "target": "36957",
-         "source": "36955"
-      },
-      {
-         "value": 6,
-         "target": "36959",
-         "source": "36955"
-      },
-      {
-         "value": 12,
-         "target": "36959",
-         "source": "36957"
-      },
-      {
-         "value": 22,
-         "target": "36957",
-         "source": "36956"
-      },
-      {
-         "value": 2,
-         "target": "36955",
-         "source": "36956"
-      },
-      {
-         "value": 8,
-         "target": "36957",
-         "source": "36959"
-      },
-      {
-         "value": 10,
-         "target": "36956",
-         "source": "36955"
       }
    ]
 }

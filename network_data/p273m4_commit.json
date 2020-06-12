@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "20341",
-         "group": 2
-      },
-      {
-         "id": "20343",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "rr",
          "value": 1,
-         "target": "20343",
-         "source": "20341"
+         "target": "utr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "utr",
+         "group": 3
+      },
+      {
+         "id": "rr",
+         "group": 3
       }
    ]
 }

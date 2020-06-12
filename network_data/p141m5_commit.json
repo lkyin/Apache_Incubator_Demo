@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "JamesBognar",
+         "value": 1,
+         "target": "Stian Soiland-Reyes"
+      },
+      {
+         "source": "JamesBognar",
+         "value": 4,
+         "target": "jamesbognar"
+      },
+      {
+         "source": "jamesbognar",
+         "value": 1,
+         "target": "Stian Soiland-Reyes"
+      }
+   ],
    "nodes": [
       {
-         "id": "22894",
+         "id": "JamesBognar",
          "group": 1
       },
       {
-         "id": "22899",
+         "id": "Stian Soiland-Reyes",
          "group": 4
       },
       {
-         "id": "5961",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5961",
-         "source": "22894"
-      },
-      {
-         "value": 1,
-         "target": "5961",
-         "source": "22899"
-      },
-      {
-         "value": 4,
-         "target": "22899",
-         "source": "22894"
+         "id": "jamesbognar",
+         "group": 3
       }
    ]
 }

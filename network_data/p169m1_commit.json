@@ -1,70 +1,70 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "27610",
-         "group": 3
+         "source": "mcgilman",
+         "value": 9,
+         "target": "Mark Payne"
       },
       {
-         "id": "27617",
+         "source": "joewitt",
+         "value": 1,
+         "target": "tkurc"
+      },
+      {
+         "source": "tkurc",
+         "value": 1,
+         "target": "bimargulies"
+      },
+      {
+         "source": "joewitt",
+         "value": 15,
+         "target": "Mark Payne"
+      },
+      {
+         "source": "joewitt",
+         "value": 38,
+         "target": "Matt Gilman"
+      },
+      {
+         "source": "Matt Gilman",
+         "value": 2,
+         "target": "Mark Payne"
+      },
+      {
+         "source": "joewitt",
+         "value": 255,
+         "target": "mcgilman"
+      },
+      {
+         "source": "Matt Gilman",
+         "value": 31,
+         "target": "mcgilman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tkurc",
          "group": 2
       },
       {
-         "id": "27614",
+         "id": "joewitt",
          "group": 1
       },
       {
-         "id": "192",
+         "id": "Matt Gilman",
+         "group": 2
+      },
+      {
+         "id": "bimargulies",
+         "group": 2
+      },
+      {
+         "id": "mcgilman",
          "group": 4
       },
       {
-         "id": "27616",
+         "id": "Mark Payne",
          "group": 1
-      },
-      {
-         "id": "27621",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 31,
-         "target": "27621",
-         "source": "27616"
-      },
-      {
-         "value": 9,
-         "target": "27621",
-         "source": "27617"
-      },
-      {
-         "value": 2,
-         "target": "27617",
-         "source": "27616"
-      },
-      {
-         "value": 1,
-         "target": "27610",
-         "source": "192"
-      },
-      {
-         "value": 38,
-         "target": "27614",
-         "source": "27616"
-      },
-      {
-         "value": 15,
-         "target": "27614",
-         "source": "27617"
-      },
-      {
-         "value": 1,
-         "target": "27614",
-         "source": "27610"
-      },
-      {
-         "value": 255,
-         "target": "27614",
-         "source": "27621"
       }
    ]
 }

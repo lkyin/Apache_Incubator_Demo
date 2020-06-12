@@ -1,89 +1,89 @@
 {
-   "nodes": [
-      {
-         "id": "24798",
-         "group": 1
-      },
-      {
-         "id": "12023",
-         "group": 4
-      },
-      {
-         "id": "24794",
-         "group": 1
-      },
-      {
-         "id": "24795",
-         "group": 1
-      },
-      {
-         "id": "24792",
-         "group": 2
-      },
-      {
-         "id": "24799",
-         "group": 2
-      },
-      {
-         "id": "24796",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Elana Hashman",
+         "value": 62,
+         "target": "cestella"
+      },
+      {
+         "source": "Sean Schulte",
          "value": 19,
-         "target": "24795",
-         "source": "24794"
+         "target": "sirsean"
       },
       {
-         "value": 62,
-         "target": "24796",
-         "source": "12023"
-      },
-      {
-         "value": 62,
-         "target": "24796",
-         "source": "24792"
-      },
-      {
-         "value": 81,
-         "target": "12023",
-         "source": "24792"
-      },
-      {
-         "value": 62,
-         "target": "24795",
-         "source": "24796"
-      },
-      {
-         "value": 2,
-         "target": "24799",
-         "source": "24798"
-      },
-      {
-         "value": 1,
-         "target": "24799",
-         "source": "12023"
-      },
-      {
+         "source": "cestella",
          "value": 316,
-         "target": "24795",
-         "source": "24792"
+         "target": "sirsean"
       },
       {
-         "value": 19,
-         "target": "24794",
-         "source": "24792"
-      },
-      {
+         "source": "cstella",
          "value": 81,
-         "target": "24795",
-         "source": "12023"
+         "target": "sirsean"
       },
       {
+         "source": "cstella",
+         "value": 81,
+         "target": "cestella"
+      },
+      {
+         "source": "rmerriman",
+         "value": 1,
+         "target": "cstella"
+      },
+      {
+         "source": "cstella",
+         "value": 62,
+         "target": "Elana Hashman"
+      },
+      {
+         "source": "cstella",
          "value": 19,
-         "target": "24794",
-         "source": "12023"
+         "target": "Sean Schulte"
+      },
+      {
+         "source": "Sean Schulte",
+         "value": 19,
+         "target": "cestella"
+      },
+      {
+         "source": "rmerriman",
+         "value": 2,
+         "target": "Nick Allen"
+      },
+      {
+         "source": "Elana Hashman",
+         "value": 62,
+         "target": "sirsean"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Elana Hashman",
+         "group": 4
+      },
+      {
+         "id": "sirsean",
+         "group": 4
+      },
+      {
+         "id": "rmerriman",
+         "group": 1
+      },
+      {
+         "id": "cstella",
+         "group": 3
+      },
+      {
+         "id": "cestella",
+         "group": 3
+      },
+      {
+         "id": "Sean Schulte",
+         "group": 4
+      },
+      {
+         "id": "Nick Allen",
+         "group": 3
       }
    ]
 }

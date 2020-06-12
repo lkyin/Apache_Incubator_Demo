@@ -1,51 +1,56 @@
 {
+   "links": [
+      {
+         "source": "williamstw",
+         "value": 2,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "crohr",
+         "value": 1,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "crohr"
+      },
+      {
+         "source": "Chris Rohr",
+         "value": 5,
+         "target": "crohr"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "amccurry"
+      }
+   ],
    "nodes": [
       {
-         "id": "7096",
+         "id": "Aaron McCurry",
          "group": 1
       },
       {
-         "id": "7109",
-         "group": 3
+         "id": "amccurry",
+         "group": 1
       },
       {
-         "id": "7097",
-         "group": 3
-      },
-      {
-         "id": "7107",
-         "group": 4
-      },
-      {
-         "id": "7110",
+         "id": "crohr",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "7096"
       },
       {
-         "value": 1,
-         "target": "7107",
-         "source": "7097"
+         "id": "Chris Rohr",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "7097",
-         "source": "7109"
-      },
-      {
-         "value": 6,
-         "target": "7110",
-         "source": "7107"
-      },
-      {
-         "value": 1,
-         "target": "7110",
-         "source": "7097"
+         "id": "williamstw",
+         "group": 3
       }
    ]
 }

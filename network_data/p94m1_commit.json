@@ -1,66 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12906",
-         "group": 4
+         "source": "olamy",
+         "value": 9,
+         "target": "iocanel"
       },
       {
-         "id": "4483",
+         "source": "olamy",
+         "value": 1,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "raffaeleguidi",
+         "value": 1,
+         "target": "mcucchiara"
+      },
+      {
+         "source": "raffaeleguidi",
+         "value": 43,
+         "target": "olamy"
+      },
+      {
+         "source": "raffaeleguidi",
+         "value": 10,
+         "target": "iocanel"
+      },
+      {
+         "source": "raffaeleguidi",
+         "value": 4,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 1,
+         "target": "iocanel"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "raffaeleguidi",
          "group": 2
       },
       {
-         "id": "12907",
+         "id": "olamy",
+         "group": 4
+      },
+      {
+         "id": "simonetripodi",
          "group": 3
       },
       {
-         "id": "4099",
+         "id": "mcucchiara",
          "group": 3
       },
       {
-         "id": "11704",
+         "id": "iocanel",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 8,
-         "target": "11704",
-         "source": "4099"
-      },
-      {
-         "value": 43,
-         "target": "4099",
-         "source": "12906"
-      },
-      {
-         "value": 4,
-         "target": "4483",
-         "source": "12906"
-      },
-      {
-         "value": 1,
-         "target": "4483",
-         "source": "11704"
-      },
-      {
-         "value": 10,
-         "target": "11704",
-         "source": "12906"
-      },
-      {
-         "value": 1,
-         "target": "4483",
-         "source": "4099"
-      },
-      {
-         "value": 1,
-         "target": "4099",
-         "source": "11704"
-      },
-      {
-         "value": 1,
-         "target": "12907",
-         "source": "12906"
       }
    ]
 }

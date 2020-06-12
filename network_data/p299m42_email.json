@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "36515",
-         "group": 3
+         "source": "Gour Saha",
+         "value": 2,
+         "target": "Manoj Samel"
       },
       {
-         "id": "36604",
+         "source": "Billie Rinaldi",
+         "value": 1,
+         "target": "David.Serafini"
+      },
+      {
+         "source": "Billie Rinaldi",
+         "value": 1,
+         "target": "Manoj Samel"
+      },
+      {
+         "source": "Manoj Samel",
+         "value": 2,
+         "target": "Gour Saha"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David.Serafini",
          "group": 1
       },
       {
-         "id": "36650",
-         "group": 2
+         "id": "Billie Rinaldi",
+         "group": 1
       },
       {
-         "id": "4164",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "36650",
-         "source": "4164"
+         "id": "Gour Saha",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "36604",
-         "source": "36515"
-      },
-      {
-         "value": 1,
-         "target": "36604",
-         "source": "4164"
-      },
-      {
-         "value": 2,
-         "target": "36515",
-         "source": "36604"
+         "id": "Manoj Samel",
+         "group": 1
       }
    ]
 }

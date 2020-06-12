@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "402",
-         "group": 3
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Alexander Broekhuis"
       },
       {
-         "id": "8651",
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "Pepijn Noltes (Commented) (JIRA)",
+         "value": 1,
+         "target": "Pepijn Noltes (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Broekhuis",
+         "group": 4
+      },
+      {
+         "id": "Pepijn Noltes (Created) (JIRA)",
          "group": 1
       },
       {
-         "id": "8628",
+         "id": "Marcel Offermans",
+         "group": 1
+      },
+      {
+         "id": "Pepijn Noltes",
          "group": 3
       },
       {
-         "id": "8662",
-         "group": 4
-      },
-      {
-         "id": "8626",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8651",
-         "source": "402"
-      },
-      {
-         "value": 1,
-         "target": "8651",
-         "source": "8662"
-      },
-      {
-         "value": 1,
-         "target": "8626",
-         "source": "8628"
+         "id": "Pepijn Noltes (Commented) (JIRA)",
+         "group": 1
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "36401",
-         "group": 1
+         "source": "Chris A. Mattmann (JIRA)",
+         "value": 3,
+         "target": "patrick o''leary (JIRA)"
       },
       {
-         "id": "1137",
+         "source": "Chris A. Mattmann (JIRA)",
+         "value": 3,
+         "target": "Sebb (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sebb (JIRA)",
          "group": 3
       },
       {
-         "id": "1112",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "1137",
-         "source": "1112"
+         "id": "patrick o''leary (JIRA)",
+         "group": 4
       },
       {
-         "value": 3,
-         "target": "36401",
-         "source": "1112"
+         "id": "Chris A. Mattmann (JIRA)",
+         "group": 2
       }
    ]
 }

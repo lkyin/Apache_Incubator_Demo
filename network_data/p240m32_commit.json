@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "alally",
+         "value": 1,
+         "target": "joern"
+      },
+      {
+         "source": "twgoetz",
+         "value": 1,
+         "target": "joern"
+      }
+   ],
    "nodes": [
       {
-         "id": "29745",
+         "id": "twgoetz",
+         "group": 3
+      },
+      {
+         "id": "alally",
          "group": 2
       },
       {
-         "id": "42183",
-         "group": 1
-      },
-      {
-         "id": "29744",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "29744",
-         "source": "29745"
-      },
-      {
-         "value": 1,
-         "target": "42183",
-         "source": "29745"
+         "id": "joern",
+         "group": 3
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "42953",
-         "group": 4
-      },
-      {
-         "id": "11318",
-         "group": 4
-      },
-      {
-         "id": "11330",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "11330",
-         "source": "11318"
-      },
-      {
-         "value": 1,
-         "target": "42953",
-         "source": "11318"
-      },
-      {
+         "source": "Svante Schubert",
          "value": 3,
-         "target": "11318",
-         "source": "11330"
+         "target": "Ian C"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Svante Schubert (JIRA)"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Svante Schubert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Svante Schubert (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Svante Schubert",
+         "group": 4
+      },
+      {
+         "id": "Ian C",
+         "group": 4
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "45127",
-         "group": 3
-      },
-      {
-         "id": "45119",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "bravi",
          "value": 2,
-         "target": "45119",
-         "source": "45127"
+         "target": "dmiddlem"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bravi",
+         "group": 1
+      },
+      {
+         "id": "dmiddlem",
+         "group": 1
       }
    ]
 }

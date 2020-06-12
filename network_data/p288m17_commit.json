@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "46746",
-         "group": 2
+         "source": "fhopf",
+         "value": 1,
+         "target": "liudali"
       },
       {
-         "id": "46749",
+         "source": "liudali",
+         "value": 3,
+         "target": "svanteschubert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fhopf",
          "group": 3
       },
       {
-         "id": "46748",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "46749",
-         "source": "46746"
+         "id": "liudali",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "46748",
-         "source": "46749"
+         "id": "svanteschubert",
+         "group": 4
       }
    ]
 }

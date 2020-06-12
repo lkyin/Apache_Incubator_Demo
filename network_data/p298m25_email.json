@@ -1,66 +1,66 @@
 {
+   "links": [
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "Jean-Louis MONTEIRO",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 5,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "Yogesh Rao",
+         "value": 3,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Yogesh Rao",
+         "value": 1,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 3,
+         "target": "Yogesh Rao"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Romain Manni-Bucau"
+      }
+   ],
    "nodes": [
       {
-         "id": "5928",
+         "id": "Romain Manni-Bucau",
          "group": 3
       },
       {
-         "id": "5934",
+         "id": "Yogesh Rao",
          "group": 2
       },
       {
-         "id": "4107",
-         "group": 4
+         "id": "Olivier Lamy",
+         "group": 3
       },
       {
-         "id": "36400",
+         "id": "John D. Ament",
          "group": 1
       },
       {
-         "id": "3571",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5928",
-         "source": "5934"
-      },
-      {
-         "value": 5,
-         "target": "5928",
-         "source": "4107"
-      },
-      {
-         "value": 3,
-         "target": "36400",
-         "source": "5928"
-      },
-      {
-         "value": 1,
-         "target": "4107",
-         "source": "36400"
-      },
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "5928"
-      },
-      {
-         "value": 3,
-         "target": "5928",
-         "source": "36400"
-      },
-      {
-         "value": 1,
-         "target": "4107",
-         "source": "5928"
-      },
-      {
-         "value": 1,
-         "target": "5928",
-         "source": "3571"
+         "id": "Jean-Louis MONTEIRO",
+         "group": 1
       }
    ]
 }

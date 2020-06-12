@@ -1,65 +1,65 @@
 {
+   "links": [
+      {
+         "source": "mpierce",
+         "value": 2,
+         "target": "mfranklin"
+      },
+      {
+         "source": "jcian",
+         "value": 1,
+         "target": "mpierce"
+      },
+      {
+         "source": "ate",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "mpierce",
+         "value": 4,
+         "target": "zhguo"
+      },
+      {
+         "source": "zhguo",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "ate",
+         "value": 1,
+         "target": "rgardler"
+      },
+      {
+         "source": "rgardler",
+         "value": 1,
+         "target": "mfranklin"
+      }
+   ],
    "nodes": [
       {
-         "id": "32894",
-         "group": 1
+         "id": "rgardler",
+         "group": 3
       },
       {
-         "id": "32895",
-         "group": 1
-      },
-      {
-         "id": "1097",
+         "id": "zhguo",
          "group": 4
       },
       {
-         "id": "32899",
-         "group": 3
+         "id": "jcian",
+         "group": 2
       },
       {
-         "id": "1102",
-         "group": 3
+         "id": "ate",
+         "group": 4
       },
       {
-         "id": "32898",
+         "id": "mpierce",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "32894"
       },
       {
-         "value": 1,
-         "target": "32898",
-         "source": "1102"
-      },
-      {
-         "value": 2,
-         "target": "32898",
-         "source": "1097"
-      },
-      {
-         "value": 1,
-         "target": "1102",
-         "source": "32894"
-      },
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "32895"
-      },
-      {
-         "value": 1,
-         "target": "1097",
-         "source": "32899"
-      },
-      {
-         "value": 4,
-         "target": "1097",
-         "source": "32895"
+         "id": "mfranklin",
+         "group": 2
       }
    ]
 }

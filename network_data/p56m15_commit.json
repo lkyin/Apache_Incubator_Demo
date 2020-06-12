@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4138",
-         "group": 4
+         "source": "jitendra",
+         "value": 1,
+         "target": "hitesh"
       },
       {
-         "id": "4134",
+         "source": "mahadev",
+         "value": 6,
+         "target": "jitendra"
+      },
+      {
+         "source": "mahadev",
+         "value": 8,
+         "target": "hitesh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mahadev",
+         "group": 3
+      },
+      {
+         "id": "jitendra",
          "group": 2
       },
       {
-         "id": "4132",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "4132",
-         "source": "4138"
-      },
-      {
-         "value": 1,
-         "target": "4132",
-         "source": "4134"
-      },
-      {
-         "value": 8,
-         "target": "4134",
-         "source": "4138"
+         "id": "hitesh",
+         "group": 4
       }
    ]
 }

@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Chiwan Park",
+         "value": 1,
+         "target": "Leonidas Fegaras"
+      },
+      {
+         "source": "Leonidas Fegaras",
+         "value": 1,
+         "target": "Abinash Behera"
+      },
+      {
+         "source": "chiwanpark",
+         "value": 2,
+         "target": "fegaras"
+      },
+      {
+         "source": "Leonidas Fegaras",
+         "value": 1,
+         "target": "Chiwan Park"
+      }
+   ],
    "nodes": [
       {
-         "id": "25237",
-         "group": 4
+         "id": "chiwanpark",
+         "group": 2
       },
       {
-         "id": "25235",
-         "group": 1
-      },
-      {
-         "id": "16569",
+         "id": "fegaras",
          "group": 3
       },
       {
-         "id": "10068",
-         "group": 4
-      },
-      {
-         "id": "16481",
+         "id": "Leonidas Fegaras",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "16569",
-         "source": "16481"
       },
       {
-         "value": 2,
-         "target": "25235",
-         "source": "25237"
+         "id": "Chiwan Park",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "10068",
-         "source": "16569"
-      },
-      {
-         "value": 1,
-         "target": "16481",
-         "source": "16569"
+         "id": "Abinash Behera",
+         "group": 3
       }
    ]
 }

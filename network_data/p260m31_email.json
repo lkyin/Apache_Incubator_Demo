@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "388",
-         "group": 4
-      },
-      {
-         "id": "7194",
-         "group": 3
-      },
-      {
-         "id": "7097",
-         "group": 4
-      },
-      {
-         "id": "6704",
-         "group": 3
-      },
-      {
-         "id": "7181",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Aaron McCurry",
          "value": 1,
-         "target": "7181",
-         "source": "7097"
+         "target": "Andrew"
       },
       {
+         "source": "Tim Williams",
+         "value": 1,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "Sachith Withana"
+      },
+      {
+         "source": "Andrew",
+         "value": 1,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "Aaron McCurry",
          "value": 7,
-         "target": "388",
-         "source": "7097"
+         "target": "Tim Williams"
       },
       {
-         "value": 1,
-         "target": "6704",
-         "source": "388"
-      },
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "7181"
-      },
-      {
+         "source": "Tim Williams",
          "value": 5,
-         "target": "7097",
-         "source": "388"
+         "target": "Aaron McCurry"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Andrew",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "7194",
-         "source": "7097"
+         "id": "Patrick Hunt",
+         "group": 3
+      },
+      {
+         "id": "Tim Williams",
+         "group": 2
+      },
+      {
+         "id": "Aaron McCurry",
+         "group": 1
+      },
+      {
+         "id": "Sachith Withana",
+         "group": 2
       }
    ]
 }

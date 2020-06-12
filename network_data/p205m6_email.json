@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "34585",
-         "group": 2
-      },
-      {
-         "id": "180",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Carsten Ziegeler",
          "value": 1,
-         "target": "34585",
-         "source": "180"
+         "target": "Charles Matthew Chen"
       },
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "180",
-         "source": "34585"
+         "target": "Carsten Ziegeler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Charles Matthew Chen",
+         "group": 1
+      },
+      {
+         "id": "Carsten Ziegeler",
+         "group": 3
       }
    ]
 }

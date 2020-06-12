@@ -1,38 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "7053",
-         "group": 2
-      },
-      {
-         "id": "7057",
-         "group": 2
-      },
-      {
-         "id": "41",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Luciano Resende",
+         "value": 2,
+         "target": "Samul Kevin"
+      },
+      {
+         "source": "Samul Kevin",
          "value": 4,
-         "target": "7057",
-         "source": "7053"
+         "target": "Henri Yandell"
       },
       {
+         "source": "Samul Kevin",
          "value": 2,
-         "target": "7053",
-         "source": "41"
+         "target": "Luciano Resende"
       },
       {
+         "source": "Henri Yandell",
          "value": 1,
-         "target": "7053",
-         "source": "7057"
+         "target": "Samul Kevin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Henri Yandell",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "41",
-         "source": "7053"
+         "id": "Samul Kevin",
+         "group": 3
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 4
       }
    ]
 }

@@ -1,33 +1,43 @@
 {
-   "nodes": [
-      {
-         "id": "12121",
-         "group": 4
-      },
-      {
-         "id": "12123",
-         "group": 4
-      },
-      {
-         "id": "12122",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "12122",
-         "source": "12123"
+         "source": "lutter",
+         "value": 2,
+         "target": "mfojtik"
       },
       {
-         "value": 5,
-         "target": "12122",
-         "source": "12121"
+         "source": "marios",
+         "value": 3,
+         "target": "lutter"
       },
       {
+         "source": "marios",
          "value": 5,
-         "target": "12123",
-         "source": "12121"
+         "target": "mfojtik"
+      },
+      {
+         "source": "lutter",
+         "value": 1,
+         "target": "marios"
+      },
+      {
+         "source": "mfojtik",
+         "value": 3,
+         "target": "lutter"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mfojtik",
+         "group": 4
+      },
+      {
+         "id": "lutter",
+         "group": 1
+      },
+      {
+         "id": "marios",
+         "group": 3
       }
    ]
 }

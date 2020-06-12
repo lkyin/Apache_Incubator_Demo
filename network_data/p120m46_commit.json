@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "6696",
-         "group": 4
-      },
-      {
-         "id": "18753",
-         "group": 4
-      },
-      {
-         "id": "18755",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "tjungblut",
          "value": 2,
-         "target": "18755",
-         "source": "18753"
+         "target": "chl501"
       },
       {
+         "source": "tjungblut",
          "value": 26,
-         "target": "18753",
-         "source": "6696"
+         "target": "edwardyoon"
       },
       {
+         "source": "chl501",
          "value": 1,
-         "target": "18755",
-         "source": "6696"
+         "target": "edwardyoon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tjungblut",
+         "group": 4
+      },
+      {
+         "id": "chl501",
+         "group": 3
+      },
+      {
+         "id": "edwardyoon",
+         "group": 1
       }
    ]
 }

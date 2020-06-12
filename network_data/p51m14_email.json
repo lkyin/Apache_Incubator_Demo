@@ -1,70 +1,70 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "410",
-         "group": 3
+         "source": "Toni Menzel",
+         "value": 1,
+         "target": "Mike Haney"
       },
       {
-         "id": "411",
+         "source": "Toni Menzel (JIRA)",
+         "value": 3,
+         "target": "Marcel Offermans (JIRA)"
+      },
+      {
+         "source": "Crissman, Dennis",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Mike Haney",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Crissman, Dennis",
+         "value": 1,
+         "target": "Toni Menzel"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Mike Haney"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Crissman, Dennis"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 1,
+         "target": "Crissman, Dennis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Toni Menzel (JIRA)",
          "group": 4
       },
       {
-         "id": "438",
+         "id": "Marcel Offermans",
          "group": 2
       },
       {
-         "id": "405",
-         "group": 1
+         "id": "Crissman, Dennis",
+         "group": 3
       },
       {
-         "id": "402",
-         "group": 1
-      },
-      {
-         "id": "439",
+         "id": "Marcel Offermans (JIRA)",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "411",
-         "source": "410"
       },
       {
-         "value": 1,
-         "target": "438",
-         "source": "405"
+         "id": "Toni Menzel",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "439",
-         "source": "405"
-      },
-      {
-         "value": 1,
-         "target": "438",
-         "source": "402"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "439"
-      },
-      {
-         "value": 1,
-         "target": "405",
-         "source": "438"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "438"
-      },
-      {
-         "value": 1,
-         "target": "439",
-         "source": "402"
+         "id": "Mike Haney",
+         "group": 4
       }
    ]
 }

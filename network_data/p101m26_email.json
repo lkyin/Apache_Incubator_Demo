@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "7522",
-         "group": 3
-      },
-      {
-         "id": "13758",
-         "group": 2
-      },
-      {
-         "id": "5018",
-         "group": 3
-      },
-      {
-         "id": "14631",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
          "value": 1,
-         "target": "7522",
-         "source": "14631"
+         "target": "Martijn Dashorst"
       },
       {
+         "source": "Francis De Brabandere",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
          "value": 3,
-         "target": "13758",
-         "source": "14631"
+         "target": "Francis De Brabandere"
       },
       {
+         "source": "Francis De Brabandere",
          "value": 1,
-         "target": "5018",
-         "source": "13758"
+         "target": "Apache Hudson Server"
       },
       {
+         "source": "Martijn Dashorst",
          "value": 1,
-         "target": "14631",
-         "source": "13758"
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Francis De Brabandere",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "14631",
-         "source": "7522"
+         "id": "Apache Hudson Server",
+         "group": 2
+      },
+      {
+         "id": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "group": 3
+      },
+      {
+         "id": "Martijn Dashorst",
+         "group": 4
       }
    ]
 }

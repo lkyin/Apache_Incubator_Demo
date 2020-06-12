@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7095",
-         "group": 2
+         "source": "twilliams",
+         "value": 2,
+         "target": "Chris Rohr"
       },
       {
-         "id": "7116",
+         "source": "crohr",
+         "value": 1,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "twilliams",
+         "value": 1,
+         "target": "crohr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "twilliams",
+         "group": 4
+      },
+      {
+         "id": "crohr",
          "group": 3
       },
       {
-         "id": "7110",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7110",
-         "source": "7095"
-      },
-      {
-         "value": 1,
-         "target": "7110",
-         "source": "7116"
-      },
-      {
-         "value": 2,
-         "target": "7116",
-         "source": "7095"
+         "id": "Chris Rohr",
+         "group": 1
       }
    ]
 }

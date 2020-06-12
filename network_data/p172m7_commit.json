@@ -1,100 +1,105 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "28246",
-         "group": 2
+         "source": "charper",
+         "value": 4,
+         "target": "mriou"
       },
       {
-         "id": "28248",
+         "source": "mszefler",
+         "value": 7,
+         "target": "assaf"
+      },
+      {
+         "source": "assaf",
+         "value": 1,
+         "target": "lwaterman"
+      },
+      {
+         "source": "boisvert",
+         "value": 1,
+         "target": "lwaterman"
+      },
+      {
+         "source": "assaf",
+         "value": 4,
+         "target": "mriou"
+      },
+      {
+         "source": "boisvert",
+         "value": 2,
+         "target": "charper"
+      },
+      {
+         "source": "mriou",
+         "value": 1,
+         "target": "assaf"
+      },
+      {
+         "source": "boisvert",
+         "value": 3,
+         "target": "mszefler"
+      },
+      {
+         "source": "mszefler",
+         "value": 21,
+         "target": "mriou"
+      },
+      {
+         "source": "mszefler",
+         "value": 2,
+         "target": "boisvert"
+      },
+      {
+         "source": "mszefler",
+         "value": 5,
+         "target": "charper"
+      },
+      {
+         "source": "lwaterman",
+         "value": 7,
+         "target": "mriou"
+      },
+      {
+         "source": "charper",
+         "value": 4,
+         "target": "lwaterman"
+      },
+      {
+         "source": "mszefler",
+         "value": 7,
+         "target": "lwaterman"
+      },
+      {
+         "source": "boisvert",
+         "value": 2,
+         "target": "mriou"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mszefler",
          "group": 3
       },
       {
-         "id": "1023",
+         "id": "lwaterman",
          "group": 2
       },
       {
-         "id": "7453",
+         "id": "mriou",
          "group": 4
       },
       {
-         "id": "7466",
+         "id": "boisvert",
+         "group": 1
+      },
+      {
+         "id": "charper",
+         "group": 1
+      },
+      {
+         "id": "assaf",
          "group": 3
-      },
-      {
-         "id": "28247",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 7,
-         "target": "28247",
-         "source": "28248"
-      },
-      {
-         "value": 1,
-         "target": "7453",
-         "source": "28247"
-      },
-      {
-         "value": 7,
-         "target": "7453",
-         "source": "28248"
-      },
-      {
-         "value": 7,
-         "target": "28247",
-         "source": "1023"
-      },
-      {
-         "value": 17,
-         "target": "28248",
-         "source": "1023"
-      },
-      {
-         "value": 4,
-         "target": "28247",
-         "source": "28246"
-      },
-      {
-         "value": 4,
-         "target": "1023",
-         "source": "28246"
-      },
-      {
-         "value": 2,
-         "target": "7466",
-         "source": "1023"
-      },
-      {
-         "value": 5,
-         "target": "7453",
-         "source": "1023"
-      },
-      {
-         "value": 4,
-         "target": "1023",
-         "source": "28248"
-      },
-      {
-         "value": 1,
-         "target": "28247",
-         "source": "7466"
-      },
-      {
-         "value": 2,
-         "target": "7466",
-         "source": "28246"
-      },
-      {
-         "value": 5,
-         "target": "7466",
-         "source": "28248"
-      },
-      {
-         "value": 5,
-         "target": "28248",
-         "source": "28246"
       }
    ]
 }

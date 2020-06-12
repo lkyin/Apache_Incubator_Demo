@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "20940",
-         "group": 2
-      },
-      {
-         "id": "20943",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Henry Robinson",
          "value": 2,
-         "target": "20943",
-         "source": "20940"
+         "target": "Internal Jenkins"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Henry Robinson",
+         "group": 3
+      },
+      {
+         "id": "Internal Jenkins",
+         "group": 3
       }
    ]
 }

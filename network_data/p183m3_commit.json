@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "29746",
-         "group": 2
-      },
-      {
-         "id": "29745",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "joern",
          "value": 1,
-         "target": "29745",
-         "source": "29746"
+         "target": "jkosin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "joern",
+         "group": 3
+      },
+      {
+         "id": "jkosin",
+         "group": 4
       }
    ]
 }

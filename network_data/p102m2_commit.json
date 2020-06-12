@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "dpp",
+         "value": 13,
+         "target": "vdichev"
+      },
+      {
+         "source": "dhague",
+         "value": 3,
+         "target": "dpp"
+      }
+   ],
    "nodes": [
       {
-         "id": "14667",
+         "id": "dhague",
+         "group": 2
+      },
+      {
+         "id": "dpp",
          "group": 4
       },
       {
-         "id": "14668",
-         "group": 3
-      },
-      {
-         "id": "14666",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 13,
-         "target": "14666",
-         "source": "14668"
-      },
-      {
-         "value": 3,
-         "target": "14666",
-         "source": "14667"
+         "id": "vdichev",
+         "group": 4
       }
    ]
 }

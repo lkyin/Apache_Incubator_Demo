@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3571",
-         "group": 4
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Tammo van Lessen"
       },
       {
-         "id": "5959",
+         "source": "Mark Struberg",
+         "value": 1,
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tammo van Lessen",
+         "group": 2
+      },
+      {
+         "id": "Mark Struberg",
          "group": 1
       },
       {
-         "id": "28270",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "5959"
-      },
-      {
-         "value": 1,
-         "target": "28270",
-         "source": "3571"
+         "id": "John D. Ament",
+         "group": 1
       }
    ]
 }

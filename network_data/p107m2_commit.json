@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "15569",
-         "group": 3
+         "source": "wave",
+         "value": 1,
+         "target": "s9tpepper"
       },
       {
-         "id": "15570",
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "s9tpepper"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
          "group": 2
       },
       {
-         "id": "394",
+         "id": "wave",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "15570",
-         "source": "15569"
       },
       {
-         "value": 1,
-         "target": "394",
-         "source": "15570"
+         "id": "s9tpepper",
+         "group": 1
       }
    ]
 }

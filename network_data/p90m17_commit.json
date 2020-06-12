@@ -1,42 +1,47 @@
 {
+   "links": [
+      {
+         "source": "lutter",
+         "value": 1,
+         "target": "mfojtik"
+      },
+      {
+         "source": "lutter",
+         "value": 1,
+         "target": "clalance"
+      },
+      {
+         "source": "marios",
+         "value": 1,
+         "target": "lutter"
+      },
+      {
+         "source": "mfojtik",
+         "value": 1,
+         "target": "clalance"
+      },
+      {
+         "source": "mfojtik",
+         "value": 5,
+         "target": "lutter"
+      }
+   ],
    "nodes": [
       {
-         "id": "12128",
+         "id": "clalance",
          "group": 2
       },
       {
-         "id": "12121",
+         "id": "mfojtik",
+         "group": 4
+      },
+      {
+         "id": "lutter",
+         "group": 1
+      },
+      {
+         "id": "marios",
          "group": 3
-      },
-      {
-         "id": "12123",
-         "group": 3
-      },
-      {
-         "id": "12122",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12121",
-         "source": "12128"
-      },
-      {
-         "value": 1,
-         "target": "12122",
-         "source": "12123"
-      },
-      {
-         "value": 1,
-         "target": "12123",
-         "source": "12128"
-      },
-      {
-         "value": 6,
-         "target": "12123",
-         "source": "12121"
       }
    ]
 }

@@ -1,61 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "1098",
-         "group": 3
+         "source": "samindaw",
+         "value": 1,
+         "target": "smarru"
       },
       {
-         "id": "1103",
+         "source": "lahiru",
+         "value": 6,
+         "target": "samindaw"
+      },
+      {
+         "source": "heshan",
+         "value": 6,
+         "target": "samindaw"
+      },
+      {
+         "source": "raminder",
+         "value": 5,
+         "target": "samindaw"
+      },
+      {
+         "source": "lahiru",
+         "value": 1,
+         "target": "raminder"
+      },
+      {
+         "source": "heshan",
+         "value": 1,
+         "target": "smarru"
+      },
+      {
+         "source": "heshan",
+         "value": 1,
+         "target": "lahiru"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "heshan",
          "group": 2
       },
       {
-         "id": "1095",
-         "group": 3
-      },
-      {
-         "id": "1106",
+         "id": "lahiru",
          "group": 4
       },
       {
-         "id": "1107",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "1103",
-         "source": "1106"
+         "id": "raminder",
+         "group": 1
       },
       {
-         "value": 6,
-         "target": "1107",
-         "source": "1103"
+         "id": "samindaw",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "1107",
-         "source": "1095"
-      },
-      {
-         "value": 5,
-         "target": "1107",
-         "source": "1098"
-      },
-      {
-         "value": 1,
-         "target": "1103",
-         "source": "1098"
-      },
-      {
-         "value": 6,
-         "target": "1107",
-         "source": "1106"
-      },
-      {
-         "value": 1,
-         "target": "1095",
-         "source": "1106"
+         "id": "smarru",
+         "group": 3
       }
    ]
 }

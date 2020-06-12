@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "4892",
-         "group": 4
-      },
-      {
-         "id": "5926",
-         "group": 1
-      },
-      {
-         "id": "5925",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "5926",
-         "source": "4892"
+         "target": "Mark Struberg"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "5925",
-         "source": "5926"
+         "target": "Mark Struberg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "John D. Ament",
+         "group": 1
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 4
       }
    ]
 }

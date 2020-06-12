@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "536",
-         "group": 1
-      },
-      {
-         "id": "207",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "gnodet",
          "value": 13,
-         "target": "207",
-         "source": "536"
+         "target": "adc"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gnodet",
+         "group": 2
+      },
+      {
+         "id": "adc",
+         "group": 2
       }
    ]
 }

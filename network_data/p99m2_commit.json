@@ -1,122 +1,117 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14124",
-         "group": 3
+         "source": "Hao Chen",
+         "value": 4,
+         "target": "qinzhaokun"
       },
       {
-         "id": "14122",
+         "source": "yonzhang2012",
+         "value": 6,
+         "target": "sunlibin"
+      },
+      {
+         "source": "yonzhang2012",
+         "value": 8,
+         "target": "hao"
+      },
+      {
+         "source": "hao",
+         "value": 13,
+         "target": "sunlibin"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 16,
+         "target": "hao"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 1,
+         "target": "hao"
+      },
+      {
+         "source": "hao",
+         "value": 7,
+         "target": "Zhao, Qingwen"
+      },
+      {
+         "source": "hao",
+         "value": 1,
+         "target": "Hao Chen"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 1,
+         "target": "Zhao, Qingwen"
+      },
+      {
+         "source": "qinzhaokun",
+         "value": 1,
+         "target": "hao"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 5,
+         "target": "sunlibin"
+      },
+      {
+         "source": "yonzhang2012",
+         "value": 2,
+         "target": "Zhao, Qingwen"
+      },
+      {
+         "source": "hao",
+         "value": 17,
+         "target": "jiljiang"
+      },
+      {
+         "source": "jilin",
+         "value": 1,
+         "target": "hao"
+      },
+      {
+         "source": "sunlibin",
+         "value": 2,
+         "target": "Zhao, Qingwen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "yonzhang2012",
          "group": 1
       },
       {
-         "id": "14128",
+         "id": "Hao Chen",
          "group": 2
       },
       {
-         "id": "14123",
+         "id": "qinzhaokun",
+         "group": 1
+      },
+      {
+         "id": "sunlibin",
+         "group": 3
+      },
+      {
+         "id": "Hao Chen",
+         "group": 2
+      },
+      {
+         "id": "Zhao, Qingwen",
+         "group": 1
+      },
+      {
+         "id": "hao",
+         "group": 3
+      },
+      {
+         "id": "jilin",
          "group": 4
       },
       {
-         "id": "14125",
-         "group": 3
-      },
-      {
-         "id": "14120",
-         "group": 2
-      },
-      {
-         "id": "14129",
-         "group": 3
-      },
-      {
-         "id": "14121",
-         "group": 2
-      },
-      {
-         "id": "6464",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "14129",
-         "source": "14121"
-      },
-      {
-         "value": 16,
-         "target": "6464",
-         "source": "14121"
-      },
-      {
-         "value": 8,
-         "target": "14120",
-         "source": "14121"
-      },
-      {
-         "value": 1,
-         "target": "14123",
-         "source": "14122"
-      },
-      {
-         "value": 1,
-         "target": "14128",
-         "source": "14120"
-      },
-      {
-         "value": 1,
-         "target": "14125",
-         "source": "14121"
-      },
-      {
-         "value": 2,
-         "target": "14123",
-         "source": "14120"
-      },
-      {
-         "value": 15,
-         "target": "14121",
-         "source": "14124"
-      },
-      {
-         "value": 2,
-         "target": "14122",
-         "source": "14121"
-      },
-      {
-         "value": 4,
-         "target": "6464",
-         "source": "14125"
-      },
-      {
-         "value": 2,
-         "target": "14124",
-         "source": "14121"
-      },
-      {
-         "value": 2,
-         "target": "14123",
-         "source": "14128"
-      },
-      {
-         "value": 5,
-         "target": "14120",
-         "source": "14128"
-      },
-      {
-         "value": 7,
-         "target": "14123",
-         "source": "14121"
-      },
-      {
-         "value": 5,
-         "target": "6464",
-         "source": "14128"
-      },
-      {
-         "value": 13,
-         "target": "14128",
-         "source": "14121"
+         "id": "jiljiang",
+         "group": 4
       }
    ]
 }

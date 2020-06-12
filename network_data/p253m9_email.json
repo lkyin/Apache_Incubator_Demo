@@ -1,79 +1,79 @@
 {
-   "nodes": [
-      {
-         "id": "1050",
-         "group": 1
-      },
-      {
-         "id": "1027",
-         "group": 1
-      },
-      {
-         "id": "1046",
-         "group": 3
-      },
-      {
-         "id": "1052",
-         "group": 4
-      },
-      {
-         "id": "1048",
-         "group": 3
-      },
-      {
-         "id": "1038",
-         "group": 3
-      },
-      {
-         "id": "1053",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Glenn J Gonzales",
          "value": 1,
-         "target": "1046",
-         "source": "1052"
+         "target": "Anoop kumar V"
       },
       {
+         "source": "Anoop kumar V",
          "value": 2,
-         "target": "1038",
-         "source": "1027"
+         "target": "Matthieu Riou"
       },
       {
+         "source": "Paul Brown (JIRA)",
          "value": 1,
-         "target": "1053",
-         "source": "1027"
+         "target": "Matthieu Riou (JIRA)"
       },
       {
+         "source": "Glenn J Gonzales",
          "value": 2,
-         "target": "1038",
-         "source": "1053"
+         "target": "Matthieu Riou"
       },
       {
+         "source": "Matthieu Riou",
          "value": 1,
-         "target": "1027",
-         "source": "1038"
+         "target": "Prabhu K"
       },
       {
+         "source": "Matthieu Riou",
          "value": 2,
-         "target": "1053",
-         "source": "1038"
+         "target": "Anoop kumar V"
       },
       {
+         "source": "Prabhu K",
          "value": 1,
-         "target": "1048",
-         "source": "1038"
+         "target": "Aleksander Slominski"
       },
       {
+         "source": "Anoop kumar V",
          "value": 2,
-         "target": "1027",
-         "source": "1053"
+         "target": "Glenn J Gonzales"
       },
       {
+         "source": "Matthieu Riou",
          "value": 1,
-         "target": "1050",
-         "source": "1048"
+         "target": "Glenn J Gonzales"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matthieu Riou",
+         "group": 2
+      },
+      {
+         "id": "Anoop kumar V",
+         "group": 4
+      },
+      {
+         "id": "Glenn J Gonzales",
+         "group": 4
+      },
+      {
+         "id": "Prabhu K",
+         "group": 1
+      },
+      {
+         "id": "Matthieu Riou (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Paul Brown (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Aleksander Slominski",
+         "group": 1
       }
    ]
 }

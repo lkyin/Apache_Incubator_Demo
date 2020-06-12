@@ -1,79 +1,84 @@
 {
+   "links": [
+      {
+         "source": "mattcoarr",
+         "value": 1,
+         "target": "swu"
+      },
+      {
+         "source": "stevenbethard",
+         "value": 1,
+         "target": "chenpei"
+      },
+      {
+         "source": "stevenbethard",
+         "value": 10,
+         "target": "dligach"
+      },
+      {
+         "source": "tmill",
+         "value": 1,
+         "target": "swu"
+      },
+      {
+         "source": "james-masanz",
+         "value": 2,
+         "target": "swu"
+      },
+      {
+         "source": "tmill",
+         "value": 1,
+         "target": "mattcoarr"
+      },
+      {
+         "source": "tmill",
+         "value": 2,
+         "target": "james-masanz"
+      },
+      {
+         "source": "james-masanz",
+         "value": 1,
+         "target": "mattcoarr"
+      },
+      {
+         "source": "swu",
+         "value": 1,
+         "target": "james-masanz"
+      },
+      {
+         "source": "swu",
+         "value": 2,
+         "target": "mattcoarr"
+      }
+   ],
    "nodes": [
       {
-         "id": "11625",
-         "group": 3
-      },
-      {
-         "id": "11632",
-         "group": 1
-      },
-      {
-         "id": "11624",
-         "group": 3
-      },
-      {
-         "id": "11626",
-         "group": 2
-      },
-      {
-         "id": "11627",
+         "id": "tmill",
          "group": 4
       },
       {
-         "id": "11628",
+         "id": "swu",
+         "group": 3
+      },
+      {
+         "id": "stevenbethard",
          "group": 2
       },
       {
-         "id": "11630",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 9,
-         "target": "11630",
-         "source": "11626"
+         "id": "james-masanz",
+         "group": 3
       },
       {
-         "value": 3,
-         "target": "11632",
-         "source": "11625"
+         "id": "dligach",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "11628",
-         "source": "11627"
+         "id": "mattcoarr",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "11626",
-         "source": "11630"
-      },
-      {
-         "value": 1,
-         "target": "11626",
-         "source": "11624"
-      },
-      {
-         "value": 1,
-         "target": "11628",
-         "source": "11625"
-      },
-      {
-         "value": 3,
-         "target": "11632",
-         "source": "11627"
-      },
-      {
-         "value": 1,
-         "target": "11628",
-         "source": "11632"
-      },
-      {
-         "value": 1,
-         "target": "11627",
-         "source": "11625"
+         "id": "chenpei",
+         "group": 3
       }
    ]
 }

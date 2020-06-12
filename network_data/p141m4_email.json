@@ -1,103 +1,103 @@
 {
-   "nodes": [
-      {
-         "id": "22905",
-         "group": 3
-      },
-      {
-         "id": "249",
-         "group": 4
-      },
-      {
-         "id": "22896",
-         "group": 4
-      },
-      {
-         "id": "22908",
-         "group": 1
-      },
-      {
-         "id": "586",
-         "group": 4
-      },
-      {
-         "id": "3571",
-         "group": 1
-      },
-      {
-         "id": "22768",
-         "group": 4
-      },
-      {
-         "id": "5961",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "22768",
-         "source": "5961"
+         "source": "Craig Russell",
+         "value": 3,
+         "target": "James Bognar"
       },
       {
-         "value": 1,
-         "target": "22905",
-         "source": "22896"
+         "source": "Jochen Wiedmann",
+         "value": 3,
+         "target": "James Bognar"
       },
       {
+         "source": "James Bognar",
+         "value": 1,
+         "target": "Craig Russell"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 2,
+         "target": "James Bognar"
+      },
+      {
+         "source": "Stian Soiland-Reyes",
          "value": 5,
-         "target": "22905",
-         "source": "5961"
+         "target": "James Bognar"
       },
       {
+         "source": "Peter Haumer",
          "value": 1,
-         "target": "22768",
-         "source": "22905"
+         "target": "Apache Jenkins Server"
       },
       {
+         "source": "James Bognar",
+         "value": 1,
+         "target": "Peter Haumer"
+      },
+      {
+         "source": "James Bognar",
+         "value": 1,
+         "target": "Peter Haumer (JIRA)"
+      },
+      {
+         "source": "James Bognar",
+         "value": 1,
+         "target": "Stian Soiland-Reyes"
+      },
+      {
+         "source": "James Bognar",
          "value": 2,
-         "target": "3571",
-         "source": "22905"
+         "target": "Jochen Wiedmann"
       },
       {
-         "value": 1,
-         "target": "22908",
-         "source": "22905"
-      },
-      {
-         "value": 3,
-         "target": "22905",
-         "source": "586"
-      },
-      {
-         "value": 3,
-         "target": "22905",
-         "source": "22768"
-      },
-      {
+         "source": "James Bognar",
          "value": 2,
-         "target": "22905",
-         "source": "3571"
+         "target": "John D. Ament"
       },
       {
+         "source": "Peter Haumer",
          "value": 1,
-         "target": "249",
-         "source": "22896"
+         "target": "James Bognar"
       },
       {
-         "value": 2,
-         "target": "586",
-         "source": "22905"
-      },
-      {
+         "source": "Stian Soiland-Reyes",
          "value": 1,
-         "target": "22896",
-         "source": "22905"
+         "target": "Craig Russell"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jochen Wiedmann",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "5961",
-         "source": "22905"
+         "id": "Craig Russell",
+         "group": 3
+      },
+      {
+         "id": "Apache Jenkins Server",
+         "group": 3
+      },
+      {
+         "id": "Peter Haumer (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Peter Haumer",
+         "group": 1
+      },
+      {
+         "id": "Stian Soiland-Reyes",
+         "group": 4
+      },
+      {
+         "id": "John D. Ament",
+         "group": 1
+      },
+      {
+         "id": "James Bognar",
+         "group": 1
       }
    ]
 }

@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "3571",
-         "group": 4
-      },
-      {
-         "id": "404",
-         "group": 3
-      },
-      {
-         "id": "4102",
-         "group": 4
-      },
-      {
-         "id": "42359",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Bertrand Delacretaz",
          "value": 1,
-         "target": "4102",
-         "source": "42359"
+         "target": "John D. Ament"
       },
       {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "404",
-         "source": "4102"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "42359",
-         "source": "4102"
+         "target": "Bertrand Delacretaz"
       },
       {
+         "source": "Bertrand Delacretaz",
          "value": 1,
-         "target": "404",
-         "source": "42359"
+         "target": "Serge Huber"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "3571",
-         "source": "404"
+         "target": "Serge Huber"
       },
       {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "42359",
-         "source": "404"
+         "target": "Bertrand Delacretaz"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 2
+      },
+      {
+         "id": "John D. Ament",
+         "group": 4
+      },
+      {
+         "id": "Serge Huber",
+         "group": 2
+      },
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 1
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "6697",
-         "group": 3
-      },
-      {
-         "id": "6693",
-         "group": 1
-      },
-      {
-         "id": "6695",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "6693",
-         "source": "6697"
+         "source": "bmahe",
+         "value": 5,
+         "target": "abayer"
       },
       {
-         "value": 5,
-         "target": "6693",
-         "source": "6695"
+         "source": "rvs",
+         "value": 1,
+         "target": "abayer"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "abayer",
+         "group": 4
+      },
+      {
+         "id": "rvs",
+         "group": 1
+      },
+      {
+         "id": "bmahe",
+         "group": 3
       }
    ]
 }

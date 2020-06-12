@@ -1,57 +1,52 @@
 {
+   "links": [
+      {
+         "source": "yurize",
+         "value": 1,
+         "target": "Ali Lown"
+      },
+      {
+         "source": "yurize",
+         "value": 1,
+         "target": "al"
+      },
+      {
+         "source": "vjrj",
+         "value": 1,
+         "target": "Ali Lown"
+      },
+      {
+         "source": "al",
+         "value": 1,
+         "target": "Ali Lown"
+      },
+      {
+         "source": "al",
+         "value": 2,
+         "target": "vjrj"
+      },
+      {
+         "source": "yurize",
+         "value": 1,
+         "target": "vjrj"
+      }
+   ],
    "nodes": [
       {
-         "id": "42968",
+         "id": "yurize",
          "group": 2
       },
       {
-         "id": "42961",
+         "id": "al",
          "group": 3
       },
       {
-         "id": "42844",
-         "group": 4
+         "id": "vjrj",
+         "group": 3
       },
       {
-         "id": "42980",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42968",
-         "source": "42844"
-      },
-      {
-         "value": 1,
-         "target": "42961",
-         "source": "42968"
-      },
-      {
-         "value": 1,
-         "target": "42968",
-         "source": "42961"
-      },
-      {
-         "value": 1,
-         "target": "42968",
-         "source": "42980"
-      },
-      {
-         "value": 1,
-         "target": "42961",
-         "source": "42980"
-      },
-      {
-         "value": 1,
-         "target": "42961",
-         "source": "42844"
-      },
-      {
-         "value": 1,
-         "target": "42844",
-         "source": "42980"
+         "id": "Ali Lown",
+         "group": 2
       }
    ]
 }

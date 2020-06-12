@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "20164",
-         "group": 3
+         "source": "adamb",
+         "value": 1,
+         "target": "smarru"
       },
       {
-         "id": "1095",
+         "source": "Adam Berry",
+         "value": 6,
+         "target": "adamb"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Adam Berry",
          "group": 1
       },
       {
-         "id": "20165",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "1095",
-         "source": "20164"
+         "id": "adamb",
+         "group": 4
       },
       {
-         "value": 6,
-         "target": "20165",
-         "source": "20164"
+         "id": "smarru",
+         "group": 3
       }
    ]
 }

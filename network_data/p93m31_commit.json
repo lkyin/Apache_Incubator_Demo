@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "radu",
+         "value": 1,
+         "target": "wkeil"
+      },
+      {
+         "source": "rezan",
+         "value": 4,
+         "target": "wkeil"
+      }
+   ],
    "nodes": [
       {
-         "id": "12850",
+         "id": "radu",
          "group": 2
       },
       {
-         "id": "12845",
+         "id": "rezan",
+         "group": 2
+      },
+      {
+         "id": "wkeil",
          "group": 1
-      },
-      {
-         "id": "12844",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "12845",
-         "source": "12850"
-      },
-      {
-         "value": 1,
-         "target": "12844",
-         "source": "12850"
       }
    ]
 }

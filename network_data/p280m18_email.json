@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "419",
-         "group": 1
-      },
-      {
-         "id": "461",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Michael Duffy",
          "value": 2,
-         "target": "461",
-         "source": "419"
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
       },
       {
+         "source": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
          "value": 2,
-         "target": "419",
-         "source": "461"
+         "target": "Michael Duffy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 4
+      },
+      {
+         "id": "Michael Duffy",
+         "group": 1
       }
    ]
 }

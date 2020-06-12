@@ -1,62 +1,47 @@
 {
+   "links": [
+      {
+         "source": "jvazquez",
+         "value": 1,
+         "target": "cziegeler"
+      },
+      {
+         "source": "fmeschbe",
+         "value": 41,
+         "target": "cziegeler"
+      },
+      {
+         "source": "jvazquez",
+         "value": 2,
+         "target": "fmeschbe"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 7,
+         "target": "cziegeler"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 32,
+         "target": "fmeschbe"
+      }
+   ],
    "nodes": [
       {
-         "id": "36662",
+         "id": "bdelacretaz",
+         "group": 4
+      },
+      {
+         "id": "fmeschbe",
+         "group": 1
+      },
+      {
+         "id": "cziegeler",
          "group": 2
       },
       {
-         "id": "15018",
+         "id": "jvazquez",
          "group": 3
-      },
-      {
-         "id": "394",
-         "group": 1
-      },
-      {
-         "id": "398",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 37,
-         "target": "398",
-         "source": "15018"
-      },
-      {
-         "value": 2,
-         "target": "36662",
-         "source": "15018"
-      },
-      {
-         "value": 1,
-         "target": "398",
-         "source": "394"
-      },
-      {
-         "value": 6,
-         "target": "394",
-         "source": "398"
-      },
-      {
-         "value": 1,
-         "target": "398",
-         "source": "36662"
-      },
-      {
-         "value": 1,
-         "target": "15018",
-         "source": "394"
-      },
-      {
-         "value": 31,
-         "target": "394",
-         "source": "15018"
-      },
-      {
-         "value": 4,
-         "target": "15018",
-         "source": "398"
       }
    ]
 }

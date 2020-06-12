@@ -1,86 +1,81 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4133",
-         "group": 1
+         "source": "ramya",
+         "value": 2,
+         "target": "jitendra"
       },
       {
-         "id": "4130",
+         "source": "jitendra",
+         "value": 10,
+         "target": "ramya"
+      },
+      {
+         "source": "vgogate",
+         "value": 6,
+         "target": "hitesh"
+      },
+      {
+         "source": "ramya",
+         "value": 11,
+         "target": "omalley"
+      },
+      {
+         "source": "omalley",
+         "value": 5,
+         "target": "hitesh"
+      },
+      {
+         "source": "ramya",
+         "value": 12,
+         "target": "hitesh"
+      },
+      {
+         "source": "jitendra",
+         "value": 5,
+         "target": "vgogate"
+      },
+      {
+         "source": "ramya",
+         "value": 17,
+         "target": "vgogate"
+      },
+      {
+         "source": "vgogate",
+         "value": 12,
+         "target": "omalley"
+      },
+      {
+         "source": "jitendra",
+         "value": 4,
+         "target": "hitesh"
+      },
+      {
+         "source": "jitendra",
+         "value": 2,
+         "target": "omalley"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "hitesh",
          "group": 3
       },
       {
-         "id": "4134",
+         "id": "jitendra",
+         "group": 4
+      },
+      {
+         "id": "ramya",
          "group": 2
       },
       {
-         "id": "4132",
-         "group": 1
+         "id": "omalley",
+         "group": 3
       },
       {
-         "id": "4128",
+         "id": "vgogate",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "4134",
-         "source": "4128"
-      },
-      {
-         "value": 8,
-         "target": "4133",
-         "source": "4128"
-      },
-      {
-         "value": 6,
-         "target": "4134",
-         "source": "4130"
-      },
-      {
-         "value": 3,
-         "target": "4128",
-         "source": "4133"
-      },
-      {
-         "value": 2,
-         "target": "4132",
-         "source": "4128"
-      },
-      {
-         "value": 4,
-         "target": "4132",
-         "source": "4134"
-      },
-      {
-         "value": 11,
-         "target": "4134",
-         "source": "4133"
-      },
-      {
-         "value": 17,
-         "target": "4133",
-         "source": "4130"
-      },
-      {
-         "value": 12,
-         "target": "4132",
-         "source": "4133"
-      },
-      {
-         "value": 1,
-         "target": "4133",
-         "source": "4134"
-      },
-      {
-         "value": 5,
-         "target": "4132",
-         "source": "4130"
-      },
-      {
-         "value": 12,
-         "target": "4128",
-         "source": "4130"
       }
    ]
 }

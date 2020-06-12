@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "13433",
-         "group": 4
-      },
-      {
-         "id": "7662",
-         "group": 3
-      },
-      {
-         "id": "7628",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "7628",
-         "source": "13433"
-      },
-      {
+         "source": "David Ribeiro Alves",
          "value": 8,
-         "target": "7662",
-         "source": "13433"
+         "target": "jacques"
       },
       {
+         "source": "David Ribeiro Alves",
+         "value": 3,
+         "target": "Jacques Nadeau"
+      },
+      {
+         "source": "jacques",
          "value": 37,
-         "target": "7628",
-         "source": "7662"
+         "target": "Jacques Nadeau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Ribeiro Alves",
+         "group": 3
+      },
+      {
+         "id": "jacques",
+         "group": 3
+      },
+      {
+         "id": "Jacques Nadeau",
+         "group": 2
       }
    ]
 }

@@ -1,56 +1,56 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "27855",
-         "group": 4
+         "source": "Jason van Zyl",
+         "value": 4,
+         "target": "Shane Isbell"
       },
       {
-         "id": "27849",
+         "source": "Shane Isbell",
+         "value": 3,
+         "target": "Jason van Zyl"
+      },
+      {
+         "source": "Evan Worley",
+         "value": 1,
+         "target": "Wendy Smoak"
+      },
+      {
+         "source": "Shane Isbell",
+         "value": 2,
+         "target": "Evan Worley"
+      },
+      {
+         "source": "Evan Worley",
+         "value": 2,
+         "target": "Shane Isbell"
+      },
+      {
+         "source": "Amol Manjure",
+         "value": 1,
+         "target": "Evan Worley"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Evan Worley",
          "group": 1
       },
       {
-         "id": "11775",
+         "id": "Jason van Zyl",
          "group": 4
       },
       {
-         "id": "27846",
+         "id": "Shane Isbell",
          "group": 4
       },
       {
-         "id": "27843",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "27843",
-         "source": "27855"
+         "id": "Wendy Smoak",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "27849",
-         "source": "27843"
-      },
-      {
-         "value": 2,
-         "target": "27843",
-         "source": "27846"
-      },
-      {
-         "value": 2,
-         "target": "27846",
-         "source": "27843"
-      },
-      {
-         "value": 4,
-         "target": "27846",
-         "source": "11775"
-      },
-      {
-         "value": 3,
-         "target": "11775",
-         "source": "27846"
+         "id": "Amol Manjure",
+         "group": 1
       }
    ]
 }

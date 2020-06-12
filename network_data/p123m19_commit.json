@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "toffer",
+         "value": 9,
+         "target": "travis"
+      },
+      {
+         "source": "travis",
+         "value": 5,
+         "target": "avandana"
+      },
+      {
+         "source": "toffer",
+         "value": 1,
+         "target": "avandana"
+      }
+   ],
    "nodes": [
       {
-         "id": "19973",
+         "id": "toffer",
          "group": 2
       },
       {
-         "id": "19970",
-         "group": 4
+         "id": "travis",
+         "group": 1
       },
       {
-         "id": "19972",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "19972",
-         "source": "19973"
-      },
-      {
-         "value": 9,
-         "target": "19970",
-         "source": "19973"
-      },
-      {
-         "value": 1,
-         "target": "19972",
-         "source": "19970"
+         "id": "avandana",
+         "group": 2
       }
    ]
 }

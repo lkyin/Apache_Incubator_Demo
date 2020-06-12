@@ -1,47 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "1329",
-         "group": 3
-      },
-      {
-         "id": "1315",
-         "group": 3
-      },
-      {
-         "id": "1324",
-         "group": 4
-      },
-      {
-         "id": "1773",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 9,
-         "target": "1773",
-         "source": "1324"
+         "source": "Bolke de Bruin",
+         "value": 24,
+         "target": "Jeremiah Lowin"
       },
       {
-         "value": 31,
-         "target": "1773",
-         "source": "1329"
-      },
-      {
+         "source": "Bolke de Bruin",
          "value": 2,
-         "target": "1315",
-         "source": "1329"
+         "target": "Chris Riccomini"
       },
       {
-         "value": 13,
-         "target": "1324",
-         "source": "1329"
-      },
-      {
+         "source": "Dan Davydov",
          "value": 1,
-         "target": "1315",
-         "source": "1324"
+         "target": "Jeremiah Lowin"
+      },
+      {
+         "source": "Jeremiah Lowin",
+         "value": 8,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Dan Davydov",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 13,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Jeremiah Lowin",
+         "value": 7,
+         "target": "Bolke de Bruin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chris Riccomini",
+         "group": 4
+      },
+      {
+         "id": "Dan Davydov",
+         "group": 2
+      },
+      {
+         "id": "Bolke de Bruin",
+         "group": 1
+      },
+      {
+         "id": "Jeremiah Lowin",
+         "group": 2
       }
    ]
 }

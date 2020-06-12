@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "20232",
-         "group": 4
-      },
-      {
-         "id": "34238",
-         "group": 4
-      },
-      {
-         "id": "34230",
-         "group": 3
-      },
-      {
-         "id": "13432",
-         "group": 3
-      },
-      {
-         "id": "34223",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Matthieu Morel",
          "value": 1,
-         "target": "34223",
-         "source": "20232"
+         "target": "=?utf-8?q?Daniel_G=C3=B3mez_Ferro?="
       },
       {
-         "value": 1,
-         "target": "34238",
-         "source": "20232"
-      },
-      {
-         "value": 1,
-         "target": "13432",
-         "source": "34230"
-      },
-      {
+         "source": "=?utf-8?q?Daniel_G=C3=B3mez_Ferro?=",
          "value": 2,
-         "target": "20232",
-         "source": "34238"
+         "target": "Matthieu Morel"
+      },
+      {
+         "source": "=?ISO-8859-1?Q?Daniel_G=F3mez_Ferro?=",
+         "value": 1,
+         "target": "kishore g"
+      },
+      {
+         "source": "Matthieu Morel",
+         "value": 1,
+         "target": "Shailendra Mishra"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kishore g",
+         "group": 3
+      },
+      {
+         "id": "Matthieu Morel",
+         "group": 1
+      },
+      {
+         "id": "=?utf-8?q?Daniel_G=C3=B3mez_Ferro?=",
+         "group": 3
+      },
+      {
+         "id": "Shailendra Mishra",
+         "group": 3
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Daniel_G=F3mez_Ferro?=",
+         "group": 4
       }
    ]
 }

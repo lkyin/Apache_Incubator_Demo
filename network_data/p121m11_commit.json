@@ -1,90 +1,115 @@
 {
-   "nodes": [
-      {
-         "id": "18928",
-         "group": 4
-      },
-      {
-         "id": "18903",
-         "group": 4
-      },
-      {
-         "id": "18931",
-         "group": 3
-      },
-      {
-         "id": "18929",
-         "group": 3
-      },
-      {
-         "id": "18900",
-         "group": 4
-      },
-      {
-         "id": "1022",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "18929",
-         "source": "1022"
-      },
-      {
-         "value": 3,
-         "target": "18929",
-         "source": "18928"
-      },
-      {
+         "source": "tellison",
          "value": 4,
-         "target": "1022",
-         "source": "18931"
+         "target": "dlydick"
       },
       {
-         "value": 13,
-         "target": "18931",
-         "source": "18928"
+         "source": "tellison",
+         "value": 27,
+         "target": "mloenko"
       },
       {
-         "value": 28,
-         "target": "18903",
-         "source": "18928"
-      },
-      {
+         "source": "tellison",
          "value": 75,
-         "target": "1022",
-         "source": "18903"
+         "target": "geirm"
       },
       {
-         "value": 35,
-         "target": "18929",
-         "source": "18903"
-      },
-      {
-         "value": 1,
-         "target": "1022",
-         "source": "18928"
-      },
-      {
-         "value": 4,
-         "target": "18903",
-         "source": "18900"
-      },
-      {
+         "source": "mloenko",
          "value": 7,
-         "target": "18931",
-         "source": "18903"
+         "target": "smishura"
       },
       {
+         "source": "tellison",
+         "value": 28,
+         "target": "gharley"
+      },
+      {
+         "source": "smishura",
+         "value": 6,
+         "target": "mloenko"
+      },
+      {
+         "source": "gharley",
          "value": 1,
-         "target": "1022",
-         "source": "18900"
+         "target": "smishura"
       },
       {
+         "source": "gharley",
          "value": 2,
-         "target": "18929",
-         "source": "18931"
+         "target": "mloenko"
+      },
+      {
+         "source": "mloenko",
+         "value": 1,
+         "target": "gharley"
+      },
+      {
+         "source": "geirm",
+         "value": 1,
+         "target": "mloenko"
+      },
+      {
+         "source": "gharley",
+         "value": 7,
+         "target": "tellison"
+      },
+      {
+         "source": "dlydick",
+         "value": 1,
+         "target": "geirm"
+      },
+      {
+         "source": "smishura",
+         "value": 1,
+         "target": "gharley"
+      },
+      {
+         "source": "mloenko",
+         "value": 1,
+         "target": "tellison"
+      },
+      {
+         "source": "tellison",
+         "value": 7,
+         "target": "smishura"
+      },
+      {
+         "source": "geirm",
+         "value": 4,
+         "target": "smishura"
+      },
+      {
+         "source": "geirm",
+         "value": 1,
+         "target": "gharley"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gharley",
+         "group": 3
+      },
+      {
+         "id": "geirm",
+         "group": 1
+      },
+      {
+         "id": "mloenko",
+         "group": 3
+      },
+      {
+         "id": "tellison",
+         "group": 3
+      },
+      {
+         "id": "smishura",
+         "group": 3
+      },
+      {
+         "id": "dlydick",
+         "group": 1
       }
    ]
 }

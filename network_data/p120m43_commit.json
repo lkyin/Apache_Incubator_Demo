@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "6696",
-         "group": 1
+         "source": "tjungblut",
+         "value": 4,
+         "target": "tommaso"
       },
       {
-         "id": "18753",
+         "source": "tommaso",
+         "value": 4,
+         "target": "edwardyoon"
+      },
+      {
+         "source": "tjungblut",
+         "value": 39,
+         "target": "edwardyoon"
+      },
+      {
+         "source": "chl501",
+         "value": 1,
+         "target": "edwardyoon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tjungblut",
          "group": 3
       },
       {
-         "id": "18755",
+         "id": "tommaso",
          "group": 4
       },
       {
-         "id": "8874",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "8874",
-         "source": "18753"
+         "id": "chl501",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "18755",
-         "source": "6696"
-      },
-      {
-         "value": 39,
-         "target": "18753",
-         "source": "6696"
-      },
-      {
-         "value": 4,
-         "target": "8874",
-         "source": "6696"
+         "id": "edwardyoon",
+         "group": 4
       }
    ]
 }

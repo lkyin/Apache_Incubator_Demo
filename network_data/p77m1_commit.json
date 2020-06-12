@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "sfermigier",
+         "value": 8,
+         "target": "dpfister"
+      },
+      {
+         "source": "fguillaume",
+         "value": 12,
+         "target": "dpfister"
+      },
+      {
+         "source": "uncled",
+         "value": 1,
+         "target": "sfermigier"
+      },
+      {
+         "source": "fguillaume",
+         "value": 1,
+         "target": "uncled"
+      },
+      {
+         "source": "fguillaume",
+         "value": 17,
+         "target": "sfermigier"
+      },
+      {
+         "source": "paolo",
+         "value": 1,
+         "target": "uncled"
+      }
+   ],
    "nodes": [
       {
-         "id": "8695",
-         "group": 3
-      },
-      {
-         "id": "8697",
+         "id": "paolo",
          "group": 4
       },
       {
-         "id": "8698",
-         "group": 4
-      },
-      {
-         "id": "8696",
+         "id": "fguillaume",
          "group": 2
       },
       {
-         "id": "8693",
+         "id": "dpfister",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8697",
-         "source": "8695"
       },
       {
-         "value": 12,
-         "target": "8693",
-         "source": "8695"
+         "id": "sfermigier",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "8696",
-         "source": "8697"
-      },
-      {
-         "value": 17,
-         "target": "8696",
-         "source": "8695"
-      },
-      {
-         "value": 1,
-         "target": "8698",
-         "source": "8697"
-      },
-      {
-         "value": 8,
-         "target": "8693",
-         "source": "8696"
+         "id": "uncled",
+         "group": 4
       }
    ]
 }

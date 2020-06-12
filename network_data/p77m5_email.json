@@ -1,55 +1,55 @@
 {
-   "nodes": [
-      {
-         "id": "8720",
-         "group": 3
-      },
-      {
-         "id": "8733",
-         "group": 1
-      },
-      {
-         "id": "8710",
-         "group": 1
-      },
-      {
-         "id": "8732",
-         "group": 1
-      },
-      {
-         "id": "8728",
-         "group": 3
-      },
-      {
-         "id": "8715",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "8732",
-         "source": "8720"
-      },
-      {
+         "source": "Florent Guillaume (JIRA)",
          "value": 2,
-         "target": "8728",
-         "source": "8720"
+         "target": "Michael Mertins (JIRA)"
       },
       {
+         "source": "David Caruana",
          "value": 1,
-         "target": "8715",
-         "source": "8710"
+         "target": "Florent Guillaume"
       },
       {
+         "source": "Florent Guillaume",
          "value": 1,
-         "target": "8710",
-         "source": "8715"
+         "target": "David Caruana"
       },
       {
+         "source": "Florent Guillaume (JIRA)",
+         "value": 1,
+         "target": "Emanuele Lombardi (JIRA)"
+      },
+      {
+         "source": "Florent Guillaume",
          "value": 2,
-         "target": "8733",
-         "source": "8710"
+         "target": "Emanuele Lombardi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Emanuele Lombardi",
+         "group": 3
+      },
+      {
+         "id": "Florent Guillaume",
+         "group": 4
+      },
+      {
+         "id": "Emanuele Lombardi (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Michael Mertins (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "David Caruana",
+         "group": 3
+      },
+      {
+         "id": "Florent Guillaume (JIRA)",
+         "group": 1
       }
    ]
 }

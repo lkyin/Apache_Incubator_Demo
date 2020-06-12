@@ -1,71 +1,86 @@
 {
-   "nodes": [
-      {
-         "id": "24420",
-         "group": 3
-      },
-      {
-         "id": "24423",
-         "group": 3
-      },
-      {
-         "id": "24422",
-         "group": 1
-      },
-      {
-         "id": "24418",
-         "group": 2
-      },
-      {
-         "id": "24421",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 8,
-         "target": "24418",
-         "source": "24420"
+         "source": "bmahler",
+         "value": 9,
+         "target": "benh"
       },
       {
+         "source": "vinodkone",
+         "value": 7,
+         "target": "bmahler"
+      },
+      {
+         "source": "Vinod Kone",
+         "value": 8,
+         "target": "vinodkone"
+      },
+      {
+         "source": "bmahler",
+         "value": 10,
+         "target": "vinodkone"
+      },
+      {
+         "source": "benh",
+         "value": 8,
+         "target": "bmahler"
+      },
+      {
+         "source": "Benjamin Mahler",
+         "value": 2,
+         "target": "vinodkone"
+      },
+      {
+         "source": "vinodkone",
+         "value": 6,
+         "target": "benh"
+      },
+      {
+         "source": "Vinod Kone",
+         "value": 2,
+         "target": "benh"
+      },
+      {
+         "source": "Vinod Kone",
          "value": 3,
-         "target": "24421",
-         "source": "24422"
+         "target": "bmahler"
       },
       {
-         "value": 8,
-         "target": "24422",
-         "source": "24420"
-      },
-      {
+         "source": "Benjamin Mahler",
          "value": 1,
-         "target": "24423",
-         "source": "24422"
+         "target": "Vinod Kone"
       },
       {
-         "value": 17,
-         "target": "24421",
-         "source": "24418"
-      },
-      {
+         "source": "Benjamin Mahler",
          "value": 2,
-         "target": "24418",
-         "source": "24422"
+         "target": "bmahler"
       },
       {
+         "source": "benh",
          "value": 2,
-         "target": "24423",
-         "source": "24420"
+         "target": "vinodkone"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "benh",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "24421",
-         "source": "24423"
+         "id": "Benjamin Mahler",
+         "group": 3
       },
       {
-         "value": 17,
-         "target": "24421",
-         "source": "24420"
+         "id": "Vinod Kone",
+         "group": 4
+      },
+      {
+         "id": "bmahler",
+         "group": 3
+      },
+      {
+         "id": "vinodkone",
+         "group": 2
       }
    ]
 }

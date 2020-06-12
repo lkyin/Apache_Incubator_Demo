@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3341",
-         "group": 2
+         "source": "John D. Ament",
+         "value": 2,
+         "target": "Gour Saha"
       },
       {
-         "id": "3571",
+         "source": "Gour Saha",
+         "value": 1,
+         "target": "johndament"
+      },
+      {
+         "source": "Billie Rinaldi",
+         "value": 3,
+         "target": "Frank Kemmer"
+      },
+      {
+         "source": "Frank Kemmer",
+         "value": 3,
+         "target": "Billie Rinaldi"
+      },
+      {
+         "source": "Gour Saha",
+         "value": 1,
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Frank Kemmer",
          "group": 1
       },
       {
-         "id": "4164",
-         "group": 2
-      },
-      {
-         "id": "36515",
+         "id": "Billie Rinaldi",
          "group": 4
       },
       {
-         "id": "36654",
+         "id": "Gour Saha",
+         "group": 2
+      },
+      {
+         "id": "johndament",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "36515"
       },
       {
-         "value": 2,
-         "target": "36515",
-         "source": "3571"
-      },
-      {
-         "value": 3,
-         "target": "4164",
-         "source": "36654"
-      },
-      {
-         "value": 3,
-         "target": "36654",
-         "source": "4164"
-      },
-      {
-         "value": 1,
-         "target": "3341",
-         "source": "36515"
+         "id": "John D. Ament",
+         "group": 1
       }
    ]
 }

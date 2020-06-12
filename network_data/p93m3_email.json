@@ -1,78 +1,78 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12861",
-         "group": 2
+         "source": "Bertrand Delacretaz (Resolved) (JIRA)",
+         "value": 1,
+         "target": "Bertrand Delacretaz (Created) (JIRA)"
       },
       {
-         "id": "580",
+         "source": "Bertrand Delacretaz (Commented) (JIRA)",
+         "value": 1,
+         "target": "Bertrand Delacretaz (Created) (JIRA)"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Kevan Miller"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Tim Fernando"
+      },
+      {
+         "source": "Tim Fernando",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Diederik van Liere"
+      },
+      {
+         "source": "Bertrand Delacretaz (Updated) (JIRA)",
+         "value": 1,
+         "target": "Bertrand Delacretaz (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertrand Delacretaz",
          "group": 3
       },
       {
-         "id": "10269",
+         "id": "Bertrand Delacretaz (Updated) (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Kevan Miller",
          "group": 2
       },
       {
-         "id": "12860",
-         "group": 1
+         "id": "Diederik van Liere",
+         "group": 3
       },
       {
-         "id": "12838",
+         "id": "Bertrand Delacretaz (Commented) (JIRA)",
          "group": 4
       },
       {
-         "id": "12837",
+         "id": "Bertrand Delacretaz (Created) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Bertrand Delacretaz (Resolved) (JIRA)",
          "group": 2
       },
       {
-         "id": "404",
+         "id": "Tim Fernando",
          "group": 2
-      },
-      {
-         "id": "12839",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12837",
-         "source": "10269"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "12861"
-      },
-      {
-         "value": 1,
-         "target": "580",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "12837",
-         "source": "12838"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "580"
-      },
-      {
-         "value": 1,
-         "target": "12860",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "12837",
-         "source": "12839"
-      },
-      {
-         "value": 1,
-         "target": "12861",
-         "source": "404"
       }
    ]
 }

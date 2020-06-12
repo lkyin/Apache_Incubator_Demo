@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14121",
-         "group": 2
+         "source": "Hao Chen",
+         "value": 3,
+         "target": "jilin"
       },
       {
-         "id": "14129",
+         "source": "Hao Chen",
+         "value": 1,
+         "target": "Zhao, Qingwen"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 6,
+         "target": "hao"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Hao Chen",
          "group": 4
       },
       {
-         "id": "6464",
-         "group": 2
-      },
-      {
-         "id": "14123",
+         "id": "jilin",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "14123",
-         "source": "6464"
       },
       {
-         "value": 6,
-         "target": "6464",
-         "source": "14121"
+         "id": "hao",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "6464",
-         "source": "14129"
+         "id": "Zhao, Qingwen",
+         "group": 1
       }
    ]
 }

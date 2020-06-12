@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "dmg",
+         "value": 1,
+         "target": "JamesBognar"
+      },
+      {
+         "source": "JamesBognar",
+         "value": 1,
+         "target": "David Goddard"
+      },
+      {
+         "source": "JamesBognar",
+         "value": 170,
+         "target": "jamesbognar"
+      },
+      {
+         "source": "JamesBognar",
+         "value": 1,
+         "target": "Peter Haumer"
+      },
+      {
+         "source": "jamesbognar",
+         "value": 1,
+         "target": "David Goddard"
+      }
+   ],
    "nodes": [
       {
-         "id": "22903",
-         "group": 4
-      },
-      {
-         "id": "22894",
-         "group": 1
-      },
-      {
-         "id": "22899",
-         "group": 2
-      },
-      {
-         "id": "22902",
+         "id": "dmg",
          "group": 3
       },
       {
-         "id": "22901",
+         "id": "JamesBognar",
+         "group": 3
+      },
+      {
+         "id": "jamesbognar",
+         "group": 3
+      },
+      {
+         "id": "David Goddard",
+         "group": 1
+      },
+      {
+         "id": "Peter Haumer",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "22903",
-         "source": "22899"
-      },
-      {
-         "value": 1,
-         "target": "22901",
-         "source": "22899"
-      },
-      {
-         "value": 1,
-         "target": "22903",
-         "source": "22894"
-      },
-      {
-         "value": 170,
-         "target": "22899",
-         "source": "22894"
-      },
-      {
-         "value": 1,
-         "target": "22902",
-         "source": "22899"
       }
    ]
 }

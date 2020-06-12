@@ -1,61 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "402",
-         "group": 1
-      },
-      {
-         "id": "470",
-         "group": 4
-      },
-      {
-         "id": "404",
-         "group": 2
-      },
-      {
-         "id": "475",
-         "group": 4
-      },
-      {
-         "id": "405",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Marcel Offermans",
          "value": 33,
-         "target": "402",
-         "source": "405"
+         "target": "Toni Menzel"
       },
       {
-         "value": 99,
-         "target": "402",
-         "source": "404"
-      },
-      {
-         "value": 33,
-         "target": "405",
-         "source": "402"
-      },
-      {
+         "source": "=?UTF-8?Q?P=C5=99emek_Brada?=",
          "value": 1,
-         "target": "475",
-         "source": "402"
+         "target": "Marcel Offermans"
       },
       {
-         "value": 33,
-         "target": "404",
-         "source": "405"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "470"
-      },
-      {
+         "source": "Marcel Offermans",
          "value": 66,
-         "target": "404",
-         "source": "402"
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 33,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Irwin, Wayne"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 33,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 99,
+         "target": "Marcel Offermans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 3
+      },
+      {
+         "id": "=?UTF-8?Q?P=C5=99emek_Brada?=",
+         "group": 3
+      },
+      {
+         "id": "Irwin, Wayne",
+         "group": 3
+      },
+      {
+         "id": "Marcel Offermans",
+         "group": 3
+      },
+      {
+         "id": "Toni Menzel",
+         "group": 1
       }
    ]
 }

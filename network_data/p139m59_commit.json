@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "brushed",
+         "value": 1,
+         "target": "juanpablo"
+      },
+      {
+         "source": "florianh",
+         "value": 1,
+         "target": "juanpablo"
+      },
+      {
+         "source": "metskem",
+         "value": 1,
+         "target": "juanpablo"
+      },
+      {
+         "source": "brushed",
+         "value": 1,
+         "target": "florianh"
+      }
+   ],
    "nodes": [
       {
-         "id": "22456",
+         "id": "juanpablo",
          "group": 3
       },
       {
-         "id": "22455",
+         "id": "metskem",
          "group": 1
       },
       {
-         "id": "22454",
-         "group": 3
+         "id": "florianh",
+         "group": 1
       },
       {
-         "id": "22457",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "22457",
-         "source": "22454"
-      },
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22455"
-      },
-      {
-         "value": 1,
-         "target": "22455",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "22457",
-         "source": "22455"
+         "id": "brushed",
+         "group": 1
       }
    ]
 }

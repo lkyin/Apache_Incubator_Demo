@@ -1,158 +1,148 @@
 {
-   "nodes": [
-      {
-         "id": "37763",
-         "group": 4
-      },
-      {
-         "id": "37838",
-         "group": 1
-      },
-      {
-         "id": "8881",
-         "group": 4
-      },
-      {
-         "id": "8872",
-         "group": 3
-      },
-      {
-         "id": "37767",
-         "group": 1
-      },
-      {
-         "id": "37761",
-         "group": 3
-      },
-      {
-         "id": "37747",
-         "group": 3
-      },
-      {
-         "id": "37750",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "anuzzolese",
+         "value": 14,
+         "target": "fchrist"
+      },
+      {
+         "source": "ogrisel",
          "value": 1,
-         "target": "37763",
-         "source": "37767"
+         "target": "alexdma"
       },
       {
+         "source": "sinaci",
          "value": 1,
-         "target": "37838",
-         "source": "37763"
+         "target": "anuzzolese"
       },
       {
-         "value": 1,
-         "target": "8881",
-         "source": "37750"
-      },
-      {
-         "value": 1,
-         "target": "37767",
-         "source": "37761"
-      },
-      {
-         "value": 2,
-         "target": "37838",
-         "source": "8872"
-      },
-      {
-         "value": 1,
-         "target": "37763",
-         "source": "37761"
-      },
-      {
-         "value": 2,
-         "target": "37838",
-         "source": "37761"
-      },
-      {
-         "value": 1,
-         "target": "37763",
-         "source": "37838"
-      },
-      {
-         "value": 1,
-         "target": "37767",
-         "source": "37838"
-      },
-      {
+         "source": "alexdma",
          "value": 29,
-         "target": "37747",
-         "source": "37761"
+         "target": "fchrist"
       },
       {
-         "value": 14,
-         "target": "37761",
-         "source": "37763"
-      },
-      {
-         "value": 1,
-         "target": "37767",
-         "source": "8872"
-      },
-      {
-         "value": 14,
-         "target": "37747",
-         "source": "37763"
-      },
-      {
-         "value": 2,
-         "target": "8881",
-         "source": "37838"
-      },
-      {
-         "value": 1,
-         "target": "37750",
-         "source": "37761"
-      },
-      {
-         "value": 1,
-         "target": "37763",
-         "source": "37750"
-      },
-      {
-         "value": 1,
-         "target": "8881",
-         "source": "37761"
-      },
-      {
-         "value": 1,
-         "target": "37767",
-         "source": "37750"
-      },
-      {
-         "value": 1,
-         "target": "37750",
-         "source": "37838"
-      },
-      {
-         "value": 4,
-         "target": "8881",
-         "source": "37767"
-      },
-      {
-         "value": 24,
-         "target": "37838",
-         "source": "37767"
-      },
-      {
+         "source": "fchrist",
          "value": 9,
-         "target": "8881",
-         "source": "37747"
+         "target": "rwesten"
       },
       {
+         "source": "anuzzolese",
          "value": 1,
-         "target": "37763",
-         "source": "8881"
+         "target": "rwesten"
       },
       {
+         "source": "reto",
          "value": 1,
-         "target": "37767",
-         "source": "8881"
+         "target": "suat"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 1,
+         "target": "suat"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 1,
+         "target": "sinaci"
+      },
+      {
+         "source": "rwesten",
+         "value": 1,
+         "target": "suat"
+      },
+      {
+         "source": "ogrisel",
+         "value": 1,
+         "target": "suat"
+      },
+      {
+         "source": "ogrisel",
+         "value": 1,
+         "target": "rwesten"
+      },
+      {
+         "source": "rwesten",
+         "value": 1,
+         "target": "alexdma"
+      },
+      {
+         "source": "sinaci",
+         "value": 2,
+         "target": "reto"
+      },
+      {
+         "source": "sinaci",
+         "value": 2,
+         "target": "alexdma"
+      },
+      {
+         "source": "suat",
+         "value": 1,
+         "target": "alexdma"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 15,
+         "target": "alexdma"
+      },
+      {
+         "source": "suat",
+         "value": 4,
+         "target": "rwesten"
+      },
+      {
+         "source": "sinaci",
+         "value": 2,
+         "target": "rwesten"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 1,
+         "target": "ogrisel"
+      },
+      {
+         "source": "sinaci",
+         "value": 25,
+         "target": "suat"
+      },
+      {
+         "source": "sinaci",
+         "value": 1,
+         "target": "ogrisel"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sinaci",
+         "group": 1
+      },
+      {
+         "id": "reto",
+         "group": 1
+      },
+      {
+         "id": "fchrist",
+         "group": 3
+      },
+      {
+         "id": "suat",
+         "group": 2
+      },
+      {
+         "id": "anuzzolese",
+         "group": 3
+      },
+      {
+         "id": "ogrisel",
+         "group": 4
+      },
+      {
+         "id": "alexdma",
+         "group": 3
+      },
+      {
+         "id": "rwesten",
+         "group": 2
       }
    ]
 }

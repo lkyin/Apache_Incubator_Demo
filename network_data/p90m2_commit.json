@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "12121",
-         "group": 1
-      },
-      {
-         "id": "12123",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "mfojtik",
          "value": 9,
-         "target": "12123",
-         "source": "12121"
+         "target": "lutter"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mfojtik",
+         "group": 3
+      },
+      {
+         "id": "lutter",
+         "group": 1
       }
    ]
 }

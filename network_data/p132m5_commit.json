@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "21584",
-         "group": 1
-      },
-      {
-         "id": "15006",
-         "group": 3
-      },
-      {
-         "id": "21580",
-         "group": 1
-      },
-      {
-         "id": "21581",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 67,
-         "target": "21581",
-         "source": "15006"
-      },
-      {
+         "source": "mreutegg",
          "value": 5,
-         "target": "21581",
-         "source": "21584"
+         "target": "stefan"
       },
       {
-         "value": 46,
-         "target": "15006",
-         "source": "21584"
-      },
-      {
-         "value": 17,
-         "target": "21581",
-         "source": "21580"
-      },
-      {
+         "source": "tripod",
          "value": 2,
-         "target": "21584",
-         "source": "21580"
+         "target": "mreutegg"
       },
       {
+         "source": "fielding",
+         "value": 67,
+         "target": "stefan"
+      },
+      {
+         "source": "mreutegg",
+         "value": 46,
+         "target": "fielding"
+      },
+      {
+         "source": "tripod",
+         "value": 17,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
          "value": 21,
-         "target": "15006",
-         "source": "21580"
+         "target": "fielding"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
+         "group": 4
+      },
+      {
+         "id": "mreutegg",
+         "group": 2
+      },
+      {
+         "id": "fielding",
+         "group": 2
+      },
+      {
+         "id": "stefan",
+         "group": 1
       }
    ]
 }

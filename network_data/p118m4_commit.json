@@ -1,70 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "18300",
-         "group": 3
-      },
-      {
-         "id": "11924",
-         "group": 1
-      },
-      {
-         "id": "18287",
-         "group": 1
-      },
-      {
-         "id": "18288",
-         "group": 3
-      },
-      {
-         "id": "18290",
-         "group": 3
-      },
-      {
-         "id": "18289",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "paulk",
+         "value": 5,
+         "target": "pascalschumacher"
+      },
+      {
+         "source": "Cedric Champeau",
          "value": 4,
-         "target": "18288",
-         "source": "18287"
+         "target": "pascalschumacher"
       },
       {
+         "source": "paulk",
+         "value": 8,
+         "target": "Paul King"
+      },
+      {
+         "source": "Jochen Theodorou",
          "value": 1,
-         "target": "18289",
-         "source": "11924"
+         "target": "Paul King"
       },
       {
-         "value": 7,
-         "target": "11924",
-         "source": "18290"
-      },
-      {
+         "source": "Cedric Champeau",
          "value": 1,
-         "target": "18290",
-         "source": "18287"
+         "target": "paulk"
       },
       {
-         "value": 1,
-         "target": "18290",
-         "source": "11924"
-      },
-      {
+         "source": "Paul King",
          "value": 5,
-         "target": "18288",
-         "source": "18290"
+         "target": "pascalschumacher"
       },
       {
+         "source": "aalmiray",
          "value": 1,
-         "target": "11924",
-         "source": "18300"
+         "target": "Paul King"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "aalmiray",
+         "group": 1
       },
       {
-         "value": 5,
-         "target": "18288",
-         "source": "11924"
+         "id": "paulk",
+         "group": 4
+      },
+      {
+         "id": "Paul King",
+         "group": 3
+      },
+      {
+         "id": "pascalschumacher",
+         "group": 4
+      },
+      {
+         "id": "Cedric Champeau",
+         "group": 3
+      },
+      {
+         "id": "Jochen Theodorou",
+         "group": 2
       }
    ]
 }

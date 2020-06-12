@@ -1,48 +1,38 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "6697",
-         "group": 3
+         "source": "rvs",
+         "value": 1,
+         "target": "bmahe"
       },
       {
-         "id": "6693",
+         "source": "bmahe",
+         "value": 5,
+         "target": "abayer"
+      },
+      {
+         "source": "rvs",
+         "value": 8,
+         "target": "abayer"
+      },
+      {
+         "source": "bmahe",
+         "value": 5,
+         "target": "rvs"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rvs",
+         "group": 1
+      },
+      {
+         "id": "bmahe",
          "group": 2
       },
       {
-         "id": "6695",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "6697",
-         "source": "6695"
-      },
-      {
-         "value": 4,
-         "target": "6693",
-         "source": "6695"
-      },
-      {
-         "value": 1,
-         "target": "6697",
-         "source": "6693"
-      },
-      {
-         "value": 7,
-         "target": "6693",
-         "source": "6697"
-      },
-      {
-         "value": 2,
-         "target": "6695",
-         "source": "6697"
-      },
-      {
-         "value": 1,
-         "target": "6695",
-         "source": "6693"
+         "id": "abayer",
+         "group": 1
       }
    ]
 }

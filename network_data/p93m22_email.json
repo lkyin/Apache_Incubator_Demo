@@ -1,70 +1,70 @@
 {
-   "nodes": [
-      {
-         "id": "12867",
-         "group": 1
-      },
-      {
-         "id": "404",
-         "group": 3
-      },
-      {
-         "id": "10253",
-         "group": 1
-      },
-      {
-         "id": "12874",
-         "group": 2
-      },
-      {
-         "id": "12882",
-         "group": 3
-      },
-      {
-         "id": "12881",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "12874",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "12881"
-      },
-      {
+         "source": "Reza",
          "value": 2,
-         "target": "404",
-         "source": "12874"
+         "target": "Bertrand Delacretaz"
       },
       {
+         "source": "Radu Cotescu",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Radu Cotescu"
+      },
+      {
+         "source": "Andrew Savory",
+         "value": 1,
+         "target": "Radu Cotescu"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Radu Cotescu"
+      },
+      {
+         "source": "Werner Keil",
          "value": 2,
-         "target": "10253",
-         "source": "12867"
+         "target": "Andrew Savory"
       },
       {
+         "source": "Radu Cotescu",
          "value": 1,
-         "target": "12882",
-         "source": "404"
+         "target": "Bertrand Delacretaz"
       },
       {
+         "source": "Bertrand Delacretaz",
          "value": 1,
-         "target": "12881",
-         "source": "404"
+         "target": "Reza"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Reza",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "404",
-         "source": "12882"
+         "id": "Werner Keil",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "12881",
-         "source": "10253"
+         "id": "Bertrand Delacretaz",
+         "group": 3
+      },
+      {
+         "id": "Radu Cotescu",
+         "group": 4
+      },
+      {
+         "id": "Radu Cotescu",
+         "group": 1
+      },
+      {
+         "id": "Andrew Savory",
+         "group": 2
       }
    ]
 }

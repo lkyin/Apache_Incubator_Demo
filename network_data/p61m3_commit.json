@@ -1,69 +1,74 @@
 {
+   "links": [
+      {
+         "source": "mnuttall",
+         "value": 1,
+         "target": "ozzy"
+      },
+      {
+         "source": "awojtuniak",
+         "value": 1,
+         "target": "atk"
+      },
+      {
+         "source": "linsun",
+         "value": 1,
+         "target": "awojtuniak"
+      },
+      {
+         "source": "atk",
+         "value": 1,
+         "target": "awojtuniak"
+      },
+      {
+         "source": "not",
+         "value": 2,
+         "target": "gawor"
+      },
+      {
+         "source": "mnuttall",
+         "value": 1,
+         "target": "linsun"
+      },
+      {
+         "source": "not",
+         "value": 3,
+         "target": "linsun"
+      },
+      {
+         "source": "atk",
+         "value": 1,
+         "target": "linsun"
+      }
+   ],
    "nodes": [
       {
-         "id": "4947",
-         "group": 3
-      },
-      {
-         "id": "4935",
-         "group": 3
-      },
-      {
-         "id": "4944",
-         "group": 1
-      },
-      {
-         "id": "4952",
-         "group": 3
-      },
-      {
-         "id": "4942",
-         "group": 3
-      },
-      {
-         "id": "4948",
+         "id": "atk",
          "group": 2
       },
       {
-         "id": "4949",
+         "id": "awojtuniak",
+         "group": 2
+      },
+      {
+         "id": "ozzy",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4952",
-         "source": "4944"
       },
       {
-         "value": 2,
-         "target": "4935",
-         "source": "4947"
+         "id": "not",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4948",
-         "source": "4942"
+         "id": "mnuttall",
+         "group": 4
       },
       {
-         "value": 3,
-         "target": "4942",
-         "source": "4947"
+         "id": "gawor",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "4952",
-         "source": "4942"
-      },
-      {
-         "value": 2,
-         "target": "4949",
-         "source": "4948"
-      },
-      {
-         "value": 1,
-         "target": "4949",
-         "source": "4942"
+         "id": "linsun",
+         "group": 1
       }
    ]
 }

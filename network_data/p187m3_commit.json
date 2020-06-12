@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "julien",
+         "value": 1,
+         "target": "Tom White"
+      },
+      {
+         "source": "Tianshuo Deng",
+         "value": 1,
+         "target": "julien"
+      }
+   ],
    "nodes": [
       {
-         "id": "6044",
+         "id": "Tianshuo Deng",
+         "group": 1
+      },
+      {
+         "id": "julien",
          "group": 2
       },
       {
-         "id": "31046",
+         "id": "julien",
          "group": 3
       },
       {
-         "id": "31052",
+         "id": "Tom White",
          "group": 1
-      },
-      {
-         "id": "31044",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "31044",
-         "source": "31046"
-      },
-      {
-         "value": 1,
-         "target": "31052",
-         "source": "6044"
       }
    ]
 }

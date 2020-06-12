@@ -1,61 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42366",
-         "group": 3
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
-         "id": "42374",
+         "source": "Abdelkader Midani",
+         "value": 1,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Damien GAILLARD",
+         "value": 1,
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "Damien GAILLARD"
+      },
+      {
+         "source": "Abdelkader Midani",
+         "value": 1,
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "Serge Huber"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Damien GAILLARD",
          "group": 2
       },
       {
-         "id": "4102",
+         "id": "Thomas Draier",
+         "group": 1
+      },
+      {
+         "id": "Abdelkader Midani",
+         "group": 1
+      },
+      {
+         "id": "Serge Huber",
          "group": 3
       },
       {
-         "id": "42359",
-         "group": 1
-      },
-      {
-         "id": "42383",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42374",
-         "source": "42366"
-      },
-      {
-         "value": 1,
-         "target": "4102",
-         "source": "42366"
-      },
-      {
-         "value": 1,
-         "target": "4102",
-         "source": "42359"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42374"
-      },
-      {
-         "value": 1,
-         "target": "42383",
-         "source": "42374"
-      },
-      {
-         "value": 1,
-         "target": "42374",
-         "source": "42383"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "4102"
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 4
       }
    ]
 }

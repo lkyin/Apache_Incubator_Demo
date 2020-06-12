@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "12986",
-         "group": 2
-      },
-      {
-         "id": "207",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "adc",
          "value": 3,
-         "target": "207",
-         "source": "12986"
+         "target": "akarasulu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "adc",
+         "group": 3
+      },
+      {
+         "id": "akarasulu",
+         "group": 1
       }
    ]
 }

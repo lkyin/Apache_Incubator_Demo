@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "3571",
-         "group": 3
-      },
-      {
-         "id": "5136",
-         "group": 4
-      },
-      {
-         "id": "10015",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "10015",
-         "source": "5136"
-      },
-      {
+         "source": "Pan, Lei (398K)",
          "value": 1,
-         "target": "3571",
-         "source": "10015"
+         "target": "John D. Ament"
       },
       {
+         "source": "Mattmann, Chris A (3980)",
+         "value": 3,
+         "target": "Pan, Lei (398K)"
+      },
+      {
+         "source": "Pan, Lei (398K)",
          "value": 5,
-         "target": "5136",
-         "source": "10015"
+         "target": "Mattmann, Chris A (3980)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Pan, Lei (398K)",
+         "group": 1
+      },
+      {
+         "id": "Mattmann, Chris A (3980)",
+         "group": 1
+      },
+      {
+         "id": "John D. Ament",
+         "group": 2
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "lmccay",
+         "value": 1,
+         "target": "Kevin Minder"
+      },
+      {
+         "source": "lmccay",
+         "value": 2,
+         "target": "Larry McCay"
+      },
+      {
+         "source": "Kevin Minder",
+         "value": 1,
+         "target": "Larry McCay"
+      }
+   ],
    "nodes": [
       {
-         "id": "23256",
+         "id": "lmccay",
          "group": 4
       },
       {
-         "id": "23255",
+         "id": "Larry McCay",
+         "group": 3
+      },
+      {
+         "id": "Kevin Minder",
          "group": 2
-      },
-      {
-         "id": "23257",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "23255",
-         "source": "23256"
-      },
-      {
-         "value": 2,
-         "target": "23257",
-         "source": "23256"
-      },
-      {
-         "value": 1,
-         "target": "23257",
-         "source": "23255"
       }
    ]
 }

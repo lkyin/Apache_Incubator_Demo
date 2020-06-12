@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "15007",
-         "group": 3
-      },
-      {
-         "id": "401",
-         "group": 3
-      },
-      {
-         "id": "15010",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "furfari",
          "value": 1,
-         "target": "15010",
-         "source": "15007"
+         "target": "pauls"
       },
       {
+         "source": "furfari",
          "value": 1,
-         "target": "401",
-         "source": "15007"
+         "target": "rickhall"
       },
       {
+         "source": "pauls",
          "value": 1,
-         "target": "15010",
-         "source": "401"
+         "target": "rickhall"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "furfari",
+         "group": 1
+      },
+      {
+         "id": "pauls",
+         "group": 2
+      },
+      {
+         "id": "rickhall",
+         "group": 3
       }
    ]
 }

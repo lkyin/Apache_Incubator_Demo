@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "31568",
-         "group": 3
-      },
-      {
-         "id": "41",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "31568",
-         "source": "41"
+         "source": "Rusty Wright",
+         "value": 1,
+         "target": "Luciano Resende"
       },
       {
-         "value": 1,
-         "target": "41",
-         "source": "31568"
+         "source": "Luciano Resende",
+         "value": 2,
+         "target": "Rusty Wright"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Luciano Resende",
+         "group": 4
+      },
+      {
+         "id": "Rusty Wright",
+         "group": 4
       }
    ]
 }

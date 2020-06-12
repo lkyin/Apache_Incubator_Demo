@@ -1,66 +1,61 @@
 {
+   "links": [
+      {
+         "source": "wave",
+         "value": 1,
+         "target": "joes"
+      },
+      {
+         "source": "daisyguo",
+         "value": 1,
+         "target": "devinhan"
+      },
+      {
+         "source": "wave",
+         "value": 17,
+         "target": "robweir"
+      },
+      {
+         "source": "wave",
+         "value": 1,
+         "target": "daisyguo"
+      },
+      {
+         "source": "daisyguo",
+         "value": 1,
+         "target": "robweir"
+      },
+      {
+         "source": "wave",
+         "value": 2,
+         "target": "devinhan"
+      },
+      {
+         "source": "devinhan",
+         "value": 2,
+         "target": "robweir"
+      }
+   ],
    "nodes": [
       {
-         "id": "30830",
+         "id": "wave",
+         "group": 1
+      },
+      {
+         "id": "joes",
+         "group": 2
+      },
+      {
+         "id": "daisyguo",
          "group": 4
       },
       {
-         "id": "15569",
-         "group": 2
+         "id": "devinhan",
+         "group": 4
       },
       {
-         "id": "46745",
-         "group": 3
-      },
-      {
-         "id": "189",
-         "group": 2
-      },
-      {
-         "id": "29813",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "29813",
-         "source": "46745"
-      },
-      {
-         "value": 1,
-         "target": "46745",
-         "source": "30830"
-      },
-      {
-         "value": 1,
-         "target": "46745",
-         "source": "15569"
-      },
-      {
-         "value": 17,
-         "target": "29813",
-         "source": "15569"
-      },
-      {
-         "value": 1,
-         "target": "189",
-         "source": "15569"
-      },
-      {
-         "value": 1,
-         "target": "29813",
-         "source": "30830"
-      },
-      {
-         "value": 1,
-         "target": "15569",
-         "source": "46745"
-      },
-      {
-         "value": 1,
-         "target": "15569",
-         "source": "30830"
+         "id": "robweir",
+         "group": 4
       }
    ]
 }

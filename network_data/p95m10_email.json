@@ -1,86 +1,86 @@
 {
-   "nodes": [
-      {
-         "id": "403",
-         "group": 3
-      },
-      {
-         "id": "13010",
-         "group": 3
-      },
-      {
-         "id": "13017",
-         "group": 2
-      },
-      {
-         "id": "13056",
-         "group": 3
-      },
-      {
-         "id": "13003",
-         "group": 1
-      },
-      {
-         "id": "8778",
-         "group": 1
-      },
-      {
-         "id": "13031",
-         "group": 2
-      },
-      {
-         "id": "13037",
-         "group": 2
-      },
-      {
-         "id": "13001",
-         "group": 2
-      },
-      {
-         "id": "13059",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Alex Karasulu",
          "value": 1,
-         "target": "13031",
-         "source": "13010"
+         "target": "Vincent Tence"
       },
       {
+         "source": "Niclas Hedhman",
          "value": 1,
-         "target": "13017",
-         "source": "13010"
+         "target": "Wes McKean"
       },
       {
+         "source": "Alex Karasulu",
+         "value": 1,
+         "target": "Vincent Tence"
+      },
+      {
+         "source": "Brett Porter",
          "value": 2,
-         "target": "13001",
-         "source": "13010"
+         "target": "Wes McKean"
       },
       {
+         "source": "directory-dev",
          "value": 1,
-         "target": "13037",
-         "source": "13056"
+         "target": "jira"
       },
       {
-         "value": 1,
-         "target": "13010",
-         "source": "13003"
-      },
-      {
+         "source": "Alex Karasulu",
          "value": 2,
-         "target": "13001",
-         "source": "8778"
+         "target": "Wes McKean"
       },
       {
+         "source": "Nicola Ken Barozzi",
          "value": 1,
-         "target": "13001",
-         "source": "403"
+         "target": "Alex Karasulu"
       },
       {
+         "source": "Cimballi",
          "value": 1,
-         "target": "13001",
-         "source": "13059"
+         "target": "Wes McKean"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "directory-dev",
+         "group": 3
+      },
+      {
+         "id": "Alex Karasulu",
+         "group": 2
+      },
+      {
+         "id": "jira",
+         "group": 3
+      },
+      {
+         "id": "Vincent Tence",
+         "group": 3
+      },
+      {
+         "id": "Niclas Hedhman",
+         "group": 2
+      },
+      {
+         "id": "Cimballi",
+         "group": 4
+      },
+      {
+         "id": "Vincent Tence",
+         "group": 1
+      },
+      {
+         "id": "Nicola Ken Barozzi",
+         "group": 4
+      },
+      {
+         "id": "Brett Porter",
+         "group": 4
+      },
+      {
+         "id": "Wes McKean",
+         "group": 4
       }
    ]
 }

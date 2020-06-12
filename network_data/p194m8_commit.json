@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "takahiro-hagino",
+         "value": 11,
+         "target": "Shinsuke Sugaya"
+      },
+      {
+         "source": "Donald Szeto",
+         "value": 2,
+         "target": "donald"
+      }
+   ],
    "nodes": [
       {
-         "id": "31901",
+         "id": "takahiro-hagino",
+         "group": 2
+      },
+      {
+         "id": "Shinsuke Sugaya",
+         "group": 1
+      },
+      {
+         "id": "donald",
          "group": 4
       },
       {
-         "id": "31903",
+         "id": "Donald Szeto",
          "group": 3
-      },
-      {
-         "id": "31930",
-         "group": 3
-      },
-      {
-         "id": "31938",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "31938",
-         "source": "31930"
-      },
-      {
-         "value": 2,
-         "target": "31901",
-         "source": "31903"
       }
    ]
 }

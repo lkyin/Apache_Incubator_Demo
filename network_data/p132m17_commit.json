@@ -1,75 +1,75 @@
 {
-   "nodes": [
-      {
-         "id": "15018",
-         "group": 1
-      },
-      {
-         "id": "21588",
-         "group": 3
-      },
-      {
-         "id": "21581",
-         "group": 3
-      },
-      {
-         "id": "8694",
-         "group": 4
-      },
-      {
-         "id": "21580",
-         "group": 4
-      },
-      {
-         "id": "8693",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "21581",
-         "source": "21580"
-      },
-      {
+         "source": "stefan",
          "value": 2,
-         "target": "21581",
-         "source": "8693"
+         "target": "dpfister"
       },
       {
+         "source": "tripod",
+         "value": 2,
+         "target": "dpfister"
+      },
+      {
+         "source": "fmeschbe",
          "value": 1,
-         "target": "21581",
-         "source": "15018"
+         "target": "jukka"
       },
       {
+         "source": "angela",
          "value": 1,
-         "target": "8693",
-         "source": "15018"
+         "target": "jukka"
       },
       {
+         "source": "tripod",
          "value": 1,
-         "target": "21588",
-         "source": "8694"
+         "target": "stefan"
       },
       {
-         "value": 1,
-         "target": "21588",
-         "source": "15018"
-      },
-      {
+         "source": "jukka",
          "value": 3,
-         "target": "21581",
-         "source": "8694"
+         "target": "stefan"
       },
       {
-         "value": 2,
-         "target": "8693",
-         "source": "21580"
-      },
-      {
+         "source": "fmeschbe",
          "value": 1,
-         "target": "15018",
-         "source": "8694"
+         "target": "stefan"
+      },
+      {
+         "source": "fmeschbe",
+         "value": 1,
+         "target": "angela"
+      },
+      {
+         "source": "fmeschbe",
+         "value": 1,
+         "target": "dpfister"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
+         "group": 1
+      },
+      {
+         "id": "fmeschbe",
+         "group": 4
+      },
+      {
+         "id": "angela",
+         "group": 1
+      },
+      {
+         "id": "jukka",
+         "group": 2
+      },
+      {
+         "id": "stefan",
+         "group": 4
+      },
+      {
+         "id": "dpfister",
+         "group": 1
       }
    ]
 }

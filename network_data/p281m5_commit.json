@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "23232",
-         "group": 1
-      },
-      {
-         "id": "23231",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "spoole",
          "value": 307,
-         "target": "23231",
-         "source": "23232"
+         "target": "ccristal"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "spoole",
+         "group": 4
+      },
+      {
+         "id": "ccristal",
+         "group": 1
       }
    ]
 }

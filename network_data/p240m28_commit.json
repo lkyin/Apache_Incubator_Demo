@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "42185",
-         "group": 1
-      },
-      {
-         "id": "42188",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "cwiklik",
          "value": 1,
-         "target": "42188",
-         "source": "42185"
+         "target": "eae"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "eae",
+         "group": 3
+      },
+      {
+         "id": "cwiklik",
+         "group": 4
       }
    ]
 }

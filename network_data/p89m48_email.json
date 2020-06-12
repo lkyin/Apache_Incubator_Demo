@@ -1,46 +1,46 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12096",
-         "group": 3
+         "source": "Eyal Allweil via Review Board",
+         "value": 1,
+         "target": "Matthew Hayes"
       },
       {
-         "id": "12037",
+         "source": "Eyal Allweil via Review Board",
+         "value": 1,
+         "target": "Piyush Sharma"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Yuval Allweil"
+      },
+      {
+         "source": "Piyush Sharma",
+         "value": 1,
+         "target": "Eyal Allweil (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Yuval Allweil",
          "group": 1
       },
       {
-         "id": "12020",
+         "id": "Matthew Hayes",
          "group": 2
       },
       {
-         "id": "12107",
+         "id": "Piyush Sharma",
+         "group": 2
+      },
+      {
+         "id": "Eyal Allweil (JIRA)",
          "group": 3
       },
       {
-         "id": "12041",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12041",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "12037",
-         "source": "12107"
-      },
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "12107"
-      },
-      {
-         "value": 1,
-         "target": "12096",
-         "source": "12037"
+         "id": "Eyal Allweil via Review Board",
+         "group": 1
       }
    ]
 }

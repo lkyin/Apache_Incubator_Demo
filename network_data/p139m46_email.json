@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "22468",
-         "group": 1
-      },
-      {
-         "id": "22559",
-         "group": 2
-      },
-      {
-         "id": "22767",
-         "group": 1
-      },
-      {
-         "id": "7428",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Dirk Frederickx (JIRA)",
          "value": 1,
-         "target": "22559",
-         "source": "22468"
+         "target": "Karl Hansen (JIRA)"
       },
       {
+         "source": "Harry Metske",
          "value": 1,
-         "target": "22767",
-         "source": "7428"
+         "target": "satya swaroop"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Karl Hansen (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "satya swaroop",
+         "group": 1
+      },
+      {
+         "id": "Dirk Frederickx (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Harry Metske",
+         "group": 1
       }
    ]
 }

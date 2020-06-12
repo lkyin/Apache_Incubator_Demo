@@ -1,84 +1,79 @@
 {
+   "links": [
+      {
+         "source": "shuber",
+         "value": 1,
+         "target": "dgaillard"
+      },
+      {
+         "source": "dgaillard",
+         "value": 3,
+         "target": "draier"
+      },
+      {
+         "source": "shuber",
+         "value": 1,
+         "target": "draier"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 2,
+         "target": "Francois Papon"
+      },
+      {
+         "source": "draier",
+         "value": 2,
+         "target": "dgaillard"
+      },
+      {
+         "source": "tdraier",
+         "value": 2,
+         "target": "shuber"
+      },
+      {
+         "source": "tdraier",
+         "value": 6,
+         "target": "draier"
+      },
+      {
+         "source": "tdraier",
+         "value": 18,
+         "target": "dgaillard"
+      },
+      {
+         "source": "tdraier",
+         "value": 1,
+         "target": "dgaillard"
+      }
+   ],
    "nodes": [
       {
-         "id": "42425",
+         "id": "tdraier",
+         "group": 3
+      },
+      {
+         "id": "dgaillard",
          "group": 2
       },
       {
-         "id": "42380",
-         "group": 1
-      },
-      {
-         "id": "42356",
+         "id": "shuber",
          "group": 4
       },
       {
-         "id": "42358",
-         "group": 4
+         "id": "draier",
+         "group": 2
       },
       {
-         "id": "42355",
-         "group": 4
+         "id": "Serge Huber",
+         "group": 2
       },
       {
-         "id": "42423",
+         "id": "dgaillard",
          "group": 3
       },
       {
-         "id": "42363",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "42425",
-         "source": "42356"
-      },
-      {
-         "value": 2,
-         "target": "42425",
-         "source": "42355"
-      },
-      {
-         "value": 1,
-         "target": "42355",
-         "source": "42356"
-      },
-      {
-         "value": 1,
-         "target": "42425",
-         "source": "42380"
-      },
-      {
-         "value": 17,
-         "target": "42380",
-         "source": "42425"
-      },
-      {
-         "value": 2,
-         "target": "42363",
-         "source": "42423"
-      },
-      {
-         "value": 1,
-         "target": "42425",
-         "source": "42358"
-      },
-      {
-         "value": 3,
-         "target": "42380",
-         "source": "42356"
-      },
-      {
-         "value": 2,
-         "target": "42358",
-         "source": "42356"
-      },
-      {
-         "value": 1,
-         "target": "42380",
-         "source": "42355"
+         "id": "Francois Papon",
+         "group": 2
       }
    ]
 }

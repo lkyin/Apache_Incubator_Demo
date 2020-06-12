@@ -1,76 +1,66 @@
 {
+   "links": [
+      {
+         "source": "nslater",
+         "value": 3,
+         "target": "jchris"
+      },
+      {
+         "source": "jan",
+         "value": 2,
+         "target": "jchris"
+      },
+      {
+         "source": "nslater",
+         "value": 1,
+         "target": "cmlenz"
+      },
+      {
+         "source": "damien",
+         "value": 1,
+         "target": "jan"
+      },
+      {
+         "source": "cmlenz",
+         "value": 1,
+         "target": "jchris"
+      },
+      {
+         "source": "jan",
+         "value": 1,
+         "target": "cmlenz"
+      },
+      {
+         "source": "damien",
+         "value": 5,
+         "target": "jchris"
+      },
+      {
+         "source": "nslater",
+         "value": 2,
+         "target": "jan"
+      }
+   ],
    "nodes": [
       {
-         "id": "9263",
+         "id": "nslater",
          "group": 1
       },
       {
-         "id": "11361",
-         "group": 2
-      },
-      {
-         "id": "11362",
+         "id": "cmlenz",
          "group": 3
       },
       {
-         "id": "11365",
-         "group": 1
-      },
-      {
-         "id": "11363",
+         "id": "damien",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "11365",
-         "source": "11362"
       },
       {
-         "value": 1,
-         "target": "9263",
-         "source": "11363"
+         "id": "jan",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "9263",
-         "source": "11361"
-      },
-      {
-         "value": 1,
-         "target": "9263",
-         "source": "11365"
-      },
-      {
-         "value": 1,
-         "target": "11363",
-         "source": "9263"
-      },
-      {
-         "value": 2,
-         "target": "11365",
-         "source": "11363"
-      },
-      {
-         "value": 1,
-         "target": "11363",
-         "source": "11361"
-      },
-      {
-         "value": 1,
-         "target": "11365",
-         "source": "11361"
-      },
-      {
-         "value": 2,
-         "target": "11365",
-         "source": "9263"
-      },
-      {
-         "value": 1,
-         "target": "11363",
-         "source": "11362"
+         "id": "jchris",
+         "group": 2
       }
    ]
 }

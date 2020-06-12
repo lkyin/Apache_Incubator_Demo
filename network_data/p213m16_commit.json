@@ -1,38 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "15018",
-         "group": 3
+         "source": "fmeschbe",
+         "value": 2,
+         "target": "cziegeler"
       },
       {
-         "id": "394",
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "cziegeler"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "fmeschbe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
          "group": 4
       },
       {
-         "id": "398",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "398",
-         "source": "15018"
+         "id": "fmeschbe",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "394",
-         "source": "15018"
-      },
-      {
-         "value": 1,
-         "target": "394",
-         "source": "398"
-      },
-      {
-         "value": 1,
-         "target": "15018",
-         "source": "398"
+         "id": "cziegeler",
+         "group": 3
       }
    ]
 }

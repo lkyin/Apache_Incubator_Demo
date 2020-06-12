@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "10163",
-         "group": 1
-      },
-      {
-         "id": "11265",
-         "group": 1
-      },
-      {
-         "id": "10356",
-         "group": 1
-      },
-      {
-         "id": "33315",
-         "group": 2
-      },
-      {
-         "id": "10100",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "10163",
-         "source": "11265"
+         "target": "Raymond Camden"
       },
       {
+         "source": "JR",
          "value": 1,
-         "target": "10100",
-         "source": "33315"
+         "target": "Gord Tanner"
       },
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "11265",
-         "source": "10100"
+         "target": "Dan Silivestru"
       },
       {
+         "source": "Dan Silivestru",
          "value": 1,
-         "target": "10356",
-         "source": "11265"
+         "target": "JR"
       },
       {
+         "source": "Gord Tanner",
          "value": 1,
-         "target": "33315",
-         "source": "10356"
+         "target": "Brent Lintner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gord Tanner",
+         "group": 3
+      },
+      {
+         "id": "JR",
+         "group": 2
+      },
+      {
+         "id": "Brent Lintner",
+         "group": 1
+      },
+      {
+         "id": "Dan Silivestru",
+         "group": 4
+      },
+      {
+         "id": "Raymond Camden",
+         "group": 2
       }
    ]
 }

@@ -1,75 +1,75 @@
 {
-   "nodes": [
-      {
-         "id": "34585",
-         "group": 2
-      },
-      {
-         "id": "479",
-         "group": 3
-      },
-      {
-         "id": "31257",
-         "group": 2
-      },
-      {
-         "id": "142",
-         "group": 3
-      },
-      {
-         "id": "180",
-         "group": 4
-      },
-      {
-         "id": "34588",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Carsten Ziegeler",
          "value": 1,
-         "target": "34588",
-         "source": "180"
+         "target": "Charles Matthew Chen"
       },
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "180",
-         "source": "34585"
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "34585",
-         "source": "180"
+         "target": "Jeremias Maerki"
       },
       {
+         "source": "Jeremias Maerki",
          "value": 2,
-         "target": "180",
-         "source": "479"
+         "target": "Carsten Ziegeler"
       },
       {
-         "value": 1,
-         "target": "479",
-         "source": "31257"
-      },
-      {
+         "source": "=?UTF-8?B?RW5kcmUgU3TDuGxzdmlr?=",
          "value": 2,
-         "target": "34585",
-         "source": "34588"
+         "target": "Charles Matthew Chen"
       },
       {
+         "source": "Jukka Zitting",
          "value": 1,
-         "target": "142",
-         "source": "479"
+         "target": "Jeremias Maerki"
       },
       {
+         "source": "Jeremias Maerki",
          "value": 1,
-         "target": "479",
-         "source": "34585"
+         "target": "Jukka Zitting"
       },
       {
+         "source": "Carsten Ziegeler",
          "value": 1,
-         "target": "479",
-         "source": "142"
+         "target": "=?UTF-8?B?RW5kcmUgU3TDuGxzdmlr?="
+      },
+      {
+         "source": "Philipp Koch",
+         "value": 1,
+         "target": "Jeremias Maerki"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?B?RW5kcmUgU3TDuGxzdmlr?=",
+         "group": 3
+      },
+      {
+         "id": "Jukka Zitting",
+         "group": 3
+      },
+      {
+         "id": "Jeremias Maerki",
+         "group": 2
+      },
+      {
+         "id": "Carsten Ziegeler",
+         "group": 4
+      },
+      {
+         "id": "Charles Matthew Chen",
+         "group": 4
+      },
+      {
+         "id": "Philipp Koch",
+         "group": 2
       }
    ]
 }

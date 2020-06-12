@@ -1,113 +1,113 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "28768",
-         "group": 1
+         "source": "Tommaso Teofili",
+         "value": 2,
+         "target": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?="
       },
       {
-         "id": "12856",
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Scott Wilson"
+      },
+      {
+         "source": "Scott Wilson",
+         "value": 1,
+         "target": "Maciej Machulak"
+      },
+      {
+         "source": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
+         "value": 1,
+         "target": "Simone Tripodi"
+      },
+      {
+         "source": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
+         "value": 1,
+         "target": "Henry Saputra"
+      },
+      {
+         "source": "Henry Saputra",
+         "value": 1,
+         "target": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?="
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Maciej Machulak"
+      },
+      {
+         "source": "Pid",
+         "value": 3,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?="
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Simone Tripodi"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Maciej Machulak"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "=?ISO-8859-2?B?o3VrYXN6IE1vcmXx?=",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maciej Machulak",
          "group": 4
       },
       {
-         "id": "5137",
-         "group": 3
+         "id": "Tommaso Teofili",
+         "group": 2
       },
       {
-         "id": "28770",
+         "id": "Scott Wilson",
+         "group": 2
+      },
+      {
+         "id": "Simone Tripodi",
          "group": 1
       },
       {
-         "id": "4488",
+         "id": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
          "group": 3
       },
       {
-         "id": "17351",
+         "id": "Henry Saputra",
          "group": 3
       },
       {
-         "id": "28769",
-         "group": 3
+         "id": "Pid",
+         "group": 1
       },
       {
-         "id": "7574",
+         "id": "=?ISO-8859-2?B?o3VrYXN6IE1vcmXx?=",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "28768",
-         "source": "7574"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "28768"
-      },
-      {
-         "value": 1,
-         "target": "28769",
-         "source": "17351"
-      },
-      {
-         "value": 2,
-         "target": "28768",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "12856",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "7574",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "28769",
-         "source": "12856"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "7574"
-      },
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "28770"
-      },
-      {
-         "value": 1,
-         "target": "28768",
-         "source": "5137"
-      },
-      {
-         "value": 1,
-         "target": "5137",
-         "source": "28768"
-      },
-      {
-         "value": 1,
-         "target": "28769",
-         "source": "7574"
-      },
-      {
-         "value": 1,
-         "target": "7574",
-         "source": "28768"
-      },
-      {
-         "value": 3,
-         "target": "4488",
-         "source": "17351"
       }
    ]
 }

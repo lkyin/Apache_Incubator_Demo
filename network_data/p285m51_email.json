@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3341",
-         "group": 4
+         "source": "Alan Cabrera",
+         "value": 1,
+         "target": "johndament"
       },
       {
-         "id": "16572",
+         "source": "Alan Cabrera",
+         "value": 1,
+         "target": "Fegaras, Leonidas"
+      },
+      {
+         "source": "Fegaras, Leonidas",
+         "value": 1,
+         "target": "Alan Cabrera"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Fegaras, Leonidas",
          "group": 1
       },
       {
-         "id": "8842",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3341",
-         "source": "8842"
+         "id": "Alan Cabrera",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "16572",
-         "source": "8842"
-      },
-      {
-         "value": 1,
-         "target": "8842",
-         "source": "16572"
+         "id": "johndament",
+         "group": 4
       }
    ]
 }

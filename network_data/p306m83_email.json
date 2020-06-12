@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "3341",
-         "group": 3
-      },
-      {
-         "id": "3571",
-         "group": 3
-      },
-      {
-         "id": "43057",
-         "group": 3
-      },
-      {
-         "id": "42988",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Pablo Ojanguren",
          "value": 1,
-         "target": "3571",
-         "source": "42988"
+         "target": "John D. Ament"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "3341",
-         "source": "43057"
+         "target": "johndament"
       },
       {
+         "source": "Yuri Z",
          "value": 1,
-         "target": "3341",
-         "source": "3571"
+         "target": "John D. Ament"
       },
       {
+         "source": "Yuri Z",
          "value": 1,
-         "target": "3571",
-         "source": "43057"
+         "target": "johndament"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "43057",
-         "source": "3571"
+         "target": "Yuri Z"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Yuri Z",
+         "group": 1
+      },
+      {
+         "id": "Pablo Ojanguren",
+         "group": 2
+      },
+      {
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "johndament",
+         "group": 4
       }
    ]
 }

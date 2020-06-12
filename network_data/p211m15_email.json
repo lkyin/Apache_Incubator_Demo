@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "580",
-         "group": 4
-      },
-      {
-         "id": "206",
-         "group": 1
-      },
-      {
-         "id": "370",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Kevan Miller",
          "value": 1,
-         "target": "580",
-         "source": "370"
+         "target": "no-reply"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "206",
-         "source": "580"
+         "target": "Kevan Miller"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
+         "group": 2
+      },
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 3
+      },
+      {
+         "id": "Kevan Miller",
+         "group": 4
       }
    ]
 }

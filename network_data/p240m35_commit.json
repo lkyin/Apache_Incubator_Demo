@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "cwiklik",
+         "value": 1,
+         "target": "eae"
+      },
+      {
+         "source": "schor",
+         "value": 5,
+         "target": "joern"
+      }
+   ],
    "nodes": [
       {
-         "id": "42185",
+         "id": "eae",
          "group": 2
       },
       {
-         "id": "42188",
+         "id": "schor",
          "group": 3
       },
       {
-         "id": "29745",
-         "group": 1
+         "id": "joern",
+         "group": 2
       },
       {
-         "id": "42182",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42188",
-         "source": "42185"
-      },
-      {
-         "value": 5,
-         "target": "42182",
-         "source": "29745"
+         "id": "cwiklik",
+         "group": 4
       }
    ]
 }

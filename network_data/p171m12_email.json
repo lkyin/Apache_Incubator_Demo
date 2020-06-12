@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "john pradeep",
+         "value": 1,
+         "target": "Jean-Sebastien Delfino"
+      },
+      {
+         "source": "john pradeep",
+         "value": 1,
+         "target": "Pasindu Gunarathne"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "Pasindu Gunarathne"
+      },
+      {
+         "source": "Jean-Sebastien Delfino",
+         "value": 2,
+         "target": "john pradeep"
+      },
+      {
+         "source": "Jean-Sebastien Delfino",
+         "value": 1,
+         "target": "john pradeep"
+      }
+   ],
    "nodes": [
       {
-         "id": "28225",
+         "id": "Pasindu Gunarathne",
+         "group": 1
+      },
+      {
+         "id": "john pradeep",
+         "group": 1
+      },
+      {
+         "id": "Luciano Resende",
          "group": 2
       },
       {
-         "id": "28224",
-         "group": 2
-      },
-      {
-         "id": "12138",
-         "group": 3
-      },
-      {
-         "id": "12966",
+         "id": "Jean-Sebastien Delfino",
          "group": 4
       },
       {
-         "id": "41",
+         "id": "Jean-Sebastien Delfino",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "12966",
-         "source": "12138"
-      },
-      {
-         "value": 1,
-         "target": "12966",
-         "source": "28224"
-      },
-      {
-         "value": 1,
-         "target": "28224",
-         "source": "12966"
-      },
-      {
-         "value": 1,
-         "target": "28225",
-         "source": "41"
-      },
-      {
-         "value": 1,
-         "target": "28225",
-         "source": "12966"
       }
    ]
 }

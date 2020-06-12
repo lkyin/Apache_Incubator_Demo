@@ -1,56 +1,66 @@
 {
+   "links": [
+      {
+         "source": "mmerz",
+         "value": 3,
+         "target": "ekoneil"
+      },
+      {
+         "source": "ekoneil",
+         "value": 6,
+         "target": "steveh"
+      },
+      {
+         "source": "kylem",
+         "value": 2,
+         "target": "ekoneil"
+      },
+      {
+         "source": "ekoneil",
+         "value": 1,
+         "target": "rich"
+      },
+      {
+         "source": "rich",
+         "value": 1,
+         "target": "ekoneil"
+      },
+      {
+         "source": "rich",
+         "value": 1,
+         "target": "steveh"
+      },
+      {
+         "source": "steveh",
+         "value": 2,
+         "target": "ekoneil"
+      },
+      {
+         "source": "steveh",
+         "value": 1,
+         "target": "mmerz"
+      }
+   ],
    "nodes": [
       {
-         "id": "6479",
+         "id": "rich",
+         "group": 4
+      },
+      {
+         "id": "steveh",
+         "group": 1
+      },
+      {
+         "id": "ekoneil",
          "group": 2
       },
       {
-         "id": "6474",
-         "group": 1
+         "id": "mmerz",
+         "group": 2
       },
       {
-         "id": "6476",
-         "group": 1
-      },
-      {
-         "id": "6482",
-         "group": 1
-      },
-      {
-         "id": "6468",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "6468",
-         "source": "6482"
-      },
-      {
-         "value": 8,
-         "target": "6468",
-         "source": "6474"
-      },
-      {
-         "value": 2,
-         "target": "6468",
-         "source": "6476"
-      },
-      {
-         "value": 2,
-         "target": "6468",
-         "source": "6479"
-      },
-      {
-         "value": 1,
-         "target": "6476",
-         "source": "6474"
-      },
-      {
-         "value": 1,
-         "target": "6482",
-         "source": "6474"
+         "id": "kylem",
+         "group": 3
       }
    ]
 }

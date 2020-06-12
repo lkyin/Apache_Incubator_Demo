@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "3571",
-         "group": 2
-      },
-      {
-         "id": "16569",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Leonidas Fegaras",
          "value": 1,
-         "target": "3571",
-         "source": "16569"
+         "target": "John D. Ament"
       },
       {
+         "source": "John D. Ament",
          "value": 2,
-         "target": "16569",
-         "source": "3571"
+         "target": "Leonidas Fegaras"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "John D. Ament",
+         "group": 2
+      },
+      {
+         "id": "Leonidas Fegaras",
+         "group": 1
       }
    ]
 }

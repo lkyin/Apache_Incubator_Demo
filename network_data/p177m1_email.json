@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8608",
-         "group": 4
+         "source": "Chris Mattmann",
+         "value": 3,
+         "target": "Justin Erenkrantz"
       },
       {
-         "id": "28939",
+         "source": "Mattmann, Chris A (388J)",
+         "value": 6,
+         "target": "Justin Erenkrantz"
+      },
+      {
+         "source": "Sean Kelly",
+         "value": 1,
+         "target": "Justin Erenkrantz"
+      },
+      {
+         "source": "Justin Erenkrantz",
+         "value": 4,
+         "target": "Chris Mattmann"
+      },
+      {
+         "source": "Justin Erenkrantz",
+         "value": 4,
+         "target": "Mattmann, Chris A (388J)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mattmann, Chris A (388J)",
          "group": 1
       },
       {
-         "id": "370",
-         "group": 4
+         "id": "Chris Mattmann",
+         "group": 1
       },
       {
-         "id": "5135",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8608",
-         "source": "28939"
+         "id": "Justin Erenkrantz",
+         "group": 3
       },
       {
-         "value": 4,
-         "target": "5135",
-         "source": "8608"
-      },
-      {
-         "value": 4,
-         "target": "370",
-         "source": "8608"
-      },
-      {
-         "value": 3,
-         "target": "8608",
-         "source": "5135"
-      },
-      {
-         "value": 6,
-         "target": "8608",
-         "source": "370"
+         "id": "Sean Kelly",
+         "group": 2
       }
    ]
 }

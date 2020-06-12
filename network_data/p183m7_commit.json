@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "29747",
-         "group": 2
-      },
-      {
-         "id": "29748",
-         "group": 2
-      },
-      {
-         "id": "29745",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "29745",
-         "source": "29747"
+         "source": "jbaldrid",
+         "value": 1,
+         "target": "joern"
       },
       {
-         "value": 1,
-         "target": "29745",
-         "source": "29748"
+         "source": "colen",
+         "value": 3,
+         "target": "joern"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jbaldrid",
+         "group": 1
+      },
+      {
+         "id": "colen",
+         "group": 1
+      },
+      {
+         "id": "joern",
+         "group": 1
       }
    ]
 }

@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "308",
-         "group": 2
-      },
-      {
-         "id": "11681",
-         "group": 3
-      },
-      {
-         "id": "1135",
-         "group": 3
-      },
-      {
-         "id": "38896",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Ate Douma",
          "value": 1,
-         "target": "308",
-         "source": "1135"
+         "target": "Marvin"
       },
       {
+         "source": "Matt Franklin",
          "value": 1,
-         "target": "38896",
-         "source": "11681"
+         "target": "Danny Sullivan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matt Franklin",
+         "group": 4
+      },
+      {
+         "id": "Danny Sullivan",
+         "group": 3
+      },
+      {
+         "id": "Ate Douma",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 3
       }
    ]
 }

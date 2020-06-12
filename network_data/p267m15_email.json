@@ -1,59 +1,59 @@
 {
-   "nodes": [
-      {
-         "id": "13688",
-         "group": 4
-      },
-      {
-         "id": "13710",
-         "group": 1
-      },
-      {
-         "id": "7140",
-         "group": 2
-      },
-      {
-         "id": "5189",
-         "group": 2
-      },
-      {
-         "id": "13702",
-         "group": 4
-      },
-      {
-         "id": "13701",
-         "group": 1
-      },
-      {
-         "id": "13733",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Thorsten Scherler (JIRA)",
+         "value": 1,
+         "target": "Gavin (JIRA)"
+      },
+      {
+         "source": "Gavin (JIRA)",
          "value": 2,
-         "target": "13702",
-         "source": "5189"
+         "target": "Ryan McKinley (JIRA)"
       },
       {
+         "source": "Thorsten Scherler",
          "value": 1,
-         "target": "5189",
-         "source": "13701"
+         "target": "Lukas, Ray"
       },
       {
+         "source": "Thorsten Scherler (JIRA)",
          "value": 1,
-         "target": "13710",
-         "source": "13701"
+         "target": "Otis Gospodnetic (JIRA)"
       },
       {
+         "source": "Thorsten Scherler (JIRA)",
          "value": 1,
-         "target": "13733",
-         "source": "13688"
+         "target": "Javier Puerto (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gavin (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "7140",
-         "source": "13701"
+         "id": "Thorsten Scherler",
+         "group": 1
+      },
+      {
+         "id": "Javier Puerto (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Lukas, Ray",
+         "group": 4
+      },
+      {
+         "id": "Thorsten Scherler (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Otis Gospodnetic (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Ryan McKinley (JIRA)",
+         "group": 3
       }
    ]
 }

@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "39571",
-         "group": 3
-      },
-      {
-         "id": "39566",
-         "group": 3
-      },
-      {
-         "id": "39558",
-         "group": 2
-      },
-      {
-         "id": "39574",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Michael Stroucken",
          "value": 4,
-         "target": "39566",
-         "source": "39571"
+         "target": "David O''Hallaron"
       },
       {
-         "value": 1,
-         "target": "39571",
-         "source": "39574"
-      },
-      {
-         "value": 1,
-         "target": "39558",
-         "source": "39571"
-      },
-      {
+         "source": "David O''Hallaron",
          "value": 2,
-         "target": "39571",
-         "source": "39566"
+         "target": "Michael Stroucken"
       },
       {
+         "source": "David O''Hallaron",
          "value": 1,
-         "target": "39574",
-         "source": "39566"
+         "target": "Richard Gass"
+      },
+      {
+         "source": "Michael Stroucken",
+         "value": 1,
+         "target": "rgass"
+      },
+      {
+         "source": "Richard Gass",
+         "value": 1,
+         "target": "Michael Stroucken"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Richard Gass",
+         "group": 3
+      },
+      {
+         "id": "Michael Stroucken",
+         "group": 1
+      },
+      {
+         "id": "David O''Hallaron",
+         "group": 4
+      },
+      {
+         "id": "rgass",
+         "group": 4
       }
    ]
 }

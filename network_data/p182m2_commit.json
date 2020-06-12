@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29380",
-         "group": 3
+         "source": "sxander",
+         "value": 9,
+         "target": "sebawagner"
       },
       {
-         "id": "29356",
+         "source": "ggrekhov",
+         "value": 2,
+         "target": "sebawagner"
+      },
+      {
+         "source": "solomax",
+         "value": 5,
+         "target": "sebawagner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "solomax",
          "group": 4
       },
       {
-         "id": "29355",
+         "id": "sxander",
          "group": 1
       },
       {
-         "id": "29373",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "29355",
-         "source": "29356"
+         "id": "ggrekhov",
+         "group": 1
       },
       {
-         "value": 9,
-         "target": "29355",
-         "source": "29380"
-      },
-      {
-         "value": 2,
-         "target": "29355",
-         "source": "29373"
+         "id": "sebawagner",
+         "group": 1
       }
    ]
 }

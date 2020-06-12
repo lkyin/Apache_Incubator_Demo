@@ -1,38 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "13432",
-         "group": 2
-      },
-      {
-         "id": "4248",
-         "group": 2
-      },
-      {
-         "id": "6704",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "kishore g",
          "value": 1,
-         "target": "4248",
-         "source": "13432"
+         "target": "Patrick Hunt"
       },
       {
+         "source": "Mahadev Konar",
          "value": 1,
-         "target": "6704",
-         "source": "4248"
+         "target": "Patrick Hunt"
       },
       {
+         "source": "kishore g",
          "value": 1,
-         "target": "6704",
-         "source": "13432"
+         "target": "Mahadev Konar"
       },
       {
+         "source": "Patrick Hunt",
          "value": 1,
-         "target": "13432",
-         "source": "6704"
+         "target": "kishore g"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mahadev Konar",
+         "group": 2
+      },
+      {
+         "id": "Patrick Hunt",
+         "group": 4
+      },
+      {
+         "id": "kishore g",
+         "group": 3
       }
    ]
 }

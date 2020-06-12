@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "38935",
-         "group": 3
+         "source": "asfgit",
+         "value": 5,
+         "target": "steveblackmon"
       },
       {
-         "id": "22925",
+         "source": "johnnytomcat",
+         "value": 2,
+         "target": "steveblackmon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "steveblackmon",
+         "group": 4
+      },
+      {
+         "id": "johnnytomcat",
          "group": 1
       },
       {
-         "id": "4452",
+         "id": "asfgit",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "22925",
-         "source": "4452"
-      },
-      {
-         "value": 2,
-         "target": "22925",
-         "source": "38935"
       }
    ]
 }

@@ -1,90 +1,85 @@
 {
-   "nodes": [
-      {
-         "id": "32894",
-         "group": 1
-      },
-      {
-         "id": "1097",
-         "group": 1
-      },
-      {
-         "id": "32900",
-         "group": 3
-      },
-      {
-         "id": "32899",
-         "group": 1
-      },
-      {
-         "id": "32905",
-         "group": 3
-      },
-      {
-         "id": "32898",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 9,
-         "target": "32898",
-         "source": "32899"
-      },
-      {
-         "value": 4,
-         "target": "32900",
-         "source": "32905"
-      },
-      {
-         "value": 3,
-         "target": "32900",
-         "source": "1097"
-      },
-      {
-         "value": 3,
-         "target": "32905",
-         "source": "1097"
-      },
-      {
-         "value": 3,
-         "target": "1097",
-         "source": "32899"
-      },
-      {
-         "value": 5,
-         "target": "32905",
-         "source": "32899"
-      },
-      {
-         "value": 1,
-         "target": "32898",
-         "source": "32894"
-      },
-      {
-         "value": 5,
-         "target": "1097",
-         "source": "32905"
-      },
-      {
-         "value": 20,
-         "target": "32898",
-         "source": "1097"
-      },
-      {
-         "value": 7,
-         "target": "32898",
-         "source": "32900"
-      },
-      {
+         "source": "jcian",
          "value": 8,
-         "target": "32900",
-         "source": "32899"
+         "target": "carlucci"
       },
       {
+         "source": "carlucci",
+         "value": 3,
+         "target": "mpierce"
+      },
+      {
+         "source": "mpierce",
+         "value": 20,
+         "target": "mfranklin"
+      },
+      {
+         "source": "jcian",
+         "value": 3,
+         "target": "mpierce"
+      },
+      {
+         "source": "mfranklin",
          "value": 38,
-         "target": "32898",
-         "source": "32905"
+         "target": "jasha"
+      },
+      {
+         "source": "ate",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "jcian",
+         "value": 5,
+         "target": "jasha"
+      },
+      {
+         "source": "mpierce",
+         "value": 8,
+         "target": "jasha"
+      },
+      {
+         "source": "carlucci",
+         "value": 7,
+         "target": "mfranklin"
+      },
+      {
+         "source": "carlucci",
+         "value": 4,
+         "target": "jasha"
+      },
+      {
+         "source": "jcian",
+         "value": 9,
+         "target": "mfranklin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jasha",
+         "group": 4
+      },
+      {
+         "id": "jcian",
+         "group": 1
+      },
+      {
+         "id": "carlucci",
+         "group": 1
+      },
+      {
+         "id": "mpierce",
+         "group": 3
+      },
+      {
+         "id": "ate",
+         "group": 2
+      },
+      {
+         "id": "mfranklin",
+         "group": 4
       }
    ]
 }

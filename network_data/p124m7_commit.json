@@ -1,83 +1,83 @@
 {
-   "nodes": [
-      {
-         "id": "20206",
-         "group": 1
-      },
-      {
-         "id": "20195",
-         "group": 2
-      },
-      {
-         "id": "4107",
-         "group": 2
-      },
-      {
-         "id": "20190",
-         "group": 1
-      },
-      {
-         "id": "20189",
-         "group": 3
-      },
-      {
-         "id": "20203",
-         "group": 4
-      },
-      {
-         "id": "20191",
-         "group": 3
-      },
-      {
-         "id": "20192",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "zzhang",
+         "value": 3,
+         "target": "zzhang"
+      },
+      {
+         "source": "Olivier Lamy",
          "value": 2,
-         "target": "20192",
-         "source": "4107"
+         "target": "zzhang"
       },
       {
+         "source": "slu2011",
+         "value": 3,
+         "target": "zzhang"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "kishoreg"
+      },
+      {
+         "source": "slu",
          "value": 16,
-         "target": "20203",
-         "source": "20189"
+         "target": "kishoreg"
       },
       {
-         "value": 3,
-         "target": "20192",
-         "source": "20195"
-      },
-      {
-         "value": 1,
-         "target": "4107",
-         "source": "20189"
-      },
-      {
-         "value": 1,
-         "target": "20190",
-         "source": "20206"
-      },
-      {
+         "source": "zzhang",
          "value": 5,
-         "target": "20192",
-         "source": "20189"
+         "target": "kishoreg"
       },
       {
+         "source": "Kishore Gopalakrishna",
          "value": 1,
-         "target": "20195",
-         "source": "20206"
+         "target": "Swaroop Jagadish"
       },
       {
-         "value": 3,
-         "target": "20192",
-         "source": "20191"
+         "source": "slu2011",
+         "value": 1,
+         "target": "Swaroop Jagadish"
       },
       {
+         "source": "slu2011",
          "value": 4,
-         "target": "20195",
-         "source": "20189"
+         "target": "kishoreg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Kishore Gopalakrishna",
+         "group": 3
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 2
+      },
+      {
+         "id": "slu2011",
+         "group": 2
+      },
+      {
+         "id": "kishoreg",
+         "group": 3
+      },
+      {
+         "id": "zzhang",
+         "group": 1
+      },
+      {
+         "id": "zzhang",
+         "group": 1
+      },
+      {
+         "id": "slu",
+         "group": 3
+      },
+      {
+         "id": "Swaroop Jagadish",
+         "group": 4
       }
    ]
 }

@@ -1,61 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "308",
-         "group": 1
-      },
-      {
-         "id": "4489",
-         "group": 4
-      },
-      {
-         "id": "371",
-         "group": 1
-      },
-      {
-         "id": "370",
-         "group": 4
-      },
-      {
-         "id": "4488",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Lewis John Mcgibbney",
          "value": 1,
-         "target": "370",
-         "source": "371"
+         "target": "Marvin"
       },
       {
+         "source": "Lewis John Mcgibbney",
          "value": 1,
-         "target": "4488",
-         "source": "371"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Lewis John Mcgibbney",
          "value": 3,
-         "target": "4489",
-         "source": "371"
+         "target": "Michele Mostarda"
       },
       {
+         "source": "Lewis John Mcgibbney",
          "value": 1,
-         "target": "371",
-         "source": "4488"
+         "target": "Tommaso Teofili"
       },
       {
-         "value": 3,
-         "target": "371",
-         "source": "370"
-      },
-      {
-         "value": 1,
-         "target": "308",
-         "source": "371"
-      },
-      {
+         "source": "Michele Mostarda",
          "value": 2,
-         "target": "371",
-         "source": "4489"
+         "target": "Lewis John Mcgibbney"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Lewis John Mcgibbney"
+      },
+      {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 3,
+         "target": "Lewis John Mcgibbney"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lewis John Mcgibbney",
+         "group": 4
+      },
+      {
+         "id": "Michele Mostarda",
+         "group": 1
+      },
+      {
+         "id": "Tommaso Teofili",
+         "group": 3
+      },
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 4
       }
    ]
 }

@@ -1,59 +1,59 @@
 {
-   "nodes": [
-      {
-         "id": "3341",
-         "group": 4
-      },
-      {
-         "id": "4452",
-         "group": 2
-      },
-      {
-         "id": "17131",
-         "group": 2
-      },
-      {
-         "id": "6097",
-         "group": 3
-      },
-      {
-         "id": "3728",
-         "group": 2
-      },
-      {
-         "id": "4102",
-         "group": 3
-      },
-      {
-         "id": "17145",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Vincent Wang",
          "value": 1,
-         "target": "17131",
-         "source": "4102"
+         "target": "johndament"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "3341",
-         "source": "17131"
+         "target": "Vincent Wang"
       },
       {
+         "source": "Manu Zhang",
          "value": 1,
-         "target": "6097",
-         "source": "4452"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "huafengw",
          "value": 1,
-         "target": "4102",
-         "source": "3728"
+         "target": "manuzhang"
       },
       {
+         "source": "asfgit",
          "value": 1,
-         "target": "6097",
-         "source": "17145"
+         "target": "manuzhang"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "manuzhang",
+         "group": 1
+      },
+      {
+         "id": "asfgit",
+         "group": 3
+      },
+      {
+         "id": "Manu Zhang",
+         "group": 3
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 3
+      },
+      {
+         "id": "johndament",
+         "group": 3
+      },
+      {
+         "id": "Vincent Wang",
+         "group": 1
+      },
+      {
+         "id": "huafengw",
+         "group": 4
       }
    ]
 }

@@ -1,68 +1,68 @@
 {
+   "links": [
+      {
+         "source": "Tommaso Teofili (JIRA)",
+         "value": 5,
+         "target": "Ben Noordhuis (JIRA)"
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Paul Lindner"
+      },
+      {
+         "source": "Paul Lindner",
+         "value": 1,
+         "target": "Stefan Seelmann"
+      },
+      {
+         "source": "Jared Bunting (JIRA)",
+         "value": 2,
+         "target": "Ben Noordhuis (JIRA)"
+      },
+      {
+         "source": "David Jencks",
+         "value": 1,
+         "target": "no-reply"
+      },
+      {
+         "source": "Stefan Seelmann",
+         "value": 1,
+         "target": "David Jencks"
+      }
+   ],
    "nodes": [
       {
-         "id": "28773",
+         "id": "David Jencks",
          "group": 2
       },
       {
-         "id": "8887",
-         "group": 4
-      },
-      {
-         "id": "28778",
+         "id": "Stefan Seelmann",
          "group": 1
       },
       {
-         "id": "28777",
+         "id": "Ben Noordhuis (JIRA)",
          "group": 3
       },
       {
-         "id": "17351",
+         "id": "Jared Bunting (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Tommaso Teofili (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "no-reply",
          "group": 2
       },
       {
-         "id": "607",
-         "group": 1
-      },
-      {
-         "id": "206",
+         "id": "Paul Lindner",
          "group": 4
       },
       {
-         "id": "28761",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "28773",
-         "source": "28761"
-      },
-      {
-         "value": 5,
-         "target": "28777",
-         "source": "8887"
-      },
-      {
-         "value": 2,
-         "target": "28777",
-         "source": "28778"
-      },
-      {
-         "value": 1,
-         "target": "206",
-         "source": "607"
-      },
-      {
-         "value": 1,
-         "target": "28761",
-         "source": "17351"
-      },
-      {
-         "value": 1,
-         "target": "607",
-         "source": "28773"
+         "id": "Pid",
+         "group": 3
       }
    ]
 }

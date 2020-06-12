@@ -1,60 +1,60 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "22450",
-         "group": 4
+         "source": "Thamme Gowda",
+         "value": 1,
+         "target": "Mattmann, Chris A (1761)"
       },
       {
-         "id": "22367",
+         "source": "Chris Mattmann",
+         "value": 1,
+         "target": "lewis john mcgibbney"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Mattmann, Chris A (1761)"
+      },
+      {
+         "source": "Matt Post",
+         "value": 2,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 2,
+         "target": "Matt Post"
+      },
+      {
+         "source": "Thamme Gowda",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tommaso Teofili",
+         "group": 3
+      },
+      {
+         "id": "Thamme Gowda",
+         "group": 1
+      },
+      {
+         "id": "Matt Post",
          "group": 2
       },
       {
-         "id": "22373",
-         "group": 3
+         "id": "Chris Mattmann",
+         "group": 2
       },
       {
-         "id": "5135",
-         "group": 4
+         "id": "Mattmann, Chris A (1761)",
+         "group": 2
       },
       {
-         "id": "4488",
-         "group": 3
-      },
-      {
-         "id": "387",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "22373"
-      },
-      {
-         "value": 2,
-         "target": "4488",
-         "source": "22367"
-      },
-      {
-         "value": 1,
-         "target": "22450",
-         "source": "4488"
-      },
-      {
-         "value": 2,
-         "target": "22367",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "22450",
-         "source": "22373"
-      },
-      {
-         "value": 1,
-         "target": "387",
-         "source": "5135"
+         "id": "lewis john mcgibbney",
+         "group": 2
       }
    ]
 }

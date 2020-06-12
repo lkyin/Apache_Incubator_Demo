@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "8872",
-         "group": 2
-      },
-      {
-         "id": "8875",
-         "group": 2
-      },
-      {
-         "id": "8877",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "bblfish",
          "value": 1,
-         "target": "8877",
-         "source": "8875"
+         "target": "ito"
       },
       {
+         "source": "reto",
          "value": 11,
-         "target": "8877",
-         "source": "8872"
+         "target": "bblfish"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "reto",
+         "group": 3
+      },
+      {
+         "id": "bblfish",
+         "group": 1
+      },
+      {
+         "id": "ito",
+         "group": 1
       }
    ]
 }

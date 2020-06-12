@@ -1,62 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "8283",
-         "group": 3
-      },
-      {
-         "id": "8237",
-         "group": 3
-      },
-      {
-         "id": "8298",
-         "group": 4
-      },
-      {
-         "id": "8267",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "8267",
-         "source": "8298"
-      },
-      {
-         "value": 3,
-         "target": "8298",
-         "source": "8237"
-      },
-      {
-         "value": 3,
-         "target": "8237",
-         "source": "8298"
-      },
-      {
-         "value": 2,
-         "target": "8283",
-         "source": "8298"
-      },
-      {
-         "value": 2,
-         "target": "8298",
-         "source": "8283"
-      },
-      {
-         "value": 1,
-         "target": "8267",
-         "source": "8283"
-      },
-      {
-         "value": 14,
-         "target": "8267",
-         "source": "8237"
-      },
-      {
+         "source": "junrao",
          "value": 19,
-         "target": "8237",
-         "source": "8283"
+         "target": "jbellis"
+      },
+      {
+         "source": "goffinet",
+         "value": 1,
+         "target": "eevans"
+      },
+      {
+         "source": "junrao",
+         "value": 4,
+         "target": "goffinet"
+      },
+      {
+         "source": "junrao",
+         "value": 1,
+         "target": "eevans"
+      },
+      {
+         "source": "jbellis",
+         "value": 14,
+         "target": "eevans"
+      },
+      {
+         "source": "jbellis",
+         "value": 6,
+         "target": "goffinet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "junrao",
+         "group": 1
+      },
+      {
+         "id": "jbellis",
+         "group": 2
+      },
+      {
+         "id": "goffinet",
+         "group": 1
+      },
+      {
+         "id": "eevans",
+         "group": 1
       }
    ]
 }

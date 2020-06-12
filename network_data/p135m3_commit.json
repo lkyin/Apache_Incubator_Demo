@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "21209",
-         "group": 2
+         "source": "clr",
+         "value": 3,
+         "target": "mcaisse"
       },
       {
-         "id": "22107",
+         "source": "mbo",
+         "value": 1,
+         "target": "mcaisse"
+      },
+      {
+         "source": "mbo",
+         "value": 2,
+         "target": "clr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mbo",
+         "group": 3
+      },
+      {
+         "id": "clr",
          "group": 4
       },
       {
-         "id": "22108",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "22108",
-         "source": "22107"
-      },
-      {
-         "value": 2,
-         "target": "22108",
-         "source": "21209"
-      },
-      {
-         "value": 3,
-         "target": "22107",
-         "source": "21209"
+         "id": "mcaisse",
+         "group": 1
       }
    ]
 }

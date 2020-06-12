@@ -1,102 +1,102 @@
 {
+   "links": [
+      {
+         "source": "Les Hazlewood",
+         "value": 2,
+         "target": "Kalle Korhonen"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 4,
+         "target": "Les Hazlewood"
+      },
+      {
+         "source": "Les Hazlewood",
+         "value": 2,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Kalle Korhonen",
+         "value": 1,
+         "target": "Les Hazlewood"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 1,
+         "target": "Kalle Korhonen"
+      },
+      {
+         "source": "Les Hazlewood",
+         "value": 2,
+         "target": "Alan D. Cabrera"
+      },
+      {
+         "source": "Alan D. Cabrera",
+         "value": 1,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Alex Salazar",
+         "value": 1,
+         "target": "Kalle Korhonen"
+      },
+      {
+         "source": "Alex Karasulu",
+         "value": 1,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Alan D. Cabrera",
+         "value": 3,
+         "target": "Les Hazlewood"
+      },
+      {
+         "source": "Les Hazlewood (JIRA)",
+         "value": 1,
+         "target": "Janne Jalkanen (JIRA)"
+      },
+      {
+         "source": "Kalle Korhonen",
+         "value": 1,
+         "target": "Alex Salazar"
+      }
+   ],
    "nodes": [
       {
-         "id": "8861",
+         "id": "Les Hazlewood",
+         "group": 3
+      },
+      {
+         "id": "Kalle Korhonen",
          "group": 2
       },
       {
-         "id": "9345",
+         "id": "Alex Salazar",
          "group": 4
       },
       {
-         "id": "202",
+         "id": "Alex Karasulu",
          "group": 2
       },
       {
-         "id": "36092",
-         "group": 1
+         "id": "Les Hazlewood (JIRA)",
+         "group": 4
       },
       {
-         "id": "36069",
-         "group": 2
+         "id": "Les Hazlewood",
+         "group": 4
       },
       {
-         "id": "36162",
-         "group": 2
-      },
-      {
-         "id": "22467",
+         "id": "Alan D. Cabrera",
          "group": 3
       },
       {
-         "id": "7027",
-         "group": 1
-      },
-      {
-         "id": "36072",
+         "id": "Craig L Russell",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "36072",
-         "source": "7027"
       },
       {
-         "value": 1,
-         "target": "7027",
-         "source": "36162"
-      },
-      {
-         "value": 1,
-         "target": "7027",
-         "source": "8861"
-      },
-      {
-         "value": 2,
-         "target": "8861",
-         "source": "36069"
-      },
-      {
-         "value": 2,
-         "target": "202",
-         "source": "36069"
-      },
-      {
-         "value": 3,
-         "target": "36069",
-         "source": "202"
-      },
-      {
-         "value": 4,
-         "target": "36069",
-         "source": "8861"
-      },
-      {
-         "value": 2,
-         "target": "7027",
-         "source": "36069"
-      },
-      {
-         "value": 1,
-         "target": "36162",
-         "source": "7027"
-      },
-      {
-         "value": 1,
-         "target": "8861",
-         "source": "9345"
-      },
-      {
-         "value": 1,
-         "target": "8861",
-         "source": "202"
-      },
-      {
-         "value": 1,
-         "target": "22467",
-         "source": "36092"
+         "id": "Janne Jalkanen (JIRA)",
+         "group": 1
       }
    ]
 }

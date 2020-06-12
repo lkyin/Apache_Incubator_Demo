@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4130",
-         "group": 2
+         "source": "vgogate",
+         "value": 10,
+         "target": "omalley"
       },
       {
-         "id": "4128",
+         "source": "ddas",
+         "value": 11,
+         "target": "omalley"
+      },
+      {
+         "source": "ddas",
+         "value": 16,
+         "target": "vgogate"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ddas",
+         "group": 4
+      },
+      {
+         "id": "vgogate",
          "group": 1
       },
       {
-         "id": "4131",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "4131",
-         "source": "4128"
-      },
-      {
-         "value": 16,
-         "target": "4131",
-         "source": "4130"
-      },
-      {
-         "value": 10,
-         "target": "4128",
-         "source": "4130"
+         "id": "omalley",
+         "group": 1
       }
    ]
 }

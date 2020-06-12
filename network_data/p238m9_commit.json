@@ -1,310 +1,275 @@
 {
-   "nodes": [
-      {
-         "id": "41461",
-         "group": 2
-      },
-      {
-         "id": "6466",
-         "group": 2
-      },
-      {
-         "id": "28219",
-         "group": 3
-      },
-      {
-         "id": "41460",
-         "group": 2
-      },
-      {
-         "id": "12466",
-         "group": 1
-      },
-      {
-         "id": "12124",
-         "group": 1
-      },
-      {
-         "id": "41455",
-         "group": 1
-      },
-      {
-         "id": "4937",
-         "group": 3
-      },
-      {
-         "id": "41459",
-         "group": 3
-      },
-      {
-         "id": "41457",
-         "group": 2
-      },
-      {
-         "id": "41454",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "28219",
-         "source": "41460"
-      },
-      {
+         "source": "jsdelfino",
          "value": 1,
-         "target": "41461",
-         "source": "41457"
+         "target": "rineholt"
       },
       {
+         "source": "jmarino",
+         "value": 32,
+         "target": "dkulp"
+      },
+      {
+         "source": "kwilliams",
          "value": 1,
-         "target": "4937",
-         "source": "6466"
+         "target": "jboynes"
       },
       {
-         "value": 3,
-         "target": "41454",
-         "source": "4937"
+         "source": "rineholt",
+         "value": 13,
+         "target": "rfeng"
       },
       {
-         "value": 16,
-         "target": "28219",
-         "source": "41461"
-      },
-      {
-         "value": 3,
-         "target": "6466",
-         "source": "12466"
-      },
-      {
+         "source": "jboynes",
          "value": 1,
-         "target": "41461",
-         "source": "12466"
+         "target": "jmarino"
       },
       {
-         "value": 2,
-         "target": "4937",
-         "source": "28219"
-      },
-      {
-         "value": 4,
-         "target": "41459",
-         "source": "4937"
-      },
-      {
-         "value": 19,
-         "target": "41460",
-         "source": "41457"
-      },
-      {
+         "source": "kentam",
          "value": 1,
-         "target": "6466",
-         "source": "4937"
+         "target": "antelder"
       },
       {
-         "value": 7,
-         "target": "41460",
-         "source": "12466"
-      },
-      {
-         "value": 1,
-         "target": "6466",
-         "source": "41460"
-      },
-      {
-         "value": 1,
-         "target": "12124",
-         "source": "41461"
-      },
-      {
-         "value": 2,
-         "target": "4937",
-         "source": "41457"
-      },
-      {
-         "value": 1,
-         "target": "41457",
-         "source": "6466"
-      },
-      {
-         "value": 1,
-         "target": "41454",
-         "source": "41459"
-      },
-      {
-         "value": 8,
-         "target": "41460",
-         "source": "28219"
-      },
-      {
-         "value": 1,
-         "target": "4937",
-         "source": "41455"
-      },
-      {
-         "value": 28,
-         "target": "12466",
-         "source": "4937"
-      },
-      {
-         "value": 11,
-         "target": "6466",
-         "source": "41457"
-      },
-      {
-         "value": 26,
-         "target": "12466",
-         "source": "41460"
-      },
-      {
-         "value": 4,
-         "target": "4937",
-         "source": "41460"
-      },
-      {
-         "value": 281,
-         "target": "12466",
-         "source": "41457"
-      },
-      {
-         "value": 1,
-         "target": "28219",
-         "source": "6466"
-      },
-      {
-         "value": 45,
-         "target": "12466",
-         "source": "41461"
-      },
-      {
-         "value": 3,
-         "target": "12124",
-         "source": "12466"
-      },
-      {
-         "value": 1,
-         "target": "12466",
-         "source": "41455"
-      },
-      {
-         "value": 10,
-         "target": "41460",
-         "source": "4937"
-      },
-      {
-         "value": 5,
-         "target": "41457",
-         "source": "41460"
-      },
-      {
-         "value": 1,
-         "target": "41460",
-         "source": "41455"
-      },
-      {
-         "value": 1,
-         "target": "41461",
-         "source": "41460"
-      },
-      {
-         "value": 7,
-         "target": "41457",
-         "source": "12466"
-      },
-      {
-         "value": 1,
-         "target": "41455",
-         "source": "41457"
-      },
-      {
-         "value": 1,
-         "target": "41461",
-         "source": "6466"
-      },
-      {
-         "value": 31,
-         "target": "41457",
-         "source": "4937"
-      },
-      {
-         "value": 3,
-         "target": "41455",
-         "source": "4937"
-      },
-      {
-         "value": 11,
-         "target": "4937",
-         "source": "41461"
-      },
-      {
-         "value": 1,
-         "target": "12124",
-         "source": "41460"
-      },
-      {
-         "value": 38,
-         "target": "41457",
-         "source": "41461"
-      },
-      {
-         "value": 1,
-         "target": "41459",
-         "source": "41455"
-      },
-      {
-         "value": 11,
-         "target": "12466",
-         "source": "6466"
-      },
-      {
-         "value": 107,
-         "target": "12466",
-         "source": "28219"
-      },
-      {
-         "value": 8,
-         "target": "41460",
-         "source": "41461"
-      },
-      {
-         "value": 4,
-         "target": "41457",
-         "source": "28219"
-      },
-      {
-         "value": 1,
-         "target": "41461",
-         "source": "28219"
-      },
-      {
-         "value": 1,
-         "target": "41460",
-         "source": "6466"
-      },
-      {
-         "value": 97,
-         "target": "12124",
-         "source": "41454"
-      },
-      {
-         "value": 2,
-         "target": "28219",
-         "source": "41454"
-      },
-      {
+         "source": "rineholt",
          "value": 24,
-         "target": "28219",
-         "source": "41457"
+         "target": "jmarino"
       },
       {
+         "source": "rfeng",
          "value": 1,
-         "target": "41461",
-         "source": "4937"
+         "target": "antelder"
       },
       {
+         "source": "jboynes",
+         "value": 1,
+         "target": "antelder"
+      },
+      {
+         "source": "kentam",
+         "value": 11,
+         "target": "jmarino"
+      },
+      {
+         "source": "jsdelfino",
+         "value": 97,
+         "target": "robbinspg"
+      },
+      {
+         "source": "jmarino",
+         "value": 287,
+         "target": "jboynes"
+      },
+      {
+         "source": "rineholt",
+         "value": 33,
+         "target": "jboynes"
+      },
+      {
+         "source": "robbinspg",
+         "value": 1,
+         "target": "frankb"
+      },
+      {
+         "source": "kwilliams",
+         "value": 1,
+         "target": "frankb"
+      },
+      {
+         "source": "rineholt",
          "value": 2,
-         "target": "28219",
-         "source": "4937"
+         "target": "kentam"
+      },
+      {
+         "source": "antelder",
+         "value": 38,
+         "target": "jmarino"
+      },
+      {
+         "source": "rfeng",
+         "value": 1,
+         "target": "jmarino"
+      },
+      {
+         "source": "dkulp",
+         "value": 1,
+         "target": "kentam"
+      },
+      {
+         "source": "jsdelfino",
+         "value": 3,
+         "target": "jboynes"
+      },
+      {
+         "source": "jmarino",
+         "value": 1,
+         "target": "kentam"
+      },
+      {
+         "source": "jmarino",
+         "value": 1,
+         "target": "antelder"
+      },
+      {
+         "source": "jmarino",
+         "value": 27,
+         "target": "rfeng"
+      },
+      {
+         "source": "antelder",
+         "value": 45,
+         "target": "jboynes"
+      },
+      {
+         "source": "dkulp",
+         "value": 1,
+         "target": "antelder"
+      },
+      {
+         "source": "rfeng",
+         "value": 4,
+         "target": "dkulp"
+      },
+      {
+         "source": "antelder",
+         "value": 16,
+         "target": "rfeng"
+      },
+      {
+         "source": "robbinspg",
+         "value": 2,
+         "target": "rfeng"
+      },
+      {
+         "source": "kentam",
+         "value": 13,
+         "target": "jboynes"
+      },
+      {
+         "source": "jboynes",
+         "value": 1,
+         "target": "kentam"
+      },
+      {
+         "source": "kentam",
+         "value": 1,
+         "target": "dkulp"
+      },
+      {
+         "source": "dkulp",
+         "value": 1,
+         "target": "robbinspg"
+      },
+      {
+         "source": "dkulp",
+         "value": 4,
+         "target": "frankb"
+      },
+      {
+         "source": "kwilliams",
+         "value": 4,
+         "target": "dkulp"
+      },
+      {
+         "source": "kwilliams",
+         "value": 1,
+         "target": "jmarino"
+      },
+      {
+         "source": "rineholt",
+         "value": 1,
+         "target": "kwilliams"
+      },
+      {
+         "source": "dkulp",
+         "value": 28,
+         "target": "jboynes"
+      },
+      {
+         "source": "rfeng",
+         "value": 107,
+         "target": "jboynes"
+      },
+      {
+         "source": "rfeng",
+         "value": 1,
+         "target": "kentam"
+      },
+      {
+         "source": "jsdelfino",
+         "value": 1,
+         "target": "antelder"
+      },
+      {
+         "source": "dkulp",
+         "value": 1,
+         "target": "jmarino"
+      },
+      {
+         "source": "rineholt",
+         "value": 9,
+         "target": "antelder"
+      },
+      {
+         "source": "antelder",
+         "value": 11,
+         "target": "dkulp"
+      },
+      {
+         "source": "rineholt",
+         "value": 14,
+         "target": "dkulp"
+      },
+      {
+         "source": "robbinspg",
+         "value": 2,
+         "target": "dkulp"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jsdelfino",
+         "group": 3
+      },
+      {
+         "id": "rineholt",
+         "group": 4
+      },
+      {
+         "id": "jmarino",
+         "group": 3
+      },
+      {
+         "id": "frankb",
+         "group": 2
+      },
+      {
+         "id": "kwilliams",
+         "group": 2
+      },
+      {
+         "id": "kentam",
+         "group": 4
+      },
+      {
+         "id": "antelder",
+         "group": 4
+      },
+      {
+         "id": "robbinspg",
+         "group": 2
+      },
+      {
+         "id": "rfeng",
+         "group": 1
+      },
+      {
+         "id": "dkulp",
+         "group": 3
+      },
+      {
+         "id": "jboynes",
+         "group": 1
       }
    ]
 }

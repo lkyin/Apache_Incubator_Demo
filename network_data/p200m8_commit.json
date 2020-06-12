@@ -1,145 +1,110 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "33130",
-         "group": 3
+         "source": "sezgin",
+         "value": 10,
+         "target": "Markus Weimer"
       },
       {
-         "id": "33146",
+         "source": "juliaw",
+         "value": 1,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "sezgin",
+         "value": 5,
+         "target": "weimer"
+      },
+      {
+         "source": "Beysim Sezgin",
+         "value": 1,
+         "target": "juliaw"
+      },
+      {
+         "source": "Beysim Sezgin",
+         "value": 5,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 2,
+         "target": "juliaw"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 24,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "weimer",
+         "value": 16,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "juliaw",
+         "value": 2,
+         "target": "weimer"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 29,
+         "target": "weimer"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 6,
+         "target": "Beysim Sezgin"
+      },
+      {
+         "source": "sezgin",
+         "value": 3,
+         "target": "juliaw"
+      },
+      {
+         "source": "Beysim Sezgin",
+         "value": 3,
+         "target": "weimer"
+      },
+      {
+         "source": "sezgin",
+         "value": 6,
+         "target": "Beysim Sezgin"
+      },
+      {
+         "source": "juliaw",
+         "value": 1,
+         "target": "Beysim Sezgin"
+      },
+      {
+         "source": "sezgin",
+         "value": 15,
+         "target": "Julia Wang"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Markus Weimer",
          "group": 4
       },
       {
-         "id": "33131",
+         "id": "weimer",
          "group": 1
       },
       {
-         "id": "33125",
-         "group": 4
-      },
-      {
-         "id": "33126",
-         "group": 4
-      },
-      {
-         "id": "33127",
+         "id": "juliaw",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "33146",
-         "source": "33126"
       },
       {
-         "value": 2,
-         "target": "33125",
-         "source": "33126"
+         "id": "sezgin",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "33130",
-         "source": "33126"
+         "id": "Beysim Sezgin",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "33126",
-         "source": "33125"
-      },
-      {
-         "value": 10,
-         "target": "33127",
-         "source": "33146"
-      },
-      {
-         "value": 2,
-         "target": "33126",
-         "source": "33131"
-      },
-      {
-         "value": 24,
-         "target": "33127",
-         "source": "33131"
-      },
-      {
-         "value": 3,
-         "target": "33131",
-         "source": "33126"
-      },
-      {
-         "value": 1,
-         "target": "33146",
-         "source": "33130"
-      },
-      {
-         "value": 12,
-         "target": "33146",
-         "source": "33131"
-      },
-      {
-         "value": 1,
-         "target": "33126",
-         "source": "33130"
-      },
-      {
-         "value": 6,
-         "target": "33127",
-         "source": "33126"
-      },
-      {
-         "value": 1,
-         "target": "33125",
-         "source": "33130"
-      },
-      {
-         "value": 15,
-         "target": "33125",
-         "source": "33131"
-      },
-      {
-         "value": 2,
-         "target": "33130",
-         "source": "33146"
-      },
-      {
-         "value": 2,
-         "target": "33130",
-         "source": "33127"
-      },
-      {
-         "value": 3,
-         "target": "33131",
-         "source": "33146"
-      },
-      {
-         "value": 1,
-         "target": "33131",
-         "source": "33125"
-      },
-      {
-         "value": 5,
-         "target": "33146",
-         "source": "33125"
-      },
-      {
-         "value": 1,
-         "target": "33126",
-         "source": "33146"
-      },
-      {
-         "value": 1,
-         "target": "33130",
-         "source": "33131"
-      },
-      {
-         "value": 29,
-         "target": "33127",
-         "source": "33125"
-      },
-      {
-         "value": 1,
-         "target": "33130",
-         "source": "33125"
+         "id": "Julia Wang",
+         "group": 3
       }
    ]
 }

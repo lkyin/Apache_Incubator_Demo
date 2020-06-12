@@ -1,65 +1,65 @@
 {
+   "links": [
+      {
+         "source": "Ryan Blue",
+         "value": 11,
+         "target": "blue"
+      },
+      {
+         "source": "Tianshuo Deng",
+         "value": 8,
+         "target": "blue"
+      },
+      {
+         "source": "Daniel Weeks",
+         "value": 3,
+         "target": "blue"
+      },
+      {
+         "source": "Alex Levenson",
+         "value": 18,
+         "target": "blue"
+      },
+      {
+         "source": "julien",
+         "value": 1,
+         "target": "blue"
+      },
+      {
+         "source": "Daniel Weeks",
+         "value": 1,
+         "target": "Ryan Blue"
+      },
+      {
+         "source": "Ryan Blue",
+         "value": 1,
+         "target": "Alex Levenson"
+      }
+   ],
    "nodes": [
       {
-         "id": "31053",
+         "id": "Daniel Weeks",
          "group": 3
       },
       {
-         "id": "31046",
+         "id": "Tianshuo Deng",
+         "group": 3
+      },
+      {
+         "id": "Alex Levenson",
          "group": 2
       },
       {
-         "id": "31045",
-         "group": 1
-      },
-      {
-         "id": "20667",
-         "group": 1
-      },
-      {
-         "id": "20681",
-         "group": 1
-      },
-      {
-         "id": "31044",
+         "id": "blue",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "20681",
-         "source": "20667"
       },
       {
-         "value": 18,
-         "target": "20667",
-         "source": "31053"
+         "id": "Ryan Blue",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "20667",
-         "source": "31045"
-      },
-      {
-         "value": 1,
-         "target": "20681",
-         "source": "31045"
-      },
-      {
-         "value": 8,
-         "target": "31046",
-         "source": "20667"
-      },
-      {
-         "value": 1,
-         "target": "20681",
-         "source": "31053"
-      },
-      {
-         "value": 1,
-         "target": "31044",
-         "source": "20667"
+         "id": "julien",
+         "group": 2
       }
    ]
 }

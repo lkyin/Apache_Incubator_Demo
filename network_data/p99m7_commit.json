@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14146",
-         "group": 3
+         "source": "mw",
+         "value": 20,
+         "target": "qingwzhao"
       },
       {
-         "id": "14120",
+         "source": "qingwzhao",
+         "value": 4,
+         "target": "Zhao, Qingwen"
+      },
+      {
+         "source": "mw",
+         "value": 2,
+         "target": "Zhao, Qingwen"
+      },
+      {
+         "source": "yonzhang2012",
+         "value": 1,
+         "target": "Zhao, Qingwen"
+      },
+      {
+         "source": "yonzhang2012",
+         "value": 1,
+         "target": "qingwzhao"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "yonzhang2012",
          "group": 4
       },
       {
-         "id": "14165",
-         "group": 1
+         "id": "mw",
+         "group": 4
       },
       {
-         "id": "14123",
+         "id": "qingwzhao",
+         "group": 3
+      },
+      {
+         "id": "Zhao, Qingwen",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "14123",
-         "source": "14165"
-      },
-      {
-         "value": 4,
-         "target": "14123",
-         "source": "14146"
-      },
-      {
-         "value": 1,
-         "target": "14123",
-         "source": "14120"
-      },
-      {
-         "value": 20,
-         "target": "14165",
-         "source": "14146"
-      },
-      {
-         "value": 1,
-         "target": "14120",
-         "source": "14146"
       }
    ]
 }

@@ -1,100 +1,115 @@
 {
+   "links": [
+      {
+         "source": "medined",
+         "value": 36,
+         "target": "billie"
+      },
+      {
+         "source": "medined",
+         "value": 1,
+         "target": "vines"
+      },
+      {
+         "source": "vines",
+         "value": 3,
+         "target": "ecn"
+      },
+      {
+         "source": "vines",
+         "value": 4,
+         "target": "afuchs"
+      },
+      {
+         "source": "ecn",
+         "value": 5,
+         "target": "kturner"
+      },
+      {
+         "source": "kturner",
+         "value": 1,
+         "target": "vines"
+      },
+      {
+         "source": "vines",
+         "value": 3,
+         "target": "medined"
+      },
+      {
+         "source": "ecn",
+         "value": 8,
+         "target": "billie"
+      },
+      {
+         "source": "vines",
+         "value": 5,
+         "target": "kturner"
+      },
+      {
+         "source": "ecn",
+         "value": 2,
+         "target": "afuchs"
+      },
+      {
+         "source": "billie",
+         "value": 1,
+         "target": "vines"
+      },
+      {
+         "source": "medined",
+         "value": 1,
+         "target": "ecn"
+      },
+      {
+         "source": "medined",
+         "value": 5,
+         "target": "kturner"
+      },
+      {
+         "source": "billie",
+         "value": 3,
+         "target": "medined"
+      },
+      {
+         "source": "vines",
+         "value": 13,
+         "target": "billie"
+      },
+      {
+         "source": "kturner",
+         "value": 14,
+         "target": "billie"
+      },
+      {
+         "source": "kturner",
+         "value": 1,
+         "target": "medined"
+      }
+   ],
    "nodes": [
       {
-         "id": "190",
+         "id": "vines",
          "group": 2
       },
       {
-         "id": "185",
-         "group": 2
-      },
-      {
-         "id": "191",
+         "id": "afuchs",
          "group": 1
       },
       {
-         "id": "188",
+         "id": "medined",
          "group": 3
       },
       {
-         "id": "187",
+         "id": "ecn",
          "group": 4
       },
       {
-         "id": "186",
+         "id": "kturner",
+         "group": 2
+      },
+      {
+         "id": "billie",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 13,
-         "target": "186",
-         "source": "185"
-      },
-      {
-         "value": 6,
-         "target": "186",
-         "source": "188"
-      },
-      {
-         "value": 39,
-         "target": "191",
-         "source": "185"
-      },
-      {
-         "value": 1,
-         "target": "191",
-         "source": "187"
-      },
-      {
-         "value": 6,
-         "target": "191",
-         "source": "186"
-      },
-      {
-         "value": 5,
-         "target": "186",
-         "source": "187"
-      },
-      {
-         "value": 1,
-         "target": "190",
-         "source": "188"
-      },
-      {
-         "value": 14,
-         "target": "188",
-         "source": "185"
-      },
-      {
-         "value": 3,
-         "target": "188",
-         "source": "190"
-      },
-      {
-         "value": 8,
-         "target": "185",
-         "source": "187"
-      },
-      {
-         "value": 3,
-         "target": "188",
-         "source": "187"
-      },
-      {
-         "value": 1,
-         "target": "185",
-         "source": "186"
-      },
-      {
-         "value": 4,
-         "target": "191",
-         "source": "188"
-      },
-      {
-         "value": 2,
-         "target": "190",
-         "source": "187"
       }
    ]
 }

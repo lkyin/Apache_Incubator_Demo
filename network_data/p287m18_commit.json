@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "27919",
-         "group": 1
-      },
-      {
-         "id": "7565",
-         "group": 3
-      },
-      {
-         "id": "12988",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 9,
-         "target": "12988",
-         "source": "27919"
+         "source": "matzew",
+         "value": 1,
+         "target": "lcorneliussen"
       },
       {
-         "value": 1,
-         "target": "7565",
-         "source": "27919"
+         "source": "lcorneliussen",
+         "value": 9,
+         "target": "brett"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "matzew",
+         "group": 1
+      },
+      {
+         "id": "lcorneliussen",
+         "group": 4
+      },
+      {
+         "id": "brett",
+         "group": 1
       }
    ]
 }

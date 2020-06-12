@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7564",
-         "group": 1
+         "source": "dwoods",
+         "value": 1,
+         "target": "romanstumm"
       },
       {
-         "id": "7566",
+         "source": "romanstumm",
+         "value": 2,
+         "target": "carlosvara"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "dwoods",
          "group": 4
       },
       {
-         "id": "7569",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "7569",
-         "source": "7566"
+         "id": "romanstumm",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "7566",
-         "source": "7564"
+         "id": "carlosvara",
+         "group": 1
       }
    ]
 }

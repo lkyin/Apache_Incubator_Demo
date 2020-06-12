@@ -1,135 +1,130 @@
 {
-   "nodes": [
-      {
-         "id": "15594",
-         "group": 3
-      },
-      {
-         "id": "15588",
-         "group": 1
-      },
-      {
-         "id": "15587",
-         "group": 1
-      },
-      {
-         "id": "3801",
-         "group": 2
-      },
-      {
-         "id": "15585",
-         "group": 4
-      },
-      {
-         "id": "15593",
-         "group": 2
-      },
-      {
-         "id": "15567",
-         "group": 4
-      },
-      {
-         "id": "15572",
-         "group": 4
-      },
-      {
-         "id": "15596",
-         "group": 2
-      },
-      {
-         "id": "15566",
-         "group": 3
-      },
-      {
-         "id": "15595",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "czadra",
          "value": 1,
-         "target": "15567",
-         "source": "15594"
+         "target": "aharui"
       },
       {
+         "source": "mschmalle",
          "value": 1,
-         "target": "15588",
-         "source": "15594"
+         "target": "gordonsmith"
       },
       {
+         "source": "mschmalle",
          "value": 1,
-         "target": "15594",
-         "source": "15567"
+         "target": "aharui"
       },
       {
+         "source": "aharui",
          "value": 28,
-         "target": "15595",
-         "source": "15567"
+         "target": "fthomas"
       },
       {
-         "value": 2,
-         "target": "15572",
-         "source": "15594"
-      },
-      {
+         "source": "aharui",
          "value": 1,
-         "target": "15585",
-         "source": "15567"
+         "target": "czadra"
       },
       {
+         "source": "mschmalle",
          "value": 2,
-         "target": "3801",
-         "source": "15566"
+         "target": "czadra"
       },
       {
-         "value": 1,
-         "target": "15572",
-         "source": "15588"
-      },
-      {
+         "source": "aharui",
          "value": 39,
-         "target": "15587",
-         "source": "15567"
+         "target": "erikdebruin"
       },
       {
+         "source": "czadra",
+         "value": 2,
+         "target": "gordonsmith"
+      },
+      {
+         "source": "cframpton",
          "value": 1,
-         "target": "15596",
-         "source": "15594"
+         "target": "erikdebruin"
       },
       {
+         "source": "czadra",
          "value": 1,
-         "target": "15594",
-         "source": "15588"
+         "target": "jbalsas"
       },
       {
+         "source": "aharui",
+         "value": 1,
+         "target": "bigosmallm"
+      },
+      {
+         "source": "fthomas",
+         "value": 1,
+         "target": "josebarragan"
+      },
+      {
+         "source": "jmclean",
+         "value": 2,
+         "target": "cframpton"
+      },
+      {
+         "source": "aharui",
          "value": 13,
-         "target": "15566",
-         "source": "15567"
+         "target": "cframpton"
       },
       {
-         "value": 1,
-         "target": "15595",
-         "source": "15593"
-      },
-      {
-         "value": 1,
-         "target": "15572",
-         "source": "15567"
-      },
-      {
+         "source": "aharui",
          "value": 2,
-         "target": "15588",
-         "source": "15567"
+         "target": "gordonsmith"
       },
       {
+         "source": "cframpton",
          "value": 2,
-         "target": "15596",
-         "source": "15566"
+         "target": "jbalsas"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mschmalle",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "15587",
-         "source": "15566"
+         "id": "fthomas",
+         "group": 4
+      },
+      {
+         "id": "josebarragan",
+         "group": 1
+      },
+      {
+         "id": "jbalsas",
+         "group": 1
+      },
+      {
+         "id": "jmclean",
+         "group": 3
+      },
+      {
+         "id": "erikdebruin",
+         "group": 2
+      },
+      {
+         "id": "aharui",
+         "group": 2
+      },
+      {
+         "id": "cframpton",
+         "group": 2
+      },
+      {
+         "id": "czadra",
+         "group": 2
+      },
+      {
+         "id": "bigosmallm",
+         "group": 3
+      },
+      {
+         "id": "gordonsmith",
+         "group": 1
       }
    ]
 }

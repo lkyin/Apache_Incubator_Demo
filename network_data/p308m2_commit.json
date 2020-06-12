@@ -1,62 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "44922",
-         "group": 3
-      },
-      {
-         "id": "44923",
-         "group": 4
-      },
-      {
-         "id": "44921",
-         "group": 4
-      },
-      {
-         "id": "44920",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "44923",
-         "source": "44922"
-      },
-      {
-         "value": 1,
-         "target": "44923",
-         "source": "44920"
-      },
-      {
-         "value": 1,
-         "target": "44923",
-         "source": "44921"
-      },
-      {
+         "source": "bbuffone",
          "value": 4,
-         "target": "44922",
-         "source": "44923"
+         "target": "mturyn"
       },
       {
-         "value": 7,
-         "target": "44921",
-         "source": "44923"
-      },
-      {
+         "source": "mturyn",
          "value": 1,
-         "target": "44920",
-         "source": "44922"
+         "target": "bbuffone"
       },
       {
+         "source": "bbuffone",
+         "value": 1,
+         "target": "cwei"
+      },
+      {
+         "source": "mturyn",
          "value": 104,
-         "target": "44921",
-         "source": "44922"
+         "target": "jmargaris"
       },
       {
+         "source": "bbuffone",
+         "value": 8,
+         "target": "jmargaris"
+      },
+      {
+         "source": "cwei",
          "value": 12,
-         "target": "44920",
-         "source": "44921"
+         "target": "jmargaris"
+      },
+      {
+         "source": "mturyn",
+         "value": 1,
+         "target": "cwei"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mturyn",
+         "group": 4
+      },
+      {
+         "id": "bbuffone",
+         "group": 2
+      },
+      {
+         "id": "cwei",
+         "group": 3
+      },
+      {
+         "id": "jmargaris",
+         "group": 3
       }
    ]
 }

@@ -1,42 +1,37 @@
 {
+   "links": [
+      {
+         "source": "reto",
+         "value": 12,
+         "target": "hasan"
+      },
+      {
+         "source": "mir",
+         "value": 11,
+         "target": "reto"
+      },
+      {
+         "source": "reto",
+         "value": 4,
+         "target": "ito"
+      }
+   ],
    "nodes": [
       {
-         "id": "8876",
+         "id": "mir",
          "group": 2
       },
       {
-         "id": "8875",
+         "id": "reto",
+         "group": 2
+      },
+      {
+         "id": "ito",
          "group": 4
       },
       {
-         "id": "8873",
-         "group": 3
-      },
-      {
-         "id": "8872",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8876",
-         "source": "8872"
-      },
-      {
-         "value": 11,
-         "target": "8872",
-         "source": "8876"
-      },
-      {
-         "value": 4,
-         "target": "8875",
-         "source": "8872"
-      },
-      {
-         "value": 11,
-         "target": "8873",
-         "source": "8872"
+         "id": "hasan",
+         "group": 2
       }
    ]
 }

@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "38243",
-         "group": 2
-      },
-      {
-         "id": "38242",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "=?ISO-8859-1?Q?Christian_M=FCller?=",
          "value": 1,
-         "target": "38243",
-         "source": "38242"
+         "target": "Lasantha Fernando"
       },
       {
+         "source": "Lasantha Fernando",
          "value": 1,
-         "target": "38242",
-         "source": "38243"
+         "target": "=?ISO-8859-1?Q?Christian_M=FCller?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?ISO-8859-1?Q?Christian_M=FCller?=",
+         "group": 4
+      },
+      {
+         "id": "Lasantha Fernando",
+         "group": 3
       }
    ]
 }

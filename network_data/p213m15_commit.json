@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "15018",
-         "group": 4
-      },
-      {
-         "id": "36662",
-         "group": 1
-      },
-      {
-         "id": "394",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "jvazquez",
          "value": 1,
-         "target": "36662",
-         "source": "15018"
+         "target": "fmeschbe"
       },
       {
+         "source": "bdelacretaz",
          "value": 3,
-         "target": "394",
-         "source": "15018"
+         "target": "fmeschbe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jvazquez",
+         "group": 3
+      },
+      {
+         "id": "fmeschbe",
+         "group": 3
+      },
+      {
+         "id": "bdelacretaz",
+         "group": 4
       }
    ]
 }

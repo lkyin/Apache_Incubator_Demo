@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "simonetripodi",
+         "value": 294,
+         "target": "mostarda"
+      },
+      {
+         "source": "mostarda",
+         "value": 1,
+         "target": "lewismc"
+      }
+   ],
    "nodes": [
       {
-         "id": "4481",
+         "id": "simonetripodi",
          "group": 2
       },
       {
-         "id": "4483",
+         "id": "mostarda",
+         "group": 3
+      },
+      {
+         "id": "lewismc",
          "group": 1
-      },
-      {
-         "id": "4482",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4482",
-         "source": "4481"
-      },
-      {
-         "value": 294,
-         "target": "4482",
-         "source": "4483"
       }
    ]
 }

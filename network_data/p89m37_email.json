@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "12032",
-         "group": 2
-      },
-      {
-         "id": "12037",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "12032",
-         "source": "12037"
+         "source": "Eyal Allweil",
+         "value": 1,
+         "target": "Piyush Sharma"
       },
       {
-         "value": 1,
-         "target": "12037",
-         "source": "12032"
+         "source": "Piyush Sharma",
+         "value": 2,
+         "target": "Eyal Allweil"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Piyush Sharma",
+         "group": 3
+      },
+      {
+         "id": "Eyal Allweil",
+         "group": 4
       }
    ]
 }

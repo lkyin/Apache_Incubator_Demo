@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "30859",
-         "group": 3
+         "source": "dgrove",
+         "value": 3,
+         "target": "rabbah"
       },
       {
-         "id": "30829",
+         "source": "dgrove",
+         "value": 18,
+         "target": "houshengbo"
+      },
+      {
+         "source": "rabbah",
+         "value": 3,
+         "target": "houshengbo"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "dgrove",
          "group": 2
       },
       {
-         "id": "30827",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "30859",
-         "source": "30827"
+         "id": "rabbah",
+         "group": 2
       },
       {
-         "value": 18,
-         "target": "30829",
-         "source": "30859"
-      },
-      {
-         "value": 3,
-         "target": "30829",
-         "source": "30827"
+         "id": "houshengbo",
+         "group": 3
       }
    ]
 }

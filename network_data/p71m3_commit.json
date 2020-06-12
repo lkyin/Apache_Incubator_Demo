@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "7466",
-         "group": 1
-      },
-      {
-         "id": "7453",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "boisvert",
          "value": 1,
-         "target": "7453",
-         "source": "7466"
+         "target": "assaf"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "boisvert",
+         "group": 2
+      },
+      {
+         "id": "assaf",
+         "group": 3
       }
    ]
 }

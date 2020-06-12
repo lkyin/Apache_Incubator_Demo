@@ -1,77 +1,77 @@
 {
-   "nodes": [
-      {
-         "id": "4978",
-         "group": 3
-      },
-      {
-         "id": "580",
-         "group": 2
-      },
-      {
-         "id": "1137",
-         "group": 2
-      },
-      {
-         "id": "7591",
-         "group": 2
-      },
-      {
-         "id": "7604",
-         "group": 1
-      },
-      {
-         "id": "4559",
-         "group": 1
-      },
-      {
-         "id": "5938",
-         "group": 2
-      },
-      {
-         "id": "7590",
-         "group": 3
-      },
-      {
-         "id": "7579",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Simone Tripodi (JIRA)",
          "value": 1,
-         "target": "7590",
-         "source": "580"
+         "target": "=?utf-8?Q?J=C3=B6rg_Wa=C3=9Fmer_=28JIRA=29?="
       },
       {
+         "source": "Matt Benson",
          "value": 1,
-         "target": "7604",
-         "source": "4559"
+         "target": "Sebb (JIRA)"
       },
       {
+         "source": "Mark Struberg (JIRA)",
          "value": 1,
-         "target": "580",
-         "source": "7590"
+         "target": "=?utf-8?Q?J=C3=B6rg_Wa=C3=9Fmer_=28JIRA=29?="
       },
       {
-         "value": 1,
-         "target": "1137",
-         "source": "7590"
-      },
-      {
+         "source": "Matt Benson (JIRA)",
          "value": 2,
-         "target": "1137",
-         "source": "7591"
+         "target": "Sebb (JIRA)"
       },
       {
+         "source": "Niall Pemberton",
          "value": 1,
-         "target": "4978",
-         "source": "7579"
+         "target": "Donald Woods"
       },
       {
+         "source": "Kevan Miller",
          "value": 1,
-         "target": "7604",
-         "source": "5938"
+         "target": "Matt Benson"
+      },
+      {
+         "source": "Matt Benson",
+         "value": 1,
+         "target": "Kevan Miller"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matt Benson",
+         "group": 3
+      },
+      {
+         "id": "Matt Benson (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Mark Struberg (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Simone Tripodi (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Kevan Miller",
+         "group": 4
+      },
+      {
+         "id": "Sebb (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Donald Woods",
+         "group": 3
+      },
+      {
+         "id": "Niall Pemberton",
+         "group": 1
+      },
+      {
+         "id": "=?utf-8?Q?J=C3=B6rg_Wa=C3=9Fmer_=28JIRA=29?=",
+         "group": 4
       }
    ]
 }

@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4180",
-         "group": 3
+         "source": "Eric Yang (Commented) (JIRA)",
+         "value": 1,
+         "target": "Mingze Xu (Created) (JIRA)"
       },
       {
-         "id": "4183",
+         "source": "Eric Yang (Updated) (JIRA)",
+         "value": 1,
+         "target": "Eric Yang (Created) (JIRA)"
+      },
+      {
+         "source": "Eric Yang (Resolved) (JIRA)",
+         "value": 1,
+         "target": "Eric Yang (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Eric Yang (Created) (JIRA)",
          "group": 1
       },
       {
-         "id": "8833",
+         "id": "Eric Yang (Updated) (JIRA)",
          "group": 4
       },
       {
-         "id": "4197",
+         "id": "Eric Yang (Commented) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Eric Yang (Resolved) (JIRA)",
          "group": 3
       },
       {
-         "id": "4185",
+         "id": "Mingze Xu (Created) (JIRA)",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4180",
-         "source": "4185"
-      },
-      {
-         "value": 1,
-         "target": "8833",
-         "source": "4183"
-      },
-      {
-         "value": 1,
-         "target": "4180",
-         "source": "4197"
       }
    ]
 }

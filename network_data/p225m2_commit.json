@@ -1,70 +1,80 @@
 {
+   "links": [
+      {
+         "source": "fmartelli",
+         "value": 3,
+         "target": "mdisabatino"
+      },
+      {
+         "source": "fmartelli",
+         "value": 3,
+         "target": "coheigea"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 24,
+         "target": "coheigea"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 1,
+         "target": "anzelld"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 13,
+         "target": "fmartelli"
+      },
+      {
+         "source": "coheigea",
+         "value": 3,
+         "target": "fmartelli"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 2,
+         "target": "massi"
+      },
+      {
+         "source": "fmartelli",
+         "value": 20,
+         "target": "ilgrosso"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 3,
+         "target": "mdisabatino"
+      },
+      {
+         "source": "coheigea",
+         "value": 1,
+         "target": "mdisabatino"
+      }
+   ],
    "nodes": [
       {
-         "id": "39243",
+         "id": "fmartelli",
          "group": 4
       },
       {
-         "id": "29148",
-         "group": 2
+         "id": "coheigea",
+         "group": 3
       },
       {
-         "id": "28617",
-         "group": 4
-      },
-      {
-         "id": "39241",
+         "id": "massi",
          "group": 1
       },
       {
-         "id": "28618",
+         "id": "ilgrosso",
          "group": 2
       },
       {
-         "id": "39240",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "29148",
-         "source": "28618"
+         "id": "mdisabatino",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "39243",
-         "source": "28617"
-      },
-      {
-         "value": 33,
-         "target": "28618",
-         "source": "28617"
-      },
-      {
-         "value": 3,
-         "target": "39240",
-         "source": "28618"
-      },
-      {
-         "value": 24,
-         "target": "29148",
-         "source": "28617"
-      },
-      {
-         "value": 3,
-         "target": "39240",
-         "source": "28617"
-      },
-      {
-         "value": 1,
-         "target": "29148",
-         "source": "39240"
-      },
-      {
-         "value": 2,
-         "target": "39241",
-         "source": "28617"
+         "id": "anzelld",
+         "group": 1
       }
    ]
 }

@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "Eyal Allweil via Review Board",
+         "value": 1,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Eyal Allweil via Review Board",
+         "value": 1,
+         "target": "Eyal Allweil"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Eyal Allweil"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Dave Fisher"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Eyal Allweil via Review Board"
+      }
+   ],
    "nodes": [
       {
-         "id": "12097",
+         "id": "Dave Fisher",
+         "group": 3
+      },
+      {
+         "id": "Matthew Hayes",
          "group": 2
       },
       {
-         "id": "12032",
-         "group": 1
+         "id": "Eyal Allweil",
+         "group": 4
       },
       {
-         "id": "12020",
+         "id": "Eyal Allweil via Review Board",
          "group": 3
       },
       {
-         "id": "12107",
-         "group": 3
-      },
-      {
-         "id": "3903",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12097",
-         "source": "3903"
-      },
-      {
-         "value": 1,
-         "target": "12107",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "12107"
-      },
-      {
-         "value": 1,
-         "target": "12032",
-         "source": "12107"
-      },
-      {
-         "value": 1,
-         "target": "3903",
-         "source": "12020"
+         "id": "Eyal Allweil",
+         "group": 2
       }
    ]
 }

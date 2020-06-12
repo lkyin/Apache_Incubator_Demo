@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "10040",
-         "group": 4
+         "source": "Stian Soiland-Reyes",
+         "value": 8,
+         "target": "stain"
       },
       {
-         "id": "10032",
+         "source": "wikier",
+         "value": 25,
+         "target": "stain"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stian Soiland-Reyes",
+         "group": 2
+      },
+      {
+         "id": "wikier",
          "group": 3
       },
       {
-         "id": "5961",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 25,
-         "target": "10032",
-         "source": "10040"
-      },
-      {
-         "value": 8,
-         "target": "5961",
-         "source": "10040"
+         "id": "stain",
+         "group": 3
       }
    ]
 }

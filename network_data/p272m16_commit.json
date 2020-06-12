@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "20257",
-         "group": 4
-      },
-      {
-         "id": "20256",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "trotter",
          "value": 5,
-         "target": "20256",
-         "source": "20257"
+         "target": "keturn"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "trotter",
+         "group": 1
+      },
+      {
+         "id": "keturn",
+         "group": 3
       }
    ]
 }

@@ -1,117 +1,117 @@
 {
-   "nodes": [
-      {
-         "id": "6474",
-         "group": 4
-      },
-      {
-         "id": "6477",
-         "group": 2
-      },
-      {
-         "id": "6475",
-         "group": 4
-      },
-      {
-         "id": "6468",
-         "group": 2
-      },
-      {
-         "id": "6479",
-         "group": 3
-      },
-      {
-         "id": "6471",
-         "group": 1
-      },
-      {
-         "id": "6482",
-         "group": 3
-      },
-      {
-         "id": "6476",
-         "group": 1
-      },
-      {
-         "id": "6466",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "kentam",
+         "value": 3,
+         "target": "jsong"
+      },
+      {
+         "source": "steveh",
          "value": 2,
-         "target": "6477",
-         "source": "6471"
+         "target": "heathers"
       },
       {
+         "source": "jsong",
          "value": 1,
-         "target": "6482",
-         "source": "6477"
+         "target": "ekoneil"
       },
       {
+         "source": "kentam",
          "value": 1,
-         "target": "6476",
-         "source": "6466"
+         "target": "mmerz"
       },
       {
+         "source": "kentam",
          "value": 1,
-         "target": "6477",
-         "source": "6468"
+         "target": "rich"
       },
       {
+         "source": "kentam",
          "value": 1,
-         "target": "6482",
-         "source": "6471"
+         "target": "dolander"
       },
       {
+         "source": "ekoneil",
          "value": 3,
-         "target": "6468",
-         "source": "6471"
+         "target": "dolander"
       },
       {
-         "value": 5,
-         "target": "6468",
-         "source": "6476"
-      },
-      {
-         "value": 1,
-         "target": "6468",
-         "source": "6466"
-      },
-      {
+         "source": "rich",
          "value": 3,
-         "target": "6477",
-         "source": "6476"
+         "target": "jsong"
       },
       {
-         "value": 1,
-         "target": "6466",
-         "source": "6471"
-      },
-      {
-         "value": 10,
-         "target": "6466",
-         "source": "6479"
-      },
-      {
+         "source": "rich",
          "value": 14,
-         "target": "6476",
-         "source": "6471"
+         "target": "dolander"
       },
       {
-         "value": 3,
-         "target": "6477",
-         "source": "6466"
+         "source": "kentam",
+         "value": 10,
+         "target": "kylem"
       },
       {
-         "value": 1,
-         "target": "6482",
-         "source": "6466"
-      },
-      {
+         "source": "jsong",
          "value": 2,
-         "target": "6475",
-         "source": "6474"
+         "target": "dolander"
+      },
+      {
+         "source": "kentam",
+         "value": 1,
+         "target": "ekoneil"
+      },
+      {
+         "source": "mmerz",
+         "value": 1,
+         "target": "dolander"
+      },
+      {
+         "source": "rich",
+         "value": 5,
+         "target": "ekoneil"
+      },
+      {
+         "source": "mmerz",
+         "value": 1,
+         "target": "jsong"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kentam",
+         "group": 3
+      },
+      {
+         "id": "mmerz",
+         "group": 3
+      },
+      {
+         "id": "steveh",
+         "group": 4
+      },
+      {
+         "id": "heathers",
+         "group": 4
+      },
+      {
+         "id": "dolander",
+         "group": 2
+      },
+      {
+         "id": "ekoneil",
+         "group": 1
+      },
+      {
+         "id": "rich",
+         "group": 3
+      },
+      {
+         "id": "kylem",
+         "group": 4
+      },
+      {
+         "id": "jsong",
+         "group": 4
       }
    ]
 }

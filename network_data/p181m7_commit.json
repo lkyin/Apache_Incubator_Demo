@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29180",
-         "group": 1
+         "source": "mprudhom",
+         "value": 2,
+         "target": "pcl"
       },
       {
-         "id": "29186",
+         "source": "pcl",
+         "value": 23,
+         "target": "awhite"
+      },
+      {
+         "source": "mprudhom",
+         "value": 1,
+         "target": "awhite"
+      },
+      {
+         "source": "pcl",
+         "value": 2,
+         "target": "kwsutter"
+      },
+      {
+         "source": "awhite",
+         "value": 2,
+         "target": "kwsutter"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mprudhom",
          "group": 3
       },
       {
-         "id": "29179",
-         "group": 1
+         "id": "pcl",
+         "group": 4
       },
       {
-         "id": "29182",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "29179",
-         "source": "29180"
+         "id": "awhite",
+         "group": 3
       },
       {
-         "value": 23,
-         "target": "29182",
-         "source": "29179"
-      },
-      {
-         "value": 2,
-         "target": "29179",
-         "source": "29186"
-      },
-      {
-         "value": 1,
-         "target": "29182",
-         "source": "29180"
-      },
-      {
-         "value": 2,
-         "target": "29182",
-         "source": "29186"
+         "id": "kwsutter",
+         "group": 3
       }
    ]
 }

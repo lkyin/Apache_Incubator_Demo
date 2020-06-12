@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Geoff Howard",
+         "value": 1,
+         "target": "Geir Magnusson Jr"
+      },
+      {
+         "source": "Geir Magnusson Jr",
+         "value": 2,
+         "target": "Geoff Howard"
+      },
+      {
+         "source": "Geir Magnusson Jr",
+         "value": 4,
+         "target": "Glenn J Gonzales"
+      },
+      {
+         "source": "Glenn J Gonzales",
+         "value": 4,
+         "target": "Geir Magnusson Jr"
+      },
+      {
+         "source": "Christopher Lim",
+         "value": 1,
+         "target": "Geoff Howard"
+      },
+      {
+         "source": "Geir Magnusson Jr",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Stefan_L=FCtzkendorf?="
+      }
+   ],
    "nodes": [
       {
-         "id": "1035",
-         "group": 1
+         "id": "Geir Magnusson Jr",
+         "group": 2
       },
       {
-         "id": "533",
-         "group": 4
-      },
-      {
-         "id": "1034",
+         "id": "Christopher Lim",
          "group": 3
       },
       {
-         "id": "1027",
+         "id": "Glenn J Gonzales",
          "group": 2
       },
       {
-         "id": "1031",
+         "id": "=?ISO-8859-1?Q?Stefan_L=FCtzkendorf?=",
+         "group": 4
+      },
+      {
+         "id": "Geoff Howard",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "1034",
-         "source": "1031"
-      },
-      {
-         "value": 1,
-         "target": "1035",
-         "source": "533"
-      },
-      {
-         "value": 4,
-         "target": "1027",
-         "source": "1031"
-      },
-      {
-         "value": 1,
-         "target": "1031",
-         "source": "1035"
-      },
-      {
-         "value": 4,
-         "target": "1031",
-         "source": "1027"
-      },
-      {
-         "value": 2,
-         "target": "1035",
-         "source": "1031"
       }
    ]
 }

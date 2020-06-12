@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "9035",
-         "group": 2
-      },
-      {
-         "id": "9036",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "takezoe",
          "value": 2,
-         "target": "9036",
-         "source": "9035"
+         "target": "sabob"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "takezoe",
+         "group": 3
+      },
+      {
+         "id": "sabob",
+         "group": 3
       }
    ]
 }

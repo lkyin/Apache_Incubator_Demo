@@ -1,38 +1,38 @@
 {
+   "links": [
+      {
+         "source": "scott comer",
+         "value": 1,
+         "target": "Holger Grandy"
+      },
+      {
+         "source": "scott comer",
+         "value": 3,
+         "target": "Aditi S"
+      },
+      {
+         "source": "Aditi S",
+         "value": 2,
+         "target": "scott comer"
+      },
+      {
+         "source": "Holger Grandy",
+         "value": 1,
+         "target": "scott comer"
+      }
+   ],
    "nodes": [
       {
-         "id": "14765",
+         "id": "Aditi S",
+         "group": 3
+      },
+      {
+         "id": "Holger Grandy",
          "group": 1
       },
       {
-         "id": "14801",
-         "group": 4
-      },
-      {
-         "id": "14806",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "14765",
-         "source": "14801"
-      },
-      {
-         "value": 2,
-         "target": "14765",
-         "source": "14806"
-      },
-      {
-         "value": 1,
-         "target": "14801",
-         "source": "14765"
-      },
-      {
-         "value": 3,
-         "target": "14806",
-         "source": "14765"
+         "id": "scott comer",
+         "group": 1
       }
    ]
 }

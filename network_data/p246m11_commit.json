@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "24416",
-         "group": 4
-      },
-      {
-         "id": "32202",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "asavu",
          "value": 5,
-         "target": "32202",
-         "source": "24416"
+         "target": "tomwhite"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "asavu",
+         "group": 2
+      },
+      {
+         "id": "tomwhite",
+         "group": 4
       }
    ]
 }

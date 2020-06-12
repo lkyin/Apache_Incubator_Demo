@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "13",
-         "group": 1
-      },
-      {
-         "id": "28567",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Bob Buffone",
          "value": 1,
-         "target": "13",
-         "source": "28567"
+         "target": "Martin Cooper"
       },
       {
+         "source": "Martin Cooper",
          "value": 1,
-         "target": "28567",
-         "source": "13"
+         "target": "Bob Buffone"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Martin Cooper",
+         "group": 3
+      },
+      {
+         "id": "Bob Buffone",
+         "group": 1
       }
    ]
 }

@@ -1,47 +1,52 @@
 {
+   "links": [
+      {
+         "source": "zzhang",
+         "value": 10,
+         "target": "Kanak Biscuitwala"
+      },
+      {
+         "source": "kanak",
+         "value": 1,
+         "target": "zzhang"
+      },
+      {
+         "source": "zzhang",
+         "value": 6,
+         "target": "kanak"
+      },
+      {
+         "source": "Kanak Biscuitwala",
+         "value": 23,
+         "target": "zzhang"
+      },
+      {
+         "source": "kanak",
+         "value": 78,
+         "target": "zzhang"
+      },
+      {
+         "source": "kanak",
+         "value": 117,
+         "target": "Kanak Biscuitwala"
+      }
+   ],
    "nodes": [
       {
-         "id": "20191",
+         "id": "kanak",
          "group": 3
       },
       {
-         "id": "20220",
-         "group": 2
+         "id": "zzhang",
+         "group": 4
       },
       {
-         "id": "20219",
-         "group": 2
-      },
-      {
-         "id": "20192",
+         "id": "zzhang",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 23,
-         "target": "20219",
-         "source": "20191"
       },
       {
-         "value": 10,
-         "target": "20191",
-         "source": "20219"
-      },
-      {
-         "value": 1,
-         "target": "20192",
-         "source": "20220"
-      },
-      {
-         "value": 84,
-         "target": "20191",
-         "source": "20220"
-      },
-      {
-         "value": 117,
-         "target": "20219",
-         "source": "20220"
+         "id": "Kanak Biscuitwala",
+         "group": 1
       }
    ]
 }

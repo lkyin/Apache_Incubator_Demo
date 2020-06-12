@@ -1,50 +1,50 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "11625",
-         "group": 4
+         "source": "swu",
+         "value": 1,
+         "target": "stevenbethard"
       },
       {
-         "id": "11634",
+         "source": "stevenbethard",
+         "value": 2,
+         "target": "clin"
+      },
+      {
+         "source": "stevenbethard",
+         "value": 1,
+         "target": "dligach"
+      },
+      {
+         "source": "mattcoarr",
+         "value": 1,
+         "target": "spmurphy50"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "swu",
+         "group": 1
+      },
+      {
+         "id": "mattcoarr",
          "group": 2
       },
       {
-         "id": "11630",
-         "group": 3
-      },
-      {
-         "id": "11626",
+         "id": "spmurphy50",
          "group": 4
       },
       {
-         "id": "11632",
-         "group": 3
+         "id": "clin",
+         "group": 1
       },
       {
-         "id": "11633",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "11626",
-         "source": "11633"
+         "id": "stevenbethard",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "11626",
-         "source": "11632"
-      },
-      {
-         "value": 1,
-         "target": "11626",
-         "source": "11630"
-      },
-      {
-         "value": 1,
-         "target": "11634",
-         "source": "11625"
+         "id": "dligach",
+         "group": 1
       }
    ]
 }

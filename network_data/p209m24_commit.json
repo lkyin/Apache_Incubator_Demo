@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "35331",
-         "group": 3
-      },
-      {
-         "id": "35328",
-         "group": 3
-      },
-      {
-         "id": "35329",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "35329",
-         "source": "35331"
+         "source": "johnh",
+         "value": 18,
+         "target": "lindner"
       },
       {
-         "value": 18,
-         "target": "35329",
-         "source": "35328"
+         "source": "beaton",
+         "value": 2,
+         "target": "lindner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "johnh",
+         "group": 3
+      },
+      {
+         "id": "beaton",
+         "group": 1
+      },
+      {
+         "id": "lindner",
+         "group": 1
       }
    ]
 }

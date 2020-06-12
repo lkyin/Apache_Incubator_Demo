@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "4978",
-         "group": 4
-      },
-      {
-         "id": "580",
-         "group": 2
-      },
-      {
-         "id": "7597",
-         "group": 4
-      },
-      {
-         "id": "5892",
-         "group": 4
-      },
-      {
-         "id": "4485",
-         "group": 2
-      },
-      {
-         "id": "7590",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "4978",
-         "source": "5892"
-      },
-      {
-         "value": 1,
-         "target": "7590",
-         "source": "5892"
-      },
-      {
-         "value": 1,
-         "target": "5892",
-         "source": "4978"
-      },
-      {
-         "value": 1,
-         "target": "7597",
-         "source": "7590"
-      },
-      {
-         "value": 1,
-         "target": "5892",
-         "source": "4485"
-      },
-      {
+         "source": "Kevan Miller",
          "value": 2,
-         "target": "5892",
-         "source": "580"
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Donald Woods",
+         "value": 1,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Mark Struberg",
+         "value": 1,
+         "target": "Matt Benson"
+      },
+      {
+         "source": "Mark Struberg",
+         "value": 1,
+         "target": "Donald Woods"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Matt Benson",
+         "value": 1,
+         "target": "Gerhard"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matt Benson",
+         "group": 4
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 2
+      },
+      {
+         "id": "Simone Tripodi",
+         "group": 4
+      },
+      {
+         "id": "Kevan Miller",
+         "group": 4
+      },
+      {
+         "id": "Donald Woods",
+         "group": 2
+      },
+      {
+         "id": "Gerhard",
+         "group": 2
       }
    ]
 }

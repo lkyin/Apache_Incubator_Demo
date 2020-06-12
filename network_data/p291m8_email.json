@@ -1,83 +1,83 @@
 {
-   "nodes": [
-      {
-         "id": "13",
-         "group": 4
-      },
-      {
-         "id": "31571",
-         "group": 2
-      },
-      {
-         "id": "31565",
-         "group": 4
-      },
-      {
-         "id": "41",
-         "group": 3
-      },
-      {
-         "id": "31569",
-         "group": 3
-      },
-      {
-         "id": "31566",
-         "group": 4
-      },
-      {
-         "id": "31570",
-         "group": 4
-      },
-      {
-         "id": "181",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "31565",
-         "source": "41"
-      },
-      {
-         "value": 1,
-         "target": "31565",
-         "source": "13"
-      },
-      {
-         "value": 1,
-         "target": "31566",
-         "source": "41"
-      },
-      {
-         "value": 1,
-         "target": "41",
-         "source": "31566"
-      },
-      {
-         "value": 2,
-         "target": "31565",
-         "source": "31571"
-      },
-      {
-         "value": 1,
-         "target": "13",
-         "source": "41"
-      },
-      {
+         "source": "Luciano Resende",
          "value": 5,
-         "target": "31570",
-         "source": "41"
+         "target": "Xalan"
       },
       {
-         "value": 1,
-         "target": "31569",
-         "source": "181"
+         "source": "kusum kumar",
+         "value": 2,
+         "target": "Angela Cymbalak"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "31571",
-         "source": "41"
+         "target": "Roland Weber"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "Martin Cooper"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 2,
+         "target": "Angela Cymbalak"
+      },
+      {
+         "source": "Martin Cooper",
+         "value": 1,
+         "target": "Angela Cymbalak"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "kusum kumar"
+      },
+      {
+         "source": "Luciano Resende (JIRA)",
+         "value": 1,
+         "target": "Angela Cymbalak (JIRA)"
+      },
+      {
+         "source": "Roland Weber",
+         "value": 1,
+         "target": "Luciano Resende"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Luciano Resende (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Roland Weber",
+         "group": 4
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 2
+      },
+      {
+         "id": "Angela Cymbalak (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Martin Cooper",
+         "group": 4
+      },
+      {
+         "id": "Angela Cymbalak",
+         "group": 1
+      },
+      {
+         "id": "Xalan",
+         "group": 1
+      },
+      {
+         "id": "kusum kumar",
+         "group": 1
       }
    ]
 }

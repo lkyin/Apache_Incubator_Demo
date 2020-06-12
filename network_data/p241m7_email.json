@@ -1,80 +1,80 @@
 {
-   "nodes": [
-      {
-         "id": "42374",
-         "group": 4
-      },
-      {
-         "id": "42370",
-         "group": 1
-      },
-      {
-         "id": "42364",
-         "group": 4
-      },
-      {
-         "id": "42368",
-         "group": 4
-      },
-      {
-         "id": "4102",
-         "group": 4
-      },
-      {
-         "id": "42359",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "42374",
-         "source": "42364"
-      },
-      {
-         "value": 1,
-         "target": "4102",
-         "source": "42368"
-      },
-      {
-         "value": 3,
-         "target": "42374",
-         "source": "42359"
-      },
-      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 2,
-         "target": "42374",
-         "source": "4102"
+         "target": "Thomas Draier"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "42359",
-         "source": "42374"
+         "target": "Christophe Laprun"
       },
       {
-         "value": 1,
-         "target": "42359",
-         "source": "42370"
-      },
-      {
-         "value": 1,
-         "target": "42368",
-         "source": "4102"
-      },
-      {
+         "source": "Serge Huber",
          "value": 3,
-         "target": "42374",
-         "source": "42368"
+         "target": "Thomas Draier"
       },
       {
+         "source": "=?UTF-8?Q?Cl=C3=A9ment_Egger=2C_Jahia?=",
          "value": 1,
-         "target": "42368",
-         "source": "42374"
+         "target": "Serge Huber"
       },
       {
+         "source": "Quentin Lamerand",
+         "value": 1,
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "Christophe Laprun",
+         "value": 1,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "Thomas Draier",
          "value": 2,
-         "target": "4102",
-         "source": "42374"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "Christophe Laprun",
+         "value": 3,
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "Christophe Laprun"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Quentin Lamerand",
+         "group": 2
+      },
+      {
+         "id": "Christophe Laprun",
+         "group": 2
+      },
+      {
+         "id": "Thomas Draier",
+         "group": 3
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 2
+      },
+      {
+         "id": "Serge Huber",
+         "group": 4
+      },
+      {
+         "id": "=?UTF-8?Q?Cl=C3=A9ment_Egger=2C_Jahia?=",
+         "group": 2
       }
    ]
 }

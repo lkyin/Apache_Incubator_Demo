@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Sahaya Andrews"
+      },
+      {
+         "source": "Nozomi Kurihara",
+         "value": 1,
+         "target": "Dave Fisher"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Nozomi Kurihara"
+      },
+      {
+         "source": "Nozomi Kurihara",
+         "value": 1,
+         "target": "Matteo Merli"
+      },
+      {
+         "source": "Nozomi Kurihara",
+         "value": 1,
+         "target": "Sahaya Andrews"
+      },
+      {
+         "source": "Matteo Merli",
+         "value": 1,
+         "target": "Nozomi Kurihara"
+      }
+   ],
    "nodes": [
       {
-         "id": "20311",
-         "group": 4
-      },
-      {
-         "id": "4479",
-         "group": 1
-      },
-      {
-         "id": "32228",
+         "id": "Dave Fisher",
          "group": 3
       },
       {
-         "id": "32226",
+         "id": "Matteo Merli",
+         "group": 2
+      },
+      {
+         "id": "Sahaya Andrews",
+         "group": 3
+      },
+      {
+         "id": "Nozomi Kurihara",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "32226",
-         "source": "4479"
-      },
-      {
-         "value": 1,
-         "target": "32226",
-         "source": "32228"
-      },
-      {
-         "value": 1,
-         "target": "4479",
-         "source": "32228"
-      },
-      {
-         "value": 1,
-         "target": "32228",
-         "source": "4479"
-      },
-      {
-         "value": 1,
-         "target": "32228",
-         "source": "20311"
-      },
-      {
-         "value": 1,
-         "target": "20311",
-         "source": "32228"
       }
    ]
 }

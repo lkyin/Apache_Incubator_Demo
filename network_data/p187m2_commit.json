@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "31048",
-         "group": 1
-      },
-      {
-         "id": "5675",
-         "group": 1
-      },
-      {
-         "id": "6044",
-         "group": 2
-      },
-      {
-         "id": "31046",
-         "group": 2
-      },
-      {
-         "id": "31044",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "31044",
-         "source": "31046"
-      },
-      {
+         "source": "julien",
          "value": 1,
-         "target": "31044",
-         "source": "6044"
+         "target": "Tom White"
       },
       {
+         "source": "jfarrell",
          "value": 3,
-         "target": "5675",
-         "source": "31048"
+         "target": "caniszczyk"
+      },
+      {
+         "source": "Tianshuo Deng",
+         "value": 2,
+         "target": "julien"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "julien",
+         "group": 2
+      },
+      {
+         "id": "caniszczyk",
+         "group": 1
+      },
+      {
+         "id": "jfarrell",
+         "group": 2
+      },
+      {
+         "id": "Tianshuo Deng",
+         "group": 4
+      },
+      {
+         "id": "Tom White",
+         "group": 2
       }
    ]
 }

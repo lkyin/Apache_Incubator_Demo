@@ -1,79 +1,79 @@
 {
-   "nodes": [
-      {
-         "id": "22016",
-         "group": 4
-      },
-      {
-         "id": "6710",
-         "group": 2
-      },
-      {
-         "id": "308",
-         "group": 4
-      },
-      {
-         "id": "6044",
-         "group": 2
-      },
-      {
-         "id": "6714",
-         "group": 1
-      },
-      {
-         "id": "32209",
-         "group": 1
-      },
-      {
-         "id": "18791",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "6044",
-         "source": "6710"
+         "source": "Andrei Savu",
+         "value": 4,
+         "target": "Tudor Rogoz"
       },
       {
+         "source": "Amandeep Khurana",
          "value": 1,
-         "target": "308",
-         "source": "6044"
+         "target": "Amol Khanolkar"
       },
       {
+         "source": "Andrei Savu",
+         "value": 4,
+         "target": "Amandeep Khurana"
+      },
+      {
+         "source": "Andrei Savu",
+         "value": 2,
+         "target": "Tom White"
+      },
+      {
+         "source": "Tom White",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "Tudor Rogoz",
+         "value": 1,
+         "target": "Andrei Savu (JIRA)"
+      },
+      {
+         "source": "Tom White",
+         "value": 1,
+         "target": "Andrei Savu"
+      },
+      {
+         "source": "Tudor Rogoz",
+         "value": 2,
+         "target": "Andrei Savu"
+      },
+      {
+         "source": "Amandeep Khurana",
          "value": 3,
-         "target": "6710",
-         "source": "18791"
+         "target": "Andrei Savu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Andrei Savu (JIRA)",
+         "group": 1
       },
       {
-         "value": 4,
-         "target": "18791",
-         "source": "6710"
+         "id": "Amandeep Khurana",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "6710",
-         "source": "6044"
+         "id": "Tom White",
+         "group": 3
       },
       {
-         "value": 4,
-         "target": "32209",
-         "source": "6710"
+         "id": "Marvin",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "6710",
-         "source": "32209"
+         "id": "Andrei Savu",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22016",
-         "source": "18791"
+         "id": "Amol Khanolkar",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "6714",
-         "source": "32209"
+         "id": "Tudor Rogoz",
+         "group": 3
       }
    ]
 }

@@ -1,54 +1,54 @@
 {
-   "nodes": [
-      {
-         "id": "14839",
-         "group": 2
-      },
-      {
-         "id": "14836",
-         "group": 2
-      },
-      {
-         "id": "14838",
-         "group": 2
-      },
-      {
-         "id": "14834",
-         "group": 3
-      },
-      {
-         "id": "14821",
-         "group": 1
-      },
-      {
-         "id": "14833",
-         "group": 3
-      },
-      {
-         "id": "14810",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Michael Fitzner (Updated) (JIRA)",
          "value": 1,
-         "target": "14821",
-         "source": "14833"
+         "target": "Michal Miksovic (JIRA)"
       },
       {
+         "source": "Martin Veith (Resolved) (JIRA)",
          "value": 1,
-         "target": "14810",
-         "source": "14836"
+         "target": "Michael Fitzner (JIRA)"
       },
       {
+         "source": "Michael Fitzner (Assigned) (JIRA)",
          "value": 1,
-         "target": "14821",
-         "source": "14834"
+         "target": "Michal Miksovic (JIRA)"
       },
       {
+         "source": "Seth Call (Updated) (JIRA)",
          "value": 3,
-         "target": "14838",
-         "source": "14839"
+         "target": "Seth Call (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Michael Fitzner (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Michael Fitzner (Updated) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Michael Fitzner (Assigned) (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Seth Call (Updated) (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Seth Call (Created) (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Martin Veith (Resolved) (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Michal Miksovic (JIRA)",
+         "group": 1
       }
    ]
 }

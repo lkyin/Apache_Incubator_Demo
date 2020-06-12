@@ -1,118 +1,123 @@
 {
-   "nodes": [
-      {
-         "id": "31896",
-         "group": 2
-      },
-      {
-         "id": "31903",
-         "group": 1
-      },
-      {
-         "id": "17111",
-         "group": 3
-      },
-      {
-         "id": "31904",
-         "group": 1
-      },
-      {
-         "id": "31901",
-         "group": 4
-      },
-      {
-         "id": "31898",
-         "group": 4
-      },
-      {
-         "id": "31902",
-         "group": 2
-      },
-      {
-         "id": "31905",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 39,
-         "target": "31902",
-         "source": "31901"
+         "source": "EmergentOrder",
+         "value": 2,
+         "target": "Xusen Yin"
       },
       {
-         "value": 1,
-         "target": "31904",
-         "source": "31905"
+         "source": "donald",
+         "value": 4,
+         "target": "hyukjinkwon"
       },
       {
-         "value": 1,
-         "target": "31904",
-         "source": "31902"
-      },
-      {
+         "source": "Donald Szeto",
          "value": 3,
-         "target": "31901",
-         "source": "31903"
+         "target": "donald"
       },
       {
+         "source": "Xusen Yin",
+         "value": 1,
+         "target": "hyukjinkwon"
+      },
+      {
+         "source": "Marcin Ziemi??ski",
+         "value": 1,
+         "target": "Donald Szeto"
+      },
+      {
+         "source": "donald",
+         "value": 39,
+         "target": "Xusen Yin"
+      },
+      {
+         "source": "Marcin Ziemi??ski",
+         "value": 1,
+         "target": "Xusen Yin"
+      },
+      {
+         "source": "Marcin Ziemi??ski",
+         "value": 1,
+         "target": "donald"
+      },
+      {
+         "source": "donald",
          "value": 2,
-         "target": "31898",
-         "source": "31901"
+         "target": "Donald Szeto"
       },
       {
+         "source": "Donald Szeto",
+         "value": 1,
+         "target": "EmergentOrder"
+      },
+      {
+         "source": "EmergentOrder",
+         "value": 1,
+         "target": "Marcin Ziemi??ski"
+      },
+      {
+         "source": "apurtell",
+         "value": 1,
+         "target": "Xusen Yin"
+      },
+      {
+         "source": "Donald Szeto",
+         "value": 1,
+         "target": "Xusen Yin"
+      },
+      {
+         "source": "donald",
+         "value": 3,
+         "target": "Marcin Ziemi??ski"
+      },
+      {
+         "source": "Donald Szeto",
+         "value": 3,
+         "target": "Marcin Ziemi??ski"
+      },
+      {
+         "source": "donald",
+         "value": 4,
+         "target": "apurtell"
+      },
+      {
+         "source": "donald",
          "value": 2,
-         "target": "31905",
-         "source": "31902"
+         "target": "EmergentOrder"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "apurtell",
+         "group": 1
       },
       {
-         "value": 4,
-         "target": "31904",
-         "source": "31903"
+         "id": "EmergentOrder",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "31901",
-         "source": "31905"
+         "id": "Xusen Yin",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "31902",
-         "source": "31903"
+         "id": "Donald Szeto",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "31902",
-         "source": "17111"
+         "id": "donald",
+         "group": 4
       },
       {
-         "value": 4,
-         "target": "31904",
-         "source": "31901"
+         "id": "Donald Szeto",
+         "group": 3
       },
       {
-         "value": 4,
-         "target": "17111",
-         "source": "31901"
+         "id": "Marcin Ziemi??ski",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "31905",
-         "source": "31901"
-      },
-      {
-         "value": 1,
-         "target": "31902",
-         "source": "31896"
-      },
-      {
-         "value": 1,
-         "target": "31903",
-         "source": "31905"
-      },
-      {
-         "value": 4,
-         "target": "31901",
-         "source": "31896"
+         "id": "hyukjinkwon",
+         "group": 2
       }
    ]
 }

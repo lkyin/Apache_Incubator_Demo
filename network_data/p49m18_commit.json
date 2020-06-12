@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "2",
-         "group": 1
-      },
-      {
-         "id": "7",
-         "group": 1
-      },
-      {
-         "id": "8",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "dandiep",
          "value": 1,
-         "target": "7",
-         "source": "2"
+         "target": "bcm"
       },
       {
+         "source": "dandiep",
+         "value": 1,
+         "target": "jmsnell"
+      },
+      {
+         "source": "jmsnell",
          "value": 2,
-         "target": "8",
-         "source": "2"
+         "target": "bcm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "dandiep",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "8",
-         "source": "7"
+         "id": "jmsnell",
+         "group": 1
+      },
+      {
+         "id": "bcm",
+         "group": 3
       }
    ]
 }

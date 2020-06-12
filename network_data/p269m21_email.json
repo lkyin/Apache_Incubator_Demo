@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "Josh Elser",
+         "value": 1,
+         "target": "johndament"
+      },
+      {
+         "source": "Edward Capriolo",
+         "value": 1,
+         "target": "Josh Elser"
+      },
+      {
+         "source": "Josh Elser",
+         "value": 1,
+         "target": "Edward Capriolo"
+      }
+   ],
    "nodes": [
       {
-         "id": "3341",
+         "id": "johndament",
          "group": 3
       },
       {
-         "id": "17918",
-         "group": 1
+         "id": "Edward Capriolo",
+         "group": 4
       },
       {
-         "id": "7665",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "17918",
-         "source": "7665"
-      },
-      {
-         "value": 1,
-         "target": "7665",
-         "source": "17918"
-      },
-      {
-         "value": 1,
-         "target": "3341",
-         "source": "7665"
+         "id": "Josh Elser",
+         "group": 3
       }
    ]
 }

@@ -1,127 +1,137 @@
 {
-   "nodes": [
-      {
-         "id": "28594",
-         "group": 3
-      },
-      {
-         "id": "28605",
-         "group": 4
-      },
-      {
-         "id": "28607",
-         "group": 4
-      },
-      {
-         "id": "28601",
-         "group": 3
-      },
-      {
-         "id": "28592",
-         "group": 3
-      },
-      {
-         "id": "28600",
-         "group": 1
-      },
-      {
-         "id": "8704",
-         "group": 1
-      },
-      {
-         "id": "28596",
-         "group": 3
-      },
-      {
-         "id": "28603",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 64,
-         "target": "28607",
-         "source": "28605"
-      },
-      {
-         "value": 1,
-         "target": "28601",
-         "source": "28603"
-      },
-      {
-         "value": 9,
-         "target": "28601",
-         "source": "28605"
-      },
-      {
-         "value": 12,
-         "target": "28605",
-         "source": "28592"
-      },
-      {
-         "value": 1,
-         "target": "28603",
-         "source": "28596"
-      },
-      {
+         "source": "Michael Bolz",
          "value": 33,
-         "target": "28601",
-         "source": "28600"
+         "target": "mibo"
       },
       {
+         "source": "Christian Amend",
+         "value": 6,
+         "target": "Michael Bolz"
+      },
+      {
+         "source": "Christian Amend",
+         "value": 64,
+         "target": "chrisam"
+      },
+      {
+         "source": "Tamara Boehm",
          "value": 2,
-         "target": "28601",
-         "source": "28607"
+         "target": "mibo"
       },
       {
+         "source": "Stephan Klevenz",
          "value": 11,
-         "target": "28607",
-         "source": "28592"
+         "target": "chrisam"
       },
       {
+         "source": "Michael Bolz",
          "value": 1,
-         "target": "8704",
-         "source": "28607"
+         "target": "Tamara Boehm"
       },
       {
+         "source": "mibo",
          "value": 1,
-         "target": "28601",
-         "source": "28594"
+         "target": "Chandan V A"
       },
       {
-         "value": 5,
-         "target": "8704",
-         "source": "28592"
-      },
-      {
-         "value": 3,
-         "target": "28605",
-         "source": "28600"
-      },
-      {
+         "source": "Michael Bolz",
          "value": 1,
-         "target": "28596",
-         "source": "28600"
+         "target": "Chandan V A"
       },
       {
-         "value": 3,
-         "target": "28603",
-         "source": "28594"
-      },
-      {
+         "source": "Tamara Boehm",
          "value": 1,
-         "target": "28600",
-         "source": "28594"
+         "target": "Chandan V A"
       },
       {
-         "value": 14,
-         "target": "28605",
-         "source": "28594"
-      },
-      {
+         "source": "Chandan V A",
          "value": 2,
-         "target": "28603",
-         "source": "28600"
+         "target": "Tamara Boehm"
+      },
+      {
+         "source": "sklevenz",
+         "value": 1,
+         "target": "chrisam"
+      },
+      {
+         "source": "Christian Amend",
+         "value": 12,
+         "target": "Stephan Klevenz"
+      },
+      {
+         "source": "Stephan Klevenz",
+         "value": 1,
+         "target": "Tamara Boehm"
+      },
+      {
+         "source": "Christian Amend",
+         "value": 3,
+         "target": "mibo"
+      },
+      {
+         "source": "Stephan Klevenz",
+         "value": 1,
+         "target": "mibo"
+      },
+      {
+         "source": "Michael Bolz",
+         "value": 3,
+         "target": "Christian Amend"
+      },
+      {
+         "source": "sklevenz",
+         "value": 5,
+         "target": "Stephan Klevenz"
+      },
+      {
+         "source": "Michael Bolz",
+         "value": 2,
+         "target": "chrisam"
+      },
+      {
+         "source": "Christian Amend",
+         "value": 14,
+         "target": "Chandan V A"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Christian Amend",
+         "group": 2
+      },
+      {
+         "id": "Chandan V A",
+         "group": 2
+      },
+      {
+         "id": "Stephan Klevenz",
+         "group": 4
+      },
+      {
+         "id": "Stephan Klevenz",
+         "group": 2
+      },
+      {
+         "id": "Tamara Boehm",
+         "group": 1
+      },
+      {
+         "id": "sklevenz",
+         "group": 2
+      },
+      {
+         "id": "Michael Bolz",
+         "group": 4
+      },
+      {
+         "id": "chrisam",
+         "group": 2
+      },
+      {
+         "id": "mibo",
+         "group": 3
       }
    ]
 }

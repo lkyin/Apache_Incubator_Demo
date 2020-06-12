@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12268",
-         "group": 3
+         "source": "gpetracek",
+         "value": 12,
+         "target": "Mark Struberg"
       },
       {
-         "id": "5926",
+         "source": "Jason Porter",
+         "value": 3,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 4,
+         "target": "gpetracek"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jason Porter",
          "group": 1
       },
       {
-         "id": "12273",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "12273",
-         "source": "12268"
+         "id": "gpetracek",
+         "group": 3
       },
       {
-         "value": 3,
-         "target": "12273",
-         "source": "5926"
-      },
-      {
-         "value": 12,
-         "target": "5926",
-         "source": "12268"
+         "id": "Mark Struberg",
+         "group": 1
       }
    ]
 }

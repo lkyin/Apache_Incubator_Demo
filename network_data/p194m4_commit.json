@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "31901",
-         "group": 4
+         "source": "donald",
+         "value": 2,
+         "target": "Donald Szeto"
       },
       {
-         "id": "31903",
+         "source": "Donald Szeto",
+         "value": 5,
+         "target": "donald"
+      },
+      {
+         "source": "Donald Szeto",
+         "value": 2,
+         "target": "Donald Szeto"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Donald Szeto",
          "group": 3
       },
       {
-         "id": "31898",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "31898",
-         "source": "31903"
+         "id": "donald",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "31898",
-         "source": "31901"
-      },
-      {
-         "value": 5,
-         "target": "31901",
-         "source": "31903"
+         "id": "Donald Szeto",
+         "group": 3
       }
    ]
 }

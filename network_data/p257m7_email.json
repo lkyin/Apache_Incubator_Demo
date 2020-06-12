@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "Mohammad Nour El-Din",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "Roger Schildmeijer",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "=?ISO-8859-1?Q?S=E9ven_Le_Mesle?=",
+         "value": 1,
+         "target": "Emmanuel Lecharny"
+      },
+      {
+         "source": "Mohammad Nour El-Din",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?S=E9ven_Le_Mesle?="
+      },
+      {
+         "source": "Emmanuel Lecharny",
+         "value": 1,
+         "target": "Mohammad Nour El-Din"
+      }
+   ],
    "nodes": [
       {
-         "id": "308",
-         "group": 4
-      },
-      {
-         "id": "5877",
-         "group": 3
-      },
-      {
-         "id": "5878",
-         "group": 1
-      },
-      {
-         "id": "73",
+         "id": "=?ISO-8859-1?Q?S=E9ven_Le_Mesle?=",
          "group": 2
       },
       {
-         "id": "5873",
+         "id": "Emmanuel Lecharny",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5877",
-         "source": "5878"
       },
       {
-         "value": 1,
-         "target": "5878",
-         "source": "73"
+         "id": "Mohammad Nour El-Din",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "308",
-         "source": "5873"
+         "id": "Roger Schildmeijer",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "308",
-         "source": "5878"
-      },
-      {
-         "value": 1,
-         "target": "73",
-         "source": "5877"
+         "id": "Marvin",
+         "group": 4
       }
    ]
 }

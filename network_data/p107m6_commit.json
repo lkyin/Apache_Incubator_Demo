@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "aharui",
+         "value": 5,
+         "target": "cframpton"
+      },
+      {
+         "source": "tink",
+         "value": 1,
+         "target": "cframpton"
+      }
+   ],
    "nodes": [
       {
-         "id": "15567",
+         "id": "tink",
          "group": 2
       },
       {
-         "id": "15566",
-         "group": 1
+         "id": "aharui",
+         "group": 2
       },
       {
-         "id": "15574",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "15574",
-         "source": "15566"
-      },
-      {
-         "value": 5,
-         "target": "15566",
-         "source": "15567"
+         "id": "cframpton",
+         "group": 3
       }
    ]
 }

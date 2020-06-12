@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "28943",
-         "group": 4
-      },
-      {
-         "id": "8608",
-         "group": 3
-      },
-      {
-         "id": "28942",
-         "group": 3
-      },
-      {
-         "id": "370",
-         "group": 4
-      },
-      {
-         "id": "28941",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Justin Erenkrantz",
          "value": 1,
-         "target": "28943",
-         "source": "28941"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Mccleese, Sean W (388A)",
          "value": 1,
-         "target": "28943",
-         "source": "28942"
+         "target": "Andrew Hart"
       },
       {
-         "value": 1,
-         "target": "370",
-         "source": "8608"
-      },
-      {
+         "source": "Mattmann, Chris A (388J)",
          "value": 2,
-         "target": "28941",
-         "source": "370"
+         "target": "Sean Kelly"
+      },
+      {
+         "source": "Sean Kelly",
+         "value": 1,
+         "target": "Andrew Hart"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 4
+      },
+      {
+         "id": "Sean Kelly",
+         "group": 4
+      },
+      {
+         "id": "Andrew Hart",
+         "group": 4
+      },
+      {
+         "id": "Mccleese, Sean W (388A)",
+         "group": 1
+      },
+      {
+         "id": "Justin Erenkrantz",
+         "group": 3
       }
    ]
 }

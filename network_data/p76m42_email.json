@@ -1,46 +1,46 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8669",
-         "group": 4
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Erik Jansman"
       },
       {
-         "id": "8687",
+         "source": "Erik Jansman",
+         "value": 1,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Ferry Huberts"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Mostafa Khosrownejad"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alexander Broekhuis",
          "group": 1
       },
       {
-         "id": "8651",
-         "group": 2
+         "id": "Ferry Huberts",
+         "group": 3
       },
       {
-         "id": "8662",
-         "group": 4
+         "id": "Mostafa Khosrownejad",
+         "group": 1
       },
       {
-         "id": "8683",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8683",
-         "source": "8662"
+         "id": "Erik Jansman",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "8687",
-         "source": "8651"
-      },
-      {
-         "value": 1,
-         "target": "8669",
-         "source": "8662"
-      },
-      {
-         "value": 1,
-         "target": "8662",
-         "source": "8683"
+         "id": "Pepijn Noltes",
+         "group": 1
       }
    ]
 }

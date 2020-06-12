@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "10040",
-         "group": 3
-      },
-      {
-         "id": "10032",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "wikier",
          "value": 10,
-         "target": "10032",
-         "source": "10040"
+         "target": "stain"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "wikier",
+         "group": 4
+      },
+      {
+         "id": "stain",
+         "group": 4
       }
    ]
 }

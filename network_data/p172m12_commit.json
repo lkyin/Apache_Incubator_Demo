@@ -1,52 +1,57 @@
 {
+   "links": [
+      {
+         "source": "boisvert",
+         "value": 3,
+         "target": "mszefler"
+      },
+      {
+         "source": "gnodet",
+         "value": 5,
+         "target": "mriou"
+      },
+      {
+         "source": "boisvert",
+         "value": 1,
+         "target": "gnodet"
+      },
+      {
+         "source": "mszefler",
+         "value": 3,
+         "target": "boisvert"
+      },
+      {
+         "source": "mszefler",
+         "value": 19,
+         "target": "mriou"
+      },
+      {
+         "source": "boisvert",
+         "value": 11,
+         "target": "mriou"
+      },
+      {
+         "source": "mszefler",
+         "value": 4,
+         "target": "gnodet"
+      }
+   ],
    "nodes": [
       {
-         "id": "1023",
+         "id": "mszefler",
+         "group": 4
+      },
+      {
+         "id": "boisvert",
          "group": 3
       },
       {
-         "id": "28248",
-         "group": 4
+         "id": "gnodet",
+         "group": 2
       },
       {
-         "id": "7466",
-         "group": 1
-      },
-      {
-         "id": "536",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "7466",
-         "source": "1023"
-      },
-      {
-         "value": 5,
-         "target": "536",
-         "source": "1023"
-      },
-      {
-         "value": 19,
-         "target": "28248",
-         "source": "1023"
-      },
-      {
-         "value": 1,
-         "target": "536",
-         "source": "7466"
-      },
-      {
-         "value": 4,
-         "target": "536",
-         "source": "28248"
-      },
-      {
-         "value": 6,
-         "target": "7466",
-         "source": "28248"
+         "id": "mriou",
+         "group": 2
       }
    ]
 }

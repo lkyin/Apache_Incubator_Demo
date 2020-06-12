@@ -1,103 +1,113 @@
 {
-   "nodes": [
-      {
-         "id": "4947",
-         "group": 1
-      },
-      {
-         "id": "4935",
-         "group": 1
-      },
-      {
-         "id": "4944",
-         "group": 3
-      },
-      {
-         "id": "4952",
-         "group": 1
-      },
-      {
-         "id": "4942",
-         "group": 1
-      },
-      {
-         "id": "4936",
-         "group": 1
-      },
-      {
-         "id": "4950",
-         "group": 1
-      },
-      {
-         "id": "4945",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "linsun",
          "value": 2,
-         "target": "4935",
-         "source": "4947"
+         "target": "not"
       },
       {
-         "value": 3,
-         "target": "4936",
-         "source": "4942"
-      },
-      {
+         "source": "davidb",
          "value": 2,
-         "target": "4942",
-         "source": "4947"
+         "target": "mnuttall"
       },
       {
-         "value": 3,
-         "target": "4952",
-         "source": "4945"
+         "source": "not",
+         "value": 2,
+         "target": "gawor"
       },
       {
+         "source": "zoe",
          "value": 1,
-         "target": "4936",
-         "source": "4935"
+         "target": "davidb"
       },
       {
+         "source": "davidb",
+         "value": 2,
+         "target": "linsun"
+      },
+      {
+         "source": "gawor",
          "value": 1,
-         "target": "4950",
-         "source": "4935"
+         "target": "davidb"
       },
       {
-         "value": 3,
-         "target": "4952",
-         "source": "4936"
-      },
-      {
-         "value": 3,
-         "target": "4945",
-         "source": "4944"
-      },
-      {
+         "source": "linsun",
          "value": 2,
-         "target": "4945",
-         "source": "4935"
+         "target": "zoe"
       },
       {
-         "value": 2,
-         "target": "4945",
-         "source": "4942"
-      },
-      {
+         "source": "linsun",
          "value": 4,
-         "target": "4935",
-         "source": "4942"
+         "target": "gawor"
       },
       {
+         "source": "linsun",
          "value": 1,
-         "target": "4945",
-         "source": "4936"
+         "target": "davidb"
       },
       {
+         "source": "mnuttall",
+         "value": 1,
+         "target": "davidb"
+      },
+      {
+         "source": "mnuttall",
          "value": 3,
-         "target": "4952",
-         "source": "4942"
+         "target": "linsun"
+      },
+      {
+         "source": "mahrwald",
+         "value": 1,
+         "target": "gawor"
+      },
+      {
+         "source": "zoe",
+         "value": 3,
+         "target": "ozzy"
+      },
+      {
+         "source": "mnuttall",
+         "value": 3,
+         "target": "zoe"
+      },
+      {
+         "source": "gawor",
+         "value": 2,
+         "target": "zoe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mahrwald",
+         "group": 4
+      },
+      {
+         "id": "davidb",
+         "group": 4
+      },
+      {
+         "id": "ozzy",
+         "group": 4
+      },
+      {
+         "id": "not",
+         "group": 1
+      },
+      {
+         "id": "mnuttall",
+         "group": 4
+      },
+      {
+         "id": "linsun",
+         "group": 2
+      },
+      {
+         "id": "zoe",
+         "group": 2
+      },
+      {
+         "id": "gawor",
+         "group": 1
       }
    ]
 }

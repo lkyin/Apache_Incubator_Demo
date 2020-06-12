@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "28219",
-         "group": 2
-      },
-      {
-         "id": "11694",
-         "group": 3
-      },
-      {
-         "id": "12124",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "rfeng",
          "value": 1,
-         "target": "11694",
-         "source": "28219"
+         "target": "lresende"
       },
       {
+         "source": "jsdelfino",
          "value": 5,
-         "target": "12124",
-         "source": "11694"
+         "target": "lresende"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jsdelfino",
+         "group": 1
+      },
+      {
+         "id": "rfeng",
+         "group": 4
+      },
+      {
+         "id": "lresende",
+         "group": 1
       }
    ]
 }

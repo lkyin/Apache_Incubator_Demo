@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "2",
-         "group": 3
-      },
-      {
-         "id": "9",
-         "group": 3
-      },
-      {
-         "id": "28",
-         "group": 1
-      },
-      {
-         "id": "42",
-         "group": 3
-      },
-      {
-         "id": "17",
-         "group": 1
-      },
-      {
-         "id": "88",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Brian Moseley",
+         "value": 1,
+         "target": "James M Snell"
+      },
+      {
+         "source": "Brian Moseley",
+         "value": 1,
+         "target": "Stephen Duncan"
+      },
+      {
+         "source": "Ugo Cei",
+         "value": 1,
+         "target": "jmsnell"
+      },
+      {
+         "source": "James M Snell",
+         "value": 1,
+         "target": "Ugo Cei"
+      },
+      {
+         "source": "Sanjiva Weerawarana",
+         "value": 1,
+         "target": "Brian Moseley"
+      },
+      {
+         "source": "Stephen Duncan",
+         "value": 1,
+         "target": "Brian Moseley"
+      },
+      {
+         "source": "James M Snell",
          "value": 2,
-         "target": "88",
-         "source": "9"
+         "target": "Brian Moseley"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jmsnell",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "9",
-         "source": "88"
+         "id": "Ugo Cei",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "17",
-         "source": "88"
+         "id": "James M Snell",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "88",
-         "source": "17"
+         "id": "Brian Moseley",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "88",
-         "source": "28"
+         "id": "Sanjiva Weerawarana",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "42",
-         "source": "9"
-      },
-      {
-         "value": 1,
-         "target": "2",
-         "source": "42"
+         "id": "Stephen Duncan",
+         "group": 1
       }
    ]
 }

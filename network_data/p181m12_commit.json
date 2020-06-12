@@ -1,104 +1,104 @@
 {
-   "nodes": [
-      {
-         "id": "29188",
-         "group": 3
-      },
-      {
-         "id": "21209",
-         "group": 2
-      },
-      {
-         "id": "29187",
-         "group": 3
-      },
-      {
-         "id": "29182",
-         "group": 1
-      },
-      {
-         "id": "29180",
-         "group": 2
-      },
-      {
-         "id": "29190",
-         "group": 3
-      },
-      {
-         "id": "29179",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "29182",
-         "source": "29190"
+         "source": "clr",
+         "value": 1,
+         "target": "awhite"
       },
       {
+         "source": "wisneskid",
+         "value": 1,
+         "target": "clr"
+      },
+      {
+         "source": "clr",
+         "value": 1,
+         "target": "mikedd"
+      },
+      {
+         "source": "pcl",
+         "value": 1,
+         "target": "clr"
+      },
+      {
+         "source": "wisneskid",
+         "value": 1,
+         "target": "mprudhom"
+      },
+      {
+         "source": "pcl",
+         "value": 3,
+         "target": "mikedd"
+      },
+      {
+         "source": "pcl",
+         "value": 1,
+         "target": "ssegu"
+      },
+      {
+         "source": "mprudhom",
          "value": 2,
-         "target": "29182",
-         "source": "29180"
+         "target": "awhite"
       },
       {
+         "source": "wisneskid",
          "value": 1,
-         "target": "29179",
-         "source": "21209"
+         "target": "ssegu"
       },
       {
-         "value": 1,
-         "target": "21209",
-         "source": "29188"
-      },
-      {
-         "value": 11,
-         "target": "29182",
-         "source": "29188"
-      },
-      {
-         "value": 1,
-         "target": "29187",
-         "source": "29188"
-      },
-      {
-         "value": 2,
-         "target": "29182",
-         "source": "29187"
-      },
-      {
-         "value": 1,
-         "target": "29179",
-         "source": "29187"
-      },
-      {
-         "value": 3,
-         "target": "29179",
-         "source": "29188"
-      },
-      {
-         "value": 3,
-         "target": "29179",
-         "source": "29190"
-      },
-      {
-         "value": 1,
-         "target": "29180",
-         "source": "29188"
-      },
-      {
+         "source": "pcl",
          "value": 12,
-         "target": "29182",
-         "source": "29179"
+         "target": "awhite"
       },
       {
-         "value": 1,
-         "target": "29182",
-         "source": "21209"
+         "source": "ssegu",
+         "value": 2,
+         "target": "awhite"
       },
       {
-         "value": 1,
-         "target": "29190",
-         "source": "21209"
+         "source": "mikedd",
+         "value": 3,
+         "target": "awhite"
+      },
+      {
+         "source": "wisneskid",
+         "value": 3,
+         "target": "pcl"
+      },
+      {
+         "source": "wisneskid",
+         "value": 11,
+         "target": "awhite"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "wisneskid",
+         "group": 1
+      },
+      {
+         "id": "mprudhom",
+         "group": 1
+      },
+      {
+         "id": "mikedd",
+         "group": 3
+      },
+      {
+         "id": "clr",
+         "group": 2
+      },
+      {
+         "id": "pcl",
+         "group": 1
+      },
+      {
+         "id": "awhite",
+         "group": 3
+      },
+      {
+         "id": "ssegu",
+         "group": 4
       }
    ]
 }

@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "jbenois",
+         "value": 1,
+         "target": "jlboudart"
+      },
+      {
+         "source": "jlboudart",
+         "value": 1,
+         "target": "kpsiddharth"
+      },
+      {
+         "source": "jbenois",
+         "value": 1,
+         "target": "kpsiddharth"
+      },
+      {
+         "source": "jlboudart",
+         "value": 24,
+         "target": "hibou"
+      }
+   ],
    "nodes": [
       {
-         "id": "14365",
-         "group": 3
-      },
-      {
-         "id": "14369",
-         "group": 1
-      },
-      {
-         "id": "14370",
+         "id": "hibou",
          "group": 4
       },
       {
-         "id": "14362",
+         "id": "jbenois",
+         "group": 1
+      },
+      {
+         "id": "jlboudart",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "14370",
-         "source": "14369"
       },
       {
-         "value": 1,
-         "target": "14370",
-         "source": "14365"
-      },
-      {
-         "value": 24,
-         "target": "14362",
-         "source": "14365"
-      },
-      {
-         "value": 1,
-         "target": "14369",
-         "source": "14365"
+         "id": "kpsiddharth",
+         "group": 1
       }
    ]
 }

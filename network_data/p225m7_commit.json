@@ -1,52 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "28617",
-         "group": 3
-      },
-      {
-         "id": "28618",
-         "group": 4
-      },
-      {
-         "id": "39240",
-         "group": 3
-      },
-      {
-         "id": "29148",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 28,
-         "target": "29148",
-         "source": "39240"
-      },
-      {
-         "value": 3,
-         "target": "28618",
-         "source": "28617"
-      },
-      {
+         "source": "fmartelli",
          "value": 26,
-         "target": "39240",
-         "source": "28618"
+         "target": "mdisabatino"
       },
       {
+         "source": "coheigea",
+         "value": 28,
+         "target": "mdisabatino"
+      },
+      {
+         "source": "coheigea",
+         "value": 2,
+         "target": "fmartelli"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 3,
+         "target": "fmartelli"
+      },
+      {
+         "source": "ilgrosso",
          "value": 9,
-         "target": "29148",
-         "source": "28617"
+         "target": "coheigea"
       },
       {
+         "source": "fmartelli",
+         "value": 5,
+         "target": "coheigea"
+      },
+      {
+         "source": "ilgrosso",
          "value": 1,
-         "target": "39240",
-         "source": "28617"
+         "target": "mdisabatino"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ilgrosso",
+         "group": 1
       },
       {
-         "value": 7,
-         "target": "29148",
-         "source": "28618"
+         "id": "fmartelli",
+         "group": 2
+      },
+      {
+         "id": "coheigea",
+         "group": 3
+      },
+      {
+         "id": "mdisabatino",
+         "group": 2
       }
    ]
 }

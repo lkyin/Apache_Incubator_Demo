@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8842",
-         "group": 2
+         "source": "Eric Yang",
+         "value": 1,
+         "target": "Luciano Resende"
       },
       {
-         "id": "4187",
+         "source": "Rodrigo Trujillo",
+         "value": 1,
+         "target": "Eric Yang"
+      },
+      {
+         "source": "Alan Cabrera",
+         "value": 1,
+         "target": "Rodrigo Trujillo"
+      },
+      {
+         "source": "Eric Yang",
+         "value": 1,
+         "target": "Rodrigo Trujillo"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Eric Yang",
+         "group": 3
+      },
+      {
+         "id": "Rodrigo Trujillo",
          "group": 1
       },
       {
-         "id": "8864",
-         "group": 2
+         "id": "Alan Cabrera",
+         "group": 3
       },
       {
-         "id": "41",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "41",
-         "source": "4187"
-      },
-      {
-         "value": 1,
-         "target": "8864",
-         "source": "8842"
-      },
-      {
-         "value": 1,
-         "target": "8864",
-         "source": "4187"
-      },
-      {
-         "value": 1,
-         "target": "4187",
-         "source": "8864"
+         "id": "Luciano Resende",
+         "group": 1
       }
    ]
 }

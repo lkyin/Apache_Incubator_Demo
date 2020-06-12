@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "6",
-         "group": 1
-      },
-      {
-         "id": "4",
-         "group": 2
-      },
-      {
-         "id": "2",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "jmsnell",
          "value": 1,
-         "target": "4",
-         "source": "6"
+         "target": "ugo"
       },
       {
+         "source": "jmsnell",
          "value": 1,
-         "target": "4",
-         "source": "2"
+         "target": "rooneg"
       },
       {
+         "source": "rooneg",
          "value": 1,
-         "target": "6",
-         "source": "2"
+         "target": "ugo"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jmsnell",
+         "group": 4
+      },
+      {
+         "id": "rooneg",
+         "group": 3
+      },
+      {
+         "id": "ugo",
+         "group": 1
       }
    ]
 }

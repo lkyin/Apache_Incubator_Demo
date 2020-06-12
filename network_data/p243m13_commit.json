@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "42623",
-         "group": 3
-      },
-      {
-         "id": "42622",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "fapeeler",
          "value": 1,
-         "target": "42622",
-         "source": "42623"
+         "target": "arkurth"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fapeeler",
+         "group": 4
+      },
+      {
+         "id": "arkurth",
+         "group": 2
       }
    ]
 }

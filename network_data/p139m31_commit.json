@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "22456",
-         "group": 4
-      },
-      {
-         "id": "22453",
-         "group": 4
-      },
-      {
-         "id": "22454",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "ajaquith",
          "value": 2,
-         "target": "22454",
-         "source": "22453"
+         "target": "metskem"
       },
       {
+         "source": "ajaquith",
          "value": 2,
-         "target": "22453",
-         "source": "22456"
+         "target": "brushed"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ajaquith",
+         "group": 1
+      },
+      {
+         "id": "metskem",
+         "group": 1
+      },
+      {
+         "id": "brushed",
+         "group": 4
       }
    ]
 }

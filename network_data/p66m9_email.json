@@ -1,92 +1,92 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7599",
-         "group": 2
+         "source": "Donald Woods",
+         "value": 1,
+         "target": "Carlos Vara"
       },
       {
-         "id": "4978",
+         "source": "Carlos Vara",
+         "value": 1,
+         "target": "Matt Benson"
+      },
+      {
+         "source": "Donald Woods (JIRA)",
+         "value": 1,
+         "target": "David J. M. Karlsen (JIRA)"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Donald Woods"
+      },
+      {
+         "source": "Donald Woods (JIRA)",
+         "value": 7,
+         "target": "Albert Lee (JIRA)"
+      },
+      {
+         "source": "Matt Benson",
+         "value": 1,
+         "target": "Carlos Vara"
+      },
+      {
+         "source": "Carlos Vara",
+         "value": 1,
+         "target": "Donald Woods (JIRA)"
+      },
+      {
+         "source": "Donald Woods (JIRA)",
+         "value": 1,
+         "target": "Mark Struberg (JIRA)"
+      },
+      {
+         "source": "Carlos Vara (JIRA)",
+         "value": 1,
+         "target": "Donald Woods (JIRA)"
+      },
+      {
+         "source": "Carlos Vara",
+         "value": 1,
+         "target": "Donald Woods"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matt Benson",
          "group": 1
       },
       {
-         "id": "7580",
+         "id": "Mark Struberg (JIRA)",
          "group": 3
       },
       {
-         "id": "7590",
+         "id": "Albert Lee (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Carlos Vara (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Carlos Vara",
+         "group": 3
+      },
+      {
+         "id": "Donald Woods (JIRA)",
          "group": 2
       },
       {
-         "id": "7577",
+         "id": "David J. M. Karlsen (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Simone Tripodi",
          "group": 4
       },
       {
-         "id": "7592",
+         "id": "Donald Woods",
          "group": 2
-      },
-      {
-         "id": "5032",
-         "group": 1
-      },
-      {
-         "id": "7574",
-         "group": 1
-      },
-      {
-         "id": "5938",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7580",
-         "source": "4978"
-      },
-      {
-         "value": 1,
-         "target": "5032",
-         "source": "7580"
-      },
-      {
-         "value": 1,
-         "target": "5032",
-         "source": "7577"
-      },
-      {
-         "value": 7,
-         "target": "7599",
-         "source": "5032"
-      },
-      {
-         "value": 1,
-         "target": "7580",
-         "source": "7590"
-      },
-      {
-         "value": 1,
-         "target": "4978",
-         "source": "7580"
-      },
-      {
-         "value": 1,
-         "target": "7590",
-         "source": "7580"
-      },
-      {
-         "value": 1,
-         "target": "7592",
-         "source": "5032"
-      },
-      {
-         "value": 1,
-         "target": "4978",
-         "source": "7574"
-      },
-      {
-         "value": 1,
-         "target": "5938",
-         "source": "5032"
       }
    ]
 }

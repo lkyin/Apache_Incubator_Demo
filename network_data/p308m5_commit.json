@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "44922",
-         "group": 1
-      },
-      {
-         "id": "44921",
-         "group": 2
-      },
-      {
-         "id": "44920",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "44920",
-         "source": "44922"
+         "source": "mturyn",
+         "value": 30,
+         "target": "jmargaris"
       },
       {
-         "value": 30,
-         "target": "44921",
-         "source": "44922"
+         "source": "mturyn",
+         "value": 1,
+         "target": "cwei"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mturyn",
+         "group": 3
+      },
+      {
+         "id": "cwei",
+         "group": 2
+      },
+      {
+         "id": "jmargaris",
+         "group": 3
       }
    ]
 }

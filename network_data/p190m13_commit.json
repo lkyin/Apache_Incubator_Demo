@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "19956",
-         "group": 2
-      },
-      {
-         "id": "31630",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "olga",
          "value": 4,
-         "target": "31630",
-         "source": "19956"
+         "target": "gates"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "olga",
+         "group": 4
+      },
+      {
+         "id": "gates",
+         "group": 1
       }
    ]
 }

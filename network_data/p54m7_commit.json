@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "1293",
-         "group": 3
-      },
-      {
-         "id": "1364",
-         "group": 2
-      },
-      {
-         "id": "1329",
-         "group": 3
-      },
-      {
-         "id": "1324",
-         "group": 2
-      },
-      {
-         "id": "1315",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "1329",
-         "source": "1293"
-      },
-      {
+         "source": "Bolke de Bruin",
          "value": 1,
-         "target": "1324",
-         "source": "1293"
+         "target": "Sumit Maheshwari"
       },
       {
-         "value": 1,
-         "target": "1329",
-         "source": "1364"
-      },
-      {
-         "value": 1,
-         "target": "1315",
-         "source": "1293"
-      },
-      {
+         "source": "Sumit Maheshwari",
          "value": 3,
-         "target": "1364",
-         "source": "1293"
+         "target": "Siddharth Anand"
       },
       {
+         "source": "Siddharth Anand",
          "value": 1,
-         "target": "1324",
-         "source": "1364"
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Siddharth Anand",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Sumit Maheshwari",
+         "value": 1,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 2,
+         "target": "Siddharth Anand"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dan Davydov",
+         "group": 2
+      },
+      {
+         "id": "Bolke de Bruin",
+         "group": 1
+      },
+      {
+         "id": "Sumit Maheshwari",
+         "group": 2
+      },
+      {
+         "id": "Siddharth Anand",
+         "group": 3
+      },
+      {
+         "id": "Chris Riccomini",
+         "group": 2
       }
    ]
 }

@@ -1,57 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "4483",
-         "group": 2
-      },
-      {
-         "id": "4099",
-         "group": 1
-      },
-      {
-         "id": "28900",
-         "group": 1
-      },
-      {
-         "id": "28901",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 33,
-         "target": "4483",
-         "source": "28901"
-      },
-      {
+         "source": "olamy",
          "value": 25,
-         "target": "28900",
-         "source": "4099"
+         "target": "danielmanzke"
       },
       {
-         "value": 19,
-         "target": "28900",
-         "source": "28901"
-      },
-      {
+         "source": "danielmanzke",
          "value": 25,
-         "target": "4483",
-         "source": "28900"
+         "target": "simonetripodi"
       },
       {
-         "value": 62,
-         "target": "28900",
-         "source": "4483"
-      },
-      {
+         "source": "olamy",
          "value": 186,
-         "target": "4483",
-         "source": "4099"
+         "target": "simonetripodi"
       },
       {
+         "source": "simonetripodi",
+         "value": 62,
+         "target": "danielmanzke"
+      },
+      {
+         "source": "grobmeier",
+         "value": 19,
+         "target": "danielmanzke"
+      },
+      {
+         "source": "grobmeier",
+         "value": 33,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "grobmeier",
          "value": 24,
-         "target": "4099",
-         "source": "28901"
+         "target": "olamy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "grobmeier",
+         "group": 3
+      },
+      {
+         "id": "olamy",
+         "group": 4
+      },
+      {
+         "id": "simonetripodi",
+         "group": 1
+      },
+      {
+         "id": "danielmanzke",
+         "group": 4
       }
    ]
 }

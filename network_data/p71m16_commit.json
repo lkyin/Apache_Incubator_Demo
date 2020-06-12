@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "1023",
-         "group": 3
-      },
-      {
-         "id": "7466",
-         "group": 1
-      },
-      {
-         "id": "7453",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "mriou",
          "value": 1,
-         "target": "7453",
-         "source": "7466"
+         "target": "assaf"
       },
       {
+         "source": "boisvert",
          "value": 1,
-         "target": "7453",
-         "source": "1023"
+         "target": "assaf"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "boisvert",
+         "group": 4
+      },
+      {
+         "id": "assaf",
+         "group": 2
+      },
+      {
+         "id": "mriou",
+         "group": 3
       }
    ]
 }

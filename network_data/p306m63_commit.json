@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "43018",
-         "group": 1
-      },
-      {
-         "id": "42844",
-         "group": 2
-      },
-      {
-         "id": "43005",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Andreas ''count'' Kotes",
+         "value": 1,
+         "target": "yuri.zelikov"
+      },
+      {
+         "source": "yurize",
+         "value": 1,
+         "target": "Andreas ''count'' Kotes"
+      },
+      {
+         "source": "yurize",
          "value": 7,
-         "target": "43005",
-         "source": "42844"
+         "target": "yuri.zelikov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "yurize",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "42844",
-         "source": "43018"
+         "id": "Andreas ''count'' Kotes",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "43005",
-         "source": "43018"
+         "id": "yuri.zelikov",
+         "group": 3
       }
    ]
 }

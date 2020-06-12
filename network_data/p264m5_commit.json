@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "pmkelly",
+         "value": 5,
+         "target": "Gabriela Gibson"
+      },
+      {
+         "source": "Gabriela Gibson",
+         "value": 6,
+         "target": "Peter Kelly"
+      },
+      {
+         "source": "Gabriela Gibson",
+         "value": 5,
+         "target": "gbg"
+      },
+      {
+         "source": "pmkelly",
+         "value": 5,
+         "target": "gbg"
+      }
+   ],
    "nodes": [
       {
-         "id": "11313",
-         "group": 1
-      },
-      {
-         "id": "11308",
-         "group": 3
-      },
-      {
-         "id": "11307",
+         "id": "pmkelly",
          "group": 2
       },
       {
-         "id": "11316",
+         "id": "Gabriela Gibson",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "11316",
-         "source": "11307"
       },
       {
-         "value": 6,
-         "target": "11308",
-         "source": "11313"
+         "id": "Peter Kelly",
+         "group": 2
       },
       {
-         "value": 5,
-         "target": "11307",
-         "source": "11313"
-      },
-      {
-         "value": 5,
-         "target": "11316",
-         "source": "11313"
+         "id": "gbg",
+         "group": 1
       }
    ]
 }

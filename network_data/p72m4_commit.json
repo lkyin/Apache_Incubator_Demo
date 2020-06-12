@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "7620",
-         "group": 3
-      },
-      {
-         "id": "7625",
-         "group": 3
-      },
-      {
-         "id": "7622",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "7625",
-         "source": "7620"
-      },
-      {
-         "value": 4,
-         "target": "7622",
-         "source": "7620"
-      },
-      {
+         "source": "jhyde",
          "value": 129,
-         "target": "7622",
-         "source": "7625"
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "Julian Hyde",
+         "value": 3,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "Julian Hyde",
+         "value": 4,
+         "target": "jhyde"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Julian Hyde",
+         "group": 1
+      },
+      {
+         "id": "jhyde",
+         "group": 2
+      },
+      {
+         "id": "Julian Hyde",
+         "group": 3
       }
    ]
 }

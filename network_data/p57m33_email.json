@@ -1,61 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4488",
-         "group": 2
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Antonio Sanso"
       },
       {
-         "id": "28791",
+         "source": "Antonio Sanso",
+         "value": 1,
+         "target": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?="
+      },
+      {
+         "source": "Antonio Sanso",
+         "value": 33,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
+         "value": 34,
+         "target": "Simone Tripodi"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 67,
+         "target": "Antonio Sanso"
+      },
+      {
+         "source": "Maciej Machulak",
+         "value": 1,
+         "target": "Antonio Sanso"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Maciej Machulak"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maciej Machulak",
          "group": 4
       },
       {
-         "id": "28769",
+         "id": "Tommaso Teofili",
          "group": 1
       },
       {
-         "id": "4485",
-         "group": 4
-      },
-      {
-         "id": "28768",
+         "id": "=?UTF-8?B?xYF1a2FzeiBNb3JlxYQ=?=",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "28769",
-         "source": "4485"
       },
       {
-         "value": 1,
-         "target": "28768",
-         "source": "28791"
+         "id": "Simone Tripodi",
+         "group": 2
       },
       {
-         "value": 34,
-         "target": "4485",
-         "source": "28768"
-      },
-      {
-         "value": 1,
-         "target": "28791",
-         "source": "28769"
-      },
-      {
-         "value": 33,
-         "target": "4488",
-         "source": "28791"
-      },
-      {
-         "value": 67,
-         "target": "28791",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "28791",
-         "source": "4485"
+         "id": "Antonio Sanso",
+         "group": 1
       }
    ]
 }

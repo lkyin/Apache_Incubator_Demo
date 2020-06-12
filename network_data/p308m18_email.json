@@ -1,60 +1,60 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "44940",
-         "group": 4
+         "source": "Michael Mikhaylov (JIRA)",
+         "value": 1,
+         "target": "David Day (JIRA)"
       },
       {
-         "id": "44975",
+         "source": "James Margaris (JIRA)",
+         "value": 1,
+         "target": "Trevor Oldak (JIRA)"
+      },
+      {
+         "source": "Trevor Oldak (JIRA)",
+         "value": 1,
+         "target": "David Day (JIRA)"
+      },
+      {
+         "source": "Trevor Oldak (JIRA)",
+         "value": 1,
+         "target": "Matt Carbone (JIRA)"
+      },
+      {
+         "source": "Michael Mikhaylov (JIRA)",
+         "value": 8,
+         "target": "Trevor Oldak (JIRA)"
+      },
+      {
+         "source": "Trevor Oldak (JIRA)",
+         "value": 1,
+         "target": "Xiaojing He (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matt Carbone (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Trevor Oldak (JIRA)",
          "group": 2
       },
       {
-         "id": "44951",
+         "id": "Xiaojing He (JIRA)",
          "group": 1
       },
       {
-         "id": "44964",
+         "id": "David Day (JIRA)",
          "group": 4
       },
       {
-         "id": "44961",
-         "group": 3
+         "id": "Michael Mikhaylov (JIRA)",
+         "group": 2
       },
       {
-         "id": "44939",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "44975",
-         "source": "44940"
-      },
-      {
-         "value": 1,
-         "target": "44961",
-         "source": "44964"
-      },
-      {
-         "value": 8,
-         "target": "44940",
-         "source": "44964"
-      },
-      {
-         "value": 1,
-         "target": "44951",
-         "source": "44940"
-      },
-      {
-         "value": 1,
-         "target": "44940",
-         "source": "44939"
-      },
-      {
-         "value": 1,
-         "target": "44961",
-         "source": "44940"
+         "id": "James Margaris (JIRA)",
+         "group": 2
       }
    ]
 }

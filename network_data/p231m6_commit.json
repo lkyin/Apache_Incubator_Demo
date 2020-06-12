@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "8694",
-         "group": 4
-      },
-      {
-         "id": "394",
-         "group": 4
-      },
-      {
-         "id": "28063",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "28063",
-         "source": "394"
+         "source": "bdelacretaz",
+         "value": 3,
+         "target": "jukka"
       },
       {
-         "value": 3,
-         "target": "394",
-         "source": "8694"
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "siren"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
+         "group": 1
+      },
+      {
+         "id": "jukka",
+         "group": 2
+      },
+      {
+         "id": "siren",
+         "group": 4
       }
    ]
 }

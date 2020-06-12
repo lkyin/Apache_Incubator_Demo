@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "42993",
-         "group": 1
-      },
-      {
-         "id": "43015",
-         "group": 4
-      },
-      {
-         "id": "43010",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Yuri Zelikov",
          "value": 1,
-         "target": "43010",
-         "source": "42993"
+         "target": "wisebaldone"
       },
       {
+         "source": "wisebaldone",
          "value": 1,
-         "target": "43010",
-         "source": "43015"
+         "target": "wisebaldone"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "wisebaldone",
+         "group": 1
+      },
+      {
+         "id": "Yuri Zelikov",
+         "group": 2
+      },
+      {
+         "id": "wisebaldone",
+         "group": 4
       }
    ]
 }

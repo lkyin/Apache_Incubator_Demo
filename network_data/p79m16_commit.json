@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8876",
-         "group": 4
+         "source": "ito",
+         "value": 1,
+         "target": "hasan"
       },
       {
-         "id": "8875",
+         "source": "reto",
+         "value": 1,
+         "target": "ito"
+      },
+      {
+         "source": "reto",
+         "value": 8,
+         "target": "bblfish"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "reto",
          "group": 2
       },
       {
-         "id": "8877",
-         "group": 4
+         "id": "bblfish",
+         "group": 1
       },
       {
-         "id": "8872",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 8,
-         "target": "8877",
-         "source": "8872"
+         "id": "ito",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "8875",
-         "source": "8872"
-      },
-      {
-         "value": 1,
-         "target": "8875",
-         "source": "8876"
+         "id": "hasan",
+         "group": 2
       }
    ]
 }

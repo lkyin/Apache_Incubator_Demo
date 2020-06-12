@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "10038",
-         "group": 4
-      },
-      {
-         "id": "22160",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "andy",
          "value": 15,
-         "target": "22160",
-         "source": "10038"
+         "target": "castagna"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "andy",
+         "group": 1
+      },
+      {
+         "id": "castagna",
+         "group": 1
       }
    ]
 }

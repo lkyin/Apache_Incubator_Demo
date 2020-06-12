@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "21209",
-         "group": 1
-      },
-      {
-         "id": "22107",
-         "group": 4
-      },
-      {
-         "id": "22108",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "mbo",
          "value": 2,
-         "target": "22108",
-         "source": "22107"
+         "target": "mcaisse"
       },
       {
+         "source": "clr",
          "value": 1,
-         "target": "22107",
-         "source": "21209"
+         "target": "mcaisse"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mbo",
+         "group": 2
+      },
+      {
+         "id": "mcaisse",
+         "group": 2
+      },
+      {
+         "id": "clr",
+         "group": 1
       }
    ]
 }

@@ -1,71 +1,76 @@
 {
-   "nodes": [
-      {
-         "id": "45120",
-         "group": 4
-      },
-      {
-         "id": "45127",
-         "group": 4
-      },
-      {
-         "id": "45128",
-         "group": 1
-      },
-      {
-         "id": "45122",
-         "group": 1
-      },
-      {
-         "id": "45119",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "45122",
-         "source": "45120"
-      },
-      {
-         "value": 30,
-         "target": "45119",
-         "source": "45122"
-      },
-      {
-         "value": 14,
-         "target": "45119",
-         "source": "45127"
-      },
-      {
-         "value": 4,
-         "target": "45128",
-         "source": "45127"
-      },
-      {
-         "value": 8,
-         "target": "45122",
-         "source": "45127"
-      },
-      {
+         "source": "mvescovi",
          "value": 3,
-         "target": "45122",
-         "source": "45119"
+         "target": "bravi"
       },
       {
+         "source": "mvescovi",
+         "value": 6,
+         "target": "enolan"
+      },
+      {
+         "source": "enolan",
+         "value": 1,
+         "target": "mvescovi"
+      },
+      {
+         "source": "mvescovi",
          "value": 4,
-         "target": "45119",
-         "source": "45128"
+         "target": "dmiddlem"
       },
       {
+         "source": "bravi",
+         "value": 14,
+         "target": "dmiddlem"
+      },
+      {
+         "source": "bravi",
+         "value": 8,
+         "target": "enolan"
+      },
+      {
+         "source": "bravi",
          "value": 5,
-         "target": "45127",
-         "source": "45120"
+         "target": "lkuehne"
       },
       {
-         "value": 7,
-         "target": "45122",
-         "source": "45128"
+         "source": "bravi",
+         "value": 1,
+         "target": "mvescovi"
+      },
+      {
+         "source": "enolan",
+         "value": 1,
+         "target": "lkuehne"
+      },
+      {
+         "source": "dmiddlem",
+         "value": 33,
+         "target": "enolan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mvescovi",
+         "group": 3
+      },
+      {
+         "id": "dmiddlem",
+         "group": 2
+      },
+      {
+         "id": "enolan",
+         "group": 1
+      },
+      {
+         "id": "lkuehne",
+         "group": 3
+      },
+      {
+         "id": "bravi",
+         "group": 2
       }
    ]
 }

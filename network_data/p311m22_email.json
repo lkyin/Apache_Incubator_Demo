@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "45947",
-         "group": 1
+         "source": "James Pic",
+         "value": 1,
+         "target": "Julien Vermillard"
       },
       {
-         "id": "45952",
+         "source": "Julien Vermillard",
+         "value": 1,
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "Nicolas Pastorino",
+         "value": 1,
+         "target": "Maxime Thomas"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maxime Thomas",
+         "group": 4
+      },
+      {
+         "id": "Julien Vermillard",
          "group": 3
       },
       {
-         "id": "45927",
-         "group": 2
+         "id": "Nicolas Pastorino",
+         "group": 4
       },
       {
-         "id": "45940",
+         "id": "James Pic",
          "group": 1
       },
       {
-         "id": "142",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "45952",
-         "source": "45940"
-      },
-      {
-         "value": 1,
-         "target": "142",
-         "source": "45952"
-      },
-      {
-         "value": 1,
-         "target": "45927",
-         "source": "45947"
+         "id": "Jukka Zitting",
+         "group": 1
       }
    ]
 }

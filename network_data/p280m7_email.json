@@ -1,64 +1,64 @@
 {
-   "nodes": [
-      {
-         "id": "23220",
-         "group": 2
-      },
-      {
-         "id": "23223",
-         "group": 2
-      },
-      {
-         "id": "23222",
-         "group": 4
-      },
-      {
-         "id": "23218",
-         "group": 2
-      },
-      {
-         "id": "493",
-         "group": 3
-      },
-      {
-         "id": "504",
-         "group": 2
-      },
-      {
-         "id": "503",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Terri-Lynn Rimmer (Resolved) (JIRA)",
          "value": 1,
-         "target": "23218",
-         "source": "23223"
+         "target": "Terri-Lynn Rimmer (Created) (JIRA)"
       },
       {
-         "value": 1,
-         "target": "23218",
-         "source": "23220"
-      },
-      {
-         "value": 7,
-         "target": "23218",
-         "source": "504"
-      },
-      {
-         "value": 1,
-         "target": "23218",
-         "source": "23222"
-      },
-      {
+         "source": "=?utf-8?Q?Jean-Baptiste_Onofr=C3=A9_=28Assigned=29_=28JIRA=29?=",
          "value": 2,
-         "target": "23218",
-         "source": "503"
+         "target": "Terri-Lynn Rimmer (Created) (JIRA)"
       },
       {
+         "source": "Terri-Lynn Rimmer (Commented) (JIRA)",
          "value": 1,
-         "target": "23218",
-         "source": "493"
+         "target": "Terri-Lynn Rimmer (Created) (JIRA)"
+      },
+      {
+         "source": "Terri-Lynn Rimmer (Assigned) (JIRA)",
+         "value": 1,
+         "target": "Terri-Lynn Rimmer (Created) (JIRA)"
+      },
+      {
+         "source": "=?utf-8?Q?Jean-Baptiste_Onofr=C3=A9_=28Updated=29_=28JIRA=29?=",
+         "value": 7,
+         "target": "Terri-Lynn Rimmer (Created) (JIRA)"
+      },
+      {
+         "source": "=?utf-8?Q?Jean-Baptiste_Onofr=C3=A9_=28Commented=29_=28JIRA=29?=",
+         "value": 1,
+         "target": "Terri-Lynn Rimmer (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Terri-Lynn Rimmer (Commented) (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "=?utf-8?Q?Jean-Baptiste_Onofr=C3=A9_=28Updated=29_=28JIRA=29?=",
+         "group": 2
+      },
+      {
+         "id": "Terri-Lynn Rimmer (Resolved) (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "=?utf-8?Q?Jean-Baptiste_Onofr=C3=A9_=28Commented=29_=28JIRA=29?=",
+         "group": 2
+      },
+      {
+         "id": "=?utf-8?Q?Jean-Baptiste_Onofr=C3=A9_=28Assigned=29_=28JIRA=29?=",
+         "group": 4
+      },
+      {
+         "id": "Terri-Lynn Rimmer (Created) (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Terri-Lynn Rimmer (Assigned) (JIRA)",
+         "group": 4
       }
    ]
 }

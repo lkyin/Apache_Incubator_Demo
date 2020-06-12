@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "5083",
-         "group": 2
-      },
-      {
-         "id": "5100",
-         "group": 2
-      },
-      {
-         "id": "5102",
-         "group": 1
-      },
-      {
-         "id": "5103",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "5103",
-         "source": "5083"
-      },
-      {
-         "value": 21,
-         "target": "5102",
-         "source": "5083"
-      },
-      {
+         "source": "Ian Maxon",
          "value": 2,
-         "target": "5100",
-         "source": "5083"
+         "target": "imaxon"
+      },
+      {
+         "source": "imaxon",
+         "value": 21,
+         "target": "Yingyi Bu"
+      },
+      {
+         "source": "Murtadha Hubail",
+         "value": 4,
+         "target": "imaxon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Murtadha Hubail",
+         "group": 1
+      },
+      {
+         "id": "Ian Maxon",
+         "group": 2
+      },
+      {
+         "id": "imaxon",
+         "group": 2
+      },
+      {
+         "id": "Yingyi Bu",
+         "group": 2
       }
    ]
 }

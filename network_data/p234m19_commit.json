@@ -1,148 +1,158 @@
 {
-   "nodes": [
-      {
-         "id": "40946",
-         "group": 2
-      },
-      {
-         "id": "40940",
-         "group": 2
-      },
-      {
-         "id": "40996",
-         "group": 4
-      },
-      {
-         "id": "4849",
-         "group": 4
-      },
-      {
-         "id": "4848",
-         "group": 3
-      },
-      {
-         "id": "41013",
-         "group": 3
-      },
-      {
-         "id": "40974",
-         "group": 4
-      },
-      {
-         "id": "41018",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "hbeatty",
          "value": 1,
-         "target": "4849",
-         "source": "4848"
+         "target": "hbeatty"
       },
       {
+         "source": "David Neuman",
          "value": 1,
-         "target": "40946",
-         "source": "40996"
+         "target": "git-site-role"
       },
       {
+         "source": "git-site-role",
          "value": 1,
-         "target": "4848",
-         "source": "40996"
+         "target": "hbeatty"
       },
       {
+         "source": "jenkins",
          "value": 1,
-         "target": "4849",
-         "source": "40940"
+         "target": "Dan Kirkwood"
       },
       {
+         "source": "David Neuman",
          "value": 1,
-         "target": "4848",
-         "source": "41018"
+         "target": "jenkins"
       },
       {
+         "source": "Jan van Doorn",
          "value": 1,
-         "target": "4849",
-         "source": "40996"
+         "target": "David Neuman"
       },
       {
+         "source": "Dan Kirkwood",
          "value": 1,
-         "target": "40940",
-         "source": "41013"
+         "target": "git-site-role"
       },
       {
-         "value": 4,
-         "target": "4849",
-         "source": "41013"
-      },
-      {
+         "source": "jenkins",
          "value": 1,
-         "target": "40946",
-         "source": "41013"
+         "target": "git-site-role"
       },
       {
+         "source": "Jan van Doorn",
          "value": 1,
-         "target": "40974",
-         "source": "40940"
+         "target": "Dan Kirkwood"
       },
       {
+         "source": "hbeatty",
+         "value": 3,
+         "target": "jenkins"
+      },
+      {
+         "source": "Jan van Doorn",
          "value": 1,
-         "target": "40940",
-         "source": "40996"
+         "target": "hbeatty"
       },
       {
+         "source": "David Neuman",
          "value": 1,
-         "target": "40940",
-         "source": "41018"
+         "target": "hbeatty"
       },
       {
+         "source": "Dan Kirkwood",
          "value": 1,
-         "target": "41013",
-         "source": "41018"
+         "target": "hbeatty"
       },
       {
-         "value": 4,
-         "target": "41013",
-         "source": "4848"
-      },
-      {
+         "source": "Jan van Doorn",
          "value": 1,
-         "target": "40946",
-         "source": "41018"
+         "target": "git-site-role"
       },
       {
+         "source": "David Neuman",
          "value": 1,
-         "target": "41013",
-         "source": "40996"
+         "target": "hbeatty"
       },
       {
+         "source": "Jan van Doorn",
          "value": 1,
-         "target": "40946",
-         "source": "4848"
+         "target": "jenkins"
       },
       {
+         "source": "jenkins",
          "value": 1,
-         "target": "40940",
-         "source": "4848"
+         "target": "hbeatty"
       },
       {
+         "source": "git-site-role",
          "value": 1,
-         "target": "4849",
-         "source": "41018"
+         "target": "hbeatty"
       },
       {
-         "value": 1,
-         "target": "40996",
-         "source": "41018"
+         "source": "hbeatty",
+         "value": 3,
+         "target": "git-site-role"
       },
       {
+         "source": "neuman",
          "value": 1,
-         "target": "40946",
-         "source": "4849"
+         "target": "David Neuman"
       },
       {
+         "source": "Dan Kirkwood",
          "value": 1,
-         "target": "40946",
-         "source": "40940"
+         "target": "hbeatty"
+      },
+      {
+         "source": "David Neuman",
+         "value": 1,
+         "target": "Dan Kirkwood"
+      },
+      {
+         "source": "jenkins",
+         "value": 1,
+         "target": "hbeatty"
+      },
+      {
+         "source": "Jan van Doorn",
+         "value": 1,
+         "target": "hbeatty"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "hbeatty",
+         "group": 1
+      },
+      {
+         "id": "git-site-role",
+         "group": 1
+      },
+      {
+         "id": "Jan van Doorn",
+         "group": 4
+      },
+      {
+         "id": "hbeatty",
+         "group": 3
+      },
+      {
+         "id": "neuman",
+         "group": 1
+      },
+      {
+         "id": "David Neuman",
+         "group": 3
+      },
+      {
+         "id": "jenkins",
+         "group": 4
+      },
+      {
+         "id": "Dan Kirkwood",
+         "group": 1
       }
    ]
 }

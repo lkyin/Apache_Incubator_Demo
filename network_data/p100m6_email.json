@@ -1,64 +1,64 @@
 {
-   "nodes": [
-      {
-         "id": "14387",
-         "group": 2
-      },
-      {
-         "id": "14371",
-         "group": 1
-      },
-      {
-         "id": "13009",
-         "group": 1
-      },
-      {
-         "id": "14366",
-         "group": 2
-      },
-      {
-         "id": "14383",
-         "group": 1
-      },
-      {
-         "id": "14392",
-         "group": 1
-      },
-      {
-         "id": "14384",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "14371",
-         "source": "14366"
-      },
-      {
-         "value": 1,
-         "target": "14392",
-         "source": "14384"
-      },
-      {
-         "value": 2,
-         "target": "14384",
-         "source": "14383"
-      },
-      {
-         "value": 2,
-         "target": "14384",
-         "source": "14392"
-      },
-      {
+         "source": "Jean-Louis Boudart",
          "value": 3,
-         "target": "13009",
-         "source": "14384"
+         "target": "Stefan Bodewig"
       },
       {
+         "source": "Siddhartha Purkayastha",
+         "value": 2,
+         "target": "Jean-Louis Boudart"
+      },
+      {
+         "source": "Bertrand Rousseau",
          "value": 1,
-         "target": "14384",
-         "source": "14387"
+         "target": "Jean-Louis Boudart"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "value": 2,
+         "target": "Jean-Louis Boudart"
+      },
+      {
+         "source": "Jean-Louis Boudart",
+         "value": 1,
+         "target": "Siddhartha Purkayastha"
+      },
+      {
+         "source": "Jean-Louis Boudart (JIRA)",
+         "value": 2,
+         "target": "alex322 (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jean-Louis Boudart (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "group": 1
+      },
+      {
+         "id": "Jean-Louis Boudart",
+         "group": 4
+      },
+      {
+         "id": "Stefan Bodewig",
+         "group": 4
+      },
+      {
+         "id": "Siddhartha Purkayastha",
+         "group": 4
+      },
+      {
+         "id": "alex322 (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Bertrand Rousseau",
+         "group": 2
       }
    ]
 }

@@ -1,55 +1,55 @@
 {
-   "nodes": [
-      {
-         "id": "4892",
-         "group": 3
-      },
-      {
-         "id": "23211",
-         "group": 3
-      },
-      {
-         "id": "23212",
-         "group": 3
-      },
-      {
-         "id": "23229",
-         "group": 1
-      },
-      {
-         "id": "4102",
-         "group": 1
-      },
-      {
-         "id": "465",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Oliver Wulff",
          "value": 1,
-         "target": "23211",
-         "source": "465"
+         "target": "Andreas Pieber"
       },
       {
+         "source": "Jamie G.",
          "value": 1,
-         "target": "465",
-         "source": "23229"
+         "target": "Achim Nierbeck"
       },
       {
+         "source": "Achim Nierbeck",
          "value": 1,
-         "target": "4102",
-         "source": "23212"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "Andreas Pieber",
          "value": 1,
-         "target": "4892",
-         "source": "4102"
+         "target": "Jamie G."
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "23212",
-         "source": "23211"
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Andreas Pieber",
+         "group": 3
+      },
+      {
+         "id": "Achim Nierbeck",
+         "group": 1
+      },
+      {
+         "id": "Jamie G.",
+         "group": 1
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 2
+      },
+      {
+         "id": "John D. Ament",
+         "group": 2
+      },
+      {
+         "id": "Oliver Wulff",
+         "group": 2
       }
    ]
 }

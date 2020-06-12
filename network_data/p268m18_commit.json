@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "6111",
-         "group": 3
-      },
-      {
-         "id": "17108",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "mauzhang",
          "value": 56,
-         "target": "17108",
-         "source": "6111"
+         "target": "manuzhang"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mauzhang",
+         "group": 1
+      },
+      {
+         "id": "manuzhang",
+         "group": 3
       }
    ]
 }

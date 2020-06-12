@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "33601",
-         "group": 2
+         "source": "Zhanhui Li",
+         "value": 3,
+         "target": "yukon"
       },
       {
-         "id": "33608",
+         "source": "yukon",
+         "value": 32,
+         "target": "stevenschew"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Zhanhui Li",
          "group": 1
       },
       {
-         "id": "33605",
+         "id": "yukon",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 32,
-         "target": "33605",
-         "source": "33601"
       },
       {
-         "value": 3,
-         "target": "33601",
-         "source": "33608"
+         "id": "stevenschew",
+         "group": 4
       }
    ]
 }

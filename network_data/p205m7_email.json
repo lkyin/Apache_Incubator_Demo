@@ -1,47 +1,47 @@
 {
+   "links": [
+      {
+         "source": "Carsten Ziegeler",
+         "value": 1,
+         "target": "Jeremias Maerki"
+      },
+      {
+         "source": "Jeremias Maerki",
+         "value": 2,
+         "target": "Charles Matthew Chen"
+      },
+      {
+         "source": "Charles Matthew Chen",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Philipp Koch",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Charles Matthew Chen",
+         "value": 1,
+         "target": "Jeremias Maerki"
+      }
+   ],
    "nodes": [
       {
-         "id": "34585",
+         "id": "Jeremias Maerki",
          "group": 1
       },
       {
-         "id": "31257",
-         "group": 2
-      },
-      {
-         "id": "180",
-         "group": 3
-      },
-      {
-         "id": "479",
+         "id": "Carsten Ziegeler",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "180",
-         "source": "34585"
       },
       {
-         "value": 2,
-         "target": "34585",
-         "source": "479"
+         "id": "Charles Matthew Chen",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "479",
-         "source": "180"
-      },
-      {
-         "value": 1,
-         "target": "479",
-         "source": "34585"
-      },
-      {
-         "value": 1,
-         "target": "180",
-         "source": "31257"
+         "id": "Philipp Koch",
+         "group": 1
       }
    ]
 }

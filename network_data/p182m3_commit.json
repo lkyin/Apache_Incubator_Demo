@@ -1,56 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "29380",
-         "group": 1
-      },
-      {
-         "id": "29356",
-         "group": 3
-      },
-      {
-         "id": "29392",
-         "group": 4
-      },
-      {
-         "id": "29355",
-         "group": 4
-      },
-      {
-         "id": "29365",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "29355",
-         "source": "29392"
-      },
-      {
-         "value": 7,
-         "target": "29365",
-         "source": "29356"
-      },
-      {
-         "value": 33,
-         "target": "29365",
-         "source": "29355"
-      },
-      {
+         "source": "solomax",
          "value": 167,
-         "target": "29355",
-         "source": "29356"
+         "target": "sebawagner"
       },
       {
+         "source": "sebawagner",
+         "value": 29,
+         "target": "eschwert"
+      },
+      {
+         "source": "aaf",
          "value": 1,
-         "target": "29392",
-         "source": "29380"
+         "target": "sxander"
       },
       {
+         "source": "sxander",
          "value": 40,
-         "target": "29355",
-         "source": "29380"
+         "target": "sebawagner"
+      },
+      {
+         "source": "solomax",
+         "value": 7,
+         "target": "eschwert"
+      },
+      {
+         "source": "eschwert",
+         "value": 4,
+         "target": "sebawagner"
+      },
+      {
+         "source": "aaf",
+         "value": 1,
+         "target": "sebawagner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "solomax",
+         "group": 3
+      },
+      {
+         "id": "aaf",
+         "group": 3
+      },
+      {
+         "id": "sxander",
+         "group": 4
+      },
+      {
+         "id": "eschwert",
+         "group": 2
+      },
+      {
+         "id": "sebawagner",
+         "group": 2
       }
    ]
 }

@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "31901",
-         "group": 4
-      },
-      {
-         "id": "31903",
-         "group": 4
-      },
-      {
-         "id": "31898",
-         "group": 1
-      },
-      {
-         "id": "31953",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "31898",
-         "source": "31903"
-      },
-      {
+         "source": "Sebastiaan de Man",
          "value": 1,
-         "target": "31953",
-         "source": "31898"
+         "target": "Donald Szeto"
       },
       {
+         "source": "Donald Szeto",
          "value": 6,
-         "target": "31901",
-         "source": "31903"
+         "target": "donald"
+      },
+      {
+         "source": "Donald Szeto",
+         "value": 2,
+         "target": "Donald Szeto"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Donald Szeto",
+         "group": 4
+      },
+      {
+         "id": "donald",
+         "group": 2
+      },
+      {
+         "id": "Sebastiaan de Man",
+         "group": 4
+      },
+      {
+         "id": "Donald Szeto",
+         "group": 3
       }
    ]
 }

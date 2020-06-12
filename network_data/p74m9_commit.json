@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "8237",
-         "group": 3
-      },
-      {
-         "id": "8283",
-         "group": 2
-      },
-      {
-         "id": "8267",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "jbellis",
          "value": 3,
-         "target": "8237",
-         "source": "8283"
+         "target": "eevans"
       },
       {
+         "source": "junrao",
          "value": 3,
-         "target": "8267",
-         "source": "8237"
+         "target": "jbellis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "junrao",
+         "group": 4
+      },
+      {
+         "id": "jbellis",
+         "group": 1
+      },
+      {
+         "id": "eevans",
+         "group": 2
       }
    ]
 }

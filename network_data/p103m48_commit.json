@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "14748",
-         "group": 4
-      },
-      {
-         "id": "14746",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "fitzner",
          "value": 65,
-         "target": "14746",
-         "source": "14748"
+         "target": "veithm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fitzner",
+         "group": 2
+      },
+      {
+         "id": "veithm",
+         "group": 4
       }
    ]
 }

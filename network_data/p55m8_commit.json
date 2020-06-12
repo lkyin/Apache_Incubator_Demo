@@ -1,76 +1,81 @@
 {
+   "links": [
+      {
+         "source": "Dave Brondsema",
+         "value": 2,
+         "target": "Stefano Invernizzi"
+      },
+      {
+         "source": "Dave Brondsema",
+         "value": 40,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Tim Van Steenburgh",
+         "value": 6,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Tim Van Steenburgh",
+         "value": 1,
+         "target": "Stefano Invernizzi"
+      },
+      {
+         "source": "Cory Johns",
+         "value": 119,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Stefano Invernizzi",
+         "value": 3,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Stefano Invernizzi",
+         "value": 5,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Dave Brondsema",
+         "value": 22,
+         "target": "Tim Van Steenburgh"
+      },
+      {
+         "source": "Cory Johns",
+         "value": 3,
+         "target": "Wayne Witzel III"
+      },
+      {
+         "source": "Tim Van Steenburgh",
+         "value": 28,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Wayne Witzel III",
+         "value": 3,
+         "target": "Dave Brondsema"
+      }
+   ],
    "nodes": [
       {
-         "id": "3928",
+         "id": "Tim Van Steenburgh",
+         "group": 1
+      },
+      {
+         "id": "Dave Brondsema",
+         "group": 3
+      },
+      {
+         "id": "Stefano Invernizzi",
+         "group": 3
+      },
+      {
+         "id": "Wayne Witzel III",
          "group": 4
       },
       {
-         "id": "3927",
-         "group": 3
-      },
-      {
-         "id": "3947",
+         "id": "Cory Johns",
          "group": 2
-      },
-      {
-         "id": "3943",
-         "group": 2
-      },
-      {
-         "id": "3938",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "3947",
-         "source": "3927"
-      },
-      {
-         "value": 2,
-         "target": "3928",
-         "source": "3943"
-      },
-      {
-         "value": 2,
-         "target": "3927",
-         "source": "3943"
-      },
-      {
-         "value": 3,
-         "target": "3943",
-         "source": "3928"
-      },
-      {
-         "value": 159,
-         "target": "3927",
-         "source": "3928"
-      },
-      {
-         "value": 28,
-         "target": "3938",
-         "source": "3928"
-      },
-      {
-         "value": 3,
-         "target": "3943",
-         "source": "3927"
-      },
-      {
-         "value": 28,
-         "target": "3938",
-         "source": "3927"
-      },
-      {
-         "value": 1,
-         "target": "3938",
-         "source": "3943"
-      },
-      {
-         "value": 3,
-         "target": "3947",
-         "source": "3928"
       }
    ]
 }

@@ -1,52 +1,52 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "388",
-         "group": 1
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Aaron McCurry"
       },
       {
-         "id": "3571",
+         "source": "Patrick Hunt",
+         "value": 1,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 2,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Tim Williams",
+         "value": 1,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 2,
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Aaron McCurry",
          "group": 2
       },
       {
-         "id": "7097",
+         "id": "John D. Ament",
+         "group": 4
+      },
+      {
+         "id": "Patrick Hunt",
          "group": 1
       },
       {
-         "id": "6704",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "6704"
-      },
-      {
-         "value": 2,
-         "target": "6704",
-         "source": "7097"
-      },
-      {
-         "value": 2,
-         "target": "3571",
-         "source": "7097"
-      },
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "3571"
-      },
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "388"
-      },
-      {
-         "value": 1,
-         "target": "6704",
-         "source": "3571"
+         "id": "Tim Williams",
+         "group": 4
       }
    ]
 }

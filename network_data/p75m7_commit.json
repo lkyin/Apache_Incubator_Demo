@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "8504",
-         "group": 1
-      },
-      {
-         "id": "8505",
-         "group": 4
-      },
-      {
-         "id": "8506",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "aadamchik",
          "value": 5,
-         "target": "8505",
-         "source": "8504"
+         "target": "torehalset"
       },
       {
+         "source": "kmenard",
          "value": 5,
-         "target": "8506",
-         "source": "8504"
+         "target": "aadamchik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kmenard",
+         "group": 2
+      },
+      {
+         "id": "aadamchik",
+         "group": 3
+      },
+      {
+         "id": "torehalset",
+         "group": 4
       }
    ]
 }

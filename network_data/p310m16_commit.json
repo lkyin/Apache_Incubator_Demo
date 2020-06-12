@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "45120",
-         "group": 2
+         "source": "bravi",
+         "value": 13,
+         "target": "enolan"
       },
       {
-         "id": "45127",
+         "source": "enolan",
+         "value": 1,
+         "target": "lkuehne"
+      },
+      {
+         "source": "bravi",
+         "value": 2,
+         "target": "lkuehne"
+      },
+      {
+         "source": "bravi",
+         "value": 13,
+         "target": "dmiddlem"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bravi",
          "group": 4
       },
       {
-         "id": "45122",
+         "id": "dmiddlem",
+         "group": 1
+      },
+      {
+         "id": "enolan",
          "group": 3
       },
       {
-         "id": "45119",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "45122",
-         "source": "45120"
-      },
-      {
-         "value": 13,
-         "target": "45122",
-         "source": "45127"
-      },
-      {
-         "value": 2,
-         "target": "45127",
-         "source": "45120"
-      },
-      {
-         "value": 13,
-         "target": "45119",
-         "source": "45127"
+         "id": "lkuehne",
+         "group": 1
       }
    ]
 }

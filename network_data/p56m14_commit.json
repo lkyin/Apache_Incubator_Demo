@@ -1,52 +1,57 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4138",
-         "group": 3
+         "source": "yusaku",
+         "value": 1,
+         "target": "mahadev"
       },
       {
-         "id": "4134",
+         "source": "yusaku",
+         "value": 1,
+         "target": "jitendra"
+      },
+      {
+         "source": "jitendra",
+         "value": 43,
+         "target": "hitesh"
+      },
+      {
+         "source": "mahadev",
+         "value": 1,
+         "target": "yusaku"
+      },
+      {
+         "source": "mahadev",
+         "value": 44,
+         "target": "jitendra"
+      },
+      {
+         "source": "mahadev",
+         "value": 135,
+         "target": "hitesh"
+      },
+      {
+         "source": "yusaku",
+         "value": 1,
+         "target": "hitesh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "yusaku",
          "group": 1
       },
       {
-         "id": "4132",
-         "group": 2
-      },
-      {
-         "id": "4137",
+         "id": "mahadev",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 44,
-         "target": "4132",
-         "source": "4138"
       },
       {
-         "value": 43,
-         "target": "4132",
-         "source": "4134"
+         "id": "jitendra",
+         "group": 3
       },
       {
-         "value": 135,
-         "target": "4134",
-         "source": "4138"
-      },
-      {
-         "value": 1,
-         "target": "4137",
-         "source": "4134"
-      },
-      {
-         "value": 2,
-         "target": "4137",
-         "source": "4138"
-      },
-      {
-         "value": 1,
-         "target": "4137",
-         "source": "4132"
+         "id": "hitesh",
+         "group": 1
       }
    ]
 }

@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "8362",
-         "group": 2
-      },
-      {
-         "id": "8361",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Johan Oskarsson",
          "value": 1,
-         "target": "8362",
-         "source": "8361"
+         "target": "Torsten Curdt"
       },
       {
+         "source": "Torsten Curdt",
          "value": 1,
-         "target": "8361",
-         "source": "8362"
+         "target": "Johan Oskarsson"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Torsten Curdt",
+         "group": 3
+      },
+      {
+         "id": "Johan Oskarsson",
+         "group": 4
       }
    ]
 }

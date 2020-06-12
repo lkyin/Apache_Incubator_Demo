@@ -1,19 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "6697",
-         "group": 3
-      },
-      {
-         "id": "6695",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 5,
-         "target": "6695",
-         "source": "6697"
+         "source": "rvs",
+         "value": 1,
+         "target": "bmahe"
+      },
+      {
+         "source": "bmahe",
+         "value": 4,
+         "target": "rvs"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rvs",
+         "group": 1
+      },
+      {
+         "id": "bmahe",
+         "group": 2
       }
    ]
 }

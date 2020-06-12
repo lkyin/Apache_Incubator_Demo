@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "danielwilson",
+         "value": 3,
+         "target": "lehmi"
+      },
+      {
+         "source": "jukka",
+         "value": 27,
+         "target": "lehmi"
+      },
+      {
+         "source": "danielwilson",
+         "value": 6,
+         "target": "jukka"
+      }
+   ],
    "nodes": [
       {
-         "id": "31254",
+         "id": "danielwilson",
+         "group": 4
+      },
+      {
+         "id": "jukka",
          "group": 1
       },
       {
-         "id": "8694",
-         "group": 4
-      },
-      {
-         "id": "31251",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 27,
-         "target": "31251",
-         "source": "8694"
-      },
-      {
-         "value": 6,
-         "target": "8694",
-         "source": "31254"
-      },
-      {
-         "value": 3,
-         "target": "31251",
-         "source": "31254"
+         "id": "lehmi",
+         "group": 3
       }
    ]
 }

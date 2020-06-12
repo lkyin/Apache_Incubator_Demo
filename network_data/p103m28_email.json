@@ -1,94 +1,94 @@
 {
-   "nodes": [
-      {
-         "id": "14808",
-         "group": 3
-      },
-      {
-         "id": "14765",
-         "group": 4
-      },
-      {
-         "id": "14802",
-         "group": 4
-      },
-      {
-         "id": "14761",
-         "group": 4
-      },
-      {
-         "id": "14817",
-         "group": 4
-      },
-      {
-         "id": "7522",
-         "group": 4
-      },
-      {
-         "id": "14801",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Holger Grandy",
          "value": 2,
-         "target": "14765",
-         "source": "7522"
+         "target": "Nicolae Mihalache"
       },
       {
-         "value": 2,
-         "target": "14817",
-         "source": "14765"
-      },
-      {
+         "source": "scott comer",
          "value": 1,
-         "target": "7522",
-         "source": "14765"
+         "target": "Martijn Dashorst"
       },
       {
-         "value": 2,
-         "target": "14801",
-         "source": "7522"
-      },
-      {
-         "value": 2,
-         "target": "14817",
-         "source": "14801"
-      },
-      {
-         "value": 1,
-         "target": "14801",
-         "source": "14817"
-      },
-      {
+         "source": "Holger Grandy",
          "value": 3,
-         "target": "7522",
-         "source": "14801"
+         "target": "Martijn Dashorst"
       },
       {
-         "value": 1,
-         "target": "14765",
-         "source": "14808"
+         "source": "scott comer",
+         "value": 2,
+         "target": "Nicolae Mihalache"
       },
       {
+         "source": "Nicolae Mihalache",
          "value": 1,
-         "target": "14802",
-         "source": "7522"
+         "target": "scott comer"
       },
       {
+         "source": "Martijn Dashorst",
          "value": 1,
-         "target": "14765",
-         "source": "14817"
+         "target": "Holger Grandy (JIRA)"
       },
       {
+         "source": "scott comer",
          "value": 1,
-         "target": "14761",
-         "source": "14808"
+         "target": "Holger Grandy"
       },
       {
+         "source": "Nicolae Mihalache",
          "value": 1,
-         "target": "14801",
-         "source": "14765"
+         "target": "Holger Grandy"
+      },
+      {
+         "source": "Martijn Dashorst",
+         "value": 2,
+         "target": "Holger Grandy"
+      },
+      {
+         "source": "Michael Fitzner",
+         "value": 1,
+         "target": "scott comer"
+      },
+      {
+         "source": "Michael Fitzner",
+         "value": 1,
+         "target": "James Dixson"
+      },
+      {
+         "source": "Martijn Dashorst",
+         "value": 2,
+         "target": "scott comer"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Michael Fitzner",
+         "group": 2
+      },
+      {
+         "id": "James Dixson",
+         "group": 1
+      },
+      {
+         "id": "scott comer",
+         "group": 2
+      },
+      {
+         "id": "Martijn Dashorst",
+         "group": 1
+      },
+      {
+         "id": "Holger Grandy (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Nicolae Mihalache",
+         "group": 1
+      },
+      {
+         "id": "Holger Grandy",
+         "group": 3
       }
    ]
 }

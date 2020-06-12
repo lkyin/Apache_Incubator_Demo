@@ -1,110 +1,110 @@
 {
-   "nodes": [
-      {
-         "id": "34585",
-         "group": 4
-      },
-      {
-         "id": "34624",
-         "group": 3
-      },
-      {
-         "id": "479",
-         "group": 4
-      },
-      {
-         "id": "34594",
-         "group": 1
-      },
-      {
-         "id": "142",
-         "group": 3
-      },
-      {
-         "id": "34621",
-         "group": 3
-      },
-      {
-         "id": "4091",
-         "group": 3
-      },
-      {
-         "id": "180",
-         "group": 1
-      },
-      {
-         "id": "34610",
-         "group": 1
-      },
-      {
-         "id": "34622",
-         "group": 4
-      },
-      {
-         "id": "7579",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Charles Matthew Chen (JIRA)",
          "value": 1,
-         "target": "34585",
-         "source": "7579"
+         "target": "Benjamin McCann (JIRA)"
       },
       {
+         "source": "Jeremias Maerki",
          "value": 1,
-         "target": "4091",
-         "source": "34585"
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Carsten Ziegeler",
          "value": 1,
-         "target": "479",
-         "source": "4091"
+         "target": "Jeremias Maerki"
       },
       {
+         "source": "Jukka Zitting",
          "value": 1,
-         "target": "180",
-         "source": "34610"
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Niall Pemberton",
          "value": 1,
-         "target": "180",
-         "source": "479"
+         "target": "Charles Matthew Chen"
       },
       {
+         "source": "Sid Kar",
+         "value": 1,
+         "target": "Charles Matthew Chen"
+      },
+      {
+         "source": "Philipp Koch",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Philipp Koch",
+         "value": 1,
+         "target": "Jeremias Maerki"
+      },
+      {
+         "source": "Jeremias Maerki",
          "value": 2,
-         "target": "34610",
-         "source": "479"
+         "target": "Philipp Koch"
       },
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "34621",
-         "source": "34594"
+         "target": "Christian Grobmeier"
       },
       {
+         "source": "Christian Grobmeier",
          "value": 1,
-         "target": "34622",
-         "source": "34585"
+         "target": "Jeremias Maerki"
       },
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "34585",
-         "source": "34624"
+         "target": "Eclipse Tracker"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Christian Grobmeier",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "479",
-         "source": "34610"
+         "id": "Eclipse Tracker",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "180",
-         "source": "142"
+         "id": "Charles Matthew Chen",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "479",
-         "source": "180"
+         "id": "Niall Pemberton",
+         "group": 2
+      },
+      {
+         "id": "Jukka Zitting",
+         "group": 3
+      },
+      {
+         "id": "Jeremias Maerki",
+         "group": 1
+      },
+      {
+         "id": "Philipp Koch",
+         "group": 3
+      },
+      {
+         "id": "Sid Kar",
+         "group": 3
+      },
+      {
+         "id": "Benjamin McCann (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Carsten Ziegeler",
+         "group": 3
+      },
+      {
+         "id": "Charles Matthew Chen (JIRA)",
+         "group": 4
       }
    ]
 }

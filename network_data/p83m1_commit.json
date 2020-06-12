@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Patrick Mueller",
+         "value": 1,
+         "target": "Drew Walters"
+      },
+      {
+         "source": "Joe Bowser",
+         "value": 1,
+         "target": "macdonst"
+      },
+      {
+         "source": "Joe Bowser",
+         "value": 3,
+         "target": "Bryce Curtis"
+      },
+      {
+         "source": "Drew Walters",
+         "value": 1,
+         "target": "Joe Bowser"
+      },
+      {
+         "source": "Drew Walters",
+         "value": 2,
+         "target": "Bryce Curtis"
+      },
+      {
+         "source": "macdonst",
+         "value": 1,
+         "target": "Bryce Curtis"
+      }
+   ],
    "nodes": [
       {
-         "id": "10099",
+         "id": "macdonst",
          "group": 4
       },
       {
-         "id": "10096",
-         "group": 1
+         "id": "Drew Walters",
+         "group": 3
       },
       {
-         "id": "10095",
-         "group": 4
-      },
-      {
-         "id": "10089",
+         "id": "Joe Bowser",
          "group": 2
       },
       {
-         "id": "10090",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "10090",
-         "source": "10095"
+         "id": "Bryce Curtis",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "10090",
-         "source": "10096"
-      },
-      {
-         "value": 3,
-         "target": "10095",
-         "source": "10096"
-      },
-      {
-         "value": 1,
-         "target": "10089",
-         "source": "10099"
-      },
-      {
-         "value": 2,
-         "target": "10095",
-         "source": "10099"
-      },
-      {
-         "value": 1,
-         "target": "10096",
-         "source": "10099"
+         "id": "Patrick Mueller",
+         "group": 2
       }
    ]
 }

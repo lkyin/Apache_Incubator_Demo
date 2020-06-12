@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "7664",
-         "group": 4
-      },
-      {
-         "id": "5158",
-         "group": 4
-      },
-      {
-         "id": "12020",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Roman Shaposhnik",
+         "value": 1,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Josh Wills",
          "value": 2,
-         "target": "5158",
-         "source": "7664"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Matthew Hayes",
          "value": 1,
-         "target": "7664",
-         "source": "12020"
+         "target": "Josh Wills"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Josh Wills",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "12020",
-         "source": "5158"
+         "id": "Matthew Hayes",
+         "group": 2
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 1
       }
    ]
 }

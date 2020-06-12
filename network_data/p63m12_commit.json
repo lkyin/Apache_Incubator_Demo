@@ -1,52 +1,62 @@
 {
-   "nodes": [
-      {
-         "id": "5238",
-         "group": 2
-      },
-      {
-         "id": "5222",
-         "group": 2
-      },
-      {
-         "id": "5237",
-         "group": 4
-      },
-      {
-         "id": "5239",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 22,
-         "target": "5237",
-         "source": "5222"
-      },
-      {
-         "value": 19,
-         "target": "5237",
-         "source": "5238"
-      },
-      {
-         "value": 4,
-         "target": "5237",
-         "source": "5239"
-      },
-      {
-         "value": 1,
-         "target": "5239",
-         "source": "5222"
-      },
-      {
-         "value": 3,
-         "target": "5239",
-         "source": "5238"
-      },
-      {
+         "source": "Suma Shivaprasad",
          "value": 20,
-         "target": "5222",
-         "source": "5238"
+         "target": "Shwetha GS"
+      },
+      {
+         "source": "sumasai",
+         "value": 1,
+         "target": "Suma Shivaprasad"
+      },
+      {
+         "source": "Suma Shivaprasad",
+         "value": 2,
+         "target": "sumasai"
+      },
+      {
+         "source": "Shwetha GS",
+         "value": 2,
+         "target": "shwethags"
+      },
+      {
+         "source": "Suma Shivaprasad",
+         "value": 19,
+         "target": "shwethags"
+      },
+      {
+         "source": "sumasai",
+         "value": 1,
+         "target": "Shwetha GS"
+      },
+      {
+         "source": "shwethags",
+         "value": 20,
+         "target": "Shwetha GS"
+      },
+      {
+         "source": "sumasai",
+         "value": 4,
+         "target": "shwethags"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "shwethags",
+         "group": 3
+      },
+      {
+         "id": "Suma Shivaprasad",
+         "group": 3
+      },
+      {
+         "id": "Shwetha GS",
+         "group": 1
+      },
+      {
+         "id": "sumasai",
+         "group": 2
       }
    ]
 }

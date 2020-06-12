@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "4848",
-         "group": 2
-      },
-      {
-         "id": "41018",
-         "group": 1
-      },
-      {
-         "id": "4849",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Jan van Doorn",
+         "value": 1,
+         "target": "git-site-role"
+      },
+      {
+         "source": "Jan van Doorn",
+         "value": 1,
+         "target": "jenkins"
+      },
+      {
+         "source": "jenkins",
          "value": 29,
-         "target": "4849",
-         "source": "4848"
+         "target": "git-site-role"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jan van Doorn",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "41018",
-         "source": "4848"
+         "id": "jenkins",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "4849",
-         "source": "41018"
+         "id": "git-site-role",
+         "group": 4
       }
    ]
 }

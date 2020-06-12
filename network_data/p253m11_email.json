@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "Motty Cohen",
+         "value": 1,
+         "target": "Christopher Lim"
+      },
+      {
+         "source": "Matthieu Riou",
+         "value": 1,
+         "target": "philipp schmidt"
+      },
+      {
+         "source": "Motty Cohen",
+         "value": 2,
+         "target": "Matthieu Riou"
+      },
+      {
+         "source": "Christopher Lim",
+         "value": 1,
+         "target": "Motty Cohen"
+      },
+      {
+         "source": "Matthieu Riou",
+         "value": 2,
+         "target": "Motty Cohen"
+      },
+      {
+         "source": "philipp schmidt",
+         "value": 2,
+         "target": "Motty Cohen"
+      }
+   ],
    "nodes": [
       {
-         "id": "533",
+         "id": "Christopher Lim",
          "group": 3
       },
       {
-         "id": "1028",
+         "id": "Matthieu Riou",
+         "group": 4
+      },
+      {
+         "id": "philipp schmidt",
          "group": 2
       },
       {
-         "id": "1061",
-         "group": 1
-      },
-      {
-         "id": "1060",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "1060",
-         "source": "1061"
-      },
-      {
-         "value": 2,
-         "target": "1028",
-         "source": "1060"
-      },
-      {
-         "value": 2,
-         "target": "1060",
-         "source": "1028"
-      },
-      {
-         "value": 1,
-         "target": "533",
-         "source": "1060"
-      },
-      {
-         "value": 1,
-         "target": "1061",
-         "source": "1028"
-      },
-      {
-         "value": 1,
-         "target": "1060",
-         "source": "533"
+         "id": "Motty Cohen",
+         "group": 4
       }
    ]
 }

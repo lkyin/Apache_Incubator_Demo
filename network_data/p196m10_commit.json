@@ -1,88 +1,98 @@
 {
-   "nodes": [
-      {
-         "id": "32279",
-         "group": 2
-      },
-      {
-         "id": "32273",
-         "group": 3
-      },
-      {
-         "id": "32282",
-         "group": 4
-      },
-      {
-         "id": "32271",
-         "group": 1
-      },
-      {
-         "id": "32272",
-         "group": 2
-      },
-      {
-         "id": "32281",
-         "group": 1
-      },
-      {
-         "id": "32269",
-         "group": 4
-      },
-      {
-         "id": "32286",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "gsim",
          "value": 2,
-         "target": "32272",
-         "source": "32271"
+         "target": "astitcher"
       },
       {
-         "value": 111,
-         "target": "32286",
-         "source": "32271"
-      },
-      {
-         "value": 6,
-         "target": "32286",
-         "source": "32282"
-      },
-      {
+         "source": "rupertlssmith",
          "value": 2,
-         "target": "32272",
-         "source": "32281"
+         "target": "rajith"
       },
       {
+         "source": "aconway",
+         "value": 7,
+         "target": "astitcher"
+      },
+      {
+         "source": "ritchiem",
          "value": 11,
-         "target": "32271",
-         "source": "32282"
+         "target": "rgodfrey"
       },
       {
+         "source": "aconway",
+         "value": 4,
+         "target": "gsim"
+      },
+      {
+         "source": "gsim",
          "value": 2,
-         "target": "32286",
-         "source": "32279"
+         "target": "ritchiem"
       },
       {
-         "value": 8,
-         "target": "32272",
-         "source": "32273"
-      },
-      {
+         "source": "gsim",
          "value": 2,
-         "target": "32272",
-         "source": "32269"
+         "target": "rhs"
       },
       {
-         "value": 8,
-         "target": "32281",
-         "source": "32273"
+         "source": "rupertlssmith",
+         "value": 111,
+         "target": "ritchiem"
       },
       {
+         "source": "rajith",
          "value": 3,
-         "target": "32271",
-         "source": "32279"
+         "target": "ritchiem"
+      },
+      {
+         "source": "gsim",
+         "value": 4,
+         "target": "aconway"
+      },
+      {
+         "source": "astitcher",
+         "value": 1,
+         "target": "aconway"
+      },
+      {
+         "source": "rupertlssmith",
+         "value": 6,
+         "target": "rgodfrey"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "aconway",
+         "group": 4
+      },
+      {
+         "id": "rhs",
+         "group": 2
+      },
+      {
+         "id": "ritchiem",
+         "group": 1
+      },
+      {
+         "id": "gsim",
+         "group": 4
+      },
+      {
+         "id": "rupertlssmith",
+         "group": 1
+      },
+      {
+         "id": "rajith",
+         "group": 2
+      },
+      {
+         "id": "rgodfrey",
+         "group": 4
+      },
+      {
+         "id": "astitcher",
+         "group": 4
       }
    ]
 }

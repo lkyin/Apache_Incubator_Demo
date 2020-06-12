@@ -1,47 +1,52 @@
 {
+   "links": [
+      {
+         "source": "Yuri Zelikov",
+         "value": 1,
+         "target": "Andrew Kaplanov"
+      },
+      {
+         "source": "Andrew Kaplanov",
+         "value": 2,
+         "target": "yurize"
+      },
+      {
+         "source": "????????????",
+         "value": 1,
+         "target": "Andrew Kaplanov"
+      },
+      {
+         "source": "yurize",
+         "value": 6,
+         "target": "????????????"
+      },
+      {
+         "source": "Yuri Zelikov",
+         "value": 1,
+         "target": "yurize"
+      },
+      {
+         "source": "yurize",
+         "value": 1,
+         "target": "Andrew Kaplanov"
+      }
+   ],
    "nodes": [
       {
-         "id": "42984",
-         "group": 3
+         "id": "Yuri Zelikov",
+         "group": 1
       },
       {
-         "id": "42844",
-         "group": 2
-      },
-      {
-         "id": "42979",
+         "id": "yurize",
          "group": 4
       },
       {
-         "id": "42983",
+         "id": "????????????",
+         "group": 3
+      },
+      {
+         "id": "Andrew Kaplanov",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "42983",
-         "source": "42844"
-      },
-      {
-         "value": 3,
-         "target": "42844",
-         "source": "42984"
-      },
-      {
-         "value": 1,
-         "target": "42983",
-         "source": "42984"
-      },
-      {
-         "value": 1,
-         "target": "42979",
-         "source": "42984"
-      },
-      {
-         "value": 1,
-         "target": "42979",
-         "source": "42844"
       }
    ]
 }

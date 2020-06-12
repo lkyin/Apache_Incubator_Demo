@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "20254",
-         "group": 1
-      },
-      {
-         "id": "20255",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "recordond",
          "value": 1,
-         "target": "20255",
-         "source": "20254"
+         "target": "quellhorst"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "recordond",
+         "group": 3
+      },
+      {
+         "id": "quellhorst",
+         "group": 4
       }
    ]
 }

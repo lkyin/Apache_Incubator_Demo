@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "1100",
-         "group": 2
-      },
-      {
-         "id": "8694",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "mattmann",
          "value": 1,
-         "target": "8694",
-         "source": "1100"
+         "target": "jukka"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jukka",
+         "group": 1
+      },
+      {
+         "id": "mattmann",
+         "group": 3
       }
    ]
 }

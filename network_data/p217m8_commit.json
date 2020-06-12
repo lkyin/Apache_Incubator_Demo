@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "16639",
-         "group": 3
-      },
-      {
-         "id": "12024",
-         "group": 4
-      },
-      {
-         "id": "37599",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "blee",
          "value": 1,
-         "target": "37599",
-         "source": "12024"
+         "target": "jarcec"
       },
       {
+         "source": "arvind",
          "value": 5,
-         "target": "37599",
-         "source": "16639"
+         "target": "blee"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "arvind",
+         "group": 3
+      },
+      {
+         "id": "blee",
+         "group": 2
+      },
+      {
+         "id": "jarcec",
+         "group": 1
       }
    ]
 }

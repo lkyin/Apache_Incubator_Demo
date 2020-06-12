@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "11694",
-         "group": 4
+         "source": "suho",
+         "value": 3,
+         "target": "lresende"
       },
       {
-         "id": "31561",
+         "source": "avd",
+         "value": 5,
+         "target": "suho"
+      },
+      {
+         "source": "avd",
+         "value": 4,
+         "target": "lresende"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "avd",
+         "group": 3
+      },
+      {
+         "id": "suho",
          "group": 2
       },
       {
-         "id": "31560",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "31560",
-         "source": "11694"
-      },
-      {
-         "value": 5,
-         "target": "31560",
-         "source": "31561"
-      },
-      {
-         "value": 3,
-         "target": "31561",
-         "source": "11694"
+         "id": "lresende",
+         "group": 4
       }
    ]
 }

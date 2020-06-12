@@ -1,47 +1,52 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "34387",
-         "group": 1
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "Jakob Homan"
       },
       {
-         "id": "34381",
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Jakob Homan",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 17,
+         "target": "Chris Riccomini"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chris Riccomini",
          "group": 2
       },
       {
-         "id": "1584",
-         "group": 4
+         "id": "Chris Riccomini",
+         "group": 3
       },
       {
-         "id": "34404",
+         "id": "Jakob Homan",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "1584",
-         "source": "34381"
       },
       {
-         "value": 1,
-         "target": "34387",
-         "source": "1584"
-      },
-      {
-         "value": 18,
-         "target": "34387",
-         "source": "34381"
-      },
-      {
-         "value": 1,
-         "target": "34387",
-         "source": "34404"
-      },
-      {
-         "value": 1,
-         "target": "34381",
-         "source": "34404"
+         "id": "Chris Riccomini",
+         "group": 2
       }
    ]
 }

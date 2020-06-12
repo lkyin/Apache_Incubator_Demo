@@ -1,56 +1,56 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42664",
-         "group": 2
+         "source": "Sean Dilda",
+         "value": 1,
+         "target": "Aaron Peeler"
       },
       {
-         "id": "42644",
+         "source": "Milen P Paskov",
+         "value": 1,
+         "target": "Aaron Peeler"
+      },
+      {
+         "source": "Aaron Peeler",
+         "value": 1,
+         "target": "Milen P Paskov"
+      },
+      {
+         "source": "Josh Thompson",
+         "value": 1,
+         "target": "Aaron Peeler"
+      },
+      {
+         "source": "Milen P Paskov",
+         "value": 2,
+         "target": "Josh Thompson"
+      },
+      {
+         "source": "Milen P Paskov",
+         "value": 1,
+         "target": "aaron_peeler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sean Dilda",
          "group": 1
       },
       {
-         "id": "42629",
-         "group": 4
-      },
-      {
-         "id": "42630",
+         "id": "Milen P Paskov",
          "group": 3
       },
       {
-         "id": "42658",
+         "id": "aaron_peeler",
+         "group": 3
+      },
+      {
+         "id": "Josh Thompson",
+         "group": 3
+      },
+      {
+         "id": "Aaron Peeler",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42629",
-         "source": "42630"
-      },
-      {
-         "value": 1,
-         "target": "42629",
-         "source": "42664"
-      },
-      {
-         "value": 1,
-         "target": "42644",
-         "source": "42658"
-      },
-      {
-         "value": 1,
-         "target": "42629",
-         "source": "42658"
-      },
-      {
-         "value": 1,
-         "target": "42658",
-         "source": "42629"
-      },
-      {
-         "value": 2,
-         "target": "42630",
-         "source": "42658"
       }
    ]
 }

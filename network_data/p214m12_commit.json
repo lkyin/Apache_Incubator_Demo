@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "36864",
-         "group": 4
-      },
-      {
-         "id": "36861",
-         "group": 3
-      },
-      {
-         "id": "36866",
-         "group": 4
-      },
-      {
-         "id": "394",
-         "group": 3
-      },
-      {
-         "id": "24072",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "bdelacretaz",
          "value": 1,
-         "target": "36861",
-         "source": "36864"
+         "target": "klaas"
       },
       {
+         "source": "yonik",
          "value": 9,
-         "target": "24072",
-         "source": "36861"
+         "target": "hossman"
       },
       {
-         "value": 3,
-         "target": "394",
-         "source": "36861"
-      },
-      {
+         "source": "yonik",
          "value": 1,
-         "target": "394",
-         "source": "36866"
+         "target": "ehatcher"
       },
       {
+         "source": "bdelacretaz",
+         "value": 3,
+         "target": "yonik"
+      },
+      {
+         "source": "bdelacretaz",
          "value": 2,
-         "target": "394",
-         "source": "24072"
+         "target": "hossman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
+         "group": 2
+      },
+      {
+         "id": "klaas",
+         "group": 3
+      },
+      {
+         "id": "yonik",
+         "group": 3
+      },
+      {
+         "id": "ehatcher",
+         "group": 2
+      },
+      {
+         "id": "hossman",
+         "group": 4
       }
    ]
 }

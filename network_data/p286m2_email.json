@@ -1,57 +1,57 @@
 {
+   "links": [
+      {
+         "source": "Shane Isbell",
+         "value": 1,
+         "target": "Dan Fabulich"
+      },
+      {
+         "source": "Shane Isbell",
+         "value": 2,
+         "target": "Brett Porter"
+      },
+      {
+         "source": "Shane Isbell",
+         "value": 3,
+         "target": "James Carpenter"
+      },
+      {
+         "source": "Brett Porter",
+         "value": 2,
+         "target": "Shane Isbell"
+      },
+      {
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "James Carpenter"
+      },
+      {
+         "source": "James Carpenter",
+         "value": 3,
+         "target": "Shane Isbell"
+      },
+      {
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "Dan Fabulich"
+      }
+   ],
    "nodes": [
       {
-         "id": "8778",
+         "id": "Dan Fabulich",
          "group": 2
       },
       {
-         "id": "27847",
-         "group": 4
+         "id": "James Carpenter",
+         "group": 2
       },
       {
-         "id": "27846",
+         "id": "Brett Porter",
          "group": 3
       },
       {
-         "id": "27848",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "27847",
-         "source": "8778"
-      },
-      {
-         "value": 3,
-         "target": "27848",
-         "source": "27846"
-      },
-      {
-         "value": 1,
-         "target": "27848",
-         "source": "8778"
-      },
-      {
-         "value": 2,
-         "target": "8778",
-         "source": "27846"
-      },
-      {
-         "value": 3,
-         "target": "27846",
-         "source": "27848"
-      },
-      {
-         "value": 1,
-         "target": "27847",
-         "source": "27846"
-      },
-      {
-         "value": 2,
-         "target": "27846",
-         "source": "8778"
+         "id": "Shane Isbell",
+         "group": 1
       }
    ]
 }

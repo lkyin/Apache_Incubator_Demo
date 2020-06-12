@@ -1,78 +1,78 @@
 {
-   "nodes": [
-      {
-         "id": "38000",
-         "group": 3
-      },
-      {
-         "id": "38018",
-         "group": 1
-      },
-      {
-         "id": "38008",
-         "group": 3
-      },
-      {
-         "id": "38019",
-         "group": 2
-      },
-      {
-         "id": "37996",
-         "group": 1
-      },
-      {
-         "id": "38011",
-         "group": 3
-      },
-      {
-         "id": "37998",
-         "group": 3
-      },
-      {
-         "id": "38017",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Martin Sebor (JIRA)",
          "value": 1,
-         "target": "38018",
-         "source": "38000"
+         "target": "Alex Ostapenko (JIRA)"
       },
       {
+         "source": "Martin Sebor (JIRA)",
          "value": 3,
-         "target": "38011",
-         "source": "38000"
+         "target": "Lance Diduck (JIRA)"
       },
       {
-         "value": 1,
-         "target": "38008",
-         "source": "38000"
-      },
-      {
+         "source": "Martin Sebor",
          "value": 4,
-         "target": "37998",
-         "source": "37996"
+         "target": "Anton Pevtsov"
       },
       {
+         "source": "Liviu Nicoara",
          "value": 1,
-         "target": "38019",
-         "source": "37998"
+         "target": "Anton Pevtsov"
       },
       {
+         "source": "Martin Sebor (JIRA)",
+         "value": 1,
+         "target": "Jeremy Dean (JIRA)"
+      },
+      {
+         "source": "Martin Sebor",
          "value": 9,
-         "target": "38019",
-         "source": "37996"
+         "target": "Anton Pevtsov"
       },
       {
-         "value": 2,
-         "target": "37996",
-         "source": "37998"
-      },
-      {
+         "source": "Martin Sebor",
          "value": 4,
-         "target": "38017",
-         "source": "37996"
+         "target": "Liviu Nicoara"
+      },
+      {
+         "source": "Liviu Nicoara",
+         "value": 2,
+         "target": "Martin Sebor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lance Diduck (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Alex Ostapenko (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Liviu Nicoara",
+         "group": 4
+      },
+      {
+         "id": "Anton Pevtsov",
+         "group": 3
+      },
+      {
+         "id": "Jeremy Dean (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Martin Sebor",
+         "group": 2
+      },
+      {
+         "id": "Martin Sebor (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Anton Pevtsov",
+         "group": 4
       }
    ]
 }

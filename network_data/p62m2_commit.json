@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "Ian Maxon",
+         "value": 2,
+         "target": "Chris Hillery"
+      },
+      {
+         "source": "Ian Maxon",
+         "value": 3,
+         "target": "imaxon"
+      },
+      {
+         "source": "imaxon",
+         "value": 1,
+         "target": "Chris Hillery"
+      }
+   ],
    "nodes": [
       {
-         "id": "5083",
+         "id": "Ian Maxon",
+         "group": 2
+      },
+      {
+         "id": "imaxon",
          "group": 1
       },
       {
-         "id": "5086",
+         "id": "Chris Hillery",
          "group": 3
-      },
-      {
-         "id": "5084",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "5084",
-         "source": "5086"
-      },
-      {
-         "value": 1,
-         "target": "5086",
-         "source": "5083"
-      },
-      {
-         "value": 3,
-         "target": "5084",
-         "source": "5083"
       }
    ]
 }

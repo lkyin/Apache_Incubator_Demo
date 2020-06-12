@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "199",
-         "group": 4
-      },
-      {
-         "id": "20236",
-         "group": 4
-      },
-      {
-         "id": "5137",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Terence Yim",
+         "value": 34,
+         "target": "Keith Turner"
+      },
+      {
+         "source": "Henry Saputra",
          "value": 1,
-         "target": "20236",
-         "source": "5137"
+         "target": "Terence Yim"
       },
       {
+         "source": "Keith Turner",
          "value": 34,
-         "target": "199",
-         "source": "20236"
+         "target": "Terence Yim"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Terence Yim",
+         "group": 2
       },
       {
-         "value": 34,
-         "target": "20236",
-         "source": "199"
+         "id": "Henry Saputra",
+         "group": 1
+      },
+      {
+         "id": "Keith Turner",
+         "group": 3
       }
    ]
 }

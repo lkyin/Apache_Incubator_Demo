@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "38011",
-         "group": 4
-      },
-      {
-         "id": "38000",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 9,
-         "target": "38011",
-         "source": "38000"
+         "source": "Lance Diduck (JIRA)",
+         "value": 3,
+         "target": "Martin Sebor (JIRA)"
       },
       {
-         "value": 3,
-         "target": "38000",
-         "source": "38011"
+         "source": "Martin Sebor (JIRA)",
+         "value": 9,
+         "target": "Lance Diduck (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lance Diduck (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Martin Sebor (JIRA)",
+         "group": 4
       }
    ]
 }

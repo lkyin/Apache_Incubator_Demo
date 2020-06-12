@@ -1,125 +1,125 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42374",
-         "group": 2
+         "source": "Kevan Jahanshahi",
+         "value": 1,
+         "target": "Serge Huber"
       },
       {
-         "id": "404",
+         "source": "Diogo Munaro Vieira",
+         "value": 1,
+         "target": "Francois Papon"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Francois Papon"
+      },
+      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Francois Papon",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 2,
+         "target": "Diogo Munaro Vieira"
+      },
+      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "value": 1,
+         "target": "Francois Papon"
+      },
+      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "value": 1,
+         "target": "Thaisa Mirely"
+      },
+      {
+         "source": "Michael Ghen",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "David Griffon",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Diogo Munaro Vieira",
+         "value": 1,
+         "target": "Michael Ghen"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Damien GAILLARD",
+         "value": 1,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "Francois Papon",
+         "value": 2,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Damien GAILLARD",
          "group": 1
       },
       {
-         "id": "42417",
+         "id": "Thomas Draier",
+         "group": 1
+      },
+      {
+         "id": "Francois Papon",
+         "group": 2
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 3
+      },
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 2
+      },
+      {
+         "id": "Michael Ghen",
          "group": 4
       },
       {
-         "id": "42432",
+         "id": "David Griffon",
          "group": 1
       },
       {
-         "id": "3876",
+         "id": "Serge Huber",
+         "group": 4
+      },
+      {
+         "id": "Kevan Jahanshahi",
+         "group": 4
+      },
+      {
+         "id": "Diogo Munaro Vieira",
          "group": 2
       },
       {
-         "id": "42434",
-         "group": 2
-      },
-      {
-         "id": "42420",
-         "group": 3
-      },
-      {
-         "id": "42383",
-         "group": 2
-      },
-      {
-         "id": "4102",
-         "group": 3
-      },
-      {
-         "id": "42433",
-         "group": 2
-      },
-      {
-         "id": "42363",
+         "id": "Thaisa Mirely",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "42432"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "404"
-      },
-      {
-         "value": 2,
-         "target": "42420",
-         "source": "42363"
-      },
-      {
-         "value": 1,
-         "target": "4102",
-         "source": "42383"
-      },
-      {
-         "value": 1,
-         "target": "42417",
-         "source": "42363"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "42433"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "42374"
-      },
-      {
-         "value": 2,
-         "target": "4102",
-         "source": "42417"
-      },
-      {
-         "value": 1,
-         "target": "42417",
-         "source": "4102"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "3876"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "4102"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "42417"
-      },
-      {
-         "value": 1,
-         "target": "42434",
-         "source": "4102"
-      },
-      {
-         "value": 1,
-         "target": "42417",
-         "source": "42420"
-      },
-      {
-         "value": 1,
-         "target": "3876",
-         "source": "42420"
       }
    ]
 }

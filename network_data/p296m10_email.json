@@ -1,87 +1,87 @@
 {
-   "nodes": [
-      {
-         "id": "10252",
-         "group": 3
-      },
-      {
-         "id": "10102",
-         "group": 1
-      },
-      {
-         "id": "10100",
-         "group": 4
-      },
-      {
-         "id": "10295",
-         "group": 4
-      },
-      {
-         "id": "33307",
-         "group": 3
-      },
-      {
-         "id": "4091",
-         "group": 4
-      },
-      {
-         "id": "11265",
-         "group": 1
-      },
-      {
-         "id": "33306",
-         "group": 1
-      },
-      {
-         "id": "33286",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "10102",
-         "source": "10252"
+         "target": "Gord Tanner"
       },
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "11265",
-         "source": "10102"
+         "target": "Damon Oehlman"
       },
       {
+         "source": "Michael Brooks",
          "value": 1,
-         "target": "10100",
-         "source": "11265"
+         "target": "Brent Lintner"
       },
       {
+         "source": "Christian Grobmeier",
          "value": 1,
-         "target": "33286",
-         "source": "4091"
+         "target": "Gord Tanner"
       },
       {
+         "source": "Christian Grobmeier",
          "value": 1,
-         "target": "11265",
-         "source": "33306"
+         "target": "Ken Wallis"
       },
       {
+         "source": "Brian LeRoux",
          "value": 1,
-         "target": "33306",
-         "source": "11265"
+         "target": "Michael Brooks"
       },
       {
+         "source": "Damon Oehlman",
          "value": 1,
-         "target": "33307",
-         "source": "11265"
+         "target": "Brent Lintner"
       },
       {
+         "source": "Filip Maj",
          "value": 2,
-         "target": "11265",
-         "source": "10295"
+         "target": "Brent Lintner"
       },
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "10100",
-         "source": "4091"
+         "target": "Mayr Gregor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Christian Grobmeier",
+         "group": 1
+      },
+      {
+         "id": "Ken Wallis",
+         "group": 1
+      },
+      {
+         "id": "Michael Brooks",
+         "group": 1
+      },
+      {
+         "id": "Damon Oehlman",
+         "group": 3
+      },
+      {
+         "id": "Gord Tanner",
+         "group": 4
+      },
+      {
+         "id": "Filip Maj",
+         "group": 1
+      },
+      {
+         "id": "Brent Lintner",
+         "group": 1
+      },
+      {
+         "id": "Brian LeRoux",
+         "group": 3
+      },
+      {
+         "id": "Mayr Gregor",
+         "group": 4
       }
    ]
 }

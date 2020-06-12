@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "simonetripodi",
+         "value": 9,
+         "target": "marcosperanza"
+      },
+      {
+         "source": "olamy",
+         "value": 26,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 2,
+         "target": "eric"
+      },
+      {
+         "source": "olamy",
+         "value": 2,
+         "target": "eric"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 7,
+         "target": "ash2k"
+      }
+   ],
    "nodes": [
       {
-         "id": "28904",
+         "id": "eric",
+         "group": 3
+      },
+      {
+         "id": "olamy",
          "group": 4
       },
       {
-         "id": "4483",
-         "group": 2
-      },
-      {
-         "id": "4099",
+         "id": "ash2k",
          "group": 1
       },
       {
-         "id": "28903",
-         "group": 2
-      },
-      {
-         "id": "28905",
+         "id": "simonetripodi",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 9,
-         "target": "28903",
-         "source": "4483"
       },
       {
-         "value": 26,
-         "target": "4483",
-         "source": "4099"
-      },
-      {
-         "value": 2,
-         "target": "4483",
-         "source": "28904"
-      },
-      {
-         "value": 2,
-         "target": "4099",
-         "source": "28904"
-      },
-      {
-         "value": 7,
-         "target": "28905",
-         "source": "4483"
+         "id": "marcosperanza",
+         "group": 1
       }
    ]
 }

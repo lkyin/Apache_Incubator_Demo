@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "12906",
-         "group": 4
-      },
-      {
-         "id": "12907",
-         "group": 1
-      },
-      {
-         "id": "8874",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "8874",
-         "source": "12907"
+         "source": "raffaeleguidi",
+         "value": 8,
+         "target": "mcucchiara"
       },
       {
-         "value": 8,
-         "target": "12907",
-         "source": "12906"
+         "source": "tommaso",
+         "value": 6,
+         "target": "mcucchiara"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "raffaeleguidi",
+         "group": 3
+      },
+      {
+         "id": "tommaso",
+         "group": 3
+      },
+      {
+         "id": "mcucchiara",
+         "group": 1
       }
    ]
 }

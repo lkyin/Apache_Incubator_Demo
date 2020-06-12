@@ -1,114 +1,104 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "38846",
-         "group": 2
+         "source": "sblackmon",
+         "value": 35,
+         "target": "sblackmon"
       },
       {
-         "id": "38845",
+         "source": "mfranklin",
+         "value": 7,
+         "target": "sblackmon"
+      },
+      {
+         "source": "Robert Douglas",
+         "value": 5,
+         "target": "mfranklin"
+      },
+      {
+         "source": "Steve Blackmon",
+         "value": 1,
+         "target": "renato2099"
+      },
+      {
+         "source": "rebanks",
+         "value": 6,
+         "target": "renato2099"
+      },
+      {
+         "source": "sblackmon",
+         "value": 9,
+         "target": "Robert Douglas"
+      },
+      {
+         "source": "rebanks",
+         "value": 1,
+         "target": "mfranklin"
+      },
+      {
+         "source": "sblackmon",
+         "value": 21,
+         "target": "renato2099"
+      },
+      {
+         "source": "renato2099",
+         "value": 6,
+         "target": "mfranklin"
+      },
+      {
+         "source": "rebanks",
+         "value": 7,
+         "target": "sblackmon"
+      },
+      {
+         "source": "Steve Blackmon",
+         "value": 2,
+         "target": "sblackmon"
+      },
+      {
+         "source": "renato2099",
+         "value": 42,
+         "target": "sblackmon"
+      },
+      {
+         "source": "sblackmon",
+         "value": 5,
+         "target": "rebanks"
+      },
+      {
+         "source": "sblackmon",
+         "value": 36,
+         "target": "mfranklin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rebanks",
          "group": 4
       },
       {
-         "id": "38852",
-         "group": 3
+         "id": "renato2099",
+         "group": 4
       },
       {
-         "id": "22914",
+         "id": "sblackmon",
          "group": 2
       },
       {
-         "id": "38849",
-         "group": 2
+         "id": "sblackmon",
+         "group": 4
       },
       {
-         "id": "32898",
-         "group": 2
+         "id": "Robert Douglas",
+         "group": 4
       },
       {
-         "id": "38848",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 21,
-         "target": "38852",
-         "source": "22914"
+         "id": "mfranklin",
+         "group": 4
       },
       {
-         "value": 7,
-         "target": "38849",
-         "source": "38845"
-      },
-      {
-         "value": 6,
-         "target": "38849",
-         "source": "38852"
-      },
-      {
-         "value": 5,
-         "target": "38849",
-         "source": "22914"
-      },
-      {
-         "value": 3,
-         "target": "38852",
-         "source": "32898"
-      },
-      {
-         "value": 5,
-         "target": "38848",
-         "source": "32898"
-      },
-      {
-         "value": 1,
-         "target": "38849",
-         "source": "32898"
-      },
-      {
-         "value": 20,
-         "target": "38845",
-         "source": "38852"
-      },
-      {
-         "value": 7,
-         "target": "32898",
-         "source": "38845"
-      },
-      {
-         "value": 36,
-         "target": "32898",
-         "source": "22914"
-      },
-      {
-         "value": 35,
-         "target": "22914",
-         "source": "38845"
-      },
-      {
-         "value": 2,
-         "target": "38845",
-         "source": "38846"
-      },
-      {
-         "value": 9,
-         "target": "38848",
-         "source": "22914"
-      },
-      {
-         "value": 3,
-         "target": "32898",
-         "source": "38852"
-      },
-      {
-         "value": 1,
-         "target": "38852",
-         "source": "38846"
-      },
-      {
-         "value": 22,
-         "target": "38852",
-         "source": "38845"
+         "id": "Steve Blackmon",
+         "group": 4
       }
    ]
 }

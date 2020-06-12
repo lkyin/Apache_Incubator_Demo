@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "24207",
-         "group": 2
-      },
-      {
-         "id": "24204",
-         "group": 2
-      },
-      {
-         "id": "24208",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "kwright",
          "value": 3,
-         "target": "24204",
-         "source": "24207"
+         "target": "shinichiro"
       },
       {
+         "source": "kwright",
          "value": 18,
-         "target": "24208",
-         "source": "24204"
+         "target": "piergiorgio"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kwright",
+         "group": 2
+      },
+      {
+         "id": "piergiorgio",
+         "group": 1
+      },
+      {
+         "id": "shinichiro",
+         "group": 2
       }
    ]
 }

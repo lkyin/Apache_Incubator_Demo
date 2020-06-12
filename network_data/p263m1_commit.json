@@ -1,52 +1,77 @@
 {
+   "links": [
+      {
+         "source": "Nupur",
+         "value": 21,
+         "target": "atri"
+      },
+      {
+         "source": "Atri",
+         "value": 1,
+         "target": "Nupur"
+      },
+      {
+         "source": "Atri Sharma",
+         "value": 1,
+         "target": "atri"
+      },
+      {
+         "source": "atri",
+         "value": 7,
+         "target": "Atri Sharma"
+      },
+      {
+         "source": "Nupur",
+         "value": 19,
+         "target": "Atri"
+      },
+      {
+         "source": "Atri Sharma",
+         "value": 1,
+         "target": "Atri"
+      },
+      {
+         "source": "Atri",
+         "value": 14,
+         "target": "atri"
+      },
+      {
+         "source": "Atri Sharma",
+         "value": 1,
+         "target": "Nupur"
+      },
+      {
+         "source": "Atri",
+         "value": 7,
+         "target": "Atri Sharma"
+      },
+      {
+         "source": "Nupur",
+         "value": 7,
+         "target": "Atri Sharma"
+      },
+      {
+         "source": "atri",
+         "value": 1,
+         "target": "Nupur"
+      }
+   ],
    "nodes": [
       {
-         "id": "10077",
-         "group": 4
-      },
-      {
-         "id": "10079",
-         "group": 3
-      },
-      {
-         "id": "4692",
+         "id": "Nupur",
          "group": 2
       },
       {
-         "id": "10076",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 22,
-         "target": "10076",
-         "source": "10079"
+         "id": "Atri",
+         "group": 4
       },
       {
-         "value": 14,
-         "target": "10076",
-         "source": "10077"
+         "id": "atri",
+         "group": 1
       },
       {
-         "value": 8,
-         "target": "4692",
-         "source": "10079"
-      },
-      {
-         "value": 20,
-         "target": "10079",
-         "source": "10077"
-      },
-      {
-         "value": 8,
-         "target": "10076",
-         "source": "4692"
-      },
-      {
-         "value": 8,
-         "target": "4692",
-         "source": "10077"
+         "id": "Atri Sharma",
+         "group": 2
       }
    ]
 }

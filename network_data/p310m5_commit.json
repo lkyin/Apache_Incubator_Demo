@@ -1,75 +1,70 @@
 {
+   "links": [
+      {
+         "source": "rickmcguire",
+         "value": 1,
+         "target": "enolan"
+      },
+      {
+         "source": "rickmcguire",
+         "value": 2,
+         "target": "ahj"
+      },
+      {
+         "source": "bravi",
+         "value": 6,
+         "target": "dmiddlem"
+      },
+      {
+         "source": "bravi",
+         "value": 27,
+         "target": "enolan"
+      },
+      {
+         "source": "rickmcguire",
+         "value": 1,
+         "target": "lkuehne"
+      },
+      {
+         "source": "rickmcguire",
+         "value": 2,
+         "target": "dmiddlem"
+      },
+      {
+         "source": "bravi",
+         "value": 3,
+         "target": "rickmcguire"
+      },
+      {
+         "source": "dmiddlem",
+         "value": 3,
+         "target": "enolan"
+      }
+   ],
    "nodes": [
       {
-         "id": "45122",
-         "group": 2
-      },
-      {
-         "id": "45124",
-         "group": 2
-      },
-      {
-         "id": "45120",
+         "id": "bravi",
          "group": 3
       },
       {
-         "id": "45127",
-         "group": 2
+         "id": "dmiddlem",
+         "group": 3
       },
       {
-         "id": "4938",
+         "id": "lkuehne",
          "group": 1
       },
       {
-         "id": "45119",
+         "id": "ahj",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "4938",
-         "source": "45119"
       },
       {
-         "value": 1,
-         "target": "4938",
-         "source": "45122"
+         "id": "rickmcguire",
+         "group": 2
       },
       {
-         "value": 6,
-         "target": "45119",
-         "source": "45127"
-      },
-      {
-         "value": 1,
-         "target": "4938",
-         "source": "45120"
-      },
-      {
-         "value": 27,
-         "target": "45122",
-         "source": "45127"
-      },
-      {
-         "value": 1,
-         "target": "45122",
-         "source": "45119"
-      },
-      {
-         "value": 3,
-         "target": "4938",
-         "source": "45127"
-      },
-      {
-         "value": 2,
-         "target": "45119",
-         "source": "45122"
-      },
-      {
-         "value": 2,
-         "target": "4938",
-         "source": "45124"
+         "id": "enolan",
+         "group": 4
       }
    ]
 }

@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "36861",
-         "group": 1
-      },
-      {
-         "id": "36866",
-         "group": 1
-      },
-      {
-         "id": "13695",
-         "group": 3
-      },
-      {
-         "id": "24072",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "yonik",
          "value": 1,
-         "target": "13695",
-         "source": "36861"
+         "target": "otis"
       },
       {
+         "source": "klaas",
+         "value": 1,
+         "target": "yonik"
+      },
+      {
+         "source": "klaas",
          "value": 2,
-         "target": "36866",
-         "source": "24072"
+         "target": "hossman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "klaas",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "36866",
-         "source": "36861"
+         "id": "yonik",
+         "group": 4
+      },
+      {
+         "id": "otis",
+         "group": 1
+      },
+      {
+         "id": "hossman",
+         "group": 4
       }
    ]
 }

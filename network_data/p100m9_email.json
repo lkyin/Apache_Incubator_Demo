@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "14383",
-         "group": 3
-      },
-      {
-         "id": "206",
-         "group": 2
-      },
-      {
-         "id": "13009",
-         "group": 3
-      },
-      {
-         "id": "14384",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
          "value": 1,
-         "target": "206",
-         "source": "14384"
+         "target": "Jean-Louis Boudart"
       },
       {
+         "source": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
          "value": 1,
-         "target": "206",
-         "source": "14383"
+         "target": "Stefan Bodewig"
       },
       {
+         "source": "Jean-Louis Boudart",
          "value": 1,
-         "target": "14384",
-         "source": "14383"
+         "target": "no-reply"
       },
       {
+         "source": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
          "value": 1,
-         "target": "13009",
-         "source": "14383"
+         "target": "no-reply"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
+         "group": 4
+      },
+      {
+         "id": "Jean-Louis Boudart",
+         "group": 1
+      },
+      {
+         "id": "Stefan Bodewig",
+         "group": 1
+      },
+      {
+         "id": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "group": 4
       }
    ]
 }

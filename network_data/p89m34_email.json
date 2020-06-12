@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "3571",
-         "group": 3
-      },
-      {
-         "id": "5158",
-         "group": 3
-      },
-      {
-         "id": "12020",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Matthew Hayes",
          "value": 1,
-         "target": "5158",
-         "source": "12020"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Matthew Hayes",
          "value": 1,
-         "target": "3571",
-         "source": "12020"
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matthew Hayes",
+         "group": 2
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 4
+      },
+      {
+         "id": "John D. Ament",
+         "group": 4
       }
    ]
 }

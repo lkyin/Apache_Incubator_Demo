@@ -1,33 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "28617",
-         "group": 2
-      },
-      {
-         "id": "28618",
-         "group": 3
-      },
-      {
-         "id": "39240",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "fmartelli",
          "value": 48,
-         "target": "39240",
-         "source": "28618"
+         "target": "mdisabatino"
       },
       {
+         "source": "fmartelli",
+         "value": 1,
+         "target": "ilgrosso"
+      },
+      {
+         "source": "ilgrosso",
          "value": 494,
-         "target": "39240",
-         "source": "28617"
+         "target": "mdisabatino"
       },
       {
-         "value": 51,
-         "target": "28618",
-         "source": "28617"
+         "source": "ilgrosso",
+         "value": 50,
+         "target": "fmartelli"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ilgrosso",
+         "group": 2
+      },
+      {
+         "id": "fmartelli",
+         "group": 1
+      },
+      {
+         "id": "mdisabatino",
+         "group": 2
       }
    ]
 }

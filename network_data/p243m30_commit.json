@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "42623",
-         "group": 2
-      },
-      {
-         "id": "42621",
-         "group": 2
-      },
-      {
-         "id": "42622",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "fapeeler",
          "value": 1,
-         "target": "42622",
-         "source": "42623"
+         "target": "arkurth"
       },
       {
+         "source": "jfthomps",
          "value": 3,
-         "target": "42621",
-         "source": "42623"
+         "target": "arkurth"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fapeeler",
+         "group": 4
+      },
+      {
+         "id": "jfthomps",
+         "group": 2
+      },
+      {
+         "id": "arkurth",
+         "group": 3
       }
    ]
 }

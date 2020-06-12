@@ -1,75 +1,75 @@
 {
+   "links": [
+      {
+         "source": "enridaga",
+         "value": 5,
+         "target": "alexdma"
+      },
+      {
+         "source": "enridaga",
+         "value": 1,
+         "target": "fchrist"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 1,
+         "target": "enridaga"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 2,
+         "target": "alexdma"
+      },
+      {
+         "source": "suat",
+         "value": 7,
+         "target": "rwesten"
+      },
+      {
+         "source": "fchrist",
+         "value": 22,
+         "target": "rwesten"
+      },
+      {
+         "source": "enridaga",
+         "value": 2,
+         "target": "suat"
+      },
+      {
+         "source": "enridaga",
+         "value": 1,
+         "target": "rwesten"
+      },
+      {
+         "source": "fchrist",
+         "value": 1,
+         "target": "suat"
+      }
+   ],
    "nodes": [
       {
-         "id": "37746",
+         "id": "fchrist",
          "group": 1
       },
       {
-         "id": "37763",
+         "id": "suat",
+         "group": 1
+      },
+      {
+         "id": "anuzzolese",
          "group": 3
       },
       {
-         "id": "8881",
-         "group": 1
-      },
-      {
-         "id": "37767",
+         "id": "enridaga",
          "group": 2
       },
       {
-         "id": "37761",
+         "id": "alexdma",
          "group": 1
       },
       {
-         "id": "37747",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "37763",
-         "source": "37746"
-      },
-      {
-         "value": 5,
-         "target": "37761",
-         "source": "37746"
-      },
-      {
-         "value": 1,
-         "target": "37747",
-         "source": "37746"
-      },
-      {
-         "value": 22,
-         "target": "8881",
-         "source": "37747"
-      },
-      {
-         "value": 2,
-         "target": "37767",
-         "source": "37746"
-      },
-      {
-         "value": 2,
-         "target": "37761",
-         "source": "37763"
-      },
-      {
-         "value": 7,
-         "target": "8881",
-         "source": "37767"
-      },
-      {
-         "value": 1,
-         "target": "8881",
-         "source": "37746"
-      },
-      {
-         "value": 1,
-         "target": "37747",
-         "source": "37767"
+         "id": "rwesten",
+         "group": 3
       }
    ]
 }

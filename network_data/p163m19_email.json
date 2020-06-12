@@ -1,56 +1,56 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "20292",
-         "group": 4
+         "source": "William A. Rowe, Jr.",
+         "value": 1,
+         "target": "wrowe"
       },
       {
-         "id": "25215",
+         "source": "Sander Temme",
+         "value": 1,
+         "target": "William A. Rowe, Jr."
+      },
+      {
+         "source": "Sander Temme",
+         "value": 3,
+         "target": "William A. Rowe, Jr."
+      },
+      {
+         "source": "William A. Rowe, Jr.",
+         "value": 1,
+         "target": "Jim Jagielski"
+      },
+      {
+         "source": "Jim Jagielski",
+         "value": 2,
+         "target": "William A. Rowe, Jr."
+      },
+      {
+         "source": "William A. Rowe, Jr.",
+         "value": 2,
+         "target": "Sander Temme"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jim Jagielski",
          "group": 3
       },
       {
-         "id": "25207",
+         "id": "William A. Rowe, Jr.",
+         "group": 4
+      },
+      {
+         "id": "wrowe",
          "group": 1
       },
       {
-         "id": "4047",
+         "id": "William A. Rowe, Jr.",
          "group": 4
       },
       {
-         "id": "24043",
+         "id": "Sander Temme",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4047",
-         "source": "20292"
-      },
-      {
-         "value": 2,
-         "target": "20292",
-         "source": "4047"
-      },
-      {
-         "value": 1,
-         "target": "25215",
-         "source": "25207"
-      },
-      {
-         "value": 2,
-         "target": "25207",
-         "source": "20292"
-      },
-      {
-         "value": 1,
-         "target": "24043",
-         "source": "20292"
-      },
-      {
-         "value": 3,
-         "target": "20292",
-         "source": "25207"
       }
    ]
 }

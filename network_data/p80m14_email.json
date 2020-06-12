@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "9087",
-         "group": 3
-      },
-      {
-         "id": "8516",
-         "group": 3
-      },
-      {
-         "id": "9058",
-         "group": 4
-      },
-      {
-         "id": "9038",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Malcolm Edgar",
          "value": 1,
-         "target": "8516",
-         "source": "9038"
+         "target": "Bob Schellink"
       },
       {
+         "source": "Bob Schellink",
          "value": 1,
-         "target": "9038",
-         "source": "8516"
+         "target": "Malcolm Edgar"
       },
       {
+         "source": "Bob Schellink (JIRA)",
          "value": 5,
-         "target": "9087",
-         "source": "9058"
+         "target": "Finn Bock (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bob Schellink",
+         "group": 4
+      },
+      {
+         "id": "Finn Bock (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Malcolm Edgar",
+         "group": 3
+      },
+      {
+         "id": "Bob Schellink (JIRA)",
+         "group": 1
       }
    ]
 }

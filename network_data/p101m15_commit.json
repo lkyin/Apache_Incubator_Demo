@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "14584",
-         "group": 1
-      },
-      {
-         "id": "14590",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "francisdb",
          "value": 1,
-         "target": "14590",
-         "source": "14584"
+         "target": "doebele"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "francisdb",
+         "group": 2
+      },
+      {
+         "id": "doebele",
+         "group": 3
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "15018",
-         "group": 1
-      },
-      {
-         "id": "398",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "fmeschbe",
          "value": 1,
-         "target": "398",
-         "source": "15018"
+         "target": "cziegeler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fmeschbe",
+         "group": 2
+      },
+      {
+         "id": "cziegeler",
+         "group": 1
       }
    ]
 }

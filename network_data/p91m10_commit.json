@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "9279",
-         "group": 4
-      },
-      {
-         "id": "12287",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "clerum",
          "value": 1,
-         "target": "12287",
-         "source": "9279"
+         "target": "cmoulliard"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "clerum",
+         "group": 2
+      },
+      {
+         "id": "cmoulliard",
+         "group": 4
       }
    ]
 }

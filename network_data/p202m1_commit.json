@@ -1,60 +1,60 @@
 {
+   "links": [
+      {
+         "source": "xinyuzhou.zxy",
+         "value": 1,
+         "target": "yukon"
+      },
+      {
+         "source": "lollipop",
+         "value": 1,
+         "target": "lollipop"
+      },
+      {
+         "source": "yukon",
+         "value": 1,
+         "target": "lollipop"
+      },
+      {
+         "source": "lollipop",
+         "value": 17,
+         "target": "vintagewang"
+      },
+      {
+         "source": "yukon",
+         "value": 1,
+         "target": "Justin Mclean"
+      },
+      {
+         "source": "lollipop",
+         "value": 1,
+         "target": "yukon"
+      }
+   ],
    "nodes": [
       {
-         "id": "33601",
+         "id": "lollipop",
+         "group": 1
+      },
+      {
+         "id": "yukon",
          "group": 4
       },
       {
-         "id": "33602",
+         "id": "lollipop",
          "group": 2
       },
       {
-         "id": "33603",
+         "id": "xinyuzhou.zxy",
          "group": 4
       },
       {
-         "id": "3837",
+         "id": "vintagewang",
          "group": 3
       },
       {
-         "id": "33606",
+         "id": "Justin Mclean",
          "group": 2
-      },
-      {
-         "id": "33607",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3837",
-         "source": "33601"
-      },
-      {
-         "value": 1,
-         "target": "33602",
-         "source": "33601"
-      },
-      {
-         "value": 1,
-         "target": "33607",
-         "source": "33601"
-      },
-      {
-         "value": 1,
-         "target": "33607",
-         "source": "33606"
-      },
-      {
-         "value": 17,
-         "target": "33607",
-         "source": "33603"
-      },
-      {
-         "value": 1,
-         "target": "33606",
-         "source": "33601"
       }
    ]
 }

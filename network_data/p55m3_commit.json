@@ -1,19 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "3928",
-         "group": 4
-      },
-      {
-         "id": "3927",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 10,
-         "target": "3927",
-         "source": "3928"
+         "source": "Dave Brondsema",
+         "value": 7,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Cory Johns",
+         "value": 3,
+         "target": "Dave Brondsema"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Cory Johns",
+         "group": 1
+      },
+      {
+         "id": "Dave Brondsema",
+         "group": 2
       }
    ]
 }

@@ -1,19 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "15007",
-         "group": 4
-      },
-      {
-         "id": "12986",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 7,
-         "target": "12986",
-         "source": "15007"
+         "source": "rickhall",
+         "value": 4,
+         "target": "akarasulu"
+      },
+      {
+         "source": "akarasulu",
+         "value": 3,
+         "target": "rickhall"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "akarasulu",
+         "group": 3
+      },
+      {
+         "id": "rickhall",
+         "group": 1
       }
    ]
 }

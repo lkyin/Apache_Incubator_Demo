@@ -1,102 +1,102 @@
 {
-   "nodes": [
-      {
-         "id": "4950",
-         "group": 2
-      },
-      {
-         "id": "4936",
-         "group": 2
-      },
-      {
-         "id": "4960",
-         "group": 3
-      },
-      {
-         "id": "4952",
-         "group": 4
-      },
-      {
-         "id": "4943",
-         "group": 1
-      },
-      {
-         "id": "4942",
-         "group": 3
-      },
-      {
-         "id": "4946",
-         "group": 1
-      },
-      {
-         "id": "4956",
-         "group": 4
-      },
-      {
-         "id": "4945",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "timothyjward",
+         "value": 1,
+         "target": "linsun"
+      },
+      {
+         "source": "cumminsh",
+         "value": 1,
+         "target": "zoe"
+      },
+      {
+         "source": "jbohn",
          "value": 2,
-         "target": "4943",
-         "source": "4942"
+         "target": "linsun"
       },
       {
+         "source": "mahrwald",
          "value": 1,
-         "target": "4950",
-         "source": "4960"
+         "target": "cumminsh"
       },
       {
-         "value": 1,
-         "target": "4960",
-         "source": "4936"
-      },
-      {
-         "value": 1,
-         "target": "4945",
-         "source": "4942"
-      },
-      {
-         "value": 1,
-         "target": "4945",
-         "source": "4960"
-      },
-      {
-         "value": 1,
-         "target": "4956",
-         "source": "4942"
-      },
-      {
-         "value": 1,
-         "target": "4943",
-         "source": "4956"
-      },
-      {
-         "value": 2,
-         "target": "4945",
-         "source": "4956"
-      },
-      {
+         "source": "linsun",
          "value": 3,
-         "target": "4946",
-         "source": "4942"
+         "target": "gcc"
       },
       {
-         "value": 4,
-         "target": "4945",
-         "source": "4950"
-      },
-      {
+         "source": "linsun",
          "value": 1,
-         "target": "4936",
-         "source": "4950"
+         "target": "zoe"
       },
       {
+         "source": "mahrwald",
+         "value": 1,
+         "target": "davidb"
+      },
+      {
+         "source": "timothyjward",
+         "value": 2,
+         "target": "zoe"
+      },
+      {
+         "source": "mahrwald",
          "value": 36,
-         "target": "4952",
-         "source": "4950"
+         "target": "mnuttall"
+      },
+      {
+         "source": "jbohn",
+         "value": 1,
+         "target": "timothyjward"
+      },
+      {
+         "source": "cumminsh",
+         "value": 1,
+         "target": "davidb"
+      },
+      {
+         "source": "mahrwald",
+         "value": 4,
+         "target": "zoe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "cumminsh",
+         "group": 3
+      },
+      {
+         "id": "timothyjward",
+         "group": 1
+      },
+      {
+         "id": "jbohn",
+         "group": 1
+      },
+      {
+         "id": "davidb",
+         "group": 1
+      },
+      {
+         "id": "mahrwald",
+         "group": 2
+      },
+      {
+         "id": "mnuttall",
+         "group": 2
+      },
+      {
+         "id": "linsun",
+         "group": 3
+      },
+      {
+         "id": "zoe",
+         "group": 1
+      },
+      {
+         "id": "gcc",
+         "group": 3
       }
    ]
 }

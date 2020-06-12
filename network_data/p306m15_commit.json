@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "42839",
-         "group": 4
-      },
-      {
-         "id": "42844",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "yurize",
          "value": 1,
-         "target": "42844",
-         "source": "42839"
+         "target": "michael"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "yurize",
+         "group": 2
+      },
+      {
+         "id": "michael",
+         "group": 3
       }
    ]
 }

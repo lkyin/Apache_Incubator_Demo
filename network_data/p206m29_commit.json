@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "21055",
-         "group": 4
-      },
-      {
-         "id": "34730",
-         "group": 4
-      },
-      {
-         "id": "34686",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "sravya",
          "value": 1,
-         "target": "34686",
-         "source": "21055"
+         "target": "Sravya Tirukkovalur"
       },
       {
+         "source": "sravya",
          "value": 1,
-         "target": "34686",
-         "source": "34730"
+         "target": "Lenni Kuff"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sravya",
+         "group": 3
+      },
+      {
+         "id": "Lenni Kuff",
+         "group": 1
+      },
+      {
+         "id": "Sravya Tirukkovalur",
+         "group": 1
       }
    ]
 }

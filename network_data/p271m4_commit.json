@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "20164",
-         "group": 2
-      },
-      {
-         "id": "20165",
-         "group": 2
-      },
-      {
-         "id": "20166",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Adam Berry",
          "value": 1,
-         "target": "20166",
-         "source": "20165"
+         "target": "adamb"
       },
       {
+         "source": "Adam Berry",
          "value": 1,
-         "target": "20166",
-         "source": "20164"
+         "target": "Bob Kerns"
       },
       {
+         "source": "adamb",
          "value": 1,
-         "target": "20165",
-         "source": "20164"
+         "target": "Bob Kerns"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Adam Berry",
+         "group": 3
+      },
+      {
+         "id": "adamb",
+         "group": 3
+      },
+      {
+         "id": "Bob Kerns",
+         "group": 2
       }
    ]
 }

@@ -1,76 +1,91 @@
 {
+   "links": [
+      {
+         "source": "mszefler",
+         "value": 37,
+         "target": "assaf"
+      },
+      {
+         "source": "lwaterman",
+         "value": 1,
+         "target": "mriou"
+      },
+      {
+         "source": "boisvert",
+         "value": 14,
+         "target": "assaf"
+      },
+      {
+         "source": "boisvert",
+         "value": 1,
+         "target": "lwaterman"
+      },
+      {
+         "source": "assaf",
+         "value": 3,
+         "target": "mriou"
+      },
+      {
+         "source": "mriou",
+         "value": 1,
+         "target": "assaf"
+      },
+      {
+         "source": "mszefler",
+         "value": 18,
+         "target": "mriou"
+      },
+      {
+         "source": "mriou",
+         "value": 1,
+         "target": "lwaterman"
+      },
+      {
+         "source": "boisvert",
+         "value": 2,
+         "target": "mszefler"
+      },
+      {
+         "source": "mszefler",
+         "value": 23,
+         "target": "boisvert"
+      },
+      {
+         "source": "lwaterman",
+         "value": 1,
+         "target": "assaf"
+      },
+      {
+         "source": "mszefler",
+         "value": 1,
+         "target": "lwaterman"
+      },
+      {
+         "source": "boisvert",
+         "value": 23,
+         "target": "mriou"
+      }
+   ],
    "nodes": [
       {
-         "id": "1023",
-         "group": 2
-      },
-      {
-         "id": "28248",
-         "group": 4
-      },
-      {
-         "id": "7466",
-         "group": 2
-      },
-      {
-         "id": "7453",
+         "id": "mszefler",
          "group": 1
       },
       {
-         "id": "28247",
+         "id": "boisvert",
+         "group": 3
+      },
+      {
+         "id": "assaf",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 14,
-         "target": "7453",
-         "source": "7466"
       },
       {
-         "value": 23,
-         "target": "7466",
-         "source": "1023"
+         "id": "lwaterman",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "28247",
-         "source": "7466"
-      },
-      {
-         "value": 37,
-         "target": "7453",
-         "source": "28248"
-      },
-      {
-         "value": 4,
-         "target": "7453",
-         "source": "1023"
-      },
-      {
-         "value": 18,
-         "target": "28248",
-         "source": "1023"
-      },
-      {
-         "value": 1,
-         "target": "7453",
-         "source": "28247"
-      },
-      {
-         "value": 2,
-         "target": "28247",
-         "source": "1023"
-      },
-      {
-         "value": 25,
-         "target": "7466",
-         "source": "28248"
-      },
-      {
-         "value": 1,
-         "target": "28247",
-         "source": "28248"
+         "id": "mriou",
+         "group": 1
       }
    ]
 }

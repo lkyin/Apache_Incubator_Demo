@@ -1,57 +1,47 @@
 {
+   "links": [
+      {
+         "source": "Matthias Boehm",
+         "value": 12,
+         "target": "Deron Eriksson"
+      },
+      {
+         "source": "Mike Dusenberry",
+         "value": 2,
+         "target": "Niketan Pansare"
+      },
+      {
+         "source": "Mike Dusenberry",
+         "value": 3,
+         "target": "Deron Eriksson"
+      },
+      {
+         "source": "Deron Eriksson",
+         "value": 12,
+         "target": "Niketan Pansare"
+      },
+      {
+         "source": "Matthias Boehm",
+         "value": 5,
+         "target": "Niketan Pansare"
+      }
+   ],
    "nodes": [
       {
-         "id": "39319",
+         "id": "Matthias Boehm",
          "group": 1
       },
       {
-         "id": "39323",
-         "group": 3
-      },
-      {
-         "id": "39324",
-         "group": 3
-      },
-      {
-         "id": "39320",
+         "id": "Mike Dusenberry",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "39324",
-         "source": "39320"
       },
       {
-         "value": 1,
-         "target": "39323",
-         "source": "39324"
+         "id": "Deron Eriksson",
+         "group": 3
       },
       {
-         "value": 4,
-         "target": "39320",
-         "source": "39323"
-      },
-      {
-         "value": 2,
-         "target": "39324",
-         "source": "39323"
-      },
-      {
-         "value": 12,
-         "target": "39323",
-         "source": "39319"
-      },
-      {
-         "value": 5,
-         "target": "39320",
-         "source": "39319"
-      },
-      {
-         "value": 8,
-         "target": "39323",
-         "source": "39320"
+         "id": "Niketan Pansare",
+         "group": 1
       }
    ]
 }

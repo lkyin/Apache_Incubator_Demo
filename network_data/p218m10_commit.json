@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "37746",
-         "group": 2
+         "source": "enridaga",
+         "value": 1,
+         "target": "suat"
       },
       {
-         "id": "37767",
+         "source": "enridaga",
+         "value": 1,
+         "target": "fchrist"
+      },
+      {
+         "source": "fchrist",
+         "value": 1,
+         "target": "suat"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "enridaga",
          "group": 4
       },
       {
-         "id": "37747",
+         "id": "fchrist",
+         "group": 4
+      },
+      {
+         "id": "suat",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "37747",
-         "source": "37746"
-      },
-      {
-         "value": 1,
-         "target": "37747",
-         "source": "37767"
-      },
-      {
-         "value": 1,
-         "target": "37767",
-         "source": "37746"
       }
    ]
 }

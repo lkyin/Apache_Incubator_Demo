@@ -1,65 +1,65 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4479",
-         "group": 3
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Tom Barber"
       },
       {
-         "id": "46917",
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "=?utf-8?Q?Josef_H=C3=A4rtl_=28JIRA=29?="
+      },
+      {
+         "source": "Adam Ibrahim",
+         "value": 1,
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Adam Ibrahim",
+         "value": 1,
+         "target": "Michael Stahl"
+      },
+      {
+         "source": "Michael Stahl",
+         "value": 1,
+         "target": "Adam Ibrahim"
+      },
+      {
+         "source": "Tom Barber",
+         "value": 1,
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Svante Schubert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Svante Schubert",
          "group": 1
       },
       {
-         "id": "46918",
+         "id": "Michael Stahl",
          "group": 3
       },
       {
-         "id": "11330",
-         "group": 2
-      },
-      {
-         "id": "22436",
+         "id": "Dave Fisher",
          "group": 4
       },
       {
-         "id": "46916",
+         "id": "=?utf-8?Q?Josef_H=C3=A4rtl_=28JIRA=29?=",
+         "group": 3
+      },
+      {
+         "id": "Tom Barber",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "11330",
-         "source": "46916"
       },
       {
-         "value": 1,
-         "target": "11330",
-         "source": "4479"
-      },
-      {
-         "value": 1,
-         "target": "46918",
-         "source": "46916"
-      },
-      {
-         "value": 1,
-         "target": "22436",
-         "source": "11330"
-      },
-      {
-         "value": 1,
-         "target": "11330",
-         "source": "22436"
-      },
-      {
-         "value": 1,
-         "target": "46917",
-         "source": "11330"
-      },
-      {
-         "value": 1,
-         "target": "46916",
-         "source": "46918"
+         "id": "Adam Ibrahim",
+         "group": 4
       }
    ]
 }

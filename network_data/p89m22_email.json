@@ -1,46 +1,46 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "308",
-         "group": 2
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Jarek Jarcec Cecho"
       },
       {
-         "id": "4718",
+         "source": "Marvin Humphrey",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "Sam Shah",
+         "value": 1,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Jarek Jarcec Cecho",
+         "value": 1,
+         "target": "Matthew Hayes"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Marvin Humphrey",
          "group": 4
       },
       {
-         "id": "12020",
-         "group": 1
-      },
-      {
-         "id": "6949",
+         "id": "Jarek Jarcec Cecho",
          "group": 2
       },
       {
-         "id": "12048",
+         "id": "Matthew Hayes",
+         "group": 1
+      },
+      {
+         "id": "Sam Shah",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "308",
-         "source": "4718"
       },
       {
-         "value": 1,
-         "target": "12020",
-         "source": "12048"
-      },
-      {
-         "value": 1,
-         "target": "6949",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "6949"
+         "id": "Marvin",
+         "group": 1
       }
    ]
 }

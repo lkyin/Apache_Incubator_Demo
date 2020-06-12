@@ -1,71 +1,66 @@
 {
+   "links": [
+      {
+         "source": "junrao",
+         "value": 5,
+         "target": "nehanarkhede"
+      },
+      {
+         "source": "nehanarkhede",
+         "value": 2,
+         "target": "jkreps"
+      },
+      {
+         "source": "junrao",
+         "value": 3,
+         "target": "jkreps"
+      },
+      {
+         "source": "junrao",
+         "value": 22,
+         "target": "hsaputra"
+      },
+      {
+         "source": "hsaputra",
+         "value": 13,
+         "target": "jkreps"
+      },
+      {
+         "source": "junrao",
+         "value": 1,
+         "target": "cburroughs"
+      },
+      {
+         "source": "nehanarkhede",
+         "value": 16,
+         "target": "hsaputra"
+      },
+      {
+         "source": "hsaputra",
+         "value": 1,
+         "target": "cburroughs"
+      }
+   ],
    "nodes": [
       {
-         "id": "8283",
-         "group": 1
+         "id": "junrao",
+         "group": 2
       },
       {
-         "id": "22944",
-         "group": 1
-      },
-      {
-         "id": "22945",
-         "group": 4
-      },
-      {
-         "id": "14118",
+         "id": "nehanarkhede",
          "group": 3
       },
       {
-         "id": "22943",
+         "id": "hsaputra",
+         "group": 3
+      },
+      {
+         "id": "cburroughs",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "22943",
-         "source": "8283"
       },
       {
-         "value": 5,
-         "target": "22945",
-         "source": "8283"
-      },
-      {
-         "value": 13,
-         "target": "14118",
-         "source": "22945"
-      },
-      {
-         "value": 1,
-         "target": "22943",
-         "source": "14118"
-      },
-      {
-         "value": 2,
-         "target": "22945",
-         "source": "22944"
-      },
-      {
-         "value": 3,
-         "target": "8283",
-         "source": "22944"
-      },
-      {
-         "value": 22,
-         "target": "14118",
-         "source": "8283"
-      },
-      {
-         "value": 13,
-         "target": "14118",
-         "source": "22944"
-      },
-      {
-         "value": 3,
-         "target": "22945",
-         "source": "14118"
+         "id": "jkreps",
+         "group": 4
       }
    ]
 }

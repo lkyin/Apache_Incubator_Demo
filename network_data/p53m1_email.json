@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "1109",
-         "group": 3
+         "source": "Suresh Marru",
+         "value": 1,
+         "target": "Suresh Marru"
       },
       {
-         "id": "1111",
+         "source": "Suresh Marru",
+         "value": 1,
+         "target": "Suresh Marru"
+      },
+      {
+         "source": "Chris A. Mattmann (JIRA)",
+         "value": 1,
+         "target": "Suresh Marru (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Suresh Marru",
          "group": 2
       },
       {
-         "id": "1110",
+         "id": "Suresh Marru",
          "group": 1
       },
       {
-         "id": "1112",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "1111",
-         "source": "1110"
+         "id": "Chris A. Mattmann (JIRA)",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "1109",
-         "source": "1112"
-      },
-      {
-         "value": 1,
-         "target": "1110",
-         "source": "1111"
+         "id": "Suresh Marru (JIRA)",
+         "group": 2
       }
    ]
 }

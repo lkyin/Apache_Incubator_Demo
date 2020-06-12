@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "23236",
-         "group": 2
-      },
-      {
-         "id": "23234",
-         "group": 2
-      },
-      {
-         "id": "517",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "ant elder",
          "value": 1,
-         "target": "23234",
-         "source": "23236"
+         "target": "Stuart Monteith"
       },
       {
+         "source": "Stuart Monteith",
          "value": 1,
-         "target": "23236",
-         "source": "517"
+         "target": "Steve Poole"
       },
       {
+         "source": "Steve Poole",
          "value": 1,
-         "target": "23236",
-         "source": "23234"
+         "target": "Stuart Monteith"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stuart Monteith",
+         "group": 4
+      },
+      {
+         "id": "ant elder",
+         "group": 2
+      },
+      {
+         "id": "Steve Poole",
+         "group": 3
       }
    ]
 }

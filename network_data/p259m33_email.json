@@ -1,38 +1,38 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7078",
-         "group": 1
+         "source": "SamuelKevin",
+         "value": 1,
+         "target": "Chen Liu"
       },
       {
-         "id": "7077",
+         "source": "Chen Liu",
+         "value": 1,
+         "target": "SamuelKevin"
+      },
+      {
+         "source": "SamuelKevin",
+         "value": 1,
+         "target": "Luciano Resende"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "SamuelKevin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "SamuelKevin",
          "group": 2
       },
       {
-         "id": "41",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7077",
-         "source": "41"
+         "id": "Chen Liu",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "7077",
-         "source": "7078"
-      },
-      {
-         "value": 1,
-         "target": "7078",
-         "source": "7077"
-      },
-      {
-         "value": 1,
-         "target": "41",
-         "source": "7077"
+         "id": "Luciano Resende",
+         "group": 2
       }
    ]
 }

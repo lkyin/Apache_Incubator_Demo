@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3341",
-         "group": 3
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "johndament"
       },
       {
-         "id": "22436",
+         "source": "Tom Barber",
+         "value": 1,
+         "target": "Svante Schubert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Svante Schubert",
          "group": 1
       },
       {
-         "id": "11330",
+         "id": "Tom Barber",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3341",
-         "source": "11330"
       },
       {
-         "value": 1,
-         "target": "11330",
-         "source": "22436"
+         "id": "johndament",
+         "group": 3
       }
    ]
 }

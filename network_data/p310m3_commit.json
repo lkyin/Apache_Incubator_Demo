@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "adisakala",
+         "value": 1,
+         "target": "enolan"
+      },
+      {
+         "source": "krab",
+         "value": 1,
+         "target": "ahj"
+      }
+   ],
    "nodes": [
       {
-         "id": "45124",
+         "id": "adisakala",
          "group": 2
       },
       {
-         "id": "45123",
+         "id": "ahj",
+         "group": 4
+      },
+      {
+         "id": "enolan",
          "group": 1
       },
       {
-         "id": "45121",
-         "group": 2
-      },
-      {
-         "id": "45122",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "45122",
-         "source": "45121"
-      },
-      {
-         "value": 1,
-         "target": "45123",
-         "source": "45124"
+         "id": "krab",
+         "group": 3
       }
    ]
 }

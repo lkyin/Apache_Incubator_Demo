@@ -1,38 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "28699",
-         "group": 3
-      },
-      {
-         "id": "28698",
-         "group": 2
-      },
-      {
-         "id": "28701",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "akara",
          "value": 1,
-         "target": "28698",
-         "source": "28701"
+         "target": "wsobel"
       },
       {
-         "value": 6,
-         "target": "28698",
-         "source": "28699"
+         "source": "wsobel",
+         "value": 7,
+         "target": "shanti"
       },
       {
+         "source": "akara",
          "value": 1,
-         "target": "28699",
-         "source": "28701"
+         "target": "shanti"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "akara",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "28699",
-         "source": "28698"
+         "id": "wsobel",
+         "group": 4
+      },
+      {
+         "id": "shanti",
+         "group": 1
       }
    ]
 }

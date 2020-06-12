@@ -1,33 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "10036",
-         "group": 2
-      },
-      {
-         "id": "24343",
-         "group": 3
-      },
-      {
-         "id": "24340",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "24343",
-         "source": "10036"
-      },
-      {
+         "source": "Sebastian Schaffert",
          "value": 3,
-         "target": "24340",
-         "source": "24343"
+         "target": "Sergio Fern??ndez"
       },
       {
-         "value": 1,
-         "target": "10036",
-         "source": "24343"
+         "source": "Sebastian Schaffert",
+         "value": 3,
+         "target": "sschaffert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sebastian Schaffert",
+         "group": 1
+      },
+      {
+         "id": "Sergio Fern??ndez",
+         "group": 1
+      },
+      {
+         "id": "sschaffert",
+         "group": 2
       }
    ]
 }

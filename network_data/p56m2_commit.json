@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "eyang",
+         "value": 7,
+         "target": "omalley"
+      },
+      {
+         "source": "ddas",
+         "value": 13,
+         "target": "vgogate"
+      },
+      {
+         "source": "eyang",
+         "value": 28,
+         "target": "vgogate"
+      },
+      {
+         "source": "eyang",
+         "value": 17,
+         "target": "ddas"
+      },
+      {
+         "source": "vgogate",
+         "value": 26,
+         "target": "omalley"
+      },
+      {
+         "source": "ddas",
+         "value": 10,
+         "target": "omalley"
+      }
+   ],
    "nodes": [
       {
-         "id": "4130",
+         "id": "eyang",
          "group": 3
       },
       {
-         "id": "4128",
+         "id": "ddas",
          "group": 1
       },
       {
-         "id": "4131",
-         "group": 4
+         "id": "vgogate",
+         "group": 2
       },
       {
-         "id": "4129",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 13,
-         "target": "4131",
-         "source": "4130"
-      },
-      {
-         "value": 17,
-         "target": "4129",
-         "source": "4131"
-      },
-      {
-         "value": 7,
-         "target": "4129",
-         "source": "4128"
-      },
-      {
-         "value": 28,
-         "target": "4129",
-         "source": "4130"
-      },
-      {
-         "value": 26,
-         "target": "4128",
-         "source": "4130"
-      },
-      {
-         "value": 10,
-         "target": "4131",
-         "source": "4128"
+         "id": "omalley",
+         "group": 3
       }
    ]
 }

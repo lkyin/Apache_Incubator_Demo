@@ -1,55 +1,55 @@
 {
-   "nodes": [
-      {
-         "id": "20261",
-         "group": 4
-      },
-      {
-         "id": "20265",
-         "group": 4
-      },
-      {
-         "id": "20262",
-         "group": 2
-      },
-      {
-         "id": "18",
-         "group": 2
-      },
-      {
-         "id": "20263",
-         "group": 4
-      },
-      {
-         "id": "20264",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Johannes Ernst",
          "value": 1,
-         "target": "20264",
-         "source": "20265"
+         "target": "Recordon, David"
       },
       {
-         "value": 1,
-         "target": "20262",
-         "source": "18"
-      },
-      {
-         "value": 1,
-         "target": "20261",
-         "source": "20263"
-      },
-      {
-         "value": 3,
-         "target": "20261",
-         "source": "20264"
-      },
-      {
+         "source": "Ben Laurie",
          "value": 2,
-         "target": "20261",
-         "source": "20262"
+         "target": "Recordon, David"
+      },
+      {
+         "source": "Paul Querna",
+         "value": 1,
+         "target": "Ben Laurie"
+      },
+      {
+         "source": "Kevin Turner",
+         "value": 3,
+         "target": "Recordon, David"
+      },
+      {
+         "source": "andy.dale",
+         "value": 1,
+         "target": "Kevin Turner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Paul Querna",
+         "group": 3
+      },
+      {
+         "id": "Kevin Turner",
+         "group": 2
+      },
+      {
+         "id": "andy.dale",
+         "group": 1
+      },
+      {
+         "id": "Ben Laurie",
+         "group": 1
+      },
+      {
+         "id": "Johannes Ernst",
+         "group": 3
+      },
+      {
+         "id": "Recordon, David",
+         "group": 3
       }
    ]
 }

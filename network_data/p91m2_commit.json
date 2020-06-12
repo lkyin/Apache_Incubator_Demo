@@ -1,66 +1,66 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12268",
-         "group": 2
+         "source": "Christian Kaltepoth",
+         "value": 4,
+         "target": "gpetracek"
       },
       {
-         "id": "12278",
+         "source": "lightguardjp",
+         "value": 6,
+         "target": "gpetracek"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 23,
+         "target": "gpetracek"
+      },
+      {
+         "source": "lightguardjp",
+         "value": 3,
+         "target": "Jason Porter"
+      },
+      {
+         "source": "gpetracek",
+         "value": 36,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "lightguardjp",
+         "value": 2,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Christian Kaltepoth",
+         "value": 1,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 7,
+         "target": "Mark Struberg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "lightguardjp",
          "group": 4
       },
       {
-         "id": "5926",
-         "group": 1
+         "id": "Jason Porter",
+         "group": 3
       },
       {
-         "id": "12273",
-         "group": 1
+         "id": "gpetracek",
+         "group": 3
       },
       {
-         "id": "12274",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12278",
-         "source": "5926"
+         "id": "Christian Kaltepoth",
+         "group": 2
       },
       {
-         "value": 3,
-         "target": "12274",
-         "source": "12273"
-      },
-      {
-         "value": 36,
-         "target": "5926",
-         "source": "12268"
-      },
-      {
-         "value": 2,
-         "target": "12274",
-         "source": "5926"
-      },
-      {
-         "value": 6,
-         "target": "12274",
-         "source": "12268"
-      },
-      {
-         "value": 23,
-         "target": "12273",
-         "source": "12268"
-      },
-      {
-         "value": 4,
-         "target": "12278",
-         "source": "12268"
-      },
-      {
-         "value": 7,
-         "target": "12273",
-         "source": "5926"
+         "id": "Mark Struberg",
+         "group": 3
       }
    ]
 }

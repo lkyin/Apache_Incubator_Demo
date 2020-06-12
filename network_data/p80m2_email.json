@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Malcolm Edgar",
+         "value": 1,
+         "target": "Bob Schellink"
+      },
+      {
+         "source": "Bob Schellink",
+         "value": 1,
+         "target": "Mhall"
+      },
+      {
+         "source": "Andrus Adamchik",
+         "value": 1,
+         "target": "Bob Schellink"
+      },
+      {
+         "source": "Bob Schellink",
+         "value": 1,
+         "target": "Michael Hall"
+      },
+      {
+         "source": "Michael Hall",
+         "value": 2,
+         "target": "Bob Schellink"
+      },
+      {
+         "source": "Bob Schellink",
+         "value": 1,
+         "target": "Andrus Adamchik"
+      }
+   ],
    "nodes": [
       {
-         "id": "9039",
+         "id": "Malcolm Edgar",
          "group": 4
       },
       {
-         "id": "9040",
+         "id": "Michael Hall",
          "group": 3
       },
       {
-         "id": "8516",
+         "id": "Bob Schellink",
          "group": 4
       },
       {
-         "id": "8503",
-         "group": 2
-      },
-      {
-         "id": "9038",
+         "id": "Mhall",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "9040",
-         "source": "9038"
       },
       {
-         "value": 2,
-         "target": "9038",
-         "source": "9039"
-      },
-      {
-         "value": 1,
-         "target": "9038",
-         "source": "8516"
-      },
-      {
-         "value": 1,
-         "target": "9038",
-         "source": "8503"
-      },
-      {
-         "value": 1,
-         "target": "8503",
-         "source": "9038"
-      },
-      {
-         "value": 1,
-         "target": "9039",
-         "source": "9038"
+         "id": "Andrus Adamchik",
+         "group": 3
       }
    ]
 }

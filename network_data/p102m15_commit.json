@@ -1,47 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "14669",
-         "group": 1
-      },
-      {
-         "id": "14672",
-         "group": 2
-      },
-      {
-         "id": "14668",
-         "group": 4
-      },
-      {
-         "id": "14670",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "vdichev",
+         "value": 3,
+         "target": "akpetteroe"
+      },
+      {
+         "source": "esjewett",
+         "value": 4,
+         "target": "akpetteroe"
+      },
+      {
+         "source": "rhirsch",
+         "value": 4,
+         "target": "vdichev"
+      },
+      {
+         "source": "esjewett",
          "value": 2,
-         "target": "14670",
-         "source": "14672"
+         "target": "rhirsch"
       },
       {
+         "source": "akpetteroe",
+         "value": 4,
+         "target": "vdichev"
+      },
+      {
+         "source": "esjewett",
          "value": 1,
-         "target": "14672",
-         "source": "14668"
+         "target": "vdichev"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "esjewett",
+         "group": 4
       },
       {
-         "value": 4,
-         "target": "14672",
-         "source": "14669"
+         "id": "vdichev",
+         "group": 3
       },
       {
-         "value": 4,
-         "target": "14670",
-         "source": "14668"
+         "id": "rhirsch",
+         "group": 3
       },
       {
-         "value": 7,
-         "target": "14668",
-         "source": "14669"
+         "id": "akpetteroe",
+         "group": 2
       }
    ]
 }

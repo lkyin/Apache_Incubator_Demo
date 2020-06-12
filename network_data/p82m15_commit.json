@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "10040",
-         "group": 3
-      },
-      {
-         "id": "4481",
-         "group": 3
-      },
-      {
-         "id": "10032",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "10032",
-         "source": "4481"
+         "source": "wikier",
+         "value": 2,
+         "target": "stain"
       },
       {
-         "value": 2,
-         "target": "10032",
-         "source": "10040"
+         "source": "wikier",
+         "value": 6,
+         "target": "lewismc"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "wikier",
+         "group": 4
+      },
+      {
+         "id": "lewismc",
+         "group": 1
+      },
+      {
+         "id": "stain",
+         "group": 3
       }
    ]
 }

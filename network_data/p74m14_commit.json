@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "gdusbabek",
+         "value": 1,
+         "target": "jaakko"
+      },
+      {
+         "source": "jbellis",
+         "value": 16,
+         "target": "eevans"
+      },
+      {
+         "source": "jbellis",
+         "value": 30,
+         "target": "gdusbabek"
+      },
+      {
+         "source": "gdusbabek",
+         "value": 9,
+         "target": "eevans"
+      }
+   ],
    "nodes": [
       {
-         "id": "8237",
+         "id": "jbellis",
          "group": 3
       },
       {
-         "id": "8335",
+         "id": "gdusbabek",
+         "group": 3
+      },
+      {
+         "id": "jaakko",
          "group": 2
       },
       {
-         "id": "8341",
+         "id": "eevans",
          "group": 4
-      },
-      {
-         "id": "8267",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8341",
-         "source": "8335"
-      },
-      {
-         "value": 9,
-         "target": "8267",
-         "source": "8335"
-      },
-      {
-         "value": 30,
-         "target": "8335",
-         "source": "8237"
-      },
-      {
-         "value": 16,
-         "target": "8267",
-         "source": "8237"
       }
    ]
 }

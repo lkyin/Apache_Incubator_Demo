@@ -1,100 +1,95 @@
 {
-   "nodes": [
-      {
-         "id": "7662",
-         "group": 2
-      },
-      {
-         "id": "13280",
-         "group": 2
-      },
-      {
-         "id": "7628",
-         "group": 3
-      },
-      {
-         "id": "7630",
-         "group": 1
-      },
-      {
-         "id": "7627",
-         "group": 1
-      },
-      {
-         "id": "13281",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "jacques",
          "value": 5,
-         "target": "13281",
-         "source": "7662"
+         "target": "Aditya Kishore"
       },
       {
+         "source": "Steven Phillips",
          "value": 4,
-         "target": "13281",
-         "source": "13280"
+         "target": "Aditya Kishore"
       },
       {
+         "source": "jacques",
+         "value": 17,
+         "target": "Jacques Nadeau"
+      },
+      {
+         "source": "Aditya Kishore",
+         "value": 2,
+         "target": "Jinfeng Ni"
+      },
+      {
+         "source": "Steven Phillips",
+         "value": 2,
+         "target": "Jinfeng Ni"
+      },
+      {
+         "source": "Mehant Baid",
+         "value": 2,
+         "target": "Jacques Nadeau"
+      },
+      {
+         "source": "Jacques Nadeau",
          "value": 1,
-         "target": "7628",
-         "source": "7627"
+         "target": "Steven Phillips"
       },
       {
-         "value": 2,
-         "target": "13281",
-         "source": "7630"
-      },
-      {
-         "value": 14,
-         "target": "7628",
-         "source": "13280"
-      },
-      {
-         "value": 1,
-         "target": "7627",
-         "source": "7630"
-      },
-      {
-         "value": 4,
-         "target": "7628",
-         "source": "7630"
-      },
-      {
-         "value": 2,
-         "target": "13281",
-         "source": "7627"
-      },
-      {
-         "value": 2,
-         "target": "7630",
-         "source": "13280"
-      },
-      {
-         "value": 2,
-         "target": "7662",
-         "source": "13280"
-      },
-      {
-         "value": 2,
-         "target": "7662",
-         "source": "7628"
-      },
-      {
+         "source": "Aditya Kishore",
          "value": 39,
-         "target": "13281",
-         "source": "7628"
+         "target": "Jacques Nadeau"
       },
       {
-         "value": 15,
-         "target": "7628",
-         "source": "7662"
+         "source": "Jacques Nadeau",
+         "value": 4,
+         "target": "Jinfeng Ni"
       },
       {
+         "source": "Mehant Baid",
          "value": 1,
-         "target": "7627",
-         "source": "7628"
+         "target": "Jinfeng Ni"
+      },
+      {
+         "source": "Steven Phillips",
+         "value": 13,
+         "target": "Jacques Nadeau"
+      },
+      {
+         "source": "Mehant Baid",
+         "value": 2,
+         "target": "Aditya Kishore"
+      },
+      {
+         "source": "jacques",
+         "value": 2,
+         "target": "Steven Phillips"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jacques",
+         "group": 4
+      },
+      {
+         "id": "Aditya Kishore",
+         "group": 1
+      },
+      {
+         "id": "Jacques Nadeau",
+         "group": 4
+      },
+      {
+         "id": "Jinfeng Ni",
+         "group": 2
+      },
+      {
+         "id": "Mehant Baid",
+         "group": 4
+      },
+      {
+         "id": "Steven Phillips",
+         "group": 2
       }
    ]
 }

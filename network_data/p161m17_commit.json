@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "24855",
-         "group": 3
+         "source": "David Lyle",
+         "value": 3,
+         "target": "leet"
       },
       {
-         "id": "24812",
+         "source": "David Lyle",
+         "value": 2,
+         "target": "mattf"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Lyle",
+         "group": 1
+      },
+      {
+         "id": "mattf",
          "group": 2
       },
       {
-         "id": "24834",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "24834",
-         "source": "24812"
-      },
-      {
-         "value": 2,
-         "target": "24812",
-         "source": "24855"
+         "id": "leet",
+         "group": 2
       }
    ]
 }

@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Simone Gianni",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "pablo fernandez",
+         "value": 1,
+         "target": "Simone Gianni"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "Simone Gianni",
+         "value": 1,
+         "target": "pablo fernandez"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Simone Tripodi"
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Simone Gianni"
+      }
+   ],
    "nodes": [
       {
-         "id": "4488",
+         "id": "Tommaso Teofili",
          "group": 4
       },
       {
-         "id": "17351",
-         "group": 3
-      },
-      {
-         "id": "20172",
-         "group": 1
-      },
-      {
-         "id": "28762",
+         "id": "Pid",
          "group": 2
       },
       {
-         "id": "7574",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "20172",
-         "source": "17351"
+         "id": "pablo fernandez",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "20172",
-         "source": "28762"
+         "id": "Simone Tripodi",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "28762",
-         "source": "20172"
-      },
-      {
-         "value": 1,
-         "target": "7574",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "20172"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "7574"
+         "id": "Simone Gianni",
+         "group": 2
       }
    ]
 }

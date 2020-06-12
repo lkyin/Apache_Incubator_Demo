@@ -1,50 +1,50 @@
 {
-   "nodes": [
-      {
-         "id": "13048",
-         "group": 3
-      },
-      {
-         "id": "13043",
-         "group": 1
-      },
-      {
-         "id": "12998",
-         "group": 3
-      },
-      {
-         "id": "13012",
-         "group": 2
-      },
-      {
-         "id": "13047",
-         "group": 2
-      },
-      {
-         "id": "13046",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Mark Hayes",
          "value": 1,
-         "target": "13047",
-         "source": "13048"
+         "target": "Linda Lee"
       },
       {
+         "source": "Phil Steitz",
          "value": 1,
-         "target": "13012",
-         "source": "12998"
+         "target": "Henri Yandell"
       },
       {
+         "source": "Mark Hayes",
          "value": 1,
-         "target": "13012",
-         "source": "13043"
+         "target": "Charles Lamb"
       },
       {
+         "source": "Phil Steitz",
          "value": 1,
-         "target": "13046",
-         "source": "13048"
+         "target": "Henri Yandell"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Linda Lee",
+         "group": 1
+      },
+      {
+         "id": "Phil Steitz",
+         "group": 3
+      },
+      {
+         "id": "Charles Lamb",
+         "group": 3
+      },
+      {
+         "id": "Phil Steitz",
+         "group": 4
+      },
+      {
+         "id": "Henri Yandell",
+         "group": 3
+      },
+      {
+         "id": "Mark Hayes",
+         "group": 3
       }
    ]
 }

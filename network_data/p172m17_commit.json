@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "mszefler",
+         "value": 3,
+         "target": "boisvert"
+      },
+      {
+         "source": "mszefler",
+         "value": 10,
+         "target": "mriou"
+      },
+      {
+         "source": "boisvert",
+         "value": 3,
+         "target": "mriou"
+      }
+   ],
    "nodes": [
       {
-         "id": "1023",
+         "id": "mszefler",
+         "group": 3
+      },
+      {
+         "id": "boisvert",
          "group": 1
       },
       {
-         "id": "28248",
-         "group": 4
-      },
-      {
-         "id": "7466",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 10,
-         "target": "28248",
-         "source": "1023"
-      },
-      {
-         "value": 3,
-         "target": "7466",
-         "source": "1023"
-      },
-      {
-         "value": 3,
-         "target": "7466",
-         "source": "28248"
+         "id": "mriou",
+         "group": 1
       }
    ]
 }

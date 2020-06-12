@@ -1,178 +1,183 @@
 {
+   "links": [
+      {
+         "source": "timothyjward",
+         "value": 1,
+         "target": "gawor"
+      },
+      {
+         "source": "atk",
+         "value": 1,
+         "target": "awojtuniak"
+      },
+      {
+         "source": "mahrwald",
+         "value": 1,
+         "target": "ozzy"
+      },
+      {
+         "source": "gawor",
+         "value": 1,
+         "target": "awojtuniak"
+      },
+      {
+         "source": "atk",
+         "value": 3,
+         "target": "gawor"
+      },
+      {
+         "source": "davidb",
+         "value": 1,
+         "target": "atk"
+      },
+      {
+         "source": "mnuttall",
+         "value": 55,
+         "target": "gawor"
+      },
+      {
+         "source": "mahrwald",
+         "value": 1,
+         "target": "mnuttall"
+      },
+      {
+         "source": "davidb",
+         "value": 1,
+         "target": "gawor"
+      },
+      {
+         "source": "atk",
+         "value": 1,
+         "target": "gnodet"
+      },
+      {
+         "source": "mahrwald",
+         "value": 6,
+         "target": "gawor"
+      },
+      {
+         "source": "jbohn",
+         "value": 1,
+         "target": "mnuttall"
+      },
+      {
+         "source": "gawor",
+         "value": 12,
+         "target": "ozzy"
+      },
+      {
+         "source": "atk",
+         "value": 1,
+         "target": "mnuttall"
+      },
+      {
+         "source": "not",
+         "value": 2,
+         "target": "gawor"
+      },
+      {
+         "source": "gawor",
+         "value": 1,
+         "target": "irobins"
+      },
+      {
+         "source": "mnuttall",
+         "value": 1,
+         "target": "irobins"
+      },
+      {
+         "source": "gawor",
+         "value": 1,
+         "target": "timothyjward"
+      },
+      {
+         "source": "davidb",
+         "value": 1,
+         "target": "ozzy"
+      },
+      {
+         "source": "atk",
+         "value": 1,
+         "target": "ozzy"
+      },
+      {
+         "source": "not",
+         "value": 2,
+         "target": "mnuttall"
+      },
+      {
+         "source": "mahrwald",
+         "value": 1,
+         "target": "atk"
+      },
+      {
+         "source": "mahrwald",
+         "value": 11,
+         "target": "timothyjward"
+      },
+      {
+         "source": "davidb",
+         "value": 1,
+         "target": "mahrwald"
+      },
+      {
+         "source": "mnuttall",
+         "value": 1,
+         "target": "zoe"
+      }
+   ],
    "nodes": [
       {
-         "id": "4950",
+         "id": "davidb",
          "group": 1
       },
       {
-         "id": "4944",
+         "id": "irobins",
+         "group": 4
+      },
+      {
+         "id": "mahrwald",
+         "group": 1
+      },
+      {
+         "id": "mnuttall",
+         "group": 1
+      },
+      {
+         "id": "gnodet",
          "group": 3
       },
       {
-         "id": "4936",
+         "id": "gawor",
+         "group": 3
+      },
+      {
+         "id": "atk",
          "group": 2
       },
       {
-         "id": "4952",
-         "group": 1
+         "id": "timothyjward",
+         "group": 4
       },
       {
-         "id": "4956",
+         "id": "ozzy",
+         "group": 2
+      },
+      {
+         "id": "awojtuniak",
+         "group": 4
+      },
+      {
+         "id": "jbohn",
          "group": 3
       },
       {
-         "id": "4948",
+         "id": "not",
          "group": 4
       },
       {
-         "id": "4949",
+         "id": "zoe",
          "group": 4
-      },
-      {
-         "id": "4947",
-         "group": 1
-      },
-      {
-         "id": "4935",
-         "group": 1
-      },
-      {
-         "id": "4955",
-         "group": 1
-      },
-      {
-         "id": "4943",
-         "group": 4
-      },
-      {
-         "id": "536",
-         "group": 1
-      },
-      {
-         "id": "4945",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4944",
-         "source": "4936"
-      },
-      {
-         "value": 55,
-         "target": "4952",
-         "source": "4935"
-      },
-      {
-         "value": 1,
-         "target": "4948",
-         "source": "4936"
-      },
-      {
-         "value": 12,
-         "target": "4944",
-         "source": "4935"
-      },
-      {
-         "value": 1,
-         "target": "4952",
-         "source": "4948"
-      },
-      {
-         "value": 1,
-         "target": "4955",
-         "source": "4935"
-      },
-      {
-         "value": 1,
-         "target": "4950",
-         "source": "4948"
-      },
-      {
-         "value": 1,
-         "target": "4949",
-         "source": "4935"
-      },
-      {
-         "value": 1,
-         "target": "4952",
-         "source": "4955"
-      },
-      {
-         "value": 11,
-         "target": "4956",
-         "source": "4950"
-      },
-      {
-         "value": 1,
-         "target": "4952",
-         "source": "4943"
-      },
-      {
-         "value": 2,
-         "target": "4952",
-         "source": "4947"
-      },
-      {
-         "value": 1,
-         "target": "4944",
-         "source": "4948"
-      },
-      {
-         "value": 2,
-         "target": "4935",
-         "source": "4947"
-      },
-      {
-         "value": 1,
-         "target": "4952",
-         "source": "4945"
-      },
-      {
-         "value": 1,
-         "target": "4950",
-         "source": "4936"
-      },
-      {
-         "value": 6,
-         "target": "4950",
-         "source": "4935"
-      },
-      {
-         "value": 2,
-         "target": "4956",
-         "source": "4935"
-      },
-      {
-         "value": 3,
-         "target": "4948",
-         "source": "4935"
-      },
-      {
-         "value": 1,
-         "target": "4948",
-         "source": "4949"
-      },
-      {
-         "value": 1,
-         "target": "4952",
-         "source": "4950"
-      },
-      {
-         "value": 1,
-         "target": "536",
-         "source": "4948"
-      },
-      {
-         "value": 1,
-         "target": "4950",
-         "source": "4944"
-      },
-      {
-         "value": 1,
-         "target": "4935",
-         "source": "4936"
       }
    ]
 }

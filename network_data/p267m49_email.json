@@ -1,99 +1,99 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13712",
-         "group": 3
+         "source": "Chapuis Bertil",
+         "value": 1,
+         "target": "Otis Gospodnetic"
       },
       {
-         "id": "13729",
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Tobias_R=FCbner?="
+      },
+      {
+         "source": "Otis Gospodnetic",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Tobias_R=FCbner?="
+      },
+      {
+         "source": "Dionisio Cortes Fernandez",
+         "value": 1,
+         "target": "Otis Gospodnetic"
+      },
+      {
+         "source": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
+         "value": 1,
+         "target": "Thorsten Scherler"
+      },
+      {
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "Juliano Fischer Naves"
+      },
+      {
+         "source": "Chapuis Bertil",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Tobias_R=FCbner?="
+      },
+      {
+         "source": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
+         "value": 1,
+         "target": "Chapuis Bertil"
+      },
+      {
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "Otis Gospodnetic"
+      },
+      {
+         "source": "Otis Gospodnetic",
+         "value": 2,
+         "target": "Richard Frovarp"
+      },
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "Chapuis Bertil"
+      },
+      {
+         "source": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
+         "value": 1,
+         "target": "Richard Frovarp"
+      },
+      {
+         "source": "Otis Gospodnetic",
+         "value": 1,
+         "target": "Dionisio Cortes Fernandez"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
          "group": 2
       },
       {
-         "id": "13735",
+         "id": "Otis Gospodnetic",
+         "group": 1
+      },
+      {
+         "id": "Juliano Fischer Naves",
          "group": 4
       },
       {
-         "id": "13789",
-         "group": 3
-      },
-      {
-         "id": "13791",
-         "group": 3
-      },
-      {
-         "id": "13732",
-         "group": 3
-      },
-      {
-         "id": "13790",
+         "id": "Richard Frovarp",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "13789",
-         "source": "13729"
       },
       {
-         "value": 1,
-         "target": "13789",
-         "source": "13735"
+         "id": "Thorsten Scherler",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "13790",
-         "source": "13735"
+         "id": "Chapuis Bertil",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "13729",
-         "source": "13732"
-      },
-      {
-         "value": 1,
-         "target": "13729",
-         "source": "13791"
-      },
-      {
-         "value": 1,
-         "target": "13732",
-         "source": "13789"
-      },
-      {
-         "value": 1,
-         "target": "13791",
-         "source": "13729"
-      },
-      {
-         "value": 1,
-         "target": "13729",
-         "source": "13735"
-      },
-      {
-         "value": 2,
-         "target": "13735",
-         "source": "13729"
-      },
-      {
-         "value": 1,
-         "target": "13732",
-         "source": "13712"
-      },
-      {
-         "value": 1,
-         "target": "13735",
-         "source": "13789"
-      },
-      {
-         "value": 1,
-         "target": "13789",
-         "source": "13732"
-      },
-      {
-         "value": 1,
-         "target": "13712",
-         "source": "13789"
+         "id": "Dionisio Cortes Fernandez",
+         "group": 3
       }
    ]
 }

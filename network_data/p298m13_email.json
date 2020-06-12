@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 4
-      },
-      {
-         "id": "5934",
-         "group": 1
-      },
-      {
-         "id": "4107",
-         "group": 2
-      },
-      {
-         "id": "308",
-         "group": 1
-      },
-      {
-         "id": "36395",
-         "group": 2
-      },
-      {
-         "id": "430",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "5934",
-         "source": "4107"
-      },
-      {
-         "value": 6,
-         "target": "4107",
-         "source": "5928"
-      },
-      {
+         "source": "=?UTF-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?=",
          "value": 2,
-         "target": "4107",
-         "source": "430"
+         "target": "Olivier Lamy"
       },
       {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "5928",
-         "source": "36395"
+         "target": "Marvin"
       },
       {
+         "source": "Jean-Louis MONTEIRO",
          "value": 1,
-         "target": "430",
-         "source": "5934"
+         "target": "=?UTF-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?="
       },
       {
+         "source": "Olivier Lamy",
          "value": 5,
-         "target": "5928",
-         "source": "4107"
+         "target": "Romain Manni-Bucau"
       },
       {
+         "source": "Romain Manni-Bucau",
+         "value": 6,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "helio frota",
          "value": 1,
-         "target": "308",
-         "source": "4107"
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "Jean-Louis MONTEIRO"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Marvin",
+         "group": 3
+      },
+      {
+         "id": "=?UTF-8?B?SmVhbi1CYXB0aXN0ZSBPbm9mcsOp?=",
+         "group": 3
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 2
+      },
+      {
+         "id": "helio frota",
+         "group": 1
+      },
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "Jean-Louis MONTEIRO",
+         "group": 2
       }
    ]
 }

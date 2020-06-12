@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "44971",
-         "group": 3
-      },
-      {
-         "id": "44964",
-         "group": 3
-      },
-      {
-         "id": "44956",
-         "group": 3
-      },
-      {
-         "id": "44940",
-         "group": 3
-      },
-      {
-         "id": "44931",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Michael Mikhaylov",
          "value": 1,
-         "target": "44956",
-         "source": "44971"
+         "target": "Rob Gagne"
       },
       {
+         "source": "Trevor Oldak",
          "value": 1,
-         "target": "44971",
-         "source": "44956"
+         "target": "Michael Mikhaylov"
       },
       {
+         "source": "Michael Mikhaylov",
          "value": 1,
-         "target": "44931",
-         "source": "44971"
+         "target": "Trevor Oldak"
       },
       {
+         "source": "Trevor Oldak (JIRA)",
          "value": 1,
-         "target": "44964",
-         "source": "44940"
+         "target": "Michael Mikhaylov (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Trevor Oldak",
+         "group": 1
+      },
+      {
+         "id": "Michael Mikhaylov",
+         "group": 3
+      },
+      {
+         "id": "Michael Mikhaylov (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Rob Gagne",
+         "group": 2
+      },
+      {
+         "id": "Trevor Oldak (JIRA)",
+         "group": 1
       }
    ]
 }

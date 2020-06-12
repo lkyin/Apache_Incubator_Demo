@@ -1,62 +1,67 @@
 {
+   "links": [
+      {
+         "source": "Yan Fang",
+         "value": 1,
+         "target": "yanfang"
+      },
+      {
+         "source": "yanfang",
+         "value": 1,
+         "target": "Yan Fang"
+      },
+      {
+         "source": "criccomini",
+         "value": 83,
+         "target": "yanfang"
+      },
+      {
+         "source": "Yan Fang",
+         "value": 1,
+         "target": "criccomini"
+      },
+      {
+         "source": "criccomini",
+         "value": 1,
+         "target": "Yan Fang"
+      },
+      {
+         "source": "yanfang",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "criccomini",
+         "value": 4,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Yan Fang",
+         "value": 2,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "yanfang",
+         "value": 2,
+         "target": "criccomini"
+      }
+   ],
    "nodes": [
       {
-         "id": "34410",
-         "group": 1
+         "id": "Yan Fang",
+         "group": 3
       },
       {
-         "id": "34381",
-         "group": 2
-      },
-      {
-         "id": "34430",
+         "id": "criccomini",
          "group": 4
       },
       {
-         "id": "1421",
+         "id": "yanfang",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "1421",
-         "source": "34381"
       },
       {
-         "value": 2,
-         "target": "34410",
-         "source": "1421"
-      },
-      {
-         "value": 83,
-         "target": "1421",
-         "source": "34430"
-      },
-      {
-         "value": 1,
-         "target": "34430",
-         "source": "34381"
-      },
-      {
-         "value": 2,
-         "target": "34430",
-         "source": "1421"
-      },
-      {
-         "value": 2,
-         "target": "34410",
-         "source": "34381"
-      },
-      {
-         "value": 1,
-         "target": "34381",
-         "source": "1421"
-      },
-      {
-         "value": 2,
-         "target": "34410",
-         "source": "34430"
+         "id": "Chris Riccomini",
+         "group": 3
       }
    ]
 }

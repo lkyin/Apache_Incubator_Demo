@@ -1,66 +1,66 @@
 {
+   "links": [
+      {
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "Tim Williams"
+      },
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "ant elder"
+      },
+      {
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "ant elder"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "ant elder"
+      },
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "Richard Frovarp"
+      },
+      {
+         "source": "ant elder",
+         "value": 1,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "ant elder",
+         "value": 1,
+         "target": "Richard Frovarp"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Richard Frovarp"
+      }
+   ],
    "nodes": [
       {
-         "id": "388",
-         "group": 1
+         "id": "ant elder",
+         "group": 3
       },
       {
-         "id": "4892",
-         "group": 2
-      },
-      {
-         "id": "13712",
-         "group": 2
-      },
-      {
-         "id": "13735",
+         "id": "Tim Williams",
          "group": 4
       },
       {
-         "id": "517",
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "Richard Frovarp",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "517",
-         "source": "13735"
       },
       {
-         "value": 1,
-         "target": "13735",
-         "source": "517"
-      },
-      {
-         "value": 1,
-         "target": "4892",
-         "source": "517"
-      },
-      {
-         "value": 1,
-         "target": "13735",
-         "source": "4892"
-      },
-      {
-         "value": 1,
-         "target": "388",
-         "source": "13735"
-      },
-      {
-         "value": 1,
-         "target": "517",
-         "source": "13712"
-      },
-      {
-         "value": 1,
-         "target": "517",
-         "source": "4892"
-      },
-      {
-         "value": 1,
-         "target": "13735",
-         "source": "13712"
+         "id": "Thorsten Scherler",
+         "group": 2
       }
    ]
 }

@@ -1,38 +1,38 @@
 {
+   "links": [
+      {
+         "source": "Gerrit Binnenmars",
+         "value": 1,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 2,
+         "target": "Gerrit Binnenmars"
+      },
+      {
+         "source": "Gerrit Binnenmars",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      }
+   ],
    "nodes": [
       {
-         "id": "8675",
+         "id": "Gerrit Binnenmars",
          "group": 1
       },
       {
-         "id": "8651",
-         "group": 4
-      },
-      {
-         "id": "8662",
+         "id": "Alexander Broekhuis",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8651",
-         "source": "8662"
       },
       {
-         "value": 1,
-         "target": "8662",
-         "source": "8675"
-      },
-      {
-         "value": 1,
-         "target": "8651",
-         "source": "8675"
-      },
-      {
-         "value": 2,
-         "target": "8675",
-         "source": "8651"
+         "id": "Pepijn Noltes",
+         "group": 1
       }
    ]
 }

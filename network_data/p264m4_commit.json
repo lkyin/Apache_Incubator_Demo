@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "11313",
-         "group": 1
-      },
-      {
-         "id": "11311",
-         "group": 2
-      },
-      {
-         "id": "11317",
-         "group": 1
-      },
-      {
-         "id": "11308",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Gabriela Gibson",
          "value": 7,
-         "target": "11311",
-         "source": "11313"
+         "target": "jani"
       },
       {
+         "source": "Peter Kelly",
          "value": 1,
-         "target": "11317",
-         "source": "11311"
+         "target": "jani"
       },
       {
+         "source": "jani",
+         "value": 1,
+         "target": "franzdecopenhague"
+      },
+      {
+         "source": "Peter Kelly",
          "value": 15,
-         "target": "11308",
-         "source": "11317"
+         "target": "franzdecopenhague"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gabriela Gibson",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "11308",
-         "source": "11311"
+         "id": "Peter Kelly",
+         "group": 3
+      },
+      {
+         "id": "jani",
+         "group": 3
+      },
+      {
+         "id": "franzdecopenhague",
+         "group": 4
       }
    ]
 }

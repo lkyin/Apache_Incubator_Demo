@@ -1,57 +1,52 @@
 {
+   "links": [
+      {
+         "source": "chathura",
+         "value": 5,
+         "target": "patanachai"
+      },
+      {
+         "source": "lahiru",
+         "value": 384,
+         "target": "smarru"
+      },
+      {
+         "source": "patanachai",
+         "value": 160,
+         "target": "smarru"
+      },
+      {
+         "source": "chathura",
+         "value": 9,
+         "target": "smarru"
+      },
+      {
+         "source": "lahiru",
+         "value": 7,
+         "target": "chathura"
+      },
+      {
+         "source": "lahiru",
+         "value": 128,
+         "target": "patanachai"
+      }
+   ],
    "nodes": [
       {
-         "id": "1103",
+         "id": "lahiru",
+         "group": 4
+      },
+      {
+         "id": "chathura",
+         "group": 4
+      },
+      {
+         "id": "patanachai",
          "group": 1
       },
       {
-         "id": "1104",
-         "group": 4
-      },
-      {
-         "id": "1095",
-         "group": 2
-      },
-      {
-         "id": "1105",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 141,
-         "target": "1095",
-         "source": "1104"
-      },
-      {
-         "value": 7,
-         "target": "1105",
-         "source": "1103"
-      },
-      {
-         "value": 384,
-         "target": "1095",
-         "source": "1103"
-      },
-      {
-         "value": 19,
-         "target": "1104",
-         "source": "1095"
-      },
-      {
-         "value": 128,
-         "target": "1104",
-         "source": "1103"
-      },
-      {
-         "value": 9,
-         "target": "1105",
-         "source": "1095"
-      },
-      {
-         "value": 5,
-         "target": "1105",
-         "source": "1104"
+         "id": "smarru",
+         "group": 3
       }
    ]
 }

@@ -1,60 +1,60 @@
 {
+   "links": [
+      {
+         "source": "Lars Volker",
+         "value": 1,
+         "target": "tarmstrong"
+      },
+      {
+         "source": "Impala Public Jenkins",
+         "value": 1,
+         "target": "Tim Armstrong"
+      },
+      {
+         "source": "Jim Apple",
+         "value": 1,
+         "target": "Impala Public Jenkins"
+      },
+      {
+         "source": "Impala Public Jenkins",
+         "value": 1,
+         "target": "Alex Behm"
+      },
+      {
+         "source": "Impala Public Jenkins",
+         "value": 1,
+         "target": "Lars Volker"
+      },
+      {
+         "source": "Impala Public Jenkins",
+         "value": 11,
+         "target": "tarmstrong"
+      }
+   ],
    "nodes": [
       {
-         "id": "21006",
+         "id": "Jim Apple",
+         "group": 3
+      },
+      {
+         "id": "Impala Public Jenkins",
          "group": 4
       },
       {
-         "id": "20963",
-         "group": 1
+         "id": "Alex Behm",
+         "group": 4
       },
       {
-         "id": "20941",
-         "group": 3
+         "id": "Tim Armstrong",
+         "group": 2
       },
       {
-         "id": "20948",
-         "group": 3
+         "id": "Lars Volker",
+         "group": 2
       },
       {
-         "id": "20949",
-         "group": 1
-      },
-      {
-         "id": "21007",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21006",
-         "source": "20948"
-      },
-      {
-         "value": 1,
-         "target": "21007",
-         "source": "21006"
-      },
-      {
-         "value": 1,
-         "target": "20949",
-         "source": "21006"
-      },
-      {
-         "value": 11,
-         "target": "20963",
-         "source": "21006"
-      },
-      {
-         "value": 1,
-         "target": "20963",
-         "source": "20949"
-      },
-      {
-         "value": 1,
-         "target": "21006",
-         "source": "20941"
+         "id": "tarmstrong",
+         "group": 2
       }
    ]
 }

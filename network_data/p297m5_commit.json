@@ -1,38 +1,38 @@
 {
+   "links": [
+      {
+         "source": "Leo Neumeyer",
+         "value": 1,
+         "target": "leoneu"
+      },
+      {
+         "source": "Matthieu Morel",
+         "value": 1,
+         "target": "leoneu"
+      },
+      {
+         "source": "Matthieu Morel",
+         "value": 1,
+         "target": "Leo Neumeyer"
+      },
+      {
+         "source": "leoneu",
+         "value": 8,
+         "target": "Leo Neumeyer"
+      }
+   ],
    "nodes": [
       {
-         "id": "20232",
+         "id": "leoneu",
          "group": 1
       },
       {
-         "id": "34148",
+         "id": "Leo Neumeyer",
          "group": 2
       },
       {
-         "id": "34147",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "34147",
-         "source": "20232"
-      },
-      {
-         "value": 8,
-         "target": "34148",
-         "source": "34147"
-      },
-      {
-         "value": 1,
-         "target": "34148",
-         "source": "20232"
-      },
-      {
-         "value": 1,
-         "target": "34147",
-         "source": "34148"
+         "id": "Matthieu Morel",
+         "group": 4
       }
    ]
 }

@@ -1,75 +1,75 @@
 {
-   "nodes": [
-      {
-         "id": "42507",
-         "group": 4
-      },
-      {
-         "id": "25629",
-         "group": 4
-      },
-      {
-         "id": "371",
-         "group": 4
-      },
-      {
-         "id": "143",
-         "group": 4
-      },
-      {
-         "id": "15033",
-         "group": 4
-      },
-      {
-         "id": "5696",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Jake Farrell",
          "value": 1,
-         "target": "143",
-         "source": "42507"
+         "target": "Nate McCall"
       },
       {
+         "source": "Lieven Govaerts",
          "value": 1,
-         "target": "42507",
-         "source": "371"
+         "target": "Lewis John Mcgibbney"
       },
       {
+         "source": "Lewis John Mcgibbney",
+         "value": 1,
+         "target": "Lieven Govaerts"
+      },
+      {
+         "source": "Lewis John Mcgibbney",
+         "value": 1,
+         "target": "Nate McCall"
+      },
+      {
+         "source": "Nate McCall",
          "value": 2,
-         "target": "371",
-         "source": "42507"
+         "target": "Lewis John Mcgibbney"
       },
       {
+         "source": "Dave",
+         "value": 1,
+         "target": "Lewis John Mcgibbney"
+      },
+      {
+         "source": "Lewis John Mcgibbney",
          "value": 2,
-         "target": "143",
-         "source": "371"
+         "target": "Dave"
       },
       {
+         "source": "Nate McCall",
          "value": 1,
-         "target": "42507",
-         "source": "5696"
+         "target": "Dave"
       },
       {
+         "source": "Ed Anuff",
          "value": 1,
-         "target": "371",
-         "source": "143"
+         "target": "Jake Farrell"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lewis John Mcgibbney",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "5696",
-         "source": "15033"
+         "id": "Dave",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "371",
-         "source": "25629"
+         "id": "Lieven Govaerts",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "25629",
-         "source": "371"
+         "id": "Nate McCall",
+         "group": 4
+      },
+      {
+         "id": "Jake Farrell",
+         "group": 2
+      },
+      {
+         "id": "Ed Anuff",
+         "group": 2
       }
    ]
 }

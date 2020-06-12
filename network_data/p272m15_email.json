@@ -1,50 +1,50 @@
 {
+   "links": [
+      {
+         "source": "Ted Leung",
+         "value": 1,
+         "target": "Recordon, David"
+      },
+      {
+         "source": "Ted Leung",
+         "value": 1,
+         "target": "Kevin Turner"
+      },
+      {
+         "source": "Kevin Turner",
+         "value": 1,
+         "target": "recordond"
+      },
+      {
+         "source": "Johannes Ernst",
+         "value": 1,
+         "target": "Paul Querna"
+      }
+   ],
    "nodes": [
       {
-         "id": "20261",
+         "id": "Johannes Ernst",
          "group": 1
       },
       {
-         "id": "11370",
+         "id": "Paul Querna",
+         "group": 3
+      },
+      {
+         "id": "Ted Leung",
          "group": 4
       },
       {
-         "id": "20254",
-         "group": 3
+         "id": "Kevin Turner",
+         "group": 2
       },
       {
-         "id": "20270",
-         "group": 3
-      },
-      {
-         "id": "18",
+         "id": "recordond",
          "group": 1
       },
       {
-         "id": "20264",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "18",
-         "source": "20270"
-      },
-      {
-         "value": 1,
-         "target": "20254",
-         "source": "20264"
-      },
-      {
-         "value": 1,
-         "target": "20264",
-         "source": "11370"
-      },
-      {
-         "value": 1,
-         "target": "20261",
-         "source": "11370"
+         "id": "Recordon, David",
+         "group": 1
       }
    ]
 }

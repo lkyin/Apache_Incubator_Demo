@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "4091",
-         "group": 2
-      },
-      {
-         "id": "45922",
-         "group": 2
-      },
-      {
-         "id": "45925",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Philippe Vincent-Royol",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Jerome Renard",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Christian Grobmeier",
          "value": 2,
-         "target": "45925",
-         "source": "4091"
+         "target": "Jerome Renard"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Philippe Vincent-Royol",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "4091",
-         "source": "45925"
+         "id": "Christian Grobmeier",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4091",
-         "source": "45922"
+         "id": "Jerome Renard",
+         "group": 1
       }
    ]
 }

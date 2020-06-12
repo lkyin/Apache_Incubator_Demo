@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "22944",
-         "group": 2
+         "source": "junrao",
+         "value": 16,
+         "target": "nehanarkhede"
       },
       {
-         "id": "8283",
+         "source": "nehanarkhede",
+         "value": 1,
+         "target": "jkreps"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "junrao",
          "group": 1
       },
       {
-         "id": "22945",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 16,
-         "target": "22945",
-         "source": "8283"
+         "id": "nehanarkhede",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22945",
-         "source": "22944"
+         "id": "jkreps",
+         "group": 1
       }
    ]
 }

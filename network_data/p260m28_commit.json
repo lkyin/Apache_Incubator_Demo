@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "7096",
-         "group": 1
-      },
-      {
-         "id": "7097",
-         "group": 2
-      },
-      {
-         "id": "7117",
-         "group": 3
-      },
-      {
-         "id": "7116",
-         "group": 3
-      },
-      {
-         "id": "7115",
-         "group": 2
-      },
-      {
-         "id": "7110",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 9,
-         "target": "7110",
-         "source": "7097"
-      },
-      {
-         "value": 1,
-         "target": "7115",
-         "source": "7116"
-      },
-      {
-         "value": 3,
-         "target": "7097",
-         "source": "7096"
-      },
-      {
+         "source": "Andrew Avenoso",
          "value": 4,
-         "target": "7115",
-         "source": "7097"
+         "target": "Aaron McCurry"
       },
       {
+         "source": "Aaron McCurry",
+         "value": 9,
+         "target": "crohr"
+      },
+      {
+         "source": "amccurry",
          "value": 3,
-         "target": "7110",
-         "source": "7096"
+         "target": "crohr"
       },
       {
+         "source": "Andrew Avenoso",
+         "value": 1,
+         "target": "Chris Rohr"
+      },
+      {
+         "source": "crohr",
          "value": 5,
-         "target": "7117",
-         "source": "7110"
+         "target": "aavenoso"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 3,
+         "target": "amccurry"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Andrew Avenoso",
+         "group": 2
+      },
+      {
+         "id": "Aaron McCurry",
+         "group": 2
+      },
+      {
+         "id": "amccurry",
+         "group": 1
+      },
+      {
+         "id": "Chris Rohr",
+         "group": 1
+      },
+      {
+         "id": "crohr",
+         "group": 4
+      },
+      {
+         "id": "aavenoso",
+         "group": 2
       }
    ]
 }

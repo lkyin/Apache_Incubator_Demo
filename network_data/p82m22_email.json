@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3571",
-         "group": 3
+         "source": "Stian Soiland-Reyes",
+         "value": 22,
+         "target": "=?UTF-8?Q?Sergio_Fern=C3=A1ndez?="
       },
       {
-         "id": "5961",
+         "source": "=?UTF-8?Q?Sergio_Fern=C3=A1ndez?=",
+         "value": 22,
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?Q?Sergio_Fern=C3=A1ndez?=",
          "group": 1
       },
       {
-         "id": "6408",
+         "id": "John D. Ament",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 22,
-         "target": "3571",
-         "source": "6408"
       },
       {
-         "value": 22,
-         "target": "6408",
-         "source": "5961"
+         "id": "Stian Soiland-Reyes",
+         "group": 4
       }
    ]
 }

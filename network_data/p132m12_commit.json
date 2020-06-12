@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "tripod",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "mreutegg",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
+         "value": 13,
+         "target": "fielding"
+      },
+      {
+         "source": "edgarpoce",
+         "value": 1,
+         "target": "stefan"
+      }
+   ],
    "nodes": [
       {
-         "id": "21587",
-         "group": 1
-      },
-      {
-         "id": "15006",
-         "group": 2
-      },
-      {
-         "id": "21584",
-         "group": 4
-      },
-      {
-         "id": "21580",
+         "id": "tripod",
          "group": 3
       },
       {
-         "id": "21581",
+         "id": "mreutegg",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21581",
-         "source": "21580"
       },
       {
-         "value": 1,
-         "target": "21581",
-         "source": "21584"
+         "id": "stefan",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "21581",
-         "source": "21587"
+         "id": "edgarpoce",
+         "group": 1
       },
       {
-         "value": 13,
-         "target": "15006",
-         "source": "21580"
+         "id": "fielding",
+         "group": 4
       }
    ]
 }

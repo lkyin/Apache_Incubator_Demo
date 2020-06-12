@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "14668",
-         "group": 3
-      },
-      {
-         "id": "14666",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "dpp",
          "value": 5,
-         "target": "14666",
-         "source": "14668"
+         "target": "vdichev"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "dpp",
+         "group": 2
+      },
+      {
+         "id": "vdichev",
+         "group": 1
       }
    ]
 }

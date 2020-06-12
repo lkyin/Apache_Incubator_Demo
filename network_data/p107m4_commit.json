@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "aharui",
+         "value": 1,
+         "target": "jmclean"
+      },
+      {
+         "source": "cframpton",
+         "value": 2,
+         "target": "jhouser"
+      }
+   ],
    "nodes": [
       {
-         "id": "15567",
+         "id": "aharui",
          "group": 1
       },
       {
-         "id": "15566",
+         "id": "jmclean",
          "group": 3
       },
       {
-         "id": "3801",
-         "group": 2
+         "id": "cframpton",
+         "group": 4
       },
       {
-         "id": "15583",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3801",
-         "source": "15567"
-      },
-      {
-         "value": 2,
-         "target": "15583",
-         "source": "15566"
+         "id": "jhouser",
+         "group": 4
       }
    ]
 }

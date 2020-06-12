@@ -1,74 +1,74 @@
 {
-   "nodes": [
-      {
-         "id": "24079",
-         "group": 3
-      },
-      {
-         "id": "24093",
-         "group": 3
-      },
-      {
-         "id": "370",
-         "group": 3
-      },
-      {
-         "id": "206",
-         "group": 4
-      },
-      {
-         "id": "4399",
-         "group": 4
-      },
-      {
-         "id": "1024",
-         "group": 2
-      },
-      {
-         "id": "24085",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "24079",
-         "source": "370"
+         "target": "Apache Wiki"
       },
       {
+         "source": "David E. Wheeler",
          "value": 1,
-         "target": "206",
-         "source": "4399"
+         "target": "Marvin Humphrey"
       },
       {
+         "source": "Marvin Humphrey",
          "value": 1,
-         "target": "370",
-         "source": "24085"
+         "target": "no-reply"
       },
       {
+         "source": "Robert Muir",
          "value": 1,
-         "target": "4399",
-         "source": "370"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "4399",
-         "source": "24093"
+         "target": "Marvin Humphrey"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "1024",
-         "source": "370"
+         "target": "Peter Karman"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "24085",
-         "source": "370"
+         "target": "Robert Muir"
       },
       {
+         "source": "Peter Karman",
          "value": 1,
-         "target": "4399",
-         "source": "24079"
+         "target": "Marvin Humphrey"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Apache Wiki",
+         "group": 1
+      },
+      {
+         "id": "Robert Muir",
+         "group": 1
+      },
+      {
+         "id": "no-reply",
+         "group": 3
+      },
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 3
+      },
+      {
+         "id": "Peter Karman",
+         "group": 4
+      },
+      {
+         "id": "David E. Wheeler",
+         "group": 4
+      },
+      {
+         "id": "Marvin Humphrey",
+         "group": 1
       }
    ]
 }

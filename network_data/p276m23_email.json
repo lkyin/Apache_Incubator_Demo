@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "David Wood"
+      },
+      {
+         "source": "Xiping Wang",
+         "value": 3,
+         "target": "Kevan Miller"
+      },
+      {
+         "source": "David Wood",
+         "value": 2,
+         "target": "Kevan Miller"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 3,
+         "target": "Xiping Wang"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "Neeraj Joshi"
+      },
+      {
+         "source": "Neeraj Joshi",
+         "value": 1,
+         "target": "Kevan Miller"
+      }
+   ],
    "nodes": [
       {
-         "id": "21229",
-         "group": 1
-      },
-      {
-         "id": "580",
-         "group": 2
-      },
-      {
-         "id": "21231",
+         "id": "Xiping Wang",
          "group": 4
       },
       {
-         "id": "21211",
+         "id": "David Wood",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "21231",
-         "source": "580"
       },
       {
-         "value": 1,
-         "target": "580",
-         "source": "21211"
+         "id": "Kevan Miller",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "21229",
-         "source": "580"
-      },
-      {
-         "value": 3,
-         "target": "580",
-         "source": "21231"
-      },
-      {
-         "value": 2,
-         "target": "580",
-         "source": "21229"
-      },
-      {
-         "value": 1,
-         "target": "21211",
-         "source": "580"
+         "id": "Neeraj Joshi",
+         "group": 1
       }
    ]
 }

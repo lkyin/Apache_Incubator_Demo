@@ -1,33 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "22348",
-         "group": 4
-      },
-      {
-         "id": "5926",
-         "group": 4
-      },
-      {
-         "id": "5931",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "5931",
-         "source": "5926"
-      },
-      {
-         "value": 2,
-         "target": "5931",
-         "source": "22348"
-      },
-      {
+         "source": "Mark Struberg",
          "value": 1,
-         "target": "5926",
-         "source": "22348"
+         "target": "Hendrik Saly"
+      },
+      {
+         "source": "Romain manni-Bucau",
+         "value": 2,
+         "target": "Hendrik Saly"
+      },
+      {
+         "source": "Mark Struberg",
+         "value": 1,
+         "target": "Romain manni-Bucau"
+      },
+      {
+         "source": "Romain manni-Bucau",
+         "value": 1,
+         "target": "Mark Struberg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Hendrik Saly",
+         "group": 1
+      },
+      {
+         "id": "Romain manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 4
       }
    ]
 }

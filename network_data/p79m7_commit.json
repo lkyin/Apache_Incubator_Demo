@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "mir",
+         "value": 2,
+         "target": "reto"
+      },
+      {
+         "source": "mir",
+         "value": 1,
+         "target": "tommaso"
+      }
+   ],
    "nodes": [
       {
-         "id": "8872",
+         "id": "mir",
+         "group": 4
+      },
+      {
+         "id": "tommaso",
          "group": 2
       },
       {
-         "id": "8873",
-         "group": 1
-      },
-      {
-         "id": "8874",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "8873",
-         "source": "8872"
-      },
-      {
-         "value": 1,
-         "target": "8874",
-         "source": "8873"
+         "id": "reto",
+         "group": 4
       }
    ]
 }

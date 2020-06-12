@@ -1,33 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "6026",
-         "group": 2
-      },
-      {
-         "id": "22914",
-         "group": 3
-      },
-      {
-         "id": "38868",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 208,
-         "target": "22914",
-         "source": "6026"
+         "source": "smarthi",
+         "value": 6,
+         "target": "sblackmon"
       },
       {
+         "source": "Steve Blackmon @steveblackmon",
          "value": 11,
-         "target": "38868",
-         "source": "22914"
+         "target": "sblackmon"
       },
       {
+         "source": "Steve Blackmon @steveblackmon",
          "value": 10,
-         "target": "38868",
-         "source": "6026"
+         "target": "smarthi"
+      },
+      {
+         "source": "sblackmon",
+         "value": 202,
+         "target": "smarthi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sblackmon",
+         "group": 1
+      },
+      {
+         "id": "smarthi",
+         "group": 4
+      },
+      {
+         "id": "Steve Blackmon @steveblackmon",
+         "group": 1
       }
    ]
 }

@@ -1,47 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "29356",
-         "group": 4
-      },
-      {
-         "id": "29373",
-         "group": 1
-      },
-      {
-         "id": "29355",
-         "group": 1
-      },
-      {
-         "id": "29365",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 50,
-         "target": "29365",
-         "source": "29355"
-      },
-      {
-         "value": 1,
-         "target": "29365",
-         "source": "29356"
-      },
-      {
+         "source": "solomax",
          "value": 38,
-         "target": "29355",
-         "source": "29356"
+         "target": "sebawagner"
       },
       {
-         "value": 1,
-         "target": "29365",
-         "source": "29373"
+         "source": "sebawagner",
+         "value": 3,
+         "target": "eschwert"
       },
       {
+         "source": "ggrekhov",
          "value": 1,
-         "target": "29355",
-         "source": "29373"
+         "target": "sebawagner"
+      },
+      {
+         "source": "ggrekhov",
+         "value": 1,
+         "target": "eschwert"
+      },
+      {
+         "source": "solomax",
+         "value": 1,
+         "target": "eschwert"
+      },
+      {
+         "source": "eschwert",
+         "value": 47,
+         "target": "sebawagner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "solomax",
+         "group": 3
+      },
+      {
+         "id": "ggrekhov",
+         "group": 3
+      },
+      {
+         "id": "sebawagner",
+         "group": 3
+      },
+      {
+         "id": "eschwert",
+         "group": 1
       }
    ]
 }

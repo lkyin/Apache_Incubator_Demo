@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "308",
-         "group": 2
-      },
-      {
-         "id": "4718",
-         "group": 2
-      },
-      {
-         "id": "29157",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "DRAGOSH, PAMELA L (PAM)",
          "value": 1,
-         "target": "308",
-         "source": "4718"
+         "target": "Marvin Humphrey"
       },
       {
+         "source": "Marvin Humphrey",
          "value": 1,
-         "target": "4718",
-         "source": "29157"
+         "target": "Marvin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Marvin Humphrey",
+         "group": 4
+      },
+      {
+         "id": "DRAGOSH, PAMELA L (PAM)",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 3
       }
    ]
 }

@@ -1,33 +1,43 @@
 {
+   "links": [
+      {
+         "source": "Dave Brondsema",
+         "value": 24,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Tim Van Steenburgh",
+         "value": 5,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Cory Johns",
+         "value": 4,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Tim Van Steenburgh",
+         "value": 14,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Dave Brondsema",
+         "value": 11,
+         "target": "Tim Van Steenburgh"
+      }
+   ],
    "nodes": [
       {
-         "id": "3928",
+         "id": "Tim Van Steenburgh",
          "group": 3
       },
       {
-         "id": "3927",
+         "id": "Dave Brondsema",
          "group": 4
       },
       {
-         "id": "3938",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 28,
-         "target": "3927",
-         "source": "3928"
-      },
-      {
-         "value": 16,
-         "target": "3938",
-         "source": "3928"
-      },
-      {
-         "value": 14,
-         "target": "3938",
-         "source": "3927"
+         "id": "Cory Johns",
+         "group": 4
       }
    ]
 }

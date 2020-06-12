@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "mjumper",
+         "value": 3,
+         "target": "Michael Jumper"
+      },
+      {
+         "source": "vnick",
+         "value": 2,
+         "target": "mjumper"
+      },
+      {
+         "source": "vnick",
+         "value": 1,
+         "target": "Michael Jumper"
+      }
+   ],
    "nodes": [
       {
-         "id": "18422",
+         "id": "vnick",
          "group": 2
       },
       {
-         "id": "18424",
-         "group": 1
-      },
-      {
-         "id": "18590",
+         "id": "mjumper",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "18590",
-         "source": "18424"
       },
       {
-         "value": 2,
-         "target": "18590",
-         "source": "18422"
-      },
-      {
-         "value": 3,
-         "target": "18424",
-         "source": "18422"
+         "id": "Michael Jumper",
+         "group": 4
       }
    ]
 }

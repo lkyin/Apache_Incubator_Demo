@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "28699",
-         "group": 3
+         "source": "sheetal",
+         "value": 1,
+         "target": "shanti"
       },
       {
-         "id": "28702",
+         "source": "klichong",
+         "value": 9,
+         "target": "shanti"
+      },
+      {
+         "source": "tekgrrl",
+         "value": 3,
+         "target": "shanti"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "klichong",
+         "group": 1
+      },
+      {
+         "id": "sheetal",
          "group": 2
       },
       {
-         "id": "28703",
+         "id": "tekgrrl",
          "group": 4
       },
       {
-         "id": "28700",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 9,
-         "target": "28702",
-         "source": "28699"
-      },
-      {
-         "value": 3,
-         "target": "28703",
-         "source": "28699"
-      },
-      {
-         "value": 1,
-         "target": "28700",
-         "source": "28699"
+         "id": "shanti",
+         "group": 3
       }
    ]
 }

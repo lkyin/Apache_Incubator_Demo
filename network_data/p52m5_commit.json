@@ -1,61 +1,66 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "527",
-         "group": 4
+         "source": "rajdavies",
+         "value": 20,
+         "target": "chirino"
       },
       {
-         "id": "543",
+         "source": "jstrachan",
+         "value": 2,
+         "target": "nmittler"
+      },
+      {
+         "source": "chirino",
+         "value": 1,
+         "target": "nmittler"
+      },
+      {
+         "source": "rajdavies",
+         "value": 6,
+         "target": "nmittler"
+      },
+      {
+         "source": "jstrachan",
+         "value": 2,
+         "target": "aco"
+      },
+      {
+         "source": "chirino",
+         "value": 9,
+         "target": "rajdavies"
+      },
+      {
+         "source": "chirino",
+         "value": 6,
+         "target": "jstrachan"
+      },
+      {
+         "source": "rajdavies",
+         "value": 8,
+         "target": "jstrachan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "chirino",
+         "group": 2
+      },
+      {
+         "id": "nmittler",
          "group": 1
       },
       {
-         "id": "528",
-         "group": 3
-      },
-      {
-         "id": "535",
+         "id": "jstrachan",
          "group": 2
       },
       {
-         "id": "532",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "528",
-         "source": "543"
+         "id": "aco",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "543",
-         "source": "527"
-      },
-      {
-         "value": 6,
-         "target": "528",
-         "source": "527"
-      },
-      {
-         "value": 6,
-         "target": "532",
-         "source": "543"
-      },
-      {
-         "value": 29,
-         "target": "532",
-         "source": "528"
-      },
-      {
-         "value": 2,
-         "target": "535",
-         "source": "527"
-      },
-      {
-         "value": 8,
-         "target": "532",
-         "source": "527"
+         "id": "rajdavies",
+         "group": 1
       }
    ]
 }

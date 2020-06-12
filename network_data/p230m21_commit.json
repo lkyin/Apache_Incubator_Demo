@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "39921",
-         "group": 1
-      },
-      {
-         "id": "23290",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "geechorama",
          "value": 1,
-         "target": "23290",
-         "source": "39921"
+         "target": "todd"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "geechorama",
+         "group": 4
+      },
+      {
+         "id": "todd",
+         "group": 2
       }
    ]
 }

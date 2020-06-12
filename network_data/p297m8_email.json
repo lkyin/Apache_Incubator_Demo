@@ -1,55 +1,55 @@
 {
-   "nodes": [
-      {
-         "id": "34156",
-         "group": 2
-      },
-      {
-         "id": "20232",
-         "group": 1
-      },
-      {
-         "id": "34220",
-         "group": 2
-      },
-      {
-         "id": "34160",
-         "group": 2
-      },
-      {
-         "id": "20224",
-         "group": 4
-      },
-      {
-         "id": "34218",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Nan N. Jiang",
          "value": 1,
-         "target": "34218",
-         "source": "20232"
+         "target": "Leo Neumeyer"
       },
       {
+         "source": "Leo Neumeyer",
          "value": 1,
-         "target": "20232",
-         "source": "34156"
+         "target": "Matthieu Morel"
       },
       {
+         "source": "Matthieu Morel",
          "value": 1,
-         "target": "34156",
-         "source": "34218"
+         "target": "Nan N. Jiang"
       },
       {
+         "source": "Xinwu Cheng",
          "value": 1,
-         "target": "34156",
-         "source": "34220"
+         "target": "Leo Neumeyer"
       },
       {
+         "source": "Matthieu Morel (JIRA)",
          "value": 1,
-         "target": "34160",
-         "source": "20224"
+         "target": "Gavin Li (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Xinwu Cheng",
+         "group": 3
+      },
+      {
+         "id": "Matthieu Morel (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Matthieu Morel",
+         "group": 3
+      },
+      {
+         "id": "Nan N. Jiang",
+         "group": 2
+      },
+      {
+         "id": "Gavin Li (Created) (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Leo Neumeyer",
+         "group": 1
       }
    ]
 }

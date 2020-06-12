@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "sebor",
+         "value": 9,
+         "target": "faridz"
+      },
+      {
+         "source": "ablack",
+         "value": 1,
+         "target": "sebor"
+      },
+      {
+         "source": "ablack",
+         "value": 1,
+         "target": "faridz"
+      }
+   ],
    "nodes": [
       {
-         "id": "37994",
+         "id": "ablack",
+         "group": 3
+      },
+      {
+         "id": "sebor",
          "group": 4
       },
       {
-         "id": "37991",
-         "group": 2
-      },
-      {
-         "id": "37995",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "37995",
-         "source": "37991"
-      },
-      {
-         "value": 9,
-         "target": "37991",
-         "source": "37994"
-      },
-      {
-         "value": 1,
-         "target": "37995",
-         "source": "37994"
+         "id": "faridz",
+         "group": 3
       }
    ]
 }

@@ -1,98 +1,98 @@
 {
-   "nodes": [
-      {
-         "id": "23258",
-         "group": 1
-      },
-      {
-         "id": "4128",
-         "group": 4
-      },
-      {
-         "id": "4167",
-         "group": 1
-      },
-      {
-         "id": "5242",
-         "group": 2
-      },
-      {
-         "id": "32606",
-         "group": 2
-      },
-      {
-         "id": "32603",
-         "group": 4
-      },
-      {
-         "id": "32607",
-         "group": 2
-      },
-      {
-         "id": "32610",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 64,
-         "target": "4167",
-         "source": "23258"
-      },
-      {
-         "value": 1,
-         "target": "32607",
-         "source": "4167"
-      },
-      {
+         "source": "Dilli Dorai Arumugam",
          "value": 6,
-         "target": "5242",
-         "source": "4167"
+         "target": "mneethiraj"
       },
       {
+         "source": "Dilli Dorai Arumugam",
+         "value": 6,
+         "target": "sneethiraj"
+      },
+      {
+         "source": "dillidorai",
+         "value": 1,
+         "target": "omalley"
+      },
+      {
+         "source": "Dilli Dorai Arumugam",
+         "value": 1,
+         "target": "rmani"
+      },
+      {
+         "source": "bosco",
+         "value": 1,
+         "target": "omalley"
+      },
+      {
+         "source": "sneethiraj",
          "value": 12,
-         "target": "5242",
-         "source": "23258"
+         "target": "dillidorai"
       },
       {
-         "value": 1,
-         "target": "4128",
-         "source": "23258"
-      },
-      {
-         "value": 1,
-         "target": "32610",
-         "source": "23258"
-      },
-      {
-         "value": 1,
-         "target": "32610",
-         "source": "4128"
-      },
-      {
-         "value": 7,
-         "target": "32603",
-         "source": "23258"
-      },
-      {
+         "source": "sneethiraj",
          "value": 5,
-         "target": "5242",
-         "source": "32607"
+         "target": "rmani"
       },
       {
+         "source": "dillidorai",
+         "value": 1,
+         "target": "bosco"
+      },
+      {
+         "source": "sneethiraj",
          "value": 3,
-         "target": "5242",
-         "source": "32606"
+         "target": "mneethiraj"
       },
       {
+         "source": "Dilli Dorai Arumugam",
+         "value": 64,
+         "target": "dillidorai"
+      },
+      {
+         "source": "sneethir",
+         "value": 7,
+         "target": "dillidorai"
+      },
+      {
+         "source": "dillidorai",
          "value": 2,
-         "target": "32606",
-         "source": "23258"
+         "target": "mneethiraj"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dilli Dorai Arumugam",
+         "group": 1
       },
       {
-         "value": 6,
-         "target": "4167",
-         "source": "32606"
+         "id": "sneethiraj",
+         "group": 3
+      },
+      {
+         "id": "omalley",
+         "group": 2
+      },
+      {
+         "id": "bosco",
+         "group": 1
+      },
+      {
+         "id": "sneethir",
+         "group": 4
+      },
+      {
+         "id": "dillidorai",
+         "group": 1
+      },
+      {
+         "id": "mneethiraj",
+         "group": 3
+      },
+      {
+         "id": "rmani",
+         "group": 1
       }
    ]
 }

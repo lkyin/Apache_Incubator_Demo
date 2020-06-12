@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "5158",
-         "group": 1
-      },
-      {
-         "id": "11580",
-         "group": 4
-      },
-      {
-         "id": "20175",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Rahul Sharma",
          "value": 26,
-         "target": "5158",
-         "source": "11580"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "20175",
-         "source": "5158"
+         "target": "Evert Lammerts"
       },
       {
+         "source": "Roman Shaposhnik",
          "value": 26,
-         "target": "11580",
-         "source": "5158"
+         "target": "Rahul Sharma"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Rahul Sharma",
+         "group": 3
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 1
+      },
+      {
+         "id": "Evert Lammerts",
+         "group": 1
       }
    ]
 }

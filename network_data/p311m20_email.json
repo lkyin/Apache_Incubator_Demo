@@ -1,75 +1,75 @@
 {
+   "links": [
+      {
+         "source": "James Pic",
+         "value": 1,
+         "target": "Daniel Fahlke"
+      },
+      {
+         "source": "James Pic",
+         "value": 1,
+         "target": "Julien Vermillard"
+      },
+      {
+         "source": "Jerome Renard",
+         "value": 2,
+         "target": "James Pic"
+      },
+      {
+         "source": "Derick Rethans",
+         "value": 1,
+         "target": "Daniel Fahlke"
+      },
+      {
+         "source": "Daniel Fahlke",
+         "value": 1,
+         "target": "Derick Rethans"
+      },
+      {
+         "source": "James Pic",
+         "value": 1,
+         "target": "Jerome Renard"
+      },
+      {
+         "source": "Julien Vermillard",
+         "value": 1,
+         "target": "Jerome Renard"
+      },
+      {
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Daniel Fahlke"
+      },
+      {
+         "source": "Daniel Fahlke",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      }
+   ],
    "nodes": [
       {
-         "id": "45925",
-         "group": 2
-      },
-      {
-         "id": "45918",
-         "group": 2
-      },
-      {
-         "id": "45945",
-         "group": 4
-      },
-      {
-         "id": "45940",
-         "group": 4
-      },
-      {
-         "id": "4091",
+         "id": "Christian Grobmeier",
          "group": 3
       },
       {
-         "id": "5880",
+         "id": "Jerome Renard",
+         "group": 3
+      },
+      {
+         "id": "Daniel Fahlke",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "45918",
-         "source": "45945"
       },
       {
-         "value": 1,
-         "target": "45945",
-         "source": "4091"
+         "id": "Julien Vermillard",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4091",
-         "source": "45945"
+         "id": "Derick Rethans",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "45945",
-         "source": "45918"
-      },
-      {
-         "value": 1,
-         "target": "45925",
-         "source": "45940"
-      },
-      {
-         "value": 1,
-         "target": "45925",
-         "source": "5880"
-      },
-      {
-         "value": 1,
-         "target": "45945",
-         "source": "45940"
-      },
-      {
-         "value": 1,
-         "target": "5880",
-         "source": "45940"
-      },
-      {
-         "value": 2,
-         "target": "45940",
-         "source": "45925"
+         "id": "James Pic",
+         "group": 1
       }
    ]
 }

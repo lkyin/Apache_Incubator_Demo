@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "14589",
-         "group": 1
-      },
-      {
-         "id": "14631",
-         "group": 4
-      },
-      {
-         "id": "14586",
-         "group": 2
-      },
-      {
-         "id": "14630",
-         "group": 4
-      },
-      {
-         "id": "13758",
-         "group": 1
-      },
-      {
-         "id": "14635",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "=?utf-8?Q?Rainer_D=C3=B6bele_=28JIRA=29?=",
          "value": 2,
-         "target": "14589",
-         "source": "14586"
+         "target": "francisdb (JIRA)"
       },
       {
+         "source": "francisdb (JIRA)",
          "value": 1,
-         "target": "13758",
-         "source": "14631"
+         "target": "=?utf-8?Q?Rainer_D=C3=B6bele_=28JIRA=29?="
       },
       {
+         "source": "Francis De Brabandere",
          "value": 1,
-         "target": "14635",
-         "source": "13758"
+         "target": "=?iso-8859-1?Q?J=F6rg_Reiher?="
       },
       {
-         "value": 1,
-         "target": "14586",
-         "source": "14589"
-      },
-      {
+         "source": "Francis De Brabandere",
          "value": 2,
-         "target": "14631",
-         "source": "13758"
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
       },
       {
+         "source": "Francis De Brabandere",
          "value": 1,
-         "target": "14630",
-         "source": "13758"
+         "target": "Thomas Fischer"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 1,
+         "target": "Francis De Brabandere"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Francis De Brabandere",
+         "group": 4
+      },
+      {
+         "id": "francisdb (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "=?utf-8?Q?Rainer_D=C3=B6bele_=28JIRA=29?=",
+         "group": 2
+      },
+      {
+         "id": "Thomas Fischer",
+         "group": 4
+      },
+      {
+         "id": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "group": 1
+      },
+      {
+         "id": "=?iso-8859-1?Q?J=F6rg_Reiher?=",
+         "group": 4
       }
    ]
 }

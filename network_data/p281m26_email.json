@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "23236",
-         "group": 2
-      },
-      {
-         "id": "23234",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Stuart Monteith",
          "value": 1,
-         "target": "23234",
-         "source": "23236"
+         "target": "Steve Poole"
       },
       {
+         "source": "Steve Poole",
          "value": 1,
-         "target": "23236",
-         "source": "23234"
+         "target": "Stuart Monteith"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stuart Monteith",
+         "group": 1
+      },
+      {
+         "id": "Steve Poole",
+         "group": 1
       }
    ]
 }

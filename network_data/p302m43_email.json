@@ -1,80 +1,80 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8861",
-         "group": 1
+         "source": "Michael Stroucken",
+         "value": 1,
+         "target": "Michael Stroucken"
       },
       {
-         "id": "39580",
+         "source": "Michael Stroucken",
+         "value": 2,
+         "target": "Richard Gass"
+      },
+      {
+         "source": "Richard Gass",
+         "value": 1,
+         "target": "stroucki"
+      },
+      {
+         "source": "Michael Stroucken",
+         "value": 2,
+         "target": "Richard Gass"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 1,
+         "target": "Michael Stroucken"
+      },
+      {
+         "source": "Richard Gass",
+         "value": 3,
+         "target": "Michael Stroucken"
+      },
+      {
+         "source": "Luke Jing Yuan",
+         "value": 1,
+         "target": "Richard Gass"
+      },
+      {
+         "source": "Michael Stroucken",
+         "value": 3,
+         "target": "Michael Stroucken"
+      },
+      {
+         "source": "Richard Gass",
+         "value": 1,
+         "target": "Michael Stroucken"
+      },
+      {
+         "source": "Richard Gass",
+         "value": 1,
+         "target": "Luke Jing Yuan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Michael Stroucken",
          "group": 4
       },
       {
-         "id": "39576",
+         "id": "Richard Gass",
+         "group": 4
+      },
+      {
+         "id": "Michael Stroucken",
+         "group": 2
+      },
+      {
+         "id": "Luke Jing Yuan",
          "group": 1
       },
       {
-         "id": "39574",
+         "id": "stroucki",
+         "group": 1
+      },
+      {
+         "id": "Craig L Russell",
          "group": 2
-      },
-      {
-         "id": "39557",
-         "group": 3
-      },
-      {
-         "id": "39571",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "39557",
-         "source": "39574"
-      },
-      {
-         "value": 3,
-         "target": "39580",
-         "source": "39571"
-      },
-      {
-         "value": 1,
-         "target": "39580",
-         "source": "39574"
-      },
-      {
-         "value": 1,
-         "target": "39574",
-         "source": "39576"
-      },
-      {
-         "value": 1,
-         "target": "39571",
-         "source": "39580"
-      },
-      {
-         "value": 3,
-         "target": "39571",
-         "source": "39574"
-      },
-      {
-         "value": 1,
-         "target": "39571",
-         "source": "8861"
-      },
-      {
-         "value": 2,
-         "target": "39574",
-         "source": "39580"
-      },
-      {
-         "value": 1,
-         "target": "39576",
-         "source": "39574"
-      },
-      {
-         "value": 2,
-         "target": "39574",
-         "source": "39571"
       }
    ]
 }

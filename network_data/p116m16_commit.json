@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "lewismc",
+         "value": 9,
+         "target": "enis"
+      },
+      {
+         "source": "ferdy",
+         "value": 1,
+         "target": "lewismc"
+      },
+      {
+         "source": "ferdy",
+         "value": 1,
+         "target": "enis"
+      }
+   ],
    "nodes": [
       {
-         "id": "17861",
+         "id": "ferdy",
+         "group": 3
+      },
+      {
+         "id": "enis",
          "group": 1
       },
       {
-         "id": "4481",
-         "group": 2
-      },
-      {
-         "id": "17866",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "17866",
-         "source": "4481"
-      },
-      {
-         "value": 1,
-         "target": "17866",
-         "source": "17861"
-      },
-      {
-         "value": 9,
-         "target": "4481",
-         "source": "17861"
+         "id": "lewismc",
+         "group": 1
       }
    ]
 }

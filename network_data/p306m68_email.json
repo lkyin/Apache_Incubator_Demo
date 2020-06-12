@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "43057",
-         "group": 1
+         "source": "Waqee Khalid",
+         "value": 1,
+         "target": "Yuri Z"
       },
       {
-         "id": "43385",
+         "source": "Yuri Z",
+         "value": 1,
+         "target": "Ben Hegarty"
+      },
+      {
+         "source": "Evan Hughes",
+         "value": 1,
+         "target": "Yuri Z"
+      },
+      {
+         "source": "Yuri Z",
+         "value": 1,
+         "target": "Waqee Khalid"
+      },
+      {
+         "source": "Yuri Z",
+         "value": 1,
+         "target": "Martin Letis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Waqee Khalid",
          "group": 3
       },
       {
-         "id": "43011",
-         "group": 1
-      },
-      {
-         "id": "43386",
+         "id": "Yuri Z",
          "group": 2
       },
       {
-         "id": "43079",
+         "id": "Martin Letis",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "43079",
-         "source": "43057"
       },
       {
-         "value": 1,
-         "target": "43057",
-         "source": "43011"
+         "id": "Evan Hughes",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "43057",
-         "source": "43386"
-      },
-      {
-         "value": 1,
-         "target": "43386",
-         "source": "43057"
-      },
-      {
-         "value": 1,
-         "target": "43385",
-         "source": "43057"
+         "id": "Ben Hegarty",
+         "group": 2
       }
    ]
 }

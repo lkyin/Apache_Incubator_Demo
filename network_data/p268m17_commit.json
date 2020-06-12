@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "6111",
-         "group": 2
-      },
-      {
-         "id": "17108",
-         "group": 4
-      },
-      {
-         "id": "17119",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "mauzhang",
          "value": 8,
-         "target": "17108",
-         "source": "6111"
+         "target": "manuzhang"
       },
       {
-         "value": 5,
-         "target": "17119",
-         "source": "17108"
-      },
-      {
+         "source": "vinoyang",
          "value": 3,
-         "target": "17119",
-         "source": "6111"
+         "target": "manuzhang"
+      },
+      {
+         "source": "vinoyang",
+         "value": 5,
+         "target": "mauzhang"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "vinoyang",
+         "group": 4
+      },
+      {
+         "id": "mauzhang",
+         "group": 1
+      },
+      {
+         "id": "manuzhang",
+         "group": 3
       }
    ]
 }

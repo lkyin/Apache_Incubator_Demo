@@ -1,70 +1,70 @@
 {
-   "nodes": [
-      {
-         "id": "42374",
-         "group": 1
-      },
-      {
-         "id": "419",
-         "group": 3
-      },
-      {
-         "id": "42396",
-         "group": 3
-      },
-      {
-         "id": "42359",
-         "group": 3
-      },
-      {
-         "id": "42399",
-         "group": 3
-      },
-      {
-         "id": "42383",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "42383",
-         "source": "419"
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
       },
       {
+         "source": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
          "value": 1,
-         "target": "419",
-         "source": "42359"
+         "target": "Damien GAILLARD"
       },
       {
-         "value": 1,
-         "target": "42396",
-         "source": "42399"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42374"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42383"
-      },
-      {
-         "value": 1,
-         "target": "419",
-         "source": "42374"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "419"
-      },
-      {
+         "source": "Serge Huber",
          "value": 3,
-         "target": "42374",
-         "source": "42359"
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Romain Gauthier",
+         "value": 1,
+         "target": "Don Hinshaw (JIRA)"
+      },
+      {
+         "source": "Damien GAILLARD",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Damien GAILLARD",
+         "group": 4
+      },
+      {
+         "id": "Thomas Draier",
+         "group": 2
+      },
+      {
+         "id": "Romain Gauthier",
+         "group": 4
+      },
+      {
+         "id": "Serge Huber",
+         "group": 2
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 1
+      },
+      {
+         "id": "Don Hinshaw (JIRA)",
+         "group": 3
       }
    ]
 }

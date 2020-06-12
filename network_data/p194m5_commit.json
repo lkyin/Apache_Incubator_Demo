@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "31901",
-         "group": 1
+         "source": "Chan Lee",
+         "value": 1,
+         "target": "Donald Szeto"
       },
       {
-         "id": "6026",
+         "source": "Donald Szeto",
+         "value": 6,
+         "target": "donald"
+      },
+      {
+         "source": "donald",
+         "value": 3,
+         "target": "smarthi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chan Lee",
+         "group": 2
+      },
+      {
+         "id": "Donald Szeto",
          "group": 4
       },
       {
-         "id": "31903",
+         "id": "donald",
          "group": 1
       },
       {
-         "id": "31909",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "31901",
-         "source": "6026"
-      },
-      {
-         "value": 1,
-         "target": "31903",
-         "source": "31909"
-      },
-      {
-         "value": 6,
-         "target": "31901",
-         "source": "31903"
+         "id": "smarthi",
+         "group": 2
       }
    ]
 }

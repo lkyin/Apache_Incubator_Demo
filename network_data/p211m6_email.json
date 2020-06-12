@@ -1,61 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "36427",
-         "group": 1
-      },
-      {
-         "id": "580",
-         "group": 1
-      },
-      {
-         "id": "28942",
-         "group": 3
-      },
-      {
-         "id": "370",
-         "group": 1
-      },
-      {
-         "id": "10022",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "10022",
-         "source": "370"
-      },
-      {
+         "source": "Greg Reddin",
          "value": 3,
-         "target": "370",
-         "source": "10022"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 2,
-         "target": "370",
-         "source": "36427"
+         "target": "Kevan Miller"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
          "value": 1,
-         "target": "370",
-         "source": "28942"
+         "target": "Nga Chung"
       },
       {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 2,
+         "target": "Greg Reddin"
+      },
+      {
+         "source": "Mccleese, Sean W (388A)",
          "value": 1,
-         "target": "36427",
-         "source": "370"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Kevan Miller",
          "value": 2,
-         "target": "370",
-         "source": "580"
+         "target": "Mattmann, Chris A (388J)"
       },
       {
+         "source": "Nga Chung",
          "value": 2,
-         "target": "580",
-         "source": "370"
+         "target": "Mattmann, Chris A (388J)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 2
+      },
+      {
+         "id": "Greg Reddin",
+         "group": 4
+      },
+      {
+         "id": "Mccleese, Sean W (388A)",
+         "group": 2
+      },
+      {
+         "id": "Nga Chung",
+         "group": 4
+      },
+      {
+         "id": "Kevan Miller",
+         "group": 4
       }
    ]
 }

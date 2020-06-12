@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "20175",
-         "group": 1
-      },
-      {
-         "id": "20178",
-         "group": 2
-      },
-      {
-         "id": "11608",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "=?ISO-8859-1?Q?Mirko_K=E4mpf?=",
          "value": 1,
-         "target": "20178",
-         "source": "11608"
+         "target": "Rahul Sharma"
       },
       {
+         "source": "Evert Lammerts",
          "value": 1,
-         "target": "11608",
-         "source": "20178"
+         "target": "Rahul Sharma"
       },
       {
+         "source": "Rahul Sharma",
          "value": 1,
-         "target": "11608",
-         "source": "20175"
+         "target": "=?ISO-8859-1?Q?Mirko_K=E4mpf?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Evert Lammerts",
+         "group": 4
+      },
+      {
+         "id": "Rahul Sharma",
+         "group": 4
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Mirko_K=E4mpf?=",
+         "group": 3
       }
    ]
 }

@@ -1,80 +1,80 @@
 {
-   "nodes": [
-      {
-         "id": "22367",
-         "group": 3
-      },
-      {
-         "id": "22380",
-         "group": 4
-      },
-      {
-         "id": "22392",
-         "group": 4
-      },
-      {
-         "id": "22443",
-         "group": 3
-      },
-      {
-         "id": "4488",
-         "group": 2
-      },
-      {
-         "id": "8887",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Matt Post",
          "value": 1,
-         "target": "22443",
-         "source": "22367"
+         "target": "Tommaso Teofili (JIRA)"
       },
       {
+         "source": "Matt Post",
          "value": 1,
-         "target": "22380",
-         "source": "22367"
+         "target": "kellen sunderland"
       },
       {
+         "source": "Matt Post",
+         "value": 1,
+         "target": "emutan"
+      },
+      {
+         "source": "John Hewitt",
+         "value": 1,
+         "target": "kellen sunderland"
+      },
+      {
+         "source": "kellen sunderland",
+         "value": 1,
+         "target": "Matt Post"
+      },
+      {
+         "source": "Matt Post",
+         "value": 1,
+         "target": "John Hewitt"
+      },
+      {
+         "source": "Matt Post",
          "value": 3,
-         "target": "4488",
-         "source": "22367"
+         "target": "Tommaso Teofili"
       },
       {
-         "value": 1,
-         "target": "22392",
-         "source": "22367"
+         "source": "Tommaso Teofili",
+         "value": 3,
+         "target": "Matt Post"
       },
       {
-         "value": 1,
-         "target": "8887",
-         "source": "22367"
-      },
-      {
+         "source": "kellen sunderland",
          "value": 2,
-         "target": "4488",
-         "source": "22392"
+         "target": "Tommaso Teofili"
       },
       {
-         "value": 3,
-         "target": "22367",
-         "source": "4488"
-      },
-      {
+         "source": "Tommaso Teofili",
          "value": 1,
-         "target": "22392",
-         "source": "22380"
+         "target": "kellen sunderland"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tommaso Teofili (JIRA)",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "22367",
-         "source": "22392"
+         "id": "Tommaso Teofili",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "22392",
-         "source": "4488"
+         "id": "emutan",
+         "group": 4
+      },
+      {
+         "id": "Matt Post",
+         "group": 1
+      },
+      {
+         "id": "kellen sunderland",
+         "group": 3
+      },
+      {
+         "id": "John Hewitt",
+         "group": 3
       }
    ]
 }

@@ -1,70 +1,70 @@
 {
+   "links": [
+      {
+         "source": "David Jencks",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 3,
+         "target": "Simone Tripodi"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "no-reply"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 3,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "David Jencks"
+      },
+      {
+         "source": "jean-frederic clere",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "jean-frederic clere"
+      }
+   ],
    "nodes": [
       {
-         "id": "28763",
-         "group": 2
-      },
-      {
-         "id": "4488",
-         "group": 1
-      },
-      {
-         "id": "17351",
-         "group": 1
-      },
-      {
-         "id": "607",
-         "group": 2
-      },
-      {
-         "id": "206",
+         "id": "David Jencks",
          "group": 4
       },
       {
-         "id": "7574",
+         "id": "jean-frederic clere",
+         "group": 2
+      },
+      {
+         "id": "Tommaso Teofili",
+         "group": 2
+      },
+      {
+         "id": "no-reply",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "607",
-         "source": "4488"
       },
       {
-         "value": 1,
-         "target": "206",
-         "source": "4488"
+         "id": "Simone Tripodi",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4488",
-         "source": "28763"
-      },
-      {
-         "value": 1,
-         "target": "28763",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "607"
-      },
-      {
-         "value": 3,
-         "target": "7574",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "4488",
-         "source": "17351"
-      },
-      {
-         "value": 3,
-         "target": "4488",
-         "source": "7574"
+         "id": "Pid",
+         "group": 1
       }
    ]
 }

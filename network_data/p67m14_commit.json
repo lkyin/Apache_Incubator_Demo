@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "6466",
-         "group": 4
-      },
-      {
-         "id": "6476",
-         "group": 2
-      },
-      {
-         "id": "6468",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "rich",
          "value": 15,
-         "target": "6468",
-         "source": "6476"
+         "target": "ekoneil"
       },
       {
+         "source": "kentam",
          "value": 1,
-         "target": "6468",
-         "source": "6466"
+         "target": "ekoneil"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "kentam",
+         "group": 3
+      },
+      {
+         "id": "rich",
+         "group": 1
+      },
+      {
+         "id": "ekoneil",
+         "group": 2
       }
    ]
 }

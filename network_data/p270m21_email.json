@@ -1,75 +1,75 @@
 {
+   "links": [
+      {
+         "source": "Alexandru Popescu",
+         "value": 1,
+         "target": "Daniel Mora"
+      },
+      {
+         "source": "Christophe Lombart",
+         "value": 2,
+         "target": "Alexandru Popescu"
+      },
+      {
+         "source": "Ate Douma",
+         "value": 2,
+         "target": "Christophe Lombart"
+      },
+      {
+         "source": "maneo",
+         "value": 2,
+         "target": "Christophe Lombart"
+      },
+      {
+         "source": "Alexandru Popescu",
+         "value": 2,
+         "target": "Christophe Lombart"
+      },
+      {
+         "source": "Christophe Lombart",
+         "value": 1,
+         "target": "Ate Douma"
+      },
+      {
+         "source": "maneo",
+         "value": 1,
+         "target": "Raj Saini"
+      },
+      {
+         "source": "Christophe Lombart",
+         "value": 5,
+         "target": "maneo"
+      },
+      {
+         "source": "maneo",
+         "value": 2,
+         "target": "Ate Douma"
+      }
+   ],
    "nodes": [
       {
-         "id": "17998",
+         "id": "maneo",
+         "group": 2
+      },
+      {
+         "id": "Daniel Mora",
          "group": 1
       },
       {
-         "id": "18047",
-         "group": 3
-      },
-      {
-         "id": "18055",
-         "group": 3
-      },
-      {
-         "id": "18057",
+         "id": "Ate Douma",
          "group": 2
       },
       {
-         "id": "1135",
-         "group": 3
+         "id": "Alexandru Popescu",
+         "group": 4
       },
       {
-         "id": "5040",
+         "id": "Christophe Lombart",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "1135",
-         "source": "17998"
       },
       {
-         "value": 2,
-         "target": "18047",
-         "source": "17998"
-      },
-      {
-         "value": 1,
-         "target": "5040",
-         "source": "18057"
-      },
-      {
-         "value": 2,
-         "target": "17998",
-         "source": "1135"
-      },
-      {
-         "value": 5,
-         "target": "18057",
-         "source": "17998"
-      },
-      {
-         "value": 2,
-         "target": "1135",
-         "source": "18057"
-      },
-      {
-         "value": 2,
-         "target": "17998",
-         "source": "18047"
-      },
-      {
-         "value": 1,
-         "target": "18055",
-         "source": "18047"
-      },
-      {
-         "value": 2,
-         "target": "17998",
-         "source": "18057"
+         "id": "Raj Saini",
+         "group": 4
       }
    ]
 }

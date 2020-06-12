@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "38190",
-         "group": 4
-      },
-      {
-         "id": "4723",
-         "group": 1
-      },
-      {
-         "id": "38161",
-         "group": 4
-      },
-      {
-         "id": "17925",
-         "group": 4
-      },
-      {
-         "id": "38168",
-         "group": 1
-      },
-      {
-         "id": "24666",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Brenden Matthews",
          "value": 1,
-         "target": "24666",
-         "source": "17925"
+         "target": "P. Taylor Goetz"
       },
       {
+         "source": "ptgoetz",
          "value": 1,
-         "target": "17925",
-         "source": "38161"
+         "target": "Lorcan Coyle"
       },
       {
+         "source": "Lorcan Coyle",
          "value": 1,
-         "target": "24666",
-         "source": "4723"
+         "target": "P. Taylor Goetz"
       },
       {
-         "value": 26,
-         "target": "17925",
-         "source": "4723"
-      },
-      {
-         "value": 1,
-         "target": "38168",
-         "source": "4723"
-      },
-      {
-         "value": 1,
-         "target": "38161",
-         "source": "4723"
-      },
-      {
+         "source": "ptgoetz",
          "value": 3,
-         "target": "17925",
-         "source": "38190"
+         "target": "John Gilmore"
+      },
+      {
+         "source": "ptgoetz",
+         "value": 1,
+         "target": "Brenden Matthews"
+      },
+      {
+         "source": "Michael G. Noll",
+         "value": 1,
+         "target": "P. Taylor Goetz"
+      },
+      {
+         "source": "ptgoetz",
+         "value": 26,
+         "target": "P. Taylor Goetz"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Michael G. Noll",
+         "group": 4
+      },
+      {
+         "id": "John Gilmore",
+         "group": 4
+      },
+      {
+         "id": "P. Taylor Goetz",
+         "group": 4
+      },
+      {
+         "id": "ptgoetz",
+         "group": 1
+      },
+      {
+         "id": "Brenden Matthews",
+         "group": 1
+      },
+      {
+         "id": "Lorcan Coyle",
+         "group": 4
       }
    ]
 }

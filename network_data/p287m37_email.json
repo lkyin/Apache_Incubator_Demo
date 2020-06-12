@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "8778",
-         "group": 1
-      },
-      {
-         "id": "28043",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Brett Porter",
          "value": 2,
-         "target": "8778",
-         "source": "28043"
+         "target": "MCIVER Jim"
       },
       {
+         "source": "MCIVER Jim",
          "value": 2,
-         "target": "28043",
-         "source": "8778"
+         "target": "Brett Porter"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "MCIVER Jim",
+         "group": 4
+      },
+      {
+         "id": "Brett Porter",
+         "group": 4
       }
    ]
 }

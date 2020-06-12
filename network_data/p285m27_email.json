@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "25235",
-         "group": 3
-      },
-      {
-         "id": "6719",
-         "group": 2
-      },
-      {
-         "id": "16569",
-         "group": 2
-      },
-      {
-         "id": "4452",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "25235",
-         "source": "4452"
+         "source": "Edward J. Yoon",
+         "value": 1,
+         "target": "Leonidas Fegaras"
       },
       {
-         "value": 1,
-         "target": "16569",
-         "source": "6719"
+         "source": "asfgit",
+         "value": 2,
+         "target": "fegaras"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fegaras",
+         "group": 1
+      },
+      {
+         "id": "Edward J. Yoon",
+         "group": 2
+      },
+      {
+         "id": "asfgit",
+         "group": 2
+      },
+      {
+         "id": "Leonidas Fegaras",
+         "group": 1
       }
    ]
 }

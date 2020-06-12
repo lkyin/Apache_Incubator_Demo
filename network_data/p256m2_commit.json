@@ -1,57 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "4845",
-         "group": 1
-      },
-      {
-         "id": "4870",
-         "group": 3
-      },
-      {
-         "id": "4871",
-         "group": 3
-      },
-      {
-         "id": "4854",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "mxmrlv",
          "value": 10,
-         "target": "4870",
-         "source": "4845"
+         "target": "Dan Kilman"
       },
       {
-         "value": 10,
-         "target": "4854",
-         "source": "4871"
+         "source": "Dan Kilman",
+         "value": 26,
+         "target": "dankilman"
       },
       {
+         "source": "mxmrlv",
          "value": 7,
-         "target": "4854",
-         "source": "4845"
+         "target": "Ran Ziv"
       },
       {
-         "value": 5,
-         "target": "4870",
-         "source": "4871"
-      },
-      {
-         "value": 18,
-         "target": "4854",
-         "source": "4870"
-      },
-      {
-         "value": 21,
-         "target": "4871",
-         "source": "4870"
-      },
-      {
+         "source": "Dan Kilman",
          "value": 10,
-         "target": "4871",
-         "source": "4845"
+         "target": "Ran Ziv"
+      },
+      {
+         "source": "dankilman",
+         "value": 10,
+         "target": "Ran Ziv"
+      },
+      {
+         "source": "mxmrlv",
+         "value": 18,
+         "target": "dankilman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mxmrlv",
+         "group": 3
+      },
+      {
+         "id": "Dan Kilman",
+         "group": 3
+      },
+      {
+         "id": "dankilman",
+         "group": 4
+      },
+      {
+         "id": "Ran Ziv",
+         "group": 3
       }
    ]
 }

@@ -1,109 +1,109 @@
 {
-   "nodes": [
-      {
-         "id": "35332",
-         "group": 2
-      },
-      {
-         "id": "35331",
-         "group": 4
-      },
-      {
-         "id": "35328",
-         "group": 1
-      },
-      {
-         "id": "35326",
-         "group": 1
-      },
-      {
-         "id": "35329",
-         "group": 4
-      },
-      {
-         "id": "35333",
-         "group": 1
-      },
-      {
-         "id": "35330",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "35331",
-         "source": "35330"
-      },
-      {
-         "value": 6,
-         "target": "35333",
-         "source": "35330"
-      },
-      {
+         "source": "lryan",
          "value": 1,
-         "target": "35332",
-         "source": "35333"
+         "target": "beaton"
       },
       {
-         "value": 1,
-         "target": "35326",
-         "source": "35330"
+         "source": "etnu",
+         "value": 6,
+         "target": "beaton"
       },
       {
-         "value": 5,
-         "target": "35328",
-         "source": "35330"
+         "source": "etnu",
+         "value": 7,
+         "target": "lryan"
       },
       {
+         "source": "beaton",
          "value": 2,
-         "target": "35326",
-         "source": "35328"
+         "target": "evan"
       },
       {
+         "source": "beaton",
+         "value": 1,
+         "target": "lryan"
+      },
+      {
+         "source": "lindner",
+         "value": 1,
+         "target": "ieb"
+      },
+      {
+         "source": "johnh",
+         "value": 2,
+         "target": "evan"
+      },
+      {
+         "source": "evan",
          "value": 8,
-         "target": "35326",
-         "source": "35332"
+         "target": "ieb"
       },
       {
+         "source": "johnh",
          "value": 3,
-         "target": "35328",
-         "source": "35333"
+         "target": "lryan"
       },
       {
-         "value": 2,
-         "target": "35326",
-         "source": "35331"
-      },
-      {
+         "source": "johnh",
          "value": 1,
-         "target": "35326",
-         "source": "35333"
+         "target": "etnu"
       },
       {
+         "source": "etnu",
          "value": 1,
-         "target": "35332",
-         "source": "35331"
+         "target": "evan"
       },
       {
-         "value": 1,
-         "target": "35330",
-         "source": "35333"
+         "source": "etnu",
+         "value": 4,
+         "target": "johnh"
       },
       {
+         "source": "lryan",
          "value": 1,
-         "target": "35333",
-         "source": "35331"
+         "target": "ieb"
       },
       {
+         "source": "lryan",
          "value": 1,
-         "target": "35329",
-         "source": "35332"
+         "target": "evan"
       },
       {
+         "source": "beaton",
          "value": 1,
-         "target": "35331",
-         "source": "35333"
+         "target": "ieb"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "lryan",
+         "group": 1
+      },
+      {
+         "id": "beaton",
+         "group": 2
+      },
+      {
+         "id": "lindner",
+         "group": 2
+      },
+      {
+         "id": "johnh",
+         "group": 4
+      },
+      {
+         "id": "etnu",
+         "group": 1
+      },
+      {
+         "id": "evan",
+         "group": 4
+      },
+      {
+         "id": "ieb",
+         "group": 3
       }
    ]
 }

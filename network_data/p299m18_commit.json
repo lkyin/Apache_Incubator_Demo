@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4164",
-         "group": 1
+         "source": "Billie Rinaldi",
+         "value": 1,
+         "target": "Gour Saha"
       },
       {
-         "id": "36514",
+         "source": "Steve Loughran",
+         "value": 7,
+         "target": "stevel"
+      },
+      {
+         "source": "stevel",
+         "value": 1,
+         "target": "Gour Saha"
+      },
+      {
+         "source": "Steve Loughran",
+         "value": 1,
+         "target": "Gour Saha"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Steve Loughran",
          "group": 4
       },
       {
-         "id": "6712",
+         "id": "stevel",
+         "group": 4
+      },
+      {
+         "id": "Billie Rinaldi",
          "group": 3
       },
       {
-         "id": "36509",
+         "id": "Gour Saha",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "36514",
-         "source": "4164"
-      },
-      {
-         "value": 1,
-         "target": "36509",
-         "source": "36514"
-      },
-      {
-         "value": 1,
-         "target": "6712",
-         "source": "36514"
-      },
-      {
-         "value": 7,
-         "target": "36509",
-         "source": "6712"
       }
    ]
 }

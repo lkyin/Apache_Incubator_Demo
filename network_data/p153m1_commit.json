@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "46337",
-         "group": 1
+         "source": "pnasser",
+         "value": 1,
+         "target": "digy"
       },
       {
-         "id": "46338",
+         "source": "thoward",
+         "value": 2,
+         "target": "pnasser"
+      },
+      {
+         "source": "thoward",
+         "value": 3,
+         "target": "digy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "thoward",
          "group": 2
       },
       {
-         "id": "46336",
+         "id": "pnasser",
+         "group": 3
+      },
+      {
+         "id": "digy",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "46336",
-         "source": "46337"
-      },
-      {
-         "value": 2,
-         "target": "46338",
-         "source": "46337"
-      },
-      {
-         "value": 1,
-         "target": "46336",
-         "source": "46338"
       }
    ]
 }

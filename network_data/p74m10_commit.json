@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "8237",
-         "group": 1
-      },
-      {
-         "id": "8298",
-         "group": 1
-      },
-      {
-         "id": "8267",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "8298",
-         "source": "8237"
+         "source": "jbellis",
+         "value": 3,
+         "target": "eevans"
       },
       {
-         "value": 3,
-         "target": "8267",
-         "source": "8237"
+         "source": "jbellis",
+         "value": 2,
+         "target": "goffinet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jbellis",
+         "group": 2
+      },
+      {
+         "id": "goffinet",
+         "group": 4
+      },
+      {
+         "id": "eevans",
+         "group": 2
       }
    ]
 }

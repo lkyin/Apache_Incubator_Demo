@@ -1,68 +1,68 @@
 {
-   "nodes": [
-      {
-         "id": "22450",
-         "group": 4
-      },
-      {
-         "id": "22367",
-         "group": 3
-      },
-      {
-         "id": "4488",
-         "group": 4
-      },
-      {
-         "id": "22427",
-         "group": 3
-      },
-      {
-         "id": "4452",
-         "group": 1
-      },
-      {
-         "id": "4560",
-         "group": 3
-      },
-      {
-         "id": "22436",
-         "group": 1
-      },
-      {
-         "id": "22403",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "asfgit",
+         "value": 1,
+         "target": "thammegowda"
+      },
+      {
+         "source": "Mattmann, Chris A (1761)",
+         "value": 1,
+         "target": "Tom Barber"
+      },
+      {
+         "source": "Tom Barber",
          "value": 2,
-         "target": "22367",
-         "source": "22436"
+         "target": "Matt Post"
       },
       {
+         "source": "tteofili",
          "value": 1,
-         "target": "22403",
-         "source": "4452"
+         "target": "thammegowda"
       },
       {
+         "source": "Tommaso Teofili",
          "value": 1,
-         "target": "22450",
-         "source": "4488"
+         "target": "Mattmann, Chris A (1761)"
       },
       {
+         "source": "Matt Post",
          "value": 1,
-         "target": "22436",
-         "source": "22450"
+         "target": "Lewis John McGibbney (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lewis John McGibbney (JIRA)",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "22403",
-         "source": "22427"
+         "id": "Tommaso Teofili",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "4560",
-         "source": "22367"
+         "id": "asfgit",
+         "group": 1
+      },
+      {
+         "id": "Matt Post",
+         "group": 3
+      },
+      {
+         "id": "Mattmann, Chris A (1761)",
+         "group": 4
+      },
+      {
+         "id": "Tom Barber",
+         "group": 4
+      },
+      {
+         "id": "thammegowda",
+         "group": 2
+      },
+      {
+         "id": "tteofili",
+         "group": 3
       }
    ]
 }

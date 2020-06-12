@@ -1,45 +1,45 @@
 {
-   "nodes": [
-      {
-         "id": "7603",
-         "group": 1
-      },
-      {
-         "id": "5878",
-         "group": 2
-      },
-      {
-         "id": "7591",
-         "group": 1
-      },
-      {
-         "id": "5935",
-         "group": 1
-      },
-      {
-         "id": "5892",
-         "group": 2
-      },
-      {
-         "id": "7606",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Matt Benson (JIRA)",
          "value": 2,
-         "target": "7606",
-         "source": "7591"
+         "target": "Sascha Vujevic (JIRA)"
       },
       {
+         "source": "Mark Struberg",
          "value": 1,
-         "target": "7603",
-         "source": "5878"
+         "target": "Gerhard Petracek"
       },
       {
+         "source": "Mohammad Nour El-Din",
          "value": 1,
-         "target": "5935",
-         "source": "5892"
+         "target": "Albert Lee"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gerhard Petracek",
+         "group": 2
+      },
+      {
+         "id": "Sascha Vujevic (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 1
+      },
+      {
+         "id": "Mohammad Nour El-Din",
+         "group": 3
+      },
+      {
+         "id": "Albert Lee",
+         "group": 1
+      },
+      {
+         "id": "Matt Benson (JIRA)",
+         "group": 3
       }
    ]
 }

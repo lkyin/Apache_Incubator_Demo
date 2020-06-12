@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12087",
-         "group": 1
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Attinder Singh Khalsa"
       },
       {
-         "id": "12086",
+         "source": "Jakob Homan",
+         "value": 1,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Attinder Khalsa",
+         "value": 1,
+         "target": "Matthew Hayes"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Attinder Khalsa",
          "group": 3
       },
       {
-         "id": "1584",
-         "group": 2
+         "id": "Jakob Homan",
+         "group": 1
       },
       {
-         "id": "12020",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "12087"
+         "id": "Matthew Hayes",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "12020",
-         "source": "1584"
-      },
-      {
-         "value": 1,
-         "target": "12086",
-         "source": "12020"
+         "id": "Attinder Singh Khalsa",
+         "group": 1
       }
    ]
 }

@@ -1,139 +1,139 @@
 {
-   "nodes": [
-      {
-         "id": "8861",
-         "group": 2
-      },
-      {
-         "id": "12131",
-         "group": 3
-      },
-      {
-         "id": "12138",
-         "group": 3
-      },
-      {
-         "id": "41",
-         "group": 2
-      },
-      {
-         "id": "12136",
-         "group": 1
-      },
-      {
-         "id": "12140",
-         "group": 3
-      },
-      {
-         "id": "12132",
-         "group": 1
-      },
-      {
-         "id": "12137",
-         "group": 2
-      },
-      {
-         "id": "12133",
-         "group": 1
-      },
-      {
-         "id": "12134",
-         "group": 1
-      },
-      {
-         "id": "864",
-         "group": 1
-      },
-      {
-         "id": "12139",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Carl Trieloff",
+         "value": 1,
+         "target": "David Lutterkort"
+      },
+      {
+         "source": "marios@redhat.com",
+         "value": 1,
+         "target": "mfojtik"
+      },
+      {
+         "source": "Michal Fojtik",
+         "value": 1,
+         "target": "David Lutterkort"
+      },
+      {
+         "source": "David Lutterkort",
+         "value": 1,
+         "target": "Jon Masters"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 1,
+         "target": "David Lutterkort"
+      },
+      {
+         "source": "Carl Trieloff",
+         "value": 1,
+         "target": "Hugh O. Brock"
+      },
+      {
+         "source": "Luciano Resende",
          "value": 2,
-         "target": "12132",
-         "source": "41"
+         "target": "David Lutterkort"
       },
       {
+         "source": "David Lutterkort",
          "value": 1,
-         "target": "12132",
-         "source": "12133"
+         "target": "Carl Trieloff"
       },
       {
+         "source": "David Lutterkort",
          "value": 1,
-         "target": "8861",
-         "source": "12132"
+         "target": "Craig L Russell"
       },
       {
+         "source": "Hugh O. Brock",
          "value": 1,
-         "target": "12139",
-         "source": "12131"
+         "target": "David Lutterkort"
       },
       {
-         "value": 1,
-         "target": "12133",
-         "source": "864"
-      },
-      {
-         "value": 1,
-         "target": "12134",
-         "source": "12139"
-      },
-      {
-         "value": 1,
-         "target": "12140",
-         "source": "12137"
-      },
-      {
-         "value": 1,
-         "target": "41",
-         "source": "12132"
-      },
-      {
-         "value": 1,
-         "target": "12134",
-         "source": "12137"
-      },
-      {
-         "value": 1,
-         "target": "12136",
-         "source": "12132"
-      },
-      {
-         "value": 1,
-         "target": "12132",
-         "source": "12131"
-      },
-      {
-         "value": 1,
-         "target": "864",
-         "source": "12132"
-      },
-      {
+         "source": "Jon Masters",
          "value": 2,
-         "target": "12132",
-         "source": "12136"
+         "target": "David Lutterkort"
       },
       {
+         "source": "David Lutterkort",
          "value": 1,
-         "target": "12132",
-         "source": "8861"
+         "target": "Luciano Resende"
       },
       {
+         "source": "Jason Guiditta",
          "value": 1,
-         "target": "12132",
-         "source": "864"
+         "target": "mfojtik"
       },
       {
+         "source": "Michal Fojtik",
          "value": 1,
-         "target": "12131",
-         "source": "12138"
+         "target": "Jason Guiditta"
       },
       {
+         "source": "marios@redhat.com",
+         "value": 1,
+         "target": "Jeff Darcy"
+      },
+      {
+         "source": "Jean-Sebastien Delfino",
+         "value": 1,
+         "target": "Michal Fojtik"
+      },
+      {
+         "source": "Jeff Darcy",
          "value": 2,
-         "target": "12137",
-         "source": "12140"
+         "target": "marios@redhat.com"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Luciano Resende",
+         "group": 2
+      },
+      {
+         "id": "Hugh O. Brock",
+         "group": 3
+      },
+      {
+         "id": "Jeff Darcy",
+         "group": 1
+      },
+      {
+         "id": "David Lutterkort",
+         "group": 4
+      },
+      {
+         "id": "Craig L Russell",
+         "group": 2
+      },
+      {
+         "id": "mfojtik",
+         "group": 4
+      },
+      {
+         "id": "Jon Masters",
+         "group": 2
+      },
+      {
+         "id": "marios@redhat.com",
+         "group": 1
+      },
+      {
+         "id": "Michal Fojtik",
+         "group": 3
+      },
+      {
+         "id": "Jason Guiditta",
+         "group": 2
+      },
+      {
+         "id": "Jean-Sebastien Delfino",
+         "group": 1
+      },
+      {
+         "id": "Carl Trieloff",
+         "group": 4
       }
    ]
 }

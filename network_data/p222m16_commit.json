@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "38847",
-         "group": 2
-      },
-      {
-         "id": "22914",
-         "group": 2
-      },
-      {
-         "id": "32898",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 15,
-         "target": "32898",
-         "source": "22914"
-      },
-      {
-         "value": 66,
-         "target": "38847",
-         "source": "22914"
-      },
-      {
+         "source": "sblackmon",
          "value": 11,
-         "target": "38847",
-         "source": "32898"
+         "target": "mfranklin"
+      },
+      {
+         "source": "sblackmon",
+         "value": 15,
+         "target": "mfranklin"
+      },
+      {
+         "source": "sblackmon",
+         "value": 66,
+         "target": "sblackmon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sblackmon",
+         "group": 3
+      },
+      {
+         "id": "sblackmon",
+         "group": 1
+      },
+      {
+         "id": "mfranklin",
+         "group": 4
       }
    ]
 }

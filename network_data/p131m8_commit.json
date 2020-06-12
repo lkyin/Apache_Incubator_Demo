@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "21493",
-         "group": 2
-      },
-      {
-         "id": "21453",
-         "group": 1
-      },
-      {
-         "id": "21456",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 27,
-         "target": "21456",
-         "source": "21453"
+         "source": "gscokart",
+         "value": 35,
+         "target": "xavier"
       },
       {
-         "value": 35,
-         "target": "21456",
-         "source": "21493"
+         "source": "maartenc",
+         "value": 27,
+         "target": "xavier"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "maartenc",
+         "group": 3
+      },
+      {
+         "id": "gscokart",
+         "group": 1
+      },
+      {
+         "id": "xavier",
+         "group": 3
       }
    ]
 }

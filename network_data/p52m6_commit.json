@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "527",
-         "group": 1
-      },
-      {
-         "id": "528",
-         "group": 1
-      },
-      {
-         "id": "535",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "jstrachan",
          "value": 1,
-         "target": "535",
-         "source": "527"
+         "target": "aco"
       },
       {
+         "source": "chirino",
          "value": 1,
-         "target": "528",
-         "source": "527"
+         "target": "jstrachan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "chirino",
+         "group": 3
+      },
+      {
+         "id": "jstrachan",
+         "group": 4
+      },
+      {
+         "id": "aco",
+         "group": 2
       }
    ]
 }

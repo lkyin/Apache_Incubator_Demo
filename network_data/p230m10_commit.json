@@ -1,66 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "39919",
-         "group": 3
-      },
-      {
-         "id": "39917",
-         "group": 1
-      },
-      {
-         "id": "6967",
-         "group": 3
-      },
-      {
-         "id": "39916",
-         "group": 3
-      },
-      {
-         "id": "39920",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "39916",
-         "source": "39920"
-      },
-      {
-         "value": 11,
-         "target": "39916",
-         "source": "39919"
-      },
-      {
-         "value": 4,
-         "target": "39920",
-         "source": "6967"
-      },
-      {
-         "value": 5,
-         "target": "39920",
-         "source": "39916"
-      },
-      {
-         "value": 2,
-         "target": "6967",
-         "source": "39916"
-      },
-      {
-         "value": 5,
-         "target": "39920",
-         "source": "39917"
-      },
-      {
-         "value": 2,
-         "target": "6967",
-         "source": "39919"
-      },
-      {
+         "source": "bryanduxbury",
          "value": 3,
-         "target": "39920",
-         "source": "39919"
+         "target": "jake"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 5,
+         "target": "kclark"
+      },
+      {
+         "source": "jake",
+         "value": 2,
+         "target": "gstein"
+      },
+      {
+         "source": "gstein",
+         "value": 2,
+         "target": "dreiss"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 6,
+         "target": "dreiss"
+      },
+      {
+         "source": "jake",
+         "value": 11,
+         "target": "dreiss"
+      },
+      {
+         "source": "bryanduxbury",
+         "value": 4,
+         "target": "gstein"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bryanduxbury",
+         "group": 2
+      },
+      {
+         "id": "jake",
+         "group": 4
+      },
+      {
+         "id": "kclark",
+         "group": 4
+      },
+      {
+         "id": "gstein",
+         "group": 4
+      },
+      {
+         "id": "dreiss",
+         "group": 2
       }
    ]
 }

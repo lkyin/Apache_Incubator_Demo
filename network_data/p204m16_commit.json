@@ -1,65 +1,65 @@
 {
-   "nodes": [
-      {
-         "id": "1421",
-         "group": 2
-      },
-      {
-         "id": "34381",
-         "group": 4
-      },
-      {
-         "id": "34412",
-         "group": 3
-      },
-      {
-         "id": "34444",
-         "group": 2
-      },
-      {
-         "id": "34430",
-         "group": 4
-      },
-      {
-         "id": "34410",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 75,
-         "target": "34412",
-         "source": "34430"
-      },
-      {
+         "source": "martinkl",
          "value": 1,
-         "target": "34381",
-         "source": "34444"
+         "target": "Chris Riccomini"
       },
       {
+         "source": "Martin Kleppmann",
          "value": 1,
-         "target": "1421",
-         "source": "34381"
+         "target": "martinkl"
       },
       {
+         "source": "Martin Kleppmann",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Yan Fang",
          "value": 5,
-         "target": "34412",
-         "source": "34410"
+         "target": "martinkl"
       },
       {
-         "value": 1,
-         "target": "34412",
-         "source": "34381"
+         "source": "yanfang",
+         "value": 75,
+         "target": "martinkl"
       },
       {
+         "source": "Yan Fang",
          "value": 1,
-         "target": "34410",
-         "source": "34381"
+         "target": "Chris Riccomini"
       },
       {
+         "source": "criccomini",
          "value": 1,
-         "target": "34412",
-         "source": "34444"
+         "target": "Chris Riccomini"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "criccomini",
+         "group": 3
+      },
+      {
+         "id": "Yan Fang",
+         "group": 4
+      },
+      {
+         "id": "martinkl",
+         "group": 2
+      },
+      {
+         "id": "Chris Riccomini",
+         "group": 4
+      },
+      {
+         "id": "yanfang",
+         "group": 4
+      },
+      {
+         "id": "Martin Kleppmann",
+         "group": 2
       }
    ]
 }

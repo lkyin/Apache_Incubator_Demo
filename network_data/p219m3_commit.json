@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "15006",
-         "group": 2
-      },
-      {
-         "id": "37991",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "fielding",
          "value": 1,
-         "target": "37991",
-         "source": "15006"
+         "target": "sebor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fielding",
+         "group": 3
+      },
+      {
+         "id": "sebor",
+         "group": 3
       }
    ]
 }

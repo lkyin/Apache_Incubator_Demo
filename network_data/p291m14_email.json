@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "13",
-         "group": 2
-      },
-      {
-         "id": "31575",
-         "group": 4
-      },
-      {
-         "id": "31576",
-         "group": 2
-      },
-      {
-         "id": "41",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Martin Cooper",
          "value": 1,
-         "target": "41",
-         "source": "31576"
+         "target": "Luciano Resende"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "31576",
-         "source": "41"
+         "target": "Steve Donie"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "41",
-         "source": "13"
+         "target": "Steve Donie"
       },
       {
+         "source": "Steve Donie",
          "value": 1,
-         "target": "31575",
-         "source": "41"
+         "target": "Luciano Resende"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Martin Cooper",
+         "group": 3
+      },
+      {
+         "id": "Steve Donie",
+         "group": 1
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 2
+      },
+      {
+         "id": "Steve Donie",
+         "group": 4
       }
    ]
 }

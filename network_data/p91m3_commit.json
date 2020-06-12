@@ -1,114 +1,109 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12278",
-         "group": 4
+         "source": "Christian Kaltepoth",
+         "value": 1,
+         "target": "gpetracek"
       },
       {
-         "id": "12276",
+         "source": "struberg",
+         "value": 3,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Rudy De Busscher",
+         "value": 4,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "struberg",
+         "value": 1,
+         "target": "gpetracek"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 4,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Shane Bryzak",
+         "value": 1,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "struberg",
+         "value": 1,
+         "target": "Shane Bryzak"
+      },
+      {
+         "source": "gpetracek",
+         "value": 6,
+         "target": "Jason Porter"
+      },
+      {
+         "source": "Shane Bryzak",
+         "value": 1,
+         "target": "gpetracek"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 4,
+         "target": "gpetracek"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 1,
+         "target": "Shane Bryzak"
+      },
+      {
+         "source": "Rudy De Busscher",
+         "value": 6,
+         "target": "gpetracek"
+      },
+      {
+         "source": "Rudy De Busscher",
+         "value": 6,
+         "target": "Jason Porter"
+      },
+      {
+         "source": "gpetracek",
+         "value": 15,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "gpetracek",
+         "value": 18,
+         "target": "Shane Bryzak"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Christian Kaltepoth",
+         "group": 1
+      },
+      {
+         "id": "Rudy De Busscher",
          "group": 3
       },
       {
-         "id": "12268",
-         "group": 1
-      },
-      {
-         "id": "12279",
-         "group": 4
-      },
-      {
-         "id": "5926",
-         "group": 1
-      },
-      {
-         "id": "12273",
-         "group": 4
-      },
-      {
-         "id": "5927",
+         "id": "gpetracek",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "5927",
-         "source": "12268"
       },
       {
-         "value": 2,
-         "target": "12276",
-         "source": "12273"
+         "id": "Mark Struberg",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "12273",
-         "source": "12279"
+         "id": "Jason Porter",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "12268",
-         "source": "12278"
+         "id": "Shane Bryzak",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "12268",
-         "source": "12276"
-      },
-      {
-         "value": 3,
-         "target": "5927",
-         "source": "5926"
-      },
-      {
-         "value": 15,
-         "target": "5926",
-         "source": "12268"
-      },
-      {
-         "value": 1,
-         "target": "5927",
-         "source": "12279"
-      },
-      {
-         "value": 4,
-         "target": "12273",
-         "source": "12276"
-      },
-      {
-         "value": 4,
-         "target": "12276",
-         "source": "12268"
-      },
-      {
-         "value": 2,
-         "target": "5926",
-         "source": "12276"
-      },
-      {
-         "value": 1,
-         "target": "5926",
-         "source": "12279"
-      },
-      {
-         "value": 10,
-         "target": "12273",
-         "source": "12268"
-      },
-      {
-         "value": 4,
-         "target": "12273",
-         "source": "5926"
-      },
-      {
-         "value": 2,
-         "target": "12276",
-         "source": "5926"
-      },
-      {
-         "value": 19,
-         "target": "12279",
-         "source": "12268"
+         "id": "struberg",
+         "group": 3
       }
    ]
 }

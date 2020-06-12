@@ -1,122 +1,122 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "34585",
-         "group": 2
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Charles Matthew Chen"
       },
       {
-         "id": "479",
+         "source": "Craig L Russell",
+         "value": 1,
+         "target": "Charles Matthew Chen"
+      },
+      {
+         "source": "Charles Matthew Chen",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 2,
+         "target": "Jeremias Maerki"
+      },
+      {
+         "source": "Philipp Koch",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Charles Matthew Chen",
+         "value": 1,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Carsten Ziegeler",
+         "value": 3,
+         "target": "Charles Matthew Chen"
+      },
+      {
+         "source": "Charles Matthew Chen",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Philipp Koch",
+         "value": 1,
+         "target": "Jeremias Maerki"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Carsten Ziegeler",
+         "value": 1,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Charles Matthew Chen",
+         "value": 1,
+         "target": "Jeremias Maerki"
+      },
+      {
+         "source": "Jeremias Maerki",
+         "value": 2,
+         "target": "Charles Matthew Chen"
+      },
+      {
+         "source": "Jeremias Maerki",
+         "value": 1,
+         "target": "Craig L Russell"
+      },
+      {
+         "source": "Jeremias Maerki",
+         "value": 1,
+         "target": "Louis Ryan"
+      },
+      {
+         "source": "Charles Matthew Chen (JIRA)",
+         "value": 2,
+         "target": "Niall Pemberton (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Niall Pemberton (JIRA)",
          "group": 1
       },
       {
-         "id": "34594",
-         "group": 2
-      },
-      {
-         "id": "4091",
+         "id": "Christian Grobmeier",
          "group": 4
       },
       {
-         "id": "180",
+         "id": "Louis Ryan",
+         "group": 1
+      },
+      {
+         "id": "Jeremias Maerki",
          "group": 2
       },
       {
-         "id": "34610",
+         "id": "Craig L Russell",
          "group": 3
       },
       {
-         "id": "34611",
-         "group": 1
-      },
-      {
-         "id": "8422",
+         "id": "Carsten Ziegeler",
          "group": 2
       },
       {
-         "id": "8300",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8422",
-         "source": "180"
+         "id": "Charles Matthew Chen (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "180",
-         "source": "34585"
+         "id": "Charles Matthew Chen",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "34585",
-         "source": "4091"
-      },
-      {
-         "value": 1,
-         "target": "180",
-         "source": "8422"
-      },
-      {
-         "value": 3,
-         "target": "34585",
-         "source": "180"
-      },
-      {
-         "value": 1,
-         "target": "34611",
-         "source": "479"
-      },
-      {
-         "value": 2,
-         "target": "8300",
-         "source": "34594"
-      },
-      {
-         "value": 2,
-         "target": "34585",
-         "source": "479"
-      },
-      {
-         "value": 1,
-         "target": "180",
-         "source": "34610"
-      },
-      {
-         "value": 1,
-         "target": "8422",
-         "source": "479"
-      },
-      {
-         "value": 2,
-         "target": "479",
-         "source": "8422"
-      },
-      {
-         "value": 1,
-         "target": "479",
-         "source": "34585"
-      },
-      {
-         "value": 1,
-         "target": "8422",
-         "source": "34585"
-      },
-      {
-         "value": 1,
-         "target": "479",
-         "source": "34610"
-      },
-      {
-         "value": 1,
-         "target": "34585",
-         "source": "8422"
-      },
-      {
-         "value": 1,
-         "target": "4091",
-         "source": "34585"
+         "id": "Philipp Koch",
+         "group": 3
       }
    ]
 }

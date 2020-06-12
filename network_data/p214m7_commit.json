@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "36861",
-         "group": 1
-      },
-      {
-         "id": "36862",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "billa",
          "value": 1,
-         "target": "36862",
-         "source": "36861"
+         "target": "yonik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "billa",
+         "group": 2
+      },
+      {
+         "id": "yonik",
+         "group": 3
       }
    ]
 }

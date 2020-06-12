@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "5225",
-         "group": 3
-      },
-      {
-         "id": "5237",
-         "group": 2
-      },
-      {
-         "id": "14854",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Shwetha GS",
          "value": 5,
-         "target": "5237",
-         "source": "5225"
+         "target": "shwethags"
       },
       {
+         "source": "Venkatesh Seetharam",
          "value": 8,
-         "target": "14854",
-         "source": "5225"
+         "target": "Shwetha GS"
       },
       {
+         "source": "Venkatesh Seetharam",
          "value": 5,
-         "target": "14854",
-         "source": "5237"
+         "target": "shwethags"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Venkatesh Seetharam",
+         "group": 2
+      },
+      {
+         "id": "Shwetha GS",
+         "group": 1
+      },
+      {
+         "id": "shwethags",
+         "group": 3
       }
    ]
 }

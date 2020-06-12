@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Gord Tanner",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Brent Lintner",
+         "value": 1,
+         "target": "Filip Maj"
+      },
+      {
+         "source": "Dan Silivestru",
+         "value": 1,
+         "target": "Gord Tanner"
+      },
+      {
+         "source": "Brent Lintner",
+         "value": 3,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Dan Silivestru"
+      },
+      {
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Brent Lintner"
+      }
+   ],
    "nodes": [
       {
-         "id": "4091",
+         "id": "Gord Tanner",
+         "group": 3
+      },
+      {
+         "id": "Filip Maj",
+         "group": 1
+      },
+      {
+         "id": "Christian Grobmeier",
          "group": 2
       },
       {
-         "id": "11265",
-         "group": 1
+         "id": "Brent Lintner",
+         "group": 3
       },
       {
-         "id": "10356",
-         "group": 1
-      },
-      {
-         "id": "10100",
-         "group": 1
-      },
-      {
-         "id": "10295",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "10100",
-         "source": "10356"
-      },
-      {
-         "value": 1,
-         "target": "10295",
-         "source": "11265"
-      },
-      {
-         "value": 1,
-         "target": "10356",
-         "source": "4091"
-      },
-      {
-         "value": 3,
-         "target": "4091",
-         "source": "11265"
-      },
-      {
-         "value": 1,
-         "target": "11265",
-         "source": "4091"
-      },
-      {
-         "value": 1,
-         "target": "4091",
-         "source": "10100"
+         "id": "Dan Silivestru",
+         "group": 4
       }
    ]
 }

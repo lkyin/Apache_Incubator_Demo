@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "315",
-         "group": 1
-      },
-      {
-         "id": "10262",
-         "group": 3
-      },
-      {
-         "id": "38150",
-         "group": 3
-      },
-      {
-         "id": "38152",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Akopov, Sergei (GE Intelligent Platforms)",
          "value": 1,
-         "target": "315",
-         "source": "38152"
+         "target": "Daniel Kulp"
       },
       {
+         "source": "Abu Obeida Bakhach",
          "value": 1,
-         "target": "38152",
-         "source": "10262"
+         "target": "Akopov, Sergei (GE Intelligent Platforms)"
       },
       {
+         "source": "Akopov, Sergei (GE Intelligent Platforms)",
          "value": 1,
-         "target": "315",
-         "source": "38150"
+         "target": "Abu Obeida Bakhach"
       },
       {
+         "source": "Dewey, Ben",
          "value": 1,
-         "target": "10262",
-         "source": "38152"
+         "target": "Daniel Kulp"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dewey, Ben",
+         "group": 2
+      },
+      {
+         "id": "Daniel Kulp",
+         "group": 4
+      },
+      {
+         "id": "Abu Obeida Bakhach",
+         "group": 3
+      },
+      {
+         "id": "Akopov, Sergei (GE Intelligent Platforms)",
+         "group": 4
       }
    ]
 }

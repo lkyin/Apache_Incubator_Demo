@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "16639",
-         "group": 3
-      },
-      {
-         "id": "11582",
-         "group": 3
-      },
-      {
-         "id": "16641",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "16641",
-         "source": "16639"
+         "source": "brock",
+         "value": 5,
+         "target": "arvind"
       },
       {
-         "value": 5,
-         "target": "11582",
-         "source": "16639"
+         "source": "arvind",
+         "value": 2,
+         "target": "prasadm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "brock",
+         "group": 4
+      },
+      {
+         "id": "arvind",
+         "group": 3
+      },
+      {
+         "id": "prasadm",
+         "group": 3
       }
    ]
 }

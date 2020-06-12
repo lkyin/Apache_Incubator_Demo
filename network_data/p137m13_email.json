@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 3
-      },
-      {
-         "id": "22354",
-         "group": 4
-      },
-      {
-         "id": "22353",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "5928",
-         "source": "22354"
+         "target": "Hendrik Dev"
       },
       {
+         "source": "Salyh",
          "value": 1,
-         "target": "22354",
-         "source": "5928"
+         "target": "Romain Manni-Bucau"
       },
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "22353",
-         "source": "5928"
+         "target": "Salyh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "Hendrik Dev",
+         "group": 1
+      },
+      {
+         "id": "Salyh",
+         "group": 2
       }
    ]
 }

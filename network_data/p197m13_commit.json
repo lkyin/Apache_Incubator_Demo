@@ -1,113 +1,123 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "32618",
-         "group": 2
+         "source": "Madhan Neethiraj",
+         "value": 7,
+         "target": "madhan"
       },
       {
-         "id": "5249",
+         "source": "sneethir",
+         "value": 3,
+         "target": "Velmurugan Periasamy"
+      },
+      {
+         "source": "madhan",
+         "value": 5,
+         "target": "sneethir"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 3,
+         "target": "Velmurugan Periasamy"
+      },
+      {
+         "source": "sneethir",
+         "value": 3,
+         "target": "madhan"
+      },
+      {
+         "source": "madhan",
+         "value": 5,
+         "target": "Velmurugan Periasamy"
+      },
+      {
+         "source": "madhan",
+         "value": 2,
+         "target": "vel"
+      },
+      {
+         "source": "Alok Lal",
+         "value": 4,
+         "target": "Alok Lal"
+      },
+      {
+         "source": "madhan",
+         "value": 1,
+         "target": "Madhan Neethiraj"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 3,
+         "target": "madhan"
+      },
+      {
+         "source": "sneethir",
+         "value": 1,
+         "target": "Madhan Neethiraj"
+      },
+      {
+         "source": "sneethir",
+         "value": 1,
+         "target": "sneethiraj"
+      },
+      {
+         "source": "Alok Lal",
+         "value": 2,
+         "target": "Madhan Neethiraj"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 3,
+         "target": "sneethir"
+      },
+      {
+         "source": "Madhan Neethiraj",
+         "value": 6,
+         "target": "Alok Lal"
+      },
+      {
+         "source": "Velmurugan Periasamy",
+         "value": 2,
+         "target": "vel"
+      },
+      {
+         "source": "madhan",
+         "value": 1,
+         "target": "sneethiraj"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alok Lal",
          "group": 1
       },
       {
-         "id": "5242",
+         "id": "madhan",
          "group": 3
       },
       {
-         "id": "32617",
-         "group": 2
-      },
-      {
-         "id": "5261",
+         "id": "Velmurugan Periasamy",
          "group": 4
       },
       {
-         "id": "32624",
+         "id": "sneethiraj",
          "group": 1
       },
       {
-         "id": "32603",
-         "group": 2
-      },
-      {
-         "id": "32612",
+         "id": "sneethir",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "5242",
-         "source": "5261"
       },
       {
-         "value": 2,
-         "target": "5249",
-         "source": "32612"
+         "id": "Madhan Neethiraj",
+         "group": 4
       },
       {
-         "value": 4,
-         "target": "32624",
-         "source": "32612"
+         "id": "vel",
+         "group": 3
       },
       {
-         "value": 6,
-         "target": "5249",
-         "source": "32624"
-      },
-      {
-         "value": 3,
-         "target": "5242",
-         "source": "32618"
-      },
-      {
-         "value": 7,
-         "target": "32603",
-         "source": "5261"
-      },
-      {
-         "value": 1,
-         "target": "5249",
-         "source": "32603"
-      },
-      {
-         "value": 4,
-         "target": "5242",
-         "source": "32603"
-      },
-      {
-         "value": 3,
-         "target": "32618",
-         "source": "5261"
-      },
-      {
-         "value": 2,
-         "target": "32618",
-         "source": "32617"
-      },
-      {
-         "value": 8,
-         "target": "5249",
-         "source": "5261"
-      },
-      {
-         "value": 3,
-         "target": "32603",
-         "source": "32618"
-      },
-      {
-         "value": 2,
-         "target": "5261",
-         "source": "32618"
-      },
-      {
-         "value": 2,
-         "target": "5261",
-         "source": "32617"
-      },
-      {
-         "value": 1,
-         "target": "5261",
-         "source": "32603"
+         "id": "Alok Lal",
+         "group": 1
       }
    ]
 }

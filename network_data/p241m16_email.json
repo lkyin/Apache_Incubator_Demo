@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42366",
-         "group": 3
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
-         "id": "42374",
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "Abdelkader Midani",
+         "value": 1,
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Damien GAILLARD"
+      },
+      {
+         "source": "Damien GAILLARD",
+         "value": 1,
+         "target": "Abdelkader Midani"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Damien GAILLARD",
+         "group": 1
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "group": 2
       },
       {
-         "id": "4102",
+         "id": "Serge Huber",
          "group": 4
       },
       {
-         "id": "42359",
+         "id": "Abdelkader Midani",
+         "group": 2
+      },
+      {
+         "id": "Thomas Draier",
          "group": 4
-      },
-      {
-         "id": "42383",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42374",
-         "source": "42366"
-      },
-      {
-         "value": 1,
-         "target": "42366",
-         "source": "42383"
-      },
-      {
-         "value": 1,
-         "target": "4102",
-         "source": "42359"
-      },
-      {
-         "value": 1,
-         "target": "42383",
-         "source": "42359"
-      },
-      {
-         "value": 1,
-         "target": "4102",
-         "source": "42374"
       }
    ]
 }

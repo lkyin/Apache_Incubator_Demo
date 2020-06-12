@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4481",
-         "group": 4
+         "source": "simonetripodi",
+         "value": 4,
+         "target": "mostarda"
       },
       {
-         "id": "4483",
+         "source": "mostarda",
+         "value": 1,
+         "target": "lewismc"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "simonetripodi",
          "group": 2
       },
       {
-         "id": "4482",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4482",
-         "source": "4481"
+         "id": "mostarda",
+         "group": 2
       },
       {
-         "value": 4,
-         "target": "4482",
-         "source": "4483"
+         "id": "lewismc",
+         "group": 3
       }
    ]
 }

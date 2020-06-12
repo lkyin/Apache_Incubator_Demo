@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13735",
-         "group": 4
+         "source": "=?utf-8?Q?Tobias_R=C3=BCbner_=28JIRA=29?=",
+         "value": 5,
+         "target": "Eugen Paraschiv (JIRA)"
       },
       {
-         "id": "13732",
+         "source": "Chapuis Bertil",
+         "value": 1,
+         "target": "Richard Frovarp"
+      },
+      {
+         "source": "Bertil Chapuis (JIRA)",
+         "value": 2,
+         "target": "=?utf-8?Q?Tobias_R=C3=BCbner_=28JIRA=29?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertil Chapuis (JIRA)",
          "group": 2
       },
       {
-         "id": "13743",
+         "id": "Chapuis Bertil",
          "group": 3
       },
       {
-         "id": "13722",
+         "id": "=?utf-8?Q?Tobias_R=C3=BCbner_=28JIRA=29?=",
          "group": 4
       },
       {
-         "id": "13763",
+         "id": "Richard Frovarp",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "13743",
-         "source": "13763"
       },
       {
-         "value": 2,
-         "target": "13763",
-         "source": "13722"
-      },
-      {
-         "value": 1,
-         "target": "13735",
-         "source": "13732"
+         "id": "Eugen Paraschiv (JIRA)",
+         "group": 1
       }
    ]
 }

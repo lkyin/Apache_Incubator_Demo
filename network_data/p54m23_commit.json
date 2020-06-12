@@ -1,57 +1,57 @@
 {
+   "links": [
+      {
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 5,
+         "target": "Fokko Driesprong"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 2,
+         "target": "Fokko Driesprong"
+      },
+      {
+         "source": "Fokko Driesprong",
+         "value": 5,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 1,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Dan Davydov",
+         "value": 1,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Fokko Driesprong",
+         "value": 3,
+         "target": "Dan Davydov"
+      }
+   ],
    "nodes": [
       {
-         "id": "1371",
+         "id": "Chris Riccomini",
          "group": 4
       },
       {
-         "id": "1769",
+         "id": "Dan Davydov",
          "group": 2
       },
       {
-         "id": "1324",
-         "group": 4
+         "id": "Fokko Driesprong",
+         "group": 3
       },
       {
-         "id": "1329",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "1324",
-         "source": "1769"
-      },
-      {
-         "value": 1,
-         "target": "1329",
-         "source": "1371"
-      },
-      {
-         "value": 5,
-         "target": "1769",
-         "source": "1329"
-      },
-      {
-         "value": 5,
-         "target": "1329",
-         "source": "1769"
-      },
-      {
-         "value": 1,
-         "target": "1324",
-         "source": "1329"
-      },
-      {
-         "value": 1,
-         "target": "1329",
-         "source": "1324"
-      },
-      {
-         "value": 2,
-         "target": "1769",
-         "source": "1371"
+         "id": "Bolke de Bruin",
+         "group": 2
       }
    ]
 }

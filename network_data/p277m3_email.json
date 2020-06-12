@@ -1,38 +1,38 @@
 {
+   "links": [
+      {
+         "source": "Hadrian Zbarcea",
+         "value": 1,
+         "target": "Tony Faustini"
+      },
+      {
+         "source": "Justin Mclean",
+         "value": 1,
+         "target": "Tony Faustini"
+      },
+      {
+         "source": "Tony Faustini",
+         "value": 2,
+         "target": "Hadrian Zbarcea"
+      },
+      {
+         "source": "Justin Mclean",
+         "value": 1,
+         "target": "Hadrian Zbarcea"
+      }
+   ],
    "nodes": [
       {
-         "id": "21261",
+         "id": "Hadrian Zbarcea",
+         "group": 2
+      },
+      {
+         "id": "Tony Faustini",
          "group": 3
       },
       {
-         "id": "454",
-         "group": 4
-      },
-      {
-         "id": "3873",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21261",
-         "source": "454"
-      },
-      {
-         "value": 1,
-         "target": "21261",
-         "source": "3873"
-      },
-      {
-         "value": 1,
-         "target": "454",
-         "source": "3873"
-      },
-      {
-         "value": 2,
-         "target": "454",
-         "source": "21261"
+         "id": "Justin Mclean",
+         "group": 1
       }
    ]
 }

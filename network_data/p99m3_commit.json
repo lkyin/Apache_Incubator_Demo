@@ -1,81 +1,76 @@
 {
+   "links": [
+      {
+         "source": "yonzhang2012",
+         "value": 2,
+         "target": "sunlibin"
+      },
+      {
+         "source": "sunlibin",
+         "value": 1,
+         "target": "yonzhang"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 40,
+         "target": "hao"
+      },
+      {
+         "source": "yonzhang2012",
+         "value": 11,
+         "target": "hao"
+      },
+      {
+         "source": "hao",
+         "value": 5,
+         "target": "sunlibin"
+      },
+      {
+         "source": "yonzhang2012",
+         "value": 2,
+         "target": "yonzhang"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 4,
+         "target": "sunlibin"
+      },
+      {
+         "source": "yonzhang2012",
+         "value": 11,
+         "target": "Hao Chen"
+      },
+      {
+         "source": "hao",
+         "value": 3,
+         "target": "yonzhang"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 2,
+         "target": "yonzhang"
+      }
+   ],
    "nodes": [
       {
-         "id": "14120",
-         "group": 4
+         "id": "yonzhang2012",
+         "group": 2
       },
       {
-         "id": "14121",
-         "group": 1
-      },
-      {
-         "id": "14119",
+         "id": "Hao Chen",
          "group": 3
       },
       {
-         "id": "6464",
-         "group": 4
+         "id": "hao",
+         "group": 2
       },
       {
-         "id": "14128",
+         "id": "sunlibin",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "6464",
-         "source": "14120"
       },
       {
-         "value": 1,
-         "target": "14119",
-         "source": "14128"
-      },
-      {
-         "value": 40,
-         "target": "6464",
-         "source": "14121"
-      },
-      {
-         "value": 11,
-         "target": "14120",
-         "source": "14121"
-      },
-      {
-         "value": 2,
-         "target": "6464",
-         "source": "14119"
-      },
-      {
-         "value": 2,
-         "target": "14128",
-         "source": "14120"
-      },
-      {
-         "value": 2,
-         "target": "6464",
-         "source": "14128"
-      },
-      {
-         "value": 3,
-         "target": "14119",
-         "source": "14121"
-      },
-      {
-         "value": 2,
-         "target": "14119",
-         "source": "14120"
-      },
-      {
-         "value": 5,
-         "target": "14128",
-         "source": "14121"
-      },
-      {
-         "value": 2,
-         "target": "14128",
-         "source": "6464"
+         "id": "yonzhang",
+         "group": 1
       }
    ]
 }

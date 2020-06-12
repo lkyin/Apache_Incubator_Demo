@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "snoopdave",
+         "value": 2,
+         "target": "gangolli"
+      },
+      {
+         "source": "snoopdave",
+         "value": 20,
+         "target": "agilliland"
+      }
+   ],
    "nodes": [
       {
-         "id": "33774",
+         "id": "snoopdave",
+         "group": 2
+      },
+      {
+         "id": "gangolli",
          "group": 3
       },
       {
-         "id": "33775",
-         "group": 4
-      },
-      {
-         "id": "33776",
+         "id": "agilliland",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "33776",
-         "source": "33774"
-      },
-      {
-         "value": 20,
-         "target": "33775",
-         "source": "33774"
       }
    ]
 }

@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "15295",
-         "group": 3
-      },
-      {
-         "id": "15282",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Lionel Raymundi - Poincenot",
          "value": 1,
-         "target": "15282",
-         "source": "15295"
+         "target": "Ed Cable"
       },
       {
+         "source": "Ed Cable",
          "value": 1,
-         "target": "15295",
-         "source": "15282"
+         "target": "Lionel Raymundi - Poincenot"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Ed Cable",
+         "group": 1
+      },
+      {
+         "id": "Lionel Raymundi - Poincenot",
+         "group": 2
       }
    ]
 }

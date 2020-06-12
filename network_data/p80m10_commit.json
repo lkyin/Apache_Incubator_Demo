@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "9035",
-         "group": 2
-      },
-      {
-         "id": "9036",
-         "group": 4
-      },
-      {
-         "id": "9037",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 16,
-         "target": "9037",
-         "source": "9035"
+         "source": "medgar",
+         "value": 1,
+         "target": "takezoe"
       },
       {
-         "value": 1,
-         "target": "9037",
-         "source": "9036"
+         "source": "medgar",
+         "value": 16,
+         "target": "sabob"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "medgar",
+         "group": 3
+      },
+      {
+         "id": "takezoe",
+         "group": 1
+      },
+      {
+         "id": "sabob",
+         "group": 4
       }
    ]
 }

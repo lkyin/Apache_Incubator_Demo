@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "19969",
-         "group": 2
+         "source": "toffer",
+         "value": 2,
+         "target": "hashutosh"
       },
       {
-         "id": "19970",
+         "source": "khorgath",
+         "value": 4,
+         "target": "hashutosh"
+      },
+      {
+         "source": "toffer",
+         "value": 1,
+         "target": "khorgath"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "toffer",
          "group": 4
       },
       {
-         "id": "19958",
+         "id": "khorgath",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "19958",
-         "source": "19970"
       },
       {
-         "value": 1,
-         "target": "19970",
-         "source": "19969"
-      },
-      {
-         "value": 4,
-         "target": "19958",
-         "source": "19969"
+         "id": "hashutosh",
+         "group": 1
       }
    ]
 }

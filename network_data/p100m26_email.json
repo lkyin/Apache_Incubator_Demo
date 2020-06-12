@@ -1,38 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "14396",
-         "group": 4
-      },
-      {
-         "id": "14397",
-         "group": 4
-      },
-      {
-         "id": "14384",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Dridi Boukelmoune",
          "value": 2,
-         "target": "14384",
-         "source": "14397"
+         "target": "Jean-Louis Boudart"
       },
       {
+         "source": "Jean-Louis Boudart",
          "value": 1,
-         "target": "14397",
-         "source": "14384"
+         "target": "=?windows-1252?Q?Nicolas_Lalev=E9e?="
       },
       {
+         "source": "=?windows-1252?Q?Nicolas_Lalev=E9e?=",
          "value": 2,
-         "target": "14396",
-         "source": "14384"
+         "target": "Jean-Louis Boudart"
       },
       {
+         "source": "Jean-Louis Boudart",
          "value": 2,
-         "target": "14384",
-         "source": "14396"
+         "target": "Dridi Boukelmoune"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?windows-1252?Q?Nicolas_Lalev=E9e?=",
+         "group": 3
+      },
+      {
+         "id": "Dridi Boukelmoune",
+         "group": 4
+      },
+      {
+         "id": "Jean-Louis Boudart",
+         "group": 3
       }
    ]
 }

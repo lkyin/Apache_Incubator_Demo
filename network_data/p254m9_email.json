@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "4091",
-         "group": 2
-      },
-      {
-         "id": "4093",
-         "group": 4
-      },
-      {
-         "id": "4092",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Flavio Pellanda",
+         "value": 1,
+         "target": "Christian Grobmeier"
+      },
+      {
+         "source": "Christian Grobmeier",
+         "value": 1,
+         "target": "Flavio Pellanda"
+      },
+      {
+         "source": "Urs Lerch",
          "value": 2,
-         "target": "4091",
-         "source": "4093"
+         "target": "Christian Grobmeier"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Flavio Pellanda",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "4091",
-         "source": "4092"
+         "id": "Christian Grobmeier",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4092",
-         "source": "4091"
+         "id": "Urs Lerch",
+         "group": 4
       }
    ]
 }

@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "Ted Leung",
+         "value": 1,
+         "target": "Recordon, David"
+      },
+      {
+         "source": "Paul Querna",
+         "value": 3,
+         "target": "Johannes Ernst"
+      },
+      {
+         "source": "Johannes Ernst",
+         "value": 3,
+         "target": "Paul Querna"
+      }
+   ],
    "nodes": [
       {
-         "id": "20261",
+         "id": "Paul Querna",
          "group": 4
       },
       {
-         "id": "18",
+         "id": "Ted Leung",
+         "group": 3
+      },
+      {
+         "id": "Johannes Ernst",
          "group": 2
       },
       {
-         "id": "11380",
-         "group": 1
-      },
-      {
-         "id": "20263",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "20261",
-         "source": "11380"
-      },
-      {
-         "value": 3,
-         "target": "20263",
-         "source": "18"
-      },
-      {
-         "value": 3,
-         "target": "18",
-         "source": "20263"
+         "id": "Recordon, David",
+         "group": 2
       }
    ]
 }

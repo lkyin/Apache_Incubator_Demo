@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "Serge Huber",
+         "value": 2,
+         "target": "Deepak Malhotra"
+      },
+      {
+         "source": "Deepak Malhotra",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Shiva Kumar"
+      }
+   ],
    "nodes": [
       {
-         "id": "42392",
+         "id": "Shiva Kumar",
          "group": 3
       },
       {
-         "id": "42359",
-         "group": 2
+         "id": "Deepak Malhotra",
+         "group": 4
       },
       {
-         "id": "42393",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "42393",
-         "source": "42359"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42393"
-      },
-      {
-         "value": 1,
-         "target": "42392",
-         "source": "42359"
+         "id": "Serge Huber",
+         "group": 3
       }
    ]
 }

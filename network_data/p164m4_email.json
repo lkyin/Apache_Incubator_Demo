@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "16649",
-         "group": 2
-      },
-      {
-         "id": "6704",
-         "group": 3
-      },
-      {
-         "id": "370",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "370",
-         "source": "6704"
-      },
-      {
-         "value": 4,
-         "target": "6704",
-         "source": "370"
-      },
-      {
+         "source": "Eric Sammer",
          "value": 1,
-         "target": "6704",
-         "source": "16649"
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 4,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Patrick Hunt",
+         "value": 4,
+         "target": "Mattmann, Chris A (388J)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mattmann, Chris A (388J)",
+         "group": 1
+      },
+      {
+         "id": "Patrick Hunt",
+         "group": 2
+      },
+      {
+         "id": "Eric Sammer",
+         "group": 2
       }
    ]
 }

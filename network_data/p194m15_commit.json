@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "shimamoto",
+         "value": 1,
+         "target": "Naoki Takezoe"
+      },
+      {
+         "source": "Donald Szeto",
+         "value": 2,
+         "target": "shimamoto"
+      },
+      {
+         "source": "Donald Szeto",
+         "value": 1,
+         "target": "Naoki Takezoe"
+      },
+      {
+         "source": "jenkins",
+         "value": 2,
+         "target": "git-site-role"
+      }
+   ],
    "nodes": [
       {
-         "id": "4848",
-         "group": 2
-      },
-      {
-         "id": "31903",
-         "group": 1
-      },
-      {
-         "id": "31954",
+         "id": "Naoki Takezoe",
          "group": 3
       },
       {
-         "id": "31957",
-         "group": 1
+         "id": "Donald Szeto",
+         "group": 2
       },
       {
-         "id": "4849",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "4849",
-         "source": "4848"
+         "id": "shimamoto",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "31954",
-         "source": "31903"
+         "id": "jenkins",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "31957",
-         "source": "31954"
-      },
-      {
-         "value": 2,
-         "target": "31957",
-         "source": "31903"
+         "id": "git-site-role",
+         "group": 2
       }
    ]
 }

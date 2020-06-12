@@ -1,80 +1,80 @@
 {
-   "nodes": [
-      {
-         "id": "202",
-         "group": 4
-      },
-      {
-         "id": "4987",
-         "group": 2
-      },
-      {
-         "id": "315",
-         "group": 1
-      },
-      {
-         "id": "17092",
-         "group": 4
-      },
-      {
-         "id": "8485",
-         "group": 2
-      },
-      {
-         "id": "607",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Matt Hogstrom",
          "value": 1,
-         "target": "8485",
-         "source": "315"
+         "target": "Alan D. Cabrera"
       },
       {
+         "source": "Alan D. Cabrera",
          "value": 1,
-         "target": "315",
-         "source": "4987"
+         "target": "Daniel Kulp"
       },
       {
+         "source": "Daniel Kulp",
          "value": 1,
-         "target": "4987",
-         "source": "202"
+         "target": "Matt Hogstrom"
       },
       {
+         "source": "David Jencks",
          "value": 1,
-         "target": "202",
-         "source": "607"
+         "target": "Alan D. Cabrera"
       },
       {
+         "source": "Alan D. Cabrera",
          "value": 1,
-         "target": "202",
-         "source": "8485"
+         "target": "Matt Hogstrom"
       },
       {
+         "source": "Alexey Petrenko",
          "value": 1,
-         "target": "315",
-         "source": "202"
+         "target": "Daniel Kulp"
       },
       {
+         "source": "Rick McGuire",
          "value": 1,
-         "target": "315",
-         "source": "8485"
+         "target": "Daniel Kulp"
       },
       {
+         "source": "Matt Hogstrom",
          "value": 1,
-         "target": "315",
-         "source": "17092"
+         "target": "Daniel Kulp"
       },
       {
+         "source": "Rick McGuire",
          "value": 1,
-         "target": "202",
-         "source": "4987"
+         "target": "Alan D. Cabrera"
       },
       {
+         "source": "Alan D. Cabrera",
          "value": 1,
-         "target": "8485",
-         "source": "202"
+         "target": "Rick McGuire"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Jencks",
+         "group": 4
+      },
+      {
+         "id": "Alexey Petrenko",
+         "group": 4
+      },
+      {
+         "id": "Matt Hogstrom",
+         "group": 1
+      },
+      {
+         "id": "Daniel Kulp",
+         "group": 4
+      },
+      {
+         "id": "Rick McGuire",
+         "group": 4
+      },
+      {
+         "id": "Alan D. Cabrera",
+         "group": 4
       }
    ]
 }

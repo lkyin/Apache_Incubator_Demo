@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "28707",
-         "group": 1
-      },
-      {
-         "id": "1137",
-         "group": 2
-      },
-      {
-         "id": "28754",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "1137",
-         "source": "28754"
+         "source": "Shanti Subramanyam (JIRA)",
+         "value": 2,
+         "target": "Sebb (JIRA)"
       },
       {
-         "value": 2,
-         "target": "1137",
-         "source": "28707"
+         "source": "Shanti Subramanyam (gmail)",
+         "value": 1,
+         "target": "Sebb (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Shanti Subramanyam (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Shanti Subramanyam (gmail)",
+         "group": 3
+      },
+      {
+         "id": "Sebb (JIRA)",
+         "group": 1
       }
    ]
 }

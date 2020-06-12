@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "12463",
-         "group": 4
-      },
-      {
-         "id": "12460",
-         "group": 4
-      },
-      {
-         "id": "12462",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "fuzzylogic",
          "value": 1,
-         "target": "12462",
-         "source": "12463"
+         "target": "kmarsden"
       },
       {
+         "source": "fuzzylogic",
          "value": 13,
-         "target": "12462",
-         "source": "12460"
+         "target": "jta"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "fuzzylogic",
+         "group": 2
+      },
+      {
+         "id": "jta",
+         "group": 2
+      },
+      {
+         "id": "kmarsden",
+         "group": 1
       }
    ]
 }

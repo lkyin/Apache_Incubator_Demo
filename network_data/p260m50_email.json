@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "388",
-         "group": 3
-      },
-      {
-         "id": "7097",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Aaron McCurry",
          "value": 2,
-         "target": "7097",
-         "source": "388"
+         "target": "Tim Williams"
       },
       {
+         "source": "Tim Williams",
          "value": 2,
-         "target": "388",
-         "source": "7097"
+         "target": "Aaron McCurry"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tim Williams",
+         "group": 4
+      },
+      {
+         "id": "Aaron McCurry",
+         "group": 3
       }
    ]
 }

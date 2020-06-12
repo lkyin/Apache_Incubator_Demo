@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "19956",
-         "group": 2
+         "source": "toffer",
+         "value": 2,
+         "target": "gates"
       },
       {
-         "id": "19969",
+         "source": "toffer",
+         "value": 9,
+         "target": "hashutosh"
+      },
+      {
+         "source": "khorgath",
+         "value": 6,
+         "target": "hashutosh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "toffer",
+         "group": 3
+      },
+      {
+         "id": "khorgath",
          "group": 1
       },
       {
-         "id": "19970",
-         "group": 2
+         "id": "hashutosh",
+         "group": 1
       },
       {
-         "id": "19958",
+         "id": "gates",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "19970",
-         "source": "19956"
-      },
-      {
-         "value": 9,
-         "target": "19958",
-         "source": "19970"
-      },
-      {
-         "value": 6,
-         "target": "19958",
-         "source": "19969"
       }
    ]
 }

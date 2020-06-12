@@ -1,56 +1,66 @@
 {
+   "links": [
+      {
+         "source": "struberg",
+         "value": 14,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "gpetracek",
+         "value": 1,
+         "target": "struberg"
+      },
+      {
+         "source": "Mark Struberg",
+         "value": 1,
+         "target": "gpetracek"
+      },
+      {
+         "source": "Mark Struberg",
+         "value": 30,
+         "target": "struberg"
+      },
+      {
+         "source": "gpetracek",
+         "value": 17,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Matthias Wessendorf",
+         "value": 1,
+         "target": "gpetracek"
+      },
+      {
+         "source": "Matthias Wessendorf",
+         "value": 3,
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 3,
+         "target": "Mark Struberg"
+      }
+   ],
    "nodes": [
       {
-         "id": "12268",
-         "group": 4
-      },
-      {
-         "id": "7573",
-         "group": 1
-      },
-      {
-         "id": "5926",
-         "group": 3
-      },
-      {
-         "id": "12273",
+         "id": "gpetracek",
          "group": 2
       },
       {
-         "id": "5927",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "5926",
-         "source": "7573"
+         "id": "Jason Porter",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "5927",
-         "source": "12268"
+         "id": "struberg",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "7573",
-         "source": "12268"
+         "id": "Matthias Wessendorf",
+         "group": 3
       },
       {
-         "value": 18,
-         "target": "5926",
-         "source": "12268"
-      },
-      {
-         "value": 44,
-         "target": "5927",
-         "source": "5926"
-      },
-      {
-         "value": 3,
-         "target": "12273",
-         "source": "5926"
+         "id": "Mark Struberg",
+         "group": 3
       }
    ]
 }

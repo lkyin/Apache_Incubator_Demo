@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12986",
-         "group": 4
+         "source": "rickhall",
+         "value": 1,
+         "target": "santillan"
       },
       {
-         "id": "15007",
+         "source": "pauls",
+         "value": 1,
+         "target": "santillan"
+      },
+      {
+         "source": "rickhall",
+         "value": 1,
+         "target": "akarasulu"
+      },
+      {
+         "source": "santillan",
+         "value": 1,
+         "target": "akarasulu"
+      },
+      {
+         "source": "pauls",
+         "value": 7,
+         "target": "rickhall"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "santillan",
          "group": 2
       },
       {
-         "id": "15016",
+         "id": "pauls",
+         "group": 1
+      },
+      {
+         "id": "akarasulu",
          "group": 4
       },
       {
-         "id": "401",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "15016",
-         "source": "15007"
-      },
-      {
-         "value": 1,
-         "target": "12986",
-         "source": "15016"
-      },
-      {
-         "value": 7,
-         "target": "401",
-         "source": "15007"
-      },
-      {
-         "value": 1,
-         "target": "401",
-         "source": "15016"
-      },
-      {
-         "value": 1,
-         "target": "12986",
-         "source": "15007"
+         "id": "rickhall",
+         "group": 2
       }
    ]
 }

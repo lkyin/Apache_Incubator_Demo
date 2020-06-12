@@ -1,81 +1,76 @@
 {
-   "nodes": [
-      {
-         "id": "1371",
-         "group": 4
-      },
-      {
-         "id": "1329",
-         "group": 3
-      },
-      {
-         "id": "1324",
-         "group": 2
-      },
-      {
-         "id": "2370",
-         "group": 4
-      },
-      {
-         "id": "1769",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "1324",
-         "source": "1329"
-      },
-      {
-         "value": 6,
-         "target": "2370",
-         "source": "1329"
-      },
-      {
+         "source": "Chris Riccomini",
          "value": 14,
-         "target": "1329",
-         "source": "1371"
+         "target": "Bolke de Bruin"
       },
       {
-         "value": 5,
-         "target": "1769",
-         "source": "1329"
+         "source": "Chris Riccomini",
+         "value": 2,
+         "target": "Stephan Erb"
       },
       {
+         "source": "Bolke de Bruin",
+         "value": 2,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Stephan Erb",
+         "value": 2,
+         "target": "Fokko Driesprong"
+      },
+      {
+         "source": "Stephan Erb",
+         "value": 7,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Fokko Driesprong",
          "value": 4,
-         "target": "1329",
-         "source": "1769"
+         "target": "Bolke de Bruin"
       },
       {
+         "source": "Bolke de Bruin",
+         "value": 5,
+         "target": "Fokko Driesprong"
+      },
+      {
+         "source": "Chris Riccomini",
          "value": 1,
-         "target": "1324",
-         "source": "1371"
+         "target": "Dan Davydov"
       },
       {
+         "source": "Chris Riccomini",
          "value": 2,
-         "target": "2370",
-         "source": "1371"
+         "target": "Fokko Driesprong"
       },
       {
-         "value": 2,
-         "target": "2370",
-         "source": "1769"
-      },
-      {
-         "value": 2,
-         "target": "1769",
-         "source": "1371"
-      },
-      {
+         "source": "Stephan Erb",
          "value": 1,
-         "target": "1329",
-         "source": "2370"
+         "target": "Dan Davydov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chris Riccomini",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "2370",
-         "source": "1324"
+         "id": "Stephan Erb",
+         "group": 4
+      },
+      {
+         "id": "Dan Davydov",
+         "group": 2
+      },
+      {
+         "id": "Fokko Driesprong",
+         "group": 2
+      },
+      {
+         "id": "Bolke de Bruin",
+         "group": 4
       }
    ]
 }

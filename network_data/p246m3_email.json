@@ -1,61 +1,61 @@
 {
+   "links": [
+      {
+         "source": "Adrian Cole",
+         "value": 2,
+         "target": "Tom White (JIRA)"
+      },
+      {
+         "source": "Patrick Hunt",
+         "value": 1,
+         "target": "Tom White"
+      },
+      {
+         "source": "Tom White",
+         "value": 2,
+         "target": "Adrian Cole"
+      },
+      {
+         "source": "Tom White",
+         "value": 1,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Tom White (JIRA)",
+         "value": 1,
+         "target": "Adrian Cole (JIRA)"
+      },
+      {
+         "source": "Adrian Cole",
+         "value": 1,
+         "target": "Tom White"
+      },
+      {
+         "source": "Adrian Cole (JIRA)",
+         "value": 2,
+         "target": "Tom White (JIRA)"
+      }
+   ],
    "nodes": [
       {
-         "id": "7106",
-         "group": 2
-      },
-      {
-         "id": "6044",
-         "group": 2
-      },
-      {
-         "id": "44260",
+         "id": "Adrian Cole (JIRA)",
          "group": 3
       },
       {
-         "id": "12212",
+         "id": "Patrick Hunt",
          "group": 1
       },
       {
-         "id": "6043",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12212",
-         "source": "6043"
+         "id": "Adrian Cole",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "6043",
-         "source": "12212"
+         "id": "Tom White",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "6043",
-         "source": "44260"
-      },
-      {
-         "value": 1,
-         "target": "7106",
-         "source": "6044"
-      },
-      {
-         "value": 1,
-         "target": "6044",
-         "source": "7106"
-      },
-      {
-         "value": 1,
-         "target": "6044",
-         "source": "44260"
-      },
-      {
-         "value": 2,
-         "target": "44260",
-         "source": "6044"
+         "id": "Tom White (JIRA)",
+         "group": 3
       }
    ]
 }

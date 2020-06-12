@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "12873",
-         "group": 2
-      },
-      {
-         "id": "12867",
-         "group": 2
-      },
-      {
-         "id": "404",
-         "group": 4
-      },
-      {
-         "id": "12872",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "12867",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "12872",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "12872",
-         "source": "12873"
-      },
-      {
+         "source": "Werner Keil",
          "value": 4,
-         "target": "404",
-         "source": "12867"
+         "target": "Bertrand Delacretaz"
       },
       {
+         "source": "Bertrand Delacretaz",
          "value": 1,
-         "target": "12872",
-         "source": "12867"
+         "target": "eberhard speer jr."
       },
       {
+         "source": "Werner Keil",
          "value": 1,
-         "target": "12867",
-         "source": "12873"
+         "target": "eberhard speer jr."
+      },
+      {
+         "source": "Naghibi, Reza",
+         "value": 1,
+         "target": "eberhard speer jr."
+      },
+      {
+         "source": "Naghibi, Reza",
+         "value": 1,
+         "target": "Werner Keil"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 3,
+         "target": "Werner Keil"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 3
+      },
+      {
+         "id": "eberhard speer jr.",
+         "group": 3
+      },
+      {
+         "id": "Werner Keil",
+         "group": 1
+      },
+      {
+         "id": "Naghibi, Reza",
+         "group": 1
       }
    ]
 }

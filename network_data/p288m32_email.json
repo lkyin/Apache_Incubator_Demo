@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Dave Fisher",
+         "value": 2,
+         "target": "Rob Weir"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Rob Weir"
+      },
+      {
+         "source": "Rob Weir",
+         "value": 1,
+         "target": "Dave Fisher"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Nicholas Evans"
+      }
+   ],
    "nodes": [
       {
-         "id": "46849",
+         "id": "Dave Fisher",
          "group": 1
       },
       {
-         "id": "4479",
+         "id": "Svante Schubert",
+         "group": 3
+      },
+      {
+         "id": "Rob Weir",
+         "group": 3
+      },
+      {
+         "id": "Nicholas Evans",
          "group": 4
       },
       {
-         "id": "30026",
-         "group": 4
-      },
-      {
-         "id": "11318",
-         "group": 4
-      },
-      {
-         "id": "11330",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "30026",
-         "source": "11318"
-      },
-      {
-         "value": 2,
-         "target": "30026",
-         "source": "4479"
-      },
-      {
-         "value": 1,
-         "target": "4479",
-         "source": "30026"
-      },
-      {
-         "value": 1,
-         "target": "46849",
-         "source": "11330"
+         "id": "Ian C",
+         "group": 3
       }
    ]
 }

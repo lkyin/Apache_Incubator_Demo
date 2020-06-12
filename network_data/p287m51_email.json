@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "8778",
-         "group": 2
-      },
-      {
-         "id": "6734",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Konstantin Boudnik",
          "value": 1,
-         "target": "8778",
-         "source": "6734"
+         "target": "Brett Porter"
       },
       {
+         "source": "Brett Porter",
          "value": 1,
-         "target": "6734",
-         "source": "8778"
+         "target": "Konstantin Boudnik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Konstantin Boudnik",
+         "group": 4
+      },
+      {
+         "id": "Brett Porter",
+         "group": 1
       }
    ]
 }

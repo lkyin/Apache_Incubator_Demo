@@ -1,70 +1,70 @@
 {
-   "nodes": [
-      {
-         "id": "12867",
-         "group": 2
-      },
-      {
-         "id": "12872",
-         "group": 1
-      },
-      {
-         "id": "308",
-         "group": 3
-      },
-      {
-         "id": "12877",
-         "group": 1
-      },
-      {
-         "id": "404",
-         "group": 2
-      },
-      {
-         "id": "12881",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "404",
-         "source": "12872"
-      },
-      {
+         "source": "Bertrand Delacretaz",
          "value": 1,
-         "target": "404",
-         "source": "12881"
+         "target": "Reza Naghibi"
       },
       {
+         "source": "Radu Cotescu",
          "value": 1,
-         "target": "308",
-         "source": "12867"
+         "target": "Bertrand Delacretaz"
       },
       {
-         "value": 1,
-         "target": "404",
-         "source": "12867"
-      },
-      {
-         "value": 1,
-         "target": "12877",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "12877"
-      },
-      {
+         "source": "Bertrand Delacretaz",
          "value": 6,
-         "target": "12872",
-         "source": "404"
+         "target": "eberhard speer jr."
       },
       {
+         "source": "Reza Naghibi",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Werner Keil",
          "value": 4,
-         "target": "12872",
-         "source": "12867"
+         "target": "eberhard speer jr."
+      },
+      {
+         "source": "Werner Keil",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "Werner Keil",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "eberhard speer jr.",
+         "value": 2,
+         "target": "Bertrand Delacretaz"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bertrand Delacretaz",
+         "group": 1
+      },
+      {
+         "id": "eberhard speer jr.",
+         "group": 2
+      },
+      {
+         "id": "Marvin",
+         "group": 2
+      },
+      {
+         "id": "Radu Cotescu",
+         "group": 1
+      },
+      {
+         "id": "Reza Naghibi",
+         "group": 4
+      },
+      {
+         "id": "Werner Keil",
+         "group": 2
       }
    ]
 }

@@ -1,61 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "24426",
-         "group": 2
-      },
-      {
-         "id": "24423",
-         "group": 4
-      },
-      {
-         "id": "24427",
-         "group": 4
-      },
-      {
-         "id": "24422",
-         "group": 2
-      },
-      {
-         "id": "24425",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Benjamin Mahler",
          "value": 1,
-         "target": "24425",
-         "source": "24426"
+         "target": "Vinod Kone"
       },
       {
+         "source": "Brenden Matthews",
          "value": 1,
-         "target": "24427",
-         "source": "24426"
+         "target": "Benjamin Hindman"
       },
       {
+         "source": "Benjamin Mahler",
          "value": 1,
-         "target": "24425",
-         "source": "24427"
+         "target": "Charles Reiss"
       },
       {
+         "source": "Brenden Matthews",
          "value": 1,
-         "target": "24423",
-         "source": "24422"
+         "target": "Benjamin Mahler"
       },
       {
-         "value": 1,
-         "target": "24427",
-         "source": "24423"
-      },
-      {
-         "value": 1,
-         "target": "24423",
-         "source": "24426"
-      },
-      {
+         "source": "Benjamin Mahler",
          "value": 3,
-         "target": "24425",
-         "source": "24423"
+         "target": "Benjamin Hindman"
+      },
+      {
+         "source": "Brenden Matthews",
+         "value": 1,
+         "target": "Charles Reiss"
+      },
+      {
+         "source": "Benjamin Hindman",
+         "value": 1,
+         "target": "Charles Reiss"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Brenden Matthews",
+         "group": 3
+      },
+      {
+         "id": "Benjamin Mahler",
+         "group": 1
+      },
+      {
+         "id": "Vinod Kone",
+         "group": 1
+      },
+      {
+         "id": "Benjamin Hindman",
+         "group": 4
+      },
+      {
+         "id": "Charles Reiss",
+         "group": 4
       }
    ]
 }

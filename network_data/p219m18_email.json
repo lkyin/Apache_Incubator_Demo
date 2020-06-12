@@ -1,79 +1,79 @@
 {
+   "links": [
+      {
+         "source": "Andrew Black",
+         "value": 1,
+         "target": "faridz"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "faridz"
+      },
+      {
+         "source": "Justin Erenkrantz",
+         "value": 1,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 1,
+         "target": "William A. Rowe, Jr."
+      },
+      {
+         "source": "Andrew Black",
+         "value": 10,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 10,
+         "target": "Farid Zaripov"
+      },
+      {
+         "source": "Andrew Black",
+         "value": 3,
+         "target": "Farid Zaripov"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 1,
+         "target": "sebor"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 11,
+         "target": "Andrew Black"
+      }
+   ],
    "nodes": [
       {
-         "id": "37997",
+         "id": "Andrew Black",
          "group": 4
       },
       {
-         "id": "37996",
+         "id": "Justin Erenkrantz",
+         "group": 4
+      },
+      {
+         "id": "Farid Zaripov",
+         "group": 4
+      },
+      {
+         "id": "Martin Sebor",
+         "group": 4
+      },
+      {
+         "id": "William A. Rowe, Jr.",
+         "group": 2
+      },
+      {
+         "id": "sebor",
          "group": 1
       },
       {
-         "id": "37991",
-         "group": 3
-      },
-      {
-         "id": "20292",
-         "group": 2
-      },
-      {
-         "id": "8608",
-         "group": 4
-      },
-      {
-         "id": "37994",
-         "group": 2
-      },
-      {
-         "id": "38044",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 10,
-         "target": "38044",
-         "source": "37996"
-      },
-      {
-         "value": 1,
-         "target": "37996",
-         "source": "8608"
-      },
-      {
-         "value": 2,
-         "target": "37994",
-         "source": "37996"
-      },
-      {
-         "value": 1,
-         "target": "37991",
-         "source": "37996"
-      },
-      {
-         "value": 1,
-         "target": "20292",
-         "source": "37996"
-      },
-      {
-         "value": 3,
-         "target": "38044",
-         "source": "37997"
-      },
-      {
-         "value": 1,
-         "target": "37994",
-         "source": "37997"
-      },
-      {
-         "value": 11,
-         "target": "37997",
-         "source": "37996"
-      },
-      {
-         "value": 10,
-         "target": "37996",
-         "source": "37997"
+         "id": "faridz",
+         "group": 1
       }
    ]
 }

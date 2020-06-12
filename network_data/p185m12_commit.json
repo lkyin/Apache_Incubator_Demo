@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "gerdogdu",
+         "value": 21,
+         "target": "dblevins"
+      },
+      {
+         "source": "dblevins",
+         "value": 4,
+         "target": "struberg"
+      },
+      {
+         "source": "gerdogdu",
+         "value": 6,
+         "target": "struberg"
+      }
+   ],
    "nodes": [
       {
-         "id": "12117",
+         "id": "gerdogdu",
          "group": 4
       },
       {
-         "id": "5927",
-         "group": 3
+         "id": "dblevins",
+         "group": 4
       },
       {
-         "id": "8512",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "5927",
-         "source": "12117"
-      },
-      {
-         "value": 4,
-         "target": "8512",
-         "source": "5927"
-      },
-      {
-         "value": 21,
-         "target": "8512",
-         "source": "12117"
+         "id": "struberg",
+         "group": 1
       }
    ]
 }

@@ -1,107 +1,107 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14594",
-         "group": 2
+         "source": "Martijn Dashorst",
+         "value": 1,
+         "target": "Francis De Brabandere"
       },
       {
-         "id": "7522",
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 1,
+         "target": "Benjamin Venditti"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 1,
+         "target": "Martijn Dashorst"
+      },
+      {
+         "source": "Benjamin Venditti (JIRA)",
+         "value": 1,
+         "target": "=?utf-8?Q?Rainer_D=C3=B6bele_=28JIRA=29?="
+      },
+      {
+         "source": "Francis De Brabandere",
+         "value": 3,
+         "target": "Martijn Dashorst"
+      },
+      {
+         "source": "Martijn Dashorst",
+         "value": 2,
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "Francis De Brabandere (JIRA)",
+         "value": 2,
+         "target": "andrew cooke (JIRA)"
+      },
+      {
+         "source": "benni",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "Francis De Brabandere",
+         "value": 4,
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "Benjamin Venditti",
+         "value": 3,
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "Benjamin Venditti",
+         "value": 1,
+         "target": "Martijn Dashorst"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 1,
+         "target": "benni"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 4,
+         "target": "Francis De Brabandere"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Francis De Brabandere",
          "group": 4
       },
       {
-         "id": "14593",
+         "id": "Francis De Brabandere (JIRA)",
          "group": 1
       },
       {
-         "id": "14645",
+         "id": "andrew cooke (JIRA)",
          "group": 2
       },
       {
-         "id": "14631",
-         "group": 1
-      },
-      {
-         "id": "14591",
-         "group": 2
-      },
-      {
-         "id": "13758",
-         "group": 1
-      },
-      {
-         "id": "14641",
-         "group": 2
-      },
-      {
-         "id": "14586",
+         "id": "Benjamin Venditti (JIRA)",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "14593",
-         "source": "14591"
       },
       {
-         "value": 3,
-         "target": "7522",
-         "source": "13758"
+         "id": "=?utf-8?Q?Rainer_D=C3=B6bele_=28JIRA=29?=",
+         "group": 1
       },
       {
-         "value": 4,
-         "target": "13758",
-         "source": "14631"
+         "id": "Martijn Dashorst",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "14586",
-         "source": "14594"
+         "id": "Benjamin Venditti",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "14645",
-         "source": "14631"
+         "id": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "7522",
-         "source": "14631"
-      },
-      {
-         "value": 4,
-         "target": "14631",
-         "source": "13758"
-      },
-      {
-         "value": 3,
-         "target": "14631",
-         "source": "14641"
-      },
-      {
-         "value": 1,
-         "target": "7522",
-         "source": "14641"
-      },
-      {
-         "value": 1,
-         "target": "13758",
-         "source": "7522"
-      },
-      {
-         "value": 1,
-         "target": "14641",
-         "source": "14631"
-      },
-      {
-         "value": 2,
-         "target": "14631",
-         "source": "7522"
-      },
-      {
-         "value": 1,
-         "target": "14631",
-         "source": "14645"
+         "id": "benni",
+         "group": 3
       }
    ]
 }

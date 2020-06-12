@@ -1,109 +1,109 @@
 {
-   "nodes": [
-      {
-         "id": "42374",
-         "group": 1
-      },
-      {
-         "id": "42417",
-         "group": 1
-      },
-      {
-         "id": "42359",
-         "group": 3
-      },
-      {
-         "id": "42399",
-         "group": 3
-      },
-      {
-         "id": "42422",
-         "group": 1
-      },
-      {
-         "id": "42383",
-         "group": 3
-      },
-      {
-         "id": "42363",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Thomas Draier",
          "value": 1,
-         "target": "42383",
-         "source": "42363"
+         "target": "Romain Gauthier"
       },
       {
-         "value": 1,
-         "target": "42399",
-         "source": "42383"
-      },
-      {
-         "value": 1,
-         "target": "42374",
-         "source": "42399"
-      },
-      {
-         "value": 1,
-         "target": "42417",
-         "source": "42359"
-      },
-      {
-         "value": 2,
-         "target": "42363",
-         "source": "42422"
-      },
-      {
-         "value": 1,
-         "target": "42359",
-         "source": "42422"
-      },
-      {
+         "source": "Serge Huber",
          "value": 7,
-         "target": "42417",
-         "source": "42363"
+         "target": "Francois Papon"
       },
       {
-         "value": 2,
-         "target": "42422",
-         "source": "42417"
-      },
-      {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "42399",
-         "source": "42363"
+         "target": "Romain Gauthier"
       },
       {
+         "source": "Romain Gauthier",
          "value": 1,
-         "target": "42363",
-         "source": "42374"
+         "target": "Serge Huber"
       },
       {
-         "value": 1,
-         "target": "42399",
-         "source": "42374"
-      },
-      {
-         "value": 8,
-         "target": "42363",
-         "source": "42417"
-      },
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "42399"
-      },
-      {
-         "value": 1,
-         "target": "42422",
-         "source": "42363"
-      },
-      {
+         "source": "Serge Huber",
          "value": 3,
-         "target": "42374",
-         "source": "42363"
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "Francois Papon",
+         "value": 8,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Francois Papon"
+      },
+      {
+         "source": "francois.papon",
+         "value": 2,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Romain Gauthier",
+         "value": 1,
+         "target": "Thomas Draier"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Damien GAILLARD"
+      },
+      {
+         "source": "Damien GAILLARD",
+         "value": 1,
+         "target": "Romain Gauthier"
+      },
+      {
+         "source": "Thomas Draier",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "francois.papon"
+      },
+      {
+         "source": "Francois Papon",
+         "value": 2,
+         "target": "francois.papon"
+      },
+      {
+         "source": "francois.papon",
+         "value": 1,
+         "target": "Serge Huber"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "francois.papon",
+         "group": 3
+      },
+      {
+         "id": "Thomas Draier",
+         "group": 2
+      },
+      {
+         "id": "Damien GAILLARD",
+         "group": 2
+      },
+      {
+         "id": "Francois Papon",
+         "group": 1
+      },
+      {
+         "id": "Serge Huber",
+         "group": 1
+      },
+      {
+         "id": "Serge Huber",
+         "group": 1
+      },
+      {
+         "id": "Romain Gauthier",
+         "group": 3
       }
    ]
 }

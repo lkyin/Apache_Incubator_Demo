@@ -1,42 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "24127",
-         "group": 3
+         "source": "Nandish Jayaram",
+         "value": 1,
+         "target": "Orhan Kislal"
       },
       {
-         "id": "24134",
+         "source": "okislal",
+         "value": 1,
+         "target": "Rahul Iyer"
+      },
+      {
+         "source": "okislal",
+         "value": 1,
+         "target": "Orhan Kislal"
+      },
+      {
+         "source": "Rahul Iyer",
+         "value": 1,
+         "target": "okislal"
+      },
+      {
+         "source": "Rahul Iyer",
+         "value": 1,
+         "target": "Orhan Kislal"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Orhan Kislal",
          "group": 2
       },
       {
-         "id": "24119",
-         "group": 3
+         "id": "Nandish Jayaram",
+         "group": 2
       },
       {
-         "id": "24122",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "24122",
-         "source": "24119"
+         "id": "okislal",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "24119",
-         "source": "24134"
-      },
-      {
-         "value": 2,
-         "target": "24122",
-         "source": "24134"
-      },
-      {
-         "value": 1,
-         "target": "24119",
-         "source": "24127"
+         "id": "Rahul Iyer",
+         "group": 2
       }
    ]
 }

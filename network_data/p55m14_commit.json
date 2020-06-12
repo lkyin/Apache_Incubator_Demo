@@ -1,43 +1,43 @@
 {
-   "nodes": [
-      {
-         "id": "3952",
-         "group": 4
-      },
-      {
-         "id": "3938",
-         "group": 1
-      },
-      {
-         "id": "3953",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 16,
-         "target": "3952",
-         "source": "3938"
+         "source": "Dave Brondsema",
+         "value": 14,
+         "target": "Cory Johns"
       },
       {
+         "source": "Tim Van Steenburgh",
+         "value": 44,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Tim Van Steenburgh",
          "value": 20,
-         "target": "3938",
-         "source": "3953"
+         "target": "Cory Johns"
       },
       {
-         "value": 28,
-         "target": "3938",
-         "source": "3952"
+         "source": "Cory Johns",
+         "value": 26,
+         "target": "Dave Brondsema"
       },
       {
+         "source": "Cory Johns",
          "value": 24,
-         "target": "3953",
-         "source": "3938"
+         "target": "Tim Van Steenburgh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Cory Johns",
+         "group": 1
       },
       {
-         "value": 40,
-         "target": "3953",
-         "source": "3952"
+         "id": "Dave Brondsema",
+         "group": 1
+      },
+      {
+         "id": "Tim Van Steenburgh",
+         "group": 1
       }
    ]
 }

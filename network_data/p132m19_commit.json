@@ -1,85 +1,95 @@
 {
-   "nodes": [
-      {
-         "id": "21584",
-         "group": 1
-      },
-      {
-         "id": "21588",
-         "group": 3
-      },
-      {
-         "id": "21581",
-         "group": 2
-      },
-      {
-         "id": "8694",
-         "group": 3
-      },
-      {
-         "id": "21580",
-         "group": 1
-      },
-      {
-         "id": "8693",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 8,
-         "target": "21584",
-         "source": "8694"
+         "source": "stefan",
+         "value": 1,
+         "target": "dpfister"
       },
       {
-         "value": 3,
-         "target": "21581",
-         "source": "21580"
+         "source": "angela",
+         "value": 1,
+         "target": "mreutegg"
       },
       {
-         "value": 3,
-         "target": "21581",
-         "source": "21584"
+         "source": "jukka",
+         "value": 1,
+         "target": "mreutegg"
       },
       {
-         "value": 51,
-         "target": "21588",
-         "source": "8694"
+         "source": "angela",
+         "value": 1,
+         "target": "stefan"
       },
       {
+         "source": "jukka",
+         "value": 1,
+         "target": "dpfister"
+      },
+      {
+         "source": "stefan",
+         "value": 1,
+         "target": "mreutegg"
+      },
+      {
+         "source": "mreutegg",
+         "value": 7,
+         "target": "jukka"
+      },
+      {
+         "source": "tripod",
          "value": 6,
-         "target": "21580",
-         "source": "8694"
+         "target": "jukka"
       },
       {
-         "value": 1,
-         "target": "8693",
-         "source": "8694"
+         "source": "mreutegg",
+         "value": 2,
+         "target": "stefan"
       },
       {
+         "source": "angela",
+         "value": 51,
+         "target": "jukka"
+      },
+      {
+         "source": "tripod",
+         "value": 3,
+         "target": "stefan"
+      },
+      {
+         "source": "jukka",
          "value": 22,
-         "target": "21581",
-         "source": "8694"
+         "target": "stefan"
       },
       {
+         "source": "tripod",
          "value": 1,
-         "target": "21581",
-         "source": "21588"
+         "target": "mreutegg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "21581",
-         "source": "8693"
+         "id": "mreutegg",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "21580",
-         "source": "21584"
+         "id": "jukka",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "21588",
-         "source": "21584"
+         "id": "angela",
+         "group": 4
+      },
+      {
+         "id": "dpfister",
+         "group": 3
+      },
+      {
+         "id": "stefan",
+         "group": 2
       }
    ]
 }

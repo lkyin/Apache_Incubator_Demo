@@ -1,38 +1,38 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "17878",
-         "group": 1
+         "source": "Mattmann, Chris A (388J)",
+         "value": 3,
+         "target": "Adam Estrada"
       },
       {
-         "id": "370",
+         "source": "Adam Estrada",
+         "value": 2,
+         "target": "Mattmann, Chris A (388J)"
+      },
+      {
+         "source": "Greg Reddin",
+         "value": 1,
+         "target": "Adam Estrada"
+      },
+      {
+         "source": "Mattmann, Chris A (388J)",
+         "value": 1,
+         "target": "Greg Reddin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Adam Estrada",
+         "group": 3
+      },
+      {
+         "id": "Mattmann, Chris A (388J)",
          "group": 2
       },
       {
-         "id": "10022",
+         "id": "Greg Reddin",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "17878",
-         "source": "10022"
-      },
-      {
-         "value": 3,
-         "target": "17878",
-         "source": "370"
-      },
-      {
-         "value": 1,
-         "target": "10022",
-         "source": "370"
-      },
-      {
-         "value": 2,
-         "target": "370",
-         "source": "17878"
       }
    ]
 }

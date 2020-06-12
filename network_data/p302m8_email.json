@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "39566",
-         "group": 4
-      },
-      {
-         "id": "39559",
-         "group": 2
-      },
-      {
-         "id": "39565",
-         "group": 2
-      },
-      {
-         "id": "39564",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "David O''Hallaron",
          "value": 1,
-         "target": "39559",
-         "source": "39564"
+         "target": "Ryan, Michael P"
       },
       {
+         "source": "James Cipar",
          "value": 1,
-         "target": "39565",
-         "source": "39559"
+         "target": "Jim Cipar"
       },
       {
+         "source": "Ryan, Michael P",
          "value": 1,
-         "target": "39564",
-         "source": "39565"
+         "target": "James Cipar"
       },
       {
+         "source": "Jim Cipar",
          "value": 1,
-         "target": "39559",
-         "source": "39566"
+         "target": "Ryan, Michael P"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jim Cipar",
+         "group": 4
+      },
+      {
+         "id": "David O''Hallaron",
+         "group": 2
+      },
+      {
+         "id": "James Cipar",
+         "group": 2
+      },
+      {
+         "id": "Ryan, Michael P",
+         "group": 1
       }
    ]
 }

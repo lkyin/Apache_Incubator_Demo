@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "24074",
-         "group": 3
+         "source": "karpet",
+         "value": 1,
+         "target": "theory"
       },
       {
-         "id": "13699",
+         "source": "marvin",
+         "value": 1,
+         "target": "theory"
+      },
+      {
+         "source": "karpet",
+         "value": 1,
+         "target": "marvin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "karpet",
          "group": 4
       },
       {
-         "id": "24075",
+         "id": "marvin",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "24075",
-         "source": "13699"
       },
       {
-         "value": 1,
-         "target": "24075",
-         "source": "24074"
-      },
-      {
-         "value": 1,
-         "target": "13699",
-         "source": "24074"
+         "id": "theory",
+         "group": 4
       }
    ]
 }

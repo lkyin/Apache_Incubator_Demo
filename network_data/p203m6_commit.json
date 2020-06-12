@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "agilliland",
+         "value": 1,
+         "target": "gangolli"
+      },
+      {
+         "source": "snoopdave",
+         "value": 12,
+         "target": "agilliland"
+      },
+      {
+         "source": "mraible",
+         "value": 1,
+         "target": "agilliland"
+      },
+      {
+         "source": "snoopdave",
+         "value": 3,
+         "target": "bayard"
+      },
+      {
+         "source": "mraible",
+         "value": 2,
+         "target": "snoopdave"
+      },
+      {
+         "source": "snoopdave",
+         "value": 2,
+         "target": "gangolli"
+      }
+   ],
    "nodes": [
       {
-         "id": "12997",
+         "id": "mraible",
+         "group": 4
+      },
+      {
+         "id": "snoopdave",
          "group": 1
       },
       {
-         "id": "33776",
-         "group": 3
+         "id": "bayard",
+         "group": 1
       },
       {
-         "id": "33775",
-         "group": 2
+         "id": "gangolli",
+         "group": 1
       },
       {
-         "id": "33777",
-         "group": 3
-      },
-      {
-         "id": "33774",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "33776",
-         "source": "33775"
-      },
-      {
-         "value": 3,
-         "target": "33774",
-         "source": "12997"
-      },
-      {
-         "value": 1,
-         "target": "33777",
-         "source": "33775"
-      },
-      {
-         "value": 2,
-         "target": "33777",
-         "source": "33774"
-      },
-      {
-         "value": 2,
-         "target": "33776",
-         "source": "33774"
-      },
-      {
-         "value": 12,
-         "target": "33775",
-         "source": "33774"
+         "id": "agilliland",
+         "group": 1
       }
    ]
 }

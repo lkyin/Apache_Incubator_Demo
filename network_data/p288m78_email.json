@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "30487",
-         "group": 4
-      },
-      {
-         "id": "11318",
-         "group": 2
-      },
-      {
-         "id": "11330",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Michael Stahl",
          "value": 1,
-         "target": "11330",
-         "source": "30487"
+         "target": "Svante Schubert"
       },
       {
+         "source": "Ian C",
          "value": 1,
-         "target": "11330",
-         "source": "11318"
+         "target": "Svante Schubert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Svante Schubert",
+         "group": 3
+      },
+      {
+         "id": "Michael Stahl",
+         "group": 4
+      },
+      {
+         "id": "Ian C",
+         "group": 4
       }
    ]
 }

@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "20367",
-         "group": 1
-      },
-      {
-         "id": "20369",
-         "group": 1
-      },
-      {
-         "id": "20370",
-         "group": 3
-      },
-      {
-         "id": "20365",
-         "group": 3
-      },
-      {
-         "id": "20368",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Mauricio Salatino",
          "value": 1,
-         "target": "20367",
-         "source": "20368"
+         "target": "Michel Dion"
       },
       {
-         "value": 4,
-         "target": "20365",
-         "source": "20369"
-      },
-      {
+         "source": "witek wolejszo",
          "value": 2,
-         "target": "20369",
-         "source": "20365"
+         "target": "P.N."
       },
       {
+         "source": "Bartek Zdanowski",
+         "value": 3,
+         "target": "P.N."
+      },
+      {
+         "source": "P.N.",
+         "value": 4,
+         "target": "witek wolejszo"
+      },
+      {
+         "source": "Bartek Zdanowski",
          "value": 1,
-         "target": "20365",
-         "source": "20370"
+         "target": "witek wolejszo"
       },
       {
+         "source": "P.N.",
          "value": 3,
-         "target": "20369",
-         "source": "20370"
+         "target": "Bartek Zdanowski"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mauricio Salatino",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "20370",
-         "source": "20369"
+         "id": "Michel Dion",
+         "group": 2
+      },
+      {
+         "id": "witek wolejszo",
+         "group": 3
+      },
+      {
+         "id": "P.N.",
+         "group": 3
+      },
+      {
+         "id": "Bartek Zdanowski",
+         "group": 2
       }
    ]
 }

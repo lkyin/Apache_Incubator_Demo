@@ -1,32 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "21276",
-         "group": 3
-      },
-      {
-         "id": "8163",
-         "group": 4
-      },
-      {
-         "id": "21249",
-         "group": 3
-      },
-      {
-         "id": "4452",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "asfgit",
          "value": 2,
-         "target": "21249",
-         "source": "4452"
+         "target": "barbaragomes"
       },
       {
+         "source": "Shivansh Srivastava",
          "value": 1,
-         "target": "8163",
-         "source": "21276"
+         "target": "Sandeep Purohit"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Shivansh Srivastava",
+         "group": 1
+      },
+      {
+         "id": "Sandeep Purohit",
+         "group": 1
+      },
+      {
+         "id": "asfgit",
+         "group": 2
+      },
+      {
+         "id": "barbaragomes",
+         "group": 2
       }
    ]
 }

@@ -1,38 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "33626",
-         "group": 1
-      },
-      {
-         "id": "33601",
-         "group": 4
-      },
-      {
-         "id": "33610",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "33626",
-         "source": "33601"
+         "source": "dongeforever",
+         "value": 6,
+         "target": "yukon"
       },
       {
+         "source": "dongeforever",
          "value": 5,
-         "target": "33610",
-         "source": "33626"
+         "target": "shroman"
       },
       {
+         "source": "yukon",
          "value": 2,
-         "target": "33610",
-         "source": "33601"
+         "target": "shroman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "shroman",
+         "group": 3
       },
       {
-         "value": 5,
-         "target": "33601",
-         "source": "33626"
+         "id": "dongeforever",
+         "group": 2
+      },
+      {
+         "id": "yukon",
+         "group": 4
       }
    ]
 }

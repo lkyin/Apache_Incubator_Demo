@@ -1,98 +1,98 @@
 {
-   "nodes": [
-      {
-         "id": "8675",
-         "group": 1
-      },
-      {
-         "id": "8672",
-         "group": 1
-      },
-      {
-         "id": "8686",
-         "group": 3
-      },
-      {
-         "id": "8662",
-         "group": 1
-      },
-      {
-         "id": "8674",
-         "group": 1
-      },
-      {
-         "id": "8637",
-         "group": 3
-      },
-      {
-         "id": "8651",
-         "group": 1
-      },
-      {
-         "id": "8685",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "8651",
-         "source": "8662"
+         "target": "Pepijn Noltes"
       },
       {
-         "value": 1,
-         "target": "8637",
-         "source": "8651"
-      },
-      {
-         "value": 1,
-         "target": "8651",
-         "source": "8686"
-      },
-      {
-         "value": 1,
-         "target": "8662",
-         "source": "8651"
-      },
-      {
-         "value": 1,
-         "target": "8685",
-         "source": "8662"
-      },
-      {
+         "source": "Alexander Broekhuis",
          "value": 3,
-         "target": "8672",
-         "source": "8651"
+         "target": "=?UTF-8?Q?Bj=C3=B6rn_Petri?="
       },
       {
+         "source": "=?UTF-8?Q?Bj=C3=B6rn_Petri?=",
          "value": 2,
-         "target": "8651",
-         "source": "8672"
+         "target": "Alexander Broekhuis"
       },
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "8651",
-         "source": "8685"
+         "target": "Gerrit Binnenmars"
       },
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "8674",
-         "source": "8651"
+         "target": "erik"
       },
       {
+         "source": "Gerrit Binnenmars",
          "value": 2,
-         "target": "8672",
-         "source": "8675"
+         "target": "=?UTF-8?Q?Bj=C3=B6rn_Petri?="
       },
       {
+         "source": "Bjoern Petri",
          "value": 1,
-         "target": "8674",
-         "source": "8672"
+         "target": "Alexander Broekhuis"
       },
       {
+         "source": "Ben Koppenaal",
          "value": 1,
-         "target": "8675",
-         "source": "8651"
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Ben Koppenaal"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Bjoern Petri (JIRA)"
+      },
+      {
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "=?UTF-8?Q?Bj=C3=B6rn_Petri?=",
+         "value": 1,
+         "target": "erik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?Q?Bj=C3=B6rn_Petri?=",
+         "group": 4
+      },
+      {
+         "id": "Gerrit Binnenmars",
+         "group": 3
+      },
+      {
+         "id": "Ben Koppenaal",
+         "group": 3
+      },
+      {
+         "id": "Alexander Broekhuis",
+         "group": 4
+      },
+      {
+         "id": "erik",
+         "group": 1
+      },
+      {
+         "id": "Bjoern Petri (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Pepijn Noltes",
+         "group": 1
+      },
+      {
+         "id": "Bjoern Petri",
+         "group": 2
       }
    ]
 }

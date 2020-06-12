@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "9035",
-         "group": 3
-      },
-      {
-         "id": "9037",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "medgar",
          "value": 43,
-         "target": "9037",
-         "source": "9035"
+         "target": "sabob"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "medgar",
+         "group": 2
+      },
+      {
+         "id": "sabob",
+         "group": 4
       }
    ]
 }

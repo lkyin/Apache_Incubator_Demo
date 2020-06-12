@@ -1,55 +1,55 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "36069",
-         "group": 1
+         "source": "Jeremy Haile",
+         "value": 1,
+         "target": "Les Hazlewood"
       },
       {
-         "id": "4982",
+         "source": "Kalle Korhonen",
+         "value": 3,
+         "target": "Les Hazlewood"
+      },
+      {
+         "source": "Les Hazlewood (JIRA)",
+         "value": 1,
+         "target": "Alan Cabrera (JIRA)"
+      },
+      {
+         "source": "Les Hazlewood",
+         "value": 1,
+         "target": "Kalle Korhonen"
+      },
+      {
+         "source": "Maarten Bosteels",
+         "value": 1,
+         "target": "Kalle Korhonen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maarten Bosteels",
          "group": 4
       },
       {
-         "id": "36092",
+         "id": "Alan Cabrera (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Les Hazlewood (JIRA)",
          "group": 2
       },
       {
-         "id": "36074",
-         "group": 1
+         "id": "Jeremy Haile",
+         "group": 3
       },
       {
-         "id": "36129",
-         "group": 1
+         "id": "Kalle Korhonen",
+         "group": 3
       },
       {
-         "id": "7027",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7027",
-         "source": "36069"
-      },
-      {
-         "value": 1,
-         "target": "4982",
-         "source": "36092"
-      },
-      {
-         "value": 1,
-         "target": "7027",
-         "source": "36129"
-      },
-      {
-         "value": 3,
-         "target": "36069",
-         "source": "7027"
-      },
-      {
-         "value": 1,
-         "target": "36069",
-         "source": "36074"
+         "id": "Les Hazlewood",
+         "group": 3
       }
    ]
 }

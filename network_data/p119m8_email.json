@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "18689",
-         "group": 4
-      },
-      {
-         "id": "18662",
-         "group": 4
-      },
-      {
-         "id": "18663",
-         "group": 1
-      },
-      {
-         "id": "4452",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "asfgit",
+         "value": 1,
+         "target": "jmuehlner"
+      },
+      {
+         "source": "asfgit",
+         "value": 1,
+         "target": "jkji"
+      },
+      {
+         "source": "asfgit",
          "value": 2,
-         "target": "18662",
-         "source": "4452"
+         "target": "mike-jumper"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mike-jumper",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "18689",
-         "source": "4452"
+         "id": "asfgit",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "18663",
-         "source": "4452"
+         "id": "jkji",
+         "group": 2
+      },
+      {
+         "id": "jmuehlner",
+         "group": 3
       }
    ]
 }

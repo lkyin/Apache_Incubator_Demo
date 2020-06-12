@@ -1,50 +1,50 @@
 {
-   "nodes": [
-      {
-         "id": "16572",
-         "group": 3
-      },
-      {
-         "id": "16569",
-         "group": 1
-      },
-      {
-         "id": "25238",
-         "group": 4
-      },
-      {
-         "id": "3341",
-         "group": 3
-      },
-      {
-         "id": "3571",
-         "group": 1
-      },
-      {
-         "id": "8842",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "DO YUNG YOON",
          "value": 1,
-         "target": "16569",
-         "source": "3571"
+         "target": "johndament"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "16572",
-         "source": "8842"
+         "target": "Fegaras, Leonidas"
       },
       {
+         "source": "Alan Cabrera",
          "value": 1,
-         "target": "16572",
-         "source": "3571"
+         "target": "Fegaras, Leonidas"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "3341",
-         "source": "25238"
+         "target": "Leonidas Fegaras"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Fegaras, Leonidas",
+         "group": 1
+      },
+      {
+         "id": "Alan Cabrera",
+         "group": 3
+      },
+      {
+         "id": "DO YUNG YOON",
+         "group": 2
+      },
+      {
+         "id": "johndament",
+         "group": 2
+      },
+      {
+         "id": "John D. Ament",
+         "group": 1
+      },
+      {
+         "id": "Leonidas Fegaras",
+         "group": 2
       }
    ]
 }

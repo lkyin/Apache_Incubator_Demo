@@ -1,38 +1,38 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "580",
-         "group": 1
+         "source": "David L Kaminsky",
+         "value": 1,
+         "target": "Neeraj Joshi"
       },
       {
-         "id": "21218",
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "David L Kaminsky"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "Neeraj Joshi"
+      },
+      {
+         "source": "Neeraj Joshi",
+         "value": 1,
+         "target": "Kevan Miller"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David L Kaminsky",
+         "group": 2
+      },
+      {
+         "id": "Kevan Miller",
          "group": 4
       },
       {
-         "id": "21211",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21211",
-         "source": "21218"
-      },
-      {
-         "value": 1,
-         "target": "21218",
-         "source": "580"
-      },
-      {
-         "value": 1,
-         "target": "580",
-         "source": "21211"
-      },
-      {
-         "value": 1,
-         "target": "21211",
-         "source": "580"
+         "id": "Neeraj Joshi",
+         "group": 2
       }
    ]
 }

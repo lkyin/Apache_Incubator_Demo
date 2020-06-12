@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "nslater",
+         "value": 3,
+         "target": "cmlenz"
+      },
+      {
+         "source": "damien",
+         "value": 7,
+         "target": "cmlenz"
+      },
+      {
+         "source": "damien",
+         "value": 1,
+         "target": "jan"
+      }
+   ],
    "nodes": [
       {
-         "id": "11361",
+         "id": "nslater",
          "group": 1
       },
       {
-         "id": "11362",
+         "id": "damien",
          "group": 4
       },
       {
-         "id": "9263",
+         "id": "jan",
          "group": 3
       },
       {
-         "id": "11363",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "11363",
-         "source": "11362"
-      },
-      {
-         "value": 3,
-         "target": "9263",
-         "source": "11361"
-      },
-      {
-         "value": 7,
-         "target": "11362",
-         "source": "11361"
+         "id": "cmlenz",
+         "group": 4
       }
    ]
 }

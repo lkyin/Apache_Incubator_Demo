@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12865",
-         "group": 4
+         "source": "Carlos D''Agostino",
+         "value": 1,
+         "target": "Naghibi, Reza"
       },
       {
-         "id": "12864",
+         "source": "Stefano Andreani",
+         "value": 1,
+         "target": "Naghibi, Reza"
+      },
+      {
+         "source": "Naghibi, Reza",
+         "value": 1,
+         "target": "Stefano Andreani"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Naghibi, Reza",
          "group": 1
       },
       {
-         "id": "12858",
+         "id": "Stefano Andreani",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12864",
-         "source": "12865"
       },
       {
-         "value": 1,
-         "target": "12864",
-         "source": "12858"
-      },
-      {
-         "value": 1,
-         "target": "12858",
-         "source": "12864"
+         "id": "Carlos D''Agostino",
+         "group": 2
       }
    ]
 }

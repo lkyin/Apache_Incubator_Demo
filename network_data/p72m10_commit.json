@@ -1,33 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "7645",
-         "group": 3
-      },
-      {
-         "id": "7625",
-         "group": 3
-      },
-      {
-         "id": "7622",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "jhyde",
+         "value": 7,
+         "target": "Julian Hyde"
+      },
+      {
+         "source": "julianhyde",
          "value": 5,
-         "target": "7625",
-         "source": "7645"
+         "target": "Julian Hyde"
       },
       {
-         "value": 8,
-         "target": "7622",
-         "source": "7625"
-      },
-      {
+         "source": "julianhyde",
          "value": 3,
-         "target": "7622",
-         "source": "7645"
+         "target": "jhyde"
+      },
+      {
+         "source": "Julian Hyde",
+         "value": 1,
+         "target": "jhyde"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "julianhyde",
+         "group": 4
+      },
+      {
+         "id": "jhyde",
+         "group": 2
+      },
+      {
+         "id": "Julian Hyde",
+         "group": 3
       }
    ]
 }

@@ -1,116 +1,116 @@
 {
-   "nodes": [
-      {
-         "id": "22614",
-         "group": 2
-      },
-      {
-         "id": "22732",
-         "group": 1
-      },
-      {
-         "id": "22790",
-         "group": 3
-      },
-      {
-         "id": "22499",
-         "group": 3
-      },
-      {
-         "id": "22817",
-         "group": 2
-      },
-      {
-         "id": "22812",
-         "group": 3
-      },
-      {
-         "id": "22815",
-         "group": 1
-      },
-      {
-         "id": "22818",
-         "group": 1
-      },
-      {
-         "id": "22814",
-         "group": 2
-      },
-      {
-         "id": "22813",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Mike",
          "value": 2,
-         "target": "22732",
-         "source": "22812"
+         "target": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?="
       },
       {
+         "source": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?=",
          "value": 1,
-         "target": "22818",
-         "source": "22499"
+         "target": "Mike Morris"
       },
       {
+         "source": "Florian Holeczek",
          "value": 1,
-         "target": "22499",
-         "source": "22812"
+         "target": "Mariano Rico"
       },
       {
+         "source": "Florian Holeczek",
          "value": 1,
-         "target": "22732",
-         "source": "22614"
+         "target": "Mariano Rico"
       },
       {
+         "source": "Mike",
          "value": 1,
-         "target": "22814",
-         "source": "22815"
+         "target": "Florian Holeczek"
       },
       {
+         "source": "Mariano Rico",
          "value": 2,
-         "target": "22499",
-         "source": "22818"
+         "target": "Florian Holeczek"
       },
       {
+         "source": "Florian Holeczek",
          "value": 1,
-         "target": "22732",
-         "source": "22813"
+         "target": "Mike"
       },
       {
+         "source": "=?utf-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez_=28Commented=29_=28JIRA=29?=",
          "value": 1,
-         "target": "22812",
-         "source": "22732"
+         "target": "Mike Morris (Created) (JIRA)"
       },
       {
-         "value": 5,
-         "target": "22732",
-         "source": "22818"
+         "source": "Mike Morris",
+         "value": 1,
+         "target": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?="
       },
       {
+         "source": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?=",
+         "value": 1,
+         "target": "Mike"
+      },
+      {
+         "source": "Lannaud, Eric",
+         "value": 1,
+         "target": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?="
+      },
+      {
+         "source": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?=",
          "value": 6,
-         "target": "22818",
-         "source": "22732"
+         "target": "Mariano Rico"
       },
       {
-         "value": 1,
-         "target": "22817",
-         "source": "22499"
+         "source": "Mariano Rico",
+         "value": 5,
+         "target": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?="
       },
       {
+         "source": "Mike Morris (Updated) (JIRA)",
          "value": 1,
-         "target": "22812",
-         "source": "22499"
+         "target": "Mike Morris (Created) (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?utf-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez_=28Commented=29_=28JIRA=29?=",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22814",
-         "source": "22790"
+         "id": "Mike",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22813",
-         "source": "22732"
+         "id": "Mike Morris",
+         "group": 4
+      },
+      {
+         "id": "Mariano Rico",
+         "group": 1
+      },
+      {
+         "id": "Mariano Rico",
+         "group": 1
+      },
+      {
+         "id": "Florian Holeczek",
+         "group": 2
+      },
+      {
+         "id": "Lannaud, Eric",
+         "group": 2
+      },
+      {
+         "id": "Mike Morris (Updated) (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "=?UTF-8?Q?Juan_Pablo_Santos_Rodr=C3=ADguez?=",
+         "group": 1
+      },
+      {
+         "id": "Mike Morris (Created) (JIRA)",
+         "group": 3
       }
    ]
 }

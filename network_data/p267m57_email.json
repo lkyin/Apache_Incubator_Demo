@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "517",
-         "group": 1
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "vibhu bhutani"
       },
       {
-         "id": "13735",
+         "source": "Richard Frovarp",
+         "value": 1,
+         "target": "=?ISO-8859-1?Q?Tobias_R=FCbner?="
+      },
+      {
+         "source": "Richard Frovarp",
+         "value": 2,
+         "target": "ant elder"
+      },
+      {
+         "source": "ant elder",
+         "value": 1,
+         "target": "Richard Frovarp"
+      },
+      {
+         "source": "vibhu bhutani",
+         "value": 1,
+         "target": "ant elder"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
          "group": 3
       },
       {
-         "id": "13793",
-         "group": 1
+         "id": "ant elder",
+         "group": 3
       },
       {
-         "id": "13789",
+         "id": "vibhu bhutani",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "13789",
-         "source": "13735"
       },
       {
-         "value": 1,
-         "target": "13793",
-         "source": "13735"
-      },
-      {
-         "value": 2,
-         "target": "517",
-         "source": "13735"
-      },
-      {
-         "value": 1,
-         "target": "13735",
-         "source": "517"
-      },
-      {
-         "value": 1,
-         "target": "517",
-         "source": "13793"
+         "id": "Richard Frovarp",
+         "group": 1
       }
    ]
 }

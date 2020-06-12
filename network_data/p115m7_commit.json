@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "17568",
-         "group": 3
-      },
-      {
-         "id": "17562",
-         "group": 2
-      },
-      {
-         "id": "17561",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "17561",
-         "source": "17568"
+         "source": "jghoman",
+         "value": 17,
+         "target": "aching"
       },
       {
-         "value": 17,
-         "target": "17561",
-         "source": "17562"
+         "source": "aching",
+         "value": 1,
+         "target": "ssc"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jghoman",
+         "group": 3
+      },
+      {
+         "id": "aching",
+         "group": 4
+      },
+      {
+         "id": "ssc",
+         "group": 1
       }
    ]
 }

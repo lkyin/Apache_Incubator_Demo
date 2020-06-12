@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8694",
-         "group": 3
+         "source": "mreutegg",
+         "value": 1,
+         "target": "edgarpoce"
       },
       {
-         "id": "21584",
+         "source": "tripod",
+         "value": 6,
+         "target": "stefan"
+      },
+      {
+         "source": "jukka",
+         "value": 10,
+         "target": "stefan"
+      },
+      {
+         "source": "mreutegg",
+         "value": 27,
+         "target": "stefan"
+      },
+      {
+         "source": "edgarpoce",
+         "value": 1,
+         "target": "stefan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
+         "group": 1
+      },
+      {
+         "id": "mreutegg",
+         "group": 1
+      },
+      {
+         "id": "jukka",
          "group": 2
       },
       {
-         "id": "21580",
-         "group": 3
-      },
-      {
-         "id": "21587",
-         "group": 3
-      },
-      {
-         "id": "21581",
+         "id": "stefan",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 10,
-         "target": "21581",
-         "source": "8694"
       },
       {
-         "value": 6,
-         "target": "21581",
-         "source": "21580"
-      },
-      {
-         "value": 27,
-         "target": "21581",
-         "source": "21584"
-      },
-      {
-         "value": 1,
-         "target": "21581",
-         "source": "21587"
-      },
-      {
-         "value": 1,
-         "target": "21587",
-         "source": "21584"
+         "id": "edgarpoce",
+         "group": 1
       }
    ]
 }

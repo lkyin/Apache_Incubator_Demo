@@ -1,46 +1,46 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7707",
-         "group": 2
+         "source": "jamestaylor",
+         "value": 1,
+         "target": "Jeffrey Zhong"
       },
       {
-         "id": "11574",
+         "source": "James Taylor",
+         "value": 1,
+         "target": "Gabriel Reid"
+      },
+      {
+         "source": "Gabriel Reid",
+         "value": 2,
+         "target": "Gabriel Reid"
+      },
+      {
+         "source": "jamestaylor",
+         "value": 1,
+         "target": "Gabriel Reid"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jamestaylor",
          "group": 4
       },
       {
-         "id": "28865",
+         "id": "Jeffrey Zhong",
+         "group": 3
+      },
+      {
+         "id": "James Taylor",
          "group": 2
       },
       {
-         "id": "31442",
-         "group": 1
+         "id": "Gabriel Reid",
+         "group": 4
       },
       {
-         "id": "31436",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "31442",
-         "source": "11574"
-      },
-      {
-         "value": 1,
-         "target": "31442",
-         "source": "7707"
-      },
-      {
-         "value": 1,
-         "target": "31442",
-         "source": "28865"
-      },
-      {
-         "value": 1,
-         "target": "28865",
-         "source": "31436"
+         "id": "Gabriel Reid",
+         "group": 4
       }
    ]
 }

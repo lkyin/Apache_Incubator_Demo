@@ -1,59 +1,59 @@
 {
+   "links": [
+      {
+         "source": "Marcel Offermans (JIRA)",
+         "value": 1,
+         "target": "Angelo van der Sijpt (JIRA)"
+      },
+      {
+         "source": "Angelo van der Sijpt",
+         "value": 1,
+         "target": "Karl Pauls"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 3,
+         "target": "Toni Menzel"
+      },
+      {
+         "source": "Karl Pauls",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      }
+   ],
    "nodes": [
       {
-         "id": "411",
+         "id": "Angelo van der Sijpt",
+         "group": 1
+      },
+      {
+         "id": "Karl Pauls",
+         "group": 3
+      },
+      {
+         "id": "Marcel Offermans",
+         "group": 4
+      },
+      {
+         "id": "Carsten Ziegeler",
+         "group": 3
+      },
+      {
+         "id": "Angelo van der Sijpt (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Marcel Offermans (JIRA)",
          "group": 2
       },
       {
-         "id": "413",
-         "group": 1
-      },
-      {
-         "id": "405",
-         "group": 1
-      },
-      {
-         "id": "402",
-         "group": 1
-      },
-      {
-         "id": "180",
+         "id": "Toni Menzel",
          "group": 3
-      },
-      {
-         "id": "409",
-         "group": 3
-      },
-      {
-         "id": "414",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "409",
-         "source": "411"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "405"
-      },
-      {
-         "value": 1,
-         "target": "414",
-         "source": "413"
-      },
-      {
-         "value": 3,
-         "target": "405",
-         "source": "402"
-      },
-      {
-         "value": 1,
-         "target": "180",
-         "source": "414"
       }
    ]
 }

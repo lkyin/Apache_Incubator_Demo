@@ -1,79 +1,79 @@
 {
-   "nodes": [
-      {
-         "id": "23246",
-         "group": 2
-      },
-      {
-         "id": "23234",
-         "group": 4
-      },
-      {
-         "id": "519",
-         "group": 2
-      },
-      {
-         "id": "23244",
-         "group": 1
-      },
-      {
-         "id": "23236",
-         "group": 3
-      },
-      {
-         "id": "517",
-         "group": 4
-      },
-      {
-         "id": "23248",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "ant elder",
          "value": 1,
-         "target": "23246",
-         "source": "23234"
+         "target": "Steve Poole"
       },
       {
+         "source": "Steve Poole",
          "value": 1,
-         "target": "23234",
-         "source": "23236"
+         "target": "Adam Pilkington (JIRA)"
       },
       {
-         "value": 1,
-         "target": "519",
-         "source": "23234"
-      },
-      {
-         "value": 1,
-         "target": "23234",
-         "source": "23248"
-      },
-      {
-         "value": 1,
-         "target": "23234",
-         "source": "519"
-      },
-      {
+         "source": "Steve Poole",
          "value": 2,
-         "target": "23244",
-         "source": "23234"
+         "target": "Adam Pilkington"
       },
       {
+         "source": "Stuart Monteith",
          "value": 1,
-         "target": "23234",
-         "source": "517"
+         "target": "Steve Poole"
       },
       {
+         "source": "ant elder",
+         "value": 1,
+         "target": "Steve Poole"
+      },
+      {
+         "source": "rcolemail-kato",
+         "value": 1,
+         "target": "Steve Poole"
+      },
+      {
+         "source": "Adam Pilkington",
          "value": 2,
-         "target": "23234",
-         "source": "23244"
+         "target": "Steve Poole"
       },
       {
+         "source": "Steve Poole",
          "value": 1,
-         "target": "517",
-         "source": "23234"
+         "target": "ant elder"
+      },
+      {
+         "source": "Steve Poole",
+         "value": 1,
+         "target": "ant elder"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Stuart Monteith",
+         "group": 4
+      },
+      {
+         "id": "Steve Poole",
+         "group": 4
+      },
+      {
+         "id": "rcolemail-kato",
+         "group": 2
+      },
+      {
+         "id": "Adam Pilkington",
+         "group": 2
+      },
+      {
+         "id": "ant elder",
+         "group": 2
+      },
+      {
+         "id": "Adam Pilkington (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "ant elder",
+         "group": 1
       }
    ]
 }

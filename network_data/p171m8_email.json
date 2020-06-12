@@ -1,79 +1,79 @@
 {
-   "nodes": [
-      {
-         "id": "28222",
-         "group": 3
-      },
-      {
-         "id": "12138",
-         "group": 2
-      },
-      {
-         "id": "12966",
-         "group": 3
-      },
-      {
-         "id": "41",
-         "group": 3
-      },
-      {
-         "id": "206",
-         "group": 4
-      },
-      {
-         "id": "181",
-         "group": 2
-      },
-      {
-         "id": "4994",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Raymond Feng",
          "value": 1,
-         "target": "4994",
-         "source": "12138"
+         "target": "Jean-Sebastien Delfino"
       },
       {
+         "source": "Jean-Sebastien Delfino",
          "value": 1,
-         "target": "12966",
-         "source": "41"
+         "target": "Raymond Feng"
       },
       {
+         "source": "Jean-Sebastien Delfino",
          "value": 1,
-         "target": "28222",
-         "source": "181"
+         "target": "Luciano Resende"
       },
       {
+         "source": "Luciano Resende (JIRA)",
          "value": 1,
-         "target": "12138",
-         "source": "41"
+         "target": "John Pradeep (JIRA)"
       },
       {
+         "source": "john pradeep",
          "value": 1,
-         "target": "12138",
-         "source": "4994"
+         "target": "Luciano Resende"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "206",
-         "source": "41"
+         "target": "no-reply"
       },
       {
+         "source": "john pradeep",
          "value": 1,
-         "target": "41",
-         "source": "12966"
+         "target": "Jean-Sebastien Delfino"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "41",
-         "source": "12138"
+         "target": "john pradeep"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "12138",
-         "source": "12966"
+         "target": "Jean-Sebastien Delfino"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Luciano Resende (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "john pradeep",
+         "group": 2
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 3
+      },
+      {
+         "id": "John Pradeep (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "no-reply",
+         "group": 2
+      },
+      {
+         "id": "Raymond Feng",
+         "group": 3
+      },
+      {
+         "id": "Jean-Sebastien Delfino",
+         "group": 1
       }
    ]
 }

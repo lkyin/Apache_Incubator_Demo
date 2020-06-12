@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "187",
-         "group": 3
-      },
-      {
-         "id": "185",
-         "group": 2
-      },
-      {
-         "id": "186",
-         "group": 2
-      },
-      {
-         "id": "188",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 7,
-         "target": "188",
-         "source": "187"
+         "source": "ecn",
+         "value": 3,
+         "target": "billie"
       },
       {
+         "source": "ecn",
          "value": 1,
-         "target": "186",
-         "source": "187"
+         "target": "kturner"
       },
       {
-         "value": 3,
-         "target": "185",
-         "source": "187"
+         "source": "vines",
+         "value": 7,
+         "target": "ecn"
       },
       {
+         "source": "vines",
          "value": 3,
-         "target": "188",
-         "source": "185"
+         "target": "billie"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "vines",
+         "group": 4
+      },
+      {
+         "id": "ecn",
+         "group": 4
+      },
+      {
+         "id": "kturner",
+         "group": 3
+      },
+      {
+         "id": "billie",
+         "group": 1
       }
    ]
 }

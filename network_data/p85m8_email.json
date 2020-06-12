@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "7664",
-         "group": 2
-      },
-      {
-         "id": "11574",
-         "group": 1
-      },
-      {
-         "id": "11609",
-         "group": 1
-      },
-      {
-         "id": "11586",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "11586",
-         "source": "11609"
-      },
-      {
-         "value": 1,
-         "target": "7664",
-         "source": "11574"
-      },
-      {
+         "source": "Josh Wills",
          "value": 2,
-         "target": "11609",
-         "source": "11586"
+         "target": "Victor Iacoban"
+      },
+      {
+         "source": "Victor Iacoban",
+         "value": 1,
+         "target": "Josh Wills"
+      },
+      {
+         "source": "Gabriel Reid",
+         "value": 1,
+         "target": "Josh Wills"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Josh Wills",
+         "group": 4
+      },
+      {
+         "id": "Josh Wills",
+         "group": 3
+      },
+      {
+         "id": "Gabriel Reid",
+         "group": 3
+      },
+      {
+         "id": "Victor Iacoban",
+         "group": 4
       }
    ]
 }

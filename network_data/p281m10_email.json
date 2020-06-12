@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Stuart Monteith",
+         "value": 1,
+         "target": "ant elder"
+      },
+      {
+         "source": "Robert Burrell Donkin",
+         "value": 1,
+         "target": "ant elder"
+      },
+      {
+         "source": "ant elder",
+         "value": 1,
+         "target": "Robert Burrell Donkin"
+      },
+      {
+         "source": "Stuart Monteith (JIRA)",
+         "value": 1,
+         "target": "Adam Pilkington (JIRA)"
+      }
+   ],
    "nodes": [
       {
-         "id": "23246",
-         "group": 4
-      },
-      {
-         "id": "23236",
-         "group": 4
-      },
-      {
-         "id": "23240",
+         "id": "Stuart Monteith",
          "group": 3
       },
       {
-         "id": "13723",
-         "group": 2
-      },
-      {
-         "id": "517",
+         "id": "ant elder",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "517",
-         "source": "13723"
       },
       {
-         "value": 1,
-         "target": "23246",
-         "source": "23240"
+         "id": "Robert Burrell Donkin",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "517",
-         "source": "23236"
+         "id": "Stuart Monteith (JIRA)",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "13723",
-         "source": "517"
+         "id": "Adam Pilkington (JIRA)",
+         "group": 2
       }
    ]
 }

@@ -1,76 +1,81 @@
 {
-   "nodes": [
-      {
-         "id": "3965",
-         "group": 2
-      },
-      {
-         "id": "3967",
-         "group": 3
-      },
-      {
-         "id": "3938",
-         "group": 2
-      },
-      {
-         "id": "3952",
-         "group": 3
-      },
-      {
-         "id": "3953",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Cory Johns",
          "value": 8,
-         "target": "3965",
-         "source": "3952"
+         "target": "Dave Brondsema"
       },
       {
-         "value": 8,
-         "target": "3938",
-         "source": "3953"
-      },
-      {
-         "value": 30,
-         "target": "3938",
-         "source": "3952"
-      },
-      {
-         "value": 22,
-         "target": "3938",
-         "source": "3965"
-      },
-      {
+         "source": "Dave Brondsema",
          "value": 2,
-         "target": "3953",
-         "source": "3938"
+         "target": "Cory Johns"
       },
       {
-         "value": 3,
-         "target": "3965",
-         "source": "3938"
-      },
-      {
-         "value": 5,
-         "target": "3953",
-         "source": "3965"
-      },
-      {
+         "source": "Cory Johns",
          "value": 1,
-         "target": "3952",
-         "source": "3938"
+         "target": "Dave Brondsema"
       },
       {
+         "source": "Tim Van Steenburgh",
+         "value": 24,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Cory Johns",
          "value": 1,
-         "target": "3953",
-         "source": "3967"
+         "target": "Tim Van Steenburgh"
       },
       {
-         "value": 6,
-         "target": "3953",
-         "source": "3952"
+         "source": "Cory Johns",
+         "value": 2,
+         "target": "Tim Van Steenburgh"
+      },
+      {
+         "source": "Cory Johns",
+         "value": 1,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Tim Van Steenburgh",
+         "value": 31,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Tim Van Steenburgh",
+         "value": 8,
+         "target": "Cory Johns"
+      },
+      {
+         "source": "Cory Johns",
+         "value": 4,
+         "target": "Dave Brondsema"
+      },
+      {
+         "source": "Cory Johns",
+         "value": 4,
+         "target": "Cory Johns"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Cory Johns",
+         "group": 1
+      },
+      {
+         "id": "Cory Johns",
+         "group": 4
+      },
+      {
+         "id": "Dave Brondsema",
+         "group": 4
+      },
+      {
+         "id": "Dave Brondsema",
+         "group": 4
+      },
+      {
+         "id": "Tim Van Steenburgh",
+         "group": 4
       }
    ]
 }

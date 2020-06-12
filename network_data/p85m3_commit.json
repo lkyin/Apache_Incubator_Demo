@@ -1,52 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "7664",
-         "group": 3
-      },
-      {
-         "id": "11574",
-         "group": 3
-      },
-      {
-         "id": "11566",
-         "group": 3
-      },
-      {
-         "id": "11567",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 13,
-         "target": "11566",
-         "source": "7664"
+         "source": "Josh Wills",
+         "value": 6,
+         "target": "Gabriel Reid"
       },
       {
-         "value": 3,
-         "target": "11566",
-         "source": "11574"
-      },
-      {
+         "source": "Gabriel Reid",
          "value": 1,
-         "target": "11567",
-         "source": "11566"
+         "target": "Josh Wills"
       },
       {
-         "value": 7,
-         "target": "11567",
-         "source": "7664"
-      },
-      {
+         "source": "Gabriel Reid",
          "value": 9,
-         "target": "11567",
-         "source": "11574"
+         "target": "Gabriel Reid"
       },
       {
+         "source": "jwills",
+         "value": 1,
+         "target": "Gabriel Reid"
+      },
+      {
+         "source": "jwills",
+         "value": 3,
+         "target": "Gabriel Reid"
+      },
+      {
+         "source": "Josh Wills",
          "value": 10,
-         "target": "11574",
-         "source": "7664"
+         "target": "Gabriel Reid"
+      },
+      {
+         "source": "jwills",
+         "value": 13,
+         "target": "Josh Wills"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jwills",
+         "group": 4
+      },
+      {
+         "id": "Gabriel Reid",
+         "group": 4
+      },
+      {
+         "id": "Josh Wills",
+         "group": 1
+      },
+      {
+         "id": "Gabriel Reid",
+         "group": 2
       }
    ]
 }

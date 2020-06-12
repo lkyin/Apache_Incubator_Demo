@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "solomax",
+         "value": 70,
+         "target": "sebawagner"
+      },
+      {
+         "source": "albus",
+         "value": 1,
+         "target": "sebawagner"
+      },
+      {
+         "source": "solomax",
+         "value": 1,
+         "target": "albus"
+      },
+      {
+         "source": "ggrekhov",
+         "value": 1,
+         "target": "sebawagner"
+      },
+      {
+         "source": "solomax",
+         "value": 3,
+         "target": "ggrekhov"
+      },
+      {
+         "source": "aaf",
+         "value": 2,
+         "target": "ggrekhov"
+      }
+   ],
    "nodes": [
       {
-         "id": "29356",
+         "id": "solomax",
          "group": 4
       },
       {
-         "id": "29392",
+         "id": "aaf",
          "group": 1
       },
       {
-         "id": "29355",
-         "group": 4
+         "id": "ggrekhov",
+         "group": 3
       },
       {
-         "id": "29551",
+         "id": "albus",
          "group": 2
       },
       {
-         "id": "29373",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "29373",
-         "source": "29356"
-      },
-      {
-         "value": 2,
-         "target": "29392",
-         "source": "29373"
-      },
-      {
-         "value": 1,
-         "target": "29551",
-         "source": "29356"
-      },
-      {
-         "value": 1,
-         "target": "29551",
-         "source": "29355"
-      },
-      {
-         "value": 70,
-         "target": "29355",
-         "source": "29356"
-      },
-      {
-         "value": 1,
-         "target": "29355",
-         "source": "29373"
+         "id": "sebawagner",
+         "group": 2
       }
    ]
 }

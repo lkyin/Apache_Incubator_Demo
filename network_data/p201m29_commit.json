@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "33440",
-         "group": 2
-      },
-      {
-         "id": "8694",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "jcosters",
          "value": 1,
-         "target": "8694",
-         "source": "33440"
+         "target": "jukka"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jcosters",
+         "group": 4
+      },
+      {
+         "id": "jukka",
+         "group": 2
       }
    ]
 }

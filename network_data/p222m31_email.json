@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "11681",
-         "group": 3
-      },
-      {
-         "id": "22919",
-         "group": 4
-      },
-      {
-         "id": "4473",
-         "group": 4
-      },
-      {
-         "id": "24949",
-         "group": 2
-      },
-      {
-         "id": "22925",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Matt Franklin",
          "value": 1,
-         "target": "11681",
-         "source": "22919"
+         "target": "Steve Blackmon"
       },
       {
+         "source": "Steve Blackmon",
+         "value": 1,
+         "target": "Matt Franklin"
+      },
+      {
+         "source": "jfrazee",
          "value": 4,
-         "target": "22925",
-         "source": "24949"
+         "target": "steveblackmon"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "steveblackmon",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "4473",
-         "source": "11681"
+         "id": "Matt Franklin",
+         "group": 3
+      },
+      {
+         "id": "jfrazee",
+         "group": 1
+      },
+      {
+         "id": "Steve Blackmon",
+         "group": 3
+      },
+      {
+         "id": "Steve Blackmon",
+         "group": 1
       }
    ]
 }

@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "37763",
-         "group": 1
-      },
-      {
-         "id": "37838",
-         "group": 1
-      },
-      {
-         "id": "8881",
-         "group": 2
-      },
-      {
-         "id": "8872",
-         "group": 1
-      },
-      {
-         "id": "37767",
-         "group": 2
-      },
-      {
-         "id": "37747",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "8881",
-         "source": "37763"
-      },
-      {
-         "value": 6,
-         "target": "37838",
-         "source": "37767"
-      },
-      {
+         "source": "suat",
          "value": 4,
-         "target": "8881",
-         "source": "37767"
+         "target": "rwesten"
       },
       {
-         "value": 1,
-         "target": "37767",
-         "source": "8872"
-      },
-      {
-         "value": 3,
-         "target": "37747",
-         "source": "37767"
-      },
-      {
+         "source": "sinaci",
          "value": 2,
-         "target": "8881",
-         "source": "37838"
+         "target": "rwesten"
+      },
+      {
+         "source": "anuzzolese",
+         "value": 1,
+         "target": "rwesten"
+      },
+      {
+         "source": "reto",
+         "value": 1,
+         "target": "suat"
+      },
+      {
+         "source": "sinaci",
+         "value": 6,
+         "target": "suat"
+      },
+      {
+         "source": "fchrist",
+         "value": 3,
+         "target": "suat"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sinaci",
+         "group": 4
+      },
+      {
+         "id": "reto",
+         "group": 1
+      },
+      {
+         "id": "fchrist",
+         "group": 1
+      },
+      {
+         "id": "suat",
+         "group": 3
+      },
+      {
+         "id": "anuzzolese",
+         "group": 3
+      },
+      {
+         "id": "rwesten",
+         "group": 2
       }
    ]
 }

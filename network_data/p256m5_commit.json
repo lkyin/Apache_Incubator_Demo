@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "4845",
-         "group": 3
-      },
-      {
-         "id": "4877",
-         "group": 3
-      },
-      {
-         "id": "4870",
-         "group": 1
-      },
-      {
-         "id": "4854",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "4854",
-         "source": "4845"
-      },
-      {
+         "source": "mxmrlv",
          "value": 1,
-         "target": "4854",
-         "source": "4870"
+         "target": "dankilman"
       },
       {
+         "source": "mxmrlv",
+         "value": 4,
+         "target": "Ran Ziv"
+      },
+      {
+         "source": "Dan Kilman",
          "value": 2,
-         "target": "4877",
-         "source": "4845"
+         "target": "dankilman"
       },
       {
+         "source": "Dan Kilman",
+         "value": 2,
+         "target": "Ran Ziv"
+      },
+      {
+         "source": "mxmrlv",
          "value": 5,
-         "target": "4854",
-         "source": "4877"
+         "target": "Dan Kilman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mxmrlv",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "4870",
-         "source": "4877"
+         "id": "Dan Kilman",
+         "group": 2
+      },
+      {
+         "id": "dankilman",
+         "group": 3
+      },
+      {
+         "id": "Ran Ziv",
+         "group": 2
       }
    ]
 }

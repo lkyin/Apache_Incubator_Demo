@@ -1,97 +1,97 @@
 {
-   "nodes": [
-      {
-         "id": "403",
-         "group": 1
-      },
-      {
-         "id": "14765",
-         "group": 1
-      },
-      {
-         "id": "14761",
-         "group": 3
-      },
-      {
-         "id": "14785",
-         "group": 3
-      },
-      {
-         "id": "14787",
-         "group": 4
-      },
-      {
-         "id": "14786",
-         "group": 1
-      },
-      {
-         "id": "14783",
-         "group": 2
-      },
-      {
-         "id": "14750",
-         "group": 3
-      },
-      {
-         "id": "14751",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "scott comer",
          "value": 1,
-         "target": "14765",
-         "source": "14786"
+         "target": "rick bolkey"
       },
       {
+         "source": "Niclas Hedhman",
          "value": 1,
-         "target": "14765",
-         "source": "14787"
+         "target": "scott comer (sccomer)"
       },
       {
+         "source": "rick bolkey",
          "value": 1,
-         "target": "14750",
-         "source": "403"
+         "target": "scott comer"
       },
       {
+         "source": "Niclas Hedhman",
          "value": 1,
-         "target": "14761",
-         "source": "14785"
+         "target": "scott comer"
       },
       {
+         "source": "rick bolkey",
          "value": 1,
-         "target": "14786",
-         "source": "14787"
+         "target": "Rene Barraza"
       },
       {
+         "source": "scott comer",
          "value": 1,
-         "target": "14787",
-         "source": "14765"
+         "target": "Richard Bolkey"
       },
       {
+         "source": "Rene Barraza",
          "value": 1,
-         "target": "14750",
-         "source": "14761"
+         "target": "scott comer"
       },
       {
+         "source": "Scott Comer",
+         "value": 1,
+         "target": "James Dixson"
+      },
+      {
+         "source": "James Dixson",
+         "value": 1,
+         "target": "scott comer (sccomer)"
+      },
+      {
+         "source": "scott comer (sccomer)",
          "value": 2,
-         "target": "403",
-         "source": "14750"
+         "target": "Niclas Hedhman"
       },
       {
+         "source": "scott comer (sccomer)",
          "value": 1,
-         "target": "14783",
-         "source": "14765"
+         "target": "James Dixson"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "James Dixson",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "14761",
-         "source": "14750"
+         "id": "scott comer",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "14751",
-         "source": "403"
+         "id": "Rene Barraza",
+         "group": 2
+      },
+      {
+         "id": "scott comer",
+         "group": 2
+      },
+      {
+         "id": "scott comer (sccomer)",
+         "group": 1
+      },
+      {
+         "id": "Richard Bolkey",
+         "group": 3
+      },
+      {
+         "id": "Scott Comer",
+         "group": 2
+      },
+      {
+         "id": "rick bolkey",
+         "group": 1
+      },
+      {
+         "id": "Niclas Hedhman",
+         "group": 4
       }
    ]
 }

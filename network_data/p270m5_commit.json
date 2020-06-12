@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "17985",
-         "group": 4
-      },
-      {
-         "id": "17986",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "clombart",
          "value": 5,
-         "target": "17986",
-         "source": "17985"
+         "target": "taylor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "clombart",
+         "group": 2
+      },
+      {
+         "id": "taylor",
+         "group": 1
       }
    ]
 }

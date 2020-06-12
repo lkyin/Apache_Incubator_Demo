@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "7034",
-         "group": 4
-      },
-      {
-         "id": "7035",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "mabowen",
          "value": 17,
-         "target": "7034",
-         "source": "7035"
+         "target": "ping"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mabowen",
+         "group": 3
+      },
+      {
+         "id": "ping",
+         "group": 1
       }
    ]
 }

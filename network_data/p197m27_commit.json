@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "29145",
-         "group": 1
-      },
-      {
-         "id": "5249",
-         "group": 4
-      },
-      {
-         "id": "29148",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "5249",
-         "source": "29145"
-      },
-      {
+         "source": "Colm O hEigeartaigh",
          "value": 22,
-         "target": "29148",
-         "source": "29145"
+         "target": "coheigea"
       },
       {
+         "source": "Colm O hEigeartaigh",
+         "value": 2,
+         "target": "Madhan Neethiraj"
+      },
+      {
+         "source": "coheigea",
          "value": 24,
-         "target": "29148",
-         "source": "5249"
+         "target": "Madhan Neethiraj"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Madhan Neethiraj",
+         "group": 3
+      },
+      {
+         "id": "Colm O hEigeartaigh",
+         "group": 3
+      },
+      {
+         "id": "coheigea",
+         "group": 2
       }
    ]
 }

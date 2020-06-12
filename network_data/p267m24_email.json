@@ -1,64 +1,64 @@
 {
-   "nodes": [
-      {
-         "id": "13712",
-         "group": 1
-      },
-      {
-         "id": "13703",
-         "group": 2
-      },
-      {
-         "id": "13721",
-         "group": 1
-      },
-      {
-         "id": "13702",
-         "group": 2
-      },
-      {
-         "id": "7140",
-         "group": 3
-      },
-      {
-         "id": "8797",
-         "group": 1
-      },
-      {
-         "id": "13701",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Thorsten Scherler",
          "value": 1,
-         "target": "8797",
-         "source": "13721"
+         "target": "Otis Gospodnetic (JIRA)"
       },
       {
+         "source": "Otis Gospodnetic",
+         "value": 1,
+         "target": "Ryan McKinley"
+      },
+      {
+         "source": "Thorsten Scherler (JIRA)",
+         "value": 1,
+         "target": "Ryan McKinley (JIRA)"
+      },
+      {
+         "source": "Otis Gospodnetic (JIRA)",
          "value": 2,
-         "target": "8797",
-         "source": "7140"
+         "target": "Alex Baranau (JIRA)"
       },
       {
+         "source": "Thorsten Scherler (JIRA)",
          "value": 1,
-         "target": "8797",
-         "source": "13701"
+         "target": "Alex Baranau (JIRA)"
       },
       {
+         "source": "Otis Gospodnetic",
          "value": 1,
-         "target": "13703",
-         "source": "13721"
+         "target": "Alex Baranau (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Alex Baranau (JIRA)",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "7140",
-         "source": "13712"
+         "id": "Ryan McKinley",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "13702",
-         "source": "13701"
+         "id": "Thorsten Scherler",
+         "group": 4
+      },
+      {
+         "id": "Ryan McKinley (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Thorsten Scherler (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Otis Gospodnetic (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Otis Gospodnetic",
+         "group": 2
       }
    ]
 }

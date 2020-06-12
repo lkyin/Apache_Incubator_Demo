@@ -1,46 +1,46 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "21055",
-         "group": 4
+         "source": "Huang Xiaomeng",
+         "value": 2,
+         "target": "Ma Junjie"
       },
       {
-         "id": "34701",
+         "source": "lskuff",
+         "value": 1,
+         "target": "Lenni Kuff"
+      },
+      {
+         "source": "lskuff",
+         "value": 1,
+         "target": "Huang Xiaomeng"
+      },
+      {
+         "source": "Sun Dapeng",
+         "value": 2,
+         "target": "Lenni Kuff"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sun Dapeng",
          "group": 2
       },
       {
-         "id": "34707",
+         "id": "lskuff",
+         "group": 2
+      },
+      {
+         "id": "Huang Xiaomeng",
+         "group": 4
+      },
+      {
+         "id": "Lenni Kuff",
          "group": 1
       },
       {
-         "id": "34709",
-         "group": 4
-      },
-      {
-         "id": "34708",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "34701",
-         "source": "21055"
-      },
-      {
-         "value": 1,
-         "target": "34707",
-         "source": "34701"
-      },
-      {
-         "value": 2,
-         "target": "34707",
-         "source": "34708"
-      },
-      {
-         "value": 2,
-         "target": "34709",
-         "source": "21055"
+         "id": "Ma Junjie",
+         "group": 3
       }
    ]
 }

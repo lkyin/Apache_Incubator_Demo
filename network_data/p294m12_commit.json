@@ -1,128 +1,113 @@
 {
-   "nodes": [
-      {
-         "id": "32522",
-         "group": 4
-      },
-      {
-         "id": "32500",
-         "group": 1
-      },
-      {
-         "id": "32518",
-         "group": 4
-      },
-      {
-         "id": "32545",
-         "group": 2
-      },
-      {
-         "id": "32537",
-         "group": 3
-      },
-      {
-         "id": "32549",
-         "group": 2
-      },
-      {
-         "id": "32502",
-         "group": 3
-      },
-      {
-         "id": "32521",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 185,
-         "target": "32549",
-         "source": "32500"
-      },
-      {
-         "value": 2,
-         "target": "32545",
-         "source": "32518"
-      },
-      {
-         "value": 1,
-         "target": "32545",
-         "source": "32502"
-      },
-      {
-         "value": 8,
-         "target": "32545",
-         "source": "32521"
-      },
-      {
-         "value": 1,
-         "target": "32502",
-         "source": "32522"
-      },
-      {
-         "value": 3,
-         "target": "32521",
-         "source": "32522"
-      },
-      {
-         "value": 1,
-         "target": "32537",
-         "source": "32502"
-      },
-      {
-         "value": 1,
-         "target": "32537",
-         "source": "32521"
-      },
-      {
-         "value": 3,
-         "target": "32518",
-         "source": "32521"
-      },
-      {
+         "source": "cramja",
          "value": 7,
-         "target": "32521",
-         "source": "32502"
+         "target": "Harshad Deshmukh"
       },
       {
+         "source": "Zuyu Zhang",
+         "value": 11,
+         "target": "cramja"
+      },
+      {
+         "source": "cramja",
          "value": 1,
-         "target": "32545",
-         "source": "32549"
+         "target": "zuyuz"
       },
       {
+         "source": "jianqiao",
+         "value": 1,
+         "target": "cramja"
+      },
+      {
+         "source": "jianqiao",
+         "value": 185,
+         "target": "zuyuz"
+      },
+      {
+         "source": "spehl",
+         "value": 185,
+         "target": "zuyuz"
+      },
+      {
+         "source": "jianqiao",
+         "value": 185,
+         "target": "spehl"
+      },
+      {
+         "source": "Zuyu Zhang",
+         "value": 1,
+         "target": "jianqiao"
+      },
+      {
+         "source": "Zuyu Zhang",
+         "value": 4,
+         "target": "Harshad Deshmukh"
+      },
+      {
+         "source": "jianqiao",
          "value": 3,
-         "target": "32521",
-         "source": "32545"
+         "target": "Zuyu Zhang"
       },
       {
+         "source": "spehl",
          "value": 1,
-         "target": "32545",
-         "source": "32522"
+         "target": "cramja"
       },
       {
-         "value": 185,
-         "target": "32500",
-         "source": "32522"
-      },
-      {
-         "value": 5,
-         "target": "32518",
-         "source": "32545"
-      },
-      {
+         "source": "cramja",
          "value": 1,
-         "target": "32545",
-         "source": "32500"
+         "target": "Jianqiao Zhu"
       },
       {
+         "source": "Zuyu Zhang",
+         "value": 7,
+         "target": "Jianqiao Zhu"
+      },
+      {
+         "source": "jianqiao",
          "value": 1,
-         "target": "32521",
-         "source": "32518"
+         "target": "Jianqiao Zhu"
       },
       {
-         "value": 185,
-         "target": "32549",
-         "source": "32522"
+         "source": "jianqiao",
+         "value": 1,
+         "target": "Jianqiao Zhu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Zuyu Zhang",
+         "group": 1
+      },
+      {
+         "id": "spehl",
+         "group": 4
+      },
+      {
+         "id": "cramja",
+         "group": 1
+      },
+      {
+         "id": "zuyuz",
+         "group": 1
+      },
+      {
+         "id": "Jianqiao Zhu",
+         "group": 4
+      },
+      {
+         "id": "jianqiao",
+         "group": 1
+      },
+      {
+         "id": "jianqiao",
+         "group": 1
+      },
+      {
+         "id": "Harshad Deshmukh",
+         "group": 4
       }
    ]
 }

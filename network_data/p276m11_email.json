@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "21224",
-         "group": 1
+         "source": "Neeraj Joshi",
+         "value": 1,
+         "target": "Craig L Russell"
       },
       {
-         "id": "8422",
+         "source": "Neeraj Joshi",
+         "value": 1,
+         "target": "Reza Asadollahi (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Craig L Russell",
          "group": 3
       },
       {
-         "id": "21211",
+         "id": "Reza Asadollahi (JIRA)",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21224",
-         "source": "21211"
       },
       {
-         "value": 1,
-         "target": "8422",
-         "source": "21211"
+         "id": "Neeraj Joshi",
+         "group": 1
       }
    ]
 }

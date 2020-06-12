@@ -1,55 +1,55 @@
 {
-   "nodes": [
-      {
-         "id": "22788",
-         "group": 1
-      },
-      {
-         "id": "22787",
-         "group": 1
-      },
-      {
-         "id": "22789",
-         "group": 1
-      },
-      {
-         "id": "22499",
-         "group": 3
-      },
-      {
-         "id": "30",
-         "group": 1
-      },
-      {
-         "id": "7428",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Harry Metske",
          "value": 1,
-         "target": "22499",
-         "source": "30"
+         "target": "Michael Gerzabek"
       },
       {
+         "source": "Harry Metske (Commented) (JIRA)",
          "value": 1,
-         "target": "22499",
-         "source": "22789"
+         "target": "Vigneshwaran Raveendran (Created) (JIRA)"
       },
       {
+         "source": "Sam Ruby",
          "value": 1,
-         "target": "22787",
-         "source": "22788"
+         "target": "Florian Holeczek"
       },
       {
+         "source": "Florian Holeczek",
          "value": 2,
-         "target": "30",
-         "source": "22499"
+         "target": "Sam Ruby"
       },
       {
+         "source": "Michael Gerzabek",
          "value": 1,
-         "target": "22789",
-         "source": "7428"
+         "target": "Florian Holeczek"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sam Ruby",
+         "group": 1
+      },
+      {
+         "id": "Michael Gerzabek",
+         "group": 2
+      },
+      {
+         "id": "Harry Metske (Commented) (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Florian Holeczek",
+         "group": 1
+      },
+      {
+         "id": "Vigneshwaran Raveendran (Created) (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Harry Metske",
+         "group": 4
       }
    ]
 }

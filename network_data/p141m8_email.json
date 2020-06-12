@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "22905",
-         "group": 4
-      },
-      {
-         "id": "3571",
-         "group": 1
-      },
-      {
-         "id": "22914",
-         "group": 4
-      },
-      {
-         "id": "22898",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "John D. Ament",
          "value": 2,
-         "target": "22905",
-         "source": "3571"
+         "target": "James Bognar"
       },
       {
+         "source": "sblackmon",
          "value": 2,
-         "target": "22898",
-         "source": "3571"
+         "target": "James Bognar"
       },
       {
+         "source": "John D. Ament",
          "value": 2,
-         "target": "22898",
-         "source": "22914"
+         "target": "James Bognar"
       },
       {
+         "source": "James Bognar",
          "value": 4,
-         "target": "3571",
-         "source": "22905"
+         "target": "John D. Ament"
       },
       {
+         "source": "James Bognar",
          "value": 1,
-         "target": "22898",
-         "source": "22905"
+         "target": "James Bognar"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sblackmon",
+         "group": 1
+      },
+      {
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "James Bognar",
+         "group": 1
+      },
+      {
+         "id": "James Bognar",
+         "group": 4
       }
    ]
 }

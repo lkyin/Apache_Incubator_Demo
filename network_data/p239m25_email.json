@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "hsaputra",
+         "value": 1,
+         "target": "chtyim"
+      },
+      {
+         "source": "asfgit",
+         "value": 1,
+         "target": "chtyim"
+      },
+      {
+         "source": "hsaputra",
+         "value": 1,
+         "target": "gsps1"
+      },
+      {
+         "source": "chtyim",
+         "value": 11,
+         "target": "gsps1"
+      }
+   ],
    "nodes": [
       {
-         "id": "5798",
+         "id": "hsaputra",
          "group": 2
       },
       {
-         "id": "39833",
+         "id": "gsps1",
          "group": 4
       },
       {
-         "id": "4452",
-         "group": 4
-      },
-      {
-         "id": "39839",
+         "id": "asfgit",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "39833",
-         "source": "39839"
       },
       {
-         "value": 1,
-         "target": "39839",
-         "source": "4452"
-      },
-      {
-         "value": 1,
-         "target": "39833",
-         "source": "5798"
-      },
-      {
-         "value": 1,
-         "target": "39839",
-         "source": "5798"
+         "id": "chtyim",
+         "group": 4
       }
    ]
 }

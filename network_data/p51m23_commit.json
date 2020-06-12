@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "399",
-         "group": 2
-      },
-      {
-         "id": "395",
-         "group": 1
-      },
-      {
-         "id": "397",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "marrs",
          "value": 1,
-         "target": "397",
-         "source": "395"
+         "target": "jbonofre"
       },
       {
+         "source": "angelos",
          "value": 1,
-         "target": "397",
-         "source": "399"
+         "target": "marrs"
       },
       {
+         "source": "angelos",
          "value": 1,
-         "target": "395",
-         "source": "399"
+         "target": "jbonofre"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "angelos",
+         "group": 4
+      },
+      {
+         "id": "marrs",
+         "group": 4
+      },
+      {
+         "id": "jbonofre",
+         "group": 2
       }
    ]
 }

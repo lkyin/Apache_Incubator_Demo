@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "24416",
-         "group": 3
+         "source": "larsgeorge",
+         "value": 12,
+         "target": "tomwhite"
       },
       {
-         "id": "32202",
+         "source": "larsgeorge",
+         "value": 18,
+         "target": "asavu"
+      },
+      {
+         "source": "asavu",
+         "value": 29,
+         "target": "tomwhite"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "larsgeorge",
          "group": 2
       },
       {
-         "id": "44258",
+         "id": "asavu",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 29,
-         "target": "32202",
-         "source": "24416"
       },
       {
-         "value": 18,
-         "target": "44258",
-         "source": "32202"
-      },
-      {
-         "value": 12,
-         "target": "44258",
-         "source": "24416"
+         "id": "tomwhite",
+         "group": 4
       }
    ]
 }

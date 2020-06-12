@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14672",
-         "group": 3
+         "source": "esjewett",
+         "value": 1,
+         "target": "vdichev"
       },
       {
-         "id": "14668",
+         "source": "esjewett",
+         "value": 1,
+         "target": "rhirsch"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "esjewett",
+         "group": 1
+      },
+      {
+         "id": "rhirsch",
          "group": 4
       },
       {
-         "id": "14670",
+         "id": "vdichev",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "14670",
-         "source": "14672"
-      },
-      {
-         "value": 1,
-         "target": "14668",
-         "source": "14672"
       }
    ]
 }

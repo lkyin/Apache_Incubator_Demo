@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "21209",
-         "group": 3
-      },
-      {
-         "id": "22112",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "clr",
          "value": 1,
-         "target": "22112",
-         "source": "21209"
+         "target": "brazil"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "clr",
+         "group": 2
+      },
+      {
+         "id": "brazil",
+         "group": 4
       }
    ]
 }

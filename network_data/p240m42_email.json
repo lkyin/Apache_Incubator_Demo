@@ -1,101 +1,101 @@
 {
-   "nodes": [
-      {
-         "id": "42351",
-         "group": 3
-      },
-      {
-         "id": "42300",
-         "group": 1
-      },
-      {
-         "id": "42321",
-         "group": 4
-      },
-      {
-         "id": "13723",
-         "group": 3
-      },
-      {
-         "id": "142",
-         "group": 1
-      },
-      {
-         "id": "4488",
-         "group": 4
-      },
-      {
-         "id": "29751",
-         "group": 1
-      },
-      {
-         "id": "42350",
-         "group": 3
-      },
-      {
-         "id": "42330",
-         "group": 3
-      },
-      {
-         "id": "35128",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Thilo Goetz",
+         "value": 1,
+         "target": "Baptiste Gaillard"
+      },
+      {
+         "source": "Rico Landefeld",
+         "value": 1,
+         "target": "bernd"
+      },
+      {
+         "source": "Robert Burrell Donkin",
          "value": 42,
-         "target": "35128",
-         "source": "142"
+         "target": "Marshall Schor"
       },
       {
+         "source": "Marshall Schor",
+         "value": 1,
+         "target": "Thilo Goetz"
+      },
+      {
+         "source": "Thilo Goetz",
+         "value": 1,
+         "target": "Marshall Schor"
+      },
+      {
+         "source": "jochen.leidner",
          "value": 42,
-         "target": "35128",
-         "source": "13723"
+         "target": "Marshall Schor"
       },
       {
+         "source": "Marshall Schor",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Marshall Schor"
+      },
+      {
+         "source": "Jukka Zitting",
          "value": 42,
-         "target": "29751",
-         "source": "42330"
+         "target": "Marshall Schor"
       },
       {
-         "value": 1,
-         "target": "42330",
-         "source": "29751"
-      },
-      {
+         "source": "Baptiste Gaillard",
          "value": 42,
-         "target": "35128",
-         "source": "42300"
+         "target": "Thilo Goetz"
       },
       {
+         "source": "David Ferrucci",
          "value": 42,
-         "target": "35128",
-         "source": "42351"
+         "target": "Marshall Schor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Ferrucci",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "42350",
-         "source": "42321"
+         "id": "Rico Landefeld",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "4488",
-         "source": "35128"
+         "id": "jochen.leidner",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "29751",
-         "source": "35128"
+         "id": "Robert Burrell Donkin",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "35128",
-         "source": "29751"
+         "id": "Thilo Goetz",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "35128",
-         "source": "4488"
+         "id": "bernd",
+         "group": 3
+      },
+      {
+         "id": "Baptiste Gaillard",
+         "group": 4
+      },
+      {
+         "id": "Jukka Zitting",
+         "group": 3
+      },
+      {
+         "id": "Tommaso Teofili",
+         "group": 3
+      },
+      {
+         "id": "Marshall Schor",
+         "group": 2
       }
    ]
 }

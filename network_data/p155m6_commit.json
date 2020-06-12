@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "24111",
-         "group": 2
-      },
-      {
-         "id": "24112",
-         "group": 2
-      },
-      {
-         "id": "24117",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "riyer",
          "value": 1,
-         "target": "24117",
-         "source": "24112"
+         "target": "Rahul Iyer"
       },
       {
+         "source": "Xiaocheng Tang",
+         "value": 1,
+         "target": "riyer"
+      },
+      {
+         "source": "Xiaocheng Tang",
          "value": 8,
-         "target": "24117",
-         "source": "24111"
+         "target": "Rahul Iyer"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Xiaocheng Tang",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "24112",
-         "source": "24111"
+         "id": "riyer",
+         "group": 4
+      },
+      {
+         "id": "Rahul Iyer",
+         "group": 1
       }
    ]
 }

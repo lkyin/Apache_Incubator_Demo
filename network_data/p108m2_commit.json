@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7676",
-         "group": 1
+         "source": "rmetzger",
+         "value": 39,
+         "target": "StephanEwen"
       },
       {
-         "id": "16423",
+         "source": "Robert Metzger",
+         "value": 79,
+         "target": "StephanEwen"
+      },
+      {
+         "source": "Robert Metzger",
+         "value": 40,
+         "target": "rmetzger"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Robert Metzger",
          "group": 4
       },
       {
-         "id": "16421",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 39,
-         "target": "16421",
-         "source": "16423"
+         "id": "rmetzger",
+         "group": 1
       },
       {
-         "value": 40,
-         "target": "16423",
-         "source": "7676"
-      },
-      {
-         "value": 79,
-         "target": "16421",
-         "source": "7676"
+         "id": "StephanEwen",
+         "group": 1
       }
    ]
 }

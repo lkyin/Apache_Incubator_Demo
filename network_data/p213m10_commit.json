@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "8694",
-         "group": 1
-      },
-      {
-         "id": "15018",
-         "group": 4
-      },
-      {
-         "id": "394",
-         "group": 1
-      },
-      {
-         "id": "398",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "fmeschbe",
+         "value": 1,
+         "target": "jukka"
+      },
+      {
+         "source": "fmeschbe",
          "value": 2,
-         "target": "398",
-         "source": "15018"
+         "target": "cziegeler"
       },
       {
-         "value": 1,
-         "target": "394",
-         "source": "15018"
-      },
-      {
-         "value": 1,
-         "target": "15018",
-         "source": "8694"
-      },
-      {
+         "source": "jukka",
          "value": 5,
-         "target": "398",
-         "source": "8694"
+         "target": "cziegeler"
+      },
+      {
+         "source": "bdelacretaz",
+         "value": 1,
+         "target": "fmeschbe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bdelacretaz",
+         "group": 2
+      },
+      {
+         "id": "fmeschbe",
+         "group": 3
+      },
+      {
+         "id": "jukka",
+         "group": 1
+      },
+      {
+         "id": "cziegeler",
+         "group": 2
       }
    ]
 }

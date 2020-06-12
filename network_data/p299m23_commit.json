@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "6712",
-         "group": 4
-      },
-      {
-         "id": "36514",
-         "group": 4
-      },
-      {
-         "id": "4382",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "6712",
-         "source": "36514"
-      },
-      {
-         "value": 1,
-         "target": "4382",
-         "source": "36514"
-      },
-      {
+         "source": "Steve Loughran",
          "value": 2,
-         "target": "4382",
-         "source": "6712"
+         "target": "Jon Maron"
+      },
+      {
+         "source": "Steve Loughran",
+         "value": 4,
+         "target": "Gour Saha"
+      },
+      {
+         "source": "Gour Saha",
+         "value": 1,
+         "target": "Jon Maron"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Steve Loughran",
+         "group": 3
+      },
+      {
+         "id": "Jon Maron",
+         "group": 2
+      },
+      {
+         "id": "Gour Saha",
+         "group": 4
       }
    ]
 }

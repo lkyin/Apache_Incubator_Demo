@@ -1,66 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "36963",
-         "group": 1
-      },
-      {
-         "id": "36956",
-         "group": 1
-      },
-      {
-         "id": "36961",
-         "group": 4
-      },
-      {
-         "id": "36959",
-         "group": 1
-      },
-      {
-         "id": "36957",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "felicity",
+         "value": 5,
+         "target": "quinlan"
+      },
+      {
+         "source": "jm",
+         "value": 1,
+         "target": "parker"
+      },
+      {
+         "source": "jm",
          "value": 13,
-         "target": "36959",
-         "source": "36956"
+         "target": "quinlan"
       },
       {
-         "value": 1,
-         "target": "36961",
-         "source": "36956"
-      },
-      {
-         "value": 2,
-         "target": "36959",
-         "source": "36957"
-      },
-      {
+         "source": "jm",
          "value": 6,
-         "target": "36957",
-         "source": "36956"
+         "target": "felicity"
       },
       {
+         "source": "felicity",
          "value": 1,
-         "target": "36957",
-         "source": "36963"
+         "target": "sidney"
       },
       {
+         "source": "parker",
          "value": 1,
-         "target": "36961",
-         "source": "36957"
+         "target": "sidney"
       },
       {
-         "value": 3,
-         "target": "36957",
-         "source": "36959"
-      },
-      {
+         "source": "parker",
          "value": 1,
-         "target": "36961",
-         "source": "36963"
+         "target": "felicity"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jm",
+         "group": 2
+      },
+      {
+         "id": "parker",
+         "group": 2
+      },
+      {
+         "id": "felicity",
+         "group": 3
+      },
+      {
+         "id": "quinlan",
+         "group": 3
+      },
+      {
+         "id": "sidney",
+         "group": 1
       }
    ]
 }

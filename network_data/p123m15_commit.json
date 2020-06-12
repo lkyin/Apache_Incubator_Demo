@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "19973",
-         "group": 3
-      },
-      {
-         "id": "19956",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "travis",
          "value": 1,
-         "target": "19956",
-         "source": "19973"
+         "target": "gates"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "travis",
+         "group": 4
+      },
+      {
+         "id": "gates",
+         "group": 2
       }
    ]
 }

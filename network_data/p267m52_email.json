@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "13712",
-         "group": 2
-      },
-      {
-         "id": "13735",
-         "group": 4
-      },
-      {
-         "id": "13789",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Richard Frovarp",
          "value": 1,
-         "target": "13789",
-         "source": "13735"
+         "target": "=?ISO-8859-1?Q?Tobias_R=FCbner?="
       },
       {
+         "source": "Thorsten Scherler",
          "value": 1,
-         "target": "13712",
-         "source": "13789"
+         "target": "=?ISO-8859-1?Q?Tobias_R=FCbner?="
       },
       {
+         "source": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
          "value": 1,
-         "target": "13789",
-         "source": "13712"
+         "target": "Thorsten Scherler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
+         "group": 3
+      },
+      {
+         "id": "Thorsten Scherler",
+         "group": 1
+      },
+      {
+         "id": "Richard Frovarp",
+         "group": 4
       }
    ]
 }

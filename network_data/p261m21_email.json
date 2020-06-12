@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "3571",
-         "group": 3
-      },
-      {
-         "id": "10016",
-         "group": 3
-      },
-      {
-         "id": "4703",
-         "group": 4
-      },
-      {
-         "id": "5135",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Chris Mattmann",
          "value": 1,
-         "target": "10016",
-         "source": "5135"
+         "target": "Jia Zhang"
       },
       {
+         "source": "Ted Dunning",
          "value": 1,
-         "target": "5135",
-         "source": "4703"
+         "target": "Chris Mattmann"
       },
       {
+         "source": "Jia Zhang",
          "value": 1,
-         "target": "10016",
-         "source": "3571"
+         "target": "John D. Ament"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "3571",
-         "source": "10016"
+         "target": "Jia Zhang"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chris Mattmann",
+         "group": 3
+      },
+      {
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "Ted Dunning",
+         "group": 3
+      },
+      {
+         "id": "Jia Zhang",
+         "group": 2
       }
    ]
 }

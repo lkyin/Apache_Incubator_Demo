@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "4452",
-         "group": 2
-      },
-      {
-         "id": "22925",
-         "group": 3
-      },
-      {
-         "id": "24949",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "asfgit",
          "value": 2,
-         "target": "24949",
-         "source": "22925"
+         "target": "jfrazee"
       },
       {
+         "source": "steveblackmon",
          "value": 2,
-         "target": "24949",
-         "source": "4452"
+         "target": "jfrazee"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "steveblackmon",
+         "group": 4
+      },
+      {
+         "id": "jfrazee",
+         "group": 1
+      },
+      {
+         "id": "asfgit",
+         "group": 4
       }
    ]
 }

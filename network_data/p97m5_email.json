@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "308",
-         "group": 2
+         "source": "Ted Dunning",
+         "value": 1,
+         "target": "InJun Song"
       },
       {
-         "id": "13393",
+         "source": "Ted Dunning",
+         "value": 1,
+         "target": "Michael Hausenblas"
+      },
+      {
+         "source": "Michael Hausenblas",
+         "value": 1,
+         "target": "Ted Dunning"
+      },
+      {
+         "source": "Ted Dunning",
+         "value": 1,
+         "target": "Marvin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Michael Hausenblas",
+         "group": 1
+      },
+      {
+         "id": "InJun Song",
          "group": 4
       },
       {
-         "id": "4703",
+         "id": "Ted Dunning",
          "group": 2
       },
       {
-         "id": "13323",
+         "id": "Marvin",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4703",
-         "source": "13323"
-      },
-      {
-         "value": 1,
-         "target": "13323",
-         "source": "4703"
-      },
-      {
-         "value": 1,
-         "target": "308",
-         "source": "4703"
-      },
-      {
-         "value": 1,
-         "target": "13393",
-         "source": "4703"
       }
    ]
 }

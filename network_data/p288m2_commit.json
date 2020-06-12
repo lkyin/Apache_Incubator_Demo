@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "46745",
-         "group": 1
+         "source": "devinhan",
+         "value": 11,
+         "target": "svanteschubert"
       },
       {
-         "id": "15569",
+         "source": "wave",
+         "value": 1,
+         "target": "svanteschubert"
+      },
+      {
+         "source": "wave",
+         "value": 7,
+         "target": "devinhan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "wave",
+         "group": 4
+      },
+      {
+         "id": "devinhan",
          "group": 2
       },
       {
-         "id": "46746",
+         "id": "svanteschubert",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 7,
-         "target": "15569",
-         "source": "46745"
-      },
-      {
-         "value": 11,
-         "target": "46746",
-         "source": "46745"
-      },
-      {
-         "value": 1,
-         "target": "15569",
-         "source": "46746"
       }
    ]
 }

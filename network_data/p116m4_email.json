@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Henry Saputra",
+         "value": 1,
+         "target": "Julien Nioche"
+      },
+      {
+         "source": "Julien Nioche",
+         "value": 2,
+         "target": "Henry Saputra"
+      },
+      {
+         "source": "Julien Nioche (JIRA)",
+         "value": 2,
+         "target": "Alexis (JIRA)"
+      },
+      {
+         "source": "Henry Saputra",
+         "value": 1,
+         "target": "Mattmann, Chris A (388J)"
+      }
+   ],
    "nodes": [
       {
-         "id": "17877",
-         "group": 2
+         "id": "Mattmann, Chris A (388J)",
+         "group": 1
       },
       {
-         "id": "13764",
-         "group": 2
-      },
-      {
-         "id": "17876",
+         "id": "Alexis (JIRA)",
          "group": 3
       },
       {
-         "id": "370",
+         "id": "Julien Nioche",
          "group": 1
       },
       {
-         "id": "5137",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "17876",
-         "source": "17877"
+         "id": "Henry Saputra",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "5137",
-         "source": "13764"
-      },
-      {
-         "value": 1,
-         "target": "13764",
-         "source": "5137"
-      },
-      {
-         "value": 1,
-         "target": "370",
-         "source": "5137"
+         "id": "Julien Nioche (JIRA)",
+         "group": 2
       }
    ]
 }

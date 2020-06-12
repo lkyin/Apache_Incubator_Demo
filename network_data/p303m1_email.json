@@ -1,83 +1,83 @@
 {
-   "nodes": [
-      {
-         "id": "3",
-         "group": 2
-      },
-      {
-         "id": "41445",
-         "group": 1
-      },
-      {
-         "id": "39139",
-         "group": 1
-      },
-      {
-         "id": "19049",
-         "group": 4
-      },
-      {
-         "id": "41448",
-         "group": 2
-      },
-      {
-         "id": "8431",
-         "group": 2
-      },
-      {
-         "id": "41446",
-         "group": 1
-      },
-      {
-         "id": "15008",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Leo Simons",
+         "value": 1,
+         "target": "Stefano Mazzocchi"
+      },
+      {
+         "source": "Leo Simons",
          "value": 2,
-         "target": "41448",
-         "source": "8431"
+         "target": "David Reid"
       },
       {
+         "source": "Garrett Rooney",
          "value": 1,
-         "target": "19049",
-         "source": "8431"
+         "target": "leosimons"
       },
       {
+         "source": "David Reid",
          "value": 1,
-         "target": "41445",
-         "source": "41446"
+         "target": "Garrett Rooney"
       },
       {
+         "source": "David Reid",
          "value": 1,
-         "target": "15008",
-         "source": "3"
+         "target": "leosimons"
       },
       {
+         "source": "Garrett Rooney",
+         "value": 1,
+         "target": "Mads Toftum"
+      },
+      {
+         "source": "Garrett Rooney",
          "value": 4,
-         "target": "3",
-         "source": "8431"
+         "target": "Leo Simons"
       },
       {
+         "source": "Ben Hyde (JIRA)",
          "value": 1,
-         "target": "39139",
-         "source": "3"
+         "target": "Leo Simons (JIRA)"
       },
       {
-         "value": 1,
-         "target": "15008",
-         "source": "41448"
-      },
-      {
-         "value": 1,
-         "target": "3",
-         "source": "41448"
-      },
-      {
+         "source": "Leo Simons",
          "value": 4,
-         "target": "8431",
-         "source": "3"
+         "target": "Garrett Rooney"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Reid",
+         "group": 3
+      },
+      {
+         "id": "Mads Toftum",
+         "group": 2
+      },
+      {
+         "id": "Ben Hyde (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Stefano Mazzocchi",
+         "group": 1
+      },
+      {
+         "id": "Leo Simons",
+         "group": 3
+      },
+      {
+         "id": "leosimons",
+         "group": 3
+      },
+      {
+         "id": "Garrett Rooney",
+         "group": 4
+      },
+      {
+         "id": "Leo Simons (JIRA)",
+         "group": 1
       }
    ]
 }

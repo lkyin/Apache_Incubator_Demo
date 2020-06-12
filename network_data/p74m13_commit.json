@@ -1,75 +1,75 @@
 {
-   "nodes": [
-      {
-         "id": "8335",
-         "group": 3
-      },
-      {
-         "id": "8267",
-         "group": 4
-      },
-      {
-         "id": "8283",
-         "group": 4
-      },
-      {
-         "id": "8237",
-         "group": 2
-      },
-      {
-         "id": "8341",
-         "group": 4
-      },
-      {
-         "id": "8227",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "8341",
-         "source": "8237"
-      },
-      {
-         "value": 1,
-         "target": "8227",
-         "source": "8267"
-      },
-      {
-         "value": 34,
-         "target": "8335",
-         "source": "8237"
-      },
-      {
+         "source": "gdusbabek",
          "value": 2,
-         "target": "8341",
-         "source": "8335"
+         "target": "jaakko"
       },
       {
-         "value": 14,
-         "target": "8267",
-         "source": "8335"
-      },
-      {
-         "value": 2,
-         "target": "8267",
-         "source": "8341"
-      },
-      {
+         "source": "junrao",
          "value": 9,
-         "target": "8237",
-         "source": "8283"
+         "target": "jbellis"
       },
       {
-         "value": 23,
-         "target": "8267",
-         "source": "8237"
+         "source": "jaakko",
+         "value": 2,
+         "target": "eevans"
       },
       {
+         "source": "junrao",
          "value": 1,
-         "target": "8267",
-         "source": "8283"
+         "target": "eevans"
+      },
+      {
+         "source": "jbellis",
+         "value": 6,
+         "target": "jaakko"
+      },
+      {
+         "source": "jbellis",
+         "value": 23,
+         "target": "eevans"
+      },
+      {
+         "source": "jbellis",
+         "value": 34,
+         "target": "gdusbabek"
+      },
+      {
+         "source": "alakshman",
+         "value": 1,
+         "target": "eevans"
+      },
+      {
+         "source": "gdusbabek",
+         "value": 14,
+         "target": "eevans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "junrao",
+         "group": 1
+      },
+      {
+         "id": "gdusbabek",
+         "group": 3
+      },
+      {
+         "id": "eevans",
+         "group": 3
+      },
+      {
+         "id": "jbellis",
+         "group": 1
+      },
+      {
+         "id": "alakshman",
+         "group": 4
+      },
+      {
+         "id": "jaakko",
+         "group": 4
       }
    ]
 }

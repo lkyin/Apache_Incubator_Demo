@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "18506",
-         "group": 4
-      },
-      {
-         "id": "18422",
-         "group": 2
-      },
-      {
-         "id": "18541",
-         "group": 4
-      },
-      {
-         "id": "18424",
-         "group": 2
-      },
-      {
-         "id": "18426",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "mjumper",
+         "value": 1,
+         "target": "Michael Jumper"
+      },
+      {
+         "source": "jmuehlner",
+         "value": 1,
+         "target": "Michael Jumper"
+      },
+      {
+         "source": "jmuehlner",
          "value": 131,
-         "target": "18426",
-         "source": "18422"
+         "target": "mjumper"
       },
       {
-         "value": 1,
-         "target": "18426",
-         "source": "18424"
-      },
-      {
+         "source": "Nick Couchman",
          "value": 4,
-         "target": "18506",
-         "source": "18541"
+         "target": "Nick Couchman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Nick Couchman",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "18424",
-         "source": "18422"
+         "id": "jmuehlner",
+         "group": 2
+      },
+      {
+         "id": "mjumper",
+         "group": 4
+      },
+      {
+         "id": "Michael Jumper",
+         "group": 3
+      },
+      {
+         "id": "Nick Couchman",
+         "group": 3
       }
    ]
 }

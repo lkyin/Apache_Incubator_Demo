@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4864",
-         "group": 3
+         "source": "Thomas Nadeau",
+         "value": 1,
+         "target": "Steve Baillargeon"
       },
       {
-         "id": "4903",
+         "source": "D Jayachandran",
+         "value": 1,
+         "target": "Steve Baillargeon"
+      },
+      {
+         "source": "Thomas Nadeau",
+         "value": 1,
+         "target": "Mor Dabastany"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Steve Baillargeon",
+         "group": 2
+      },
+      {
+         "id": "Mor Dabastany",
+         "group": 2
+      },
+      {
+         "id": "Thomas Nadeau",
          "group": 4
       },
       {
-         "id": "4910",
-         "group": 3
+         "id": "Thomas Nadeau",
+         "group": 2
       },
       {
-         "id": "4928",
-         "group": 1
-      },
-      {
-         "id": "4895",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4928",
-         "source": "4910"
-      },
-      {
-         "value": 1,
-         "target": "4903",
-         "source": "4895"
-      },
-      {
-         "value": 1,
-         "target": "4903",
-         "source": "4864"
+         "id": "D Jayachandran",
+         "group": 2
       }
    ]
 }

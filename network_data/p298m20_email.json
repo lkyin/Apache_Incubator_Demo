@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "Jean-Louis MONTEIRO"
+      },
+      {
+         "source": "Jean-Louis MONTEIRO",
+         "value": 1,
+         "target": "Olivier Lamy"
+      },
+      {
+         "source": "Olivier Lamy",
+         "value": 6,
+         "target": "Romain Manni-Bucau"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 1,
+         "target": "olamy"
+      },
+      {
+         "source": "Romain Manni-Bucau",
+         "value": 4,
+         "target": "Olivier Lamy"
+      }
+   ],
    "nodes": [
       {
-         "id": "5928",
-         "group": 2
-      },
-      {
-         "id": "5934",
-         "group": 2
-      },
-      {
-         "id": "4107",
+         "id": "Romain Manni-Bucau",
          "group": 1
       },
       {
-         "id": "4099",
+         "id": "Marvin Humphrey",
+         "group": 4
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 4
+      },
+      {
+         "id": "olamy",
+         "group": 1
+      },
+      {
+         "id": "Jean-Louis MONTEIRO",
          "group": 2
-      },
-      {
-         "id": "4718",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "4107",
-         "source": "5928"
-      },
-      {
-         "value": 6,
-         "target": "5928",
-         "source": "4107"
-      },
-      {
-         "value": 1,
-         "target": "4107",
-         "source": "5934"
-      },
-      {
-         "value": 1,
-         "target": "4099",
-         "source": "5928"
-      },
-      {
-         "value": 1,
-         "target": "4718",
-         "source": "4107"
-      },
-      {
-         "value": 1,
-         "target": "5934",
-         "source": "5928"
       }
    ]
 }

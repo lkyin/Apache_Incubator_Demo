@@ -1,57 +1,57 @@
 {
-   "nodes": [
-      {
-         "id": "36955",
-         "group": 4
-      },
-      {
-         "id": "36956",
-         "group": 2
-      },
-      {
-         "id": "36958",
-         "group": 2
-      },
-      {
-         "id": "36957",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 13,
-         "target": "36957",
-         "source": "36956"
-      },
-      {
-         "value": 4,
-         "target": "36957",
-         "source": "36955"
-      },
-      {
+         "source": "duncf",
          "value": 1,
-         "target": "36958",
-         "source": "36957"
+         "target": "mss"
       },
       {
-         "value": 1,
-         "target": "36955",
-         "source": "36956"
-      },
-      {
-         "value": 1,
-         "target": "36958",
-         "source": "36955"
-      },
-      {
+         "source": "jm",
          "value": 2,
-         "target": "36958",
-         "source": "36956"
+         "target": "duncf"
       },
       {
-         "value": 10,
-         "target": "36956",
-         "source": "36955"
+         "source": "jm",
+         "value": 7,
+         "target": "mss"
+      },
+      {
+         "source": "jm",
+         "value": 13,
+         "target": "felicity"
+      },
+      {
+         "source": "mss",
+         "value": 4,
+         "target": "jm"
+      },
+      {
+         "source": "felicity",
+         "value": 1,
+         "target": "duncf"
+      },
+      {
+         "source": "felicity",
+         "value": 4,
+         "target": "mss"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jm",
+         "group": 2
+      },
+      {
+         "id": "mss",
+         "group": 3
+      },
+      {
+         "id": "felicity",
+         "group": 3
+      },
+      {
+         "id": "duncf",
+         "group": 2
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13553",
-         "group": 3
+         "source": "jacques",
+         "value": 3,
+         "target": "Timothy Chen"
       },
       {
-         "id": "7662",
+         "source": "Jacques Nadeau",
+         "value": 3,
+         "target": "Timothy Chen"
+      },
+      {
+         "source": "jacques",
+         "value": 62,
+         "target": "Jacques Nadeau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jacques",
          "group": 2
       },
       {
-         "id": "7628",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "7662",
-         "source": "13553"
+         "id": "Jacques Nadeau",
+         "group": 3
       },
       {
-         "value": 3,
-         "target": "7628",
-         "source": "13553"
-      },
-      {
-         "value": 62,
-         "target": "7628",
-         "source": "7662"
+         "id": "Timothy Chen",
+         "group": 1
       }
    ]
 }

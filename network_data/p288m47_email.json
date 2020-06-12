@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "jan i",
+         "value": 1,
+         "target": "Ian C"
+      },
+      {
+         "source": "Florian Hopf",
+         "value": 1,
+         "target": "Ralf Heydenreich"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Ralf Heydenreich"
+      }
+   ],
    "nodes": [
       {
-         "id": "249",
+         "id": "Florian Hopf",
          "group": 1
       },
       {
-         "id": "46870",
-         "group": 1
+         "id": "Apache Jenkins Server",
+         "group": 2
       },
       {
-         "id": "5949",
-         "group": 1
-      },
-      {
-         "id": "11318",
+         "id": "Ralf Heydenreich",
          "group": 4
       },
       {
-         "id": "46833",
+         "id": "Ian C",
+         "group": 4
+      },
+      {
+         "id": "jan i",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "46870",
-         "source": "11318"
-      },
-      {
-         "value": 1,
-         "target": "11318",
-         "source": "5949"
-      },
-      {
-         "value": 1,
-         "target": "249",
-         "source": "11318"
-      },
-      {
-         "value": 1,
-         "target": "46870",
-         "source": "46833"
       }
    ]
 }

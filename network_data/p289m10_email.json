@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "28733",
-         "group": 3
-      },
-      {
-         "id": "28716",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Amanda Waite",
          "value": 1,
-         "target": "28733",
-         "source": "28716"
+         "target": "Jignesh K. Shah"
       },
       {
+         "source": "Jignesh K. Shah",
          "value": 1,
-         "target": "28716",
-         "source": "28733"
+         "target": "Amanda Waite"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jignesh K. Shah",
+         "group": 2
+      },
+      {
+         "id": "Amanda Waite",
+         "group": 3
       }
    ]
 }

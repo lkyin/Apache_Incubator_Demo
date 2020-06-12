@@ -1,33 +1,38 @@
 {
+   "links": [
+      {
+         "source": "Aaron McCurry",
+         "value": 10,
+         "target": "Gagan"
+      },
+      {
+         "source": "Gagan",
+         "value": 3,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "amccurry",
+         "value": 5,
+         "target": "Gagan"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 29,
+         "target": "amccurry"
+      }
+   ],
    "nodes": [
       {
-         "id": "7096",
+         "id": "Aaron McCurry",
          "group": 4
       },
       {
-         "id": "7104",
-         "group": 3
+         "id": "amccurry",
+         "group": 4
       },
       {
-         "id": "7097",
+         "id": "Gagan",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 29,
-         "target": "7097",
-         "source": "7096"
-      },
-      {
-         "value": 5,
-         "target": "7104",
-         "source": "7096"
-      },
-      {
-         "value": 13,
-         "target": "7097",
-         "source": "7104"
       }
    ]
 }

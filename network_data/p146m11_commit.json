@@ -1,90 +1,105 @@
 {
+   "links": [
+      {
+         "source": "Rajat Khandelwal",
+         "value": 1,
+         "target": "prongs"
+      },
+      {
+         "source": "Himanshu Gahlaut",
+         "value": 1,
+         "target": "Amareshwari Sriramadasu"
+      },
+      {
+         "source": "Himanshu Gahlaut",
+         "value": 1,
+         "target": "Rajat Khandelwal"
+      },
+      {
+         "source": "prongs",
+         "value": 2,
+         "target": "Raju Bairishetti"
+      },
+      {
+         "source": "Amareshwari Sriramadasu",
+         "value": 1,
+         "target": "prongs"
+      },
+      {
+         "source": "prongs",
+         "value": 3,
+         "target": "amareshwari"
+      },
+      {
+         "source": "Rajat Khandelwal",
+         "value": 4,
+         "target": "Amareshwari Sriramadasu"
+      },
+      {
+         "source": "prongs",
+         "value": 1,
+         "target": "Rajat Khandelwal"
+      },
+      {
+         "source": "Himanshu Gahlaut",
+         "value": 2,
+         "target": "prongs"
+      },
+      {
+         "source": "prongs",
+         "value": 9,
+         "target": "Amareshwari Sriramadasu"
+      },
+      {
+         "source": "Rajat Khandelwal",
+         "value": 1,
+         "target": "amareshwari"
+      },
+      {
+         "source": "Raju Bairishetti",
+         "value": 1,
+         "target": "Rajat Khandelwal"
+      },
+      {
+         "source": "Amareshwari Sriramadasu",
+         "value": 7,
+         "target": "Rajat Khandelwal"
+      },
+      {
+         "source": "Amareshwari Sriramadasu",
+         "value": 1,
+         "target": "Raju Bairishetti"
+      },
+      {
+         "source": "Amareshwari Sriramadasu",
+         "value": 10,
+         "target": "amareshwari"
+      }
+   ],
    "nodes": [
       {
-         "id": "23692",
+         "id": "Raju Bairishetti",
          "group": 1
       },
       {
-         "id": "3370",
+         "id": "Rajat Khandelwal",
          "group": 4
       },
       {
-         "id": "23693",
-         "group": 3
+         "id": "Himanshu Gahlaut",
+         "group": 4
       },
       {
-         "id": "14910",
-         "group": 3
-      },
-      {
-         "id": "23709",
+         "id": "prongs",
          "group": 1
       },
       {
-         "id": "23688",
+         "id": "Amareshwari Sriramadasu",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "23688",
-         "source": "23692"
       },
       {
-         "value": 1,
-         "target": "3370",
-         "source": "14910"
-      },
-      {
-         "value": 10,
-         "target": "23688",
-         "source": "14910"
-      },
-      {
-         "value": 2,
-         "target": "23709",
-         "source": "23692"
-      },
-      {
-         "value": 1,
-         "target": "23709",
-         "source": "23693"
-      },
-      {
-         "value": 11,
-         "target": "14910",
-         "source": "23693"
-      },
-      {
-         "value": 1,
-         "target": "23688",
-         "source": "23693"
-      },
-      {
-         "value": 2,
-         "target": "23693",
-         "source": "23692"
-      },
-      {
-         "value": 10,
-         "target": "14910",
-         "source": "23692"
-      },
-      {
-         "value": 1,
-         "target": "23709",
-         "source": "14910"
-      },
-      {
-         "value": 1,
-         "target": "3370",
-         "source": "23693"
-      },
-      {
-         "value": 2,
-         "target": "3370",
-         "source": "23692"
+         "id": "amareshwari",
+         "group": 2
       }
    ]
 }

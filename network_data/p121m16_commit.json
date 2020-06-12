@@ -1,178 +1,223 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "18961",
-         "group": 1
+         "source": "tellison",
+         "value": 3,
+         "target": "mloenko"
       },
       {
-         "id": "18928",
+         "source": "tellison",
+         "value": 1,
+         "target": "geirm"
+      },
+      {
+         "source": "ndbeyer",
+         "value": 29,
+         "target": "pyang"
+      },
+      {
+         "source": "ndbeyer",
+         "value": 52,
+         "target": "smishura"
+      },
+      {
+         "source": "tellison",
+         "value": 1,
+         "target": "hindessm"
+      },
+      {
+         "source": "tellison",
+         "value": 6,
+         "target": "pyang"
+      },
+      {
+         "source": "hindessm",
+         "value": 5,
+         "target": "mloenko"
+      },
+      {
+         "source": "smishura",
+         "value": 1,
+         "target": "tellison"
+      },
+      {
+         "source": "ndbeyer",
+         "value": 7,
+         "target": "hindessm"
+      },
+      {
+         "source": "wjwashburn",
+         "value": 1,
+         "target": "geirm"
+      },
+      {
+         "source": "geirm",
+         "value": 5,
+         "target": "mloenko"
+      },
+      {
+         "source": "geirm",
+         "value": 1,
+         "target": "ndbeyer"
+      },
+      {
+         "source": "pyang",
+         "value": 1,
+         "target": "hindessm"
+      },
+      {
+         "source": "ndbeyer",
+         "value": 10,
+         "target": "wjwashburn"
+      },
+      {
+         "source": "ndbeyer",
+         "value": 5,
+         "target": "tellison"
+      },
+      {
+         "source": "ndbeyer",
+         "value": 46,
+         "target": "mloenko"
+      },
+      {
+         "source": "mloenko",
+         "value": 1,
+         "target": "smishura"
+      },
+      {
+         "source": "pyang",
+         "value": 1,
+         "target": "geirm"
+      },
+      {
+         "source": "pyang",
+         "value": 4,
+         "target": "ndbeyer"
+      },
+      {
+         "source": "tellison",
+         "value": 13,
+         "target": "ndbeyer"
+      },
+      {
+         "source": "smishura",
+         "value": 4,
+         "target": "mloenko"
+      },
+      {
+         "source": "hindessm",
+         "value": 1,
+         "target": "ndbeyer"
+      },
+      {
+         "source": "hindessm",
+         "value": 8,
+         "target": "pyang"
+      },
+      {
+         "source": "hindessm",
+         "value": 4,
+         "target": "smishura"
+      },
+      {
+         "source": "pyang",
+         "value": 1,
+         "target": "smishura"
+      },
+      {
+         "source": "tellison",
+         "value": 2,
+         "target": "smishura"
+      },
+      {
+         "source": "smishura",
+         "value": 31,
+         "target": "pyang"
+      },
+      {
+         "source": "smishura",
+         "value": 1,
+         "target": "geirm"
+      },
+      {
+         "source": "mloenko",
+         "value": 4,
+         "target": "ndbeyer"
+      },
+      {
+         "source": "ndbeyer",
+         "value": 15,
+         "target": "geirm"
+      },
+      {
+         "source": "pyang",
+         "value": 1,
+         "target": "mloenko"
+      },
+      {
+         "source": "smishura",
+         "value": 2,
+         "target": "ndbeyer"
+      },
+      {
+         "source": "hindessm",
+         "value": 2,
+         "target": "geirm"
+      },
+      {
+         "source": "mloenko",
+         "value": 6,
+         "target": "pyang"
+      },
+      {
+         "source": "smishura",
+         "value": 1,
+         "target": "hindessm"
+      },
+      {
+         "source": "geirm",
+         "value": 2,
+         "target": "pyang"
+      },
+      {
+         "source": "geirm",
+         "value": 2,
+         "target": "smishura"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tellison",
+         "group": 3
+      },
+      {
+         "id": "hindessm",
+         "group": 3
+      },
+      {
+         "id": "geirm",
+         "group": 3
+      },
+      {
+         "id": "smishura",
          "group": 2
       },
       {
-         "id": "18903",
-         "group": 1
-      },
-      {
-         "id": "18931",
-         "group": 1
-      },
-      {
-         "id": "18986",
+         "id": "wjwashburn",
          "group": 4
       },
       {
-         "id": "18964",
-         "group": 1
+         "id": "ndbeyer",
+         "group": 3
       },
       {
-         "id": "18981",
+         "id": "mloenko",
+         "group": 3
+      },
+      {
+         "id": "pyang",
          "group": 2
-      },
-      {
-         "id": "1022",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 7,
-         "target": "18981",
-         "source": "18928"
-      },
-      {
-         "value": 4,
-         "target": "18931",
-         "source": "18964"
-      },
-      {
-         "value": 2,
-         "target": "18931",
-         "source": "18903"
-      },
-      {
-         "value": 33,
-         "target": "18981",
-         "source": "18961"
-      },
-      {
-         "value": 5,
-         "target": "18931",
-         "source": "18928"
-      },
-      {
-         "value": 3,
-         "target": "18903",
-         "source": "18928"
-      },
-      {
-         "value": 1,
-         "target": "18964",
-         "source": "18931"
-      },
-      {
-         "value": 9,
-         "target": "18981",
-         "source": "18964"
-      },
-      {
-         "value": 49,
-         "target": "18928",
-         "source": "18961"
-      },
-      {
-         "value": 16,
-         "target": "1022",
-         "source": "18961"
-      },
-      {
-         "value": 6,
-         "target": "18981",
-         "source": "18903"
-      },
-      {
-         "value": 5,
-         "target": "1022",
-         "source": "18928"
-      },
-      {
-         "value": 53,
-         "target": "18931",
-         "source": "18961"
-      },
-      {
-         "value": 1,
-         "target": "18961",
-         "source": "18931"
-      },
-      {
-         "value": 1,
-         "target": "18964",
-         "source": "18928"
-      },
-      {
-         "value": 1,
-         "target": "18961",
-         "source": "18928"
-      },
-      {
-         "value": 2,
-         "target": "1022",
-         "source": "18964"
-      },
-      {
-         "value": 3,
-         "target": "1022",
-         "source": "18931"
-      },
-      {
-         "value": 18,
-         "target": "18903",
-         "source": "18961"
-      },
-      {
-         "value": 1,
-         "target": "18903",
-         "source": "18931"
-      },
-      {
-         "value": 8,
-         "target": "18964",
-         "source": "18961"
-      },
-      {
-         "value": 1,
-         "target": "1022",
-         "source": "18903"
-      },
-      {
-         "value": 1,
-         "target": "18964",
-         "source": "18903"
-      },
-      {
-         "value": 1,
-         "target": "18986",
-         "source": "1022"
-      },
-      {
-         "value": 3,
-         "target": "1022",
-         "source": "18981"
-      },
-      {
-         "value": 4,
-         "target": "18928",
-         "source": "18964"
-      },
-      {
-         "value": 10,
-         "target": "18986",
-         "source": "18961"
-      },
-      {
-         "value": 32,
-         "target": "18981",
-         "source": "18931"
       }
    ]
 }

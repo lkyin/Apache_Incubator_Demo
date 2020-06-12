@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "17918",
-         "group": 3
-      },
-      {
-         "id": "17928",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Edward Capriolo",
          "value": 1,
-         "target": "17918",
-         "source": "17928"
+         "target": "Mirage Abeysekara"
       },
       {
+         "source": "Mirage Abeysekara",
          "value": 1,
-         "target": "17928",
-         "source": "17918"
+         "target": "Edward Capriolo"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mirage Abeysekara",
+         "group": 2
+      },
+      {
+         "id": "Edward Capriolo",
+         "group": 2
       }
    ]
 }

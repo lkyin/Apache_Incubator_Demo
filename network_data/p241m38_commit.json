@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "dgaillard",
+         "value": 3,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "shuber",
+         "value": 23,
+         "target": "dgaillard"
+      }
+   ],
    "nodes": [
       {
-         "id": "42358",
-         "group": 1
-      },
-      {
-         "id": "42355",
-         "group": 4
-      },
-      {
-         "id": "42380",
+         "id": "shuber",
          "group": 2
       },
       {
-         "id": "42363",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 23,
-         "target": "42355",
-         "source": "42358"
+         "id": "Serge Huber",
+         "group": 4
       },
       {
-         "value": 3,
-         "target": "42363",
-         "source": "42380"
+         "id": "dgaillard",
+         "group": 4
+      },
+      {
+         "id": "dgaillard",
+         "group": 1
       }
    ]
 }

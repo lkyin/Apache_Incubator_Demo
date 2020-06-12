@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "25201",
-         "group": 2
-      },
-      {
-         "id": "25202",
-         "group": 1
-      },
-      {
-         "id": "24043",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "colm",
          "value": 1,
-         "target": "24043",
-         "source": "25201"
+         "target": "wrowe"
       },
       {
+         "source": "jim",
          "value": 1,
-         "target": "24043",
-         "source": "25202"
+         "target": "wrowe"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jim",
+         "group": 3
+      },
+      {
+         "id": "colm",
+         "group": 3
+      },
+      {
+         "id": "wrowe",
+         "group": 1
       }
    ]
 }

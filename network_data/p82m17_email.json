@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "10057",
-         "group": 1
-      },
-      {
-         "id": "10071",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "afs",
          "value": 1,
-         "target": "10057",
-         "source": "10071"
+         "target": "stain"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "afs",
+         "group": 3
+      },
+      {
+         "id": "stain",
+         "group": 4
       }
    ]
 }

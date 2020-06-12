@@ -1,51 +1,51 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "308",
-         "group": 3
+         "source": "Oliver Rau",
+         "value": 1,
+         "target": "Ian C"
       },
       {
-         "id": "30408",
+         "source": "Alexandro Colorado",
+         "value": 1,
+         "target": "Dave Fisher"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Marvin"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Alexandro Colorado"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Oliver Rau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dave Fisher",
+         "group": 4
+      },
+      {
+         "id": "Oliver Rau",
          "group": 2
       },
       {
-         "id": "4479",
-         "group": 1
-      },
-      {
-         "id": "11318",
-         "group": 1
-      },
-      {
-         "id": "46775",
+         "id": "Ian C",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "308",
-         "source": "4479"
       },
       {
-         "value": 1,
-         "target": "4479",
-         "source": "30408"
+         "id": "Alexandro Colorado",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "46775",
-         "source": "4479"
-      },
-      {
-         "value": 1,
-         "target": "11318",
-         "source": "46775"
-      },
-      {
-         "value": 1,
-         "target": "30408",
-         "source": "11318"
+         "id": "Marvin",
+         "group": 2
       }
    ]
 }

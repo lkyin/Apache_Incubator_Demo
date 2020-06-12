@@ -1,71 +1,71 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "10163",
-         "group": 4
+         "source": "Dan Silivestru",
+         "value": 3,
+         "target": "Marc Luria"
       },
       {
-         "id": "33314",
+         "source": "Gord Tanner",
+         "value": 1,
+         "target": "Dan Silivestru"
+      },
+      {
+         "source": "Dan Silivestru",
+         "value": 1,
+         "target": "Mayr Gregor"
+      },
+      {
+         "source": "Marc Luria",
+         "value": 1,
+         "target": "Mayr Gregor"
+      },
+      {
+         "source": "Dan Silivestru",
+         "value": 1,
+         "target": "Gord Tanner"
+      },
+      {
+         "source": "Raymond Camden",
+         "value": 1,
+         "target": "Gord Tanner"
+      },
+      {
+         "source": "Gord Tanner",
+         "value": 1,
+         "target": "Marc Luria"
+      },
+      {
+         "source": "Mayr Gregor",
+         "value": 1,
+         "target": "Marc Luria"
+      },
+      {
+         "source": "Marc Luria",
+         "value": 4,
+         "target": "Dan Silivestru"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gord Tanner",
          "group": 1
       },
       {
-         "id": "10356",
+         "id": "Marc Luria",
          "group": 2
       },
       {
-         "id": "10100",
-         "group": 1
+         "id": "Mayr Gregor",
+         "group": 4
       },
       {
-         "id": "33307",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "33314",
-         "source": "10356"
+         "id": "Dan Silivestru",
+         "group": 2
       },
       {
-         "value": 4,
-         "target": "10356",
-         "source": "33314"
-      },
-      {
-         "value": 1,
-         "target": "33307",
-         "source": "33314"
-      },
-      {
-         "value": 1,
-         "target": "10100",
-         "source": "10163"
-      },
-      {
-         "value": 1,
-         "target": "33314",
-         "source": "33307"
-      },
-      {
-         "value": 1,
-         "target": "10356",
-         "source": "10100"
-      },
-      {
-         "value": 1,
-         "target": "10100",
-         "source": "10356"
-      },
-      {
-         "value": 1,
-         "target": "33307",
-         "source": "10356"
-      },
-      {
-         "value": 1,
-         "target": "33314",
-         "source": "10100"
+         "id": "Raymond Camden",
+         "group": 3
       }
    ]
 }

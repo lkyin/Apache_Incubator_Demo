@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "7036",
-         "group": 1
+         "source": "Ting Peng",
+         "value": 1,
+         "target": "du.haipeng"
       },
       {
-         "id": "7041",
+         "source": "bill stoddard",
+         "value": 2,
+         "target": "Ting Peng"
+      },
+      {
+         "source": "Bill Stoddard",
+         "value": 2,
+         "target": "du.haipeng"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "du.haipeng",
          "group": 4
       },
       {
-         "id": "7040",
+         "id": "Bill Stoddard",
+         "group": 4
+      },
+      {
+         "id": "Ting Peng",
+         "group": 4
+      },
+      {
+         "id": "bill stoddard",
          "group": 2
-      },
-      {
-         "id": "7037",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "7040",
-         "source": "7036"
-      },
-      {
-         "value": 2,
-         "target": "7037",
-         "source": "7041"
-      },
-      {
-         "value": 1,
-         "target": "7040",
-         "source": "7037"
       }
    ]
 }

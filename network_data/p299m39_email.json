@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "4164",
-         "group": 4
-      },
-      {
-         "id": "36641",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Chengeng Ou",
          "value": 1,
-         "target": "4164",
-         "source": "36641"
+         "target": "Billie Rinaldi"
       },
       {
+         "source": "Billie Rinaldi",
          "value": 1,
-         "target": "36641",
-         "source": "4164"
+         "target": "Chengeng Ou"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chengeng Ou",
+         "group": 2
+      },
+      {
+         "id": "Billie Rinaldi",
+         "group": 1
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "21229",
-         "group": 3
-      },
-      {
-         "id": "580",
-         "group": 2
-      },
-      {
-         "id": "206",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Kevan Miller",
          "value": 1,
-         "target": "206",
-         "source": "580"
+         "target": "no-reply"
       },
       {
+         "source": "David Wood",
          "value": 1,
-         "target": "580",
-         "source": "21229"
+         "target": "Kevan Miller"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
+         "group": 3
+      },
+      {
+         "id": "David Wood",
+         "group": 1
+      },
+      {
+         "id": "Kevan Miller",
+         "group": 2
       }
    ]
 }

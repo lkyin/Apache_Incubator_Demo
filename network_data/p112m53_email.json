@@ -1,55 +1,55 @@
 {
+   "links": [
+      {
+         "source": "Janardhanan, Ajith (AJANARDH)",
+         "value": 1,
+         "target": "Niklas Gustavsson"
+      },
+      {
+         "source": "Niklas Gustavsson",
+         "value": 2,
+         "target": "Janardhanan, Ajith (AJANARDH)"
+      },
+      {
+         "source": "Niklas Gustavsson (JIRA)",
+         "value": 3,
+         "target": "ajith (JIRA)"
+      },
+      {
+         "source": "Niklas Gustavsson",
+         "value": 1,
+         "target": "Niclas Hedhman"
+      },
+      {
+         "source": "Niklas Gustavsson (JIRA)",
+         "value": 1,
+         "target": "Steve Jones (JIRA)"
+      }
+   ],
    "nodes": [
       {
-         "id": "403",
+         "id": "Niklas Gustavsson",
          "group": 2
       },
       {
-         "id": "17065",
+         "id": "Janardhanan, Ajith (AJANARDH)",
+         "group": 2
+      },
+      {
+         "id": "ajith (JIRA)",
          "group": 4
       },
       {
-         "id": "37",
-         "group": 1
-      },
-      {
-         "id": "4969",
-         "group": 3
-      },
-      {
-         "id": "17072",
-         "group": 3
-      },
-      {
-         "id": "17057",
+         "id": "Niklas Gustavsson (JIRA)",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4969",
-         "source": "17057"
       },
       {
-         "value": 1,
-         "target": "403",
-         "source": "4969"
+         "id": "Steve Jones (JIRA)",
+         "group": 3
       },
       {
-         "value": 3,
-         "target": "17072",
-         "source": "37"
-      },
-      {
-         "value": 2,
-         "target": "17057",
-         "source": "4969"
-      },
-      {
-         "value": 1,
-         "target": "17065",
-         "source": "37"
+         "id": "Niclas Hedhman",
+         "group": 4
       }
    ]
 }

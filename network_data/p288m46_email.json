@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "29910",
-         "group": 1
-      },
-      {
-         "id": "11318",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Ian C",
          "value": 1,
-         "target": "11318",
-         "source": "29910"
+         "target": "Rob Weir"
       },
       {
+         "source": "Rob Weir",
          "value": 1,
-         "target": "29910",
-         "source": "11318"
+         "target": "Ian C"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Rob Weir",
+         "group": 3
+      },
+      {
+         "id": "Ian C",
+         "group": 1
       }
    ]
 }

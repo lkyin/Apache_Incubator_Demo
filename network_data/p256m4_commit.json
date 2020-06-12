@@ -1,66 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "4877",
-         "group": 2
-      },
-      {
-         "id": "4879",
-         "group": 3
-      },
-      {
-         "id": "4870",
-         "group": 3
-      },
-      {
-         "id": "4844",
-         "group": 3
-      },
-      {
-         "id": "4854",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "4877",
-         "source": "4879"
-      },
-      {
-         "value": 1,
-         "target": "4854",
-         "source": "4879"
-      },
-      {
-         "value": 20,
-         "target": "4854",
-         "source": "4870"
-      },
-      {
+         "source": "mxmrlv",
          "value": 26,
-         "target": "4854",
-         "source": "4844"
+         "target": "mxmrlv"
       },
       {
-         "value": 10,
-         "target": "4844",
-         "source": "4877"
+         "source": "Dan Kilman",
+         "value": 3,
+         "target": "nirb"
       },
       {
-         "value": 22,
-         "target": "4844",
-         "source": "4870"
-      },
-      {
-         "value": 17,
-         "target": "4854",
-         "source": "4877"
-      },
-      {
+         "source": "Dan Kilman",
          "value": 8,
-         "target": "4870",
-         "source": "4877"
+         "target": "dankilman"
+      },
+      {
+         "source": "mxmrlv",
+         "value": 10,
+         "target": "Dan Kilman"
+      },
+      {
+         "source": "mxmrlv",
+         "value": 22,
+         "target": "dankilman"
+      },
+      {
+         "source": "mxmrlv",
+         "value": 20,
+         "target": "dankilman"
+      },
+      {
+         "source": "mxmrlv",
+         "value": 1,
+         "target": "nirb"
+      },
+      {
+         "source": "mxmrlv",
+         "value": 17,
+         "target": "Dan Kilman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mxmrlv",
+         "group": 2
+      },
+      {
+         "id": "mxmrlv",
+         "group": 3
+      },
+      {
+         "id": "Dan Kilman",
+         "group": 2
+      },
+      {
+         "id": "dankilman",
+         "group": 2
+      },
+      {
+         "id": "nirb",
+         "group": 2
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "534",
-         "group": 1
+         "source": "foconer",
+         "value": 1,
+         "target": "gnodet"
       },
       {
-         "id": "536",
+         "source": "jgapuz",
+         "value": 1,
+         "target": "gnodet"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jgapuz",
          "group": 3
       },
       {
-         "id": "538",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "538",
-         "source": "536"
+         "id": "foconer",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "536",
-         "source": "534"
+         "id": "gnodet",
+         "group": 3
       }
    ]
 }

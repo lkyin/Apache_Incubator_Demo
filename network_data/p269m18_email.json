@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Josh Elser"
+      },
+      {
+         "source": "Josh Elser",
+         "value": 1,
+         "target": "johndament"
+      },
+      {
+         "source": "Josh Elser",
+         "value": 2,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "Edward Capriolo",
+         "value": 1,
+         "target": "johndament"
+      },
+      {
+         "source": "Josh Elser",
+         "value": 1,
+         "target": "Edward Capriolo"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "Josh Elser"
+      }
+   ],
    "nodes": [
       {
-         "id": "3341",
+         "id": "John D. Ament",
          "group": 2
       },
       {
-         "id": "3571",
-         "group": 2
-      },
-      {
-         "id": "365",
+         "id": "johndament",
          "group": 4
       },
       {
-         "id": "17918",
+         "id": "Edward Capriolo",
          "group": 3
       },
       {
-         "id": "7665",
+         "id": "Josh Elser",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7665",
-         "source": "3571"
       },
       {
-         "value": 1,
-         "target": "17918",
-         "source": "365"
-      },
-      {
-         "value": 1,
-         "target": "3341",
-         "source": "17918"
-      },
-      {
-         "value": 2,
-         "target": "3571",
-         "source": "7665"
-      },
-      {
-         "value": 1,
-         "target": "3341",
-         "source": "365"
-      },
-      {
-         "value": 1,
-         "target": "365",
-         "source": "3571"
+         "id": "Josh Elser",
+         "group": 2
       }
    ]
 }

@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "17918",
-         "group": 3
-      },
-      {
-         "id": "8443",
-         "group": 4
-      },
-      {
-         "id": "17964",
-         "group": 3
-      },
-      {
-         "id": "8291",
-         "group": 3
-      },
-      {
-         "id": "17928",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Gary Dusbabek",
          "value": 1,
-         "target": "17918",
-         "source": "8443"
+         "target": "Edward Capriolo"
       },
       {
+         "source": "Rajkumar Natarajan",
          "value": 1,
-         "target": "8291",
-         "source": "17964"
+         "target": "Gary Dusbabek (JIRA)"
       },
       {
+         "source": "Rajkumar Natarajan",
+         "value": 1,
+         "target": "Edward Capriolo"
+      },
+      {
+         "source": "Edward Capriolo",
          "value": 2,
-         "target": "17964",
-         "source": "17918"
+         "target": "Rajkumar Natarajan"
       },
       {
+         "source": "Edward Capriolo",
          "value": 1,
-         "target": "17928",
-         "source": "17918"
+         "target": "Mirage Abeysekara"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gary Dusbabek (JIRA)",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "17918",
-         "source": "17964"
+         "id": "Gary Dusbabek",
+         "group": 2
+      },
+      {
+         "id": "Edward Capriolo",
+         "group": 3
+      },
+      {
+         "id": "Rajkumar Natarajan",
+         "group": 3
+      },
+      {
+         "id": "Mirage Abeysekara",
+         "group": 1
       }
    ]
 }

@@ -1,43 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "44922",
-         "group": 4
-      },
-      {
-         "id": "44923",
-         "group": 4
-      },
-      {
-         "id": "44921",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "bbuffone",
+         "value": 39,
+         "target": "jmargaris"
+      },
+      {
+         "source": "mturyn",
          "value": 14,
-         "target": "44923",
-         "source": "44922"
+         "target": "bbuffone"
       },
       {
-         "value": 30,
-         "target": "44921",
-         "source": "44923"
-      },
-      {
+         "source": "bbuffone",
          "value": 9,
-         "target": "44923",
-         "source": "44921"
+         "target": "mturyn"
       },
       {
+         "source": "mturyn",
          "value": 83,
-         "target": "44921",
-         "source": "44922"
+         "target": "jmargaris"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mturyn",
+         "group": 3
       },
       {
-         "value": 9,
-         "target": "44922",
-         "source": "44923"
+         "id": "bbuffone",
+         "group": 2
+      },
+      {
+         "id": "jmargaris",
+         "group": 1
       }
    ]
 }

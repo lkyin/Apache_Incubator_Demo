@@ -1,68 +1,68 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "21229",
-         "group": 4
+         "source": "Xiping Wang",
+         "value": 1,
+         "target": "David Wood (JIRA)"
       },
       {
-         "id": "580",
+         "source": "David Wood",
+         "value": 1,
+         "target": "Xiping Wang"
+      },
+      {
+         "source": "Xiping Wang",
+         "value": 1,
+         "target": "Neeraj Joshi"
+      },
+      {
+         "source": "Kevan Miller",
+         "value": 1,
+         "target": "Mark A. Carlson"
+      },
+      {
+         "source": "Craig L Russell",
+         "value": 1,
+         "target": "Kevan Miller"
+      },
+      {
+         "source": "Neeraj Joshi (JIRA)",
+         "value": 1,
+         "target": "David Wood (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Wood (JIRA)",
          "group": 3
       },
       {
-         "id": "8422",
-         "group": 2
-      },
-      {
-         "id": "21228",
+         "id": "David Wood",
          "group": 4
       },
       {
-         "id": "21227",
+         "id": "Kevan Miller",
          "group": 4
       },
       {
-         "id": "21231",
-         "group": 2
-      },
-      {
-         "id": "21211",
+         "id": "Neeraj Joshi",
          "group": 4
       },
       {
-         "id": "21223",
+         "id": "Xiping Wang",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21228",
-         "source": "580"
       },
       {
-         "value": 1,
-         "target": "21227",
-         "source": "21231"
+         "id": "Craig L Russell",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "580",
-         "source": "8422"
+         "id": "Mark A. Carlson",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "21211",
-         "source": "21231"
-      },
-      {
-         "value": 1,
-         "target": "21227",
-         "source": "21223"
-      },
-      {
-         "value": 1,
-         "target": "21231",
-         "source": "21229"
+         "id": "Neeraj Joshi (JIRA)",
+         "group": 1
       }
    ]
 }

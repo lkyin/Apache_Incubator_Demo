@@ -1,59 +1,59 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "1027",
-         "group": 2
+         "source": "Geir Magnusson Jr",
+         "value": 1,
+         "target": "Matthieu Riou"
       },
       {
-         "id": "453",
+         "source": "Glenn J Gonzales",
+         "value": 2,
+         "target": "Kristofer Eriksson"
+      },
+      {
+         "source": "Christopher Lim",
+         "value": 2,
+         "target": "Matthieu Riou"
+      },
+      {
+         "source": "Matthieu Riou",
+         "value": 1,
+         "target": "Christopher Lim"
+      },
+      {
+         "source": "Matthieu Riou",
+         "value": 1,
+         "target": "Bruce Snyder"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Christopher Lim",
          "group": 1
       },
       {
-         "id": "1031",
+         "id": "Matthieu Riou",
          "group": 4
       },
       {
-         "id": "1028",
-         "group": 2
+         "id": "Kristofer Eriksson",
+         "group": 1
       },
       {
-         "id": "533",
+         "id": "Bruce Snyder",
          "group": 4
       },
       {
-         "id": "1038",
+         "id": "Glenn J Gonzales",
          "group": 3
       },
       {
-         "id": "1037",
+         "id": "Geir Magnusson Jr",
+         "group": 3
+      },
+      {
+         "id": "Matthieu Riou",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "1037",
-         "source": "1027"
-      },
-      {
-         "value": 2,
-         "target": "1028",
-         "source": "533"
-      },
-      {
-         "value": 1,
-         "target": "533",
-         "source": "1028"
-      },
-      {
-         "value": 1,
-         "target": "453",
-         "source": "1028"
-      },
-      {
-         "value": 1,
-         "target": "1038",
-         "source": "1031"
       }
    ]
 }

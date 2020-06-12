@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "rmannibucau",
+         "value": 1,
+         "target": "jlmonteiro"
+      },
+      {
+         "source": "rmannibucau",
+         "value": 54,
+         "target": "olamy"
+      },
+      {
+         "source": "olamy",
+         "value": 1,
+         "target": "jlmonteiro"
+      },
+      {
+         "source": "rmannibucau",
+         "value": 1,
+         "target": "vanto"
+      }
+   ],
    "nodes": [
       {
-         "id": "36390",
+         "id": "rmannibucau",
          "group": 1
       },
       {
-         "id": "5924",
-         "group": 4
-      },
-      {
-         "id": "4099",
+         "id": "vanto",
          "group": 3
       },
       {
-         "id": "28249",
+         "id": "olamy",
+         "group": 3
+      },
+      {
+         "id": "jlmonteiro",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 54,
-         "target": "4099",
-         "source": "5924"
-      },
-      {
-         "value": 1,
-         "target": "36390",
-         "source": "5924"
-      },
-      {
-         "value": 1,
-         "target": "28249",
-         "source": "5924"
-      },
-      {
-         "value": 1,
-         "target": "36390",
-         "source": "4099"
       }
    ]
 }

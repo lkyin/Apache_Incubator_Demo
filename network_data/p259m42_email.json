@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "7078",
-         "group": 4
-      },
-      {
-         "id": "7082",
-         "group": 4
-      },
-      {
-         "id": "7047",
-         "group": 1
-      },
-      {
-         "id": "7065",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Chen Liu",
          "value": 1,
-         "target": "7082",
-         "source": "7078"
+         "target": "Bernd Fondermann"
       },
       {
+         "source": "Arthur Chen",
          "value": 1,
-         "target": "7047",
-         "source": "7078"
+         "target": "Bernd Fondermann"
       },
       {
+         "source": "Chen Liu",
          "value": 1,
-         "target": "7047",
-         "source": "7065"
+         "target": "hz nan"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Arthur Chen",
+         "group": 4
+      },
+      {
+         "id": "hz nan",
+         "group": 1
+      },
+      {
+         "id": "Bernd Fondermann",
+         "group": 4
+      },
+      {
+         "id": "Chen Liu",
+         "group": 3
       }
    ]
 }

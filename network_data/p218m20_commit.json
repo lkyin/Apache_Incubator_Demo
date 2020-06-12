@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "8880",
-         "group": 2
+         "source": "fchrist",
+         "value": 1,
+         "target": "rwesten"
       },
       {
-         "id": "37761",
+         "source": "alexdma",
+         "value": 3,
+         "target": "rwesten"
+      },
+      {
+         "source": "florent",
+         "value": 12,
+         "target": "rwesten"
+      },
+      {
+         "source": "florent",
+         "value": 1,
+         "target": "alexdma"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "florent",
          "group": 4
       },
       {
-         "id": "37747",
+         "id": "alexdma",
+         "group": 3
+      },
+      {
+         "id": "fchrist",
          "group": 2
       },
       {
-         "id": "8881",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 12,
-         "target": "8881",
-         "source": "8880"
-      },
-      {
-         "value": 3,
-         "target": "8881",
-         "source": "37761"
-      },
-      {
-         "value": 1,
-         "target": "8881",
-         "source": "37747"
-      },
-      {
-         "value": 1,
-         "target": "37761",
-         "source": "8880"
+         "id": "rwesten",
+         "group": 4
       }
    ]
 }

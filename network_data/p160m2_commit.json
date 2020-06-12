@@ -1,56 +1,61 @@
 {
+   "links": [
+      {
+         "source": "kasper",
+         "value": 1,
+         "target": "kaspersor"
+      },
+      {
+         "source": "kaspers",
+         "value": 3,
+         "target": "Kasper S??rensen"
+      },
+      {
+         "source": "kasper",
+         "value": 1,
+         "target": "kaspersor"
+      },
+      {
+         "source": "kaspersor",
+         "value": 3,
+         "target": "Kasper S??rensen"
+      },
+      {
+         "source": "Kasper S??rensen",
+         "value": 1,
+         "target": "kaspersor"
+      },
+      {
+         "source": "kaspers",
+         "value": 74,
+         "target": "kaspersor"
+      },
+      {
+         "source": "kaspers",
+         "value": 1,
+         "target": "kasper"
+      }
+   ],
    "nodes": [
       {
-         "id": "24716",
-         "group": 4
-      },
-      {
-         "id": "24714",
-         "group": 2
-      },
-      {
-         "id": "24713",
-         "group": 2
-      },
-      {
-         "id": "24717",
+         "id": "kasper",
          "group": 1
       },
       {
-         "id": "24711",
+         "id": "kaspers",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "24713",
-         "source": "24716"
       },
       {
-         "value": 1,
-         "target": "24711",
-         "source": "24714"
+         "id": "kasper",
+         "group": 2
       },
       {
-         "value": 74,
-         "target": "24711",
-         "source": "24713"
+         "id": "kaspersor",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "24713",
-         "source": "24717"
-      },
-      {
-         "value": 1,
-         "target": "24713",
-         "source": "24714"
-      },
-      {
-         "value": 3,
-         "target": "24711",
-         "source": "24716"
+         "id": "Kasper S??rensen",
+         "group": 1
       }
    ]
 }

@@ -1,32 +1,32 @@
 {
+   "links": [
+      {
+         "source": "gbayon",
+         "value": 3,
+         "target": "roberto"
+      },
+      {
+         "source": "bgoodin",
+         "value": 1,
+         "target": "cbegin"
+      }
+   ],
    "nodes": [
       {
-         "id": "20510",
-         "group": 3
-      },
-      {
-         "id": "20509",
-         "group": 2
-      },
-      {
-         "id": "20511",
+         "id": "bgoodin",
          "group": 4
       },
       {
-         "id": "20508",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "20511",
-         "source": "20509"
+         "id": "gbayon",
+         "group": 2
       },
       {
-         "value": 3,
-         "target": "20508",
-         "source": "20510"
+         "id": "cbegin",
+         "group": 1
+      },
+      {
+         "id": "roberto",
+         "group": 2
       }
    ]
 }

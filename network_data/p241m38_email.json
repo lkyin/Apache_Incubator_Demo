@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "value": 2,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Francois Papon",
+         "value": 1,
+         "target": "Serge Huber"
+      },
+      {
+         "source": "Serge Huber",
+         "value": 2,
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      },
+      {
+         "source": "Serge Huber",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      }
+   ],
    "nodes": [
       {
-         "id": "42417",
-         "group": 2
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 4
       },
       {
-         "id": "404",
-         "group": 2
-      },
-      {
-         "id": "4102",
+         "id": "Serge Huber",
          "group": 3
       },
       {
-         "id": "42363",
+         "id": "Francois Papon",
+         "group": 1
+      },
+      {
+         "id": "Bertrand Delacretaz",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "42363",
-         "source": "42417"
-      },
-      {
-         "value": 2,
-         "target": "42363",
-         "source": "4102"
-      },
-      {
-         "value": 2,
-         "target": "4102",
-         "source": "42363"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "42363"
       }
    ]
 }

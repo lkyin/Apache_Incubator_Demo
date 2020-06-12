@@ -1,83 +1,83 @@
 {
-   "nodes": [
-      {
-         "id": "1086",
-         "group": 3
-      },
-      {
-         "id": "1092",
-         "group": 3
-      },
-      {
-         "id": "1028",
-         "group": 2
-      },
-      {
-         "id": "1089",
-         "group": 3
-      },
-      {
-         "id": "1085",
-         "group": 1
-      },
-      {
-         "id": "1091",
-         "group": 4
-      },
-      {
-         "id": "1088",
-         "group": 4
-      },
-      {
-         "id": "1090",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Zhuo Wang",
          "value": 1,
-         "target": "1085",
-         "source": "1088"
+         "target": "Matthieu Riou"
       },
       {
+         "source": "Matthieu Riou",
          "value": 1,
-         "target": "1028",
-         "source": "1092"
+         "target": "Zhuo Wang"
       },
       {
+         "source": "Ali Afif Mutlu",
          "value": 1,
-         "target": "1090",
-         "source": "1091"
+         "target": "Martin van den Bemt"
       },
       {
+         "source": "Martin van den Bemt",
          "value": 1,
-         "target": "1085",
-         "source": "1086"
+         "target": "Gert Vanthienen"
       },
       {
+         "source": "Matthieu Riou",
          "value": 1,
-         "target": "1085",
-         "source": "1090"
+         "target": "Martin van den Bemt"
       },
       {
+         "source": "Gert Vanthienen",
          "value": 1,
-         "target": "1085",
-         "source": "1028"
+         "target": "Martin van den Bemt"
       },
       {
+         "source": "Geir Magnusson Jr",
          "value": 1,
-         "target": "1090",
-         "source": "1085"
+         "target": "Martin van den Bemt"
       },
       {
+         "source": "Jamie Burrell",
          "value": 1,
-         "target": "1085",
-         "source": "1089"
+         "target": "Martin van den Bemt"
       },
       {
+         "source": "Pablo Alvarez",
          "value": 1,
-         "target": "1092",
-         "source": "1028"
+         "target": "Gert Vanthienen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matthieu Riou",
+         "group": 4
+      },
+      {
+         "id": "Pablo Alvarez",
+         "group": 3
+      },
+      {
+         "id": "Ali Afif Mutlu",
+         "group": 4
+      },
+      {
+         "id": "Zhuo Wang",
+         "group": 2
+      },
+      {
+         "id": "Jamie Burrell",
+         "group": 3
+      },
+      {
+         "id": "Gert Vanthienen",
+         "group": 2
+      },
+      {
+         "id": "Martin van den Bemt",
+         "group": 4
+      },
+      {
+         "id": "Geir Magnusson Jr",
+         "group": 1
       }
    ]
 }

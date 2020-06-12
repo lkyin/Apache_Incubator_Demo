@@ -1,93 +1,98 @@
 {
+   "links": [
+      {
+         "source": "Scott Leberknight",
+         "value": 1,
+         "target": "amccurry"
+      },
+      {
+         "source": "twilliams",
+         "value": 1,
+         "target": "pctony"
+      },
+      {
+         "source": "Scott Leberknight",
+         "value": 1,
+         "target": "gbarton"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 5,
+         "target": "Scott Leberknight"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 1,
+         "target": "Tim"
+      },
+      {
+         "source": "amccurry",
+         "value": 6,
+         "target": "gbarton"
+      },
+      {
+         "source": "Tim",
+         "value": 1,
+         "target": "amccurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 2,
+         "target": "Tim"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 200,
+         "target": "amccurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 6,
+         "target": "gbarton"
+      },
+      {
+         "source": "amccurry",
+         "value": 1,
+         "target": "Tim"
+      },
+      {
+         "source": "amccurry",
+         "value": 4,
+         "target": "Scott Leberknight"
+      }
+   ],
    "nodes": [
       {
-         "id": "7096",
+         "id": "twilliams",
          "group": 1
       },
       {
-         "id": "7101",
-         "group": 1
+         "id": "Aaron McCurry",
+         "group": 2
       },
       {
-         "id": "7097",
+         "id": "amccurry",
+         "group": 3
+      },
+      {
+         "id": "gbarton",
+         "group": 2
+      },
+      {
+         "id": "pctony",
+         "group": 3
+      },
+      {
+         "id": "Tim",
+         "group": 3
+      },
+      {
+         "id": "Scott Leberknight",
          "group": 4
       },
       {
-         "id": "7102",
-         "group": 2
-      },
-      {
-         "id": "193",
+         "id": "Tim",
          "group": 3
-      },
-      {
-         "id": "7095",
-         "group": 2
-      },
-      {
-         "id": "7099",
-         "group": 2
-      },
-      {
-         "id": "7098",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7097",
-         "source": "7101"
-      },
-      {
-         "value": 5,
-         "target": "7099",
-         "source": "7097"
-      },
-      {
-         "value": 1,
-         "target": "7101",
-         "source": "7096"
-      },
-      {
-         "value": 2,
-         "target": "7102",
-         "source": "7097"
-      },
-      {
-         "value": 200,
-         "target": "7097",
-         "source": "7096"
-      },
-      {
-         "value": 1,
-         "target": "7102",
-         "source": "7096"
-      },
-      {
-         "value": 5,
-         "target": "7099",
-         "source": "7096"
-      },
-      {
-         "value": 6,
-         "target": "7098",
-         "source": "7097"
-      },
-      {
-         "value": 6,
-         "target": "7098",
-         "source": "7096"
-      },
-      {
-         "value": 1,
-         "target": "193",
-         "source": "7095"
-      },
-      {
-         "value": 1,
-         "target": "7098",
-         "source": "7099"
       }
    ]
 }

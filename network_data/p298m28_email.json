@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 4
-      },
-      {
-         "id": "4107",
-         "group": 4
-      },
-      {
-         "id": "4102",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Romain Manni-Bucau",
          "value": 1,
-         "target": "5928",
-         "source": "4102"
+         "target": "Olivier Lamy"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "4107",
-         "source": "5928"
+         "target": "Romain Manni-Bucau"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 1
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 1
       }
    ]
 }

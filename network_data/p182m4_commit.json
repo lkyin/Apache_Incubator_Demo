@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "29356",
-         "group": 1
-      },
-      {
-         "id": "29365",
-         "group": 2
-      },
-      {
-         "id": "29355",
-         "group": 1
-      },
-      {
-         "id": "29433",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "29365",
-         "source": "29355"
-      },
-      {
-         "value": 13,
-         "target": "29433",
-         "source": "29355"
-      },
-      {
-         "value": 1,
-         "target": "29365",
-         "source": "29356"
-      },
-      {
+         "source": "solomax",
          "value": 19,
-         "target": "29355",
-         "source": "29356"
+         "target": "sebawagner"
+      },
+      {
+         "source": "sebawagner",
+         "value": 1,
+         "target": "eschwert"
+      },
+      {
+         "source": "solomax",
+         "value": 1,
+         "target": "eschwert"
+      },
+      {
+         "source": "timur",
+         "value": 13,
+         "target": "sebawagner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "solomax",
+         "group": 4
+      },
+      {
+         "id": "timur",
+         "group": 4
+      },
+      {
+         "id": "eschwert",
+         "group": 4
+      },
+      {
+         "id": "sebawagner",
+         "group": 3
       }
    ]
 }

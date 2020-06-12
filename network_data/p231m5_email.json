@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "8706",
-         "group": 3
-      },
-      {
-         "id": "40398",
-         "group": 4
-      },
-      {
-         "id": "1112",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Chris A. Mattmann (JIRA)",
          "value": 1,
-         "target": "40398",
-         "source": "8706"
+         "target": "Jukka Zitting (JIRA)"
       },
       {
+         "source": "Jukka Zitting (JIRA)",
          "value": 1,
-         "target": "8706",
-         "source": "1112"
+         "target": "Rida Benjelloun (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jukka Zitting (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Chris A. Mattmann (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Rida Benjelloun (JIRA)",
+         "group": 4
       }
    ]
 }

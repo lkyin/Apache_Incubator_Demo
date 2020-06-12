@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3571",
-         "group": 2
+         "source": "JamesBognar",
+         "value": 209,
+         "target": "jamesbognar"
       },
       {
-         "id": "22894",
+         "source": "John D. Ament",
+         "value": 1,
+         "target": "jamesbognar"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "JamesBognar",
          "group": 3
       },
       {
-         "id": "22899",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 209,
-         "target": "22899",
-         "source": "22894"
+         "id": "John D. Ament",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "22894",
-         "source": "3571"
+         "id": "jamesbognar",
+         "group": 3
       }
    ]
 }

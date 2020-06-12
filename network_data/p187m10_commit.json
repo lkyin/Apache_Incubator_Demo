@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "31053",
-         "group": 1
-      },
-      {
-         "id": "31076",
-         "group": 1
-      },
-      {
-         "id": "20681",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Ryan Blue",
          "value": 2,
-         "target": "20681",
-         "source": "31076"
+         "target": "alexlevenson"
       },
       {
+         "source": "Ryan Blue",
          "value": 8,
-         "target": "20681",
-         "source": "31053"
+         "target": "Alex Levenson"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Ryan Blue",
+         "group": 4
+      },
+      {
+         "id": "Alex Levenson",
+         "group": 1
+      },
+      {
+         "id": "alexlevenson",
+         "group": 4
       }
    ]
 }

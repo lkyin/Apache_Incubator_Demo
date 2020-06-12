@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "23212",
-         "group": 4
-      },
-      {
-         "id": "419",
-         "group": 2
-      },
-      {
-         "id": "3873",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Achim Nierbeck",
          "value": 1,
-         "target": "3873",
-         "source": "419"
+         "target": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?="
       },
       {
+         "source": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
          "value": 1,
-         "target": "419",
-         "source": "23212"
+         "target": "Justin Mclean"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Achim Nierbeck",
+         "group": 3
+      },
+      {
+         "id": "=?ISO-8859-1?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 2
+      },
+      {
+         "id": "Justin Mclean",
+         "group": 2
       }
    ]
 }

@@ -1,61 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "402",
-         "group": 2
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "=?UTF-8?Q?Bj=C3=B6rn_Petri?="
       },
       {
-         "id": "8672",
+         "source": "=?UTF-8?Q?Bj=C3=B6rn_Petri?=",
+         "value": 1,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Mohammad Nour El-Din"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 2,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 2,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "Mohammad Nour El-Din",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Mohammad Nour El-Din",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?Q?Bj=C3=B6rn_Petri?=",
          "group": 4
       },
       {
-         "id": "8651",
+         "id": "Alexander Broekhuis",
          "group": 1
       },
       {
-         "id": "5878",
-         "group": 1
-      },
-      {
-         "id": "8662",
+         "id": "Mohammad Nour El-Din",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "8651",
-         "source": "402"
       },
       {
-         "value": 1,
-         "target": "8651",
-         "source": "5878"
+         "id": "Marcel Offermans",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "5878",
-         "source": "8651"
-      },
-      {
-         "value": 2,
-         "target": "402",
-         "source": "8651"
-      },
-      {
-         "value": 1,
-         "target": "8672",
-         "source": "8662"
-      },
-      {
-         "value": 1,
-         "target": "402",
-         "source": "5878"
-      },
-      {
-         "value": 1,
-         "target": "8662",
-         "source": "8672"
+         "id": "Pepijn Noltes",
+         "group": 4
       }
    ]
 }

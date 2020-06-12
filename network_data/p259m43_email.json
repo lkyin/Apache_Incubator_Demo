@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "7077",
-         "group": 3
-      },
-      {
-         "id": "7078",
-         "group": 4
-      },
-      {
-         "id": "7047",
-         "group": 4
-      },
-      {
-         "id": "7071",
-         "group": 4
-      },
-      {
-         "id": "7085",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "7077",
-         "source": "7071"
-      },
-      {
-         "value": 1,
-         "target": "7085",
-         "source": "7077"
-      },
-      {
-         "value": 1,
-         "target": "7077",
-         "source": "7085"
-      },
-      {
-         "value": 2,
-         "target": "7077",
-         "source": "7047"
-      },
-      {
-         "value": 1,
-         "target": "7077",
-         "source": "7078"
-      },
-      {
+         "source": "SamuelKevin",
          "value": 44,
-         "target": "7078",
-         "source": "7077"
+         "target": "Chen Liu"
+      },
+      {
+         "source": "SamuelKevin",
+         "value": 1,
+         "target": "=?UTF-8?B?5p2O6YeN6YeN?="
+      },
+      {
+         "source": "Raghavan Srinivasan",
+         "value": 1,
+         "target": "SamuelKevin"
+      },
+      {
+         "source": "Bernd Fondermann",
+         "value": 2,
+         "target": "SamuelKevin"
+      },
+      {
+         "source": "Chen Liu",
+         "value": 1,
+         "target": "SamuelKevin"
+      },
+      {
+         "source": "=?UTF-8?B?5p2O6YeN6YeN?=",
+         "value": 1,
+         "target": "SamuelKevin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chen Liu",
+         "group": 2
+      },
+      {
+         "id": "Raghavan Srinivasan",
+         "group": 4
+      },
+      {
+         "id": "Bernd Fondermann",
+         "group": 4
+      },
+      {
+         "id": "SamuelKevin",
+         "group": 2
+      },
+      {
+         "id": "=?UTF-8?B?5p2O6YeN6YeN?=",
+         "group": 4
       }
    ]
 }

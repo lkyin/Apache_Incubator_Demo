@@ -1,113 +1,108 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "1653",
-         "group": 2
+         "source": "Bolke de Bruin",
+         "value": 1,
+         "target": "Sumit Maheshwari"
       },
       {
-         "id": "1410",
+         "source": "Bolke de Bruin",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Sumit Maheshwari",
+         "value": 1,
+         "target": "Siddharth Anand"
+      },
+      {
+         "source": "gtoonstra",
+         "value": 1,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Siddharth Anand",
+         "value": 2,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Siddharth Anand",
+         "value": 6,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Sumit Maheshwari",
+         "value": 1,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Li Xuanji",
+         "value": 1,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Li Xuanji",
+         "value": 3,
+         "target": "Siddharth Anand"
+      },
+      {
+         "source": "Li Xuanji",
+         "value": 1,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 3,
+         "target": "Siddharth Anand"
+      },
+      {
+         "source": "Li Xuanji",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 2,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "jlowin",
+         "value": 2,
+         "target": "Siddharth Anand"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gtoonstra",
          "group": 4
       },
       {
-         "id": "1329",
+         "id": "Bolke de Bruin",
+         "group": 4
+      },
+      {
+         "id": "Sumit Maheshwari",
+         "group": 4
+      },
+      {
+         "id": "jlowin",
+         "group": 4
+      },
+      {
+         "id": "Dan Davydov",
+         "group": 2
+      },
+      {
+         "id": "Li Xuanji",
+         "group": 2
+      },
+      {
+         "id": "Siddharth Anand",
          "group": 1
       },
       {
-         "id": "1293",
-         "group": 2
-      },
-      {
-         "id": "1644",
-         "group": 2
-      },
-      {
-         "id": "1324",
+         "id": "Chris Riccomini",
          "group": 4
-      },
-      {
-         "id": "1353",
-         "group": 2
-      },
-      {
-         "id": "1315",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "1315",
-         "source": "1293"
-      },
-      {
-         "value": 2,
-         "target": "1353",
-         "source": "1293"
-      },
-      {
-         "value": 1,
-         "target": "1315",
-         "source": "1329"
-      },
-      {
-         "value": 3,
-         "target": "1410",
-         "source": "1293"
-      },
-      {
-         "value": 1,
-         "target": "1329",
-         "source": "1653"
-      },
-      {
-         "value": 1,
-         "target": "1315",
-         "source": "1410"
-      },
-      {
-         "value": 1,
-         "target": "1644",
-         "source": "1329"
-      },
-      {
-         "value": 2,
-         "target": "1329",
-         "source": "1293"
-      },
-      {
-         "value": 1,
-         "target": "1324",
-         "source": "1653"
-      },
-      {
-         "value": 1,
-         "target": "1324",
-         "source": "1410"
-      },
-      {
-         "value": 2,
-         "target": "1324",
-         "source": "1293"
-      },
-      {
-         "value": 2,
-         "target": "1329",
-         "source": "1324"
-      },
-      {
-         "value": 1,
-         "target": "1293",
-         "source": "1329"
-      },
-      {
-         "value": 1,
-         "target": "1653",
-         "source": "1293"
-      },
-      {
-         "value": 1,
-         "target": "1329",
-         "source": "1410"
       }
    ]
 }

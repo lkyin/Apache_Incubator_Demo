@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "42096",
-         "group": 3
+         "source": "chtyim",
+         "value": 1,
+         "target": "poorna"
       },
       {
-         "id": "42095",
+         "source": "chtyim",
+         "value": 4,
+         "target": "Terence Yim"
+      },
+      {
+         "source": "Albert Shau",
+         "value": 2,
+         "target": "chtyim"
+      },
+      {
+         "source": "Albert Shau",
+         "value": 5,
+         "target": "Terence Yim"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "chtyim",
+         "group": 1
+      },
+      {
+         "id": "poorna",
          "group": 2
       },
       {
-         "id": "42092",
-         "group": 4
+         "id": "Terence Yim",
+         "group": 3
       },
       {
-         "id": "39815",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "39815",
-         "source": "42096"
-      },
-      {
-         "value": 5,
-         "target": "42092",
-         "source": "42095"
-      },
-      {
-         "value": 2,
-         "target": "39815",
-         "source": "42095"
-      },
-      {
-         "value": 4,
-         "target": "39815",
-         "source": "42092"
+         "id": "Albert Shau",
+         "group": 3
       }
    ]
 }

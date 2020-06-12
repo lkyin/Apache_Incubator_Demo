@@ -1,28 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "5261",
-         "group": 2
-      },
-      {
-         "id": "5611",
-         "group": 2
-      },
-      {
-         "id": "5249",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "5611",
-         "source": "5261"
+         "source": "Madhan Neethiraj",
+         "value": 14,
+         "target": "madhan"
       },
       {
-         "value": 17,
-         "target": "5249",
-         "source": "5261"
+         "source": "madhan",
+         "value": 1,
+         "target": "Don Bosco Durai"
+      },
+      {
+         "source": "madhan",
+         "value": 3,
+         "target": "Madhan Neethiraj"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "madhan",
+         "group": 3
+      },
+      {
+         "id": "Madhan Neethiraj",
+         "group": 3
+      },
+      {
+         "id": "Don Bosco Durai",
+         "group": 4
       }
    ]
 }

@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "24422",
-         "group": 3
-      },
-      {
-         "id": "24423",
-         "group": 4
-      },
-      {
-         "id": "24418",
-         "group": 1
-      },
-      {
-         "id": "24425",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 24,
-         "target": "24425",
-         "source": "24422"
-      },
-      {
+         "source": "Benjamin Mahler",
          "value": 1,
-         "target": "24422",
-         "source": "24423"
+         "target": "Vinod Kone"
       },
       {
-         "value": 58,
-         "target": "24425",
-         "source": "24418"
-      },
-      {
+         "source": "Benjamin Mahler",
          "value": 1,
-         "target": "24425",
-         "source": "24423"
+         "target": "Benjamin Hindman"
       },
       {
-         "value": 1,
-         "target": "24418",
-         "source": "24423"
-      },
-      {
+         "source": "Vinod Kone",
          "value": 15,
-         "target": "24418",
-         "source": "24422"
+         "target": "benh"
+      },
+      {
+         "source": "Benjamin Hindman",
+         "value": 58,
+         "target": "benh"
+      },
+      {
+         "source": "Benjamin Mahler",
+         "value": 1,
+         "target": "benh"
+      },
+      {
+         "source": "Vinod Kone",
+         "value": 24,
+         "target": "Benjamin Hindman"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Benjamin Mahler",
+         "group": 4
+      },
+      {
+         "id": "Vinod Kone",
+         "group": 4
+      },
+      {
+         "id": "Benjamin Hindman",
+         "group": 2
+      },
+      {
+         "id": "benh",
+         "group": 2
       }
    ]
 }

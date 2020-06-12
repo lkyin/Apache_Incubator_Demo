@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Will Vaughan",
+         "value": 1,
+         "target": "Sam Shah"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "John Smith"
+      },
+      {
+         "source": "Sam Shah",
+         "value": 1,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Sam Shah",
+         "value": 1,
+         "target": "Matthew Hayes"
+      }
+   ],
    "nodes": [
       {
-         "id": "12095",
-         "group": 2
-      },
-      {
-         "id": "12035",
-         "group": 1
-      },
-      {
-         "id": "12043",
-         "group": 3
-      },
-      {
-         "id": "12020",
+         "id": "Matthew Hayes",
          "group": 4
       },
       {
-         "id": "12048",
+         "id": "John Smith",
+         "group": 2
+      },
+      {
+         "id": "Matthew Hayes",
+         "group": 2
+      },
+      {
+         "id": "Sam Shah",
+         "group": 1
+      },
+      {
+         "id": "Will Vaughan",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12048",
-         "source": "12043"
-      },
-      {
-         "value": 1,
-         "target": "12020",
-         "source": "12048"
-      },
-      {
-         "value": 1,
-         "target": "12095",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "12035",
-         "source": "12048"
       }
    ]
 }

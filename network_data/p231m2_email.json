@@ -1,84 +1,84 @@
 {
+   "links": [
+      {
+         "source": "Rida Benjelloun",
+         "value": 1,
+         "target": "Chris Mattmann"
+      },
+      {
+         "source": "Rida Benjelloun",
+         "value": 2,
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "Jukka Zitting",
+         "value": 1,
+         "target": "Thilo Goetz"
+      },
+      {
+         "source": "Thilo Goetz",
+         "value": 1,
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "Jukka Zitting",
+         "value": 1,
+         "target": "Bertrand Delacretaz"
+      },
+      {
+         "source": "Lars Trieloff",
+         "value": 1,
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "Doug Cutting",
+         "value": 1,
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "Jukka Zitting",
+         "value": 1,
+         "target": "Rida Benjelloun"
+      },
+      {
+         "source": "Bertrand Delacretaz",
+         "value": 1,
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "Chris Mattmann",
+         "value": 1,
+         "target": "Doug Cutting"
+      }
+   ],
    "nodes": [
       {
-         "id": "36673",
+         "id": "Bertrand Delacretaz",
+         "group": 3
+      },
+      {
+         "id": "Thilo Goetz",
+         "group": 3
+      },
+      {
+         "id": "Rida Benjelloun",
          "group": 1
       },
       {
-         "id": "7127",
-         "group": 3
-      },
-      {
-         "id": "142",
-         "group": 3
-      },
-      {
-         "id": "29751",
-         "group": 2
-      },
-      {
-         "id": "28125",
-         "group": 2
-      },
-      {
-         "id": "404",
+         "id": "Chris Mattmann",
          "group": 4
       },
       {
-         "id": "40397",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "29751",
-         "source": "142"
+         "id": "Jukka Zitting",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "28125",
-         "source": "40397"
+         "id": "Lars Trieloff",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "142",
-         "source": "7127"
-      },
-      {
-         "value": 1,
-         "target": "7127",
-         "source": "28125"
-      },
-      {
-         "value": 2,
-         "target": "142",
-         "source": "40397"
-      },
-      {
-         "value": 1,
-         "target": "142",
-         "source": "29751"
-      },
-      {
-         "value": 1,
-         "target": "142",
-         "source": "36673"
-      },
-      {
-         "value": 1,
-         "target": "142",
-         "source": "404"
-      },
-      {
-         "value": 1,
-         "target": "40397",
-         "source": "142"
-      },
-      {
-         "value": 1,
-         "target": "404",
-         "source": "142"
+         "id": "Doug Cutting",
+         "group": 2
       }
    ]
 }

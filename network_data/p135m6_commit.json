@@ -1,42 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "21209",
-         "group": 3
-      },
-      {
-         "id": "22107",
-         "group": 3
-      },
-      {
-         "id": "22112",
-         "group": 3
-      },
-      {
-         "id": "22108",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "22112",
-         "source": "21209"
-      },
-      {
+         "source": "clr",
          "value": 1,
-         "target": "22112",
-         "source": "22107"
+         "target": "mcaisse"
       },
       {
-         "value": 2,
-         "target": "22112",
-         "source": "22108"
+         "source": "brazil",
+         "value": 4,
+         "target": "clr"
       },
       {
+         "source": "mcaisse",
+         "value": 1,
+         "target": "clr"
+      },
+      {
+         "source": "mbo",
          "value": 2,
-         "target": "22107",
-         "source": "21209"
+         "target": "brazil"
+      },
+      {
+         "source": "brazil",
+         "value": 1,
+         "target": "mcaisse"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mbo",
+         "group": 1
+      },
+      {
+         "id": "brazil",
+         "group": 1
+      },
+      {
+         "id": "mcaisse",
+         "group": 4
+      },
+      {
+         "id": "clr",
+         "group": 1
       }
    ]
 }

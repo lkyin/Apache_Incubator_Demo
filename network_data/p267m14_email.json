@@ -1,74 +1,74 @@
 {
+   "links": [
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "Javier Puerto"
+      },
+      {
+         "source": "Ryan McKinley",
+         "value": 1,
+         "target": "Chapuis Bertil"
+      },
+      {
+         "source": "Javier Puerto",
+         "value": 1,
+         "target": "Chapuis Bertil"
+      },
+      {
+         "source": "Chapuis Bertil",
+         "value": 2,
+         "target": "Thorsten Scherler"
+      },
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "Chapuis Bertil"
+      },
+      {
+         "source": "Otis Gospodnetic",
+         "value": 1,
+         "target": "Ryan McKinley"
+      },
+      {
+         "source": "Thorsten Scherler (JIRA)",
+         "value": 1,
+         "target": "Otis Gospodnetic (JIRA)"
+      },
+      {
+         "source": "Chapuis Bertil",
+         "value": 1,
+         "target": "Otis Gospodnetic"
+      }
+   ],
    "nodes": [
       {
-         "id": "13703",
+         "id": "Otis Gospodnetic (JIRA)",
          "group": 1
       },
       {
-         "id": "13721",
+         "id": "Thorsten Scherler",
          "group": 2
       },
       {
-         "id": "13708",
+         "id": "Thorsten Scherler (JIRA)",
          "group": 3
       },
       {
-         "id": "13701",
+         "id": "Chapuis Bertil",
          "group": 2
       },
       {
-         "id": "13732",
+         "id": "Javier Puerto",
          "group": 1
       },
       {
-         "id": "7140",
-         "group": 2
-      },
-      {
-         "id": "13704",
+         "id": "Ryan McKinley",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "13732",
-         "source": "13703"
       },
       {
-         "value": 1,
-         "target": "13721",
-         "source": "13732"
-      },
-      {
-         "value": 2,
-         "target": "13704",
-         "source": "13732"
-      },
-      {
-         "value": 1,
-         "target": "13732",
-         "source": "13708"
-      },
-      {
-         "value": 1,
-         "target": "7140",
-         "source": "13701"
-      },
-      {
-         "value": 1,
-         "target": "13732",
-         "source": "13704"
-      },
-      {
-         "value": 1,
-         "target": "13703",
-         "source": "13721"
-      },
-      {
-         "value": 1,
-         "target": "13708",
-         "source": "13704"
+         "id": "Otis Gospodnetic",
+         "group": 3
       }
    ]
 }

@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "5158",
-         "group": 2
-      },
-      {
-         "id": "4680",
-         "group": 2
-      },
-      {
-         "id": "7625",
-         "group": 2
-      },
-      {
-         "id": "5696",
-         "group": 1
-      },
-      {
-         "id": "3394",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "3394",
-         "source": "4680"
+         "target": "Jake Farrell"
       },
       {
+         "source": "Jake Farrell",
          "value": 1,
-         "target": "5696",
-         "source": "5158"
+         "target": "Atri Sharma"
       },
       {
+         "source": "Julian Hyde",
          "value": 1,
-         "target": "4680",
-         "source": "5696"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Atri Sharma",
          "value": 1,
-         "target": "5158",
-         "source": "7625"
+         "target": "Chris Nauroth"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Atri Sharma",
+         "group": 2
+      },
+      {
+         "id": "Julian Hyde",
+         "group": 4
+      },
+      {
+         "id": "Chris Nauroth",
+         "group": 2
+      },
+      {
+         "id": "Jake Farrell",
+         "group": 4
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 4
       }
    ]
 }

@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Edward J. Yoon",
+         "value": 1,
+         "target": "Samuel Guo"
+      },
+      {
+         "source": "Hudson (JIRA)",
+         "value": 2,
+         "target": "Edward J. Yoon (JIRA)"
+      },
+      {
+         "source": "Samuel Guo (JIRA)",
+         "value": 3,
+         "target": "Edward J. Yoon (JIRA)"
+      },
+      {
+         "source": "Samuel Guo",
+         "value": 1,
+         "target": "Edward J. Yoon"
+      }
+   ],
    "nodes": [
       {
-         "id": "6212",
-         "group": 1
-      },
-      {
-         "id": "6719",
-         "group": 3
-      },
-      {
-         "id": "18782",
+         "id": "Samuel Guo",
          "group": 2
       },
       {
-         "id": "4557",
+         "id": "Samuel Guo (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Hudson (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Edward J. Yoon",
          "group": 3
       },
       {
-         "id": "18781",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6719",
-         "source": "18781"
-      },
-      {
-         "value": 1,
-         "target": "18781",
-         "source": "6719"
-      },
-      {
-         "value": 3,
-         "target": "6212",
-         "source": "18782"
-      },
-      {
-         "value": 2,
-         "target": "6212",
-         "source": "4557"
+         "id": "Edward J. Yoon (JIRA)",
+         "group": 3
       }
    ]
 }

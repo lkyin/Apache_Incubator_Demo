@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "39919",
-         "group": 3
-      },
-      {
-         "id": "23290",
-         "group": 3
-      },
-      {
-         "id": "39916",
-         "group": 4
-      },
-      {
-         "id": "39920",
-         "group": 3
-      },
-      {
-         "id": "39922",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "esteve",
+         "value": 1,
+         "target": "jake"
+      },
+      {
+         "source": "dreiss",
+         "value": 1,
+         "target": "todd"
+      },
+      {
+         "source": "jake",
+         "value": 1,
+         "target": "todd"
+      },
+      {
+         "source": "esteve",
+         "value": 1,
+         "target": "todd"
+      },
+      {
+         "source": "bryanduxbury",
          "value": 4,
-         "target": "39920",
-         "source": "23290"
+         "target": "todd"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bryanduxbury",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "39919",
-         "source": "23290"
+         "id": "esteve",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "39922",
-         "source": "39919"
+         "id": "jake",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "39916",
-         "source": "23290"
+         "id": "dreiss",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "39922",
-         "source": "23290"
+         "id": "todd",
+         "group": 2
       }
    ]
 }

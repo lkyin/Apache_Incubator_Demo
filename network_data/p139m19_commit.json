@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "ajaquith",
+         "value": 11,
+         "target": "metskem"
+      },
+      {
+         "source": "jalkanen",
+         "value": 9,
+         "target": "metskem"
+      },
+      {
+         "source": "jalkanen",
+         "value": 40,
+         "target": "ajaquith"
+      }
+   ],
    "nodes": [
       {
-         "id": "22456",
+         "id": "jalkanen",
+         "group": 2
+      },
+      {
+         "id": "ajaquith",
          "group": 4
       },
       {
-         "id": "22452",
-         "group": 1
-      },
-      {
-         "id": "22453",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 40,
-         "target": "22453",
-         "source": "22452"
-      },
-      {
-         "value": 11,
-         "target": "22453",
-         "source": "22456"
-      },
-      {
-         "value": 9,
-         "target": "22452",
-         "source": "22456"
+         "id": "metskem",
+         "group": 4
       }
    ]
 }

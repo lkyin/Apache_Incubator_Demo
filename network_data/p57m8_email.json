@@ -1,149 +1,149 @@
 {
-   "nodes": [
-      {
-         "id": "28772",
-         "group": 3
-      },
-      {
-         "id": "28771",
-         "group": 2
-      },
-      {
-         "id": "28774",
-         "group": 4
-      },
-      {
-         "id": "28769",
-         "group": 1
-      },
-      {
-         "id": "4488",
-         "group": 1
-      },
-      {
-         "id": "7574",
-         "group": 1
-      },
-      {
-         "id": "28773",
-         "group": 1
-      },
-      {
-         "id": "28763",
-         "group": 4
-      },
-      {
-         "id": "28775",
-         "group": 2
-      },
-      {
-         "id": "17351",
-         "group": 1
-      },
-      {
-         "id": "607",
-         "group": 3
-      },
-      {
-         "id": "2868",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "David Jencks",
          "value": 1,
-         "target": "17351",
-         "source": "4488"
+         "target": "Tommaso Teofili"
       },
       {
+         "source": "Tommaso Teofili",
          "value": 1,
-         "target": "607",
-         "source": "4488"
+         "target": "Stefan Seelmann"
       },
       {
+         "source": "Stefan Seelmann",
+         "value": 1,
+         "target": "Maciej Machulak"
+      },
+      {
+         "source": "jean-frederic clere",
+         "value": 1,
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Lukasz Moren",
+         "value": 1,
+         "target": "Maciej Machulak"
+      },
+      {
+         "source": "Maciej Machulak",
+         "value": 2,
+         "target": "Stefan Seelmann"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "David Jencks"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Lukasz Moren"
+      },
+      {
+         "source": "Maciej Machulak",
          "value": 4,
-         "target": "4488",
-         "source": "28769"
+         "target": "Tommaso Teofili"
       },
       {
-         "value": 1,
-         "target": "7574",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "28772",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "28774",
-         "source": "2868"
-      },
-      {
+         "source": "Pid",
          "value": 2,
-         "target": "4488",
-         "source": "28773"
+         "target": "Stefan Seelmann"
       },
       {
+         "source": "Stefan Seelmann (JIRA)",
          "value": 1,
-         "target": "28775",
-         "source": "2868"
+         "target": "Maciej Machulak (JIRA)"
       },
       {
+         "source": "Tommaso Teofili",
          "value": 1,
-         "target": "28773",
-         "source": "607"
+         "target": "Simone Tripodi"
       },
       {
+         "source": "David Jencks",
+         "value": 1,
+         "target": "Stefan Seelmann"
+      },
+      {
+         "source": "Stefan Seelmann (JIRA)",
+         "value": 1,
+         "target": "Lukasz Moren (JIRA)"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Maciej Machulak"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Rouaix Finances"
+      },
+      {
+         "source": "Stefan Seelmann",
          "value": 2,
-         "target": "28773",
-         "source": "28769"
+         "target": "Tommaso Teofili"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Jencks",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "17351",
-         "source": "7574"
+         "id": "Maciej Machulak (JIRA)",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "28771",
-         "source": "17351"
+         "id": "Tommaso Teofili",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "28769",
-         "source": "4488"
+         "id": "jean-frederic clere",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "4488",
-         "source": "28763"
+         "id": "Simone Tripodi",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "28773",
-         "source": "17351"
+         "id": "Pid",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "4488",
-         "source": "607"
+         "id": "Stefan Seelmann",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "28769",
-         "source": "28772"
+         "id": "Maciej Machulak",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "28769",
-         "source": "28773"
+         "id": "Lukasz Moren",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "28773",
-         "source": "4488"
+         "id": "Lukasz Moren (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Rouaix Finances",
+         "group": 2
+      },
+      {
+         "id": "Stefan Seelmann (JIRA)",
+         "group": 1
       }
    ]
 }

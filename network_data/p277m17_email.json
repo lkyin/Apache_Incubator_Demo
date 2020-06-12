@@ -1,55 +1,55 @@
 {
-   "nodes": [
-      {
-         "id": "21288",
-         "group": 4
-      },
-      {
-         "id": "4452",
-         "group": 4
-      },
-      {
-         "id": "21273",
-         "group": 1
-      },
-      {
-         "id": "21274",
-         "group": 1
-      },
-      {
-         "id": "21249",
-         "group": 1
-      },
-      {
-         "id": "21289",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Barbara Malta Gomes",
          "value": 1,
-         "target": "21249",
-         "source": "4452"
+         "target": "Lucas Berri Cristofolini"
       },
       {
+         "source": "Lucas Berri Cristofolini",
          "value": 1,
-         "target": "21273",
-         "source": "21289"
+         "target": "Barbara Malta Gomes"
       },
       {
+         "source": "Lucas Berri Cristofolini",
          "value": 1,
-         "target": "21289",
-         "source": "21274"
+         "target": "=?UTF-8?Q?Rafael_Weing=C3=A4rtner?="
       },
       {
+         "source": "asfgit",
          "value": 1,
-         "target": "21289",
-         "source": "21273"
+         "target": "barbaragomes"
       },
       {
+         "source": "Barbara",
          "value": 1,
-         "target": "21288",
-         "source": "21289"
+         "target": "Lucas Berri Cristofolini"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lucas Berri Cristofolini",
+         "group": 4
+      },
+      {
+         "id": "asfgit",
+         "group": 4
+      },
+      {
+         "id": "barbaragomes",
+         "group": 3
+      },
+      {
+         "id": "Barbara Malta Gomes",
+         "group": 1
+      },
+      {
+         "id": "=?UTF-8?Q?Rafael_Weing=C3=A4rtner?=",
+         "group": 2
+      },
+      {
+         "id": "Barbara",
+         "group": 3
       }
    ]
 }

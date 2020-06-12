@@ -1,74 +1,74 @@
 {
+   "links": [
+      {
+         "source": "stevenbethard",
+         "value": 1,
+         "target": "dligach"
+      },
+      {
+         "source": "james-masanz",
+         "value": 1,
+         "target": "chenpei"
+      },
+      {
+         "source": "tmill",
+         "value": 4,
+         "target": "seanfinan"
+      },
+      {
+         "source": "dligach",
+         "value": 1,
+         "target": "tmill"
+      },
+      {
+         "source": "swu",
+         "value": 1,
+         "target": "tmill"
+      },
+      {
+         "source": "stevenbethard",
+         "value": 3,
+         "target": "tmill"
+      },
+      {
+         "source": "stevenbethard",
+         "value": 1,
+         "target": "swu"
+      },
+      {
+         "source": "tmill",
+         "value": 3,
+         "target": "dligach"
+      }
+   ],
    "nodes": [
       {
-         "id": "11632",
+         "id": "swu",
+         "group": 2
+      },
+      {
+         "id": "stevenbethard",
+         "group": 4
+      },
+      {
+         "id": "dligach",
+         "group": 2
+      },
+      {
+         "id": "james-masanz",
+         "group": 4
+      },
+      {
+         "id": "tmill",
          "group": 3
       },
       {
-         "id": "11624",
-         "group": 2
-      },
-      {
-         "id": "11628",
-         "group": 4
-      },
-      {
-         "id": "11627",
+         "id": "seanfinan",
          "group": 1
       },
       {
-         "id": "11626",
-         "group": 2
-      },
-      {
-         "id": "11635",
-         "group": 4
-      },
-      {
-         "id": "11630",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "11628",
-         "source": "11635"
-      },
-      {
-         "value": 3,
-         "target": "11630",
-         "source": "11628"
-      },
-      {
-         "value": 1,
-         "target": "11626",
-         "source": "11630"
-      },
-      {
-         "value": 1,
-         "target": "11628",
-         "source": "11630"
-      },
-      {
-         "value": 1,
-         "target": "11626",
-         "source": "11632"
-      },
-      {
-         "value": 1,
-         "target": "11624",
-         "source": "11627"
-      },
-      {
-         "value": 3,
-         "target": "11626",
-         "source": "11628"
-      },
-      {
-         "value": 1,
-         "target": "11628",
-         "source": "11632"
+         "id": "chenpei",
+         "group": 3
       }
    ]
 }

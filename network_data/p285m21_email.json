@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "308",
-         "group": 3
-      },
-      {
-         "id": "202",
-         "group": 2
-      },
-      {
-         "id": "16569",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Leonidas Fegaras",
          "value": 1,
-         "target": "202",
-         "source": "16569"
+         "target": "Alan D. Cabrera"
       },
       {
+         "source": "Alan D. Cabrera",
          "value": 1,
-         "target": "308",
-         "source": "202"
+         "target": "Marvin"
       },
       {
+         "source": "Alan D. Cabrera",
          "value": 1,
-         "target": "16569",
-         "source": "202"
+         "target": "Leonidas Fegaras"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Leonidas Fegaras",
+         "group": 1
+      },
+      {
+         "id": "Alan D. Cabrera",
+         "group": 1
+      },
+      {
+         "id": "Marvin",
+         "group": 2
       }
    ]
 }

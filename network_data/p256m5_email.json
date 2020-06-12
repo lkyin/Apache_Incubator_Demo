@@ -1,88 +1,88 @@
 {
-   "nodes": [
-      {
-         "id": "4845",
-         "group": 3
-      },
-      {
-         "id": "4874",
-         "group": 2
-      },
-      {
-         "id": "4835",
-         "group": 2
-      },
-      {
-         "id": "4452",
-         "group": 1
-      },
-      {
-         "id": "4867",
-         "group": 4
-      },
-      {
-         "id": "3571",
-         "group": 4
-      },
-      {
-         "id": "4833",
-         "group": 3
-      },
-      {
-         "id": "4869",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Ran Ziv",
          "value": 3,
-         "target": "3571",
-         "source": "4869"
+         "target": "John D. Ament"
       },
       {
+         "source": "Arthur Berezin",
          "value": 1,
-         "target": "4867",
-         "source": "4869"
+         "target": "Suneel Marthi"
       },
       {
-         "value": 2,
-         "target": "4833",
-         "source": "4452"
-      },
-      {
-         "value": 3,
-         "target": "4869",
-         "source": "3571"
-      },
-      {
-         "value": 2,
-         "target": "4845",
-         "source": "3571"
-      },
-      {
-         "value": 3,
-         "target": "3571",
-         "source": "4845"
-      },
-      {
-         "value": 1,
-         "target": "4869",
-         "source": "4845"
-      },
-      {
-         "value": 6,
-         "target": "4874",
-         "source": "4452"
-      },
-      {
+         "source": "ran-z",
          "value": 5,
-         "target": "4874",
-         "source": "4835"
+         "target": "dankilman"
       },
       {
+         "source": "John D. Ament",
+         "value": 2,
+         "target": "Ran Ziv"
+      },
+      {
+         "source": "asfgit",
          "value": 1,
-         "target": "4835",
-         "source": "4452"
+         "target": "ran-z"
+      },
+      {
+         "source": "asfgit",
+         "value": 6,
+         "target": "dankilman"
+      },
+      {
+         "source": "asfgit",
+         "value": 2,
+         "target": "mxmrlv"
+      },
+      {
+         "source": "Arthur Berezin",
+         "value": 3,
+         "target": "John D. Ament"
+      },
+      {
+         "source": "Ran Ziv",
+         "value": 1,
+         "target": "Arthur Berezin"
+      },
+      {
+         "source": "John D. Ament",
+         "value": 3,
+         "target": "Arthur Berezin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ran-z",
+         "group": 4
+      },
+      {
+         "id": "mxmrlv",
+         "group": 3
+      },
+      {
+         "id": "asfgit",
+         "group": 3
+      },
+      {
+         "id": "Suneel Marthi",
+         "group": 4
+      },
+      {
+         "id": "Ran Ziv",
+         "group": 4
+      },
+      {
+         "id": "Arthur Berezin",
+         "group": 4
+      },
+      {
+         "id": "John D. Ament",
+         "group": 2
+      },
+      {
+         "id": "dankilman",
+         "group": 1
       }
    ]
 }

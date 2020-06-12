@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "3341",
-         "group": 4
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Eyal Allweil"
       },
       {
-         "id": "12038",
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "johndament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Matthew Hayes",
          "group": 1
       },
       {
-         "id": "12020",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12038",
-         "source": "12020"
+         "id": "johndament",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "3341",
-         "source": "12020"
+         "id": "Eyal Allweil",
+         "group": 1
       }
    ]
 }

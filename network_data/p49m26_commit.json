@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "7",
-         "group": 4
-      },
-      {
-         "id": "11",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "dandiep",
          "value": 1,
-         "target": "11",
-         "source": "7"
+         "target": "calavera"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "dandiep",
+         "group": 2
+      },
+      {
+         "id": "calavera",
+         "group": 3
       }
    ]
 }

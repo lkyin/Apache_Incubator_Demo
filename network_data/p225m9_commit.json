@@ -1,66 +1,66 @@
 {
+   "links": [
+      {
+         "source": "ilgrosso",
+         "value": 80,
+         "target": "jbernhardt"
+      },
+      {
+         "source": "massi",
+         "value": 1,
+         "target": "jbernhardt"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 8,
+         "target": "coheigea"
+      },
+      {
+         "source": "jbernhardt",
+         "value": 1,
+         "target": "mdisabatino"
+      },
+      {
+         "source": "massi",
+         "value": 1,
+         "target": "mdisabatino"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 8,
+         "target": "massi"
+      },
+      {
+         "source": "ilgrosso",
+         "value": 1,
+         "target": "mdisabatino"
+      },
+      {
+         "source": "jbernhardt",
+         "value": 26,
+         "target": "coheigea"
+      }
+   ],
    "nodes": [
       {
-         "id": "28617",
-         "group": 1
-      },
-      {
-         "id": "39241",
-         "group": 1
-      },
-      {
-         "id": "39244",
-         "group": 1
-      },
-      {
-         "id": "39240",
+         "id": "ilgrosso",
          "group": 3
       },
       {
-         "id": "29148",
+         "id": "massi",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "39240",
-         "source": "39241"
       },
       {
-         "value": 80,
-         "target": "39244",
-         "source": "28617"
+         "id": "jbernhardt",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "39240",
-         "source": "28617"
+         "id": "coheigea",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "39244",
-         "source": "39241"
-      },
-      {
-         "value": 8,
-         "target": "29148",
-         "source": "28617"
-      },
-      {
-         "value": 1,
-         "target": "39240",
-         "source": "39244"
-      },
-      {
-         "value": 26,
-         "target": "29148",
-         "source": "39244"
-      },
-      {
-         "value": 8,
-         "target": "39241",
-         "source": "28617"
+         "id": "mdisabatino",
+         "group": 3
       }
    ]
 }

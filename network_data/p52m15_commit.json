@@ -1,24 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "545",
-         "group": 2
-      },
-      {
-         "id": "543",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 10,
-         "target": "543",
-         "source": "545"
+         "source": "tabish",
+         "value": 30,
+         "target": "nmittler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tabish",
+         "group": 3
       },
       {
-         "value": 20,
-         "target": "545",
-         "source": "543"
+         "id": "nmittler",
+         "group": 3
       }
    ]
 }

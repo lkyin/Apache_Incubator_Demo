@@ -1,56 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Damjan Jovanovic"
+      },
+      {
+         "source": "Nick Burch",
+         "value": 2,
+         "target": "Svante Schubert"
+      },
+      {
+         "source": "Nick Burch",
+         "value": 1,
+         "target": "Dave Fisher"
+      },
+      {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Nick Burch"
+      },
+      {
+         "source": "Damjan Jovanovic",
+         "value": 1,
+         "target": "Nick Burch"
+      },
+      {
+         "source": "Dave Fisher",
+         "value": 1,
+         "target": "Nick Burch"
+      }
+   ],
    "nodes": [
       {
-         "id": "4479",
+         "id": "Dave Fisher",
+         "group": 2
+      },
+      {
+         "id": "Svante Schubert",
          "group": 3
       },
       {
-         "id": "15438",
-         "group": 3
+         "id": "Nick Burch",
+         "group": 2
       },
       {
-         "id": "29884",
-         "group": 1
-      },
-      {
-         "id": "11330",
+         "id": "Nick Burch",
          "group": 4
       },
       {
-         "id": "7004",
+         "id": "Damjan Jovanovic",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "11330",
-         "source": "7004"
-      },
-      {
-         "value": 1,
-         "target": "7004",
-         "source": "4479"
-      },
-      {
-         "value": 1,
-         "target": "15438",
-         "source": "11330"
-      },
-      {
-         "value": 1,
-         "target": "15438",
-         "source": "29884"
-      },
-      {
-         "value": 1,
-         "target": "29884",
-         "source": "4479"
-      },
-      {
-         "value": 1,
-         "target": "4479",
-         "source": "7004"
       }
    ]
 }

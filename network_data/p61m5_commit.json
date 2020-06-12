@@ -1,82 +1,82 @@
 {
-   "nodes": [
-      {
-         "id": "4947",
-         "group": 1
-      },
-      {
-         "id": "4950",
-         "group": 2
-      },
-      {
-         "id": "4952",
-         "group": 1
-      },
-      {
-         "id": "4956",
-         "group": 4
-      },
-      {
-         "id": "4939",
-         "group": 4
-      },
-      {
-         "id": "536",
-         "group": 2
-      },
-      {
-         "id": "4958",
-         "group": 1
-      },
-      {
-         "id": "4943",
-         "group": 1
-      },
-      {
-         "id": "4957",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "djencks",
          "value": 4,
-         "target": "4958",
-         "source": "536"
+         "target": "gnodet"
       },
       {
-         "value": 12,
-         "target": "4956",
-         "source": "4950"
-      },
-      {
-         "value": 1,
-         "target": "4957",
-         "source": "4943"
-      },
-      {
+         "source": "djencks",
          "value": 5,
-         "target": "4958",
-         "source": "4947"
+         "target": "not"
       },
       {
+         "source": "not",
          "value": 11,
-         "target": "536",
-         "source": "4947"
+         "target": "gnodet"
       },
       {
+         "source": "not",
          "value": 1,
-         "target": "4952",
-         "source": "4947"
+         "target": "mnuttall"
       },
       {
+         "source": "mahrwald",
+         "value": 12,
+         "target": "timothyjward"
+      },
+      {
+         "source": "djencks",
          "value": 1,
-         "target": "4958",
-         "source": "4939"
+         "target": "hughesj"
       },
       {
+         "source": "mnuttall",
          "value": 2,
-         "target": "4952",
-         "source": "536"
+         "target": "gnodet"
+      },
+      {
+         "source": "jbohn",
+         "value": 1,
+         "target": "violetagg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "djencks",
+         "group": 1
+      },
+      {
+         "id": "violetagg",
+         "group": 1
+      },
+      {
+         "id": "hughesj",
+         "group": 3
+      },
+      {
+         "id": "timothyjward",
+         "group": 4
+      },
+      {
+         "id": "not",
+         "group": 4
+      },
+      {
+         "id": "jbohn",
+         "group": 4
+      },
+      {
+         "id": "mnuttall",
+         "group": 4
+      },
+      {
+         "id": "mahrwald",
+         "group": 4
+      },
+      {
+         "id": "gnodet",
+         "group": 2
       }
    ]
 }

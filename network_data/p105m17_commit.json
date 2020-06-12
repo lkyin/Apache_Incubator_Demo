@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "rickhall",
+         "value": 1,
+         "target": "sfrenot"
+      },
+      {
+         "source": "furfari",
+         "value": 1,
+         "target": "sfrenot"
+      }
+   ],
    "nodes": [
       {
-         "id": "15007",
+         "id": "furfari",
          "group": 4
       },
       {
-         "id": "15014",
+         "id": "sfrenot",
+         "group": 1
+      },
+      {
+         "id": "rickhall",
          "group": 3
-      },
-      {
-         "id": "15010",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "15010",
-         "source": "15014"
-      },
-      {
-         "value": 1,
-         "target": "15007",
-         "source": "15014"
       }
    ]
 }

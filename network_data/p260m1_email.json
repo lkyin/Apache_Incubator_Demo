@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "388",
-         "group": 2
-      },
-      {
-         "id": "7123",
-         "group": 2
-      },
-      {
-         "id": "7097",
-         "group": 2
-      },
-      {
-         "id": "7122",
-         "group": 4
-      },
-      {
-         "id": "7121",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "7122",
-         "source": "7121"
-      },
-      {
-         "value": 3,
-         "target": "7097",
-         "source": "388"
-      },
-      {
-         "value": 2,
-         "target": "7121",
-         "source": "7123"
-      },
-      {
+         "source": "Aaron McCurry",
          "value": 4,
-         "target": "388",
-         "source": "7097"
+         "target": "Tim Williams"
+      },
+      {
+         "source": "Tim Williams",
+         "value": 3,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "Aaron McCurry (JIRA)",
+         "value": 2,
+         "target": "Tim Williams (JIRA)"
+      },
+      {
+         "source": "Garrett Barton (JIRA)",
+         "value": 2,
+         "target": "Aaron McCurry (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Tim Williams (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Garrett Barton (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Tim Williams",
+         "group": 2
+      },
+      {
+         "id": "Aaron McCurry",
+         "group": 3
+      },
+      {
+         "id": "Aaron McCurry (JIRA)",
+         "group": 1
       }
    ]
 }

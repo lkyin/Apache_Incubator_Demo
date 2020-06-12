@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "19956",
-         "group": 4
-      },
-      {
-         "id": "31630",
-         "group": 1
-      },
-      {
-         "id": "31631",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "breed",
          "value": 2,
-         "target": "31631",
-         "source": "19956"
+         "target": "gates"
       },
       {
+         "source": "breed",
          "value": 2,
-         "target": "31631",
-         "source": "31630"
+         "target": "olga"
       },
       {
+         "source": "olga",
          "value": 7,
-         "target": "31630",
-         "source": "19956"
+         "target": "gates"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "breed",
+         "group": 3
+      },
+      {
+         "id": "olga",
+         "group": 2
+      },
+      {
+         "id": "gates",
+         "group": 3
       }
    ]
 }

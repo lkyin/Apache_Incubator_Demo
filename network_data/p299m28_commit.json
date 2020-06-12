@@ -1,33 +1,38 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "185",
-         "group": 2
+         "source": "Billie Rinaldi",
+         "value": 2,
+         "target": "Gour Saha"
       },
       {
-         "id": "4164",
+         "source": "billie",
+         "value": 1,
+         "target": "Gour Saha"
+      },
+      {
+         "source": "billie",
+         "value": 1,
+         "target": "Billie Rinaldi"
+      },
+      {
+         "source": "Billie Rinaldi",
+         "value": 10,
+         "target": "billie"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Billie Rinaldi",
+         "group": 1
+      },
+      {
+         "id": "Gour Saha",
          "group": 3
       },
       {
-         "id": "36514",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "4164",
-         "source": "185"
-      },
-      {
-         "value": 2,
-         "target": "36514",
-         "source": "4164"
-      },
-      {
-         "value": 1,
-         "target": "36514",
-         "source": "185"
+         "id": "billie",
+         "group": 2
       }
    ]
 }

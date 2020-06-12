@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "rickhall",
+         "value": 1,
+         "target": "sfrenot"
+      },
+      {
+         "source": "pauls",
+         "value": 2,
+         "target": "rickhall"
+      }
+   ],
    "nodes": [
       {
-         "id": "15014",
+         "id": "sfrenot",
          "group": 1
       },
       {
-         "id": "15007",
+         "id": "pauls",
          "group": 4
       },
       {
-         "id": "401",
+         "id": "rickhall",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "401",
-         "source": "15007"
-      },
-      {
-         "value": 1,
-         "target": "15007",
-         "source": "15014"
       }
    ]
 }

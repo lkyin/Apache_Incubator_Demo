@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14121",
-         "group": 3
+         "source": "Hao Chen",
+         "value": 2,
+         "target": "Hao Chen"
       },
       {
-         "id": "14122",
+         "source": "yonzhang2012",
+         "value": 1,
+         "target": "hao"
+      },
+      {
+         "source": "Hao Chen",
+         "value": 22,
+         "target": "hao"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "yonzhang2012",
+         "group": 2
+      },
+      {
+         "id": "Hao Chen",
          "group": 1
       },
       {
-         "id": "6464",
+         "id": "hao",
+         "group": 1
+      },
+      {
+         "id": "Hao Chen",
          "group": 4
-      },
-      {
-         "id": "14120",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 22,
-         "target": "6464",
-         "source": "14121"
-      },
-      {
-         "value": 1,
-         "target": "14120",
-         "source": "14121"
-      },
-      {
-         "value": 2,
-         "target": "6464",
-         "source": "14122"
       }
    ]
 }

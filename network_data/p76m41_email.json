@@ -1,97 +1,97 @@
 {
-   "nodes": [
-      {
-         "id": "8675",
-         "group": 4
-      },
-      {
-         "id": "8669",
-         "group": 4
-      },
-      {
-         "id": "8662",
-         "group": 4
-      },
-      {
-         "id": "8683",
-         "group": 4
-      },
-      {
-         "id": "474",
-         "group": 4
-      },
-      {
-         "id": "402",
-         "group": 1
-      },
-      {
-         "id": "8677",
-         "group": 1
-      },
-      {
-         "id": "8651",
-         "group": 2
-      },
-      {
-         "id": "411",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Ferry Huberts",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Ferry Huberts"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Gerrit Binnenmars",
+         "value": 2,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "Ferry Huberts",
+         "value": 1,
+         "target": "Mike van Dongen"
+      },
+      {
+         "source": "Erik Jansman",
+         "value": 2,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 1,
+         "target": "Pepijn Noltes"
+      },
+      {
+         "source": "Pepijn Noltes",
          "value": 3,
-         "target": "8651",
-         "source": "8662"
+         "target": "Alexander Broekhuis"
       },
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "8669",
-         "source": "8651"
+         "target": "Gerrit Binnenmars"
       },
       {
+         "source": "Alexander Broekhuis",
          "value": 1,
-         "target": "8662",
-         "source": "8651"
+         "target": "Marcel Offermans (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Gerrit Binnenmars",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "474",
-         "source": "8651"
+         "id": "Mike van Dongen",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "8651",
-         "source": "8675"
+         "id": "Marcel Offermans",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "8677",
-         "source": "8669"
+         "id": "Erik Jansman",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "8662",
-         "source": "402"
+         "id": "Ferry Huberts",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "8651",
-         "source": "8669"
+         "id": "Alexander Broekhuis",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "8662",
-         "source": "8683"
+         "id": "Marcel Offermans",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "411",
-         "source": "8651"
+         "id": "Pepijn Noltes",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "8675",
-         "source": "8651"
+         "id": "Marcel Offermans (JIRA)",
+         "group": 3
       }
    ]
 }

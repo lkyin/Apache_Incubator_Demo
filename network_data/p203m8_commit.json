@@ -1,42 +1,42 @@
 {
-   "nodes": [
-      {
-         "id": "33774",
-         "group": 1
-      },
-      {
-         "id": "1",
-         "group": 1
-      },
-      {
-         "id": "33775",
-         "group": 3
-      },
-      {
-         "id": "33777",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "mraible",
+         "value": 1,
+         "target": "agilliland"
+      },
+      {
+         "source": "eliast",
+         "value": 1,
+         "target": "agilliland"
+      },
+      {
+         "source": "snoopdave",
          "value": 8,
-         "target": "1",
-         "source": "33774"
+         "target": "eliast"
       },
       {
-         "value": 1,
-         "target": "33775",
-         "source": "1"
-      },
-      {
-         "value": 1,
-         "target": "33777",
-         "source": "33775"
-      },
-      {
+         "source": "snoopdave",
          "value": 7,
-         "target": "33775",
-         "source": "33774"
+         "target": "agilliland"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mraible",
+         "group": 3
+      },
+      {
+         "id": "snoopdave",
+         "group": 4
+      },
+      {
+         "id": "eliast",
+         "group": 4
+      },
+      {
+         "id": "agilliland",
+         "group": 2
       }
    ]
 }

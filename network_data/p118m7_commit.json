@@ -1,76 +1,66 @@
 {
+   "links": [
+      {
+         "source": "paulk",
+         "value": 4,
+         "target": "pascalschumacher"
+      },
+      {
+         "source": "Sergei Egorov",
+         "value": 2,
+         "target": "pascalschumacher"
+      },
+      {
+         "source": "Cedric Champeau",
+         "value": 1,
+         "target": "Sergei Egorov"
+      },
+      {
+         "source": "cchampeau",
+         "value": 9,
+         "target": "Sergei Egorov"
+      },
+      {
+         "source": "Cedric Champeau",
+         "value": 2,
+         "target": "pascalschumacher"
+      },
+      {
+         "source": "cchampeau",
+         "value": 1,
+         "target": "pascalschumacher"
+      },
+      {
+         "source": "paulk",
+         "value": 1,
+         "target": "Sergei Egorov"
+      },
+      {
+         "source": "Cedric Champeau",
+         "value": 1,
+         "target": "cchampeau"
+      }
+   ],
    "nodes": [
       {
-         "id": "18287",
+         "id": "Cedric Champeau",
          "group": 2
       },
       {
-         "id": "18301",
+         "id": "cchampeau",
          "group": 4
       },
       {
-         "id": "18323",
+         "id": "pascalschumacher",
+         "group": 2
+      },
+      {
+         "id": "Sergei Egorov",
          "group": 3
       },
       {
-         "id": "18290",
-         "group": 1
-      },
-      {
-         "id": "18288",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 8,
-         "target": "18323",
-         "source": "18301"
-      },
-      {
-         "value": 1,
-         "target": "18288",
-         "source": "18323"
-      },
-      {
-         "value": 1,
-         "target": "18287",
-         "source": "18323"
-      },
-      {
-         "value": 1,
-         "target": "18288",
-         "source": "18301"
-      },
-      {
-         "value": 1,
-         "target": "18301",
-         "source": "18323"
-      },
-      {
-         "value": 2,
-         "target": "18288",
-         "source": "18287"
-      },
-      {
-         "value": 1,
-         "target": "18323",
-         "source": "18288"
-      },
-      {
-         "value": 1,
-         "target": "18287",
-         "source": "18301"
-      },
-      {
-         "value": 4,
-         "target": "18288",
-         "source": "18290"
-      },
-      {
-         "value": 1,
-         "target": "18323",
-         "source": "18290"
+         "id": "paulk",
+         "group": 2
       }
    ]
 }

@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "Thorsten Scherler",
+         "value": 2,
+         "target": "javier"
+      },
+      {
+         "source": "=?UTF-8?B?THVrw6HFoSBWbMSNZWs=?=",
+         "value": 2,
+         "target": "Thorsten Scherler"
+      },
+      {
+         "source": "Thorsten Scherler",
+         "value": 1,
+         "target": "=?UTF-8?B?THVrw6HFoSBWbMSNZWs=?="
+      },
+      {
+         "source": "Javier Puerto",
+         "value": 1,
+         "target": "Thorsten Scherler"
+      }
+   ],
    "nodes": [
       {
-         "id": "13694",
+         "id": "=?UTF-8?B?THVrw6HFoSBWbMSNZWs=?=",
          "group": 1
       },
       {
-         "id": "13741",
-         "group": 4
-      },
-      {
-         "id": "7205",
-         "group": 3
-      },
-      {
-         "id": "13688",
+         "id": "Javier Puerto",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "13688",
-         "source": "13741"
       },
       {
-         "value": 1,
-         "target": "7205",
-         "source": "13688"
+         "id": "javier",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "13694",
-         "source": "13688"
-      },
-      {
-         "value": 2,
-         "target": "13688",
-         "source": "7205"
+         "id": "Thorsten Scherler",
+         "group": 4
       }
    ]
 }

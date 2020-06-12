@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "2",
-         "group": 4
+         "source": "jmsnell",
+         "value": 1,
+         "target": "ugo"
       },
       {
-         "id": "7",
+         "source": "dandiep",
+         "value": 11,
+         "target": "jmsnell"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "dandiep",
+         "group": 1
+      },
+      {
+         "id": "jmsnell",
          "group": 3
       },
       {
-         "id": "6",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "2",
-         "source": "6"
-      },
-      {
-         "value": 11,
-         "target": "7",
-         "source": "2"
+         "id": "ugo",
+         "group": 2
       }
    ]
 }

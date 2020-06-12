@@ -1,24 +1,19 @@
 {
+   "links": [
+      {
+         "source": "gnodet",
+         "value": 3,
+         "target": "tterm"
+      }
+   ],
    "nodes": [
       {
-         "id": "536",
+         "id": "gnodet",
          "group": 3
       },
       {
-         "id": "34921",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "536",
-         "source": "34921"
-      },
-      {
-         "value": 2,
-         "target": "34921",
-         "source": "536"
+         "id": "tterm",
+         "group": 4
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "20189",
-         "group": 1
-      },
-      {
-         "id": "4099",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "olamy",
          "value": 85,
-         "target": "4099",
-         "source": "20189"
+         "target": "kishoreg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "olamy",
+         "group": 2
+      },
+      {
+         "id": "kishoreg",
+         "group": 1
       }
    ]
 }

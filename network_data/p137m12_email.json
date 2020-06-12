@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "5928",
-         "group": 1
-      },
-      {
-         "id": "5943",
-         "group": 1
-      },
-      {
-         "id": "22353",
-         "group": 3
-      },
-      {
-         "id": "5892",
-         "group": 2
-      },
-      {
-         "id": "3873",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "5943",
-         "source": "3873"
-      },
-      {
-         "value": 1,
-         "target": "5892",
-         "source": "5943"
-      },
-      {
+         "source": "Romain Manni-Bucau",
          "value": 2,
-         "target": "22353",
-         "source": "5928"
+         "target": "Hendrik Dev"
       },
       {
+         "source": "Justin Mclean",
          "value": 1,
-         "target": "22353",
-         "source": "5892"
+         "target": "Daniel Cunha"
+      },
+      {
+         "source": "Mark Struberg",
+         "value": 1,
+         "target": "Hendrik Dev"
+      },
+      {
+         "source": "Daniel Cunha",
+         "value": 1,
+         "target": "Mark Struberg"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Romain Manni-Bucau",
+         "group": 1
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 1
+      },
+      {
+         "id": "Hendrik Dev",
+         "group": 1
+      },
+      {
+         "id": "Daniel Cunha",
+         "group": 1
+      },
+      {
+         "id": "Justin Mclean",
+         "group": 2
       }
    ]
 }

@@ -1,41 +1,41 @@
 {
+   "links": [
+      {
+         "source": "Paul Guo",
+         "value": 1,
+         "target": "Wen Lin"
+      },
+      {
+         "source": "Kyle Dunn",
+         "value": 1,
+         "target": "Paul Guo"
+      },
+      {
+         "source": "yozie",
+         "value": 1,
+         "target": "dyozie"
+      }
+   ],
    "nodes": [
       {
-         "id": "19502",
-         "group": 3
+         "id": "yozie",
+         "group": 2
       },
       {
-         "id": "19526",
-         "group": 3
-      },
-      {
-         "id": "19570",
+         "id": "Kyle Dunn",
          "group": 4
       },
       {
-         "id": "19588",
-         "group": 1
+         "id": "Paul Guo",
+         "group": 2
       },
       {
-         "id": "19569",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "19569",
-         "source": "19588"
+         "id": "dyozie",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "19570",
-         "source": "19526"
-      },
-      {
-         "value": 1,
-         "target": "19570",
-         "source": "19502"
+         "id": "Wen Lin",
+         "group": 3
       }
    ]
 }

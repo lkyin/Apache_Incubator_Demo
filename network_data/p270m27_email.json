@@ -1,64 +1,64 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "18069",
-         "group": 3
+         "source": "Mikko Wuokko (JIRA)",
+         "value": 1,
+         "target": "Christophe Lombart (JIRA)"
       },
       {
-         "id": "18078",
+         "source": "Christophe Lombart",
+         "value": 1,
+         "target": "Evangelos Vlachogiannis"
+      },
+      {
+         "source": "Christophe Lombart",
+         "value": 1,
+         "target": "Mikko Wuokko"
+      },
+      {
+         "source": "Jukka Zitting",
+         "value": 1,
+         "target": "Christophe Lombart"
+      },
+      {
+         "source": "Evangelos Vlachogiannis (JIRA)",
+         "value": 4,
+         "target": "Christophe Lombart (JIRA)"
+      },
+      {
+         "source": "Christophe Lombart",
+         "value": 1,
+         "target": "Jukka Zitting"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Christophe Lombart (JIRA)",
          "group": 1
       },
       {
-         "id": "18077",
-         "group": 4
+         "id": "Evangelos Vlachogiannis (JIRA)",
+         "group": 1
       },
       {
-         "id": "17998",
+         "id": "Mikko Wuokko",
+         "group": 1
+      },
+      {
+         "id": "Jukka Zitting",
          "group": 3
       },
       {
-         "id": "17995",
-         "group": 2
+         "id": "Evangelos Vlachogiannis",
+         "group": 1
       },
       {
-         "id": "142",
+         "id": "Christophe Lombart",
          "group": 4
       },
       {
-         "id": "18070",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "17995",
-         "source": "18070"
-      },
-      {
-         "value": 1,
-         "target": "18077",
-         "source": "17998"
-      },
-      {
-         "value": 1,
-         "target": "18069",
-         "source": "17998"
-      },
-      {
-         "value": 1,
-         "target": "142",
-         "source": "17998"
-      },
-      {
-         "value": 1,
-         "target": "17995",
-         "source": "18078"
-      },
-      {
-         "value": 1,
-         "target": "17998",
-         "source": "142"
+         "id": "Mikko Wuokko (JIRA)",
+         "group": 4
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "186",
-         "group": 3
-      },
-      {
-         "id": "16964",
-         "group": 3
-      },
-      {
-         "id": "210",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Keith Turner",
          "value": 1,
-         "target": "210",
-         "source": "16964"
+         "target": "Mike Walch"
       },
       {
+         "source": "Keith Turner",
          "value": 2,
-         "target": "210",
-         "source": "186"
+         "target": "kturner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Keith Turner",
+         "group": 1
+      },
+      {
+         "id": "Mike Walch",
+         "group": 4
+      },
+      {
+         "id": "kturner",
+         "group": 2
       }
    ]
 }

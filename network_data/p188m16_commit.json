@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "31252",
-         "group": 4
-      },
-      {
-         "id": "31251",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "lehmi",
          "value": 1,
-         "target": "31251",
-         "source": "31252"
+         "target": "carrier"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "lehmi",
+         "group": 1
+      },
+      {
+         "id": "carrier",
+         "group": 4
       }
    ]
 }

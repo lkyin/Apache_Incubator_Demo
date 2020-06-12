@@ -1,41 +1,41 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "34712",
-         "group": 4
+         "source": "Guoquan Shen",
+         "value": 1,
+         "target": "Sravya Tirukkovalur"
       },
       {
-         "id": "34713",
+         "source": "Sravya Tirukkovalur",
+         "value": 1,
+         "target": "Sun Dapeng"
+      },
+      {
+         "source": "Prasad Mujumdar",
+         "value": 1,
+         "target": "Colin Ma"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Guoquan Shen",
          "group": 1
       },
       {
-         "id": "34660",
+         "id": "Sravya Tirukkovalur",
+         "group": 2
+      },
+      {
+         "id": "Sun Dapeng",
+         "group": 3
+      },
+      {
+         "id": "Prasad Mujumdar",
+         "group": 3
+      },
+      {
+         "id": "Colin Ma",
          "group": 4
-      },
-      {
-         "id": "16697",
-         "group": 4
-      },
-      {
-         "id": "34709",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "34660",
-         "source": "34713"
-      },
-      {
-         "value": 1,
-         "target": "16697",
-         "source": "34712"
-      },
-      {
-         "value": 1,
-         "target": "34709",
-         "source": "34660"
       }
    ]
 }

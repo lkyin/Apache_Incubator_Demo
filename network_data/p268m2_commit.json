@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "huafengw",
+         "value": 4,
+         "target": "manuzhang"
+      },
+      {
+         "source": "huafengw",
+         "value": 12,
+         "target": "huafengw"
+      },
+      {
+         "source": "huafengw",
+         "value": 137,
+         "target": "manuzhang"
+      }
+   ],
    "nodes": [
       {
-         "id": "17093",
+         "id": "huafengw",
          "group": 2
       },
       {
-         "id": "6111",
-         "group": 1
-      },
-      {
-         "id": "17106",
+         "id": "huafengw",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 137,
-         "target": "17106",
-         "source": "6111"
       },
       {
-         "value": 4,
-         "target": "6111",
-         "source": "17093"
-      },
-      {
-         "value": 12,
-         "target": "17106",
-         "source": "17093"
+         "id": "manuzhang",
+         "group": 2
       }
    ]
 }

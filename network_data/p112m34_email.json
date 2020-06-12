@@ -1,56 +1,56 @@
 {
-   "nodes": [
-      {
-         "id": "16986",
-         "group": 1
-      },
-      {
-         "id": "16980",
-         "group": 3
-      },
-      {
-         "id": "16987",
-         "group": 3
-      },
-      {
-         "id": "16976",
-         "group": 1
-      },
-      {
-         "id": "4969",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Sergey Vladimirov",
          "value": 1,
-         "target": "16976",
-         "source": "16980"
+         "target": "Dave Roberts"
       },
       {
+         "source": "Rana Bhattacharyya",
+         "value": 2,
+         "target": "Niklas Gustavsson"
+      },
+      {
+         "source": "Sergey Vladimirov",
          "value": 1,
-         "target": "16987",
-         "source": "16986"
+         "target": "Rana Bhattacharyya"
       },
       {
-         "value": 2,
-         "target": "4969",
-         "source": "16976"
-      },
-      {
-         "value": 2,
-         "target": "16986",
-         "source": "16976"
-      },
-      {
+         "source": "Dave Roberts",
          "value": 1,
-         "target": "16986",
-         "source": "16980"
+         "target": "Franz Stumpner"
       },
       {
+         "source": "Rana Bhattacharyya",
          "value": 2,
-         "target": "16980",
-         "source": "16976"
+         "target": "Dave Roberts"
+      },
+      {
+         "source": "Rana Bhattacharyya",
+         "value": 2,
+         "target": "Sergey Vladimirov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dave Roberts",
+         "group": 2
+      },
+      {
+         "id": "Sergey Vladimirov",
+         "group": 1
+      },
+      {
+         "id": "Franz Stumpner",
+         "group": 3
+      },
+      {
+         "id": "Niklas Gustavsson",
+         "group": 1
+      },
+      {
+         "id": "Rana Bhattacharyya",
+         "group": 4
       }
    ]
 }

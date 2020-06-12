@@ -1,33 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "18419",
-         "group": 2
-      },
-      {
-         "id": "18424",
-         "group": 2
-      },
-      {
-         "id": "18426",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "James Muehlner",
          "value": 1,
-         "target": "18424",
-         "source": "18419"
+         "target": "jmuehlner"
       },
       {
+         "source": "jmuehlner",
          "value": 18,
-         "target": "18426",
-         "source": "18424"
+         "target": "Michael Jumper"
       },
       {
-         "value": 2,
-         "target": "18426",
-         "source": "18419"
+         "source": "jmuehlner",
+         "value": 1,
+         "target": "James Muehlner"
+      },
+      {
+         "source": "James Muehlner",
+         "value": 1,
+         "target": "Michael Jumper"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "James Muehlner",
+         "group": 2
+      },
+      {
+         "id": "jmuehlner",
+         "group": 2
+      },
+      {
+         "id": "Michael Jumper",
+         "group": 4
       }
    ]
 }

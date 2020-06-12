@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "rhirsch",
+         "value": 24,
+         "target": "dpp"
+      },
+      {
+         "source": "dpp",
+         "value": 9,
+         "target": "vdichev"
+      },
+      {
+         "source": "rhirsch",
+         "value": 11,
+         "target": "vdichev"
+      }
+   ],
    "nodes": [
       {
-         "id": "14668",
+         "id": "dpp",
          "group": 3
       },
       {
-         "id": "14670",
+         "id": "rhirsch",
          "group": 1
       },
       {
-         "id": "14666",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 9,
-         "target": "14666",
-         "source": "14668"
-      },
-      {
-         "value": 11,
-         "target": "14670",
-         "source": "14668"
-      },
-      {
-         "value": 24,
-         "target": "14666",
-         "source": "14670"
+         "id": "vdichev",
+         "group": 3
       }
    ]
 }

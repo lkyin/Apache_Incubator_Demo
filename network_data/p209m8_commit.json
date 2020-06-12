@@ -1,171 +1,166 @@
 {
+   "links": [
+      {
+         "source": "lryan",
+         "value": 7,
+         "target": "beaton"
+      },
+      {
+         "source": "ieb",
+         "value": 9,
+         "target": "doll"
+      },
+      {
+         "source": "doll",
+         "value": 41,
+         "target": "ieb"
+      },
+      {
+         "source": "etnu",
+         "value": 1,
+         "target": "lryan"
+      },
+      {
+         "source": "beaton",
+         "value": 2,
+         "target": "evan"
+      },
+      {
+         "source": "beaton",
+         "value": 4,
+         "target": "doll"
+      },
+      {
+         "source": "etnu",
+         "value": 3,
+         "target": "lindner"
+      },
+      {
+         "source": "evan",
+         "value": 1,
+         "target": "ieb"
+      },
+      {
+         "source": "lryan",
+         "value": 1,
+         "target": "chabotc"
+      },
+      {
+         "source": "johnh",
+         "value": 1,
+         "target": "zhen"
+      },
+      {
+         "source": "lindner",
+         "value": 15,
+         "target": "ieb"
+      },
+      {
+         "source": "lindner",
+         "value": 2,
+         "target": "evan"
+      },
+      {
+         "source": "beaton",
+         "value": 1,
+         "target": "lryan"
+      },
+      {
+         "source": "lindner",
+         "value": 1,
+         "target": "lryan"
+      },
+      {
+         "source": "lryan",
+         "value": 13,
+         "target": "doll"
+      },
+      {
+         "source": "etnu",
+         "value": 5,
+         "target": "beaton"
+      },
+      {
+         "source": "doll",
+         "value": 1,
+         "target": "chabotc"
+      },
+      {
+         "source": "doll",
+         "value": 5,
+         "target": "lindner"
+      },
+      {
+         "source": "lindner",
+         "value": 9,
+         "target": "doll"
+      },
+      {
+         "source": "ieb",
+         "value": 5,
+         "target": "lindner"
+      },
+      {
+         "source": "beaton",
+         "value": 17,
+         "target": "lindner"
+      },
+      {
+         "source": "lryan",
+         "value": 11,
+         "target": "lindner"
+      },
+      {
+         "source": "lryan",
+         "value": 20,
+         "target": "ieb"
+      },
+      {
+         "source": "beaton",
+         "value": 5,
+         "target": "ieb"
+      }
+   ],
    "nodes": [
       {
-         "id": "35331",
-         "group": 4
-      },
-      {
-         "id": "35325",
-         "group": 4
-      },
-      {
-         "id": "35330",
-         "group": 3
-      },
-      {
-         "id": "35332",
-         "group": 3
-      },
-      {
-         "id": "35326",
-         "group": 3
-      },
-      {
-         "id": "35333",
-         "group": 2
-      },
-      {
-         "id": "35363",
-         "group": 2
-      },
-      {
-         "id": "35328",
-         "group": 3
-      },
-      {
-         "id": "35327",
+         "id": "johnh",
          "group": 1
       },
       {
-         "id": "35329",
+         "id": "beaton",
+         "group": 2
+      },
+      {
+         "id": "doll",
+         "group": 1
+      },
+      {
+         "id": "ieb",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "35331",
-         "source": "35330"
       },
       {
-         "value": 2,
-         "target": "35326",
-         "source": "35329"
+         "id": "lindner",
+         "group": 4
       },
       {
-         "value": 3,
-         "target": "35329",
-         "source": "35330"
+         "id": "lryan",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "35328",
-         "source": "35363"
+         "id": "etnu",
+         "group": 4
       },
       {
-         "value": 3,
-         "target": "35333",
-         "source": "35332"
+         "id": "chabotc",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "35327",
-         "source": "35325"
+         "id": "evan",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "35327",
-         "source": "35331"
-      },
-      {
-         "value": 8,
-         "target": "35327",
-         "source": "35333"
-      },
-      {
-         "value": 1,
-         "target": "35332",
-         "source": "35331"
-      },
-      {
-         "value": 2,
-         "target": "35331",
-         "source": "35329"
-      },
-      {
-         "value": 6,
-         "target": "35327",
-         "source": "35332"
-      },
-      {
-         "value": 14,
-         "target": "35329",
-         "source": "35327"
-      },
-      {
-         "value": 3,
-         "target": "35331",
-         "source": "35327"
-      },
-      {
-         "value": 17,
-         "target": "35332",
-         "source": "35333"
-      },
-      {
-         "value": 20,
-         "target": "35329",
-         "source": "35332"
-      },
-      {
-         "value": 15,
-         "target": "35329",
-         "source": "35331"
-      },
-      {
-         "value": 12,
-         "target": "35329",
-         "source": "35333"
-      },
-      {
-         "value": 44,
-         "target": "35332",
-         "source": "35327"
-      },
-      {
-         "value": 1,
-         "target": "35326",
-         "source": "35332"
-      },
-      {
-         "value": 2,
-         "target": "35326",
-         "source": "35331"
-      },
-      {
-         "value": 1,
-         "target": "35330",
-         "source": "35333"
-      },
-      {
-         "value": 1,
-         "target": "35333",
-         "source": "35325"
-      },
-      {
-         "value": 5,
-         "target": "35333",
-         "source": "35327"
-      },
-      {
-         "value": 8,
-         "target": "35331",
-         "source": "35333"
-      },
-      {
-         "value": 4,
-         "target": "35331",
-         "source": "35332"
+         "id": "zhen",
+         "group": 2
       }
    ]
 }

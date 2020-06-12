@@ -1,71 +1,76 @@
 {
+   "links": [
+      {
+         "source": "angela",
+         "value": 2,
+         "target": "mreutegg"
+      },
+      {
+         "source": "tripod",
+         "value": 4,
+         "target": "angela"
+      },
+      {
+         "source": "tripod",
+         "value": 6,
+         "target": "jukka"
+      },
+      {
+         "source": "mreutegg",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
+         "value": 4,
+         "target": "mreutegg"
+      },
+      {
+         "source": "angela",
+         "value": 1,
+         "target": "stefan"
+      },
+      {
+         "source": "tripod",
+         "value": 8,
+         "target": "stefan"
+      },
+      {
+         "source": "jukka",
+         "value": 2,
+         "target": "stefan"
+      },
+      {
+         "source": "stefan",
+         "value": 1,
+         "target": "mreutegg"
+      },
+      {
+         "source": "mreutegg",
+         "value": 1,
+         "target": "jukka"
+      }
+   ],
    "nodes": [
       {
-         "id": "8694",
-         "group": 1
+         "id": "tripod",
+         "group": 2
       },
       {
-         "id": "21584",
-         "group": 1
-      },
-      {
-         "id": "21580",
+         "id": "mreutegg",
          "group": 4
       },
       {
-         "id": "21588",
+         "id": "angela",
          "group": 3
       },
       {
-         "id": "21581",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "21584",
-         "source": "8694"
+         "id": "jukka",
+         "group": 4
       },
       {
-         "value": 4,
-         "target": "21588",
-         "source": "21580"
-      },
-      {
-         "value": 2,
-         "target": "21581",
-         "source": "21584"
-      },
-      {
-         "value": 6,
-         "target": "21580",
-         "source": "8694"
-      },
-      {
-         "value": 8,
-         "target": "21581",
-         "source": "21580"
-      },
-      {
-         "value": 2,
-         "target": "21581",
-         "source": "8694"
-      },
-      {
-         "value": 1,
-         "target": "21581",
-         "source": "21588"
-      },
-      {
-         "value": 4,
-         "target": "21580",
-         "source": "21584"
-      },
-      {
-         "value": 2,
-         "target": "21588",
-         "source": "21584"
+         "id": "stefan",
+         "group": 3
       }
    ]
 }

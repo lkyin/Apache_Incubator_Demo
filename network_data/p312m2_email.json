@@ -1,84 +1,84 @@
 {
-   "nodes": [
-      {
-         "id": "45996",
-         "group": 1
-      },
-      {
-         "id": "13961",
-         "group": 3
-      },
-      {
-         "id": "11853",
-         "group": 4
-      },
-      {
-         "id": "3571",
-         "group": 4
-      },
-      {
-         "id": "9370",
-         "group": 1
-      },
-      {
-         "id": "46001",
-         "group": 3
-      },
-      {
-         "id": "36476",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Adrian Cole",
          "value": 1,
-         "target": "46001",
-         "source": "9370"
+         "target": "John D. Ament"
       },
       {
+         "source": "Adrian Cole",
          "value": 1,
-         "target": "36476",
-         "source": "46001"
+         "target": "=?UTF-8?B?Wm9sdMOhbiBOYWd5?="
       },
       {
+         "source": "=?UTF-8?B?Wm9sdMOhbiBOYWd5?=",
          "value": 1,
-         "target": "9370",
-         "source": "11853"
+         "target": "Mick Semb Wever"
       },
       {
+         "source": "Mick Semb Wever",
          "value": 1,
-         "target": "3571",
-         "source": "9370"
+         "target": "=?UTF-8?B?Wm9sdMOhbiBOYWd5?="
       },
       {
+         "source": "Mick Semb Wever",
          "value": 1,
-         "target": "13961",
-         "source": "36476"
+         "target": "=?gb18030?B?zuLqySBTaGVuZyBXdQ==?="
       },
       {
+         "source": "Adrian Cole",
          "value": 1,
-         "target": "9370",
-         "source": "13961"
+         "target": "Andriy Redko"
       },
       {
+         "source": "Willem Jiang",
          "value": 1,
-         "target": "45996",
-         "source": "9370"
+         "target": "Adrian Cole"
       },
       {
+         "source": "Adrian Cole",
          "value": 1,
-         "target": "11853",
-         "source": "9370"
+         "target": "Willem Jiang"
       },
       {
+         "source": "=?gb18030?B?zuLqySBTaGVuZyBXdQ==?=",
          "value": 1,
-         "target": "9370",
-         "source": "45996"
+         "target": "Adrian Cole"
       },
       {
+         "source": "Andriy Redko",
          "value": 1,
-         "target": "46001",
-         "source": "36476"
+         "target": "Adrian Cole"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?B?Wm9sdMOhbiBOYWd5?=",
+         "group": 2
+      },
+      {
+         "id": "Adrian Cole",
+         "group": 4
+      },
+      {
+         "id": "=?gb18030?B?zuLqySBTaGVuZyBXdQ==?=",
+         "group": 1
+      },
+      {
+         "id": "Willem Jiang",
+         "group": 3
+      },
+      {
+         "id": "Andriy Redko",
+         "group": 4
+      },
+      {
+         "id": "John D. Ament",
+         "group": 3
+      },
+      {
+         "id": "Mick Semb Wever",
+         "group": 1
       }
    ]
 }

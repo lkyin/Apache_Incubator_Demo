@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "Marcel Offermans",
+         "value": 1,
+         "target": "Tyler Tricker"
+      },
+      {
+         "source": "Tyler Tricker",
+         "value": 2,
+         "target": "Alexander Broekhuis"
+      },
+      {
+         "source": "Alexander Broekhuis",
+         "value": 2,
+         "target": "Tyler Tricker"
+      },
+      {
+         "source": "Pepijn Noltes",
+         "value": 1,
+         "target": "Alexander Broekhuis"
+      }
+   ],
    "nodes": [
       {
-         "id": "402",
+         "id": "Tyler Tricker",
+         "group": 2
+      },
+      {
+         "id": "Alexander Broekhuis",
+         "group": 3
+      },
+      {
+         "id": "Marcel Offermans",
          "group": 1
       },
       {
-         "id": "8651",
-         "group": 2
-      },
-      {
-         "id": "8662",
-         "group": 2
-      },
-      {
-         "id": "8670",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "8651",
-         "source": "8662"
-      },
-      {
-         "value": 2,
-         "target": "8670",
-         "source": "8651"
-      },
-      {
-         "value": 2,
-         "target": "8651",
-         "source": "8670"
-      },
-      {
-         "value": 1,
-         "target": "8670",
-         "source": "402"
+         "id": "Pepijn Noltes",
+         "group": 1
       }
    ]
 }

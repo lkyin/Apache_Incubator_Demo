@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "7096",
-         "group": 1
-      },
-      {
-         "id": "7097",
-         "group": 1
-      },
-      {
-         "id": "7114",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "amccurry",
+         "value": 1,
+         "target": "chrisrohr"
+      },
+      {
+         "source": "Aaron McCurry",
          "value": 25,
-         "target": "7097",
-         "source": "7096"
+         "target": "amccurry"
       },
       {
+         "source": "Aaron McCurry",
          "value": 1,
-         "target": "7114",
-         "source": "7097"
+         "target": "chrisrohr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Aaron McCurry",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "7114",
-         "source": "7096"
+         "id": "amccurry",
+         "group": 4
+      },
+      {
+         "id": "chrisrohr",
+         "group": 1
       }
    ]
 }

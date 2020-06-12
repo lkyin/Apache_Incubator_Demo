@@ -1,106 +1,106 @@
 {
-   "nodes": [
-      {
-         "id": "435",
-         "group": 3
-      },
-      {
-         "id": "424",
-         "group": 2
-      },
-      {
-         "id": "434",
-         "group": 4
-      },
-      {
-         "id": "405",
-         "group": 3
-      },
-      {
-         "id": "423",
-         "group": 3
-      },
-      {
-         "id": "402",
-         "group": 4
-      },
-      {
-         "id": "180",
-         "group": 2
-      },
-      {
-         "id": "410",
-         "group": 3
-      },
-      {
-         "id": "415",
-         "group": 2
-      },
-      {
-         "id": "436",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Marcel Offermans",
          "value": 1,
-         "target": "402",
-         "source": "405"
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Toni Menzel",
+         "value": 1,
+         "target": "Brian Topping"
+      },
+      {
+         "source": "Carsten Ziegeler",
+         "value": 1,
+         "target": "Toni Menzel"
+      },
+      {
+         "source": "Toni Menzel",
+         "value": 2,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "=?ISO-8859-15?Q?Jean-Baptiste_Onofr=E9?=",
+         "value": 1,
+         "target": "Carsten Ziegeler"
+      },
+      {
+         "source": "Carsten Ziegeler",
+         "value": 2,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Marcel Offermans",
          "value": 3,
-         "target": "405",
-         "source": "402"
+         "target": "Toni Menzel"
       },
       {
+         "source": "Toni Menzel (JIRA)",
          "value": 1,
-         "target": "402",
-         "source": "415"
+         "target": "Brian Topping (JIRA)"
       },
       {
+         "source": "Toni Menzel",
          "value": 1,
-         "target": "405",
-         "source": "180"
+         "target": "Marcel Offermans"
       },
       {
-         "value": 2,
-         "target": "180",
-         "source": "405"
-      },
-      {
+         "source": "Mari",
          "value": 1,
-         "target": "423",
-         "source": "405"
+         "target": "Marcel Offermans"
       },
       {
+         "source": "Zilvinas Kybartas (JIRA)",
          "value": 1,
-         "target": "424",
-         "source": "410"
+         "target": "Brian Topping (JIRA)"
       },
       {
+         "source": "Toni Menzel",
          "value": 1,
-         "target": "424",
-         "source": "435"
+         "target": "Marcel Offermans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Toni Menzel (JIRA)",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "402",
-         "source": "434"
+         "id": "Marcel Offermans",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "180",
-         "source": "402"
+         "id": "Toni Menzel",
+         "group": 2
       },
       {
-         "value": 2,
-         "target": "402",
-         "source": "180"
+         "id": "Brian Topping (JIRA)",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "180",
-         "source": "436"
+         "id": "=?ISO-8859-15?Q?Jean-Baptiste_Onofr=E9?=",
+         "group": 2
+      },
+      {
+         "id": "Carsten Ziegeler",
+         "group": 4
+      },
+      {
+         "id": "Brian Topping",
+         "group": 3
+      },
+      {
+         "id": "Zilvinas Kybartas (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Toni Menzel",
+         "group": 3
+      },
+      {
+         "id": "Mari",
+         "group": 4
       }
    ]
 }

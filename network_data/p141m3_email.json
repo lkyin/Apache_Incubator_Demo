@@ -1,84 +1,84 @@
 {
-   "nodes": [
-      {
-         "id": "22905",
-         "group": 3
-      },
-      {
-         "id": "4892",
-         "group": 4
-      },
-      {
-         "id": "22895",
-         "group": 2
-      },
-      {
-         "id": "586",
-         "group": 2
-      },
-      {
-         "id": "3341",
-         "group": 4
-      },
-      {
-         "id": "3571",
-         "group": 3
-      },
-      {
-         "id": "5961",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "James Bognar",
+         "value": 1,
+         "target": "Jochen Wiedmann"
+      },
+      {
+         "source": "Jochen Wiedmann",
+         "value": 1,
+         "target": "James Bognar"
+      },
+      {
+         "source": "James Bognar",
+         "value": 1,
+         "target": "Stian Soiland-Reyes"
+      },
+      {
+         "source": "Stian Soiland-Reyes",
+         "value": 1,
+         "target": "johndament"
+      },
+      {
+         "source": "James Bognar",
          "value": 4,
-         "target": "22905",
-         "source": "3571"
+         "target": "John D. Ament"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "22895",
-         "source": "4892"
+         "target": "jamesbognar"
       },
       {
+         "source": "James Bognar",
          "value": 1,
-         "target": "586",
-         "source": "22905"
+         "target": "John D. Ament"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "22895",
-         "source": "3571"
+         "target": "johndament"
       },
       {
-         "value": 1,
-         "target": "5961",
-         "source": "22905"
-      },
-      {
+         "source": "John D. Ament",
          "value": 4,
-         "target": "3571",
-         "source": "22905"
+         "target": "James Bognar"
       },
       {
+         "source": "John D. Ament",
          "value": 1,
-         "target": "3341",
-         "source": "5961"
+         "target": "jamesbognar"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jochen Wiedmann",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "22905",
-         "source": "586"
+         "id": "johndament",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "4892",
-         "source": "22905"
+         "id": "jamesbognar",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "3341",
-         "source": "3571"
+         "id": "James Bognar",
+         "group": 2
+      },
+      {
+         "id": "Stian Soiland-Reyes",
+         "group": 4
+      },
+      {
+         "id": "John D. Ament",
+         "group": 2
+      },
+      {
+         "id": "John D. Ament",
+         "group": 1
       }
    ]
 }

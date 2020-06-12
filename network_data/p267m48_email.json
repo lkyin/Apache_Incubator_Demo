@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "13788",
-         "group": 4
-      },
-      {
-         "id": "13735",
-         "group": 4
-      },
-      {
-         "id": "13743",
-         "group": 1
-      },
-      {
-         "id": "13763",
-         "group": 4
-      },
-      {
-         "id": "13789",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
+         "value": 1,
+         "target": "Lochschmied, Alexander"
+      },
+      {
+         "source": "=?utf-8?Q?Tobias_R=C3=BCbner_=28JIRA=29?=",
          "value": 3,
-         "target": "13743",
-         "source": "13763"
+         "target": "Eugen Paraschiv (JIRA)"
       },
       {
+         "source": "Richard Frovarp",
          "value": 1,
-         "target": "13788",
-         "source": "13789"
+         "target": "Lochschmied, Alexander"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?ISO-8859-1?Q?Tobias_R=FCbner?=",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "13788",
-         "source": "13735"
+         "id": "=?utf-8?Q?Tobias_R=C3=BCbner_=28JIRA=29?=",
+         "group": 3
+      },
+      {
+         "id": "Lochschmied, Alexander",
+         "group": 3
+      },
+      {
+         "id": "Richard Frovarp",
+         "group": 3
+      },
+      {
+         "id": "Eugen Paraschiv (JIRA)",
+         "group": 4
       }
    ]
 }

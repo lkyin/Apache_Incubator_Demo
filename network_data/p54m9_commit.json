@@ -1,61 +1,61 @@
 {
-   "nodes": [
-      {
-         "id": "1329",
-         "group": 1
-      },
-      {
-         "id": "1703",
-         "group": 3
-      },
-      {
-         "id": "1385",
-         "group": 1
-      },
-      {
-         "id": "1324",
-         "group": 4
-      },
-      {
-         "id": "1315",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Jeremiah Lowin",
+         "value": 1,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Jeremiah Lowin",
+         "value": 1,
+         "target": "Dan Davydov"
+      },
+      {
+         "source": "Jeremiah Lowin",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Alex Van Boxel",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Dan Davydov",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Bolke de Bruin",
          "value": 6,
-         "target": "1324",
-         "source": "1329"
+         "target": "Dan Davydov"
       },
       {
+         "source": "Bolke de Bruin",
          "value": 1,
-         "target": "1315",
-         "source": "1703"
+         "target": "Chris Riccomini"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Dan Davydov",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "1315",
-         "source": "1324"
+         "id": "Jeremiah Lowin",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "1703",
-         "source": "1329"
+         "id": "Alex Van Boxel",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "1703",
-         "source": "1324"
+         "id": "Bolke de Bruin",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "1315",
-         "source": "1329"
-      },
-      {
-         "value": 1,
-         "target": "1315",
-         "source": "1385"
+         "id": "Chris Riccomini",
+         "group": 3
       }
    ]
 }

@@ -1,47 +1,47 @@
 {
+   "links": [
+      {
+         "source": "Martin Cooper",
+         "value": 2,
+         "target": "Luciano Resende"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 2,
+         "target": "Martin Cooper"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "Roland Weber"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "Angela Cymbalak"
+      },
+      {
+         "source": "Roland Weber",
+         "value": 1,
+         "target": "Luciano Resende"
+      }
+   ],
    "nodes": [
       {
-         "id": "13",
+         "id": "Martin Cooper",
+         "group": 1
+      },
+      {
+         "id": "Roland Weber",
          "group": 4
       },
       {
-         "id": "31566",
-         "group": 2
-      },
-      {
-         "id": "31565",
+         "id": "Luciano Resende",
          "group": 3
       },
       {
-         "id": "41",
+         "id": "Angela Cymbalak",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "13",
-         "source": "41"
-      },
-      {
-         "value": 1,
-         "target": "31565",
-         "source": "41"
-      },
-      {
-         "value": 1,
-         "target": "31566",
-         "source": "41"
-      },
-      {
-         "value": 2,
-         "target": "41",
-         "source": "13"
-      },
-      {
-         "value": 1,
-         "target": "41",
-         "source": "31566"
       }
    ]
 }

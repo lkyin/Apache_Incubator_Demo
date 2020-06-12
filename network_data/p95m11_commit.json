@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12993",
-         "group": 1
+         "source": "niclas",
+         "value": 1,
+         "target": "adc"
       },
       {
-         "id": "12986",
+         "source": "niclas",
+         "value": 1,
+         "target": "akarasulu"
+      },
+      {
+         "source": "adc",
+         "value": 6,
+         "target": "akarasulu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "niclas",
+         "group": 4
+      },
+      {
+         "id": "adc",
          "group": 2
       },
       {
-         "id": "207",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 6,
-         "target": "207",
-         "source": "12986"
-      },
-      {
-         "value": 1,
-         "target": "12986",
-         "source": "12993"
-      },
-      {
-         "value": 1,
-         "target": "207",
-         "source": "12993"
+         "id": "akarasulu",
+         "group": 2
       }
    ]
 }

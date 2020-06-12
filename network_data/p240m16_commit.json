@@ -1,65 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "42182",
-         "group": 1
-      },
-      {
-         "id": "42185",
-         "group": 2
-      },
-      {
-         "id": "29745",
-         "group": 4
-      },
-      {
-         "id": "42183",
-         "group": 2
-      },
-      {
-         "id": "29744",
-         "group": 1
-      },
-      {
-         "id": "42184",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "42182",
-         "source": "42184"
+         "source": "alally",
+         "value": 1,
+         "target": "schor"
       },
       {
+         "source": "twgoetz",
          "value": 6,
-         "target": "29744",
-         "source": "42184"
+         "target": "mbaessler"
       },
       {
-         "value": 1,
-         "target": "42182",
-         "source": "42183"
-      },
-      {
+         "source": "schor",
          "value": 14,
-         "target": "42182",
-         "source": "42185"
+         "target": "eae"
       },
       {
+         "source": "twgoetz",
          "value": 2,
-         "target": "29744",
-         "source": "42182"
+         "target": "schor"
       },
       {
+         "source": "schor",
          "value": 1,
-         "target": "42184",
-         "source": "42182"
+         "target": "joern"
       },
       {
-         "value": 1,
-         "target": "42182",
-         "source": "29745"
+         "source": "mbaessler",
+         "value": 3,
+         "target": "schor"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "alally",
+         "group": 4
+      },
+      {
+         "id": "eae",
+         "group": 3
+      },
+      {
+         "id": "twgoetz",
+         "group": 2
+      },
+      {
+         "id": "mbaessler",
+         "group": 3
+      },
+      {
+         "id": "schor",
+         "group": 4
+      },
+      {
+         "id": "joern",
+         "group": 4
       }
    ]
 }

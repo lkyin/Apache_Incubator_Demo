@@ -1,32 +1,32 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "41105",
-         "group": 2
+         "source": "dianes",
+         "value": 1,
+         "target": "mlibbey"
       },
       {
-         "id": "41108",
+         "source": "zwoop",
+         "value": 5,
+         "target": "jplevyak"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "zwoop",
          "group": 1
       },
       {
-         "id": "41111",
+         "id": "dianes",
+         "group": 4
+      },
+      {
+         "id": "mlibbey",
+         "group": 4
+      },
+      {
+         "id": "jplevyak",
          "group": 3
-      },
-      {
-         "id": "41110",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "41110",
-         "source": "41108"
-      },
-      {
-         "value": 1,
-         "target": "41111",
-         "source": "41105"
       }
    ]
 }

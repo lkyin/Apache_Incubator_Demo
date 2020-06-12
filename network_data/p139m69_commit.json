@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "brushed",
+         "value": 1,
+         "target": "juanpablo"
+      },
+      {
+         "source": "gmazza",
+         "value": 1,
+         "target": "juanpablo"
+      },
+      {
+         "source": "metskem",
+         "value": 1,
+         "target": "gmazza"
+      },
+      {
+         "source": "brushed",
+         "value": 1,
+         "target": "metskem"
+      },
+      {
+         "source": "brushed",
+         "value": 1,
+         "target": "gmazza"
+      },
+      {
+         "source": "metskem",
+         "value": 3,
+         "target": "juanpablo"
+      }
+   ],
    "nodes": [
       {
-         "id": "22456",
+         "id": "brushed",
+         "group": 3
+      },
+      {
+         "id": "metskem",
          "group": 2
       },
       {
-         "id": "11771",
-         "group": 1
-      },
-      {
-         "id": "22455",
-         "group": 1
-      },
-      {
-         "id": "22454",
+         "id": "gmazza",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22455"
       },
       {
-         "value": 3,
-         "target": "22455",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "11771",
-         "source": "22455"
-      },
-      {
-         "value": 1,
-         "target": "22454",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "11771",
-         "source": "22456"
-      },
-      {
-         "value": 1,
-         "target": "11771",
-         "source": "22454"
+         "id": "juanpablo",
+         "group": 1
       }
    ]
 }

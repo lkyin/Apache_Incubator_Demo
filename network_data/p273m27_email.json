@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "142",
-         "group": 1
-      },
-      {
-         "id": "20366",
-         "group": 1
-      },
-      {
-         "id": "20368",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Mauricio Salatino",
          "value": 1,
-         "target": "142",
-         "source": "20366"
+         "target": "Glen Daniels"
       },
       {
+         "source": "Glen Daniels",
          "value": 1,
-         "target": "20366",
-         "source": "20368"
+         "target": "Jukka Zitting"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mauricio Salatino",
+         "group": 3
+      },
+      {
+         "id": "Glen Daniels",
+         "group": 3
+      },
+      {
+         "id": "Jukka Zitting",
+         "group": 1
       }
    ]
 }

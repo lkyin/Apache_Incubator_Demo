@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "20236",
-         "group": 3
-      },
-      {
-         "id": "16957",
-         "group": 4
-      },
-      {
-         "id": "5137",
-         "group": 4
-      },
-      {
-         "id": "42128",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Terence Yim",
          "value": 1,
-         "target": "42128",
-         "source": "20236"
+         "target": "Srinivas Reddy Kancharla"
       },
       {
-         "value": 1,
-         "target": "5137",
-         "source": "16957"
-      },
-      {
+         "source": "Henry Saputra",
          "value": 2,
-         "target": "16957",
-         "source": "5137"
+         "target": "Mike Walch"
+      },
+      {
+         "source": "Mike Walch",
+         "value": 1,
+         "target": "Henry Saputra"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Mike Walch",
+         "group": 2
+      },
+      {
+         "id": "Srinivas Reddy Kancharla",
+         "group": 3
+      },
+      {
+         "id": "Henry Saputra",
+         "group": 3
+      },
+      {
+         "id": "Terence Yim",
+         "group": 2
       }
    ]
 }

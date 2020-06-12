@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Martin Sebor",
+         "value": 1,
+         "target": "fielding"
+      },
+      {
+         "source": "Liviu Nicoara",
+         "value": 1,
+         "target": "Martin Sebor"
+      },
+      {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "Liviu Nicoara"
+      },
+      {
+         "source": "Nicole Willson (JIRA)",
+         "value": 1,
+         "target": "Martin Sebor (JIRA)"
+      }
+   ],
    "nodes": [
       {
-         "id": "38003",
+         "id": "Nicole Willson (JIRA)",
          "group": 3
       },
       {
-         "id": "37998",
-         "group": 3
-      },
-      {
-         "id": "37996",
-         "group": 3
-      },
-      {
-         "id": "15006",
+         "id": "Martin Sebor",
          "group": 1
       },
       {
-         "id": "38000",
+         "id": "Liviu Nicoara",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "15006",
-         "source": "37996"
       },
       {
-         "value": 1,
-         "target": "38000",
-         "source": "38003"
+         "id": "Martin Sebor (JIRA)",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "37996",
-         "source": "37998"
-      },
-      {
-         "value": 2,
-         "target": "37998",
-         "source": "37996"
+         "id": "fielding",
+         "group": 3
       }
    ]
 }

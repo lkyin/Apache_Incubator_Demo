@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "41",
-         "group": 2
+         "source": "Jean-Sebastien Delfino",
+         "value": 1,
+         "target": "Raymond Feng"
       },
       {
-         "id": "12138",
+         "source": "Raymond Feng",
+         "value": 1,
+         "target": "Luciano Resende"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Luciano Resende",
+         "group": 1
+      },
+      {
+         "id": "Raymond Feng",
          "group": 3
       },
       {
-         "id": "4994",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "41",
-         "source": "4994"
-      },
-      {
-         "value": 1,
-         "target": "4994",
-         "source": "12138"
+         "id": "Jean-Sebastien Delfino",
+         "group": 3
       }
    ]
 }

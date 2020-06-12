@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13934",
-         "group": 4
+         "source": "Justin Mclean",
+         "value": 16,
+         "target": "ShengXiao Xie"
       },
       {
-         "id": "46143",
+         "source": "ShengXiao Xie",
+         "value": 32,
+         "target": "Huxing Zhang"
+      },
+      {
+         "source": "Huxing Zhang",
+         "value": 32,
+         "target": "ShengXiao Xie"
+      },
+      {
+         "source": "ShengXiao Xie",
+         "value": 16,
+         "target": "Justin Mclean"
+      },
+      {
+         "source": "Huxing Zhang",
+         "value": 1,
+         "target": "Yang Zhou"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ShengXiao Xie",
          "group": 3
       },
       {
-         "id": "46151",
+         "id": "Huxing Zhang",
+         "group": 2
+      },
+      {
+         "id": "Yang Zhou",
+         "group": 3
+      },
+      {
+         "id": "Justin Mclean",
          "group": 1
-      },
-      {
-         "id": "3873",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 32,
-         "target": "46143",
-         "source": "13934"
-      },
-      {
-         "value": 16,
-         "target": "3873",
-         "source": "46143"
-      },
-      {
-         "value": 1,
-         "target": "46151",
-         "source": "13934"
-      },
-      {
-         "value": 16,
-         "target": "46143",
-         "source": "3873"
-      },
-      {
-         "value": 32,
-         "target": "13934",
-         "source": "46143"
       }
    ]
 }

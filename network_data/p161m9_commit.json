@@ -1,61 +1,61 @@
 {
+   "links": [
+      {
+         "source": "cstella",
+         "value": 3,
+         "target": "nickallen"
+      },
+      {
+         "source": "cstella",
+         "value": 7,
+         "target": "Nick Allen"
+      },
+      {
+         "source": "nickallen",
+         "value": 2,
+         "target": "cestella"
+      },
+      {
+         "source": "cstella",
+         "value": 22,
+         "target": "cestella"
+      },
+      {
+         "source": "David Lyle",
+         "value": 1,
+         "target": "cstella"
+      },
+      {
+         "source": "Nick Allen",
+         "value": 1,
+         "target": "cestella"
+      },
+      {
+         "source": "nickallen",
+         "value": 6,
+         "target": "Nick Allen"
+      }
+   ],
    "nodes": [
       {
-         "id": "24798",
-         "group": 1
+         "id": "David Lyle",
+         "group": 4
       },
       {
-         "id": "12023",
-         "group": 1
+         "id": "cstella",
+         "group": 2
       },
       {
-         "id": "24812",
+         "id": "nickallen",
+         "group": 4
+      },
+      {
+         "id": "Nick Allen",
          "group": 3
       },
       {
-         "id": "24792",
-         "group": 4
-      },
-      {
-         "id": "24813",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "24813",
-         "source": "12023"
-      },
-      {
-         "value": 1,
-         "target": "24792",
-         "source": "24798"
-      },
-      {
-         "value": 22,
-         "target": "12023",
-         "source": "24792"
-      },
-      {
-         "value": 6,
-         "target": "24813",
-         "source": "24798"
-      },
-      {
-         "value": 1,
-         "target": "12023",
-         "source": "24812"
-      },
-      {
-         "value": 7,
-         "target": "12023",
-         "source": "24798"
-      },
-      {
-         "value": 2,
-         "target": "24813",
-         "source": "24792"
+         "id": "cestella",
+         "group": 2
       }
    ]
 }

@@ -1,38 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "4488",
-         "group": 3
-      },
-      {
-         "id": "17351",
-         "group": 1
-      },
-      {
-         "id": "7574",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "7574",
-         "source": "17351"
-      },
-      {
-         "value": 2,
-         "target": "7574",
-         "source": "4488"
-      },
-      {
-         "value": 1,
-         "target": "17351",
-         "source": "7574"
-      },
-      {
+         "source": "Simone Tripodi",
          "value": 5,
-         "target": "4488",
-         "source": "7574"
+         "target": "Tommaso Teofili"
+      },
+      {
+         "source": "Tommaso Teofili",
+         "value": 2,
+         "target": "Simone Tripodi"
+      },
+      {
+         "source": "Simone Tripodi",
+         "value": 1,
+         "target": "Pid"
+      },
+      {
+         "source": "Pid",
+         "value": 1,
+         "target": "Simone Tripodi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Simone Tripodi",
+         "group": 2
+      },
+      {
+         "id": "Tommaso Teofili",
+         "group": 3
+      },
+      {
+         "id": "Pid",
+         "group": 4
       }
    ]
 }

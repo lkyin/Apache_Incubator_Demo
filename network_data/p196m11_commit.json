@@ -1,103 +1,103 @@
 {
+   "links": [
+      {
+         "source": "gsim",
+         "value": 1,
+         "target": "astitcher"
+      },
+      {
+         "source": "ritchiem",
+         "value": 1,
+         "target": "rgodfrey"
+      },
+      {
+         "source": "aconway",
+         "value": 10,
+         "target": "astitcher"
+      },
+      {
+         "source": "cctrieloff",
+         "value": 3,
+         "target": "astitcher"
+      },
+      {
+         "source": "gsim",
+         "value": 1,
+         "target": "meyering"
+      },
+      {
+         "source": "aconway",
+         "value": 9,
+         "target": "gsim"
+      },
+      {
+         "source": "cctrieloff",
+         "value": 23,
+         "target": "gsim"
+      },
+      {
+         "source": "meyering",
+         "value": 1,
+         "target": "aconway"
+      },
+      {
+         "source": "rupertlssmith",
+         "value": 17,
+         "target": "ritchiem"
+      },
+      {
+         "source": "rgodfrey",
+         "value": 1,
+         "target": "ritchiem"
+      },
+      {
+         "source": "gsim",
+         "value": 2,
+         "target": "aconway"
+      },
+      {
+         "source": "cctrieloff",
+         "value": 9,
+         "target": "aconway"
+      },
+      {
+         "source": "rupertlssmith",
+         "value": 1,
+         "target": "rgodfrey"
+      }
+   ],
    "nodes": [
       {
-         "id": "32273",
+         "id": "gsim",
          "group": 3
       },
       {
-         "id": "32282",
-         "group": 1
+         "id": "ritchiem",
+         "group": 3
       },
       {
-         "id": "32271",
-         "group": 2
-      },
-      {
-         "id": "12116",
-         "group": 1
-      },
-      {
-         "id": "32272",
+         "id": "aconway",
          "group": 4
       },
       {
-         "id": "32281",
+         "id": "cctrieloff",
          "group": 2
       },
       {
-         "id": "32283",
-         "group": 3
-      },
-      {
-         "id": "32286",
+         "id": "rupertlssmith",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12116",
-         "source": "32281"
       },
       {
-         "value": 2,
-         "target": "32281",
-         "source": "12116"
+         "id": "meyering",
+         "group": 1
       },
       {
-         "value": 17,
-         "target": "32286",
-         "source": "32271"
+         "id": "rgodfrey",
+         "group": 1
       },
       {
-         "value": 2,
-         "target": "32271",
-         "source": "32282"
-      },
-      {
-         "value": 19,
-         "target": "32272",
-         "source": "12116"
-      },
-      {
-         "value": 4,
-         "target": "12116",
-         "source": "32272"
-      },
-      {
-         "value": 10,
-         "target": "32281",
-         "source": "32273"
-      },
-      {
-         "value": 1,
-         "target": "32272",
-         "source": "32283"
-      },
-      {
-         "value": 1,
-         "target": "32283",
-         "source": "32273"
-      },
-      {
-         "value": 1,
-         "target": "32286",
-         "source": "32282"
-      },
-      {
-         "value": 1,
-         "target": "32281",
-         "source": "32272"
-      },
-      {
-         "value": 9,
-         "target": "12116",
-         "source": "32273"
-      },
-      {
-         "value": 11,
-         "target": "32272",
-         "source": "32273"
+         "id": "astitcher",
+         "group": 1
       }
    ]
 }

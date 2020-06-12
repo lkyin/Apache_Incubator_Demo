@@ -1,24 +1,24 @@
 {
-   "nodes": [
-      {
-         "id": "8503",
-         "group": 1
-      },
-      {
-         "id": "9038",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Bob Schellink",
          "value": 1,
-         "target": "8503",
-         "source": "9038"
+         "target": "Andrus Adamchik"
       },
       {
+         "source": "Andrus Adamchik",
          "value": 1,
-         "target": "9038",
-         "source": "8503"
+         "target": "Bob Schellink"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bob Schellink",
+         "group": 3
+      },
+      {
+         "id": "Andrus Adamchik",
+         "group": 4
       }
    ]
 }

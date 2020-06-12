@@ -1,42 +1,42 @@
 {
+   "links": [
+      {
+         "source": "gangolli",
+         "value": 1,
+         "target": "agilliland"
+      },
+      {
+         "source": "snoopdave",
+         "value": 1,
+         "target": "clr"
+      },
+      {
+         "source": "gangolli",
+         "value": 1,
+         "target": "snoopdave"
+      },
+      {
+         "source": "snoopdave",
+         "value": 61,
+         "target": "agilliland"
+      }
+   ],
    "nodes": [
       {
-         "id": "21209",
+         "id": "gangolli",
+         "group": 4
+      },
+      {
+         "id": "snoopdave",
+         "group": 3
+      },
+      {
+         "id": "clr",
          "group": 2
       },
       {
-         "id": "33774",
-         "group": 1
-      },
-      {
-         "id": "33775",
-         "group": 1
-      },
-      {
-         "id": "33776",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "33776",
-         "source": "33775"
-      },
-      {
-         "value": 1,
-         "target": "33776",
-         "source": "33774"
-      },
-      {
-         "value": 61,
-         "target": "33775",
-         "source": "33774"
-      },
-      {
-         "value": 1,
-         "target": "33774",
-         "source": "21209"
+         "id": "agilliland",
+         "group": 2
       }
    ]
 }

@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "14591",
-         "group": 2
-      },
-      {
-         "id": "13758",
-         "group": 4
-      },
-      {
-         "id": "14631",
-         "group": 1
-      },
-      {
-         "id": "14598",
-         "group": 1
-      },
-      {
-         "id": "14586",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 4,
-         "target": "13758",
-         "source": "14631"
-      },
-      {
+         "source": "Francis De Brabandere (JIRA)",
          "value": 2,
-         "target": "14598",
-         "source": "14591"
+         "target": "Henry Saputra (JIRA)"
       },
       {
-         "value": 1,
-         "target": "14591",
-         "source": "14586"
-      },
-      {
+         "source": "Francis De Brabandere",
          "value": 3,
-         "target": "14631",
-         "source": "13758"
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "value": 4,
+         "target": "Francis De Brabandere"
+      },
+      {
+         "source": "=?utf-8?Q?Rainer_D=C3=B6bele_=28JIRA=29?=",
+         "value": 1,
+         "target": "Francis De Brabandere (JIRA)"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Francis De Brabandere",
+         "group": 3
+      },
+      {
+         "id": "Francis De Brabandere (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Henry Saputra (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "group": 2
+      },
+      {
+         "id": "=?utf-8?Q?Rainer_D=C3=B6bele_=28JIRA=29?=",
+         "group": 4
       }
    ]
 }

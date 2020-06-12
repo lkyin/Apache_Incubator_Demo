@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "34585",
-         "group": 1
-      },
-      {
-         "id": "31257",
-         "group": 2
-      },
-      {
-         "id": "180",
-         "group": 4
-      },
-      {
-         "id": "34588",
-         "group": 1
-      },
-      {
-         "id": "8422",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "180",
-         "source": "34585"
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Philipp Koch",
          "value": 1,
-         "target": "34585",
-         "source": "34588"
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Craig L Russell",
          "value": 1,
-         "target": "180",
-         "source": "8422"
+         "target": "Carsten Ziegeler"
       },
       {
+         "source": "Charles Matthew Chen",
          "value": 1,
-         "target": "180",
-         "source": "31257"
+         "target": "=?UTF-8?B?RW5kcmUgU3TDuGxzdmlr?="
       },
       {
+         "source": "=?UTF-8?B?RW5kcmUgU3TDuGxzdmlr?=",
          "value": 1,
-         "target": "34588",
-         "source": "34585"
+         "target": "Charles Matthew Chen"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Craig L Russell",
+         "group": 3
+      },
+      {
+         "id": "Carsten Ziegeler",
+         "group": 4
+      },
+      {
+         "id": "=?UTF-8?B?RW5kcmUgU3TDuGxzdmlr?=",
+         "group": 4
+      },
+      {
+         "id": "Charles Matthew Chen",
+         "group": 1
+      },
+      {
+         "id": "Philipp Koch",
+         "group": 4
       }
    ]
 }

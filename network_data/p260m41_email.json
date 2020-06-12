@@ -1,52 +1,52 @@
 {
-   "nodes": [
-      {
-         "id": "388",
-         "group": 2
-      },
-      {
-         "id": "7097",
-         "group": 4
-      },
-      {
-         "id": "7125",
-         "group": 2
-      },
-      {
-         "id": "6704",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "388",
-         "source": "7097"
-      },
-      {
+         "source": "Patrick Hunt",
          "value": 1,
-         "target": "6704",
-         "source": "388"
+         "target": "Garrett Barton"
       },
       {
+         "source": "Tim Williams",
+         "value": 1,
+         "target": "Patrick Hunt"
+      },
+      {
+         "source": "Aaron McCurry",
          "value": 2,
-         "target": "7097",
-         "source": "388"
+         "target": "Tim Williams"
       },
       {
+         "source": "Tim Williams",
+         "value": 2,
+         "target": "Aaron McCurry"
+      },
+      {
+         "source": "Aaron McCurry",
+         "value": 2,
+         "target": "Garrett Barton"
+      },
+      {
+         "source": "Garrett Barton",
          "value": 4,
-         "target": "7097",
-         "source": "7125"
+         "target": "Aaron McCurry"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Garrett Barton",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "7125",
-         "source": "7097"
+         "id": "Patrick Hunt",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "7125",
-         "source": "6704"
+         "id": "Tim Williams",
+         "group": 3
+      },
+      {
+         "id": "Aaron McCurry",
+         "group": 1
       }
    ]
 }

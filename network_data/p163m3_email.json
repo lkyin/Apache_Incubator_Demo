@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "20292",
-         "group": 2
-      },
-      {
-         "id": "4047",
-         "group": 3
-      },
-      {
-         "id": "25207",
-         "group": 2
-      },
-      {
-         "id": "25204",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Jim Jagielski",
          "value": 1,
-         "target": "20292",
-         "source": "25204"
+         "target": "Colm MacCarthaigh"
       },
       {
+         "source": "Colm MacCarthaigh",
          "value": 1,
-         "target": "25207",
-         "source": "4047"
+         "target": "William A. Rowe, Jr."
       },
       {
+         "source": "William A. Rowe, Jr.",
          "value": 1,
-         "target": "25204",
-         "source": "25207"
+         "target": "Sander Temme"
       },
       {
+         "source": "Sander Temme",
          "value": 1,
-         "target": "25207",
-         "source": "20292"
+         "target": "Colm MacCarthaigh"
       },
       {
+         "source": "Jim Jagielski",
          "value": 1,
-         "target": "25204",
-         "source": "4047"
+         "target": "Sander Temme"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jim Jagielski",
+         "group": 3
+      },
+      {
+         "id": "Sander Temme",
+         "group": 2
+      },
+      {
+         "id": "Colm MacCarthaigh",
+         "group": 4
+      },
+      {
+         "id": "William A. Rowe, Jr.",
+         "group": 2
       }
    ]
 }

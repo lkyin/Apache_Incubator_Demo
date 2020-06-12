@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "17567",
-         "group": 1
+         "source": "jghoman",
+         "value": 9,
+         "target": "aching"
       },
       {
-         "id": "17562",
+         "source": "aching",
+         "value": 1,
+         "target": "claudio"
+      },
+      {
+         "source": "jghoman",
+         "value": 2,
+         "target": "claudio"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jghoman",
          "group": 3
       },
       {
-         "id": "17561",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 9,
-         "target": "17561",
-         "source": "17562"
+         "id": "aching",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "17562",
-         "source": "17567"
-      },
-      {
-         "value": 1,
-         "target": "17561",
-         "source": "17567"
+         "id": "claudio",
+         "group": 3
       }
    ]
 }

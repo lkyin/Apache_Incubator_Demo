@@ -1,56 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "32558",
-         "group": 1
+         "source": "Jianqiao Zhu",
+         "value": 2,
+         "target": "Zuyu Zhang"
       },
       {
-         "id": "32522",
+         "source": "Jianqiao Zhu",
+         "value": 1,
+         "target": "Harshad Deshmukh"
+      },
+      {
+         "source": "jianqiao",
+         "value": 1,
+         "target": "Zuyu Zhang"
+      },
+      {
+         "source": "jianqiao",
+         "value": 1,
+         "target": "Jianqiao Zhu"
+      },
+      {
+         "source": "Jianqiao Zhu",
+         "value": 1,
+         "target": "jianqiao"
+      },
+      {
+         "source": "jianqiao",
+         "value": 1,
+         "target": "Jianqiao Zhu"
+      },
+      {
+         "source": "jianqiao",
+         "value": 21,
+         "target": "Zuyu Zhang"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jianqiao",
          "group": 4
       },
       {
-         "id": "32518",
+         "id": "Harshad Deshmukh",
          "group": 2
       },
       {
-         "id": "32554",
+         "id": "Jianqiao Zhu",
+         "group": 1
+      },
+      {
+         "id": "jianqiao",
          "group": 3
       },
       {
-         "id": "32502",
+         "id": "Zuyu Zhang",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 21,
-         "target": "32554",
-         "source": "32522"
-      },
-      {
-         "value": 2,
-         "target": "32554",
-         "source": "32502"
-      },
-      {
-         "value": 1,
-         "target": "32502",
-         "source": "32522"
-      },
-      {
-         "value": 2,
-         "target": "32502",
-         "source": "32558"
-      },
-      {
-         "value": 1,
-         "target": "32554",
-         "source": "32558"
-      },
-      {
-         "value": 1,
-         "target": "32518",
-         "source": "32502"
       }
    ]
 }

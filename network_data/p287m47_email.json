@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "12049",
-         "group": 3
-      },
-      {
-         "id": "28051",
-         "group": 2
-      },
-      {
-         "id": "28052",
-         "group": 4
-      },
-      {
-         "id": "3334",
-         "group": 4
-      },
-      {
-         "id": "28042",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "3334",
-         "source": "28052"
+         "target": "David Akehurst"
       },
       {
+         "source": "David Akehurst",
          "value": 1,
-         "target": "12049",
-         "source": "28042"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Deng Ching-Mallete",
          "value": 1,
-         "target": "28042",
-         "source": "3334"
+         "target": "Roman Shaposhnik"
       },
       {
+         "source": "Roman Shaposhnik",
          "value": 1,
-         "target": "28051",
-         "source": "3334"
+         "target": "Deng Ching-Mallete"
       },
       {
+         "source": "Deng Ching-Mallete",
          "value": 1,
-         "target": "3334",
-         "source": "28051"
+         "target": "Roman Shaposhnik"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Roman Shaposhnik",
+         "group": 1
+      },
+      {
+         "id": "David Akehurst",
+         "group": 4
+      },
+      {
+         "id": "Roman Shaposhnik",
+         "group": 4
+      },
+      {
+         "id": "Deng Ching-Mallete",
+         "group": 1
+      },
+      {
+         "id": "Deng Ching-Mallete",
+         "group": 1
       }
    ]
 }

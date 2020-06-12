@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "3341",
-         "group": 2
-      },
-      {
-         "id": "4102",
-         "group": 2
-      },
-      {
-         "id": "42359",
-         "group": 2
-      },
-      {
-         "id": "42368",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "4102",
-         "source": "42368"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "Serge Huber",
          "value": 1,
-         "target": "4102",
-         "source": "42359"
+         "target": "johndament"
       },
       {
+         "source": "Christophe Laprun",
          "value": 1,
-         "target": "3341",
-         "source": "42359"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 1
+      },
+      {
+         "id": "Christophe Laprun",
+         "group": 3
+      },
+      {
+         "id": "Serge Huber",
+         "group": 1
+      },
+      {
+         "id": "johndament",
+         "group": 1
       }
    ]
 }

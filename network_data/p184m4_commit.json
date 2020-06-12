@@ -1,160 +1,150 @@
 {
+   "links": [
+      {
+         "source": "jsc",
+         "value": 3,
+         "target": "pfg"
+      },
+      {
+         "source": "pfg",
+         "value": 1,
+         "target": "paveljanik"
+      },
+      {
+         "source": "wave",
+         "value": 1,
+         "target": "jza"
+      },
+      {
+         "source": "jsc",
+         "value": 5,
+         "target": "hdu"
+      },
+      {
+         "source": "pfg",
+         "value": 1,
+         "target": "jsc"
+      },
+      {
+         "source": "mst",
+         "value": 5,
+         "target": "jsc"
+      },
+      {
+         "source": "paveljanik",
+         "value": 1,
+         "target": "jsc"
+      },
+      {
+         "source": "hdu",
+         "value": 1,
+         "target": "pfg"
+      },
+      {
+         "source": "mst",
+         "value": 7,
+         "target": "hdu"
+      },
+      {
+         "source": "hdu",
+         "value": 1,
+         "target": "paveljanik"
+      },
+      {
+         "source": "mst",
+         "value": 4,
+         "target": "pfg"
+      },
+      {
+         "source": "hdu",
+         "value": 1,
+         "target": "mbauer"
+      },
+      {
+         "source": "mst",
+         "value": 1,
+         "target": "paveljanik"
+      },
+      {
+         "source": "hdu",
+         "value": 1,
+         "target": "jsc"
+      },
+      {
+         "source": "wave",
+         "value": 1,
+         "target": "robweir"
+      },
+      {
+         "source": "wave",
+         "value": 43,
+         "target": "kschenk"
+      },
+      {
+         "source": "kschenk",
+         "value": 1,
+         "target": "mbauer"
+      },
+      {
+         "source": "mst",
+         "value": 2,
+         "target": "mbauer"
+      },
+      {
+         "source": "marcus",
+         "value": 1,
+         "target": "wave"
+      },
+      {
+         "source": "pfg",
+         "value": 2,
+         "target": "hdu"
+      }
+   ],
    "nodes": [
       {
-         "id": "29834",
-         "group": 4
-      },
-      {
-         "id": "29832",
-         "group": 1
-      },
-      {
-         "id": "29850",
-         "group": 4
-      },
-      {
-         "id": "29848",
-         "group": 4
-      },
-      {
-         "id": "29849",
+         "id": "jza",
          "group": 3
       },
       {
-         "id": "29820",
+         "id": "pfg",
          "group": 1
       },
       {
-         "id": "29846",
+         "id": "hdu",
          "group": 4
       },
       {
-         "id": "15569",
-         "group": 1
-      },
-      {
-         "id": "29841",
+         "id": "kschenk",
          "group": 2
       },
       {
-         "id": "29813",
+         "id": "paveljanik",
+         "group": 3
+      },
+      {
+         "id": "robweir",
          "group": 1
       },
       {
-         "id": "29815",
+         "id": "marcus",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "29832",
-         "source": "29850"
       },
       {
-         "value": 1,
-         "target": "29820",
-         "source": "15569"
+         "id": "wave",
+         "group": 1
       },
       {
-         "value": 6,
-         "target": "29848",
-         "source": "29832"
+         "id": "mst",
+         "group": 4
       },
       {
-         "value": 5,
-         "target": "29841",
-         "source": "29832"
+         "id": "mbauer",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "29841",
-         "source": "29848"
-      },
-      {
-         "value": 1,
-         "target": "29849",
-         "source": "29832"
-      },
-      {
-         "value": 1,
-         "target": "29832",
-         "source": "29848"
-      },
-      {
-         "value": 1,
-         "target": "29834",
-         "source": "29846"
-      },
-      {
-         "value": 1,
-         "target": "29841",
-         "source": "29850"
-      },
-      {
-         "value": 3,
-         "target": "29841",
-         "source": "29849"
-      },
-      {
-         "value": 1,
-         "target": "29850",
-         "source": "29848"
-      },
-      {
-         "value": 2,
-         "target": "29834",
-         "source": "29832"
-      },
-      {
-         "value": 43,
-         "target": "15569",
-         "source": "29846"
-      },
-      {
-         "value": 1,
-         "target": "29815",
-         "source": "15569"
-      },
-      {
-         "value": 2,
-         "target": "29848",
-         "source": "29849"
-      },
-      {
-         "value": 1,
-         "target": "29834",
-         "source": "29848"
-      },
-      {
-         "value": 3,
-         "target": "29832",
-         "source": "29849"
-      },
-      {
-         "value": 1,
-         "target": "29849",
-         "source": "29841"
-      },
-      {
-         "value": 1,
-         "target": "29813",
-         "source": "15569"
-      },
-      {
-         "value": 1,
-         "target": "29849",
-         "source": "29850"
-      },
-      {
-         "value": 5,
-         "target": "29848",
-         "source": "29841"
-      },
-      {
-         "value": 1,
-         "target": "29849",
-         "source": "29848"
+         "id": "jsc",
+         "group": 2
       }
    ]
 }

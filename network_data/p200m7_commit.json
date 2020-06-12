@@ -1,99 +1,84 @@
 {
+   "links": [
+      {
+         "source": "Markus Weimer",
+         "value": 13,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "juliaw",
+         "value": 16,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "bgchun",
+         "value": 1,
+         "target": "johnyangk"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 3,
+         "target": "tmajest"
+      },
+      {
+         "source": "juliaw",
+         "value": 3,
+         "target": "Markus Weimer"
+      },
+      {
+         "source": "tmajest",
+         "value": 60,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "juliaw",
+         "value": 127,
+         "target": "tmajest"
+      },
+      {
+         "source": "weimer",
+         "value": 1,
+         "target": "Julia Wang"
+      },
+      {
+         "source": "bgchun",
+         "value": 1,
+         "target": "weimer"
+      },
+      {
+         "source": "Markus Weimer",
+         "value": 4,
+         "target": "weimer"
+      }
+   ],
    "nodes": [
       {
-         "id": "33130",
+         "id": "bgchun",
          "group": 1
       },
       {
-         "id": "26227",
-         "group": 3
-      },
-      {
-         "id": "33131",
-         "group": 1
-      },
-      {
-         "id": "33150",
-         "group": 4
-      },
-      {
-         "id": "33125",
-         "group": 4
-      },
-      {
-         "id": "33127",
+         "id": "Markus Weimer",
          "group": 2
       },
       {
-         "id": "26219",
+         "id": "johnyangk",
+         "group": 2
+      },
+      {
+         "id": "weimer",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "33130",
-         "source": "33127"
       },
       {
-         "value": 5,
-         "target": "33130",
-         "source": "33150"
+         "id": "juliaw",
+         "group": 1
       },
       {
-         "value": 122,
-         "target": "33150",
-         "source": "33130"
+         "id": "tmajest",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "33125",
-         "source": "33131"
-      },
-      {
-         "value": 2,
-         "target": "33127",
-         "source": "33130"
-      },
-      {
-         "value": 1,
-         "target": "26227",
-         "source": "33125"
-      },
-      {
-         "value": 3,
-         "target": "33127",
-         "source": "33150"
-      },
-      {
-         "value": 13,
-         "target": "33127",
-         "source": "33131"
-      },
-      {
-         "value": 1,
-         "target": "33131",
-         "source": "33130"
-      },
-      {
-         "value": 1,
-         "target": "26219",
-         "source": "26227"
-      },
-      {
-         "value": 15,
-         "target": "33130",
-         "source": "33131"
-      },
-      {
-         "value": 4,
-         "target": "33127",
-         "source": "33125"
-      },
-      {
-         "value": 60,
-         "target": "33150",
-         "source": "33131"
+         "id": "Julia Wang",
+         "group": 3
       }
    ]
 }

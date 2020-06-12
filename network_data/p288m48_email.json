@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Patrick Durusau",
+         "value": 1,
+         "target": "Ian C"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Marvin Humphrey"
+      },
+      {
+         "source": "Ralf Heydenreich",
+         "value": 1,
+         "target": "Florian Hopf"
+      },
+      {
+         "source": "Ian C",
+         "value": 1,
+         "target": "Patrick Durusau"
+      }
+   ],
    "nodes": [
       {
-         "id": "46870",
-         "group": 3
-      },
-      {
-         "id": "46833",
-         "group": 2
-      },
-      {
-         "id": "30511",
-         "group": 4
-      },
-      {
-         "id": "11318",
+         "id": "Florian Hopf",
          "group": 1
       },
       {
-         "id": "4718",
+         "id": "Marvin Humphrey",
+         "group": 1
+      },
+      {
+         "id": "Ralf Heydenreich",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "46833",
-         "source": "46870"
       },
       {
-         "value": 1,
-         "target": "4718",
-         "source": "11318"
+         "id": "Patrick Durusau",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "30511",
-         "source": "11318"
-      },
-      {
-         "value": 1,
-         "target": "11318",
-         "source": "30511"
+         "id": "Ian C",
+         "group": 2
       }
    ]
 }

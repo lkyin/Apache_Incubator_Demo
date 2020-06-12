@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "17821",
-         "group": 3
-      },
-      {
-         "id": "18084",
-         "group": 2
-      },
-      {
-         "id": "1465",
-         "group": 3
-      },
-      {
-         "id": "18092",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 17,
-         "target": "18084",
-         "source": "17821"
+         "source": "GitHub",
+         "value": 1,
+         "target": "guoyp"
       },
       {
+         "source": "Lionel Liu",
          "value": 2,
-         "target": "18092",
-         "source": "17821"
+         "target": "William Guo"
       },
       {
-         "value": 1,
-         "target": "1465",
-         "source": "18084"
+         "source": "guoyp",
+         "value": 17,
+         "target": "William Guo"
       },
       {
+         "source": "GitHub",
          "value": 1,
-         "target": "1465",
-         "source": "17821"
+         "target": "William Guo"
       },
       {
+         "source": "Lionel Liu",
          "value": 1,
-         "target": "18092",
-         "source": "18084"
+         "target": "guoyp"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Lionel Liu",
+         "group": 4
+      },
+      {
+         "id": "GitHub",
+         "group": 3
+      },
+      {
+         "id": "guoyp",
+         "group": 3
+      },
+      {
+         "id": "William Guo",
+         "group": 1
       }
    ]
 }

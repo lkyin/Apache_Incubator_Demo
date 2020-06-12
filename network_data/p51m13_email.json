@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "402",
-         "group": 2
-      },
-      {
-         "id": "438",
-         "group": 2
-      },
-      {
-         "id": "405",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "402",
-         "source": "438"
-      },
-      {
+         "source": "Marcel Offermans",
          "value": 3,
-         "target": "438",
-         "source": "402"
+         "target": "Crissman, Dennis"
       },
       {
+         "source": "Crissman, Dennis",
+         "value": 2,
+         "target": "Marcel Offermans"
+      },
+      {
+         "source": "Toni Menzel",
          "value": 1,
-         "target": "402",
-         "source": "405"
+         "target": "Marcel Offermans"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Crissman, Dennis",
+         "group": 1
+      },
+      {
+         "id": "Marcel Offermans",
+         "group": 4
+      },
+      {
+         "id": "Toni Menzel",
+         "group": 2
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "16641",
-         "group": 3
-      },
-      {
-         "id": "34660",
-         "group": 1
-      },
-      {
-         "id": "16697",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Prasad Mujumdar",
          "value": 3,
-         "target": "16697",
-         "source": "16641"
+         "target": "prasadm"
       },
       {
+         "source": "Sravya Tirukkovalur",
          "value": 1,
-         "target": "16697",
-         "source": "34660"
+         "target": "Prasad Mujumdar"
       },
       {
+         "source": "Sravya Tirukkovalur",
          "value": 1,
-         "target": "34660",
-         "source": "16641"
+         "target": "prasadm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sravya Tirukkovalur",
+         "group": 2
+      },
+      {
+         "id": "Prasad Mujumdar",
+         "group": 2
+      },
+      {
+         "id": "prasadm",
+         "group": 2
       }
    ]
 }

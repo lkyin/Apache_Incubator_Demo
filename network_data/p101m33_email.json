@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "195",
-         "group": 4
-      },
-      {
-         "id": "7522",
-         "group": 4
-      },
-      {
-         "id": "14631",
-         "group": 4
-      },
-      {
-         "id": "14659",
-         "group": 3
-      },
-      {
-         "id": "13758",
-         "group": 3
-      },
-      {
-         "id": "14614",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Martijn Dashorst",
+         "value": 1,
+         "target": "Benson Margulies"
+      },
+      {
+         "source": "Thomas Fox",
+         "value": 1,
+         "target": "Benson Margulies"
+      },
+      {
+         "source": "Benson Margulies",
+         "value": 1,
+         "target": "Francis De Brabandere"
+      },
+      {
+         "source": "Benjamin Venditti",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?Rainer_D=F6bele?="
+      },
+      {
+         "source": "Francis De Brabandere",
+         "value": 1,
+         "target": "Thomas Fox"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
          "value": 2,
-         "target": "13758",
-         "source": "14631"
+         "target": "Francis De Brabandere"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Francis De Brabandere",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "14659",
-         "source": "13758"
+         "id": "Martijn Dashorst",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "13758",
-         "source": "195"
+         "id": "Thomas Fox",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "14631",
-         "source": "14614"
+         "id": "Benjamin Venditti",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "195",
-         "source": "14659"
+         "id": "Benson Margulies",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "195",
-         "source": "7522"
+         "id": "=?iso-8859-1?Q?Rainer_D=F6bele?=",
+         "group": 2
       }
    ]
 }

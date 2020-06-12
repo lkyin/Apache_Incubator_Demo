@@ -1,65 +1,60 @@
 {
+   "links": [
+      {
+         "source": "Sun Dapeng",
+         "value": 5,
+         "target": "Colin Ma"
+      },
+      {
+         "source": "sdp",
+         "value": 2,
+         "target": "Lenni Kuff"
+      },
+      {
+         "source": "Lenni Kuff",
+         "value": 2,
+         "target": "Colin Ma"
+      },
+      {
+         "source": "Lenni Kuff",
+         "value": 12,
+         "target": "Sravya Tirukkovalur"
+      },
+      {
+         "source": "sdp",
+         "value": 16,
+         "target": "colin"
+      },
+      {
+         "source": "colin",
+         "value": 2,
+         "target": "Lenni Kuff"
+      }
+   ],
    "nodes": [
       {
-         "id": "34712",
-         "group": 3
+         "id": "Lenni Kuff",
+         "group": 2
       },
       {
-         "id": "34722",
+         "id": "Colin Ma",
          "group": 1
       },
       {
-         "id": "21055",
-         "group": 3
-      },
-      {
-         "id": "34729",
-         "group": 1
-      },
-      {
-         "id": "34730",
+         "id": "sdp",
          "group": 4
       },
       {
-         "id": "34709",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "34712",
-         "source": "21055"
+         "id": "colin",
+         "group": 3
       },
       {
-         "value": 12,
-         "target": "34730",
-         "source": "21055"
+         "id": "Sun Dapeng",
+         "group": 4
       },
       {
-         "value": 16,
-         "target": "34722",
-         "source": "34729"
-      },
-      {
-         "value": 2,
-         "target": "34729",
-         "source": "21055"
-      },
-      {
-         "value": 5,
-         "target": "34709",
-         "source": "34712"
-      },
-      {
-         "value": 2,
-         "target": "34722",
-         "source": "21055"
-      },
-      {
-         "value": 1,
-         "target": "21055",
-         "source": "34712"
+         "id": "Sravya Tirukkovalur",
+         "group": 3
       }
    ]
 }

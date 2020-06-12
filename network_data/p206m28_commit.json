@@ -1,51 +1,56 @@
 {
+   "links": [
+      {
+         "source": "Sun Dapeng",
+         "value": 2,
+         "target": "Colin Ma"
+      },
+      {
+         "source": "Sun Dapeng",
+         "value": 5,
+         "target": "Sravya Tirukkovalur"
+      },
+      {
+         "source": "Sun Dapeng",
+         "value": 2,
+         "target": "Lenni Kuff"
+      },
+      {
+         "source": "Lenni Kuff",
+         "value": 1,
+         "target": "Sravya Tirukkovalur"
+      },
+      {
+         "source": "Lenni Kuff",
+         "value": 2,
+         "target": "Sun Dapeng"
+      },
+      {
+         "source": "sdp",
+         "value": 1,
+         "target": "Sun Dapeng"
+      }
+   ],
    "nodes": [
       {
-         "id": "34712",
-         "group": 2
-      },
-      {
-         "id": "34730",
-         "group": 3
-      },
-      {
-         "id": "34722",
-         "group": 1
-      },
-      {
-         "id": "34709",
+         "id": "Lenni Kuff",
          "group": 4
       },
       {
-         "id": "21055",
+         "id": "Sun Dapeng",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "34709",
-         "source": "34730"
       },
       {
-         "value": 2,
-         "target": "34709",
-         "source": "34712"
+         "id": "Sravya Tirukkovalur",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "34709",
-         "source": "34722"
+         "id": "sdp",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "34730",
-         "source": "21055"
-      },
-      {
-         "value": 4,
-         "target": "34709",
-         "source": "21055"
+         "id": "Colin Ma",
+         "group": 2
       }
    ]
 }

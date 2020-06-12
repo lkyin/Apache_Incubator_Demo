@@ -1,47 +1,52 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "45182",
-         "group": 2
+         "source": "moon",
+         "value": 1,
+         "target": "Mina Lee"
       },
       {
-         "id": "45184",
+         "source": "moon",
+         "value": 1,
+         "target": "Lee moon soo"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 4,
+         "target": "Mina Lee"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 1,
+         "target": "moon"
+      },
+      {
+         "source": "Lee moon soo",
+         "value": 1,
+         "target": "Alexander Bezzubov"
+      },
+      {
+         "source": "moon",
+         "value": 1,
+         "target": "Alexander Bezzubov"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "moon",
          "group": 3
       },
       {
-         "id": "45177",
+         "id": "Alexander Bezzubov",
          "group": 4
       },
       {
-         "id": "34125",
+         "id": "Mina Lee",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "45184",
-         "source": "45182"
       },
       {
-         "value": 1,
-         "target": "45177",
-         "source": "34125"
-      },
-      {
-         "value": 2,
-         "target": "45177",
-         "source": "45182"
-      },
-      {
-         "value": 1,
-         "target": "34125",
-         "source": "45182"
-      },
-      {
-         "value": 1,
-         "target": "45177",
-         "source": "45184"
+         "id": "Lee moon soo",
+         "group": 2
       }
    ]
 }

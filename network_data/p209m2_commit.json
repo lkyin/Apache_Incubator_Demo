@@ -1,76 +1,71 @@
 {
-   "nodes": [
-      {
-         "id": "35333",
-         "group": 3
-      },
-      {
-         "id": "35363",
-         "group": 3
-      },
-      {
-         "id": "35330",
-         "group": 1
-      },
-      {
-         "id": "35328",
-         "group": 1
-      },
-      {
-         "id": "35327",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "35328",
-         "source": "35333"
+         "source": "johnh",
+         "value": 23,
+         "target": "etnu"
       },
       {
-         "value": 9,
-         "target": "35327",
-         "source": "35363"
-      },
-      {
-         "value": 8,
-         "target": "35327",
-         "source": "35330"
-      },
-      {
-         "value": 1,
-         "target": "35328",
-         "source": "35327"
-      },
-      {
-         "value": 1,
-         "target": "35333",
-         "source": "35328"
-      },
-      {
-         "value": 7,
-         "target": "35328",
-         "source": "35363"
-      },
-      {
-         "value": 25,
-         "target": "35328",
-         "source": "35330"
-      },
-      {
-         "value": 5,
-         "target": "35327",
-         "source": "35328"
-      },
-      {
+         "source": "etnu",
          "value": 2,
-         "target": "35333",
-         "source": "35330"
+         "target": "lryan"
       },
       {
+         "source": "etnu",
+         "value": 2,
+         "target": "johnh"
+      },
+      {
+         "source": "doll",
+         "value": 9,
+         "target": "zhen"
+      },
+      {
+         "source": "johnh",
          "value": 7,
-         "target": "35330",
-         "source": "35363"
+         "target": "zhen"
+      },
+      {
+         "source": "johnh",
+         "value": 2,
+         "target": "lryan"
+      },
+      {
+         "source": "etnu",
+         "value": 7,
+         "target": "zhen"
+      },
+      {
+         "source": "johnh",
+         "value": 6,
+         "target": "doll"
+      },
+      {
+         "source": "etnu",
+         "value": 8,
+         "target": "doll"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "etnu",
+         "group": 3
+      },
+      {
+         "id": "johnh",
+         "group": 2
+      },
+      {
+         "id": "doll",
+         "group": 4
+      },
+      {
+         "id": "zhen",
+         "group": 3
+      },
+      {
+         "id": "lryan",
+         "group": 2
       }
    ]
 }

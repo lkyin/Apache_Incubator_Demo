@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "11330",
-         "group": 4
-      },
-      {
-         "id": "249",
-         "group": 4
-      },
-      {
-         "id": "46775",
-         "group": 1
-      },
-      {
-         "id": "7004",
-         "group": 1
-      },
-      {
-         "id": "11318",
-         "group": 4
-      },
-      {
-         "id": "46842",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Svante Schubert",
+         "value": 1,
+         "target": "Nick Burch"
+      },
+      {
+         "source": "Svante Schubert",
          "value": 2,
-         "target": "249",
-         "source": "11330"
+         "target": "Apache Jenkins Server"
       },
       {
+         "source": "Nick Burch",
          "value": 1,
-         "target": "7004",
-         "source": "11330"
+         "target": "Svante Schubert"
       },
       {
+         "source": "Oliver Rau",
          "value": 1,
-         "target": "11330",
-         "source": "7004"
+         "target": "Ian C"
       },
       {
+         "source": "Ian C",
          "value": 1,
-         "target": "11318",
-         "source": "46775"
+         "target": "Guzman Rejon (JIRA)"
       },
       {
+         "source": "Ian C",
          "value": 1,
-         "target": "46842",
-         "source": "11318"
+         "target": "Svante Schubert"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Svante Schubert",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "11330",
-         "source": "11318"
+         "id": "Guzman Rejon (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Apache Jenkins Server",
+         "group": 2
+      },
+      {
+         "id": "Nick Burch",
+         "group": 2
+      },
+      {
+         "id": "Ian C",
+         "group": 2
+      },
+      {
+         "id": "Oliver Rau",
+         "group": 2
       }
    ]
 }

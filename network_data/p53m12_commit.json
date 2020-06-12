@@ -1,66 +1,66 @@
 {
-   "nodes": [
-      {
-         "id": "1098",
-         "group": 1
-      },
-      {
-         "id": "1103",
-         "group": 1
-      },
-      {
-         "id": "1095",
-         "group": 1
-      },
-      {
-         "id": "1106",
-         "group": 4
-      },
-      {
-         "id": "1107",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "samindaw",
+         "value": 1,
+         "target": "smarru"
+      },
+      {
+         "source": "heshan",
+         "value": 1,
+         "target": "lahiru"
+      },
+      {
+         "source": "lahiru",
+         "value": 1,
+         "target": "samindaw"
+      },
+      {
+         "source": "heshan",
          "value": 3,
-         "target": "1095",
-         "source": "1103"
+         "target": "smarru"
       },
       {
-         "value": 1,
-         "target": "1107",
-         "source": "1103"
-      },
-      {
-         "value": 1,
-         "target": "1106",
-         "source": "1103"
-      },
-      {
-         "value": 1,
-         "target": "1107",
-         "source": "1095"
-      },
-      {
-         "value": 1,
-         "target": "1106",
-         "source": "1098"
-      },
-      {
+         "source": "lahiru",
          "value": 3,
-         "target": "1103",
-         "source": "1098"
+         "target": "raminder"
       },
       {
+         "source": "heshan",
          "value": 1,
-         "target": "1107",
-         "source": "1106"
+         "target": "samindaw"
       },
       {
+         "source": "lahiru",
          "value": 3,
-         "target": "1095",
-         "source": "1106"
+         "target": "smarru"
+      },
+      {
+         "source": "heshan",
+         "value": 1,
+         "target": "raminder"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "heshan",
+         "group": 2
+      },
+      {
+         "id": "lahiru",
+         "group": 3
+      },
+      {
+         "id": "raminder",
+         "group": 1
+      },
+      {
+         "id": "samindaw",
+         "group": 2
+      },
+      {
+         "id": "smarru",
+         "group": 3
       }
    ]
 }

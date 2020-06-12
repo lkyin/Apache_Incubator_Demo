@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "28699",
-         "group": 1
-      },
-      {
-         "id": "28700",
-         "group": 1
-      },
-      {
-         "id": "28702",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "sheetal",
          "value": 1,
-         "target": "28702",
-         "source": "28700"
+         "target": "shanti"
       },
       {
+         "source": "sheetal",
+         "value": 1,
+         "target": "klichong"
+      },
+      {
+         "source": "klichong",
          "value": 2,
-         "target": "28702",
-         "source": "28699"
+         "target": "shanti"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sheetal",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "28700",
-         "source": "28699"
+         "id": "klichong",
+         "group": 3
+      },
+      {
+         "id": "shanti",
+         "group": 1
       }
    ]
 }

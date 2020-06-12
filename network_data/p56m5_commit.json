@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "4130",
-         "group": 3
-      },
-      {
-         "id": "4131",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "ddas",
          "value": 2,
-         "target": "4131",
-         "source": "4130"
+         "target": "vgogate"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ddas",
+         "group": 2
+      },
+      {
+         "id": "vgogate",
+         "group": 3
       }
    ]
 }

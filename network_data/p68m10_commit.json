@@ -1,38 +1,43 @@
 {
+   "links": [
+      {
+         "source": "plinnell",
+         "value": 3,
+         "target": "rvs"
+      },
+      {
+         "source": "rvs",
+         "value": 3,
+         "target": "bmahe"
+      },
+      {
+         "source": "plinnell",
+         "value": 1,
+         "target": "bmahe"
+      },
+      {
+         "source": "bmahe",
+         "value": 1,
+         "target": "plinnell"
+      },
+      {
+         "source": "bmahe",
+         "value": 3,
+         "target": "rvs"
+      }
+   ],
    "nodes": [
       {
-         "id": "6697",
+         "id": "bmahe",
+         "group": 1
+      },
+      {
+         "id": "plinnell",
          "group": 2
       },
       {
-         "id": "6695",
+         "id": "rvs",
          "group": 3
-      },
-      {
-         "id": "6699",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6697",
-         "source": "6699"
-      },
-      {
-         "value": 2,
-         "target": "6695",
-         "source": "6699"
-      },
-      {
-         "value": 6,
-         "target": "6695",
-         "source": "6697"
-      },
-      {
-         "value": 2,
-         "target": "6699",
-         "source": "6697"
       }
    ]
 }

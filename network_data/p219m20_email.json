@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "38053",
-         "group": 2
-      },
-      {
-         "id": "37997",
-         "group": 2
-      },
-      {
-         "id": "38043",
-         "group": 4
-      },
-      {
-         "id": "38016",
-         "group": 4
-      },
-      {
-         "id": "37996",
-         "group": 2
-      },
-      {
-         "id": "38044",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 2,
-         "target": "38044",
-         "source": "37996"
+         "source": "Martin Sebor",
+         "value": 1,
+         "target": "Scott Zhong"
       },
       {
+         "source": "Andrew Black",
          "value": 3,
-         "target": "37996",
-         "source": "37997"
+         "target": "Martin Sebor"
       },
       {
+         "source": "Martin Sebor",
+         "value": 2,
+         "target": "Farid Zaripov"
+      },
+      {
+         "source": "Martin Sebor",
          "value": 1,
-         "target": "38016",
-         "source": "37996"
+         "target": "Mohd Tariq"
       },
       {
+         "source": "Martin Sebor",
+         "value": 1,
+         "target": "Jeremy Dean"
+      },
+      {
+         "source": "Martin Sebor",
          "value": 4,
-         "target": "37997",
-         "source": "37996"
+         "target": "Andrew Black"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Jeremy Dean",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "38053",
-         "source": "37996"
+         "id": "Andrew Black",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "38043",
-         "source": "37996"
+         "id": "Farid Zaripov",
+         "group": 2
+      },
+      {
+         "id": "Mohd Tariq",
+         "group": 4
+      },
+      {
+         "id": "Martin Sebor",
+         "group": 1
+      },
+      {
+         "id": "Scott Zhong",
+         "group": 4
       }
    ]
 }

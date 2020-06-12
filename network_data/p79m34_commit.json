@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "8880",
-         "group": 4
-      },
-      {
-         "id": "8881",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "florent",
          "value": 2,
-         "target": "8881",
-         "source": "8880"
+         "target": "rwesten"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "florent",
+         "group": 2
+      },
+      {
+         "id": "rwesten",
+         "group": 1
       }
    ]
 }

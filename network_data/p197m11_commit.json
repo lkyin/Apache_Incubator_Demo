@@ -1,75 +1,85 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "5611",
-         "group": 2
+         "source": "madhan",
+         "value": 1,
+         "target": "Madhan Neethiraj"
       },
       {
-         "id": "5249",
+         "source": "Madhan Neethiraj",
+         "value": 1,
+         "target": "Velmurugan Periasamy"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 4,
+         "target": "madhan"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 1,
+         "target": "rmani"
+      },
+      {
+         "source": "Madhan Neethiraj",
+         "value": 7,
+         "target": "Don Bosco Durai"
+      },
+      {
+         "source": "Madhan Neethiraj",
+         "value": 3,
+         "target": "madhan"
+      },
+      {
+         "source": "Madhan Neethiraj",
+         "value": 9,
+         "target": "sneethiraj"
+      },
+      {
+         "source": "Velmurugan Periasamy",
+         "value": 1,
+         "target": "Don Bosco Durai"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 5,
+         "target": "Velmurugan Periasamy"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 2,
+         "target": "Don Bosco Durai"
+      },
+      {
+         "source": "sneethiraj",
+         "value": 18,
+         "target": "Madhan Neethiraj"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "sneethiraj",
+         "group": 4
+      },
+      {
+         "id": "madhan",
          "group": 1
       },
       {
-         "id": "5242",
-         "group": 4
+         "id": "Don Bosco Durai",
+         "group": 3
       },
       {
-         "id": "5261",
-         "group": 4
-      },
-      {
-         "id": "32618",
+         "id": "Velmurugan Periasamy",
          "group": 2
       },
       {
-         "id": "32607",
+         "id": "Madhan Neethiraj",
+         "group": 1
+      },
+      {
+         "id": "rmani",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "5242",
-         "source": "5261"
-      },
-      {
-         "value": 1,
-         "target": "5611",
-         "source": "32618"
-      },
-      {
-         "value": 2,
-         "target": "5242",
-         "source": "5611"
-      },
-      {
-         "value": 1,
-         "target": "5249",
-         "source": "32618"
-      },
-      {
-         "value": 4,
-         "target": "5249",
-         "source": "5261"
-      },
-      {
-         "value": 7,
-         "target": "5249",
-         "source": "5611"
-      },
-      {
-         "value": 27,
-         "target": "5242",
-         "source": "5249"
-      },
-      {
-         "value": 5,
-         "target": "5242",
-         "source": "32618"
-      },
-      {
-         "value": 1,
-         "target": "5242",
-         "source": "32607"
       }
    ]
 }

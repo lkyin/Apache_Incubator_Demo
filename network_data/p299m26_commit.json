@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4164",
-         "group": 2
+         "source": "Billie Rinaldi",
+         "value": 3,
+         "target": "Gour Saha"
       },
       {
-         "id": "36517",
+         "source": "Billie Rinaldi",
+         "value": 3,
+         "target": "Yu Liu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Billie Rinaldi",
          "group": 3
       },
       {
-         "id": "36514",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "36514",
-         "source": "4164"
+         "id": "Yu Liu",
+         "group": 1
       },
       {
-         "value": 3,
-         "target": "36517",
-         "source": "4164"
+         "id": "Gour Saha",
+         "group": 1
       }
    ]
 }

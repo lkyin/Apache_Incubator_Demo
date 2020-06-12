@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "41105",
-         "group": 3
+         "source": "mlibbey",
+         "value": 16,
+         "target": "andrewhsu"
       },
       {
-         "id": "41108",
+         "source": "bcall",
+         "value": 1,
+         "target": "andrewhsu"
+      },
+      {
+         "source": "zwoop",
+         "value": 1,
+         "target": "andrewhsu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bcall",
          "group": 2
       },
       {
-         "id": "41106",
+         "id": "zwoop",
+         "group": 4
+      },
+      {
+         "id": "andrewhsu",
          "group": 3
       },
       {
-         "id": "41104",
+         "id": "mlibbey",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "41104",
-         "source": "41106"
-      },
-      {
-         "value": 16,
-         "target": "41104",
-         "source": "41105"
-      },
-      {
-         "value": 1,
-         "target": "41104",
-         "source": "41108"
       }
    ]
 }

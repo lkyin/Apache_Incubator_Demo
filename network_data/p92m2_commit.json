@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "12464",
-         "group": 4
+         "source": "bandaram",
+         "value": 2,
+         "target": "djd"
       },
       {
-         "id": "12465",
+         "source": "djd",
+         "value": 1,
+         "target": "mikem"
+      },
+      {
+         "source": "djd",
+         "value": 1,
+         "target": "jta"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jta",
          "group": 1
       },
       {
-         "id": "12461",
+         "id": "bandaram",
          "group": 4
       },
       {
-         "id": "12460",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12460",
-         "source": "12461"
+         "id": "djd",
+         "group": 3
       },
       {
-         "value": 2,
-         "target": "12461",
-         "source": "12465"
-      },
-      {
-         "value": 1,
-         "target": "12461",
-         "source": "12464"
+         "id": "mikem",
+         "group": 2
       }
    ]
 }

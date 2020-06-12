@@ -1,38 +1,38 @@
 {
-   "nodes": [
-      {
-         "id": "10028",
-         "group": 3
-      },
-      {
-         "id": "10015",
-         "group": 4
-      },
-      {
-         "id": "10016",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Pan, Lei (398K)",
          "value": 2,
-         "target": "10028",
-         "source": "10016"
+         "target": "Qihao Bao"
       },
       {
-         "value": 2,
-         "target": "10028",
-         "source": "10015"
-      },
-      {
-         "value": 1,
-         "target": "10016",
-         "source": "10015"
-      },
-      {
+         "source": "Qihao Bao",
          "value": 4,
-         "target": "10015",
-         "source": "10028"
+         "target": "Pan, Lei (398K)"
+      },
+      {
+         "source": "Jia Zhang",
+         "value": 2,
+         "target": "Qihao Bao"
+      },
+      {
+         "source": "Pan, Lei (398K)",
+         "value": 1,
+         "target": "Jia Zhang"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Pan, Lei (398K)",
+         "group": 3
+      },
+      {
+         "id": "Qihao Bao",
+         "group": 3
+      },
+      {
+         "id": "Jia Zhang",
+         "group": 3
       }
    ]
 }

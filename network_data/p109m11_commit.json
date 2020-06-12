@@ -1,38 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "16639",
-         "group": 1
+         "source": "brock",
+         "value": 11,
+         "target": "arvind"
       },
       {
-         "id": "11582",
+         "source": "brock",
+         "value": 6,
+         "target": "prasadm"
+      },
+      {
+         "source": "arvind",
+         "value": 7,
+         "target": "prasadm"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "brock",
          "group": 2
       },
       {
-         "id": "16641",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "16641",
-         "source": "11582"
+         "id": "arvind",
+         "group": 2
       },
       {
-         "value": 4,
-         "target": "11582",
-         "source": "16641"
-      },
-      {
-         "value": 7,
-         "target": "16641",
-         "source": "16639"
-      },
-      {
-         "value": 11,
-         "target": "11582",
-         "source": "16639"
+         "id": "prasadm",
+         "group": 2
       }
    ]
 }

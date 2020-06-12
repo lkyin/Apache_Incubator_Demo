@@ -1,71 +1,66 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "11696",
-         "group": 3
+         "source": "simonetripodi",
+         "value": 24,
+         "target": "randgalt"
       },
       {
-         "id": "4483",
+         "source": "randgalt",
+         "value": 6,
+         "target": "ash2k"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 2,
+         "target": "ash2k"
+      },
+      {
+         "source": "randgalt",
+         "value": 19,
+         "target": "eric"
+      },
+      {
+         "source": "olamy",
+         "value": 18,
+         "target": "eric"
+      },
+      {
+         "source": "olamy",
+         "value": 19,
+         "target": "randgalt"
+      },
+      {
+         "source": "olamy",
+         "value": 19,
+         "target": "simonetripodi"
+      },
+      {
+         "source": "simonetripodi",
+         "value": 29,
+         "target": "eric"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "olamy",
+         "group": 2
+      },
+      {
+         "id": "ash2k",
+         "group": 4
+      },
+      {
+         "id": "randgalt",
          "group": 1
       },
       {
-         "id": "4099",
-         "group": 4
+         "id": "simonetripodi",
+         "group": 1
       },
       {
-         "id": "28904",
-         "group": 3
-      },
-      {
-         "id": "28905",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 19,
-         "target": "4099",
-         "source": "11696"
-      },
-      {
-         "value": 24,
-         "target": "4483",
-         "source": "11696"
-      },
-      {
-         "value": 2,
-         "target": "28905",
-         "source": "4483"
-      },
-      {
-         "value": 18,
-         "target": "28904",
-         "source": "4483"
-      },
-      {
-         "value": 19,
-         "target": "4483",
-         "source": "4099"
-      },
-      {
-         "value": 6,
-         "target": "28905",
-         "source": "11696"
-      },
-      {
-         "value": 18,
-         "target": "28904",
-         "source": "4099"
-      },
-      {
-         "value": 11,
-         "target": "4483",
-         "source": "28904"
-      },
-      {
-         "value": 19,
-         "target": "28904",
-         "source": "11696"
+         "id": "eric",
+         "group": 1
       }
    ]
 }

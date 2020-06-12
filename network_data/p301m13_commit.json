@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "12118",
-         "group": 3
-      },
-      {
-         "id": "12125",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "shankar",
          "value": 1,
-         "target": "12125",
-         "source": "12118"
+         "target": "chintana"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "shankar",
+         "group": 1
+      },
+      {
+         "id": "chintana",
+         "group": 4
       }
    ]
 }

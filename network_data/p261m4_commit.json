@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "10002",
-         "group": 1
-      },
-      {
-         "id": "10003",
-         "group": 2
-      },
-      {
-         "id": "10004",
-         "group": 4
-      },
-      {
-         "id": "10005",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "cmusv-sc",
          "value": 1,
-         "target": "10005",
-         "source": "10003"
+         "target": "mingqi830"
       },
       {
-         "value": 12,
-         "target": "10004",
-         "source": "10003"
-      },
-      {
-         "value": 1,
-         "target": "10005",
-         "source": "10002"
-      },
-      {
+         "source": "xingweicmu",
          "value": 5,
-         "target": "10004",
-         "source": "10002"
+         "target": "mingqi830"
       },
       {
+         "source": "cat1021",
+         "value": 12,
+         "target": "xingweicmu"
+      },
+      {
+         "source": "cat1021",
+         "value": 1,
+         "target": "cmusv-sc"
+      },
+      {
+         "source": "cat1021",
          "value": 34,
-         "target": "10003",
-         "source": "10002"
+         "target": "mingqi830"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "cat1021",
+         "group": 3
+      },
+      {
+         "id": "xingweicmu",
+         "group": 1
+      },
+      {
+         "id": "cmusv-sc",
+         "group": 1
+      },
+      {
+         "id": "mingqi830",
+         "group": 3
       }
    ]
 }

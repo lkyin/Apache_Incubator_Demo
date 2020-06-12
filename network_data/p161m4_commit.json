@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "cstella",
+         "value": 1,
+         "target": "james-sirota"
+      },
+      {
+         "source": "cstella",
+         "value": 1,
+         "target": "jsirota"
+      },
+      {
+         "source": "cestella",
+         "value": 2,
+         "target": "James Sirota"
+      },
+      {
+         "source": "jsirota",
+         "value": 10,
+         "target": "cestella"
+      },
+      {
+         "source": "cstella",
+         "value": 13,
+         "target": "cestella"
+      }
+   ],
    "nodes": [
       {
-         "id": "24809",
+         "id": "James Sirota",
+         "group": 4
+      },
+      {
+         "id": "cstella",
+         "group": 2
+      },
+      {
+         "id": "jsirota",
+         "group": 3
+      },
+      {
+         "id": "james-sirota",
          "group": 1
       },
       {
-         "id": "24792",
-         "group": 2
-      },
-      {
-         "id": "24808",
-         "group": 2
-      },
-      {
-         "id": "12023",
-         "group": 2
-      },
-      {
-         "id": "24810",
-         "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "12023",
-         "source": "24809"
-      },
-      {
-         "value": 10,
-         "target": "24808",
-         "source": "24792"
-      },
-      {
-         "value": 13,
-         "target": "12023",
-         "source": "24792"
-      },
-      {
-         "value": 2,
-         "target": "24810",
-         "source": "24792"
-      },
-      {
-         "value": 1,
-         "target": "24808",
-         "source": "12023"
+         "id": "cestella",
+         "group": 1
       }
    ]
 }

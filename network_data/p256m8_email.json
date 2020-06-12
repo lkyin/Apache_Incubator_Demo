@@ -1,61 +1,61 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "4835",
-         "group": 3
+         "source": "asfgit",
+         "value": 3,
+         "target": "ran-z"
       },
       {
-         "id": "4833",
+         "source": "asfgit",
+         "value": 14,
+         "target": "mxmrlv"
+      },
+      {
+         "source": "mxmrlv",
+         "value": 4,
+         "target": "tliron"
+      },
+      {
+         "source": "asfgit",
+         "value": 4,
+         "target": "tliron"
+      },
+      {
+         "source": "ran-z",
+         "value": 55,
+         "target": "tliron"
+      },
+      {
+         "source": "ran-z",
+         "value": 6,
+         "target": "mxmrlv"
+      },
+      {
+         "source": "asfgit",
+         "value": 3,
+         "target": "AviaE"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tliron",
+         "group": 1
+      },
+      {
+         "id": "AviaE",
+         "group": 2
+      },
+      {
+         "id": "mxmrlv",
          "group": 4
       },
       {
-         "id": "4838",
-         "group": 1
+         "id": "asfgit",
+         "group": 2
       },
       {
-         "id": "4836",
-         "group": 1
-      },
-      {
-         "id": "4452",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "4838",
-         "source": "4452"
-      },
-      {
-         "value": 6,
-         "target": "4833",
-         "source": "4835"
-      },
-      {
-         "value": 3,
-         "target": "4835",
-         "source": "4452"
-      },
-      {
-         "value": 4,
-         "target": "4836",
-         "source": "4452"
-      },
-      {
-         "value": 4,
-         "target": "4836",
-         "source": "4833"
-      },
-      {
-         "value": 14,
-         "target": "4833",
-         "source": "4452"
-      },
-      {
-         "value": 55,
-         "target": "4836",
-         "source": "4835"
+         "id": "ran-z",
+         "group": 4
       }
    ]
 }

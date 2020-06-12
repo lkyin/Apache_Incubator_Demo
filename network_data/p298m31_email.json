@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "5934",
-         "group": 4
+         "source": "Jean-Louis MONTEIRO",
+         "value": 1,
+         "target": "Olivier Lamy"
       },
       {
-         "id": "3571",
+         "source": "Olivier Lamy",
+         "value": 1,
+         "target": "John D. Ament"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Olivier Lamy",
          "group": 1
       },
       {
-         "id": "4107",
+         "id": "John D. Ament",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "3571",
-         "source": "4107"
       },
       {
-         "value": 1,
-         "target": "4107",
-         "source": "5934"
+         "id": "Jean-Louis MONTEIRO",
+         "group": 4
       }
    ]
 }

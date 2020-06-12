@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "36390",
-         "group": 1
-      },
-      {
-         "id": "5924",
-         "group": 2
-      },
-      {
-         "id": "4099",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "rmannibucau",
+         "value": 1,
+         "target": "jlmonteiro"
+      },
+      {
+         "source": "rmannibucau",
          "value": 6,
-         "target": "4099",
-         "source": "5924"
+         "target": "olamy"
       },
       {
+         "source": "olamy",
          "value": 1,
-         "target": "36390",
-         "source": "5924"
+         "target": "jlmonteiro"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "rmannibucau",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "36390",
-         "source": "4099"
+         "id": "olamy",
+         "group": 3
+      },
+      {
+         "id": "jlmonteiro",
+         "group": 3
       }
    ]
 }

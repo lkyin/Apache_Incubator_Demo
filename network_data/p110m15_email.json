@@ -1,38 +1,38 @@
 {
+   "links": [
+      {
+         "source": "Christopher",
+         "value": 2,
+         "target": "Mike Walch"
+      },
+      {
+         "source": "Mike Walch",
+         "value": 2,
+         "target": "Keith Turner"
+      },
+      {
+         "source": "Keith Turner",
+         "value": 3,
+         "target": "Mike Walch"
+      },
+      {
+         "source": "Mike Walch",
+         "value": 2,
+         "target": "Christopher"
+      }
+   ],
    "nodes": [
       {
-         "id": "16966",
+         "id": "Mike Walch",
+         "group": 3
+      },
+      {
+         "id": "Keith Turner",
          "group": 1
       },
       {
-         "id": "16964",
-         "group": 2
-      },
-      {
-         "id": "199",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "16966",
-         "source": "16964"
-      },
-      {
-         "value": 2,
-         "target": "16964",
-         "source": "16966"
-      },
-      {
-         "value": 3,
-         "target": "16964",
-         "source": "199"
-      },
-      {
-         "value": 2,
-         "target": "199",
-         "source": "16964"
+         "id": "Christopher",
+         "group": 1
       }
    ]
 }

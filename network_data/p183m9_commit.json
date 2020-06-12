@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "29747",
-         "group": 2
+         "source": "colen",
+         "value": 25,
+         "target": "joern"
       },
       {
-         "id": "29746",
+         "source": "colen",
+         "value": 1,
+         "target": "jkosin"
+      },
+      {
+         "source": "joern",
+         "value": 2,
+         "target": "jkosin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "colen",
          "group": 1
       },
       {
-         "id": "29745",
+         "id": "joern",
+         "group": 1
+      },
+      {
+         "id": "jkosin",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 25,
-         "target": "29745",
-         "source": "29747"
-      },
-      {
-         "value": 1,
-         "target": "29746",
-         "source": "29747"
-      },
-      {
-         "value": 2,
-         "target": "29745",
-         "source": "29746"
       }
    ]
 }

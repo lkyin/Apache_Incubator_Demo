@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "Brett Porter",
+         "value": 2,
+         "target": "David Durham"
+      },
+      {
+         "source": "David Durham",
+         "value": 2,
+         "target": "Brett Porter"
+      },
+      {
+         "source": "Brett Porter",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      }
+   ],
    "nodes": [
       {
-         "id": "8778",
+         "id": "Apache Jenkins Server",
          "group": 1
       },
       {
-         "id": "249",
+         "id": "Brett Porter",
+         "group": 2
+      },
+      {
+         "id": "David Durham",
          "group": 4
-      },
-      {
-         "id": "28040",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "28040",
-         "source": "8778"
-      },
-      {
-         "value": 1,
-         "target": "249",
-         "source": "8778"
-      },
-      {
-         "value": 2,
-         "target": "8778",
-         "source": "28040"
       }
    ]
 }

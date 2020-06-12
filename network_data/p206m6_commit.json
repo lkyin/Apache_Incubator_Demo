@@ -1,52 +1,52 @@
 {
+   "links": [
+      {
+         "source": "brock",
+         "value": 1,
+         "target": "shreepadma"
+      },
+      {
+         "source": "Brock Noland",
+         "value": 1,
+         "target": "shreepadma"
+      },
+      {
+         "source": "Shreepadma Venugopalan",
+         "value": 4,
+         "target": "Brock Noland"
+      },
+      {
+         "source": "Shreepadma Venugopalan",
+         "value": 1,
+         "target": "shreepadma"
+      },
+      {
+         "source": "brock",
+         "value": 1,
+         "target": "Brock Noland"
+      },
+      {
+         "source": "Shreepadma Venugopalan",
+         "value": 11,
+         "target": "brock"
+      }
+   ],
    "nodes": [
       {
-         "id": "34655",
+         "id": "brock",
+         "group": 1
+      },
+      {
+         "id": "Brock Noland",
          "group": 4
       },
       {
-         "id": "34657",
-         "group": 3
+         "id": "shreepadma",
+         "group": 2
       },
       {
-         "id": "11582",
-         "group": 3
-      },
-      {
-         "id": "7723",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "7723",
-         "source": "34657"
-      },
-      {
-         "value": 1,
-         "target": "11582",
-         "source": "7723"
-      },
-      {
-         "value": 4,
-         "target": "34655",
-         "source": "7723"
-      },
-      {
-         "value": 1,
-         "target": "34655",
-         "source": "34657"
-      },
-      {
-         "value": 1,
-         "target": "11582",
-         "source": "34657"
-      },
-      {
-         "value": 11,
-         "target": "34655",
-         "source": "11582"
+         "id": "Shreepadma Venugopalan",
+         "group": 2
       }
    ]
 }

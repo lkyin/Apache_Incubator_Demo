@@ -1,46 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "11625",
-         "group": 4
-      },
-      {
-         "id": "11628",
-         "group": 4
-      },
-      {
-         "id": "11633",
-         "group": 4
-      },
-      {
-         "id": "11630",
-         "group": 4
-      },
-      {
-         "id": "11626",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "11628",
-         "source": "11626"
-      },
-      {
+         "source": "stevenbethard",
          "value": 4,
-         "target": "11633",
-         "source": "11626"
+         "target": "clin"
       },
       {
+         "source": "tmill",
          "value": 1,
-         "target": "11626",
-         "source": "11630"
+         "target": "stevenbethard"
       },
       {
-         "value": 3,
-         "target": "11626",
-         "source": "11625"
+         "source": "stevenbethard",
+         "value": 1,
+         "target": "dligach"
+      },
+      {
+         "source": "stevenbethard",
+         "value": 2,
+         "target": "mattcoarr"
+      },
+      {
+         "source": "mattcoarr",
+         "value": 1,
+         "target": "stevenbethard"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mattcoarr",
+         "group": 2
+      },
+      {
+         "id": "stevenbethard",
+         "group": 3
+      },
+      {
+         "id": "tmill",
+         "group": 1
+      },
+      {
+         "id": "clin",
+         "group": 1
+      },
+      {
+         "id": "dligach",
+         "group": 4
       }
    ]
 }

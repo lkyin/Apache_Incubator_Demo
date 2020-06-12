@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "38190",
-         "group": 2
-      },
-      {
-         "id": "38157",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Homer Strong",
          "value": 1,
-         "target": "38157",
-         "source": "38190"
+         "target": "John Gilmore"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Homer Strong",
+         "group": 1
+      },
+      {
+         "id": "John Gilmore",
+         "group": 1
       }
    ]
 }

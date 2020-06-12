@@ -1,41 +1,41 @@
 {
-   "nodes": [
-      {
-         "id": "206",
-         "group": 4
-      },
-      {
-         "id": "41",
-         "group": 2
-      },
-      {
-         "id": "12138",
-         "group": 4
-      },
-      {
-         "id": "12966",
-         "group": 4
-      },
-      {
-         "id": "4994",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Raymond Feng",
          "value": 1,
-         "target": "12966",
-         "source": "4994"
+         "target": "john pradeep"
       },
       {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "no-reply"
+      },
+      {
+         "source": "Jean-Sebastien Delfino",
          "value": 2,
-         "target": "12966",
-         "source": "12138"
+         "target": "john pradeep"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "206",
-         "source": "41"
+         "id": "Luciano Resende",
+         "group": 1
+      },
+      {
+         "id": "john pradeep",
+         "group": 1
+      },
+      {
+         "id": "Raymond Feng",
+         "group": 4
+      },
+      {
+         "id": "Jean-Sebastien Delfino",
+         "group": 1
       }
    ]
 }

@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "1371",
-         "group": 3
+         "source": "Chris Riccomini",
+         "value": 8,
+         "target": "Bolke de Bruin"
       },
       {
-         "id": "1329",
+         "source": "Vianney Foucault",
+         "value": 4,
+         "target": "Bolke de Bruin"
+      },
+      {
+         "source": "Vianney Foucault",
+         "value": 2,
+         "target": "vfoucault"
+      },
+      {
+         "source": "Bolke de Bruin",
+         "value": 2,
+         "target": "vfoucault"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Chris Riccomini",
+         "group": 1
+      },
+      {
+         "id": "Vianney Foucault",
          "group": 2
       },
       {
-         "id": "1743",
-         "group": 4
+         "id": "Bolke de Bruin",
+         "group": 2
       },
       {
-         "id": "1723",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "1723",
-         "source": "1329"
-      },
-      {
-         "value": 2,
-         "target": "1723",
-         "source": "1743"
-      },
-      {
-         "value": 4,
-         "target": "1743",
-         "source": "1329"
-      },
-      {
-         "value": 8,
-         "target": "1329",
-         "source": "1371"
+         "id": "vfoucault",
+         "group": 3
       }
    ]
 }

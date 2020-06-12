@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "13",
-         "group": 1
-      },
-      {
-         "id": "31566",
-         "group": 1
-      },
-      {
-         "id": "41",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "13",
-         "source": "41"
+         "target": "Martin Cooper"
       },
       {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "31566",
-         "source": "41"
+         "target": "Roland Weber"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Martin Cooper",
+         "group": 4
+      },
+      {
+         "id": "Roland Weber",
+         "group": 4
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 1
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "1103",
-         "group": 3
-      },
-      {
-         "id": "1107",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "lahiru",
          "value": 2,
-         "target": "1107",
-         "source": "1103"
+         "target": "samindaw"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "lahiru",
+         "group": 4
+      },
+      {
+         "id": "samindaw",
+         "group": 2
       }
    ]
 }

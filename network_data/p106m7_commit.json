@@ -1,47 +1,47 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "15251",
-         "group": 3
+         "source": "keshav10",
+         "value": 3,
+         "target": "venkatconflux"
       },
       {
-         "id": "15263",
+         "source": "nazeer1100126",
+         "value": 5,
+         "target": "venkatconflux"
+      },
+      {
+         "source": "nazeer1100126",
+         "value": 6,
+         "target": "Nazeer Hussain Shaik"
+      },
+      {
+         "source": "venkatconflux",
+         "value": 1,
+         "target": "Nazeer Hussain Shaik"
+      },
+      {
+         "source": "keshav10",
+         "value": 5,
+         "target": "nazeer1100126"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "keshav10",
          "group": 1
       },
       {
-         "id": "15254",
-         "group": 4
+         "id": "nazeer1100126",
+         "group": 3
       },
       {
-         "id": "15253",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "15254",
-         "source": "15251"
+         "id": "venkatconflux",
+         "group": 2
       },
       {
-         "value": 3,
-         "target": "15254",
-         "source": "15263"
-      },
-      {
-         "value": 5,
-         "target": "15253",
-         "source": "15263"
-      },
-      {
-         "value": 6,
-         "target": "15253",
-         "source": "15251"
-      },
-      {
-         "value": 5,
-         "target": "15253",
-         "source": "15254"
+         "id": "Nazeer Hussain Shaik",
+         "group": 2
       }
    ]
 }

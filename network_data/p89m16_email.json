@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "Ido Hadanny",
+         "value": 2,
+         "target": "Matthew Hayes"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Jonathan Hodges"
+      },
+      {
+         "source": "Matthew Hayes",
+         "value": 1,
+         "target": "Ido Hadanny"
+      }
+   ],
    "nodes": [
       {
-         "id": "12083",
+         "id": "Matthew Hayes",
          "group": 1
       },
       {
-         "id": "12020",
-         "group": 2
-      },
-      {
-         "id": "12031",
+         "id": "Ido Hadanny",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 2,
-         "target": "12020",
-         "source": "12031"
       },
       {
-         "value": 1,
-         "target": "12083",
-         "source": "12020"
-      },
-      {
-         "value": 1,
-         "target": "12031",
-         "source": "12020"
+         "id": "Jonathan Hodges",
+         "group": 2
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "6697",
-         "group": 3
+         "source": "rvs",
+         "value": 1,
+         "target": "ptr"
       },
       {
-         "id": "6701",
+         "source": "rvs",
+         "value": 9,
+         "target": "bmahe"
+      },
+      {
+         "source": "bmahe",
+         "value": 1,
+         "target": "ptr"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bmahe",
+         "group": 1
+      },
+      {
+         "id": "rvs",
          "group": 2
       },
       {
-         "id": "6695",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "6695",
-         "source": "6701"
-      },
-      {
-         "value": 1,
-         "target": "6701",
-         "source": "6697"
-      },
-      {
-         "value": 9,
-         "target": "6695",
-         "source": "6697"
+         "id": "ptr",
+         "group": 3
       }
    ]
 }

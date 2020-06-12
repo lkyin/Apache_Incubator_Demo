@@ -1,37 +1,37 @@
 {
+   "links": [
+      {
+         "source": "chirino",
+         "value": 11,
+         "target": "gnodet"
+      },
+      {
+         "source": "aco",
+         "value": 2,
+         "target": "bsnyder"
+      },
+      {
+         "source": "aco",
+         "value": 5,
+         "target": "gnodet"
+      }
+   ],
    "nodes": [
       {
-         "id": "34916",
+         "id": "chirino",
          "group": 3
       },
       {
-         "id": "528",
+         "id": "aco",
+         "group": 2
+      },
+      {
+         "id": "gnodet",
          "group": 4
       },
       {
-         "id": "536",
-         "group": 1
-      },
-      {
-         "id": "535",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 11,
-         "target": "536",
-         "source": "528"
-      },
-      {
-         "value": 5,
-         "target": "535",
-         "source": "536"
-      },
-      {
-         "value": 2,
-         "target": "535",
-         "source": "34916"
+         "id": "bsnyder",
+         "group": 3
       }
    ]
 }

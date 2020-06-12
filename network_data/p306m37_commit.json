@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "42968",
-         "group": 4
-      },
-      {
-         "id": "42978",
-         "group": 4
-      },
-      {
-         "id": "42961",
-         "group": 1
-      },
-      {
-         "id": "42986",
-         "group": 1
-      },
-      {
-         "id": "42980",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Vicente J. Ruiz Jurado",
          "value": 1,
-         "target": "42968",
-         "source": "42986"
+         "target": "vjrj"
       },
       {
-         "value": 1,
-         "target": "42968",
-         "source": "42978"
-      },
-      {
+         "source": "al",
          "value": 2,
-         "target": "42961",
-         "source": "42980"
+         "target": "Ali Lown"
       },
       {
+         "source": "Vicente J. Ruiz Jurado",
          "value": 1,
-         "target": "42986",
-         "source": "42978"
+         "target": "vjrj"
+      },
+      {
+         "source": "vjrj",
+         "value": 1,
+         "target": "vjrj"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "vjrj",
+         "group": 1
+      },
+      {
+         "id": "al",
+         "group": 3
+      },
+      {
+         "id": "Vicente J. Ruiz Jurado",
+         "group": 3
+      },
+      {
+         "id": "vjrj",
+         "group": 4
+      },
+      {
+         "id": "Ali Lown",
+         "group": 2
       }
    ]
 }

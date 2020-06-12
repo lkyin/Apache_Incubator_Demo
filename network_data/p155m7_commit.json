@@ -1,51 +1,51 @@
 {
+   "links": [
+      {
+         "source": "Rahul Iyer",
+         "value": 1,
+         "target": "xtang"
+      },
+      {
+         "source": "riyer",
+         "value": 2,
+         "target": "Rahul Iyer"
+      },
+      {
+         "source": "riyer",
+         "value": 256,
+         "target": "xtang"
+      },
+      {
+         "source": "Xiaocheng Tang",
+         "value": 1,
+         "target": "riyer"
+      },
+      {
+         "source": "Xiaocheng Tang",
+         "value": 4,
+         "target": "Rahul Iyer"
+      }
+   ],
    "nodes": [
       {
-         "id": "24111",
-         "group": 4
-      },
-      {
-         "id": "24112",
-         "group": 3
-      },
-      {
-         "id": "24117",
-         "group": 4
-      },
-      {
-         "id": "24122",
+         "id": "Xiaocheng Tang",
          "group": 1
       },
       {
-         "id": "24123",
+         "id": "riyer",
+         "group": 4
+      },
+      {
+         "id": "Rahul Iyer",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "24123",
-         "source": "24122"
       },
       {
-         "value": 2,
-         "target": "24122",
-         "source": "24112"
+         "id": "xtang",
+         "group": 1
       },
       {
-         "value": 256,
-         "target": "24123",
-         "source": "24112"
-      },
-      {
-         "value": 1,
-         "target": "24117",
-         "source": "24112"
-      },
-      {
-         "value": 4,
-         "target": "24117",
-         "source": "24111"
+         "id": "Rahul Iyer",
+         "group": 3
       }
    ]
 }

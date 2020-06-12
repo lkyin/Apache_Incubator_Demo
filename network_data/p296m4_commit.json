@@ -1,37 +1,37 @@
 {
-   "nodes": [
-      {
-         "id": "11265",
-         "group": 1
-      },
-      {
-         "id": "33252",
-         "group": 1
-      },
-      {
-         "id": "10356",
-         "group": 3
-      },
-      {
-         "id": "33251",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "10356",
-         "source": "33252"
+         "target": "Dan Silivestru"
       },
       {
+         "source": "Dan Silivestru",
          "value": 1,
-         "target": "33251",
-         "source": "11265"
+         "target": "Maxime Biais"
       },
       {
+         "source": "brentlintner",
          "value": 1,
-         "target": "10356",
-         "source": "11265"
+         "target": "Brent Lintner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Maxime Biais",
+         "group": 4
+      },
+      {
+         "id": "brentlintner",
+         "group": 2
+      },
+      {
+         "id": "Brent Lintner",
+         "group": 4
+      },
+      {
+         "id": "Dan Silivestru",
+         "group": 4
       }
    ]
 }

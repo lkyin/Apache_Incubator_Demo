@@ -1,47 +1,47 @@
 {
+   "links": [
+      {
+         "source": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "value": 1,
+         "target": "Jukka Zitting"
+      },
+      {
+         "source": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "value": 3,
+         "target": "Jean-Louis Boudart"
+      },
+      {
+         "source": "Jukka Zitting",
+         "value": 1,
+         "target": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?="
+      },
+      {
+         "source": "Jean-Louis Boudart",
+         "value": 2,
+         "target": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?="
+      },
+      {
+         "source": "Jean-Louis Boudart",
+         "value": 1,
+         "target": "Apache Jenkins Server"
+      }
+   ],
    "nodes": [
       {
-         "id": "249",
+         "id": "Jean-Louis Boudart",
          "group": 1
       },
       {
-         "id": "142",
+         "id": "Jukka Zitting",
          "group": 3
       },
       {
-         "id": "14383",
-         "group": 3
+         "id": "Apache Jenkins Server",
+         "group": 2
       },
       {
-         "id": "14384",
-         "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "249",
-         "source": "14384"
-      },
-      {
-         "value": 3,
-         "target": "14384",
-         "source": "14383"
-      },
-      {
-         "value": 1,
-         "target": "142",
-         "source": "14383"
-      },
-      {
-         "value": 2,
-         "target": "14383",
-         "source": "14384"
-      },
-      {
-         "value": 1,
-         "target": "14383",
-         "source": "142"
+         "id": "=?iso-8859-1?Q?Nicolas_Lalev=E9e?=",
+         "group": 4
       }
    ]
 }

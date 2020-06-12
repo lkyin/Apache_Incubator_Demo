@@ -1,47 +1,47 @@
 {
-   "nodes": [
-      {
-         "id": "18655",
-         "group": 2
-      },
-      {
-         "id": "4107",
-         "group": 4
-      },
-      {
-         "id": "4102",
-         "group": 4
-      },
-      {
-         "id": "18421",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Olivier Lamy",
          "value": 1,
-         "target": "18421",
-         "source": "4107"
+         "target": "Mike Jumper"
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "4102",
-         "source": "18421"
+         "target": "Mike Jumper"
       },
       {
+         "source": "Mike Jumper",
          "value": 1,
-         "target": "18655",
-         "source": "4102"
+         "target": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?="
       },
       {
+         "source": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
          "value": 1,
-         "target": "4107",
-         "source": "18421"
+         "target": "Mike Jumper"
       },
       {
+         "source": "Mike Jumper",
          "value": 1,
-         "target": "18421",
-         "source": "4102"
+         "target": "Olivier Lamy"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "=?UTF-8?Q?Jean-Baptiste_Onofr=c3=a9?=",
+         "group": 1
+      },
+      {
+         "id": "Mike Jumper",
+         "group": 1
+      },
+      {
+         "id": "Olivier Lamy",
+         "group": 4
+      },
+      {
+         "id": "Mike Jumper",
+         "group": 1
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "19956",
-         "group": 3
-      },
-      {
-         "id": "19961",
-         "group": 3
-      },
-      {
-         "id": "19958",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "macyang",
          "value": 1,
-         "target": "19961",
-         "source": "19956"
+         "target": "gates"
       },
       {
+         "source": "macyang",
          "value": 3,
-         "target": "19958",
-         "source": "19961"
+         "target": "hashutosh"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "macyang",
+         "group": 4
+      },
+      {
+         "id": "hashutosh",
+         "group": 2
+      },
+      {
+         "id": "gates",
+         "group": 2
       }
    ]
 }

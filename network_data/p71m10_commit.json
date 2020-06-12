@@ -1,33 +1,33 @@
 {
+   "links": [
+      {
+         "source": "lacton",
+         "value": 10,
+         "target": "assaf"
+      },
+      {
+         "source": "boisvert",
+         "value": 3,
+         "target": "assaf"
+      },
+      {
+         "source": "boisvert",
+         "value": 3,
+         "target": "lacton"
+      }
+   ],
    "nodes": [
       {
-         "id": "7466",
+         "id": "boisvert",
          "group": 2
       },
       {
-         "id": "7453",
-         "group": 3
-      },
-      {
-         "id": "7502",
+         "id": "assaf",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "7453",
-         "source": "7466"
       },
       {
-         "value": 10,
-         "target": "7502",
-         "source": "7453"
-      },
-      {
-         "value": 3,
-         "target": "7502",
-         "source": "7466"
+         "id": "lacton",
+         "group": 3
       }
    ]
 }

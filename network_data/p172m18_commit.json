@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "28248",
-         "group": 2
-      },
-      {
-         "id": "28249",
-         "group": 2
-      },
-      {
-         "id": "7466",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "mszefler",
          "value": 2,
-         "target": "28249",
-         "source": "28248"
+         "target": "boisvert"
       },
       {
+         "source": "mszefler",
          "value": 2,
-         "target": "7466",
-         "source": "28248"
+         "target": "vanto"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "mszefler",
+         "group": 2
+      },
+      {
+         "id": "boisvert",
+         "group": 3
+      },
+      {
+         "id": "vanto",
+         "group": 4
       }
    ]
 }

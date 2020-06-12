@@ -1,42 +1,42 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "16980",
-         "group": 2
+         "source": "Sergey Vladimirov",
+         "value": 1,
+         "target": "Niklas Gustavsson"
       },
       {
-         "id": "4969",
+         "source": "Clinton Foster",
+         "value": 1,
+         "target": "Niklas Gustavsson"
+      },
+      {
+         "source": "Rana Bhattacharyya",
+         "value": 1,
+         "target": "Sergey Vladimirov"
+      },
+      {
+         "source": "Niklas Gustavsson",
+         "value": 1,
+         "target": "Clinton Foster"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sergey Vladimirov",
+         "group": 3
+      },
+      {
+         "id": "Clinton Foster",
+         "group": 4
+      },
+      {
+         "id": "Niklas Gustavsson",
          "group": 1
       },
       {
-         "id": "17010",
-         "group": 2
-      },
-      {
-         "id": "16976",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "4969",
-         "source": "16980"
-      },
-      {
-         "value": 1,
-         "target": "17010",
-         "source": "4969"
-      },
-      {
-         "value": 1,
-         "target": "4969",
-         "source": "17010"
-      },
-      {
-         "value": 1,
-         "target": "16980",
-         "source": "16976"
+         "id": "Rana Bhattacharyya",
+         "group": 1
       }
    ]
 }

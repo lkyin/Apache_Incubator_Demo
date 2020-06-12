@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "28617",
-         "group": 4
-      },
-      {
-         "id": "28618",
-         "group": 2
-      },
-      {
-         "id": "39240",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "ilgrosso",
          "value": 1,
-         "target": "39240",
-         "source": "28617"
+         "target": "mdisabatino"
       },
       {
+         "source": "ilgrosso",
          "value": 2,
-         "target": "28618",
-         "source": "28617"
+         "target": "fmartelli"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "ilgrosso",
+         "group": 1
+      },
+      {
+         "id": "fmartelli",
+         "group": 1
+      },
+      {
+         "id": "mdisabatino",
+         "group": 2
       }
    ]
 }

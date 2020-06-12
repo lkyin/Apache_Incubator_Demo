@@ -1,167 +1,157 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "26280",
-         "group": 1
+         "source": "Jan Lahoda",
+         "value": 3,
+         "target": "pono"
       },
       {
-         "id": "26278",
+         "source": "geertjan",
+         "value": 1,
+         "target": "d"
+      },
+      {
+         "source": "geertjan",
+         "value": 1,
+         "target": "Jan Lahoda"
+      },
+      {
+         "source": "Jaroslav Tulach",
+         "value": 3,
+         "target": "geertjan"
+      },
+      {
+         "source": "Jaroslav Tulach",
+         "value": 40,
+         "target": "jtulach"
+      },
+      {
+         "source": "Jaroslav Tulach",
+         "value": 2,
+         "target": "geertjan"
+      },
+      {
+         "source": "jlahoda",
+         "value": 4,
+         "target": "geertjan"
+      },
+      {
+         "source": "geertjan",
+         "value": 5,
+         "target": "pono"
+      },
+      {
+         "source": "Jan Lahoda",
+         "value": 1,
+         "target": "d"
+      },
+      {
+         "source": "jlahoda",
+         "value": 1,
+         "target": "Jan Lahoda"
+      },
+      {
+         "source": "Jaroslav Tulach",
+         "value": 19,
+         "target": "Jaroslav Tulach"
+      },
+      {
+         "source": "geertjan",
+         "value": 3,
+         "target": "geertjan"
+      },
+      {
+         "source": "Jaroslav Tulach",
+         "value": 15,
+         "target": "jtulach"
+      },
+      {
+         "source": "d",
+         "value": 1,
+         "target": "pono"
+      },
+      {
+         "source": "jtulach",
+         "value": 1,
+         "target": "pono"
+      },
+      {
+         "source": "geertjan",
+         "value": 1,
+         "target": "d"
+      },
+      {
+         "source": "geertjan",
+         "value": 1,
+         "target": "Jan Lahoda"
+      },
+      {
+         "source": "Jaroslav Tulach",
+         "value": 1,
+         "target": "pono"
+      },
+      {
+         "source": "geertjan",
+         "value": 1,
+         "target": "pono"
+      },
+      {
+         "source": "jtulach",
+         "value": 6,
+         "target": "geertjan"
+      },
+      {
+         "source": "jlahoda",
+         "value": 1,
+         "target": "Jaroslav Tulach"
+      },
+      {
+         "source": "jlahoda",
+         "value": 1,
+         "target": "jtulach"
+      },
+      {
+         "source": "jlahoda",
+         "value": 170,
+         "target": "pono"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jtulach",
          "group": 3
       },
       {
-         "id": "26279",
+         "id": "pono",
          "group": 1
       },
       {
-         "id": "26277",
-         "group": 2
-      },
-      {
-         "id": "26276",
-         "group": 1
-      },
-      {
-         "id": "26284",
+         "id": "Jaroslav Tulach",
          "group": 4
       },
       {
-         "id": "26287",
-         "group": 3
+         "id": "jlahoda",
+         "group": 4
       },
       {
-         "id": "26275",
+         "id": "geertjan",
+         "group": 2
+      },
+      {
+         "id": "Jaroslav Tulach",
          "group": 1
       },
       {
-         "id": "10078",
+         "id": "geertjan",
+         "group": 1
+      },
+      {
+         "id": "d",
+         "group": 1
+      },
+      {
+         "id": "Jan Lahoda",
          "group": 3
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "26287",
-         "source": "26280"
-      },
-      {
-         "value": 1,
-         "target": "26287",
-         "source": "26277"
-      },
-      {
-         "value": 1,
-         "target": "26277",
-         "source": "26279"
-      },
-      {
-         "value": 1,
-         "target": "26287",
-         "source": "26278"
-      },
-      {
-         "value": 1,
-         "target": "10078",
-         "source": "26284"
-      },
-      {
-         "value": 4,
-         "target": "26287",
-         "source": "26279"
-      },
-      {
-         "value": 19,
-         "target": "26276",
-         "source": "26277"
-      },
-      {
-         "value": 2,
-         "target": "26276",
-         "source": "26287"
-      },
-      {
-         "value": 1,
-         "target": "26279",
-         "source": "26280"
-      },
-      {
-         "value": 1,
-         "target": "10078",
-         "source": "26278"
-      },
-      {
-         "value": 1,
-         "target": "26280",
-         "source": "26278"
-      },
-      {
-         "value": 2,
-         "target": "26275",
-         "source": "26287"
-      },
-      {
-         "value": 3,
-         "target": "26287",
-         "source": "26284"
-      },
-      {
-         "value": 1,
-         "target": "26284",
-         "source": "26278"
-      },
-      {
-         "value": 5,
-         "target": "26287",
-         "source": "10078"
-      },
-      {
-         "value": 15,
-         "target": "26276",
-         "source": "26275"
-      },
-      {
-         "value": 4,
-         "target": "26287",
-         "source": "26275"
-      },
-      {
-         "value": 40,
-         "target": "26275",
-         "source": "26277"
-      },
-      {
-         "value": 1,
-         "target": "26275",
-         "source": "26279"
-      },
-      {
-         "value": 170,
-         "target": "10078",
-         "source": "26279"
-      },
-      {
-         "value": 1,
-         "target": "26275",
-         "source": "10078"
-      },
-      {
-         "value": 1,
-         "target": "26277",
-         "source": "10078"
-      },
-      {
-         "value": 2,
-         "target": "26277",
-         "source": "26287"
-      },
-      {
-         "value": 1,
-         "target": "26280",
-         "source": "26284"
-      },
-      {
-         "value": 3,
-         "target": "10078",
-         "source": "26280"
       }
    ]
 }

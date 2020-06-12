@@ -1,46 +1,46 @@
 {
-   "nodes": [
-      {
-         "id": "39839",
-         "group": 4
-      },
-      {
-         "id": "20236",
-         "group": 2
-      },
-      {
-         "id": "42180",
-         "group": 2
-      },
-      {
-         "id": "199",
-         "group": 4
-      },
-      {
-         "id": "4452",
-         "group": 4
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "42180",
-         "source": "39839"
-      },
-      {
-         "value": 1,
-         "target": "42180",
-         "source": "4452"
-      },
-      {
+         "source": "Terence Yim",
          "value": 2,
-         "target": "199",
-         "source": "20236"
+         "target": "Keith Turner"
       },
       {
+         "source": "chtyim",
          "value": 1,
-         "target": "20236",
-         "source": "199"
+         "target": "CuriousVini"
+      },
+      {
+         "source": "asfgit",
+         "value": 1,
+         "target": "CuriousVini"
+      },
+      {
+         "source": "Keith Turner",
+         "value": 1,
+         "target": "Terence Yim"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "CuriousVini",
+         "group": 2
+      },
+      {
+         "id": "Terence Yim",
+         "group": 2
+      },
+      {
+         "id": "asfgit",
+         "group": 4
+      },
+      {
+         "id": "Keith Turner",
+         "group": 4
+      },
+      {
+         "id": "chtyim",
+         "group": 1
       }
    ]
 }

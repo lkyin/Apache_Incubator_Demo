@@ -1,46 +1,46 @@
 {
+   "links": [
+      {
+         "source": "Martin Cooper",
+         "value": 1,
+         "target": "Luciano Resende"
+      },
+      {
+         "source": "Luciano Resende (JIRA)",
+         "value": 1,
+         "target": "Leonardo Figueiredo (JIRA)"
+      },
+      {
+         "source": "Luciano Resende",
+         "value": 1,
+         "target": "Leonardo Figueiredo"
+      },
+      {
+         "source": "Leonardo Figueiredo",
+         "value": 1,
+         "target": "Luciano Resende"
+      }
+   ],
    "nodes": [
       {
-         "id": "13",
+         "id": "Luciano Resende (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Martin Cooper",
          "group": 3
       },
       {
-         "id": "31578",
+         "id": "Leonardo Figueiredo (JIRA)",
          "group": 1
       },
       {
-         "id": "31577",
-         "group": 1
+         "id": "Leonardo Figueiredo",
+         "group": 3
       },
       {
-         "id": "181",
+         "id": "Luciano Resende",
          "group": 2
-      },
-      {
-         "id": "41",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "41",
-         "source": "31578"
-      },
-      {
-         "value": 1,
-         "target": "41",
-         "source": "13"
-      },
-      {
-         "value": 1,
-         "target": "31578",
-         "source": "41"
-      },
-      {
-         "value": 1,
-         "target": "31577",
-         "source": "181"
       }
    ]
 }

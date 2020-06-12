@@ -1,87 +1,87 @@
 {
-   "nodes": [
-      {
-         "id": "38917",
-         "group": 4
-      },
-      {
-         "id": "38906",
-         "group": 1
-      },
-      {
-         "id": "22919",
-         "group": 1
-      },
-      {
-         "id": "22925",
-         "group": 1
-      },
-      {
-         "id": "38863",
-         "group": 3
-      },
-      {
-         "id": "4452",
-         "group": 4
-      },
-      {
-         "id": "4473",
-         "group": 3
-      },
-      {
-         "id": "38915",
-         "group": 4
-      },
-      {
-         "id": "38926",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Ryan Ebanks",
          "value": 1,
-         "target": "4473",
-         "source": "38906"
+         "target": "Steve Blackmon"
       },
       {
+         "source": "Steve Blackmon",
+         "value": 1,
+         "target": "Robert Douglas"
+      },
+      {
+         "source": "asfgit",
          "value": 6,
-         "target": "38915",
-         "source": "4452"
+         "target": "robdouglas"
       },
       {
-         "value": 3,
-         "target": "38915",
-         "source": "22925"
+         "source": "Robert Douglas",
+         "value": 1,
+         "target": "Ryan Ebanks"
       },
       {
-         "value": 3,
-         "target": "22925",
-         "source": "4452"
-      },
-      {
+         "source": "rbnks",
          "value": 6,
-         "target": "38915",
-         "source": "38917"
+         "target": "robdouglas"
       },
       {
+         "source": "Steve Blackmon",
          "value": 1,
-         "target": "4473",
-         "source": "38863"
+         "target": "Stanton Sievers"
       },
       {
-         "value": 1,
-         "target": "38863",
-         "source": "38926"
+         "source": "asfgit",
+         "value": 3,
+         "target": "steveblackmon"
       },
       {
+         "source": "Stanton Sievers",
          "value": 1,
-         "target": "38906",
-         "source": "4473"
+         "target": "Steve Blackmon"
       },
       {
-         "value": 1,
-         "target": "38926",
-         "source": "22919"
+         "source": "steveblackmon",
+         "value": 3,
+         "target": "robdouglas"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Steve Blackmon",
+         "group": 3
+      },
+      {
+         "id": "rbnks",
+         "group": 2
+      },
+      {
+         "id": "asfgit",
+         "group": 2
+      },
+      {
+         "id": "Robert Douglas",
+         "group": 1
+      },
+      {
+         "id": "steveblackmon",
+         "group": 2
+      },
+      {
+         "id": "Stanton Sievers",
+         "group": 4
+      },
+      {
+         "id": "Ryan Ebanks",
+         "group": 4
+      },
+      {
+         "id": "robdouglas",
+         "group": 2
+      },
+      {
+         "id": "Steve Blackmon",
+         "group": 3
       }
    ]
 }

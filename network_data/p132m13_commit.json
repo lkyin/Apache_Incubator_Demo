@@ -1,60 +1,60 @@
 {
-   "nodes": [
-      {
-         "id": "21584",
-         "group": 2
-      },
-      {
-         "id": "21581",
-         "group": 2
-      },
-      {
-         "id": "8694",
-         "group": 1
-      },
-      {
-         "id": "21587",
-         "group": 2
-      },
-      {
-         "id": "21580",
-         "group": 3
-      },
-      {
-         "id": "8693",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "stefan",
          "value": 2,
-         "target": "21581",
-         "source": "8693"
+         "target": "dpfister"
       },
       {
+         "source": "mreutegg",
+         "value": 1,
+         "target": "edgarpoce"
+      },
+      {
+         "source": "tripod",
          "value": 2,
-         "target": "21580",
-         "source": "8694"
+         "target": "jukka"
       },
       {
+         "source": "tripod",
          "value": 1,
-         "target": "8693",
-         "source": "21580"
+         "target": "mreutegg"
       },
       {
+         "source": "mreutegg",
          "value": 1,
-         "target": "21580",
-         "source": "21584"
+         "target": "dpfister"
       },
       {
+         "source": "tripod",
          "value": 1,
-         "target": "8693",
-         "source": "21584"
+         "target": "dpfister"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tripod",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "21587",
-         "source": "21584"
+         "id": "mreutegg",
+         "group": 3
+      },
+      {
+         "id": "jukka",
+         "group": 4
+      },
+      {
+         "id": "stefan",
+         "group": 3
+      },
+      {
+         "id": "dpfister",
+         "group": 4
+      },
+      {
+         "id": "edgarpoce",
+         "group": 3
       }
    ]
 }

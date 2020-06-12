@@ -1,51 +1,51 @@
 {
-   "nodes": [
-      {
-         "id": "33326",
-         "group": 3
-      },
-      {
-         "id": "11265",
-         "group": 2
-      },
-      {
-         "id": "4091",
-         "group": 3
-      },
-      {
-         "id": "33315",
-         "group": 1
-      },
-      {
-         "id": "33327",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "Christian Grobmeier",
          "value": 1,
-         "target": "4091",
-         "source": "11265"
+         "target": "Brent Lintner"
       },
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "33326",
-         "source": "33315"
+         "target": "Christian Grobmeier"
       },
       {
+         "source": "Brent Lintner",
          "value": 1,
-         "target": "11265",
-         "source": "4091"
+         "target": "JR"
       },
       {
+         "source": "JR",
          "value": 1,
-         "target": "33315",
-         "source": "11265"
+         "target": "Brian Keith Johnston"
       },
       {
+         "source": "JR",
          "value": 1,
-         "target": "33327",
-         "source": "33315"
+         "target": "Marcos Lin"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "JR",
+         "group": 1
+      },
+      {
+         "id": "Brian Keith Johnston",
+         "group": 3
+      },
+      {
+         "id": "Christian Grobmeier",
+         "group": 1
+      },
+      {
+         "id": "Marcos Lin",
+         "group": 3
+      },
+      {
+         "id": "Brent Lintner",
+         "group": 1
       }
    ]
 }

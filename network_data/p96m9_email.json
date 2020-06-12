@@ -1,50 +1,50 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "13163",
-         "group": 1
+         "source": "Sijie Guo",
+         "value": 1,
+         "target": "Sijie Guo"
       },
       {
-         "id": "13165",
+         "source": "hsaputra",
+         "value": 2,
+         "target": "arvindkandhare"
+      },
+      {
+         "source": "sijie",
+         "value": 5,
+         "target": "arvindkandhare"
+      },
+      {
+         "source": "jiazhai",
+         "value": 1,
+         "target": "arvindkandhare"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "jiazhai",
+         "group": 3
+      },
+      {
+         "id": "Sijie Guo",
          "group": 2
       },
       {
-         "id": "13145",
-         "group": 3
+         "id": "arvindkandhare",
+         "group": 2
       },
       {
-         "id": "5798",
-         "group": 3
-      },
-      {
-         "id": "13169",
+         "id": "hsaputra",
          "group": 4
       },
       {
-         "id": "13167",
-         "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 5,
-         "target": "13167",
-         "source": "13165"
+         "id": "sijie",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "13145",
-         "source": "13163"
-      },
-      {
-         "value": 1,
-         "target": "13167",
-         "source": "13169"
-      },
-      {
-         "value": 2,
-         "target": "13167",
-         "source": "5798"
+         "id": "Sijie Guo",
+         "group": 2
       }
    ]
 }

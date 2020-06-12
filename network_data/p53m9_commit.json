@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "1103",
-         "group": 3
-      },
-      {
-         "id": "1106",
-         "group": 3
-      },
-      {
-         "id": "1107",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "heshan",
          "value": 1,
-         "target": "1103",
-         "source": "1106"
+         "target": "samindaw"
       },
       {
+         "source": "heshan",
+         "value": 1,
+         "target": "lahiru"
+      },
+      {
+         "source": "lahiru",
          "value": 10,
-         "target": "1107",
-         "source": "1103"
+         "target": "samindaw"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "heshan",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "1107",
-         "source": "1106"
+         "id": "lahiru",
+         "group": 4
+      },
+      {
+         "id": "samindaw",
+         "group": 3
       }
    ]
 }

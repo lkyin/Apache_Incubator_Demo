@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "24812",
-         "group": 3
-      },
-      {
-         "id": "24792",
-         "group": 1
-      },
-      {
-         "id": "12023",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 6,
-         "target": "12023",
-         "source": "24792"
+         "source": "David Lyle",
+         "value": 1,
+         "target": "cstella"
       },
       {
-         "value": 1,
-         "target": "12023",
-         "source": "24812"
+         "source": "cstella",
+         "value": 6,
+         "target": "cestella"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "David Lyle",
+         "group": 4
+      },
+      {
+         "id": "cstella",
+         "group": 1
+      },
+      {
+         "id": "cestella",
+         "group": 1
       }
    ]
 }

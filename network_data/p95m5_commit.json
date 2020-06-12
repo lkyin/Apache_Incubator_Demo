@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "12989",
-         "group": 1
-      },
-      {
-         "id": "12986",
-         "group": 1
-      },
-      {
-         "id": "12991",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "None",
          "value": 4,
-         "target": "12991",
-         "source": "12986"
+         "target": "akarasulu"
       },
       {
+         "source": "wesmckean",
          "value": 3,
-         "target": "12986",
-         "source": "12989"
+         "target": "akarasulu"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "wesmckean",
+         "group": 1
+      },
+      {
+         "id": "None",
+         "group": 4
+      },
+      {
+         "id": "akarasulu",
+         "group": 1
       }
    ]
 }

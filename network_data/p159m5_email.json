@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "6706",
-         "group": 1
-      },
-      {
-         "id": "206",
-         "group": 2
-      },
-      {
-         "id": "4703",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "Ted Dunning",
          "value": 1,
-         "target": "206",
-         "source": "6706"
+         "target": "Tom White"
       },
       {
+         "source": "Tom White",
          "value": 1,
-         "target": "6706",
-         "source": "4703"
+         "target": "no-reply"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "no-reply",
+         "group": 3
+      },
+      {
+         "id": "Ted Dunning",
+         "group": 4
+      },
+      {
+         "id": "Tom White",
+         "group": 2
       }
    ]
 }

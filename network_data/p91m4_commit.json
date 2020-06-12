@@ -1,65 +1,70 @@
 {
-   "nodes": [
-      {
-         "id": "12281",
-         "group": 1
-      },
-      {
-         "id": "12268",
-         "group": 4
-      },
-      {
-         "id": "12279",
-         "group": 4
-      },
-      {
-         "id": "5926",
-         "group": 1
-      },
-      {
-         "id": "12273",
-         "group": 4
-      },
-      {
-         "id": "5927",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "Jason Porter",
          "value": 5,
-         "target": "12281",
-         "source": "12268"
+         "target": "Lincoln Baxter, III"
       },
       {
-         "value": 5,
-         "target": "5927",
-         "source": "12268"
-      },
-      {
-         "value": 6,
-         "target": "12279",
-         "source": "12268"
-      },
-      {
-         "value": 5,
-         "target": "12281",
-         "source": "12273"
-      },
-      {
-         "value": 5,
-         "target": "12273",
-         "source": "12268"
-      },
-      {
+         "source": "struberg",
          "value": 11,
-         "target": "5927",
-         "source": "5926"
+         "target": "Mark Struberg"
       },
       {
+         "source": "gpetracek",
+         "value": 1,
+         "target": "struberg"
+      },
+      {
+         "source": "Jason Porter",
+         "value": 5,
+         "target": "gpetracek"
+      },
+      {
+         "source": "gpetracek",
+         "value": 5,
+         "target": "Lincoln Baxter, III"
+      },
+      {
+         "source": "gpetracek",
          "value": 9,
-         "target": "5926",
-         "source": "12268"
+         "target": "Mark Struberg"
+      },
+      {
+         "source": "struberg",
+         "value": 4,
+         "target": "gpetracek"
+      },
+      {
+         "source": "gpetracek",
+         "value": 6,
+         "target": "Shane Bryzak"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "gpetracek",
+         "group": 4
+      },
+      {
+         "id": "Mark Struberg",
+         "group": 2
+      },
+      {
+         "id": "Jason Porter",
+         "group": 4
+      },
+      {
+         "id": "struberg",
+         "group": 1
+      },
+      {
+         "id": "Lincoln Baxter, III",
+         "group": 4
+      },
+      {
+         "id": "Shane Bryzak",
+         "group": 3
       }
    ]
 }

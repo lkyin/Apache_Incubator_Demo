@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "395",
-         "group": 1
-      },
-      {
-         "id": "397",
-         "group": 2
-      }
-   ],
    "links": [
       {
+         "source": "angelos",
          "value": 1,
-         "target": "397",
-         "source": "395"
+         "target": "marrs"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "angelos",
+         "group": 3
+      },
+      {
+         "id": "marrs",
+         "group": 3
       }
    ]
 }

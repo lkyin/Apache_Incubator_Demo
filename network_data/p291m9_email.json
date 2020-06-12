@@ -1,43 +1,43 @@
 {
-   "nodes": [
-      {
-         "id": "13",
-         "group": 4
-      },
-      {
-         "id": "180",
-         "group": 1
-      },
-      {
-         "id": "41",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Carsten Ziegeler",
+         "value": 3,
+         "target": "Luciano Resende"
+      },
+      {
+         "source": "Martin Cooper",
+         "value": 3,
+         "target": "Luciano Resende"
+      },
+      {
+         "source": "Luciano Resende",
          "value": 2,
-         "target": "13",
-         "source": "41"
+         "target": "Martin Cooper"
       },
       {
+         "source": "Carsten Ziegeler",
          "value": 1,
-         "target": "13",
-         "source": "180"
+         "target": "Martin Cooper"
       },
       {
-         "value": 3,
-         "target": "41",
-         "source": "13"
-      },
-      {
+         "source": "Luciano Resende",
          "value": 1,
-         "target": "180",
-         "source": "41"
+         "target": "Carsten Ziegeler"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Martin Cooper",
+         "group": 3
       },
       {
-         "value": 3,
-         "target": "41",
-         "source": "180"
+         "id": "Carsten Ziegeler",
+         "group": 2
+      },
+      {
+         "id": "Luciano Resende",
+         "group": 4
       }
    ]
 }

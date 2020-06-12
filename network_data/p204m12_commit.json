@@ -1,99 +1,104 @@
 {
+   "links": [
+      {
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "Martin Kleppmann"
+      },
+      {
+         "source": "criccomini",
+         "value": 95,
+         "target": "yanfang"
+      },
+      {
+         "source": "Jakob Homan",
+         "value": 1,
+         "target": "Yan Fang"
+      },
+      {
+         "source": "yanfang",
+         "value": 2,
+         "target": "criccomini"
+      },
+      {
+         "source": "Jakob Homan",
+         "value": 4,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Jakob Homan",
+         "value": 2,
+         "target": "Martin Kleppmann"
+      },
+      {
+         "source": "Yan Fang",
+         "value": 1,
+         "target": "Martin Kleppmann"
+      },
+      {
+         "source": "yanfang",
+         "value": 1,
+         "target": "Chris Riccomini"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 1,
+         "target": "criccomini"
+      },
+      {
+         "source": "criccomini",
+         "value": 2,
+         "target": "Yan Fang"
+      },
+      {
+         "source": "Chris Riccomini",
+         "value": 6,
+         "target": "Yan Fang"
+      },
+      {
+         "source": "yanfang",
+         "value": 2,
+         "target": "Yan Fang"
+      },
+      {
+         "source": "Yan Fang",
+         "value": 2,
+         "target": "Chris Riccomini"
+      }
+   ],
    "nodes": [
       {
-         "id": "34404",
+         "id": "Chris Riccomini",
          "group": 2
       },
       {
-         "id": "34411",
+         "id": "criccomini",
+         "group": 4
+      },
+      {
+         "id": "yanfang",
          "group": 3
       },
       {
-         "id": "34381",
+         "id": "Chris Riccomini",
+         "group": 2
+      },
+      {
+         "id": "Yan Fang",
          "group": 1
       },
       {
-         "id": "1421",
-         "group": 3
+         "id": "Jakob Homan",
+         "group": 2
       },
       {
-         "id": "3916",
-         "group": 1
-      },
-      {
-         "id": "34430",
-         "group": 1
-      },
-      {
-         "id": "34410",
-         "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 4,
-         "target": "3916",
-         "source": "34381"
-      },
-      {
-         "value": 1,
-         "target": "34411",
-         "source": "34381"
-      },
-      {
-         "value": 1,
-         "target": "34430",
-         "source": "34404"
-      },
-      {
-         "value": 2,
-         "target": "34430",
-         "source": "34410"
-      },
-      {
-         "value": 1,
-         "target": "34410",
-         "source": "34411"
-      },
-      {
-         "value": 1,
-         "target": "34381",
-         "source": "34404"
-      },
-      {
-         "value": 6,
-         "target": "34410",
-         "source": "34404"
-      },
-      {
-         "value": 2,
-         "target": "34410",
-         "source": "34381"
-      },
-      {
-         "value": 2,
-         "target": "3916",
-         "source": "34411"
-      },
-      {
-         "value": 1,
-         "target": "1421",
-         "source": "34404"
-      },
-      {
-         "value": 97,
-         "target": "1421",
-         "source": "34430"
-      },
-      {
-         "value": 2,
-         "target": "1421",
-         "source": "34410"
-      },
-      {
-         "value": 1,
-         "target": "34410",
-         "source": "3916"
+         "id": "Martin Kleppmann",
+         "group": 4
       }
    ]
 }

@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "7566",
-         "group": 3
-      },
-      {
-         "id": "4483",
-         "group": 3
-      },
-      {
-         "id": "7565",
-         "group": 3
-      }
-   ],
    "links": [
       {
-         "value": 27,
-         "target": "4483",
-         "source": "7566"
-      },
-      {
-         "value": 27,
-         "target": "7565",
-         "source": "7566"
-      },
-      {
+         "source": "matzew",
          "value": 239,
-         "target": "7565",
-         "source": "4483"
+         "target": "simonetripodi"
+      },
+      {
+         "source": "matzew",
+         "value": 27,
+         "target": "romanstumm"
+      },
+      {
+         "source": "romanstumm",
+         "value": 27,
+         "target": "simonetripodi"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "matzew",
+         "group": 3
+      },
+      {
+         "id": "romanstumm",
+         "group": 4
+      },
+      {
+         "id": "simonetripodi",
+         "group": 1
       }
    ]
 }

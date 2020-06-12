@@ -1,37 +1,37 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "14795",
-         "group": 1
+         "source": "Scott Comer",
+         "value": 1,
+         "target": "Kazi Khaled Al-Zahid"
       },
       {
-         "id": "14755",
+         "source": "Youngjin Park (youngjpa)",
+         "value": 1,
+         "target": "scott comer"
+      },
+      {
+         "source": "Kazi Khaled Al-Zahid",
+         "value": 2,
+         "target": "scott comer"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Scott Comer",
          "group": 3
       },
       {
-         "id": "14793",
+         "id": "Youngjin Park (youngjpa)",
+         "group": 4
+      },
+      {
+         "id": "Kazi Khaled Al-Zahid",
          "group": 2
       },
       {
-         "id": "14765",
+         "id": "scott comer",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "14765",
-         "source": "14755"
-      },
-      {
-         "value": 2,
-         "target": "14765",
-         "source": "14795"
-      },
-      {
-         "value": 1,
-         "target": "14795",
-         "source": "14793"
       }
    ]
 }

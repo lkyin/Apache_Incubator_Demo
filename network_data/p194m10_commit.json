@@ -1,37 +1,32 @@
 {
-   "nodes": [
-      {
-         "id": "31903",
-         "group": 3
-      },
-      {
-         "id": "4849",
-         "group": 1
-      },
-      {
-         "id": "31901",
-         "group": 1
-      },
-      {
-         "id": "4848",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "Donald Szeto",
+         "value": 34,
+         "target": "donald"
+      },
+      {
+         "source": "jenkins",
          "value": 2,
-         "target": "4849",
-         "source": "4848"
+         "target": "git-site-role"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Donald Szeto",
+         "group": 2
       },
       {
-         "value": 25,
-         "target": "31903",
-         "source": "31901"
+         "id": "donald",
+         "group": 4
       },
       {
-         "value": 9,
-         "target": "31901",
-         "source": "31903"
+         "id": "jenkins",
+         "group": 4
+      },
+      {
+         "id": "git-site-role",
+         "group": 4
       }
    ]
 }

@@ -1,19 +1,19 @@
 {
-   "nodes": [
-      {
-         "id": "15574",
-         "group": 3
-      },
-      {
-         "id": "15580",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "tink",
          "value": 1,
-         "target": "15580",
-         "source": "15574"
+         "target": "quetwo"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "tink",
+         "group": 2
+      },
+      {
+         "id": "quetwo",
+         "group": 3
       }
    ]
 }

@@ -1,28 +1,28 @@
 {
-   "nodes": [
+   "links": [
       {
-         "id": "11582",
-         "group": 1
+         "source": "jdonofrio",
+         "value": 1,
+         "target": "joes"
       },
       {
-         "id": "189",
+         "source": "brock",
+         "value": 3,
+         "target": "jdonofrio"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "brock",
          "group": 3
       },
       {
-         "id": "25239",
+         "id": "jdonofrio",
          "group": 2
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "25239",
-         "source": "189"
       },
       {
-         "value": 3,
-         "target": "25239",
-         "source": "11582"
+         "id": "joes",
+         "group": 3
       }
    ]
 }

@@ -1,82 +1,82 @@
 {
-   "nodes": [
-      {
-         "id": "17000",
-         "group": 1
-      },
-      {
-         "id": "17004",
-         "group": 2
-      },
-      {
-         "id": "16980",
-         "group": 3
-      },
-      {
-         "id": "17002",
-         "group": 2
-      },
-      {
-         "id": "16976",
-         "group": 4
-      },
-      {
-         "id": "17003",
-         "group": 4
-      },
-      {
-         "id": "17007",
-         "group": 1
-      },
-      {
-         "id": "16994",
-         "group": 3
-      },
-      {
-         "id": "17005",
-         "group": 1
-      }
-   ],
    "links": [
       {
-         "value": 1,
-         "target": "16976",
-         "source": "17000"
-      },
-      {
-         "value": 1,
-         "target": "17007",
-         "source": "16976"
-      },
-      {
-         "value": 1,
-         "target": "16994",
-         "source": "16976"
-      },
-      {
+         "source": "Sergey Vladimirov (JIRA)",
          "value": 4,
-         "target": "17004",
-         "source": "17003"
+         "target": "Evgueni Smoliar (JIRA)"
       },
       {
-         "value": 1,
-         "target": "17005",
-         "source": "16976"
-      },
-      {
-         "value": 1,
-         "target": "17002",
-         "source": "17003"
-      },
-      {
+         "source": "Sergey Vladimirov",
          "value": 3,
-         "target": "16976",
-         "source": "16980"
+         "target": "Rana Bhattacharyya"
       },
       {
+         "source": "Rana Bhattacharyya",
+         "value": 1,
+         "target": "Subramaniam, Parthiban (RBC Dexia IS)"
+      },
+      {
+         "source": "Rana Bhattacharyya",
+         "value": 1,
+         "target": "Gary.Mui"
+      },
+      {
+         "source": "OZAKI Ittetsu",
+         "value": 1,
+         "target": "Rana Bhattacharyya"
+      },
+      {
+         "source": "Sergey Vladimirov (JIRA)",
+         "value": 1,
+         "target": "John Wood (JIRA)"
+      },
+      {
+         "source": "Rana Bhattacharyya",
          "value": 3,
-         "target": "16980",
-         "source": "16976"
+         "target": "Sergey Vladimirov"
+      },
+      {
+         "source": "Rana Bhattacharyya",
+         "value": 1,
+         "target": "Mike McGonagle"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Sergey Vladimirov (JIRA)",
+         "group": 1
+      },
+      {
+         "id": "Gary.Mui",
+         "group": 2
+      },
+      {
+         "id": "OZAKI Ittetsu",
+         "group": 4
+      },
+      {
+         "id": "Mike McGonagle",
+         "group": 1
+      },
+      {
+         "id": "John Wood (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Sergey Vladimirov",
+         "group": 2
+      },
+      {
+         "id": "Evgueni Smoliar (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Rana Bhattacharyya",
+         "group": 2
+      },
+      {
+         "id": "Subramaniam, Parthiban (RBC Dexia IS)",
+         "group": 4
       }
    ]
 }

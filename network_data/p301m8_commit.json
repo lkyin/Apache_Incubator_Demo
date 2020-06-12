@@ -1,28 +1,28 @@
 {
+   "links": [
+      {
+         "source": "drewbai",
+         "value": 1,
+         "target": "bendewey"
+      },
+      {
+         "source": "bendewey",
+         "value": 1,
+         "target": "chintana"
+      }
+   ],
    "nodes": [
       {
-         "id": "38088",
+         "id": "drewbai",
          "group": 2
       },
       {
-         "id": "12118",
+         "id": "chintana",
          "group": 3
       },
       {
-         "id": "38092",
+         "id": "bendewey",
          "group": 4
-      }
-   ],
-   "links": [
-      {
-         "value": 1,
-         "target": "38092",
-         "source": "12118"
-      },
-      {
-         "value": 1,
-         "target": "38092",
-         "source": "38088"
       }
    ]
 }

@@ -1,80 +1,75 @@
 {
+   "links": [
+      {
+         "source": "joern",
+         "value": 2,
+         "target": "gsingers"
+      },
+      {
+         "source": "twgoetz",
+         "value": 2,
+         "target": "joern"
+      },
+      {
+         "source": "twgoetz",
+         "value": 1,
+         "target": "jkosin"
+      },
+      {
+         "source": "colen",
+         "value": 1,
+         "target": "jkosin"
+      },
+      {
+         "source": "joern",
+         "value": 9,
+         "target": "jkosin"
+      },
+      {
+         "source": "colen",
+         "value": 3,
+         "target": "joern"
+      },
+      {
+         "source": "gsingers",
+         "value": 1,
+         "target": "jkosin"
+      },
+      {
+         "source": "twgoetz",
+         "value": 1,
+         "target": "gsingers"
+      },
+      {
+         "source": "gsingers",
+         "value": 1,
+         "target": "joes"
+      }
+   ],
    "nodes": [
       {
-         "id": "29746",
-         "group": 2
-      },
-      {
-         "id": "13689",
-         "group": 2
-      },
-      {
-         "id": "29747",
-         "group": 3
-      },
-      {
-         "id": "29745",
-         "group": 3
-      },
-      {
-         "id": "189",
+         "id": "gsingers",
          "group": 4
       },
       {
-         "id": "29744",
+         "id": "jkosin",
+         "group": 2
+      },
+      {
+         "id": "twgoetz",
+         "group": 4
+      },
+      {
+         "id": "joes",
          "group": 1
-      }
-   ],
-   "links": [
-      {
-         "value": 3,
-         "target": "29745",
-         "source": "29747"
       },
       {
-         "value": 1,
-         "target": "189",
-         "source": "13689"
+         "id": "colen",
+         "group": 1
       },
       {
-         "value": 1,
-         "target": "29744",
-         "source": "13689"
-      },
-      {
-         "value": 8,
-         "target": "29745",
-         "source": "29746"
-      },
-      {
-         "value": 1,
-         "target": "29746",
-         "source": "29747"
-      },
-      {
-         "value": 1,
-         "target": "29746",
-         "source": "29745"
-      },
-      {
-         "value": 1,
-         "target": "29744",
-         "source": "29746"
-      },
-      {
-         "value": 2,
-         "target": "13689",
-         "source": "29745"
-      },
-      {
-         "value": 1,
-         "target": "13689",
-         "source": "29746"
-      },
-      {
-         "value": 2,
-         "target": "29744",
-         "source": "29745"
+         "id": "joern",
+         "group": 4
       }
    ]
 }

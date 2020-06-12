@@ -1,38 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "22379",
-         "group": 2
-      },
-      {
-         "id": "22380",
-         "group": 3
-      },
-      {
-         "id": "22367",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "John Hewitt",
          "value": 1,
-         "target": "22379",
-         "source": "22367"
+         "target": "Matt Post"
       },
       {
-         "value": 1,
-         "target": "22380",
-         "source": "22367"
+         "source": "John Hewitt",
+         "value": 2,
+         "target": "John Hewitt"
       },
       {
+         "source": "John Hewitt",
          "value": 1,
-         "target": "22380",
-         "source": "22379"
+         "target": "Matt Post"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "John Hewitt",
+         "group": 4
       },
       {
-         "value": 1,
-         "target": "22379",
-         "source": "22380"
+         "id": "John Hewitt",
+         "group": 4
+      },
+      {
+         "id": "Matt Post",
+         "group": 2
       }
    ]
 }

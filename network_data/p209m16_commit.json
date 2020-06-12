@@ -1,167 +1,162 @@
 {
-   "nodes": [
-      {
-         "id": "35334",
-         "group": 4
-      },
-      {
-         "id": "35323",
-         "group": 3
-      },
-      {
-         "id": "35330",
-         "group": 3
-      },
-      {
-         "id": "35331",
-         "group": 1
-      },
-      {
-         "id": "35328",
-         "group": 4
-      },
-      {
-         "id": "35324",
-         "group": 1
-      },
-      {
-         "id": "35326",
-         "group": 1
-      },
-      {
-         "id": "35333",
-         "group": 4
-      },
-      {
-         "id": "35329",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "chico",
+         "value": 1,
+         "target": "lryan"
+      },
+      {
+         "source": "vsiveton",
+         "value": 2,
+         "target": "lindner"
+      },
+      {
+         "source": "lindner",
+         "value": 1,
+         "target": "awiner"
+      },
+      {
+         "source": "etnu",
          "value": 6,
-         "target": "35329",
-         "source": "35330"
+         "target": "lindner"
       },
       {
-         "value": 1,
-         "target": "35324",
-         "source": "35334"
-      },
-      {
+         "source": "vsiveton",
          "value": 2,
-         "target": "35333",
-         "source": "35323"
+         "target": "lryan"
       },
       {
-         "value": 7,
-         "target": "35324",
-         "source": "35323"
-      },
-      {
-         "value": 15,
-         "target": "35329",
-         "source": "35324"
-      },
-      {
+         "source": "awiner",
          "value": 2,
-         "target": "35324",
-         "source": "35326"
+         "target": "evan"
       },
       {
-         "value": 1,
-         "target": "35330",
-         "source": "35324"
-      },
-      {
-         "value": 1,
-         "target": "35333",
-         "source": "35334"
-      },
-      {
-         "value": 2,
-         "target": "35333",
-         "source": "35326"
-      },
-      {
-         "value": 2,
-         "target": "35326",
-         "source": "35333"
-      },
-      {
-         "value": 2,
-         "target": "35329",
-         "source": "35323"
-      },
-      {
-         "value": 2,
-         "target": "35333",
-         "source": "35331"
-      },
-      {
-         "value": 1,
-         "target": "35329",
-         "source": "35326"
-      },
-      {
-         "value": 1,
-         "target": "35329",
-         "source": "35334"
-      },
-      {
-         "value": 8,
-         "target": "35333",
-         "source": "35330"
-      },
-      {
+         "source": "awiner",
          "value": 24,
-         "target": "35324",
-         "source": "35333"
+         "target": "lindner"
       },
       {
-         "value": 2,
-         "target": "35326",
-         "source": "35330"
-      },
-      {
-         "value": 19,
-         "target": "35329",
-         "source": "35333"
-      },
-      {
-         "value": 6,
-         "target": "35324",
-         "source": "35330"
-      },
-      {
-         "value": 3,
-         "target": "35333",
-         "source": "35329"
-      },
-      {
+         "source": "chico",
          "value": 1,
-         "target": "35324",
-         "source": "35331"
+         "target": "awiner"
       },
       {
-         "value": 10,
-         "target": "35324",
-         "source": "35329"
-      },
-      {
+         "source": "awiner",
          "value": 1,
-         "target": "35329",
-         "source": "35328"
+         "target": "beaton"
       },
       {
-         "value": 1,
-         "target": "35330",
-         "source": "35334"
-      },
-      {
+         "source": "awiner",
          "value": 4,
-         "target": "35333",
-         "source": "35324"
+         "target": "vsiveton"
+      },
+      {
+         "source": "lindner",
+         "value": 1,
+         "target": "evan"
+      },
+      {
+         "source": "lryan",
+         "value": 8,
+         "target": "etnu"
+      },
+      {
+         "source": "lryan",
+         "value": 2,
+         "target": "beaton"
+      },
+      {
+         "source": "lryan",
+         "value": 2,
+         "target": "awiner"
+      },
+      {
+         "source": "awiner",
+         "value": 6,
+         "target": "etnu"
+      },
+      {
+         "source": "vsiveton",
+         "value": 3,
+         "target": "awiner"
+      },
+      {
+         "source": "awiner",
+         "value": 26,
+         "target": "lryan"
+      },
+      {
+         "source": "chico",
+         "value": 1,
+         "target": "etnu"
+      },
+      {
+         "source": "chico",
+         "value": 1,
+         "target": "lindner"
+      },
+      {
+         "source": "etnu",
+         "value": 2,
+         "target": "evan"
+      },
+      {
+         "source": "lryan",
+         "value": 22,
+         "target": "lindner"
+      },
+      {
+         "source": "johnh",
+         "value": 1,
+         "target": "lindner"
+      },
+      {
+         "source": "lryan",
+         "value": 4,
+         "target": "evan"
+      },
+      {
+         "source": "etnu",
+         "value": 1,
+         "target": "awiner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "chico",
+         "group": 4
+      },
+      {
+         "id": "johnh",
+         "group": 1
+      },
+      {
+         "id": "beaton",
+         "group": 4
+      },
+      {
+         "id": "lindner",
+         "group": 2
+      },
+      {
+         "id": "etnu",
+         "group": 4
+      },
+      {
+         "id": "lryan",
+         "group": 3
+      },
+      {
+         "id": "awiner",
+         "group": 3
+      },
+      {
+         "id": "vsiveton",
+         "group": 4
+      },
+      {
+         "id": "evan",
+         "group": 1
       }
    ]
 }

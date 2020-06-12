@@ -1,93 +1,98 @@
 {
-   "nodes": [
-      {
-         "id": "5732",
-         "group": 2
-      },
-      {
-         "id": "5724",
-         "group": 2
-      },
-      {
-         "id": "5690",
-         "group": 2
-      },
-      {
-         "id": "5684",
-         "group": 1
-      },
-      {
-         "id": "5687",
-         "group": 3
-      },
-      {
-         "id": "5682",
-         "group": 2
-      },
-      {
-         "id": "5720",
-         "group": 1
-      },
-      {
-         "id": "5683",
-         "group": 3
-      }
-   ],
    "links": [
       {
+         "source": "maxim",
+         "value": 1,
+         "target": "Bill Farner"
+      },
+      {
+         "source": "Kevin Sweeney",
          "value": 4,
-         "target": "5683",
-         "source": "5687"
+         "target": "Maxim Khutornenko"
       },
       {
+         "source": "Bill Farner",
          "value": 1,
-         "target": "5684",
-         "source": "5690"
+         "target": "Zameer Manji"
       },
       {
-         "value": 7,
-         "target": "5683",
-         "source": "5690"
+         "source": "Kevin Sweeney",
+         "value": 4,
+         "target": "Bill Farner"
       },
       {
+         "source": "kevints",
          "value": 1,
-         "target": "5682",
-         "source": "5690"
+         "target": "Maxim Khutornenko"
       },
       {
-         "value": 1,
-         "target": "5720",
-         "source": "5732"
-      },
-      {
-         "value": 1,
-         "target": "5682",
-         "source": "5684"
-      },
-      {
-         "value": 2,
-         "target": "5684",
-         "source": "5687"
-      },
-      {
-         "value": 1,
-         "target": "5690",
-         "source": "5732"
-      },
-      {
-         "value": 24,
-         "target": "5690",
-         "source": "5687"
-      },
-      {
-         "value": 1,
-         "target": "5682",
-         "source": "5687"
-      },
-      {
+         "source": "Bill Farner",
          "value": 3,
-         "target": "5690",
-         "source": "5724"
+         "target": "Kevin Sweeney"
+      },
+      {
+         "source": "maxim",
+         "value": 1,
+         "target": "kevints"
+      },
+      {
+         "source": "Bill Farner",
+         "value": 3,
+         "target": "Bill Farner"
+      },
+      {
+         "source": "Bill Farner",
+         "value": 24,
+         "target": "Maxim Khutornenko"
+      },
+      {
+         "source": "Bill Farner",
+         "value": 1,
+         "target": "kevints"
+      },
+      {
+         "source": "maxim",
+         "value": 2,
+         "target": "Maxim Khutornenko"
+      },
+      {
+         "source": "Joshua Cohen",
+         "value": 1,
+         "target": "Zameer Manji"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Bill Farner",
+         "group": 3
+      },
+      {
+         "id": "kevints",
+         "group": 3
+      },
+      {
+         "id": "Maxim Khutornenko",
+         "group": 3
+      },
+      {
+         "id": "Bill Farner",
+         "group": 1
+      },
+      {
+         "id": "Joshua Cohen",
+         "group": 2
+      },
+      {
+         "id": "Kevin Sweeney",
+         "group": 3
+      },
+      {
+         "id": "maxim",
+         "group": 1
+      },
+      {
+         "id": "Zameer Manji",
+         "group": 3
       }
    ]
 }

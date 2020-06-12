@@ -1,28 +1,28 @@
 {
-   "nodes": [
-      {
-         "id": "39917",
-         "group": 4
-      },
-      {
-         "id": "39916",
-         "group": 4
-      },
-      {
-         "id": "39920",
-         "group": 1
-      }
-   ],
    "links": [
       {
+         "source": "bryanduxbury",
          "value": 1,
-         "target": "39916",
-         "source": "39917"
+         "target": "kclark"
       },
       {
+         "source": "kclark",
          "value": 1,
-         "target": "39920",
-         "source": "39917"
+         "target": "dreiss"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "bryanduxbury",
+         "group": 4
+      },
+      {
+         "id": "kclark",
+         "group": 4
+      },
+      {
+         "id": "dreiss",
+         "group": 3
       }
    ]
 }

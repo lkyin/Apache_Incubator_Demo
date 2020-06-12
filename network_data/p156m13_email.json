@@ -1,120 +1,120 @@
 {
-   "nodes": [
-      {
-         "id": "24227",
-         "group": 2
-      },
-      {
-         "id": "24246",
-         "group": 4
-      },
-      {
-         "id": "1137",
-         "group": 1
-      },
-      {
-         "id": "24225",
-         "group": 1
-      },
-      {
-         "id": "11644",
-         "group": 2
-      },
-      {
-         "id": "24235",
-         "group": 2
-      },
-      {
-         "id": "24245",
-         "group": 1
-      },
-      {
-         "id": "13724",
-         "group": 4
-      },
-      {
-         "id": "24085",
-         "group": 1
-      },
-      {
-         "id": "15166",
-         "group": 2
-      },
-      {
-         "id": "24210",
-         "group": 2
-      }
-   ],
    "links": [
       {
-         "value": 3,
-         "target": "24235",
-         "source": "11644"
+         "source": "Karl Wright",
+         "value": 1,
+         "target": "Simon Willnauer"
       },
       {
-         "value": 3,
-         "target": "24235",
-         "source": "24225"
+         "source": "Karl Wright",
+         "value": 2,
+         "target": "Jack Krupansky"
       },
       {
+         "source": "Karl Wright",
+         "value": 2,
+         "target": "Koji Sekiguchi"
+      },
+      {
+         "source": "Koji Sekiguchi",
+         "value": 1,
+         "target": "Robert Muir"
+      },
+      {
+         "source": "Robert Muir",
+         "value": 1,
+         "target": "Karl Wright"
+      },
+      {
+         "source": "Oleg Tikhonov (JIRA)",
+         "value": 1,
+         "target": "Karl Wright (JIRA)"
+      },
+      {
+         "source": "Karl Wright (JIRA)",
          "value": 5,
-         "target": "24245",
-         "source": "24210"
+         "target": "=?utf-8?Q?Erlend_Gar=C3=A5sen_=28JIRA=29?="
       },
       {
+         "source": "Jack Krupansky",
+         "value": 3,
+         "target": "Karl Wright"
+      },
+      {
+         "source": "Simon Willnauer",
          "value": 2,
-         "target": "1137",
-         "source": "24210"
+         "target": "Koji Sekiguchi"
       },
       {
+         "source": "Grant Ingersoll (JIRA)",
          "value": 1,
-         "target": "15166",
-         "source": "24235"
+         "target": "Karl Wright (JIRA)"
       },
       {
+         "source": "Karl Wright (JIRA)",
          "value": 2,
-         "target": "24225",
-         "source": "24235"
+         "target": "Sebb (JIRA)"
       },
       {
-         "value": 1,
-         "target": "24235",
-         "source": "24085"
-      },
-      {
-         "value": 1,
-         "target": "24210",
-         "source": "24246"
-      },
-      {
+         "source": "Karl Wright",
          "value": 2,
-         "target": "24227",
-         "source": "24235"
+         "target": "Grant Ingersoll"
       },
       {
-         "value": 2,
-         "target": "11644",
-         "source": "24235"
-      },
-      {
+         "source": "Koji Sekiguchi",
          "value": 1,
-         "target": "24085",
-         "source": "24227"
+         "target": "Karl Wright"
       },
       {
-         "value": 1,
-         "target": "24235",
-         "source": "24227"
+         "source": "Grant Ingersoll",
+         "value": 3,
+         "target": "Karl Wright"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "Robert Muir",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "24210",
-         "source": "13724"
+         "id": "Grant Ingersoll",
+         "group": 4
       },
       {
-         "value": 2,
-         "target": "24227",
-         "source": "15166"
+         "id": "Koji Sekiguchi",
+         "group": 3
+      },
+      {
+         "id": "Karl Wright (JIRA)",
+         "group": 4
+      },
+      {
+         "id": "Simon Willnauer",
+         "group": 2
+      },
+      {
+         "id": "Oleg Tikhonov (JIRA)",
+         "group": 3
+      },
+      {
+         "id": "Jack Krupansky",
+         "group": 3
+      },
+      {
+         "id": "Grant Ingersoll (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "Sebb (JIRA)",
+         "group": 2
+      },
+      {
+         "id": "=?utf-8?Q?Erlend_Gar=C3=A5sen_=28JIRA=29?=",
+         "group": 3
+      },
+      {
+         "id": "Karl Wright",
+         "group": 2
       }
    ]
 }

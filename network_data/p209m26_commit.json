@@ -1,33 +1,33 @@
 {
-   "nodes": [
-      {
-         "id": "35337",
-         "group": 4
-      },
-      {
-         "id": "35328",
-         "group": 4
-      },
-      {
-         "id": "35329",
-         "group": 4
-      }
-   ],
    "links": [
       {
+         "source": "johnh",
+         "value": 1,
+         "target": "jasvir"
+      },
+      {
+         "source": "johnh",
+         "value": 1,
+         "target": "lindner"
+      },
+      {
+         "source": "jasvir",
          "value": 5,
-         "target": "35329",
-         "source": "35337"
+         "target": "lindner"
+      }
+   ],
+   "nodes": [
+      {
+         "id": "johnh",
+         "group": 3
       },
       {
-         "value": 1,
-         "target": "35329",
-         "source": "35328"
+         "id": "jasvir",
+         "group": 2
       },
       {
-         "value": 1,
-         "target": "35328",
-         "source": "35337"
+         "id": "lindner",
+         "group": 2
       }
    ]
 }
