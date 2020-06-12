@@ -46,27 +46,7 @@ body{
 .controls input[type="checkbox"] { transform: scale(1.2, 1.2); }
 .controls input[type="range"] { margin: 0 5% 0.5em 5%; width: 90%; }
 
-/* alpha viewer */
-.controls .alpha p { margin-bottom: .25em; }
-.controls .alpha .alpha_bar { height: .5em; border: 1px #777 solid; border-radius: 2px; padding: 1px; display: flex; }
-.controls .alpha .alpha_bar #alpha_value { background-color: #555; border-radius: 1px; flex-basis: 100% }
-.controls .alpha .alpha_bar:hover { border-width: 2px; margin:-1px; }
-.controls .alpha .alpha_bar:active #alpha_value { background-color: #222 }
 
-
-
-
-/* SVG styles */
-svg {
-  flex-basis: 50%;
-  min-width: 200px;
-}
-.links line {
-  stroke: #aaa;
-}
-.nodes circle {
-  pointer-events: all;
-}
 
 </style>
 
@@ -128,6 +108,7 @@ Month
 <script src="d3.v4.min.js"></script>
 <script src="viz.v1.1.0.min.js"></script>
 <script src="https://d3js.org/d3-selection-multi.v1.js"></script>
+
 <script src="code.js"></script>
 <script src="direct.js"></script>
 

@@ -54,56 +54,77 @@ function readTextFile(file){
     return allText;
 }
 
-// `directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`
-var data = eval(readTextFile("p49m1_commit.json"))
+var svg_t = d3.select("body").append("svg").attr("width", 800).attr("height", 800);
+UpdateTechnicalNet()
 
-var color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
-var svg_t = d3.select("body").append("svg").attr("width", 960).attr("height", 800);
+function UpdateTechnicalNet(){
 
-var g = svg_t.append("g").attr("transform","translate(200,50)");
+  //d3.select(svg).selectAll("*").remove();
+  //d3.selectAll("svg > *").remove();
 
-var bp=viz.bP()
-    .data(data)
-    .min(12)
-    .pad(1)
-    .height(600)
-    .width(500)
-    .barSize(35)
-    .fill(d=>color[d.primary]);
-      
-g.call(bp);
+  //d3.select("svg_t").remove();
 
-g.selectAll(".mainBars")
-  .on("mouseover",mouseover)
-  .on("mouseout",mouseout)
+  svg_t.selectAll("*").remove();
 
+  var data = eval(readTextFile(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`))
 
-g.selectAll(".mainBars").append("text").attr("class","label")
-  .attr("x",d=>(d.part=="primary"? -30: 30))
-  .attr("y",d=>+6)
-  .text(d=>d.key)
-  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+  var color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
+  
+  var g = svg_t.append("g").attr("transform","translate(200,50)");
 
+  var bp=viz.bP()
+      .data(data)
+      .min(12)
+      .pad(1)
+      .height(600)
+      .width(500)
+      .barSize(35)
+      .fill(d=>color[d.primary]);
+        
+  g.call(bp);
 
-g.selectAll(".mainBars").append("text").attr("class","perc")
-  .attr("x",d=>(d.part=="primary"? -100: 80))
-  .attr("y",d=>+20)
-  .text(function(d){ return d3.format("0.0%")(d.percent)})
-  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
-
-function mouseover(d){
-  bp.mouseover(d);
   g.selectAll(".mainBars")
-  .select(".perc")
-  .text(function(d){ return d3.format("0.0%")(d.percent)})
-}
-function mouseout(d){
-  bp.mouseout(d);
-  g.selectAll(".mainBars")
+    .on("mouseover",mouseover)
+    .on("mouseout",mouseout)
+
+
+  g.selectAll(".mainBars").append("text").attr("class","label")
+    .attr("x",d=>(d.part=="primary"? -30: 30))
+    .attr("y",d=>+6)
+    .text(d=>d.key)
+    .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+
+  g.selectAll(".mainBars").append("text").attr("class","perc")
+    .attr("x",d=>(d.part=="primary"? -100: 80) +6 )
+    .attr("y",d=>+6)
+    .text(function(d){ return d3.format("0.0%")(d.percent)})
+    .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+
+  function mouseover(d){
+    bp.mouseover(d);
+    g.selectAll(".mainBars")
     .select(".perc")
-  .text(function(d){ return d3.format("0.0%")(d.percent)})
+    .text(function(d){ return d3.format("0.0%")(d.percent)})
+  }
+  function mouseout(d){
+    bp.mouseout(d);
+    g.selectAll(".mainBars")
+      .select(".perc")
+    .text(function(d){ return d3.format("0.0%")(d.percent)})
 }
-d3.select(self.frameElement).style("height", "800px");
+
+}
+
+
+
+
+
+//d3.select(self.frameElement).style("height", "800px");
 
 
 // End tehnical net //////
+
+function updateAll(){
+  UpdateTechnicalNet()
+}
+
