@@ -55,6 +55,9 @@ function readTextFile(file){
 }
 
 var data = eval(readTextFile(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`))
+
+console.log(data)
+
 var color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
 var svg_t = d3.select("body").append("svg").attr("width", 960).attr("height", 800);
 
