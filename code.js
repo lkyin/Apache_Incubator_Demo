@@ -54,7 +54,7 @@ function readTextFile(file){
     return allText;
 }
 
-var svg_t = d3.select("body").append("svg").attr("width", 800).attr("height", 800);
+var svg_t = d3.select("body").append("svg").attr("width", 1200).attr("height", 800);
 UpdateTechnicalNet()
 
 function UpdateTechnicalNet(){
@@ -89,13 +89,13 @@ function UpdateTechnicalNet(){
 
 
   g.selectAll(".mainBars").append("text").attr("class","label")
-    .attr("x",d=>(d.part=="primary"? -30: 30))
+    .attr("x",d=>(d.part=="primary"? -20: 20))
     .attr("y",d=>+6)
     .text(d=>d.key)
     .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
 
   g.selectAll(".mainBars").append("text").attr("class","perc")
-    .attr("x",d=>(d.part=="primary"? -100: 80) +6 )
+    .attr("x",d=>(d.part=="primary"? -120: 100))
     .attr("y",d=>+6)
     .text(function(d){ return d3.format("0.0%")(d.percent)})
     .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
