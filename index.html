@@ -53,6 +53,9 @@ body{
 .controls .alpha .alpha_bar:hover { border-width: 2px; margin:-1px; }
 .controls .alpha .alpha_bar:active #alpha_value { background-color: #222 }
 
+
+
+
 /* SVG styles */
 svg {
   flex-basis: 50%;
@@ -66,15 +69,18 @@ svg {
 }
 
 </style>
+
+<style type="text/css">
+    .node {}
+    .link { stroke: #999; stroke-opacity: .6; stroke-width: 1px; }
+</style>
+
 </head>
 
 <body>
 
 <div class="controls">
-  <div class="force alpha">
-    <p><label>alpha</label> Simulation Activity</p>
-    <div class="alpha_bar" onclick="updateAll();"><div id="alpha_value"></div></div>
-  </div>
+
 
   <div class="force">
     <p><label>Select Project</label></p>
@@ -90,76 +96,16 @@ svg {
     </label>
     </div>
 
-  <div class="force">
-  <p><label>Network Type</label> </p>
-  <input type="radio" id="Email Net" name="ntype" value="email" checked="checked" oninput="d3.select('#Type').text(value); forceProperties.selected_data.ntype=value; updateAll();">
-  <label for="Email">Email Net</label><br>
-  <input type="radio" id="Technical Net" name="ntype" value="commit" oninput="d3.select('#Type').text(value); forceProperties.selected_data.ntype=value; updateAll();">
-  <label for="Technical">Technical Net</label><br>
-  </div>
 
-
-  <div class="force">
-    <p><label><input type="checkbox" checked onchange="forceProperties.charge.enabled = this.checked; updateAll();"> charge</label> Attracts (+) or repels (-) nodes to/from each other.</p>
-    <label title="Negative strength repels nodes. Positive strength attracts nodes.">
-      strength
-      <output id="charge_StrengthSliderOutput">0</output>
-      <input type="range" min="-100" max="0" value="0" step=".5" oninput="d3.select('#charge_StrengthSliderOutput').text(value); forceProperties.charge.strength=value; updateAll();">
-    </label>
-    <label title="Minimum distance where force is applied">
-      distanceMin
-      <output id="charge_distanceMinSliderOutput">1</output>
-      <input type="range" min="0" max="50" value="1" step=".1" oninput="d3.select('#charge_distanceMinSliderOutput').text(value); forceProperties.charge.distanceMin=value; updateAll();">
-    </label>
-    <label title="Maximum distance where force is applied">
-      distanceMax
-      <output id="charge_distanceMaxSliderOutput">100</output>
-      <input type="range" min="0" max="100" value="100" step=".5" oninput="d3.select('#charge_distanceMaxSliderOutput').text(value); forceProperties.charge.distanceMax=value; updateAll();">
-    </label>
-  </div>
-
-  <div class="force">
-    <p><label><input type="checkbox" checked onchange="forceProperties.collide.enabled = this.checked; updateAll();"> collide</label> Prevents nodes from overlapping</p>
-    <label>
-      strength
-      <output id="collide_StrengthSliderOutput">.7</output>
-      <input type="range" min="0" max="2" value=".7" step=".1" oninput="d3.select('#collide_StrengthSliderOutput').text(value); forceProperties.collide.strength=value; updateAll();">
-    </label>
-    <label title="Size of nodes">
-      radius
-      <output id="collide_radiusSliderOutput">5</output>
-      <input type="range" min="0" max="100" value="5" step="1" oninput="d3.select('#collide_radiusSliderOutput').text(value); forceProperties.collide.radius=value; updateAll();">
-    </label>
-    <label title="Higher values increase rigidity of the nodes (WARNING: high values are computationally expensive)">
-      iterations
-      <output id="collide_iterationsSliderOutput">1</output>
-      <input type="range" min="1" max="10" value="1" step="1" oninput="d3.select('#collide_iterationsSliderOutput').text(value); forceProperties.collide.iterations=value; updateAll();">
-    </label>
-  </div>
-
-
-
-
-  <div class="force">
-    <p><label><input type="checkbox" checked onchange="forceProperties.link.enabled = this.checked; updateAll();"> link</label> Sets link length</p>
-    <label title="The force will push/pull nodes to make links this long">
-      distance
-      <output id="link_DistanceSliderOutput">30</output>
-      <input type="range" min="0" max="100" value="30" step="1" oninput="d3.select('#link_DistanceSliderOutput').text(value); forceProperties.link.distance=value; updateAll();">
-    </label>
-    <label title="Higher values increase rigidity of the links (WARNING: high values are computationally expensive)">
-      iterations
-      <output id="link_IterationsSliderOutput">1</output>
-      <input type="range" min="1" max="10" value="1" step="1" oninput="d3.select('#link_IterationsSliderOutput').text(value); forceProperties.link.iterations=value; updateAll();">
-    </label>
-  </div>
 </div>
-<svg></svg>
+<svg width="600" height="600"></svg>
 
 
 <script src="d3.v4.min.js"></script>
 <script src="viz.v1.1.0.min.js"></script>
+<script src="https://d3js.org/d3-selection-multi.v1.js"></script>
 <script src="code.js"></script>
+<script src="direct.js"></script>
 
 
 </body>
