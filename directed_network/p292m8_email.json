@@ -1,9 +1,28 @@
 [
    {
-      "name": "asfgit",
+      "name": "coveralls",
       "imports": [
-         "smarthi",
          "smarthi"
+      ]
+   },
+   {
+      "name": "Joe Witt",
+      "imports": []
+   },
+   {
+      "name": "Tim Ellison",
+      "imports": [
+         "Joe Witt"
+      ]
+   },
+   {
+      "name": "smarthi",
+      "imports": []
+   },
+   {
+      "name": "Ellison Anne Williams",
+      "imports": [
+         "Josh Elser"
       ]
    },
    {
@@ -14,35 +33,16 @@
       ]
    },
    {
-      "name": "Suneel Marthi",
+      "name": "asfgit",
       "imports": [
-         "Tim Ellison"
-      ]
-   },
-   {
-      "name": "coveralls",
-      "imports": [
+         "smarthi",
          "smarthi"
       ]
    },
    {
-      "name": "Ellison Anne Williams",
+      "name": "Suneel Marthi",
       "imports": [
-         "Josh Elser"
+         "Tim Ellison"
       ]
-   },
-   {
-      "name": "Tim Ellison",
-      "imports": [
-         "Joe Witt"
-      ]
-   },
-   {
-      "name": "Joe Witt",
-      "imports": []
-   },
-   {
-      "name": "smarthi",
-      "imports": []
    }
 ]

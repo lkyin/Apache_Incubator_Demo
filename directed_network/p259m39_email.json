@@ -1,5 +1,15 @@
 [
    {
+      "name": "Chen Liu",
+      "imports": []
+   },
+   {
+      "name": "du.haipeng",
+      "imports": [
+         "Chen Liu"
+      ]
+   },
+   {
       "name": "SamuelKevin",
       "imports": [
          "du.haipeng"
@@ -9,16 +19,6 @@
       "name": "Luciano Resende",
       "imports": [
          "SamuelKevin"
-      ]
-   },
-   {
-      "name": "Chen Liu",
-      "imports": []
-   },
-   {
-      "name": "du.haipeng",
-      "imports": [
-         "Chen Liu"
       ]
    }
 ]

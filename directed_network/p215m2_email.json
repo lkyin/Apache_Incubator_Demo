@@ -1,98 +1,29 @@
 [
    {
-      "name": "Matthew Cline",
+      "name": "Josh Schulenberg",
       "imports": [
-         "Justin Mason",
-         "Theo Van Dinter",
-         "Jon"
+         "Theo Van Dinter"
       ]
    },
    {
-      "name": "Duncan Findlay",
+      "name": "Rich Puhek",
       "imports": [
-         "Malte S. Stretz",
-         "bugzilla-daemon",
-         "mss",
-         "Malte S. Stretz",
-         "jm",
-         "Bob Apthorpe",
-         "Theo Van Dinter",
-         "Daniel Quinlan",
-         "Malte S. Stretz",
-         "Malte S. Stretz",
-         "Sidney Markowitz"
+         "bugzilla-daemon"
       ]
    },
    {
-      "name": "Berin Lautenbach",
-      "imports": [
-         "Sander Striker"
-      ]
-   },
-   {
-      "name": "Sidney Markowitz",
-      "imports": [
-         "Malte S. Stretz",
-         "Daniel Quinlan",
-         "Kenneth Porter",
-         "Daniel Quinlan",
-         "Daniel Quinlan",
-         "Marc Horowitz",
-         "Malte S. Stretz"
-      ]
+      "name": "jm",
+      "imports": []
    },
    {
       "name": "Nix",
       "imports": []
    },
    {
-      "name": "bugzilla-daemon",
-      "imports": []
-   },
-   {
-      "name": "Martin Radford",
-      "imports": []
-   },
-   {
-      "name": "Chris Thielen",
+      "name": "Bob Apthorpe",
       "imports": [
-         "Martin Radford"
-      ]
-   },
-   {
-      "name": "Robert J. Accettura",
-      "imports": [
-         "Malte S. Stretz",
+         "Daniel Quinlan",
          "Theo Van Dinter"
-      ]
-   },
-   {
-      "name": "Sander Striker",
-      "imports": [
-         "Theo Van Dinter",
-         "Justin Mason",
-         "Malte S. Stretz",
-         "Theo Van Dinter",
-         "Malte S. Stretz",
-         "Duncan Findlay",
-         "Justin Mason",
-         "Malte S. Stretz",
-         "Justin Mason",
-         "Malte S. Stretz",
-         "jm",
-         "Duncan Findlay",
-         "Malte S. Stretz"
-      ]
-   },
-   {
-      "name": "Justin Mason",
-      "imports": []
-   },
-   {
-      "name": "Dan DeVoe",
-      "imports": [
-         "bugzilla-daemon",
-         "Marc Perkel"
       ]
    },
    {
@@ -102,35 +33,10 @@
       ]
    },
    {
-      "name": "Robert Menschel",
+      "name": "Dan DeVoe",
       "imports": [
-         "Nix",
-         "Theo Van Dinter",
-         "bugzilla-daemon"
-      ]
-   },
-   {
-      "name": "mss",
-      "imports": []
-   },
-   {
-      "name": "Rich Puhek",
-      "imports": [
-         "bugzilla-daemon"
-      ]
-   },
-   {
-      "name": "Hank Leininger",
-      "imports": [
-         "Justin Mason"
-      ]
-   },
-   {
-      "name": "Kenneth Porter",
-      "imports": [
-         "Justin Mason",
-         "Daniel Quinlan",
-         "Daniel Quinlan"
+         "bugzilla-daemon",
+         "Marc Perkel"
       ]
    },
    {
@@ -168,52 +74,6 @@
       ]
    },
    {
-      "name": "Darryl Bleau",
-      "imports": [
-         "Daniel Quinlan",
-         "Daniel Quinlan"
-      ]
-   },
-   {
-      "name": "jm",
-      "imports": []
-   },
-   {
-      "name": "Josh  Schulenberg",
-      "imports": []
-   },
-   {
-      "name": "Marc Horowitz",
-      "imports": []
-   },
-   {
-      "name": "Marc Perkel",
-      "imports": [
-         "Dan DeVoe",
-         "Dan DeVoe"
-      ]
-   },
-   {
-      "name": "Matt Sergeant",
-      "imports": [
-         "Malte S. Stretz",
-         "Sander Striker"
-      ]
-   },
-   {
-      "name": "Jim Jagielski",
-      "imports": [
-         "Sander Striker",
-         "Matt Sergeant"
-      ]
-   },
-   {
-      "name": "Josh Schulenberg",
-      "imports": [
-         "Theo Van Dinter"
-      ]
-   },
-   {
       "name": "Michael Parker",
       "imports": [
          "Malte S. Stretz",
@@ -224,14 +84,119 @@
       ]
    },
    {
-      "name": "Klaus Heinz",
+      "name": "Chris Thielen",
       "imports": [
+         "Martin Radford"
+      ]
+   },
+   {
+      "name": "Jon",
+      "imports": [
+         "Sidney Markowitz",
+         "Malte S. Stretz",
+         "Daniel Quinlan"
+      ]
+   },
+   {
+      "name": "bugzilla-daemon",
+      "imports": []
+   },
+   {
+      "name": "Marc Perkel",
+      "imports": [
+         "Dan DeVoe",
+         "Dan DeVoe"
+      ]
+   },
+   {
+      "name": "Matthew Cline",
+      "imports": [
+         "Justin Mason",
+         "Theo Van Dinter",
+         "Jon"
+      ]
+   },
+   {
+      "name": "Jim Jagielski",
+      "imports": [
+         "Sander Striker",
+         "Matt Sergeant"
+      ]
+   },
+   {
+      "name": "Hank Leininger",
+      "imports": [
+         "Justin Mason"
+      ]
+   },
+   {
+      "name": "Kenneth Porter",
+      "imports": [
+         "Justin Mason",
+         "Daniel Quinlan",
+         "Daniel Quinlan"
+      ]
+   },
+   {
+      "name": "Robert J. Accettura",
+      "imports": [
+         "Malte S. Stretz",
+         "Theo Van Dinter"
+      ]
+   },
+   {
+      "name": "Sidney Markowitz",
+      "imports": [
+         "Malte S. Stretz",
+         "Daniel Quinlan",
+         "Kenneth Porter",
+         "Daniel Quinlan",
+         "Daniel Quinlan",
+         "Marc Horowitz",
+         "Malte S. Stretz"
+      ]
+   },
+   {
+      "name": "Duncan Findlay",
+      "imports": [
+         "Malte S. Stretz",
+         "bugzilla-daemon",
+         "mss",
+         "Malte S. Stretz",
+         "jm",
+         "Bob Apthorpe",
+         "Theo Van Dinter",
+         "Daniel Quinlan",
+         "Malte S. Stretz",
+         "Malte S. Stretz",
+         "Sidney Markowitz"
+      ]
+   },
+   {
+      "name": "Robert Menschel",
+      "imports": [
+         "Nix",
+         "Theo Van Dinter",
          "bugzilla-daemon"
       ]
    },
    {
-      "name": "Yusuf Goolamabbas",
-      "imports": []
+      "name": "Sander Striker",
+      "imports": [
+         "Theo Van Dinter",
+         "Justin Mason",
+         "Malte S. Stretz",
+         "Theo Van Dinter",
+         "Malte S. Stretz",
+         "Duncan Findlay",
+         "Justin Mason",
+         "Malte S. Stretz",
+         "Justin Mason",
+         "Malte S. Stretz",
+         "jm",
+         "Duncan Findlay",
+         "Malte S. Stretz"
+      ]
    },
    {
       "name": "Daniel Quinlan",
@@ -278,18 +243,53 @@
       ]
    },
    {
-      "name": "Bob Apthorpe",
+      "name": "Klaus Heinz",
       "imports": [
-         "Daniel Quinlan",
-         "Theo Van Dinter"
+         "bugzilla-daemon"
       ]
    },
    {
-      "name": "Jon",
+      "name": "Josh  Schulenberg",
+      "imports": []
+   },
+   {
+      "name": "Darryl Bleau",
       "imports": [
-         "Sidney Markowitz",
-         "Malte S. Stretz",
+         "Daniel Quinlan",
          "Daniel Quinlan"
+      ]
+   },
+   {
+      "name": "Martin Radford",
+      "imports": []
+   },
+   {
+      "name": "Justin Mason",
+      "imports": []
+   },
+   {
+      "name": "Matt Sergeant",
+      "imports": [
+         "Malte S. Stretz",
+         "Sander Striker"
+      ]
+   },
+   {
+      "name": "Marc Horowitz",
+      "imports": []
+   },
+   {
+      "name": "mss",
+      "imports": []
+   },
+   {
+      "name": "Yusuf Goolamabbas",
+      "imports": []
+   },
+   {
+      "name": "Berin Lautenbach",
+      "imports": [
+         "Sander Striker"
       ]
    }
 ]

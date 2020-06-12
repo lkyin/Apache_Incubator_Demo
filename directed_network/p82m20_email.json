@@ -1,9 +1,5 @@
 [
    {
-      "name": "stain",
-      "imports": []
-   },
-   {
       "name": "ajs6f",
       "imports": [
          "stain",
@@ -25,30 +21,16 @@
       ]
    },
    {
-      "name": "Stian Soiland-Reyes",
+      "name": "stain",
       "imports": []
    },
    {
-      "name": "Andy Seaborne",
-      "imports": [
-         "Stian Soiland-Reyes (JIRA)"
-      ]
-   },
-   {
-      "name": "Stian Soiland-Reyes (JIRA)",
-      "imports": []
-   },
-   {
-      "name": "asfgit",
+      "name": "afs",
       "imports": [
          "stain",
+         "stain",
+         "stain",
          "stain"
-      ]
-   },
-   {
-      "name": "=?UTF-8?Q?Sergio_Fern=C3=A1ndez?=",
-      "imports": [
-         "Stian Soiland-Reyes"
       ]
    },
    {
@@ -133,12 +115,30 @@
       ]
    },
    {
-      "name": "afs",
+      "name": "=?UTF-8?Q?Sergio_Fern=C3=A1ndez?=",
       "imports": [
-         "stain",
-         "stain",
+         "Stian Soiland-Reyes"
+      ]
+   },
+   {
+      "name": "Andy Seaborne",
+      "imports": [
+         "Stian Soiland-Reyes (JIRA)"
+      ]
+   },
+   {
+      "name": "asfgit",
+      "imports": [
          "stain",
          "stain"
       ]
+   },
+   {
+      "name": "Stian Soiland-Reyes (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Stian Soiland-Reyes",
+      "imports": []
    }
 ]

@@ -1,11 +1,24 @@
 [
    {
-      "name": "stroucki",
-      "imports": []
+      "name": "Luke Jing Yuan",
+      "imports": [
+         "Richard Gass"
+      ]
    },
    {
       "name": "Craig L Russell",
       "imports": [
+         "Michael Stroucken"
+      ]
+   },
+   {
+      "name": "Richard Gass",
+      "imports": [
+         "stroucki",
+         "Michael Stroucken",
+         "Luke Jing Yuan",
+         "Michael Stroucken",
+         "Michael Stroucken",
          "Michael Stroucken"
       ]
    },
@@ -23,20 +36,7 @@
       ]
    },
    {
-      "name": "Luke Jing Yuan",
-      "imports": [
-         "Richard Gass"
-      ]
-   },
-   {
-      "name": "Richard Gass",
-      "imports": [
-         "stroucki",
-         "Michael Stroucken",
-         "Luke Jing Yuan",
-         "Michael Stroucken",
-         "Michael Stroucken",
-         "Michael Stroucken"
-      ]
+      "name": "stroucki",
+      "imports": []
    }
 ]

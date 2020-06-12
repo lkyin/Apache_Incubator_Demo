@@ -1,5 +1,15 @@
 [
    {
+      "name": "erik",
+      "imports": []
+   },
+   {
+      "name": "Karl Pauls",
+      "imports": [
+         "Marcel Offermans"
+      ]
+   },
+   {
       "name": "Roman Shaposhnik",
       "imports": [
          "Alexander Broekhuis",
@@ -10,8 +20,13 @@
       ]
    },
    {
-      "name": "erik",
-      "imports": []
+      "name": "Alexander Broekhuis",
+      "imports": [
+         "Karl Pauls",
+         "Roman Shaposhnik",
+         "Roman Shaposhnik",
+         "Quartier Thomas"
+      ]
    },
    {
       "name": "Quartier Thomas",
@@ -29,33 +44,18 @@
       ]
    },
    {
-      "name": "Karl Pauls",
-      "imports": [
-         "Marcel Offermans"
-      ]
-   },
-   {
-      "name": "Alexander Broekhuis",
-      "imports": [
-         "Karl Pauls",
-         "Roman Shaposhnik",
-         "Roman Shaposhnik",
-         "Quartier Thomas"
-      ]
-   },
-   {
-      "name": "Gerrit Binnenmars",
-      "imports": [
-         "Pepijn Noltes"
-      ]
-   },
-   {
       "name": "Pepijn Noltes",
       "imports": [
          "Alexander Broekhuis",
          "Alexander Broekhuis",
          "erik",
          "Alexander Broekhuis"
+      ]
+   },
+   {
+      "name": "Gerrit Binnenmars",
+      "imports": [
+         "Pepijn Noltes"
       ]
    }
 ]

@@ -1,13 +1,14 @@
 [
    {
-      "name": "asfgit",
-      "imports": [
-         "chtyim"
-      ]
-   },
-   {
       "name": "gsps1",
       "imports": []
+   },
+   {
+      "name": "hsaputra",
+      "imports": [
+         "chtyim",
+         "gsps1"
+      ]
    },
    {
       "name": "chtyim",
@@ -26,10 +27,9 @@
       ]
    },
    {
-      "name": "hsaputra",
+      "name": "asfgit",
       "imports": [
-         "chtyim",
-         "gsps1"
+         "chtyim"
       ]
    }
 ]

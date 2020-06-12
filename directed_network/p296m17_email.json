@@ -1,14 +1,13 @@
 [
    {
-      "name": "Brent Lintner",
-      "imports": [
-         "Raymond Camden",
-         "Dan Silivestru"
-      ]
-   },
-   {
       "name": "Raymond Camden",
       "imports": []
+   },
+   {
+      "name": "Gord Tanner",
+      "imports": [
+         "Brent Lintner"
+      ]
    },
    {
       "name": "JR",
@@ -17,15 +16,16 @@
       ]
    },
    {
-      "name": "Dan Silivestru",
+      "name": "Brent Lintner",
       "imports": [
-         "JR"
+         "Raymond Camden",
+         "Dan Silivestru"
       ]
    },
    {
-      "name": "Gord Tanner",
+      "name": "Dan Silivestru",
       "imports": [
-         "Brent Lintner"
+         "JR"
       ]
    }
 ]

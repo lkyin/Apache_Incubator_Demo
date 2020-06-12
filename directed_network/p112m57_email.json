@@ -1,23 +1,10 @@
 [
    {
-      "name": "Dave Roberts (JIRA)",
+      "name": "Rico Neubauer (JIRA)",
       "imports": []
    },
    {
-      "name": "Niklas Gustavsson (JIRA)",
-      "imports": [
-         "Dave Roberts (JIRA)",
-         "Magnus Lind (JIRA)"
-      ]
-   },
-   {
       "name": "Atul Gohad",
-      "imports": [
-         "Niklas Gustavsson"
-      ]
-   },
-   {
-      "name": "Dave Roberts",
       "imports": [
          "Niklas Gustavsson"
       ]
@@ -29,7 +16,18 @@
       ]
    },
    {
-      "name": "Rico Neubauer (JIRA)",
+      "name": "Magnus Lind (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Niklas Gustavsson (JIRA)",
+      "imports": [
+         "Dave Roberts (JIRA)",
+         "Magnus Lind (JIRA)"
+      ]
+   },
+   {
+      "name": "Dave Roberts (JIRA)",
       "imports": []
    },
    {
@@ -41,7 +39,9 @@
       ]
    },
    {
-      "name": "Magnus Lind (JIRA)",
-      "imports": []
+      "name": "Dave Roberts",
+      "imports": [
+         "Niklas Gustavsson"
+      ]
    }
 ]

@@ -1,81 +1,62 @@
 [
    {
-      "name": "Alexis Rosen",
-      "imports": [
-         "Justin Mason",
-         "Kelsey Cummings"
-      ]
-   },
-   {
-      "name": "Matthew Cline",
-      "imports": [
-         "Justin Mason"
-      ]
-   },
-   {
-      "name": "Tony Finch",
-      "imports": [
-         "Justin Mason",
-         "Jeff Chan"
-      ]
-   },
-   {
-      "name": "Michael Fischer v. Mollard",
-      "imports": [
-         "Sidney Markowitz"
-      ]
-   },
-   {
-      "name": "Sidney Markowitz",
-      "imports": [
-         "Daniel Quinlan",
-         "Michael Parker",
-         "Michael Parker",
-         "Daniel Quinlan",
-         "Justin Mason",
-         "Matthew Cline",
-         "Marc Perkel",
-         "Marc Perkel",
-         "Michael Parker",
-         "Justin Mason",
-         "Justin Mason",
-         "Daniel Quinlan",
-         "Justin Mason"
-      ]
+      "name": "jm",
+      "imports": []
    },
    {
       "name": "bugzilla-daemon",
       "imports": []
    },
    {
-      "name": "Burnie",
+      "name": "Loren Wilton",
       "imports": []
    },
    {
-      "name": "Chris Thielen",
+      "name": "Eric Kolve",
       "imports": [
-         "Marc Perkel"
+         "Daniel Quinlan"
       ]
    },
    {
-      "name": "Per Jessen",
-      "imports": []
+      "name": "David Cantrell",
+      "imports": [
+         "Justin Mason"
+      ]
    },
    {
-      "name": "Sander Striker",
+      "name": "Ari Jort",
       "imports": [
          "Daniel Quinlan",
-         "Sidney Markowitz"
+         "Ari Jort",
+         "Daniel Quinlan"
       ]
    },
    {
-      "name": "Justin Mason",
-      "imports": []
+      "name": "Theo Van Dinter",
+      "imports": [
+         "Justin Mason",
+         "Daniel Quinlan",
+         "Matthew Cline",
+         "Casey Allen Shobe",
+         "Per Jessen",
+         "Duncan Findlay",
+         "Per Jessen",
+         "Justin Mason",
+         "Justin Mason",
+         "Justin Mason"
+      ]
    },
    {
-      "name": "Christian Pietsch",
+      "name": "Michael Parker",
       "imports": [
-         "bugzilla-daemon"
+         "Daniel Quinlan",
+         "Sidney Markowitz",
+         "Marc Perkel",
+         "Sidney Markowitz",
+         "Justin Mason",
+         "Sidney Markowitz",
+         "jm",
+         "Theo Van Dinter"
       ]
    },
    {
@@ -88,9 +69,24 @@
       ]
    },
    {
-      "name": "Pete McNeil",
+      "name": "Marc Perkel",
       "imports": [
-         "Marc Perkel"
+         "Tony Finch",
+         "Sidney Markowitz",
+         "Tony Finch",
+         "Sidney Markowitz",
+         "bugzilla-daemon",
+         "Jeff Chan",
+         "Jeff Chan",
+         "Jeff Chan",
+         "Jeff Chan",
+         "Jeff Chan"
+      ]
+   },
+   {
+      "name": "Matthew Cline",
+      "imports": [
+         "Justin Mason"
       ]
    },
    {
@@ -119,27 +115,10 @@
       ]
    },
    {
-      "name": "Theo Van Dinter",
+      "name": "Kai",
       "imports": [
-         "Justin Mason",
-         "Daniel Quinlan",
-         "Matthew Cline",
-         "Casey Allen Shobe",
-         "Per Jessen",
-         "Duncan Findlay",
-         "Per Jessen",
-         "Justin Mason",
-         "Justin Mason",
          "Justin Mason"
       ]
-   },
-   {
-      "name": "Casey Allen Shobe",
-      "imports": []
-   },
-   {
-      "name": "jm",
-      "imports": []
    },
    {
       "name": "Duncan Findlay",
@@ -148,49 +127,27 @@
       ]
    },
    {
-      "name": "Eric Kolve",
-      "imports": [
-         "Daniel Quinlan"
-      ]
-   },
-   {
-      "name": "Michael Parker",
+      "name": "Sidney Markowitz",
       "imports": [
          "Daniel Quinlan",
-         "Sidney Markowitz",
-         "Marc Perkel",
-         "Sidney Markowitz",
+         "Michael Parker",
+         "Michael Parker",
+         "Daniel Quinlan",
          "Justin Mason",
-         "Sidney Markowitz",
-         "jm",
-         "Theo Van Dinter"
-      ]
-   },
-   {
-      "name": "Kai",
-      "imports": [
+         "Matthew Cline",
+         "Marc Perkel",
+         "Marc Perkel",
+         "Michael Parker",
+         "Justin Mason",
+         "Justin Mason",
+         "Daniel Quinlan",
          "Justin Mason"
       ]
    },
    {
-      "name": "David Cantrell",
+      "name": "Chris Thielen",
       "imports": [
-         "Justin Mason"
-      ]
-   },
-   {
-      "name": "Marc Perkel",
-      "imports": [
-         "Tony Finch",
-         "Sidney Markowitz",
-         "Tony Finch",
-         "Sidney Markowitz",
-         "bugzilla-daemon",
-         "Jeff Chan",
-         "Jeff Chan",
-         "Jeff Chan",
-         "Jeff Chan",
-         "Jeff Chan"
+         "Marc Perkel"
       ]
    },
    {
@@ -203,15 +160,58 @@
       ]
    },
    {
-      "name": "Ari Jort",
+      "name": "Sander Striker",
       "imports": [
          "Daniel Quinlan",
-         "Ari Jort",
-         "Daniel Quinlan"
+         "Sidney Markowitz"
       ]
    },
    {
-      "name": "Loren Wilton",
+      "name": "Pete McNeil",
+      "imports": [
+         "Marc Perkel"
+      ]
+   },
+   {
+      "name": "Per Jessen",
+      "imports": []
+   },
+   {
+      "name": "Christian Pietsch",
+      "imports": [
+         "bugzilla-daemon"
+      ]
+   },
+   {
+      "name": "Tony Finch",
+      "imports": [
+         "Justin Mason",
+         "Jeff Chan"
+      ]
+   },
+   {
+      "name": "Michael Fischer v. Mollard",
+      "imports": [
+         "Sidney Markowitz"
+      ]
+   },
+   {
+      "name": "Justin Mason",
+      "imports": []
+   },
+   {
+      "name": "Burnie",
+      "imports": []
+   },
+   {
+      "name": "Alexis Rosen",
+      "imports": [
+         "Justin Mason",
+         "Kelsey Cummings"
+      ]
+   },
+   {
+      "name": "Casey Allen Shobe",
       "imports": []
    }
 ]

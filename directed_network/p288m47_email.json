@@ -1,5 +1,9 @@
 [
    {
+      "name": "Apache Jenkins Server",
+      "imports": []
+   },
+   {
       "name": "Ralf Heydenreich",
       "imports": []
    },
@@ -10,19 +14,15 @@
       ]
    },
    {
-      "name": "Apache Jenkins Server",
-      "imports": []
+      "name": "Florian Hopf",
+      "imports": [
+         "Ralf Heydenreich"
+      ]
    },
    {
       "name": "Ian C",
       "imports": [
          "Apache Jenkins Server",
-         "Ralf Heydenreich"
-      ]
-   },
-   {
-      "name": "Florian Hopf",
-      "imports": [
          "Ralf Heydenreich"
       ]
    }

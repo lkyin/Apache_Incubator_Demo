@@ -1,5 +1,21 @@
 [
    {
+      "name": "Bob Buffone",
+      "imports": [
+         "Robert Burrell Donkin"
+      ]
+   },
+   {
+      "name": "Robert Burrell Donkin",
+      "imports": [
+         "Bob Buffone"
+      ]
+   },
+   {
+      "name": "Trevor Oldak (JIRA)",
+      "imports": []
+   },
+   {
       "name": "Michael Mikhaylov (JIRA)",
       "imports": [
          "Trevor Oldak (JIRA)",
@@ -11,10 +27,6 @@
       ]
    },
    {
-      "name": "Trevor Oldak (JIRA)",
-      "imports": []
-   },
-   {
       "name": "James Margaris (JIRA)",
       "imports": [
          "David Day (JIRA)"
@@ -23,17 +35,5 @@
    {
       "name": "David Day (JIRA)",
       "imports": []
-   },
-   {
-      "name": "Robert Burrell Donkin",
-      "imports": [
-         "Bob Buffone"
-      ]
-   },
-   {
-      "name": "Bob Buffone",
-      "imports": [
-         "Robert Burrell Donkin"
-      ]
    }
 ]

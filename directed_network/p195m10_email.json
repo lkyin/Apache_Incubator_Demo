@@ -1,18 +1,5 @@
 [
    {
-      "name": "Enrico Olivelli",
-      "imports": [
-         "Sijie Guo"
-      ]
-   },
-   {
-      "name": "Ivan Kelly",
-      "imports": [
-         "Enrico Olivelli",
-         "Dave Fisher"
-      ]
-   },
-   {
       "name": "Dave Fisher",
       "imports": [
          "Ivan Kelly",
@@ -22,10 +9,37 @@
       ]
    },
    {
+      "name": "Joe Francis",
+      "imports": [
+         "Ivan Kelly",
+         "Sanjeev Kulkarni"
+      ]
+   },
+   {
       "name": "Jim Jagielski",
       "imports": [
          "Dave Fisher"
       ]
+   },
+   {
+      "name": "Holden Karau",
+      "imports": [
+         "Matteo Merli"
+      ]
+   },
+   {
+      "name": "mmerli",
+      "imports": []
+   },
+   {
+      "name": "Enrico Olivelli",
+      "imports": [
+         "Sijie Guo"
+      ]
+   },
+   {
+      "name": "johndament",
+      "imports": []
    },
    {
       "name": "Sanjeev Kulkarni",
@@ -34,34 +48,10 @@
       ]
    },
    {
-      "name": "johndament",
-      "imports": []
-   },
-   {
-      "name": "Joe Francis",
+      "name": "Ivan Kelly",
       "imports": [
-         "Ivan Kelly",
-         "Sanjeev Kulkarni"
-      ]
-   },
-   {
-      "name": "Matteo Merli",
-      "imports": [
-         "johndament",
-         "Dave Fisher",
-         "Dave Fisher",
-         "Dave Fisher",
-         "Jim Jagielski"
-      ]
-   },
-   {
-      "name": "mmerli",
-      "imports": []
-   },
-   {
-      "name": "Masakazu Kitajo",
-      "imports": [
-         "Matteo Merli"
+         "Enrico Olivelli",
+         "Dave Fisher"
       ]
    },
    {
@@ -73,9 +63,19 @@
       ]
    },
    {
-      "name": "Holden Karau",
+      "name": "Masakazu Kitajo",
       "imports": [
          "Matteo Merli"
+      ]
+   },
+   {
+      "name": "Matteo Merli",
+      "imports": [
+         "johndament",
+         "Dave Fisher",
+         "Dave Fisher",
+         "Dave Fisher",
+         "Jim Jagielski"
       ]
    }
 ]

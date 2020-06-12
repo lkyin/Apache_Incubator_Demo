@@ -1,22 +1,14 @@
 [
    {
-      "name": "Jukka Zitting",
-      "imports": [
-         "Thilo Goetz",
-         "Rida Benjelloun",
-         "Bertrand Delacretaz"
-      ]
-   },
-   {
-      "name": "Doug Cutting",
-      "imports": [
-         "Jukka Zitting"
-      ]
-   },
-   {
       "name": "Bertrand Delacretaz",
       "imports": [
          "Jukka Zitting"
+      ]
+   },
+   {
+      "name": "Chris Mattmann",
+      "imports": [
+         "Doug Cutting"
       ]
    },
    {
@@ -34,15 +26,23 @@
       ]
    },
    {
+      "name": "Jukka Zitting",
+      "imports": [
+         "Thilo Goetz",
+         "Rida Benjelloun",
+         "Bertrand Delacretaz"
+      ]
+   },
+   {
       "name": "Thilo Goetz",
       "imports": [
          "Jukka Zitting"
       ]
    },
    {
-      "name": "Chris Mattmann",
+      "name": "Doug Cutting",
       "imports": [
-         "Doug Cutting"
+         "Jukka Zitting"
       ]
    }
 ]

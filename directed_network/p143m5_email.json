@@ -1,20 +1,8 @@
 [
    {
-      "name": "Marvin",
-      "imports": []
-   },
-   {
       "name": "larry mccay",
       "imports": [
          "Kevin Minder"
-      ]
-   },
-   {
-      "name": "Kevin Minder",
-      "imports": [
-         "Marvin",
-         "Dilli Arumugam",
-         "larry mccay"
       ]
    },
    {
@@ -27,7 +15,19 @@
       ]
    },
    {
+      "name": "Kevin Minder",
+      "imports": [
+         "Marvin",
+         "Dilli Arumugam",
+         "larry mccay"
+      ]
+   },
+   {
       "name": "Dilli Arumugam",
+      "imports": []
+   },
+   {
+      "name": "Marvin",
       "imports": []
    }
 ]

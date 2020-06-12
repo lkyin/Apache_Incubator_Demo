@@ -1,6 +1,17 @@
 [
    {
-      "name": "Chapuis Bertil",
+      "name": "Sebb (JIRA)",
+      "imports": []
+   },
+   {
+      "name": "Richard Frovarp (JIRA)",
+      "imports": [
+         "Sebb (JIRA)",
+         "Sebb (JIRA)"
+      ]
+   },
+   {
+      "name": "Eugen Paraschiv",
       "imports": [
          "Richard Frovarp",
          "Richard Frovarp"
@@ -13,25 +24,14 @@
       ]
    },
    {
-      "name": "Eugen Paraschiv",
+      "name": "Chapuis Bertil",
       "imports": [
          "Richard Frovarp",
          "Richard Frovarp"
       ]
    },
    {
-      "name": "Richard Frovarp (JIRA)",
-      "imports": [
-         "Sebb (JIRA)",
-         "Sebb (JIRA)"
-      ]
-   },
-   {
       "name": "Richard Frovarp",
-      "imports": []
-   },
-   {
-      "name": "Sebb (JIRA)",
       "imports": []
    }
 ]

@@ -1,7 +1,20 @@
 [
    {
-      "name": "manuzhang",
+      "name": "johndament",
       "imports": []
+   },
+   {
+      "name": "John D. Ament",
+      "imports": [
+         "johndament",
+         "Manu Zhang"
+      ]
+   },
+   {
+      "name": "asfgit",
+      "imports": [
+         "manuzhang"
+      ]
    },
    {
       "name": "codecov-io",
@@ -13,10 +26,6 @@
       ]
    },
    {
-      "name": "johndament",
-      "imports": []
-   },
-   {
       "name": "huafengw",
       "imports": [
          "manuzhang",
@@ -25,23 +34,14 @@
       ]
    },
    {
-      "name": "asfgit",
-      "imports": [
-         "manuzhang"
-      ]
-   },
-   {
-      "name": "John D. Ament",
-      "imports": [
-         "johndament",
-         "Manu Zhang"
-      ]
-   },
-   {
       "name": "Manu Zhang",
       "imports": [
          "John D. Ament",
          "John D. Ament"
       ]
+   },
+   {
+      "name": "manuzhang",
+      "imports": []
    }
 ]

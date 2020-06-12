@@ -1,10 +1,38 @@
 [
    {
+      "name": "Tom White",
+      "imports": [
+         "Marvin Humphrey",
+         "Henry Robinson",
+         "Marvin Humphrey",
+         "Todd Lipcon",
+         "Henry Robinson"
+      ]
+   },
+   {
+      "name": "Henry Robinson",
+      "imports": [
+         "Tom White",
+         "Tom White"
+      ]
+   },
+   {
       "name": "Todd Lipcon",
       "imports": [
          "Henry Robinson",
          "Tim Armstrong",
          "Henry Robinson"
+      ]
+   },
+   {
+      "name": "Lars Volker (Code Review)",
+      "imports": []
+   },
+   {
+      "name": "Silvius Rus (Code Review)",
+      "imports": [
+         "Lars Volker (Code Review)",
+         "Alex Behm (Code Review)"
       ]
    },
    {
@@ -34,15 +62,8 @@
       ]
    },
    {
-      "name": "Lars Volker (Code Review)",
+      "name": "Alex Behm (Code Review)",
       "imports": []
-   },
-   {
-      "name": "Henry Robinson",
-      "imports": [
-         "Tom White",
-         "Tom White"
-      ]
    },
    {
       "name": "Marvin Humphrey",
@@ -53,26 +74,5 @@
       "imports": [
          "Nishidha Panpaliya"
       ]
-   },
-   {
-      "name": "Tom White",
-      "imports": [
-         "Marvin Humphrey",
-         "Henry Robinson",
-         "Marvin Humphrey",
-         "Todd Lipcon",
-         "Henry Robinson"
-      ]
-   },
-   {
-      "name": "Silvius Rus (Code Review)",
-      "imports": [
-         "Lars Volker (Code Review)",
-         "Alex Behm (Code Review)"
-      ]
-   },
-   {
-      "name": "Alex Behm (Code Review)",
-      "imports": []
    }
 ]

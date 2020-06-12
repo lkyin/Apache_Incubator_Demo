@@ -1,10 +1,17 @@
 [
    {
-      "name": "no-reply",
+      "name": "lmoren",
       "imports": []
    },
    {
-      "name": "lmoren",
+      "name": "Pid",
+      "imports": [
+         "lmoren",
+         "Stefan Seelmann"
+      ]
+   },
+   {
+      "name": "no-reply",
       "imports": []
    },
    {
@@ -12,13 +19,6 @@
       "imports": [
          "no-reply",
          "Pid"
-      ]
-   },
-   {
-      "name": "Pid",
-      "imports": [
-         "lmoren",
-         "Stefan Seelmann"
       ]
    }
 ]

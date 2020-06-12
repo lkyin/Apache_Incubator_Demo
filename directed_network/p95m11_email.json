@@ -1,6 +1,26 @@
 [
    {
-      "name": "Vincent Tence",
+      "name": "Niclas Hedhman",
+      "imports": []
+   },
+   {
+      "name": "Brett Porter",
+      "imports": [
+         "Niclas Hedhman"
+      ]
+   },
+   {
+      "name": "Berin Loritsch",
+      "imports": [
+         "Cetin Karakus"
+      ]
+   },
+   {
+      "name": "jira",
+      "imports": []
+   },
+   {
+      "name": "Trustin Lee",
       "imports": [
          "Alex Karasulu"
       ]
@@ -10,16 +30,6 @@
       "imports": [
          "jira",
          "jira"
-      ]
-   },
-   {
-      "name": "Niclas Hedhman",
-      "imports": []
-   },
-   {
-      "name": "Brett Porter",
-      "imports": [
-         "Niclas Hedhman"
       ]
    },
    {
@@ -34,17 +44,13 @@
       ]
    },
    {
-      "name": "jira",
-      "imports": []
-   },
-   {
       "name": "Phil Steitz",
       "imports": [
          "Brett Porter"
       ]
    },
    {
-      "name": "Trustin Lee",
+      "name": "Vincent Tence",
       "imports": [
          "Alex Karasulu"
       ]
@@ -52,11 +58,5 @@
    {
       "name": "Cetin Karakus",
       "imports": []
-   },
-   {
-      "name": "Berin Loritsch",
-      "imports": [
-         "Cetin Karakus"
-      ]
    }
 ]
