@@ -26,7 +26,7 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-d3.json(`directed_network/p${tProperties.selected_data.project}m${tProperties.selected_data.month}_email.json`, function (error, graph) {
+d3.json("p259m17_email.json", function (error, graph) {
     if (error) throw error;
     update(graph.links, graph.nodes);
 })

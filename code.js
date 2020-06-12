@@ -26,7 +26,9 @@ function readTextFile(file){
 // 
 var data = eval(readTextFile(`directed_network/p${tProperties.selected_data.project}m${tProperties.selected_data.month}_commit.json`))
 
-var color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+//var color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
 var svg_t = d3.select("body").append("svg").attr("width", 960).attr("height", 800);
 
 var g = svg_t.append("g").attr("transform","translate(200,50)");
@@ -38,7 +40,7 @@ var bp=viz.bP()
     .height(600)
     .width(500)
     .barSize(35)
-    .fill(d=>color[d.primary]);
+    //.fill(d=>color[d.primary]);
       
 g.call(bp);
 
