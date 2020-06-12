@@ -1,8 +1,24 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 
-<html>
+
 <head>
 <style>
+
+.mainBars rect{
+  shape-rendering: auto;
+  fill-opacity: 0;
+  stroke-width: 0.5px;
+  stroke: rgb(0, 0, 0);
+  stroke-opacity: 0;
+}
+.subBars{
+  shape-rendering:crispEdges;
+}
+.edges{
+  stroke:none;
+  fill-opacity:0.5;
+}
 
 /* HTML styles */
 html{ width: 100%; }
@@ -36,7 +52,7 @@ body{
 
 /* SVG styles */
 svg {
-  flex-basis: 100%;
+  flex-basis: 50%;
   min-width: 200px;
 }
 .links line {
@@ -118,19 +134,7 @@ svg {
     </label>
   </div>
 
-  <div class="force">
-    <p><label><input type="checkbox" onchange="forceProperties.forceX.enabled = this.checked; updateAll();"> forceX</label> Acts like gravity. Pulls all points towards an X location.</p>
-    <label>
-      strength
-      <output id="forceX_StrengthSliderOutput">.1</output>
-      <input type="range" min="0" max="1" value=".1" step="0.01" oninput="d3.select('#forceX_StrengthSliderOutput').text(value); forceProperties.forceX.strength=value; updateAll();">
-    </label>
-    <label title="The X location that the force will push the nodes to (NOTE: This demo multiplies by the svg width)">
-      x
-      <output id="forceX_XSliderOutput">.5</output>
-      <input type="range" min="0" max="1" value=".5" step="0.01" oninput="d3.select('#forceX_XSliderOutput').text(value); forceProperties.forceX.x=value; updateAll();">
-    </label>
-  </div>
+
 
 
   <div class="force">
@@ -148,7 +152,11 @@ svg {
   </div>
 </div>
 <svg></svg>
+
+
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
 <script src="code.js"></script>
+
+
 </body>
-</html>
