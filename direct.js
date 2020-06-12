@@ -142,13 +142,6 @@ function dragged(d) {
     d.fy = d3.event.y;
 }
 
-// convenience function to update everything (run after UI input)
-function updateAll() {
-    updateData();
-    updateForces();
-    updateDisplay();
-}
-
 //    function dragended(d) {
 //        if (!d3.event.active) simulation.alphaTarget(0);
 //        d.fx = undefined;
