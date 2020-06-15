@@ -6,12 +6,48 @@
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 
 
+
+<style type="text/css">
+/* Dash Borad */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.leftpane {
+    width: 15%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.middlepane {
+    width: 35%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.rightpane {
+  width: 50%;
+  height: 100%;
+  float: right;
+  border-collapse: collapse;
+}
+
+.toppane {
+  width: 100%;
+  height: 100px;
+  border-collapse: collapse;
+}
+</style>
+
 <style>
 
 .mainBars rect{
   shape-rendering: auto;
   fill-opacity: 0;
-  stroke-width: 0.5px;
+  stroke-width: 1.5px;
   stroke: rgb(0, 0, 0);
   stroke-opacity: 0;
 }
@@ -29,7 +65,7 @@ body{
   width: 100%; 
   margin: 0; padding: 0; 
   display: flex; 
-  font-family: sans-serif; font-size: 75%; }
+  font-size: 75%; }
 .controls {
   flex-basis: 200px;
   padding: 0 5px;
@@ -44,7 +80,7 @@ body{
 .controls .force p { margin-top: 0;}
 .controls .force label { display: inline-block; }
 .controls input[type="checkbox"] { transform: scale(1.2, 1.2); }
-.controls input[type="range"] { margin: 0 5% 0.5em 5%; width: 90%; }
+.controls input[type="range"] { margin: 0 5% 0.5em 5%; width: 15; }
 
 
 
@@ -52,16 +88,16 @@ body{
 
 <style type="text/css">
     .node {}
-    .link { stroke: #999; stroke-opacity: .6; stroke-width: 1px; }
+    .link {stroke: #999; stroke-opacity: .6; stroke-width: 1px; }
 </style>
 
 </head>
 
 <body>
 
-<div class="controls">
-
-
+<div class="container">
+<div class="toppane">
+<div class="controls" style="text-align:center">
 <div class="force">
 <p><label>Select Project</label></p>
 <label>
@@ -75,42 +111,62 @@ Month
 <input type="range" min="1" max="90" value="1" step="1" oninput="d3.select('#Month').text(value); forceProperties.selected_data.month=value; updateAll();">
 </label>
 </div>
+</div>
+</div>
 
+
+<div class="leftpane" style="text-align:center">
+<div class="controls">
+
+<p><label>Project Information</label></p>
 <div class="force">
 <p><label>Project Website: <a href="http://incubator.apache.org/projects/abdera.html">Link</a> </label></p>
 <p><label>Project Status: "Graduated" </label></p>
-</div>
 
 
-<div class="force">
+
 <p><label>Actual Date: "2006-06-06"</label></p>
-</div>
 
-<div class="force">
 <p><label>Active Developers: 8</label></p>
 
-</div>
-
-<div class="force">
 <p><label>Total Commits: 72</label></p>
 <p><label>Commits Per Dev: 36</label></p>
-</div>
 
-<div class="force">
 <p><label>Total Emails: 24</label></p>
 <p><label>Emails Per Dev: 4</label></p>
 </div>
-
 </div>
-<svg width="600" height="600"></svg>
+</div>
 
 
 <script src="d3.v4.min.js"></script>
 <script src="viz.v1.1.0.min.js"></script>
 <script src="https://d3js.org/d3-selection-multi.v1.js"></script>
+<div class="middlepane" style="text-align:center">
+<div class="controls">
+<div class="force">
+<p><label>Social Network</label></p>
+</div>
+</div>
+
+<svg id = "middlesvg" width="300" height="300"></svg>
+</div>
+
+
+<div class="rightpane" id = "right" style="text-align:center">
+<div class="controls">
+  <div class="force">
+<p><label>Technical Network</label></p>
+</div>
+</div>
+<svg title = "Technical Network" id = "rightsvg" width="800" height="600"></svg>
+</div>
 
 <script src="code.js"></script>
 <script src="direct.js"></script>
+
+
+</div>
 
 
 </body>

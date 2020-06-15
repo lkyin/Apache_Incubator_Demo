@@ -1,6 +1,6 @@
 var colors = d3.scaleOrdinal(d3.schemeCategory10);
 
-var svg = d3.select("svg"),
+var svg = d3.select("#middlesvg"),
     width = +svg.attr("width"),
     height = +svg.attr("height"),
     node,

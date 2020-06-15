@@ -54,31 +54,32 @@ function readTextFile(file){
     return allText;
 }
 
-var svg_t = d3.select("body").append("svg").attr("width", 1200).attr("height", 800);
+
+var svg_t = d3.select("#rightsvg")
+
+//var svg_t = d3.select("#right").append("svg").attr("width", 600).attr("height", 400);
+
+var data, color, g
+
 UpdateTechnicalNet()
 
 function UpdateTechnicalNet(){
 
-  //d3.select(svg).selectAll("*").remove();
-  //d3.selectAll("svg > *").remove();
-
-  //d3.select("svg_t").remove();
-
   svg_t.selectAll("*").remove();
 
-  var data = eval(readTextFile(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`))
+  data = eval(readTextFile(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`))
 
-  var color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
+  color ={Elite:"#3366CC", Grand:"#DC3912",  Lite:"#FF9900", Medium:"#109618", Plus:"#990099", Small:"#0099C6"};
   
-  var g = svg_t.append("g").attr("transform","translate(200,50)");
+  g = svg_t.append("g").attr("transform","translate(200,50)");
 
   var bp=viz.bP()
       .data(data)
       .min(12)
       .pad(1)
-      .height(600)
-      .width(500)
-      .barSize(35)
+      .height(250)
+      .width(250)
+      .barSize(10)
       .fill(d=>color[d.primary]);
         
   g.call(bp);
@@ -95,7 +96,7 @@ function UpdateTechnicalNet(){
     .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
 
   g.selectAll(".mainBars").append("text").attr("class","perc")
-    .attr("x",d=>(d.part=="primary"? -120: 100))
+    .attr("x",d=>(d.part=="primary"? -90: 120))
     .attr("y",d=>+6)
     .text(function(d){ return d3.format("0.0%")(d.percent)})
     .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
