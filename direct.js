@@ -20,20 +20,6 @@ svg.append('defs').append('marker')
     .attr('fill', '#999')
     .style('stroke','none');
 
-var simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function (d) {return d.id;}).distance(100).strength(1))
-    .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
-
-d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`, function (error, graph) {
-    if (error) throw error;
-    update(graph.links, graph.nodes);
-})
-
-function UpdateEmailNet(){
-
-    svg.selectAll("*").remove();
-
     svg.append('defs').append('marker')
     .attrs({'id':'arrowhead',
         'viewBox':'-0 -5 10 10',
@@ -47,6 +33,20 @@ function UpdateEmailNet(){
     .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
     .attr('fill', '#999')
     .style('stroke','none');
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function (d) {return d.id;}).distance(100).strength(1))
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`, function (error, graph) {
+    if (error) throw error;
+    update(graph.links, graph.nodes);
+})
+
+function UpdateEmailNet(){
+
+    svg.selectAll("*").remove();
     
     d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`, function (error, graph) {
         if (error) throw error;
