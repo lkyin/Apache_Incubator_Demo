@@ -40,6 +40,13 @@
   height: 100px;
   border-collapse: collapse;
 }
+
+.botpane{
+  width: 100%;
+  height: 50px;
+  border-collapse: collapse;
+}
+
 </style>
 
 <style>
@@ -106,15 +113,15 @@ body{
 </head>
 
 <body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
-
-
+<script src="project_info.js"></script>
 
 <div class="container">
 <div class="toppane">
 <div class="controls" style="text-align:center">
 <div class="force">
-<p><label>Select Project</label></p>
+<p><label>Select A Project</label></p>
 <label>
 Project ID
 <output id="Project">49</output>
@@ -129,27 +136,62 @@ Month
 </div>
 </div>
 
-<script src="project_info.js"></script>
+<div class="botpane">
+<div class="controls" style="text-align:center">
+<div class="force">
+
+<p>
+<label>
+
+<a id="from"> </a> 
+~
+<a id="to"> </a> 
+
+</label>
+</p>
+</div>
+</div>
+</div>
+
+
 
 <div class="leftpane" style="text-align:center">
 <div class="controls">
+<div class="force" id = "leftp">
 
-<p><label>Project Information</label></p>
-<div class="force">
-<p><label>Project Website: <a href="http://incubator.apache.org/projects/abdera.html">Link</a> </label></p>
-<p><label>Project Status: "Graduated" </label></p>
+<p><label>Project Name: <a id="project_name"> </a>
+
+</label>
+<label>
+<a id="link"> </a> 
+</label>
+</p>
+
+
+<p><label>Project Status:
+<a id="status"> </a>
+</label></p>
+
+<p><label>Sponsor:
+<a id="sponsor"></a>
+</label></p>
+
+<p><label>Project Intro:
+<br>
+<a id="intro"></a>
+<br>
+</label></p>
 
 
 
-<p><label>From: project_info.from</label></p>
+<p><label>Incubation Starts On:
+<a id="start"></a>
+</label>
 
-<p><label>Active Developers: 8</label></p>
+<label>Incubation Ends On:
 
-<p><label>Total Commits: 72</label></p>
-<p><label>Commits Per Dev: 36</label></p>
-
-<p><label>Total Emails: 24</label></p>
-<p><label>Emails Per Dev: 4</label></p>
+<a id="end"></a>
+</label></p>
 </div>
 </div>
 </div>
@@ -161,7 +203,22 @@ Month
 <div class="middlepane" style="text-align:center">
 <div class="controls">
 <div class="force">
-<p><label>Social Network</label></p>
+<p>
+<label>Social Network</label>
+</p>
+<p>
+<label>
+Total Emails:
+<a id="num_emails"></a>
+</label>
+<label>Active Email Communicators:
+<a id="num_senders"></a>
+</label>
+<label>Emails Per Dev:
+<a id="email_per_dev"></a>
+</label>
+</p>
+
 </div>
 </div>
 
@@ -174,10 +231,24 @@ Month
 <div class="controls">
 <div class="force">
 <p><label>Technical Network</label></p>
+<p><label>Total Commits:
+<a id="num_commits"></a>
+</label>
+<label>Active Committers:
+<a id="num_committers"></a>
+</label>
+
+<label>Commits Per Dev:
+<a id="commit_per_dev"></a>
+</label>
+
+</p>
 </div>
 </div>
 <svg title = "Technical Network" id = "rightsvg" width="800" height="800"></svg>
 </div>
+
+<script src="include.js"></script>
 
 <script src="tech_net.js"></script>
 <script src="social_net.js"></script>

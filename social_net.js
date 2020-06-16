@@ -1,23 +1,24 @@
-var colors = d3.scaleOrdinal(d3.schemeCategory10);
+var colors = d3.scaleOrdinal(d3.schemeCategory20);
 
-var svg = d3.select("#middlesvg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height"),
-    node,
-    link;
+var svg = d3.select("#middlesvg")
+width = +svg.attr("width"),
+height = +svg.attr("height");
 
-svg.append('defs').append('marker')
-    .attrs({'id':'arrowhead',
-        'viewBox':'-0 -5 10 10',
-        'refX':13,
-        'refY':0,
-        'orient':'auto',
-        'markerWidth':13,
-        'markerHeight':13,
-        'xoverflow':'visible'})
-    .append('svg:path')
-    .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
-    .attr('fill', '#999');
+var node;
+var link;
+
+var simulation = d3.forceSimulation()
+.force("link", d3.forceLink().id(function (d) {return d.id;}).distance(150).strength(1))
+.force("charge", d3.forceManyBody())
+.force("center", d3.forceCenter(width / 2, height / 2));
+
+UpdateEmailNet()
+
+function UpdateEmailNet(){
+
+    var svg = d3.select("#middlesvg")
+
+    svg.selectAll("*").remove();
 
     svg.append('defs').append('marker')
     .attrs({'id':'arrowhead',
@@ -32,26 +33,15 @@ svg.append('defs').append('marker')
     .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
     .attr('fill', '#999');
 
-var simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function (d) {return d.id;}).distance(100).strength(1))
-    .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
-
-d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`, function (error, graph) {
-    if (error) throw error;
-    update(graph.links, graph.nodes);
-})
-
-function UpdateEmailNet(){
-
-    svg.selectAll("*").remove();
-    
-    d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`, function (error, graph) {
-        if (error) throw error;
-        update(graph.links, graph.nodes);
+    d3.json(`network_data/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function (error, graph) {
+        if (error){
+            
+            svg.selectAll("*").remove();
+        }
+        else {
+            update(graph.links, graph.nodes);
+        }
     })
-    
-
 }
 
 function update(links, nodes) {
@@ -94,7 +84,7 @@ function update(links, nodes) {
         .style("text-anchor", "middle")
         .style("pointer-events", "none")
         .attr("startOffset", "50%")
-    //    .text(function (d) {return d.type});
+        .text(function (d) {return d.value});
 
     node = svg.selectAll(".node")
         .data(nodes)
