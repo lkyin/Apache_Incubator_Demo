@@ -121,7 +121,7 @@ body{
 <div class="toppane">
 <div class="controls" style="text-align:center">
 <div class="force">
-<p><label>Select A Project</label></p>
+<p><label>ASFI Project Explorer</label></p>
 <label>
 Project ID
 <output id="Project">49</output>
@@ -155,7 +155,7 @@ Month
 
 
 
-<div class="leftpane" style="text-align:center">
+<div class="leftpane" style="text-align:left">
 <div class="controls">
 <div class="force" id = "leftp">
 
@@ -168,7 +168,7 @@ Month
 </p>
 
 
-<p><label>Project Status:
+<p><label>Status:
 <a id="status"> </a>
 </label></p>
 
@@ -176,25 +176,23 @@ Month
 <a id="sponsor"></a>
 </label></p>
 
-<p><label>Project Intro:
-<br>
-<a id="intro"></a>
-<br>
-</label></p>
-
-
-
-<p><label>Incubation Starts On:
+<p><label>Starts:
 <a id="start"></a>
 </label>
 
-<label>Incubation Ends On:
+<label>Ends:
 
 <a id="end"></a>
 </label></p>
+
+<p><label>
+<a id="intro"></a>
+</label></p>
+
 </div>
 </div>
 </div>
+
 
 
 <script src="./js/d3.v4.min.js"></script>
@@ -208,7 +206,7 @@ Month
 </p>
 <p>
 <label>
-Total Emails:
+Number of Emails:
 <a id="num_emails"></a>
 </label>
 <label>Active Email Communicators:
@@ -231,7 +229,7 @@ Total Emails:
 <div class="controls">
 <div class="force">
 <p><label>Technical Network</label></p>
-<p><label>Total Commits:
+<p><label>Number of Commits:
 <a id="num_commits"></a>
 </label>
 <label>Active Committers:
