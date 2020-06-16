@@ -10,15 +10,14 @@ function UpdateprojectInfo(){
 
     //$("#leftp").html("<script> document.write(projectInfo.project_name) </script>;");
 
-    document.getElementById("project_name").innerHTML = projectInfo.project_name;
-    document.getElementById("link").innerHTML = '<a href="' + projectInfo.link + '"> Link </a>';
+    //document.getElementById("project_name").innerHTML = projectInfo.project_name;
+    document.getElementById("link").innerHTML = '<a href="' + projectInfo.link + '"> ' + projectInfo.project_name + '</a>';
     document.getElementById("status").innerHTML = projectInfo.status;
     document.getElementById("sponsor").innerHTML = projectInfo.sponsor;
     
     document.getElementById("intro").innerHTML = projectInfo.intro;
     document.getElementById("start").innerHTML = projectInfo.start_time;
     document.getElementById("end").innerHTML = projectInfo.end_time;
-    document.getElementById("sponsor").innerHTML = projectInfo.sponsor;
 
     document.getElementById("num_emails").innerHTML = projectInfo.num_emails;
     document.getElementById("num_senders").innerHTML = projectInfo.num_senders;
@@ -29,9 +28,7 @@ function UpdateprojectInfo(){
     document.getElementById("commit_per_dev").innerHTML = projectInfo.commit_per_dev;
     document.getElementById("from").innerHTML = projectInfo.from;
     document.getElementById("to").innerHTML = projectInfo.to;
-
- 
-
+    
 }
 
 
