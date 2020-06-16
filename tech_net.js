@@ -111,7 +111,7 @@ g.selectAll(".mainBars").append("text").attr("class","label")
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
 
 g.selectAll(".mainBars").append("text").attr("class","perc")
-  .attr("x",d=>(d.part=="primary"? -110: 130))
+  .attr("x",d=>(d.part=="primary"? -130: 130))
   .attr("y",d=>+6)
   .text(function(d){ return d3.format("0.0%")(d.percent)})
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
