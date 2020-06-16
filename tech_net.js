@@ -107,7 +107,7 @@ g.selectAll(".mainBars")
 g.selectAll(".mainBars").append("text").attr("class","label")
   .attr("x",d=>(d.part=="primary"? -30: 30))
   .attr("y",d=>+6)
-  .text(d=>d.key)
+  .text(d=>d.part=="primary"? d.key: "." + d.key)
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
 
 g.selectAll(".mainBars").append("text").attr("class","perc")
@@ -116,6 +116,7 @@ g.selectAll(".mainBars").append("text").attr("class","perc")
   .text(function(d){ return d3.format("0.0%")(d.percent)})
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
 
+g.selectAll(".mainBars")
 
 function mouseover(d){
 
