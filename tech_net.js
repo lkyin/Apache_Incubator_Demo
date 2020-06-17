@@ -26,9 +26,9 @@ var bp=viz.bP()
     .data(data)
     .min(10)
     .pad(1)
-    .height(400)
-    .width(250)
-    .barSize(20)
+    .height(450)
+    .width(350)
+    .barSize(25)
     .fill(d=>color(d.primary));
     
 

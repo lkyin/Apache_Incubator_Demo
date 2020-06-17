@@ -94,48 +94,18 @@ body{
 </style>
 
 <style type="text/css">
-.node {
-  font: 300 12px "Helvetica Neue", Helvetica, sans-serif;
-  pointer-events: all;
+
+.node {}
+.link {stroke: #999; stroke-opacity: .6; stroke-width: 1px; }
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
 }
 
-.node:hover {
-  fill: #000;
-}
-
-.link {
-  stroke: steelblue;
-  stroke-opacity: 0.4;
-  fill: none;
-  pointer-events: none;
-}
-
-.node:hover,
-.node--source,
-.node--target {
-  font-weight: 700;
-}
-
-.node--source {
-  fill: #2ca02c;
-}
-
-.node--target {
-  fill: #d62728;
-}
-
-.link--source,
-.link--target {
-  stroke-opacity: 1;
-  stroke-width: 2px;
-}
-
-.link--source {
-  stroke: #d62728;
-}
-
-.link--target {
-  stroke: #2ca02c;
+.nodes circle {
+  stroke: #000;
+  stroke-width: 1.5px;
 }
 
 </style>
@@ -228,12 +198,9 @@ Month
 <script src="./js/d3.v4.min.js"></script>
 <script src="./js/viz.v1.1.0.min.js"></script>
 <script src="https://d3js.org/d3-selection-multi.v1.js"></script>
-
-
-
-<div class="middlepane" style="text-align:center;">
-<div class="controls" style="text-align:center;">
-<div class="force" style="text-align:center;">
+<div class="middlepane" style="text-align:center">
+<div class="controls">
+<div class="force">
 <p>
 <label>Social Network</label>
 </p>
@@ -253,11 +220,11 @@ Number of Emails:
 </div>
 </div>
 
-<svg id = "middlesvg" width="800" height="800"></svg>
+<svg id = "middlesvg" width="700" height="400"></svg>
 </div>
 
 
-<div class="rightpane" id = "right" style="text-align:center;">
+<div class="rightpane" id = "right" style="text-align:center">
 
 <div class="controls">
 <div class="force">
@@ -282,7 +249,7 @@ Number of Emails:
 <script src="include.js"></script>
 
 <script src="tech_net.js"></script>
-<script src="edge_bud.js"></script>
+<script src="social_net.js"></script>
 
 
 </div>
