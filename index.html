@@ -17,29 +17,25 @@ img {
 
 .leftpane {
     width: 15%;
-    height: 100%;
+    height: 70%;
     float: left;
-    border-collapse: collapse;
 }
 
 .middlepane {
-    width: 40%;
-    height: 100%;
+    width: 45%;
+    height: 70%;
     float: left;
-    border-collapse: collapse;
 }
 
 .rightpane {
-  width: 45%;
-  height: 100%;
-  float: right;
-  border-collapse: collapse;
+  width: 39.5%;
+  height: 70%;
+  float: left;
 }
 
 .toppane {
   width: 100%;
   height: 200px;
-  border-collapse: collapse;
 }
 
 
@@ -63,7 +59,8 @@ img {
 }
 
 /* HTML styles */
-html{ width: 100%; }
+html{
+width: 100%;}
 body{ 
   width: 100%; 
   margin: 0; padding: 0; 
@@ -91,7 +88,7 @@ body{
 
 <style type="text/css">
 .node {
-  font: 300 20px "Helvetica Neue", Helvetica, sans-serif;
+  font: 300 23px "Helvetica Neue";
   pointer-events: all;
 }
 
@@ -100,8 +97,8 @@ body{
 }
 
 .link {
-  stroke: #666666;
-  stroke-opacity: 0.4;
+  stroke: #008a5b;
+  stroke-opacity: 0.5;
   fill: none;
   pointer-events: none;
 }
@@ -183,15 +180,13 @@ body{
 <script src="project_info.js"></script>
 
 <div class="container">
-<div class="toppane">
-<div class="controls" style="text-align:center">
+<div class="toppane" style="text-align:center; border: thin solid black;">
+<div class="controls">
 <div class="force">
 <p><label>ASFI Project Explorer</label></p>
 <p>
 <label>
 Project
-
-
 
 <input type="text" id="txt_ide" list="project_n" placeholder="e.g. Project OpenNLP" oninput="updateAll(); UpdateMaxIncubation();"/> 
 <datalist id="project_n"> 
@@ -433,7 +428,7 @@ Month
 
 
 
-<div class="leftpane" style="text-align:left">
+<div class="leftpane" style="text-align:left; border: thin solid black;">
 <div class="controls">
 <div class="force" id = "leftp">
 
@@ -481,7 +476,7 @@ Month
 
 
 
-<div class="middlepane" style="text-align:center;">
+<div class="middlepane" style="text-align:center;border: thin solid black;">
 <div class="controls" style="text-align:center;">
 <div class="force" style="text-align:center;">
 <p>
@@ -507,7 +502,7 @@ Number of Emails:
 </div>
 
 
-<div class="rightpane" id = "right" style="text-align:center;">
+<div class="rightpane" id = "right" style="text-align:center; border: thin solid black;">
 
 <div class="controls">
 <div class="force">
@@ -526,7 +521,7 @@ Number of Emails:
 </p>
 </div>
 </div>
-<svg title = "Technical Network" id = "rightsvg" width="1500" height="1500"></svg>
+<svg title = "Technical Network" id = "rightsvg" width="1000" height="1000"></svg>
 </div>
 
 <script src="include.js"></script>

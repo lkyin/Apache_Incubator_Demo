@@ -10,8 +10,8 @@ var line = d3.radialLine()
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
-var xposition = 1.3, 
-    yposition = 1.1;
+var xposition = 1.25, 
+    yposition = 1.15;
     
 //var svg = d3.select("#middlesvg");
 //var node;

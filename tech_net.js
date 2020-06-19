@@ -20,15 +20,15 @@ function UpdateTechnicalNet(){
 //  .attr("class","header").text("Technical Contribution Network");
 
 
-var g = svg.append("g").attr("transform","translate(300,50)");
+var g = svg.append("g").attr("transform","translate(200,50)");
 
 var bp=viz.bP()
     .data(data)
-    .min(10)
+    .min(20)
     .pad(1)
-    .height(800)
-    .width(700)
-    .barSize(40)
+    .height(600)
+    .width(400)
+    .barSize(50)
     .fill(d=>color(d.primary));
     
 
@@ -54,15 +54,15 @@ g.selectAll(".mainBars").append("text").attr("class","label")
   .attr("y",d=>+6)
   .text(d=>d.part=="primary"? d.key: "." + d.key)
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"))
-  .style("font-size", "22px");
+  .style("font-size", "25px");
 
 
 g.selectAll(".mainBars").append("text").attr("class","perc")
-  .attr("x",d=>(d.part=="primary"? -150: 150))
+  .attr("x",d=>(d.part=="primary"? -170: 170))
   .attr("y",d=>+6)
   .text(function(d){ return d3.format("0.0%")(d.percent)})
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"))
-  .style("font-size", "22px");
+  .style("font-size", "25px");
 
 /*
 g.selectAll(".mainBars").append("text").attr("class","perc")
@@ -74,7 +74,7 @@ g.selectAll(".mainBars").append("text").attr("class","perc")
 
 
 function mouseover(d){
-
+  d3.select(this).attr("font-weight", "bold");
   bp.mouseover(d);
   g.selectAll(".mainBars").select(".perc")
   .text(function(d){ return d3.format("0.0%")(d.percent)});
@@ -82,6 +82,7 @@ function mouseover(d){
 }
 
 function mouseout(d){
+  d3.select(this).attr("font-weight", null);
   bp.mouseout(d);
   g.selectAll(".mainBars").select(".perc")
   .text(function(d){ return d3.format("0.0%")(d.percent)});
