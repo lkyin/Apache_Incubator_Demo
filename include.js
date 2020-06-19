@@ -28,13 +28,26 @@ function UpdateprojectInfo(){
     document.getElementById("commit_per_dev").innerHTML = projectInfo.commit_per_dev;
     document.getElementById("from").innerHTML = projectInfo.from;
     document.getElementById("to").innerHTML = projectInfo.to;
-    
+    //document.getElementById("incubation_time").innerHTML = '<input id = "incubation_time" type="range" min="1" max=' + projectInfo.incubation_time + ' value="1" step="1" oninput="d3.select("#Month").text(value); forceProperties.selected_data.month=value; updateAll();">;'
+    //document.getElementById("incubation_time").innerHTML = '<input type="range" id = "incubation_time" min="1" max=' + projectInfo.incubation_time + ' value="1" step="1">;'
+        
 }
 
 
 
+function UpdateMaxIncubation(){
 
+var slider = document.getElementById('MaxIncubation');
 
+slider.max = projectInfo.incubation_time
+slider.min = 1
+slider.value = slider.min
+
+document.getElementById('Month').innerHTML = '<output id="Month">' + slider.min + '</output>'
+
+//$("MaxIncubation").slider('option',{min: 5, max: 50});
+
+}
 
 
 

@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-
-
-
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 
 
@@ -155,12 +152,12 @@ body{
 <label>
 Project ID
 <output id="Project">49</output>
-<input type="range" min="49" max="312" value="49" step="1" oninput="d3.select('#Project').text(value); forceProperties.selected_data.project=value; updateAll();">
+<input type="range" min="49" max="312" value="49" step="1" oninput="d3.select('#Project').text(value); forceProperties.selected_data.project=value; updateAll(); UpdateMaxIncubation();">
 </label>
 <label>
 Month
 <output id="Month">1</output>
-<input type="range" min="1" max="90" value="1" step="1" oninput="d3.select('#Month').text(value); forceProperties.selected_data.month=value; updateAll();">
+<input id = "MaxIncubation" type="range" min="1" max="90" value="1" step="1" oninput="d3.select('#Month').text(value); forceProperties.selected_data.month=value; updateAll();">
 </label>
 </div>
 </div>
