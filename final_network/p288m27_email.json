@@ -1,25 +1,34 @@
 [
     {
-        "imports": [
-            "Nick Burch"
-        ],
-        "name": "Oliver Rau"
+        "name": "Svanteschubert",
+        "imports": []
     },
     {
+        "name": "Dave Fisher",
+        "imports": [
+            "Svante Schubert",
+            "Svanteschubert"
+        ]
+    },
+    {
+        "name": "Nick Burch",
         "imports": [
             "Svante Schubert",
             "Oliver Rau",
             "Svante Schubert",
             "Svante Schubert",
             "Svante Schubert"
-        ],
-        "name": "Nick Burch"
+        ]
     },
     {
-        "imports": [],
-        "name": "Svanteschubert"
+        "name": "Florian Hopf",
+        "imports": [
+            "Svante Schubert",
+            "Svante Schubert"
+        ]
     },
     {
+        "name": "Svante Schubert",
         "imports": [
             "Oliver Rau",
             "Nick Burch",
@@ -27,21 +36,12 @@
             "Dave Fisher",
             "Nick Burch",
             "Nick Burch"
-        ],
-        "name": "Svante Schubert"
+        ]
     },
     {
+        "name": "Oliver Rau",
         "imports": [
-            "Svante Schubert",
-            "Svanteschubert"
-        ],
-        "name": "Dave Fisher"
-    },
-    {
-        "imports": [
-            "Svante Schubert",
-            "Svante Schubert"
-        ],
-        "name": "Florian Hopf"
+            "Nick Burch"
+        ]
     }
 ]

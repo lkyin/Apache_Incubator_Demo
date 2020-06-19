@@ -1,28 +1,28 @@
 [
     {
-        "imports": [],
-        "name": "Apache Hudson Server"
+        "name": "Apache Hudson Server",
+        "imports": []
     },
     {
+        "name": "Martijn Dashorst",
         "imports": [
             "Doebele"
-        ],
-        "name": "Martijn Dashorst"
+        ]
     },
     {
+        "name": "Francis De Brabandere",
+        "imports": [
+            "Apache Hudson Server",
+            "Doebele"
+        ]
+    },
+    {
+        "name": "Doebele",
         "imports": [
             "Francis De Brabandere",
             "Francis De Brabandere",
             "Francis De Brabandere",
             "Martijn Dashorst"
-        ],
-        "name": "Doebele"
-    },
-    {
-        "imports": [
-            "Apache Hudson Server",
-            "Doebele"
-        ],
-        "name": "Francis De Brabandere"
+        ]
     }
 ]

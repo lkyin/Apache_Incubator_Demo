@@ -1,34 +1,18 @@
 [
     {
-        "imports": [],
-        "name": "Francisdb"
+        "name": "Francisdb",
+        "imports": []
     },
     {
-        "imports": [
-            "Benjamin Venditti",
-            "Francis De Brabandere",
-            "Francis De Brabandere"
-        ],
-        "name": "Doebele"
+        "name": "Empire-db-dev",
+        "imports": []
     },
     {
-        "imports": [],
-        "name": "Matthew Bond"
+        "name": "Matthew Bond",
+        "imports": []
     },
     {
-        "imports": [
-            "Empire-db-dev",
-            "Doebele",
-            "Doebele",
-            "Francis De Brabandere"
-        ],
-        "name": "Benjamin Venditti"
-    },
-    {
-        "imports": [],
-        "name": "Empire-db-dev"
-    },
-    {
+        "name": "Francis De Brabandere",
         "imports": [
             "Francisdb",
             "Empire-db-dev",
@@ -37,7 +21,23 @@
             "Doebele",
             "Benjamin Venditti",
             "Doebele"
-        ],
-        "name": "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Doebele",
+        "imports": [
+            "Benjamin Venditti",
+            "Francis De Brabandere",
+            "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Benjamin Venditti",
+        "imports": [
+            "Empire-db-dev",
+            "Doebele",
+            "Doebele",
+            "Francis De Brabandere"
+        ]
     }
 ]

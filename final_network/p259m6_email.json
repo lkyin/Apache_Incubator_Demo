@@ -1,23 +1,44 @@
 [
     {
+        "name": "Chen Hecky",
         "imports": [
             "Bernd Fondermann"
-        ],
-        "name": "Chen Hecky"
+        ]
     },
     {
+        "name": "Du.haipeng",
+        "imports": []
+    },
+    {
+        "name": "Ting Peng",
+        "imports": [
+            "Du.haipeng",
+            "Bill Stoddard",
+            "Du.haipeng",
+            "Bernd Fondermann"
+        ]
+    },
+    {
+        "name": "Shan Jiang",
         "imports": [
             "Bill Stoddard",
             "Bernd Fondermann",
             "Ting Peng"
-        ],
-        "name": "Shan Jiang"
+        ]
     },
     {
-        "imports": [],
-        "name": "Du.haipeng"
+        "name": "Bill Stoddard",
+        "imports": [
+            "Du.haipeng",
+            "Ting Peng",
+            "Ting Peng",
+            "Shan Jiang",
+            "Shan Jiang",
+            "Ting Peng"
+        ]
     },
     {
+        "name": "Bernd Fondermann",
         "imports": [
             "Shan Jiang",
             "Ting Peng",
@@ -26,27 +47,6 @@
             "Shan Jiang",
             "Ting Peng",
             "Shan Jiang"
-        ],
-        "name": "Bernd Fondermann"
-    },
-    {
-        "imports": [
-            "Du.haipeng",
-            "Ting Peng",
-            "Ting Peng",
-            "Shan Jiang",
-            "Shan Jiang",
-            "Ting Peng"
-        ],
-        "name": "Bill Stoddard"
-    },
-    {
-        "imports": [
-            "Du.haipeng",
-            "Bill Stoddard",
-            "Du.haipeng",
-            "Bernd Fondermann"
-        ],
-        "name": "Ting Peng"
+        ]
     }
 ]

@@ -1,26 +1,26 @@
 [
     {
-        "imports": [
-            "Johndament"
-        ],
-        "name": "P. Taylor Goetz"
+        "name": "Johndament",
+        "imports": []
     },
     {
+        "name": "P. Taylor Goetz",
+        "imports": [
+            "Johndament"
+        ]
+    },
+    {
+        "name": "Edward Capriolo",
         "imports": [
             "P. Taylor Goetz",
             "John D. Ament"
-        ],
-        "name": "Edward Capriolo"
+        ]
     },
     {
+        "name": "John D. Ament",
         "imports": [
             "Edward Capriolo",
             "Edward Capriolo"
-        ],
-        "name": "John D. Ament"
-    },
-    {
-        "imports": [],
-        "name": "Johndament"
+        ]
     }
 ]

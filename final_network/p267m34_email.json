@@ -1,33 +1,33 @@
 [
     {
+        "name": "Richard Frovarp",
+        "imports": []
+    },
+    {
+        "name": "Eugen Paraschiv",
+        "imports": []
+    },
+    {
+        "name": "Chapuis Bertil",
+        "imports": [
+            "Richard Frovarp"
+        ]
+    },
+    {
+        "name": "Jira13763",
         "imports": [
             "Eugen Paraschiv",
             "Eugen Paraschiv",
             "Eugen Paraschiv",
             "Eugen Paraschiv",
             "Eugen Paraschiv"
-        ],
-        "name": "Jira13763"
+        ]
     },
     {
-        "imports": [
-            "Richard Frovarp"
-        ],
-        "name": "Chapuis Bertil"
-    },
-    {
-        "imports": [],
-        "name": "Richard Frovarp"
-    },
-    {
+        "name": "Bertil Chapuis",
         "imports": [
             "Jira13763",
             "Jira13763"
-        ],
-        "name": "Bertil Chapuis"
-    },
-    {
-        "imports": [],
-        "name": "Eugen Paraschiv"
+        ]
     }
 ]

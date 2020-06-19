@@ -1,9 +1,10 @@
 [
     {
-        "imports": [],
-        "name": "Marcus Holthaus"
+        "name": "Marcus Holthaus",
+        "imports": []
     },
     {
+        "name": "Urs Lerch",
         "imports": [
             "Flavio Pellanda",
             "Flavio Pellanda",
@@ -14,34 +15,33 @@
             "Scott Deboy",
             "Christian Grobmeier",
             "Scott Deboy"
-        ],
-        "name": "Urs Lerch"
+        ]
     },
     {
+        "name": "Flavio Pellanda",
+        "imports": [
+            "Urs Lerch",
+            "Urs Lerch",
+            "Urs Lerch",
+            "Christian Grobmeier",
+            "Scott Deboy"
+        ]
+    },
+    {
+        "name": "Christian Grobmeier",
+        "imports": [
+            "Flavio Pellanda",
+            "Urs Lerch"
+        ]
+    },
+    {
+        "name": "Scott Deboy",
         "imports": [
             "Marcus Holthaus",
             "Flavio Pellanda",
             "Urs Lerch",
             "Urs Lerch",
             "Urs Lerch"
-        ],
-        "name": "Scott Deboy"
-    },
-    {
-        "imports": [
-            "Urs Lerch",
-            "Urs Lerch",
-            "Urs Lerch",
-            "Christian Grobmeier",
-            "Scott Deboy"
-        ],
-        "name": "Flavio Pellanda"
-    },
-    {
-        "imports": [
-            "Flavio Pellanda",
-            "Urs Lerch"
-        ],
-        "name": "Christian Grobmeier"
+        ]
     }
 ]

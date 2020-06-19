@@ -1,27 +1,27 @@
 [
     {
+        "name": "Bertrand Delacretaz",
         "imports": [
             "John D. Ament",
             "Serge Huber"
-        ],
-        "name": "Bertrand Delacretaz"
+        ]
     },
     {
-        "imports": [
-            "Serge Huber",
-            "Bertrand Delacretaz"
-        ],
-        "name": "Jb"
-    },
-    {
-        "imports": [],
-        "name": "John D. Ament"
-    },
-    {
+        "name": "Serge Huber",
         "imports": [
             "Jb",
             "Bertrand Delacretaz"
-        ],
-        "name": "Serge Huber"
+        ]
+    },
+    {
+        "name": "Jb",
+        "imports": [
+            "Serge Huber",
+            "Bertrand Delacretaz"
+        ]
+    },
+    {
+        "name": "John D. Ament",
+        "imports": []
     }
 ]

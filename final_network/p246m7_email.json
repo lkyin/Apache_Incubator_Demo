@@ -1,9 +1,12 @@
 [
     {
-        "imports": [],
-        "name": "Tibor Kiss"
+        "name": "Doug Cutting",
+        "imports": [
+            "Patrick Hunt"
+        ]
     },
     {
+        "name": "Tom White",
         "imports": [
             "Tibor Kiss",
             "Tibor Kiss",
@@ -14,10 +17,14 @@
             "Tibor Kiss",
             "Tibor Kiss",
             "Tibor Kiss"
-        ],
-        "name": "Tom White"
+        ]
     },
     {
+        "name": "Tibor Kiss",
+        "imports": []
+    },
+    {
+        "name": "Adrian Cole",
         "imports": [
             "Patrick Hunt",
             "Patrick Hunt",
@@ -32,34 +39,27 @@
             "Tom White",
             "Tom White",
             "Tom White"
-        ],
-        "name": "Adrian Cole"
+        ]
     },
     {
+        "name": "Matei Zaharia",
         "imports": [
             "Tom White"
-        ],
-        "name": "Matei Zaharia"
+        ]
     },
     {
-        "imports": [
-            "Adrian Cole"
-        ],
-        "name": "Krishna Sankar"
-    },
-    {
+        "name": "Patrick Hunt",
         "imports": [
             "Tom White",
             "Adrian Cole",
             "Tom White",
             "Tom White"
-        ],
-        "name": "Patrick Hunt"
+        ]
     },
     {
+        "name": "Krishna Sankar",
         "imports": [
-            "Patrick Hunt"
-        ],
-        "name": "Doug Cutting"
+            "Adrian Cole"
+        ]
     }
 ]

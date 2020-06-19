@@ -1,9 +1,6 @@
 [
     {
-        "imports": [],
-        "name": "Marvin"
-    },
-    {
+        "name": "Dave Brondsema",
         "imports": [
             "Peter Hartmann",
             "Peter Hartmann",
@@ -11,29 +8,32 @@
             "Rich Bowen",
             "Marvin",
             "Roberto Galoppini"
-        ],
-        "name": "Dave Brondsema"
+        ]
     },
     {
+        "name": "Roberto Galoppini",
         "imports": [
             "Dave Brondsema"
-        ],
-        "name": "Roberto Galoppini"
+        ]
     },
     {
-        "imports": [],
-        "name": "Cory Johns"
+        "name": "Cory Johns",
+        "imports": []
     },
     {
+        "name": "Marvin",
+        "imports": []
+    },
+    {
+        "name": "Peter Hartmann",
+        "imports": [
+            "Dave Brondsema"
+        ]
+    },
+    {
+        "name": "Rich Bowen",
         "imports": [
             "Marvin"
-        ],
-        "name": "Rich Bowen"
-    },
-    {
-        "imports": [
-            "Dave Brondsema"
-        ],
-        "name": "Peter Hartmann"
+        ]
     }
 ]

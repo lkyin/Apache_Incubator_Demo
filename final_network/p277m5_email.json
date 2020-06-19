@@ -1,30 +1,30 @@
 [
     {
-        "imports": [],
-        "name": "Johndament"
-    },
-    {
-        "imports": [
-            "Johndament"
-        ],
-        "name": "Justin Mclean"
-    },
-    {
-        "imports": [
-            "Anatole Tresch",
-            "Justin Mclean"
-        ],
-        "name": "Tony Faustini"
-    },
-    {
+        "name": "Anatole Tresch",
         "imports": [
             "Tony Faustini",
             "Amirhossein Jabbari"
-        ],
-        "name": "Anatole Tresch"
+        ]
     },
     {
-        "imports": [],
-        "name": "Amirhossein Jabbari"
+        "name": "Tony Faustini",
+        "imports": [
+            "Anatole Tresch",
+            "Justin Mclean"
+        ]
+    },
+    {
+        "name": "Amirhossein Jabbari",
+        "imports": []
+    },
+    {
+        "name": "Justin Mclean",
+        "imports": [
+            "Johndament"
+        ]
+    },
+    {
+        "name": "Johndament",
+        "imports": []
     }
 ]

@@ -1,43 +1,43 @@
 [
     {
+        "name": "Henry Saputra",
         "imports": [
             "Shaoliangcn",
             "Roy Lenferink",
             "Johndament"
-        ],
-        "name": "Henry Saputra"
+        ]
     },
     {
+        "name": "Shaoliangcn",
         "imports": [
             "Henry Saputra"
-        ],
-        "name": "Yuepeng Guo"
+        ]
     },
     {
-        "imports": [],
-        "name": "Roy Lenferink"
+        "name": "Yuepeng Guo",
+        "imports": [
+            "Henry Saputra"
+        ]
     },
     {
-        "imports": [],
-        "name": "Johndament"
+        "name": "Roy Lenferink",
+        "imports": []
     },
     {
+        "name": "Johndament",
+        "imports": []
+    },
+    {
+        "name": "William Guo",
         "imports": [
             "Henry Saputra",
             "Henry Saputra"
-        ],
-        "name": "William Guo"
+        ]
     },
     {
+        "name": "John D. Ament",
         "imports": [
             "William Guo"
-        ],
-        "name": "John D. Ament"
-    },
-    {
-        "imports": [
-            "Henry Saputra"
-        ],
-        "name": "Shaoliangcn"
+        ]
     }
 ]

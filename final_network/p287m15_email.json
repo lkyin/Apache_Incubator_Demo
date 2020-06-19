@@ -1,9 +1,16 @@
 [
     {
-        "imports": [],
-        "name": "Marcus Burton"
+        "name": "Marcus Burton",
+        "imports": []
     },
     {
+        "name": "Sergey Moiseyev",
+        "imports": [
+            "Marcus Burton"
+        ]
+    },
+    {
+        "name": "Stoyan Damov",
         "imports": [
             "Lars Corneliussen",
             "Stoyan Damov",
@@ -11,21 +18,14 @@
             "Lars Corneliussen",
             "Lars Corneliussen",
             "Lars Corneliussen"
-        ],
-        "name": "Stoyan Damov"
+        ]
     },
     {
-        "imports": [],
-        "name": "Daniel Williams"
+        "name": "Daniel Williams",
+        "imports": []
     },
     {
-        "imports": [
-            "Maria Odea Ching",
-            "Maria Odea Ching"
-        ],
-        "name": "Maria Odea Ching"
-    },
-    {
+        "name": "Lars Corneliussen",
         "imports": [
             "Stoyan Damov",
             "Stoyan Damov",
@@ -33,13 +33,13 @@
             "Stoyan Damov",
             "Stoyan Damov",
             "Stoyan Damov"
-        ],
-        "name": "Lars Corneliussen"
+        ]
     },
     {
+        "name": "Maria Odea Ching",
         "imports": [
-            "Marcus Burton"
-        ],
-        "name": "Sergey Moiseyev"
+            "Maria Odea Ching",
+            "Maria Odea Ching"
+        ]
     }
 ]

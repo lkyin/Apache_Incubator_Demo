@@ -1,33 +1,33 @@
 [
     {
-        "imports": [],
-        "name": "Mhall"
+        "name": "Mhall",
+        "imports": []
     },
     {
-        "imports": [
-            "Bob Schellink",
-            "Bob Schellink"
-        ],
-        "name": "Michael Hall"
-    },
-    {
+        "name": "Andrus Adamchik",
         "imports": [
             "Bob Schellink"
-        ],
-        "name": "Andrus Adamchik"
+        ]
     },
     {
-        "imports": [
-            "Bob Schellink"
-        ],
-        "name": "Malcolm Edgar"
-    },
-    {
+        "name": "Bob Schellink",
         "imports": [
             "Michael Hall",
             "Mhall",
             "Andrus Adamchik"
-        ],
-        "name": "Bob Schellink"
+        ]
+    },
+    {
+        "name": "Malcolm Edgar",
+        "imports": [
+            "Bob Schellink"
+        ]
+    },
+    {
+        "name": "Michael Hall",
+        "imports": [
+            "Bob Schellink",
+            "Bob Schellink"
+        ]
     }
 ]

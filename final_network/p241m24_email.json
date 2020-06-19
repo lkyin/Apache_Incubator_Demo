@@ -1,34 +1,34 @@
 [
     {
-        "imports": [
-            "Thomas Draier"
-        ],
-        "name": "Damien Gaillard"
-    },
-    {
-        "imports": [
-            "Thomas Draier",
-            "Jb"
-        ],
-        "name": "Abdelkader Midani"
-    },
-    {
-        "imports": [
-            "Jb"
-        ],
-        "name": "Serge Huber"
-    },
-    {
-        "imports": [
-            "Serge Huber"
-        ],
-        "name": "Jb"
-    },
-    {
+        "name": "Thomas Draier",
         "imports": [
             "Damien Gaillard",
             "Serge Huber"
-        ],
-        "name": "Thomas Draier"
+        ]
+    },
+    {
+        "name": "Serge Huber",
+        "imports": [
+            "Jb"
+        ]
+    },
+    {
+        "name": "Jb",
+        "imports": [
+            "Serge Huber"
+        ]
+    },
+    {
+        "name": "Abdelkader Midani",
+        "imports": [
+            "Thomas Draier",
+            "Jb"
+        ]
+    },
+    {
+        "name": "Damien Gaillard",
+        "imports": [
+            "Thomas Draier"
+        ]
     }
 ]

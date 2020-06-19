@@ -1,5 +1,19 @@
 [
     {
+        "name": "Thiago Veronezi",
+        "imports": [
+            "Romain Manni-bucau"
+        ]
+    },
+    {
+        "name": "Mark Struberg",
+        "imports": [
+            "Thiago Veronezi",
+            "Hendrik Dev"
+        ]
+    },
+    {
+        "name": "Hendrik Dev",
         "imports": [
             "Justin Mclean",
             "Justin Mclean",
@@ -9,16 +23,10 @@
             "Romain Manni-bucau",
             "Romain Manni-bucau",
             "Romain Manni-bucau"
-        ],
-        "name": "Hendrik Dev"
+        ]
     },
     {
-        "imports": [
-            "Romain Manni-bucau"
-        ],
-        "name": "Thiago Veronezi"
-    },
-    {
+        "name": "Romain Manni-bucau",
         "imports": [
             "Hendrik Dev",
             "Hendrik Dev",
@@ -26,35 +34,27 @@
             "Hendrik Dev",
             "Hendrik Dev",
             "Hendrik Dev"
-        ],
-        "name": "Romain Manni-bucau"
+        ]
     },
     {
-        "imports": [],
-        "name": "Salyh"
+        "name": "Salyh",
+        "imports": []
     },
     {
-        "imports": [
-            "Thiago Veronezi",
-            "Hendrik Dev"
-        ],
-        "name": "Mark Struberg"
-    },
-    {
-        "imports": [
-            "Hendrik Dev",
-            "Hendrik Dev"
-        ],
-        "name": "John D. Ament"
-    },
-    {
+        "name": "Justin Mclean",
         "imports": [
             "Romain Manni-bucau",
             "Hendrik Dev",
             "Hendrik Dev",
             "Mark Struberg",
             "John D. Ament"
-        ],
-        "name": "Justin Mclean"
+        ]
+    },
+    {
+        "name": "John D. Ament",
+        "imports": [
+            "Hendrik Dev",
+            "Hendrik Dev"
+        ]
     }
 ]

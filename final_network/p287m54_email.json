@@ -1,37 +1,37 @@
 [
     {
-        "imports": [],
-        "name": "Marvin Humphrey"
+        "name": "Me",
+        "imports": [
+            "David Akehurst"
+        ]
     },
     {
+        "name": "David Akehurst",
         "imports": [
             "Roman Shaposhnik",
             "Roman Shaposhnik"
-        ],
-        "name": "David Akehurst"
+        ]
     },
     {
+        "name": "Roman Shaposhnik",
         "imports": [
             "Me",
             "Konstantin Boudnik",
             "David Akehurst",
             "David Akehurst"
-        ],
-        "name": "Roman Shaposhnik"
+        ]
     },
     {
-        "imports": [
-            "David Akehurst"
-        ],
-        "name": "Me"
-    },
-    {
+        "name": "Konstantin Boudnik",
         "imports": [
             "Roman Shaposhnik",
             "Roman Shaposhnik",
             "Marvin Humphrey",
             "Roman Shaposhnik"
-        ],
-        "name": "Konstantin Boudnik"
+        ]
+    },
+    {
+        "name": "Marvin Humphrey",
+        "imports": []
     }
 ]

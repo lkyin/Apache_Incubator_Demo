@@ -1,22 +1,26 @@
 [
     {
-        "imports": [
-            "Wisebaldone"
-        ],
-        "name": "Yuri Z"
-    },
-    {
+        "name": "Andreas Kotes",
         "imports": [
             "Evan Hughes",
             "Yuri Zelikov"
-        ],
-        "name": "Andreas Kotes"
+        ]
     },
     {
-        "imports": [],
-        "name": "Pablo Ojanguren"
+        "name": "Wisebaldone",
+        "imports": []
     },
     {
+        "name": "Evan Hughes",
+        "imports": [
+            "Andreas Kotes",
+            "Evan Hughes",
+            "Yuri Zelikov",
+            "Yuri Z"
+        ]
+    },
+    {
+        "name": "Yuri Zelikov",
         "imports": [
             "Andreas Kotes",
             "Evan Hughes",
@@ -25,20 +29,16 @@
             "Andreas Kotes",
             "Andreas Kotes",
             "Pablo Ojanguren"
-        ],
-        "name": "Yuri Zelikov"
+        ]
     },
     {
+        "name": "Pablo Ojanguren",
+        "imports": []
+    },
+    {
+        "name": "Yuri Z",
         "imports": [
-            "Andreas Kotes",
-            "Evan Hughes",
-            "Yuri Zelikov",
-            "Yuri Z"
-        ],
-        "name": "Evan Hughes"
-    },
-    {
-        "imports": [],
-        "name": "Wisebaldone"
+            "Wisebaldone"
+        ]
     }
 ]

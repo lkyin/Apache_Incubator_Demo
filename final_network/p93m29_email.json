@@ -1,15 +1,22 @@
 [
     {
+        "name": "Venkata Kiran Surapaneni",
         "imports": [
             "Werner Keil"
-        ],
-        "name": "Venkata Kiran Surapaneni"
+        ]
     },
     {
-        "imports": [],
-        "name": "Eberhard Speer Jr."
+        "name": "Werner Keil",
+        "imports": [
+            "Venkata Kiran Surapaneni",
+            "Marvin",
+            "Eberhard Speer",
+            "Kevan Miller",
+            "Kevan Miller"
+        ]
     },
     {
+        "name": "Kevan Miller",
         "imports": [
             "Werner Keil",
             "Werner Keil",
@@ -17,27 +24,20 @@
             "Werner Keil",
             "Givemessage",
             "Werner Keil"
-        ],
-        "name": "Kevan Miller"
+        ]
     },
     {
-        "imports": [],
-        "name": "Marvin"
+        "name": "Eberhard Speer",
+        "imports": []
     },
     {
-        "imports": [
-            "Venkata Kiran Surapaneni",
-            "Marvin",
-            "Eberhard Speer Jr.",
-            "Kevan Miller",
-            "Kevan Miller"
-        ],
-        "name": "Werner Keil"
+        "name": "Marvin",
+        "imports": []
     },
     {
+        "name": "Givemessage",
         "imports": [
             "Kevan Miller"
-        ],
-        "name": "Givemessage"
+        ]
     }
 ]

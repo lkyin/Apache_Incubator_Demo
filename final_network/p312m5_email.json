@@ -1,34 +1,34 @@
 [
     {
+        "name": "Adrian Cole",
         "imports": [
             "Abesto"
-        ],
-        "name": "Tommy Ludwig"
+        ]
     },
     {
+        "name": "Bas",
         "imports": [
             "Adrian Cole"
-        ],
-        "name": "Bas"
+        ]
     },
     {
+        "name": "Andriy Redko",
         "imports": [
             "Adrian Cole"
-        ],
-        "name": "Andriy Redko"
+        ]
     },
     {
+        "name": "Tommy Ludwig",
+        "imports": [
+            "Abesto"
+        ]
+    },
+    {
+        "name": "Abesto",
         "imports": [
             "Bas",
             "Adrian Cole",
             "Andriy Redko"
-        ],
-        "name": "Abesto"
-    },
-    {
-        "imports": [
-            "Abesto"
-        ],
-        "name": "Adrian Cole"
+        ]
     }
 ]

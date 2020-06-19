@@ -1,43 +1,43 @@
 [
     {
-        "imports": [],
-        "name": "Sergio Vavassori"
+        "name": "Oleg Tikhonov",
+        "imports": [
+            "Kishore G",
+            "Patrick Hunt"
+        ]
     },
     {
+        "name": "Patrick Hunt",
+        "imports": [
+            "Oleg Tikhonov",
+            "Kishore G"
+        ]
+    },
+    {
+        "name": "Sergio Vavassori",
+        "imports": []
+    },
+    {
+        "name": "Matthieu Morel",
+        "imports": [
+            "Sergio Vavassori"
+        ]
+    },
+    {
+        "name": "Kishore G",
         "imports": [
             "Oleg Tikhonov",
             "Sergio Vavassori",
             "John D. Ament",
             "John D. Ament",
             "Sergio Vavassori"
-        ],
-        "name": "Kishore G"
+        ]
     },
     {
+        "name": "John D. Ament",
         "imports": [
             "Kishore G",
             "Patrick Hunt"
-        ],
-        "name": "Oleg Tikhonov"
-    },
-    {
-        "imports": [
-            "Oleg Tikhonov",
-            "Kishore G"
-        ],
-        "name": "Patrick Hunt"
-    },
-    {
-        "imports": [
-            "Kishore G",
-            "Patrick Hunt"
-        ],
-        "name": "John D. Ament"
-    },
-    {
-        "imports": [
-            "Sergio Vavassori"
-        ],
-        "name": "Matthieu Morel"
+        ]
     }
 ]

@@ -1,38 +1,38 @@
 [
     {
-        "imports": [],
-        "name": "Thomas Fischer"
+        "name": "Reiher",
+        "imports": []
     },
     {
-        "imports": [
-            "Francis De Brabandere"
-        ],
-        "name": "Doebele"
-    },
-    {
+        "name": "Francisdb",
         "imports": [
             "Empire-db-dev"
-        ],
-        "name": "Francisdb"
+        ]
     },
     {
-        "imports": [],
-        "name": "Reiher"
-    },
-    {
+        "name": "Empire-db-dev",
         "imports": [
             "Francisdb",
             "Francisdb"
-        ],
-        "name": "Empire-db-dev"
+        ]
     },
     {
+        "name": "Francis De Brabandere",
         "imports": [
             "Thomas Fischer",
             "Doebele",
             "Reiher",
             "Doebele"
-        ],
-        "name": "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Doebele",
+        "imports": [
+            "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Thomas Fischer",
+        "imports": []
     }
 ]

@@ -1,32 +1,32 @@
 [
     {
+        "name": "Andreas Fink",
         "imports": [
             "Doebele"
-        ],
-        "name": "Eike Kettner"
+        ]
     },
     {
-        "imports": [
-            "Doebele"
-        ],
-        "name": "Andreas Fink"
-    },
-    {
+        "name": "Doebele",
         "imports": [
             "Andreas Fink",
             "Eike Kettner",
             "Eike Kettner",
             "Francis De Brabandere"
-        ],
-        "name": "Doebele"
+        ]
     },
     {
+        "name": "Francis De Brabandere",
         "imports": [
             "Eike Kettner",
             "Doebele",
             "Doebele",
             "Doebele"
-        ],
-        "name": "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Eike Kettner",
+        "imports": [
+            "Doebele"
+        ]
     }
 ]

@@ -1,26 +1,26 @@
 [
     {
-        "imports": [
-            "Charles_magnes",
-            "Claudebelgique"
-        ],
-        "name": "Gert Vanthienen"
+        "name": "Charles_magnes",
+        "imports": []
     },
     {
-        "imports": [],
-        "name": "Charles_magnes"
-    },
-    {
+        "name": "Claudebelgique",
         "imports": [
             "Gert Vanthienen",
             "Matthieu Riou"
-        ],
-        "name": "Claudebelgique"
+        ]
     },
     {
+        "name": "Gert Vanthienen",
+        "imports": [
+            "Charles_magnes",
+            "Claudebelgique"
+        ]
+    },
+    {
+        "name": "Matthieu Riou",
         "imports": [
             "Claudebelgique"
-        ],
-        "name": "Matthieu Riou"
+        ]
     }
 ]

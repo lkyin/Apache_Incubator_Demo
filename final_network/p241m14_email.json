@@ -1,40 +1,40 @@
 [
     {
+        "name": "Thomas Draier",
+        "imports": [
+            "Jb"
+        ]
+    },
+    {
+        "name": "Jb",
         "imports": [
             "Johndament",
             "John D. Ament"
-        ],
-        "name": "Jb"
+        ]
     },
     {
+        "name": "Johndament",
+        "imports": []
+    },
+    {
+        "name": "Serge Huber",
         "imports": [
             "Jb",
             "Alex Rodriguez",
             "Jb",
             "Alex Rodriguez"
-        ],
-        "name": "Serge Huber"
+        ]
     },
     {
+        "name": "Alex Rodriguez",
         "imports": [
             "Serge Huber"
-        ],
-        "name": "Alex Rodriguez"
+        ]
     },
     {
-        "imports": [],
-        "name": "Johndament"
-    },
-    {
-        "imports": [
-            "Jb"
-        ],
-        "name": "Thomas Draier"
-    },
-    {
+        "name": "John D. Ament",
         "imports": [
             "Serge Huber"
-        ],
-        "name": "John D. Ament"
+        ]
     }
 ]

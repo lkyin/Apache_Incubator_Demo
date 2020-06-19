@@ -1,65 +1,47 @@
 [
     {
+        "name": "Robweir",
+        "imports": []
+    },
+    {
+        "name": "Michael Mccandless",
+        "imports": [
+            "Rob Weir"
+        ]
+    },
+    {
+        "name": "Nick Burch",
+        "imports": [
+            "Robweir",
+            "Devin Han"
+        ]
+    },
+    {
+        "name": "Svante Schubert",
         "imports": [
             "Devin Han",
             "Yegor Kozlov",
             "Svante Schubert",
             "Grzegorz Kaczor"
-        ],
-        "name": "Svante Schubert"
+        ]
     },
     {
-        "imports": [],
-        "name": "BC Email"
-    },
-    {
-        "imports": [],
-        "name": "Henrique Lobo Weissmann"
-    },
-    {
-        "imports": [],
-        "name": "Robweir"
-    },
-    {
-        "imports": [],
-        "name": "Grzegorz Kaczor"
-    },
-    {
-        "imports": [
-            "Devin Han",
-            "Devin Han",
-            "Svante Schubert",
-            "Rob Weir",
-            "Yegor Kozlov",
-            "Svante Schubert",
-            "Yegor Kozlov",
-            "Yegor Kozlov",
-            "Yegor Kozlov",
-            "Rob Weir",
-            "Devin Han",
-            "Rob Weir",
-            "Devin Han"
-        ],
-        "name": "Yegor Kozlov"
-    },
-    {
-        "imports": [],
-        "name": "Oliver Rau"
-    },
-    {
-        "imports": [
-            "Rob Weir"
-        ],
-        "name": "Michael Mccandless"
-    },
-    {
+        "name": "Wilson Barbosa",
         "imports": [
             "Rob Weir",
             "Devin Han"
-        ],
-        "name": "Wilson Barbosa"
+        ]
     },
     {
+        "name": "Henrique Lobo Weissmann",
+        "imports": []
+    },
+    {
+        "name": "Oliver Rau",
+        "imports": []
+    },
+    {
+        "name": "Devin Han",
         "imports": [
             "Yegor Kozlov",
             "Svante Schubert",
@@ -89,17 +71,10 @@
             "Rob Weir",
             "Rob Weir",
             "Wilson Barbosa"
-        ],
-        "name": "Devin Han"
+        ]
     },
     {
-        "imports": [
-            "Robweir",
-            "Devin Han"
-        ],
-        "name": "Nick Burch"
-    },
-    {
+        "name": "Rob Weir",
         "imports": [
             "Devin Han",
             "Yegor Kozlov",
@@ -111,7 +86,32 @@
             "Devin Han",
             "Michael Mccandless",
             "Wilson Barbosa"
-        ],
-        "name": "Rob Weir"
+        ]
+    },
+    {
+        "name": "Grzegorz Kaczor",
+        "imports": []
+    },
+    {
+        "name": "BC Email",
+        "imports": []
+    },
+    {
+        "name": "Yegor Kozlov",
+        "imports": [
+            "Devin Han",
+            "Devin Han",
+            "Svante Schubert",
+            "Rob Weir",
+            "Yegor Kozlov",
+            "Svante Schubert",
+            "Yegor Kozlov",
+            "Yegor Kozlov",
+            "Yegor Kozlov",
+            "Rob Weir",
+            "Devin Han",
+            "Rob Weir",
+            "Devin Han"
+        ]
     }
 ]

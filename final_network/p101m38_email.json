@@ -1,35 +1,16 @@
 [
     {
-        "imports": [
-            "Francis De Brabandere",
-            "Andreas Fink",
-            "Vladimir Lahoda",
-            "Francis De Brabandere",
-            "Francis De Brabandere"
-        ],
-        "name": "Doebele"
-    },
-    {
-        "imports": [
-            "Francis De Brabandere"
-        ],
-        "name": "Vladimir Lahoda"
-    },
-    {
-        "imports": [],
-        "name": "Sebb"
-    },
-    {
+        "name": "Andreas Fink",
         "imports": [
             "Doebele"
-        ],
-        "name": "Andreas Fink"
+        ]
     },
     {
-        "imports": [],
-        "name": "Empire-db-dev"
+        "name": "Empire-db-dev",
+        "imports": []
     },
     {
+        "name": "Francis De Brabandere",
         "imports": [
             "Empire-db-dev",
             "Sebb",
@@ -37,7 +18,26 @@
             "Doebele",
             "Doebele",
             "Doebele"
-        ],
-        "name": "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Sebb",
+        "imports": []
+    },
+    {
+        "name": "Doebele",
+        "imports": [
+            "Francis De Brabandere",
+            "Andreas Fink",
+            "Vladimir Lahoda",
+            "Francis De Brabandere",
+            "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Vladimir Lahoda",
+        "imports": [
+            "Francis De Brabandere"
+        ]
     }
 ]

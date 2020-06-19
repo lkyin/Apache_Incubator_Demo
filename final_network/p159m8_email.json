@@ -1,41 +1,42 @@
 [
     {
-        "imports": [],
-        "name": "Bill Zhao"
+        "name": "Turpin Jeff",
+        "imports": [
+            "Benjamin Hindman"
+        ]
     },
     {
-        "imports": [],
-        "name": "Sharma, Abhijit"
+        "name": "Michael Armbrust",
+        "imports": [
+            "Benjamin Hindman",
+            "Benjamin Hindman"
+        ]
     },
     {
+        "name": "Sharma, Abhijit",
+        "imports": []
+    },
+    {
+        "name": "Matei Zaharia",
         "imports": [
             "Bill Zhao",
             "Benjamin Hindman",
             "Ted Dunning"
-        ],
-        "name": "Matei Zaharia"
+        ]
     },
     {
+        "name": "Ted Dunning",
         "imports": [
             "Matei Zaharia",
             "Matei Zaharia"
-        ],
-        "name": "Ted Dunning"
+        ]
     },
     {
-        "imports": [
-            "Benjamin Hindman",
-            "Benjamin Hindman"
-        ],
-        "name": "Michael Armbrust"
+        "name": "Bill Zhao",
+        "imports": []
     },
     {
-        "imports": [
-            "Benjamin Hindman"
-        ],
-        "name": "Turpin Jeff"
-    },
-    {
+        "name": "Benjamin Hindman",
         "imports": [
             "Michael Armbrust",
             "Michael Armbrust",
@@ -44,7 +45,6 @@
             "Bill Zhao",
             "Turpin Jeff",
             "Sharma, Abhijit"
-        ],
-        "name": "Benjamin Hindman"
+        ]
     }
 ]

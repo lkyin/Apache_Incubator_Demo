@@ -1,29 +1,29 @@
 [
     {
+        "name": "Apache Jenkins Server",
+        "imports": []
+    },
+    {
+        "name": "Nicolas.lalevee",
         "imports": [
             "Jukka Zitting",
             "Jean-louis Boudart",
             "Jean-louis Boudart",
             "Jean-louis Boudart"
-        ],
-        "name": "Nicolas.lalevee"
+        ]
     },
     {
-        "imports": [],
-        "name": "Apache Jenkins Server"
+        "name": "Jukka Zitting",
+        "imports": [
+            "Nicolas.lalevee"
+        ]
     },
     {
+        "name": "Jean-louis Boudart",
         "imports": [
             "Apache Jenkins Server",
             "Nicolas.lalevee",
             "Nicolas.lalevee"
-        ],
-        "name": "Jean-louis Boudart"
-    },
-    {
-        "imports": [
-            "Nicolas.lalevee"
-        ],
-        "name": "Jukka Zitting"
+        ]
     }
 ]

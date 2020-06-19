@@ -1,43 +1,43 @@
 [
     {
+        "name": "Thomas Draier",
         "imports": [
-            "Johndament"
-        ],
-        "name": "Jb"
+            "Abdelkader Midani"
+        ]
     },
     {
+        "name": "Cegger",
         "imports": [
             "Thomas Draier"
-        ],
-        "name": "Quentin Lamerand"
+        ]
     },
     {
+        "name": "Jb",
+        "imports": [
+            "Johndament"
+        ]
+    },
+    {
+        "name": "Johndament",
+        "imports": []
+    },
+    {
+        "name": "Abdelkader Midani",
+        "imports": [
+            "Serge Huber"
+        ]
+    },
+    {
+        "name": "Serge Huber",
         "imports": [
             "Quentin Lamerand",
             "Thomas Draier"
-        ],
-        "name": "Serge Huber"
+        ]
     },
     {
+        "name": "Quentin Lamerand",
         "imports": [
             "Thomas Draier"
-        ],
-        "name": "Cegger"
-    },
-    {
-        "imports": [],
-        "name": "Johndament"
-    },
-    {
-        "imports": [
-            "Serge Huber"
-        ],
-        "name": "Abdelkader Midani"
-    },
-    {
-        "imports": [
-            "Abdelkader Midani"
-        ],
-        "name": "Thomas Draier"
+        ]
     }
 ]

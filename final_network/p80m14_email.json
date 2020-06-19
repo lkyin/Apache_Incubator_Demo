@@ -1,15 +1,10 @@
 [
     {
-        "imports": [],
-        "name": "Finn Bock"
+        "name": "Finn Bock",
+        "imports": []
     },
     {
-        "imports": [
-            "Bob Schellink"
-        ],
-        "name": "Malcolm Edgar"
-    },
-    {
+        "name": "Bob Schellink",
         "imports": [
             "Malcolm Edgar",
             "Finn Bock",
@@ -17,7 +12,12 @@
             "Finn Bock",
             "Finn Bock",
             "Finn Bock"
-        ],
-        "name": "Bob Schellink"
+        ]
+    },
+    {
+        "name": "Malcolm Edgar",
+        "imports": [
+            "Bob Schellink"
+        ]
     }
 ]

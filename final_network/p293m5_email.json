@@ -1,21 +1,21 @@
 [
     {
+        "name": "Apache Jenkins Server",
+        "imports": []
+    },
+    {
+        "name": "Rahul Sharma",
+        "imports": [
+            "Apache Jenkins Server",
+            "Andrei Savu"
+        ]
+    },
+    {
+        "name": "Andrei Savu",
         "imports": [
             "Rahul Sharma",
             "Rahul Sharma",
             "Rahul Sharma"
-        ],
-        "name": "Andrei Savu"
-    },
-    {
-        "imports": [],
-        "name": "Apache Jenkins Server"
-    },
-    {
-        "imports": [
-            "Apache Jenkins Server",
-            "Andrei Savu"
-        ],
-        "name": "Rahul Sharma"
+        ]
     }
 ]

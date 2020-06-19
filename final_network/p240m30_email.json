@@ -1,13 +1,33 @@
 [
     {
-        "imports": [],
-        "name": "Dave Jones"
+        "name": "Michael Baessler",
+        "imports": []
     },
     {
-        "imports": [],
-        "name": "Philip Ogren"
+        "name": "Kottmann",
+        "imports": []
     },
     {
+        "name": "Michael Tanenblatt",
+        "imports": [
+            "Michael Baessler",
+            "Thilo Goetz"
+        ]
+    },
+    {
+        "name": "Burn Lewis",
+        "imports": [
+            "Jerry Cwiklik"
+        ]
+    },
+    {
+        "name": "Tobias Wunner",
+        "imports": [
+            "Thilo Goetz"
+        ]
+    },
+    {
+        "name": "Thilo Goetz",
         "imports": [
             "Tobias Wunner",
             "Rico Landefeld",
@@ -18,81 +38,37 @@
             "Adam Lally",
             "Marshall Schor",
             "Dave Jones"
-        ],
-        "name": "Thilo Goetz"
+        ]
     },
     {
+        "name": "Philip Ogren",
+        "imports": []
+    },
+    {
+        "name": "Tong Fin",
         "imports": [
-            "Thilo Goetz",
-            "Marshall Schor",
-            "Thilo Goetz",
-            "Eddie Epstein"
-        ],
-        "name": "Adam Lally"
+            "Uima-dev"
+        ]
     },
     {
-        "imports": [
-            "Jerry Cwiklik"
-        ],
-        "name": "Burn Lewis"
-    },
-    {
-        "imports": [
-            "Thilo Goetz"
-        ],
-        "name": "Tobias Wunner"
-    },
-    {
+        "name": "Jerry Cwiklik",
         "imports": [
             "Burn Lewis",
             "Burn Lewis"
-        ],
-        "name": "Jerry Cwiklik"
+        ]
     },
     {
-        "imports": [
-            "Philip Ogren"
-        ],
-        "name": "Uima-dev"
-    },
-    {
+        "name": "Rico Landefeld",
         "imports": [
             "Kottmann"
-        ],
-        "name": "Rico Landefeld"
+        ]
     },
     {
-        "imports": [
-            "Michael Baessler",
-            "Thilo Goetz"
-        ],
-        "name": "Michael Tanenblatt"
+        "name": "Dave Jones",
+        "imports": []
     },
     {
-        "imports": [
-            "Uima-dev"
-        ],
-        "name": "Tong Fin"
-    },
-    {
-        "imports": [],
-        "name": "Michael Baessler"
-    },
-    {
-        "imports": [],
-        "name": "Balkrishnan.v"
-    },
-    {
-        "imports": [
-            "Marshall Schor"
-        ],
-        "name": "D.j. Mccloskey"
-    },
-    {
-        "imports": [],
-        "name": "Kottmann"
-    },
-    {
+        "name": "Marshall Schor",
         "imports": [
             "Thilo Goetz",
             "Thilo Goetz",
@@ -103,21 +79,45 @@
             "Rico Landefeld",
             "Jerry Cwiklik",
             "Jerry Cwiklik"
-        ],
-        "name": "Marshall Schor"
+        ]
     },
     {
+        "name": "Balkrishnan.v",
+        "imports": []
+    },
+    {
+        "name": "Eddie Epstein",
         "imports": [
             "Adam Lally",
             "Adam Lally",
             "Jerry Cwiklik"
-        ],
-        "name": "Eddie Epstein"
+        ]
     },
     {
+        "name": "Uima-dev",
+        "imports": [
+            "Philip Ogren"
+        ]
+    },
+    {
+        "name": "Roberto Franchini",
         "imports": [
             "Balkrishnan.v"
-        ],
-        "name": "Roberto Franchini"
+        ]
+    },
+    {
+        "name": "D.j. Mccloskey",
+        "imports": [
+            "Marshall Schor"
+        ]
+    },
+    {
+        "name": "Adam Lally",
+        "imports": [
+            "Thilo Goetz",
+            "Marshall Schor",
+            "Thilo Goetz",
+            "Eddie Epstein"
+        ]
     }
 ]

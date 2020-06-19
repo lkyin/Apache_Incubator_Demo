@@ -1,25 +1,25 @@
 [
     {
-        "imports": [],
-        "name": "Benson Margulies"
+        "name": "Benson Margulies",
+        "imports": []
     },
     {
+        "name": "Daniel Kulp",
+        "imports": [
+            "Benson Margulies"
+        ]
+    },
+    {
+        "name": "Luciano Resende",
         "imports": [
             "Benson Margulies",
             "Benson Margulies"
-        ],
-        "name": "Luciano Resende"
+        ]
     },
     {
+        "name": "Suresh Marru",
         "imports": [
             "Benson Margulies"
-        ],
-        "name": "Daniel Kulp"
-    },
-    {
-        "imports": [
-            "Benson Margulies"
-        ],
-        "name": "Suresh Marru"
+        ]
     }
 ]

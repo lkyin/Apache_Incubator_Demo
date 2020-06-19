@@ -1,24 +1,22 @@
 [
     {
+        "name": "Mirko Kaempf",
+        "imports": []
+    },
+    {
+        "name": "Bob Kerns",
+        "imports": [
+            "Mirko Kaempf"
+        ]
+    },
+    {
+        "name": "Suresh Marru",
         "imports": [
             "Marvin"
-        ],
-        "name": "Suresh Marru"
+        ]
     },
     {
-        "imports": [],
-        "name": "Marvin"
-    },
-    {
-        "imports": [
-            "Adam Berry",
-            "Adam Berry",
-            "Adam Berry",
-            "Adam Berry"
-        ],
-        "name": "Mattmann, Chris A"
-    },
-    {
+        "name": "Adam Berry",
         "imports": [
             "Mirko Kaempf",
             "Harsh J",
@@ -26,23 +24,25 @@
             "Mirko Kaempf",
             "Mattmann, Chris A",
             "Suresh Marru"
-        ],
-        "name": "Adam Berry"
+        ]
     },
     {
+        "name": "Mattmann, Chris A",
+        "imports": [
+            "Adam Berry",
+            "Adam Berry",
+            "Adam Berry",
+            "Adam Berry"
+        ]
+    },
+    {
+        "name": "Harsh J",
         "imports": [
             "Adam Berry"
-        ],
-        "name": "Harsh J"
+        ]
     },
     {
-        "imports": [],
-        "name": "Mirko Kaempf"
-    },
-    {
-        "imports": [
-            "Mirko Kaempf"
-        ],
-        "name": "Bob Kerns"
+        "name": "Marvin",
+        "imports": []
     }
 ]

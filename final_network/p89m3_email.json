@@ -1,37 +1,37 @@
 [
     {
-        "imports": [],
-        "name": "Daniel Wang"
+        "name": "Daniel Wang",
+        "imports": []
     },
     {
-        "imports": [],
-        "name": "Marvin"
+        "name": "Marvin",
+        "imports": []
     },
     {
+        "name": "Matthew Hayes",
+        "imports": [
+            "Daniel Wang"
+        ]
+    },
+    {
+        "name": "Will Vaughan",
         "imports": [
             "Matthew Hayes",
             "Jakob Homan"
-        ],
-        "name": "Will Vaughan"
+        ]
     },
     {
-        "imports": [
-            "Daniel Wang"
-        ],
-        "name": "Matthew Hayes"
-    },
-    {
-        "imports": [
-            "Matthew Hayes"
-        ],
-        "name": "Jarek Jarcec Cecho"
-    },
-    {
+        "name": "Jakob Homan",
         "imports": [
             "Marvin",
             "Will Vaughan",
             "Will Vaughan"
-        ],
-        "name": "Jakob Homan"
+        ]
+    },
+    {
+        "name": "Jarek Jarcec Cecho",
+        "imports": [
+            "Matthew Hayes"
+        ]
     }
 ]

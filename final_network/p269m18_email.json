@@ -1,28 +1,28 @@
 [
     {
-        "imports": [],
-        "name": "Johndament"
-    },
-    {
-        "imports": [
-            "Johndament"
-        ],
-        "name": "Edward Capriolo"
-    },
-    {
-        "imports": [
-            "Josh Elser",
-            "Josh Elser"
-        ],
-        "name": "John D. Ament"
-    },
-    {
+        "name": "Josh Elser",
         "imports": [
             "Johndament",
             "Edward Capriolo",
             "John D. Ament",
             "John D. Ament"
-        ],
-        "name": "Josh Elser"
+        ]
+    },
+    {
+        "name": "Johndament",
+        "imports": []
+    },
+    {
+        "name": "Edward Capriolo",
+        "imports": [
+            "Johndament"
+        ]
+    },
+    {
+        "name": "John D. Ament",
+        "imports": [
+            "Josh Elser",
+            "Josh Elser"
+        ]
     }
 ]

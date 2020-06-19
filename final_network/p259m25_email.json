@@ -1,32 +1,32 @@
 [
     {
+        "name": "Samuel Kevin",
         "imports": [
             "Luciano Resende",
             "Luciano Resende",
             "Bill Stoddard",
             "Arthur Chen",
             "Luciano Resende"
-        ],
-        "name": "Samuel Kevin"
+        ]
     },
     {
+        "name": "Bill Stoddard",
+        "imports": [
+            "Samuel Kevin"
+        ]
+    },
+    {
+        "name": "Arthur Chen",
+        "imports": [
+            "Samuel Kevin"
+        ]
+    },
+    {
+        "name": "Luciano Resende",
         "imports": [
             "Samuel Kevin",
             "Samuel Kevin",
             "Samuel Kevin"
-        ],
-        "name": "Luciano Resende"
-    },
-    {
-        "imports": [
-            "Samuel Kevin"
-        ],
-        "name": "Bill Stoddard"
-    },
-    {
-        "imports": [
-            "Samuel Kevin"
-        ],
-        "name": "Arthur Chen"
+        ]
     }
 ]

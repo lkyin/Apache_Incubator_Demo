@@ -1,28 +1,28 @@
 [
     {
+        "name": "Jb",
         "imports": [
             "Michael Duffy",
             "Olivier Lamy"
-        ],
-        "name": "Jb"
+        ]
     },
     {
-        "imports": [
-            "Jb"
-        ],
-        "name": "Michael Duffy"
-    },
-    {
-        "imports": [
-            "Olivier Lamy"
-        ],
-        "name": "Achim Nierbeck"
-    },
-    {
+        "name": "Olivier Lamy",
         "imports": [
             "Jb",
             "Jb"
-        ],
-        "name": "Olivier Lamy"
+        ]
+    },
+    {
+        "name": "Michael Duffy",
+        "imports": [
+            "Jb"
+        ]
+    },
+    {
+        "name": "Achim Nierbeck",
+        "imports": [
+            "Olivier Lamy"
+        ]
     }
 ]

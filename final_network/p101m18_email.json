@@ -1,35 +1,35 @@
 [
     {
-        "imports": [
-            "Empire-db-dev",
-            "Francis De Brabandere"
-        ],
-        "name": "Benjamin Venditti"
-    },
-    {
-        "imports": [],
-        "name": "Mckinley"
-    },
-    {
+        "name": "Doebele",
         "imports": [
             "Francis De Brabandere",
             "Benjamin Venditti"
-        ],
-        "name": "Doebele"
+        ]
     },
     {
+        "name": "Benjamin Venditti",
+        "imports": [
+            "Empire-db-dev",
+            "Francis De Brabandere"
+        ]
+    },
+    {
+        "name": "Empire-db-dev",
         "imports": [
             "Mckinley"
-        ],
-        "name": "Empire-db-dev"
+        ]
     },
     {
+        "name": "Mckinley",
+        "imports": []
+    },
+    {
+        "name": "Francis De Brabandere",
         "imports": [
             "Empire-db-dev",
             "Mckinley",
             "Benjamin Venditti",
             "Doebele"
-        ],
-        "name": "Francis De Brabandere"
+        ]
     }
 ]

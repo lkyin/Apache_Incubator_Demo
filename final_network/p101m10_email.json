@@ -1,24 +1,24 @@
 [
     {
+        "name": "Doebele",
         "imports": [
             "Frank Lupo",
             "Frank Lupo"
-        ],
-        "name": "Doebele"
+        ]
     },
     {
+        "name": "Frank Lupo",
+        "imports": [
+            "Doebele"
+        ]
+    },
+    {
+        "name": "Francis De Brabandere",
         "imports": [
             "Doebele",
             "Doebele",
             "Doebele",
             "Doebele"
-        ],
-        "name": "Francis De Brabandere"
-    },
-    {
-        "imports": [
-            "Doebele"
-        ],
-        "name": "Frank Lupo"
+        ]
     }
 ]
