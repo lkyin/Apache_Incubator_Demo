@@ -26,7 +26,7 @@ var link = svg.append("g").selectAll(".link");
 
 
 
-d3.json(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function(error, classes) 
+d3.json(`final_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function(error, classes) 
 {
   if (error) throw error;
 
@@ -74,7 +74,7 @@ link = svg.append("g").selectAll(".link");
 
 
 
-d3.json(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function(error, classes) 
+d3.json(`final_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function(error, classes) 
 {
   if (error) throw error;
 

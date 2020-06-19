@@ -12,7 +12,7 @@ function UpdateTechnicalNet(){
 
   svg.selectAll("*").remove();
 
-  var data = eval(readTextFile(`directed_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`));
+  var data = eval(readTextFile(`final_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_commit.json`));
 
 //var svg = d3.select("#rightsvg")
 
