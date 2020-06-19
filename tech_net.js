@@ -26,9 +26,9 @@ var bp=viz.bP()
     .data(data)
     .min(10)
     .pad(1)
-    .height(550)
+    .height(650)
     .width(350)
-    .barSize(25)
+    .barSize(30)
     .fill(d=>color(d.primary));
     
 
@@ -52,7 +52,7 @@ g.selectAll(".mainBars").append("text").attr("class","label")
   .attr("y",d=>+6)
   .text(d=>d.part=="primary"? d.key: "." + d.key)
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"))
-  .style("font-size", "20px");
+  .style("font-size", "18px");
 
 /*
 g.selectAll(".mainBars").append("text").attr("class","perc")

@@ -10,6 +10,9 @@ var line = d3.radialLine()
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
+var xposition = 1.3, 
+    yposition = 1.2;
+    
 //var svg = d3.select("#middlesvg");
 //var node;
 //var link;
@@ -19,7 +22,7 @@ var svg = d3.select("#middlesvg").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
-  .attr("transform", "translate(" + 1.4*radius + "," + radius + ")");
+  .attr("transform", "translate(" + xposition*radius + "," + yposition*radius + ")");
 
 var node = svg.append("g").selectAll(".node");
 var link = svg.append("g").selectAll(".link");
@@ -63,11 +66,13 @@ svg = d3.select("#middlesvg")
 
 svg.selectAll("*").remove();
 
+
+
 svg = d3.select("#middlesvg").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
-  .attr("transform", "translate(" + 1.4*radius + "," + radius + ")");
+  .attr("transform", "translate(" + xposition*radius + "," + yposition*radius + ")");
 
 node = svg.append("g").selectAll(".node");
 link = svg.append("g").selectAll(".link");
