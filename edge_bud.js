@@ -11,7 +11,7 @@ var line = d3.radialLine()
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
 var xposition = 1.3, 
-    yposition = 1.2;
+    yposition = 1.1;
     
 //var svg = d3.select("#middlesvg");
 //var node;
@@ -31,7 +31,11 @@ var link = svg.append("g").selectAll(".link");
 
 d3.json(`final_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function(error, classes) 
 {
-  if (error) throw error;
+  if (error) {
+  	svg = d3.select("#middlesvg");
+	svg.selectAll("*").remove();
+  	throw error;
+  }
 
   var roots = packageHierarchy(classes)
       .sum(function(d) { return d.size; });
@@ -62,7 +66,7 @@ d3.json(`final_network/p${forceProperties.selected_data.project}m${forceProperti
 
 function UpdateEmailNet(){
 
-svg = d3.select("#middlesvg")
+svg = d3.select("#middlesvg");
 
 svg.selectAll("*").remove();
 
@@ -81,7 +85,11 @@ link = svg.append("g").selectAll(".link");
 
 d3.json(`final_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function(error, classes) 
 {
-  if (error) throw error;
+  if (error){
+  	svg = d3.select("#middlesvg");
+	svg.selectAll("*").remove();
+  	throw error;
+  }
 
   roots = packageHierarchy(classes)
       .sum(function(d) { return d.size; });

@@ -26,8 +26,8 @@ var bp=viz.bP()
     .data(data)
     .min(10)
     .pad(1)
-    .height(650)
-    .width(350)
+    .height(600)
+    .width(400)
     .barSize(30)
     .fill(d=>color(d.primary));
     
@@ -98,6 +98,10 @@ function mouseout(d){
 // End tehnical net //////
 
 function updateAll(){
+
+  var this_project = document.getElementById("txt_ide").value
+  forceProperties.selected_data.project=name_to_id[this_project]
+  
   UpdateTechnicalNet()
   UpdateEmailNet()
   UpdateprojectInfo()

@@ -57,8 +57,7 @@ function readTextFile(file){
 //
 var projectInfo = JSON.parse(readTextFile(`measures/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}.json`));
 
-
-
+var name_to_id = JSON.parse(readTextFile("name_to_id.json"));
 
 
 
