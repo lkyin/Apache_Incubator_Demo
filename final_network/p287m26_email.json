@@ -1,1 +1,1 @@
-[{"name": "Mjiderhamn", "imports": ["Lcorneliussen"]}, {"name": "Lcorneliussen", "imports": ["Bporter", "Kbembi", "Brett"]}, {"name": "Kbembi", "imports": []}, {"name": "Bporter", "imports": ["Dlundberg"]}, {"name": "Dlundberg", "imports": ["Bporter"]}, {"name": "Brett", "imports": []}]
+[{"imports": ["Bporter"], "name": "Dlundberg"}, {"imports": ["Bporter", "Kbembi", "Brett*"], "name": "Lcorneliussen*"}, {"imports": ["Dlundberg"], "name": "Bporter"}, {"imports": [], "name": "Kbembi"}, {"imports": [], "name": "Brett*"}, {"imports": ["Lcorneliussen*"], "name": "Mjiderhamn"}]

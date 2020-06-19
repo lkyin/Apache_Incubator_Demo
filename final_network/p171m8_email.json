@@ -1,1 +1,1 @@
-[{"name": "Jdelfino", "imports": ["Lresende", "Rfeng"]}, {"name": "BC-Email", "imports": []}, {"name": "Lresende", "imports": ["BC-Email", "Jpradeep", "Jpradeep", "Jdelfino"]}, {"name": "Jpradeep", "imports": ["Jdelfino", "Lresende"]}, {"name": "Rfeng", "imports": ["Jdelfino"]}]
+[{"imports": [], "name": "BC-Email"}, {"imports": ["BC-Email", "Jpradeep", "Jpradeep", "Jdelfino"], "name": "Lresende*"}, {"imports": ["Jdelfino"], "name": "Rfeng"}, {"imports": ["Jdelfino", "Lresende*"], "name": "Jpradeep"}, {"imports": ["Lresende*", "Rfeng"], "name": "Jdelfino"}]

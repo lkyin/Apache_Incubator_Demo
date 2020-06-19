@@ -1,1 +1,1 @@
-[{"name": "Jmonteiro", "imports": ["Rmanni-bucau"]}, {"name": "Rmanni-bucau", "imports": ["Jmonteiro", "Olamy"]}, {"name": "Olamy", "imports": ["Rmanni-bucau", "Rmanni-bucau"]}]
+[{"imports": ["Rmanni-bucau"], "name": "Jmonteiro"}, {"imports": ["Rmanni-bucau", "Rmanni-bucau"], "name": "Olamy*"}, {"imports": ["Jmonteiro", "Olamy*"], "name": "Rmanni-bucau"}]

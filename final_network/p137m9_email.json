@@ -1,1 +1,1 @@
-[{"name": "Rmanni-bucau", "imports": ["Hdev", "Hdev", "Rmanni-bucau"]}, {"name": "Hdev", "imports": []}, {"name": "Dkulp", "imports": ["Jmclean", "Hdev"]}, {"name": "Jmclean", "imports": ["Rmanni-bucau", "Dkulp", "Hdev"]}, {"name": "Mstruberg", "imports": ["Jmclean"]}]
+[{"imports": ["Rmanni-bucau*", "Dkulp", "Hdev"], "name": "Jmclean"}, {"imports": [], "name": "Hdev"}, {"imports": ["Jmclean"], "name": "Mstruberg"}, {"imports": ["Jmclean", "Hdev"], "name": "Dkulp"}, {"imports": ["Hdev", "Hdev", "Rmanni-bucau*"], "name": "Rmanni-bucau*"}]

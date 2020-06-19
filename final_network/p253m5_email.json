@@ -1,1 +1,1 @@
-[{"name": "Gmagnusson", "imports": ["Mriou", "Mriou", "Mriou"]}, {"name": "Bsnyder", "imports": ["Gmagnusson"]}, {"name": "Mriou", "imports": ["Gmagnusson", "Bsnyder", "Gmagnusson", "Gmagnusson"]}]
+[{"imports": ["Gmagnusson*"], "name": "Bsnyder"}, {"imports": ["Mriou", "Mriou", "Mriou"], "name": "Gmagnusson*"}, {"imports": ["Gmagnusson*", "Bsnyder", "Gmagnusson*", "Gmagnusson*"], "name": "Mriou"}]

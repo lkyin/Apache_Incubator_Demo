@@ -1,1 +1,1 @@
-[{"name": "Mmorel", "imports": ["Kg", "Rshaposhnik"]}, {"name": "Phunt", "imports": ["Mmorel"]}, {"name": "Rshaposhnik", "imports": ["Phunt"]}, {"name": "Otikhonov", "imports": ["Kg"]}, {"name": "Kg", "imports": ["Phunt"]}]
+[{"imports": ["Kg", "Rshaposhnik"], "name": "Mmorel"}, {"imports": ["Phunt"], "name": "Kg"}, {"imports": ["Mmorel"], "name": "Phunt"}, {"imports": ["Kg"], "name": "Otikhonov"}, {"imports": ["Phunt"], "name": "Rshaposhnik"}]
