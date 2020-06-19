@@ -1,6 +1,14 @@
 [
     {
         "imports": [],
+        "name": "Apache Jenkins Server"
+    },
+    {
+        "imports": [],
+        "name": "Rui Zhang"
+    },
+    {
+        "imports": [],
         "name": "Billie Rinaldi"
     },
     {
@@ -11,18 +19,19 @@
         "name": "Sumit Mohanty"
     },
     {
-        "imports": [],
-        "name": "Rui Zhang"
+        "imports": [
+            "Sumit Mohanty",
+            "Apache Jenkins Server",
+            "Rui Zhang"
+        ],
+        "name": "Gour Saha"
     },
     {
         "imports": [
             "Billie Rinaldi",
-            "Ted Yu",
-            "Ted Yu",
-            "Ted Yu",
-            "Gour Saha"
+            "Steve Loughran"
         ],
-        "name": "Steve Loughran"
+        "name": "Ted Yu"
     },
     {
         "imports": [
@@ -35,20 +44,11 @@
     {
         "imports": [
             "Billie Rinaldi",
-            "Steve Loughran"
+            "Ted Yu",
+            "Ted Yu",
+            "Ted Yu",
+            "Gour Saha"
         ],
-        "name": "Ted Yu"
-    },
-    {
-        "imports": [
-            "Sumit Mohanty",
-            "Apache Jenkins Server",
-            "Rui Zhang"
-        ],
-        "name": "Gour Saha"
-    },
-    {
-        "imports": [],
-        "name": "Apache Jenkins Server"
+        "name": "Steve Loughran"
     }
 ]
