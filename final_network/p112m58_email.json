@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Janardhanan, Ajith",
-        "imports": [
-            "Niclas Hedhman"
-        ]
-    },
-    {
-        "name": "Niclas Hedhman",
-        "imports": []
-    },
-    {
-        "name": "Alexey Petrenko",
-        "imports": [
-            "Niclas Hedhman"
-        ]
-    }
-]
+[{"name": "Nhedhman", "imports": []}, {"name": "Apetrenko", "imports": ["Nhedhman"]}, {"name": "Jajith", "imports": ["Nhedhman"]}]

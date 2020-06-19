@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Dulini Atapattu",
-        "imports": []
-    },
-    {
-        "name": "Raymond Feng",
-        "imports": [
-            "Luciano Resende"
-        ]
-    },
-    {
-        "name": "Luciano Resende",
-        "imports": [
-            "Dulini Atapattu"
-        ]
-    }
-]
+[{"name": "Lresende", "imports": ["Datapattu"]}, {"name": "Rfeng", "imports": ["Lresende"]}, {"name": "Datapattu", "imports": []}]

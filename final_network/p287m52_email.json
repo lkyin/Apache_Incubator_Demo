@@ -1,15 +1,1 @@
-[
-    {
-        "name": "Konstantin Boudnik",
-        "imports": [
-            "Brett Porter",
-            "Brett Porter"
-        ]
-    },
-    {
-        "name": "Brett Porter",
-        "imports": [
-            "Konstantin Boudnik"
-        ]
-    }
-]
+[{"name": "Kboudnik", "imports": ["Bporter", "Bporter"]}, {"name": "Bporter", "imports": ["Kboudnik"]}]

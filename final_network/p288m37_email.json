@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Svante Schubert",
-        "imports": [
-            "Rob Weir"
-        ]
-    },
-    {
-        "name": "Rob Weir",
-        "imports": [
-            "Svante Schubert"
-        ]
-    }
-]
+[{"name": "Sschubert", "imports": ["Rweir"]}, {"name": "Rweir", "imports": ["Sschubert"]}]

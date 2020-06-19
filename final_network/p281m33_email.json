@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Antonio Sanso",
-        "imports": []
-    },
-    {
-        "name": "Robert Burrell Donkin",
-        "imports": [
-            "Stuart Monteith"
-        ]
-    },
-    {
-        "name": "Stuart Monteith",
-        "imports": [
-            "Antonio Sanso"
-        ]
-    }
-]
+[{"name": "Asanso", "imports": []}, {"name": "Robert Burrell Donkin", "imports": ["Smonteith"]}, {"name": "Smonteith", "imports": ["Asanso"]}]

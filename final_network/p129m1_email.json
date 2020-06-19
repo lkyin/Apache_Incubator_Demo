@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Lenni Kuff",
-        "imports": [
-            "Henry Robinson"
-        ]
-    },
-    {
-        "name": "Henry Robinson",
-        "imports": []
-    },
-    {
-        "name": "John Russell",
-        "imports": [
-            "Henry Robinson"
-        ]
-    }
-]
+[{"name": "Hrobinson", "imports": []}, {"name": "Jrussell", "imports": ["Hrobinson"]}, {"name": "Lkuff", "imports": ["Hrobinson"]}]

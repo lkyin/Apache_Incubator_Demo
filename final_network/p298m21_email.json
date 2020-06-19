@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Romain Manni-bucau",
-        "imports": [
-            "Olivier Lamy"
-        ]
-    },
-    {
-        "name": "Olivier Lamy",
-        "imports": [
-            "Romain Manni-bucau"
-        ]
-    }
-]
+[{"name": "Rmanni-bucau", "imports": ["Olamy"]}, {"name": "Olamy", "imports": ["Rmanni-bucau"]}]

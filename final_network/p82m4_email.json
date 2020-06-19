@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Andy Seaborne",
-        "imports": []
-    },
-    {
-        "name": "Wikier",
-        "imports": [
-            "Andy Seaborne"
-        ]
-    },
-    {
-        "name": "Alexandre Bertails",
-        "imports": [
-            "Andy Seaborne"
-        ]
-    }
-]
+[{"name": "Abertails", "imports": ["Aseaborne"]}, {"name": "Aseaborne", "imports": []}, {"name": "Wikier", "imports": ["Aseaborne"]}]

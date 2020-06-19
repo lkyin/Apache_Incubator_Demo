@@ -1,17 +1,1 @@
-[
-    {
-        "name": "Ricardo",
-        "imports": []
-    },
-    {
-        "name": "Mike Greene",
-        "imports": []
-    },
-    {
-        "name": "Rana Bhattacharyya",
-        "imports": [
-            "Ricardo",
-            "Mike Greene"
-        ]
-    }
-]
+[{"name": "Rbhattacharyya", "imports": ["Ricardo", "Mgreene"]}, {"name": "Mgreene", "imports": []}, {"name": "Ricardo", "imports": []}]

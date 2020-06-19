@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Mauricio Salatino",
-        "imports": [
-            "Glen Daniels"
-        ]
-    },
-    {
-        "name": "Glen Daniels",
-        "imports": [
-            "Jukka Zitting"
-        ]
-    },
-    {
-        "name": "Jukka Zitting",
-        "imports": []
-    }
-]
+[{"name": "Jzitting", "imports": []}, {"name": "Gdaniels", "imports": ["Jzitting"]}, {"name": "Msalatino", "imports": ["Gdaniels"]}]

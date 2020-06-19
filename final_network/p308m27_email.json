@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Martin Cooper",
-        "imports": [
-            "Bob Buffone"
-        ]
-    },
-    {
-        "name": "Bob Buffone",
-        "imports": [
-            "Martin Cooper"
-        ]
-    }
-]
+[{"name": "Bbuffone", "imports": ["Mcooper"]}, {"name": "Mcooper", "imports": ["Bbuffone"]}]

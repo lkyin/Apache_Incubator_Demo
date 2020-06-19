@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Anton Pevtsov",
-        "imports": []
-    },
-    {
-        "name": "Jeremy Dean",
-        "imports": []
-    },
-    {
-        "name": "Martin Sebor",
-        "imports": [
-            "Anton Pevtsov",
-            "Anton Pevtsov",
-            "Jeremy Dean"
-        ]
-    }
-]
+[{"name": "Jdean", "imports": []}, {"name": "Msebor", "imports": ["Apevtsov", "Apevtsov", "Jdean"]}, {"name": "Apevtsov", "imports": []}]

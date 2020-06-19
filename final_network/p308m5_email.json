@@ -1,17 +1,1 @@
-[
-    {
-        "name": "Michael Turyn",
-        "imports": []
-    },
-    {
-        "name": "Antonio Petrelli",
-        "imports": []
-    },
-    {
-        "name": "James Margaris",
-        "imports": [
-            "Antonio Petrelli",
-            "Michael Turyn"
-        ]
-    }
-]
+[{"name": "Jmargaris", "imports": ["Apetrelli", "Mturyn"]}, {"name": "Mturyn", "imports": []}, {"name": "Apetrelli", "imports": []}]

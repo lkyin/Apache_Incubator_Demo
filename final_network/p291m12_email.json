@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Luciano Resende",
-        "imports": [
-            "Martin Cooper"
-        ]
-    },
-    {
-        "name": "Martin Cooper",
-        "imports": [
-            "Luciano Resende"
-        ]
-    }
-]
+[{"name": "Mcooper", "imports": ["Lresende"]}, {"name": "Lresende", "imports": ["Mcooper"]}]

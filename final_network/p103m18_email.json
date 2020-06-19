@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Scott Comer",
-        "imports": [
-            "Holger Grandy"
-        ]
-    },
-    {
-        "name": "Holger Grandy",
-        "imports": []
-    },
-    {
-        "name": "Youngjin Park",
-        "imports": [
-            "Scott Comer"
-        ]
-    }
-]
+[{"name": "Hgrandy", "imports": []}, {"name": "Scomer", "imports": ["Hgrandy"]}, {"name": "Ypark", "imports": ["Scomer"]}]

@@ -1,15 +1,1 @@
-[
-    {
-        "name": "Raymond Camden",
-        "imports": [
-            "Parashuram Narasimhan",
-            "Parashuram Narasimhan"
-        ]
-    },
-    {
-        "name": "Parashuram Narasimhan",
-        "imports": [
-            "Raymond Camden"
-        ]
-    }
-]
+[{"name": "Pnarasimhan", "imports": ["Rcamden"]}, {"name": "Rcamden", "imports": ["Pnarasimhan", "Pnarasimhan"]}]

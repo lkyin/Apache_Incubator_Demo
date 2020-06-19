@@ -1,15 +1,1 @@
-[
-    {
-        "name": "Piyush Sharma",
-        "imports": [
-            "Eyal Allweil",
-            "Eyal Allweil"
-        ]
-    },
-    {
-        "name": "Eyal Allweil",
-        "imports": [
-            "Piyush Sharma"
-        ]
-    }
-]
+[{"name": "Eallweil", "imports": ["Psharma"]}, {"name": "Psharma", "imports": ["Eallweil", "Eallweil"]}]

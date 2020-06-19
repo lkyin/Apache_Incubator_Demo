@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Richard Frovarp",
-        "imports": []
-    },
-    {
-        "name": "Thorsten Scherler",
-        "imports": [
-            "Richard Frovarp"
-        ]
-    },
-    {
-        "name": "Otis Gospodnetic",
-        "imports": [
-            "Richard Frovarp"
-        ]
-    }
-]
+[{"name": "Rfrovarp", "imports": []}, {"name": "Ogospodnetic", "imports": ["Rfrovarp"]}, {"name": "Tscherler", "imports": ["Rfrovarp"]}]

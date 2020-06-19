@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Michael Stroucken",
-        "imports": [
-            "Richard Gass"
-        ]
-    },
-    {
-        "name": "Richard Gass",
-        "imports": [
-            "Michael Stroucken"
-        ]
-    }
-]
+[{"name": "Rgass", "imports": ["Mstroucken"]}, {"name": "Mstroucken", "imports": ["Rgass"]}]

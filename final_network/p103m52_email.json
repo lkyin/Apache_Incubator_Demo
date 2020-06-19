@@ -1,15 +1,1 @@
-[
-    {
-        "name": "Martin Veith",
-        "imports": [
-            "Martijn Dashorst",
-            "Martijn Dashorst"
-        ]
-    },
-    {
-        "name": "Martijn Dashorst",
-        "imports": [
-            "Martin Veith"
-        ]
-    }
-]
+[{"name": "Mdashorst", "imports": ["Mveith"]}, {"name": "Mveith", "imports": ["Mdashorst", "Mdashorst"]}]

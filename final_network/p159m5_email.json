@@ -1,18 +1,1 @@
-[
-    {
-        "name": "BC Email",
-        "imports": []
-    },
-    {
-        "name": "Tom White",
-        "imports": [
-            "BC Email"
-        ]
-    },
-    {
-        "name": "Ted Dunning",
-        "imports": [
-            "Tom White"
-        ]
-    }
-]
+[{"name": "Tdunning", "imports": ["Twhite"]}, {"name": "Twhite", "imports": ["BC-Email"]}, {"name": "BC-Email", "imports": []}]

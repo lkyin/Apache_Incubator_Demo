@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Serge Huber",
-        "imports": [
-            "Damien Gaillard"
-        ]
-    },
-    {
-        "name": "Damien Gaillard",
-        "imports": [
-            "Serge Huber"
-        ]
-    }
-]
+[{"name": "Shuber", "imports": ["Dgaillard"]}, {"name": "Dgaillard", "imports": ["Shuber"]}]

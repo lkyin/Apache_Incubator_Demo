@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Raymond Camden",
-        "imports": [
-            "Brian Leroux"
-        ]
-    },
-    {
-        "name": "Brian Leroux",
-        "imports": [
-            "Raymond Camden"
-        ]
-    }
-]
+[{"name": "Bleroux", "imports": ["Rcamden"]}, {"name": "Rcamden", "imports": ["Bleroux"]}]

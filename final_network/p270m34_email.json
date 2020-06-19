@@ -1,15 +1,1 @@
-[
-    {
-        "name": "Jukka Zitting",
-        "imports": [
-            "Sandro.boehme"
-        ]
-    },
-    {
-        "name": "Sandro.boehme",
-        "imports": [
-            "Jukka Zitting",
-            "Jukka Zitting"
-        ]
-    }
-]
+[{"name": "Jzitting", "imports": ["Sandro.boehme"]}, {"name": "Sandro.boehme", "imports": ["Jzitting", "Jzitting"]}]

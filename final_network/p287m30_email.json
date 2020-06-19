@@ -1,15 +1,1 @@
-[
-    {
-        "name": "Lars Corneliussen",
-        "imports": [
-            "Adrianboimvaser",
-            "Adrianboimvaser"
-        ]
-    },
-    {
-        "name": "Adrianboimvaser",
-        "imports": [
-            "Lars Corneliussen"
-        ]
-    }
-]
+[{"name": "Adrianboimvaser", "imports": ["Lcorneliussen"]}, {"name": "Lcorneliussen", "imports": ["Adrianboimvaser", "Adrianboimvaser"]}]

@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Ryan, Michael P",
-        "imports": []
-    },
-    {
-        "name": "Jim Cipar",
-        "imports": [
-            "Ryan, Michael P"
-        ]
-    },
-    {
-        "name": "Julio Lopez",
-        "imports": [
-            "Jim Cipar"
-        ]
-    }
-]
+[{"name": "Jlopez", "imports": ["Jcipar"]}, {"name": "Jcipar", "imports": ["Ryan, Michael P"]}, {"name": "Ryan, Michael P", "imports": []}]

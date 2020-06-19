@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Torsten Curdt",
-        "imports": [
-            "Johan Oskarsson"
-        ]
-    },
-    {
-        "name": "Johan Oskarsson",
-        "imports": [
-            "Torsten Curdt"
-        ]
-    }
-]
+[{"name": "Joskarsson", "imports": ["Tcurdt"]}, {"name": "Tcurdt", "imports": ["Joskarsson"]}]

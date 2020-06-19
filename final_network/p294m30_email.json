@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Julian Hyde",
-        "imports": [
-            "Jmclean"
-        ]
-    },
-    {
-        "name": "Jmclean",
-        "imports": []
-    },
-    {
-        "name": "Harshad Deshmukh",
-        "imports": [
-            "Julian Hyde"
-        ]
-    }
-]
+[{"name": "Jhyde", "imports": ["Jmclean"]}, {"name": "Hdeshmukh", "imports": ["Jhyde"]}, {"name": "Jmclean", "imports": []}]

@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Reiher",
-        "imports": []
-    },
-    {
-        "name": "Henning Schmiedehausen",
-        "imports": [
-            "Reiher"
-        ]
-    },
-    {
-        "name": "Martijn Dashorst",
-        "imports": [
-            "Henning Schmiedehausen"
-        ]
-    }
-]
+[{"name": "Mdashorst", "imports": ["Hschmiedehausen"]}, {"name": "Hschmiedehausen", "imports": ["Reiher"]}, {"name": "Reiher", "imports": []}]

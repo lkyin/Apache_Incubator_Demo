@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Roman Shaposhnik",
-        "imports": []
-    },
-    {
-        "name": "Zuyu Zhang",
-        "imports": [
-            "J. M. Patel"
-        ]
-    },
-    {
-        "name": "J. M. Patel",
-        "imports": [
-            "Roman Shaposhnik"
-        ]
-    }
-]
+[{"name": "J. M. Patel", "imports": ["Rshaposhnik"]}, {"name": "Zzhang", "imports": ["J. M. Patel"]}, {"name": "Rshaposhnik", "imports": []}]

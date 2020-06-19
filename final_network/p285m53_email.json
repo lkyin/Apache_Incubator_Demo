@@ -1,15 +1,1 @@
-[
-    {
-        "name": "Leonidas Fegaras",
-        "imports": [
-            "John D. Ament"
-        ]
-    },
-    {
-        "name": "John D. Ament",
-        "imports": [
-            "Leonidas Fegaras",
-            "Leonidas Fegaras"
-        ]
-    }
-]
+[{"name": "John D. Ament", "imports": ["Lfegaras", "Lfegaras"]}, {"name": "Lfegaras", "imports": ["John D. Ament"]}]

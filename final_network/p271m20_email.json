@@ -1,14 +1,1 @@
-[
-    {
-        "name": "Mirko.kaempf",
-        "imports": [
-            "Rahul Sharma"
-        ]
-    },
-    {
-        "name": "Rahul Sharma",
-        "imports": [
-            "Mirko.kaempf"
-        ]
-    }
-]
+[{"name": "Rsharma", "imports": ["Mirko.kaempf"]}, {"name": "Mirko.kaempf", "imports": ["Rsharma"]}]

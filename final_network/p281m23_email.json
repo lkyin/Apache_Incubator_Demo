@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Ant Elder",
-        "imports": []
-    },
-    {
-        "name": "Robert Burrell Donkin",
-        "imports": [
-            "Ant Elder"
-        ]
-    },
-    {
-        "name": "Stuart Monteith",
-        "imports": [
-            "Robert Burrell Donkin"
-        ]
-    }
-]
+[{"name": "Robert Burrell Donkin", "imports": ["Aelder"]}, {"name": "Aelder", "imports": []}, {"name": "Smonteith", "imports": ["Robert Burrell Donkin"]}]

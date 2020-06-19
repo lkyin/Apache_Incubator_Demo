@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Tammo Van Lessen",
-        "imports": []
-    },
-    {
-        "name": "Mark Struberg",
-        "imports": [
-            "John D. Ament"
-        ]
-    },
-    {
-        "name": "John D. Ament",
-        "imports": [
-            "Tammo Van Lessen"
-        ]
-    }
-]
+[{"name": "Tammo Van Lessen", "imports": []}, {"name": "John D. Ament", "imports": ["Tammo Van Lessen"]}, {"name": "Mstruberg", "imports": ["John D. Ament"]}]

@@ -1,12 +1,1 @@
-[
-    {
-        "name": "Richard Frovarp",
-        "imports": []
-    },
-    {
-        "name": "Thorsten Scherler",
-        "imports": [
-            "Richard Frovarp"
-        ]
-    }
-]
+[{"name": "Rfrovarp", "imports": []}, {"name": "Tscherler", "imports": ["Rfrovarp"]}]

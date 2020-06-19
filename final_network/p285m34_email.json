@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Fegaras",
-        "imports": []
-    },
-    {
-        "name": "Asfgit",
-        "imports": [
-            "Fegaras"
-        ]
-    },
-    {
-        "name": "Chiwanpark",
-        "imports": [
-            "Fegaras"
-        ]
-    }
-]
+[{"name": "Fegaras", "imports": []}, {"name": "Chiwanpark", "imports": ["Fegaras"]}, {"name": "Asfgit", "imports": ["Fegaras"]}]
