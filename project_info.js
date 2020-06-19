@@ -34,7 +34,7 @@ forceProperties = {
     },
     // load the selected data
     selected_data: {
-        project: 49,
+        project: 183,
         month: 1,
         ntype: 'email'
     }
