@@ -189,7 +189,7 @@ body{
 <label>
 Project
 
-<input type="text" id="txt_ide" list="project_n" autocomplete="on" oninput="updateAll(); UpdateMaxIncubation();"/> 
+<input type="text" id="txt_ide" list="project_n" value="OpenNLP" oninput="updateAll(); UpdateMaxIncubation();"/> 
 <datalist id="project_n"> 
 <option value="ACE"/>
 <option value="AWF"/>
@@ -416,7 +416,7 @@ Project
 </p>
 
 <label>
-Relative Month
+Month
 <output id="Month">1</output>
 <input id = "MaxIncubation" type="range" min="1" max="90" value="1" step="1" oninput="d3.select('#Month').text(value); forceProperties.selected_data.month=value; updateAll();">
 </label>
@@ -522,7 +522,7 @@ Number of Emails:
 </p>
 </div>
 </div>
-<svg title = "Technical Network" id = "rightsvg" width="900" height="800"></svg>
+<svg title = "Technical Network" id = "rightsvg" width="1500" height="1500"></svg>
 </div>
 
 <script src="include.js"></script>

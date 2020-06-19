@@ -26,9 +26,9 @@ var bp=viz.bP()
     .data(data)
     .min(10)
     .pad(1)
-    .height(600)
-    .width(400)
-    .barSize(30)
+    .height(800)
+    .width(700)
+    .barSize(40)
     .fill(d=>color(d.primary));
     
 
@@ -47,41 +47,44 @@ g.selectAll(".mainBars")
   .on("mouseover",mouseover)
   .on("mouseout",mouseout);
 
+
+
 g.selectAll(".mainBars").append("text").attr("class","label")
   .attr("x",d=>(d.part=="primary"? -30: 30))
   .attr("y",d=>+6)
   .text(d=>d.part=="primary"? d.key: "." + d.key)
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"))
-  .style("font-size", "18px");
+  .style("font-size", "22px");
 
-/*
+
 g.selectAll(".mainBars").append("text").attr("class","perc")
-  .attr("x",d=>(d.part=="primary"? -130: 130))
+  .attr("x",d=>(d.part=="primary"? -150: 150))
   .attr("y",d=>+6)
   .text(function(d){ return d3.format("0.0%")(d.percent)})
-  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"))
+  .style("font-size", "22px");
 
-
+/*
 g.selectAll(".mainBars").append("text").attr("class","perc")
   .attr("x",d=>(d.part=="primary"? -130: 130))
   .attr("y",d=>+6)
   .text(function(d){ return d.value})
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
 */
-g.selectAll(".mainBars")
+
 
 function mouseover(d){
 
   bp.mouseover(d);
-  //g.selectAll(".mainBars").select(".perc")
-  //.text(function(d){ return d3.format("0.0%")(d.percent)});
+  g.selectAll(".mainBars").select(".perc")
+  .text(function(d){ return d3.format("0.0%")(d.percent)});
 
 }
 
 function mouseout(d){
   bp.mouseout(d);
-  //g.selectAll(".mainBars").select(".perc")
-  //.text(function(d){ return d3.format("0.0%")(d.percent)});
+  g.selectAll(".mainBars").select(".perc")
+  .text(function(d){ return d3.format("0.0%")(d.percent)});
 }
 
 //d3.select(self.frameElement).style("height", "800px");
