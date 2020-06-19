@@ -27,7 +27,7 @@ var bp=viz.bP()
     .min(20)
     .pad(1)
     .height(600)
-    .width(400)
+    .width(410)
     .barSize(50)
     .fill(d=>color(d.primary));
     
@@ -58,7 +58,7 @@ g.selectAll(".mainBars").append("text").attr("class","label")
 
 
 g.selectAll(".mainBars").append("text").attr("class","perc")
-  .attr("x",d=>(d.part=="primary"? -170: 170))
+  .attr("x",d=>(d.part=="primary"? -160: 160))
   .attr("y",d=>+6)
   .text(function(d){ return d3.format("0.0%")(d.percent)})
   .attr("text-anchor",d=>(d.part=="primary"? "end": "start"))

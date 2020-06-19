@@ -76,7 +76,16 @@ body{
   padding: 5px;
   margin: 5px 0;
 }
-.controls .force p label { margin-right: .5em; font-size: 120%; font-weight: bold;}
+
+.controls .title {
+  background-color:#eee;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.controls .title p label { margin-right: .5em; font-size: 300%; font-weight: bold;}
+.controls .force p label { margin-right: .5em; font-size: 130%;}
 .controls .force p { margin-top: 0;}
 .controls .force label { display: inline-block; }
 .controls input[type="checkbox"] { transform: scale(1.2, 1.2); }
@@ -182,13 +191,15 @@ body{
 <div class="container">
 <div class="toppane" style="text-align:center; border: thin solid black;">
 <div class="controls">
-<div class="force">
+<div class="title">
 <p><label>ASFI Project Explorer</label></p>
+</div>
+<div class="force">
 <p>
 <label>
 Project
 
-<input type="text" id="txt_ide" list="project_n" placeholder="e.g. Project OpenNLP" oninput="updateAll(); UpdateMaxIncubation();"/> 
+<input type="text" id="txt_ide" list="project_n" placeholder="e.g. Opennlp [graduated]" oninput="updateAll(); UpdateMaxIncubation();"/> 
 <datalist id="project_n"> 
 <option value="Abdera [graduated]"/>
 <option value="Accumulo [graduated]"/>
