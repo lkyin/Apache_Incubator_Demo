@@ -47,8 +47,6 @@ g.selectAll(".mainBars")
   .on("mouseover",mouseover)
   .on("mouseout",mouseout);
 
-
-
 g.selectAll(".mainBars").append("text").attr("class","label")
   .attr("x",d=>(d.part=="primary"? -30: 30))
   .attr("y",d=>+6)
