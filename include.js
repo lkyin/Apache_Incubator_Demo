@@ -1,6 +1,4 @@
 
-UpdateprojectInfo()
-
 
 function UpdateprojectInfo(){
     projectInfo = JSON.parse(readTextFile(`measures/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}.json`));

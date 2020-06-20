@@ -62,6 +62,10 @@ d3.json(`final_network/p${forceProperties.selected_data.project}m${forceProperti
 
 });
 
+svg = d3.select("#middlesvg");
+
+svg.selectAll("*").remove();
+
 //UpdateEmailNet()
 
 function UpdateEmailNet(){
