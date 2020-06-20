@@ -90,8 +90,9 @@ link = svg.append("g").selectAll(".link");
 d3.json(`final_network/p${forceProperties.selected_data.project}m${forceProperties.selected_data.month}_email.json`, function(error, classes) 
 {
   if (error){
+    
   	svg = d3.select("#middlesvg");
-	svg.selectAll("*").remove();
+	  svg.selectAll("*").remove();
   	throw error;
   }
 
